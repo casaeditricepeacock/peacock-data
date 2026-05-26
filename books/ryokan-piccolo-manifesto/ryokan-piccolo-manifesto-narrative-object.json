@@ -1,0 +1,130 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "editorial_principle": "Gli oggetti non rappresentano luoghi: stabilizzano differenze di densità percettiva tra Ryokan e Tokyo. Ogni oggetto è un punto di confronto, non un elemento narrativo autonomo.",
+
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "futon",
+      "label_en": "futon",
+      "intensity": 1.0,
+
+      "basho": "campo di prossimità assoluta: il futon non occupa spazio, lo contrae attorno ai corpi. La sua funzione è rendere indistinguibile il confine tra presenza e riposo",
+      "kokyu": "ritmo binario: apertura/chiusura del sonno condiviso. Il tempo non scorre, si alterna",
+      "yūgen": "non descrive la relazione ma la contiene senza nome",
+
+      "affects": {
+        "object-04": "la gatta eredita la stessa logica di misura della presenza"
+      },
+
+      "textual_anchor_it": "Avevamo un unico futon dove dormire.",
+
+      "glossary_link": ["basho", "ma"]
+    },
+
+    {
+      "id": "object-02",
+      "label": "libro",
+      "label_en": "book",
+      "intensity": 0.95,
+
+      "basho": "oggetto non localizzato: ogni apertura genera un campo temporaneo che sostituisce lo spazio circostante",
+      "kokyu": "ritmo di attesa e rivelazione: il libro esiste prima dell’apertura e dopo la chiusura",
+      "yūgen": "il libro di Rie coincide con il libro che lo contiene senza possibilità di separazione stabile",
+
+      "affects": {
+        "object-03": "il libro stabilisce un ritmo alternativo al movimento urbano"
+      },
+
+      "textual_anchor_it": "Aprivo la busta dopo averla fatta riposare.",
+
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "object-03",
+      "label": "bicicletta",
+      "label_en": "bicycle",
+      "intensity": 0.72,
+
+      "basho": "transizione mobile tra sistemi incompatibili: casa, lavoro, libreria",
+      "kokyu": "ritmo volontario contro il ritmo imposto della città",
+      "yūgen": "oggetto abbandonato per cambiare campo percettivo",
+
+      "affects": {
+        "object-02": "introduce uno spazio di sospensione prima della lettura"
+      },
+
+      "textual_anchor_it": "Lasciai la bicicletta in libreria.",
+
+      "glossary_link": ["kokyu", "ma"]
+    },
+
+    {
+      "id": "object-04",
+      "label": "gatta_senza_nome",
+      "label_en": "nameless_cat",
+      "intensity": 0.9,
+
+      "basho": "presenza non nominata che stabilizza gli spazi condivisi",
+      "kokyu": "ritmo intermittente legato all’assenza e al ritorno di Rie",
+      "yūgen": "persistenza dopo la scomparsa del campo umano principale",
+
+      "affected_by": {
+        "object-01": "la prossimità del futon definisce il suo campo percettivo"
+      },
+
+      "textual_anchor_it": "Non le avevamo dato un nome.",
+
+      "glossary_link": ["ma", "mono no aware"]
+    },
+
+    {
+      "id": "object-05",
+      "label": "moka_e_caffe",
+      "label_en": "moka_and_coffee",
+      "intensity": 0.85,
+
+      "basho": "oggetto di continuità trans-culturale tra Ryokan e Tokyo",
+      "kokyu": "ritmo di risveglio condiviso: il caffè come segnale temporale stabile",
+      "yūgen": "origine non esplicata del legame paterno",
+
+      "affects": {
+        "object-01": "introduce calore domestico come alternativa al campo del futon"
+      },
+
+      "textual_anchor_it": "Il profumo del caffè riempiva la cucina.",
+
+      "glossary_link": ["basho", "kokyu"]
+    },
+
+    {
+      "id": "object-06",
+      "label": "minivan_1979",
+      "label_en": "1979_minivan",
+      "intensity": 0.78,
+
+      "basho": "spazio mobile di co-presenza assoluta",
+      "kokyu": "ritmo discontinuo del viaggio condiviso",
+      "yūgen": "transizione verso perdita del campo originario",
+
+      "affected_by": {
+        "object-04": "la presenza della gatta stabilizza il campo mobile"
+      },
+
+      "textual_anchor_it": "Il minivan era il nostro rifugio itinerante.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    }
+  ]
+}

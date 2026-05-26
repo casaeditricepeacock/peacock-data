@@ -1,0 +1,171 @@
+{
+  "type": "PerceptualField",
+  "version": "3.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "protocol_axes": {
+    "basho": "configurazione dello spazio percettivo",
+    "kokyu": "ritmo di attivazione temporale",
+    "yūgen": "limite della completa percezione"
+  },
+
+  "editorial_principle": "Il matcha non è un ingrediente né una bevanda. È un sistema percettivo completo: modifica lo spazio in cui viene preparato, il tempo di chi lo prepara, e lascia un residuo di significato che nessuna ricetta esaurisce. Non rallenta il tempo: rende visibile la velocità che normalmente non percepiamo.",
+
+  "fields": [
+
+    {
+      "id": "field-01",
+      "label": "chadō_come_campo_spaziale",
+      "label_en": "chadō_as_spatial_field",
+      "intensity": 1.0,
+      "dominant": true,
+
+      "basho": "la stanza del tè non è un contenitore neutro — è un sistema di sottrazioni: nessun servitore, nessun rumore superfluo, ogni oggetto collocato secondo una distanza precisa. Lo spazio si restringe progressivamente fino a coincidere con il gesto",
+
+      "kokyu": "la cerimonia impone un ritmo non negoziabile — ogni pausa possiede un peso strutturale. Il tempo del Chadō non coincide con il tempo produttivo contemporaneo",
+
+      "yūgen": "l'Ichigo Ichie — ogni incontro è unico e irripetibile — è il centro irrisolvibile del campo: la cerimonia non può essere ripetuta identica perché il tempo che la contiene non ritorna mai nella stessa forma",
+
+      "affects": {
+        "field-03": "il gesto quotidiano del matcha contemporaneo eredita la struttura invisibile del Chadō",
+        "field-06": "la precisione del rituale viene trasferita alla memoria corporea della mano"
+      },
+
+      "textual_anchor_it": "Non si tratta semplicemente di bere una tazza di tè, ma di abitare un momento in cui spazio, persone e tempo si allineano temporaneamente.",
+
+      "glossary_link": ["ma", "kokyu", "wabi-sabi"]
+    },
+
+    {
+      "id": "field-02",
+      "label": "produzione_come_campo_temporale",
+      "label_en": "production_as_temporal_field",
+      "intensity": 0.95,
+      "dominant": true,
+
+      "basho": "il campo di coltivazione del matcha è deliberatamente privato della luce — le piante vengono coperte settimane prima del raccolto. L'ombra non è mancanza ma tecnologia percettiva",
+
+      "kokyu": "la lentezza è parte della qualità: un'ora di macinazione produce circa 30 grammi di matcha. Ogni grammo contiene un'ora invisibile di tempo condensato",
+
+      "yūgen": "la trasformazione dalla foglia alla polvere avviene attraverso perdite irreversibili — vapore, essiccazione, macinazione. Il matcha finale è una sequenza di rinunce che non possono essere recuperate",
+
+      "affects": {
+        "field-01": "la qualità della produzione determina la profondità del campo cerimoniale",
+        "field-03": "la lentezza produttiva sopravvive in forma compressa nel rituale quotidiano",
+        "field-04": "la qualità dell'ombra determina l'intensità percettiva del verde"
+      },
+
+      "textual_anchor_it": "La lentezza non accompagna il Matcha. È il Matcha.",
+
+      "glossary_link": ["mottainai", "kokyu", "wabi-sabi"]
+    },
+
+    {
+      "id": "field-03",
+      "label": "rituale_quotidiano_contemporaneo",
+      "label_en": "contemporary_daily_ritual",
+      "intensity": 0.82,
+      "dominant": false,
+
+      "basho": "anche una cucina contemporanea può trasformarsi temporaneamente in uno spazio di attenzione rituale. Il matcha modifica l'ambiente minimo che lo contiene",
+
+      "kokyu": "il ritmo quotidiano comprime il Chadō senza cancellarne la struttura respiratoria: scaldare, dosare, montare, attendere",
+
+      "yūgen": "la qualità percettiva del gesto non dipende dalla durata ma dall'intensità della presenza. Nessuna tecnica garantisce automaticamente l'esperienza",
+
+      "affected_by": {
+        "field-01": "il rituale contemporaneo deriva dal Chadō pur perdendo parte della sua architettura originaria",
+        "field-02": "la qualità del gesto quotidiano dipende dalla densità temporale incorporata nella polvere"
+      },
+
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": ["NarrativeRitual"],
+        "mode": "non-binary"
+      },
+
+      "textual_anchor_it": "Ogni sorso può diventare un piccolo esercizio di presenza: un gesto minimo che interrompe temporaneamente la continuità della velocità quotidiana.",
+
+      "glossary_link": ["ma", "kokyu", "lentezza"]
+    },
+
+    {
+      "id": "field-04",
+      "label": "verde_come_campo_sensoriale",
+      "label_en": "green_as_sensory_field",
+      "intensity": 0.88,
+      "dominant": false,
+
+      "basho": "il verde del matcha non è un colore decorativo ma una mappa della lavorazione interna: brillantezza e opacità registrano differenti stati percettivi della materia",
+
+      "kokyu": "il verde cambia durante la preparazione — polvere, schiuma, liquido. Ogni trasformazione cromatica segnala una diversa fase temporale del gesto",
+
+      "yūgen": "l'umami non si lascia descrivere completamente — vegetale, marino, amaro, lattiginoso. Il gusto eccede continuamente il linguaggio che tenta di contenerlo",
+
+      "affected_by": {
+        "field-02": "la profondità cromatica è conseguenza diretta del tempo e dell'ombra della coltivazione"
+      },
+
+      "textual_anchor_it": "Il verde profondo del Matcha non rappresenta la natura: ne conserva una concentrazione temporanea.",
+
+      "glossary_link": ["wabi-sabi", "yūgen", "mono no aware"]
+    },
+
+    {
+      "id": "field-05",
+      "label": "zona_fredda_matcha_industriale",
+      "label_en": "cold_zone_industrial_matcha",
+      "intensity": 0.15,
+      "perceptual_weight": "negative",
+
+      "basho": "il matcha industriale conserva il nome ma perde il campo percettivo originario — colore senza profondità, rituale senza spazio, consumo senza attenzione",
+
+      "kokyu": "la preparazione istantanea elimina tutto ciò che il Chadō richiede: attesa, silenzio, precisione, lentezza",
+
+      "yūgen": "non esiste attraversamento percettivo perché il sistema è stato ridotto a simulazione estetica della propria origine",
+
+      "affects": {
+        "field-03": "il rituale quotidiano rischia continuamente di trasformarsi in automatismo privo di presenza"
+      },
+
+      "activation_condition": {
+        "trigger": "acceleration_threshold",
+        "mode": "passive_contamination"
+      },
+
+      "textual_anchor_it": "Il matcha industriale imita il colore del tè senza conservarne il tempo.",
+
+      "glossary_link": []
+    },
+
+    {
+      "id": "field-06",
+      "label": "mano_come_memoria_del_gesto",
+      "label_en": "hand_as_gesture_memory",
+      "intensity": 0.76,
+      "dominant": false,
+
+      "basho": "la mano definisce la distanza corretta tra corpo, ciotola e movimento. Il gesto costruisce uno spazio percettivo mobile",
+
+      "kokyu": "la velocità del polso modifica la consistenza della schiuma e la respirazione dell'intera preparazione",
+
+      "yūgen": "nessuna mano ripete perfettamente lo stesso movimento — ogni preparazione conserva una differenza invisibile che non può essere standardizzata",
+
+      "affected_by": {
+        "field-01": "la precisione del Chadō disciplina il gesto corporeo",
+        "field-03": "il rituale quotidiano miniaturizza la memoria del movimento cerimoniale"
+      },
+
+      "textual_anchor_it": "Il Matcha non viene semplicemente preparato: viene attraversato da una mano che lascia nel gesto una traccia irripetibile.",
+
+      "glossary_link": ["kata", "kokyu", "ma"]
+    }
+  ]
+}

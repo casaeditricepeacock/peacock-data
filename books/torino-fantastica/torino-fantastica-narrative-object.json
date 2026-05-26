@@ -1,0 +1,88 @@
+{
+  "type": "NarrativeObject",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+
+  "editorial_principle": "L'oggetto non rappresenta. Innesca comportamento percettivo nel campo urbano.",
+
+  "objects": [
+
+    {
+      "id": "object-01",
+      "label": "sindone",
+      "label_en": "shroud",
+
+      "basho": "il Duomo si organizza come orbita attorno a un centro che non appartiene allo spazio ma lo riorienta; ogni elemento architettonico perde autonomia e diventa dipendenza del campo",
+      "kokyu": "il tempo non avanza: riapre continuamente la domanda di origine senza produrre chiusura",
+      "yūgen": "nessuna lettura stabilizza l’oggetto; ogni accesso si interrompe prima del completamento",
+
+      "textual_anchor_it": "la Sindone, uno dei più grandi misteri della storia.",
+
+      "glossary_link": ["yūgen", "ma"]
+    },
+
+    {
+      "id": "object-02",
+      "label": "toro_dorato",
+      "label_en": "golden_bull",
+
+      "basho": "il pavimento diventa dispositivo: il monumento non si osserva, si attraversa; il gesto lo attiva",
+      "kokyu": "il tempo è discontinuo, acceso solo dal passaggio del corpo",
+      "yūgen": "l’effetto rituale non è verificabile ma persistente",
+
+      "textual_anchor_it": "per propiziare la buona sorte occorre passeggiare sopra i suoi attributi.",
+
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "object-03",
+      "label": "unguento_di_nostradamus",
+      "label_en": "nostradamus_ointment",
+
+      "basho": "l’oggetto non occupa spazio fisico ma organizza una genealogia politica come se fosse materia",
+      "kokyu": "la causalità si incrina: la sequenza storica non coincide con la sequenza effettiva degli eventi",
+      "yūgen": "ciò che non è verificabile continua comunque a produrre effetti",
+
+      "textual_anchor_it": "la data è sbagliata? Oppure Nostradamus venne nel 1556…",
+
+      "glossary_link": ["yūgen"]
+    },
+
+    {
+      "id": "object-04",
+      "label": "scala_delle_forbici",
+      "label_en": "scissors_staircase",
+
+      "basho": "il vincolo architettonico viene assorbito come materiale costruttivo; lo spazio si piega invece di resistere",
+      "kokyu": "la soluzione interrompe il conflitto tra limite e invenzione e produce un nuovo ritmo",
+      "yūgen": "la struttura appare inevitabile solo a posteriori",
+
+      "textual_anchor_it": "diedero anche alle malelingue il segnale di tacere.",
+
+      "glossary_link": ["ma", "kokyu"]
+    },
+
+    {
+      "id": "object-05",
+      "label": "batacchio_diavolo",
+      "label_en": "devil_door_knocker",
+
+      "basho": "la soglia è obbligatoria: ogni accesso attiva il dispositivo percettivo",
+      "kokyu": "la leggenda non si interrompe mai, anche quando non viene evocata",
+      "yūgen": "la spiegazione non neutralizza la presenza",
+
+      "textual_anchor_it": "secondo un'antica leggenda, il portone comparve all'improvviso in una notte…",
+
+      "glossary_link": ["yūgen", "ma"]
+    }
+  ]
+}

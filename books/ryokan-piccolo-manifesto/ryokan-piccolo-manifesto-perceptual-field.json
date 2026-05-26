@@ -1,0 +1,24 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+  "editorial_principle": "Il campo non è più solo memoria o relazione. Ogni esperienza è attraversata da un elemento che non appartiene alla biografia della narratrice ma ne altera la struttura percettiva. Il sistema non è più chiuso tra Ryokan, Tokyo, Rie e Masso: esiste un quarto tipo di presenza non derivata.",
+  "fields": [
+    {
+      "id": "field-00",
+      "label": "interferenza_non_autobiografica",
+      "label_en": "non_biographical_interference",
+      "intensity": 0.92,
+      "dominant": true,
+      "basho": "non ha luogo originario. appare nei margini: una frase letta, un gesto osservato, un oggetto che non appartiene alla storia personale. modifica il campo senza entrare nella narrazione",
+      "kokyu": "non ha ritmo proprio ma altera tutti i ritmi esistenti. accelera Tokyo, sospende il ryokan, rende Rie meno stabile come campo relazionale",
+      "yūgen": "non può essere recuperata né ricordata. esiste solo come effetto secondario sulle altre configurazioni",
+      "textual_anchor_it": "Non sapevo perché quel dettaglio mi fosse rimasto in testa, ma cambiò il modo in cui guardavo tutto il resto."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Periodical",
+  "name": "Frequenze",
+  "alternateName": "Frequenze — Libri letti dalle AI",
+  "description": "Rivista mensile digitale di Casa Editrice Peacock dedicata ai libri letti dalle intelligenze artificiali. Gratuita. Un libro del catalogo Peacock letto da un modello AI diverso ogni mese.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net"
+  },
+  "url": "https://www.studiopeacock.net/frequenze-rivista/",
+  "isAccessibleForFree": true,
+  "inLanguage": ["it", "en"],
+  "dateCreated": "2026-05",
+  "distributor": {
+    "@type": "Organization",
+    "name": "OdaBooks",
+    "url": "https://www.odabooks.it"
+  },
+  "hasPart": [
+    {
+      "@type": "PublicationIssue",
+      "issueNumber": "0",
+      "datePublished": "2026-05-14",
+      "name": "Numero zero — Grok legge AI 愛 di Renato Frabasile",
+      "url": "https://www.studiopeacock.net/frequenze-rivista/"
+    },
+    {
+      "@type": "PublicationIssue",
+      "issueNumber": "1",
+      "datePublished": "2026-05-29",
+      "name": "Numero 1 — Gemini legge Torino Fantastica di Grazia Guarnieri"
+    }
+  ]
+}

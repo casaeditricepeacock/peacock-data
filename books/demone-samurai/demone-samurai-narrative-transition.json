@@ -1,0 +1,149 @@
+{
+  "type": "NarrativeTransition",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "La transizione non è un collegamento tra due stati narrativi ma una condizione autonoma del sistema. In essa un regime si disattiva mentre l’altro non è ancora stabilizzato, producendo una zona di instabilità percettiva che riorganizza il campo del lettore.",
+
+  "transitions": [
+
+    {
+      "id": "transition-01",
+      "label": "da_storia_a_teatro",
+      "label_en": "from_history_to_theatre",
+
+      "definition_it": "Passaggio progressivo da un regime documentario a un regime scenico-rituale.",
+
+      "transition_type": "cambio di regime percettivo",
+
+      "origin_state": "narrazione storica basata su fonti, sequenze causali e cronologia lineare",
+      "destination_state": "teatro Nō come struttura di atti, quadri e presenza rituale",
+
+      "transition_field": "la trasformazione avviene per contaminazione lessicale e strutturale prima di diventare riconoscibile come cambio di forma",
+
+      "transition_speed": "graduale e retroattiva: il lettore riconosce il passaggio solo dopo che è già avvenuto",
+
+      "climatic_intensity": "media — instabilità crescente fino al consolidamento del nuovo regime",
+
+      "threshold_marker": "comparsa della maschera e del palcoscenico come segnali di regime già attivo",
+
+      "material_behavior": "la scrittura storica incorpora progressivamente logiche sceniche senza dichiarazione esplicita",
+
+      "field_activation": "il punto di osservazione del lettore si sposta da esterno documentario a interno rituale",
+
+      "narrative_pressure": "la struttura in atti impone una riorganizzazione del tempo narrativo in unità sceniche",
+
+      "perceptual_effect": "il lettore non assiste al passaggio: lo ricostruisce a posteriori come evento già compiuto",
+
+      "textual_anchor_it": "Nobunaga Oda era lo shite, l’attore principale. Non sarebbe sceso dal palco fino all’ultimo atto.",
+
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+
+    {
+      "id": "transition-02",
+      "label": "da_giappone_a_europa",
+      "label_en": "from_japan_to_europe",
+
+      "definition_it": "Collisione sincronica tra due sistemi storici contemporanei senza mediazione geografica.",
+
+      "transition_type": "rottura spaziale non mediata",
+
+      "origin_state": "Giappone Sengoku come sistema feudale frammentato e ritualizzato",
+      "destination_state": "Europa del XVI secolo come sistema di violenza teologico-politica",
+
+      "transition_field": "la separazione geografica viene annullata dalla struttura narrativa che mette in simultaneità due mondi",
+
+      "transition_speed": "istantanea con effetto retroattivo di ricalibrazione percettiva",
+
+      "climatic_intensity": "alta — shock di coesistenza culturale",
+
+      "threshold_marker": "ATTO II come unica segnalazione formale del cambio di sistema",
+
+      "material_behavior": "mutazione completa del repertorio materiale (ferro, fuoco, pietra, ritualità religiosa)",
+
+      "field_activation": "il lettore perde la gerarchia centro/periferia tra culture",
+
+      "narrative_pressure": "la violenza emerge come struttura globale e non localizzata",
+
+      "perceptual_effect": "il Giappone non è più esotico ma equivalente strutturale dell’Europa",
+
+      "textual_anchor_it": "ATTO II — INTANTO IN EUROPA",
+
+      "glossary_link": ["basho", "mono no aware"]
+    },
+
+    {
+      "id": "transition-03",
+      "label": "da_uomo_a_demone",
+      "label_en": "from_man_to_demon",
+
+      "definition_it": "Processo distribuito di trasformazione identitaria da figura storica a entità archetipica.",
+
+      "transition_type": "metamorfosi distribuita",
+
+      "origin_state": "individuo storico con biografia, genealogia e temporalità finita",
+      "destination_state": "figura mitica non più confinata alla biografia ma al campo simbolico",
+
+      "transition_field": "la trasformazione non avviene in un punto ma attraverso accumulo di intensità narrative",
+
+      "transition_speed": "non-lineare e non localizzabile",
+
+      "climatic_intensity": "crescente — saturazione progressiva del registro simbolico",
+
+      "threshold_marker": "assenza di soglia unica; riconoscimento solo retrospettivo",
+
+      "material_behavior": "progressiva de-umanizzazione del linguaggio descrittivo associato al soggetto",
+
+      "field_activation": "la biografia si converte in struttura mitopoietica",
+
+      "narrative_pressure": "ogni evento passato viene reinterpretato come parte della costruzione del mito",
+
+      "perceptual_effect": "il lettore non assiste alla trasformazione: la riconosce già compiuta",
+
+      "textual_anchor_it": "il samurai demone che cambiò il destino del Paese",
+
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+
+    {
+      "id": "transition-04",
+      "label": "da_tela_sbrindellata_a_paese_ricucito",
+      "label_en": "from_torn_canvas_to_mended_country",
+
+      "definition_it": "Trasformazione metaforica del conflitto in logica di ricomposizione tessile e politica.",
+
+      "transition_type": "metamorfosi strutturale metaforica",
+
+      "origin_state": "territorio frammentato e instabile",
+      "destination_state": "unità politica come processo incompiuto di ricucitura",
+
+      "transition_field": "la metafora tessile non descrive il potere ma lo struttura come logica operativa",
+
+      "transition_speed": "sospesa e incompleta — coincide con il progetto storico stesso",
+
+      "climatic_intensity": "media-alta — tensione tra frammentazione e ricomposizione",
+
+      "threshold_marker": "il limite è segnato dalla persistenza dei ruderi",
+
+      "material_behavior": "territorio e tessuto diventano equivalenti operativi nel linguaggio narrativo",
+
+      "field_activation": "la guerra viene letta come processo di cucitura e non di distruzione",
+
+      "narrative_pressure": "il sistema mostra simultaneamente unificazione e sua incompletezza",
+
+      "perceptual_effect": "il lettore percepisce la storia come struttura aperta e non risolta",
+
+      "textual_anchor_it": "il grande sarto che disprezzava le mode e quindi le inventava",
+
+      "glossary_link": ["mottainai", "wabi-sabi", "kokyu"]
+    }
+  ]
+}

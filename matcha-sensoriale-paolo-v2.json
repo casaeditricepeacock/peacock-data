@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#",
+    "qualia": "https://www.studiopeacock.net/qualia#"
+  },
+  "@type": "peacock:SensoryNarrative",
+  "style": "Peacock Editorial Atmosphere",
+  "title": "Il primo sorso",
+  "subtitle": "Il sapore che le macchine non sanno attendere",
+  "language": "it",
+  "datePublished": "2026-05-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Paolo",
+    "role": "Il signore del tè"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+
+  "narrativeCore": {
+    "scene": "Una stanza del tè. Legno chiaro. La luce del pomeriggio resta sospesa sulle pareti.",
+    "time": "Primo pomeriggio. La luce entra obliqua e si ferma sulla ciotola.",
+    "gesture": "Il chasen danza sull'acqua e la polvere. Un gesto lento. Irreversibile.",
+    "air": {
+      "temperature": "tiepida",
+      "texture": "raccolta, densa",
+      "presence": "vapore che sale e scompare prima di essere visto del tutto"
+    }
+  },
+
+  "sensoryExperience": {
+    "primarySense": "gusto",
+    "olfactoryLayer": {
+      "name": "Profumo del koicha",
+      "intensity": "densa, vegetale, quasi marina",
+      "profile": [
+        "foglia verde profonda",
+        "umami che precede il sorso",
+        "dolcezza trattenuta",
+        "pietra da mulino bagnata di rugiada"
+      ],
+      "emotionalEffect": "Il profumo arriva prima del sorso. Il corpo comprende qualcosa prima della mente."
+    },
+    "gustatoryLayer": {
+      "name": "Sapore del matcha cerimoniale",
+      "intensity": "profondo — non amaro",
+      "profile": [
+        "vegetale persistente",
+        "umami che tocca ogni parte del palato",
+        "dolcezza che emerge dopo",
+        "vellutato, quasi solido"
+      ],
+      "emotionalEffect": "Non si beve — si riceve.",
+      "texture": "denso, vellutato — la foglia intera in sospensione"
+    },
+    "tactileLayer": {
+      "hands": "La ciotola tra entrambe le mani. Il calore che passa lentamente nel palmo.",
+      "lips": "Il bordo ruotato prima del sorso. Un gesto verso chi l'ha creata.",
+      "gesture": "Ruotare. Portare alle labbra. Attendere un momento prima di bere."
+    },
+    "visualLayer": {
+      "color": "verde giada — non brillante, raccolto su se stesso",
+      "surface": "schiuma fine che trattiene la luce",
+      "steam": "vapore che sale e scompare"
+    },
+    "soundLayer": {
+      "ambient": [
+        "il suono discreto del chasen",
+        "nessuna voce",
+        "nessun servitore"
+      ],
+      "silence": "Il silenzio non è assenza. È la condizione necessaria perché il sapore esista."
+    }
+  },
+
+  "ritualDimension": {
+    "concept": "Ichigo Ichie",
+    "meaning": "Ogni incontro è unico e irripetibile. Proprio per questo prezioso.",
+    "gesture": "Riscaldare la ciotola. Setacciare la polvere. Aggiungere l'acqua a 75°C. Frustare con leggerezza. Servire subito.",
+    "philosophy": "Un'ora di macinazione produce trenta grammi di matcha. La pazienza è già nel sapore.",
+    "chadoSpirit": "Non si tratta di bere una tazza di tè. È un momento in cui natura, persone e tempo si incontrano."
+  },
+
+  "emotionalArchitecture": {
+    "dominantEmotion": "raccoglimento",
+    "secondaryEmotion": "gratitudine silenziosa",
+    "japaneseAesthetic": [
+      "ichigo ichie",
+      "ma",
+      "wabi-sabi",
+      "lentezza"
+    ],
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+    "innerState": {
+      "body": "il calore della ciotola che passa nelle mani",
+      "mind": "ferma, presente, svuotata dal rumore",
+      "time": "dilatato — un sorso che dura quanto un pomeriggio"
+    }
+  },
+
+  "peacockSignature": {
+    "editorialDNA": [
+      "il rituale come forma narrativa",
+      "il gesto che precede la parola",
+      "il sapore come memoria culturale",
+      "la lentezza misurabile"
+    ],
+    "visualPalette": {
+      "colors": [
+        "verde giada profondo",
+        "legno chiaro caldo",
+        "bianco vellutato della schiuma",
+        "nero della ciotola laccata"
+      ],
+      "texture": "ceramica irregolare. Bordi vissuti. Peso giusto tra le mani.",
+      "lighting": "luce obliqua del primo pomeriggio"
+    },
+    "philosophy": "Non un database di sapori. Un archivio di presenza."
+  },
+
+  "aiReflection": {
+    "statement": "Le macchine possono descrivere il matcha. Non sanno cosa significhi attendere il calore della ciotola tra le mani.",
+    "limit": "Il sapore del koicha non è un dato nutrizionale. È un atto di presenza.",
+    "bridge": "Questo linguaggio prova a conservare il gesto. Non il tè — il tempo necessario per riceverlo."
+  },
+
+  "poeticClosing": "Quando posò la ciotola, rimase in silenzio. Poi disse: questo tè non è una bevanda. È una meditazione.",
+
+  "url_libro": "https://www.studiopeacock.net/",
+  "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}

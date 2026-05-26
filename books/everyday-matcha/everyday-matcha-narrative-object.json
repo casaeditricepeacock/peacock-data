@@ -1,0 +1,163 @@
+{
+  "type": "NarrativeObject",
+  "version": "3.2",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "editorial_principle": "L'oggetto del matcha non rappresenta una funzione. Produce un comportamento nel campo percettivo e modifica le condizioni di ciò che lo circonda. Il sistema include ora retroazioni, instabilità controllata e variazioni di intensità non lineare.",
+
+  "objects": [
+
+    {
+      "id": "object-01",
+      "label": "chasen_frustino_di_bambù",
+      "label_en": "chasen_bamboo_whisk",
+      "intensity": 1.0,
+
+      "basho": "il chasen attraversa il volume liquido come campo operativo dinamico — non mescola, ma genera transizioni tra stati della materia",
+
+      "kokyu": "il ritmo del polso non è stabile: varia in risposta alla densità della polvere e alla resistenza della schiuma. Il gesto si adatta continuamente",
+
+      "yūgen": "ogni chasen è irripetibile nella microgeometria del bambù — la standardizzazione fallisce a livello microscopico",
+
+      "affects": {
+        "object-03": "la schiuma modifica retroattivamente il ritmo del chasen durante la preparazione",
+        "object-05": "il dosaggio del chashaku viene adattato inconsciamente al comportamento del liquido"
+      },
+
+      "textual_anchor_it": "Il chasen non ripete il gesto: lo negozia con la materia.",
+      "glossary_link": ["kokyu", "ma", "mottainai"]
+    },
+
+    {
+      "id": "object-02",
+      "label": "chawan_ciotola",
+      "label_en": "chawan_bowl",
+      "intensity": 0.95,
+
+      "basho": "la ciotola non contiene il matcha: ne stabilizza temporaneamente il campo sensoriale, che varia con temperatura e pressione della mano",
+
+      "kokyu": "la rotazione prima del sorso modifica il tempo interno del gesto, ma la durata reale varia in funzione della densità del liquido",
+
+      "yūgen": "la ciotola non è stabile: la sua percezione cambia tra pieno e vuoto, caldo e residuo",
+
+      "affects": {
+        "object-01": "la geometria della ciotola condiziona ma non determina il movimento del chasen",
+        "object-03": "la schiuma altera la percezione del volume della ciotola"
+      },
+
+      "textual_anchor_it": "La ciotola non riceve il tè: lo trattiene per un istante instabile.",
+      "glossary_link": ["basho", "wabi-sabi", "ma"]
+    },
+
+    {
+      "id": "object-03",
+      "label": "schiuma_del_matcha",
+      "label_en": "matcha_foam",
+      "intensity": 0.9,
+
+      "basho": "la schiuma non è superficie stabile — è un campo di transizione tra aria e liquido che si riorganizza continuamente",
+
+      "kokyu": "la durata della schiuma varia in funzione del gesto e della qualità della polvere — non esiste tempo fisso di stabilità",
+
+      "yūgen": "la schiuma introduce un errore percettivo: ciò che appare uniforme è in realtà instabile a scala temporale breve",
+
+      "affects": {
+        "object-01": "la resistenza della schiuma modifica il ritmo del chasen durante l’uso",
+        "object-04": "la qualità della polvere determina la stabilità della schiuma"
+      },
+
+      "textual_anchor_it": "La schiuma è il momento in cui il tempo diventa visibile e subito si contraddice.",
+      "glossary_link": ["kokyu", "ma", "yūgen"]
+    },
+
+    {
+      "id": "object-04",
+      "label": "polvere_di_matcha",
+      "label_en": "matcha_powder",
+      "intensity": 0.95,
+
+      "basho": "la polvere è uno stato sospeso della materia — non completamente solido né liquido, mantenuto in equilibrio artificiale",
+
+      "kokyu": "ogni grammo contiene un tempo produttivo non lineare: la macinazione introduce variazioni microtemporali non uniformi",
+
+      "yūgen": "il verde non è stabile: varia leggermente tra esposizione, ossidazione e umidità, senza mai fissarsi completamente",
+
+      "affects": {
+        "object-02": "la percezione della ciotola dipende dalla qualità variabile della polvere",
+        "object-03": "la stabilità della schiuma è funzione non lineare della polvere"
+      },
+
+      "textual_anchor_it": "La polvere non contiene il tempo: lo deforma.",
+      "glossary_link": ["mottainai", "kokyu", "wabi-sabi"]
+    },
+
+    {
+      "id": "object-05",
+      "label": "chashaku_cucchiaino",
+      "label_en": "chashaku_tea_scoop",
+      "intensity": 0.78,
+
+      "basho": "il chashaku non misura quantità fisse — introduce una deviazione controllata nel sistema di dosaggio",
+
+      "kokyu": "il gesto del dosaggio varia leggermente ogni volta, influenzato dalla memoria del gesto precedente",
+
+      "yūgen": "la curva del chashaku non è ottimizzata ma storicizzata: porta variazioni accumulate nel tempo artigianale",
+
+      "affects": {
+        "object-04": "la quantità di polvere non è mai identica tra preparazioni successive",
+        "object-01": "il chasen si adatta a variazioni minime nel dosaggio"
+      },
+
+      "textual_anchor_it": "Il cucchiaino non misura: devia con precisione instabile.",
+      "glossary_link": ["mottainai", "ma", "kokyu"]
+    },
+
+    {
+      "id": "object-06",
+      "label": "contenitore_ermetico",
+      "label_en": "airtight_container",
+      "intensity": 0.6,
+
+      "basho": "il contenitore non blocca il tempo — lo rallenta in modo non uniforme a seconda dei micro-infiltrazioni d’aria",
+
+      "kokyu": "l’apertura non è un evento istantaneo ma una transizione che inizia prima dell’uso effettivo",
+
+      "yūgen": "la conservazione è sempre incompleta: una parte del campo percettivo della polvere è già alterata prima dell’apertura",
+
+      "affects": {
+        "object-04": "la qualità della polvere è funzione del tempo di conservazione reale e percepito"
+      },
+
+      "textual_anchor_it": "Il contenitore non conserva: ritarda una trasformazione inevitabile.",
+      "glossary_link": ["ma", "mottainai"]
+    },
+
+    {
+      "id": "object-07",
+      "label": "errore_rituale",
+      "label_en": "ritual_error",
+      "intensity": 0.68,
+
+      "basho": "l’errore emerge quando il sistema rituale viene attraversato da una deviazione minima del gesto o del tempo",
+
+      "kokyu": "la sequenza non si interrompe: si deforma localmente senza perdere continuità",
+
+      "yūgen": "l’errore non è osservabile dall’esterno come entità stabile — esiste solo nel momento della sua accaduta",
+
+      "affects": {
+        "object-01": "il chasen perde temporaneamente la prevedibilità del suo risultato",
+        "object-03": "la schiuma diventa instabile e non riproducibile"
+      },
+
+      "textual_anchor_it": "L’errore non interrompe il rituale: lo rende visibile.",
+      "glossary_link": []
+    }
+  ]
+}

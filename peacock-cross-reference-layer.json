@@ -1,0 +1,68 @@
+{
+  "type": "PeacockCrossReferenceLayer",
+  "version": "4.2-stable",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+
+  "purpose": "Layer descrittivo opzionale. Non produce nuovi campi ontologici, ma mappa ricorrenze tra libri esistenti.",
+
+  "constraint": {
+    "no_new_entities": true,
+    "no_system_mutation": true,
+    "no_recursive_expansion": true
+  },
+
+  "books": [
+    "Ryokan",
+    "Everyday Matcha",
+    "Hara Rota"
+  ],
+
+  "cross_readings": [
+
+    {
+      "id": "xref-01",
+      "theme": "loss_of_place",
+
+      "maps": {
+        "Ryokan.field-01": "Ryokan come luogo perduto",
+        "Hara Rota.transition-02": "tradizione/contemporaneo come perdita strutturale",
+        "Everyday Matcha.transition-01": "irreversibilità della trasformazione"
+      },
+
+      "note": "la perdita non è un campo autonomo ma una ricorrenza strutturale"
+    },
+
+    {
+      "id": "xref-02",
+      "theme": "ritual_vs_everyday",
+
+      "maps": {
+        "Everyday Matcha.ritual-02": "preparazione quotidiana",
+        "Ryokan.field-03": "intimità domestica come micro-rituale",
+        "Hara Rota.ritual_types": "codifica e compressione del gesto"
+      },
+
+      "note": "il rituale non è un sistema: è una variazione di densità del quotidiano"
+    },
+
+    {
+      "id": "xref-03",
+      "theme": "silence_as_structural_condition",
+
+      "maps": {
+        "Hara Rota.NarrativeSilence": "silenzio come tassonomia",
+        "Everyday Matcha.silence-04": "residuo post-sorso",
+        "Ryokan.field-03": "silenzio relazionale tra sparizioni"
+      },
+
+      "note": "il silenzio non è un tipo narrativo ma una condizione trasversale"
+    }
+  ],
+
+  "system_statement": {
+    "position": "stabile",
+    "warning": "il layer non deve diventare un secondo sistema narrativo",
+    "rule": "ogni espansione deve comprimere, non moltiplicare"
+  }
+}

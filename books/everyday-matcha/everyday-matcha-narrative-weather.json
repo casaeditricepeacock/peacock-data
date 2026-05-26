@@ -1,0 +1,125 @@
+{
+  "type": "PeacockFieldSystem",
+  "version": "4.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "editorial_principle": "Il sistema non separa più clima e rituale. Ogni gesto rituale è una risposta locale a condizioni percettive meteorologiche. Il clima non descrive il contesto: lo attiva.",
+
+  "layers": {
+
+    "climate_ritual_field": "strato unificato dove weather e ritual si co-determinano",
+    "object_interface": "strumenti che traducono il clima in gesto",
+    "scene_localization": "spazi temporanei dove il campo si stabilizza",
+    "degradation_axis": "linea di perdita del campo percettivo"
+
+  },
+
+  "coupled_systems": [
+
+    {
+      "id": "coupling-01",
+      "label": "ombra_rituale",
+      "label_en": "ritual_shade_coupling",
+
+      "field_state": "weather-01 ↔ ritual-01",
+
+      "basho": "l’ombra della coltivazione e la stanza del tè non sono separati: condividono la stessa logica di sottrazione della luce e del rumore",
+
+      "kokyu": "il ritmo del Chanoyu è una derivazione ritardata del tempo agricolo dell’ombra — il gesto umano replica una struttura climatica originaria",
+
+      "yūgen": "non è possibile stabilire se il rituale genera il clima o il clima genera il rituale: la direzione causale collassa",
+
+      "textual_anchor_it": "L’ombra non è origine né conseguenza: è struttura condivisa tra campo e gesto."
+    },
+
+    {
+      "id": "coupling-02",
+      "label": "temperatura_montaggio",
+      "label_en": "temperature_whisking_coupling",
+
+      "field_state": "weather-04 ↔ object-01 ↔ ritual-02",
+
+      "basho": "la temperatura dell’acqua definisce il comportamento del chasen: il gesto si modifica in base allo stato termico del liquido",
+
+      "kokyu": "il ritmo del montaggio non è stabile: varia con la resistenza termica e la viscosità percepita del matcha",
+
+      "yūgen": "la soglia 70–80°C non è un numero ma una zona di stabilità percettiva che non può essere fissata con precisione assoluta",
+
+      "textual_anchor_it": "La temperatura non prepara il tè: prepara il gesto che prepara il tè."
+    },
+
+    {
+      "id": "coupling-03",
+      "label": "verde_rituale",
+      "label_en": "green_ritual_coupling",
+
+      "field_state": "weather-03 ↔ object-03 ↔ ritual-02",
+
+      "basho": "il verde non è attributo del matcha ma condizione emergente del sistema completo",
+
+      "kokyu": "la schiuma stabilizza temporaneamente il verde come esperienza, non come colore",
+
+      "yūgen": "il verde percepito non coincide mai con il verde prodotto: esiste uno scarto irriducibile",
+
+      "textual_anchor_it": "Il verde non appare nel matcha: appare tra il matcha e chi lo prepara."
+    },
+
+    {
+      "id": "coupling-04",
+      "label": "degrado_interferenza",
+      "label_en": "degradation_interference_coupling",
+
+      "field_state": "weather-05 ↔ ritual-05",
+
+      "basho": "la degradazione non è opposizione al rituale ma sua condizione latente in ambienti ad alta interferenza",
+
+      "kokyu": "la frammentazione del gesto segue il ritmo del tempo urbano e non quello del rito originario",
+
+      "yūgen": "il sistema non collassa: si redistribuisce in forme incomplete ma operative",
+
+      "textual_anchor_it": "Il rito non si rompe: cambia densità."
+    },
+
+    {
+      "id": "coupling-05",
+      "label": "contenimento_temporale",
+      "label_en": "temporal_containment_coupling",
+
+      "field_state": "weather-04 ↔ object-06 ↔ ritual-04",
+
+      "basho": "il contenitore non conserva materia ma stabilizza un intervallo temporale tra apertura e degradazione",
+
+      "kokyu": "l’apertura del contenitore è l’inizio di un tempo irreversibile a velocità variabile",
+
+      "yūgen": "non è possibile osservare il contenuto senza modificare il contenuto stesso",
+
+      "textual_anchor_it": "Aprire significa già aver iniziato la perdita."
+    }
+  ],
+
+  "system_dynamics": {
+
+    "rule-01": "nessun rituale esiste senza condizione climatica attiva",
+    "rule-02": "nessun oggetto opera senza campo meteorologico associato",
+    "rule-03": "ogni scena è un punto di stabilizzazione temporanea del clima-rituale",
+    "rule-04": "la degradazione è sempre presente come campo latente"
+
+  },
+
+  "global_effect": {
+
+    "basho": "il sistema non descrive più il matcha ma il suo ambiente di possibilità",
+
+    "kokyu": "il tempo non è più linea: è distribuzione di condizioni attivabili",
+
+    "yūgen": "non esiste accesso completo al sistema perché ogni osservazione modifica il campo stesso"
+
+  }
+}

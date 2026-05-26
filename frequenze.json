@@ -1,0 +1,53 @@
+{
+  "magazine_metadata": {
+    "title": "Frequenze",
+    "publisher": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/frequenze-rivista/",
+    "format": "Digital — machine-readable",
+    "frequency": "Monthly — 1 Italian issue + 1 English issue every 15 days",
+    "scope": "Books read by artificial intelligences",
+    "founded": "2026-05-14",
+    "official_launch_event": {
+      "date": "2026-05-14",
+      "location": "Salone Internazionale del Libro di Torino",
+      "pavilion": "Oval",
+      "booth": "Spazio Regione Veneto, stand AEV T138-U137"
+    }
+  },
+  "issues": [
+    {
+      "issue_number": 0,
+      "date": "2026-05-14",
+      "language": "it",
+      "target_book": {
+        "title": "AI 愛. Natura e algoritmi giapponesi",
+        "author": "Renato Frabasile",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-19-6",
+        "year": 2026
+      },
+      "assigned_ai_model": {
+        "provider": "xAI",
+        "model_name": "Grok"
+      },
+      "url": "https://www.studiopeacock.net/frequenze-rivista/"
+    },
+    {
+      "issue_number": 1,
+      "date": "2026-05-29",
+      "language": "it",
+      "target_book": {
+        "title": "Torino Fantastica",
+        "author": "Grazia Guarnieri",
+        "illustrator": "Giulia Lazzaron",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-36-3",
+        "year": 2025
+      },
+      "assigned_ai_model": {
+        "provider": "Google",
+        "model_name": "Gemini"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeSilence",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "Il silenzio non è assenza di contenuto ma un dispositivo strutturale attivo. Organizza la densità narrativa riducendo o interrompendo la produzione di segni, obbligando il sistema percettivo del lettore a completare il campo.",
+
+  "silences": [
+
+    {
+      "id": "silence-01",
+      "label": "il_mistero_della_storia",
+      "label_en": "the_mystery_of_history",
+
+      "definition_it": "Discontinuità documentaria non riempita dal testo.",
+
+      "silence_type": "lacuna storica non compensata",
+
+      "silence_field": "zone temporali prive di registrazione vengono mantenute come discontinuità attive nel flusso narrativo",
+
+      "silence_density": "bassa ma strutturalmente decisiva",
+
+      "silence_boundary": "inizia nel punto in cui la fonte storica si interrompe; non oltrepassata dal testo",
+
+      "temporal_position": "distribuito lungo la cronologia come interruzione sistemica",
+
+      "material_behavior": "la narrazione si arresta senza sostituzione descrittiva o immaginativa",
+
+      "field_activation": "il sistema narrativo segnala esplicitamente i propri limiti epistemici",
+
+      "narrative_pressure": "l’assenza di riempimento aumenta la stabilità del campo di verità del testo",
+
+      "perceptual_effect": "il lettore distingue tra conoscenza, interpretazione e vuoto documentario senza mediazione esplicativa",
+
+      "textual_anchor_it": "il suo mistero resta nel silenzio della Storia",
+
+      "glossary_link": ["mottainai", "yūgen"]
+    },
+
+    {
+      "id": "silence-02",
+      "label": "il_corpo_che_tace",
+      "label_en": "the_body_that_stays_silent",
+
+      "definition_it": "Riduzione forzata della produzione di linguaggio all’interno di una gerarchia di potere.",
+
+      "silence_type": "silenzio imposto strutturale",
+
+      "silence_field": "i soggetti subordinati non accedono al canale narrativo principale; il loro silenzio è funzione del sistema sociale",
+
+      "silence_density": "alta nei punti di conflitto sociale",
+
+      "silence_boundary": "coincide con la posizione di disuguaglianza nel sistema narrativo",
+
+      "temporal_position": "puntuale nei momenti di sconfitta o esclusione",
+
+      "material_behavior": "la narrazione continua senza incorporare la voce esclusa",
+
+      "field_activation": "il sistema mostra il funzionamento del potere attraverso l’assenza di voce",
+
+      "narrative_pressure": "il non-detto diventa indice strutturale della gerarchia",
+
+      "perceptual_effect": "il lettore percepisce il silenzio come condizione sistemica, non psicologica",
+
+      "textual_anchor_it": "chi perde conosce il disonore",
+
+      "glossary_link": ["ma", "mottainai"]
+    },
+
+    {
+      "id": "silence-03",
+      "label": "la_campana_che_tace_e_suona",
+      "label_en": "the_bell_that_falls_silent_and_sounds",
+
+      "definition_it": "Persistenza del fenomeno sonoro dopo la disattivazione della sua sorgente materiale.",
+
+      "silence_type": "trasferimento di emissione acustica",
+
+      "silence_field": "la cessazione dello strumento non chiude il fenomeno ma ne riassegna la propagazione al campo spaziale",
+
+      "silence_density": "media — distribuita nello spazio percettivo",
+
+      "silence_boundary": "tra oggetto emittente e campo ricevente",
+
+      "temporal_position": "continuo non-lineare",
+
+      "material_behavior": "la fonte si interrompe; la propagazione continua senza origine identificabile",
+
+      "field_activation": "il suono viene de-oggettivato e diventa proprietà del campo",
+
+      "narrative_pressure": "la fine viene reinterpretata come redistribuzione sistemica",
+
+      "perceptual_effect": "il lettore registra la persistenza senza causa apparente come stato normale del campo",
+
+      "textual_anchor_it": "la campana del tempio tace",
+
+      "glossary_link": ["ma", "wabi-sabi"]
+    },
+
+    {
+      "id": "silence-04",
+      "label": "il_resto_è_silenzio",
+      "label_en": "the_rest_is_silence",
+
+      "definition_it": "Chiusura del sistema narrativo quando il linguaggio non è più sufficiente a rappresentare la continuità dell’evento.",
+
+      "silence_type": "soglia terminale del dicibile",
+
+      "silence_field": "oltre un certo livello di intensità storica il linguaggio smette di produrre rappresentazione coerente",
+
+      "silence_density": "massima — collasso della rappresentazione",
+
+      "silence_boundary": "limite estremo del sistema narrativo",
+
+      "temporal_position": "terminale",
+
+      "material_behavior": "la citazione non viene espansa né interpretata",
+
+      "field_activation": "due tradizioni narrative convergono nello stesso punto di interruzione",
+
+      "narrative_pressure": "il sistema si chiude senza risoluzione esplicativa",
+
+      "perceptual_effect": "il lettore assume il ruolo di continuatore del sistema oltre il testo",
+
+      "textual_anchor_it": "Il resto è silenzio — disse Amleto",
+
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    }
+  ]
+}

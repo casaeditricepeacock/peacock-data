@@ -1,0 +1,92 @@
+{
+  "type": "NarrativeScene",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "La scena cognitiva non rappresenta un luogo né un evento. È una configurazione instabile di co-esistenza tra sistemi di pensiero incompatibili.",
+
+  "scenes": [
+
+    {
+      "id": "scene-01",
+      "label": "casa_sistema_globale",
+
+      "basho": "lo spazio domestico non contiene il mondo ma lo attiva come rete distribuita. Il confine interno/esterno perde funzione operativa",
+
+      "kokyu": "non esiste flusso tra interno ed esterno: il sistema si attiva per sovrapposizione di stati cognitivi simultanei non ordinati",
+
+      "yūgen": "la condizione di connessione non è distinguibile dalla condizione di isolamento; entrambi operano nello stesso campo senza separazione stabile",
+
+      "textual_anchor_it": "viaggiando senza spostarmi da casa.",
+
+      "glossary_link": ["ma", "basho"]
+    },
+
+    {
+      "id": "scene-02",
+      "label": "giappone_come_struttura_non_geografica",
+
+      "basho": "il Giappone del testo è una coagulazione di fonti cognitive eterogenee che non richiedono esperienza diretta per essere operative",
+
+      "kokyu": "non esiste sequenza di accesso al Giappone: il campo si attiva per risonanza tra testi, immagini, lingua e immaginazione",
+
+      "yūgen": "la distanza tra Giappone reale e Giappone pensato non è misurabile nel sistema perché entrambi sono già operativi come configurazioni diverse dello stesso campo",
+
+      "textual_anchor_it": "bloccato alla frontiera come un migrante in attesa di approdare sull'altra faccia della Luna.",
+
+      "glossary_link": ["mono no aware", "yūgen"]
+    },
+
+    {
+      "id": "scene-03",
+      "label": "dialogo_asincrono_non_sincronizzabile",
+
+      "basho": "non esiste spazio condiviso tra i due interlocutori; ogni risposta genera un nuovo spazio temporaneo che non coincide con il precedente",
+
+      "kokyu": "il dialogo non è alternanza ma interferenza di sistemi non sincronizzabili",
+
+      "yūgen": "non esiste punto di convergenza tra comprensione e risposta; il sistema resta aperto per struttura, non per incompletezza",
+
+      "textual_anchor_it": "uno spazio diventa un luogo in virtù del ponte.",
+
+      "glossary_link": ["ma", "basho"]
+    },
+
+    {
+      "id": "scene-04",
+      "label": "rete_come_campo_non_saturabile",
+
+      "basho": "la rete non connette punti ma dissolve la nozione di distanza come variabile stabile",
+
+      "kokyu": "non esiste ordine temporale della rete: ogni nodo è simultaneamente attivo e inattivo senza sequenza osservabile",
+
+      "yūgen": "l’aumento di informazione non produce chiusura semantica ma espansione indefinita del campo interpretativo",
+
+      "textual_anchor_it": "osservare come un antropologo l'agitarsi degli indigeni planetari.",
+
+      "glossary_link": ["yūgen", "ma"]
+    },
+
+    {
+      "id": "scene-05",
+      "label": "interferenza_uomo_ai",
+
+      "basho": "il pensiero non è prodotto da un singolo sistema ma da interferenza tra sistemi cognitivi eterogenei in co-esecuzione",
+
+      "kokyu": "non esiste turno conversazionale stabile: ogni output modifica retroattivamente il campo di input",
+
+      "yūgen": "non è possibile isolare la fonte del pensiero senza distruggere il fenomeno stesso della co-generazione",
+
+      "textual_anchor_it": "questo pensiero non appartiene a chi lo scrive né a chi lo genera.",
+
+      "glossary_link": ["ma", "basho", "yūgen"]
+    }
+  ]
+}

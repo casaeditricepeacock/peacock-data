@@ -1,0 +1,124 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta dopo il suo avvenimento"
+  },
+
+  "editorial_principle": "Le transizioni non descrivono passaggi tra stati. Registrano la non equivalenza tra ciò che appare come cambiamento e ciò che rimane strutturalmente invariato. Alcune transizioni non si integrano nel sistema: restano operative senza essere assimilabili.",
+
+  "transitions": [
+
+    {
+      "id": "transition-01",
+      "label": "da_ryokan_a_tokyo",
+      "type": "external_irruption",
+      "intensity": 0.95,
+
+      "basho": "Tokyo non sostituisce il ryokan. I due campi coesistono senza conversione. La città non è un dopo ma un secondo sistema simultaneo",
+      "kokyu": "il movimento Shinkansen non produce separazione ma sovrapposizione percettiva. Il tempo non si allinea alla distanza",
+      "yūgen": "il ryokan resta attivo come campo non risolto. La transizione non raggiunge mai uno stato finale",
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "persistenza del ryokan come riferimento non cancellabile"
+      },
+
+      "textual_anchor_it": "I verdi campi e i monti sembravano svanire, lasciando spazio a grattacieli scintillanti."
+    },
+
+    {
+      "id": "transition-02",
+      "label": "incontro_con_rie",
+      "type": "irreversible",
+      "intensity": 1.0,
+
+      "basho": "Rie entra nel sistema come presenza non preceduta da preparazione narrativa. Il campo relazionale si riorganizza immediatamente",
+      "kokyu": "assenza di gradiente temporale: due giorni tra incontro e convivenza. Il ritmo non è progressivo ma discontinuo",
+      "yūgen": "la natura della relazione non viene definita. Esiste solo come struttura di co-presenza",
+
+      "textual_anchor_it": "Stava cercando ispirazione per scrivere un libro e ha trovato me."
+    },
+
+    {
+      "id": "transition-03",
+      "label": "sparizioni_di_rie",
+      "type": "suspended",
+      "intensity": 0.88,
+
+      "basho": "la sparizione non modifica lo spazio fisico ma la densità del campo relazionale. Lo spazio resta identico ma non equivalente a sé stesso",
+      "kokyu": "il ritmo è intermittente e non regolabile. La ripetizione delle sparizioni produce stabilità senza continuità",
+      "yūgen": "la sparizione finale non si distingue qualitativamente dalle precedenti se non retroattivamente",
+
+      "textual_anchor_it": "Spesso mi abbandonava all'improvviso per brevi periodi, senza dirmi niente."
+    },
+
+    {
+      "id": "transition-04",
+      "label": "ritorno_al_masso",
+      "type": "involuntary",
+      "intensity": 1.0,
+
+      "basho": "il masso non è raggiunto ma riattivato. Il campo precedente riemerge come configurazione dominante",
+      "kokyu": "compressione temporale totale: sequenza di spostamenti senza continuità percettiva",
+      "yūgen": "la lettura del libro di Rie introduce un campo doppio non risolvibile",
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il masso non assorbe la perdita ma la mantiene senza trasformarla"
+      },
+
+      "textual_anchor_it": "Abbandonai la libreria, presi il primo treno e tornai nei posti magici di quei giorni."
+    },
+
+    {
+      "id": "transition-05",
+      "label": "carlo_e_il_sassofono",
+      "type": "external_irruption",
+      "intensity": 0.78,
+
+      "basho": "la presenza del fratello non appartiene al sistema di campi precedenti. Introduce una memoria non sovrapponibile",
+      "kokyu": "interferenza ritmica breve e non persistente",
+      "yūgen": "la differenza di trauma tra soggetti impedisce la convergenza narrativa",
+
+      "textual_anchor_it": "Per lui era stato un trauma."
+    },
+
+    {
+      "id": "transition-06",
+      "label": "taiji_mare_rosso",
+      "type": "irreversible",
+      "intensity": 0.92,
+
+      "basho": "il campo si altera senza possibilità di ritorno alla configurazione precedente",
+      "kokyu": "rottura del ritmo percettivo continuo: il tempo non è più riassorbibile",
+      "yūgen": "il trauma non viene integrato nel sistema narrativo",
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "evento non metabolizzabile dal campo complessivo"
+      },
+
+      "textual_anchor_it": "Il mare è un luogo di morte."
+    }
+  ],
+
+  "system_rule_update": {
+    "principle": "Le transizioni non sono equivalenti tra loro. Alcune generano residuo non integrabile che modifica la leggibilità del sistema senza modificare il sistema stesso.",
+    "effect": "introduzione di gerarchia implicita tra eventi senza creare nuovi tipi formali"
+  }
+}

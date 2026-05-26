@@ -1,0 +1,93 @@
+{
+  "type": "PerceptualField",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "Ogni mood è uno stato percettivo che altera simultaneamente tre dimensioni: la relazione del lettore col tempo narrativo, la configurazione dello spazio, e la qualità dell'esperienza sensoriale.",
+
+  "fields": [
+
+    {
+      "id": "field-01",
+      "label": "tensione_feudale",
+      "label_en": "feudal_tension",
+
+      "definition_it": "La guerra come condizione atmosferica permanente.",
+
+      "perceptual_state": "vigilanza senza oggetto — il pericolo non ha forma definita, è clima",
+      "temporal_relation": "compressione costante del presente; il futuro non esiste come progetto ma come minaccia imminente",
+      "spatial_alteration": "i territori si stringono, le distanze diventano percorribili solo sotto pressione, il castello non è rifugio ma punto di osservazione armata",
+
+      "sound_structure": "taiko — battito reiterato che impedisce quiete",
+      "light_condition": "ferro opaco, rosso ossidato, cenere umida",
+
+      "textual_anchor_it": "le peggiori tempeste erano portate dai Signori della guerra, in un Paese frantumato in più di duecento territori grandi e piccoli",
+
+      "glossary_link": ["basho", "kokyu"]
+    },
+
+    {
+      "id": "field-02",
+      "label": "solitudine_del_comando",
+      "label_en": "solitude_of_command",
+
+      "definition_it": "La distanza strutturale tra il potere e la possibilità di essere compresi.",
+
+      "perceptual_state": "lucidità fredda — presenza totale senza calore; il lettore percepisce senza poter accedere",
+      "temporal_relation": "decisione immediata immersa in attese silenziose; il tempo del comando non coincide con il tempo degli altri",
+      "spatial_alteration": "il centro del potere si sposta costantemente fuori campo; lo spazio si organizza intorno a un'assenza",
+
+      "sound_structure": "silenzio dopo un ordine pronunciato a metà",
+      "light_condition": "nero lacca, riflessi metallici, ombre immobili",
+
+      "textual_anchor_it": "non impartiva neanche chiaramente i suoi ordini, perché il Giappone è conosciuto per le numerose spie delle diverse casate",
+
+      "glossary_link": ["yūgen", "mottainai"]
+    },
+
+    {
+      "id": "field-03",
+      "label": "soglia_rituale",
+      "label_en": "ritual_threshold",
+
+      "definition_it": "Il punto in cui la storia attraversa il mito.",
+
+      "perceptual_state": "commozione sospesa — il lettore smette di osservare e inizia a partecipare al rito",
+      "temporal_relation": "tempo rallentato fino alla sospensione; ogni gesto occupa più spazio del previsto",
+      "spatial_alteration": "il palcoscenico spoglio si espande fino a contenere tutto; il confine tra scena e realtà si dissolve",
+
+      "sound_structure": "nokan — suono straziante che apre il confine con gli spiriti",
+      "light_condition": "oro consumato, bianco cerimoniale, ombra d'incenso",
+
+      "textual_anchor_it": "Sul palcoscenico disadorno, i suonatori di taiko battevano forsennatamente sulla pelle ritmi ossessivi",
+
+      "glossary_link": ["mono no aware", "kokyu", "wabi-sabi"]
+    },
+
+    {
+      "id": "field-04",
+      "label": "infanzia_senza_padre",
+      "label_en": "fatherless_childhood",
+
+      "definition_it": "L'assenza come architettura invisibile della formazione.",
+
+      "perceptual_state": "urgenza trattenuta — accelerazione interiore che non trova ancora forma esterna",
+      "temporal_relation": "attesa protratta senza risoluzione; il tempo dell'infanzia non scorre ma si accumula",
+      "spatial_alteration": "gli spazi del castello diventano troppo grandi; l'assenza occupa fisicamente i corridoi e le stanze",
+
+      "sound_structure": "vento nei corridoi del castello",
+      "light_condition": "nebbia fredda, ocra autunnale, legno consumato",
+
+      "textual_anchor_it": "un'atmosfera dominata dall'assenza ingombrante di un padre che di sé diffondeva soltanto notizie delle sue prodezze o sconfitte in guerra",
+
+      "glossary_link": ["ma", "basho"]
+    }
+  ]
+}

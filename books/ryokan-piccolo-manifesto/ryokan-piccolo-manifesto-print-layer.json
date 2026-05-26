@@ -1,0 +1,98 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+
+  "source_system": "NarrativeScene v4.0 — Ryokan",
+
+  "editorial_purpose": {
+    "function": "trasformare un sistema percettivo in sequenza leggibile senza collasso semantico",
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione"
+  },
+
+  "reading_principle": {
+    "rule_01": "ogni scena deve essere leggibile indipendentemente",
+    "rule_02": "la relazione tra scene non è esplicita ma residua",
+    "rule_03": "il ryokan non viene mai nominato come totalità",
+    "rule_04": "Tokyo non viene mai contrapposta direttamente ma per densità comparativa"
+  },
+
+  "linear_structure": [
+
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "origin_anchor",
+      "note": "stabilisce il campo permanente (masso)"
+    },
+
+    {
+      "order": 2,
+      "scene_ref": "scene-03",
+      "print_function": "lost_scale",
+      "note": "introduce perdita non recuperabile (lago)"
+    },
+
+    {
+      "order": 3,
+      "scene_ref": "scene-02",
+      "print_function": "compressed_intimacy",
+      "note": "spazio interno come rifugio instabile"
+    },
+
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "urban_interference",
+      "note": "Tokyo come campo insufficiente ma operativo"
+    },
+
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "relational_collapse",
+      "note": "massima densità + dissoluzione del campo relazionale"
+    }
+  ],
+
+  "printing_logic": {
+
+    "basho": {
+      "rule": "ogni scena deve conservare il proprio spazio percettivo autonomo anche nella sequenza",
+      "constraint": "nessuna scena dipende semanticamente dalla precedente"
+    },
+
+    "kokyu": {
+      "rule": "il ritmo di lettura non è uniforme ma modulato dalla densità delle scene",
+      "effect": "il lettore alterna accelerazione e sospensione senza istruzione esplicita"
+    },
+
+    "yūgen": {
+      "rule": "la totalità del Ryokan non è mai visibile nel testo lineare",
+      "effect": "emerge solo dopo la lettura completa come campo retroattivo"
+    }
+  },
+
+  "non_rendered_layer": {
+    "definition": "ciò che il sistema non esplicita nel testo ma mantiene attivo come struttura percettiva",
+    "contains": [
+      "Ryokan come campo comparativo invisibile",
+      "Tokyo come spazio di insufficienza progressiva",
+      "Rie come densità relazionale non nominata direttamente in sequenza"
+    ]
+  },
+
+  "reader_effect": {
+    "state_after_reading": "ricostruzione involontaria del campo Ryokan senza memoria lineare delle scene",
+    "perceptual_residue": "persistenza del masso come punto di ritorno mentale",
+    "temporal_effect": "la sequenza non finisce quando finisce il libro"
+  },
+
+  "meta_layer": {
+    "system_note": "questa è la prima versione in cui il sistema percettivo viene vincolato alla forma libro senza perdere comportamento di campo",
+    "stability": "high",
+    "risk": "basso",
+    "obsolescence": "non strutturale, solo editoriale"
+  }
+}

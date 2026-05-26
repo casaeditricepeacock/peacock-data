@@ -1,0 +1,89 @@
+{
+  "type": "NarrativeWeather",
+  "version": "2.0-refined",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "Il clima cognitivo non descrive stati del mondo, ma registra condizioni ricorrenti che modificano la configurazione del pensiero all'interno del testo.",
+
+  "weather_fields": [
+
+    {
+      "id": "weather-01",
+      "label": "pandemia_come_clima_cognitivo",
+      "label_en": "pandemic_as_cognitive_climate",
+
+      "basho": "la pandemia emerge nel testo come condizione che riconfigura simultaneamente spazio domestico, attenzione e linguaggio senza distinzione stabile tra interno ed esterno",
+
+      "kokyu": "il ritmo del pensiero osservato durante la pandemia tende alla desincronizzazione rispetto al ritmo sociale, generando accelerazioni cognitive locali e stasi globali",
+
+      "yūgen": "la relazione tra evento biologico e sua elaborazione narrativa non è completamente separabile nel campo del libro; resta una zona di sovrapposizione non risolta",
+
+      "operational_boundary": "questo field osserva la pandemia solo come variazione del regime percettivo nel testo; non pretende di descrivere il fenomeno esterno in sé",
+
+      "textual_anchor_it": "poi una mattina mi sono alzato e ho trovato il lockdown.",
+
+      "glossary_link": ["basho", "ma"]
+    },
+
+    {
+      "id": "weather-02",
+      "label": "guerra_come_interruzione_del_campo",
+      "label_en": "war_as_field_interruption",
+
+      "basho": "la guerra nel testo funziona come evento che interrompe la continuità delle configurazioni cognitive precedenti senza garantire una nuova stabilità",
+
+      "kokyu": "il tempo del pensiero si sospende: non procede né regredisce, ma perde continuità interna per durata non determinabile",
+
+      "yūgen": "l’accesso alla comprensione del campo viene temporaneamente compromesso; ciò che resta è una percezione frammentata e non ricomponibile completamente",
+
+      "operational_boundary": "questo field non analizza cause o strutture della guerra; registra solo la sua funzione di discontinuità nel campo narrativo",
+
+      "textual_anchor_it": "poi una mattina mi sono alzato e ho trovato una guerra in Europa.",
+
+      "glossary_link": ["ma", "mono no aware"]
+    },
+
+    {
+      "id": "weather-03",
+      "label": "natura_come_sistema_atmosferico_del_pensiero",
+      "label_en": "nature_as_atmospheric_system_of_thought",
+
+      "basho": "la natura opera nel testo come condizione relazionale che influenza la configurazione del pensiero più che come oggetto rappresentato",
+
+      "kokyu": "i ritmi naturali e tecnologici vengono percepiti come sistemi non sincronizzabili che coesistono senza integrazione stabile",
+
+      "yūgen": "ogni descrizione della natura nel testo produce una riduzione inevitabile del campo che tenta di descrivere",
+
+      "operational_boundary": "questo field osserva la natura solo come variabile del sistema cognitivo del testo; non implica una teoria della natura esterna",
+
+      "textual_anchor_it": "la relazione fondamentale che l'essere umano instaura con la natura denota e connota ogni civiltà.",
+
+      "glossary_link": ["mono no aware", "wabi-sabi", "basho"]
+    },
+
+    {
+      "id": "weather-04",
+      "label": "risveglio_come_soglia_atmosferica",
+      "label_en": "awakening_as_atmospheric_threshold",
+
+      "basho": "il risveglio nel testo funziona come riorganizzazione quotidiana del campo cognitivo",
+
+      "kokyu": "ogni ciclo di risveglio produce una discontinuità rispetto alla sequenza precedente senza garanzia di continuità narrativa",
+
+      "yūgen": "ciò che emerge al risveglio eccede sempre la capacità di integrazione del sistema percettivo che lo osserva",
+
+      "operational_boundary": "questo field descrive il risveglio solo come struttura narrativa del passaggio tra stati cognitivi nel testo",
+
+      "textual_anchor_it": "poi una mattina mi sono alzato e ho trovato il lockdown. Poi una mattina mi sono alzato e ho trovato una guerra.",
+
+      "glossary_link": ["ma", "kokyu", "mono no aware"]
+    }
+  ]
+}

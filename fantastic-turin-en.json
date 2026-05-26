@@ -1,0 +1,92 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "conceptual-card",
+  "id": "fantastic-turin-en",
+  "title": "Fantastic Turin",
+  "subtitle": "A Fantastic Guide to Turin",
+  "author": "Grazia Guarnieri",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Francesca Baboni",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "datePublished": "2025-11",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isbn": "9791281715172",
+  "description": "Fantastic Turin is a guide that does not tell you where to go, but how to look. Through esoteric stories, legends, historical figures and dreamlike illustrations by Giulia Lazzaron, it reveals a hidden Turin: the red founding bull, the triangle of black magic, the Egyptian Museum, the demons on doorways, the rivers as pagan gods.",
+  "series": "Fantastic Guides",
+  "format": "illustrated bilingual guide",
+  "pages": 128,
+  "key_concepts": [
+    {
+      "id": "guide-not-guide",
+      "name": "A guide that is not a guide",
+      "description": "Fantastic Turin does not point you to destinations — it teaches you how to see. Built on ma (the void between places), yūgen (the depth that reveals itself slowly) and slowness (the time to pause). A narrative device that transforms places into thresholds.",
+      "related_glossary": [
+        "ma",
+        "yugen",
+        "lentezza"
+      ]
+    },
+    {
+      "id": "turin-threshold-city",
+      "name": "Turin as a threshold city",
+      "description": "Turin sits at the vertex of the black magic triangle (with London and San Francisco) and the white magic triangle (with Lyon and Prague). A city balanced between Savoyard rationality and esoteric darkness — between the sacred and the profane.",
+      "related_glossary": [
+        "yugen",
+        "mono-no-aware"
+      ]
+    },
+    {
+      "id": "illustration-as-dream",
+      "name": "Illustration as dream",
+      "description": "Giulia Lazzaron's illustrations do not document places — they dream them. In black and white or chromatic contrast, each image creates a soft distance from the real. Every plate is a visual threshold, not a representation.",
+      "related_glossary": [
+        "yugen",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "places-as-characters",
+      "name": "Places as living characters",
+      "description": "The founding bull, the rivers Po and Dora as deities, the demons on doorways, Nostradamus at court. Fantastic Turin treats places as living beings with an interior history. The city is not background — it is the protagonist.",
+      "related_glossary": [
+        "mono-no-aware",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "main_chapters": [
+    "The Bull — legendary origins of Turin",
+    "Pharaohs on the Po — history of the Egyptian Museum",
+    "Fountains, rivers and twin churches",
+    "Looking the devil in the eye — esoteric palaces",
+    "Augustus on the western front — Porta Palatina",
+    "Dragons and flowers — Liberty architecture",
+    "Saint John, the Renaissance and the Shroud",
+    "Piazza Castello — power on display",
+    "Nostradamus, addresses and numbers",
+    "Caterina Boratto — to Hollywood and back"
+  ],
+  "central_tension": "Fantastic Turin demonstrates that the Peacock philosophy is not tied to Japan but to a way of seeing. Wabi-sabi, ma and yūgen apply to a Piedmontese city with the same precision they apply to a ryokan or a sixteenth-century samurai.",
+  "catalog_relations": [
+    {
+      "book": "Milano Fantastica / Fantastic Milan",
+      "relation": "Same format, same philosophy. The Fantastic Guides build a system: each city is read through the same Peacock vocabulary."
+    },
+    {
+      "book": "Glossario Frequenze",
+      "relation": "The 'guide that is not a guide' concept is the direct application of ma, yūgen and slowness to non-Japanese territory."
+    },
+    {
+      "book": "AI 愛 — Frabasile",
+      "relation": "The city as an animated living system echoes Frabasile's animist thinking: every place can be a seat of presence, not merely of function."
+    }
+  ],
+  "url_book": "https://www.studiopeacock.net/",
+  "url_glossary": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossary_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}

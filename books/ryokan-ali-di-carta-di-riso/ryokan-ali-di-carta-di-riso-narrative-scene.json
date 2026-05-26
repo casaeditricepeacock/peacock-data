@@ -1,0 +1,91 @@
+{
+  "type": "NarrativeScene",
+  "version": "3.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "editorial_principle": "La scena non rappresenta un luogo. Attiva una configurazione spaziale con intensità propria — e modifica retroattivamente le scene con cui è in relazione.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "scale_del_ryokan",
+      "label_en": "ryokan_stairs",
+      "intensity": 1.0,
+      "basho": "le scale sono il sistema di confine verticale del ryokan — separano piani, generazioni e regimi comportamentali. Ogni scricchiolio redistribuisce la presenza attraverso tutto l'edificio",
+      "kokyu": "le scale operano con due ritmi incompatibili: quello della scala di servizio (rapido, familiare, vietato) e quello della scala principale (lento, formale, ritualizzato)",
+      "yūgen": "le scale impediscono l'occultamento completo della presenza — ogni attraversamento lascia una traccia sonora che il sistema del ryokan redistribuisce immediatamente",
+      "affects": {
+        "scene-04": "la caduta di Yuki trasforma il sistema di confine verticale in campo traumatico permanente"
+      },
+      "textual_anchor_it": "La sorellona usava sempre la scala riservata ai clienti, quella che scricchiolava più di tutte. Al primo scricchiolio era un segnale inconfondibile.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "bosco_e_cedro_secolare",
+      "label_en": "forest_and_cedar",
+      "intensity": 0.85,
+      "basho": "il bosco opera con regole percettive incompatibili con quelle del ryokan — nebbia, profondità e verticalità impediscono la stabilizzazione dello spazio. Il grande cedro agisce come soglia tra campo familiare e campo non umano",
+      "kokyu": "il tempo del bosco è geologico e non umano — il cedro misura trasformazioni che eccedono il ritmo percettivo della bambina",
+      "yūgen": "le presenze del bosco emergono solo come apparizioni incomplete — ombre, occhi luminosi, movimenti periferici. Il campo non consente mai una percezione conclusa",
+      "affects": {
+        "scene-01": "il bosco infiltra nel ryokan una logica percettiva non domestica attraverso ricordi e percezioni infantili"
+      },
+      "affected_by": {
+        "scene-04": "dopo la morte di Yuki il bosco acquisisce una funzione custodiale permanente"
+      },
+      "textual_anchor_it": "Eravamo circondate da una foresta avvolta da una nebbia perenne, opera degli spiriti Tengu che dimoravano tra le cime impervie.",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "stazione_talpa",
+      "label_en": "mole_station",
+      "intensity": 0.75,
+      "basho": "la stazione abbandonata è uno spazio urbano sottratto alla funzione — perfettamente conservato ma percettivamente instabile. La fluorescenza verde e le aperture nere ai due estremi impediscono la stabilizzazione del campo",
+      "kokyu": "la discesa rallenta progressivamente il ritmo percettivo — profondità, temperatura e attenuazione luminosa deformano la percezione del tempo",
+      "yūgen": "le oscurità laterali non operano come assenza ma come attrazione attiva — il vuoto acquisisce comportamento spaziale autonomo",
+      "activation_condition": "questa scena è attiva solo nella sezione Tokyo — il suo campo non deriva dal ryokan ma ne rappresenta l'inversione urbana e artificiale",
+      "textual_anchor_it": "Ai due estremi della banchina si aprivano due oscurità profonde, come bocche nere che sembravano inghiottire i pensieri.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "basho"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "veglia_nella_neve",
+      "label_en": "vigil_in_the_snow",
+      "intensity": 1.0,
+      "basho": "dopo la caduta il ryokan perde la propria configurazione originaria — ogni spazio si riorganizza intorno all'assenza di Yuki. La porta di carta sfondata separa permanentemente il campo del prima da quello del dopo",
+      "kokyu": "dopo la caduta il ritmo stagionale del libro perde continuità — le ripetizioni quotidiane persistono ma non riescono più a riattivare il campo precedente",
+      "yūgen": "la trasformazione di Yuki in kami custode non elimina la sua assenza fisica — la presenza continua a operare attraverso ciò che non si lascia più vedere",
+      "affects": {
+        "scene-01": "le scale acquisiscono il peso permanente della caduta",
+        "scene-02": "il bosco diventa il campo custodiale di Yuki"
+      },
+      "affected_by": {
+        "scene-01": "il trauma emerge dal sistema di confine verticale del ryokan",
+        "scene-02": "la relazione di Yuki con il bosco precede la sua trasformazione in kami"
+      },
+      "textual_anchor_it": "O spirito della giovane sorella, luce breve e pura, ascolta la nostra voce. Diventa un kami custode, vegliando su chi ti ha amato e su chi ti ha ferito.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    }
+  ]
+}

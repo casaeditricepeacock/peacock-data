@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeObject",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "L’oggetto narrativo non è un elemento decorativo né informativo. È una condensazione percettiva: una forma materiale che modifica il comportamento dello spazio narrativo e la posizione del lettore al suo interno.",
+
+  "objects": [
+
+    {
+      "id": "object-01",
+      "label": "maschera_nō",
+      "label_en": "nō_mask",
+
+      "definition_it": "Un volto costruito per sostituire il volto umano con una presenza rituale.",
+
+      "material_behavior": "il legno dipinto trattiene la luce e la restituisce in modo incompleto; la superficie sembra osservare chi la guarda",
+
+      "field_activation": "la comparsa della maschera interrompe la percezione individuale del personaggio e introduce una presenza non psicologica, più ampia del corpo che la indossa",
+
+      "narrative_pressure": "ogni apparizione della maschera riduce la distanza tra scena e rito, spostando il testo verso una zona liminale",
+
+      "perceptual_effect": "il lettore smette di cercare emozione o espressione; percepisce una forma che agisce più che un volto che comunica",
+
+      "textual_anchor_it": "con la sua maschera dipinta, il costume in strati e drappeggi di sete cascanti e broccati rigidi di ogni colore",
+
+      "glossary_link": ["yūgen", "ma"]
+    },
+
+    {
+      "id": "object-02",
+      "label": "abito_del_ruolo",
+      "label_en": "costume_of_role",
+
+      "definition_it": "Un sistema vestimentario che opera come linguaggio di potere prima che come ornamento.",
+
+      "material_behavior": "strati di seta, tessuti poveri e inserti metallici convivono senza gerarchia estetica stabile",
+
+      "field_activation": "l’abito introduce una logica sociale immediata: ciò che viene indossato determina posizione, distanza e possibilità di azione",
+
+      "narrative_pressure": "la moda smette di essere contesto e diventa struttura del conflitto",
+
+      "perceptual_effect": "il lettore percepisce che ogni corpo è un dispositivo politico prima ancora che un individuo",
+
+      "textual_anchor_it": "L’abito unisce, l’abito divide.",
+
+      "glossary_link": ["mottainai", "basho"]
+    },
+
+    {
+      "id": "object-03",
+      "label": "taiko_e_nokan",
+      "label_en": "taiko_and_nokan",
+
+      "definition_it": "Una coppia sonora che organizza il ritmo percettivo della narrazione.",
+
+      "material_behavior": "pelle tesa e legno percussivo da un lato, canna laccata e vuoto interno dall’altro",
+
+      "field_activation": "il taiko stabilisce continuità fisica del tempo; il nokan apre interruzioni percettive che sospendono la linearità",
+
+      "narrative_pressure": "la scena oscilla tra ripetizione e apertura, tra corpo e soglia",
+
+      "perceptual_effect": "il lettore non interpreta i suoni ma li subisce come variazione del ritmo interno della lettura",
+
+      "textual_anchor_it": "i suonatori di taiko battevano ritmi ossessivi e il suono del flauto nokan invocava gli spiriti",
+
+      "glossary_link": ["kokyu", "ma"]
+    },
+
+    {
+      "id": "object-04",
+      "label": "ventaglio_da_combattimento",
+      "label_en": "war_fan",
+
+      "definition_it": "Un oggetto che contiene simultaneamente gesto estetico e funzione di conflitto.",
+
+      "material_behavior": "carta rinforzata o ferro sottile: due stati della materia coesistono nello stesso oggetto",
+
+      "field_activation": "l’oggetto introduce l’idea che ogni forma estetica possa essere immediatamente convertita in azione",
+
+      "narrative_pressure": "la distinzione tra decorazione e violenza si dissolve",
+
+      "perceptual_effect": "il lettore riconosce che la bellezza nel mondo samurai non è separabile dalla strategia",
+
+      "textual_anchor_it": "il ventaglio da combattimento in carta washi o in ferro",
+
+      "glossary_link": ["mottainai", "wabi-sabi"]
+    },
+
+    {
+      "id": "object-05",
+      "label": "armatura_scenografica",
+      "label_en": "theatrical_armor",
+
+      "definition_it": "Una struttura visiva che precede la funzione difensiva.",
+
+      "material_behavior": "ferro, lacca e ornamenti che amplificano la silhouette del corpo invece di proteggerlo soltanto",
+
+      "field_activation": "l’armatura trasforma il corpo in segno visibile prima ancora che in organismo fisico",
+
+      "narrative_pressure": "il combattimento diventa anche comunicazione a distanza",
+
+      "perceptual_effect": "il lettore percepisce la guerra come sistema visivo oltre che militare",
+
+      "textual_anchor_it": "i samurai si distinguevano per l’armatura dall’impressionante aspetto scenografico",
+
+      "glossary_link": ["basho", "yūgen"]
+    }
+  ]
+}

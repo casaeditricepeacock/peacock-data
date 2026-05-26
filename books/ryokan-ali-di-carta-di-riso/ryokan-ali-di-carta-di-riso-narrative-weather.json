@@ -1,0 +1,127 @@
+{
+  "type": "NarrativeWeather",
+  "version": "3.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "editorial_principle": "Il clima non è sfondo. È il sistema che regola la densità percettiva del campo e la sua capacità di sostenere o interrompere i rituali che lo abitano.",
+  "weather_fields": [
+    {
+      "id": "weather-00",
+      "label": "assenza_climatica",
+      "label_en": "climatic_void",
+      "intensity": 0.0,
+      "perceptual_weight": "null",
+      "basho": "non esiste configurazione atmosferica attiva. Il campo è operativo ma non percettivo",
+      "kokyu": "nessun ritmo si attiva. Il tempo non è sospeso: è non inizializzato",
+      "yūgen": "non esiste limite percepibile perché non esiste attraversamento percettivo",
+      "activation_condition": "attivo sempre come fondo strutturale non emergente",
+      "textual_anchor_it": "—",
+      "glossary_link": []
+    },
+    {
+      "id": "weather-01",
+      "label": "stagione_delle_piogge",
+      "label_en": "rainy_season",
+      "intensity": 0.9,
+      "basho": "la pioggia non delimita uno spazio ma ne modifica la permeabilità — tutto ciò che era separato diventa contiguo",
+      "kokyu": "il ritmo della pioggia è continuo e non periodico — non scandisce il tempo ma lo sospende in un’attesa senza durata definita",
+      "yūgen": "la sparizione non è evento né assenza — è discontinuità non osservabile tra due stati del campo",
+      "affects": {
+        "weather-03": "la primavera non è conseguenza della pioggia ma deviazione dal sistema atmosferico"
+      },
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "ritual",
+          "scene",
+          "object"
+        ],
+        "mode": "non-binary"
+      },
+      "textual_anchor_it": "Sono arrivata nel periodo delle piogge, quel tempo incerto.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "neve_del_trauma",
+      "label_en": "trauma_snow",
+      "intensity": 1.0,
+      "basho": "la neve ridefinisce ogni superficie come campo silenzioso non differenziato",
+      "kokyu": "la neve non scandisce il tempo — lo interrompe senza produrre continuità alternativa",
+      "yūgen": "il campo atmosferico e il campo emotivo collassano nello stesso stato senza possibilità di separazione osservabile",
+      "affects": {
+        "weather-04": "la luce dopo la neve non è transizione ma permanenza modificata"
+      },
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "scene"
+        ],
+        "mode": "non-binary"
+      },
+      "textual_anchor_it": "Nevicava da dieci giorni.",
+      "glossary_link": [
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "primavera_giallo_primordiale",
+      "label_en": "primordial_yellow_spring",
+      "intensity": 0.85,
+      "basho": "la primavera irrompe come campo cromatico totale senza transizione graduale",
+      "kokyu": "il ritmo della primavera non è opposto all’inverno — è deviazione improvvisa dal sistema senza corrispettivo strutturale",
+      "yūgen": "la luna non scompare nel giallo — viene riassorbita come interferenza percettiva",
+      "affected_by": {
+        "weather-01": "la primavera non deriva dalla pioggia ma si genera come scarto del sistema atmosferico"
+      },
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "scene"
+        ],
+        "mode": "non-binary"
+      },
+      "textual_anchor_it": "Un giallo, questa è la primavera.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "sole_del_lutto",
+      "label_en": "mourning_sun",
+      "intensity": 0.75,
+      "basho": "la luce non ripristina — rende leggibile il campo già modificato",
+      "kokyu": "il sole non accelera il tempo — lo espone senza modificarne la struttura",
+      "yūgen": "il lutto non si chiude nella luce — viene reso visibile senza diventare risolvibile",
+      "affected_by": {
+        "weather-02": "la neve non termina nel sole — il sole ne eredita la struttura modificata"
+      },
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "ritual",
+          "scene"
+        ],
+        "mode": "non-binary"
+      },
+      "textual_anchor_it": "il sole iniziava a riscaldare quel vuoto",
+      "glossary_link": [
+        "ma",
+        "wabi-sabi"
+      ]
+    }
+  ]
+}

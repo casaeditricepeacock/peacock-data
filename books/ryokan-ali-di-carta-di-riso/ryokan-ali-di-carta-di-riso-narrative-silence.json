@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeSilence",
+  "version": "3.2",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "silence_types": {
+    "residual": "assenza generata da evento narrativo localizzato",
+    "structural": "assenza pre-esistente al sistema narrativo",
+    "recursive": "assenza che modifica la topologia degli altri silenzi"
+  },
+  "editorial_principle": "Il silenzio non è assenza di contenuto. È una zona dove il campo non si chiude — e ogni chiusura mancata ridistribuisce la struttura dell’intero sistema.",
+  "silences": [
+    {
+      "id": "silence-00",
+      "label": "zona_fredda_silenzio",
+      "label_en": "cold_silence_zone",
+      "type": "structural",
+      "intensity": 0.0,
+      "perceptual_weight": "null",
+      "basho": "nessuna configurazione spaziale attiva. Il campo esiste come struttura non emergente",
+      "kokyu": "nessun ritmo si inizializza. Il tempo non è sospeso: è non attivato",
+      "yūgen": "il limite non è osservabile perché non esiste punto di osservazione interno",
+      "activation_condition": {
+        "trigger": "never",
+        "mode": "structural_only"
+      },
+      "textual_anchor_it": "—",
+      "glossary_link": []
+    },
+    {
+      "id": "silence-01",
+      "label": "segreto_di_yuki",
+      "label_en": "yuki_secret",
+      "type": "residual",
+      "intensity": 1.0,
+      "basho": "Yuki abita uno spazio percettivo non condiviso — il suo campo non coincide con quello familiare ma lo attraversa senza interazione stabile",
+      "kokyu": "il segreto non si accumula né si esaurisce — esiste come continuità non misurabile",
+      "yūgen": "il non accessibile emerge solo come traccia indiretta e instabile nel campo",
+      "affects": {
+        "silence-03": "il non-detto familiare si distribuisce tra fratello e Yuki come sistema non simmetrico"
+      },
+      "textual_anchor_it": "Non diceva mai ciò che vedeva.",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "sparizione_di_rie",
+      "label_en": "rie_disappearance",
+      "type": "residual",
+      "intensity": 0.85,
+      "basho": "la sparizione non modifica lo spazio — modifica la leggibilità dello spazio stesso",
+      "kokyu": "l’assenza non ha ritmo ma produce variazioni nel ritmo degli altri elementi",
+      "yūgen": "il limite cambia posizione quando viene descritto",
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "scene",
+          "weather"
+        ],
+        "mode": "non-binary"
+      },
+      "textual_anchor_it": "Spariva senza avvertire.",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_del_fratello",
+      "label_en": "brother_silence",
+      "type": "residual",
+      "intensity": 0.9,
+      "basho": "il fratello non occupa il campo familiare in modo stabile — lo interrompe per incompatibilità ritmica",
+      "kokyu": "il suo tempo non si sincronizza mai con il sistema domestico",
+      "yūgen": "il non-detto non è contenuto nel personaggio ma nella relazione tra eventi che non si chiudono",
+      "affects": {
+        "silence-04": "l’assenza del fratello introduce una seconda discontinuità nel campo domestico"
+      },
+      "textual_anchor_it": "Scelse di lasciare la famiglia.",
+      "glossary_link": [
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "stanza_fantasma",
+      "label_en": "ghost_room",
+      "type": "recursive",
+      "intensity": 0.95,
+      "basho": "la stanza fantasma non contiene il silenzio — lo redistribuisce tra gli altri nodi del sistema",
+      "kokyu": "ogni accesso riattiva lo stesso istante senza progressione temporale",
+      "yūgen": "il limite si sposta quando viene osservato",
+      "affects": {
+        "silence-01": "la stanza fantasma amplifica la sovrapposizione tra presenza e assenza nel campo familiare",
+        "silence-03": "le due assenze non si sommano ma interferiscono creando un nuovo livello di silenzio"
+      },
+      "textual_anchor_it": "Mi rifugiavo nella stanza fantasma del ryokan.",
+      "glossary_link": [
+        "wabi-sabi",
+        "mono no aware"
+      ]
+    }
+  ]
+}

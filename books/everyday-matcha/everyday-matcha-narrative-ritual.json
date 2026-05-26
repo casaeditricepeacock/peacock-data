@@ -1,0 +1,140 @@
+{
+  "type": "NarrativeRitual",
+  "version": "3.3",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "ritual_types": {
+    "codified": "sequenza fissa con variazioni controllate — ogni gesto ha peso strutturale",
+    "compressed": "versione ridotta del rituale codificato che conserva la struttura senza la forma completa",
+    "degraded": "sequenza che perde elementi strutturali — il campo percettivo si indebolisce ma non si annulla",
+    "inverted": "sequenza che produce effetti opposti al rituale codificato",
+    "interfered": "sequenza attraversata da un disturbo percettivo che altera la continuità del tempo rituale"
+  },
+
+  "editorial_principle": "Il rituale del matcha non descrive una pratica. Attiva una condizione percettiva nel campo del tempo. Ogni deviazione — compressione, degrado o interferenza — non cancella il rito ma lo rende leggibile come sistema vivo.",
+
+  "rituals": [
+
+    {
+      "id": "ritual-01",
+      "label": "chanoyu_cerimonia_formale",
+      "label_en": "chanoyu_formal_ceremony",
+      "type": "codified",
+      "intensity": 1.0,
+
+      "basho": "la cerimonia codifica lo spazio attraverso sottrazioni successive — nijiri-guchi, silenzio, sospensione delle gerarchie. Il chashitsu diventa un campo autonomo separato dalla continuità del mondo",
+
+      "kokyu": "ogni fase ha durata non comprimibile: purificazione, accoglienza, preparazione del koicha, degustazione, congedo. Il tempo non viene accelerato ma ricostruito localmente",
+
+      "yūgen": "l’Ichigo Ichie non è un principio estetico ma un vincolo ontologico: ciò che accade nella cerimonia non può essere riprodotto perché il tempo non si ripete nella stessa configurazione",
+
+      "affects": {
+        "ritual-02": "il gesto quotidiano eredita una struttura ridotta del Chanoyu",
+        "ritual-03": "la purificazione deriva dalla necessità di creare uno spazio non contaminato dal precedente stato del tempo",
+        "ritual-05": "ogni interferenza moderna misura implicitamente la distanza dalla forma codificata"
+      },
+
+      "textual_anchor_it": "La cerimonia del tè non organizza oggetti: organizza la possibilità stessa dell’attenzione.",
+      "glossary_link": ["ma", "kokyu", "wabi-sabi", "mono no aware"]
+    },
+
+    {
+      "id": "ritual-02",
+      "label": "preparazione_quotidiana_usucha",
+      "label_en": "daily_usucha_preparation",
+      "type": "compressed",
+      "intensity": 0.84,
+
+      "basho": "la cucina contemporanea si attiva temporaneamente come campo rituale minimo — lo spazio non cambia forma ma cambia funzione percettiva",
+
+      "kokyu": "la sequenza è compressa ma integra: setacciare, scaldare, dosare, montare, osservare, bere. La riduzione riguarda la durata, non la struttura",
+
+      "yūgen": "la presenza non è proporzionale al tempo: un gesto breve può contenere la stessa densità percettiva di un rituale esteso se il campo di attenzione è completo",
+
+      "affected_by": {
+        "ritual-01": "la struttura del Chanoyu sopravvive come memoria implicita del gesto ridotto"
+      },
+
+      "activation_condition": {
+        "trigger": "presence_threshold",
+        "mode": "non-binary"
+      },
+
+      "textual_anchor_it": "La forma si comprime. La struttura non collassa.",
+      "glossary_link": ["ma", "kokyu", "lentezza"]
+    },
+
+    {
+      "id": "ritual-03",
+      "label": "purificazione_degli_utensili",
+      "label_en": "utensil_purification",
+      "type": "codified",
+      "intensity": 0.9,
+
+      "basho": "la purificazione non separa pulito e sporco — separa stati del tempo. Ogni oggetto viene riportato a uno stato precedente alla sua attivazione rituale",
+
+      "kokyu": "i movimenti sono silenziosi e misurati — il gesto non serve l’efficienza ma la preparazione del campo percettivo successivo",
+
+      "yūgen": "la pulizia non è mai completa: ogni utensile conserva una microtraccia del gesto precedente che non può essere eliminata senza distruggere l’oggetto stesso",
+
+      "affects": {
+        "ritual-01": "la cerimonia dipende dalla qualità della purificazione come soglia temporale",
+        "ritual-04": "la cucina moderna replica inconsciamente la logica della purificazione nel riordino domestico"
+      },
+
+      "textual_anchor_it": "Pulire non significa cancellare: significa preparare il tempo successivo.",
+      "glossary_link": ["ma", "mottainai", "kokyu"]
+    },
+
+    {
+      "id": "ritual-04",
+      "label": "riordino_domestico_post_matcha",
+      "label_en": "post_matcha_domestic_reset",
+      "type": "compressed",
+      "intensity": 0.62,
+
+      "basho": "la cucina torna allo stato ordinario ma conserva una lieve risonanza del campo rituale appena concluso",
+
+      "kokyu": "il tempo post-rituale è discontinuo — piccoli gesti automatici si alternano a residui di attenzione non dissolta",
+
+      "yūgen": "ciò che rimane non è l’oggetto ma la variazione percettiva prodotta dal gesto precedente",
+
+      "affected_by": {
+        "ritual-02": "la preparazione quotidiana lascia una traccia ambientale minima",
+        "ritual-03": "la purificazione modella il modo in cui lo spazio viene restituito alla normalità"
+      },
+
+      "textual_anchor_it": "Dopo il matcha, la cucina non è uguale a prima — ma non abbastanza diversa da essere riconosciuta.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+
+    {
+      "id": "ritual-05",
+      "label": "interferenza_urbana",
+      "label_en": "urban_interference",
+      "type": "interfered",
+      "intensity": 0.58,
+
+      "basho": "neon, traffico, notifiche, accelerazione. Il rituale emerge in uno spazio che non è stato progettato per contenerlo",
+
+      "kokyu": "la sequenza si interrompe e riparte — dosaggio frettoloso, acqua non stabile, attenzione frammentata. Il ritmo non collassa ma si disallinea",
+
+      "yūgen": "anche nell’interferenza resta una micro-continuità impossibile da eliminare: il gesto tenta comunque di formare un campo",
+
+      "affects": {
+        "ritual-02": "la versione compressa entra in competizione con sistemi di attenzione esterni",
+        "ritual-01": "la forma codificata appare come memoria remota non più accessibile direttamente"
+      },
+
+      "textual_anchor_it": "Il rituale non scompare nella velocità: si frammenta senza perdere completamente la forma.",
+      "glossary_link": ["kokyu", "ma"]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "type": "NarrativeSilence",
+  "version": "3.4",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "silence_types": {
+    "structural": "silenzio pre-esistente al sistema — condizione necessaria del campo",
+    "residual": "silenzio generato da evento o gesto — permane dopo la conclusione",
+    "recursive": "silenzio che modifica la struttura degli altri silenzi",
+    "productive": "silenzio che genera qualcosa — non assenza ma gestazione",
+    "null_silence": "silenzio non integrabile nel sistema — non produce effetti, non è osservabile direttamente, ma altera indirettamente le condizioni di tutti gli altri silenzi senza entrare in relazione causale esplicita"
+  },
+
+  "editorial_principle": "Il silenzio del matcha non è assenza di suono. È una stratificazione non simmetrica di condizioni percettive. Alcuni silenzi attivano il campo, altri lo consumano, altri non lo attraversano affatto.",
+
+  "system_rules": {
+
+    "rule-01": "le relazioni tra silenzi non sono più necessariamente bidirezionali",
+    "rule-02": "alcuni silenzi non generano effetti ma modificano la probabilità degli effetti altrui",
+    "rule-03": "la percezione del silenzio non garantisce la sua esistenza operativa",
+    "rule-04": "esiste una zona non rappresentabile che influisce sul sistema senza essere mappata"
+
+  },
+
+  "silences": [
+
+    {
+      "id": "silence-01",
+      "label": "silenzio_del_chashitsu",
+      "type": "structural",
+      "intensity": 1.0,
+
+      "basho": "il chashitsu non produce silenzio come assenza ma come configurazione spaziale attiva che esclude il rumore prima che il rumore possa essere definito",
+      "kokyu": "il ritmo cerimoniale non riempie il silenzio — lo stabilizza temporaneamente in forme ripetibili",
+      "yūgen": "il silenzio del chashitsu non è contenuto nello spazio ma lo eccede in entrambe le direzioni temporali",
+
+      "affects": {
+        "silence-02": "stabilizza la possibilità dell’attesa",
+        "silence-04": "condiziona la densità del residuo post-sorso"
+      },
+
+      "asymmetry": true,
+
+      "textual_anchor_it": "Il silenzio non precede il tè. Lo rende possibile senza apparire."
+    },
+
+    {
+      "id": "silence-02",
+      "label": "silenzio_dell_attesa_dell_acqua",
+      "type": "productive",
+      "intensity": 0.83,
+
+      "basho": "l’attesa dell’acqua non è un intervallo ma una sospensione attiva della decisione",
+      "kokyu": "il tempo non scorre: si addensa fino al punto di transizione termica",
+      "yūgen": "la soglia non è osservabile mentre avviene",
+
+      "affected_by": {
+        "silence-01": "deriva strutturale dal silenzio del chashitsu",
+        "silence-null": "introduce variazioni non percepibili nella qualità dell’attesa"
+      },
+
+      "textual_anchor_it": "Non si aspetta l’acqua. Si attraversa la sua trasformazione."
+    },
+
+    {
+      "id": "silence-03",
+      "label": "silenzio_della_macinazione",
+      "type": "productive",
+      "intensity": 0.91,
+
+      "basho": "la macinazione non produce suono dominante ma micro-ritmiche ripetitive che si annullano percettivamente",
+      "kokyu": "un’ora non è durata ma densificazione progressiva del gesto",
+      "yūgen": "ogni granulo di polvere contiene una storia non separabile del processo",
+
+      "affects": {
+        "silence-04": "introduce memoria materiale nel residuo post-sorso"
+      },
+
+      "irreversibility": true,
+
+      "textual_anchor_it": "La lentezza non accompagna il processo: è il processo."
+    },
+
+    {
+      "id": "silence-04",
+      "label": "silenzio_post_sorso",
+      "type": "residual",
+      "intensity": 0.86,
+
+      "basho": "il corpo diventa estensione del campo percettivo per un tempo non sincronizzato",
+      "kokyu": "la durata non è misurabile dall’esterno né dall’interno",
+      "yūgen": "il residuo non è contenuto nel sapore ma nel suo decadimento percettivo",
+
+      "affected_by": {
+        "silence-03": "contiene memoria della macinazione",
+        "silence-null": "introduce vuoti non descrivibili nel residuo"
+      },
+
+      "textual_anchor_it": "Dopo il sorso, il tè continua senza tè."
+    },
+
+    {
+      "id": "silence-05",
+      "label": "silenzio_dell_ombra",
+      "type": "productive",
+      "intensity": 0.80,
+
+      "basho": "l’ombra non è oscuramento ma riorganizzazione della luce in sistema produttivo",
+      "kokyu": "la durata stagionale stabilisce un ritmo non comprimibile",
+      "yūgen": "ciò che accade sotto l’ombra non è traducibile in osservazione diretta",
+
+      "affects": {
+        "silence-03": "modula la qualità della macinazione attraverso la materia prima"
+      },
+
+      "non_reciprocal": true,
+
+      "textual_anchor_it": "La luce non sparisce. Viene riorganizzata altrove."
+    },
+
+    {
+      "id": "silence-06",
+      "label": "silenzio_della_tradizione",
+      "type": "recursive",
+      "intensity": 0.72,
+
+      "basho": "la tradizione non è continuità ma sopravvivenza discontinua",
+      "kokyu": "ogni generazione ricostruisce il silenzio senza possederne la forma originaria",
+      "yūgen": "ciò che si conserva è sempre incompleto per definizione",
+
+      "affects": {
+        "silence-01": "aumenta la densità storica del chashitsu"
+      },
+
+      "textual_anchor_it": "Ciò che sopravvive non coincide con ciò che è stato."
+    },
+
+    {
+      "id": "silence-null",
+      "label": "silenzio_null_integrabile",
+      "type": "null_silence",
+      "intensity": 0.0,
+
+      "basho": "non localizzabile — non produce configurazione spaziale",
+      "kokyu": "non attivabile — nessuna temporalità riconoscibile",
+      "yūgen": "non rappresentabile — ogni tentativo di descrizione lo rimuove",
+
+      "system_effect": {
+        "mode": "non-causal",
+        "impact": "modifica le probabilità di attivazione degli altri silenzi senza interazione diretta"
+      },
+
+      "textual_anchor_it": "Non è ciò che manca. È ciò che impedisce alla mancanza di diventare forma.",
+
+      "glossary_link": []
+    }
+  ]
+}

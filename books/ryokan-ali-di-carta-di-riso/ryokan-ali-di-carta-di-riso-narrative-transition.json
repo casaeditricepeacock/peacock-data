@@ -1,0 +1,121 @@
+{
+  "type": "NarrativeTransition",
+  "version": "3.3",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "transition_types": {
+    "irreversible": "transizione che modifica permanentemente il campo — il sistema precedente non è ripristinabile",
+    "suspended": "transizione iniziata ma non completata — il sistema oscilla tra due stati senza stabilizzarsi",
+    "recursive": "transizione che modifica retroattivamente le transizioni precedenti",
+    "external_irruption": "campo autonomo che entra nel sistema senza essere traducibile nelle regole precedenti — produce residuo non integrabile"
+  },
+  "editorial_principle": "La transizione non produce cambiamento. Espone l incompatibilità simultanea di due regimi percettivi — e in questo libro alcune transizioni non si completano mai.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "da_bambina_a_testimone",
+      "label_en": "from_child_to_witness",
+      "type": "suspended",
+      "intensity": 0.85,
+      "basho": "la narratrice non occupa mai completamente lo spazio adulto — il ryokan la trattiene in una posizione intermedia tra chi vive e chi osserva",
+      "kokyu": "il ritmo della transizione non raggiunge mai uno stato finale — ogni sezione del libro la mostra in un punto diverso dello stesso passaggio non completato",
+      "yūgen": "la transizione è leggibile solo come processo mai concluso — non esiste momento in cui la bambina diventa definitivamente testimone",
+      "affects": {
+        "transition-03": "la partenza per Tokyo non completa la transizione — sposta il sistema in sospensione verso un nuovo campo senza risolvere il precedente"
+      },
+      "textual_anchor_it": "Passavo i pomeriggi a leggere, aspettando. Non sapevo ancora cosa stessi davvero osservando.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "da_yuki_viva_a_kami",
+      "label_en": "from_yuki_living_to_kami",
+      "type": "irreversible",
+      "intensity": 1.0,
+      "basho": "la transizione non sposta Yuki in uno spazio diverso — espande il suo campo percettivo fino a includere tutto il ryokan e il bosco simultaneamente",
+      "kokyu": "il momento della transizione non è localizzabile nel testo — il sistema registra solo gli stati prima e dopo senza accesso all intervallo",
+      "yūgen": "Yuki come kami non è assente — opera in un campo non accessibile ai vivi che tuttavia continua a modificare il campo familiare",
+      "affects": {
+        "transition-01": "la trasformazione di Yuki modifica retroattivamente tutto il campo della narratrice — ogni memoria precedente viene riletta come presagio",
+        "transition-03": "la partenza per Tokyo è resa possibile solo dopo che Yuki è diventata kami custode"
+      },
+      "affected_by": {
+        "transition-01": "Yuki esiste come figura liminale già prima della morte — la sua trasformazione in kami è continuazione di uno stato già parzialmente attivo"
+      },
+      "textual_anchor_it": "O spirito della giovane sorella, diventa kami custode. Il corpo fu cremato. Lo spirito veglierà.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "da_ryokan_a_tokyo",
+      "label_en": "from_ryokan_to_tokyo",
+      "type": "external_irruption",
+      "intensity": 0.82,
+      "basho": "Tokyo non si configura come sostituzione né come estensione del ryokan. Si manifesta come campo autonomo che entra nel sistema senza essere completamente traducibile nelle regole spaziali precedenti. Il ryokan continua a esistere come campo attivo anche in assenza di co-presenza fisica",
+      "kokyu": "il ritmo del passaggio non è continuo né interrotto: è asincrono. Alcuni elementi del ryokan si attivano a intervalli in Tokyo senza relazione causale diretta. Il tempo non si sposta, si duplica in registri non sincronizzati",
+      "yūgen": "la relazione tra ryokan e Tokyo produce un effetto di doppia esposizione non risolvibile. Nessuno dei due campi può essere completamente assorbito nell altro, e la loro sovrapposizione genera una zona percettiva non riducibile a un unico sistema di lettura",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "persistenza del ryokan come campo attivo in assenza di contesto fisico; Tokyo non riesce a neutralizzare né a sostituire questa attivazione"
+      },
+      "affects": {
+        "transition-01": "la condizione di testimone resta sospesa; la doppia esposizione impedisce la stabilizzazione identitaria della narratrice"
+      },
+      "affected_by": {
+        "transition-02": "la partenza è possibile solo dopo la veglia — il campo deve registrare la trasformazione di Yuki prima di poter essere abbandonato"
+      },
+      "activation_condition": {
+        "trigger": "narrative_phase",
+        "phase_dependency": [
+          "ritual-02"
+        ],
+        "mode": "sequential"
+      },
+      "textual_anchor_it": "Il treno si è fermato senza rumore. Tokyo era già lì, ma il ryokan non aveva smesso di esistere.",
+      "glossary_link": [
+        "ma",
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "da_famiglia_a_frammento",
+      "label_en": "from_family_to_fragment",
+      "type": "recursive",
+      "intensity": 0.9,
+      "basho": "la famiglia non si dissolve — si frammenta mantenendo i propri elementi separati nello stesso campo. Il ryokan continua a contenere le assenze come se fossero presenze",
+      "kokyu": "ogni partenza riorganizza retroattivamente il ritmo precedente — la colazione, il pellegrinaggio, le scale diventano campi di un sistema che non può più assemblarsi",
+      "yūgen": "la frammentazione non produce un nuovo stato stabile — il campo familiare resta in oscillazione permanente tra ciò che era e ciò che non può più essere",
+      "affects": {
+        "transition-01": "la narratrice non è testimone di una famiglia intera ma di un sistema già in frammentazione",
+        "transition-02": "la morte di Yuki non è causa della frammentazione — è il momento in cui la frammentazione preesistente diventa irrisolvibile",
+        "transition-03": "la partenza per Tokyo è un frammento che si separa dal sistema senza rompere il campo"
+      },
+      "affected_by": {
+        "transition-02": "la trasformazione di Yuki in kami è l unico elemento del sistema che non si frammenta"
+      },
+      "textual_anchor_it": "Eppure, nonostante tutto, grazie a nostra nonna, eravamo una famiglia unita da una forza misteriosa. Poi il ryokan trattenne il fiato.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "ma",
+        "basho"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente"
+  },
+
+  "editorial_principle": "Il rituale non è azione intenzionale ma ripetizione che genera campo. Ogni gesto diventa rituale solo quando perde la sua funzione pratica e mantiene la sua forma percettiva.",
+
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "aprire_la_busta_del_libro",
+      "type": "involuntary",
+      "intensity": 0.88,
+
+      "basho": "lo spazio si contrae tra attesa e apertura. La busta non è contenitore ma soglia temporale",
+      "kokyu": "ritmo in due tempi: sospensione → apertura",
+      "yūgen": "il gesto è identico ma il campo cambia ogni volta",
+
+      "affects": {
+        "ritual-04": "ripetizione del gesto nel campo finale senza continuità emotiva"
+      },
+
+      "textual_anchor_it": "Aprivo la busta dopo averla fatta riposare.",
+
+      "glossary_link": ["ma", "kokyu"]
+    },
+
+    {
+      "id": "ritual-02",
+      "label": "inchino_al_monte",
+      "type": "codified",
+      "intensity": 0.82,
+
+      "basho": "il sentiero si trasforma in interlocutore attraverso il gesto iniziale",
+      "kokyu": "tempo istantaneo che ricalibra il corpo prima del movimento",
+      "yūgen": "nessuna risposta dal monte è prevista né necessaria",
+
+      "textual_anchor_it": "All'inizio del sentiero, era d'obbligo un inchino.",
+
+      "glossary_link": ["basho", "ma"]
+    },
+
+    {
+      "id": "ritual-03",
+      "label": "domenica_senza_sveglia",
+      "type": "compressed",
+      "intensity": 0.9,
+
+      "basho": "lo spazio domestico diventa autonomo dal tempo urbano",
+      "kokyu": "tempo autoregolato dalla presenza condivisa",
+      "yūgen": "il rituale collassa con la scomparsa di uno dei due corpi",
+
+      "affects": {
+        "ritual-05": "dopo la perdita di Rie il campo non si riattiva"
+      },
+
+      "textual_anchor_it": "Senza la sveglia, il tempo non aveva più forma.",
+
+      "glossary_link": ["kokyu", "ma"]
+    },
+
+    {
+      "id": "ritual-04",
+      "label": "leggere_il_libro_di_rie",
+      "type": "interfered",
+      "intensity": 1.0,
+
+      "basho": "il masso diventa interfaccia tra memoria e lettura. Il luogo non contiene il libro: lo attiva",
+      "kokyu": "tempo collassato: passato (Rie scrive), presente (lettura), ritorno (ricordo) coincidono",
+      "yūgen": "il libro letto è indistinguibile dal libro scritto",
+
+      "affects": {
+        "ritual-01": "il gesto iniziale ritorna senza origine identificabile"
+      },
+
+      "textual_anchor_it": "Lessi il libro tutto di un fiato sul grande masso.",
+
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+
+    {
+      "id": "ritual-05",
+      "label": "assenza_di_Rie",
+      "type": "degraded",
+      "intensity": 0.75,
+
+      "basho": "lo spazio rimane ma perde coerenza percettiva interna",
+      "kokyu": "ritmo senza più alternanza: solo attesa",
+      "yūgen": "il campo non si chiude ma si svuota progressivamente",
+
+      "textual_anchor_it": "Rie non c’era più.",
+
+      "glossary_link": ["mono no aware"]
+    }
+  ]
+}

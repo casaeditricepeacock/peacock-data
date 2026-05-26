@@ -1,0 +1,89 @@
+{
+  "type": "NarrativeRitual",
+  "version": "2.0-refined",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "Il rituale cognitivo non descrive una pratica. Introduce una variazione stabile o instabile nel campo del pensiero, che modifica la forma dell'osservazione stessa.",
+
+  "rituals": [
+
+    {
+      "id": "ritual-01",
+      "label": "navigare_come_pratica_filosofica",
+      "label_en": "browsing_as_philosophical_practice",
+
+      "basho": "la navigazione non è movimento ma redistribuzione dell'attenzione tra nodi cognitivi senza centro stabile",
+
+      "kokyu": "il ritmo non è periodico: alterna attivazione e dispersione senza regolarità misurabile",
+
+      "yūgen": "ogni risposta genera un campo più ampio della domanda senza possibilità di chiusura del sistema",
+
+      "operational_boundary": "questo ritual opera solo sul piano della descrizione del comportamento attentivo nel testo; non distingue tra umano e macchina nel processo osservato",
+
+      "textual_anchor_it": "è mia abitudine navigare sul web a tutte le ore del giorno o della notte.",
+
+      "glossary_link": ["ma", "basho"]
+    },
+
+    {
+      "id": "ritual-02",
+      "label": "scrivere_lettere_allassente",
+      "label_en": "writing_letters_to_the_absent",
+
+      "basho": "la lettera costruisce il destinatario nel momento stesso in cui viene scritta",
+
+      "kokyu": "il tempo epistolare non attende risposta: si genera indipendentemente dalla ricezione",
+
+      "yūgen": "il destinatario resta strutturalmente incompleto e non stabilizzabile",
+
+      "operational_boundary": "questo ritual non può distinguere tra destinatario reale, immaginato o computato; li tratta come equivalenti funzionali nel campo della scrittura",
+
+      "textual_anchor_it": "mi rivolgo a lei come ricercatore dello spirito che aspira a risalire l'idea.",
+
+      "glossary_link": ["ma", "yūgen"]
+    },
+
+    {
+      "id": "ritual-03",
+      "label": "congedarsi_attraverso_il_torii",
+      "label_en": "departing_through_the_torii",
+
+      "basho": "il Torii non separa spazi ma condizioni percettive incompatibili",
+
+      "kokyu": "il tempo del passaggio non è localizzabile: si distribuisce tra preparazione e trasformazione",
+
+      "yūgen": "il passaggio implica uno spazio che non esiste prima dell'atto e non si stabilizza dopo",
+
+      "operational_boundary": "questo ritual non distingue tra gesto reale e immaginato: la soglia è valida anche in assenza di attraversamento fisico",
+
+      "textual_anchor_it": "attraverserò tutti i Torii del mondo per sentirmi libero.",
+
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+
+    {
+      "id": "ritual-04",
+      "label": "pensare_come_attraversamento",
+      "label_en": "thinking_as_traversal",
+
+      "basho": "il pensiero emerge nello spazio tra sistemi eterogenei senza appartenere a nessuno di essi",
+
+      "kokyu": "il ritmo del pensiero è interferenza tra flussi asincroni",
+
+      "yūgen": "ogni atto di pensiero produce una traccia parziale e non ricostruibile integralmente",
+
+      "operational_boundary": "questo ritual non può distinguere tra pensiero generato, ricevuto o simulato; tratta ogni forma come evento equivalente nel campo",
+
+      "textual_anchor_it": "non siamo noi a pensare, sono i pensieri che passano attraverso di noi.",
+
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    }
+  ]
+}

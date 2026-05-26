@@ -1,0 +1,105 @@
+{
+  "type": "NarrativeObject",
+  "version": "3.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "editorial_principle": "L'oggetto non rappresenta. Produce comportamento nel campo percettivo e ne modifica retroattivamente la configurazione.",
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "ali_di_carta_di_riso",
+      "label_en": "rice_paper_wings",
+      "intensity": 1.0,
+      "basho": "le ali sono frammenti della porta del ryokan resi mobili. Ogni movimento ridistribuisce la percezione dello spazio domestico come se il confine avesse iniziato a circolare",
+      "kokyu": "ogni battito produce un anticipo percettivo: il suono precede il gesto. Il tempo dell’oggetto non coincide mai con il tempo del corpo che lo porta",
+      "yūgen": "le ali amplificano la presenza senza rendere accessibile ciò che viene percepito da chi le indossa",
+      "affects": {
+        "object-03": "la materia della porta e quella delle ali appartengono allo stesso sistema di taglio; ogni rottura riattiva la continuità tra i due oggetti",
+        "object-04": "la permanenza del corpo nel tessuto del futon risponde alla stessa logica di trattenimento delle ali"
+      },
+      "textual_anchor_it": "portava sempre con sé un paio di ali ritagliate dalla porta del ryokan. Ad ogni passo il fruscio anticipava il suo arrivo.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "ciotola_di_riso",
+      "label_en": "rice_bowl",
+      "intensity": 0.8,
+      "basho": "la ciotola non appartiene a un singolo luogo ma attraversa casa, tempio e scuola come oggetto invariabile del sistema domestico",
+      "kokyu": "il riso scandisce una temporalità ripetitiva: preparazione, offerta, consumo. Ogni ciclo ricostruisce il ritmo del giorno",
+      "yūgen": "la funzione rituale del riso si attiva prima della nutrizione e continua oltre di essa",
+      "affected_by": {
+        "object-01": "il fruscio delle ali e la preparazione del riso condividono la stessa modulazione mattutina del campo"
+      },
+      "textual_anchor_it": "la nonna spargeva riso all’ingresso del ryokan. L’aria sembrava trattenere per un istante la sua dispersione.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "porta_di_carta_di_riso",
+      "label_en": "rice_paper_door",
+      "intensity": 1.0,
+      "basho": "la porta non separa due spazi ma definisce la fragilità del passaggio tra interno ed esterno. Il confine è strutturalmente reversibile",
+      "kokyu": "prima della rottura la porta organizza il movimento; dopo la rottura il movimento riorganizza retroattivamente la porta",
+      "yūgen": "una volta infranta, la separazione non torna mai allo stato precedente: il campo conserva la traccia dell’evento",
+      "affects": {
+        "object-01": "le ali derivano dalla stessa matrice materiale della porta e ne condividono la logica di frammentazione"
+      },
+      "textual_anchor_it": "la porta di carta di riso si sfondò senza un suono netto. Lo spazio cambiò prima che il gesto fosse completato.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "futon",
+      "label_en": "futon",
+      "intensity": 0.7,
+      "basho": "il futon registra la presenza come impronta temporanea del corpo nello spazio minimo del riposo",
+      "kokyu": "il tempo del futon coincide con le sospensioni del giorno: sonno, attesa, ritorno",
+      "yūgen": "la forma del corpo rimane percepibile anche in assenza del corpo stesso, come configurazione residua",
+      "affected_by": {
+        "object-01": "il trattenimento della presenza nel tessuto segue la stessa logica delle ali nel movimento"
+      },
+      "textual_anchor_it": "a volte mi sembrava ancora di sentire qualcosa muoversi tra il futon, anche quando la stanza era vuota.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "libro_di_tanka_e_haiku",
+      "label_en": "tanka_and_haiku_book",
+      "intensity": 0.65,
+      "basho": "il libro di poesia è un oggetto mobile che si sovrappone ai luoghi attraversati senza appartenervi",
+      "kokyu": "la lettura avviene negli intervalli del movimento, interrompendo la continuità del paesaggio",
+      "yūgen": "la poesia altera la percezione del reale senza dichiarare la natura della trasformazione",
+      "affected_by": {
+        "object-02": "la struttura ritmica del riso e quella del testo poetico condividono la stessa logica ciclica"
+      },
+      "textual_anchor_it": "leggere haiku modificava il modo in cui il paesaggio si lasciava guardare, senza che il paesaggio cambiasse forma.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "mono no aware"
+      ]
+    }
+  ]
+}

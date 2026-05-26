@@ -1,0 +1,188 @@
+{
+  "type": "InterBookGraph",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "publisher": "Casa Editrice Peacock",
+
+  "description": "Grafo delle connessioni semantiche tra i libri del catalogo Peacock processati con il Narrative Protocol. Ogni connessione è documentata con tipo, intensità e campo di origine.",
+
+  "nodes": {
+    "il_demone_samurai": {
+      "title": "Il Demone Samurai. Moda e misteri",
+      "author": "Hélène Blignaut",
+      "protocol_version": "1.x",
+      "primary_field": "tensione_feudale",
+      "dominant_axis": "basho"
+    },
+    "torino_fantastica": {
+      "title": "Torino Fantastica",
+      "author": "Grazia Guarnieri",
+      "illustrator": "Giulia Lazzaron",
+      "protocol_version": "2.1",
+      "primary_field": "doppio_registro",
+      "dominant_axis": "yūgen"
+    },
+    "ai_natura_algoritmi": {
+      "title": "AI Natura e Algoritmi Giapponesi",
+      "author": "Renato Frabasile",
+      "protocol_version": "2.3",
+      "primary_field": "asimmetria_cognitiva_operativa",
+      "dominant_axis": "kokyu"
+    },
+    "hara_rota": {
+      "title": "Hara Rota. Ryokan. Ali di carta di riso",
+      "author": "Toshihiko Ota",
+      "protocol_version": "3.3",
+      "primary_field": "ryokan_come_campo_originario",
+      "dominant_axis": "basho"
+    }
+  },
+
+  "edges": [
+
+    {
+      "id": "edge-01",
+      "from": "il_demone_samurai",
+      "to": "hara_rota",
+      "type": "shared_ritual_structure",
+      "intensity": 0.9,
+      "description": "Entrambi i libri usano il Teatro Nō come struttura narrativa — il palcoscenico disadorno del Demone Samurai e la veglia shintoista di Hara Rota condividono la stessa logica: il rito come soglia tra umano e soprannaturale",
+      "shared_fields": ["NarrativeRitual", "NarrativeScene"],
+      "glossary_link": ["ma", "kokyu", "mono no aware"]
+    },
+
+    {
+      "id": "edge-02",
+      "from": "il_demone_samurai",
+      "to": "hara_rota",
+      "type": "shared_object_logic",
+      "intensity": 0.85,
+      "description": "La porta di carta di riso di Hara Rota e la maschera Nō del Demone Samurai condividono la stessa struttura: oggetti che trasformano chi li attraversa o li indossa. La fragilità come confine percettivo.",
+      "shared_fields": ["NarrativeObject"],
+      "glossary_link": ["mottainai", "wabi-sabi"]
+    },
+
+    {
+      "id": "edge-03",
+      "from": "torino_fantastica",
+      "to": "il_demone_samurai",
+      "type": "shared_power_logic",
+      "intensity": 0.75,
+      "description": "Torino Fantastica e Il Demone Samurai condividono la logica del potere come sistema visivo: i batacchi col volto del diavolo e l'armatura scenografica dei samurai sono entrambi dispositivi di comunicazione a distanza. La forma come messaggio.",
+      "shared_fields": ["NarrativeObject", "NarrativeScene"],
+      "glossary_link": ["mottainai", "yūgen"]
+    },
+
+    {
+      "id": "edge-04",
+      "from": "torino_fantastica",
+      "to": "hara_rota",
+      "type": "shared_ghost_field",
+      "intensity": 0.8,
+      "description": "La stanza fantasma di Hara Rota e il sottosuolo di Torino Fantastica condividono la stessa struttura: spazi in cui la presenza continua senza referente fisico. Il campo irrisolvibile come motore narrativo.",
+      "shared_fields": ["NarrativeSilence", "NarrativeScene"],
+      "glossary_link": ["ma", "yūgen", "wabi-sabi"]
+    },
+
+    {
+      "id": "edge-05",
+      "from": "ai_natura_algoritmi",
+      "to": "hara_rota",
+      "type": "shared_kokyu_structure",
+      "intensity": 0.9,
+      "description": "Il silenzio giapponese come struttura cognitiva in AI Natura e il segreto di Yuki in Hara Rota condividono lo stesso meccanismo: il non-detto non è inferibile dal detto e opera come sistema autonomo. Kokyu come respiro del campo.",
+      "shared_fields": ["NarrativeSilence", "PerceptualField"],
+      "glossary_link": ["kokyu", "ma", "yūgen"]
+    },
+
+    {
+      "id": "edge-06",
+      "from": "ai_natura_algoritmi",
+      "to": "il_demone_samurai",
+      "type": "shared_limit_of_knowledge",
+      "intensity": 0.7,
+      "description": "Il limite interno dell'AI in AI Natura e il mistero della storia in Il Demone Samurai condividono la stessa struttura epistemica: zone dove la conoscenza si interrompe deliberatamente senza essere compensata da invenzione.",
+      "shared_fields": ["NarrativeSilence"],
+      "glossary_link": ["mottainai", "yūgen"]
+    },
+
+    {
+      "id": "edge-07",
+      "from": "ai_natura_algoritmi",
+      "to": "torino_fantastica",
+      "type": "shared_double_register",
+      "intensity": 0.75,
+      "description": "Il doppio registro di Torino Fantastica (reale e fantastico) e la coesistenza di sistemi cognitivi incompatibili in AI Natura condividono la stessa struttura: due regimi che non si alternano ma si sovrappongono senza fusione.",
+      "shared_fields": ["PerceptualField", "NarrativeTransition"],
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "edge-08",
+      "from": "hara_rota",
+      "to": "ai_natura_algoritmi",
+      "type": "shared_language_as_threshold",
+      "intensity": 0.85,
+      "description": "Il kanji come campo cognitivo in AI Natura e le ali di carta di riso in Hara Rota condividono la stessa logica: oggetti che non rappresentano ma abitano — la lingua come spazio percettivo, la carta di riso come spazio fisico.",
+      "shared_fields": ["NarrativeObject"],
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+
+    {
+      "id": "edge-09",
+      "from": "torino_fantastica",
+      "to": "ai_natura_algoritmi",
+      "type": "shared_inaccessible_layer",
+      "intensity": 0.7,
+      "description": "La targa di Nostradamus in Torino Fantastica e la targa di Nostradamus in AI Natura condividono la stessa struttura: evidenza conservata ma non consultabile. Il documento come silenzio strutturale.",
+      "shared_fields": ["NarrativeSilence", "NarrativeObject"],
+      "glossary_link": ["mottainai", "yūgen", "ma"]
+    },
+
+    {
+      "id": "edge-10",
+      "from": "il_demone_samurai",
+      "to": "ai_natura_algoritmi",
+      "type": "shared_parallel_civilizations",
+      "intensity": 0.8,
+      "description": "L'Atto II Europa nel Demone Samurai e la transizione Occidente-Giappone in AI Natura condividono la stessa struttura: due sistemi cognitivi contemporanei che si rivelano speculari senza fondersi.",
+      "shared_fields": ["NarrativeScene", "NarrativeTransition"],
+      "glossary_link": ["basho", "mono no aware"]
+    }
+  ],
+
+  "clusters": {
+    "campo_del_silenzio_strutturale": {
+      "nodes": ["il_demone_samurai", "torino_fantastica", "hara_rota", "ai_natura_algoritmi"],
+      "description": "Tutti e 4 i libri contengono zone dove la conoscenza si interrompe deliberatamente — il mistero della storia, la targa inaccessibile, la stanza fantasma, il limite interno dell'AI. Il silenzio strutturale è una proprietà del catalogo Peacock.",
+      "glossary_link": ["mottainai", "yūgen", "ma"]
+    },
+    "campo_del_doppio_regime": {
+      "nodes": ["torino_fantastica", "il_demone_samurai", "ai_natura_algoritmi"],
+      "description": "Tre libri costruiscono sistemi in cui due regimi incompatibili coesistono senza fusione: storia e teatro, reale e fantastico, umano e computazionale.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    "campo_della_presenza_senza_corpo": {
+      "nodes": ["hara_rota", "torino_fantastica"],
+      "description": "La stanza fantasma e il sottosuolo di Torino condividono la struttura della presenza che continua dopo la scomparsa del referente fisico.",
+      "glossary_link": ["ma", "wabi-sabi", "mono no aware"]
+    },
+    "campo_del_rituale_come_soglia": {
+      "nodes": ["il_demone_samurai", "hara_rota"],
+      "description": "La danza atsumori e la veglia shintoista condividono la struttura del rito come attraversamento irreversibile tra umano e soprannaturale.",
+      "glossary_link": ["mono no aware", "kokyu", "ma"]
+    }
+  },
+
+  "glossary_centrality": {
+    "ma": 10,
+    "yūgen": 9,
+    "mottainai": 7,
+    "mono no aware": 7,
+    "basho": 7,
+    "kokyu": 6,
+    "wabi-sabi": 5
+  }
+}

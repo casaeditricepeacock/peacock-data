@@ -1,0 +1,74 @@
+{
+  "type": "NarrativeWeather",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+
+  "editorial_principle": "Il clima non descrive la città. Ne modifica la leggibilità e la struttura percettiva.",
+
+  "weather_fields": [
+
+    {
+      "id": "weather-01",
+      "label": "luce_delle_gallerie",
+      "label_en": "arcade_light",
+
+      "basho": "uno spazio interno si forma senza appartenenza stabile tra esterno e interno; la galleria funziona come ambiente autonomo",
+      "kokyu": "il tempo urbano perde sincronizzazione quando entra nella galleria",
+      "yūgen": "una dimensione non accessibile resta attiva come parte del campo",
+
+      "textual_anchor_it": "le volte in vetrocemento e le lunette distribuiscono uniformemente luci e riflessi.",
+
+      "glossary_link": ["ma"]
+    },
+
+    {
+      "id": "weather-02",
+      "label": "luce_di_guarini",
+      "label_en": "guarini_light",
+
+      "basho": "la verticalità dello spazio non si chiude su un punto raggiungibile",
+      "kokyu": "la luce cambia regime a ogni attraversamento temporale",
+      "yūgen": "il punto di convergenza resta strutturalmente irraggiungibile",
+
+      "textual_anchor_it": "tutti insieme convergono nella stella a 12 punte in pietra.",
+
+      "glossary_link": ["kokyu"]
+    },
+
+    {
+      "id": "weather-03",
+      "label": "oscurità_del_sottosuolo",
+      "label_en": "underground_darkness",
+
+      "basho": "un secondo spazio si sovrappone alla città visibile senza coincidere con essa",
+      "kokyu": "i percorsi interrotti producono tempo non lineare",
+      "yūgen": "ciò che non è percorribile continua a operare come presenza",
+
+      "textual_anchor_it": "il sottosuolo torinese è molto complicato e ricco di cunicoli.",
+
+      "glossary_link": ["basho", "ma"]
+    },
+
+    {
+      "id": "weather-04",
+      "label": "nebbia_della_leggenda",
+      "label_en": "legend_fog",
+
+      "basho": "ogni luogo produce un duplicato percettivo non verificabile",
+      "kokyu": "la cronologia si interrompe quando entra il livello leggendario",
+      "yūgen": "i due livelli restano simultanei senza gerarchia",
+
+      "textual_anchor_it": "Nomini Torino e pensi subito alla magia.",
+
+      "glossary_link": ["yūgen"]
+    }
+  ]
+}

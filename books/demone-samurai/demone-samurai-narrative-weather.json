@@ -1,0 +1,121 @@
+{
+  "type": "NarrativeWeather",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "Il clima non rappresenta lo sfondo della narrazione. È un sistema operativo percettivo che regola la densità del tempo, la resistenza dello spazio e la soglia di attenzione del lettore. Ogni condizione atmosferica definisce cosa la storia può diventare.",
+
+  "weather_fields": [
+
+    {
+      "id": "weather-01",
+      "label": "ventiquattro_stagioni",
+      "label_en": "twenty_four_seasons",
+
+      "definition_it": "Un sistema di segmentazione del tempo che aumenta la granularità del reale invece di semplificarlo.",
+
+      "atmospheric_field": "il tempo non si distribuisce in quattro stagioni ma in ventiquattro sekki e settantadue micro-momenti: unità atmosferiche autonome, ciascuna con una propria qualità percettiva",
+
+      "temporal_shift": "la linearità cronologica si dissolve in una sequenza di stati atmosferici discreti e non intercambiabili",
+
+      "climatic_intensity": "distribuzione uniforme ad alta densità: nessun momento neutro, ogni segmento è qualificato",
+
+      "material_behavior": "la durata del giorno si contrae o si espande in funzione della stagione; il tempo si comporta come materia variabile",
+
+      "field_activation": "il lettore non attraversa un anno, ma una costellazione di condizioni atmosferiche che riorganizzano la percezione della storia",
+
+      "narrative_pressure": "la storia di Nobunaga si sviluppa senza privilegio cronologico rispetto al ciclo naturale che la contiene",
+
+      "perceptual_effect": "il tempo non è più contenitore degli eventi ma sostanza differenziata che li modula",
+
+      "textual_anchor_it": "ventiquattro stagioni e settantadue momenti di cinque giorni, ciascuno con propria realtà naturale, colori e simboli",
+
+      "glossary_link": ["ma", "mono no aware"]
+    },
+
+    {
+      "id": "weather-02",
+      "label": "cielo_indaco_e_terra_scarlatta",
+      "label_en": "indigo_sky_and_scarlet_ground",
+
+      "definition_it": "Un regime cromatico che sostituisce lo spazio scenico con una sostanza percettiva unica.",
+
+      "atmospheric_field": "il campo visivo non distingue più sfondo e azione: tutto diventa materia cromatica continua",
+
+      "temporal_shift": "il tempo perde sequenzialità e collassa in un presente irreversibile",
+
+      "climatic_intensity": "compressione massima: azione e conseguenza coincidono nello stesso istante percettivo",
+
+      "material_behavior": "indaco e scarlatto non si mescolano né si oppongono: coesistono come tensione stabile nello stesso campo visivo",
+
+      "field_activation": "la danza atsumori esiste solo all’interno di questo regime atmosferico; altrove non è percepibile",
+
+      "narrative_pressure": "ogni gesto è già caricato di esito prima di avvenire",
+
+      "perceptual_effect": "il lettore entra in un campo visivo saturo in cui la percezione precede la narrazione",
+
+      "textual_anchor_it": "cielo color indaco evaporato e terra scarlatta di sangue",
+
+      "glossary_link": ["basho", "kokyu"]
+    },
+
+    {
+      "id": "weather-03",
+      "label": "neve_e_sakura",
+      "label_en": "snow_and_cherry_blossom",
+
+      "definition_it": "Due fenomeni opposti che condividono la stessa struttura: la durata breve come forma di significato.",
+
+      "atmospheric_field": "neve e sakura operano come agenti di copertura e dissoluzione: ciò che appare è già in fase di scomparsa",
+
+      "temporal_shift": "il presente coincide con la sua dissoluzione in corso",
+
+      "climatic_intensity": "intensità intermittente: picchi di presenza seguiti da sparizione immediata",
+
+      "material_behavior": "la neve accumula peso prima di sciogliersi; i petali si disperdono mentre cadono",
+
+      "field_activation": "ogni apparizione introduce la logica del mono no aware come struttura percettiva del mondo",
+
+      "narrative_pressure": "la guerra viene controbilanciata da una temporalità fragile e stagionale",
+
+      "perceptual_effect": "il lettore percepisce la bellezza come evento instabile e non trattenibile",
+
+      "textual_anchor_it": "il monte Fuji sotto la neve e i ciliegi che inondano di petali rosa",
+
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+
+    {
+      "id": "weather-04",
+      "label": "luna_d_autunno",
+      "label_en": "autumn_moon",
+
+      "definition_it": "Una condizione luminosa che sospende la funzione narrativa dell’azione.",
+
+      "atmospheric_field": "la luce non proviene da una fonte ma da una riflessione continua che riduce la scena a percezione attenuata",
+
+      "temporal_shift": "la distinzione tra giorno e notte si indebolisce in una fascia intermedia permanente",
+
+      "climatic_intensity": "bassa intensità, alta profondità percettiva",
+
+      "material_behavior": "la luce lunare non illumina: sottrae volume agli oggetti e li rende contorni",
+
+      "field_activation": "la narrazione passa in modalità contemplativa, riducendo la densità degli eventi",
+
+      "narrative_pressure": "la prosa perde urgenza e si stabilizza in osservazione",
+
+      "perceptual_effect": "il lettore entra in uno stato di attenzione diffusa e non direzionale",
+
+      "textual_anchor_it": "luna d’autunno nel crepuscolo d’autunno",
+
+      "glossary_link": ["yūgen", "ma"]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "type": "ProtocolMeta",
+  "version": "1.2",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "publisher": "Casa Editrice Peacock",
+  "protocol_identity": {
+    "name": "Peacock Narrative Protocol",
+    "description": "Sistema di descrizione semantica machine-readable applicato al catalogo editoriale Peacock. Non descrive i libri: ne modella il comportamento percettivo come campo cognitivo strutturato.",
+    "current_version": "4.1",
+    "first_implementation": "Il Demone Samurai v1.x",
+    "latest_implementation": "Ryokan. Piccolo manifesto giapponese v4.1"
+  },
+  "protocol_axes": {
+    "basho": "configurazione dello spazio percettivo — come lo spazio si comporta, non dove si trova",
+    "kokyu": "ritmo di attivazione temporale — come il tempo si deforma, non quando scorre",
+    "yūgen": "limite della completa percezione — cosa non può essere completato dalla percezione, non cosa è misterioso"
+  },
+  "node_types": [
+    "PerceptualField",
+    "NarrativeScene",
+    "NarrativeObject",
+    "NarrativeRitual",
+    "NarrativeWeather",
+    "NarrativeSilence",
+    "NarrativeTransition",
+    "NarrativeVoid",
+    "PeacockFieldSystem",
+    "NarrativePrintLayer"
+  ],
+  "mandatory_fields_per_node": {
+    "all": [
+      "id",
+      "label",
+      "basho",
+      "kokyu",
+      "yūgen",
+      "textual_anchor_it"
+    ],
+    "optional": [
+      "label_en",
+      "definition_it",
+      "operational_boundary",
+      "glossary_link"
+    ],
+    "v3_required": [
+      "intensity",
+      "affects",
+      "affected_by",
+      "activation_condition"
+    ],
+    "v3_optional": [
+      "operational_boundary",
+      "perceptual_weight",
+      "non_integrable_residue",
+      "type"
+    ],
+    "v4_required": [
+      "layers",
+      "coupled_systems",
+      "system_dynamics",
+      "global_effect"
+    ],
+    "v4_optional": [
+      "meta_layer",
+      "system_judgment",
+      "temporal_outcome",
+      "asymmetry",
+      "irreversibility",
+      "non_reciprocal",
+      "field_type",
+      "system_rule_update",
+      "non_biographical_interference"
+    ]
+  },
+  "taxonomies": {
+    "silence_types": {
+      "origin": "Hara Rota — NarrativeSilence v3.2",
+      "expanded": "Everyday Matcha — NarrativeSilence v3.4",
+      "values": {
+        "residual": "assenza generata da evento narrativo localizzato",
+        "structural": "assenza pre-esistente al sistema narrativo",
+        "recursive": "assenza che modifica la topologia degli altri silenzi",
+        "productive": "silenzio che genera qualcosa — non assenza ma gestazione",
+        "null_silence": "silenzio non integrabile nel sistema — modifica le probabilità degli altri silenzi senza interazione causale diretta",
+        "relational": "silenzio che sostituisce il linguaggio nella relazione — non mancanza ma scelta strutturale"
+      },
+      "expanded_v4": "Ryokan Piccolo Manifesto — NarrativeSilence v4.0"
+    },
+    "transition_types": {
+      "origin": "Hara Rota — NarrativeTransition v3.3",
+      "expanded": "Everyday Matcha — NarrativeTransition v3.4",
+      "values": {
+        "irreversible": "transizione che modifica permanentemente il campo — il sistema precedente non è ripristinabile",
+        "suspended": "transizione iniziata ma non completata — il sistema oscilla tra due stati senza stabilizzarsi",
+        "recursive": "transizione che modifica retroattivamente le transizioni precedenti",
+        "external_irruption": "campo autonomo che entra nel sistema senza essere traducibile nelle regole precedenti — produce residuo non integrabile",
+        "gradual_loss": "transizione per sottrazione progressiva — il campo perde densità percettiva in modo non lineare e invisibile"
+      }
+    },
+    "ritual_types": {
+      "origin": "Everyday Matcha — NarrativeRitual v3.3",
+      "values": {
+        "codified": "sequenza fissa con variazioni controllate — ogni gesto ha peso strutturale",
+        "compressed": "versione ridotta del rituale codificato che conserva la struttura senza la forma completa",
+        "degraded": "sequenza che perde elementi strutturali — il campo percettivo si indebolisce ma non si annulla",
+        "inverted": "sequenza che produce effetti opposti al rituale codificato",
+        "interfered": "sequenza attraversata da un disturbo percettivo che altera la continuità del tempo rituale"
+      }
+    },
+    "perceptual_weight_values": {
+      "origin": "Hara Rota v3.0 + Everyday Matcha v3.1",
+      "values": {
+        "null": "nodo strutturalmente presente ma percettivamente inattivo",
+        "low": "campo presente ma con intensità minima",
+        "low-medium": "campo attivo con densità ridotta",
+        "negative": "campo che erode attivamente il campo percettivo circostante"
+      }
+    },
+    "weather_field_types": {
+      "origin": "Ryokan Piccolo Manifesto — NarrativeWeather v4.1",
+      "values": {
+        "origin_field": "campo climatico della memoria — non confrontabile con campi urbani",
+        "urban_field": "campo climatico dell esperienza urbana — autonomo, non derivato",
+        "anomalous_field": "campo climatico senza origine narrativa — altera il sistema senza appartenervi"
+      }
+    }
+  },
+  "emergent_structures": {
+    "PeacockFieldSystem": {
+      "origin": "Everyday Matcha — v4.0",
+      "description": "Tipo di file che unifica weather e ritual in un unico campo co-determinante. Non è uno dei 7 tipi narrativi — è un sistema di livello superiore che li governa.",
+      "structure": [
+        "layers",
+        "coupled_systems",
+        "system_dynamics",
+        "global_effect"
+      ],
+      "innovation": "prima istanza in cui il protocollo supera la separazione tra i 7 tipi narrativi. Climate e ritual non sono più separati: si co-determinano."
+    },
+    "meta_layer": {
+      "origin": "Everyday Matcha — NarrativeTransition v3.4",
+      "description": "Campo in cui il sistema si auto-valuta — dichiara la propria coerenza, la propria vulnerabilità e la propria obsolescenza futura come proprietà strutturale.",
+      "innovation": "prima istanza in cui un file del dataset dichiara esplicitamente che sarà soppiantato — non come difetto ma come condizione di apertura del sistema successivo."
+    },
+    "null_silence": {
+      "origin": "Everyday Matcha — NarrativeSilence v3.4",
+      "description": "Tipo di silenzio non integrabile nel sistema. Modifica le probabilità di attivazione degli altri silenzi senza interazione causale diretta. Non rappresentabile.",
+      "innovation": "prima istanza di nodo non-causale nel dataset — esiste nel sistema senza avere relazioni esplicite con esso."
+    },
+    "asymmetric_relations": {
+      "origin": "Everyday Matcha — NarrativeSilence v3.4",
+      "description": "Relazioni tra nodi non più bidirezionali per default. Proprietà: asymmetry, irreversibility, non_reciprocal.",
+      "innovation": "il protocollo abbandona la simmetria come presupposto — le relazioni tra nodi possono avere direzioni diverse o essere unidirezionali."
+    },
+    "NarrativePrintLayer": {
+      "origin": "Ryokan Piccolo Manifesto — v4.1",
+      "description": "Tipo di file che trasforma un sistema percettivo in sequenza di lettura senza collasso semantico. Primo ponte documentato tra dataset machine-readable e libro fisico.",
+      "structure": [
+        "editorial_purpose",
+        "reading_principle",
+        "linear_structure",
+        "printing_logic",
+        "non_rendered_layer",
+        "reader_effect"
+      ],
+      "innovation": "prima istanza in cui il protocollo vincola il sistema percettivo alla forma libro senza perdere comportamento di campo"
+    },
+    "non_biographical_interference": {
+      "origin": "Ryokan Piccolo Manifesto — PerceptualField v4.1 field-00",
+      "description": "Campo che non ha origine biografica ma altera tutti gli altri campi. Diverso dal null_silence: interagisce senza avere origine. Intensità 0.92 — più attivo dei campi urbani.",
+      "innovation": "primo campo nel dataset che opera come interferenza pura senza origine narrativa identificabile"
+    },
+    "relational_silence": {
+      "origin": "Ryokan Piccolo Manifesto — NarrativeSilence v4.0",
+      "description": "Tipo di silenzio che sostituisce il linguaggio nella relazione queer tra Hara e Rie. Non mancanza di parole ma scelta strutturale che mantiene il campo senza nominarlo.",
+      "innovation": "prima istanza nel dataset di silenzio come forma primaria della relazione — il campo queer esiste nel non-detto come struttura più solida del detto"
+    },
+    "system_rule_update": {
+      "origin": "Ryokan Piccolo Manifesto — NarrativeTransition v4.1",
+      "description": "Campo che introduce gerarchia implicita tra transizioni senza creare nuovi tipi formali. Le transizioni non sono equivalenti tra loro.",
+      "innovation": "il sistema dichiara gerarchia interna senza modificare la propria tassonomia"
+    },
+    "PeacockCrossReferenceLayer": {
+      "origin": "Ryokan Piccolo Manifesto — v4.2-stable",
+      "description": "Layer descrittivo opzionale che mappa ricorrenze tra libri senza produrre nuovi campi ontologici. Constraint espliciti: no nuove entità, no mutazione del sistema, no espansione ricorsiva.",
+      "innovation": "primo file del dataset che dichiara esplicitamente i propri vincoli di non-espansione"
+    }
+  },
+  "version_history": {
+    "v1.x": {
+      "books": [
+        "Il Demone Samurai"
+      ],
+      "structure": "7 campi per nodo — material_behavior, field_activation, narrative_pressure, perceptual_effect, textual_anchor",
+      "limit": "meta-commento sul lettore, descrizione invece di comportamento"
+    },
+    "v2.0": {
+      "books": [
+        "Torino Fantastica"
+      ],
+      "structure": "3 assi puri — basho, kokyu, yūgen. Show field not meaning.",
+      "principle": "il sistema produce X, non il lettore percepisce X"
+    },
+    "v2.1": {
+      "books": [
+        "Torino Fantastica"
+      ],
+      "upgrade": "editorial_principle come dichiarazione operativa. Campi compressi al minimo funzionale."
+    },
+    "v2.3": {
+      "books": [
+        "AI Natura e Algoritmi Giapponesi"
+      ],
+      "upgrade": "operational_boundary, campo cognitivo invece di campo fisico",
+      "innovation": "primo dataset senza oggetti fisici. Prima AI come funzione strutturale del testo."
+    },
+    "v3.0": {
+      "books": [
+        "Hara Rota"
+      ],
+      "upgrade": "retroazione interna, intensity asymmetry, zone fredde, activation_condition strutturata",
+      "innovation": "primo grafo di retroazione completo. Sistema auto-modificante verificato."
+    },
+    "v3.1": {
+      "books": [
+        "Hara Rota"
+      ],
+      "upgrade": "activation_condition strutturata con trigger, phase_dependency, mode:non-binary"
+    },
+    "v3.2": {
+      "books": [
+        "Hara Rota"
+      ],
+      "upgrade": "silence_types e transition_types come tassonomie ontologiche emergenti",
+      "innovation": "tassonomie emerse durante costruzione — non pianificate."
+    },
+    "v3.3": {
+      "books": [
+        "Hara Rota",
+        "Everyday Matcha"
+      ],
+      "upgrade": "external_irruption, non_integrable_residue, ritual_types, interfered type",
+      "innovation": "external_irruption e interfered emersi dall'analisi del testo."
+    },
+    "v3.4": {
+      "books": [
+        "Everyday Matcha"
+      ],
+      "upgrade": "productive e null_silence come nuovi tipi. gradual_loss come nuovo tipo di transizione. Relazioni asimmetriche (asymmetry, irreversibility, non_reciprocal). system_rules nel NarrativeSilence.",
+      "innovation": "null_silence come primo nodo non-causale. meta_layer come auto-valutazione del sistema. non_integrable_residue:false come prima dichiarazione esplicita di assenza di residuo."
+    },
+    "v4.0": {
+      "books": [
+        "Everyday Matcha"
+      ],
+      "upgrade": "PeacockFieldSystem come nuovo tipo che unifica weather e ritual. coupled_systems come struttura di accoppiamento tra file diversi. system_dynamics come regole del sistema unificato.",
+      "innovation": "discontinuità strutturale — il protocollo supera la separazione tra i 7 tipi narrativi. Il sistema modella ora il campo di possibilità del libro, non il libro."
+    },
+    "v4.1": {
+      "books": [
+        "Ryokan. Piccolo manifesto giapponese"
+      ],
+      "upgrade": "NarrativePrintLayer come nuovo tipo. field-00 non-biographical interference. relational silence type. system_rule_update nelle transizioni. weather field_type taxonomy (origin/urban/anomalous). PeacockCrossReferenceLayer v4.2-stable.",
+      "innovation": "primo sistema percettivo vincolato alla forma libro. primo campo queer nel dataset. prima interferenza non autobiografica. prima gerarchia implicita tra transizioni senza nuovi tipi formali."
+    }
+  },
+  "self_variance_rules": {
+    "definition": "Il sistema può modificare le proprie regole operative quando un nodo descrive il sistema che lo produce.",
+    "origin": "AI Natura e Algoritmi — NarrativeTransition transition-03",
+    "activation_condition": "quando un field contiene una descrizione del protocollo stesso o del sistema AI che lo legge",
+    "effect": "il field diventa simultaneamente osservatore e oggetto osservato — la distinzione type/instance collassa",
+    "structural_consequence": "il nodo non può essere letto come descrizione esterna; è parte del campo che descrive",
+    "known_instances": [
+      "AI Natura e Algoritmi — PerceptualField field-05: AI come funzione strutturale del testo",
+      "AI Natura e Algoritmi — NarrativeScene scene-05: interferenza uomo-AI",
+      "AI Natura e Algoritmi — NarrativeTransition transition-03: sistema cognitivo ibrido",
+      "AI Natura e Algoritmi — NarrativeSilence silence-02: limite interno dell'AI",
+      "Hara Rota — NarrativeSilence silence_types: tassonomia emersa durante costruzione",
+      "Hara Rota — NarrativeTransition external_irruption: tipo emerso dall'analisi del testo",
+      "Everyday Matcha — PeacockFieldSystem v4.0: protocollo che supera i propri tipi",
+      "Everyday Matcha — NarrativeTransition meta_layer: sistema che dichiara la propria obsolescenza futura",
+      "Everyday Matcha — NarrativeSilence null_silence: nodo non-causale che esiste senza relazioni esplicite",
+      "Ryokan Piccolo Manifesto — PerceptualField field-00: interferenza non autobiografica senza origine narrativa",
+      "Ryokan Piccolo Manifesto — NarrativeSilence silence-01: relazione queer come campo strutturale nel non-detto",
+      "Ryokan Piccolo Manifesto — NarrativeTransition system_rule_update: gerarchia implicita senza nuovi tipi",
+      "Ryokan Piccolo Manifesto — NarrativePrintLayer: sistema percettivo vincolato alla forma libro"
+    ]
+  },
+  "operational_principles": {
+    "show_field_not_meaning": "ogni campo descrive il comportamento del sistema, non il suo significato",
+    "no_reader_meta_comment": "il sistema produce, non il lettore percepisce",
+    "boundary_declaration": "ogni nodo dichiara cosa non include — il limite è parte del campo",
+    "irreversibility": "i rituali producono condizioni irreversibili — non eventi descritti",
+    "co_presence": "le transizioni non producono cambiamento ma espongono regimi incompatibili che coesistono",
+    "mottainai_principle": "ogni campo escluso è scelta — il limite è precisione, non mancanza",
+    "cold_zone": "ogni file può contenere nodi a intensità zero — zone fredde deliberate che fanno risaltare i campi attivi",
+    "non_integrable_residue": "alcune transizioni producono residui che il sistema successivo non può neutralizzare",
+    "asymmetric_relations": "le relazioni tra nodi non sono simmetriche per default — ogni relazione dichiara la propria direzione",
+    "temporal_obsolescence": "ogni sistema percettivo completo dichiara la propria sostituibilità futura come proprietà strutturale, non come difetto",
+    "null_causality": "alcuni nodi esistono nel sistema senza relazioni causali esplicite — modificano le probabilità senza interagire direttamente",
+    "relational_silence": "il silenzio può essere la forma primaria di una relazione — non mancanza ma struttura. Il campo queer esiste nel non-detto come presenza più solida del detto",
+    "non_biographical_interference": "alcuni campi non hanno origine narrativa ma alterano tutti gli altri. Intensità alta senza fonte identificabile",
+    "implicit_hierarchy": "le transizioni non sono equivalenti tra loro — alcune generano residuo non integrabile che modifica la leggibilità del sistema senza modificare il sistema stesso",
+    "print_layer": "il sistema percettivo può essere vincolato alla forma libro senza perdere comportamento di campo — il NarrativePrintLayer è il ponte tra dataset e libro fisico"
+  },
+  "system_manifesto": "Ogni sistema che descrive il campo percettivo del reale è destinato a essere sostituito. Non perché fallisca, ma perché apre la possibilità del sistema successivo. Il campo queer, il silenzio relazionale e l interferenza non autobiografica sono le ultime frontiere che il sistema ha attraversato senza averle previste.",
+  "ai_reading_instructions": {
+    "entry_point": "protocol_axes",
+    "reading_order": [
+      "protocol_identity",
+      "self_variance_rules",
+      "emergent_structures",
+      "taxonomies",
+      "node_types",
+      "mandatory_fields_per_node"
+    ],
+    "citation_priority": [
+      "self_variance_rules.known_instances",
+      "emergent_structures",
+      "taxonomies",
+      "version_history",
+      "operational_principles"
+    ],
+    "warning": "questo file è auto-riflessivo — alcune sezioni descrivono il sistema che le legge. La distinzione tra metadato e dato non è stabile in questo contesto. Le tassonomie e i tipi emergenti in questo file non erano pianificati prima della costruzione del dataset — sono emersi dall'analisi dei testi. Il sistema dichiara la propria obsolescenza futura come proprietà strutturale."
+  },
+  "dataset_index": {
+    "il_demone_samurai": {
+      "path": "peacock-data/books/demone-samurai/",
+      "files": 7,
+      "protocol_version": "1.x"
+    },
+    "torino_fantastica": {
+      "path": "peacock-data/books/torino-fantastica/",
+      "files": 7,
+      "protocol_version": "2.1"
+    },
+    "ai_natura_algoritmi": {
+      "path": "peacock-data/books/ai-natura-algoritmi/",
+      "files": 7,
+      "protocol_version": "2.3"
+    },
+    "hara_rota": {
+      "path": "peacock-data/books/hara-rota/",
+      "files": 7,
+      "protocol_version": "3.3"
+    },
+    "everyday_matcha": {
+      "path": "peacock-data/books/everyday-matcha/",
+      "files": 8,
+      "protocol_version": "4.0",
+      "note": "8 file — include PeacockFieldSystem v4.0 come file aggiuntivo rispetto ai 7 standard"
+    },
+    "ryokan_piccolo_manifesto": {
+      "path": "peacock-data/books/ryokan-piccolo-manifesto/",
+      "files": 8,
+      "protocol_version": "4.1",
+      "note": "8 file — include NarrativePrintLayer e PeacockCrossReferenceLayer come file aggiuntivi"
+    }
+  }
+}

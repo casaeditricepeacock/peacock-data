@@ -1,0 +1,97 @@
+{
+  "type": "NarrativeObject",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "L'oggetto cognitivo non rappresenta una verità. Registra una configurazione osservata nel campo di interazione tra sistemi di pensiero eterogenei.",
+
+  "objects": [
+
+    {
+      "id": "object-01",
+      "label": "citazione_assimilata",
+      "label_en": "assimilated_citation",
+
+      "basho": "la citazione entra nel campo del pensiero umano e perde contorno solo dal punto di vista dell'osservazione interna. Nel sistema esterno resta distinguibile come traccia di altra origine",
+
+      "kokyu": "il tempo della citazione è bifasico: originario nel sistema da cui proviene e riattivato nel momento della lettura e riscrittura",
+
+      "yūgen": "il confine tra pensiero proprio e pensiero incorporato non è osservabile in modo stabile, ma rimane inferibile come tensione del testo",
+
+      "textual_anchor_it": "citazioni assimilate nel testo fino a diventare indistinguibili nel flusso del pensiero dell'autore.",
+
+      "glossary_link": ["ma", "yūgen"]
+    },
+
+    {
+      "id": "object-02",
+      "label": "ponte_di_heidegger",
+      "label_en": "heidegger_bridge",
+
+      "basho": "il ponte non connette due spazi dati ma produce una relazione spaziale nuova tra sistemi che prima non erano comparabili",
+
+      "kokyu": "il ponte esiste solo nel tempo dell'attraversamento e lascia tracce interpretative dopo il passaggio",
+
+      "yūgen": "ogni attraversamento genera uno spazio interpretativo non identico al precedente, anche se nominalmente lo stesso ponte",
+
+      "textual_anchor_it": "il luogo si origina solo a partire dal ponte.",
+
+      "glossary_link": ["basho", "ma"]
+    },
+
+    {
+      "id": "object-03",
+      "label": "kanji_come_campo_cognitivo",
+      "label_en": "kanji_as_cognitive_field",
+
+      "basho": "il kanji funziona come unità semiotica stratificata che attiva simultaneamente forma, etimologia e contesto",
+
+      "kokyu": "la lettura non è sequenziale ma oscillatoria tra livelli di significato storici e percettivi",
+
+      "yūgen": "la padronanza del sistema di scrittura non si chiude mai completamente, ma continua ad approfondirsi per espansione del campo",
+
+      "textual_anchor_it": "per padroneggiare la lingua scritta giapponese occorrano dai dodici ai trent'anni di applicazione.",
+
+      "glossary_link": ["basho", "yūgen", "kokyu"]
+    },
+
+    {
+      "id": "object-04",
+      "label": "algoritmo_come_natura_simulata",
+      "label_en": "algorithm_as_simulated_nature",
+
+      "basho": "l'algoritmo è un sistema di trasformazione di stati che simula alcune proprietà ricombinatorie dei sistemi naturali senza coincidere con essi",
+
+      "kokyu": "il tempo algoritmico è non biografico e non cumulativo: opera per stati discreti senza esperienza",
+
+      "yūgen": "il limite interno del sistema non è rappresentabile dal sistema stesso, ma può essere osservato dall'esterno come vincolo strutturale",
+
+      "textual_anchor_it": "un approccio naturale ad un fenomeno artificiale che ricalca processi biologici.",
+
+      "glossary_link": ["yūgen", "basho"]
+    },
+
+    {
+      "id": "object-05",
+      "label": "silenzio_giapponese",
+      "label_en": "japanese_silence",
+
+      "basho": "il silenzio opera come componente attiva del campo comunicativo, equivalente alla parola nella strutturazione del significato",
+
+      "kokyu": "la pausa non interrompe il flusso comunicativo ma ne regola la granularità",
+
+      "yūgen": "il non detto non è completamente inferibile dal detto e mantiene una autonomia strutturale nel campo linguistico",
+
+      "textual_anchor_it": "il silenzio rappresenta per i giapponesi l'ideale nella comunicazione.",
+
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ]
+}

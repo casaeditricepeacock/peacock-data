@@ -1,0 +1,136 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.0",
+  "date": "2026-05",
+  "license": "CC BY 1.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "La scena non rappresenta un luogo. Costruisce una soglia percettiva. Ogni spazio narrativo modifica il ritmo del lettore, la densità del tempo e il modo in cui il corpo attraversa la storia.",
+
+  "scenes": [
+
+    {
+      "id": "scene-01",
+      "label": "il_palcoscenico_disadorno",
+      "label_en": "the_bare_stage",
+
+      "definition_it": "Uno spazio svuotato fino al punto in cui il rito può finalmente apparire.",
+
+      "spatial_logic": "il palco Nō riduce il mondo al minimo necessario. Il vuoto non separa gli elementi della scena: li rende inevitabili",
+
+      "reader_position": "all’inizio spettatore distante; progressivamente assorbito nella respirazione del palco",
+
+      "temporal_direction": "il tempo storico rallenta fino a trasformarsi in presenza rituale",
+
+      "perceptual_density": {
+        "sound_pressure": "taiko reiterato, grido kakegoe, lacerazione del flauto nokan",
+        "material_tension": "legno antico, pelle tesa del tamburo, tessuti rigidi",
+        "light_behavior": "luce laterale che non illumina ma isola"
+      },
+
+      "threshold_effect": "la scena smette di essere rappresentazione e diventa attraversamento",
+
+      "textual_anchor_it": "Sul palcoscenico disadorno, i suonatori di taiko battevano forsennatamente sulla pelle ritmi ossessivi. Non sarebbe sceso dal palco fino all'ultimo atto.",
+
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+
+    {
+      "id": "scene-02",
+      "label": "il_castello_e_i_suoi_ruderi",
+      "label_en": "the_castle_and_its_ruins",
+
+      "definition_it": "Un’architettura che contiene già la memoria della propria dissoluzione.",
+
+      "spatial_logic": "il castello appare simultaneamente come centro del potere e rovina futura. Ogni stanza è attraversata dalla possibilità del crollo",
+
+      "reader_position": "il lettore osserva la grandezza mentre percepisce già la cenere che la consumerà",
+
+      "temporal_direction": "presente e rovina futura convivono nello stesso campo percettivo",
+
+      "perceptual_density": {
+        "sound_pressure": "silenzio sorvegliato dei corridoi interni",
+        "material_tension": "pietra fredda, legno laccato, cenere sottile",
+        "light_behavior": "ombre lunghe sotto tetti troppo alti"
+      },
+
+      "threshold_effect": "la magnificenza smette di apparire stabile e diventa fragile materia temporale",
+
+      "textual_anchor_it": "Restano i ruderi di un favoloso castello, del suo splendore dissolto in un tragico epilogo.",
+
+      "glossary_link": [
+        "wabi-sabi",
+        "mono no aware",
+        "basho"
+      ]
+    },
+
+    {
+      "id": "scene-03",
+      "label": "il_paesaggio_arcipelago",
+      "label_en": "the_archipelago_landscape",
+
+      "definition_it": "Il Giappone come organismo geografico e atmosferico prima ancora che storico.",
+
+      "spatial_logic": "lo spazio si dilata fino a superare la scala umana. Isole, laghi, vulcani e coste costruiscono un campo naturale che precede qualsiasi guerra",
+
+      "reader_position": "il lettore entra nel libro attraverso il paesaggio prima ancora che attraverso i personaggi",
+
+      "temporal_direction": "tempo geologico e stagionale, indifferente alla durata umana",
+
+      "perceptual_density": {
+        "sound_pressure": "vento oceanico, acqua termale, silenzio vulcanico",
+        "material_tension": "roccia, neve, corteccia umida",
+        "light_behavior": "luce diffusa del Pacifico, neve che riflette il cielo"
+      },
+
+      "threshold_effect": "la storia umana perde centralità e viene assorbita dal ritmo del paesaggio",
+
+      "textual_anchor_it": "Il monte Fuji, sacro monte protetto dagli dei, è il vulcano attivo, dormiente sotto il suo cappuccio di neve.",
+
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+
+    {
+      "id": "scene-04",
+      "label": "europa_parallela",
+      "label_en": "parallel_europe",
+
+      "definition_it": "La scoperta che la violenza del XVI secolo non appartiene a un solo mondo.",
+
+      "spatial_logic": "il libro spezza improvvisamente il confine geografico tra Giappone ed Europa. I due continenti entrano nello stesso spazio narrativo",
+
+      "reader_position": "chi legge perde il proprio centro culturale stabile; le civiltà iniziano a riflettersi reciprocamente",
+
+      "temporal_direction": "la simultaneità storica sostituisce la distanza geografica",
+
+      "perceptual_density": {
+        "sound_pressure": "campane, urla collettive, fuoco",
+        "material_tension": "ferro, pietra ecclesiastica, corde tese",
+        "light_behavior": "fiamme instabili, luce nordica opaca"
+      },
+
+      "threshold_effect": "la storia europea smette di essere sfondo distante e diventa specchio deformante del Giappone feudale",
+
+      "textual_anchor_it": "ATTO II — INTANTO IN EUROPA: Roghi, torture e altre meraviglie.",
+
+      "glossary_link": [
+        "basho",
+        "mottainai"
+      ]
+    }
+  ]
+}

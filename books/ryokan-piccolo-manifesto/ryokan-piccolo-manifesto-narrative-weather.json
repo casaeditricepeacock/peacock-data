@@ -1,0 +1,116 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "editorial_principle": "Il clima non confronta più due luoghi. Genera tre regimi indipendenti: memoria (Ryokan), esperienza (Tokyo), discontinuità (eventi climatici che non appartengono a nessun campo).",
+
+  "weather_fields": [
+    {
+      "id": "weather-00",
+      "label": "zona_fredda",
+      "intensity": 0.0,
+      "basho": "assenza di attivazione climatica",
+      "kokyu": "tempo non inizializzato",
+      "yūgen": "nessuna percezione emergente"
+    },
+
+    {
+      "id": "weather-01",
+      "label": "neve_memoria_ryokan",
+      "intensity": 1.0,
+      "field_type": "origin_field",
+
+      "basho": "la neve è sistema di chiusura del mondo nel ricordo. Non descrive il paesaggio ma la sua compressione percettiva",
+      "kokyu": "tempo sospeso e ciclico, non lineare, ripetibile solo nella memoria",
+      "yūgen": "la neve non appartiene al passato: riemerge come struttura percettiva autonoma",
+
+      "textual_anchor_it": "Metri e metri di neve, l'inverno non sembrava mai finire."
+    },
+
+    {
+      "id": "weather-02",
+      "label": "primavera_ryokan",
+      "intensity": 0.95,
+      "field_type": "origin_field",
+
+      "basho": "primavera non come fioritura ma come riapertura del campo naturale (faggi, lago, montagna)",
+      "kokyu": "espansione lenta del tempo biologico",
+      "yūgen": "la primavera non è sostituibile da equivalenti urbani",
+
+      "textual_anchor_it": "Erano il germogliare dei faggi."
+    },
+
+    {
+      "id": "weather-03",
+      "label": "autunno_ryokan",
+      "intensity": 0.88,
+      "field_type": "origin_field",
+
+      "basho": "campo stagionale di massima densità percettiva",
+      "kokyu": "tempo della trasformazione lenta (cachi, lago, fuoco)",
+      "yūgen": "l’autunno è ricordato più intensamente di quanto sia vissuto",
+
+      "textual_anchor_it": "Il lago Oku-Tone circondato da infiniti colori."
+    },
+
+    {
+      "id": "weather-04",
+      "label": "neve_tokyo",
+      "intensity": 0.62,
+      "field_type": "urban_field",
+
+      "basho": "la neve non trasforma la città ma ne sospende temporaneamente la funzione",
+      "kokyu": "interruzione del ritmo urbano (deviazione percettiva)",
+      "yūgen": "evento climatico che non appartiene né al ricordo né al presente",
+
+      "textual_anchor_it": "Anche a Tokyo nevicava."
+    },
+
+    {
+      "id": "weather-05",
+      "label": "pioggia_tokyo",
+      "intensity": 0.8,
+      "field_type": "urban_field",
+
+      "basho": "la pioggia genera isolamento senza memoria",
+      "kokyu": "tempo parallelo ma non nostalgico",
+      "yūgen": "il sogno non deriva dal ricordo del ryokan",
+
+      "textual_anchor_it": "La pioggia trasformava la stanza in una barca."
+    },
+
+    {
+      "id": "weather-06",
+      "label": "sakura_tokyo",
+      "intensity": 0.7,
+      "field_type": "urban_field",
+
+      "basho": "campo culturale condiviso e non individuale",
+      "kokyu": "tempo sociale sincronizzato",
+      "yūgen": "bellezza non comparabile ma autonoma",
+
+      "textual_anchor_it": "Non era la primavera del mio luogo incantato."
+    },
+
+    {
+      "id": "weather-07",
+      "label": "evento_non_appartenente",
+      "intensity": 0.9,
+      "field_type": "anomalous_field",
+
+      "basho": "evento climatico che non appartiene né a Ryokan né a Tokyo",
+      "kokyu": "tempo senza origine narrativa",
+      "yūgen": "il campo non può essere confrontato con altri campi",
+
+      "textual_anchor_it": "—"
+    }
+  ]
+}

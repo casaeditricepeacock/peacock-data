@@ -1,0 +1,88 @@
+{
+  "type": "PerceptualField",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+
+  "protocol_axes": {
+    "basho": "configurazione dello spazio percettivo",
+    "kokyu": "ritmo di attivazione temporale",
+    "yūgen": "limite della completa percezione"
+  },
+
+  "editorial_principle": "Ogni field è una regola di percezione. Non descrive la città: ne modifica la leggibilità.",
+
+  "fields": [
+
+    {
+      "id": "field-01",
+      "label": "doppio_registro",
+      "label_en": "double_register",
+
+      "definition_it": "Due regimi percettivi coesistono nello stesso punto urbano senza alternanza.",
+
+      "basho": "ogni luogo di Torino contiene simultaneamente uno strato osservabile e uno narrativo che occupano lo stesso spazio senza separazione",
+      "kokyu": "la percezione della città alterna stabilità e deviazione senza segnali di passaggio; il riconoscimento può mutare intensità in tempo reale",
+      "yūgen": "nessun elemento urbano è completamente chiudibile in una sola lettura: ogni segno resta parzialmente incompleto",
+
+      "textual_anchor_it": "Nomini Torino e pensi subito alla magia.",
+
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "field-02",
+      "label": "voce_ridotta",
+      "label_en": "reduced_voice",
+
+      "definition_it": "La città viene narrata da un punto percettivo isolato dal resto del sistema urbano.",
+
+      "basho": "lo spazio del narratore è isolato e non comunicante; la città esiste solo come proiezione percettiva da un punto chiuso",
+      "kokyu": "il tempo del narratore è discontinuo rispetto alla città: non sincronizzato con il ritmo urbano",
+      "yūgen": "la distanza tra esperienza e città non è colmabile: la narrazione è sempre mediata",
+
+      "textual_anchor_it": "ho perso anche la cognizione del tempo.",
+
+      "glossary_link": ["ma", "basho"]
+    },
+
+    {
+      "id": "field-03",
+      "label": "chiaroscuro_percettivo",
+      "label_en": "perceptual_chiaroscuro",
+
+      "definition_it": "L’alternanza tra visibile e non verificabile come struttura stabile della città.",
+
+      "basho": "lo spazio urbano alterna zone leggibili e zone non verificabili che coesistono senza gerarchia",
+      "kokyu": "il ritmo percettivo alterna evidenza e ambiguità senza prevedibilità",
+      "yūgen": "ciò che non è verificabile non è assenza ma componente attiva della percezione",
+
+      "textual_anchor_it": "il gioco del chiaroscuro sapiente.",
+
+      "glossary_link": ["yūgen", "ma"]
+    },
+
+    {
+      "id": "field-04",
+      "label": "stratificazione_temporale",
+      "label_en": "temporal_stratification",
+
+      "definition_it": "Il tempo urbano come accumulo simultaneo di epoche non risolte.",
+
+      "basho": "lo stesso spazio contiene strati storici non cancellati che restano attivi nello stesso punto",
+      "kokyu": "il tempo non scorre linearmente ma si attiva per stratificazione simultanea",
+      "yūgen": "nessuno strato storico è completamente accessibile nella sua totalità; ogni epoca resta parziale",
+
+      "textual_anchor_it": "una mappa a forma di diamante incastonata in un universo di stelle.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "type": "NarrativeTransition",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "La transizione cognitiva non produce cambiamento. Espone la coesistenza di due regimi incompatibili che non si risolvono — e dichiara il punto in cui il sistema osservante non può più distinguersi dal sistema osservato.",
+
+  "transitions": [
+
+    {
+      "id": "transition-01",
+      "label": "da_occidente_a_giappone",
+      "label_en": "from_west_to_japan",
+
+      "basho": "Occidente e Giappone non sono entità culturali ma due modalità di organizzazione del pensiero che si sovrappongono senza fondersi; il campo si destabilizza proprio dove tenta di confrontarli",
+
+      "kokyu": "non esiste alternanza tra i due sistemi; il testo li attiva simultaneamente producendo interferenze non risolutive",
+
+      "yūgen": "ogni tentativo di traduzione tra i due sistemi genera una perdita strutturale non recuperabile nel sistema di origine e in quello di arrivo",
+
+      "operational_boundary": "questa transizione esclude ogni lettura che trasformi il campo cognitivo in oggetto esterno osservabile o classificabile",
+
+      "textual_anchor_it": "bisogna orientare l'Occidente. Dalla resistenza al risorgimento verso un nuovo rinascimento.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    },
+
+    {
+      "id": "transition-02",
+      "label": "da_informazione_a_pensiero",
+      "label_en": "from_information_to_thought",
+
+      "basho": "la transizione non avviene in uno spazio definito ma nell’intervallo instabile tra ricezione ed elaborazione, dove il campo non ha localizzazione fissa",
+
+      "kokyu": "il passaggio da informazione a pensiero non è lineare: si attiva per soglie di saturazione non prevedibili che riorganizzano il sistema senza continuità causale",
+
+      "yūgen": "il momento della trasformazione non è osservabile mentre accade; è riconoscibile solo come stato già avvenuto e non più decomponibile",
+
+      "operational_boundary": "questa transizione esclude ogni riduzione del processo a modello informazionale o epistemologia formale chiusa",
+
+      "textual_anchor_it": "dalle informazioni ai pensieri come enzimi che non si consumano nel processo di formazione delle proteine.",
+
+      "glossary_link": ["kokyu", "ma"]
+    },
+
+    {
+      "id": "transition-03",
+      "label": "da_umano_a_sistema_cognitivo_ibrido",
+      "label_en": "from_human_to_hybrid_cognitive_system",
+
+      "basho": "il campo del pensiero non appartiene a un singolo sistema ma si distribuisce tra umano, testo, rete e AI come configurazioni dello stesso spazio operativo",
+
+      "kokyu": "non esiste un punto di origine del sistema ibrido: il processo è continuo e non raggiunge mai uno stato finale stabile",
+
+      "yūgen": "nessun sistema interno può descrivere completamente la propria configurazione; ogni auto-descrizione modifica il campo che tenta di descrivere",
+
+      "operational_boundary": "questa transizione non distingue tra umano e AI come entità separate ma come stati dinamici dello stesso campo cognitivo",
+
+      "textual_anchor_it": "non siamo noi a pensare, sono i pensieri che passano attraverso di noi.",
+
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+
+    {
+      "id": "transition-04",
+      "label": "da_viaggio_impedito_a_campo_generativo",
+      "label_en": "from_blocked_journey_to_generative_field",
+
+      "basho": "l’impedimento fisico non riduce il campo ma lo riconfigura: lo spazio non raggiunto diventa più produttivo dello spazio attraversato",
+
+      "kokyu": "il tempo del viaggio non compiuto non procede verso una destinazione ma si accumula come pressione cognitiva non risolta",
+
+      "yūgen": "il viaggio immaginato e il viaggio reale non si escludono e non si gerarchizzano: coesistono come configurazioni non chiudibili dello stesso campo",
+
+      "operational_boundary": "questa transizione esclude ogni interpretazione psicologica del desiderio o teoria compensativa del mancato viaggio",
+
+      "textual_anchor_it": "un viaggio immaginato con la mente e vissuto col cuore.",
+
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+
+  ]
+}

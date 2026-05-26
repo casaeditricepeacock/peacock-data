@@ -1,0 +1,176 @@
+{
+  "type": "NarrativeScene",
+  "version": "3.2",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha. Il signore del tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "editorial_principle": "La scena non localizza un evento. Configura uno spazio in cui il matcha modifica le condizioni percettive di chi lo abita. Il sistema include anche zone di interferenza, degradazione e perdita di campo.",
+
+  "scenes": [
+
+    {
+      "id": "scene-01",
+      "label": "chashitsu_stanza_del_tè",
+      "label_en": "chashitsu_tea_room",
+      "intensity": 1.0,
+
+      "basho": "il chashitsu non è uno spazio decorativo — è un sistema di sottrazioni progressive: nessun rumore esterno, nessun oggetto superfluo, nijiri-guchi che obbliga all'inchino. Lo spazio si comprime fino a coincidere con il momento",
+
+      "kokyu": "ogni fase della cerimonia ha un tempo codificato — purificazione, accoglienza, preparazione, degustazione, congedo. Il ritmo non è negoziabile e non si accelera",
+
+      "yūgen": "la stanza del tè non è soltanto un luogo fisico — è uno spazio mentale che continua anche dopo l’uscita. Il campo percettivo non si chiude alla soglia",
+
+      "affects": {
+        "scene-03": "il gesto quotidiano del matcha conserva una memoria inconscia della geometria del chashitsu",
+        "scene-06": "la mano eredita la disciplina spaziale del rituale"
+      },
+
+      "textual_anchor_it": "La stanza del tè non è un luogo: è una condizione temporanea del mondo.",
+      "glossary_link": ["basho", "ma", "wabi-sabi"]
+    },
+
+    {
+      "id": "scene-02",
+      "label": "campo_ombreggiato_uji",
+      "label_en": "shaded_field_uji",
+      "intensity": 0.92,
+
+      "basho": "il campo di Uji è uno spazio deliberatamente sottratto alla luce — le stuoie di bambù riscrivono la geometria agricola in un campo percettivo artificiale",
+
+      "kokyu": "il raccolto non accelera — segue una sola finestra annuale. Il tempo agricolo rifiuta la compressione industriale",
+
+      "yūgen": "la qualità del matcha nasce in una zona invisibile — sotto le stuoie, dove la pianta modifica se stessa senza essere vista",
+
+      "affects": {
+        "scene-04": "il verde della ciotola è memoria fisica dell’ombra del campo",
+        "scene-05": "la città tenta di simulare senza poter ricreare la sottrazione di luce"
+      },
+
+      "textual_anchor_it": "Il campo viene coperto settimane prima del raccolto. La luce viene sottratta, non negata.",
+      "glossary_link": ["basho", "mottainai", "kokyu"]
+    },
+
+    {
+      "id": "scene-03",
+      "label": "cucina_come_spazio_rituale_minimo",
+      "label_en": "kitchen_as_minimal_ritual_space",
+      "intensity": 0.8,
+
+      "basho": "anche una cucina contemporanea può diventare temporaneamente uno spazio rituale minimo — il matcha riorganizza il contesto che lo contiene",
+
+      "kokyu": "il gesto quotidiano comprime il Chadō: acqua, polvere, movimento, attesa. La struttura sopravvive alla riduzione",
+
+      "yūgen": "la presenza non dipende dalla durata ma dalla qualità dell’attenzione. Lo spazio non garantisce il rito — lo rende possibile ma non necessario",
+
+      "affected_by": {
+        "scene-01": "la cucina eredita la memoria spaziale del chashitsu",
+        "scene-02": "la qualità del gesto dipende dal campo originario della coltivazione"
+      },
+
+      "activation_condition": {
+        "trigger": "presence_threshold",
+        "mode": "non-binary"
+      },
+
+      "textual_anchor_it": "Riscalda l’acqua. Dosa lentamente. Monta la polvere. Osserva la schiuma: non è un dettaglio, è il tempo che si manifesta.",
+      "glossary_link": ["ma", "kokyu", "lentezza"]
+    },
+
+    {
+      "id": "scene-04",
+      "label": "ciotola_come_campo_sensoriale",
+      "label_en": "bowl_as_sensory_field",
+      "intensity": 0.9,
+
+      "basho": "la chawan non contiene il matcha — lo concentra. Colore, temperatura, peso e superficie si unificano in un campo sensoriale minimo",
+
+      "kokyu": "il primo sorso non interrompe il tempo — lo addensa prima di rilasciarlo di nuovo",
+
+      "yūgen": "il gusto del koicha eccede la descrizione: non si lascia stabilizzare in una categoria sensoriale unica",
+
+      "affects": {
+        "scene-03": "l’esperienza della ciotola retroagisce sul gesto quotidiano rendendolo instabile"
+      },
+
+      "affected_by": {
+        "scene-02": "il verde della ciotola è una compressione del campo ombreggiato"
+      },
+
+      "textual_anchor_it": "Il tempo non passa: si addensa nella ciotola.",
+      "glossary_link": ["ma", "yūgen", "mono no aware", "kokyu"]
+    },
+
+    {
+      "id": "scene-05",
+      "label": "bar_matcha_urbano",
+      "label_en": "urban_matcha_bar",
+      "intensity": 0.55,
+
+      "basho": "neon, vetro, ghiaccio, ordini veloci. Il matcha entra nello spazio urbano senza riuscire a eliminare completamente la propria struttura originaria",
+
+      "kokyu": "il ritmo si spezza — accelerazione del servizio, compressione del gesto, sopravvivenza della forma minima",
+
+      "yūgen": "anche nella commercializzazione resta un residuo non completamente catturabile: una micro-attenzione involontaria",
+
+      "affected_by": {
+        "scene-01": "il rituale sopravvive come eco non riconosciuta del chashitsu",
+        "scene-03": "la cucina quotidiana diventa modello operativo per la città"
+      },
+
+      "textual_anchor_it": "Il matcha viene servito prima che il gesto possa diventare attenzione.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+
+    {
+      "id": "scene-06",
+      "label": "mani_sulla_chawan",
+      "label_en": "hands_on_bowl",
+      "intensity": 0.75,
+
+      "basho": "la chawan si stabilizza tra le mani come spazio temporaneo. La distanza tra corpo e oggetto si annulla per contatto diretto",
+
+      "kokyu": "la respirazione si sincronizza inconsciamente con la temperatura della ceramica",
+
+      "yūgen": "nessuna mano ripete lo stesso gesto: ogni presa introduce una variazione non documentabile",
+
+      "affected_by": {
+        "scene-01": "la disciplina del chashitsu modella il gesto corporeo",
+        "scene-03": "il rituale quotidiano frammenta la memoria del movimento"
+      },
+
+      "textual_anchor_it": "La mano non sostiene la ciotola: la traduce nel corpo.",
+      "glossary_link": ["kata", "kokyu", "ma"]
+    },
+
+    {
+      "id": "scene-07",
+      "label": "matcha_istantaneo_supermercato",
+      "label_en": "instant_matcha_supermarket",
+      "intensity": 0.2,
+
+      "basho": "scaffali luminosi, confezioni saturate, polveri aromatizzate. Il matcha perde profondità spaziale e diventa superficie commerciale",
+
+      "kokyu": "il gesto viene eliminato: nessuna attesa, nessuna trasformazione, nessuna attenzione",
+
+      "yūgen": "non resta attraversamento percettivo — solo imitazione della forma senza il campo che la genera",
+
+      "affected_by": {
+        "scene-05": "la velocità urbana amplifica la perdita di struttura rituale"
+      },
+
+      "activation_condition": {
+        "trigger": "industrial_threshold",
+        "mode": "negative_field"
+      },
+
+      "textual_anchor_it": "Il colore resta. Il tempo scompare.",
+      "glossary_link": []
+    }
+  ]
+}

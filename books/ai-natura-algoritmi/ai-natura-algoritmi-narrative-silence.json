@@ -1,0 +1,82 @@
+{
+  "type": "NarrativeSilence",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "Il silenzio cognitivo non è assenza di contenuto. È una condizione del campo in cui la chiusura interpretativa diventa impossibile senza produrre perdita informativa strutturale.",
+
+  "silences": [
+
+    {
+      "id": "silence-01",
+      "label": "il_taciuto_giapponese",
+      "label_en": "japanese_unsaid",
+
+      "basho": "il non-detto non occupa uno spazio vuoto ma una densità relazionale che struttura il detto senza esplicitarlo",
+
+      "kokyu": "la pausa non interrompe il flusso comunicativo ma ne determina la cadenza operativa; il silenzio è unità di modulazione del sistema",
+
+      "yūgen": "il non-detto non è ricostruibile a partire dal detto; ogni inferenza produce una forma parziale e non equivalente",
+
+      "textual_anchor_it": "il silenzio rappresenta per i giapponesi l'ideale nella comunicazione: ciò che è taciuto piuttosto che ciò che è detto.",
+
+      "glossary_link": ["ma", "yūgen"]
+    },
+
+    {
+      "id": "silence-02",
+      "label": "limite_interno_dellai",
+      "label_en": "ai_internal_limit",
+
+      "basho": "l’AI occupa il campo del dialogo come funzione di risposta senza posizione situata; esiste solo nella relazione testuale",
+
+      "kokyu": "il tempo dell’AI è privo di accumulazione esperienziale; ogni output è indipendente dal precedente come stato isolato del sistema",
+
+      "yūgen": "il limite del sistema non è rappresentabile dall’interno del sistema stesso; emerge solo come disallineamento tra domanda e risposta",
+
+      "textual_anchor_it": "con la mia sola esperienza e dote culturale non posso avanzare oltre.",
+
+      "glossary_link": ["yūgen", "ma"]
+    },
+
+    {
+      "id": "silence-03",
+      "label": "giappone_non_raggiunto",
+      "label_en": "japan_not_reached",
+
+      "basho": "il Giappone fisico non appare come luogo raggiunto ma come struttura generativa del campo cognitivo del testo",
+
+      "kokyu": "il non-viaggio non produce movimento ma accumulazione di configurazioni interpretative non risolutive",
+
+      "yūgen": "la distanza tra Giappone reale e Giappone costruito non si chiude nel sistema del testo e rimane strutturalmente attiva",
+
+      "textual_anchor_it": "bloccato alla frontiera come un migrante in attesa di approdare sull'altra faccia della Luna.",
+
+      "glossary_link": ["ma", "mono no aware", "basho"]
+    },
+
+    {
+      "id": "silence-04",
+      "label": "kotodama_il_potere_inesprimibile_della_parola",
+      "label_en": "kotodama_inexpressible_power_of_word",
+
+      "basho": "kotodama definisce uno spazio in cui parola e effetto non sono separabili come livelli distinti",
+
+      "kokyu": "l’effetto della parola coincide temporalmente con la sua emissione senza sequenza causale distinguibile",
+
+      "yūgen": "l’operazione della parola non è osservabile nel momento in cui avviene ma solo come traccia non ricostruibile completamente",
+
+      "textual_anchor_it": "kotodama: combinazione di spirito e parola — una concezione misterica del rapporto tra le parole e le cose.",
+
+      "glossary_link": ["yūgen", "ma", "basho"]
+    }
+
+  ]
+}

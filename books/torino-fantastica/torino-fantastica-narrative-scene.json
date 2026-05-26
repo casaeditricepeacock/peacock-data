@@ -1,0 +1,55 @@
+{
+  "type": "NarrativeScene",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+
+  "editorial_principle": "La scena non rappresenta un luogo. Ne attiva il comportamento percettivo.",
+
+  "scenes": [
+
+    {
+      "id": "scene-01",
+      "label": "piazza_statuto",
+
+      "basho": "lo spazio non converge su un significato unico: tende a polarizzarsi tra interpretazioni incompatibili senza stabilizzazione",
+      "kokyu": "il ritmo percettivo alterna attrazione e repulsione senza fase intermedia; ogni lettura ricalibra la precedente",
+      "yūgen": "la figura centrale non si lascia fissare in una sola identità percettiva",
+
+      "textual_anchor_it": "il Genio diventò Diavolo per una serie di sfortunati eventi."
+    },
+
+    {
+      "id": "scene-02",
+      "label": "porta_palatina",
+
+      "basho": "uno stesso volume spaziale contiene più funzioni storiche non sincronizzate che coesistono senza fusione",
+      "kokyu": "la percezione del luogo cambia per salti d’uso, senza continuità lineare tra le epoche",
+      "yūgen": "lo strato romano non è mai interamente accessibile come esperienza presente",
+
+      "textual_anchor_it": "molti pezzi della Torino Romana non sono visibili all’esterno."
+    },
+
+    {
+      "id": "scene-03",
+      "label": "casa_dei_fiori_e_dei_draghi",
+
+      "basho": "due sistemi spaziali adiacenti producono campi percettivi non compatibili",
+      "kokyu": "il passaggio tra i due sistemi avviene senza transizione percepibile",
+      "yūgen": "la narrazione associata al secondo edificio non si chiude in verifica storica",
+
+      "textual_anchor_it": "una leggenda sinistra narra che si sarebbe suicidato pochi mesi dopo."
+    },
+
+    {
+      "id": "scene-04",
+      "label": "museo_egizio",
+
+      "basho": "un sistema culturale completo è ri-localizzato in uno spazio estraneo senza perdita materiale ma con perdita di contesto",
+      "kokyu": "il tempo originale degli oggetti è sospeso e sostituito dal ritmo della visita contemporanea",
+      "yūgen": "il significato originario degli oggetti non è recuperabile integralmente",
+
+      "textual_anchor_it": "Champollion nel museo verificò la bontà dei suoi studi."
+    }
+  ]
+}

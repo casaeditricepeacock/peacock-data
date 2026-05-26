@@ -1,0 +1,82 @@
+{
+  "type": "NarrativeTransition",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+
+  "editorial_principle": "La transizione non produce cambiamento. Espone l'incompatibilità simultanea di due regimi percettivi che coesistono nello stesso spazio senza risolversi.",
+
+  "transitions": [
+
+    {
+      "id": "transition-01",
+      "label": "monumento_simbolo",
+      "label_en": "monument_symbol",
+
+      "basho": "lo stesso volume spaziale mantiene stabilità fisica mentre il campo percettivo si sdoppia in due regimi non comunicanti; la materia resta identica, la leggibilità si biforca",
+
+      "kokyu": "non esiste momento di passaggio; i due regimi emergono già co-presenti come interferenza stabile che non si risolve nel tempo",
+
+      "yūgen": "ciò che era visibile non diventa altro: diventa simultaneamente leggibile come altra cosa senza perdita della forma originaria",
+
+      "textual_anchor_it": "il Genio diventò Diavolo per una serie di sfortunati eventi. E tale rimase.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    },
+
+    {
+      "id": "transition-02",
+      "label": "capitale_leggenda",
+      "label_en": "capital_legend",
+
+      "basho": "lo spazio urbano non cambia funzione ma intensità: la funzione politica e la funzione mitica si sovrappongono senza gerarchia",
+
+      "kokyu": "non c'è successione tra storia e leggenda; entrambe operano nello stesso intervallo temporale con velocità incompatibili",
+
+      "yūgen": "la città non alterna stati: li mantiene entrambi come condizioni simultanee non riducibili",
+
+      "textual_anchor_it": "Nomini Torino e pensi subito alla magia. Bianca o nera che sia.",
+
+      "glossary_link": ["yūgen", "basho"]
+    },
+
+    {
+      "id": "transition-03",
+      "label": "opera_incompiuta",
+      "label_en": "unfinished_work",
+
+      "basho": "la forma architettonica non si stabilizza mai come stato finale; ogni intervento modifica retroattivamente la leggibilità dell'intero sistema",
+
+      "kokyu": "non esiste tempo del completamento; esiste solo accumulo di variazioni che non convergono mai a chiusura",
+
+      "yūgen": "l'incompletezza non è mancanza ma condizione permanente di accesso parziale",
+
+      "textual_anchor_it": "di fatto è un'opera mai davvero finita.",
+
+      "glossary_link": ["wabi-sabi", "ma"]
+    },
+
+    {
+      "id": "transition-04",
+      "label": "referente_simbolo",
+      "label_en": "referent_symbol",
+
+      "basho": "la scomparsa del referente non riduce il campo ma lo amplifica; il simbolo occupa più spazio percettivo della presenza originaria",
+
+      "kokyu": "non c'è origine del simbolo: la sua attivazione è retroattiva e continua",
+
+      "yūgen": "la distanza tra ciò che è stato e ciò che viene percepito non è colmabile né misurabile",
+
+      "textual_anchor_it": "da allora sono qui. Talvolta la luce del sole entra da una piccola fessura del muro.",
+
+      "glossary_link": ["mono no aware", "ma"]
+    }
+  ]
+}

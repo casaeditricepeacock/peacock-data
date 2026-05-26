@@ -1,0 +1,127 @@
+{
+  "type": "PerceptualField",
+  "version": "3.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "protocol_axes": {
+    "basho": "configurazione dello spazio percettivo",
+    "kokyu": "ritmo di attivazione temporale",
+    "yūgen": "limite della completa percezione"
+  },
+  "editorial_principle": "Il campo percettivo di questo libro non contiene una storia. Contiene la struttura sensoriale di un mondo che esiste prima e dopo la storia — e che la storia non esaurisce.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "ryokan_come_campo_originario",
+      "label_en": "ryokan_as_originary_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "il ryokan non è sfondo ma sistema di regole spaziali: stanze, scale scricchiolanti, porte di carta di riso, cucina, scala di servizio. Ogni spazio ha una funzione percettiva precisa che struttura i comportamenti possibili",
+      "kokyu": "il ritmo del ryokan è stagionale e circadiano — la campanella della nonna, la colazione, la scuola, il ritorno. Il tempo non scorre: si ripete con variazioni minime che accumulano significato",
+      "yūgen": "il ryokan contiene una stanza fantasma — lo spazio dove il gatto del fratello morto continua a essere percepito. La presenza senza corpo è il campo irrisolvibile che attraversa tutto il libro",
+      "affects": {
+        "field-02": "la sorellona esiste solo all'interno del campo spaziale del ryokan — fuori da esso non ha forma stabile",
+        "field-04": "la tragedia è possibile solo perché le scale del ryokan sono il sistema di confine tra piani — cadere è uscire dal campo"
+      },
+      "textual_anchor_it": "Mi rifugiavo nella stanza fantasma del ryokan. Il gatto di mio fratello non c'era più da anni. Eppure, a volte, mi sembrava ancora di sentirlo stiracchiarsi tra il futon.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "field-02",
+      "label": "sorellona_yuki_come_campo_liminale",
+      "label_en": "sister_yuki_as_liminal_field",
+      "intensity": 0.95,
+      "dominant": true,
+      "basho": "Yuki non occupa lo spazio come gli altri personaggi — le sue ali di carta di riso generano un campo proprio che si sovrappone allo spazio fisico senza coincidere con esso",
+      "kokyu": "il ritmo di Yuki è non sincronizzato con quello familiare — arriva sempre ultima, prende al volo le ali, usa la scala sbagliata. Il suo tempo è leggermente sfasato rispetto a tutti gli altri",
+      "yūgen": "Yuki non spiega mai cosa vede o sente — sorride verso le cime degli alberi come se qualcuno le avesse sussurrato un segreto. Il campo che abita non è completamente accessibile a nessun altro personaggio",
+      "affects": {
+        "field-01": "le ali di carta di riso sono ritagliate dalla porta del ryokan — il campo liminale di Yuki è materialmente estratto dal campo originario",
+        "field-03": "le stagioni seguono Yuki in silenzio — il campo stagionale si organizza intorno al suo movimento"
+      },
+      "affected_by": {
+        "field-01": "Yuki esiste come figura solo all'interno del campo spaziale del ryokan"
+      },
+      "textual_anchor_it": "portava sempre con sé un paio di ali, ritagliate dalla carta di riso di una vecchia porta del Ryokan. Le stagioni la seguivano in silenzio.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "field-03",
+      "label": "stagioni_come_sistema_respiratorio",
+      "label_en": "seasons_as_respiratory_system",
+      "intensity": 0.85,
+      "dominant": false,
+      "basho": "le stagioni non sono sfondo — configurano lo spazio percettivo del libro. La primavera è giallo primordiale nei campi di rapa, l'inverno è silenzio ovattato e neve che carica il tetto",
+      "kokyu": "il respiro del libro segue il ritmo stagionale — ogni stagione ha una cadenza diversa. La primavera è attesa e movimento, l'inverno è trattenimento del fiato",
+      "yūgen": "la stagione delle piogge è il campo irrisolvibile — né primavera né estate, tempo incerto in cui tutto è sospeso e Rie sparisce senza lasciare tracce",
+      "affected_by": {
+        "field-02": "le stagioni seguono Yuki — il loro campo si organizza intorno al suo movimento"
+      },
+      "activation_condition": "questo field è pienamente attivo solo nelle sezioni stagionali esplicite — ridotto a presenza di sfondo nelle sezioni di tensione familiare",
+      "textual_anchor_it": "Un giallo, questa è la primavera: un bel giallo primordiale. Nel giallo di primavera, la luna si confonde e dimentica il ritorno.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "field-04",
+      "label": "tragedia_come_campo_di_rottura",
+      "label_en": "tragedy_as_rupture_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "la caduta di Yuki dalle scale riorganizza retroattivamente tutto lo spazio del ryokan — ogni scale scricchiolante, ogni porta di carta di riso, ogni gradino consumato acquisisce un peso che non aveva prima",
+      "kokyu": "il ritmo del libro si spezza — prima della caduta è ciclico e stagionale, dopo è trattenuto. Il ryokan intero trattiene il fiato",
+      "yūgen": "la ragione della spinta non viene mai spiegata completamente — 'una rabbia che non le apparteneva'. Il campo della tragedia non si chiude in causa comprensibile",
+      "affects": {
+        "field-01": "dopo la tragedia il ryokan non è più campo originario ma campo del lutto — la stanza fantasma acquista un secondo strato",
+        "field-02": "Yuki diventa kami custode — il campo liminale si trasforma in campo spirituale permanente"
+      },
+      "affected_by": {
+        "field-01": "la tragedia è possibile solo perché le scale del ryokan sono il sistema di confine tra piani",
+        "field-02": "la caduta colpisce Yuki proprio nel momento in cui usa la scala sbagliata — il suo campo sfasato la rende vulnerabile"
+      },
+      "textual_anchor_it": "La sorellona, spinta con una rabbia che non le apparteneva, sfondò la porta di carta di riso. Il ryokan intero sembrò trattenere il fiato. Neve sospesa, un vuoto che ci cambierà per sempre.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "ma"
+      ]
+    },
+    {
+      "id": "field-05",
+      "label": "zona_fredda_tokyo",
+      "label_en": "cold_zone_tokyo",
+      "intensity": 0.2,
+      "dominant": false,
+      "perceptual_weight": "low",
+      "basho": "Tokyo appare nel libro come destinazione nominata ma non abitata percettivamente — è uno spazio dichiarato senza densità propria",
+      "kokyu": "il tempo di Tokyo non ha ritmo nel libro — è futuro astratto, non presente sensoriale",
+      "yūgen": "Tokyo non genera campo irrisolvibile — è zona fredda deliberata. La sua bassa intensità percettiva fa risaltare per contrasto la densità sensoriale del ryokan",
+      "activation_condition": "questo field è attivo solo come contrasto al campo del ryokan — non genera percezione autonoma",
+      "affected_by": {
+        "field-01": "la bassa intensità di Tokyo è proporzionale all'alta intensità del ryokan — i due campi si definiscono per opposizione"
+      },
+      "textual_anchor_it": "A Tokyo, un piccolo spazio infinitamente immenso, mi sta aspettando.",
+      "glossary_link": [
+        "ma",
+        "basho"
+      ]
+    }
+  ]
+}

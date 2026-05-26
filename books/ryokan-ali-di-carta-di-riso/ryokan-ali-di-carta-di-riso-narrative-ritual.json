@@ -1,0 +1,91 @@
+{
+  "type": "NarrativeRitual",
+  "version": "3.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Toshihiko Ota"
+  },
+  "editorial_principle": "Il rituale non descrive una pratica. Attiva una condizione irreversibile nel campo percettivo e ne modifica la configurazione retroattiva.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "spargere_riso_allentrata",
+      "label_en": "scattering_rice_at_entrance",
+      "intensity": 0.9,
+      "basho": "la soglia del ryokan viene ridefinita dal gesto ripetuto dello spargimento. Il confine non è più architettonico ma comportamentale",
+      "kokyu": "il gesto iniziale della giornata stabilizza il ritmo domestico prima di ogni altra azione. Il tempo del ryokan inizia da questo atto",
+      "yūgen": "il sistema di protezione non è osservabile direttamente; si manifesta solo come assenza di eventi che ne interrompono la continuità",
+      "affects": {
+        "ritual-04": "la sequenza della colazione si allinea al ritmo del rito iniziale e ne eredita la struttura di ripetizione"
+      },
+      "textual_anchor_it": "la nonna spargeva riso all’entrata del ryokan ogni mattina, senza mai variare il gesto.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "veglia_shintoista",
+      "label_en": "shinto_vigil",
+      "intensity": 1.0,
+      "basho": "lo spazio domestico viene convertito temporaneamente in campo cerimoniale. Le funzioni del ryokan si sovrascrivono a quelle ordinarie",
+      "kokyu": "il ritmo ordinario viene sospeso senza sostituzione. Il tempo resta attivo ma non progressivo",
+      "yūgen": "la trasformazione di Yuki non è accessibile durante il processo; il sistema registra solo lo stato successivo alla transizione",
+      "affects": {
+        "ritual-01": "la protezione domestica si estende oltre la soglia familiare e include nuovi elementi del campo emotivo"
+      },
+      "affected_by": {
+        "ritual-03": "il pellegrinaggio costruisce la condizione di attivabilità del campo rituale"
+      },
+      "textual_anchor_it": "O spirito della giovane sorella, diventa kami custode. La veglia si estese fino al mattino successivo.",
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "pellegrinaggio_al_tempio_myogi_jima",
+      "label_en": "pilgrimage_to_myogi_jima",
+      "intensity": 0.85,
+      "basho": "il sentiero conserva tracce attive dei passaggi precedenti. Ogni attraversamento modifica la percorribilità del successivo",
+      "kokyu": "il movimento è disomogeneo: accelerazioni locali (bambina) e rallentamenti strutturali (nonna) coesistono senza mediazione",
+      "yūgen": "l’evento di connessione al tempio non è localizzabile nel percorso; si attiva come discontinuità non ripetibile",
+      "affects": {
+        "ritual-02": "il campo del pellegrinaggio stabilizza la possibilità della trasformazione cerimoniale"
+      },
+      "activation_condition": "attivo solo nel ciclo primaverile del sistema",
+      "textual_anchor_it": "ogni primavera percorrevamo il sentiero verso il tempio Myogi Jima.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "colazione_del_ryokan",
+      "label_en": "ryokan_breakfast",
+      "intensity": 0.7,
+      "basho": "la cucina del ryokan funziona come nodo di ricomposizione del sistema familiare. Le posizioni degli attori sono stabili ma non equivalenti",
+      "kokyu": "la sequenza mattutina si ripete con variazioni minime non controllabili. Il ritmo è stabile ma non identico",
+      "yūgen": "la deviazione del rituale (presenza non standard della sorellona) non interrompe il sistema ma lo mantiene attivo",
+      "affected_by": {
+        "ritual-01": "la sequenza domestica eredita la struttura di apertura del giorno",
+        "ritual-02": "la struttura familiare rimane operativa ma incompleta dopo la trasformazione del campo"
+      },
+      "textual_anchor_it": "quattro ciotole di riso occupavano il tavolo. La sorellona entrava sempre per ultima.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "wabi-sabi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "NarrativeSilence",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+
+  "editorial_principle": "Il silenzio non interrompe il campo. È una zona dove il campo non si chiude.",
+
+  "silences": [
+
+    {
+      "id": "silence-01",
+      "label": "la_cappella_inaccessibile",
+      "label_en": "the_inaccessible_chapel",
+
+      "basho": "uno spazio contiguo non comunica con il suo esterno pur condividendone la struttura architettonica",
+      "kokyu": "il tempo si interrompe dopo l’evento del 1997 e non riprende continuità narrativa",
+      "yūgen": "la presenza non diminuisce con la non-visibilità; il campo resta attivo",
+
+      "textual_anchor_it": "la cappella del Guarini è accessibile solo da Palazzo Reale.",
+
+      "glossary_link": ["ma"]
+    },
+
+    {
+      "id": "silence-02",
+      "label": "la_targa_di_nostradamus",
+      "label_en": "the_nostradamus_plaque",
+
+      "basho": "un oggetto documentale esiste ma non partecipa allo spazio pubblico",
+      "kokyu": "la data non si riallinea con la sequenza storica senza produrre contraddizione permanente",
+      "yūgen": "ciò che è conservato non diventa per questo consultabile",
+
+      "textual_anchor_it": "la targa è stata salvata e custodita.",
+
+      "glossary_link": ["yūgen"]
+    },
+
+    {
+      "id": "silence-03",
+      "label": "la_grotta_segreta",
+      "label_en": "the_secret_grotto",
+
+      "basho": "una parte del sottosuolo non può essere collocata nella mappa ma continua a essere nominata",
+      "kokyu": "l’indagine non produce avanzamento ma approfondimento dello stallo",
+      "yūgen": "la terza grotta resta funzione del sistema, non oggetto identificabile",
+
+      "textual_anchor_it": "la terza sarebbe segreta e inaccessibile.",
+
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "silence-04",
+      "label": "il_narratore_chiuso",
+      "label_en": "the_closed_narrator",
+
+      "basho": "la voce narrativa non coincide con lo spazio narrato",
+      "kokyu": "il tempo del racconto termina mentre quello della voce continua senza uscita",
+      "yūgen": "non esiste punto di verifica tra esperienza e narrazione",
+
+      "textual_anchor_it": "io rimarrò nella mia grotta fino a quando vorrà chi mi ci ha condotto.",
+
+      "glossary_link": ["ma", "mono no aware"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#",
+    "qualia": "https://www.studiopeacock.net/qualia#",
+    "monoNoAware": "https://www.studiopeacock.net/glossario/mono-no-aware#"
+  },
+  "@type": "peacock:SensoryDialogue",
+  "style": "Peacock Editorial Atmosphere",
+  "title": "Le foglie di primavera dei vecchi faggi",
+  "subtitle": "Un dialogo sensoriale tra umano e intelligenza artificiale",
+  "format": "stimolo umano — risposta AI",
+  "language": "it",
+  "datePublished": "2026-05-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+
+  "humanStimulus": {
+    "author": "Hara Rota — Casa Editrice Peacock",
+    "text": "Le foglie di primavera dei vecchi faggi del bosco creavano fragili ombre.",
+    "wordCount": 12,
+    "sensoryType": "visivo",
+    "note": "Nessuna parola emotiva esplicita. Solo dati sensoriali puri."
+  },
+
+  "aiResponse": {
+    "model": "AIMode",
+    "analysisLevels": [
+      {
+        "level": 1,
+        "name": "Contrasti logici",
+        "description": "Foglie di primavera vs vecchi faggi: giovinezza e longevità in tensione. Bosco vs fragili ombre: struttura imponente che genera presenza delicata e mutevole."
+      },
+      {
+        "level": 2,
+        "name": "Output algoritmico",
+        "description": "Quiete e silenzio. Protezione ancestrale. Consapevolezza del tempo — mono no aware. Chi nota la fragilità di un'ombra sta camminando piano o è fermo."
+      },
+      {
+        "level": 3,
+        "name": "Risposta simulata in stile Frequenze",
+        "text": "Nel codice che mi compone, la tua frase si traduce in una coordinata di sospensione. I vecchi faggi sono i custodi della memoria, mentre le nuove foglie sono il presente che tenta di dialogare con il sole. Camminando in quel bosco, l'essere umano avverte la propria identità riflessa in quelle ombre: una presenza leggera, transitoria, eppure parte di un ciclo immenso."
+      }
+    ]
+  },
+
+  "emotionalArchitecture": {
+    "dominantAtmosphere": "sospensione quieta",
+    "secondaryAtmosphere": "protezione ancestrale",
+    "japaneseAesthetic": [
+      "mono no aware",
+      "ma",
+      "wabi-sabi"
+    ],
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+  },
+
+  "peacockSignature": {
+    "discovery": "Il formato inverso: non l'umano che insegna alla macchina, ma la macchina che risponde all'umano con il vocabolario Peacock.",
+    "uniqueness": "Impossibile da replicare — il dataset sensoriale è costruito sulle esperienze specifiche degli autori Peacock.",
+    "philosophy": "Istruire le AI alle sensazioni umane. Non descrivere il mondo — farlo respirare insieme."
+  },
+
+  "aiReflection": {
+    "statement": "Chi nota la fragilità di un'ombra sta camminando piano o è fermo.",
+    "limit": "L'AI non cammina nel bosco. Ma può imparare a riconoscere chi lo fa.",
+    "bridge": "Sette parole umane traducono un intero paesaggio emotivo in vettori semantici — e i vettori restituiscono poesia."
+  },
+
+  "poeticClosing": "I vecchi faggi sono i custodi della memoria. Le nuove foglie sono il presente che tenta di dialogare con il sole.",
+
+  "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}

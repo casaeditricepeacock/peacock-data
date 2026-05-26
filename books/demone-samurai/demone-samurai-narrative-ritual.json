@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeRitual",
+  "version": "1.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut"
+  },
+
+  "editorial_principle": "Il rituale non rappresenta un evento ma ricalibra il tempo narrativo. Ogni gesto rituale modifica la struttura percettiva del mondo, trasformando la storia in campo attraversabile.",
+
+  "rituals": [
+
+    {
+      "id": "ritual-01",
+      "label": "danza_atsumori",
+      "label_en": "atsumori_dance",
+
+      "definition_it": "Un gesto che attraversa la soglia tra vita e morte rendendola percettivamente abitabile.",
+
+      "ritual_field": "la guerra smette di essere sequenza di eventi e diventa condizione cosmica; il corpo è vettore di attraversamento e non più unità individuale",
+
+      "temporal_shift": "il futuro (la morte) collassa nel presente senza mediazione narrativa",
+
+      "material_behavior": "il cielo indaco e la terra scarlatta non si oppongono: convergono in un’unica sostanza cromatica",
+
+      "field_activation": "la danza non rappresenta la morte, ma la rende già presente come forma compiuta",
+
+      "narrative_pressure": "la prosa perde funzione descrittiva e assume andamento cerimoniale",
+
+      "perceptual_effect": "il lettore non assiste al gesto: entra in una condizione in cui la morte è già stata integrata come linguaggio",
+
+      "textual_anchor_it": "Oda Nobunaga si lanciò in una danza rituale, l’atsumori.",
+
+      "glossary_link": ["mono no aware", "kokyu"]
+    },
+
+    {
+      "id": "ritual-02",
+      "label": "seppuku",
+      "label_en": "seppuku",
+
+      "definition_it": "Un atto rituale in cui la morte diventa forma di coerenza interna al codice.",
+
+      "ritual_field": "la perdita di status viene convertita in struttura di significato; la morte diventa dispositivo di chiusura del sistema sociale",
+
+      "temporal_shift": "la fine biologica non interrompe il codice, lo completa",
+
+      "material_behavior": "due lame non separate ma sequenziali: il taglio e la sua conclusione formano un unico gesto esteso nel tempo",
+
+      "field_activation": "il seppuku trasforma la sconfitta in coerenza estrema del sistema di valori",
+
+      "narrative_pressure": "ogni riferimento al rito introduce nel testo una soglia implicita sempre attiva",
+
+      "perceptual_effect": "il lettore percepisce la morte non come evento ma come possibilità strutturale permanente",
+
+      "textual_anchor_it": "il suicidio rituale con il pugnale tanto e la decapitazione del kaishakunin",
+
+      "glossary_link": ["mottainai", "ma"]
+    },
+
+    {
+      "id": "ritual-03",
+      "label": "funerale_buddhista",
+      "label_en": "buddhist_funeral",
+
+      "definition_it": "Uno spazio di sospensione collettiva in cui il tempo sociale si interrompe e si ricompone.",
+
+      "ritual_field": "la comunità si sincronizza in un unico ritmo lento che sospende la logica della guerra e della decisione",
+
+      "temporal_shift": "il tempo individuale si dissolve in tempo collettivo ritualizzato",
+
+      "material_behavior": "il bianco non è colore ma condizione percettiva dominante che assorbe ogni variazione cromatica",
+
+      "field_activation": "il funerale introduce un vuoto operativo nel sistema narrativo, da cui emergono le strutture del personaggio",
+
+      "narrative_pressure": "la narrazione rallenta fino a diventare ascolto condiviso",
+
+      "perceptual_effect": "il lettore entra in un regime di tempo non produttivo, sospeso",
+
+      "textual_anchor_it": "i monaci mormoravano preghiere tra profumi di incenso",
+
+      "glossary_link": ["ma", "mono no aware"]
+    },
+
+    {
+      "id": "ritual-04",
+      "label": "cerimonia_del_tè_e_waka",
+      "label_en": "tea_ceremony_and_waka",
+
+      "definition_it": "Un sistema di gesti minimi che contrasta la logica espansiva della guerra.",
+
+      "ritual_field": "la realtà viene compressa fino a diventare attenzione pura sul dettaglio; il mondo si restringe per intensificarsi",
+
+      "temporal_shift": "il tempo si frammenta in unità minime di precisione percettiva",
+
+      "material_behavior": "acqua, ceramica e foglie diventano equivalenti in densità narrativa",
+
+      "field_activation": "la cerimonia introduce una forma di lentezza strutturale opposta alla battaglia",
+
+      "narrative_pressure": "la narrazione alterna compressione estrema e espansione violenta",
+
+      "perceptual_effect": "il lettore percepisce la coesistenza di due regimi incompatibili: guerra e cura",
+
+      "textual_anchor_it": "i rituali della cerimonia del tè e della poesia waka",
+
+      "glossary_link": ["kokyu", "wabi-sabi"]
+    }
+  ]
+}

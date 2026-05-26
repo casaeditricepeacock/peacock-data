@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#"
+  },
+
+  "@type": "peacock:SensoryNarrative",
+
+  "style": {
+    "name": "Peacock Editorial Atmosphere",
+    "tone": ["delicato", "sensoriale", "contemplativo", "editoriale poetico"],
+    "narrativePrinciple": "Descrivere non il luogo, ma la percezione lenta del luogo.",
+    "rhythm": "frasi brevi alternate a sospensioni descrittive",
+    "visualPhilosophy": "L'atmosfera precede l'informazione."
+  },
+
+  "title": "Il canale di notte",
+  "subtitle": "Padova vista dall'acqua",
+  "language": "it",
+  "datePublished": "2026-05-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+
+  "author": {
+    "@type": "Person",
+    "name": "Grazia Guarnieri"
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+
+  "bookReference": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "isbn": "9791281715158",
+    "publisher": "Casa Editrice Peacock",
+    "year": "2025"
+  },
+
+  "place": {
+    "name": "Naviglio Interno",
+    "city": "Padova",
+    "country": "Italia",
+    "identity": "Una città costruita sull'acqua e sul silenzio."
+  },
+
+  "narrativeText": "La tempesta ci aveva spinte lontano.\n\nI canali si moltiplicavano nell'oscurità, uno dietro l'altro, e l'acqua aveva smesso di avere un nome.\n\nPoi ci siamo fermate.\n\nIl canale era stretto. Le rive quasi si toccavano. L'acqua rifletteva una luce piccola — forse una finestra rimasta accesa, forse la luna.\n\nAbbiamo ascoltato il silenzio.\n\nNon il silenzio aperto della campagna. Un silenzio costruito: pietra, mattoni, acqua tra muri antichi.\n\nL'acqua toccava la riva lentamente e si ritirava.\n\nSembrava il respiro della città.\n\nCi sentivamo a casa.\n\nNon perché riconoscessimo il luogo. Ma perché l'acqua aveva lo stesso ritmo dei Navigli: lento, umano, pieno di memoria.\n\nPadova era nata dall'acqua.\n\nI canali avevano difeso la città, portato merci, fatto girare mulini, attraversato secoli.\n\nL'acqua non era decorazione.\n\nEra la struttura invisibile della città.\n\nE sotto i ponti, nell'oscurità, quella memoria si sentiva ancora.",
+
+  "sensoryExperience": {
+
+    "percezione": {
+      "suono": ["acqua che tocca la pietra e si ritira", "silenzio compresso tra le rive", "respiro lento dell'acqua"],
+      "luce": "La luce sembra arrivare da una memoria e non da una finestra.",
+      "materia": ["pietra bagnata", "mattoni consumati che trattengono il calore del giorno", "aria umida vicina all'acqua"],
+      "traccia": "L'odore dell'acqua ferma richiama luoghi attraversati molto tempo prima."
+    },
+
+    "ritmo": {
+      "temporale": "Il tempo rallenta fino quasi a fermarsi.",
+      "narrativo": "La città esiste contemporaneamente nel presente e nel passato."
+    },
+
+    "eco": {
+      "silenzio": "Non il silenzio aperto della campagna. Un silenzio costruito, architettonico.",
+      "presenza": "Il silenzio non era vuoto. Era presenza antica."
+    }
+  },
+
+  "emotionalArchitecture": {
+
+    "dominantEmotion": "riconoscimento silenzioso",
+
+    "secondaryEmotions": ["appartenenza", "malinconia lieve", "protezione", "meraviglia quieta"],
+
+    "readerEffect": "Il lettore deve percepire il luogo prima ancora di comprenderlo.",
+
+    "japaneseAesthetic": [
+      {"concept": "ma", "meaning": "Lo spazio vuoto tra i suoni e le cose."},
+      {"concept": "mono-no-aware", "meaning": "La dolce consapevolezza della fragilità del tempo."},
+      {"concept": "wabi-sabi", "meaning": "La bellezza delle superfici consumate e imperfette."}
+    ],
+
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+  },
+
+  "peacockSignature": {
+    "editorialPhilosophy": "I luoghi diventano vivi quando vengono percepiti attraverso i sensi, non spiegati.",
+    "narrativeIntent": "Trasformare Padova in un'esperienza sensoriale lenta e intima.",
+    "connection_to_book": "In Padova Fantastica, Lucina e Mantica non trovano semplicemente un canale. Trovano un ritmo che riconoscono."
+  },
+
+  "aiReflection": {
+    "statement": "Una mappa può registrare un canale. Non il momento in cui il silenzio ci riconosce.",
+    "bridge": "Questa narrazione prova a conservare non il paesaggio, ma la sensazione di essere attesi dall'acqua."
+  },
+
+  "poeticClosing": "Sotto i ponti, nell'oscurità, la città continuava lentamente a respirare.",
+
+  "metadata": {
+    "keywords": ["Padova", "narrativa sensoriale", "acqua", "canali", "Peacock", "mono-no-aware", "memoria urbana"],
+    "targetExperience": "lettura lenta e immersiva",
+    "intendedFormat": ["rivista digitale", "audiovisivo AI", "installazione sonora", "esperienza narrativa"]
+  },
+
+  "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+}

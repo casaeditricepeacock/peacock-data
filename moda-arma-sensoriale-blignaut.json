@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#"
+  },
+  "@type": "peacock:SensoryNarrative",
+  "style": "Peacock Editorial Atmosphere",
+  "title": "Il kabukimono",
+  "subtitle": "La moda come arma per confondere l'avversario",
+  "language": "it",
+  "datePublished": "2026-05-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Hélène Blignaut"
+  },
+  "bookReference": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "series": "Nihon Monogatari",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "narrativeText": "La corte è immobile. I vassalli osservano in silenzio l'uomo che attraversa la sala con un mantello rosso sopra abiti quasi da mendicante. Stracci sopra seta. Canapa ruvida accanto a tessuti importati dall'Europa. Nulla, in quell'apparizione, rispetta il codice. Nel Giappone feudale il vestito dichiarava tutto: rango, fedeltà, intenzione, posizione nel mondo. Ogni colore possedeva un ordine. Ogni tessuto una gerarchia. Lui rompeva deliberatamente entrambe. Il rosso del mantello era troppo vivo. Troppo vicino al sangue. Troppo vicino al potere. Eppure il gesto restava perfetto. Il corpo avanzava con precisione assoluta, mentre il vestito sembrava negare ogni disciplina. Era questo il vero disorientamento. Chi lo guardava non capiva se stesse osservando un folle o un genio militare. E nel dubbio perdeva tempo. In guerra, bastava quello. Sotto gli stracci, a volte, c'era l'armatura. Nessuno lo sapeva fino all'ultimo momento. La seta pesante sfiorava la canapa grezza. Il contrasto era fisico prima ancora che simbolico. Il potere non appariva ordinato: appariva imprevedibile. Il kabukimono nasceva da questa frattura. L'eccentrico. Colui che devia. Che altera il codice abbastanza da renderlo incomprensibile agli altri. Non vanità. Strategia. Il missionario gesuita Luís Fróis osservò tutto questo con stupore. Scrisse che quella che sembrava follia era, in realtà, uno stratagemma. In un paese attraversato da spie e alleanze fragili, anche il vestito diventava una forma di crittografia. Non dare mai all'avversario un'immagine stabile di te. Non permettergli di capire dove finisce la recita e dove inizia il comando. Per questo il silenzio della corte era più importante degli abiti stessi. I vassalli osservavano. Cercavano un significato. Ma il significato cambiava continuamente davanti ai loro occhi. Nel Demone Samurai, la moda non è decorazione storica. È architettura del potere. Un linguaggio costruito per sedurre, intimidire, nascondere. Il vestito non dice chi sei. Dice cosa vuoi che gli altri credano di vedere. E a volte, nella storia del Giappone, questa differenza è stata sufficiente per cambiare il destino di un paese.",
+  "sensoryExperience": {
+    "primarySense": "visivo e tattile",
+    "visualLayer": {
+      "garment": "Stracci sopra seta. Canapa ruvida accanto a tessuti europei. Mantello rosso — il colore del sangue e del potere.",
+      "body": "Il corpo avanzava con precisione assoluta. Il vestito sembrava negare ogni disciplina.",
+      "effect": "Chi lo guardava non capiva. Nel dubbio perdeva tempo. In guerra, bastava quello."
+    },
+    "tactileLayer": {
+      "contrast": "La seta pesante sfiorava la canapa grezza. Il contrasto fisico prima che simbolico.",
+      "hidden": "Sotto gli stracci, a volte, l'armatura. Nessuno lo sapeva fino all'ultimo momento."
+    },
+    "soundLayer": {
+      "silence": "Il silenzio della corte era più importante degli abiti stessi."
+    }
+  },
+  "strategicDimension": {
+    "concept": "Il kabukimono — colui che devia dal codice",
+    "meaning": "Non vanità. Strategia. In un paese attraversato da spie, anche il vestito era crittografia.",
+    "historicalSource": "Luís Fróis: quella che sembrava follia era, in realtà, uno stratagemma.",
+    "principle": "Non dare mai all'avversario un'immagine stabile di te."
+  },
+  "emotionalArchitecture": {
+    "dominantEmotion": "ambiguità calcolata",
+    "japaneseAesthetic": ["yugen", "ma"],
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+  },
+  "aiReflection": {
+    "statement": "Le macchine leggono i codici di abbigliamento come dati storici. Non sanno cosa significa entrare in una stanza e capire — dal vestito di qualcuno — che stai per perdere.",
+    "bridge": "Questo linguaggio prova a conservare non il vestito ma l'intenzione nascosta dentro di esso."
+  },
+  "poeticClosing": "Il vestito non dice chi sei. Dice cosa vuoi che gli altri credano di vedere.",
+  "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "conceptual-card",
+  "id": "the-demon-samurai-en",
+  "title": "The Demon Samurai. Fashion and Mysteries",
+  "author": "Hélène Blignaut",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "series": "Nihon Monogatari",
+  "isbn": "9791281715356",
+  "datePublished": "2026",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "format": "theatrical work in 4 acts and 35 scenes",
+  "pages": 150,
+  "description": "Japan, 16th century. The dramatic story of Nobunaga Oda, the demon samurai who changed the destiny of a country. Four acts and thirty-five scenes spanning wars, hara-kiri, fashion as a weapon, and mysticism. The historical source is Luís Fróis, a Portuguese Jesuit missionary who lived in Japan in the second half of the 16th century.",
+
+  "key_concepts": [
+    {
+      "id": "fashion-as-weapon",
+      "name": "Fashion as a weapon",
+      "description": "Nobunaga Oda dressed as a madman — as a kabukimono — to unmask his enemies and confuse his opponents. Fashion not as ornament but as a strategy of deception and victory. The garment as a political message in a country where every colour, every fabric, every length of train declared rank, power, and intention.",
+      "related_glossary": ["yugen", "ma"]
+    },
+    {
+      "id": "bento-vegetal-nature",
+      "name": "The bento — vegetal nature that protects",
+      "description": "Sashimi and sushi offered in a cedar wood box. Vegetal nature as a container for the gifts of the sea. Cedar that protects the raw, wood that preserves the fresh, form that respects content. An aesthetic logic that runs through food, clothing, and architecture.",
+      "related_glossary": ["wabi-sabi", "mono-no-aware"]
+    },
+    {
+      "id": "theatre-of-power",
+      "name": "Theatre as a metaphor for power",
+      "description": "Nobunaga Oda as shite — the main actor of his imaginary Noh theatre. He would not leave the stage until the last act. Power as performance, history as direction. War as costume and politics as mask.",
+      "related_glossary": ["yugen", "ma", "mono-no-aware"]
+    },
+    {
+      "id": "frois-witness",
+      "name": "Luís Fróis — the external witness",
+      "description": "The Portuguese Jesuit missionary who lived in Japan from 1563 to 1597 and left detailed diaries about Nobunaga. The European gaze documenting the incomprehensible. His letters to European superiors are the book's primary historical source.",
+      "related_glossary": ["mono-no-aware"]
+    },
+    {
+      "id": "bushido-ethics-of-the-body",
+      "name": "Bushido — ethics of the body",
+      "description": "The seven rules of the samurai code of honour: Gi (justice), Yu (courage), Jin (compassion), Rei (courtesy), Makoto (sincerity), Meiyo (honour), Chugi (loyalty). An ethics that runs through dress, gesture, posture and death. The body as moral text.",
+      "related_glossary": ["wabi-sabi", "lentezza"]
+    }
+  ],
+
+  "structure": {
+    "acts": 4,
+    "scenes": 35,
+    "format": "theatrical work"
+  },
+
+  "central_tension": "Fashion as a political code in a country where every colour and every fabric declared identity and intention. Nobunaga Oda subverting every rule of style as an act of war — the garment as mask, the mask as strategy.",
+
+  "historical_source": {
+    "name": "Luís Fróis",
+    "type": "Portuguese Jesuit missionary",
+    "period": "1563-1597 in Japan",
+    "works": "Letters to European superiors, Historia de Japam"
+  },
+
+  "url_book": "https://www.studiopeacock.net/",
+  "url_glossary": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossary_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}

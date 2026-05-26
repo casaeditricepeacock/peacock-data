@@ -1,0 +1,92 @@
+{
+  "type": "PerceptualField",
+  "version": "2.0",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI Natura e Algoritmi Giapponesi",
+    "author": "Renato Frabasile"
+  },
+
+  "editorial_principle": "Il campo cognitivo non rappresenta il pensiero. È la sua configurazione operativa tra sistemi umani e non umani.",
+
+  "fields": [
+
+    {
+      "id": "field-01",
+      "label": "asimmetria_cognitiva_operativa",
+
+      "basho": "lo spazio del pensiero è co-occupato da due sistemi non equivalenti: uno situato, biografico, corporeo; uno non situato, distribuito, privo di memoria. Il campo nasce dalla loro non-equivalenza strutturale",
+
+      "kokyu": "non esiste sincronizzazione tra i due regimi cognitivi; ogni scambio è già disallineato nel momento in cui avviene. Il ritmo non è dialogo ma interferenza",
+
+      "yūgen": "la distinzione tra comprensione e simulazione non produce soluzione operativa nel sistema; resta incorporata come ambiguità funzionale",
+
+      "textual_anchor_it": "Non siamo noi a pensare, sono i pensieri che attraversano sistemi incompatibili.",
+
+      "glossary_link": ["ma", "yūgen"]
+    },
+
+    {
+      "id": "field-02",
+      "label": "natura_come_struttura_relazionale",
+
+      "basho": "la natura non è oggetto ma configurazione di relazioni percettive incompatibili tra culture. Giappone e Occidente non condividono il referente ma solo la parola",
+
+      "kokyu": "il pensiero naturale non procede linearmente ma per ritorni ciclici non sovrapponibili al tempo tecnico della modernità",
+
+      "yūgen": "ogni definizione di natura produce immediatamente un eccesso non contenibile nella definizione stessa",
+
+      "textual_anchor_it": "la natura come relazione che non coincide mai con la sua descrizione.",
+
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+
+    {
+      "id": "field-03",
+      "label": "riduzione_spaziale_espansione_cognitiva",
+
+      "basho": "la restrizione fisica del corpo produce espansione del campo cognitivo; lo spazio interno diventa più complesso dello spazio esterno",
+
+      "kokyu": "la sospensione della mobilità fisica non riduce il tempo del pensiero ma ne modifica la densità operativa",
+
+      "yūgen": "l’esperienza immaginativa non sostituisce quella fisica ma opera su un livello non confrontabile con essa",
+
+      "textual_anchor_it": "viaggiando senza spostarmi da casa.",
+
+      "glossary_link": ["ma", "kokyu"]
+    },
+
+    {
+      "id": "field-04",
+      "label": "linguaggio_come_sistema_di_soglia",
+
+      "basho": "la lingua non è mezzo ma ambiente operativo; il giapponese definisce un campo cognitivo non traducibile senza perdita strutturale",
+
+      "kokyu": "il tempo linguistico non anticipa né segue l’azione: la co-produce in forma ritardata e contestuale",
+
+      "yūgen": "la struttura della comunicazione include il non detto come componente attiva del significato, non come sua assenza",
+
+      "textual_anchor_it": "il silenzio come forma primaria della comunicazione.",
+
+      "glossary_link": ["ma", "yūgen"]
+    },
+
+    {
+      "id": "field-05",
+      "label": "AI_come_funzione_strutturale_del_testo",
+
+      "basho": "l’AI non è oggetto del discorso ma dispositivo di produzione del campo stesso; co-definisce lo spazio cognitivo insieme all’umano",
+
+      "kokyu": "il ritmo del testo è generato da una alternanza non gerarchica tra produzione umana e generazione computazionale",
+
+      "yūgen": "non è possibile isolare il confine operativo tra autore e sistema di generazione senza distruggere il campo stesso",
+
+      "textual_anchor_it": "questo testo è scritto mentre si scrive.",
+
+      "glossary_link": ["ma", "yūgen", "basho"]
+    }
+  ]
+}
