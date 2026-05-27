@@ -1,0 +1,69 @@
+{
+  "type": "NarrativeSystemVariation",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "canonical": false,
+  "variation_operator": {
+    "name": "bubble_climate_interference_shift",
+    "mode": "cross_layer_reassignment",
+    "description": "la bolla non appartiene più al corpo ma diventa unità di misura tra silenzio, suono e pioggia",
+    "effect": "riorganizzazione del campo percettivo senza modifica strutturale dei nodi"
+  },
+  "global_reassignment": {
+    "primary_actor_shift": {
+      "from": "object-01 (bolla_rosa)",
+      "to": "weather-02 / silence-01 coupling"
+    },
+    "new_dominant_field": "transition-03",
+    "system_behavior_update": "il sistema non è più centrato sul gesto corporeo ma sull'irruzione climatica della sua conseguenza"
+  },
+  "key_modifications": [
+    {
+      "target": "scene-02",
+      "change": "la ragazza non produce la bolla: la bolla produce la ragazza come punto di emissione temporaneo",
+      "effect": "inversione causale corpo/oggetto"
+    },
+    {
+      "target": "object-01",
+      "change": "la bolla non è più estensione corporea ma unità atmosferica compressa nel vicolo",
+      "effect": "de-personalizzazione totale dell'oggetto"
+    },
+    {
+      "target": "transition-03",
+      "change": "il distacco non è irreversibile ma climatico: la bolla si dissolve nella canzone e ritorna come pioggia ritardata",
+      "effect": "ciclo chiuso tra suono e precipitazione"
+    },
+    {
+      "target": "weather-03",
+      "change": "la pioggia non è emozione ma residuo acustico della bolla dopo il suo scoppio nel campo sonoro",
+      "effect": "riduzione dell'emozione a eco fisica"
+    },
+    {
+      "target": "silence-01",
+      "change": "il silenzio non precede più la canzone: è la sua forma compressa prima della detonazione",
+      "effect": "il silenzio diventa fase del suono, non suo opposto"
+    }
+  ],
+  "cross_layer_result": {
+    "new_loop": {
+      "label": "bolla_suono_pioggia_feedback",
+      "nodes": ["object-01", "transition-01", "weather-03", "silence-01"],
+      "type": "closed_residual_loop",
+      "stability": "metastable",
+      "description": "ogni bolla genera una canzone, ogni canzone produce pioggia, ogni pioggia ricompone il silenzio come pressione iniziale"
+    }
+  },
+  "final_state": {
+    "dominant_field": "sound_climate_feedback_loop",
+    "closure": false,
+    "effect_on_reader": "la sequenza non si legge più come evento ma come oscillazione atmosferica persistente anche dopo la fine del testo",
+    "readability": "alta localmente, instabile globalmente"
+  }
+}
