@@ -1,55 +1,117 @@
 {
   "type": "NarrativeScene",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
-
-  "editorial_principle": "La scena non rappresenta un luogo. Ne attiva il comportamento percettivo.",
-
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+  "editorial_principle": "La scena non rappresenta un luogo. È una configurazione percettiva instabile che può degradarsi, contaminarsi o collassare quando attraversata.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione che si attiva solo nell'attraversamento",
+    "historical_echo": "campo che riattiva temporalità incompatibili",
+    "urban_degradation": "campo che perde densità durante l'attraversamento",
+    "collapse_field": "configurazione che si disintegra mentre viene percepita"
+  },
   "scenes": [
-
     {
       "id": "scene-01",
-      "label": "piazza_statuto",
-
-      "basho": "lo spazio non converge su un significato unico: tende a polarizzarsi tra interpretazioni incompatibili senza stabilizzazione",
-      "kokyu": "il ritmo percettivo alterna attrazione e repulsione senza fase intermedia; ogni lettura ricalibra la precedente",
-      "yūgen": "la figura centrale non si lascia fissare in una sola identità percettiva",
-
-      "textual_anchor_it": "il Genio diventò Diavolo per una serie di sfortunati eventi."
+      "label": "campo_statuto_disorientamento",
+      "type": "field_node",
+      "basho": "lo spazio non converge: produce direzioni simultanee che si contraddicono senza risoluzione. Ogni punto della piazza è un centro temporaneo che si spegne mentre viene percepito",
+      "kokyu": "il ritmo non alterna più attrazione e repulsione: li sovrappone nello stesso gesto percettivo. Il corpo si sposta senza decidere la direzione",
+      "yūgen": "la figura centrale non si stabilizza perché non appartiene al campo ma lo produce mentre lo attraversa",
+      "affects": {
+        "scene-04": "il museo perde la sua neutralità espositiva quando attraversato dopo Statuto",
+        "scene-02": "la porta romana viene percepita come variazione e non come origine"
+      },
+      "textual_anchor_it": "il Genio diventò Diavolo per una serie di sfortunati eventi.",
+      "glossary_link": ["basho", "yūgen"]
     },
-
     {
       "id": "scene-02",
-      "label": "porta_palatina",
-
-      "basho": "uno stesso volume spaziale contiene più funzioni storiche non sincronizzate che coesistono senza fusione",
-      "kokyu": "la percezione del luogo cambia per salti d’uso, senza continuità lineare tra le epoche",
-      "yūgen": "lo strato romano non è mai interamente accessibile come esperienza presente",
-
-      "textual_anchor_it": "molti pezzi della Torino Romana non sono visibili all’esterno."
+      "label": "porta_palatina_stratificata",
+      "type": "historical_echo",
+      "basho": "più epoche occupano lo stesso volume senza gerarchia; lo spazio non contiene la storia ma la lascia interferire",
+      "kokyu": "la percezione salta tra Roma e città contemporanea senza transizione, come se il tempo avesse perso continuità locale",
+      "yūgen": "nessuna epoca è recuperabile integralmente; ogni accesso produce una versione diversa dello stesso luogo",
+      "affects": {
+        "scene-03": "la leggenda della casa dei draghi perde linearità causale dopo la sovrapposizione storica"
+      },
+      "textual_anchor_it": "molti pezzi della Torino Romana non sono visibili all'esterno.",
+      "glossary_link": ["basho", "mono no aware"]
     },
-
     {
       "id": "scene-03",
-      "label": "casa_dei_fiori_e_dei_draghi",
-
-      "basho": "due sistemi spaziali adiacenti producono campi percettivi non compatibili",
-      "kokyu": "il passaggio tra i due sistemi avviene senza transizione percepibile",
-      "yūgen": "la narrazione associata al secondo edificio non si chiude in verifica storica",
-
-      "textual_anchor_it": "una leggenda sinistra narra che si sarebbe suicidato pochi mesi dopo."
+      "label": "casa_fiori_draghi_interferita",
+      "type": "field_node",
+      "basho": "due sistemi narrativi occupano lo stesso spazio senza sincronizzazione; la leggenda non è contenuta nell'edificio ma lo attraversa",
+      "kokyu": "la transizione tra reale e leggenda non è percepibile: accade prima della soglia cognitiva",
+      "yūgen": "la morte del figlio non è evento ma residuo narrativo che continua a modificare la percezione dell'edificio",
+      "affects": {
+        "scene-05": "il portone assume funzione di attivatore retroattivo di tutte le soglie precedenti"
+      },
+      "textual_anchor_it": "una leggenda sinistra narra che si sarebbe suicidato pochi mesi dopo.",
+      "glossary_link": ["yūgen", "ma"]
     },
-
     {
       "id": "scene-04",
-      "label": "museo_egizio",
-
-      "basho": "un sistema culturale completo è ri-localizzato in uno spazio estraneo senza perdita materiale ma con perdita di contesto",
-      "kokyu": "il tempo originale degli oggetti è sospeso e sostituito dal ritmo della visita contemporanea",
-      "yūgen": "il significato originario degli oggetti non è recuperabile integralmente",
-
-      "textual_anchor_it": "Champollion nel museo verificò la bontà dei suoi studi."
+      "label": "museo_egizio_dissoluzione",
+      "type": "urban_degradation",
+      "basho": "gli oggetti non sono più reperti ma residui di una cultura compressa in esposizione. Il contesto originario si dissolve nel ritmo della visita",
+      "kokyu": "il tempo egizio viene sostituito dal tempo del flusso turistico; le epoche non si incontrano più ma si consumano",
+      "yūgen": "la conoscenza non aumenta: si frammenta mentre viene acquisita",
+      "affects": {
+        "scene-01": "dopo il museo, la città perde la stabilità interpretativa e Statuto diventa instabile"
+      },
+      "textual_anchor_it": "Champollion nel museo verificò la bontà dei suoi studi.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "scene-05",
+      "label": "portone_attivazione_soglia",
+      "type": "threshold_field",
+      "dominant": true,
+      "basho": "la soglia non separa interno ed esterno: li sovrappone in un unico gesto percettivo",
+      "kokyu": "ogni attraversamento modifica retroattivamente il senso degli attraversamenti precedenti",
+      "yūgen": "la leggenda non è contenuta nel portone ma viene prodotta dal passaggio",
+      "affects": {
+        "scene-01": "Statuto diventa soglia diffusa non localizzabile",
+        "scene-02": "la porta romana viene reinterpretata come soglia retroattiva"
+      },
+      "textual_anchor_it": "secondo un'antica leggenda, il portone comparve all'improvviso in una notte…",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "scene-06",
+      "label": "tram_13_notturno",
+      "type": "collapse_field",
+      "basho": "il mezzo urbano non trasporta: disallinea. Ogni fermata modifica la continuità percettiva del percorso",
+      "kokyu": "il tempo non procede: si lacera tra stazioni che non corrispondono più a una sequenza stabile",
+      "yūgen": "la città esterna e quella percepita non coincidono più in nessun punto del tragitto",
+      "collapse_event": {
+        "description": "dopo la terza fermata il sistema percettivo non distingue più tra attraversamento e stasi",
+        "status": "irreversible"
+      },
+      "affects": {
+        "scene-01": "Statuto si dissolve come riferimento stabile dopo il collasso del movimento urbano",
+        "scene-04": "il museo perde cronologia interna e diventa flusso non ordinato"
+      },
+      "textual_anchor_it": "il tram passava lentamente nella notte senza quasi nessun rumore.",
+      "glossary_link": ["kokyu", "ma"]
     }
-  ]
+  ],
+  "system_note": {
+    "scene_count": 6,
+    "dominant_field": "scene-05",
+    "collapse_point": "scene-06",
+    "system_state": "instabile ma coerente",
+    "urban_model": "Torino come rete di interferenze retroattive tra soglie, storia e dislocazione percettiva",
+    "degradation_present": true,
+    "retroactive_causality": true
+  }
 }
