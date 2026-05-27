@@ -1,88 +1,82 @@
 {
   "type": "PerceptualField",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
-
   "book": {
     "title": "Torino Fantastica",
     "author": "Grazia Guarnieri",
     "illustrator": "Giulia Lazzaron"
   },
-
   "protocol_axes": {
-    "basho": "configurazione dello spazio percettivo",
-    "kokyu": "ritmo di attivazione temporale",
-    "yūgen": "limite della completa percezione"
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
   },
-
-  "editorial_principle": "Ogni field è una regola di percezione. Non descrive la città: ne modifica la leggibilità.",
-
+  "editorial_principle": "Each field is a perceptual rule-set. It does not describe the city; it modifies the conditions under which the city becomes readable.",
   "fields": [
-
     {
       "id": "field-01",
       "label": "doppio_registro",
-      "label_en": "double_register",
-
-      "definition_it": "Due regimi percettivi coesistono nello stesso punto urbano senza alternanza.",
-
-      "basho": "ogni luogo di Torino contiene simultaneamente uno strato osservabile e uno narrativo che occupano lo stesso spazio senza separazione",
-      "kokyu": "la percezione della città alterna stabilità e deviazione senza segnali di passaggio; il riconoscimento può mutare intensità in tempo reale",
-      "yūgen": "nessun elemento urbano è completamente chiudibile in una sola lettura: ogni segno resta parzialmente incompleto",
-
-      "textual_anchor_it": "Nomini Torino e pensi subito alla magia.",
-
-      "glossary_link": ["basho", "yūgen"]
+      "type": "urban_field",
+      "basho": "urban space contains simultaneous observable and narrative strata occupying identical coordinates without separation",
+      "kokyu": "perception alternates stability and deviation without transition markers; recognition shifts intensity without temporal gap",
+      "yūgen_level": 0.92,
+      "activation_condition": "presence of culturally loaded urban symbol + interpretive plurality > 1",
+      "persistence_rule": "field remains active while dual interpretation is maintained",
+      "dissolution_rule": "field collapses only if interpretive plurality is reduced to single stable reading",
+      "field_logic": "simultaneous_coexistence_of_incompatible_readings",
+      "textual_anchor_it": "Nomini Torino e pensi subito alla magia."
     },
-
     {
       "id": "field-02",
       "label": "voce_ridotta",
-      "label_en": "reduced_voice",
-
-      "definition_it": "La città viene narrata da un punto percettivo isolato dal resto del sistema urbano.",
-
-      "basho": "lo spazio del narratore è isolato e non comunicante; la città esiste solo come proiezione percettiva da un punto chiuso",
-      "kokyu": "il tempo del narratore è discontinuo rispetto alla città: non sincronizzato con il ritmo urbano",
-      "yūgen": "la distanza tra esperienza e città non è colmabile: la narrazione è sempre mediata",
-
-      "textual_anchor_it": "ho perso anche la cognizione del tempo.",
-
-      "glossary_link": ["ma", "basho"]
+      "type": "cognitive_field",
+      "basho": "narrative position is isolated from urban system; city exists only as projection from a closed perceptual point",
+      "kokyu": "temporal synchronization with urban rhythm is discontinuous and partially decoupled",
+      "yūgen_level": 0.78,
+      "activation_condition": "single focalized consciousness without external feedback loop",
+      "persistence_rule": "field persists while perceptual isolation is maintained",
+      "dissolution_rule": "field dissolves when multi-source perception is restored",
+      "field_logic": "focalized_perception_isolation",
+      "textual_anchor_it": "ho perso anche la cognizione del tempo."
     },
-
     {
       "id": "field-03",
       "label": "chiaroscuro_percettivo",
-      "label_en": "perceptual_chiaroscuro",
-
-      "definition_it": "L’alternanza tra visibile e non verificabile come struttura stabile della città.",
-
-      "basho": "lo spazio urbano alterna zone leggibili e zone non verificabili che coesistono senza gerarchia",
-      "kokyu": "il ritmo percettivo alterna evidenza e ambiguità senza prevedibilità",
-      "yūgen": "ciò che non è verificabile non è assenza ma componente attiva della percezione",
-
-      "textual_anchor_it": "il gioco del chiaroscuro sapiente.",
-
-      "glossary_link": ["yūgen", "ma"]
+      "type": "urban_field",
+      "basho": "urban space alternates between legible and non-verifiable zones without hierarchy",
+      "kokyu": "perceptual rhythm oscillates unpredictably between clarity and ambiguity",
+      "yūgen_level": 0.86,
+      "activation_condition": "presence of symbolic ambiguity in spatial reading",
+      "persistence_rule": "field remains active while ambiguity ratio > threshold",
+      "dissolution_rule": "field stabilizes only if full verification becomes possible",
+      "field_logic": "structured_ambiguity_coexistence",
+      "textual_anchor_it": "il gioco del chiaroscuro sapiente."
     },
-
     {
       "id": "field-04",
       "label": "stratificazione_temporale",
-      "label_en": "temporal_stratification",
-
-      "definition_it": "Il tempo urbano come accumulo simultaneo di epoche non risolte.",
-
-      "basho": "lo stesso spazio contiene strati storici non cancellati che restano attivi nello stesso punto",
-      "kokyu": "il tempo non scorre linearmente ma si attiva per stratificazione simultanea",
-      "yūgen": "nessuno strato storico è completamente accessibile nella sua totalità; ogni epoca resta parziale",
-
-      "textual_anchor_it": "una mappa a forma di diamante incastonata in un universo di stelle.",
-
-      "glossary_link": ["basho", "mono no aware"]
+      "type": "temporal_field",
+      "basho": "urban space contains coexisting historical layers without erasure or prioritization",
+      "kokyu": "time operates through simultaneous stratification rather than linear progression",
+      "yūgen_level": 0.88,
+      "activation_condition": "presence of multi-epoch architectural layering",
+      "persistence_rule": "field remains active while historical layers remain co-perceptible",
+      "dissolution_rule": "field dissolves if temporal layers collapse into single chronology",
+      "field_logic": "non_linear_temporal_coexistence",
+      "textual_anchor_it": "una mappa a forma di diamante incastonata in un universo di stelle."
     }
-  ]
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "subjective_voice_states",
+      "unstable_definition_blocks",
+      "free_text_yugen"
+    ],
+    "system_behavior": "fields operate as persistent perceptual operators over urban reading conditions"
+  }
 }
