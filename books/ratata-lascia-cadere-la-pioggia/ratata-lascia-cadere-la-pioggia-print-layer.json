@@ -1,0 +1,83 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "editorial_purpose": {
+    "function": "linearizzare un sistema che in realtà opera per retroazioni tra suono, corpo e precipitazione, mantenendo instabilità controllata",
+    "constraint": "nessun elemento deve diventare conseguenza stabile di un altro; ogni output può riattivare la sorgente"
+  },
+  "reading_principle": {
+    "rule_01": "il suono non precede la scena: la scena retroagisce sul suono che l'ha generata",
+    "rule_02": "la bolla non è estensione del corpo ma nodo atmosferico temporaneamente incarnato",
+    "rule_03": "italiano e giapponese non coesistono: interferiscono producendo zone di non lettura",
+    "rule_04": "la pioggia non conclude il campo emotivo: lo riscrive in forma liquida retroattiva",
+    "rule_05": "la luna non misura il tempo: lo destabilizza impedendo la chiusura del sistema"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "pressure_field_with_retroactive_noise",
+      "note": "il silenzio assordante non prepara la canzone: la canzone modifica retroattivamente la densità del silenzio che la precede"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "threshold_body_as_atmospheric_interrupt",
+      "note": "la ragazza non produce la bolla: la bolla produce una temporanea posizione del corpo nella finestra"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "object_autonomy_with_return_path",
+      "note": "il gatto non lancia la bolla: la bolla genera il gesto del gatto come evento secondario retroattivo"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "rain_as_rewriting_surface",
+      "note": "la pioggia non segue la bolla: la bolla ritorna come configurazione della pioggia stessa"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "il vicolo anonimo non è contenitore: è campo che viene continuamente riscritto dagli eventi che contiene",
+      "constraint": "l'urbanità non è sfondo ma memoria instabile del suono"
+    },
+    "kokyu": {
+      "rule": "il ritmo non alterna pressione e rilascio: collassa e riemerge in cicli non sincronizzati",
+      "effect": "respirazione del sistema fuori fase con il corpo della ragazza"
+    },
+    "yūgen": {
+      "rule": "nessun elemento è mai completamente visibile nel momento in cui agisce",
+      "effect": "la percezione arriva sempre in ritardo rispetto all'evento che la produce"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "zone operative che riscrivono retroattivamente ciò che il testo dichiara già concluso",
+    "contains": [
+      "la bolla come errore climatico che continua a riattivare il corpo dopo la sua scomparsa",
+      "il giapponese come interferenza sonora non traducibile nemmeno in italiano",
+      "la pioggia come ritorno della canzone sotto altra densità fisica",
+      "il silenzio come memoria instabile del suono mai realmente iniziato"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il lettore non ricorda la sequenza ma una oscillazione tra suono e dissoluzione",
+    "perceptual_residue": "ポタリ non come suono ma come unità di instabilità temporale",
+    "temporal_effect": "la fine del testo non coincide con la fine del campo: il sistema continua a riscriversi dopo la lettura"
+  },
+  "meta_layer": {
+    "system_note": "il sistema passa da linearizzazione a retroazione climatica; ogni scena diventa punto di riscrittura del precedente",
+    "stability": "metastable instabile (feedback attivo)",
+    "risk": "medio — aumento di interferenza tra livelli linguistici e atmosferici",
+    "obsolescence": "rinviata per retroazione continua"
+  }
+}
