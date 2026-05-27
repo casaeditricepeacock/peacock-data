@@ -1,88 +1,153 @@
 {
   "type": "NarrativeObject",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
-
   "book": {
     "title": "Torino Fantastica",
     "author": "Grazia Guarnieri",
     "illustrator": "Giulia Lazzaron"
   },
-
-  "editorial_principle": "L'oggetto non rappresenta. Innesca comportamento percettivo nel campo urbano.",
-
+  "editorial_principle": "L'oggetto urbano non conserva memoria né simbolo stabile. Funziona come dispositivo di interferenza percettiva: altera il comportamento del corpo, modifica la lettura dello spazio e produce continuità instabile tra leggenda, architettura e attraversamento fisico.",
+  "object_types": {
+    "urban_trigger": "oggetto che modifica la percezione dello spazio urbano circostante",
+    "ritual_device": "oggetto che richiede partecipazione fisica per attivare il campo",
+    "historical_interference": "oggetto che altera la lettura causale della storia",
+    "threshold_object": "oggetto situato su una soglia percettiva o architettonica",
+    "recursive_symbol": "oggetto che rigenera continuamente il proprio mistero senza stabilizzazione",
+    "urban_residue": "campo percettivo degradato ma ancora attivo nella città contemporanea"
+  },
   "objects": [
-
     {
       "id": "object-01",
       "label": "sindone",
       "label_en": "shroud",
-
+      "type": "recursive_symbol",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
       "basho": "il Duomo si organizza come orbita attorno a un centro che non appartiene allo spazio ma lo riorienta; ogni elemento architettonico perde autonomia e diventa dipendenza del campo",
       "kokyu": "il tempo non avanza: riapre continuamente la domanda di origine senza produrre chiusura",
-      "yūgen": "nessuna lettura stabilizza l’oggetto; ogni accesso si interrompe prima del completamento",
-
+      "yūgen": "nessuna lettura stabilizza l'oggetto; ogni accesso si interrompe prima del completamento",
+      "activation_condition": "presenza simultanea di reliquia, architettura barocca e impossibilità di verifica definitiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuna indagine storica o scientifica riduce la densità del campo percettivo"
+      },
+      "affects": {
+        "object-05": "la soglia del portone del diavolo prepara il corpo a un accesso urbano basato sull'invisibile",
+        "object-03": "la logica dell'enigma storico si estende agli oggetti che alterano causalità e cronologia"
+      },
       "textual_anchor_it": "la Sindone, uno dei più grandi misteri della storia.",
-
       "glossary_link": ["yūgen", "ma"]
     },
-
     {
       "id": "object-02",
       "label": "toro_dorato",
       "label_en": "golden_bull",
-
+      "type": "ritual_device",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
       "basho": "il pavimento diventa dispositivo: il monumento non si osserva, si attraversa; il gesto lo attiva",
-      "kokyu": "il tempo è discontinuo, acceso solo dal passaggio del corpo",
-      "yūgen": "l’effetto rituale non è verificabile ma persistente",
-
+      "kokyu": "il tempo è discontinuo, acceso soltanto dal passaggio del corpo",
+      "yūgen": "l'effetto rituale non è verificabile ma permane nel comportamento collettivo",
+      "activation_condition": "passaggio corporeo intenzionale sopra il simbolo",
+      "field_behavior": "il campo resta inattivo finché il corpo non attraversa il simbolo",
+      "affects": {
+        "object-05": "il corpo abituato al gesto rituale attraversa il portone senza più percepirlo come semplice architettura"
+      },
       "textual_anchor_it": "per propiziare la buona sorte occorre passeggiare sopra i suoi attributi.",
-
       "glossary_link": ["basho", "yūgen"]
     },
-
     {
       "id": "object-03",
       "label": "unguento_di_nostradamus",
       "label_en": "nostradamus_ointment",
-
-      "basho": "l’oggetto non occupa spazio fisico ma organizza una genealogia politica come se fosse materia",
-      "kokyu": "la causalità si incrina: la sequenza storica non coincide con la sequenza effettiva degli eventi",
-      "yūgen": "ciò che non è verificabile continua comunque a produrre effetti",
-
+      "type": "historical_interference",
+      "intensity": 0.84,
+      "perceptual_weight": 0.82,
+      "basho": "l'oggetto non occupa uno spazio stabile ma si distribuisce nella memoria politica della città",
+      "kokyu": "la causalità si incrina: la sequenza storica non coincide più con la percezione degli eventi",
+      "yūgen": "ciò che non è verificabile continua comunque a produrre interferenza narrativa",
+      "activation_condition": "presenza di cronologie incompatibili associate allo stesso evento",
+      "field_behavior": "la città continua a comportarsi come se l'evento fosse realmente accaduto",
+      "affects": {
+        "object-01": "l'impossibilità di verifica storica rafforza il campo percettivo della Sindone"
+      },
       "textual_anchor_it": "la data è sbagliata? Oppure Nostradamus venne nel 1556…",
-
       "glossary_link": ["yūgen"]
     },
-
     {
       "id": "object-04",
       "label": "scala_delle_forbici",
       "label_en": "scissors_staircase",
-
-      "basho": "il vincolo architettonico viene assorbito come materiale costruttivo; lo spazio si piega invece di resistere",
-      "kokyu": "la soluzione interrompe il conflitto tra limite e invenzione e produce un nuovo ritmo",
-      "yūgen": "la struttura appare inevitabile solo a posteriori",
-
+      "type": "urban_trigger",
+      "intensity": 0.8,
+      "perceptual_weight": 0.78,
+      "basho": "il limite architettonico viene assorbito nel campo invece di interromperlo; lo spazio continua dove dovrebbe bloccarsi",
+      "kokyu": "la soluzione modifica il ritmo della percorrenza verticale e trasforma il vincolo in continuità",
+      "yūgen": "la struttura appare inevitabile solo dopo essere stata attraversata",
+      "activation_condition": "presenza simultanea di vincolo spaziale e attraversamento corporeo",
+      "field_behavior": "l'architettura smette di essere ostacolo e diventa continuità percettiva",
+      "affects": {
+        "object-02": "la partecipazione fisica richiesta dalla scala prolunga il comportamento rituale urbano"
+      },
       "textual_anchor_it": "diedero anche alle malelingue il segnale di tacere.",
-
       "glossary_link": ["ma", "kokyu"]
     },
-
     {
       "id": "object-05",
       "label": "batacchio_diavolo",
       "label_en": "devil_door_knocker",
-
-      "basho": "la soglia è obbligatoria: ogni accesso attiva il dispositivo percettivo",
-      "kokyu": "la leggenda non si interrompe mai, anche quando non viene evocata",
-      "yūgen": "la spiegazione non neutralizza la presenza",
-
+      "type": "threshold_object",
+      "intensity": 0.93,
+      "perceptual_weight": 0.9,
+      "basho": "la soglia è obbligatoria: ogni accesso altera temporaneamente la neutralità dello spazio urbano",
+      "kokyu": "la leggenda continua come ritmo sotterraneo della città anche quando nessuno la racconta",
+      "yūgen": "la spiegazione storica non neutralizza la presenza del campo",
+      "activation_condition": "attraversamento della soglia del portone",
+      "field_behavior": "l'interno cambia densità prima ancora dell'ingresso fisico",
+      "affects": {
+        "object-01": "la logica della soglia invisibile prepara il campo percettivo della reliquia",
+        "object-02": "il rituale corporeo del toro prolunga il proprio effetto nell'attraversamento del portone"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la leggenda continua a operare indipendentemente dalla credenza individuale"
+      },
       "textual_anchor_it": "secondo un'antica leggenda, il portone comparve all'improvviso in una notte…",
-
       "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "object-06",
+      "label": "piazza_statuto",
+      "label_en": "piazza_statuto",
+      "type": "urban_residue",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la piazza interrompe la continuità elegante di Torino e introduce un campo più freddo, disperso, instabile; il traffico, i monumenti e le direzioni si sovrappongono senza armonizzarsi",
+      "kokyu": "il ritmo della piazza non è contemplativo ma circolatorio: attraversamenti rapidi, soste brevi, corpi che non rimangono",
+      "yūgen": "l'antica reputazione esoterica sopravvive in forma degradata; molti la attraversano senza percepirla ma il campo continua a modificare inconsciamente il comportamento",
+      "activation_condition": "attraversamento notturno o permanenza prolungata nello spazio centrale",
+      "field_behavior": "il corpo accelera o devia il percorso senza identificare chiaramente la causa",
+      "affects": {
+        "object-05": "la soglia del portone del diavolo trova nella piazza un'estensione urbana diffusa",
+        "object-01": "il mistero religioso della Sindone si degrada qui in inquietudine urbana non più codificata"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la stratificazione esoterica della piazza continua a operare anche ridotta a folklore urbano"
+      },
+      "textual_anchor_it": "Piazza Statuto è considerata da molti il cuore oscuro della città.",
+      "glossary_link": ["ma", "yūgen", "basho"]
     }
-  ]
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "urban_activation_model": "gli oggetti richiedono attraversamento fisico, esposizione corporea o permanenza nello spazio urbano per produrre interferenza percettiva",
+    "unresolved_fields": ["object-01", "object-05", "object-06"],
+    "city_behavior": "Torino opera come rete di interferenze percettive distribuite tra architettura, rituale e movimento urbano",
+    "degraded_fields_present": true
+  }
 }
