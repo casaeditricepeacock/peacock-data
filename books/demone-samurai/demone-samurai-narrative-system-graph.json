@@ -1,0 +1,171 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "system_principle": "The system operates as a perceptual field in which theatre (nō), historical warfare, and fashion operate as overlapping regimes of visibility without stable separation or final interpretation.",
+
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "identity_rewriting_operator",
+    "transition": "topology_mutation_operator",
+    "silence": "residual_field_density",
+    "weather": "perceptual_interference_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+
+  "topology": {
+    "core_field": "scene-01",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "teatro_storia_sovrapposizione",
+        "nodes": ["scene-01","transition-01","ritual-01"],
+        "type": "recursive_stability_loop",
+        "stability": "metastable",
+        "propagation_logic": "nō_stage_as_persistent_operating_layer",
+        "description": "history never exits the stage condition; every action remains simultaneously performance and event"
+      },
+      {
+        "id": "loop-02",
+        "label": "uomo_demone_trasformazione",
+        "nodes": ["transition-03","object-01","object-05"],
+        "type": "identity_dissolution_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "mask_armor_role_replacement_system",
+        "description": "identity is replaced, not hidden; demon is a perceptual regime of recognition failure"
+      },
+      {
+        "id": "loop-03",
+        "label": "moda_potere_strategia",
+        "nodes": ["object-02","object-04","transition-04"],
+        "type": "strategic_field_loop",
+        "stability": "stable_local",
+        "propagation_logic": "fashion_as_visibility_governance_system",
+        "description": "fashion operates as political control of visibility equivalent to armor logic"
+      },
+      {
+        "id": "loop-04",
+        "label": "giappone_europa_incompatibilita",
+        "nodes": ["scene-04","transition-02","silence-04"],
+        "type": "parallel_incompatibility_loop",
+        "stability": "parallel_active",
+        "propagation_logic": "non_translatability_amplification",
+        "description": "Japan and Europe remain mutually non-reducible but continuously interfering fields"
+      },
+      {
+        "id": "loop-05",
+        "label": "silenzio_storia_residuale",
+        "nodes": ["silence-01","silence-03","weather-03"],
+        "type": "residual_density_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "historical_non_resolution_as_field",
+        "description": "what cannot be narrated persists as active perceptual density"
+      }
+    ]
+  },
+
+  "cross_layer_effects": [
+    {
+      "from": "scene-01", "to": "all",
+      "effect": "stage_persistence_overlay",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "history_as_performance_lock"
+    },
+    {
+      "from": "transition-03", "to": "object-01",
+      "effect": "identity_replacement_activation",
+      "propagation_mode": "recursive",
+      "intensity": 0.97,
+      "stability_impact": "demon_regime_stabilization"
+    },
+    {
+      "from": "object-02", "to": "transition-04",
+      "effect": "fashion_power_amplification",
+      "propagation_mode": "non_linear",
+      "intensity": 0.91,
+      "stability_impact": "visibility_control_extension"
+    },
+    {
+      "from": "scene-04", "to": "scene-01",
+      "effect": "mutual_non_translation_feedback",
+      "propagation_mode": "bidirectional",
+      "intensity": 0.88,
+      "stability_impact": "field_tension_reinforcement"
+    },
+    {
+      "from": "silence-01", "to": "all",
+      "effect": "residual_history_activation",
+      "propagation_mode": "persistent_residual",
+      "intensity": 0.92,
+      "stability_impact": "closure_prevention"
+    },
+    {
+      "from": "weather-02", "to": "scene-02",
+      "effect": "battlefield_perceptual_interference",
+      "propagation_mode": "residual",
+      "intensity": 0.89,
+      "stability_impact": "historical_density_increase"
+    },
+    {
+      "from": "ritual-02", "to": "silence-02",
+      "effect": "honour_field_compression",
+      "propagation_mode": "delayed",
+      "intensity": 0.94,
+      "stability_impact": "body_silence_stabilization"
+    }
+  ],
+
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "identity_replacement",
+      "theatrical_overlay",
+      "strategic_visibility_shift",
+      "parallel_field_activation",
+      "residual_density_accumulation"
+    ],
+    "forbidden_states": [
+      "stable_historical_linearization",
+      "fashion_as_decorative_layer",
+      "demon_as_metaphor",
+      "japan_europe_synthesis"
+    ]
+  },
+
+  "system_tension": {
+    "theatre_vs_history": 1.0,
+    "human_vs_demon": 0.97,
+    "fashion_vs_power": 0.93,
+    "japan_vs_europe": 0.9,
+    "silence_vs_transmission": 0.88
+  },
+
+  "global_state": {
+    "dominant_field": "scene-01",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "topologically_blocked",
+    "system_behavior": "The system maintains theatre, history, and fashion as coexistent perceptual regimes. The nō stage persists as structural operator across all scenes; the demon is a perceptual instability that governs recognition rather than representation.",
+    "readability": "high_local_low_global"
+  }
+}
