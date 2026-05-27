@@ -1,0 +1,161 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "editorial_principle": "Le scene non sono unità narrative ma configurazioni percettive stabili. Ogni scena è un sistema chiuso con propria densità basho/kokyu/yūgen. Il passaggio tra scene non produce progressione ma mutazione di campo. Il sistema non richiede continuità biografica per essere attivo.",
+
+  "scene_types": {
+    "origin_field": "scena in cui si stabilisce un campo percettivo primario non modificabile",
+    "relational_density": "scena in cui il campo è determinato da co-presenza corporea",
+    "scale_loss": "scena in cui la dimensione del campo percettivo si riduce irreversibilmente",
+    "urban_interference": "scena in cui Tokyo produce campo alternativo non equivalente al campo originario",
+    "collapse": "scena in cui il campo relazionale si dissolve senza sostituzione"
+  },
+
+  "scenes": [
+
+    {
+      "id": "scene-01",
+      "label": "il_masso_vicino_al_bosco",
+      "type": "origin_field",
+      "intensity": 1.0,
+      "dominant": true,
+
+      "basho": "campo di confine tra spazio sociale (ryokan, famiglia) e spazio personale (lettura, silenzio). Il masso non è rifugio dalla realtà ma spazio in cui la realtà ha densità diversa. Il bosco non è oltre il masso: è la condizione del masso",
+      "kokyu": "tempo non misurabile: né stagionale né urbano. Si attiva solo in presenza di un libro. Si disattiva con la neve o con l'assenza corporea",
+      "yūgen": "il masso ritorna sempre senza essere cercato. La narratrice lo raggiunge in accelerazione, non in contemplazione. Il campo è attivo prima e dopo la presenza",
+
+      "activation_condition": "presenza di un libro + assenza di obblighi sociali",
+
+      "perceptual_weight": 1.0,
+
+      "affects": {
+        "scene-04": "Tokyo non produce un campo equivalente: nessun luogo di lettura urbano raggiunge la stessa densità",
+        "scene-05": "il libro di Rie riattiva il campo con struttura doppia non risolvibile"
+      },
+
+      "textual_anchor_it": "Mi ero creata un piccolo, ma infinitissimo, spazio sopra a un grande masso vicino al bosco.",
+
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+
+    {
+      "id": "scene-02",
+      "label": "stanza_luna_piena",
+      "type": "origin_field",
+      "intensity": 0.88,
+
+      "basho": "spazio interno al ryokan con funzione sospesa: non utilizzato dai clienti, non appartiene alla famiglia. Il gatto lo abita per conto della narratrice prima che lei vi entri",
+      "kokyu": "tempo autunnale e invernale. La lettura è dettata dal respiro del gatto, non dal testo",
+      "yūgen": "la stanza non viene ricordata come luogo ma come configurazione percettiva (luce, colori, respiro)",
+
+      "activation_condition": "autunno/inverno + gatto presente + finestra su alberi",
+
+      "perceptual_weight": 0.88,
+
+      "non_human_field": {
+        "present": true,
+        "agent": "gatto senza nome di Giorgio",
+        "function": "regolatore del ritmo di lettura. Non è presenza affettiva ma presenza percettiva autonoma"
+      },
+
+      "textual_anchor_it": "Sentivo solo il suo respiro che dettava le mie pause.",
+
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+
+    {
+      "id": "scene-03",
+      "label": "camping_al_lago_oku_tone",
+      "type": "scale_loss",
+      "intensity": 0.92,
+
+      "basho": "campo aperto di scala massima: lago, montagna, cielo, stelle. La famiglia come unità percettiva collettiva. Il cibo come mediazione tra cultura italiana e giapponese",
+      "kokyu": "tempo del viaggio fisico lento. Il weekend come unità temporale biologica",
+      "yūgen": "la perdita non è ancora avvenuta ma è contenuta nella struttura: il campo non è replicabile fuori dalla famiglia completa",
+
+      "activation_condition": "autunno + famiglia unita + canoe + fuoco",
+
+      "perceptual_weight": 0.92,
+
+      "irreversibility": {
+        "status": true,
+        "mechanism": "il campo richiede tutti i componenti. La dispersione della famiglia (padre, Carlo, Hiro) rende il campo strutturalmente irriproducibile"
+      },
+
+      "textual_anchor_it": "Eravamo una famiglia unita da una forza surreale.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    },
+
+    {
+      "id": "scene-04",
+      "label": "appartamento_shinjuku_con_rie",
+      "type": "relational_density",
+      "intensity": 0.95,
+
+      "basho": "7 畳 tatami come compressione intenzionale dello spazio. Le vetrate producono luce senza spazio: il campo è determinato dalla copresenza, non dalla dimensione",
+      "kokyu": "tempo della domenica senza sveglia come unità fondamentale. Il caffè come segnale di apertura del tempo condiviso",
+      "yūgen": "la relazione non viene definita. Il campo funziona senza denominazione",
+
+      "activation_condition": "Rie presente + futon condiviso + gatta senza nome",
+
+      "perceptual_weight": 0.95,
+
+      "non_human_field": {
+        "present": true,
+        "agent": "gatta randagia senza nome",
+        "function": "stabilizzazione del campo in assenza di definizione relazionale esplicita"
+      },
+
+      "affects": {
+        "scene-01": "non sostituisce il masso: introduce un campo alternativo di diversa natura",
+        "scene-05": "il campo collassa quando Rie non ritorna"
+      },
+
+      "textual_anchor_it": "Il momento più bello era la domenica.",
+
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+
+    {
+      "id": "scene-05",
+      "label": "lettura_del_libro_di_rie_sul_masso",
+      "type": "collapse",
+      "intensity": 1.0,
+
+      "basho": "ritorno al campo originario (scene-01) con campo sovrapposto non separabile: il libro scritto da Rie contiene la narratrice. Il masso non è più spazio personale ma spazio doppio",
+      "kokyu": "lettura tutto di un fiato = collasso del ritmo consueto del campo. La sospensione che il masso produceva è sostituita da densità insostenibile",
+      "yūgen": "il libro letto e il libro che lo contiene coincidono. Il campo non si chiude: rimane aperto come configurazione permanente",
+
+      "activation_condition": "scomparsa di Rie + libro pubblicato + ritorno fisico al masso",
+
+      "perceptual_weight": 1.0,
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo doppio (narratrice come soggetto + narratrice come contenuto del libro letto) non si risolve. Il sistema non produce chiusura"
+      },
+
+      "textual_anchor_it": "Salii sul grande masso vicino al bosco e, aspettando la prima pioggia, mi misi a leggere il libro tutto di un fiato.",
+
+      "glossary_link": ["yūgen", "mono no aware", "ma"]
+    }
+  ],
+
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "collapse_point": "scene-05",
+    "unresolved_fields": ["scene-01", "scene-05"],
+    "print_layer_alignment": "le scene corrispondono esattamente agli scene_ref definiti in NarrativePrintLayer v4.1"
+  }
+}
