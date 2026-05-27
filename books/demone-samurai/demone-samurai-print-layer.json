@@ -1,0 +1,114 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "editorial_purpose": {
+    "function": "linearizzare un sistema teatro-storia-moda senza collasso del campo percettivo tra nō, guerra e sovrapposizione europea",
+    "constraint": "basho/kokyu/yūgen devono restare attivi come layer simultanei; il nō è operatore strutturale, non ambientazione"
+  },
+
+  "reading_principle": {
+    "rule_01": "ogni scena è autonoma ma retroagisce sull'intero sistema di maschere e ruoli",
+    "rule_02": "storia e teatro sono co-istanti: nessun evento esiste fuori scena",
+    "rule_03": "la moda è un sistema di codifica del potere equivalente all'armatura",
+    "rule_04": "Europa e Giappone sono due regimi non traducibili ma interferenti",
+    "rule_05": "il demone è un operatore percettivo che altera la riconoscibilità del corpo"
+  },
+
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "noh_origin_operator",
+      "note": "il palcoscenico nō non rappresenta: inizializza il campo di identità instabili"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "historical_sedimentation",
+      "note": "il castello registra il potere come stratificazione visibile e già decaduta"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "territorial_expansion",
+      "note": "il Giappone naturale agisce come amplificatore del campo storico-teatrale"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "cross_cultural_interference",
+      "note": "Europa introduce una grammatica del potere incompatibile ma simultanea"
+    }
+  ],
+
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena mantiene il palcoscenico nō come campo latente permanente",
+      "constraint": "nessuna scena può essere letta senza attivare il teatro come sotto-struttura"
+    },
+    "kokyu": {
+      "rule": "il ritmo alterna cerimonia (nō, moda, rituale) e accelerazione bellica",
+      "effect": "la percezione oscilla tra gesto lento e collasso storico improvviso"
+    },
+    "yūgen": {
+      "rule": "il demone emerge solo come interferenza tra maschera, corpo e ruolo storico",
+      "effect": "nessuna figura storica è completamente stabilizzabile"
+    }
+  },
+
+  "cross_layer_effects": [
+    {
+      "from": "scene-01",
+      "to": "scene-04",
+      "effect": "la maschera nō modifica retroattivamente la lettura del potere europeo"
+    },
+    {
+      "from": "scene-03",
+      "to": "scene-02",
+      "effect": "il paesaggio naturale riattiva la lettura decadente del castello come scena teatrale"
+    },
+    {
+      "from": "fashion_code",
+      "to": "armor_logic",
+      "effect": "la moda europea e l'armatura giapponese diventano due varianti dello stesso sistema di visibilità del potere"
+    },
+    {
+      "from": "noh_stage",
+      "to": "all",
+      "effect": "il palcoscenico resta attivo come campo percettivo anche quando non esplicitato"
+    }
+  ],
+
+  "non_rendered_layer": {
+    "definition": "strutture percettive mantenute attive dal sistema ma non completamente esplicitate nel testo",
+    "contains": [
+      "il nō come sistema operativo percettivo permanente",
+      "la moda come codice di potere non dichiarato",
+      "il demone come instabilità della riconoscibilità",
+      "Europa come interferenza non traducibile"
+    ]
+  },
+
+  "reader_effect": {
+    "state_after_reading": "impossibilità di distinguere evento storico, scena teatrale e costruzione del potere",
+    "perceptual_residue": "la maschera nō come filtro persistente di lettura del reale",
+    "temporal_effect": "il tempo storico collassa in tempo scenico non lineare"
+  },
+
+  "meta_layer": {
+    "system_note": "il sistema stabilizza moda, teatro e storia come tre forme dello stesso campo percettivo",
+    "stability": "metastable",
+    "risk": "basso-medio — rischio di ricaduta in narrazione storica lineare se il nō non resta operatore attivo",
+    "obsolescence": "non strutturale"
+  }
+}
