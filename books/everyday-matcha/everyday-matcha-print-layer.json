@@ -1,0 +1,105 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Everyday Matcha",
+    "author": "Il Signore del Tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_purpose": {
+    "function": "attivare un campo percettivo del tè come sistema distribuito di gesto, temperatura e silenzio senza distinzione tra preparazione e consumo",
+    "constraint": "nessuna scena deve implicare progressione; ogni punto deve poter funzionare come origine locale del sistema"
+  },
+  "reading_principle": {
+    "rule_01": "ogni scena è un'origine possibile del campo matcha",
+    "rule_02": "il gesto non prepara il tè: lo stabilizza temporaneamente",
+    "rule_03": "il degrado non è riduzione ma variazione di temperatura del campo",
+    "rule_04": "il silenzio è distribuito e non localizzabile",
+    "rule_05": "non esiste sequenza finale: solo riattivazioni parziali"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "field_origin_shift",
+      "note": "il chashitsu non è origine ma punto di accesso reversibile al campo"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "temporal_suspension",
+      "note": "Uji non precede il rito: ne mantiene una memoria agricola attiva"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "compression_variation",
+      "note": "la cucina non semplifica il rito: ne altera la densità senza perdita di campo"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "sensor_field_fold",
+      "note": "la ciotola non contiene il tè: lo piega in stato percettivo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "thermal_degradation_field",
+      "note": "il bar urbano non degrada il sistema: ne riduce la temperatura percettiva mantenendo attivo il campo"
+    },
+    {
+      "order": 6,
+      "scene_ref": "scene-07",
+      "print_function": "residual_collapse_without_closure",
+      "note": "il matcha istantaneo non è fine ma residuo attivo cromatico del sistema"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena è autosufficiente come campo locale del tè",
+      "constraint": "Uji e chashitsu devono restare simultaneamente attivi anche quando non presenti"
+    },
+    "kokyu": {
+      "rule": "il ritmo è termico, non narrativo: caldo/freddo, densità/bassa densità",
+      "effect": "la percezione del lettore oscilla senza direzione temporale"
+    },
+    "yūgen": {
+      "rule": "il tè non è mai completamente osservabile come sistema totale",
+      "effect": "ogni sorso produce residuo non recuperabile"
+    }
+  },
+  "emergent_fields": {
+    "cold_field": {
+      "description": "non localizzato; appare come perdita temporale della continuità percettiva",
+      "behavior": "attiva micro-discontinuità nei passaggi tra scene"
+    },
+    "degraded_field": {
+      "description": "variazione a bassa intensità del campo rituale",
+      "behavior": "mantiene coerenza senza qualità cerimoniale"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strutture percettive mantenute attive dal sistema ma non completamente esplicitate nel testo",
+    "contains": [
+      "il campo agricolo di Uji come origine permanente sotto ogni gesto domestico",
+      "il silenzio come co-presenza non nominata e non localizzabile",
+      "l'errore rituale come operatore che rende visibile la struttura del gesto",
+      "il degrado urbano come campo attivo a temperatura ridotta, non come negazione del rituale"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "ogni gesto quotidiano con il tè diventa riattivazione parziale del campo; non serve la cerimonia per produrre campo",
+    "perceptual_residue": "la schiuma come momento in cui il tempo diventa visibile e subito si consuma; residuo attivo dopo la lettura",
+    "temporal_effect": "la sequenza non conclude il sistema: ogni sorso successivo alla lettura è una riattivazione non identica"
+  },
+  "meta_layer": {
+    "system_note": "il sistema non distingue tra preparazione e consumo, tra cerimonia e uso quotidiano: ogni punto è origine e residuo simultaneamente",
+    "stability": "metastable",
+    "risk": "basso — il campo è distribuito e non dipende dalla cerimonia come nodo centrale",
+    "obsolescence": "non strutturale"
+  }
+}
