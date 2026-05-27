@@ -1,0 +1,244 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "system_principle": "The system does not represent a story. It operates as a metastable network of perceptual fields in which each node modifies the behavior of the others retroactively without producing final closure.",
+
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "repetition_based_field_engine",
+    "transition": "topology_mutation_operator",
+    "silence": "field_compression_zone",
+    "weather": "environmental_field_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04",
+      "silence-05",
+      "silence-06",
+      "silence-07",
+      "silence-08",
+      "silence-09",
+      "silence-10"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05",
+      "transition-06"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04",
+      "weather-05",
+      "weather-06",
+      "weather-07"
+    ],
+    "meta_states": [
+      "meta-01"
+    ],
+    "_note": "weather-00 (zona_fredda) is mapped to meta-01 and operates as system-wide non-local operator, not as standard weather field"
+  },
+
+  "meta_states": [
+    {
+      "id": "meta-01",
+      "label": "zona_fredda",
+      "type": "null_field_operator",
+      "source_file_ref": "weather-00",
+      "system_effect": "global_field_suspension_without_deactivation",
+      "behavior": {
+        "readability": "suppressed",
+        "activity": "persistent",
+        "closure": "blocked"
+      },
+      "affects": ["all"]
+    }
+  ],
+
+  "topology": {
+    "core_field": "scene-01",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "masso_lettura_ritorno",
+        "nodes": ["scene-01", "scene-05", "ritual-04"],
+        "type": "recursive_stability_loop",
+        "stability": "metastable",
+        "propagation_logic": "recursive_field_reactivation",
+        "description": "the rock operates as origin-field and recursively reactivates itself through the final reading act"
+      },
+      {
+        "id": "loop-02",
+        "label": "presenza_assenza_rie",
+        "nodes": ["transition-02", "transition-03", "ritual-05", "silence-04"],
+        "type": "unresolved_recursive_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "absence_field_amplification",
+        "description": "Rie's arrival generates a field of waiting that remains active after disappearance"
+      },
+      {
+        "id": "loop-03",
+        "label": "oggetto_corpo_rituale",
+        "nodes": ["object-01", "ritual-03", "object-05"],
+        "type": "ritual_activation_loop",
+        "stability": "stable_local",
+        "propagation_logic": "domestic_presence_measurement",
+        "description": "the futon, coffee and Sunday rhythm operate as bodily measurement system of shared presence"
+      },
+      {
+        "id": "loop-04",
+        "label": "zona_fredda_sistema",
+        "nodes": ["meta-01", "silence-06", "transition-04"],
+        "type": "metastable_compression_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "global_readability_reduction",
+        "description": "the cold zone suppresses system readability without interrupting field persistence"
+      },
+      {
+        "id": "loop-05",
+        "label": "tokyo_campo_alternativo",
+        "nodes": ["scene-04", "weather-04", "weather-05", "transition-01"],
+        "type": "displaced_field_loop",
+        "stability": "parallel_active",
+        "propagation_logic": "origin_field_displacement_without_replacement",
+        "description": "Tokyo generates an alternative perceptual system that never converges with the ryokan origin-field"
+      }
+    ]
+  },
+
+  "cross_layer_effects": [
+    {
+      "from": "scene-01",
+      "to": "scene-05",
+      "effect": "field_reactivation",
+      "propagation_mode": "recursive",
+      "intensity": 1.0,
+      "stability_impact": "metastable_increase"
+    },
+    {
+      "from": "scene-04",
+      "to": "scene-01",
+      "effect": "parallel_field_generation",
+      "propagation_mode": "bidirectional",
+      "intensity": 0.94,
+      "stability_impact": "non_resolution_reinforcement"
+    },
+    {
+      "from": "transition-03",
+      "to": "ritual-05",
+      "effect": "ritual_inversion",
+      "propagation_mode": "delayed",
+      "intensity": 0.96,
+      "stability_impact": "absence_field_expansion"
+    },
+    {
+      "from": "object-01",
+      "to": "object-04",
+      "effect": "presence_measurement_transfer",
+      "propagation_mode": "residual",
+      "intensity": 0.82,
+      "stability_impact": "domestic_field_stabilization"
+    },
+    {
+      "from": "ritual-04",
+      "to": "ritual-01",
+      "effect": "gesture_recursion",
+      "propagation_mode": "recursive",
+      "intensity": 0.9,
+      "stability_impact": "origin_field_reinforcement"
+    },
+    {
+      "from": "meta-01",
+      "to": "all",
+      "effect": "global_field_suspension",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "readability_suppression"
+    },
+    {
+      "from": "silence-10",
+      "to": "all",
+      "effect": "open_field_stabilization",
+      "propagation_mode": "persistent_residual",
+      "intensity": 0.93,
+      "stability_impact": "closure_prevention"
+    }
+  ],
+
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "reactivation",
+      "compression",
+      "recursive_return",
+      "field_displacement",
+      "partial_collapse",
+      "residual_persistence"
+    ],
+    "forbidden_states": [
+      "complete_resolution",
+      "stable_closure",
+      "single_origin_interpretation"
+    ]
+  },
+
+  "system_tension": {
+    "origin_vs_displacement": 1.0,
+    "presence_vs_absence": 0.96,
+    "silence_vs_expression": 0.92,
+    "memory_vs_present_time": 0.9,
+    "domesticity_vs_loss": 0.88
+  },
+
+  "global_state": {
+    "dominant_field": "scene-01",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "topologically_impossible",
+    "cold_field_present": true,
+    "system_behavior": "Ryokan operates as a metastable perceptual system in which presence and absence remain simultaneously active without resolution; every return to the origin-field produces non-identical reactivation.",
+    "readability": "high_local_low_global"
+  }
+}
