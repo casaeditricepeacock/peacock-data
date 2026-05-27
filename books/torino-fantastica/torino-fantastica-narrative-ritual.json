@@ -1,74 +1,86 @@
 {
   "type": "NarrativeRitual",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
-
   "book": {
     "title": "Torino Fantastica",
     "author": "Grazia Guarnieri",
     "illustrator": "Giulia Lazzaron"
   },
-
-  "editorial_principle": "Il rituale non rappresenta azioni. Attiva condizioni irreversibili nel campo percettivo.",
-
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente"
+  },
+  "editorial_principle": "Il rituale non è azione intenzionale ma ripetizione che genera campo. Ogni gesto diventa rituale quando perde la sua funzione pratica e mantiene la sua forma percettiva.",
   "rituals": [
-
     {
       "id": "ritual-01",
       "label": "calpestare_il_toro",
       "label_en": "treading_the_bull",
-
+      "type": "codified",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
       "basho": "il pavimento smette di essere supporto e diventa soglia attiva; ogni passaggio modifica il comportamento dello spazio",
       "kokyu": "il gesto esiste solo durante il contatto; prima e dopo non appartiene al campo",
-      "yūgen": "l’effetto non è osservabile direttamente ma si manifesta come deviazione ripetuta del comportamento collettivo",
-
+      "yūgen": "l'effetto non è osservabile direttamente ma si manifesta come deviazione ripetuta del comportamento collettivo",
+      "affects": {
+        "ritual-04": "il corpo che ha attraversato il toro percepisce il borgo medievale come secondo campo rituale"
+      },
       "textual_anchor_it": "per propiziare la buona sorte occorre passeggiare sopra i suoi attributi.",
-
       "glossary_link": ["basho"]
     },
-
     {
       "id": "ritual-02",
       "label": "strofinare_il_dito_di_colombo",
       "label_en": "rubbing_columbus_finger",
-
+      "type": "involuntary",
+      "intensity": 0.78,
+      "perceptual_weight": 0.75,
       "basho": "un dettaglio marginale diventa centro operativo del movimento urbano; la gerarchia degli oggetti si inverte",
       "kokyu": "la ripetizione non accumula tempo: lo consuma senza esaurirlo",
       "yūgen": "due interpretazioni incompatibili restano simultaneamente attive senza risoluzione",
-
       "textual_anchor_it": "altrove, Colombo è considerato uno iettatore: chi avrà ragione?",
-
       "glossary_link": ["yūgen"]
     },
-
     {
       "id": "ritual-03",
       "label": "invocare_nostradamus",
       "label_en": "invoking_nostradamus",
-
+      "type": "interfered",
+      "intensity": 0.85,
+      "perceptual_weight": 0.82,
       "basho": "lo spazio del potere si trasforma in campo non verificabile; la corte perde neutralità",
       "kokyu": "il tempo rituale si separa definitivamente dal tempo pubblico senza possibilità di sincronizzazione",
       "yūgen": "la relazione tra gesto e conseguenza non può essere tracciata né invertita",
-
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'invocazione non si chiude: il campo del non verificabile resta attivo sulla genealogia politica"
+      },
       "textual_anchor_it": "si circondò di maghi e di preti, recitò invocazioni e suppliche a entità arcane.",
-
       "glossary_link": ["kokyu"]
     },
-
     {
       "id": "ritual-04",
       "label": "attraversare_il_borgo_medievale",
       "label_en": "crossing_the_medieval_village",
-
-      "basho": "la simulazione diventa evento autonomo; non rappresenta un’epoca ma produce un regime percettivo equivalente",
+      "type": "degraded",
+      "intensity": 0.72,
+      "perceptual_weight": 0.7,
+      "basho": "la simulazione diventa evento autonomo; non rappresenta un'epoca ma produce un regime percettivo equivalente",
       "kokyu": "due tempi incompatibili coesistono senza gerarchia: costruzione e attraversamento",
-      "yūgen": "l’autenticità non è più criterio operativo nel campo",
-
+      "yūgen": "l'autenticità non è più criterio operativo nel campo",
       "textual_anchor_it": "questo Medioevo visto con gli occhi di un portoghese a fine Ottocento è tuttora uno dei luoghi più amati di Torino.",
-
       "glossary_link": ["basho", "mono no aware"]
     }
-  ]
+  ],
+  "system_note": {
+    "ritual_count": 4,
+    "dominant_field": "ritual-01",
+    "urban_activation_model": "i rituali urbani di Torino operano per contatto fisico o invocazione; non richiedono credenza per produrre campo"
+  }
 }
