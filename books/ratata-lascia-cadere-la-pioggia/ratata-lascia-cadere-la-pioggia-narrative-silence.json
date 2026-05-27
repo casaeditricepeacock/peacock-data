@@ -1,0 +1,95 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "silence_types": {
+    "structural": "campo di pressione continuo",
+    "residual": "traccia post-evento non riassorbita",
+    "recursive": "silenzio che riscrive la gerarchia degli altri silenzi",
+    "productive": "generatore di interpretazione non chiudibile",
+    "null_silence": "interferenza non mappabile nel sistema causale",
+    "relational": "collisione tra sistemi non traducibili",
+    "rupture_silence": "interruzione che non produce suono ma resetta il campo"
+  },
+  "editorial_principle": "Il silenzio non è continuità di pressione ma alternanza tra densità e interruzione. Alcuni silenzi non persistono: interrompono la possibilità stessa della persistenza sonora o narrativa.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "silenzio_prima_della_canzone",
+      "type": "structural",
+      "intensity": 0.96,
+      "perceptual_weight": 1.0,
+      "basho": "il vicolo non contiene il silenzio: lo stabilizza come campo instabile pronto al collasso",
+      "kokyu": "il ritmo non è accumulo ma sospensione ciclica: il trattenimento si interrompe a intervalli non prevedibili",
+      "yūgen": "il silenzio non è presenza: è la forma che il suono assume prima di esistere",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il residuo non è sotto la canzone: è tra due attacchi sonori successivi"
+      },
+      "textual_anchor_it": "per fortuna questo suono rompe un silenzio assordante.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "silence-02",
+      "label": "silenzio_del_non_detto",
+      "type": "productive",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il non detto non occupa spazio: interferisce con la formazione stessa dello spazio",
+      "kokyu": "la domanda non si ripete: si riattiva come errore strutturale del linguaggio",
+      "yūgen": "ciò che non viene detto non è contenuto: è una deviazione del campo percettivo",
+      "affects": {
+        "silence-03": "la macchia non è più residuo ma punto di perdita della coerenza del campo"
+      },
+      "textual_anchor_it": "Perché non riesco a dimenticare? Sarebbe stato meglio tagliare.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_della_macchia",
+      "type": "residual",
+      "intensity": 0.84,
+      "perceptual_weight": 0.82,
+      "basho": "la macchia non trattiene il tempo: lo interrompe in segmenti discontinui",
+      "kokyu": "il tempo non si accumula più: salta, lasciando buchi percettivi",
+      "yūgen": "la macchia non è ciò che resta, ma ciò che impedisce la continuità del resto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la macchia produce assenza intermittente, non persistenza"
+      },
+      "textual_anchor_it": "Scorrendo e cadendo, diventa una macchia.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "collisione_bilingue",
+      "label_en": "bilingual_collision",
+      "type": "relational",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "le due lingue non coesistono: si disturbano reciprocamente come sistemi non sincronizzabili",
+      "kokyu": "il ritmo non è sovrapposto ma fuori fase: ogni lingua interrompe l'altra senza tradurla",
+      "yūgen": "il significato non emerge tra le lingue ma nello scarto non risolvibile tra esse",
+      "affects": {
+        "silence-01": "il silenzio non è più assordante: è instabilità di sincronizzazione tra sistemi sonori"
+      },
+      "textual_anchor_it": "ラタタ。。。 Ra ta ta ラタタ un suono che irrompe dal retro.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-04",
+    "system_shift": "da pressione continua a interferenza discontinua",
+    "new_operator": "rupture_silence introduces non-continuity as structural rule",
+    "stability": "metastable but phase-shifted",
+    "compatibility": "NarrativeScene v4.1 / NarrativeObject v4.1 / NarrativeWeather v4.1"
+  }
+}
