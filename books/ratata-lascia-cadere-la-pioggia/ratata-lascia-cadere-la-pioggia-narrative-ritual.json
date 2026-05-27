@@ -1,0 +1,138 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "sonic_loop": "rituale generato dalla ripetizione ritmica e sonora",
+    "kinetic_field": "rituale costruito sul movimento continuo del corpo o dell'oggetto"
+  },
+  "editorial_principle": "Il rituale in Ratata non è cerimonia né performance. È scarica ritmica urbana: il corpo ripete un gesto perché il sistema emotivo non riesce a stabilizzarsi. Bubble gum, pioggia, riff garage e movimenti improvvisi producono un campo punk percettivo in cui ogni ripetizione modifica il vicolo senza mai risolverlo.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "gonfiare_la_bolla",
+      "label_en": "inflating_the_bubble",
+      "type": "involuntary",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la bocca della ragazza diventa soglia urbana: il gesto privato invade il vicolo e ne altera la pressione percettiva",
+      "kokyu": "trattenere / gonfiare / sospendere / espellere — il ritmo della bolla è respirazione punk irregolare",
+      "yūgen": "la bolla contiene un eccesso emotivo che non trova linguaggio; la sua superficie lucida rende visibile l'instabilità",
+      "activation_condition": "silenzio urbano + chewing gum + tensione corporea trattenuta",
+      "field_behavior": "la bolla trasforma il nervosismo in oggetto mobile; il campo emotivo acquista massa e movimento",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche sgonfiata, la bolla continua a deformare il ritmo del vicolo"
+      },
+      "affects": {
+        "ritual-02": "il rimbalzo nasce dalla pressione accumulata nella bolla",
+        "ritual-03": "la canzone eredita il ritmo respiratorio della masticazione"
+      },
+      "textual_anchor_it": "trattiene il respiro — POP — una bolla rosa invade il vicolo.",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "lancio_del_gatto",
+      "label_en": "cat_launch",
+      "type": "kinetic_field",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il gatto randagio non attraversa il vicolo: lo attiva; il salto produce una verticale improvvisa dentro lo spazio compresso",
+      "kokyu": "scatto / sospensione / ricaduta — il ritmo felino spezza la continuità elastica della bolla",
+      "yūgen": "non è chiaro se il gatto giochi, attacchi o accompagni il movimento: la sua intenzione resta indecidibile",
+      "activation_condition": "contatto tra zampa, bolla e suono proveniente dalla finestra",
+      "field_behavior": "il lancio interrompe il moto orizzontale della bolla e trasforma il vicolo in spazio aereo temporaneo",
+      "affects": {
+        "ritual-01": "la bolla perde il controllo del proprio ritmo originario",
+        "ritual-04": "la pioggia eredita la traiettoria verticale della bolla"
+      },
+      "textual_anchor_it": "il gatto colpisce la bolla — la bolla sale come un rumore improvviso.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "garage_noise_loop",
+      "label_en": "garage_noise_loop",
+      "type": "sonic_loop",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la musica non occupa il vicolo: lo satura; ogni muro vibra come amplificatore difettoso",
+      "kokyu": "riff spezzati, batteria urgente, voce ruvida — il ritmo non accompagna l'azione ma la destabilizza continuamente",
+      "yūgen": "la canzone non comunica un significato preciso: produce un'atmosfera di agitazione condivisa",
+      "activation_condition": "finestra aperta + volume troppo alto + risonanza del vicolo",
+      "field_behavior": "il suono trasforma ogni movimento in gesto coreografico involontario",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quando la musica si interrompe resta un ronzio percettivo che continua a modificare il silenzio"
+      },
+      "affects": {
+        "ritual-01": "la bolla si sincronizza retroattivamente con la pulsazione sonora",
+        "ritual-02": "il salto del gatto assume andamento musicale"
+      },
+      "textual_anchor_it": "RATATA RATATA — il vicolo vibra come una cassa rotta.",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "pioggia_sulle_insegne",
+      "label_en": "rain_on_signs",
+      "type": "interfered",
+      "intensity": 0.9,
+      "perceptual_weight": 0.91,
+      "basho": "la pioggia non cade sul paesaggio ma sulle superfici sonore: insegne, vetri, tombini, pozzanghere",
+      "kokyu": "gocce rapide alternate a vuoti improvvisi; il ritmo meteorologico entra in conflitto con quello musicale",
+      "yūgen": "la città bagnata riflette versioni alterate degli oggetti; il campo visivo si sdoppia senza stabilizzarsi",
+      "activation_condition": "collisione tra luce urbana, musica e umidità",
+      "field_behavior": "la pioggia rallenta il sistema ma non lo spegne; amplifica il residuo emotivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le superfici bagnate continuano a riflettere il campo anche dopo la fine della pioggia"
+      },
+      "affects": {
+        "ritual-03": "la musica diventa più distante e metallica",
+        "ritual-01": "la bolla perde definizione e sembra dissolversi nell'acqua"
+      },
+      "textual_anchor_it": "ポタリ ポタリ — la pioggia cade sulle insegne elettriche.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "guardare_dalla_finestra",
+      "label_en": "watching_from_the_window",
+      "type": "compressed",
+      "intensity": 0.87,
+      "perceptual_weight": 0.89,
+      "basho": "la finestra è una soglia instabile: la ragazza resta interna ed esterna simultaneamente",
+      "kokyu": "immobilità del corpo / agitazione della mascella — il ritmo nasce dalla tensione tra stasi e impulso",
+      "yūgen": "non sappiamo se osserva il vicolo o se il vicolo osserva lei; la direzione dello sguardo resta aperta",
+      "activation_condition": "presenza simultanea di pioggia, musica e bolla nel vicolo",
+      "field_behavior": "la finestra comprime l'intero sistema narrativo in un unico punto percettivo",
+      "affects": {
+        "ritual-03": "la musica acquista origine corporea",
+        "ritual-04": "la pioggia diventa elemento teatrale"
+      },
+      "textual_anchor_it": "alla finestra mastica piano mentre il vicolo continua a tremare.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "urban_activation_model": "i rituali di Ratata operano come scariche ritmiche involontarie: il corpo urbano non si organizza in coreografia ma in interferenze sonore, elastiche e climatiche",
+    "unresolved_fields": ["ritual-01","ritual-03","ritual-05"],
+    "closure": false
+  }
+}
