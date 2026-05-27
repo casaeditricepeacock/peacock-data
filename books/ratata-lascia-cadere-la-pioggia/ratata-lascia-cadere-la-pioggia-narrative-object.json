@@ -1,0 +1,168 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+
+  "editorial_principle": "L'oggetto non rappresenta emozioni né simboli stabili. Opera come generatore di pressione sonora, movimento elastico e instabilità urbana. Ogni elemento modifica il ritmo del sistema senza produrre equilibrio definitivo.",
+
+  "object_types": {
+    "pressure_object": "oggetto che altera pressione sonora, ritmo corporeo e dinamica urbana simultaneamente",
+    "sonic_trigger": "oggetto che produce o amplifica campo sonoro urbano",
+    "urban_residue": "oggetto che permane nel sistema come traccia ritmica attiva",
+    "threshold_object": "oggetto o corpo situato su una soglia percettiva instabile tra interno ed esterno",
+    "recursive_symbol": "oggetto che rigenera continuamente il proprio comportamento senza fissarsi in un solo significato"
+  },
+
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "bolla_rosa",
+      "label_en": "pink_bubble",
+      "type": "pressure_object",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la bolla trasforma il vicolo in superficie elastica di collisione; muri, insegne, tombini e corpi diventano punti di rimbalzo sonoro",
+      "kokyu": "il ritmo non è circolare ma impulsivo: espansione improvvisa, sospensione minima, esplosione, rigenerazione",
+      "yūgen": "la bolla non possiede scala stabile: può sembrare giocattolo, luna artificiale, corpo urbano o rumore visibile nello stesso istante",
+      "activation_condition": "masticazione nervosa + trattenimento del respiro + rilascio",
+      "field_behavior": "la bolla converte tensione corporea in evento urbano collettivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche quando esplode la bolla continua a deformare il ritmo dello spazio urbano"
+      },
+      "affects": {
+        "object-03": "attiva il vicolo come camera sonora compressa",
+        "object-04": "trasforma la pozzanghera in membrana elastica e luminosa",
+        "object-06": "il gatto altera la traiettoria della bolla trasformandola in evento imprevedibile"
+      },
+      "textual_anchor_it": "Una gigantesca bolla rosa rotola nel vicolo e rimbalza contro i muri.",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "chewing_gum",
+      "label_en": "chewing_gum",
+      "type": "pressure_object",
+      "intensity": 0.9,
+      "perceptual_weight": 0.87,
+      "basho": "la bocca diventa motore ritmico del sistema; il corpo produce materia sonora prima ancora della musica",
+      "kokyu": "la masticazione è sincopata, nervosa, intermittente; anticipa ogni variazione del campo",
+      "yūgen": "il gesto quotidiano contiene una tensione sproporzionata rispetto alla sua banalità apparente",
+      "activation_condition": "silenzio urbano + distorsione musicale proveniente dalla finestra",
+      "field_behavior": "il chewing gum converte agitazione interna in pressione visibile",
+      "affects": {
+        "object-01": "fornisce alla bolla la propria elasticità instabile",
+        "object-05": "la finestra amplifica il gesto trasformandolo in evento urbano"
+      },
+      "textual_anchor_it": "La ragazza mastica nervosamente e gonfia una nuova bolla.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "object-03",
+      "label": "vicolo_anonimo",
+      "label_en": "anonymous_alley",
+      "type": "sonic_trigger",
+      "intensity": 0.9,
+      "perceptual_weight": 0.9,
+      "basho": "il vicolo agisce come amplificatore compresso; ogni suono rimbalza senza dissiparsi",
+      "kokyu": "il ritmo del vicolo è sincopato: silenzio breve, saturazione sonora improvvisa, nuova compressione",
+      "yūgen": "l'anonimato del luogo impedisce orientamento narrativo stabile; il sistema potrebbe appartenere a qualsiasi periferia del mondo",
+      "activation_condition": "presenza simultanea di musica distorta, bolla in movimento e assenza di traffico",
+      "field_behavior": "il vicolo redistribuisce il rumore come onda fisica",
+      "affects": {
+        "object-05": "la finestra diventa sorgente sonora instabile",
+        "object-06": "il gatto interrompe la regolarità ritmica dello spazio"
+      },
+      "textual_anchor_it": "Il suono sporco della chitarra invade il vicolo anonimo.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "object-04",
+      "label": "pozzanghera_rumorosa",
+      "label_en": "noisy_puddle",
+      "type": "pressure_object",
+      "intensity": 0.82,
+      "perceptual_weight": 0.83,
+      "basho": "la pozzanghera funziona come membrana urbana: amplifica schizzi, impatti e distorsioni luminose",
+      "kokyu": "ogni impatto liquido produce micro-esplosioni ritmiche che interrompono il flusso della scena",
+      "yūgen": "la superficie riflette il sistema deformandolo; nessuna figura urbana resta riconoscibile integralmente",
+      "activation_condition": "contatto tra pioggia, bolla o corpo in movimento",
+      "field_behavior": "la pozzanghera distorce il campo visivo e sonoro del vicolo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la superficie continua a vibrare anche dopo la scomparsa dell'impatto"
+      },
+      "affects": {
+        "object-01": "la bolla perde stabilità entrando nel campo liquido",
+        "object-03": "il vicolo acquisisce profondità riflessa e intermittente"
+      },
+      "textual_anchor_it": "La bolla esplode nella pozzanghera e il riflesso si deforma.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "object-05",
+      "label": "finestra_aperta",
+      "label_en": "open_window",
+      "type": "threshold_object",
+      "intensity": 0.95,
+      "perceptual_weight": 0.92,
+      "basho": "la finestra è punto di emissione sonora e pressione visiva; interno ed esterno collassano localmente",
+      "kokyu": "la finestra si attiva a scatti: apertura, emissione sonora, sparizione del volto, nuova apparizione",
+      "yūgen": "la ragazza non viene mai percepita completamente; resta intermittente come una frequenza disturbata",
+      "activation_condition": "presenza simultanea di chewing gum, musica e luce artificiale",
+      "field_behavior": "la finestra converte tensione privata in disturbo urbano condiviso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la finestra continua a produrre pressione percettiva anche quando nessuno appare"
+      },
+      "affects": {
+        "object-03": "origina il campo sonoro del vicolo",
+        "object-02": "trasforma la masticazione in gesto performativo"
+      },
+      "textual_anchor_it": "L'unica finestra aperta pulsa luce e rumore.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "object-06",
+      "label": "gatto_randagio",
+      "label_en": "stray_cat",
+      "type": "threshold_object",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il gatto attraversa il vicolo senza appartenergli; modifica traiettorie e tensioni del campo urbano",
+      "kokyu": "il suo ritmo è imprevedibile: stasi assoluta, scatto improvviso, sparizione verticale",
+      "yūgen": "il gatto sembra conoscere il comportamento della bolla prima che accada",
+      "activation_condition": "contatto tra bolla e spazio urbano compresso",
+      "field_behavior": "il gatto destabilizza ogni previsione fisica del sistema",
+      "affects": {
+        "object-01": "trasforma la bolla da oggetto elastico a corpo volante",
+        "object-03": "interrompe la pressione sonora del vicolo con movimenti asincroni"
+      },
+      "textual_anchor_it": "Un gatto randagio colpisce la bolla e la lancia sopra i tetti.",
+      "glossary_link": ["kokyu", "yūgen"]
+    }
+  ],
+
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "urban_activation_model": "gli oggetti di Ratata operano come sistema elastico di pressione sonora e movimento corporeo; il vicolo si attiva solo attraverso collisioni, ritmo e distorsione",
+    "unresolved_fields": ["object-01","object-05","object-06"],
+    "city_behavior": "la città anonima non funziona come ambientazione narrativa ma come camera compressa di feedback urbano, intermittente e musicale",
+    "global_tension": {
+      "silenzio_vs_rumore": 1.0,
+      "elasticità_vs_collisione": 0.96,
+      "corpo_vs_spazio_urbano": 0.92,
+      "gioco_vs_instabilità": 0.9,
+      "musica_vs_respiro": 0.88
+    }
+  }
+}
