@@ -1,0 +1,215 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota"
+  },
+
+  "editorial_principle": "Il silenzio non è assenza di testo ma unità strutturale autonoma. In questo libro, i silenzi sono frasi isolate di una riga che interrompono la continuità narrativa senza spiegarla. Non sintetizzano: sospendono. Il loro campo percettivo non si esaurisce con la lettura.",
+
+  "silence_types": {
+    "temporal_seal": "frase che chiude un campo temporale senza risolverlo",
+    "perceptual_reset": "frase che azzera la densità percettiva precedente e apre campo nuovo",
+    "non_resolution": "frase che mantiene aperto un conflitto senza indicarne l'uscita",
+    "irreversible_statement": "frase che registra un cambiamento permanente senza commentarlo",
+    "threshold": "frase che coincide con un confine tra sistemi percettivi incompatibili"
+  },
+
+  "silences": [
+
+    {
+      "id": "silence-01",
+      "type": "temporal_seal",
+      "intensity": 0.88,
+
+      "basho": "chiusura di un campo stagionale (estate sul masso). Non è malinconia ma fine fisica di una configurazione",
+      "kokyu": "tempo contratto: l'estate compressa in una frase",
+      "yūgen": "la brevità non è perdita: è la misura esatta del campo",
+
+      "position_in_text": "dopo la scena con Yuichiro sul masso",
+      "perceptual_weight": 0.88,
+
+      "textual_anchor_it": "L'estate finì presto.",
+
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+
+    {
+      "id": "silence-02",
+      "type": "perceptual_reset",
+      "intensity": 0.82,
+
+      "basho": "l'immensità non appartiene a un luogo ma a una condizione. La frase non descrive ma produce il campo",
+      "kokyu": "pausa assoluta nel tempo narrativo",
+      "yūgen": "la vicinanza di cui parla non è spaziale ma strutturale",
+
+      "position_in_text": "dopo il trekking sul Monte Arasawa",
+      "perceptual_weight": 0.82,
+
+      "textual_anchor_it": "L'immensità di madre natura vive a fianco a noi.",
+
+      "glossary_link": ["basho", "yūgen"]
+    },
+
+    {
+      "id": "silence-03",
+      "type": "temporal_seal",
+      "intensity": 0.78,
+
+      "basho": "la neve non appartiene a Tokyo: è interferenza del campo originario nel campo urbano",
+      "kokyu": "il tempo della neve a Tokyo non ha il ritmo della neve del ryokan. Stessa frase, campo diverso",
+      "yūgen": "la coincidenza climatica non produce unità: accentua la differenza",
+
+      "position_in_text": "dopo la scena con Carlo e il sassofono",
+      "perceptual_weight": 0.78,
+
+      "textual_anchor_it": "Anche a Tokyo nevicava.",
+
+      "glossary_link": ["basho", "wabi-sabi"]
+    },
+
+    {
+      "id": "silence-04",
+      "type": "non_resolution",
+      "intensity": 0.92,
+
+      "basho": "la stagione come campo di attesa senza contenuto. Lo spazio è pieno di tempo non ancora accaduto",
+      "kokyu": "sospensione pura: nessun ritmo attivo",
+      "yūgen": "la bellezza dell'attesa non richiede giustificazione",
+
+      "position_in_text": "dopo la descrizione dell'inverno al ryokan con la neve alle finestre",
+      "perceptual_weight": 0.92,
+
+      "textual_anchor_it": "Era una stagione di attesa.",
+
+      "glossary_link": ["ma", "kokyu"]
+    },
+
+    {
+      "id": "silence-05",
+      "type": "perceptual_reset",
+      "intensity": 0.85,
+
+      "basho": "Tokyo come sistema che non produce campo stabile ma consuma il tempo senza accumularlo",
+      "kokyu": "il tempo urbano non ha forma: vola senza lasciare residuo",
+      "yūgen": "la percezione della velocità è già una forma di perdita",
+
+      "position_in_text": "dopo la scena del risveglio domenicale con Rie",
+      "perceptual_weight": 0.85,
+
+      "textual_anchor_it": "A Tokyo il tempo vola.",
+
+      "glossary_link": ["kokyu", "mono no aware"]
+    },
+
+    {
+      "id": "silence-06",
+      "type": "irreversible_statement",
+      "intensity": 1.0,
+
+      "basho": "il mare non è assenza di ryokan ma campo incompatibile con qualsiasi campo precedente. La morte non è metafora",
+      "kokyu": "tempo bloccato. Nessun ritmo successivo appartiene allo stesso sistema",
+      "yūgen": "la frase non viene elaborata. Rimane come corpo nel testo",
+
+      "position_in_text": "dopo la strage dei delfini a Taiji",
+      "perceptual_weight": 1.0,
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la frase non viene mai ripresa né commentata. Agisce retroattivamente su tutti i campi acquatici precedenti (lago, corrente, pioggia)"
+      },
+
+      "textual_anchor_it": "Il mare è un luogo di morte.",
+
+      "glossary_link": ["basho", "mono no aware", "wabi-sabi"]
+    },
+
+    {
+      "id": "silence-07",
+      "type": "non_resolution",
+      "intensity": 0.88,
+
+      "basho": "la fuga non è localizzata. Appartiene a tutti i campi simultaneamente: Rie, Carlo, la narratrice, i senza tetto del parco",
+      "kokyu": "tempo universalizzato: il sistema narrativo si apre verso l'esterno senza chiudersi",
+      "yūgen": "la narratrice include sé stessa senza nominarsi",
+
+      "position_in_text": "dopo la storia dell'uomo senza tetto al parco Yoyogi",
+      "perceptual_weight": 0.88,
+
+      "textual_anchor_it": "Tutti scappiamo da qualcosa.",
+
+      "glossary_link": ["basho", "mono no aware"]
+    },
+
+    {
+      "id": "silence-08",
+      "type": "threshold",
+      "intensity": 0.9,
+
+      "basho": "il periodo delle piogge non è stagione: è campo percettivo autonomo in cui la realtà non avanza ma galleggia",
+      "kokyu": "tempo del sogno come alternativa al tempo dell'esperienza",
+      "yūgen": "il riposo non è pausa dal sistema: è sistema parallelo",
+
+      "position_in_text": "dopo la descrizione del periodo delle piogge e dei sogni ricorrenti",
+      "perceptual_weight": 0.9,
+
+      "textual_anchor_it": "Era un periodo di riposo.",
+
+      "glossary_link": ["ma", "kokyu", "yūgen"]
+    },
+
+    {
+      "id": "silence-09",
+      "type": "irreversible_statement",
+      "intensity": 0.95,
+
+      "basho": "il tempo non come risorsa ma come condizione ambientale di Tokyo. Nessuna resistenza è prevista",
+      "kokyu": "ritmo urbano come sistema autonomo che la narratrice abita senza governare",
+      "yūgen": "la consapevolezza non modifica il campo",
+
+      "position_in_text": "dopo la scena della primavera sakura a Tokyo",
+      "perceptual_weight": 0.95,
+
+      "textual_anchor_it": "A Tokyo il tempo vola.",
+
+      "note": "ripetizione della stessa frase (silence-05) in posizione diversa: il campo non è identico. La seconda occorrenza registra perdita, non velocità",
+
+      "glossary_link": ["kokyu", "mono no aware", "wabi-sabi"]
+    },
+
+    {
+      "id": "silence-10",
+      "type": "threshold",
+      "intensity": 1.0,
+
+      "basho": "il luogo non è il masso: è la condizione permanente del sistema. Il libro chiude qui ma il campo rimane attivo",
+      "kokyu": "tempo senza fine: il luogo è dove si vive, non dove si arriva",
+      "yūgen": "la frase non produce chiusura. Apre una configurazione percettiva senza termine",
+
+      "position_in_text": "ultima frase del testo narrativo",
+      "perceptual_weight": 1.0,
+
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sistema non si chiude con la fine del libro. La narratrice rimane nel luogo come campo attivo"
+      },
+
+      "textual_anchor_it": "È questo il mio infinito luogo, dove vivere.",
+
+      "glossary_link": ["basho", "yūgen", "ma"]
+    }
+  ],
+
+  "system_note": {
+    "silence_count": 10,
+    "dominant_silence": "silence-10",
+    "non_integrable_silences": ["silence-06", "silence-10"],
+    "structural_role": "i silenzi non commentano il testo: ne modificano la densità percettiva. Alcune frasi (silence-05 e silence-09) sono identiche nel testo ma appartengono a campi diversi",
+    "print_layer_alignment": "i silenzi non sono scene_ref nel NarrativePrintLayer: operano come strati trasversali tra le scene"
+  }
+}
