@@ -1,0 +1,210 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "Everyday Matcha",
+    "author": "Il Signore del Tè",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "system_principle": "The system does not represent a practice. It operates as a distributed perceptual field in which gesture, object, silence and degradation modify each other through recursive reactivation without stable origin or closure.",
+
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "repetition_based_field_engine",
+    "transition": "meta_system_operator",
+    "silence": "co_present_field_density",
+    "weather": "environmental_state_operator",
+    "meta_state": "non_local_recursive_operator"
+  },
+
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05","scene-06","scene-07"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05","object-06","object-07"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04","silence-05","silence-06","silence-null"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_nodes": ["weather-01","weather-02","weather-03","weather-04"],
+    "_note": "narrative-transition operates as meta_system_operator via meta-02; no discrete transition nodes"
+  },
+
+  "meta_states": [
+    {
+      "id": "meta-01",
+      "label": "silence_null",
+      "type": "recursive_absence_operator",
+      "source_file_ref": "silence-null",
+      "system_effect": "partial_closure_resistance_field",
+      "behavior": {
+        "readability": "oscillating",
+        "activity": "persistent",
+        "closure": "locally_failing"
+      },
+      "affects": ["all"]
+    },
+    {
+      "id": "meta-02",
+      "label": "self_reflexive_transition",
+      "type": "recursive_description_operator",
+      "source_file_ref": "narrative-transition",
+      "system_effect": "system_observes_itself_without_stabilization",
+      "behavior": {
+        "readability": "fragmented",
+        "activity": "persistent",
+        "closure": "impossible"
+      },
+      "affects": ["all"]
+    }
+  ],
+
+  "topology": {
+    "core_field": "scene-01",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "cerimonia_cucina_variabile",
+        "nodes": ["scene-01","scene-03","ritual-01","ritual-02"],
+        "type": "ritual_density_loop",
+        "stability": "metastable",
+        "propagation_logic": "ceremony_and_domesticity_share_single_field_at_different_intensity",
+        "description": "ritual structure does not scale linearly; it compresses and expands without loss of field"
+      },
+      {
+        "id": "loop-02",
+        "label": "oggetto_gesto_retroazione",
+        "nodes": ["object-01","object-02","object-03","object-07"],
+        "type": "recursive_activation_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "objects_activate_gestures_that_redefine_objects",
+        "description": "utensils and residue form a self-modifying perceptual system"
+      },
+      {
+        "id": "loop-03",
+        "label": "degrado_intensita_ridotta",
+        "nodes": ["scene-05","scene-07","ritual-05","object-06"],
+        "type": "intensity_modulation_loop",
+        "stability": "stable_local",
+        "propagation_logic": "degradation_is_reduced_field_not_absence",
+        "description": "urban and instant forms preserve field structure at lower thermal intensity"
+      },
+      {
+        "id": "loop-04",
+        "label": "silenzio_copresenza",
+        "nodes": ["silence-01","silence-04","scene-06","ritual-03"],
+        "type": "co_presence_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "silence_exists_as_simultaneous_condition_of_all_gestures",
+        "description": "silence is not interruption but continuous density distributed across actions"
+      },
+      {
+        "id": "loop-05",
+        "label": "origine_agricola_variabile",
+        "nodes": ["scene-02","object-04","weather-01"],
+        "type": "recursive_origin_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "origin_is_recomputed_at_each_access",
+        "description": "Uji is not origin point but recursive reactivation field of agricultural memory"
+      }
+    ]
+  },
+
+  "cross_layer_effects": [
+    {
+      "from": "scene-01", "to": "all",
+      "effect": "chashitsu_persistence_field",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "perceptual_condition_maintenance"
+    },
+    {
+      "from": "scene-07", "to": "scene-01",
+      "effect": "degradation_retroactive_reconstruction",
+      "propagation_mode": "bidirectional",
+      "intensity": 0.86,
+      "stability_impact": "field_spectrum_activation"
+    },
+    {
+      "from": "object-07", "to": "object-01",
+      "effect": "error_visibility_revelation",
+      "propagation_mode": "recursive",
+      "intensity": 0.91,
+      "stability_impact": "structure_exposure"
+    },
+    {
+      "from": "silence-null", "to": "all",
+      "effect": "closure_failure_activation",
+      "propagation_mode": "persistent_residual",
+      "intensity": 1.0,
+      "stability_impact": "non_resolution_state"
+    },
+    {
+      "from": "scene-02", "to": "object-04",
+      "effect": "agricultural_time_transfer",
+      "propagation_mode": "residual",
+      "intensity": 0.92,
+      "stability_impact": "origin_field_reactivation"
+    },
+    {
+      "from": "ritual-05", "to": "ritual-01",
+      "effect": "urban_interference_feedback",
+      "propagation_mode": "recursive",
+      "intensity": 0.88,
+      "stability_impact": "ceremony_field_distortion"
+    },
+    {
+      "from": "meta-02", "to": "all",
+      "effect": "system_self_observation_instability",
+      "propagation_mode": "non_local",
+      "intensity": 0.94,
+      "stability_impact": "description_drift"
+    },
+    {
+      "from": "silence-04", "to": "scene-03",
+      "effect": "post_sorso_field_persistence",
+      "propagation_mode": "delayed",
+      "intensity": 0.88,
+      "stability_impact": "gesture_residue_stabilization"
+    }
+  ],
+
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "ritual_compression",
+      "field_degradation",
+      "recursive_object_activation",
+      "silence_co_presence",
+      "origin_recomputation",
+      "error_based_revelation"
+    ],
+    "forbidden_states": [
+      "complete_closure",
+      "stable_origin",
+      "matcha_as_product_only",
+      "silence_as_absence",
+      "degradation_as_negation"
+    ]
+  },
+
+  "system_tension": {
+    "ceremony_vs_everyday": 1.0,
+    "gesture_vs_object": 0.93,
+    "silence_vs_action": 0.91,
+    "origin_vs_recomputation": 0.92,
+    "slowness_vs_urban_acceleration": 0.89
+  },
+
+  "global_state": {
+    "dominant_field": "scene-01",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "topologically_impossible",
+    "null_field_present": true,
+    "system_behavior": "Everyday Matcha operates as a recursive perceptual field in which ceremony, gesture and degradation are intensity variations of the same system; origin is continuously recomputed; silence is co-present density; no final state is reachable.",
+    "readability": "high_local_low_global"
+  }
+}
