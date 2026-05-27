@@ -1,82 +1,93 @@
 {
   "type": "NarrativeTransition",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
-
   "book": {
     "title": "Torino Fantastica",
     "author": "Grazia Guarnieri",
     "illustrator": "Giulia Lazzaron"
   },
-
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta dopo il suo avvenimento"
+  },
   "editorial_principle": "La transizione non produce cambiamento. Espone l'incompatibilità simultanea di due regimi percettivi che coesistono nello stesso spazio senza risolversi.",
-
   "transitions": [
-
     {
       "id": "transition-01",
       "label": "monumento_simbolo",
       "label_en": "monument_symbol",
-
+      "type": "recursive",
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
       "basho": "lo stesso volume spaziale mantiene stabilità fisica mentre il campo percettivo si sdoppia in due regimi non comunicanti; la materia resta identica, la leggibilità si biforca",
-
       "kokyu": "non esiste momento di passaggio; i due regimi emergono già co-presenti come interferenza stabile che non si risolve nel tempo",
-
       "yūgen": "ciò che era visibile non diventa altro: diventa simultaneamente leggibile come altra cosa senza perdita della forma originaria",
-
+      "affects": {
+        "transition-02": "la logica del doppio registro si estende dalla statua all'intera città"
+      },
       "textual_anchor_it": "il Genio diventò Diavolo per una serie di sfortunati eventi. E tale rimase.",
-
       "glossary_link": ["basho", "mono no aware"]
     },
-
     {
       "id": "transition-02",
       "label": "capitale_leggenda",
       "label_en": "capital_legend",
-
+      "type": "suspended",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
       "basho": "lo spazio urbano non cambia funzione ma intensità: la funzione politica e la funzione mitica si sovrappongono senza gerarchia",
-
       "kokyu": "non c'è successione tra storia e leggenda; entrambe operano nello stesso intervallo temporale con velocità incompatibili",
-
       "yūgen": "la città non alterna stati: li mantiene entrambi come condizioni simultanee non riducibili",
-
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la coesistenza di storia e leggenda non produce sintesi: resta oscillazione permanente"
+      },
+      "affects": {
+        "transition-04": "la perdita del referente amplifica la tensione tra presenza simbolica e assenza storica"
+      },
       "textual_anchor_it": "Nomini Torino e pensi subito alla magia. Bianca o nera che sia.",
-
       "glossary_link": ["yūgen", "basho"]
     },
-
     {
       "id": "transition-03",
       "label": "opera_incompiuta",
       "label_en": "unfinished_work",
-
+      "type": "gradual_loss",
+      "intensity": 0.8,
+      "perceptual_weight": 0.78,
       "basho": "la forma architettonica non si stabilizza mai come stato finale; ogni intervento modifica retroattivamente la leggibilità dell'intero sistema",
-
       "kokyu": "non esiste tempo del completamento; esiste solo accumulo di variazioni che non convergono mai a chiusura",
-
       "yūgen": "l'incompletezza non è mancanza ma condizione permanente di accesso parziale",
-
       "textual_anchor_it": "di fatto è un'opera mai davvero finita.",
-
       "glossary_link": ["wabi-sabi", "ma"]
     },
-
     {
       "id": "transition-04",
       "label": "referente_simbolo",
       "label_en": "referent_symbol",
-
+      "type": "irreversible",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
       "basho": "la scomparsa del referente non riduce il campo ma lo amplifica; il simbolo occupa più spazio percettivo della presenza originaria",
-
       "kokyu": "non c'è origine del simbolo: la sua attivazione è retroattiva e continua",
-
       "yūgen": "la distanza tra ciò che è stato e ciò che viene percepito non è colmabile né misurabile",
-
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il simbolo sopravvive al referente e continua a produrre campo senza ancoraggio verificabile"
+      },
       "textual_anchor_it": "da allora sono qui. Talvolta la luce del sole entra da una piccola fessura del muro.",
-
       "glossary_link": ["mono no aware", "ma"]
     }
-  ]
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni di Torino non separano stati urbani. Espongono la simultaneità di regimi percettivi incompatibili che operano in parallelo senza mai risolversi.",
+    "effect": "ogni transizione aggiunge stratificazione senza produrre chiusura"
+  }
 }
