@@ -1,0 +1,150 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "mutation_tag": "analysis-driven_variation_01",
+  "canonical": false,
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "system_principle": "The system remains non-representational, but its dominant operator shifts: from bubble-centered field generation to stain-centered persistence. Sound no longer initiates the system; it destabilizes a pre-existing residual field that is always already active.",
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "compulsive_field_engine",
+    "transition": "topology_mutation_operator",
+    "silence": "pressure_field_zone",
+    "weather": "emotional_projection_modulator",
+    "meta_state": "system_wide_non_local_operator",
+    "glitch": "cross_layer_residual_interference"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"],
+    "glitches": ["glitch-01","glitch-02"],
+    "_note": "glitch nodes are internal to this graph variant; no corresponding external file exists"
+  },
+  "topology": {
+    "core_field": "silence-03",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "bolla_corpo_vicolo_degraded",
+        "nodes": ["object-01","object-02","scene-02","scene-03"],
+        "type": "recursive_body_extension_loop",
+        "stability": "unstable_degraded",
+        "propagation_logic": "body_generates_field_that_becomes_autonomous_then_dissolves_into_residual_stain",
+        "description": "the bubble no longer stabilizes autonomy; it collapses into persistence (stain-like afterimage)"
+      },
+      {
+        "id": "loop-02",
+        "label": "silenzio_canzone_residuo_amplified",
+        "nodes": ["silence-01","weather-02","transition-01","silence-03"],
+        "type": "sonic_irruption_loop",
+        "stability": "metastable_overpressurized",
+        "propagation_logic": "silence_is_primary_state_song_is_local_irruption_residue_becomes_dominant_field",
+        "description": "the song is no longer interruption; it is a pressure release valve on an existing silence-field"
+      },
+      {
+        "id": "loop-03",
+        "label": "pioggia_macchia_inversion",
+        "nodes": ["weather-03","silence-03","weather-04","transition-04"],
+        "type": "emotional_precipitation_loop",
+        "stability": "residual_dominant",
+        "propagation_logic": "stain_produces_rain_as_retroactive_legibility",
+        "description": "rain becomes readable only after the stain has already formed; causality is inverted"
+      },
+      {
+        "id": "loop-04",
+        "label": "bilingue_silenzio_overlay",
+        "nodes": ["silence-04","silence-01","scene-01"],
+        "type": "parallel_linguistic_field_loop",
+        "stability": "stable_non_translational",
+        "propagation_logic": "languages_no_longer_coexist_symmetrically_but_interfere_as_silence_layers",
+        "description": "bilingualism collapses into layered silence rather than parallel speech systems"
+      },
+      {
+        "id": "loop-05",
+        "label": "soglia_interno_esterno_flicker",
+        "nodes": ["object-05","transition-02","scene-02","glitch-01"],
+        "type": "threshold_activation_loop",
+        "stability": "flickering_metastable",
+        "propagation_logic": "threshold_becomes_instability_zone_not_permeability_point",
+        "description": "the window no longer mediates; it flickers as unresolved boundary artifact"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "silence-03", "to": "all",
+      "effect": "stain_field_dominance",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "global_field_reversal"
+    },
+    {
+      "from": "object-01", "to": "silence-03",
+      "effect": "bubble_to_residue_collapse",
+      "propagation_mode": "irreversible",
+      "intensity": 0.98,
+      "stability_impact": "loss_of_autonomous_objecthood"
+    },
+    {
+      "from": "weather-02", "to": "silence-01",
+      "effect": "song_as_pressure_interpretation",
+      "propagation_mode": "external_irruption",
+      "intensity": 0.95,
+      "stability_impact": "silence_reclassified_as_primary_field"
+    },
+    {
+      "from": "silence-04", "to": "silence-03",
+      "effect": "bilingual_decay_into_residual_noise",
+      "propagation_mode": "persistent_residual",
+      "intensity": 0.9,
+      "stability_impact": "translation_blockade_reinforced"
+    },
+    {
+      "from": "glitch-01", "to": "all",
+      "effect": "field_desynchronization",
+      "propagation_mode": "non_local",
+      "intensity": 0.93,
+      "stability_impact": "temporal_disalignment"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "residual_metastable",
+    "allowed_mutations": [
+      "body_extension", "sonic_irruption", "emotional_precipitation",
+      "field_autonomy", "bilingual_overlay", "residual_persistence",
+      "field_inversion", "glitch_propagation"
+    ],
+    "forbidden_states": [
+      "emotional_resolution", "bubble_as_stable_center",
+      "rain_as_weather_only", "bilingualism_as_translation",
+      "song_as_background", "silence_as_absence"
+    ]
+  },
+  "system_tension": {
+    "sound_vs_silence": 0.98,
+    "body_vs_residue": 0.99,
+    "inside_vs_outside": 0.95,
+    "memory_vs_forgetting": 0.98,
+    "italian_vs_japanese": 0.9
+  },
+  "global_state": {
+    "dominant_field": "silence-03",
+    "stability": "metastable_residual",
+    "closure": false,
+    "closure_type": "structurally_impossible",
+    "system_behavior": "The system is no longer organized around generation (bubble) but around persistence (stain). Sound, body, and weather operate as secondary activators of an already-active residual field. The city is not a stage: it is a leftover.",
+    "readability": "low_global_high_residual"
+  }
+}
