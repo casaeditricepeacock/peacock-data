@@ -1,0 +1,93 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+  "editorial_purpose": {
+    "function": "trasformare un sistema percettivo urbano in sequenza leggibile senza collasso semantico",
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione"
+  },
+  "reading_principle": {
+    "rule_01": "ogni scena deve essere leggibile indipendentemente",
+    "rule_02": "la relazione tra scene non è esplicita ma residua",
+    "rule_03": "Torino non viene mai nominata come totalità coerente",
+    "rule_04": "la leggenda non viene mai contrapposta direttamente alla storia ma per densità percettiva comparativa"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-02",
+      "print_function": "origin_anchor",
+      "note": "stabilisce il campo storico primario (Porta Palatina come fondazione)"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-01",
+      "print_function": "field_distortion",
+      "note": "introduce la prima instabilità percettiva urbana (Piazza Statuto)"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "legendary_interference",
+      "note": "la leggenda entra come sistema parallelo non verificabile"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "cultural_compression",
+      "note": "il tempo si comprime nel museo: perdita di contesto come struttura"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "threshold_activation",
+      "note": "massima densità percettiva + attivazione retroattiva di tutte le soglie precedenti"
+    },
+    {
+      "order": 6,
+      "scene_ref": "scene-06",
+      "print_function": "collapse_and_drift",
+      "note": "collasso della coerenza urbana: la città non si ricompone dopo il tram"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena conserva il proprio spazio percettivo autonomo anche nella sequenza",
+      "constraint": "nessuna scena dipende semanticamente dalla precedente"
+    },
+    "kokyu": {
+      "rule": "il ritmo di lettura è modulato dalla densità delle scene, non uniforme",
+      "effect": "il lettore alterna accelerazione urbana e sospensione senza istruzione esplicita"
+    },
+    "yūgen": {
+      "rule": "la totalità di Torino non è mai visibile nel testo lineare",
+      "effect": "emerge solo dopo la lettura completa come campo retroattivo"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "ciò che il sistema non esplicita nel testo ma mantiene attivo come struttura percettiva",
+    "contains": [
+      "Torino come campo mitico continuo sotto la città funzionale",
+      "la leggenda come spazio di insufficienza della storia verificabile",
+      "il narratore come densità relazionale mai localizzata direttamente in sequenza"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "ricostruzione involontaria del campo urbano senza memoria lineare delle scene",
+    "perceptual_residue": "persistenza del portone come soglia mentale attiva",
+    "temporal_effect": "la sequenza non finisce quando finisce il libro"
+  },
+  "meta_layer": {
+    "system_note": "prima versione in cui il sistema percettivo urbano viene vincolato alla forma libro senza perdere comportamento di campo",
+    "stability": "high",
+    "risk": "basso",
+    "obsolescence": "non strutturale, solo editoriale"
+  }
+}
