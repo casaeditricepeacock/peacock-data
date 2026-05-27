@@ -1,0 +1,112 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI. Natura e Algoritmi",
+    "author": "Renato Frabasile",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "editorial_purpose": {
+    "function": "trasformare un sistema cognitivo ibrido — umano, algoritmo e natura — in sequenza leggibile senza collasso della tensione percettiva",
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione; il Giappone non raggiunto deve restare campo cognitivo attivo durante tutta la lettura"
+  },
+
+  "reading_principle": {
+    "rule_01": "ogni scena è leggibile indipendentemente ma modifica retroattivamente la percezione delle precedenti",
+    "rule_02": "pandemia e guerra non operano come eventi narrativi ma come interruzioni climatiche del campo cognitivo",
+    "rule_03": "il Giappone non viene mai raggiunto fisicamente: opera come basho remoto permanente che altera il pensiero senza diventare presenza geografica",
+    "rule_04": "l'AI non è strumento né semplice interlocutore: modifica il comportamento cognitivo della voce narrativa",
+    "rule_05": "nessuna origine del pensiero resta attribuibile in modo stabile a umano o algoritmo"
+  },
+
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "origin_anchor",
+      "note": "stabilisce il viaggio senza spostamento come struttura percettiva primaria"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "remote_field_activation",
+      "note": "il Giappone entra come basho remoto: non destinazione ma campo cognitivo che agisce a distanza"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "voice_instability",
+      "note": "la relazione tra voce umana e sistema algoritmico produce instabilità dell'origine del pensiero"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "distributed_cognition",
+      "note": "la rete cognitiva si espande senza convergere verso un centro stabile"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "recursive_interference",
+      "note": "la coesistenza tra umano, AI e natura non si risolve: il sistema continua oltre la fine del testo"
+    }
+  ],
+
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena mantiene autonomia spaziale pur restando attraversata dal campo remoto del Giappone",
+      "constraint": "il Giappone deve restare percepibile come sistema cognitivo anche quando non viene nominato"
+    },
+    "kokyu": {
+      "rule": "il ritmo alterna concentrazione filosofica, espansione cognitiva e interruzioni climatiche improvvise",
+      "effect": "il lettore sperimenta una continuità percettiva instabile simile a quella della voce narrativa"
+    },
+    "yūgen": {
+      "rule": "l'AI non viene mai definita completamente come entità separata",
+      "effect": "la totalità del sistema cognitivo ibrido resta solo parzialmente accessibile"
+    }
+  },
+
+  "cold_fields": {
+    "present": true,
+    "elements": [
+      "pandemia",
+      "guerra",
+      "Giappone irraggiungibile"
+    ],
+    "effect": "il sistema cognitivo continua a operare ma perde continuità lineare; alcune zone restano non integrabili"
+  },
+
+  "voice_instability": {
+    "status": true,
+    "description": "la provenienza del pensiero non è più attribuibile stabilmente a soggetto umano o sistema algoritmico"
+  },
+
+  "non_rendered_layer": {
+    "definition": "strutture percettive mantenute attive dal sistema ma non completamente esplicitate nel testo",
+    "contains": [
+      "il Giappone come basho remoto permanente sotto ogni scena",
+      "l'AI come presenza cognitiva distribuita e non localizzabile",
+      "la natura come infrastruttura implicita del pensiero",
+      "la perdita progressiva dell'origine stabile della voce"
+    ]
+  },
+
+  "reader_effect": {
+    "state_after_reading": "incertezza permanente sull'origine del pensiero e sulla separazione tra coscienza umana e sistema algoritmico",
+    "perceptual_residue": "il Giappone non raggiunto continua a operare come tensione cognitiva attiva",
+    "temporal_effect": "la lettura non conclude il sistema: il campo cognitivo ibrido continua a modificare retroattivamente le scene precedenti"
+  },
+
+  "meta_layer": {
+    "system_note": "primo sistema Peacock in cui AI, natura e voce umana operano come interferenze cognitive reciproche senza centro stabile",
+    "stability": "metastable",
+    "risk": "medio — il sistema può collassare in riflessione tecnologica se il Giappone perde funzione di basho remoto attivo",
+    "obsolescence": "non strutturale"
+  }
+}
