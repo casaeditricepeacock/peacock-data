@@ -1,0 +1,159 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta solo dopo il suo avvenimento",
+    "kinetic_break": "rottura prodotta da accelerazione improvvisa del corpo o dell'oggetto",
+    "sonic_overdrive": "saturazione sonora che altera la leggibilità dello spazio"
+  },
+  "editorial_principle": "Le transizioni di Ratata non collegano scene: generano collisioni percettive. Ogni passaggio è un urto tra suono, corpo, pioggia e spazio urbano. Il sistema non evolve narrativamente ma accumula pressione ritmica, come un brano garage-punk che continua a deformarsi senza mai raggiungere un ritornello stabile.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "silenzio_feedback",
+      "label_en": "silence_to_feedback",
+      "type": "sonic_overdrive",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il vicolo viene invaso da un feedback sonoro che modifica la consistenza dello spazio; i muri diventano superfici vibranti",
+      "kokyu": "dal silenzio compresso all'esplosione punk senza preparazione intermedia",
+      "yūgen": "il rumore non chiarisce il silenzio precedente: lo rende ancora più presente come campo nascosto",
+      "activation_condition": "volume troppo alto + finestra aperta + accumulo di tensione urbana",
+      "field_behavior": "la musica sostituisce il normale orientamento percettivo; il vicolo smette di essere luogo e diventa amplificatore",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche dopo il termine della canzone resta una vibrazione fantasma nello spazio"
+      },
+      "affects": {
+        "transition-02": "la ragazza appare già immersa nel campo sonoro",
+        "transition-05": "il gatto reagisce al picco sonoro come a un impulso fisico"
+      },
+      "textual_anchor_it": "RATATA — il feedback spezza il silenzio del vicolo.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "transition-02",
+      "label": "finestra_pressione",
+      "label_en": "window_pressure",
+      "type": "suspended",
+      "intensity": 0.96,
+      "perceptual_weight": 0.93,
+      "basho": "la finestra non divide interno ed esterno ma comprime entrambi nello stesso campo percettivo",
+      "kokyu": "respirazione trattenuta, mascella in movimento, immobilità del corpo — il ritmo nasce dalla tensione statica",
+      "yūgen": "la ragazza sembra sul punto di parlare ma produce soltanto chewing gum e bolle",
+      "activation_condition": "presenza simultanea di luce fioca, rumore urbano e chewing gum",
+      "field_behavior": "la finestra funziona come membrana sonora: lascia passare musica e tensione emotiva ma non identità stabile",
+      "affects": {
+        "transition-03": "la pressione interna genera il distacco della bolla",
+        "transition-04": "la pioggia trasforma la finestra in superficie riflettente"
+      },
+      "textual_anchor_it": "alla finestra mastica lentamente mentre il vicolo vibra.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "transition-03",
+      "label": "corpo_bolla_detachment",
+      "label_en": "body_bubble_detachment",
+      "type": "irreversible",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la bolla si stacca dal corpo e acquisisce autonomia spaziale; il vicolo eredita il controllo del movimento",
+      "kokyu": "espulsione improvvisa seguita da sospensione elastica",
+      "yūgen": "la bolla trasporta una parte emotiva che il corpo non riesce più a contenere",
+      "activation_condition": "trattenimento del respiro oltre il limite",
+      "field_behavior": "il distacco converte il gesto privato in evento urbano condiviso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la separazione tra corpo e bolla non viene mai completamente riassorbita"
+      },
+      "affects": {
+        "transition-05": "il gatto trasforma la traiettoria della bolla in campo verticale",
+        "transition-06": "la pioggia assorbe la superficie della bolla"
+      },
+      "textual_anchor_it": "POP — la bolla lascia la bocca e invade il retro.",
+      "glossary_link": ["mono no aware", "kokyu"]
+    },
+    {
+      "id": "transition-04",
+      "label": "pioggia_neon",
+      "label_en": "rain_neon",
+      "type": "external_irruption",
+      "intensity": 0.91,
+      "perceptual_weight": 0.9,
+      "basho": "la pioggia altera insegne, vetri e pozzanghere; la città si sdoppia in riflesso e superficie",
+      "kokyu": "gocce intermittenti contro ritmo continuo della batteria garage",
+      "yūgen": "la città bagnata non restituisce immagini fedeli ma versioni deformate del campo",
+      "activation_condition": "collisione tra umidità, neon e volume sonoro",
+      "field_behavior": "la pioggia raffredda il sistema senza interromperlo",
+      "affects": {
+        "transition-06": "la pozzanghera eredita il residuo della bolla",
+        "transition-01": "il suono diventa più metallico e distante"
+      },
+      "textual_anchor_it": "ポタリ ポタリ — il neon cola dentro le pozzanghere.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "transition-05",
+      "label": "gatto_lancio_verticale",
+      "label_en": "cat_vertical_launch",
+      "type": "kinetic_break",
+      "intensity": 0.94,
+      "perceptual_weight": 0.95,
+      "basho": "il salto del gatto rompe l'orizzontalità del vicolo e apre un asse verticale improvviso",
+      "kokyu": "scatto / sospensione / caduta — ritmo breve e violento",
+      "yūgen": "non è chiaro se il gatto giochi o reagisca al caos sonoro",
+      "activation_condition": "contatto simultaneo tra bolla, pioggia e rumore",
+      "field_behavior": "la bolla smette di rotolare e comincia a galleggiare come corpo instabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "dopo il salto il vicolo mantiene una tensione verticale invisibile"
+      },
+      "affects": {
+        "transition-03": "la bolla perde definitivamente il controllo originario",
+        "transition-06": "la ricaduta prepara il collasso liquido finale"
+      },
+      "textual_anchor_it": "il gatto colpisce la bolla — tutto sale per un istante.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    {
+      "id": "transition-06",
+      "label": "memoria_pozzanghera",
+      "label_en": "puddle_memory",
+      "type": "recursive",
+      "intensity": 0.89,
+      "perceptual_weight": 0.88,
+      "basho": "il campo emotivo si distribuisce tra acqua, riflessi e residui sonori; non occupa più un punto preciso",
+      "kokyu": "il ritmo rallenta ma continua a pulsare sotto la superficie",
+      "yūgen": "ciò che resta nella pozzanghera non è immagine né ricordo stabile",
+      "activation_condition": "dissoluzione della bolla nella pioggia",
+      "field_behavior": "la pozzanghera conserva il sistema come eco visiva permanente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il residuo liquido continua a riflettere il campo anche dopo la scomparsa della bolla"
+      },
+      "affects": {
+        "transition-01": "il silenzio iniziale viene riletto come campo già contaminato",
+        "transition-02": "la finestra appare ora distante e irraggiungibile"
+      },
+      "textual_anchor_it": "la bolla sparisce nell'acqua ma il vicolo continua a tremare.",
+      "glossary_link": ["mono no aware", "yūgen"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni di Ratata non producono continuità narrativa ma compressioni ritmiche e collisioni percettive.",
+    "effect": "ogni nuova irruzione sonora o corporea modifica retroattivamente il comportamento dell'intero sistema"
+  }
+}
