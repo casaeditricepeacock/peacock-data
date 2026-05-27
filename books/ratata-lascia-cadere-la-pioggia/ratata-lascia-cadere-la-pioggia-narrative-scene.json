@@ -1,0 +1,92 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "editorial_principle": "La scena non rappresenta un evento ma una configurazione percettiva instabile. Suono, corpo e spazio urbano non interagiscono: si co-determinano retroattivamente senza gerarchia causale stabile.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione attivata solo nell'attraversamento percettivo",
+    "sonic_collapse": "configurazione che collassa sotto saturazione sonora",
+    "body_projection": "configurazione generata dall'estensione corporea oltre il limite epidermico",
+    "emotional_overlay": "campo emotivo che si materializza su superficie urbana"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "vicolo_silenzio_pressurizzato",
+      "type": "field_node",
+      "dominant": true,
+      "basho": "il vicolo non contiene il silenzio: è il silenzio che assume forma architettonica. Ogni superficie funziona come membrana di pressione acustica in attesa di rottura",
+      "kokyu": "il ritmo è accumulo senza scarico; la pressione cresce fino a diventare indistinguibile dal suono che la interromperà",
+      "yūgen": "l'anonimato non è assenza di identità ma sovrapposizione di tutte le città possibili nello stesso punto percettivo",
+      "affects": {
+        "scene-02": "la pressione del vicolo non permette al corpo di restare interno: lo spinge verso la finestra",
+        "scene-03": "il campo già saturo prepara la traiettoria instabile della bolla"
+      },
+      "textual_anchor_it": "un rumore che proviene da un vicolo di una anonima città del mondo.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02",
+      "label": "ragazza_finestra_bolla_elastica",
+      "type": "body_projection",
+      "basho": "la finestra non separa interno ed esterno: è una zona di compressione dove il corpo perde confine e diventa gesto visibile",
+      "kokyu": "il ritmo è trattenimento nervoso → compressione → rilascio improvviso; la bolla non risolve la tensione ma la rende visibile",
+      "yūgen": "la ragazza non è figura completa: è solo il punto in cui il corpo diventa leggibile come campo instabile",
+      "affects": {
+        "scene-03": "la bolla si emancipa dal corpo e diventa oggetto autonomo nel vicolo",
+        "scene-01": "la finestra agisce retroattivamente come valvola del campo sonoro"
+      },
+      "textual_anchor_it": "Attraverso una luce fioca una ragazza è affacciata, mastica nervosamente un chewing gum, trattiene il respiro, fa una bolla rosa.",
+      "glossary_link": ["kokyu", "yūgen"]
+    },
+    {
+      "id": "scene-03",
+      "label": "bolla_vicolo_gatto_interferenza",
+      "type": "threshold_field",
+      "basho": "il vicolo diventa campo operativo: la bolla non attraversa lo spazio, lo riscrive come superficie elastica condivisa con il gatto",
+      "kokyu": "il ritmo è interrotto e imprevedibile: sospensione → intervento → deviazione → rilancio",
+      "yūgen": "il gatto non è agente narrativo ma perturbazione percettiva che rende instabile la traiettoria del reale",
+      "collapse_event": {
+        "description": "il gatto tocca la bolla: il sistema passa da espansione corporea a campo autonomo senza transizione graduale",
+        "status": "irreversible_in_this_configuration"
+      },
+      "affects": {
+        "scene-02": "la bolla non appartiene più al corpo ma al sistema urbano",
+        "scene-04": "l'instabilità introdotta apre la soglia atmosferica della pioggia"
+      },
+      "textual_anchor_it": "Un gatto randagio non può non vederla, con una sola unghia la solleva e la lancia in aria.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    {
+      "id": "scene-04",
+      "label": "pioggia_macchia_luna_residua",
+      "type": "emotional_overlay",
+      "basho": "la pioggia non cade sul mondo ma lo sostituisce temporaneamente con una superficie di saturazione emotiva",
+      "kokyu": "il ritmo è discontinuo ma persistente: ogni goccia è unità autonoma che non compone sequenza lineare",
+      "yūgen": "la macchia non rappresenta la pioggia: è la sua continuazione quando l'evento non è più osservabile",
+      "affects": {
+        "scene-01": "il vicolo non è più pressione ma superficie bagnata di memoria attiva",
+        "scene-02": "il corpo della ragazza entra nel sistema climatico senza spostamento fisico"
+      },
+      "textual_anchor_it": "Gocciola, gocciola, gocciola, la goccia di pioggia cade. Scorrendo e cadendo, diventa una macchia.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 4,
+    "dominant_field": "scene-03",
+    "system_state": "metastabile con retroazione attiva",
+    "urban_model": "spazio urbano come sistema di interferenza tra corpo, suono e agenti non umani",
+    "degradation_present": true,
+    "degradation_type": "field_instability_from_nonhuman_intervention",
+    "retroactive_causality": true
+  }
+}
