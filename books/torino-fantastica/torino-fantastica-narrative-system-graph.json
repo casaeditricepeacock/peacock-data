@@ -1,0 +1,102 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron"
+  },
+  "system_principle": "La città non è un insieme di luoghi ma una rete di interferenze percettive tra oggetti, scene, silenzi e transizioni. Nessun nodo è autonomo.",
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05",
+      "scene-06"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "primary_loops": [
+      {
+        "loop": "sacralità_vs_verifica",
+        "nodes": ["object-01", "object-03", "silence-01"],
+        "type": "recursive_stability"
+      },
+      {
+        "loop": "leggenda_urbana_attiva",
+        "nodes": ["object-05", "scene-01", "transition-02"],
+        "type": "mythic_overlay"
+      },
+      {
+        "loop": "attraversamento_corpo_spazio",
+        "nodes": ["object-02", "scene-02", "transition-01"],
+        "type": "ritual_activation"
+      },
+      {
+        "loop": "incompletezza_strutturale",
+        "nodes": ["scene-04", "transition-03", "silence-03"],
+        "type": "non_completion_field"
+      },
+      {
+        "loop": "assenza_del_referente",
+        "nodes": ["transition-04", "silence-02", "object-03"],
+        "type": "symbolic_drift"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "silence-01",
+      "effect": "la non-verifica religiosa stabilizza l'inaccessibilità come condizione urbana permanente"
+    },
+    {
+      "from": "scene-01",
+      "to": "transition-02",
+      "effect": "la polarizzazione simbolica diventa struttura permanente della città"
+    },
+    {
+      "from": "object-05",
+      "to": "scene-01",
+      "effect": "la soglia rituale retroagisce sulla percezione del centro urbano"
+    },
+    {
+      "from": "silence-04",
+      "to": "all",
+      "effect": "la voce non chiusa impedisce stabilizzazione finale di qualsiasi nodo"
+    }
+  ],
+  "global_state": {
+    "dominant_field": "recursive_interference",
+    "stability": "metastable",
+    "closure": false,
+    "city_behavior": "Torino opera come sistema mitico a coerenza interna senza convergenza narrativa",
+    "readability": "high_local_low_global"
+  }
+}
