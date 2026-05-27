@@ -1,74 +1,97 @@
 {
   "type": "NarrativeSilence",
-  "version": "2.0",
+  "version": "4.1",
   "date": "2026-05",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
-
   "book": {
     "title": "Torino Fantastica",
     "author": "Grazia Guarnieri",
     "illustrator": "Giulia Lazzaron"
   },
-
-  "editorial_principle": "Il silenzio non interrompe il campo. È una zona dove il campo non si chiude.",
-
+  "silence_types": {
+    "structural": "silenzio strutturale permanente del sistema urbano",
+    "residual": "effetto persistente di un evento non risolto",
+    "recursive": "silenzio che modifica la lettura degli altri silenzi",
+    "productive": "silenzio che genera interpretazione senza chiusura",
+    "null_silence": "zona non traducibile in mappa causale",
+    "relational": "silenzio tra livelli narrativi incompatibili"
+  },
+  "editorial_principle": "Il silenzio non interrompe il campo. È una zona attiva in cui la città continua a funzionare senza essere leggibile in modo unitario.",
   "silences": [
-
     {
       "id": "silence-01",
       "label": "la_cappella_inaccessibile",
       "label_en": "the_inaccessible_chapel",
-
-      "basho": "uno spazio contiguo non comunica con il suo esterno pur condividendone la struttura architettonica",
-      "kokyu": "il tempo si interrompe dopo l’evento del 1997 e non riprende continuità narrativa",
-      "yūgen": "la presenza non diminuisce con la non-visibilità; il campo resta attivo",
-
+      "type": "structural",
+      "intensity": 0.95,
+      "perceptual_weight": 1.0,
+      "basho": "uno spazio contiguo non comunica con il suo esterno pur condividendo la stessa matrice architettonica",
+      "kokyu": "il tempo si interrompe dopo l'evento del 1997 e resta in sospensione permanente",
+      "yūgen": "la non-visibilità non riduce la presenza: la rende non verificabile ma attiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'accesso mancato diventa parte stabile del campo urbano"
+      },
       "textual_anchor_it": "la cappella del Guarini è accessibile solo da Palazzo Reale.",
-
       "glossary_link": ["ma"]
     },
-
     {
       "id": "silence-02",
       "label": "la_targa_di_nostradamus",
       "label_en": "the_nostradamus_plaque",
-
-      "basho": "un oggetto documentale esiste ma non partecipa allo spazio pubblico",
-      "kokyu": "la data non si riallinea con la sequenza storica senza produrre contraddizione permanente",
-      "yūgen": "ciò che è conservato non diventa per questo consultabile",
-
+      "type": "residual",
+      "intensity": 0.82,
+      "perceptual_weight": 0.78,
+      "basho": "l'oggetto documentale esiste ma non entra nel circuito percettivo pubblico",
+      "kokyu": "la cronologia resta attiva ma non riconciliabile con la storia lineare",
+      "yūgen": "la conservazione non implica accessibilità",
+      "affects": {
+        "silence-03": "la grotta segreta eredita la logica dell'archivio non accessibile"
+      },
       "textual_anchor_it": "la targa è stata salvata e custodita.",
-
       "glossary_link": ["yūgen"]
     },
-
     {
       "id": "silence-03",
       "label": "la_grotta_segreta",
       "label_en": "the_secret_grotto",
-
-      "basho": "una parte del sottosuolo non può essere collocata nella mappa ma continua a essere nominata",
-      "kokyu": "l’indagine non produce avanzamento ma approfondimento dello stallo",
-      "yūgen": "la terza grotta resta funzione del sistema, non oggetto identificabile",
-
+      "type": "null_silence",
+      "intensity": 0.88,
+      "perceptual_weight": 0.9,
+      "basho": "una porzione del sottosuolo resta fuori mappa pur continuando a produrre nominazione",
+      "kokyu": "l'indagine non avanza: approfondisce uno stallo percettivo",
+      "yūgen": "la grotta esiste come funzione più che come oggetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la parte non mappabile del sottosuolo stabilizza l'incertezza urbana"
+      },
       "textual_anchor_it": "la terza sarebbe segreta e inaccessibile.",
-
       "glossary_link": ["basho", "yūgen"]
     },
-
     {
       "id": "silence-04",
       "label": "il_narratore_chiuso",
       "label_en": "the_closed_narrator",
-
-      "basho": "la voce narrativa non coincide con lo spazio narrato",
-      "kokyu": "il tempo del racconto termina mentre quello della voce continua senza uscita",
+      "type": "relational",
+      "intensity": 1.0,
+      "perceptual_weight": 0.95,
+      "basho": "la voce narrativa non coincide mai con lo spazio che descrive",
+      "kokyu": "il tempo del racconto si chiude mentre la voce continua a esistere",
       "yūgen": "non esiste punto di verifica tra esperienza e narrazione",
-
+      "affects": {
+        "silence-01": "la chiusura della voce stabilizza l'inaccessibilità come struttura urbana"
+      },
       "textual_anchor_it": "io rimarrò nella mia grotta fino a quando vorrà chi mi ci ha condotto.",
-
       "glossary_link": ["ma", "mono no aware"]
     }
-  ]
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "recursive_nodes": ["silence-04"],
+    "urban_model": "Torino come sistema di accessi mancati e continuità non verificabili",
+    "stability": "high",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1"
+  }
 }
