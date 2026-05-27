@@ -1,0 +1,177 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+
+  "book": {
+    "title": "AI. Natura e Algoritmi",
+    "author": "Renato Frabasile",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "system_principle": "The system does not represent a philosophical essay. It operates as a hybrid cognitive field in which human thought, algorithmic generation and natural systems modify each other retroactively without producing stable authorial closure.",
+
+  "node_classes": {
+    "scene": "stable_cognitive_anchor",
+    "object": "localized_field_activator",
+    "ritual": "repetition_based_field_engine",
+    "transition": "topology_mutation_operator",
+    "silence": "field_compression_zone",
+    "weather": "environmental_field_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+
+  "topology": {
+    "core_field": "scene-01",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "viaggio_immaginato_campo_reale",
+        "nodes": ["scene-01","scene-02","transition-04"],
+        "type": "displaced_field_loop",
+        "stability": "metastable",
+        "propagation_logic": "origin_field_displacement_without_replacement",
+        "description": "the imagined journey to Japan generates a real perceptual field without physical displacement"
+      },
+      {
+        "id": "loop-02",
+        "label": "umano_algoritmo_interferenza",
+        "nodes": ["scene-05","object-04","transition-03"],
+        "type": "hybrid_cognitive_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "authorial_voice_dissolution",
+        "description": "human thought and AI generation become indistinguishable; authorship cannot be stabilized at any moment"
+      },
+      {
+        "id": "loop-03",
+        "label": "interruzione_climatica_cognitiva",
+        "nodes": ["weather-01","weather-02","weather-04","scene-01"],
+        "type": "external_irruption_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "cognitive_field_interruption_without_resolution",
+        "description": "pandemic and war operate as climatic interruptions of cognition rather than historical events"
+      },
+      {
+        "id": "loop-04",
+        "label": "silenzio_giapponese_limite_ai",
+        "nodes": ["silence-01","silence-02","object-05"],
+        "type": "recursive_compression_loop",
+        "stability": "stable_local",
+        "propagation_logic": "shared_condition_of_incomplete_cognition",
+        "description": "Japanese silence and AI boundary converge as the same condition of incomplete cognition across human and algorithmic systems"
+      },
+      {
+        "id": "loop-05",
+        "label": "natura_algoritmo_sistema",
+        "nodes": ["weather-03","object-04","transition-02"],
+        "type": "adaptive_parallel_loop",
+        "stability": "parallel_active",
+        "propagation_logic": "natural_system_as_contaminating_operating_layer",
+        "description": "nature operates as an implicit operating layer that modifies both thought and algorithmic structures"
+      }
+    ]
+  },
+
+  "cross_layer_effects": [
+    {
+      "from": "scene-01", "to": "scene-02",
+      "effect": "cognitive_field_projection",
+      "propagation_mode": "recursive", "intensity": 0.95,
+      "stability_impact": "displacement_reinforcement"
+    },
+    {
+      "from": "scene-05", "to": "all",
+      "effect": "authorial_dissolution",
+      "propagation_mode": "non_local", "intensity": 1.0,
+      "stability_impact": "closure_prevention"
+    },
+    {
+      "from": "weather-01", "to": "scene-01",
+      "effect": "field_interruption",
+      "propagation_mode": "external_irruption", "intensity": 0.92,
+      "stability_impact": "origin_field_compression"
+    },
+    {
+      "from": "weather-02", "to": "transition-01",
+      "effect": "transition_blockage",
+      "propagation_mode": "delayed", "intensity": 0.9,
+      "stability_impact": "displacement_amplification"
+    },
+    {
+      "from": "silence-03", "to": "scene-02",
+      "effect": "absence_field_stabilization",
+      "propagation_mode": "residual", "intensity": 0.88,
+      "stability_impact": "non_arrival_as_permanent_condition"
+    },
+    {
+      "from": "object-04", "to": "transition-03",
+      "effect": "cognitive_system_hybridization",
+      "propagation_mode": "recursive", "intensity": 0.96,
+      "stability_impact": "human_ai_boundary_dissolution"
+    },
+    {
+      "from": "weather-03", "to": "object-04",
+      "effect": "natural_pattern_override",
+      "propagation_mode": "non_linear", "intensity": 0.91,
+      "stability_impact": "algorithmic_behavior_destabilization"
+    },
+    {
+      "from": "silence-04", "to": "all",
+      "effect": "inexpressible_field_activation",
+      "propagation_mode": "persistent_residual", "intensity": 0.9,
+      "stability_impact": "closure_prevention"
+    }
+  ],
+
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "cognitive_displacement",
+      "authorial_dissolution",
+      "field_interruption",
+      "recursive_return",
+      "hybrid_stabilization",
+      "residual_persistence"
+    ],
+    "forbidden_states": [
+      "complete_resolution",
+      "stable_authorial_voice",
+      "japan_as_physical_destination",
+      "ai_as_mere_tool"
+    ]
+  },
+
+  "cold_zones": {
+    "present": true,
+    "zones": ["pandemic_interruption","war_field","unreachable_japan"],
+    "effect": "global readability reduction without system collapse"
+  },
+
+  "system_tension": {
+    "human_vs_algorithm": 1.0,
+    "presence_vs_displacement": 0.96,
+    "nature_vs_artificial_system": 0.94,
+    "silence_vs_expression": 0.9,
+    "travel_vs_stasis": 0.88
+  },
+
+  "global_state": {
+    "dominant_field": "scene-01",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "topologically_impossible",
+    "system_behavior": "AI. Natura e Algoritmi operates as a hybrid cognitive field in which human authorship, algorithmic generation and natural systems remain simultaneously active without resolution; Japan operates as a remote cognitive basho that persists across all nodes without becoming geographic destination.",
+    "readability": "high_local_low_global"
+  }
+}
