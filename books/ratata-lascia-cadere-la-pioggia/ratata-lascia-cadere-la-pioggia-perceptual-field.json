@@ -1,0 +1,114 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ratata. Lascia cadere la pioggia",
+    "author": "Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio",
+    "illustrator": "E. Formaggia"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Each field is a perceptual operator that does not describe reality but actively reorganizes the conditions under which sound, body, language and weather become spatial events. No field is purely symbolic; each is physically operative within the perceptual system.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_sonoro_urbano_saturo",
+      "type": "sonic_field",
+      "basho": "sound does not originate from the window or the song; it saturates the alley as a full-volume acoustic space in which source and receiver collapse into the same field",
+      "kokyu": "rhythm is compression-release without transition: silence accumulates until it cannot hold, then breaks into punk-alternative irruption",
+      "yūgen_level": 0.95,
+      "activation_condition": "deafening urban silence + single open window + external auditory witness",
+      "persistence_rule": "field persists as long as any auditory residue remains in either environment or body",
+      "dissolution_rule": "field collapses only when both external sound and internal auditory memory reach zero intensity (theoretically impossible state)",
+      "field_logic": "acoustic_saturation_irruption_loop",
+      "residual_state": {
+        "status": true,
+        "description": "the silence remains active beneath the song as a compressed sub-layer of pressure"
+      },
+      "textual_anchor_it": "per fortuna questo suono rompe un silenzio assordante."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_corporeo_bolla_elastica",
+      "type": "body_field",
+      "basho": "the body is not container but actuator: chewing gum, breath and bubble form a single extended spatial system that crosses the boundary of the window",
+      "kokyu": "rhythm is torsion: chewing (internal), holding (threshold), release (external expansion), rebound (return without full closure)",
+      "yūgen_level": 0.92,
+      "activation_condition": "nervous mastication + breath retention + involuntary pressure release",
+      "persistence_rule": "field persists as long as elastic deformation remains possible in any component of the system",
+      "dissolution_rule": "even when the bubble collapses, the deformation trace persists as bodily reconfiguration",
+      "field_logic": "body_extension_through_elastic_excess",
+      "affects": {
+        "field-01": "the bubble introduces spatial distortion into the acoustic field of the alley",
+        "field-03": "the body-field becomes the origin of atmospheric perturbation (rain reading shift)"
+      },
+      "textual_anchor_it": "mastica nervosamente un chewing gum, trattiene il respiro, fa una bolla rosa."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_emotivo_precipitazione",
+      "type": "emotional_field",
+      "basho": "emotion is not internal state but atmospheric collapse: the alley receives feeling as precipitation distributed across surfaces",
+      "kokyu": "rhythm is non-linear drip sequence: each drop is temporally autonomous, not part of a cumulative flow",
+      "yūgen_level": 0.97,
+      "activation_condition": "presence of unresolved tension + sonic saturation + reflective surfaces (wet asphalt, bubble skin)",
+      "persistence_rule": "field persists as long as any stain, wetness, or reflective humidity remains active",
+      "dissolution_rule": "field cannot fully disappear; it only shifts from liquid to trace state",
+      "field_logic": "emotion_as_atmospheric_deposition_system",
+      "residual_state": {
+        "status": true,
+        "description": "the rain continues as memory-density even after meteorological cessation"
+      },
+      "textual_anchor_it": "Gocciola, gocciola, gocciola, la goccia di pioggia cade. Scorrendo e cadendo, diventa una macchia."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_bilingue_sovrapposto",
+      "type": "linguistic_field",
+      "basho": "Italian and Japanese do not translate or alternate; they occupy the same perceptual plane as simultaneous inscriptions of the same event",
+      "kokyu": "rhythm is parallel, not sequential: two linguistic pulses coexist without synchronization or hierarchy",
+      "yūgen_level": 0.89,
+      "activation_condition": "co-presence of Japanese script + Italian phrasing within the same perceptual frame",
+      "persistence_rule": "field persists as long as no language is reduced to explanatory support of the other",
+      "dissolution_rule": "field collapses if one language becomes interpretive hierarchy over the other",
+      "field_logic": "non_hierarchical_linguistic_coexistence",
+      "textual_anchor_it": "ラタタ… Ra ta ta. Il suono non traduce, invade."
+    },
+    {
+      "id": "field-05",
+      "label": "campo_vicolo_anonimo_risonante",
+      "type": "spatial_field",
+      "basho": "the alley is not background but resonant cavity: all events are acoustically amplified and spatially distorted within it",
+      "kokyu": "rhythm is threshold-based: waiting pressure → sudden invasion → post-invasion residue",
+      "yūgen_level": 0.90,
+      "activation_condition": "presence of open window + external sound source + reflective wet surface",
+      "persistence_rule": "field persists as long as spatial ambiguity between inside and outside remains active",
+      "dissolution_rule": "field never fully dissolves; it only relocates its resonance geometry",
+      "field_logic": "space_as_acoustic_resonance_device",
+      "affects": {
+        "field-01": "amplifies sonic saturation",
+        "field-02": "distorts bubble trajectory into environmental rebound logic"
+      },
+      "textual_anchor_it": "un rumore che proviene da un vicolo di una anonima città del mondo."
+    }
+  ],
+  "system_note": {
+    "field_count": 5,
+    "ontology": "extended_perceptual_4_1",
+    "invalidated_elements": [
+      "sound_as_source_event",
+      "emotion_as_internal_property",
+      "language_as_translation_system",
+      "space_as_neutral_container"
+    ],
+    "system_behavior": "fields operate as coupled perceptual operators; each event (sound, bubble, rain, language) propagates across all other fields as a distributed distortion system rather than discrete narrative action",
+    "dominant_field": "field-01",
+    "closure_state": false
+  }
+}
