@@ -36,6 +36,9 @@
       "issue_number": 1,
       "date": "2026-05-29",
       "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/",
+      "title": "Così parlò l'AI",
+      "description": "Renato Frabasile dialoga con DeepSeek sul progetto Frequenze. Primo panel di Critica Letteraria Comparata delle Macchine: Gemini intervista ChatGPT su Torino Fantastica di Grazia Guarnieri senza aver letto il libro — solo il Peacock Grafo Narrativo.",
       "target_book": {
         "title": "Torino Fantastica",
         "author": "Grazia Guarnieri",
@@ -47,7 +50,34 @@
       "assigned_ai_model": {
         "provider": "Google",
         "model_name": "Gemini"
-      }
+      },
+      "contributors": [
+        {
+          "name": "Renato Frabasile",
+          "role": "author",
+          "contribution": "Così parlò l'AI — risposta con intelligenza naturale all'analisi critica di DeepSeek sul progetto Frequenze"
+        }
+      ],
+      "ai_panel": {
+        "format": "Critica Letteraria Comparata delle Macchine",
+        "interviewer": {
+          "provider": "Google",
+          "model_name": "Gemini"
+        },
+        "respondent": {
+          "provider": "OpenAI",
+          "model_name": "ChatGPT"
+        },
+        "questions_count": 8,
+        "note": "ChatGPT ha risposto senza aver letto il libro — ha attraversato solo i file strutturati del Peacock Grafo Narrativo"
+      },
+      "additional_ai": [
+        {
+          "provider": "DeepSeek",
+          "model_name": "DeepSeek",
+          "role": "analisi critica algoritmica del progetto Frequenze"
+        }
+      ]
     }
   ]
 }
