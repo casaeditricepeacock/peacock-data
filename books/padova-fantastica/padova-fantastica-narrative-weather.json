@@ -1,0 +1,120 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "weather_field_types": {
+    "aquatic_field": "campo climatico generato dall'acqua come infrastruttura storica attiva",
+    "sapere_atmosphere": "clima prodotto dalla densità del sapere universitario come campo urbano",
+    "paradox_field": "campo climatico generato dalla coesistenza di opposti non risolvibili",
+    "trojan_origin": "campo mitico che struttura l'identità urbana come narrazione fondativa",
+    "conservational_pressure": "campo climatico generato dalla resistenza sistemica al cambiamento pur in presenza di massima innovazione storica"
+  },
+  "editorial_principle": "Il clima di Padova non è meteorologico: è la pressione simultanea di innovazione e inerzia. Ogni campo atmosferico nasce da una trasformazione che la città accetta solo dopo averla neutralizzata.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "acqua_conflittuale",
+      "label_en": "conflicted_water",
+      "type": "aquatic_field",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "l'acqua porta ancora la memoria del conflitto originario con Vicenza",
+      "kokyu": "il ritmo idrico è una pace che non si chiude mai del tutto",
+      "yūgen": "ogni canale è un trattato politico trasformato in paesaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sistema idrico costruito sul conflitto è diventato la forma della città: il residuo è indistinguibile dall'infrastruttura stessa"
+      },
+      "affects": {
+        "weather-05": "il conflitto idrico non risolto alimenta il campo della pressione conservativa come modello generale della città"
+      },
+      "textual_anchor_it": "con Vicenza e i vicentini scavano per dispetto il Canale Bisatto dove fanno confluire il Bacchiglione.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "weather-02",
+      "label": "aria_del_bo",
+      "label_en": "bo_atmosphere",
+      "type": "sapere_atmosphere",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "il sapere è più antico della sua stessa istituzione",
+      "kokyu": "ogni lezione è anche una resistenza al cambiamento",
+      "yūgen": "la conoscenza include sempre ciò che rifiuta",
+      "affects": {
+        "weather-05": "l'atmosfera del sapere alimenta la pressione conservativa: la prima università d'Europa è anche quella che più resiste"
+      },
+      "textual_anchor_it": "Nel 1222 Padova fonda l'Università, la più antica e prestigiosa d'Europa.",
+      "glossary_link": ["kokyu", "yūgen"]
+    },
+    {
+      "id": "weather-03",
+      "label": "nebbia_veneta",
+      "label_en": "venetian_fog",
+      "type": "paradox_field",
+      "intensity": 0.87,
+      "perceptual_weight": 0.85,
+      "basho": "la nebbia non nasconde ma equalizza i livelli storici",
+      "kokyu": "tutto accade nello stesso tempo percettivo",
+      "yūgen": "le epoche diventano indistinguibili senza diventare identiche",
+      "affects": {
+        "weather-04": "la nebbia amplifica il campo mitico della fondazione troiana rendendolo percettivamente plausibile"
+      },
+      "textual_anchor_it": "Patavium significa fiume, corso d'acqua: i Romani hanno notato l'abbondanza di acque nel territorio.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "weather-04",
+      "label": "campo_troiano",
+      "label_en": "trojan_field",
+      "type": "trojan_origin",
+      "intensity": 0.85,
+      "perceptual_weight": 0.83,
+      "basho": "la città nasce da una fuga che diventa fondazione",
+      "kokyu": "il mito non si conclude mai ma si stabilizza come infrastruttura",
+      "yūgen": "Antenore ed Enea sono due possibilità mai risolte",
+      "affects": {
+        "weather-01": "il campo mitico della fondazione si sovrappone al campo idrico conflittuale come seconda origine parallela della città"
+      },
+      "textual_anchor_it": "Secondo la tradizione, Padova è fondata da Antenore, un troiano in fuga proprio come Enea, antenato di Augusto.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "weather-05",
+      "label": "pressione_conservativa",
+      "label_en": "conservational_pressure",
+      "type": "conservational_pressure",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "ogni innovazione prodotta dalla città viene immediatamente assorbita in una forma più stabile della precedente",
+      "kokyu": "il cambiamento avviene sempre con ritardo strutturale",
+      "yūgen": "la resistenza non è opposizione ma forma di assorbimento",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la pressione conservativa non si dissolve con il progresso: si reintegra come nuova forma di resistenza"
+      },
+      "affects": {
+        "weather-02": "la pressione conservativa retroagisce sull'aria del Bo: il sapere è trattenuto dalla stessa istituzione che lo produce"
+      },
+      "textual_anchor_it": "Nel tempo ha mantenuto tutte le abitudini studentesche: la commedia.",
+      "glossary_link": ["wabi-sabi", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 5,
+    "dominant_field": "weather-05",
+    "system_shift": "introduzione della resistenza come clima primario",
+    "stability": "metastable",
+    "compatibility": "fully aligned with NarrativeSystemGraph v4.1"
+  }
+}
