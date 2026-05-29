@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "epistemic": "rituale che modifica il rapporto tra osservatore e conoscenza"
+  },
+  "editorial_principle": "Il rituale padovano non organizza soltanto lo spazio urbano ma l'accesso al sapere. Ogni rituale produce una trasformazione percettiva dell'osservatore: Padova integra il soggetto nei propri sistemi cognitivi attraverso attesa, disciplina, ripetizione e disorientamento.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "accesso_cappella_scrovegni",
+      "label_en": "scrovegni_chapel_access",
+      "type": "compressed",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il rituale dell'accesso produce il campo prima ancora dell'ingresso: prenotazione, attesa e contingentazione separano il visitatore dal tempo urbano ordinario",
+      "kokyu": "il tempo è imposto dall'istituzione: il visitatore entra già sincronizzato con il ritmo del campo",
+      "yūgen": "il cielo blu di Giotto non si vede finché non si è dentro; l'anticipazione diventa parte dell'opera",
+      "observer_effect": {
+        "effect": "la camera d'attesa funziona come decompressione percettiva dal presente urbano",
+        "body_response": "il respiro rallenta prima ancora dell'ingresso effettivo nella Cappella"
+      },
+      "affects": {
+        "ritual-02": "l'accesso alla Cappella prepara il corpo ai rituali disciplinari del sapere universitario"
+      },
+      "textual_anchor_it": "Rinaldo Scrovegni è un rapace banchiere conosciuto e temuto non solo nella sua nativa Padova, ma in tutta la penisola italiana.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "immatricolazione_bo",
+      "label_en": "bo_enrollment_ritual",
+      "type": "epistemic",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il cortile del Bo è il campo in cui la conoscenza diventa appartenenza collettiva; lo studente entra nel corpo storico dell'istituzione",
+      "kokyu": "il ritmo è quello della tradizione universitaria: ripetitivo, secolare, formalmente immutabile",
+      "yūgen": "gli schiamazzi e la commedia studentesca non degradano il sapere ma lo completano; la conoscenza ha bisogno del proprio caos rituale",
+      "field_behavior": "il rituale sospende temporaneamente l'identità individuale prima di reintegrare lo studente nel corpo istituzionale",
+      "observer_effect": {
+        "effect": "lo studente percepisce il sapere come appartenenza più che come semplice apprendimento",
+        "identity_shift": "l'identità privata viene assorbita nel sistema universitario"
+      },
+      "affects": {
+        "ritual-03": "il rito universitario si prolunga nel Pedrocchi come spazio di discussione post-accademica"
+      },
+      "textual_anchor_it": "Nel tempo ha mantenuto tutte le abitudini studentesche: la commedia.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "caffe_pedrocchi_senza_pagare",
+      "label_en": "pedrocchi_free_sitting",
+      "type": "involuntary",
+      "intensity": 0.84,
+      "perceptual_weight": 0.82,
+      "basho": "il Pedrocchi è il luogo in cui la permanenza precede il consumo; il sapere occupa spazio senza necessità di transazione",
+      "kokyu": "il ritmo è quello della sosta libera: lento, improduttivo, aperto",
+      "yūgen": "la libertà del Pedrocchi è paradossale — il caffè funziona anche quando non si beve nulla",
+      "observer_effect": {
+        "effect": "l'osservatore perde gradualmente il senso economico del tempo trascorso",
+        "body_response": "la permanenza si prolunga oltre l'intenzione iniziale"
+      },
+      "textual_anchor_it": "la stele è una commossa dedica della schiava Purricina al marito gladiatore Iuvenis morto al quinto combattimento.",
+      "glossary_link": ["ma", "wabi-sabi"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "girare_intorno_al_prato",
+      "label_en": "circling_prato_della_valle",
+      "type": "involuntary",
+      "intensity": 0.87,
+      "perceptual_weight": 0.85,
+      "basho": "il canale circolare del Prato produce un campo di movimento continuo che non ha inizio né conclusione",
+      "kokyu": "il ritmo è orbitale: chi entra tende inconsapevolmente a sincronizzarsi con la circolarità dello spazio",
+      "yūgen": "le 88 statue guardano il centro senza indicare direzione; il campo elimina l'idea di destinazione",
+      "observer_effect": {
+        "effect": "la circolazione prolungata genera lieve looping cognitivo",
+        "identity_shift": "l'osservatore perde temporaneamente certezza su meta e durata del percorso"
+      },
+      "textual_anchor_it": "La struttura dell'Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "osservazione_anatomica",
+      "label_en": "anatomical_observation",
+      "type": "epistemic",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il Teatro Anatomico organizza i corpi attorno all'esposizione della mortalità; il sapere si dispone in forma verticale sopra la carne aperta",
+      "kokyu": "l'attenzione discende concentricamente verso il centro anatomico; il ritmo è silenzioso e disciplinato",
+      "yūgen": "più il corpo viene mostrato, più il mistero aumenta invece di diminuire",
+      "observer_effect": {
+        "effect": "l'osservatore si percepisce simultaneamente come studente e possibile oggetto di osservazione",
+        "body_response": "vulnerabilità fisica e concentrazione cognitiva aumentano insieme"
+      },
+      "field_behavior": "la dissezione trasforma il corpo umano in soglia tra sapere e angoscia",
+      "affects": {
+        "ritual-02": "il rituale anatomico radicalizza il rituale universitario trasformando la conoscenza in esperienza corporea"
+      },
+      "textual_anchor_it": "Il teatro anatomico è il primo del mondo: il corpo umano diventa oggetto di studio pubblico.",
+      "glossary_link": ["yūgen", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-05",
+    "system_shift": "dal rituale urbano al rituale epistemico",
+    "urban_activation_model": "Padova integra l'osservatore nei propri sistemi di sapere attraverso rituali di attesa, disciplina, appartenenza e disorientamento",
+    "compatibility": "NarrativeKnowledgeField v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
