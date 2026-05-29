@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "silence_types": {
+    "structural": "strato che altera la leggibilità delle scene collegate",
+    "residual": "traccia che riscrive retroattivamente il significato delle infrastrutture",
+    "recursive": "silenzio che modifica altri silenzi già attivi",
+    "productive": "assenza che genera nuove condizioni di veridicità",
+    "null_silence": "zona che impedisce stabilizzazione semantica",
+    "erasure": "rimozione che produce sovraccarico di significato nelle scene adiacenti"
+  },
+  "editorial_principle": "Il silenzio di Padova non è assenza ma interferenza epistemica: modifica il modo in cui le scene possono essere lette, riducendo o aumentando la loro stabilità di realtà senza mai diventare contenuto esplicito.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "bigolina_cancellata",
+      "label_en": "bigolina_erased",
+      "type": "erasure",
+      "intensity": 0.96,
+      "perceptual_weight": 1.0,
+      "epistemic_effect": "raises_visibility_of_all_female_authorship_as_missing_class",
+      "basho": "Giulia Bigolina non è solo assente: rende instabile ogni attribuzione di primato letterario padovano",
+      "kokyu": "il tempo non è archivistico ma intermittente: riemerge solo quando il canone si stabilizza troppo",
+      "yūgen": "il campo di Bigolina è inversamente proporzionale alla sua visibilità: più è assente, più il campo è denso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Bigolina precede e supera molti autori canonici: il residuo è il canone stesso che la esclude"
+      },
+      "affects": {
+        "scene-05": "trasforma ogni apparizione femminile in potenziale errore archivistico attivo",
+        "silence-04": "Bigolina e l'acqua deviata condividono la stessa logica: strutture costruite su esclusione che diventano infrastrutture del sistema"
+      },
+      "textual_anchor_it": "Un esempio è la storia di Giulia Bigolina, che vi verrà svelata nelle pagine seguenti.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-02",
+      "label": "macerie_palazzo_ragione",
+      "label_en": "palazzo_ragione_debris",
+      "type": "structural",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "epistemic_effect": "anchors_all_historical_certainty_to_buried_infrastructure",
+      "basho": "le macerie non sono sotto il Palazzo: sono il motivo per cui il Palazzo può essere letto come stabile",
+      "kokyu": "la stabilità è un effetto secondario della fretta medievale",
+      "yūgen": "il Salone più grande d'Europa medievale è costruito sopra i propri rifiuti: la grandiosità porta il compromesso come fondamento invisibile",
+      "affects": {
+        "scene-02": "il sapere universitario appare come costruzione sopra un errore produttivo"
+      },
+      "textual_anchor_it": "Gli operai lavorano tanto in fretta che non hanno il tempo di rimuovere terra e macerie del cantiere, allora seppelliscono tutto sotto le fondamenta.",
+      "glossary_link": ["wabi-sabi", "basho"]
+    },
+    {
+      "id": "silence-03",
+      "label": "piante_rubate_orto",
+      "label_en": "stolen_plants_botanical_garden",
+      "type": "productive",
+      "intensity": 0.84,
+      "perceptual_weight": 0.82,
+      "epistemic_effect": "converts_loss_into_institutional_form",
+      "basho": "non sono le piante a essere protette dal muro, ma il vuoto lasciato dai furti a generare il concetto di protezione",
+      "kokyu": "la perdita non è evento ma processo: il muro nasce lentamente dalla ripetizione dei furti",
+      "yūgen": "il valore delle piante medicinali si misura nel muro che le protegge: il campo dell'invisibile è ciò per cui si costruisce una barriera",
+      "affects": {
+        "scene-03": "trasforma il giardino in archivio di assenze botaniche"
+      },
+      "textual_anchor_it": "L'armonia, ahimè, viene spesso violata dai ladri a caccia delle preziose piante, quindi nel 1552 si costruisce un alto muro.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "acqua_deviata_conflitto",
+      "label_en": "diverted_water_conflict",
+      "type": "residual",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "epistemic_effect": "turns_infrastructure_into_permanent_political_memory",
+      "basho": "i canali non trasportano acqua ma un trattato non chiuso tra città",
+      "kokyu": "il 1147 non è passato: è regime idraulico attivo",
+      "yūgen": "la pace non elimina il campo di tensione: si convive con l'acqua dei propri nemici come se fosse propria",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'infrastruttura idrica costruita sul conflitto è diventata la forma della città: il residuo è indistinguibile dalla città stessa"
+      },
+      "affects": {
+        "scene-04": "il movimento nel Prato è letto come eco di un conflitto idrico originario"
+      },
+      "textual_anchor_it": "con Vicenza e i vicentini scavano per dispetto il Canale Bisatto dove fanno confluire il Bacchiglione.",
+      "glossary_link": ["basho", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "core_change": "silence becomes epistemic operator, not thematic absence",
+    "urban_model": "Padova come sistema di silenzi epistemici: ogni assenza modifica la leggibilità delle scene collegate senza diventare contenuto esplicito",
+    "stability": "metastable",
+    "compatibility": "NarrativeScene v4.1 / NarrativeObject v4.1 / NarrativeKnowledgeField v4.1"
+  }
+}
