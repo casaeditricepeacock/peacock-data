@@ -1,0 +1,122 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Each field does not describe Padova but reconfigures its legibility as a system of productive paradoxes in which excellence and resistance, origin and conflict, visibility and invisibility co-occupy the same coordinates without resolution.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "paradosso_fondativo",
+      "type": "temporal_field",
+      "basho": "Padova simultaneously claims the oldest university in Europe and the longest resistance to academic innovation; both remain structurally inseparable",
+      "kokyu": "advancement and resistance operate at identical temporal velocity",
+      "yūgen_level": 0.94,
+      "activation_condition": "cultural primacy recognition — any encounter with Padovan institutional identity",
+      "persistence_rule": "field persists as long as Padova claims both primacy and conservatism simultaneously",
+      "dissolution_rule": "structurally non-dissolvable: the paradox is the city's identity",
+      "field_logic": "excellence_conservatism_permanent_tension",
+      "interference_susceptibility": 0.9,
+      "textual_anchor_it": "Nel 1222 Padova fonda l'Università, la più antica e prestigiosa d'Europa."
+    },
+    {
+      "id": "field-02",
+      "label": "acqua_come_conflitto",
+      "type": "urban_field",
+      "basho": "water is a political residue rather than a natural element; canals encode unresolved medieval conflict",
+      "kokyu": "hydraulic rhythm follows diplomatic latency — the flow moves at the pace of a peace never fully signed",
+      "yūgen_level": 0.88,
+      "activation_condition": "any perception of the Padovan canal system",
+      "persistence_rule": "field persists as long as the infrastructure built from spite remains the city's water supply",
+      "dissolution_rule": "field cannot dissolve as long as the canals maintain their Vicentine origin",
+      "field_logic": "hostile_infrastructure_permanent_use",
+      "interference_susceptibility": 0.95,
+      "textual_anchor_it": "con Vicenza e i vicentini scavano per dispetto il Canale Bisatto dove fanno confluire il Bacchiglione."
+    },
+    {
+      "id": "field-03",
+      "label": "colpa_bellezza",
+      "type": "cognitive_field",
+      "basho": "beauty and guilt occupy the same moral coordinate in the Scrovegni system; neither can be accessed without activating the other",
+      "kokyu": "temporal simultaneity of sin and redemption — the chapel compresses centuries of usury into a single architectural gesture",
+      "yūgen_level": 0.96,
+      "activation_condition": "chapel access with awareness of its moral origin",
+      "persistence_rule": "field persists as long as both Giotto's blue and the Scrovegni usury are simultaneously known",
+      "dissolution_rule": "field collapses only if one element is forgotten — practically impossible given Dante's Inferno",
+      "field_logic": "guilt_beauty_inseparability",
+      "interference_susceptibility": 0.85,
+      "textual_anchor_it": "Rinaldo Scrovegni è un rapace banchiere conosciuto e temuto non solo nella sua nativa Padova, ma in tutta la penisola italiana."
+    },
+    {
+      "id": "field-04",
+      "label": "invisibile_femminile_padovano",
+      "type": "cognitive_field",
+      "basho": "female literary primacy exists structurally but is erased from canonical visibility; the absence is more operative than presence would be",
+      "kokyu": "emergence → decisive action → archival erasure — a cycle that repeats across centuries without resolution",
+      "yūgen_level": 0.95,
+      "activation_condition": "any literary primacy discourse that omits Bigolina",
+      "persistence_rule": "field persists precisely through historiographic omission: the less named, the more structurally active",
+      "dissolution_rule": "structurally non-dissolvable due to archival incompleteness",
+      "field_logic": "female_primacy_systematic_erasure",
+      "interference_susceptibility": 0.92,
+      "textual_anchor_it": "Un esempio è la storia di Giulia Bigolina, che vi verrà svelata nelle pagine seguenti."
+    }
+  ],
+  "field_interference_layer": {
+    "enabled": true,
+    "mode": "non_hierarchical_cross_modulation",
+    "rules": [
+      "any field can modify activation thresholds of any other field",
+      "interference does not cancel but reweights perceptual intensity",
+      "no field retains stable intensity under cross-exposure"
+    ],
+    "interference_map": [
+      {
+        "from": "field-03",
+        "to": "field-02",
+        "effect": "moral_pressure_contaminates_water_neutrality"
+      },
+      {
+        "from": "field-01",
+        "to": "field-04",
+        "effect": "institutional_primacy_increases_visibility_of_erasure"
+      },
+      {
+        "from": "field-02",
+        "to": "field-03",
+        "effect": "infrastructure_logic_dampens_redemption_separation"
+      },
+      {
+        "from": "field-04",
+        "to": "field-01",
+        "effect": "erased_primacy_destabilizes_canonical_excellence_narrative"
+      }
+    ]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "system_behavior": "fields remain stable locally but unstable relationally; interference is non-hierarchical and non-cancelling",
+    "key_change": "introduction of field_interference_layer as non-hierarchical cross-modulation — first in Guide Fantastiche series",
+    "invalidated_elements": [
+      "padova_as_museum_city",
+      "water_as_neutral_resource",
+      "female_primacy_as_marginal",
+      "guilt_and_beauty_as_separable"
+    ]
+  }
+}
