@@ -1,0 +1,210 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "system_principle": "The system does not represent a city guide. It operates as a perceptual field in which historical strata, invisible figures and structural absences modify each other retroactively without producing a single stable reading of Milan. The city becomes readable only in fragments; global synthesis is structurally impossible.",
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "repetition_based_field_engine",
+    "transition": "topology_mutation_operator",
+    "silence": "field_compression_zone",
+    "weather": "local_interference_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05","object-06"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04","transition-05"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04","weather-05"]
+  },
+  "weather_model": {
+    "type": "local_interference_zones",
+    "rule": "each district generates a local atmospheric contradiction rather than a global climate",
+    "zones": [
+      {
+        "zone": "Brera",
+        "field": "art_vs_movement_interference"
+      },
+      {
+        "zone": "Duomo",
+        "field": "sacred_vs_commercial_pressure_gradient"
+      },
+      {
+        "zone": "Navigli",
+        "field": "liquid_memory_vs_touristic_surface_layer"
+      }
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "duomo_galleria_centro",
+        "nodes": ["object-01","object-02","scene-01","scene-02"],
+        "type": "recursive_stability_loop",
+        "stability": "metastable",
+        "propagation_logic": "cathedral_generates_commercial_field_that_reinforces_sacred_field",
+        "description": "the Duomo and the Galleria form the gravitational core of Milan; each reinforces the other's field without merging"
+      },
+      {
+        "id": "loop-02",
+        "label": "acqua_asfalto_memoria",
+        "nodes": ["silence-01","transition-01","scene-05","transition-05"],
+        "type": "non_completion_field",
+        "stability": "suppressed_active",
+        "propagation_logic": "buried_water_continues_to_structure_urban_form_until_hitting_unbuilt_voids",
+        "description": "the buried Navigli generate a permanent perceptual field; the city moves along the canals without knowing it — until encountering the non-filling voids that resist any memory inscription"
+      },
+      {
+        "id": "loop-03",
+        "label": "invisibili_e_assenze_attive",
+        "nodes": ["silence-03","silence-04","silence-02","scene-03","object-06"],
+        "type": "distributed_absence_network",
+        "stability": "metastable",
+        "propagation_logic": "invisible_figures_and_structural_absences_share_same_field_function",
+        "description": "Arcangela, Marta, the Bacio figure, the invisible Cross and the Duomo devil operate as a single distributed system of productive absence; each node activates the others without merging into a single identity"
+      },
+      {
+        "id": "loop-04",
+        "label": "verticalita_negoziata",
+        "nodes": ["object-05","transition-02","weather-04"],
+        "type": "suspended_field_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "madonnina_height_rule_generates_permanent_negotiation",
+        "description": "every new vertical construction renews the negotiation with the Madonnina; the field never stabilizes"
+      },
+      {
+        "id": "loop-05",
+        "label": "assenza_come_meccanismo_operativo",
+        "nodes": ["silence-02","scene-03","object-06"],
+        "type": "non_resolution_engine",
+        "stability": "metastable",
+        "propagation_logic": "absence_generates_more_readability_than_presence_without_concluding",
+        "description": "absence is not a lack but an engine of perception; the system increases clarity while refusing closure"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "gravitational_field_persistence",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "urban_orientation_maintenance"
+    },
+    {
+      "from": "silence-01",
+      "to": "scene-05",
+      "effect": "hidden_infrastructure_activation",
+      "propagation_mode": "persistent_residual",
+      "intensity": 0.94,
+      "stability_impact": "historical_layer_reinforcement"
+    },
+    {
+      "from": "transition-01",
+      "to": "scene-05",
+      "effect": "water_memory_transfer",
+      "propagation_mode": "residual",
+      "intensity": 0.91,
+      "stability_impact": "urban_form_historical_persistence"
+    },
+    {
+      "from": "object-06",
+      "to": "scene-03",
+      "effect": "invisible_field_amplification",
+      "propagation_mode": "recursive",
+      "intensity": 0.96,
+      "stability_impact": "mystery_field_reinforcement"
+    },
+    {
+      "from": "scene-04",
+      "to": "scene-01",
+      "effect": "cultural_degradation_feedback",
+      "propagation_mode": "bidirectional",
+      "intensity": 0.87,
+      "stability_impact": "dual_register_tension_maintenance"
+    },
+    {
+      "from": "silence-04",
+      "to": "scene-04",
+      "effect": "partial_legibility_event",
+      "propagation_mode": "delayed",
+      "intensity": 0.89,
+      "stability_impact": "interpretation_without_resolution"
+    },
+    {
+      "from": "weather-02",
+      "to": "all",
+      "effect": "calvinist_field_persistence",
+      "propagation_mode": "non_local",
+      "intensity": 0.88,
+      "stability_impact": "urban_atmosphere_conditioning"
+    },
+    {
+      "from": "weather-05",
+      "to": "all",
+      "effect": "background_interference_activation",
+      "propagation_mode": "non_local",
+      "intensity": 0.93,
+      "stability_impact": "global_readability_reduction"
+    },
+    {
+      "from": "transition-05",
+      "to": "silence-01",
+      "effect": "non_filling_limits_water_memory",
+      "propagation_mode": "recursive",
+      "intensity": 0.88,
+      "stability_impact": "historical_inscription_boundary"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "temporal_stratification",
+      "invisible_field_activation",
+      "ritual_compression",
+      "historical_echo",
+      "absence_productive_generation",
+      "vertical_negotiation",
+      "local_interference_accumulation"
+    ],
+    "forbidden_states": [
+      "milan_as_purely_contemporary",
+      "historical_layers_as_separate",
+      "female_figures_as_marginal",
+      "navigli_as_simply_absent",
+      "duomo_as_only_monument",
+      "global_urban_synthesis"
+    ]
+  },
+  "system_tension": {
+    "contemporary_vs_historical": 1.0,
+    "visible_vs_invisible": 0.96,
+    "sacred_vs_commercial": 0.93,
+    "vertical_vs_horizontal": 0.9,
+    "official_vs_hidden_narrative": 0.94,
+    "presence_vs_productive_absence": 0.97
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "forbidden_by_interference_not_rule",
+    "system_behavior": "Milano Fantastica operates as a stratified perceptual field in which every contemporary layer remains permeable to the historical layers beneath it; invisible elements generate more field than visible ones; the city becomes readable only in fragments — global synthesis is structurally impossible.",
+    "readability": "high_local_very_low_global"
+  }
+}
