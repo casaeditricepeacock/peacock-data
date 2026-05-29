@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta dopo il suo avvenimento"
+  },
+  "editorial_principle": "Le transizioni di Milano non separano epoche: le sovrappongono. La città non ha mai demolito il passato senza costruirci sopra qualcos'altro. Ogni transizione produce un campo stratificato in cui i regimi temporali coesistono senza risolversi.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "acqua_asfalto",
+      "label_en": "water_to_asphalt",
+      "type": "irreversible",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "i Navigli interrati non scompaiono: continuano a strutturare la forma della città come assenza attiva; le strade seguono ancora i tracciati dei canali",
+      "kokyu": "la copertura dei canali nel Novecento ha prodotto un silenzio idrico che la città non ha mai completamente riassorbito",
+      "yūgen": "le autostrade liquide di Milano esistono ancora sotto i piedi di chi cammina: il campo percettivo dell'acqua non si è mai dissolto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la forma urbana conserva la memoria dei canali anche dopo la loro scomparsa; il residuo è la mappa stessa della città"
+      },
+      "affects": {
+        "transition-02": "la copertura dei Navigli prepara la trasformazione verticale della città nel Novecento",
+        "transition-05": "la memoria dell'acqua trova un limite nei vuoti mai costruiti"
+      },
+      "textual_anchor_it": "Una volta le autostrade di Milano erano liquide. Le merci correvano sulle acque.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "transition-02",
+      "label": "campanile_grattacielo",
+      "label_en": "bell_tower_to_skyscraper",
+      "type": "suspended",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "l'altezza della Madonnina non è una quota: è una regola percettiva che ogni grattacielo deve negoziare; il cielo di Milano è un campo di tensione tra antico e moderno",
+      "kokyu": "la regola dell'altezza si rinnova ad ogni nuova costruzione: non è mai completamente risolta né completamente violata",
+      "yūgen": "ogni grattacielo che porta una riproduzione della Madonnina compie un gesto di appartenenza che la norma non richiede ma il campo percettivo esige",
+      "affects": {
+        "transition-03": "la verticalità della città contemporanea produce un secondo campo di strati incompatibili"
+      },
+      "textual_anchor_it": "La posa della riproduzione si svolge in forma riservata. Nessuno dovrebbe rivelare nulla. Invece si sa tutto.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "transition-03",
+      "label": "campagna_metropoli",
+      "label_en": "countryside_to_metropolis",
+      "type": "gradual_loss",
+      "intensity": 0.82,
+      "perceptual_weight": 0.8,
+      "basho": "il nome Brera viene dal longobardo per 'campo erboso': la campagna che era la città è ancora leggibile nel nome anche quando non lo è più nello spazio",
+      "kokyu": "la trasformazione da campagna a metropoli non ha un momento preciso: è una serie di strati che si sono depositati senza cancellare il precedente",
+      "yūgen": "la forma originaria della città — acqua, campagna, borgo — persiste come campo sottostante alla metropoli contemporanea",
+      "textual_anchor_it": "La parola Brera deriva dal longobardo brayda con il significato di \"campo erboso\". Insomma, la zona Brera una volta era tutta campagna.",
+      "glossary_link": ["wabi-sabi", "basho"]
+    },
+    {
+      "id": "transition-04",
+      "label": "porto_movida",
+      "label_en": "harbour_to_nightlife",
+      "type": "recursive",
+      "intensity": 0.86,
+      "perceptual_weight": 0.84,
+      "basho": "la Darsena era il porto degli Spagnoli; oggi è il centro della movida; lo stesso spazio porta due funzioni incompatibili che si leggono simultaneamente",
+      "kokyu": "il ritmo del porto — merci, barconi, commercio — e il ritmo della movida — aperitivo, foto, passeggiata — coesistono come frequenze sovrapposte",
+      "yūgen": "chi percorre la Darsena la sera non sa che cammina sull'antico porto; il campo storico opera sotto la superficie della vita contemporanea",
+      "textual_anchor_it": "La Darsena ora è il regno delle passeggiate alcoliche e dei photo dump con gli amici. Per secoli invece è stato il grande porto di Milano.",
+      "glossary_link": ["mono no aware", "ma"]
+    },
+    {
+      "id": "transition-05",
+      "label": "non_riempimento",
+      "label_en": "non_filling",
+      "type": "external_irruption",
+      "intensity": 0.91,
+      "perceptual_weight": 0.94,
+      "basho": "alcuni vuoti urbani non derivano da ciò che è stato rimosso, ma da ciò che non è mai stato costruito nonostante la pressione storica; questi spazi non sono tracce ma resistenze",
+      "kokyu": "il ritmo non è accumulo ma interruzione sistematica: pause urbane che non si lasciano saturare né reinterpretare",
+      "yūgen": "ciò che non è mai esistito nella città è l'unico elemento che non può essere sovrascritto dal palinsesto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i vuoti non sono stratificabili: restano incompatibili con qualsiasi forma di memoria urbana"
+      },
+      "affects": {
+        "transition-01": "la memoria dei Navigli trova un limite nei vuoti non mai costruiti",
+        "transition-04": "la Darsena perde la capacità di totalizzare il passato quando incontra il non-costruito"
+      },
+      "textual_anchor_it": "Non tutto ciò che non c'è è stato cancellato. Alcune cose non sono mai arrivate.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni di Milano non separano ma sovrappongono. La città è un palinsesto in cui ogni strato rimane leggibile sotto quello successivo. Alcuni elementi, tuttavia, non diventano mai strato: rimangono vuoti attivi non assimilabili.",
+    "effect": "ogni transizione aggiunge densità percettiva senza cancellare il campo precedente"
+  }
+}
