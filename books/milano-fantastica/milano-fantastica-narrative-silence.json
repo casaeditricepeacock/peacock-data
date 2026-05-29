@@ -1,0 +1,103 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "silence_types": {
+    "structural": "strato permanente che organizza la forma urbana senza essere percepito direttamente",
+    "residual": "traccia materiale o narrativa che continua a operare dopo la rimozione della causa",
+    "recursive": "silenzio che altera retroattivamente la lettura degli altri silenzi",
+    "productive": "assenza attiva che genera comportamento percettivo senza chiusura interpretativa",
+    "null_silence": "zona di ambiguità non stabilizzabile tra storia, leggenda e percezione",
+    "relational": "interferenza tra livelli narrativi incompatibili che coesistono nello stesso punto urbano"
+  },
+  "editorial_principle": "Il silenzio di Milano non è assenza ma infrastruttura invisibile. Ogni demolizione produce una forma attiva, ogni rimozione lascia un campo operativo che continua a influenzare la percezione della città.",
+  "silence_dynamics": {
+    "reactivation_layer": "alcuni silenzi non persistono soltanto: si riattivano quando un gesto urbano li attraversa (camminare, guardare, attendere)",
+    "rule": "la città non conserva il passato: lo riattiva in condizioni locali"
+  },
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "navigli_interrati",
+      "label_en": "buried_canals",
+      "type": "structural",
+      "intensity": 0.95,
+      "perceptual_weight": 1.0,
+      "basho": "i canali interrati non sono scomparsi: sono diventati struttura del movimento urbano contemporaneo",
+      "kokyu": "il tempo dell'acqua è stato convertito in direzione stradale: il flusso persiste come orientamento invisibile",
+      "yūgen": "la città continua a scorrere senza acqua visibile: la forma idraulica sopravvive come logica percettiva",
+      "reactivation_trigger": "pioggia intensa + attraversamento pedonale del centro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la forma dei canali è ancora leggibile nella mappa urbana: il residuo è la città stessa"
+      },
+      "textual_anchor_it": "Una volta le autostrade di Milano erano liquide.",
+      "glossary_link": ["ma", "mono no aware"]
+    },
+    {
+      "id": "silence-02",
+      "label": "croce_invisibile_cenacolo",
+      "label_en": "invisible_cross_last_supper",
+      "type": "productive",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "la Croce non è contenuta nel dipinto: è il principio organizzativo della sua assenza",
+      "kokyu": "la visita non misura il tempo dell'opera ma il tempo della sua sottrazione",
+      "yūgen": "ciò che manca produce più stabilità di ciò che è rappresentato",
+      "reactivation_trigger": "attesa del biglietto + tempo contingentato di visita",
+      "affects": {
+        "silence-04": "la Croce invisibile e il terzo personaggio del Bacio formano un sistema milanese di assenze strutturali"
+      },
+      "textual_anchor_it": "vi consiglio di soffermarvi un pochino sulla sventurata Croce.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "silence-03",
+      "label": "via_santa_marta",
+      "label_en": "santa_marta_monastery_trace",
+      "type": "residual",
+      "intensity": 0.87,
+      "perceptual_weight": 0.86,
+      "basho": "il monastero demolito sopravvive come toponimo operativo: il nome continua a produrre immaginario urbano",
+      "kokyu": "la figura della monaca profetica riemerge a intervalli irregolari nella percezione del luogo",
+      "yūgen": "la distruzione non elimina il campo narrativo: lo rende intermittente",
+      "reactivation_trigger": "lettura del nome stradale ad alta voce o in movimento",
+      "textual_anchor_it": "C'è una strada a Milano chiamata Via Santa Marta. Il nome deriva da un monastero distrutto.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "silence-04",
+      "label": "terzo_personaggio_hayez",
+      "label_en": "third_figure_hayez",
+      "type": "null_silence",
+      "intensity": 0.89,
+      "perceptual_weight": 0.88,
+      "basho": "la figura marginale del dipinto non è identificata: occupa una zona di instabilità semantica permanente",
+      "kokyu": "ogni osservazione del quadro riattiva la domanda senza produrre risposta",
+      "yūgen": "l'ambiguità non è un difetto della lettura ma la sua condizione strutturale",
+      "reactivation_trigger": "sguardo laterale sul dipinto + memoria storica del Risorgimento milanese",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la figura resta non identificata: la non-identificazione è la sua funzione"
+      },
+      "textual_anchor_it": "I due appassionati amanti del Bacio di Hayez non sono soli. Accanto a loro si intravede l'ombra di un terzo personaggio.",
+      "glossary_link": ["yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "urban_model": "Milano come sistema di tracce interrotte che si riattivano localmente attraverso gesto, sguardo e attraversamento",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1"
+  }
+}
