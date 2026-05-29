@@ -1,0 +1,181 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "system_principle": "The system does not represent a city guide. It operates as a paradox engine in which every Padovan primacy generates its own structural contradiction. The city is readable only through the productive irresolvability of its opposites.",
+  "node_classes": {
+    "scene": "stable_paradox_anchor",
+    "object": "contradiction_activator",
+    "ritual": "paradox_compression_device",
+    "transition": "contradiction_intensifier",
+    "silence": "erased_primacy_field",
+    "weather": "paradox_atmosphere_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05","object-06"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04","weather-05"]
+  },
+  "layer_differentiation_rule": {
+    "objects": "origins of contradiction (source layer)",
+    "scenes": "spatial manifestation of contradiction (expression layer)",
+    "transitions": "temporal propagation of contradiction (dynamics layer)",
+    "silences": "negative space sustaining contradiction (absence layer)",
+    "weather_fields": "atmospheric modulation of contradiction (ambient layer)"
+  },
+  "topology": {
+    "core_field": {
+      "id": "object-01",
+      "mode": "unstable_attractor",
+      "function": "moral_aesthetic_inseparability_engine"
+    },
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "colpa_capolavoro_loop",
+        "nodes": ["object-01","scene-01","transition-03"],
+        "type": "guilt_beauty_paradox_loop",
+        "stability": "metastable",
+        "propagation_logic": "private_guilt_generates_public_masterpiece_inseparably",
+        "description": "Scrovegni guilt and Giotto masterpiece form an inseparable moral-aesthetic field"
+      },
+      {
+        "id": "loop-02",
+        "label": "eccellenza_conservatorismo_loop",
+        "nodes": ["object-04","scene-02","transition-04","weather-02","weather-05"],
+        "type": "paradox_knowledge_loop",
+        "stability": "permanently_suspended",
+        "propagation_logic": "oldest_university_generates_longest_resistance_to_innovation",
+        "description": "academic primacy and conservatism are structurally inseparable; conservational_pressure field amplifies the loop"
+      },
+      {
+        "id": "loop-03",
+        "label": "acqua_conflitto_infrastruttura",
+        "nodes": ["silence-04","transition-01","weather-01","scene-04"],
+        "type": "hostile_infrastructure_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "water_built_from_spite_becomes_city_infrastructure",
+        "description": "conflict becomes infrastructure and remains active as water system memory"
+      },
+      {
+        "id": "loop-04",
+        "label": "primati_invisibili",
+        "nodes": ["silence-01","scene-05","ritual-05"],
+        "type": "erased_primacy_loop",
+        "stability": "recursive_unstable",
+        "propagation_logic": "erasure_produces_higher_density_than_presence",
+        "description": "Bigolina erasure functions as a recursive pressure field increasing system density; anatomical ritual is its structural parallel"
+      },
+      {
+        "id": "loop-05",
+        "label": "geometria_sacra_urbana",
+        "nodes": ["object-03","object-05","scene-03","scene-04"],
+        "type": "geometric_field_loop",
+        "stability": "stable",
+        "propagation_logic": "circle_geometry_structures_both_prato_and_orto_as_same_perceptual_logic",
+        "description": "circle geometry governs both botanical garden and civic space as shared perceptual structure"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "guilt_beauty_field_persistence",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "paradox_maintenance"
+    },
+    {
+      "from": "silence-01",
+      "to": "scene-05",
+      "effect": "bigolina_erasure_field_activation",
+      "propagation_mode": "recursive",
+      "intensity": 0.96,
+      "stability_impact": "canonical_primacy_destabilization"
+    },
+    {
+      "from": "transition-01",
+      "to": "weather-01",
+      "effect": "conflict_water_persistence",
+      "propagation_mode": "persistent_residual",
+      "intensity": 0.93,
+      "stability_impact": "hostile_infrastructure_normalization"
+    },
+    {
+      "from": "weather-05",
+      "to": "loop-02",
+      "effect": "conservational_pressure_amplification",
+      "propagation_mode": "non_local",
+      "intensity": 0.94,
+      "stability_impact": "paradox_knowledge_loop_reinforcement"
+    },
+    {
+      "from": "ritual-05",
+      "to": "silence-01",
+      "effect": "anatomical_visibility_intensifies_bigolina_erasure",
+      "propagation_mode": "recursive",
+      "intensity": 0.88,
+      "stability_impact": "erasure_density_increase"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "paradox_metastable",
+    "allowed_mutations": [
+      "paradox_intensification",
+      "guilt_beauty_coupling",
+      "water_conflict_normalization",
+      "female_primacy_reactivation",
+      "geometric_field_resonance",
+      "knowledge_conservatism_oscillation"
+    ],
+    "forbidden_states": [
+      "padova_as_museum_city",
+      "scrovegni_guilt_resolved",
+      "bigolina_marginal",
+      "water_as_neutral",
+      "university_as_purely_progressive",
+      "paradox_resolved"
+    ]
+  },
+  "system_tension": {
+    "excellence_vs_conservatism": 1.0,
+    "guilt_vs_beauty": 0.99,
+    "visible_vs_erased_primacy": 0.98,
+    "conflict_vs_infrastructure": 0.93,
+    "sacred_vs_academic": 0.89,
+    "geometric_order_vs_urban_chaos": 0.86
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "paradox_metastable",
+    "closure": false,
+    "closure_type": "self_referential_impossibility",
+    "system_behavior": "each attempt to resolve paradox increases system coherence rather than reducing it",
+    "readability": "high_local_low_global",
+    "series_connection": {
+      "previous": "Milano Fantastica — stratification model",
+      "current": "Padova Fantastica — paradox model",
+      "next": "Torino Fantastica — esoteric dual register model",
+      "principle": "each Guide Fantastiche volume introduces a different perceptual method for reading the Italian city"
+    }
+  },
+  "operational_axiom": {
+    "rule": "any node interpreted as resolved immediately reactivates its contradiction in another layer",
+    "effect": "permanent system reactivation"
+  }
+}
