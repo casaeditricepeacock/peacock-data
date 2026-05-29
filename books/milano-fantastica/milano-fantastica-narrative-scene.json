@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "system_axis": {
+    "primary_tension": "sacro_vs_uso",
+    "temporal_axis": "simultaneous_non_synchrony",
+    "urban_logic": "Milan is a city where all historical layers remain active but never temporally aligned"
+  },
+  "editorial_principle": "La scena non rappresenta un luogo di Milano. È una configurazione percettiva in cui strati temporali incompatibili coesistono senza risolversi. La città è sempre simultaneamente se stessa e tutte le sue epoche attive.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione attivata solo nell'attraversamento",
+    "historical_echo": "campo che riattiva temporalità incompatibili",
+    "urban_degradation": "campo che perde densità durante l'attraversamento",
+    "collapse_field": "configurazione che si disintegra mentre viene percepita"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "galleria_salotto_campo",
+      "type": "threshold_field",
+      "dominant": true,
+      "basho": "la Galleria non è spazio urbano ma camera climatica autonoma dove consumo, attraversamento e rituale coesistono senza gerarchia",
+      "kokyu": "il ritmo non è lento ma asincrono: sincronizza soggetti diversi su un tempo non urbano in cui il passo perde funzione direzionale",
+      "yūgen": "due città coesistono nello stesso spazio: il salotto borghese e la superficie turistica, senza mai incontrarsi",
+      "affects": {
+        "scene-02": "la Galleria introduce un campo di sospensione percettiva che modifica l'accesso al Duomo",
+        "scene-04": "la Libreria Bocca stabilizza un residuo culturale non dissolvibile dal flusso commerciale"
+      },
+      "textual_anchor_it": "Il 7 marzo 1865 in una solenne cerimonia è posata la prima pietra della Galleria Vittorio Emanuele II.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02",
+      "label": "duomo_diavolo_cantiere",
+      "type": "historical_echo",
+      "basho": "il Duomo non è edificio ma processo storico ancora in corso; ogni epoca aggiunge uno strato senza chiudere il precedente",
+      "kokyu": "il tempo è stratificato e simultaneo: ogni elemento architettonico appartiene a un'epoca diversa che coesiste con le altre",
+      "yūgen": "il diavolo non è figura ma principio di interferenza che impedisce la chiusura interpretativa della facciata",
+      "affects": {
+        "scene-03": "il Duomo e il Cenacolo formano un sistema di misteri incompleti che definisce la Milano sacra",
+        "scene-01": "il Duomo trasforma il campo della Galleria in zona di mediazione tra sacro e uso"
+      },
+      "textual_anchor_it": "Lungo 158 metri e ampio 11700 metri quadri, con la sua enorme mole è andato a sostituire ben quattro creazioni.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-03",
+      "label": "cenacolo_croce_invisibile",
+      "type": "field_node",
+      "basho": "il Cenacolo non è immagine ma dispositivo di attesa: il campo nasce prima dell'ingresso e continua dopo l'uscita",
+      "kokyu": "quindici minuti di accesso producono una compressione temporale non replicabile altrove nella città",
+      "yūgen": "la Croce invisibile esiste solo nella durata dell'attesa e non nel dipinto stesso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la Croce non appartiene all'opera ma al sistema di accesso che la circonda"
+      },
+      "affects": {
+        "scene-02": "il Cenacolo e il Duomo costituiscono due poli di assenza strutturale nella Milano sacra"
+      },
+      "textual_anchor_it": "vi consiglio di soffermarvi un pochino sulla sventurata Croce.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "scene-04",
+      "label": "brera_accademia_cortile",
+      "type": "urban_degradation",
+      "basho": "Brera è sovraccarico simultaneo di arte, consumo e notte; nessuna funzione elimina le altre",
+      "kokyu": "il ritmo non alterna registri ma li sovrappone continuamente nello stesso campo percettivo",
+      "yūgen": "il Bacio di Hayez contiene un terzo elemento invisibile che destabilizza ogni lettura binaria",
+      "affects": {
+        "scene-01": "Brera e Galleria funzionano come due poli complementari del campo borghese milanese"
+      },
+      "textual_anchor_it": "I due appassionati amanti del Bacio di Hayez non sono soli. Accanto a loro si intravede l'ombra di un terzo personaggio.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-05",
+      "label": "navigli_darsena_porto",
+      "type": "historical_echo",
+      "basho": "i Navigli sono sistema idrico ancora attivo sotto forma di traccia fisica e percettiva; la città si appoggia su un livello d'acqua non visibile ma operativo",
+      "kokyu": "il ritmo serale della movida e quello del porto storico coesistono come sovrapposizione non risolta",
+      "yūgen": "l'acqua non è scomparsa: continua a operare come pressione sotto la superficie urbana",
+      "field_superposition": "water_layer_continuation",
+      "affects": {
+        "scene-04": "Navigli e Brera costituiscono due zone di sovraccarico percettivo complementare"
+      },
+      "textual_anchor_it": "La Darsena ora è il regno delle passeggiate alcoliche e dei photo dump con gli amici. Per secoli invece è stato il grande porto di Milano.",
+      "glossary_link": ["mono no aware", "basho"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "instabile per stratificazione simultanea",
+    "urban_model": "Milano come sistema non sincronizzato di strati storici attivi e coesistenti",
+    "degradation_present": true,
+    "retroactive_causality": true,
+    "global_effect": "ogni scena modifica retroattivamente le altre senza produrre gerarchia temporale"
+  }
+}
