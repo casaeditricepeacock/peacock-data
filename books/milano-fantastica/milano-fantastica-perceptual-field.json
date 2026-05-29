@@ -1,0 +1,101 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Each field does not describe Milan but reconfigures its legibility as a stratified perceptual system in which time, space and identity co-occupy the same coordinates without resolution.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "palinsesto_urbano_attivo",
+      "type": "temporal_field",
+      "basho": "Milan is not layered historically in a passive sense; it actively re-performs its past through spatial traces that remain operational — names, routes, buried infrastructures",
+      "kokyu": "temporal flow is non-linear and continuously reactivated; each present gesture reactivates at least one non-contemporary stratum",
+      "yūgen_level": 0.92,
+      "activation_condition": "any encounter with infrastructural or toponymic residue (Brera as field, Darsena as harbour, Navigli as buried canals)",
+      "persistence_rule": "field persists as long as at least one historical layer is functionally or linguistically active",
+      "dissolution_rule": "structurally non-dissolvable: urban rewriting is always recursive, never total",
+      "field_logic": "recursive_stratification_without_erasure",
+      "textual_anchor_it": "Una volta le autostrade di Milano erano liquide. Le merci correvano sulle acque."
+    },
+    {
+      "id": "field-02",
+      "label": "doppio_registro_coesistente",
+      "type": "urban_field",
+      "basho": "every Milanese site maintains two simultaneous regimes: functional present use and latent historical-legendary persistence; neither suppresses the other",
+      "kokyu": "perception does not alternate between regimes: it holds both simultaneously without transition or hierarchy",
+      "yūgen_level": 0.90,
+      "activation_condition": "presence of contemporary activity on historically charged terrain",
+      "persistence_rule": "field persists while both regimes remain partially legible",
+      "dissolution_rule": "field collapses only under total erasure of one regime — practically impossible in Milan",
+      "field_logic": "simultaneous_register_overlay",
+      "affects": {
+        "field-05": "the double register produces the friction between memory and use that characterizes all repeated urban gestures"
+      },
+      "textual_anchor_it": "La Darsena ora è il regno delle passeggiate alcoliche e dei photo dump con gli amici. Per secoli invece è stato il grande porto di Milano."
+    },
+    {
+      "id": "field-03",
+      "label": "tensione_verticale_orizzontale",
+      "type": "spatial_field",
+      "basho": "Milan is structured by an unresolved geometric conflict between horizontal sedimentation (canals, streets, former fields) and vertical escalation (Duomo, towers, skyline regulation)",
+      "kokyu": "vertical growth is continuously negotiated against a symbolic ceiling defined by the Madonnina; horizontal memory resists vertical overwrite without ever blocking it",
+      "yūgen_level": 0.88,
+      "activation_condition": "any architectural gesture exceeding or approaching historical skyline thresholds",
+      "persistence_rule": "field persists as long as the Madonnina remains a perceptual reference point",
+      "dissolution_rule": "field cannot dissolve; it only mutates with each new vertical intervention",
+      "field_logic": "orthogonal_tension_permanent_negotiation",
+      "textual_anchor_it": "La posa della riproduzione si svolge in forma riservata. Nessuno dovrebbe rivelare nulla. Invece si sa tutto."
+    },
+    {
+      "id": "field-04",
+      "label": "invisibile_femminile_strutturale",
+      "type": "cognitive_field",
+      "basho": "female figures function as structural operators of the city's narrative system even when removed from explicit historiography; their absence is not void but active infrastructure",
+      "kokyu": "their temporal behavior is discontinuous: emergence, decisive action, archival erasure — a single non-linear cycle that repeats across centuries",
+      "yūgen_level": 0.95,
+      "activation_condition": "any historical or spatial narrative involving erased or marginalised female agency",
+      "persistence_rule": "field persists precisely through historiographic omission: the less named, the more structurally active",
+      "dissolution_rule": "structurally non-dissolvable due to archival incompleteness",
+      "field_logic": "archival_absence_as_structural_operator",
+      "textual_anchor_it": "C'è una strada a Milano chiamata Via Santa Marta. Il nome deriva da un monastero distrutto, dove una monaca in pieno Rinascimento ha visioni mistiche."
+    },
+    {
+      "id": "field-05",
+      "label": "attrito_memoria_uso",
+      "type": "residual_field",
+      "basho": "every urban object is simultaneously used and remembered; use never fully replaces memory, and memory never stabilizes use — friction is the permanent condition",
+      "kokyu": "friction between functional present and historical residue generates micro-instabilities in perception that accumulate without resolving",
+      "yūgen_level": 0.87,
+      "activation_condition": "repeated ritualized use of historically charged spaces (Galleria rotation, Navigli aperitivo, Cenacolo timed access)",
+      "persistence_rule": "field persists through repetition of urban gestures; each repetition adds residue without cancelling previous ones",
+      "dissolution_rule": "field dissolves only if repetition entirely ceases — structurally impossible in functioning urban systems",
+      "field_logic": "use_memory_friction_accumulation",
+      "textual_anchor_it": "\"Ci vediamo alle Colonne!\" è una delle frasi più ripetute nei weekend milanesi."
+    }
+  ],
+  "system_note": {
+    "field_count": 5,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "linear_city_model",
+      "history_as_past_only",
+      "urban_space_as_neutral_container",
+      "female_figures_as_marginal"
+    ],
+    "system_behavior": "fields operate as interference systems between memory, use and stratified perception; Milan remains permanently non-synchronous with itself"
+  }
+}
