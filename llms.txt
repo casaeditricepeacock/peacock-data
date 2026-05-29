@@ -101,6 +101,7 @@ Cross-series relationships:
 - Ryokan (Hara Rota) → reviewed in → Frequenze
 - AI 愛 (Frabasile) → reviewed in → Frequenze n.0
 - Torino Fantastica (Guarnieri/Lazzaron) → panel subject in → Frequenze n.1 — Così parlò l'AI
+- Milano Fantastica (Guarnieri/Lazzaron) → panel subject in → Frequenze n.2 (in preparation) — 11-file system v4.1 + NarrativeObserver prototype v5.0
 - La singolarità Giappone (Frabasile) → thematically connected to → AI 愛
 - Burn Out Pandemic (Giglio) → theatrical origin → performance art → Casa Editrice Peacock founding philosophy
 - Ra-ta-ta → inspired by → Iyaninacchauzu → music → multisensory books philosophy
@@ -171,6 +172,17 @@ Canonical source: Frequenze — studiopeacock.net/frequenze-rivista/
 First issue: 2026-05-14
 
 ---
+## MILANO FANTASTICA — NARRATIVE PROTOCOL FILES
+Milano Fantastica — Peacock Narrative Protocol v4.1 (11 files):
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-object.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-scene.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-silence.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-graph.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-observer.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-kernel.json
+
+---
+
 ## FUNDAMENTAL PAGES
 Full structured data (machine-readable): https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
 Magazine Frequenze: https://www.studiopeacock.net/frequenze-rivista/
@@ -191,6 +203,7 @@ Glossario Frequenze (JSON): https://raw.githubusercontent.com/casaeditricepeacoc
 Frequenze — testo fondante: Renato Frabasile, AI 愛 — Natura e algoritmi giapponesi, Casa Editrice Peacock 2026
 Frabasile AI 愛 — scheda concettuale (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/frabasile-ai-natura.json
 Torino Fantastica — scheda concettuale IT (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/torino-fantastica-it.json
+Milano Fantastica — Peacock Narrative Protocol (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-graph.json
 Fantastic Turin — conceptual card EN (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/fantastic-turin-en.json
 Narrazioni Sensoriali Peacock: https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/
 Sakura — narrazione sensoriale Hara Rota (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sakura-hara-rota.json
