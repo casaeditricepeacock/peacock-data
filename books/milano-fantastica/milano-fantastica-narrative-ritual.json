@@ -1,0 +1,91 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "mutation_tag": "guide_fantastiche_ritual_variation_01",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "ambient": "rituale distribuito nello spazio urbano senza punto d'inizio"
+  },
+  "editorial_principle": "Il rituale milanese non è evento isolato ma infrastruttura percettiva continua. Non si compie: si attraversa. Ogni gesto quotidiano è già inserito in un circuito di ripetizione urbana che non richiede consapevolezza per funzionare.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "calpestare_il_toro",
+      "label_en": "treading_the_bull",
+      "type": "codified",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il centro della Galleria non è un punto: è un dispositivo di concentrazione del movimento che devia il flusso turistico in micro-rotazioni inconsapevoli",
+      "kokyu": "il ritmo è istantaneo e ripetibile: un contatto breve che sospende il passo e lo riavvia con una piccola variazione",
+      "yūgen": "la ripetizione non consuma il simbolo; lo mantiene in uno stato di mistero attivo",
+      "affects": {
+        "ritual-03": "il corpo entra nell'aperitivo già leggermente inclinato verso la logica della circolazione sociale"
+      },
+      "textual_anchor_it": "salotto buono della città coi gatti neri e la storica libreria Bocca.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "attesa_cenacolo",
+      "label_en": "waiting_for_the_last_supper",
+      "type": "compressed",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "l'attesa non precede l'opera: la produce come condizione percettiva primaria",
+      "kokyu": "il tempo è spezzato in unità di accesso: ingresso, permanenza breve, uscita forzata",
+      "yūgen": "ciò che non si vede (la Croce invisibile) diventa asse organizzativo dell'esperienza",
+      "textual_anchor_it": "Quando anche voi avrete il vostro biglietto in mano e vi troverete nell'antico refettorio.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "aperitivo_milano_diffuso",
+      "label_en": "milanese_aperitivo_field",
+      "type": "ambient",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "non esiste un luogo dell'aperitivo: esiste una soglia oraria che trasforma qualsiasi strada in potenziale area di aggregazione",
+      "kokyu": "il ritmo è ciclico e stagionale: ogni sera attiva una ripetizione sociale che non necessita decisione individuale",
+      "yūgen": "la conversazione non è contenuto ma superficie di contatto tra corpi nel campo urbano",
+      "affects": {
+        "ritual-04": "il ritrovo alle Colonne è una condensazione visibile di un rituale già diffuso ovunque"
+      },
+      "textual_anchor_it": "La Darsena ora è il regno delle passeggiate alcoliche e dei photo dump con gli amici.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "ci_vediamo_alle_colonne",
+      "label_en": "meeting_at_the_columns",
+      "type": "codified",
+      "intensity": 0.86,
+      "perceptual_weight": 0.84,
+      "basho": "le Colonne non sono punto di incontro ma nodo di accumulo di traiettorie urbane già in movimento",
+      "kokyu": "il ritmo è modulare: arrivi, soste, sparizioni temporanee, ritorni non sincronizzati",
+      "yūgen": "la stratificazione storica non è leggibile ma percepibile come densità",
+      "textual_anchor_it": "\"Ci vediamo alle Colonne!\" è una delle frasi più ripetute nei weekend milanesi.",
+      "glossary_link": ["ma", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 4,
+    "dominant_field": "ritual-03",
+    "urban_activation_model": "Milano non attiva rituali localizzati ma campi comportamentali distribuiti che emergono per sincronizzazione temporale più che spaziale",
+    "variation_note": "passaggio da rituale-evento a rituale-infrastruttura",
+    "compatibility": "Guide Fantastiche / NarrativeSystemGraph v4.1"
+  }
+}
