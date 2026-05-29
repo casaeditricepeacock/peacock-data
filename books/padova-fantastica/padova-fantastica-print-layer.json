@@ -1,0 +1,100 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "editorial_purpose": {
+    "function": "attivare una lettura sequenziale di Padova come sistema di paradossi produttivi in cui ogni primato porta la propria contraddizione come campo attivo",
+    "constraint": "la linearità è un dispositivo di accesso al paradosso, non alla risoluzione; ogni scena deve mantenere la tensione irrisolvibile"
+  },
+  "reading_principle": {
+    "rule_01": "ogni primato padovano porta la propria contraddizione come campo strutturale",
+    "rule_02": "l'acqua non è risorsa naturale ma infrastruttura politica costruita sul conflitto",
+    "rule_03": "le figure femminili invisibili (Bigolina) sono primati cancellati che producono campo più denso dei primati canonici",
+    "rule_04": "la colpa degli Scrovegni e la bellezza di Giotto sono inseparabili: la morale e l'estetica condividono le stesse coordinate",
+    "rule_05": "il paradosso non si risolve: è la condizione strutturale della città"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "initiates_guilt_as_structural_aesthetic_operator",
+      "note": "introduce l'inseparabilità tra debito morale e produzione artistica: la colpa non precede il capolavoro, lo genera"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "stabilizes_paradox_as_institutional_logic",
+      "note": "converte il sapere in sistema di persistenza conservativa: il Bo avanza e resiste simultaneamente"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "encodes_knowledge_as_spatial_geometry",
+      "note": "trasforma l'epistemologia in architettura botanica: il mandala come mappa del sapere vivente"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "destabilizes_orientation_through_circularity",
+      "note": "rimuove la logica direzionale dalla percezione urbana: il Prato come macchina di disorientamento"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "activates_erasure_as_primary_output",
+      "note": "rende l'assenza strutturalmente più densa della presenza: Bigolina come campo finale del sistema"
+    }
+  ],
+  "system_operator_layer": {
+    "type": "retroactive_field_compiler",
+    "function": "ogni scena riscrive l'interpretabilità di tutte le scene precedenti",
+    "rule": "nessuna scena è stabile dopo il completamento della catena di attivazione",
+    "consequence": "la lettura è retrocausale piuttosto che sequenziale",
+    "constraint": "print order ≠ activation order",
+    "global_effect": "Padova diventa ri-leggibile dopo il completamento dell'ultimo nodo, non durante la sequenza"
+  },
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena è autonoma ma porta il paradosso fondativo come campo latente",
+      "constraint": "Padova si legge per intensificazione del paradosso, non per accumulo narrativo"
+    },
+    "kokyu": {
+      "rule": "il ritmo alterna scoperta del primato e riattivazione della sua contraddizione",
+      "effect": "oscillazione percettiva senza stabilizzazione interpretativa"
+    },
+    "yūgen": {
+      "rule": "i silenzi operano come campi più densi dei monumenti visibili",
+      "effect": "la città appare sempre più ricca di ciò che non è esplicitato"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strutture percettive attive che condizionano la lettura senza essere esplicitate",
+    "contains": [
+      "Giulia Bigolina come primato letterario cancellato",
+      "acqua vicentina come infrastruttura conflittuale permanente",
+      "macerie del Palazzo della Ragione come fondamento invisibile della stabilità",
+      "paradosso università-conservatorismo come attrattore sistemico"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "impossibilità di stabilizzare Padova come città lineare o museale",
+    "perceptual_residue": "persistenza del paradosso colpa/bellezza e del silenzio Bigolina come operatori cognitivi attivi",
+    "temporal_effect": "ogni rilettura riattiva una configurazione diversa del sistema"
+  },
+  "meta_layer": {
+    "system_note": "terzo volume della serie Guide Fantastiche: introduce la separazione tra sequenza di stampa e logica di attivazione come principio editoriale — la lettura non è sequenziale ma retrocausale",
+    "stability": "metastable",
+    "risk": "basso — il paradosso è la struttura naturale di ogni città universitaria italiana",
+    "obsolescence": "non strutturale"
+  }
+}
