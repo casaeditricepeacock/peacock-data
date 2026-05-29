@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta dopo il suo avvenimento",
+    "paradox_lock": "contraddizione che si stabilizza invece di risolversi"
+  },
+  "editorial_principle": "Le transizioni di Padova non producono sintesi ma stabilizzano contraddizioni. La città avanza mantenendo attivo ciò che dovrebbe essere incompatibile.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "acqua_deviata",
+      "label_en": "diverted_water",
+      "type": "irreversible",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "i vicentini deviano il Bacchiglione per dispetto: la città si struttura su un conflitto idrico mai risolto",
+      "kokyu": "il tempo della deviazione non si chiude: i canali mantengono memoria dell'ostilità originaria",
+      "yūgen": "l'infrastruttura nasce da un atto ostile trasformato in forma urbana stabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sistema idrico è un conflitto solidificato"
+      },
+      "observer_effect": {
+        "perceptual_shift": "l'acqua appare come infrastruttura politica prima che naturale",
+        "cognitive_residue": "ogni corso d'acqua viene letto come negoziazione storica",
+        "duration": "persistent"
+      },
+      "affects": {
+        "transition-02": "il conflitto idrico prepara il campo per la fondazione universitaria come altra infrastruttura costruita su fondamenta paradossali"
+      },
+      "textual_anchor_it": "con Vicenza e i vicentini scavano per dispetto il Canale Bisatto dove fanno confluire il Bacchiglione.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "transition-02",
+      "label": "osteria_università",
+      "label_en": "tavern_to_university",
+      "type": "recursive",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "il sapere nasce dentro uno spazio di disordine controllato e non lo cancella mai",
+      "kokyu": "la forma universitaria conserva il ritmo informale dell'osteria originaria",
+      "yūgen": "l'istituzione contiene sempre la sua origine non istituzionale",
+      "observer_effect": {
+        "perceptual_shift": "il sapere istituzionale perde neutralità",
+        "cognitive_residue": "ogni università appare come spazio instabile tra ordine e disordine",
+        "duration": "persistent"
+      },
+      "field_aftereffect": {
+        "status": true,
+        "description": "le istituzioni del sapere restano percepite come spazi ibridi anche fuori contesto"
+      },
+      "affects": {
+        "transition-03": "il campo del sapere nato dall'osteria si trasforma nel campo della colpa trasformata in bellezza"
+      },
+      "textual_anchor_it": "Nel 1222 Padova fonda l'Università, la più antica e prestigiosa d'Europa.",
+      "glossary_link": ["wabi-sabi", "kokyu"]
+    },
+    {
+      "id": "transition-03",
+      "label": "colpa_capolavoro",
+      "label_en": "guilt_to_masterpiece",
+      "type": "irreversible",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il senso di colpa diventa infrastruttura estetica",
+      "kokyu": "la redenzione è compressa in un'unica architettura",
+      "yūgen": "peccato e bellezza condividono lo stesso campo materiale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il blu di Giotto è pagato con i proventi dell'usura: la bellezza e il peccato non si separano mai"
+      },
+      "observer_effect": {
+        "perceptual_shift": "la distinzione tra morale e produzione estetica si indebolisce",
+        "cognitive_residue": "ogni opera appare come compensazione morale",
+        "duration": "persistent"
+      },
+      "affects": {
+        "transition-04": "la colpa trasformata in bellezza alimenta il paradosso padovano: eccellenza e contraddizione sono inseparabili"
+      },
+      "textual_anchor_it": "Vedete cari padovani quel meraviglioso cielo blu dipinto sulla volta? Tutta costosa azzurrite.",
+      "glossary_link": ["mono no aware", "yūgen"]
+    },
+    {
+      "id": "transition-04",
+      "label": "primato_conservatorismo",
+      "label_en": "primacy_to_conservatism",
+      "type": "paradox_lock",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "innovazione e resistenza coesistono senza risoluzione",
+      "kokyu": "avanzamento e blocco operano simultaneamente",
+      "yūgen": "la città è più innovativa proprio nella sua resistenza al cambiamento",
+      "observer_effect": {
+        "perceptual_shift": "il progresso perde linearità",
+        "cognitive_residue": "ogni innovazione viene percepita come conservazione trasformata",
+        "duration": "persistent"
+      },
+      "field_aftereffect": {
+        "status": true,
+        "description": "il paradosso non si chiude ma diventa condizione permanente di lettura della città"
+      },
+      "textual_anchor_it": "Il Bo insomma è insieme università e capolavoro architettonico. Nel tempo ha mantenuto tutte le abitudini studentesche.",
+      "glossary_link": ["yūgen", "kokyu"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni non risolvono i conflitti ma li stabilizzano come strutture permanenti.",
+    "effect": "ogni contraddizione diventa forma operativa della città",
+    "city_behavior": "Padova operates as an unfinished epistemic laboratory where knowledge stabilizes through contradiction rather than resolution"
+  }
+}
