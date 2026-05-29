@@ -1,0 +1,115 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "system_axis": {
+    "primary_tension": "eccellenza_vs_conservatorismo",
+    "temporal_axis": "paradox_simultaneity",
+    "urban_logic": "Padova is a city where every primacy stabilizes its contradiction instead of resolving it"
+  },
+  "editorial_principle": "La scena non rappresenta un luogo ma una instabilità operativa: ogni configurazione padovana mantiene attive almeno due verità incompatibili senza gerarchia tra loro.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione attivata solo nell'attraversamento",
+    "paradox_field": "campo generato dalla coesistenza irrisolvibile di opposti",
+    "water_echo": "campo che riattiva la memoria idrica conflittuale",
+    "erasure_field": "configurazione definita da ciò che è stato rimosso"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "cappella_colpa_capolavoro",
+      "type": "paradox_field",
+      "dominant": true,
+      "basho": "la Cappella degli Scrovegni non separa morale e arte: li sovrappone fino a renderli indistinguibili. La colpa non precede il capolavoro: lo produce e lo continua",
+      "kokyu": "quindici minuti di permanenza comprimono secoli in un'unica soglia percettiva; l'uscita non restituisce mai il tempo originale",
+      "yūgen": "il blu di Giotto non è superficie pittorica ma trasformazione economica resa visibile: la ricchezza diventa atmosfera",
+      "affects": {
+        "scene-02": "il paradosso morale si replica nel sapere istituzionale del Bo",
+        "scene-05": "la visibilità canonica e l'invisibilità archivistica si stabilizzano come sistema doppio"
+      },
+      "textual_anchor_it": "Rinaldo Scrovegni è un rapace banchiere conosciuto e temuto non solo nella sua nativa Padova, ma in tutta la penisola italiana.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-02",
+      "label": "bo_paradosso_universitario",
+      "type": "paradox_field",
+      "basho": "il Bo è un dispositivo che mantiene simultaneamente nascita del sapere e resistenza al cambiamento. Non evolve: stratifica",
+      "kokyu": "il tempo accademico non sostituisce il precedente: lo conserva attivo come attrito interno permanente",
+      "yūgen": "il teatro anatomico non mostra il corpo: mostra la possibilità storica di guardarlo senza mito",
+      "affects": {
+        "scene-03": "il sapere si estende nella forma vegetale dell'Orto Botanico",
+        "scene-01": "il paradosso universitario retroagisce sulla Cappella: entrambe le scene sono dispositivi che stabilizzano la contraddizione"
+      },
+      "textual_anchor_it": "Nel 1222 Padova fonda l'Università, la più antica e prestigiosa d'Europa.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "scene-03",
+      "label": "orto_botanico_mandala",
+      "type": "field_node",
+      "basho": "l'Orto Botanico non organizza piante: organizza il tempo biologico come struttura geometrica leggibile",
+      "kokyu": "la crescita non segue la città ma la interrompe periodicamente, imponendo un altro regime temporale",
+      "yūgen": "la protezione del muro non separa interno ed esterno: definisce ciò che deve restare non toccato per continuare a esistere come conoscenza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la longevità delle specie supera la durata istituzionale che le ha classificate: il ginkgo biloba precede e sopravvive all'università"
+      },
+      "affects": {
+        "scene-04": "la geometria vegetale si riflette nella geometria urbana del Prato come eco strutturale"
+      },
+      "textual_anchor_it": "É un luogo di equilibrio, bellezza e armonia tra l'uomo e l'universo.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-04",
+      "label": "prato_della_valle_cerchio",
+      "type": "water_echo",
+      "basho": "il Prato della Valle non è una piazza ma una macchina di orientamento circolare che disattiva la direzione lineare",
+      "kokyu": "il movimento non si conclude: si ricomincia ogni volta senza consapevolezza della ripetizione",
+      "yūgen": "le statue non indicano il centro: lo rendono instabile",
+      "affects": {
+        "scene-03": "la circolarità del Prato riattiva la geometria dell'Orto come eco strutturale"
+      },
+      "textual_anchor_it": "La struttura dell'Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-05",
+      "label": "bigolina_invisibile",
+      "type": "erasure_field",
+      "basho": "l'invisibilità di Giulia Bigolina non è omissione: è struttura attiva del sistema dei primati padovani",
+      "kokyu": "la sua presenza è intermittente ma persistente: non si stabilizza mai in archivio ma continua a produrre effetto",
+      "yūgen": "l'assenza non riduce il campo: lo densifica fino a renderlo leggibile solo indirettamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Bigolina è la prima romanziera italiana: il suo campo è più denso di molti primati canonici che la escludono"
+      },
+      "affects": {
+        "scene-01": "la logica della colpa canonizzata e dell'eccellenza rimossa si stabilizza come dualismo permanente"
+      },
+      "textual_anchor_it": "Un esempio è la storia di Giulia Bigolina, che vi verrà svelata nelle pagine seguenti.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "metastabile per paradosso strutturale",
+    "urban_model": "Padova come sistema di primati che non producono sintesi ma retroazioni continue",
+    "degradation_present": false,
+    "retroactive_causality": true,
+    "global_effect": "ogni scena intensifica il paradosso fondativo senza mai risolverlo"
+  }
+}
