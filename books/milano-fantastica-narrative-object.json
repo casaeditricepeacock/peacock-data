@@ -1,0 +1,155 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "mutation_tag": "guide_fantastiche_extension_01",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "editorial_principle": "Milano non è una città descritta ma un sistema di interferenze percettive stratificate: ogni luogo è simultaneamente monumento, uso quotidiano e residuo narrativo non risolto. Le guide non spiegano la città: la attivano.",
+  "object_types": {
+    "urban_trigger": "oggetto che modifica la percezione dello spazio urbano circostante",
+    "ritual_device": "oggetto che attiva comportamenti corporei ripetibili nel campo urbano",
+    "historical_interference": "oggetto che sovrascrive e riattiva più epoche simultaneamente",
+    "threshold_object": "oggetto che funziona solo attraversandolo fisicamente o percettivamente",
+    "recursive_symbol": "oggetto che rigenera il proprio significato senza stabilizzazione",
+    "urban_residue": "campo percettivo persistente che sopravvive all'uso contemporaneo"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "duomo_di_milano",
+      "label_en": "milan_cathedral",
+      "type": "recursive_symbol",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il Duomo non è centro della città: è una pressione verticale che riorganizza lo spazio urbano ogni volta che viene osservato",
+      "kokyu": "il tempo della costruzione è continuo: il gotico non è finito, è ancora in fase di respirazione lenta",
+      "yūgen": "la Madonnina non conclude il vertice, lo rende instabile e sempre riscritto dal cielo",
+      "activation_condition": "presenza simultanea di sguardo, piazza e cielo urbano",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'idea di completamento del Duomo non si attiva mai: ogni immagine lo riapre"
+      },
+      "affects": {
+        "object-02": "la Galleria si comporta come estensione orizzontale della pressione verticale del Duomo",
+        "object-06": "Duomo e Cenacolo funzionano come doppio asse del mistero visibile milanese"
+      },
+      "textual_anchor_it": "Il Duomo di Milano è un capolavoro di arte e architettura, il monumento più amato e instagrammato in città.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "galleria_vittorio_emanuele_ii",
+      "label_en": "galleria_vittorio_emanuele_ii",
+      "type": "threshold_object",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la Galleria è una piega urbana: interno ed esterno collassano in uno spazio commerciale che funziona come camera climatica percettiva",
+      "kokyu": "il ritmo è lento e circolare: ogni passo tende a diventare sosta, ogni sosta tende a diventare osservazione",
+      "yūgen": "la luce della cupola non illumina oggetti ma li rende leggermente irreali",
+      "activation_condition": "attraversamento del crocevia centrale sotto la cupola",
+      "field_behavior": "la Galleria trasforma il passaggio in esposizione involontaria del corpo",
+      "affects": {
+        "object-03": "la Libreria Bocca funziona come nucleo di densità culturale interna alla Galleria",
+        "object-04": "il mosaico del toro attiva una micro-decisione rituale nel flusso turistico"
+      },
+      "textual_anchor_it": "Il 7 marzo 1865 in una solenne cerimonia è posata la prima pietra della Galleria Vittorio Emanuele II.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "object-03",
+      "label": "libreria_bocca_1775",
+      "label_en": "libreria_bocca_1775",
+      "type": "urban_residue",
+      "intensity": 0.9,
+      "perceptual_weight": 0.92,
+      "basho": "la libreria non è negozio: è un residuo culturale attivo che resiste alla velocità commerciale della Galleria",
+      "kokyu": "il tempo rallenta fino quasi a fermarsi: la lettura diventa forma di sospensione urbana",
+      "yūgen": "ogni libro esposto è anche un oggetto non esaurito dal suo significato",
+      "activation_condition": "varco della soglia tra Galleria e spazio interno della libreria",
+      "field_behavior": "la libreria introduce una discontinuità temporale nel flusso turistico",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la funzione culturale non si dissolve nel commercio circostante ma lo interferisce"
+      },
+      "affects": {
+        "object-02": "introduce una zona di rallentamento irreversibile nel ritmo della Galleria"
+      },
+      "textual_anchor_it": "È la Libreria Bocca dal 1775, la più antica d'Italia. Varcata la soglia ci si trova immersi in una wunderkammer dalla testa ai piedi.",
+      "glossary_link": ["wabi-sabi", "ma"]
+    },
+    {
+      "id": "object-04",
+      "label": "toro_mosaico_galleria",
+      "label_en": "bull_mosaic_galleria",
+      "type": "ritual_device",
+      "intensity": 0.87,
+      "perceptual_weight": 0.86,
+      "basho": "il pavimento diventa dispositivo performativo: il suolo non sostiene il corpo, lo istruisce",
+      "kokyu": "il gesto di rotazione sul tallone interrompe il flusso e crea una micro-bolla temporale",
+      "yūgen": "il rito è noto ma non completamente giustificato: la ripetizione ne mantiene il mistero",
+      "activation_condition": "rotazione del tallone sopra il mosaico",
+      "field_behavior": "trasforma il turista in attore involontario del sistema urbano",
+      "affects": {
+        "object-02": "rafforza la Galleria come spazio rituale oltre che commerciale"
+      },
+      "textual_anchor_it": "salotto buono della città coi gatti neri e la storica libreria Bocca.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "object-05",
+      "label": "madonnina",
+      "label_en": "madonnina",
+      "type": "recursive_symbol",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la città si organizza verticalmente attorno a un punto dorato instabile che definisce e smentisce l'altezza stessa",
+      "kokyu": "ogni nuovo grattacielo replica il gesto di collocazione della Madonnina, riattivando il sistema senza chiuderlo",
+      "yūgen": "la regola dell'altezza massima continua a esistere anche quando viene tecnicamente superata",
+      "activation_condition": "osservazione simultanea skyline / Duomo / nuovi grattacieli",
+      "field_behavior": "produce una verticalità culturale più che architettonica",
+      "affects": {
+        "object-01": "prolunga il Duomo verso una dimensione urbana contemporanea non risolta"
+      },
+      "textual_anchor_it": "La posa della riproduzione si svolge in forma riservata. Nessuno dovrebbe rivelare nulla. Invece si sa tutto.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "object-06",
+      "label": "cenacolo_di_leonardo",
+      "label_en": "last_supper_leonardo",
+      "type": "historical_interference",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il dipinto non è contenuto nello spazio: lo spazio è modellato dall'accesso al dipinto",
+      "kokyu": "il tempo è frammentato in finestre di visita; la percezione è compressa dalla durata contingentata",
+      "yūgen": "l'elemento mancante (la Croce invisibile) diventa asse strutturale della percezione",
+      "activation_condition": "accesso limitato e temporizzato al refettorio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ciò che non si vede organizza più fortemente ciò che si vede"
+      },
+      "affects": {
+        "object-01": "Duomo e Cenacolo funzionano come doppio asse del mistero visibile milanese"
+      },
+      "textual_anchor_it": "Quando anche voi avrete il vostro biglietto in mano e vi troverete nell'antico refettorio, vi consiglio di soffermarvi un pochino sulla sventurata Croce.",
+      "glossary_link": ["yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "city_behavior": "Milano opera come sistema di sovrapposizione temporale: ogni oggetto attiva simultaneamente storia, uso e residuo percettivo",
+    "compatibility": "Guide Fantastiche protocol layer compatible",
+    "unresolved_fields": ["object-01", "object-03", "object-06"],
+    "degraded_fields_present": false,
+    "closure": false
+  }
+}
