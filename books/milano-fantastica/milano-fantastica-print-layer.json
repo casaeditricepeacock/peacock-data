@@ -1,0 +1,95 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Milano Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Francesca Baboni"
+  },
+  "editorial_purpose": {
+    "function": "attivare una lettura sequenziale di Milano come sistema stratificato in cui ogni scena riattiva tutte le precedenti senza gerarchia temporale",
+    "constraint": "la linearità è solo un dispositivo di accesso; ogni scena deve mantenere simultaneamente coesistenza storica e contemporanea"
+  },
+  "reading_principle": {
+    "rule_01": "ogni luogo è un dispositivo di sovrapposizione temporale attivo",
+    "rule_02": "le assenze (interramenti, demolizioni, omissioni) sono componenti operative del presente urbano",
+    "rule_03": "le figure femminili invisibili costituiscono un asse narrativo continuo non subordinato alla storia ufficiale",
+    "rule_04": "il calvinismo milanese è una condizione climatica e percettiva, non culturale o psicologica",
+    "rule_05": "la città non si chiude mai: ogni scena è un'apertura su altre scene già attive"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-05",
+      "print_function": "subterranean_origin_activation",
+      "note": "i Navigli attivano il livello idrico come struttura permanente sotto ogni successiva configurazione urbana"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "vertical_gravity_field",
+      "note": "il Duomo stabilisce il riferimento verticale e introduce la logica del cantiere infinito come forma temporale"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-01",
+      "print_function": "threshold_coexistence",
+      "note": "la Galleria attiva la coesistenza tra registro sacro, commerciale e turistico senza risoluzione"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-03",
+      "print_function": "absence_engine",
+      "note": "il Cenacolo introduce il principio dell'oggetto definito dalla sua mancanza strutturale (la Croce)"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-04",
+      "print_function": "cultural_phase_shift",
+      "note": "Brera stabilisce la coesistenza non armonica tra arte, mercato e movida come stato permanente"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena è autonoma ma contiene implicitamente tutte le altre come strati attivi non visibili",
+      "constraint": "Milano non è mai descritta per parti ma per densità simultanee"
+    },
+    "kokyu": {
+      "rule": "il ritmo della lettura alterna immersione storica e riconoscimento contemporaneo senza separazione",
+      "effect": "il lettore oscilla tra epoche senza percepire transizione temporale netta"
+    },
+    "yūgen": {
+      "rule": "le figure invisibili operano come interferenze costanti nel campo narrativo senza mai essere completamente risolte",
+      "effect": "la città appare sempre parzialmente incompleta ma coerente"
+    },
+    "cross_scene_reactivation": {
+      "rule": "ogni scena riattiva almeno una assenza o struttura delle scene precedenti",
+      "effect": "la lettura non è lineare ma cumulativa per interferenza"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strati percettivi attivi che non vengono esplicitati ma condizionano la lettura del sistema",
+    "contains": [
+      "rete idrica dei Navigli come infrastruttura permanente sotto la città asfaltata",
+      "calvinismo milanese come pressione climatica invisibile",
+      "figure femminili invisibili come asse narrativo continuo",
+      "Madonnina come regolatore verticale implicito di tutta la città"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "impossibilità di distinguere tra Milano storica e contemporanea come sistemi separati",
+    "perceptual_residue": "persistenza di assenze strutturali (Croce, canali interrati, figure marginali) come elementi attivi della percezione",
+    "temporal_effect": "ogni attraversamento successivo della città riattiva simultaneamente tutti i livelli narrativi del sistema"
+  },
+  "meta_layer": {
+    "system_note": "primo dispositivo sequenziale della serie Guide Fantastiche: la linearità viene usata come tecnologia di attivazione della stratificazione, non come narrazione progressiva",
+    "stability": "high",
+    "risk": "basso — il sistema regge perché la stratificazione è la condizione naturale di tutte le città storiche italiane",
+    "obsolescence": "non strutturale"
+  }
+}
