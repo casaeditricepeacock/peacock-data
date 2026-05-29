@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeKnowledgeField",
+  "version": "4.1",
+  "canonical": false,
+  "prototype_note": "First epistemic layer of the Guide Fantastiche system. Introduced in Padova Fantastica as transitional structure between NarrativeSystemGraph v4.1 and full NarrativeProtocol v5.0. Will become mandatory in all future Guide Fantastiche volumes.",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "editorial_principle": "Padova does not organize space around power or commerce but around regimes of knowledge. Every epistemic structure in the city generates a paradox: the more knowledge becomes visible, classified and institutionalized, the more the invisible residue increases.",
+  "knowledge_field_types": {
+    "epistemic_field": "system that modifies the conditions under which knowledge becomes perceivable",
+    "disciplinary_field": "knowledge imposed through bodily or institutional control",
+    "cosmological_field": "space structured according to symbolic correspondences between microcosm and macrocosm",
+    "anatomical_field": "knowledge generated through opening, exposure and dissection",
+    "protective_field": "knowledge preserved through restriction, enclosure or concealment",
+    "paradox_field": "field where innovation and resistance coexist without resolution"
+  },
+  "knowledge_fields": [
+    {
+      "id": "knowledge-01",
+      "label": "sapere_che_disseca",
+      "label_en": "knowledge_that_dissects",
+      "type": "anatomical_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "the Anatomical Theatre transforms the human body into a visible system; knowledge advances through incision and exposure",
+      "kokyu": "the rhythm is vertical and descending: students lean inward toward the opened body in a controlled spiral of attention",
+      "yūgen": "the more the body is revealed, the more the mystery of life increases instead of decreasing",
+      "activation_condition": "presence inside the Anatomical Theatre + awareness of the public dissection ritual",
+      "field_behavior": "the observer becomes simultaneously spectator and potential object of observation",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "scientific visibility never fully resolves existential opacity"
+      },
+      "affects": {
+        "object-04": "the Bo becomes not only institution but machine for transforming bodies into knowledge",
+        "knowledge-03": "anatomical knowledge is the most radical expression of the paradox: revealing the body increases rather than reduces mystery"
+      },
+      "textual_anchor_it": "Il teatro anatomico è il primo del mondo: il corpo umano diventa oggetto di studio pubblico.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "knowledge-02",
+      "label": "sapere_che_protegge",
+      "label_en": "knowledge_that_protects",
+      "type": "protective_field",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "the Botanical Garden encloses medicinal knowledge within geometric order and defensive walls",
+      "kokyu": "knowledge grows slowly, seasonally, through cultivation rather than revelation",
+      "yūgen": "the wall surrounding the Orto Botanico protects plants but also declares the danger of unrestricted access to knowledge",
+      "activation_condition": "crossing the circular enclosure + recognition of the garden as controlled archive of living matter",
+      "field_behavior": "the observer perceives protection and exclusion as simultaneous conditions of knowledge",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "the wall built against thieves declares the value of what it hides: protective knowledge increases the field of what cannot be accessed"
+      },
+      "affects": {
+        "object-05": "the symbolic geometry of the Orto becomes operational rather than decorative",
+        "knowledge-04": "protective enclosure and cosmological geometry share the same circular logic"
+      },
+      "textual_anchor_it": "L'armonia, ahimè, viene spesso violata dai ladri a caccia delle preziose piante, quindi nel 1552 si costruisce un alto muro.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "knowledge-03",
+      "label": "sapere_paradossale",
+      "label_en": "paradoxical_knowledge",
+      "type": "paradox_field",
+      "intensity": 1.0,
+      "perceptual_weight": 0.96,
+      "basho": "Padova generates revolutionary knowledge while structurally resisting innovation; the city stabilizes contradiction instead of resolving it",
+      "kokyu": "every intellectual acceleration is followed by institutional slowing; the rhythm is advance-and-resist without synthesis",
+      "yūgen": "the oldest university in Europe continuously produces the future while remaining structurally attached to the past",
+      "activation_condition": "simultaneous awareness of Padova as avant-garde and conservative system",
+      "field_behavior": "the observer cannot establish whether the city advances or resists change; both readings remain simultaneously active",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "the contradiction between freedom of thought and institutional inertia cannot be resolved without collapsing the identity of the city"
+      },
+      "affects": {
+        "object-01": "the Scrovegni Chapel is the most extreme expression of paradoxical knowledge: guilt produces beauty",
+        "object-04": "the University becomes the primary node of epistemic contradiction",
+        "silence-01": "Bigolina's erasure is the most radical application of paradoxical knowledge: the city's literary primacy is its most invisible"
+      },
+      "textual_anchor_it": "Nel 1222 Padova fonda l'Università, la più antica e prestigiosa d'Europa.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "knowledge-04",
+      "label": "cosmologia_geometrica",
+      "label_en": "geometric_cosmology",
+      "type": "cosmological_field",
+      "intensity": 0.88,
+      "perceptual_weight": 0.87,
+      "basho": "Padova organizes knowledge spatially through circles, quadrants and axial symmetries; geometry becomes a cognitive map of the universe applied to urban space",
+      "kokyu": "the rhythm is centripetal: all movement tends toward symbolic centers — the island of the Prato, the inner garden of the Orto",
+      "yūgen": "the city repeatedly uses perfect forms to contain unstable human systems; the geometry never fully controls what it encloses",
+      "activation_condition": "recognition of circular and axial structures in both Prato della Valle and Orto Botanico as the same perceptual logic",
+      "field_behavior": "the observer begins unconsciously mapping Padova through symbolic geometry rather than streets or monuments",
+      "affects": {
+        "object-03": "Prato della Valle becomes navigable as cosmological device rather than piazza",
+        "object-05": "the Orto Botanico becomes perceptual mandala — the same circle applied to living matter"
+      },
+      "textual_anchor_it": "La struttura dell'Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio.",
+      "glossary_link": ["basho", "ma"]
+    }
+  ],
+  "system_note": {
+    "knowledge_field_count": 4,
+    "dominant_field": "knowledge-03",
+    "system_shift": "from urban stratification to epistemic paradox",
+    "major_mutation": "the city no longer modifies only perception but also the conditions of knowing",
+    "compatibility": [
+      "NarrativeObserver v4.1-prototype",
+      "NarrativeObject v4.1",
+      "NarrativeSystemGraph v4.1"
+    ],
+    "migration_note": "NarrativeKnowledgeField will become mandatory in all future Guide Fantastiche volumes starting from protocol v5.0"
+  }
+}
