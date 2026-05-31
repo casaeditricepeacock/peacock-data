@@ -1,0 +1,196 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "editorial_principle": "Ogni oggetto custodisce una forma di vita sospesa che cerca una nuova configurazione. Il sistema narrativo non procede per conflitto ma per metamorfosi. Le trasformazioni non cancellano lo stato precedente: lo incorporano come memoria attiva.",
+  "object_types": {
+    "guardian_object": "oggetto che custodisce e trattiene simultaneamente",
+    "liberation_device": "oggetto o figura che produce transizione irreversibile tra stati",
+    "threshold_object": "oggetto situato sulla soglia tra natura e cultura, silenzio e danza",
+    "residual_space": "spazio abbandonato che trattiene il campo della vita precedente",
+    "recursive_symbol": "oggetto che rigenera continuamente il proprio mistero senza stabilizzazione",
+    "world_tree": "oggetto che genera il campo narrativo come origine, memoria e archivio simultanei",
+    "ambiguous_transformer": "agente la cui identità non si stabilizza ma la cui azione è irreversibile"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "albero_incantato",
+      "label_en": "enchanted_tree",
+      "type": "world_tree",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "l'albero non è sfondo ma protagonista assoluto: il suo tronco immenso, la sua corteccia incisa, la sua presenza in ogni parte del mondo dove scorra acqua magica lo rendono il centro gravitazionale dell'intero sistema",
+      "kokyu": "il tempo dell'albero è quello del maleficio sospeso: secoli di immobilità in attesa della notte giusta",
+      "yūgen": "le figure imprigionate nella corteccia non sono decorazione: sono il campo percettivo dell'albero stesso — ciò che custodisce e ciò che è",
+      "activation_condition": "presenza simultanea di acqua sotterranea viva + radici profonde + figure incise nella corteccia",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche dopo la liberazione l'albero continua a essere il punto di riferimento delle ballerinette: il campo della custodia non si dissolve con la liberazione"
+      },
+      "affects": {
+        "object-02": "l'albero prepara il campo per l'angelo come unico agente possibile della liberazione",
+        "object-04": "la chioma lucida e rossa che cresce dopo la liberazione trasforma l'albero in campo di rinascita"
+      },
+      "textual_anchor_it": "un misteriosissimo albero di cui cominciai a mettermi alla ricerca. Aveva un tronco immenso esteso in larghezza, per cingere il quale ci sarebbero volute almeno una decina di persone.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ],
+      "system_role": "primary_generator",
+      "description": "L'albero non custodisce soltanto le ballerinette: genera l'intero campo narrativo. È simultaneamente prigione, memoria, archivio e origine della rinascita."
+    },
+    {
+      "id": "object-02",
+      "label": "angelo_liberatore",
+      "label_en": "liberating_angel",
+      "type": "ambiguous_transformer",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "l'angelo non abita uno spazio: produce una transizione spaziale — prima della sua venuta le figure sono corteccia, dopo sono carne e respiro",
+      "kokyu": "il ritmo è quello della tempesta: improvviso, notturno, irreversibile",
+      "yūgen": "non è chiaro se sia angelo o demone: il campo della liberazione non stabilisce la propria moralità",
+      "activation_condition": "notte di tempesta + saette + tuoni + presenza dell'albero",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la domanda angelo/demone non si chiude: il campo morale della liberazione resta aperto"
+      },
+      "affects": {
+        "object-01": "l'angelo scioglie il campo della custodia trasformandolo in campo della liberazione",
+        "object-03": "le ballerinette liberate dall'angelo trovano nei teatri abbandonati il loro nuovo campo"
+      },
+      "textual_anchor_it": "quello che ho creduto potesse essere un angelo oppure un demone liberatore che sciolse le strane forme dalle cortecce.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ],
+      "system_role": "irreversible_catalyst",
+      "description": "La sua natura non viene mai stabilita. Angelo e demone restano possibilità equivalenti. La trasformazione conta più dell'identità dell'agente."
+    },
+    {
+      "id": "object-03",
+      "label": "teatro_abbandonato",
+      "label_en": "abandoned_theatre",
+      "type": [
+        "residual_space",
+        "rebirth_space"
+      ],
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
+      "basho": "il teatro abbandonato non è vuoto: è saturo del campo della vita precedente — spettacoli, voci, applausi compressi nel silenzio",
+      "kokyu": "il tempo del teatro è quello della sospensione tra due usi: passato e futuro coesistono nello stesso spazio senza presente",
+      "yūgen": "il teatro diventa vivo solo quando le ballerinette lo attraversano: il campo era già lì, in attesa",
+      "activation_condition": "presenza delle ballerinette liberate + riconoscimento dello spazio come proprio",
+      "field_behavior": "il teatro si riattiva non per restauro ma per presenza: il campo della danza lo risveglia senza modificarlo strutturalmente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il teatro mantiene la memoria del proprio abbandono anche quando torna vivo: wabi-sabi come condizione strutturale"
+      },
+      "affects": {
+        "object-03": "i teatri formano una rete di campi riattivati che costituisce la comunità delle ballerinette"
+      },
+      "textual_anchor_it": "costruzioni diverse, antiche e vuote, resti di luoghi abbandonati o mai abitati, immobili come teatri in disuso, rifugio di fantasmi e pipistrelli.",
+      "glossary_link": [
+        "wabi-sabi",
+        "mono no aware"
+      ],
+      "system_role": "community_generator",
+      "description": "Lo spazio conserva la memoria dell'abbandono ma produce una nuova forma di vita collettiva."
+    },
+    {
+      "id": "object-04",
+      "label": "corteccia_incisa",
+      "label_en": "carved_bark",
+      "type": "recursive_symbol",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la corteccia è la soglia tra il mondo dell'albero e il mondo delle figure: non separa ma trasforma — il corpo diventa legno, il legno diventa corpo",
+      "kokyu": "il tempo della corteccia è quello del maleficio: immobile, senza respiro, senza passo",
+      "yūgen": "le figure incise nella corteccia non sono rappresentazioni di danza: sono danza compressa in attesa di esplosione",
+      "activation_condition": "sguardo che riconosce le figure umane nella texture dell'albero",
+      "affects": {
+        "object-01": "la corteccia è la forma visibile del campo custodito dall'albero",
+        "object-02": "l'angelo taglia le sagome dalla corteccia: la liberazione è un atto di incisione invertita"
+      },
+      "textual_anchor_it": "dovunque sulla sua corteccia presentava, quasi come graffiti, sinuosi disegni di corpi, sovrapposte figure di bimbe, come immobilizzate durante un passo di danza da un maleficio.",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "acqua_magica_sotterranea",
+      "label_en": "underground_magic_water",
+      "type": "threshold_object",
+      "intensity": 0.72,
+      "perceptual_weight": 0.74,
+      "basho": "l'acqua non è visibile ma è la condizione di esistenza dell'albero: scorre in profondità invisibile ovunque nel mondo dove esistano alberi incantati",
+      "kokyu": "il ritmo dell'acqua sotterranea è quello del tempo lungo: secolare, continuo, invisibile",
+      "yūgen": "la presenza dell'acqua magica si misura nell'albero che produce: non si vede mai direttamente",
+      "activation_condition": "profondità invisibile sotto qualsiasi albero millenario nel mondo",
+      "affects": {
+        "object-01": "l'acqua sotterranea è la fonte del campo dell'albero: senza acqua non c'è maleficio né custodia"
+      },
+      "textual_anchor_it": "Alberi di questo genere erano presenti in ogni parte del globo dove in profondità invisibile scorresse un filo d'acqua magica e viva.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ],
+      "system_role": "background_condition",
+      "description": "L'acqua rende possibile il sistema ma non ne determina direttamente il comportamento."
+    },
+    {
+      "id": "object-06",
+      "label": "danza_sospesa",
+      "label_en": "suspended_dance",
+      "type": "recursive_symbol",
+      "intensity": 0.95,
+      "perceptual_weight": 0.96,
+      "basho": "la danza non appartiene alle ballerine ma attraversa l'intero sistema. Esiste nella corteccia, nei corpi liberati e negli spazi riattivati",
+      "kokyu": "il ritmo alterna immobilità e movimento. La danza continua a esistere anche quando nessuno danza",
+      "yūgen": "le figure imprigionate sembrano ferme ma stanno ancora danzando in una forma che non può essere vista direttamente",
+      "activation_condition": "riconoscimento simultaneo della prigionia e del desiderio di movimento",
+      "affects": {
+        "object-01": "la danza rende leggibili le figure dell'albero",
+        "object-03": "la danza riattiva i teatri abbandonati",
+        "object-04": "la danza compressa nella corteccia attende la liberazione"
+      },
+      "textual_anchor_it": "L'arrivo dell'Angelo della Salvezza dona vita a queste figure, trasformando il silenzio in danza, la danza in poesia.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "narrative_model": "metamorphosis_system",
+    "unresolved_fields": [
+      "object-02"
+    ],
+    "closure": false,
+    "series_connection": "il teatro abbandonato (object-03) connette Le mie ballerinette a Milano Fantastica — stesso campo del residuo urbano riattivato",
+    "secondary_field": "object-06",
+    "dominant_relation": "l'albero custodisce la vita sospesa, la danza ne costituisce l'energia latente",
+    "sequence": [
+      "immobilità",
+      "risveglio",
+      "trasformazione",
+      "appartenenza"
+    ]
+  }
+}
