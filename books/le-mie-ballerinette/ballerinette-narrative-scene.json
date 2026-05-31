@@ -1,0 +1,110 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "prigionia_vs_liberazione",
+    "temporal_axis": "metamorphic_irreversibility",
+    "narrative_logic": "every scene is a state of a single field: the enchanted body transitioning from vegetal immobilità to comunità danzante"
+  },
+  "editorial_principle": "La scena non rappresenta un episodio lineare ma una configurazione del campo di trasformazione. Ogni stato conserva la memoria del precedente come tensione attiva e non risolta.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione attivata solo nell'attraversamento",
+    "mythic_field": "configurazione generata da evento archetipico irreversibile",
+    "residual_space": "spazio definito dalla permanenza del campo precedente",
+    "community_field": "configurazione emergente da sincronizzazione collettiva"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "albero_corteccia_figure",
+      "type": "mythic_field",
+      "dominant": true,
+      "basho": "l'albero con figure incise nella corteccia è il campo originario e permanente: non rappresenta il sistema, lo contiene",
+      "kokyu": "il tempo è sospeso in forma assoluta: immobilità prolungata oltre la durata umana, senza passato operativo",
+      "yūgen": "le figure non sono rappresentazioni ma stato dell'albero stesso: la corteccia è danza compressa diventata materia",
+      "affects": {
+        "scene-02": "il campo originario rende necessaria una soglia di rottura (tempesta)",
+        "scene-05": "l'albero persiste come origine della comunità anche dopo la liberazione"
+      },
+      "textual_anchor_it": "dovunque sulla sua corteccia presentava, quasi come graffiti, sinuosi disegni di corpi, sovrapposte figure di bimbe.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    {
+      "id": "scene-02",
+      "label": "notte_tempesta_angelo",
+      "type": "threshold_field",
+      "basho": "la notte di tempesta è una soglia irreversibile: la corteccia non evolve, si interrompe",
+      "kokyu": "il ritmo è discontinuo: accumulo → frattura → silenzio post-evento",
+      "yūgen": "la figura dell'angelo/demone resta ontologicamente indeterminata: la liberazione non stabilizza la morale del gesto",
+      "affects": {
+        "scene-03": "la frattura rende possibile il primo movimento autonomo dei corpi liberati"
+      },
+      "textual_anchor_it": "finchè giunse in una notte di tempesta, tra saette e tuoni, quello che ho creduto potesse essere un angelo oppure un demone liberatore.",
+      "glossary_link": ["kokyu", "yūgen"]
+    },
+    {
+      "id": "scene-03",
+      "label": "primo_movimento_rami",
+      "type": "field_node",
+      "basho": "i rami dell'albero costituiscono il primo spazio post-corteccia: zona ibrida tra natura e gesto",
+      "kokyu": "il ritmo è esplorativo: instabilità → equilibrio provvisorio → riconoscimento del movimento",
+      "yūgen": "il movimento conserva traccia della prigionia originaria: libertà e memoria coesistono senza sintesi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'albero resta attrattore permanente: ogni danza futura mantiene riferimento al punto d'origine"
+      },
+      "affects": {
+        "scene-04": "l'espansione del movimento produce lo spostamento verso spazi residuali (teatri)"
+      },
+      "textual_anchor_it": "Le figure liberate sentivano ora l'antico senso di appartenenza e provavano a salire i suoi rami e a giocare.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-04",
+      "label": "teatro_abbandonato_risveglio",
+      "type": "residual_space",
+      "basho": "il teatro abbandonato non è vuoto ma saturo di campo residuo: la presenza precedente è ancora attiva",
+      "kokyu": "il ritmo è graduale: latenza → riattivazione → stabilizzazione parziale",
+      "yūgen": "l'abbandono non viene cancellato ma incorporato come qualità estetica permanente",
+      "affects": {
+        "scene-05": "la riattivazione dei teatri genera la rete comunitaria delle ballerinette"
+      },
+      "textual_anchor_it": "ridà vita ai vecchi teatri abbandonati, trasformandoli in luoghi di bellezza e armonia.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "scene-05",
+      "label": "comunita_luce_mondo",
+      "type": "community_field",
+      "basho": "la comunità è una rete mobile di teatri riattivati: non un luogo ma una propagazione",
+      "kokyu": "il ritmo è sincronico: individuo → gruppo → campo collettivo distribuito",
+      "yūgen": "la luce non è metafora ma effetto emergente del campo danzante collettivo",
+      "affects": {
+        "scene-01": "la comunità retroagisce sull'origine: l'albero diventa principio continuamente confermato"
+      },
+      "textual_anchor_it": "Insieme, illumineranno il mondo con la magia dell'arte.",
+      "glossary_link": ["kokyu", "basho"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "metamorfico con retroazione circolare",
+    "narrative_model": "ogni scena è uno stato del medesimo campo di trasformazione: immobilità → frattura → movimento → residuo → comunità",
+    "retroactive_causality": true,
+    "global_effect": "la comunità finale stabilizza retroattivamente l'origine senza risolverla"
+  }
+}
