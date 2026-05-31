@@ -1,0 +1,132 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "mythic_threshold": "passaggio tra stati dell'essere attraverso agente mitico",
+    "material_metamorphosis": "trasformazione della sostanza fisica degli oggetti",
+    "collective_formation": "transizione da individuale a comunitario",
+    "residual_activation": "riemersione del precedente stato come tensione attiva"
+  },
+  "editorial_principle": "Le transizioni sono irreversibili ma non pulite: ogni passaggio conserva una traccia attiva dello stato precedente come tensione percettiva permanente.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "pensiero_albero",
+      "label_en": "thought_to_tree",
+      "type": "mythic_threshold",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "il disegno non rappresenta l'albero: ne attiva la possibilità ontologica",
+      "kokyu": "il tempo precede la consapevolezza del gesto",
+      "yūgen": "l'albero è già attivo prima della sua immagine",
+      "affects": {
+        "transition-02": "la ricerca non è conseguenza ma prosecuzione del disegno"
+      },
+      "textual_anchor_it": "Tutto è cominciato con un mio disegno tracciato a carboncino su un foglio bianco.",
+      "glossary_link": ["ma", "basho"]
+    },
+    {
+      "id": "transition-02",
+      "label": "corteccia_carne",
+      "label_en": "bark_to_flesh",
+      "type": "material_metamorphosis",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la corteccia non si rompe: perde la sua funzione di confine",
+      "kokyu": "il passaggio è continuo, non istantaneo",
+      "yūgen": "la memoria del legno resta nel corpo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la rigidità originaria rimane come struttura interna del movimento"
+      },
+      "affects": {
+        "transition-02b": "la liberazione non elimina la forma precedente: la trasforma in gesto"
+      },
+      "textual_anchor_it": "Le lignee figure tolte all'albero iniziarono ad ammorbidirsi e poi a respirare.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "transition-02b",
+      "label": "intervento_angelo",
+      "label_en": "angel_intervention",
+      "type": "mythic_threshold",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "l'angelo non libera: interrompe la fissazione del campo",
+      "kokyu": "la tempesta è il linguaggio della discontinuità",
+      "yūgen": "non è distinguibile se sia salvezza o rottura",
+      "affects": {
+        "transition-02": "la corteccia diventa instabile sotto pressione atmosferica"
+      },
+      "textual_anchor_it": "quello che ho creduto potesse essere un angelo oppure un demone liberatore.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "transition-03",
+      "label": "residuo_silenzio_danza",
+      "label_en": "residual_silence_to_dance",
+      "type": "irreversible",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la danza non cancella il silenzio: lo incorpora come struttura interna del movimento",
+      "kokyu": "ogni gesto nasce da un'assenza precedente",
+      "yūgen": "la danza contiene ancora il corpo immobile come memoria attiva",
+      "affects": {
+        "transition-04": "la danza individuale diventa campo condiviso"
+      },
+      "textual_anchor_it": "trasformando il silenzio in danza, la danza in poesia.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "transition-04",
+      "label": "teatro_comunita",
+      "label_en": "theatre_community",
+      "type": "collective_formation",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il teatro non diventa nuovo: cambia densità d'uso",
+      "kokyu": "la comunità nasce come sincronizzazione instabile",
+      "yūgen": "l'abbandono resta visibile dentro la vita del teatro",
+      "affects": {
+        "transition-05": "la comunità stabilizza temporaneamente la metamorfosi"
+      },
+      "textual_anchor_it": "Dalla musica della natura nasce una comunità unita.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "transition-05",
+      "label": "memoria_residuale",
+      "label_en": "residual_memory",
+      "type": "suspended",
+      "intensity": 0.89,
+      "perceptual_weight": 0.9,
+      "basho": "nessuna trasformazione elimina ciò che la precede",
+      "kokyu": "il tempo si stratifica, non si sostituisce",
+      "yūgen": "ogni forma contiene la sua versione precedente come ombra attiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la prigionia, la corteccia e il silenzio restano presenti nella danza finale"
+      },
+      "textual_anchor_it": "L'arrivo dell'Angelo della Salvezza dona vita a queste figure, trasformando il silenzio in danza, la danza in poesia.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione è irreversibile ma stratificata",
+    "effect": "il sistema non evolve linearmente: accumula stati simultanei"
+  }
+}
