@@ -1,0 +1,94 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "editorial_purpose": {
+    "function": "linearizzare un sistema di metamorfosi fisiche irreversibili mantenendo attiva la coesistenza tra stato presente e memoria dello stato precedente",
+    "constraint": "ogni scena deve rendere visibile il campo trasformato che la precede: la corteccia nella carne, il silenzio nel movimento, l'abbandono nella riattivazione"
+  },
+  "reading_principle": {
+    "rule_01": "il disegno a carboncino non rappresenta l'origine: è il primo evento operativo del sistema",
+    "rule_02": "l'angelo/demone non produce morale ma soglia: la liberazione non si chiude in interpretazione",
+    "rule_03": "la memoria della corteccia permane come tensione cinetica nel corpo danzante",
+    "rule_04": "il teatro abbandonato non viene restaurato ma riattivato come campo residuo attivo",
+    "rule_05": "testo e immagine condividono la stessa matrice percettiva: autrice e illustratrice sono un unico campo operativo"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "enchanted_field_activation",
+      "note": "l'albero con figure incise nella corteccia definisce il campo originario permanente da cui deriva ogni trasformazione successiva"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "mythic_threshold_crossing",
+      "note": "la tempesta opera come discontinuità assoluta: non transizione ma frattura irreversibile del campo"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "first_movement_field",
+      "note": "i rami dell'albero costituiscono il primo spazio post-prigionia: zona ibrida tra natura e gesto danzante"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "residual_space_reactivation",
+      "note": "il teatro abbandonato si riattiva come campo latente già saturo di memoria performativa"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "community_field_expansion",
+      "note": "la comunità espande il campo oltre il teatro e lo retroattiva sull'origine arborea"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni luogo è una forma stabilizzata del campo di trasformazione: albero, tempesta, rami, teatro, rete comunitaria",
+      "constraint": "nessuno spazio è neutro: ogni ambiente contiene la sua storia trasformativa come presenza attiva"
+    },
+    "kokyu": {
+      "rule": "il ritmo alterna compressione (maleficio) e rilascio (danza) senza mai stabilizzarsi definitivamente",
+      "effect": "il lettore attraversa la stessa oscillazione percettiva delle figure tra immobilità e movimento"
+    },
+    "yūgen": {
+      "rule": "la figura dell'angelo/demone rimane ontologicamente indeterminata",
+      "effect": "la liberazione non produce chiarimento ma intensificazione della domanda"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati che organizzano la percezione del sistema",
+    "contains": [
+      "memoria della corteccia come tensione permanente nel gesto coreografico",
+      "campo teatrale italiano come infrastruttura culturale implicita (tradizione scenica e visiva)",
+      "interferenze iconografiche non dichiarate (Degas, linguaggi coreografici moderni, immaginario illustrato europeo)",
+      "unità percettiva autrice-illustratrice come singolo dispositivo generativo del sistema"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "impossibilità di distinguere nettamente tra prigionia e liberazione: ogni movimento conserva la propria origine vegetale",
+    "perceptual_residue": "il silenzio del maleficio persiste come struttura interna del ritmo corporeo",
+    "temporal_effect": "ogni spazio teatrale abbandonato incontrato successivamente riattiva il campo del sistema narrativo"
+  },
+  "meta_layer": {
+    "system_note": "dispositivo narrativo fiabesco a funzione percettiva: la fiaba opera come modello di trasformazione del corpo e della percezione artistica",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "series_connection": "il teatro abbandonato funziona come nodo di continuità con sistemi urbani residui (Milano Fantastica) e con il campo della riattivazione estetica"
+  }
+}
