@@ -1,0 +1,104 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "silence_types": {
+    "structural": "silenzio strutturale permanente del sistema",
+    "residual": "effetto persistente di un evento non risolto",
+    "productive": "silenzio che genera interpretazione senza chiusura",
+    "enchanted": "silenzio imposto da campo esterno come forma di prigionia",
+    "post_metamorphic": "silenzio che persiste come memoria della trasformazione"
+  },
+  "editorial_principle": "Il silenzio non è assenza ma condizione attiva del campo. In Le mie ballerinette il silenzio precede, sostiene e sopravvive alla trasformazione: non viene eliminato dalla liberazione ma ristrutturato come forma ritmica della vita post-maleficio.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "silenzio_del_maleficio",
+      "label_en": "enchantment_silence",
+      "type": "enchanted",
+      "intensity": 0.98,
+      "perceptual_weight": 1.0,
+      "basho": "il silenzio del maleficio è un campo di pressione continua: non sospende il suono, sospende la possibilità stessa del gesto",
+      "kokyu": "il ritmo è annullato: non esiste successione, solo permanenza senza variazione",
+      "yūgen": "la danza è già contenuta nel silenzio come forma compressa al limite della sua non-espressione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la liberazione non cancella il silenzio del maleficio: lo trasforma in memoria strutturale del movimento"
+      },
+      "affects": {
+        "silence-03": "la liberazione non elimina il silenzio ma lo converte in pausa ritmica della danza"
+      },
+      "textual_anchor_it": "Così per secoli e secoli… immobili come teatri in disuso, rifugio di fantasmi e pipistrelli.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "silence-02",
+      "label": "silenzio_del_teatro_abbandonato",
+      "label_en": "abandoned_theatre_silence",
+      "type": "residual",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il teatro abbandonato non è vuoto: è pieno di silenzio stratificato, deposito delle performance non più visibili",
+      "kokyu": "il ritmo è sospeso ma stratificato: ogni strato temporale coesiste senza interazione",
+      "yūgen": "il silenzio del teatro è ciò che permette la riattivazione: non ostacolo ma condizione latente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche dopo la riattivazione il silenzio dell'abbandono resta come strato inferiore del campo teatrale"
+      },
+      "affects": {
+        "silence-01": "il silenzio architettonico rispecchia il silenzio del maleficio come forme diverse della stessa compressione"
+      },
+      "textual_anchor_it": "costruzioni diverse, antiche e vuote, resti di luoghi abbandonati o mai abitati.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "silence-03",
+      "label": "pausa_nella_danza",
+      "label_en": "dance_pause",
+      "type": "post_metamorphic",
+      "intensity": 0.86,
+      "perceptual_weight": 0.84,
+      "basho": "la pausa non interrompe la danza: ne rivela la memoria materiale della prigionia originaria",
+      "kokyu": "il ritmo è interno: compressione → rilascio → risonanza",
+      "yūgen": "nel vuoto della pausa riemerge la corteccia come traccia non cancellata del corpo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la pausa conserva il silenzio del maleficio come componente strutturale del linguaggio coreografico"
+      },
+      "textual_anchor_it": "L'arrivo dell'Angelo della Salvezza dona vita a queste figure, trasformando il silenzio in danza, la danza in poesia.",
+      "glossary_link": ["ma", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "silenzio_dell_origine",
+      "label_en": "origin_silence",
+      "type": "productive",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "il foglio bianco non è vuoto: è un campo di silenzio produttivo che precede ogni forma",
+      "kokyu": "il ritmo è pre-temporale: apertura assoluta senza evento",
+      "yūgen": "il silenzio originario contiene simultaneamente tutte le possibili immagini e nessuna forma stabilizzata",
+      "textual_anchor_it": "Tutto è cominciato con un mio disegno tracciato a carboncino su un foglio bianco.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "recursive_nodes": ["silence-03"],
+    "narrative_model": "il silenzio è una struttura materiale del campo: non viene eliminato dalla trasformazione ma riorganizzato in forme successive (maleficio → teatro → danza → origine)",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1"
+  }
+}
