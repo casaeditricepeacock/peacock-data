@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "mythic": "rituale che replica un archetipo universale",
+    "diplomatic": "rituale che regola i rapporti tra entità di diversa natura",
+    "punitive": "rituale che produce trasformazione attraverso la punizione collettiva"
+  },
+  "editorial_principle": "Il rituale in La medusa e la scimmia è sempre fallibile. Il consiglio del Re Drago non produce la soluzione giusta, la missione della medusa fallisce, la punizione produce l'effetto opposto a quello previsto. Ogni rituale è un sistema che genera conseguenze non intenzionali.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "consiglio_del_re_drago",
+      "label_en": "dragon_king_council",
+      "type": "diplomatic",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "il consiglio è lo spazio in cui la gerarchia cerca una soluzione impossibile: il campo è quello dell'autorità che non sa",
+      "kokyu": "il ritmo è quello della deliberazione formale: convocazione → candidature → scelta per esclusione",
+      "yūgen": "la scelta della medusa non è la soluzione migliore ma la meno peggio: il campo decisionale è già compromesso",
+      "affects": {
+        "ritual-02": "il consiglio produce la missione impossibile come unica opzione disponibile"
+      },
+      "textual_anchor_it": "Re Drago riunì un consiglio con tutta la Corte per le consultazioni. Si cercavano dei volontari.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "missione_impossibile",
+      "label_en": "impossible_mission",
+      "type": "mythic",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la missione non ha una destinazione chiara: la medusa parte senza sapere dove andare",
+      "kokyu": "il ritmo è quello del viaggio per iterazioni: nuota, chiede, riceve indicazioni, riparte",
+      "yūgen": "la medusa parte senza comprendere pienamente la natura della richiesta: il viaggio precede la consapevolezza",
+      "affects": {
+        "ritual-03": "il viaggio produce incontri casuali che costruiscono la struttura della missione"
+      },
+      "textual_anchor_it": "la Corte insistette così tanto che alla fine la Medusa si persuase con le buone e con le cattive a mettersi in viaggio.",
+      "glossary_link": ["kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "incontri_del_viaggio",
+      "label_en": "journey_encounters",
+      "type": "codified",
+      "intensity": 0.85,
+      "perceptual_weight": 0.83,
+      "basho": "ogni incontro nel viaggio è una stazione: il pesce pagliaccio, la rana pescatrice — il campo si costruisce per accumulo",
+      "kokyu": "il ritmo è quello della fiaba: chiedi → ricevi indicazione → riparti; la struttura si ripete con variazioni",
+      "yūgen": "ogni creatura incontrata conosce la risposta parziale: nessuna ha la risposta completa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni creatura incontrata possiede solo una conoscenza parziale; il sistema non produce mai una visione totale del percorso"
+      },
+      "affects": {
+        "ritual-04": "gli incontri portano la medusa all'isola delle scimmie e all'amicizia involontaria"
+      },
+      "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "amicizia_e_lapsus",
+      "label_en": "friendship_and_slip",
+      "type": "involuntary",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "tra mare e isola nasce uno spazio relazionale inatteso: il luogo reale del racconto non è il Regno del Drago ma il tragitto condiviso tra Medusa e Scimmia",
+      "kokyu": "il ritmo è quello della conversazione che svela troppo: naturale → incauto → irreversibile",
+      "yūgen": "la medusa è sollevata per la sorte della scimmia anche quando ha fallito la missione: il campo emotivo è più ricco di quello narrativo",
+      "affects": {
+        "ritual-05": "il fallimento della missione produce la punizione che genera la metamorfosi"
+      },
+      "textual_anchor_it": "nel più profondo del suo animo gentile, era sollevata per la sorte della Scimmia, di cui si era fatta amica durante il viaggio.",
+      "glossary_link": ["mono no aware", "kokyu"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "punizione_collettiva",
+      "label_en": "collective_punishment",
+      "type": "punitive",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la corte del Re Drago agisce come meccanismo di riequilibrio: il fallimento della missione produce una trasformazione permanente che viene inscritta nel corpo della medusa",
+      "kokyu": "il ritmo è quello della folla che giudica: il singolo non ha difesa contro il collettivo",
+      "yūgen": "la punizione genera una forma più bella di quella originaria: il sistema corregge l'errore attraverso una perdita",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la punizione è irreversibile ma produce un campo estetico superiore: il sistema non può recuperare il risultato intenzionato"
+      },
+      "textual_anchor_it": "la povera Medusa, malmenata, si ritrovò senza più ossa, ed è così che rimase per sempre.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-04",
+    "narrative_model": "catena relazionale: incarico → viaggio → incontri → amicizia → errore linguistico → metamorfosi",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
