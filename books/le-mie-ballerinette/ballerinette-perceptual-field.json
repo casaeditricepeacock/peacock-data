@@ -1,0 +1,91 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "The system does not represent a fairy tale but a set of coupled perceptual fields in which transformation, memory, and activation are structural properties rather than narrative events.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_del_maleficio",
+      "type": "temporal_field",
+      "basho": "the enchantment is a persistent structural condition: tree, bark, and silence coexist as simultaneous states rather than sequential phases",
+      "kokyu": "time is suspended; immobility is not duration but constraint without temporal direction",
+      "yūgen_level": 0.94,
+      "activation_condition": "tree presence + recognition of embedded figures",
+      "persistence_rule": "persists while tree-water coupling remains active",
+      "dissolution_rule": "only dissolves via mythic threshold event (storm + liberating agent)",
+      "field_logic": "enchantment_as_structural_state",
+      "textual_anchor_it": "come immobilizzate durante un passo di danza da un maleficio che le teneva prigioniere."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_della_metamorfosi",
+      "type": "transformation_field",
+      "basho": "bark and flesh are not opposites but gradients of a single material continuum",
+      "kokyu": "transformation compresses centuries of immobility into a single irreversible event",
+      "yūgen_level": 0.97,
+      "activation_condition": "storm + liberating agent + active enchantment field",
+      "persistence_rule": "persists as embodied memory in all subsequent movement",
+      "dissolution_rule": "non-dissolvable; becomes structural tension in dance",
+      "field_logic": "irreversible_material_memory",
+      "affects": {
+        "field-01": "transforms enchantment into embodied memory rather than canceling it",
+        "field-03": "extends activation into residual urban spaces"
+      },
+      "textual_anchor_it": "Le lignee figure tolte all'albero iniziarono ad ammorbidirsi e poi a respirare."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_del_teatro_abbandonato",
+      "type": "residual_field",
+      "basho": "the abandoned theatre is a saturated residual system: presence is extracted, not added",
+      "kokyu": "latency is the dominant temporal regime; activation is punctual, not continuous",
+      "yūgen_level": 0.91,
+      "activation_condition": "arrival of liberated figures + recognition of spatial belonging",
+      "persistence_rule": "persists through ritual repetition of collective performance",
+      "dissolution_rule": "partial regression possible, never total erasure",
+      "field_logic": "latent_activation_residue",
+      "textual_anchor_it": "costruzioni diverse, antiche e vuote, resti di luoghi abbandonati o mai abitati."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_autrice_immagine",
+      "type": "creative_field",
+      "basho": "author and illustrator are a single generative system: drawing is not origin but first activation of the narrative field",
+      "kokyu": "creation follows the same rhythm as transformation: involuntary gesture → recognition → retroactive meaning",
+      "yūgen_level": 0.89,
+      "activation_condition": "collapse of distinction between visual and textual production",
+      "persistence_rule": "persists as unified authorial field across media",
+      "dissolution_rule": "collapses if writing and image are separated into independent systems",
+      "field_logic": "undivided_creative_act",
+      "textual_anchor_it": "Tutto è cominciato con un mio disegno tracciato a carboncino su un foglio bianco seguendo le onde dei miei pensieri."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "fairy_tale_as_children_literature",
+      "enchantment_as_plot_device",
+      "abandoned_theatre_as_empty_space",
+      "text_and_image_as_separate_productions"
+    ],
+    "system_behavior": "fields operate as coupled constraints: each transformation leaves irreversible structural residue across the system"
+  }
+}
