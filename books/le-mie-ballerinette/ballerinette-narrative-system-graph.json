@@ -1,0 +1,173 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a circular metamorphic engine: each element retains the memory of its prior state as active structural tension. Transformation is irreversible (bark → flesh, silence → dance, abandonment → community), but the origin field is never deleted. The cycle closes only as retroactive confirmation of its origin (the tree), never as resolution.",
+  "node_classes": {
+    "scene": "transformation_state_anchor",
+    "object": "metamorphic_field_activator",
+    "ritual": "threshold_crossing_device",
+    "transition": "irreversible_state_operator",
+    "silence": "compressed_life_field",
+    "weather": "transformation_atmosphere_agent",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05","object-06"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-02b","transition-03","transition-04","transition-05"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "closed_recursive_cycle",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "maleficio_liberazione_ciclo",
+        "nodes": ["object-01","object-02","scene-01","scene-02","weather-02"],
+        "type": "enchantment_liberation_cycle",
+        "stability": "irreversible_threshold",
+        "propagation_logic": "tree_holds_angel_liberates_bark_becomes_flesh",
+        "description": "The enchantment-liberation loop is the system's generative core: irreversible in direction, persistent in memory. The angel/demon does not resolve morality but triggers state transition without closure."
+      },
+      {
+        "id": "loop-02",
+        "label": "silenzio_danza_ritmo",
+        "nodes": ["silence-01","transition-03","scene-03","ritual-04"],
+        "type": "silence_to_dance_loop",
+        "stability": "metastable",
+        "propagation_logic": "compressed_silence_becomes_rhythmic_structure_without_disappearing",
+        "description": "Silence is not negated but redistributed as temporal structure inside movement; dance is silence reorganized into rhythm."
+      },
+      {
+        "id": "loop-03",
+        "label": "abbandono_comunita_teatro",
+        "nodes": ["object-03","scene-04","ritual-05","silence-02"],
+        "type": "abandoned_space_reactivation_loop",
+        "stability": "metastable",
+        "propagation_logic": "latent_theatre_field_activated_by_collective_presence",
+        "description": "The abandoned theatre is a compressed historical field; the community does not fill it but releases its stored performative density."
+      },
+      {
+        "id": "loop-04",
+        "label": "autrice_illustratrice_testo_immagine",
+        "nodes": ["ritual-01","scene-01"],
+        "type": "creative_identity_loop",
+        "stability": "stable",
+        "propagation_logic": "single_hand_generates_text_and_image_as_unified_perceptual_system",
+        "description": "Author and illustrator are a single operative field: drawing is not paratext but first manifestation of narrative causality."
+      },
+      {
+        "id": "loop-05",
+        "label": "comunita_albero_retroazione",
+        "nodes": ["scene-05","scene-01","object-01"],
+        "type": "circular_return_loop",
+        "stability": "stable",
+        "propagation_logic": "community_retroactively_reconstructs_origin_as_necessary_field_condition",
+        "description": "Closure is not finality but retroactive confirmation: the community produces the tree as origin by returning to it as inevitability."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "origin_field_persistence",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "metamorphic_memory_maintenance"
+    },
+    {
+      "from": "weather-02",
+      "to": "transition-02",
+      "effect": "storm_enables_metamorphosis",
+      "propagation_mode": "irreversible",
+      "intensity": 0.97,
+      "stability_impact": "bark_flesh_threshold_activation"
+    },
+    {
+      "from": "silence-01",
+      "to": "silence-03",
+      "effect": "enchantment_silence_becomes_dance_pause",
+      "propagation_mode": "recursive",
+      "intensity": 0.92,
+      "stability_impact": "silence_integration_into_rhythm"
+    },
+    {
+      "from": "object-03",
+      "to": "scene-04",
+      "effect": "latent_field_activation",
+      "propagation_mode": "residual",
+      "intensity": 0.91,
+      "stability_impact": "abandoned_space_reactivation"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "community_confirms_origin",
+      "propagation_mode": "retroactive",
+      "intensity": 0.88,
+      "stability_impact": "circular_system_closure_without_resolution"
+    },
+    {
+      "from": "object-06",
+      "to": "all",
+      "effect": "suspended_dance_field_persistence",
+      "propagation_mode": "non_local",
+      "intensity": 0.95,
+      "stability_impact": "dance_as_cross_state_connector"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "metamorphic_metastable",
+    "allowed_mutations": [
+      "enchantment_compression",
+      "liberation_threshold_crossing",
+      "bark_flesh_metamorphosis",
+      "silence_to_dance_transformation",
+      "abandonment_to_community_activation",
+      "circular_return"
+    ],
+    "forbidden_states": [
+      "enchantment_fully_resolved",
+      "bark_memory_erased",
+      "theatre_as_empty_container",
+      "text_and_image_as_separate_productions",
+      "fairy_tale_as_children_literature"
+    ]
+  },
+  "system_tension": {
+    "imprisonment_vs_freedom": 1.0,
+    "nature_vs_culture": 0.94,
+    "silence_vs_dance": 0.96,
+    "abandonment_vs_community": 0.91,
+    "angel_vs_demon": 0.89,
+    "memory_vs_transformation": 0.93
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "metamorphic_metastable",
+    "closure": false,
+    "closure_type": "circular_without_resolution",
+    "system_behavior": "each element retains the memory of its prior state as active structural tension. The system progresses through irreversible transformations while continuously reasserting its origin field. The tree is not a starting point but a persistent constraint on all subsequent states.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "milano_fantastica": "abandoned_theatre field — shared residual-space operator reactivated by artistic presence",
+      "principle": "Le mie ballerinette functions as a mythic-metamorphic complement to the urban-stratification model of the Guide Fantastiche series"
+    }
+  }
+}
