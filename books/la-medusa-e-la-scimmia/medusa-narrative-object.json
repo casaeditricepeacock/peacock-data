@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024,
+    "language": ["it","ja"]
+  },
+  "editorial_principle": "Ogni oggetto del sistema produce conseguenze sproporzionate rispetto alla propria dimensione materiale. La fiaba non è costruita sulla forza o sull'eroismo ma sull'instabilità del linguaggio: una parola detta nel momento sbagliato altera definitivamente il destino dei personaggi.",
+  "object_types": {
+    "absent_generator": "oggetto mai posseduto che genera l'intero sistema",
+    "linguistic_operator": "elemento verbale che modifica il campo narrativo",
+    "authority_field": "oggetto o luogo che produce ordini e gerarchie",
+    "metamorphic_body": "corpo trasformato che conserva memoria dello stato precedente",
+    "editorial_time_capsule": "oggetto che connette epoche differenti"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "fegato_di_scimmia",
+      "label_en": "monkey_liver",
+      "type": "absent_generator",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "l'oggetto non compare mai fisicamente ma determina ogni movimento del sistema",
+      "kokyu": "richiesta → ricerca → fallimento → trasformazione",
+      "yūgen": "la sua assenza è più potente della presenza di qualsiasi altro oggetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il fegato non viene ottenuto e continua a esistere come mancanza strutturale"
+      },
+      "affects": {
+        "object-02": "genera il lapsus che rivela il segreto",
+        "object-04": "attiva la trasformazione finale della medusa"
+      },
+      "textual_anchor_it": "Qui serve del fegato di scimmia!",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "lapsus_fegato_fiato",
+      "label_en": "linguistic_slip",
+      "type": "linguistic_operator",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "il lapsus non occupa uno spazio fisico ma una soglia percettiva",
+      "kokyu": "stabilità narrativa → errore linguistico → collasso del piano",
+      "yūgen": "una differenza minima tra due parole produce una differenza massima nel destino",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la parola pronunciata non può essere ritirata"
+      },
+      "affects": {
+        "object-03": "rende impossibile il successo della missione",
+        "object-04": "trasforma il fallimento in metamorfosi"
+      },
+      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "object-03",
+      "label": "regno_del_drago",
+      "label_en": "dragon_kingdom",
+      "type": "authority_field",
+      "intensity": 0.90,
+      "perceptual_weight": 0.87,
+      "basho": "campo gerarchico da cui nasce la richiesta impossibile",
+      "kokyu": "ordine → esecuzione → giudizio",
+      "yūgen": "l'autorità genera conseguenze che non è in grado di prevedere",
+      "affects": {
+        "object-01": "istituisce la ricerca del fegato",
+        "object-04": "produce la punizione"
+      },
+      "textual_anchor_it": "C'era una volta un regno nel fondo dei mari, dove viveva il Re Drago nella sua corte di esseri fatati e pesci d'ogni sorta.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "object-04",
+      "label": "medusa_senza_ossa",
+      "label_en": "boneless_jellyfish",
+      "type": "metamorphic_body",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il corpo trasformato diventa archivio della storia",
+      "kokyu": "corpo originario → perdita → nuova forma",
+      "yūgen": "la punizione produce una bellezza inattesa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'assenza delle ossa resta iscritta nella forma finale"
+      },
+      "affects": {
+        "object-01": "chiude il ciclo generato dall'oggetto assente"
+      },
+      "textual_anchor_it": "si ritrovò senza più ossa, ed è così che rimase per sempre.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "object-05",
+      "label": "archivio_illustrato_vintage",
+      "label_en": "vintage_illustration_archive",
+      "type": "editorial_time_capsule",
+      "intensity": 0.88,
+      "perceptual_weight": 0.92,
+      "basho": "campo editoriale esterno alla fiaba ma interno al libro",
+      "kokyu": "anni Ottanta → fotografia analogica → pubblicazione contemporanea",
+      "yūgen": "le immagini mantengono visibile il tempo della loro origine",
+      "affects": {
+        "object-03": "rafforza la percezione mitica e senza tempo del regno subacqueo"
+      },
+      "textual_anchor_it": "fotografare i disegni per restituire quell'aspetto 'vintage' e genuino delle pubblicazioni degli anni Ottanta e Novanta.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-02",
+    "narrative_model": "errore linguistico → fallimento → metamorfosi",
+    "core_mechanism": "la parola modifica il corpo",
+    "unresolved_fields": ["object-01"],
+    "catalog_connection": {
+      "ballerinette": "trasformazione irreversibile del corpo",
+      "ryokan": "presenza di campi percettivi che sopravvivono alla conclusione narrativa",
+      "odabooks": "reinterpretazione contemporanea di una fiaba tradizionale giapponese"
+    }
+  }
+}
