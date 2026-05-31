@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "liberation_storm": "tempesta come agente di soglia irreversibile",
+    "enchantment_silence": "silenzio come campo di compressione attiva",
+    "natural_music": "campo sonoro emergente dalla liberazione del sistema vivente",
+    "light_field": "luce come instabilità percettiva della rinascita"
+  },
+  "editorial_principle": "Il clima non descrive lo spazio: lo trasforma. Ogni fenomeno atmosferico è un operatore che modifica la struttura degli oggetti, dei rituali e delle transizioni.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "silenzio_del_maleficio",
+      "label_en": "enchantment_silence",
+      "type": "enchantment_silence",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il silenzio è un campo attivo di compressione: trattiene la possibilità del movimento senza annullarla",
+      "kokyu": "la durata è senza variazione ma non è statica: accumula potenziale",
+      "yūgen": "ogni silenzio contiene già la sua rottura",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il silenzio persiste come struttura di fondo anche dopo la liberazione"
+      },
+      "affects": {
+        "weather-02": "il silenzio non viene distrutto dalla tempesta: ne viene utilizzato come energia compressa",
+        "transition-03": "ogni danza conserva il proprio silenzio interno"
+      },
+      "textual_anchor_it": "Così per secoli e secoli… immobili come teatri in disuso.",
+      "glossary_link": ["ma", "mono no aware"]
+    },
+    {
+      "id": "weather-02",
+      "label": "tempesta_liberatrice",
+      "label_en": "liberation_storm",
+      "type": "liberation_storm",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la tempesta non apre il mondo: cambia lo stato fisico del campo",
+      "kokyu": "compressione → soglia → discontinuità → riassetto",
+      "yūgen": "l'agente della liberazione non è separabile dalla distruzione che produce",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la tempesta resta come evento non ripetibile che continua a condizionare il sistema"
+      },
+      "affects": {
+        "weather-03": "la musica non nasce dopo la tempesta: nasce dalla sua dissipazione",
+        "transition-02b": "l'angelo/demone è un effetto secondario della soglia atmosferica"
+      },
+      "textual_anchor_it": "finchè giunse in una notte di tempesta, tra saette e tuoni.",
+      "glossary_link": ["kokyu", "yūgen"]
+    },
+    {
+      "id": "weather-03",
+      "label": "musica_della_natura",
+      "label_en": "natural_music",
+      "type": "natural_music",
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
+      "basho": "la natura non produce suono: produce organizzazione del caos residuo",
+      "kokyu": "il ritmo è instabile ma coerente con la nuova configurazione del campo",
+      "yūgen": "la musica è la forma udibile del dopo-tempesta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nella musica resta una traccia della compressione precedente"
+      },
+      "affects": {
+        "weather-01": "la musica retroagisce sul silenzio, riducendone la densità",
+        "weather-04": "la luce non segue la musica: la distorce"
+      },
+      "textual_anchor_it": "Dalla musica della natura nasce una comunità unita.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "weather-04",
+      "label": "luce_della_rinascita",
+      "label_en": "rebirth_light",
+      "type": "light_field",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "la luce non illumina: stabilizza temporaneamente un campo instabile",
+      "kokyu": "l'alba è una fase, non un risultato",
+      "yūgen": "la rinascita non cancella ciò che precede: lo rende visibile contemporaneamente",
+      "affects": {
+        "transition-04": "la luce non chiude la trasformazione: la rende collettiva e osservabile"
+      },
+      "textual_anchor_it": "Insieme, illumineranno il mondo con la magia dell'arte.",
+      "glossary_link": ["yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-02",
+    "system_role": "climate_as_active_operator",
+    "structural_change": "introduction_of_retroactive_weather_effects",
+    "compatibility": "fully aligned with NarrativeSystemGraph v4.1"
+  }
+}
