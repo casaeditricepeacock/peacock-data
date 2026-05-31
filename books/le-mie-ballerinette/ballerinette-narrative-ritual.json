@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Le mie ballerinette",
+    "author": "Cristina Gastel",
+    "illustrator": "Cristina Gastel",
+    "preface": "Alessandro Quasimodo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-11-0",
+    "year": 2025
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "mythic": "rituale che replica un archetipo universale",
+    "collective": "rituale che fonda comunità attraverso la ripetizione condivisa"
+  },
+  "editorial_principle": "Il rituale non organizza lo spazio ma il tempo della trasformazione. Ogni gesto produce una variazione irreversibile del campo: custodia, ricerca, rottura, emersione, comunità.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "disegno_a_carboncino",
+      "label_en": "charcoal_drawing",
+      "type": "involuntary",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "il foglio bianco è un campo in attesa di attivazione percettiva",
+      "kokyu": "il segno nasce come oscillazione del pensiero prima della forma",
+      "yūgen": "il disegno contiene già ciò che ancora non è stato nominato",
+      "affects": {
+        "ritual-02": "attiva la ricerca come necessità percettiva"
+      },
+      "textual_anchor_it": "Tutto è cominciato con un mio disegno tracciato a carboncino su un foglio bianco seguendo le onde dei miei pensieri.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "ricerca_dell_albero",
+      "label_en": "search_for_the_tree",
+      "type": "mythic",
+      "intensity": 0.87,
+      "perceptual_weight": 0.85,
+      "basho": "l'albero cercato è distribuito: ogni albero antico può essere il centro",
+      "kokyu": "la ricerca procede per iterazioni di riconoscimento",
+      "yūgen": "la localizzazione è sempre incompleta per definizione",
+      "affects": {
+        "ritual-03": "la ricerca rende possibile l'evento della tempesta"
+      },
+      "textual_anchor_it": "Alberi di questo genere erano presenti in ogni parte del globo dove in profondità invisibile scorresse un filo d'acqua magica e viva.",
+      "glossary_link": ["basho", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "notte_della_tempesta",
+      "label_en": "storm_night",
+      "type": "mythic",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la tempesta è condizione di trasformazione del campo",
+      "kokyu": "compressione → soglia → rottura",
+      "yūgen": "l'evento non è ripetibile ma lascia traccia permanente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'evento modifica irreversibilmente la struttura percettiva"
+      },
+      "affects": {
+        "ritual-04": "apre la possibilità del primo movimento libero"
+      },
+      "textual_anchor_it": "finché giunse in una notte di tempesta, tra saette e tuoni.",
+      "glossary_link": ["kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "primo_passo_di_danza",
+      "label_en": "first_dance_step",
+      "type": "collective",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la danza emerge prima dello spazio che la contiene",
+      "kokyu": "tentativo → equilibrio → continuità",
+      "yūgen": "il movimento conserva la memoria della forma che lo imprigionava",
+      "affects": {
+        "ritual-05": "trasforma il gesto individuale in campo condiviso"
+      },
+      "textual_anchor_it": "Le figure liberate sentivano ora l'antico senso di appartenenza.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "riattivazione_del_teatro",
+      "label_en": "theatre_reactivation",
+      "type": "collective",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il teatro è un campo riattivabile dalla presenza",
+      "kokyu": "individuale → corale → comunitario",
+      "yūgen": "il vuoto precedente rimane leggibile nella nuova forma",
+      "textual_anchor_it": "ridà vita ai vecchi teatri abbandonati.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-03",
+    "narrative_model": "catena trasformativa chiusa: attivazione → ricerca → evento → liberazione → comunità",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
