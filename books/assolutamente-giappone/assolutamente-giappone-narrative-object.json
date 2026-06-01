@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "editorial_principle": "Ogni oggetto è simultaneamente materia culturale, dispositivo di potere e campo percettivo stratificato. L'abito non rappresenta: attiva una struttura. Il colore non decora: ordina. Il suono non accompagna: definisce lo spazio.",
+  "object_types": {
+    "hierarchical_field": "oggetto che materializza la struttura del potere come campo percettivo",
+    "persistent_symbol": "oggetto che attraversa tutte le epoche senza perdita di carica semantica",
+    "temporal_archive": "oggetto che contiene simultaneamente più epoche operative",
+    "sonic_field": "campo percettivo generato dal suono come infrastruttura urbana",
+    "paradox_object": "oggetto in cui opposti coesistono senza sintesi"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "kimono",
+      "label_en": "kimono",
+      "type": "temporal_archive",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il kimono non veste il corpo: lo converte in superficie sociale leggibile. È architettura mobile del sé",
+      "kokyu": "il tempo del kimono è non lineare: stratifica epoche imperiali, militari e contemporanee nella stessa superficie tessile",
+      "yūgen": "ciò che appare come abito è in realtà una forma condensata di storia sociale visibile solo parzialmente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni kimono mantiene attivi simultaneamente strati Jōmon, Heian, Edo e Reiwa come presenze non cancellabili"
+      },
+      "affects": {
+        "object-02": "il kimono codifica la grammatica dei colori come sistema gerarchico",
+        "object-05": "l'abito contemporaneo deriva come estensione concettuale del kimono"
+      },
+      "textual_anchor_it": "Eppure, la moda ne è protagonista, sempre.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "colori_proibiti",
+      "label_en": "forbidden_colours",
+      "type": "hierarchical_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il colore non è estetica ma legge: ogni tonalità è una posizione sociale codificata",
+      "kokyu": "il sistema cromatico è una durata normativa: istituito nel VII secolo, ancora attivo nei rituali imperiali",
+      "yūgen": "ciò che è proibito diventa la forma più stabile del desiderio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le tonalità imperiali continuano a operare come infrastruttura percettiva nelle cerimonie contemporanee"
+      },
+      "affects": {
+        "object-01": "il kimono diventa leggibile solo attraverso il sistema dei colori",
+        "object-03": "le bambole archiviano la gerarchia cromatica come memoria incarnata"
+      },
+      "textual_anchor_it": "i colori che la natura regala non potevano slegarsi dalla realtà materiale di un potere politico ordinato in senso verticale.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "object-03",
+      "label": "bambola",
+      "label_en": "doll",
+      "type": "persistent_symbol",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la bambola non appartiene a un'epoca: attraversa rituali funerari, corti imperiali e culture digitali",
+      "kokyu": "il tempo della bambola è iterativo: ogni epoca la ricrea come necessità simbolica di continuità",
+      "yūgen": "la bambola trattiene ciò che il corpo umano non può conservare: memoria, protezione, sospensione del tempo",
+      "activation_condition": "presenza umana in qualsiasi regime storico-culturale",
+      "affects": {
+        "object-04": "la bambola condivide il principio performativo del Bunraku",
+        "object-01": "la forma artificiale riflette il principio del corpo vestito"
+      },
+      "textual_anchor_it": "Ed eccole le bambole entrare in scena, subito, al principio dei tempi.",
+      "glossary_link": ["basho", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-04",
+      "label": "karankoron",
+      "label_en": "geta_sound_field",
+      "type": "sonic_field",
+      "intensity": 0.93,
+      "perceptual_weight": 0.95,
+      "basho": "karankoron è un campo sonoro urbano continuo, prodotto dal movimento rituale dei geta",
+      "kokyu": "il tempo è scandito da un'oscillazione irregolare ma costante: passo, pausa, ripresa",
+      "yūgen": "il suono non è imitazione: è infrastruttura percettiva della città",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il suono permane come eco strutturale indipendente dalla sua emissione fisica"
+      },
+      "affects": {
+        "object-01": "il kimono si traduce in movimento sonoro attraverso il corpo che cammina"
+      },
+      "textual_anchor_it": "karankoron, karankoron, karankoron... il rumore di fondo di un eterno sempre.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "object-05",
+      "label": "abito_concettuale",
+      "label_en": "conceptual_garment",
+      "type": "paradox_object",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "l'abito concettuale non veste: produce una ridefinizione del corpo come campo progettuale",
+      "kokyu": "il ritmo è quello della discontinuità: ogni progetto interrompe la forma precedente della moda",
+      "yūgen": "ciò che conta non è l'abito ma lo spazio tra abito e corpo",
+      "affects": {
+        "object-01": "il kimono si estremizza fino a diventare linguaggio progettuale contemporaneo"
+      },
+      "textual_anchor_it": "La cosa che da sempre mi affascina di più è lo spazio tra un abito e il corpo. Issey Miyake.",
+      "glossary_link": ["yūgen", "ma", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "temporal_span": "13.000 a.C. — Reiwa contemporaneo",
+    "narrative_model": "ogni oggetto è un dispositivo di stratificazione temporale che produce significato attraverso coesistenza di epoche",
+    "series_connection": "Nihon monogatari — sistema coerente di oggetti culturali come campi percettivi"
+  }
+}
