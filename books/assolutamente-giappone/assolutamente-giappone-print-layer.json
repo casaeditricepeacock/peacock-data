@@ -1,0 +1,97 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "editorial_purpose": {
+    "function": "attivare un attraversamento simultaneo di 13.000 anni di cultura giapponese come campo percettivo stratificato, non come sequenza storica",
+    "constraint": "il libro non informa: ristruttura la percezione. Il Giappone non è oggetto ma interferenza cognitiva stabile"
+  },
+  "reading_principle": {
+    "rule_01": "la moda è un linguaggio ontologico: non rappresenta il corpo, lo ridetermina",
+    "rule_02": "ogni epoca è sempre co-attiva: il Reiwa contiene Heian, Jomon e futuro non ancora nominato",
+    "rule_03": "le figure femminili agiscono come infrastrutture invisibili del sistema culturale",
+    "rule_04": "il paradosso non è una tensione: è una forma stabile di realtà",
+    "rule_05": "karankoron è il segnale di continuità percettiva tra tutte le epoche"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "heian_aesthetic_origin_field",
+      "note": "Heian come matrice estetica permanente: colore, rango, poesia come codice strutturale ancora attivo"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "samurai_paradox_field",
+      "note": "il guerriero come sistema estetico: violenza e bellezza coesistono senza gerarchia"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "geisha_ma_field",
+      "note": "la geisha come tecnologia del tempo sospeso: produzione controllata del ma"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "conceptual_fashion_continuity_field",
+      "note": "la moda concettuale come prosecuzione del kimono su scala globale e astratta"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "reiwa_simultaneity_field",
+      "note": "il Reiwa come compressione attiva di tutte le epoche senza sintesi finale"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena è uno spazio autonomo che contiene l'intero sistema in forma latente",
+      "constraint": "la lettura non è progressiva ma stratigrafica: ogni ritorno riattiva tutto"
+    },
+    "kokyu": {
+      "rule": "alternanza tra densità storica e dettaglio sensoriale minimo",
+      "effect": "oscillazione permanente tra sapere e percepire"
+    },
+    "yūgen": {
+      "rule": "ciò che non viene esplicitato è il vero motore strutturale del sistema",
+      "effect": "il testo non chiude mai il significato: lo stabilizza come apertura"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strati percettivi attivi non dichiarati ma operativi",
+    "contains": [
+      "ma come infrastruttura del tempo narrativo",
+      "karankoron come continuità sonora interstorica",
+      "figure femminili come operatori sistemici invisibili",
+      "paradosso come condizione ontologica stabile"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il Giappone non è più leggibile come cultura: è diventato un campo percettivo attivo",
+    "perceptual_residue": "karankoron persiste come eco cognitiva non localizzata",
+    "temporal_effect": "ogni contatto successivo riattiva simultaneamente tutte le epoche del sistema"
+  },
+  "meta_layer": {
+    "system_note": "docu-fiction strutturale: attraversamento non cronologico di 13.000 anni di campo culturale giapponese",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "series_connection": {
+      "Nihon_monogatari_demone_samurai": "singolarità storica — il feudale come campo chiuso",
+      "Nihon_monogatari_assolutamente_giappone": "campo totale simultaneo — tutti i periodi come strati attivi"
+    }
+  }
+}
