@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "ritual_types": {
+    "codified": "sequenza formalizzata e riconoscibile",
+    "seasonal": "rituale che struttura il tempo attraverso micro-variazioni atmosferiche",
+    "vestizione": "trasformazione del corpo tramite abito come sistema percettivo",
+    "purification": "rituale di soglia tra stati del corpo e del tempo",
+    "collective_dissolution": "rituale in cui l'identità individuale si dissolve in una forma condivisa"
+  },
+  "editorial_principle": "Il rituale non rappresenta il Giappone: lo produce come sistema temporale stratificato. Ogni gesto è una misura del tempo, non una sua descrizione.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "settantadue_stagioni",
+      "label_en": "seventy_two_micro_seasons",
+      "type": "seasonal",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il tempo non è continuo ma granulare: 72 micro-stagioni ridefiniscono la percezione del clima come sistema di differenze minime",
+      "kokyu": "il ritmo è quello delle variazioni quasi impercettibili: rugiada, vento, luce, decomposizione",
+      "yūgen": "ogni stagione dura abbastanza poco da non diventare mai concetto, solo percezione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le 72 stagioni continuano a operare come struttura percettiva anche nel Giappone contemporaneo urbano"
+      },
+      "affects": {
+        "ritual-02": "la vestizione si sincronizza alle micro-variazioni stagionali"
+      },
+      "textual_anchor_it": "le stagioni non sono e non potrebbero essere semplicemente quattro.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "kitsuke_vestizione",
+      "label_en": "kitsuke_dressing",
+      "type": "vestizione",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "vestirsi in kimono non è un atto individuale ma una trasformazione del corpo in superficie culturale leggibile",
+      "kokyu": "il ritmo è quello della costruzione stratificata: piega → nodo → tensione → equilibrio",
+      "yūgen": "il corpo scompare come entità autonoma e diventa struttura estetica sociale",
+      "affects": {
+        "ritual-03": "la vestizione prepara la sospensione temporale della cerimonia del tè"
+      },
+      "textual_anchor_it": "kitsuke, meravigliosa e necessaria.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "cha_no_yu",
+      "label_en": "tea_ceremony",
+      "type": "purification",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la cerimonia del tè non è un evento ma un campo di attenzione assoluta distribuito tra oggetti minimi",
+      "kokyu": "il tempo si contrae fino a diventare gesto: versare, attendere, osservare",
+      "yūgen": "la semplicità non elimina la complessità: la rende invisibile ma attiva",
+      "affects": {
+        "ritual-04": "il principio di sospensione rituale si trasferisce nel teatro delle bambole"
+      },
+      "textual_anchor_it": "bollire l'acqua, preparare il tè e berlo.",
+      "glossary_link": ["wabi-sabi", "yūgen", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "hina_matsuri",
+      "label_en": "doll_festival",
+      "type": "collective_dissolution",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "la corte imperiale viene ricostruita in miniatura: il potere diventa disposizione spaziale di oggetti",
+      "kokyu": "il ritmo è quello della gerarchia visuale: posizionamento → ordine → contemplazione",
+      "yūgen": "il male viene delegato a oggetti fragili e lasciato scorrere via con l'acqua",
+      "textual_anchor_it": "hina-nagashi, consegnate alla corrente di un fiume.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "cosplay_bunraku_esteso",
+      "label_en": "cosplay_extended_bunraku",
+      "type": "collective_dissolution",
+      "intensity": 0.86,
+      "perceptual_weight": 0.84,
+      "basho": "il cosplay è la continuazione del teatro di figura: il corpo diventa supporto narrativo per identità multiple",
+      "kokyu": "il ritmo è quello dell'imitazione totale: identificazione → incarnazione → sospensione del sé",
+      "yūgen": "la distinzione tra personaggio e persona si dissolve senza risoluzione",
+      "affects": {
+        "ritual-04": "il cosplay riattiva la logica del teatro rituale delle bambole"
+      },
+      "textual_anchor_it": "E se tutto fosse ancora Bunraku?",
+      "glossary_link": ["yūgen", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "narrative_model": "il rituale come sistema di misura del tempo percepito: il Giappone emerge come struttura temporale più che geografica",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
