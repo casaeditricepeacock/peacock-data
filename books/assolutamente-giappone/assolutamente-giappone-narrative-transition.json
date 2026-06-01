@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "adaptive_absorption": "trasformazione che integra l'esterno senza perdita dell'identità interna",
+    "shock_opening": "rottura storica che apre un nuovo regime percettivo",
+    "paradox_lock": "stabilizzazione di opposti non risolti",
+    "aesthetic_revolution": "trasformazione politica mediata dall'estetica"
+  },
+  "editorial_principle": "Le transizioni non introducono cambiamento nel Giappone: rivelano la sua capacità strutturale di assorbire qualsiasi alterità trasformandola in continuità.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "sinizzazione_strutturale",
+      "label_en": "sino_structural_absorption",
+      "type": "adaptive_absorption",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la cultura cinese non viene adottata: viene riscritta come grammatica interna del Giappone, fino a perdere la propria origine",
+      "kokyu": "il ritmo è quello della sedimentazione storica: importazione → rielaborazione → naturalizzazione",
+      "yūgen": "ciò che è esterno diventa più giapponese del contesto originario senza mai essere cancellato del tutto",
+      "affects": {
+        "transition-02": "definisce il modello operativo per ogni futura apertura esterna"
+      },
+      "textual_anchor_it": "valori estranei al proprio territorio mentale trasformati fino all'oblio dell'origine.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "transition-02",
+      "label": "arrivo_delle_navi_nere",
+      "label_en": "arrival_black_ships",
+      "type": "shock_opening",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "l'orizzonte non è più confine naturale ma superficie violata da tecnologia esterna non assimilata",
+      "kokyu": "il ritmo si spezza: lunga immobilità → comparsa improvvisa → accelerazione storica irreversibile",
+      "yūgen": "il nome 'kurofune' trasforma l'evento in archetipo: la forma linguistica stabilizza lo shock",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le navi nere restano come matrice permanente di ogni modernizzazione successiva"
+      },
+      "affects": {
+        "transition-03": "attiva il processo di accelerazione Meiji come risposta adattiva"
+      },
+      "textual_anchor_it": "quattro fregate a vapore all'orizzonte di Kurihama.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "transition-03",
+      "label": "accelerazione_meiji",
+      "label_en": "meiji_acceleration",
+      "type": "adaptive_absorption",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il Giappone non copia l'Occidente: lo riformatta secondo una propria logica di compatibilità estetica e politica",
+      "kokyu": "il ritmo è quello della modernizzazione compressa: secoli in decenni",
+      "yūgen": "due sistemi di vestizione coesistono senza conflitto reale: wafuku e yōfuku come doppio stato del corpo",
+      "affects": {
+        "transition-04": "produce rifrazione estetica in Europa (Japonisme)"
+      },
+      "textual_anchor_it": "wafuku e yōfuku coesistono come doppio regime percettivo.",
+      "glossary_link": ["basho", "kokyu", "wabi-sabi"]
+    },
+    {
+      "id": "transition-04",
+      "label": "rifrazione_japonisme",
+      "label_en": "japonisme_refraction",
+      "type": "irreversible",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "il Giappone non esporta cultura: produce distorsioni estetiche nei sistemi occidentali che lo reinterpretano",
+      "kokyu": "il ritmo è quello dell'eco culturale: esposizione → reinterpretazione → trasformazione artistica",
+      "yūgen": "l'Occidente vede il Giappone come immagine, ma è già trasformato da esso",
+      "affects": {
+        "transition-05": "attiva la retroazione estetica del modernismo giapponese globale"
+      },
+      "textual_anchor_it": "non si può studiare l'arte giapponese senza diventare più felici e più allegri.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "transition-05",
+      "label": "rivoluzione_iki",
+      "label_en": "iki_elegant_resistance",
+      "type": "aesthetic_revolution",
+      "intensity": 0.91,
+      "perceptual_weight": 0.90,
+      "basho": "la resistenza non è opposizione: è raffinamento del visibile fino a renderlo forma politica implicita",
+      "kokyu": "il ritmo è quello della sottrazione: ornamento → riduzione → eleganza come codice sociale",
+      "yūgen": "la bellezza sobria diventa linguaggio di dissidenza non dichiarata",
+      "textual_anchor_it": "grigio e blu, linee sobrie, leggere.",
+      "glossary_link": ["wabi-sabi", "yūgen", "kokyu"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione esterna viene assorbita e convertita in continuità interna del sistema giapponese",
+    "effect": "l'alterità non si oppone: si dissolve come variazione interna della stessa forma"
+  }
+}
