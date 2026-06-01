@@ -1,0 +1,178 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "system_principle": "The system operates as an inversion engine: every declared goal produces its opposite as its effective outcome. Failure is not deviation but mechanism. The mission is structurally impossible; metamorphosis is structurally inevitable.",
+  "node_classes": {
+    "scene": "inversion_state_anchor",
+    "object": "involuntary_catalyst",
+    "ritual": "fallible_procedure_device",
+    "transition": "unintended_consequence_operator",
+    "silence": "unresolved_moral_field",
+    "weather": "permanent_context_field",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-02b","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05"],
+    "silences": ["silence-01","silence-02","silence-02b","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04","transition-05"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+  "weather_logic": {
+    "principle": "il clima non cambia mai: cambia il corpo che lo attraversa",
+    "dominant_state": "permanent_pressure_field",
+    "rule": "weather fields are not events but ontological conditions; the jellyfish is a modulation of the sea, not an entity within it"
+  },
+  "topology": {
+    "core_field": "object-04",
+    "system_shape": "inversion_chain",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "missione_metamorfosi_inversione",
+        "nodes": ["object-02","scene-01","transition-01","scene-05","object-01"],
+        "type": "mission_inversion_loop",
+        "stability": "irreversible",
+        "propagation_logic": "absence_of_goal_produces_real_transformation",
+        "description": "The missing liver operates as a structural absence that drives the entire system toward punishment-as-creation, culminating in the perfected jellyfish form."
+      },
+      {
+        "id": "loop-02",
+        "label": "lapsus_verita_collasso",
+        "nodes": ["object-04","transition-02","scene-04","silence-02b","silence-03"],
+        "type": "verbal_truth_loop",
+        "stability": "irreversible_threshold",
+        "propagation_logic": "language_operates_independently_from_intent",
+        "description": "The verbal slip is a non-intentional truth operator: once activated, it collapses mission coherence and stabilizes moral suspension. The post-slip silence is the field where reversibility ends."
+      },
+      {
+        "id": "loop-03",
+        "label": "viaggio_incontri_parziali",
+        "nodes": ["scene-02","scene-02b","ritual-03","weather-01","weather-02"],
+        "type": "distributed_knowledge_loop",
+        "stability": "stable",
+        "propagation_logic": "knowledge_is_fragmented_across_entities",
+        "description": "No entity contains full information; the journey is a combinatorial accumulation of partial truths that never resolve into closure."
+      },
+      {
+        "id": "loop-04",
+        "label": "silenzio_trentanni_campo",
+        "nodes": ["silence-02","object-05","transition-05"],
+        "type": "temporal_recovery_loop",
+        "stability": "stable",
+        "propagation_logic": "delayed_publication_intensifies_temporal_field",
+        "description": "Archival delay is not absence but amplification: the thirty-year gap becomes an active aesthetic operator."
+      },
+      {
+        "id": "loop-05",
+        "label": "punizione_bellezza_retroazione",
+        "nodes": ["ritual-05","scene-05","object-01","scene-01"],
+        "type": "retroactive_creation_loop",
+        "stability": "stable",
+        "propagation_logic": "authority_generates_unintended_aesthetic_outcome",
+        "description": "The court's punitive act retroactively reveals itself as the origin of the final perfected form."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-04",
+      "to": "all",
+      "effect": "language_as_global_inversion_trigger",
+      "propagation_mode": "irreversible",
+      "intensity": 1.0,
+      "stability_impact": "systemwide_collapse_of_intentionality"
+    },
+    {
+      "from": "object-02",
+      "to": "object-01",
+      "effect": "absence_drives_morphogenesis",
+      "propagation_mode": "indirect",
+      "intensity": 0.96,
+      "stability_impact": "goal_absence_equals_result_generation"
+    },
+    {
+      "from": "silence-02",
+      "to": "object-05",
+      "effect": "archival_latency_amplifies_temporal_coexistence",
+      "propagation_mode": "residual",
+      "intensity": 0.91,
+      "stability_impact": "dual_time_field_stabilization"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "final_state_rewrites_initial_conditions",
+      "propagation_mode": "retroactive",
+      "intensity": 0.88,
+      "stability_impact": "mission_reclassified_as_unintentional_success"
+    },
+    {
+      "from": "weather-04",
+      "to": "all",
+      "effect": "haiku_as_pre_narrative_structure",
+      "propagation_mode": "non_local",
+      "intensity": 0.87,
+      "stability_impact": "external_poetic_structure_controls_system_initialization"
+    },
+    {
+      "from": "silence-02b",
+      "to": "transition-02",
+      "effect": "post_slip_silence_seals_irreversibility",
+      "propagation_mode": "recursive",
+      "intensity": 0.93,
+      "stability_impact": "point_of_no_return_confirmed"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "inversion_metastable",
+    "allowed_mutations": [
+      "failure_as_success",
+      "accident_as_truth",
+      "punishment_as_creation",
+      "absence_as_engine",
+      "fragmentation_as_knowledge"
+    ],
+    "forbidden_states": [
+      "moral_resolution",
+      "linear_success_of_mission",
+      "pure_negative_metamorphosis",
+      "closure_of_narrative_field",
+      "verbal_slip_as_noise_without_effect"
+    ]
+  },
+  "system_tension": {
+    "mission_vs_metamorphosis": 1.0,
+    "failure_vs_beauty": 0.97,
+    "language_vs_truth": 0.96,
+    "punishment_vs_creation": 0.98,
+    "silence_vs_resolution": 0.92,
+    "declared_goal_vs_emergent_result": 0.99
+  },
+  "global_state": {
+    "dominant_field": "object-04",
+    "stability": "inversion_metastable",
+    "closure": false,
+    "closure_type": "permanent_moral_suspension",
+    "system_behavior": "The system never achieves its declared objective. Instead, it produces a structurally superior outcome through failure. The jellyfish is perfected through loss, the narrative through delay, and truth through linguistic error.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "ballerinette": "trauma-driven morphogenesis as aesthetic upgrade of damaged form",
+      "ratata": "bilingual non-equivalence as structural condition of meaning",
+      "odabooks": "traditional Japanese fairy tale as foundational semantic attractor"
+    }
+  }
+}
