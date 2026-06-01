@@ -1,0 +1,106 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "identità_vs_trasformazione",
+    "temporal_axis": "simultaneous_historical_layers",
+    "narrative_logic": "every scene is a cross-section through all 13,000 years of Japanese culture simultaneously active"
+  },
+  "editorial_principle": "La scena non rappresenta un'epoca del Giappone. È una configurazione in cui tutti i periodi storici sono simultaneamente attivi come campi percettivi sovrapposti. Il lettore non attraversa la storia: ci vive dentro.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "temporal_palimpsest": "scena in cui più epoche coesistono nello stesso spazio",
+    "paradox_scene": "configurazione in cui opposti si stabilizzano come struttura",
+    "female_erasure_field": "configurazione definita dalla presenza-assenza delle figure femminili",
+    "sonic_field": "configurazione generata dal campo sonoro come spazio percettivo"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "corte_imperiale_heian",
+      "type": "temporal_palimpsest",
+      "dominant": true,
+      "basho": "la corte Heian non è un'epoca: è il campo estetico originario che continua a generare tutte le successive configurazioni del Giappone, dal kimono al cosplay",
+      "kokyu": "il ritmo è quello della codificazione estrema: ogni variazione cromatica è una legge, ogni tessuto una dichiarazione ontologica",
+      "yūgen": "la scrittura e il vestire coincidono: il corpo è un testo e il testo è un corpo vestito",
+      "affects": {
+        "scene-02": "la corte Heian non precede i samurai: li contiene come propria inversione necessaria",
+        "scene-05": "il Reiwa non chiude Heian ma lo riattiva come strato ancora operativo"
+      },
+      "textual_anchor_it": "La Poesia è moda dell'anima e accade quando l'identità personale vacilla.",
+      "glossary_link": ["basho", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-02",
+      "label": "samurai_paradosso_estetico",
+      "type": "paradox_scene",
+      "basho": "il samurai non è figura storica: è un dispositivo estetico in cui violenza e forma coincidono senza residuo",
+      "kokyu": "il ritmo è quello della disciplina assoluta: ogni gesto è simultaneamente etico e ornamentale",
+      "yūgen": "il bushido non regola il comportamento: produce una grammatica della bellezza applicata al conflitto",
+      "affects": {
+        "scene-03": "il paradosso samuraico apre lo spazio della delicatezza come forma di resistenza (geisha)"
+      },
+      "textual_anchor_it": "i samurai portavano in campo il loro codice d'onore, il 'bushido', e la formidabile capacità di combattere ma, paradossalmente, anche la loro cultura e un profondo senso estetico.",
+      "glossary_link": ["wabi-sabi", "yūgen", "kokyu"]
+    },
+    {
+      "id": "scene-03",
+      "label": "geisha_armonia_tempo",
+      "type": "temporal_palimpsest",
+      "basho": "la geisha non appartiene al tempo: lo sospende producendo una zona di coesistenza tra rituale e sospensione storica",
+      "kokyu": "il ritmo è quello della sottrazione: ogni gesto elimina il rumore del mondo fino a lasciare solo relazione pura",
+      "yūgen": "l'armonia non è equilibrio ma controllo dell'asimmetria percettiva",
+      "affects": {
+        "scene-04": "la sospensione geisha diventa struttura per la moda concettuale contemporanea"
+      },
+      "textual_anchor_it": "In uno spazio racchiuso e protetto, un momento di pace e armonia senza tempo.",
+      "glossary_link": ["ma", "wabi-sabi", "kokyu"]
+    },
+    {
+      "id": "scene-04",
+      "label": "abito_concettuale_parigi",
+      "type": "paradox_scene",
+      "basho": "Parigi non è centro della moda: è il punto in cui il Giappone rientra in sé stesso attraverso la differenza occidentale",
+      "kokyu": "il ritmo è quello della sottrazione radicale: il corpo non viene vestito, viene decostruito come superficie di significato",
+      "yūgen": "la bellezza non è percezione ma attrito tra forma e rifiuto della forma",
+      "affects": {
+        "scene-01": "l'abito concettuale retroagisce sul kimono: Heian e Avanguardia sono lo stesso gesto in due scale diverse"
+      },
+      "textual_anchor_it": "Una cosa per essere bella non deve essere bella. Più la gente la detesta, più so che si affermerà.",
+      "glossary_link": ["yūgen", "wabi-sabi", "ma"]
+    },
+    {
+      "id": "scene-05",
+      "label": "reiwa_tutto_insieme",
+      "type": "temporal_palimpsest",
+      "basho": "il Reiwa non è contemporaneità: è compressione attiva di tutti gli strati storici giapponesi in un unico campo operativo",
+      "kokyu": "il ritmo è simultaneo: Heian, Edo, Meiji e digitale coesistono senza gerarchia temporale",
+      "yūgen": "la caduta dei petali non indica fine ma aggiornamento continuo del campo percettivo",
+      "affects": {
+        "scene-01": "il Reiwa non conclude Heian: lo rende leggibile come presente"
+      },
+      "textual_anchor_it": "I fiori di ciliegio sbocceranno quando lo vorrà il calendario delle 72 stagioni.",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "palinsesto temporale ad alta retroazione",
+    "narrative_model": "ogni scena non rappresenta un'epoca ma una interferenza tra tutte le epoche simultanee",
+    "retroactive_causality": true,
+    "global_effect": "Heian non è origine ma loop attivo: il sistema non evolve, si riscrive continuamente"
+  }
+}
