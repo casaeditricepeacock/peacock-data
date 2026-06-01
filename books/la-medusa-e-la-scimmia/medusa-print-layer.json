@@ -1,0 +1,98 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "editorial_purpose": {
+    "function": "linearizzare un sistema di inversioni produttive in cui ogni fallimento dichiarato genera un esito reale superiore e non previsto",
+    "constraint": "il testo non deve mai chiudere il campo morale: bellezza, fallimento e malattia restano simultanei e non gerarchizzabili"
+  },
+  "reading_principle": {
+    "rule_01": "il haiku di Issa non introduce la storia: è la sua condizione percettiva iniziale già attiva prima della narrazione",
+    "rule_02": "il fegato di scimmia non è un oggetto narrativo ma un operatore di trasformazione che non compare mai direttamente",
+    "rule_03": "il lapsus linguistico è un evento di verità non intenzionale che produce irreversibilità semantica",
+    "rule_04": "la punizione non ha funzione morale: è un dispositivo di generazione estetica involontaria",
+    "rule_05": "le illustrazioni vintage non rappresentano il passato: lo mantengono simultaneamente attivo nel presente"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "impossible_mission_activation",
+      "note": "il regno del drago attiva il campo dell'autorità non consapevole: la missione impossibile nasce come errore strutturale del potere"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "journey_field_construction",
+      "note": "il viaggio costruisce il campo attraverso conoscenze parziali: ogni incontro è una verità incompleta che non risolve nulla"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "friendship_and_secret",
+      "note": "l'isola della scimmia introduce la soglia terrestre: l'amicizia si forma mentre la missione perde coerenza interna"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "verbal_collapse",
+      "note": "il lapsus linguistico interrompe la reversibilità del sistema: il linguaggio produce conseguenze fisiche nel mondo narrativo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "metamorphic_inversion",
+      "note": "la punizione collettiva genera la forma finale della medusa: il risultato reale è opposto all'obiettivo dichiarato"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni spazio è un campo di inversione attiva: regno, fondale, isola, ritorno e corte condividono la stessa struttura trasformativa",
+      "constraint": "nessun ambiente è neutro: ogni spazio conserva la traccia del fallimento che lo attraversa"
+    },
+    "kokyu": {
+      "rule": "la sequenza narrativa mantiene la forma classica fino al lapsus, poi il ritmo diventa irreversibile e non simmetrico",
+      "effect": "la rottura ritmica è percepita come evento reale, non come artificio narrativo"
+    },
+    "yūgen": {
+      "rule": "il giudizio morale non viene mai esplicitato: la coesistenza tra medusa perfetta e principessa non guarita resta strutturale",
+      "effect": "il sistema rimane aperto e non riducibile a interpretazione unica"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strati percettivi attivi che non vengono esplicitati ma determinano la struttura della lettura",
+    "contains": [
+      "la principessa non guarita come contro-campo permanente del successo estetico della medusa",
+      "il Giappone anni '80 delle illustrazioni come temporalità simultanea non risolta",
+      "il haiku di Issa come matrice strutturale dell'intero sistema narrativo",
+      "la fotografia analogica di Otello Cardin come dispositivo di fissazione del tempo non digitale"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "impossibilità di separare successo estetico e fallimento funzionale: la forma finale nasce dall'errore",
+    "perceptual_residue": "il lapsus linguistico continua a funzionare come memoria irreversibile dell'evento di verità",
+    "temporal_effect": "le immagini continuano a produrre simultaneamente passato e presente come unico campo percettivo"
+  },
+  "meta_layer": {
+    "system_note": "fiaba classica decostruita come sistema di inversioni produttive: italiano e giapponese operano come due regimi percettivi simultanei",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "catalog_connection": {
+      "ballerinette": "trasformazione corporea involontaria come esito estetico del trauma",
+      "ratata": "bilinguismo come campo di non-equivalenza semantica",
+      "odabooks": "fiaba giapponese come matrice narrativa del sistema Peacock"
+    }
+  }
+}
