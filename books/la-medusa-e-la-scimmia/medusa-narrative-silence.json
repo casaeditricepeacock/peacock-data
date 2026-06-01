@@ -1,0 +1,123 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "silence_types": {
+    "structural": "silenzio strutturale permanente del sistema",
+    "residual": "effetto persistente di un evento non risolto",
+    "productive": "silenzio che genera interpretazione senza chiusura",
+    "archival": "silenzio di trent'anni tra creazione e pubblicazione",
+    "moral": "silenzio sul giudizio che il testo rifiuta di pronunciare"
+  },
+  "editorial_principle": "Il silenzio in La medusa e la scimmia è il silenzio dell'inversione: ciò che non viene detto struttura più profondamente di ciò che viene espresso. La storia non chiude alcuna opposizione morale, ma mantiene attivi simultaneamente successo e fallimento, colpa e necessità, bellezza e trauma.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "fegato_mai_ottenuto",
+      "label_en": "liver_never_obtained",
+      "type": "structural",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il fegato di scimmia non appare mai nella storia: è un oggetto assente che genera tutto il movimento del sistema",
+      "kokyu": "il tempo del fegato è quello dell'impossibilità permanente: cercato, evocato, mai raggiunto",
+      "yūgen": "la malattia della principessa resta senza risoluzione: il campo della mancanza è strutturale e non si chiude",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la storia non fornisce guarigione: la domanda clinica rimane sospesa come struttura narrativa"
+      },
+      "affects": {
+        "silence-04": "la malattia non risolta diventa parte del sistema dei silenzi produttivi"
+      },
+      "textual_anchor_it": "Qui serve del fegato di scimmia!",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "silence-02",
+      "label": "trentanni_nel_cassetto",
+      "label_en": "thirty_years_in_the_drawer",
+      "type": "archival",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "le illustrazioni restano sospese per decenni fuori dal circuito editoriale: esistono senza circolare",
+      "kokyu": "il ritmo è quello della latenza: potenziale compresso senza attivazione pubblica",
+      "yūgen": "l'attesa non è perdita ma trasformazione del valore percettivo del libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la temporalità editoriale diventa parte del significato estetico dell'opera"
+      },
+      "affects": {
+        "silence-02b": "il silenzio archivistico e il silenzio del lapsus condividono la stessa logica: latenza che produce campo più denso dell'attivazione immediata"
+      },
+      "textual_anchor_it": "queste quindici spettacolari illustrazioni finiscono archiviate in un suo cassetto. Fino ad oggi.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    },
+    {
+      "id": "silence-02b",
+      "label": "silenzio_del_lapsus",
+      "label_en": "silence_of_the_slip",
+      "type": "residual",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il lapsus occupa un istante minimo ma produce un vuoto permanente nel sistema narrativo",
+      "kokyu": "il ritmo è quello dell'eco: parola → sospensione → conseguenza irreversibile",
+      "yūgen": "ciò che conta non è la frase ma il silenzio immediatamente successivo, dove il senso non può più essere corretto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'errore linguistico continua a produrre effetti anche dopo la sua scomparsa fonetica"
+      },
+      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "silence-03",
+      "label": "giudizio_sospeso",
+      "label_en": "suspended_judgment",
+      "type": "moral",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "nessun personaggio viene moralmente stabilizzato: colpa e necessità restano indistinguibili",
+      "kokyu": "il ritmo è quello dell'osservazione pura: accadimento senza commento",
+      "yūgen": "la trasformazione della medusa non è né premio né punizione, ma effetto strutturale del sistema",
+      "textual_anchor_it": "Una raffica di vento / lo trasforma nel salice / perfetto — Kobayashi Issa",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "principessa_non_guarita",
+      "label_en": "princess_not_healed",
+      "type": "productive",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la malattia della principessa è il motore invisibile del sistema ma non riceve soluzione narrativa",
+      "kokyu": "il tempo è quello dell'assenza funzionale: causa presente, esito non narrato",
+      "yūgen": "la medusa perfetta e la principessa malata coesistono senza gerarchia morale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la storia non risolve la malattia: la lascia come campo aperto permanente"
+      },
+      "textual_anchor_it": "Un giorno, però, la principessa si ammalò.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 5,
+    "dominant_field": "silence-03",
+    "hidden_dominant_field": "silence-04",
+    "narrative_model": "il silenzio come operatore di inversione: ciò che non viene detto struttura più profondamente di ciò che viene espresso",
+    "system_behavior": "successo e fallimento, guarigione e malattia, bellezza e trauma coesistono senza sintesi",
+    "global_residue": "la bellezza finale della medusa non cancella la malattia della principessa; entrambe restano simultaneamente attive nel sistema",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeWeather v4.1"
+  }
+}
