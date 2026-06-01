@@ -1,0 +1,119 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "silence_types": {
+    "structural": "silenzio strutturale permanente del sistema",
+    "residual": "effetto persistente di un evento non risolto",
+    "productive": "silenzio che genera interpretazione senza chiusura",
+    "ma_silence": "pausa attiva come campo percettivo autonomo — il ma giapponese",
+    "erasure": "rimozione sistematica che produce campo più denso dell'elemento rimosso",
+    "historical_shock": "silenzio prodotto da una frattura storica irreversibile"
+  },
+  "editorial_principle": "Il silenzio in Assolutamente Giappone non è assenza ma struttura attiva. Il ma genera significato, il desiderio nasce dal proibito, la cancellazione produce presenza, la storia interrompe e riattiva il campo. Il non detto è sempre più operativo del detto.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "ma_pausa_attiva",
+      "label_en": "ma_active_pause",
+      "type": "ma_silence",
+      "intensity": 0.96,
+      "perceptual_weight": 1.0,
+      "basho": "il ma non è vuoto: è la struttura spaziale del significato. Non separa, connette per sospensione",
+      "kokyu": "il ritmo è respirazione: inspirazione, pausa, espirazione. La pausa è parte del suono",
+      "yūgen": "l'allusione contiene più della dichiarazione: il non detto è il livello più denso del linguaggio estetico",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il ma sopravvive a modernità, digitalizzazione e traduzione: non è culturale ma strutturale"
+      },
+      "affects": {
+        "silence-02": "il ma genera il desiderio del proibito: ciò che non si dice diventa ciò che si vuole",
+        "silence-03": "la cancellazione femminile opera come forma di ma storico",
+        "silence-04": "anche la storia interrompe il proprio flusso attraverso pause strutturali irreversibili"
+      },
+      "textual_anchor_it": "Le allusioni, la poetica o la censura del non detto, il sottinteso e il senso differito, le emozioni che non riescono ad affiorare: tutto questo era compreso nella varietà di tinte.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "silence-02",
+      "label": "colori_non_indossabili",
+      "label_en": "unwearable_colours",
+      "type": "productive",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "il colore proibito non limita: definisce il campo del desiderabile",
+      "kokyu": "la legge del colore è permanente e stratificata: ogni divieto produce continuità simbolica",
+      "yūgen": "il korouzen non è solo colore imperiale: è la materializzazione visiva della gerarchia",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i colori proibiti sopravvivono nelle cerimonie contemporanee come memoria attiva del potere"
+      },
+      "affects": {
+        "silence-01": "il proibito nasce dalla struttura del ma",
+        "silence-03": "l'accesso ai colori è storicamente filtrato da sistemi di esclusione anche di genere"
+      },
+      "textual_anchor_it": "i colori che la natura regala non potevano slegarsi dalla realtà materiale di un potere politico ordinato in senso verticale.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "silence-03",
+      "label": "figure_femminili_cancellate",
+      "label_en": "erased_female_figures",
+      "type": "erasure",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "le figure femminili non sono assenti: sono distribuite come struttura invisibile del sistema culturale",
+      "kokyu": "emergono a intervalli storici, mai continui: Heian, Edo, modernità, contemporaneità",
+      "yūgen": "Murasaki Shikibu è presenza senza archivio completo: il primo romanzo moderno nasce da una lacuna",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la cancellazione non elimina il campo: lo intensifica rendendolo non nominabile"
+      },
+      "affects": {
+        "silence-01": "la cancellazione funziona come forma estrema di ma",
+        "silence-02": "l'accesso ai codici estetici è storicamente mediato da esclusioni strutturali"
+      },
+      "textual_anchor_it": "Murasaki Shikibu, nel diario che teneva durante la sua vita alla corte di Heian attorno al 1007.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "gyokuon_hoso",
+      "label_en": "imperial_silence_broadcast",
+      "type": "historical_shock",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il 15 agosto 1945 il Giappone entra in uno stato di ascolto assoluto: la voce imperiale sospende il sistema",
+      "kokyu": "il ritmo si interrompe collettivamente: non c'è più azione, solo ricezione",
+      "yūgen": "la frase finale non è spiegazione ma soglia: sopportare l'insopportabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il silenzio della resa diventa fondamento del Giappone contemporaneo come stato percettivo permanente"
+      },
+      "affects": {
+        "silence-01": "anche la storia obbedisce alla logica del ma: si interrompe per riattivarsi",
+        "silence-03": "la cancellazione non è solo culturale ma anche storica e istituzionale"
+      },
+      "textual_anchor_it": "Siamo arrivati alla conclusione che dobbiamo sopportare l'insopportabile e tollerare l'intollerabile.",
+      "glossary_link": ["mono no aware", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "rete di silenzi interdipendenti: il ma genera desiderio, il desiderio struttura il proibito, il proibito produce esclusione, la storia trasforma l'esclusione in fondamento",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
