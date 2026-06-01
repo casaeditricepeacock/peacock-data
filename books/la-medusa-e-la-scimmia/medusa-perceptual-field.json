@@ -1,0 +1,117 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Each field does not describe a fairy tale but reconfigures its legibility as a system in which failure, language, time and metamorphosis are structural operators rather than plot events. The jellyfish does not succeed but becomes: the system's goal is never what it declares.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_della_missione_impossibile",
+      "type": "temporal_field",
+      "basho": "the mission is structurally impossible from the beginning: the jellyfish does not know where to find a monkey, the liver is never present, the objective is unreachable by design",
+      "kokyu": "the rhythm is that of iteration: the same structure repeats (swim → ask → receive partial answer → continue) without approaching the goal linearly",
+      "yūgen_level": 0.91,
+      "activation_condition": "awareness that the declared goal is unreachable and that the real result will be different",
+      "persistence_rule": "field persists through the entire journey as structural impossibility",
+      "dissolution_rule": "field dissolves only when the real result (metamorphosis) replaces the declared goal",
+      "field_logic": "declared_goal_as_structural_decoy",
+      "textual_anchor_it": "Solo che, la povera Medusa non aveva la minima idea di dove trovare una scimmia."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_del_lapsus",
+      "type": "linguistic_field",
+      "basho": "the verbal slip has no spatial location: it occurs in the middle of a conversation and changes everything retroactively",
+      "kokyu": "the rhythm is that of the accident: normal flow interrupted by a single word that cannot be taken back",
+      "yūgen_level": 0.96,
+      "activation_condition": "the moment fegato/fiato produces its double meaning and the secret is revealed",
+      "persistence_rule": "field persists as permanent consequence: once said, cannot be unsaid",
+      "dissolution_rule": "non-dissolvable; the slip is the point of no return",
+      "field_logic": "language_as_irreversible_operator",
+      "affects": {
+        "field-01": "the slip collapses the mission field permanently",
+        "field-03": "the slip produces the metamorphosis field as indirect consequence"
+      },
+      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_della_metamorfosi_involontaria",
+      "type": "transformation_field",
+      "basho": "the metamorphosis is not located in a dramatic space: it happens in the mundane space of the court, during collective anger",
+      "kokyu": "the rhythm is that of violence that becomes art: rapid destruction → permanent new form → unexpected beauty",
+      "yūgen_level": 0.97,
+      "activation_condition": "punishment by the court + loss of bones + survival + discovery of superior movement",
+      "persistence_rule": "permanent: the jellyfish without bones is the definitive state",
+      "dissolution_rule": "non-dissolvable: the transformation is the system's final state",
+      "field_logic": "punishment_as_unintended_creation",
+      "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_temporale_doppio",
+      "type": "temporal_field",
+      "basho": "the illustrations exist in two simultaneous times: Japan 1980s and Italy 2024; the analogue photography maintains both fields active without choosing between them",
+      "kokyu": "the rhythm is that of recovery: thirty years of silence then sudden publication; the wait amplifies the field",
+      "yūgen_level": 0.93,
+      "activation_condition": "viewing the illustrations with awareness of their double temporal origin",
+      "persistence_rule": "field persists as long as the analogue technique remains visible in the image",
+      "dissolution_rule": "field collapses if digital processing erases the analogue texture",
+      "field_logic": "temporal_coexistence_as_aesthetic_condition",
+      "textual_anchor_it": "L'anno in cui impostare il punto di arrivo della specialissima macchina è il 1993."
+    },
+    {
+      "id": "field-05",
+      "label": "campo_dell_esito_inatteso",
+      "label_en": "unexpected_outcome_field",
+      "type": "inversion_field",
+      "basho": "ogni azione del sistema genera un risultato diverso da quello previsto",
+      "kokyu": "il ritmo è quello della deviazione continua: intenzione → errore → conseguenza → forma superiore",
+      "yūgen_level": 0.98,
+      "activation_condition": "presenza di uno scarto tra obiettivo dichiarato e risultato effettivo",
+      "persistence_rule": "il campo rimane attivo per l'intera narrazione",
+      "dissolution_rule": "non dissolvibile: il sistema esiste grazie alla deviazione",
+      "field_logic": "unexpected_outcome_as_true_destination",
+      "affects": {
+        "field-01": "rivela che la missione era solo un pretesto",
+        "field-02": "trasforma il lapsus in operatore narrativo",
+        "field-03": "trasforma la punizione in perfezionamento",
+        "field-04": "trasforma il ritardo editoriale in valore aggiunto"
+      },
+      "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima.",
+      "glossary_link": [
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "field_count": 5,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "fairy_tale_as_linear_narrative",
+      "mission_failure_as_negative_outcome",
+      "verbal_slip_as_accident",
+      "metamorphosis_as_punishment"
+    ],
+    "system_behavior": "fields operate as inversion operators: every declared negative (failure, slip, punishment) produces an undeclared positive (wisdom, truth, beauty)",
+    "dominant_field": "field-05",
+    "key_insight": "field-05 is the meta-field that explains all others: the system produces superior outcomes through failure, not despite it"
+  }
+}
