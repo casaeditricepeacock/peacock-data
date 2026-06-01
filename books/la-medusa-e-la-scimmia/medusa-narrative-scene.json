@@ -1,0 +1,141 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "system_axis": {
+    "primary_tension": "missione_vs_metamorfosi",
+    "temporal_axis": "involuntary_inversion",
+    "narrative_logic": "every scene reduces the probability of reaching the declared goal and increases the probability of generating an unexpected superior form"
+  },
+  "editorial_principle": "La scena non rappresenta un episodio della fiaba. È una configurazione del campo dell'inversione: ogni passo verso l'obiettivo dichiarato è un passo verso un risultato diverso e superiore.",
+  "scene_types": {
+    "field_node": "configurazione stabile ma interferibile",
+    "threshold_field": "configurazione attivata solo nell'attraversamento",
+    "journey_node": "stazione del viaggio come campo percettivo autonomo",
+    "linguistic_threshold": "configurazione in cui il linguaggio modifica il sistema",
+    "inversion_field": "configurazione in cui il risultato è l'opposto dell'obiettivo",
+    "metamorphic_terminus": "configurazione finale che non chiude ma trasforma"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "regno_drago_missione",
+      "type": "field_node",
+      "dominant": true,
+      "basho": "il regno del drago è il campo dell'autorità che genera missioni impossibili: elegante, gerarchico, cieco alle conseguenze",
+      "kokyu": "il ritmo è quello della deliberazione formale: convocazione → candidature → scelta per esclusione → partenza coatta",
+      "yūgen": "il regno produce la missione senza considerare che la medusa non sa dove andare: l'autorità è ignara della propria ignoranza",
+      "affects": {
+        "scene-02": "la partenza coatta predispone al viaggio senza meta"
+      },
+      "textual_anchor_it": "Re Drago riunì un consiglio con tutta la Corte per le consultazioni.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-02",
+      "label": "viaggio_fondali_incontri",
+      "type": "journey_node",
+      "basho": "i fondali profondi sono un campo di creature che sanno sempre qualcosa di parziale",
+      "kokyu": "il ritmo è quello della fiaba classica: chiedi → ricevi indicazione → riparti",
+      "yūgen": "nessuna creatura possiede la risposta completa; la conoscenza è distribuita",
+      "affects": {
+        "scene-02b": "gli incontri costruiscono progressivamente il campo della conoscenza distribuita"
+      },
+      "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02b",
+      "label": "conoscenza_distribuita",
+      "type": "journey_node",
+      "basho": "ogni creatura incontrata possiede soltanto una parte della risposta; il sapere appartiene alla rete degli incontri",
+      "kokyu": "il ritmo è cumulativo: domanda → frammento → spostamento → nuovo frammento",
+      "yūgen": "la verità emerge soltanto dalla successione delle prospettive parziali",
+      "field_logic": "distributed_knowledge",
+      "affects": {
+        "scene-03": "la somma delle indicazioni conduce all'isola della scimmia"
+      },
+      "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "glossary_link": ["ma", "basho"]
+    },
+    {
+      "id": "scene-03",
+      "label": "isola_amicizia_segreto",
+      "type": "threshold_field",
+      "basho": "l'isola delle scimmie è l'unico spazio terrestre del sistema; la medusa è fuori dal proprio elemento",
+      "kokyu": "il ritmo è quello della conversazione che costruisce amicizia e prepara involontariamente il lapsus",
+      "yūgen": "il campo della relazione cresce mentre il campo della missione collassa",
+      "affects": {
+        "scene-04": "l'amicizia produce le condizioni per il lapsus"
+      },
+      "textual_anchor_it": "chiacchiera che ti chiacchiera, la Medusa raccontò meraviglie del suo paese.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-04",
+      "label": "linguaggio_che_agisce",
+      "type": "linguistic_threshold",
+      "basho": "il lapsus non possiede un luogo preciso; accade durante il ritorno come evento puro",
+      "kokyu": "il ritmo è quello dell'incidente: normalità → parola involontaria → trasformazione del sistema",
+      "yūgen": "la parola pronunciata per errore non descrive la realtà: la modifica. Il linguaggio diventa l'agente principale della trasformazione",
+      "field_logic": "language_generates_reality",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "una volta pronunciato il lapsus, il sistema non può più tornare allo stato precedente"
+      },
+      "affects": {
+        "scene-05": "il linguaggio produce il fallimento che renderà possibile la metamorfosi"
+      },
+      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "scene-05",
+      "label": "punizione_metamorfosi_bellezza",
+      "type": "metamorphic_terminus",
+      "basho": "la corte del drago diventa il campo della trasformazione; il luogo dell'autorità si converte involontariamente in luogo di creazione",
+      "kokyu": "il ritmo è quello della violenza che genera forma: punizione → trasformazione → scoperta della bellezza",
+      "yūgen": "la medusa senza ossa nuota più bella di prima; la punizione diventa inconsapevolmente un atto creativo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la forma perfetta della medusa nasce da un fallimento che nessuno riconosce come successo; solo il lettore può vedere la trasformazione completa del sistema"
+      },
+      "affects": {
+        "scene-01": "la scena finale retroagisce sulla scena iniziale: il regno che ha prodotto la missione ha inconsapevolmente prodotto la medusa perfetta"
+      },
+      "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 6,
+    "dominant_field": "scene-01",
+    "hidden_dominant_field": "scene-05",
+    "hidden_system_operator": "unexpected_outcome",
+    "system_state": "productive_inversion",
+    "narrative_model": "ogni scena riduce la probabilità di raggiungere l'obiettivo dichiarato e aumenta la probabilità di produrre una forma inattesa superiore",
+    "retroactive_causality": true,
+    "global_effect": "ogni tentativo di controllare il risultato produce un esito diverso da quello previsto; la forma finale della medusa è il prodotto emergente dell'intero sistema",
+    "process_chain": [
+      "authority",
+      "impossible_mission",
+      "distributed_knowledge",
+      "friendship",
+      "language",
+      "failure",
+      "metamorphosis",
+      "beauty"
+    ]
+  }
+}
