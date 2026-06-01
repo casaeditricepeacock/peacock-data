@@ -1,0 +1,97 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La medusa e la scimmia",
+    "author": "Andreina Parpajola",
+    "illustrator": "Andreina Parpajola",
+    "postface": "Francesco Verni",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-01-1",
+    "year": 2024
+  },
+  "weather_field_types": {
+    "deep_sea_field": "pressione ontologica permanente del sistema subacqueo",
+    "surface_transition": "rottura del regime fisico tra mondi incompatibili",
+    "vintage_light": "tempo analogico come campo percettivo non riproducibile digitalmente",
+    "haiku_atmosphere": "innesco originario del sistema come evento climatico semantico"
+  },
+  "editorial_principle": "Il clima non descrive il mondo: lo produce. Il fondo marino è condizione ontologica, la superficie è errore di emersione, la luce è traduzione temporale, il haiku è la prima instabilità del sistema.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "pressione_fondale",
+      "label_en": "deep_sea_pressure",
+      "type": "deep_sea_field",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il fondo del mare non è spazio ma compressione: tutto esiste sotto pressione continua",
+      "kokyu": "il tempo non scorre: pulsa in densità variabile",
+      "yūgen": "la medusa non vive nel mare: è una modulazione del mare stesso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la pressione non si interrompe mai: anche la trasformazione la conserva come memoria fisica"
+      },
+      "affects": {
+        "weather-02": "la pressione genera il bisogno di fuga verso la superficie"
+      },
+      "textual_anchor_it": "C'era una volta un regno nel fondo dei mari.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "weather-02",
+      "label": "frattura_superficiale",
+      "label_en": "surface_threshold",
+      "type": "surface_transition",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "la superficie non è soglia naturale ma incidente cosmologico",
+      "kokyu": "il movimento diventa discontinuo: immersione → interruzione → esposizione",
+      "yūgen": "sulla terra la medusa è sempre in traduzione errata",
+      "affects": {
+        "weather-03": "la superficie attiva la necessità di una luce diversa"
+      },
+      "textual_anchor_it": "Fatti pochi passi sulla spiaggia, incontrò una graziosa Scimmia.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "luce_anacronica",
+      "label_en": "vintage_light",
+      "type": "vintage_light",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la luce non illumina: temporalizza",
+      "kokyu": "il tempo diventa emulsione: presente + memoria + difetto analogico",
+      "yūgen": "ogni immagine contiene il proprio degrado come qualità estetica",
+      "affects": {
+        "weather-04": "la luce rende possibile la trasformazione del linguaggio in evento"
+      },
+      "textual_anchor_it": "fotografare i disegni per restituire quell'aspetto 'vintage' e genuino delle pubblicazioni degli anni Ottanta e Novanta.",
+      "glossary_link": ["wabi-sabi", "mono no aware"]
+    },
+    {
+      "id": "weather-04",
+      "label": "instabilità_haiku",
+      "label_en": "haiku_atmosphere",
+      "type": "haiku_atmosphere",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "il sistema inizia con una instabilità climatica minima",
+      "kokyu": "il vento non descrive il salice: lo riscrive",
+      "yūgen": "ogni trasformazione è già contenuta nel primo verso",
+      "textual_anchor_it": "Una raffica di vento / lo trasforma nel salice / perfetto — Kobayashi Issa",
+      "glossary_link": ["yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "climate_as_generative_engine",
+    "system_behavior": "il clima non accompagna la narrazione: la sostituisce come meccanismo causale",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
