@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "sakura_field": "campo climatico della fioritura come struttura di caducità percettiva",
+    "karankoron_atmosphere": "campo sonoro urbano continuo come identità culturale",
+    "seasonal_pressure": "campo temporale granulare delle 72 stagioni",
+    "paradox_climate": "campo ossimorico stabile tra immobilità e accelerazione"
+  },
+  "editorial_principle": "Il clima non rappresenta il Giappone: lo costituisce come sistema percettivo simultaneo. Ogni fenomeno naturale è già una forma culturale attiva.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "sakura_caducita",
+      "label_en": "sakura_transience_field",
+      "type": "sakura_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la fioritura non è evento naturale ma dispositivo culturale che rende visibile la struttura dell'impermanenza",
+      "kokyu": "il ritmo è quello dell'esplosione breve: accumulo → apertura → dissoluzione immediata",
+      "yūgen": "la bellezza non è nella fioritura ma nella sua inevitabile fine già percepita nel momento iniziale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sakura resta attivo come modello percettivo transstorico dell'estetica giapponese"
+      },
+      "affects": {
+        "weather-02": "il campo visivo dell'impermanenza struttura la percezione sonora del karankoron"
+      },
+      "textual_anchor_it": "Se a questo mondo non ci fosse il fiore del ciliegio il cuore in primavera sarebbe più tranquillo.",
+      "glossary_link": ["mono no aware", "yūgen", "wabi-sabi"]
+    },
+    {
+      "id": "weather-02",
+      "label": "karankoron_atmosfera",
+      "label_en": "karankoron_sound_field",
+      "type": "karankoron_atmosphere",
+      "intensity": 0.94,
+      "perceptual_weight": 0.96,
+      "basho": "il suono dei geta non accompagna la città: la definisce come struttura ritmica permanente",
+      "kokyu": "il ritmo è discontinuo ma persistente: ogni passo produce una variazione senza interrompere il campo",
+      "yūgen": "il suono non ha origine singola: è una somma anonima di presenze storiche sovrapposte",
+      "affects": {
+        "weather-03": "il tempo stagionale si sincronizza con la percezione sonora urbana"
+      },
+      "textual_anchor_it": "karankoron, karankoron, karankoron... il rumore di fondo di un eterno sempre.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "weather-03",
+      "label": "pressione_stagionale",
+      "label_en": "seasonal_pressure_field",
+      "type": "seasonal_pressure",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il tempo non scorre: si densifica in micro-unità climatiche che ridefiniscono continuamente la percezione",
+      "kokyu": "il ritmo è quello della segmentazione continua: 72 stati atmosferici come unità percettive minime",
+      "yūgen": "ogni stagione è completa solo perché incompleta rispetto a quella successiva",
+      "textual_anchor_it": "settantadue momenti di cinque giorni l'uno con una propria realtà naturale.",
+      "glossary_link": ["kokyu", "mono no aware", "basho"]
+    },
+    {
+      "id": "weather-04",
+      "label": "clima_ossimorico",
+      "label_en": "oxymoronic_climate",
+      "type": "paradox_climate",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la coesistenza di opposti non genera conflitto ma stabilità estetica",
+      "kokyu": "il ritmo è quello della simultaneità: tradizione e accelerazione coesistono senza sintesi",
+      "yūgen": "l'identità è un campo che include la propria contraddizione senza risolverla",
+      "textual_anchor_it": "Il pianeta Giappone, fascino degli ossimori.",
+      "glossary_link": ["yūgen", "kokyu", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "climate_as_cultural_infrastructure",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
