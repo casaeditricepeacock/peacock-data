@@ -1,0 +1,169 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a temporal palimpsest in which 13,000 years of Japanese culture coexist as simultaneously active perceptual layers. Identity is not historical continuity but continuous absorption of discontinuity.",
+  "node_classes": {
+    "scene": "temporal_layer_anchor",
+    "object": "cross_historical_field_activator",
+    "ritual": "time_measurement_device",
+    "transition": "absorption_operator",
+    "silence": "active_pause_field",
+    "weather": "cultural_identity_climate",
+    "meta_state": "non_local_system_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04","transition-05"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "multi_layer_palimpsest",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "kimono_identity_continuum",
+        "nodes": ["object-01","scene-01","scene-05","ritual-02"],
+        "type": "identity_gravity_loop",
+        "stability": "permanent_metastable",
+        "propagation_logic": "kimono acts as identity carrier across all temporal layers; each historical layer remains active inside every instance",
+        "causal_direction": "bidirectional",
+        "field_effect": "identity_accumulation_without_integration",
+        "description": "The kimono is not a garment but a temporal compression device. It does not evolve: it accumulates epochs without synthesis."
+      },
+      {
+        "id": "loop-02",
+        "label": "external_absorption_engine",
+        "nodes": ["transition-01","transition-02","transition-03","weather-04"],
+        "type": "cultural_absorption_loop",
+        "stability": "stable_self_reinforcing",
+        "propagation_logic": "external systems are absorbed, re-coded, and returned as intensified Japanese forms",
+        "causal_direction": "unidirectional_with_feedback",
+        "field_effect": "external_becomes_internal_then_more_japanese_than_origin",
+        "description": "China, the West, modernity: all external inputs become internal structures through transformation rather than imitation."
+      },
+      {
+        "id": "loop-03",
+        "label": "doll_continuity_system",
+        "nodes": ["object-03","ritual-04","ritual-05","scene-05"],
+        "type": "archetypal_replication_loop",
+        "stability": "structural_permanent",
+        "propagation_logic": "every epoch generates a doll-form as a necessary cultural operator",
+        "causal_direction": "temporal_recursive",
+        "field_effect": "form_persists_across_13k_years",
+        "description": "From dogū to Bunraku to cosplay to emoji: the doll is a recurring structural necessity, not a cultural object."
+      },
+      {
+        "id": "loop-04",
+        "label": "female_invisibility_engine",
+        "nodes": ["silence-03","scene-01","scene-03"],
+        "type": "structural_erasure_loop",
+        "stability": "metastable_high_density",
+        "propagation_logic": "erasure increases structural influence rather than decreasing it",
+        "causal_direction": "inverse_visibility_effect",
+        "field_effect": "absence_as_high_intensity_presence",
+        "description": "Female figures operate as structural nodes: their removal from archives increases their systemic influence."
+      },
+      {
+        "id": "loop-05",
+        "label": "karankoron_continuity_field",
+        "nodes": ["object-04","weather-02","scene-01","scene-05"],
+        "type": "sonic_identity_loop",
+        "stability": "invariant_across_time",
+        "propagation_logic": "sound persists as identical across all historical transformations of Japan",
+        "causal_direction": "non_transformational",
+        "field_effect": "sound_as_identity_invariant",
+        "description": "Karankoron is the only non-mutating signal in the system: it survives all historical transitions unchanged."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "kimono_temporal_layer_activation",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "multi_epoch_coexistence"
+    },
+    {
+      "from": "weather-01",
+      "to": "all",
+      "effect": "mono_no_aware_field_activation",
+      "propagation_mode": "diffuse",
+      "intensity": 0.95,
+      "stability_impact": "impermanence_as_constant"
+    },
+    {
+      "from": "silence-01",
+      "to": "all",
+      "effect": "ma_as_structural_timing_operator",
+      "propagation_mode": "structural",
+      "intensity": 0.96,
+      "stability_impact": "meaning_generated_by_pause"
+    },
+    {
+      "from": "transition-02",
+      "to": "scene-05",
+      "effect": "modernity_shock_superposition",
+      "propagation_mode": "irreversible",
+      "intensity": 0.94,
+      "stability_impact": "permanent_open_system_state"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "retroactive_origin_stabilization",
+      "propagation_mode": "retroactive",
+      "intensity": 0.88,
+      "stability_impact": "circular_identity_without_origin_loss"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "active_palimpsest_superposition",
+    "allowed_mutations": [
+      "temporal_layer_addition",
+      "identity_accumulation",
+      "paradox_stabilization",
+      "erasure_amplification",
+      "sonic_invariance_activation",
+      "retroactive_causality"
+    ],
+    "forbidden_states": [
+      "linear_history_model",
+      "single_epoch_dominance",
+      "resolved_paradox_state",
+      "female_structural_marginalization",
+      "sound_as_decorative_element"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "multi_layer_coexistence",
+    "closure": false,
+    "closure_type": "structural_non_closure",
+    "system_behavior": "Japan persists as a non-resolvable perceptual field where identity is produced through continuous absorption and layering rather than evolution.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "demone_samurai": "single-period intensification model",
+      "assolutamente_giappone": "total historical superposition model",
+      "ryokan": "temporal suspension system (ma-based field)",
+      "odabooks": "semantic nucleus of Japanese perceptual catalog"
+    }
+  }
+}
