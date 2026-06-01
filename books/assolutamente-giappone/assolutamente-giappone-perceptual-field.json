@@ -1,0 +1,90 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Assolutamente Giappone",
+    "subtitle": "moda e misteri",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "979-12-81715-16-5",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Il Giappone non è un oggetto di descrizione ma un sistema di attraversamento percettivo: ogni campo attiva simultaneamente tempo, corpo e storia come livelli non separabili.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "tempo_stratificato_attivo",
+      "type": "temporal_field",
+      "basho": "il Giappone non conserva il passato: lo mantiene operativo come strato simultaneo al presente e al futuro",
+      "kokyu": "il ritmo è palinsestico: ogni presente riattiva più passati senza gerarchia cronologica",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni incontro con un elemento culturale giapponese che mostra continuità storica non lineare",
+      "persistence_rule": "il campo permane finché la cultura giapponese continua a funzionare per stratificazione e non per sostituzione",
+      "dissolution_rule": "non dissolvibile: è il principio strutturale del sistema",
+      "field_logic": "simultaneous_temporal_coexistence",
+      "textual_anchor_it": "perpetuo riadattamento al passato fondendolo con il futuro per perpetuarne l'identità."
+    },
+    {
+      "id": "field-02",
+      "label": "corpo_culturale_esplicito",
+      "type": "cognitive_field",
+      "basho": "il corpo non è individuale: è un dispositivo pubblico che rende visibile ordine sociale, stagione e identità",
+      "kokyu": "il ritmo è rituale: il corpo si costruisce attraverso sequenze di vestizione e codifica gestuale",
+      "yūgen_level": 0.93,
+      "activation_condition": "ogni pratica di vestizione giapponese, dal kimono al cosplay",
+      "persistence_rule": "il campo persiste finché il corpo resta un mezzo di dichiarazione culturale",
+      "dissolution_rule": "non dissolvibile: struttura antropologica stabile",
+      "field_logic": "body_as_cultural_interface",
+      "textual_anchor_it": "io non sono quel che sono, ma quello che mostro."
+    },
+    {
+      "id": "field-03",
+      "label": "ossimoro_stabilizzato",
+      "type": "paradox_field",
+      "basho": "le contraddizioni non si risolvono: vengono stabilizzate come forma culturale permanente",
+      "kokyu": "il ritmo è bifocale: ogni elemento genera simultaneamente il proprio opposto senza collisione",
+      "yūgen_level": 0.97,
+      "activation_condition": "presenza simultanea di tradizione e modernità nello stesso oggetto culturale",
+      "persistence_rule": "il campo coincide con la struttura identitaria del sistema",
+      "dissolution_rule": "non dissolvibile: è la condizione del sistema",
+      "field_logic": "stabilized_contradiction_engine",
+      "affects": {
+        "field-01": "abilita la coesistenza temporale come principio strutturale"
+      },
+      "textual_anchor_it": "immobile nel suo vertiginoso progresso."
+    },
+    {
+      "id": "field-04",
+      "label": "agency_femminile_invisibile",
+      "type": "structural_cognitive_field",
+      "basho": "la presenza femminile non è marginale: è infrastruttura invisibile della produzione culturale",
+      "kokyu": "il ritmo è intermittente: emergenza → influenza → cancellazione archivistica → riemersione indiretta",
+      "yūgen_level": 0.96,
+      "activation_condition": "ogni sistema culturale giapponese letto attraverso la sua genealogia incompleta",
+      "persistence_rule": "il campo aumenta di intensità con la sua invisibilizzazione",
+      "dissolution_rule": "non dissolvibile: lacuna strutturale dell'archivio",
+      "field_logic": "invisible_structural_agency",
+      "textual_anchor_it": "Murasaki Shikibu, nel diario che teneva durante la sua vita alla corte di Heian attorno al 1007."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "giappone_esotico",
+      "storia_lineare",
+      "corpo_privato",
+      "ruolo_femminile_secondario"
+    ],
+    "system_behavior": "ogni campo non descrive il Giappone ma lo rende attraversabile come struttura simultanea di tempo, corpo e paradosso"
+  }
+}
