@@ -1,0 +1,92 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Il palazzo non è un contenitore ma un sistema percettivo stratificato. Ogni campo non descrive uno spazio: lo attiva. Ernesto non attraversa ambienti: attraversa regimi di realtà incompatibili che coesistono senza sintesi.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_invisibilita_epistemica",
+      "type": "cognitive_field",
+      "basho": "Ernesto è invisibile agli abitanti ma integra l'intero sistema informativo del palazzo. L'invisibilità non è mancanza di presenza: è una forma superiore di osservazione distribuita",
+      "kokyu": "il ritmo dell'osservazione continua: presenza senza emissione, raccolta senza interferenza, esistenza senza dichiarazione",
+      "yūgen_level": 0.96,
+      "activation_condition": "assenza di riconoscimento da parte degli abitanti del palazzo",
+      "persistence_rule": "il campo persiste finché Ernesto non entra nel regime della visibilità reciproca",
+      "dissolution_rule": "si incrina nella soglia con l'illustratrice: il campo dell'essere-visti introduce retroazione",
+      "field_logic": "invisibility_as_knowledge_architecture",
+      "textual_anchor_it": "Mi chiamo Ernesto, ma nessuno lo sa."
+    },
+    {
+      "id": "field-02",
+      "label": "palazzo_citta_compressa",
+      "type": "urban_field",
+      "basho": "ogni appartamento è un distretto autonomo con leggi percettive proprie. Il palazzo è una città compressa verticalmente, non una somma di stanze",
+      "kokyu": "temporalità multiple coesistono senza sincronizzazione: ogni piano produce un proprio tempo domestico",
+      "yūgen_level": 0.92,
+      "activation_condition": "attivazione del circuito quotidiano attraverso il condotto",
+      "persistence_rule": "il campo esiste finché il condotto resta operativo come asse di connessione",
+      "dissolution_rule": "si dissolve solo con l'uscita dal palazzo — strutturalmente impossibile nel sistema narrativo",
+      "field_logic": "building_as_multi_layer_city",
+      "affects": {
+        "field-01": "l'invisibilità è condizione necessaria per la lettura completa della città compressa"
+      },
+      "textual_anchor_it": "Ogni giorno attraverso il condotto, mi reco nei seguenti appartamenti."
+    },
+    {
+      "id": "field-03",
+      "label": "paradosso_liberta_compulsione",
+      "type": "paradox_field",
+      "basho": "la fuga iniziale non produce libertà lineare ma un sistema chiuso di attrazioni ricorrenti. La libertà è il dispositivo che genera la ruota",
+      "kokyu": "oscillazione irreversibile: evasione → esplorazione → attrazione → ritorno → corsa",
+      "yūgen_level": 0.98,
+      "activation_condition": "presenza della ruota nell'appartamento 217",
+      "persistence_rule": "campo strutturale permanente dell'intero sistema narrativo",
+      "dissolution_rule": "non dissolvibile senza collasso dell'identità narrativa",
+      "field_logic": "freedom_as_circular_constraint",
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta."
+    },
+    {
+      "id": "field-04",
+      "label": "assenza_padroncina",
+      "type": "residual_field",
+      "basho": "la figura della padroncina non è un ricordo psicologico ma un operatore strutturale che stabilizza il campo emotivo dell'assenza",
+      "kokyu": "attivazione intermittente non controllabile: emerge durante musica, movimento, o quiete improvvisa",
+      "yūgen_level": 0.94,
+      "activation_condition": "stimolo sonoro o sospensione del movimento (violoncello, attesa, ascolto)",
+      "persistence_rule": "campo attivo finché Ernesto resta in stato di fuga",
+      "dissolution_rule": "non risolvibile: la ricerca della padroncina non converge mai in ricongiungimento",
+      "field_logic": "absence_as_structural_presence",
+      "textual_anchor_it": "a volte penso alla mia piccola e pestifera padroncina."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "global_configuration": "palazzo_as_perceptual_machine",
+    "structural_result": "Ernesto non è un personaggio: è un operatore di attraversamento tra campi cognitivi incompatibili",
+    "closure_state": "non_closure",
+    "invalidated_elements": [
+      "building_as_neutral_container",
+      "mouse_as_naive_protagonist",
+      "illustrated_book_as_children_literature",
+      "absence_as_plot_gap"
+    ],
+    "system_behavior": "ogni campo è autonomo ma retroattivo: la città si costruisce come interferenza tra invisibilità, compressione urbana, paradosso e assenza"
+  }
+}
