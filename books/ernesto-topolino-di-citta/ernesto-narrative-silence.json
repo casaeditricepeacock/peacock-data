@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "silence_types": {
+    "absent_presence": "figura non visibile che struttura il campo emotivo del sistema",
+    "unresolved_question": "domanda che il sistema non chiude e mantiene come campo aperto permanente",
+    "invisible_observer": "silenzio del testimone che vede senza essere visto",
+    "compulsive_loop": "silenzio della struttura che si ripete senza spiegazione causale esplicita"
+  },
+  "editorial_principle": "Il silenzio in Ernesto è il silenzio di chi non sa di essere osservato. Gli abitanti non parlano di Ernesto perché non sanno che esiste. La padroncina non appare perché il suo campo agisce meglio dall'assenza.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "padroncina_assente",
+      "label_en": "absent_little_owner",
+      "type": "absent_presence",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la piccola padrona non appare mai ma è ovunque: nella gabbietta di partenza, nella musica del violoncello, nella ruota di arrivo",
+      "kokyu": "il tempo della padroncina è quello dell'assenza intermittente: emerge nei momenti di quiete percettiva di Ernesto",
+      "yūgen": "chissà se mi sta ancora cercando: domanda non risolta che struttura l'intero campo emotivo del sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la padroncina è il campo irrisolto del sistema: Ernesto è un evaso e la ricerca potrebbe essere ancora attiva"
+      },
+      "affects": {
+        "silence-02": "l'assenza della padroncina rinforza l'anonimato di Ernesto come sistema complementare"
+      },
+      "textual_anchor_it": "Chissà se la mia piccola padrona mi sta ancora cercando.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "anonimato_di_ernesto",
+      "label_en": "ernesto_anonymity",
+      "type": "invisible_observer",
+      "intensity": 0.96,
+      "perceptual_weight": 1.0,
+      "basho": "nessuno sa che Ernesto si chiama Ernesto: il nome non pronunciato produce il campo dell'identità non riconosciuta",
+      "kokyu": "il tempo dell'anonimato è quello della permanenza invisibile: ogni giorno identico, nessun riconoscimento esterno",
+      "yūgen": "mi chiamo Ernesto, ma nessuno lo sa: la frase fondativa del sistema è già un campo di invisibilità totale",
+      "textual_anchor_it": "Mi chiamo Ernesto, ma nessuno lo sa.",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "quasi_vista_illustratrice",
+      "label_en": "almost_seen",
+      "type": "unresolved_question",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "forse l'Illustratrice lo ha notato nella ciabatta a forma di coccodrillo: il campo del riconoscimento resta sospeso tra conferma e negazione",
+      "kokyu": "il tempo del forse è quello della sospensione: né visto né non visto, solo potenziale osservazione",
+      "yūgen": "l'Illustratrice disegna il topolino senza sapere che il topolino dorme nelle sue ciabatte: doppia inconsapevolezza reciproca",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il forse rimane strutturalmente aperto: il campo della visibilità parziale non collassa mai in una decisione"
+      },
+      "textual_anchor_it": "Forse un giorno mi ha notato, quando dormivo come mia abitudine, dentro a una calda ciabatta a forma di coccodrillo.",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "ragione_della_ruota",
+      "label_en": "reason_for_the_wheel",
+      "type": "compulsive_loop",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "Ernesto non sa perché entra nella ruota: il campo della compulsione non produce spiegazioni interne",
+      "kokyu": "il ritmo è quello del loop: attratto → ingresso → corsa → reiterazione senza scopo dichiarato",
+      "yūgen": "il silenzio sulla ragione della ruota è il nucleo non risolto del sistema: la domanda non viene mai esplicitata nel testo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ragione della ruota resta non dichiarata: è il campo aperto che il lettore completa senza soluzione univoca"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-04",
+    "narrative_model": "quattro silenzi strutturali che definiscono il sistema emotivo: assenza, anonimato, quasi-visione, loop compulsivo",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
