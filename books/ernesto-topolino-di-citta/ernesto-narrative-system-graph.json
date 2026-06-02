@@ -1,0 +1,171 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "system_principle": "The building is not a setting but an operating system. Each apartment is a subsystem with its own perceptual logic. Ernesto is not a character but a roaming interface that connects incompatible spatial modules through an infrastructure nobody else uses.",
+  "node_classes": {
+    "scene": "apartment_execution_environment",
+    "object": "identity_or_sensory_module",
+    "ritual": "temporal_structure_device",
+    "transition": "threshold_between_incompatible_fields",
+    "silence": "unresolved_emotional_field",
+    "weather": "interior_climate_field",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": ["scene-01","scene-02","scene-03","scene-04","scene-05","scene-06","scene-07"],
+    "objects": ["object-01","object-02","object-03","object-04","object-05","object-06","object-07"],
+    "silences": ["silence-01","silence-02","silence-03","silence-04"],
+    "transitions": ["transition-01","transition-02","transition-03","transition-04","transition-05"],
+    "rituals": ["ritual-01","ritual-02","ritual-03","ritual-04","ritual-05"],
+    "weather_fields": ["weather-01","weather-02","weather-03","weather-04"]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "vertical_city_os",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "condotto_operating_system",
+        "nodes": ["object-01","scene-01","scene-07","ritual-01"],
+        "type": "infrastructure_loop",
+        "stability": "permanent",
+        "propagation_logic": "the heating duct is not a passage but the hidden network linking all apartments into a single perceptual organism",
+        "field_effect": "building_as_single_body",
+        "description": "The duct is the nervous system of the building. Ernesto is the only entity capable of traversing it without translation loss."
+      },
+      {
+        "id": "loop-02",
+        "label": "oggetti_produttori_di_identita",
+        "nodes": ["object-02","object-03","object-05"],
+        "type": "identity_production_loop",
+        "stability": "stable",
+        "propagation_logic": "objects do not belong to Ernesto but generate his identity as side effect of his traversal",
+        "field_effect": "object_defined_subject",
+        "description": "The Olivetti, the books, the cello are not possessions but identity-producing interfaces: Ernesto becomes what he crosses."
+      },
+      {
+        "id": "loop-03",
+        "label": "attrazione_irresistibile_217",
+        "nodes": ["object-07","transition-05","silence-04","transition-01"],
+        "type": "absence_attractor_loop",
+        "stability": "permanent_unresolved",
+        "propagation_logic": "the wheel in the empty apartment is structurally identical to the cage of origin — freedom generates compulsive return to captivity structure",
+        "field_effect": "void_as_magnetic_center",
+        "description": "The wheel is not an object but a gravitational anomaly. The escape from the cage and the return to the wheel are the same unresolved field."
+      },
+      {
+        "id": "loop-04",
+        "label": "citta_minima_palazzo",
+        "nodes": ["object-04","object-06","scene-02","scene-05"],
+        "type": "urban_microcosm_loop",
+        "stability": "stable",
+        "propagation_logic": "each apartment is a complete sensory world incompatible with the next, unified only by Ernesto's traversal",
+        "field_effect": "multi_world_coexistence",
+        "description": "The building contains multiple cities: kitchen-city, garden-city, music-city, duct-city. They coexist without knowing each other."
+      },
+      {
+        "id": "loop-05",
+        "label": "suono_memoria_tempo",
+        "nodes": ["object-05","object-02","silence-01","scene-04"],
+        "type": "sonic_memory_loop",
+        "stability": "continuous",
+        "propagation_logic": "cello produces temporal expansion that activates involuntary memory of the absent owner; typewriter produces counter-field of structured time",
+        "field_effect": "auditory_time_stretch_with_emotional_residue",
+        "description": "Sound generates memory more strongly than narrative: the cello expands time and surfaces the absent owner without decision."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "building_unification_through_invisible_infrastructure",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_spaces_become_connected_body"
+    },
+    {
+      "from": "object-07",
+      "to": "transition-01",
+      "effect": "wheel_retroactively_reframes_escape_as_incomplete",
+      "propagation_mode": "retroactive",
+      "intensity": 0.98,
+      "stability_impact": "cage_and_wheel_are_the_same_unresolved_field"
+    },
+    {
+      "from": "object-03",
+      "to": "object-02",
+      "effect": "nibbled_books_produce_knowledge_through_physical_interruption",
+      "propagation_mode": "behavioral",
+      "intensity": 0.92,
+      "stability_impact": "reading_as_consumption"
+    },
+    {
+      "from": "silence-02",
+      "to": "all",
+      "effect": "anonymity_enables_total_epistemic_access",
+      "propagation_mode": "structural",
+      "intensity": 0.96,
+      "stability_impact": "invisibility_as_privileged_knowledge_state"
+    },
+    {
+      "from": "scene-07",
+      "to": "scene-01",
+      "effect": "wheel_reframes_scrittore_as_fellow_loop_runner",
+      "propagation_mode": "retroactive",
+      "intensity": 0.85,
+      "stability_impact": "circular_closure_without_resolution"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "vertical_city_superposition",
+    "allowed_mutations": [
+      "room_reclassification",
+      "object_identity_production",
+      "infrastructure_revelation",
+      "absence_amplification",
+      "sound_memory_activation",
+      "compulsive_return"
+    ],
+    "forbidden_states": [
+      "building_as_background",
+      "objects_as_decor",
+      "ernesto_as_passive_character",
+      "linear_space_navigation",
+      "children_reading_register"
+    ]
+  },
+  "system_tension": {
+    "freedom_vs_captivity": 1.0,
+    "invisibility_vs_recognition": 0.96,
+    "presence_vs_absence": 0.94,
+    "risk_vs_pleasure": 0.91,
+    "building_vs_city": 0.88,
+    "sound_vs_silence": 0.87
+  },
+  "global_state": {
+    "dominant_field": "object-07",
+    "stability": "high_metastable_coherence",
+    "closure": false,
+    "closure_type": "circular_without_resolution",
+    "system_behavior": "The building behaves as a single cognitive organism. Ernesto is its wandering nerve impulse. The system closes on the wheel: maximum freedom generates compulsive return to minimum cage.",
+    "reader_effect": "after reading, any apartment building is perceived as potentially connected to all others through invisible infrastructural logic — and inhabited by observers nobody knows about",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "milano_fantastica": "shared Milanese urban field — historical stratification vs domestic stratification",
+      "ballerinette": "illustrated narrative for adults in non-realistic register",
+      "medusa": "circular system with unresolved paradox as structural conclusion"
+    }
+  }
+}
