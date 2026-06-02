@@ -1,0 +1,112 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "ritual_types": {
+    "daily_circuit": "sequenza urbana ricorrente che costruisce la mappa percettiva del palazzo",
+    "sensory_raid": "incursione guidata dal piacere con rischio implicito",
+    "passive_absorption": "stato di ricezione non attiva del campo sensoriale",
+    "compulsive_return": "attrazione non volontaria verso un nodo originario del sistema"
+  },
+  "editorial_principle": "I rituali di Ernesto non sono abitudini: sono la forma temporale del palazzo visto dall'interno delle sue pareti. Il tempo non scorre: si distribuisce tra attrattori sensoriali e ritorni compulsivi.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "giro_quotidiano",
+      "label_en": "daily_circuit",
+      "type": "daily_circuit",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il palazzo è una mappa viva che Ernesto attiva attraversandola stanza dopo stanza attraverso il condotto",
+      "kokyu": "sequenza regolare di attraversamenti: cucina → libri → musica → giardino → ritorno",
+      "yūgen": "ogni abitante ignora di essere parte di un sistema unico osservato da un punto invisibile",
+      "affects": {
+        "ritual-05": "ogni circuito aumenta la probabilità di ritorno alla ruota del 217"
+      },
+      "textual_anchor_it": "Ogni giorno attraverso il condotto, mi reco nei seguenti appartamenti.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "pranzo_cena_pina",
+      "label_en": "pina_meals",
+      "type": "daily_circuit",
+      "intensity": 0.87,
+      "perceptual_weight": 0.85,
+      "basho": "la cucina è un campo olfattivo stabile che organizza il tempo del palazzo",
+      "kokyu": "due soglie temporali al giorno: pranzo e cena come ancore del sistema",
+      "yūgen": "il profumo precede sempre la comprensione del luogo",
+      "textual_anchor_it": "Passo per pranzo e cena. Il profumo è sempre buono, ma a volte solo a leggere le ricette mi viene da scappare.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "furto_librario",
+      "label_en": "bookish_raid",
+      "type": "sensory_raid",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il libro è un oggetto che reagisce al morso più che alla lettura",
+      "kokyu": "silenzio → avvicinamento → morso → fuga → ritorno",
+      "yūgen": "il sapere passa attraverso il rischio di essere scoperti",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il rischio del gatto Oreste non riduce il piacere: lo rende necessario"
+      },
+      "affects": {
+        "ritual-04": "l'intensità sensoriale del rischio amplifica la sospensione dell'ascolto"
+      },
+      "textual_anchor_it": "mordicchiare i libri appena usciti, mentre il gattaccio dorme, mi fa impazzire.",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "ascolto_pomeridiano",
+      "label_en": "afternoon_listening",
+      "type": "passive_absorption",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "la musica sospende la funzione di attraversamento del palazzo",
+      "kokyu": "tempo dilatato senza direzione: ascolto come immobilità attiva",
+      "yūgen": "la memoria della padroncina emerge come eco non intenzionale",
+      "textual_anchor_it": "Passo i miei pomeriggi ad ascoltare, sognando di viaggiare, ma a volte penso alla mia piccola e pestifera padroncina.",
+      "glossary_link": ["kokyu", "mono no aware", "ma"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "corsa_nella_ruota",
+      "label_en": "wheel_running",
+      "type": "compulsive_return",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "la ruota è il punto in cui il sistema si richiude su sé stesso senza spiegazione",
+      "kokyu": "attrazione → ingresso → corsa → accelerazione → impossibilità di uscita",
+      "yūgen": "la libertà si manifesta come imitazione della prigionia",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Ernesto non sceglie la ruota: la riconosce come ritorno inevitabile"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-05",
+    "narrative_model": "il palazzo è un sistema di attrattori percettivi; i rituali sono traiettorie obbligate tra campi sensoriali che convergono nella ruota",
+    "closure": false,
+    "topology": "closed_recursive_loop",
+    "key_dynamic": "ogni rituale aumenta la probabilità del successivo fino alla riattivazione della ruota come punto di ritorno",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
