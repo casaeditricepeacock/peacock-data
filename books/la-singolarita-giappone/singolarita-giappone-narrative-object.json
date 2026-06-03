@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022,
+    "cover_note": "foto applicata a mano in copertina"
+  },
+  "editorial_principle": "Ogni oggetto in La Singolarità Giappone è simultaneamente un campo culturale e un operatore di pensiero. La lingua giapponese non è un sistema di comunicazione: è un'architettura relazionale. Le xilografie di Ligustro non illustrano il testo: attestano che l'Occidente può produrre il Giappone dall'interno. Il Torii in copertina non è un simbolo: è una soglia tra sistemi di realtà incompatibili.",
+  "object_types": {
+    "relational_field": "oggetto che produce rapporti piuttosto che significati",
+    "temporal_compression": "oggetto che porta simultaneamente epoche diverse come strati operativi",
+    "western_singularity": "oggetto prodotto da un occidentale che ha assorbito il Giappone fino a diventarne parte",
+    "threshold_symbol": "oggetto che separa e connette sistemi percettivi incompatibili",
+    "philosophical_operator": "concetto che funziona come dispositivo di pensiero non riducibile a definizione"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "lingua_giapponese",
+      "label_en": "japanese_language",
+      "type": "relational_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la lingua giapponese non occupa uno spazio neutro: è essa stessa il campo in cui le relazioni tra persone si producono e si codificano",
+      "kokyu": "il ritmo è quello della situazione: ogni enunciato porta la posizione del parlante, dell'interlocutore, il contesto e la gerarchia come struttura grammaticale obbligatoria",
+      "yūgen": "il silenzio è ideale nella comunicazione giapponese: ciò che è taciuto conta più di ciò che è detto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la lingua giapponese rimane l'ultimo baluardo della cultura nipponica: non si traduce, si impara in decenni"
+      },
+      "affects": {
+        "object-02": "la lingua produce il Ma come struttura del silenzio comunicativo",
+        "object-05": "la lingua è il campo in cui la singolarità culturale del Giappone resiste alla globalizzazione"
+      },
+      "textual_anchor_it": "la lingua rimane l'ultimo baluardo a difesa della propria cultura.",
+      "glossary_link": ["ma", "basho", "kokyu"]
+    },
+    {
+      "id": "object-02",
+      "label": "ma_silenzio_comunicativo",
+      "label_en": "ma_communicative_silence",
+      "type": "relational_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "il Ma non è pausa tra le parole: è il campo in cui il significato si produce per assenza",
+      "kokyu": "il ritmo giapponese della comunicazione: parola → silenzio → parola; la pausa è parte della grammatica",
+      "yūgen": "i giapponesi curano le pause, così importanti nelle canzoni — il non detto come forma superiore di linguaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Ma sopravvive a modernizzazione e globalizzazione come struttura antropologica non eliminabile"
+      },
+      "affects": {
+        "object-03": "il Ma struttura anche la xilografia: lo spazio vuoto come campo percettivo attivo"
+      },
+      "textual_anchor_it": "curiamo le pause, così importanti nelle nostre canzoni.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+    {
+      "id": "object-03",
+      "label": "xilografia_ligustro",
+      "label_en": "ligustro_xylography",
+      "type": "western_singularity",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "le xilografie di Ligustro non decorano il libro: attestano che un genovese del XX secolo ha replicato dall'interno il periodo Edo",
+      "kokyu": "il ritmo è quello della stampa a mano: centinaia di passaggi, fino a 800 colori, ogni opera unica",
+      "yūgen": "un genovese è la reincarnazione di Hokusai: l'Occidente produce il Giappone come forma superiore di comprensione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni xilografia di Ligustro è un'opera unica: la tecnica nishiki-e non si replica industrialmente"
+      },
+      "affects": {
+        "object-04": "Ligustro incarna la singolarità del libro: un occidentale che ha attraversato il Giappone fino a dissolversi in esso"
+      },
+      "textual_anchor_it": "Un Geniale stampatore di Ukiyo-e di Genova è la reincarnazione di Hokusai.",
+      "glossary_link": ["wabi-sabi", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-04",
+      "label": "torii_copertina",
+      "label_en": "torii_cover",
+      "type": "threshold_symbol",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il Torii non è un portale architettonico: è il campo della soglia tra il profano e il sacro, tra Occidente e Giappone, tra conoscibile e indicibile",
+      "kokyu": "l'ombra del Torii proietta l'ideogramma 間 (Ma): il portale produce il silenzio come propria ombra",
+      "yūgen": "una gru spicca il volo: il movimento che parte dalla soglia verso l'indefinito",
+      "affects": {
+        "object-01": "il Torii è la soglia che il libro attraversa: dalla lingua occidentale al campo giapponese"
+      },
+      "textual_anchor_it": "Un Torii, portale di accesso ai Santuari Shintoisti, proietta l'ombra dell'ideogramma 間 (aida, intervallo di tempo o di spazio). Una gru japonensis (tsuru) spicca il volo.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "object-05",
+      "label": "singolarita_culturale",
+      "label_en": "cultural_singularity",
+      "type": "philosophical_operator",
+      "intensity": 0.99,
+      "perceptual_weight": 1.0,
+      "basho": "la singolarità non è un luogo: è il punto in cui un sistema culturale non è più comparabile con gli altri — il Giappone come caso limite della storia umana",
+      "kokyu": "il ritmo è quello della compressione storica: 1500 anni giapponesi replicano 5200 anni occidentali con una velocità senza precedenti",
+      "yūgen": "la singolarità produce attrazione irresistibile e incomprensione strutturale simultaneamente: si è attratti da ciò che non si può comprendere fino in fondo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la singolarità del Giappone non si risolve nella comprensione: rimane come campo di differenza irriducibile"
+      },
+      "affects": {
+        "object-01": "la singolarità si manifesta prima di tutto nella lingua",
+        "object-03": "la singolarità si manifesta anche nell'arte: Ligustro come caso occidentale della singolarità giapponese"
+      },
+      "textual_anchor_it": "elementi della storia e cultura del Giappone che hanno portato a considerare la cultura giapponese una singolarità.",
+      "glossary_link": ["yūgen", "basho", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-05",
+    "secondary_field": "object-01",
+    "narrative_model": "cinque operatori filosofici e culturali che costruiscono il Giappone come sistema di pensiero alternativo all'Occidente",
+    "ligustro_note": "Giovanni Berio (1924–2015): 5000 legni donati alla città di Imperia, opere al Museo Chiossone di Genova — la xilografia come campo percettivo fisico non riproducibile",
+    "series_connection": "Nihon monogatari — Demone Samurai e Assolutamente Giappone (Blignaut): stesso universo, registro saggistico-filosofico"
+  }
+}
