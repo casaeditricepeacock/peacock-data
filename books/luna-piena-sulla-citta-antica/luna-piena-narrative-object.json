@@ -1,0 +1,153 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "subtitle": "Raccolta di poesie tanka del poeta Toshihiko Ota",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025,
+    "edition": "II ristampa",
+    "cover_note": "fotografia applicata a mano in copertina, acquarello in stile Nihonga"
+  },
+  "editorial_principle": "Luna piena sulla città antica non presenta semplicemente una raccolta poetica. Produce un campo percettivo in cui venticinque tanka attraversano più di mille anni di storia giapponese. Ogni poesia agisce come una compressione temporale: un frammento minimo capace di contenere memoria, paesaggio, lutto, amore e continuità culturale. La calligrafia di Toshihiko Ota non accompagna il testo ma ne costituisce il corpo visibile.",
+  "object_types": {
+    "temporal_compression": "oggetto che concentra grandi estensioni temporali in una forma minima",
+    "calligraphic_field": "campo percettivo generato dalla scrittura come gesto corporeo",
+    "historical_anchor": "operatore che connette il testo a un preciso strato della memoria storica",
+    "natural_operator": "elemento naturale che collega differenti epoche e stati emotivi",
+    "absent_presence": "presenza evocata che continua ad agire pur essendo assente"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "tanka_31_sillabe",
+      "label_en": "tanka_31_syllables",
+      "type": "temporal_compression",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il tanka non è una forma breve ma un dispositivo di compressione temporale capace di trasportare secoli di esperienza umana all'interno di trentuno sillabe",
+      "kokyu": "il ritmo segue la struttura 5-7-5-7-7: una misura che non limita l'espressione ma ne concentra l'intensità",
+      "yūgen": "la parte più estesa del tanka è sempre ciò che non viene detto; il testo apre un campo che continua oltre la sua conclusione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuna lettura esaurisce il tanka: ogni rilettura riattiva strati percettivi differenti"
+      },
+      "affects": {
+        "object-02": "la compressione poetica genera la necessità della calligrafia come seconda forma espressiva",
+        "object-03": "la compressione temporale richiede un ancoraggio storico che ne riveli la profondità"
+      },
+      "textual_anchor_it": "Luna piena sulla città antica — raccolta di poesie tanka del poeta Toshihiko Ota.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "calligrafia_ota",
+      "label_en": "ota_calligraphy",
+      "type": "calligraphic_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "la calligrafia non trascrive il tanka ma ne manifesta il movimento interno; il significato diventa gesto e il gesto diventa paesaggio visivo",
+      "kokyu": "ogni tratto conserva il ritmo respiratorio del poeta nel momento dell'esecuzione",
+      "yūgen": "la calligrafia comunica prima della lettura e continua a comunicare oltre il significato delle parole",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il gesto calligrafico non può essere replicato: ogni foglio mantiene l'unicità dell'istante che lo ha generato"
+      },
+      "affects": {
+        "object-01": "la calligrafia amplifica il campo percettivo del tanka trasformando il testo in immagine"
+      },
+      "textual_anchor_it": "Le calligrafie originali di Toshihiko Ota accompagnano ogni poesia della raccolta.",
+      "glossary_link": [
+        "kokyu",
+        "ma",
+        "basho"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "sigillo_rosso",
+      "label_en": "red_seal",
+      "type": "historical_anchor",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il sigillo non certifica il testo ma lo colloca in un preciso punto del continuum storico giapponese",
+      "kokyu": "ogni sigillo opera come una riattivazione immediata del contesto da cui il tanka proviene",
+      "yūgen": "il rosso del sigillo interrompe il dominio dell'inchiostro nero e introduce una profondità temporale ulteriore",
+      "affects": {
+        "object-01": "il sigillo trasforma il tanka in una presenza storica attiva"
+      },
+      "textual_anchor_it": "I sigilli accompagnano i riferimenti agli imperatori, ai luoghi e alle fonti storiche dei componimenti.",
+      "glossary_link": [
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "luna_piena",
+      "label_en": "full_moon",
+      "type": "natural_operator",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la luna piena è il campo percettivo che attraversa l'intera raccolta collegando individui, epoche e paesaggi separati dal tempo",
+      "kokyu": "il suo ritmo è ciclico: ogni ritorno riattiva tutti i ritorni precedenti",
+      "yūgen": "la stessa luna osservata da persone lontane produce una prossimità che supera la distanza fisica",
+      "affects": {
+        "object-05": "la luna trasforma l'assenza in una forma di presenza condivisa"
+      },
+      "textual_anchor_it": "La luna piena sul Todai-ji diventa il punto di incontro invisibile tra persone separate.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "assenti_evocati",
+      "label_en": "evoked_absent",
+      "type": "absent_presence",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "le figure assenti costituiscono il vero centro emotivo della raccolta: fratelli, sposi, principi e antenati continuano ad agire attraverso la memoria poetica",
+      "kokyu": "il ritmo è quello del ritorno memoriale: ogni lettura richiama nuovamente l'assente nel campo del presente",
+      "yūgen": "la poesia non elimina la perdita ma la trasforma in presenza percettiva duratura",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "gli assenti non vengono mai recuperati né risolti; rimangono come campi aperti che sostengono l'intera raccolta"
+      },
+      "affects": {
+        "object-04": "la distanza degli assenti trova nella luna il proprio operatore di connessione"
+      },
+      "textual_anchor_it": "La neve è arrivata nella tua tomba, dove riposi, vero? Affinché non provi freddo, tua sorella maggiore ti farà un abito da indossare.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-02",
+    "system_role": "poetry_as_temporal_compression_field",
+    "narrative_model": "cinque operatori percettivi trasformano il tanka in un sistema simultaneamente poetico, storico, calligrafico e memoriale",
+    "tanka_count": 25,
+    "historical_span": "dalle origini della poesia giapponese fino alla contemporaneità",
+    "reader_effect": "il lettore non accumula informazioni sulla poesia giapponese ma acquisisce una nuova percezione del rapporto tra tempo, memoria e assenza",
+    "series_connection": "collana Tanka — volume fondativo della collana Peacock dedicata alla poesia classica e contemporanea giapponese",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
