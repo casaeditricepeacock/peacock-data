@@ -1,0 +1,99 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "editorial_purpose": {
+    "function": "attivare il campo percettivo dei 25 tanka come sistema integrato di presenze e assenze connesse dalla luna e dal Ma",
+    "constraint": "il libro non è una raccolta poetica: è un sistema percettivo in cui calligrafia, sigillo rosso, nota in prosa e tanka operano come quattro campi autonomi ma interdipendenti"
+  },
+  "reading_principle": {
+    "rule_01": "ogni tanka va attraversato due volte: prima come campo visivo calligrafico, poi come testo",
+    "rule_02": "il sigillo rosso non è didascalia ma operatore temporale che situa il tanka nella storia giapponese",
+    "rule_03": "la nota in prosa non spiega il tanka: attiva il contesto storico senza esaurire il campo poetico",
+    "rule_04": "il Ma del tanka è strutturalmente più grande del tanka stesso: il lettore completa il campo con il proprio silenzio",
+    "rule_05": "la luna piena è l'operatore globale che connette tutti i 25 tanka: ogni separazione, lutto e attesa è sincronizzata su questo campo"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "imperial_compassion_field",
+      "note": "Nintoku e il fumo assente: il potere come campo di compassione silenziosa"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "mourning_as_care_field",
+      "note": "la sorella e l'abito di neve: il lutto come gesto d'amore persistente oltre la morte"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "departure_without_return_field",
+      "note": "il soldato e gli uccelli: la separazione come comunicazione impossibile ma attiva"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "lunar_connection_field",
+      "note": "la moglie e la luna: connessione a distanza attraverso un campo non linguistico"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "seasonal_continuity_field",
+      "note": "Asukawa e la primavera: la natura come continuità indipendente dall'assenza umana"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni tanka è un campo autonomo: calligrafia e testo coesistono ma non si riducono reciprocamente",
+      "constraint": "il sigillo rosso precede la lettura: stabilisce il tempo del campo prima del significato"
+    },
+    "kokyu": {
+      "rule": "il ritmo di lettura è pausale: ogni tanka richiede una sospensione prima e dopo",
+      "effect": "la pausa tra i tanka è il Ma strutturale dell'opera"
+    },
+    "yūgen": {
+      "rule": "il non detto è costitutivo: la nota non chiude il significato ma lo apre",
+      "effect": "il lettore integra il campo con la propria esperienza di perdita, attesa e distanza"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie testuale",
+    "contains": [
+      "luna piena come operatore globale di coerenza del sistema",
+      "calligrafia come corpo del gesto poetico",
+      "Ma come campo tra le unità del tanka",
+      "Mitsue e i boschi di bambù come spazio di produzione del testo"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il lettore conserva un sistema di 25 micro-assenze luminose non risolvibili",
+    "perceptual_residue": "il gesto della sorella che tesse l'abito di neve persiste come campo attivo",
+    "temporal_effect": "ogni luna piena riattiva simultaneamente tutti i tanka come sistema unico"
+  },
+  "meta_layer": {
+    "system_note": "prima raccolta della collana Tanka Peacock con 25 tanka, calligrafia originale Ota, copertina Nihonga Andrea Brivio, apparato critico bilingue",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "assolutamente_giappone": "condivisione del campo storico giapponese come dispositivo percettivo",
+      "demone_samurai": "continuità nel regime storico del Giappone premoderno",
+      "odabooks": "interoperabilità nel campo della poesia giapponese classica"
+    }
+  }
+}
