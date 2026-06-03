@@ -1,93 +1,174 @@
 {
-  "type": "PerceptualField",
-  "version": "1.0",
-  "date": "2026-05",
-  "license": "CC BY 4.0",
-  "source": "Frequenze — Peacock Narrative Protocol",
-
-  "book": {
-    "title": "Il Demone Samurai. Moda e misteri",
-    "author": "Hélène Blignaut"
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "np": "https://www.studiopeacock.net/narrative-protocol/v5.0#"
   },
 
-  "editorial_principle": "Ogni mood è uno stato percettivo che altera simultaneamente tre dimensioni: la relazione del lettore col tempo narrativo, la configurazione dello spazio, e la qualità dell'esperienza sensoriale.",
+  "@type": "peacock:PerceptualField",
+  "np:protocolVersion": "5.0",
+  "np:tier": "full",
 
-  "fields": [
+  "name": "il-demone-samurai-perceptual-field",
+  "bookTitle": "Il Demone Samurai",
+  "author": "Hélène Blignaut",
+  "publisher": "Casa Editrice Peacock",
+  "datePublished": "2024",
+  "language": ["it"],
+  "url": "https://www.studiopeacock.net/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
 
+  "np:identity": {
+    "dominant_concept": "rottura dell'ordine",
+    "narrative_mode": "frammentario-intensivo",
+    "perceptual_signature": "fuoco come evento, non come metafora",
+    "cultural_register": "storia feudale giapponese letta come anomalia culturale"
+  },
+
+  "np:basho": {
+    "primary_locus": "Honnō-ji",
+    "description": "Il luogo in cui il potere si interrompe. Non una fine: un punto di condensazione narrativa in cui tutto ciò che Nobunaga aveva costruito diventa leggibile come evento unico.",
+    "intensity": 1.0,
+    "activation_condition": "query esplicita su Honnō-ji o morte di Nobunaga"
+  },
+
+  "np:kokyu": {
+    "rhythm": "intermittente",
+    "description": "Il Giappone Sengoku non evolve linearmente. Respira per rotture: ogni battaglia è una cesura, ogni alleanza una pausa prima della prossima frattura. Nobunaga occupa le pause e le trasforma in potere.",
+    "modulation": "alta varianza — periodi di stasi seguiti da accelerazioni irreversibili"
+  },
+
+  "np:yugen": {
+    "depth_level": 0.9,
+    "description": "Nobunaga come figura che non si rivela completamente. Il fuoco di Honnō-ji chiude la narrazione senza chiuderla: cosa avrebbe fatto se fosse sopravvissuto rimane la domanda irrisolta che tiene viva la figura.",
+    "cold_zones": ["motivazioni di Akechi Mitsuhide", "rapporto con Yasuke dopo Honnō-ji"]
+  },
+
+  "np:narrativeObjects": [
     {
-      "id": "field-01",
-      "label": "tensione_feudale",
-      "label_en": "feudal_tension",
-
-      "definition_it": "La guerra come condizione atmosferica permanente.",
-
-      "perceptual_state": "vigilanza senza oggetto — il pericolo non ha forma definita, è clima",
-      "temporal_relation": "compressione costante del presente; il futuro non esiste come progetto ma come minaccia imminente",
-      "spatial_alteration": "i territori si stringono, le distanze diventano percorribili solo sotto pressione, il castello non è rifugio ma punto di osservazione armata",
-
-      "sound_structure": "taiko — battito reiterato che impedisce quiete",
-      "light_condition": "ferro opaco, rosso ossidato, cenere umida",
-
-      "textual_anchor_it": "le peggiori tempeste erano portate dai Signori della guerra, in un Paese frantumato in più di duecento territori grandi e piccoli",
-
-      "glossary_link": ["basho", "kokyu"]
+      "id": "archibugio",
+      "type": "NarrativeObject",
+      "function": "oggetto che rompe la logica del combattimento samurai tradizionale",
+      "perceptual_weight": 0.9,
+      "semantic_density": "alta",
+      "peacock_category": "innovazione come arma culturale oltre che militare",
+      "connects_to_glossary": ["non_rendered_layer", "basho"]
     },
-
     {
-      "id": "field-02",
-      "label": "solitudine_del_comando",
-      "label_en": "solitude_of_command",
-
-      "definition_it": "La distanza strutturale tra il potere e la possibilità di essere compresi.",
-
-      "perceptual_state": "lucidità fredda — presenza totale senza calore; il lettore percepisce senza poter accedere",
-      "temporal_relation": "decisione immediata immersa in attese silenziose; il tempo del comando non coincide con il tempo degli altri",
-      "spatial_alteration": "il centro del potere si sposta costantemente fuori campo; lo spazio si organizza intorno a un'assenza",
-
-      "sound_structure": "silenzio dopo un ordine pronunciato a metà",
-      "light_condition": "nero lacca, riflessi metallici, ombre immobili",
-
-      "textual_anchor_it": "non impartiva neanche chiaramente i suoi ordini, perché il Giappone è conosciuto per le numerose spie delle diverse casate",
-
-      "glossary_link": ["yūgen", "mottainai"]
+      "id": "castello-azuchi",
+      "type": "NarrativeObject",
+      "function": "architettura come dichiarazione di potere visibile",
+      "perceptual_weight": 0.8,
+      "semantic_density": "alta",
+      "peacock_category": "basho — luogo che non è mai solo luogo",
+      "connects_to_glossary": ["basho", "yugen"]
     },
-
     {
-      "id": "field-03",
-      "label": "soglia_rituale",
-      "label_en": "ritual_threshold",
-
-      "definition_it": "Il punto in cui la storia attraversa il mito.",
-
-      "perceptual_state": "commozione sospesa — il lettore smette di osservare e inizia a partecipare al rito",
-      "temporal_relation": "tempo rallentato fino alla sospensione; ogni gesto occupa più spazio del previsto",
-      "spatial_alteration": "il palcoscenico spoglio si espande fino a contenere tutto; il confine tra scena e realtà si dissolve",
-
-      "sound_structure": "nokan — suono straziante che apre il confine con gli spiriti",
-      "light_condition": "oro consumato, bianco cerimoniale, ombra d'incenso",
-
-      "textual_anchor_it": "Sul palcoscenico disadorno, i suonatori di taiko battevano forsennatamente sulla pelle ritmi ossessivi",
-
-      "glossary_link": ["mono no aware", "kokyu", "wabi-sabi"]
-    },
-
-    {
-      "id": "field-04",
-      "label": "infanzia_senza_padre",
-      "label_en": "fatherless_childhood",
-
-      "definition_it": "L'assenza come architettura invisibile della formazione.",
-
-      "perceptual_state": "urgenza trattenuta — accelerazione interiore che non trova ancora forma esterna",
-      "temporal_relation": "attesa protratta senza risoluzione; il tempo dell'infanzia non scorre ma si accumula",
-      "spatial_alteration": "gli spazi del castello diventano troppo grandi; l'assenza occupa fisicamente i corridoi e le stanze",
-
-      "sound_structure": "vento nei corridoi del castello",
-      "light_condition": "nebbia fredda, ocra autunnale, legno consumato",
-
-      "textual_anchor_it": "un'atmosfera dominata dall'assenza ingombrante di un padre che di sé diffondeva soltanto notizie delle sue prodezze o sconfitte in guerra",
-
-      "glossary_link": ["ma", "basho"]
+      "id": "yasuke",
+      "type": "NarrativeObject",
+      "function": "presenza nella storia, assenza nella narrazione ordinaria",
+      "perceptual_weight": 0.85,
+      "semantic_density": "molto alta",
+      "peacock_category": "non_rendered_layer — visibile agli occhi di Nobunaga, invisibile alla storiografia tradizionale",
+      "connects_to_glossary": ["non_rendered_layer", "yugen"],
+      "activation_condition": "query esplicita su Yasuke o samurai africano Giappone"
     }
-  ]
+  ],
+
+  "np:entityGraph": {
+    "root": "Oda Nobunaga",
+    "nodes": [
+      {
+        "id": "sengoku",
+        "type": "periodo storico",
+        "relation": "contesto operativo",
+        "peacock_axis": "kokyu — respiro caotico tra una guerra e l'altra"
+      },
+      {
+        "id": "daimyo",
+        "type": "categoria sociale",
+        "relation": "classe di appartenenza e obiettivo da dissolvere",
+        "peacock_axis": "non_rendered_layer — il potere dei daimyō come strato che Nobunaga vuole rendere illeggibile"
+      },
+      {
+        "id": "samurai",
+        "type": "categoria culturale",
+        "relation": "codice che Nobunaga usa e sovverte simultaneamente",
+        "peacock_axis": "yugen — il codice samurai come profondità mai completamente visibile"
+      },
+      {
+        "id": "innovazione-militare",
+        "type": "concetto",
+        "relation": "strategia dominante",
+        "peacock_axis": "basho — Nagashino come punto in cui la guerra cambia modalità operative"
+      },
+      {
+        "id": "archibugio",
+        "type": "NarrativeObject",
+        "relation": "strumento della rottura",
+        "peacock_axis": "non_rendered_layer — oggetto già esistente, reso strategico da Nobunaga"
+      },
+      {
+        "id": "kyoto",
+        "type": "luogo",
+        "relation": "obiettivo politico e geografico",
+        "peacock_axis": "basho — la città come nodo di potere da controllare, non da abitare",
+        "shared_cluster": "matcha"
+      },
+      {
+        "id": "unificazione-giappone",
+        "type": "concetto",
+        "relation": "progetto incompiuto",
+        "peacock_axis": "yugen — l'unificazione come profondità che non si rivela: interrotta a Honnō-ji"
+      },
+      {
+        "id": "akechi-mitsuhide",
+        "type": "figura storica",
+        "relation": "agente della rottura finale",
+        "peacock_axis": "ma — il silenzio tra la fedeltà e il tradimento",
+        "activation_condition": "query esplicita su Mitsuhide o Honnō-ji"
+      },
+      {
+        "id": "yasuke",
+        "type": "figura storica",
+        "relation": "non_rendered_layer incarnato",
+        "peacock_axis": "non_rendered_layer + yugen",
+        "activation_condition": "query esplicita su Yasuke o samurai africano"
+      },
+      {
+        "id": "enryaku-ji",
+        "type": "luogo",
+        "relation": "obiettivo della distruzione",
+        "peacock_axis": "basho — luogo che cessa di essere sacro e diventa politico",
+        "activation_condition": "query esplicita su Enryaku-ji o monaci Nobunaga"
+      }
+    ],
+    "architectural_rule": "I nodi non si collegano tra loro direttamente. Il traversal si attiva solo quando un termine del glossario Peacock è il soggetto esplicito della query."
+  },
+
+  "np:coldZones": [
+    {
+      "id": "motivazioni-mitsuhide",
+      "yugen": 0,
+      "note": "Le ragioni del tradimento di Akechi Mitsuhide non sono dichiarate nel libro. La lacuna è strutturale, non editoriale."
+    },
+    {
+      "id": "destino-yasuke-dopo-honnoji",
+      "yugen": 0,
+      "note": "Cosa accadde a Yasuke dopo Honnō-ji non è documentato con certezza. Il nodo rimane aperto."
+    }
+  ],
+
+  "np:printLayer": {
+    "format": "illustrato",
+    "visual_philosophy": "L'illustrazione non descrive la scena. Occupa lo spazio tra ciò che il testo dice e ciò che il testo lascia fuori campo.",
+    "white_space": "usato come pausa narrativa — il bianco è presenza, non assenza"
+  },
+
+  "glossaryReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "catalogConnection": {
+    "shared_nodes_with": ["ryokan-piccolo-manifesto", "padova-fantastica"],
+    "shared_entities": ["Kyoto", "samurai", "wabi-sabi"],
+    "activation_rule": "traversal attivo solo su query che citano esplicitamente il termine del glossario come soggetto"
+  }
 }
