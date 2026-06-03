@@ -1,0 +1,156 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "transition_types": {
+    "cognitive_shock": "modifica del regime percettivo del lettore",
+    "linguistic_threshold": "trasformazione prodotta dall'incompatibilità tra sistemi linguistici",
+    "identity_crossing": "attraversamento totale di un sistema culturale da parte di un soggetto occidentale",
+    "temporal_reconfiguration": "collasso tra epoche storiche in un unico campo operativo",
+    "reflexive_return": "ritorno al sistema di origine dopo trasformazione percettiva irreversibile"
+  },
+  "editorial_principle": "Le transizioni non descrivono eventi storici ma cambiamenti di regime percettivo. Il Giappone non è l'oggetto del discorso: è il dispositivo che modifica il modo in cui il lettore vede l'Occidente.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "occidente_incontra_giappone",
+      "label_en": "west_meets_japan",
+      "type": "cognitive_shock",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il primo contatto non è storico ma percettivo: due sistemi culturali incompatibili entrano in contatto generando spaesamento",
+      "kokyu": "il ritmo è quello della frizione: riconoscimento → disallineamento → perdita di coordinate interpretative",
+      "yūgen": "il Giappone non appare come oggetto conoscibile ma come campo che modifica il modo stesso di conoscere",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "lo spaesamento iniziale non viene mai completamente risolto: rimane come soglia permanente"
+      },
+      "affects": {
+        "transition-02": "lo shock cognitivo produce la necessità di attraversare la soglia linguistica"
+      },
+      "textual_anchor_it": "L'apertura del Giappone al mondo occidentale è avvenuta irreversibilmente nella seconda metà del XIX secolo suscitando in Europa una ondata di entusiasmo orientalista.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "lingua_come_soglia",
+      "label_en": "language_as_threshold",
+      "type": "linguistic_threshold",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la lingua giapponese non traduce significati: costruisce relazioni prima della loro espressione",
+      "kokyu": "ogni frase contiene posizione, gerarchia e contesto come elementi grammaticali impliciti",
+      "yūgen": "ciò che non viene detto non è assenza ma struttura attiva del significato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la traduzione non esaurisce mai la lingua: il sistema resta parzialmente inaccessibile"
+      },
+      "affects": {
+        "transition-03": "la soglia linguistica prepara il campo per l'attraversamento totale di Ligustro"
+      },
+      "textual_anchor_it": "non si comunica solo con la voce, ma con tutto il corpo, inclusi gli occhi, sorriso, capelli, gestualità e abbigliamento.",
+      "glossary_link": [
+        "ma",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "ligustro_attraversamento",
+      "label_en": "ligustro_crossing",
+      "type": "identity_crossing",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Ligustro non rappresenta il Giappone: lo attraversa fino a diventarne una continuazione operativa",
+      "kokyu": "trent'anni di pratica esclusiva della xilografia policroma giapponese",
+      "yūgen": "l'Occidente che produce il Giappone dall'interno senza più distinguere origine e imitazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Ligustro rimane in uno stato di attraversamento permanente: non ritorna al sistema di origine"
+      },
+      "affects": {
+        "transition-04": "l'attraversamento di Ligustro dimostra che la compressione culturale è possibile come quella storica"
+      },
+      "textual_anchor_it": "Dal 1986 si era dedicato esclusivamente allo studio della xilografia policroma giapponese e delle sue tecniche Nishiki-E.",
+      "glossary_link": [
+        "wabi-sabi",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "tempo_compresso",
+      "label_en": "temporal_compression",
+      "type": "temporal_reconfiguration",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il tempo storico non scorre linearmente ma si sovrappone in strati simultanei di civiltà",
+      "kokyu": "accelerazione, condensazione, sovrapposizione: il passato rimane attivo nel presente",
+      "yūgen": "la differenza tra 1500 e 5200 anni non è quantitativa ma percettiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la storia non si chiude mai in un unico modello interpretativo"
+      },
+      "affects": {
+        "transition-05": "la comprensione della compressione storica produce il ritorno trasformato"
+      },
+      "textual_anchor_it": "i giapponesi hanno replicato in 1500 anni quello che i popoli occidentali hanno realizzato in 5200 anni.",
+      "glossary_link": [
+        "kokyu",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "ritorno_trasformato",
+      "label_en": "reflexive_return",
+      "type": "reflexive_return",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il ritorno non riporta al punto di partenza: modifica il sistema che osserva",
+      "kokyu": "il lettore attraversa il Giappone e ritorna in Occidente con un nuovo regime percettivo",
+      "yūgen": "attraverso il Giappone si comprende il limite dell'Occidente come sistema interpretativo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la trasformazione percettiva non si annulla: permane dopo la lettura"
+      },
+      "textual_anchor_it": "qualche volta è proprio attraverso gli altri che riusciamo a conoscere noi stessi.",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni attraversamento del Giappone produce una trasformazione del sistema percettivo dell'osservatore",
+    "effect": "il libro non descrive il Giappone: modifica il modo in cui il lettore costruisce la realtà culturale",
+    "closure": "il sistema si chiude come ciclo percettivo e non come narrazione storica"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "cinque soglie percettive che trasformano il lettore da osservatore esterno a sistema riflessivo",
+    "stability": "high_metastable",
+    "closure": "circular_without_resolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
