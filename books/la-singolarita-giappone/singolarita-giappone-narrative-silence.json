@@ -1,0 +1,124 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "silence_types": {
+    "ma_structural": "il silenzio giapponese come struttura comunicativa — non assenza ma presenza di una possibilità",
+    "cultural_untranslatable": "ciò che non si può tradurre tra sistemi culturali e produce campo per la propria irriducibilità",
+    "historical_void": "il silenzio della storia che non si può comprendere completamente dall'esterno",
+    "productive_limitation": "il silenzio del limite che genera profondità invece di impoverimento"
+  },
+  "editorial_principle": "Il silenzio non è assenza ma infrastruttura percettiva: ciò che non si traduce è ciò che genera il sistema.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "ma_strutturale",
+      "label_en": "ma_structural_field",
+      "type": "ma_structural",
+      "intensity": 0.98,
+      "perceptual_weight": 1.0,
+      "basho": "il Ma non è pausa ma campo generativo della comunicazione",
+      "kokyu": "respiro come alternanza strutturale tra detto e non detto",
+      "yūgen": "la comunicazione giapponese è definita dalla densità del non espresso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Ma non è traducibile: porta con sé tutta la struttura culturale che lo ha prodotto"
+      },
+      "affects": {
+        "silence-02": "la struttura del Ma rende possibile l'intraducibilità"
+      },
+      "textual_anchor_it": "il silenzio rappresenta per i giapponesi l'ideale nella comunicazione: ciò che è taciuto piuttosto che ciò che è detto.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "intraducibilita_culturale",
+      "label_en": "cultural_untranslatable",
+      "type": "cultural_untranslatable",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "alcuni concetti non hanno equivalenti ma solo campi di risonanza",
+      "kokyu": "traduzione come avvicinamento asintotico",
+      "yūgen": "ogni parola rimanda ad altre parole invece che alle cose",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'intraducibilità non è un difetto del linguaggio: è la prova della singolarità del sistema culturale"
+      },
+      "affects": {
+        "silence-03": "la non traducibilità produce zone di opacità storica"
+      },
+      "textual_anchor_it": "c'è un movimento nella razionalità del dizionario: le parole rimandano alle cose? Sì. Ma anche in uno stesso movimento, ad altre parole.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "trauma_storico_tokyo_1945",
+      "label_en": "tokyo_1945_historical_void",
+      "type": "historical_void",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "la storia non è narrabile completamente quando supera la soglia del vissuto",
+      "kokyu": "memoria traumatica come tempo non integrabile",
+      "yūgen": "il vissuto eccede la narrazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la testimonianza di Hakuta Miyako — bambina durante i bombardamenti di Tokyo 1945 — è un campo che il libro porta senza poterlo contenere"
+      },
+      "affects": {
+        "silence-04": "il trauma impone un limite epistemico alla comprensione"
+      },
+      "textual_anchor_it": "avermi fatto partecipe di quanto avevano visto i suoi occhi di bambina testimoni delle devastazioni causate dai bombardamenti di Tokyo nel 1945.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "limite_epistemico",
+      "label_en": "epistemic_limit",
+      "type": "productive_limitation",
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
+      "basho": "la comprensione del Giappone è strutturalmente incompleta e deve rimanere tale",
+      "kokyu": "conoscenza come approssimazione consapevole",
+      "yūgen": "la piccola parte del mistero è l'unica forma possibile di accesso",
+      "affects": {
+        "silence-01": "il limite epistemico retroagisce sul Ma come consapevolezza della sua natura infinita"
+      },
+      "textual_anchor_it": "ho cercato di dipanare una piccola parte del mistero che lo avvolge.",
+      "glossary_link": [
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "system_model": "gerarchia verticale dei silenzi con loop retroattivo sul Ma",
+    "core_shift": "il silenzio non è contenuto del Giappone ma sua condizione di leggibilità",
+    "stability": "metastable",
+    "compatibility": "NarrativeScene v4.1 / NarrativeTransition v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
