@@ -1,0 +1,145 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "ritual_types": {
+    "poetic_compression": "rituale che riduce un'intera storia a 31 sillabe",
+    "calligraphic_act": "rituale del pennello come gesto corporeo irripetibile",
+    "historical_evocation": "rituale che riattiva figure e luoghi della storia giapponese antica",
+    "seasonal_observation": "rituale di osservazione della natura come campo emotivo",
+    "mourning_gesture": "rituale del lutto come atto d'amore verso l'assente"
+  },
+  "editorial_principle": "I rituali in Luna piena sulla città antica sono tutti rituali di condensazione: la storia millenaria del Giappone compressa in 31 sillabe, il gesto del pennello che condensa il corpo in un tratto, il lutto che condensa l'amore in un abito di neve.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "composizione_tanka",
+      "label_en": "tanka_composition",
+      "type": "poetic_compression",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il tanka è il luogo in cui la storia giapponese viene compressa fino a diventare esperienza immediata: trentuno sillabe che trasportano secoli",
+      "kokyu": "il ritmo è quello della forma fissa che genera possibilità infinite: 5-7-5-7-7 come struttura capace di attraversare imperatori, guerre, amori e lutti",
+      "yūgen": "il tanka non racconta un evento: lascia che il lettore ne percepisca la risonanza attraverso ciò che resta non detto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni tanka conserva un eccesso di significato che nessuna spiegazione storica può esaurire"
+      },
+      "affects": {
+        "ritual-02": "la composizione genera la calligrafia come forma visiva inseparabile",
+        "ritual-03": "la composizione trasforma la storia in esperienza poetica immediata"
+      },
+      "textual_anchor_it": "Toshihiko Ota è un poeta, nato nel 1951 a Fukuoka. Ha sempre amato la poesia, la lingua spagnola e il jazz.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "scrittura_calligrafica",
+      "label_en": "calligraphic_writing",
+      "type": "calligraphic_act",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "la calligrafia non trascrive: produce un secondo testo visivo che il tanka porta come campo parallelo",
+      "kokyu": "il ritmo è quello del gesto unico: ogni tratto di pennello è la respirazione del poeta in quell'istante irripetibile",
+      "yūgen": "le parole si trasformano in forme danzanti che comunicano prima di essere lette: il gesto precede il significato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni foglio calligrafico è irripetibile: il pennello non torna sullo stesso gesto"
+      },
+      "textual_anchor_it": "Nel 2017 è stato ospite alla Storica libreria Bocca dal 1775 con una performance art tra jazz e haiku.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "evocazione_storica",
+      "label_en": "historical_evocation",
+      "type": "historical_evocation",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "ogni tanka riattiva un luogo della storia giapponese: il fiume Asukawa, il Monte Kasuga, il Tempio Todai-ji, Mitsue",
+      "kokyu": "il ritmo è quello della memoria collettiva: il poeta evoca e il lettore riconosce — il campo condiviso della storia come territorio poetico",
+      "yūgen": "l'imperatore Nintoku che osserva il fumo delle case: un sovrano che vede la miseria del popolo attraverso l'assenza di fuochi domestici",
+      "affects": {
+        "ritual-04": "l'evocazione storica produce il campo della natura come teatro degli eventi"
+      },
+      "textual_anchor_it": "Durante il regno dell'Imperatore Nintoku, il sovrano del più grande mausoleo del mondo, osservando le condizioni di vita della popolazione, si accorse che le persone non erano in grado di avere un pasto adeguato.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "osservazione_stagionale",
+      "label_en": "seasonal_observation",
+      "type": "seasonal_observation",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la natura in ogni tanka non è scenografia: è il campo percettivo che porta l'emozione senza dichiararla",
+      "kokyu": "il ritmo è quello delle stagioni: la neve, la luna piena, i fiori di prugno, la nebbia mattutina — ogni elemento naturale è un segnale emotivo",
+      "yūgen": "la prima neve nel vecchio villaggio di Asuka ormai trascurato: la neve non descrive il lutto — lo è",
+      "textual_anchor_it": "E' arrivata la prima neve nel vecchio villaggio di Asuka, ormai trascurato. Vorrei almeno farti sentire il profumo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "gesto_del_lutto",
+      "label_en": "mourning_gesture",
+      "type": "mourning_gesture",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il lutto in Luna piena non è tema: è il gesto fisico — tessere un abito per chi è morto, agitare le maniche per chi parte in guerra, guardare la luna per chi è lontano",
+      "kokyu": "il ritmo del lutto è quello della cura impossibile: continuare a fare per chi non può ricevere",
+      "yūgen": "affinché non provi freddo, tua sorella maggiore, ti farà un abito da indossare: il lutto come atto d'amore che continua oltre la morte",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i gesti di lutto nei tanka non si concludono: rimangono come campi aperti che ogni rilettura riattiva"
+      },
+      "textual_anchor_it": "La neve è arrivata nella tua tomba, dove riposi, vero? Affinché non provi freddo, tua sorella maggiore, ti farà un abito da indossare.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-05",
+    "narrative_model": "cinque rituali di condensazione che trasformano il tanka in dispositivo di trasmissione culturale: la composizione comprime la storia, la calligrafia comprime il corpo, l'evocazione storica comprime il tempo, la natura comprime l'emozione, il lutto comprime l'amore",
+    "historical_span": "periodo Jomon — Yamato — Nara — contemporaneo",
+    "stability": "high",
+    "series_connection": {
+      "luna_piena_sulla_citta_antica": "campo poetico originario della collana Tanka",
+      "la_singolarita_giappone": "Nihon monogatari — campo filosofico del Giappone",
+      "ryokan": "Nihon monogatari — campo narrativo dell'esperienza giapponese",
+      "assolutamente_giappone": "Nihon monogatari — campo estetico e divulgativo"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
