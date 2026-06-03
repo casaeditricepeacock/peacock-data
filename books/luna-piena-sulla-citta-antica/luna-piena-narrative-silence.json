@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "silence_types": {
+    "ma_structural": "il silenzio giapponese come struttura comunicativa — non assenza ma campo di possibilità attiva",
+    "tanka_unsaid": "ciò che il tanka non esplicita ma mantiene come densità percettiva interna",
+    "mourning_void": "il silenzio del lutto come spazio operativo lasciato dall'assente",
+    "historical_gap": "il silenzio della storia non trasmessa che il tanka riattiva come esperienza"
+  },
+  "editorial_principle": "Il silenzio in Luna piena è il Ma del tanka: la forma a 31 sillabe non contiene il significato ma ne attiva la parte non esprimibile. Ogni figura (sorella, soldato, imperatore) agisce nel non detto più che nel detto.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "ma_del_tanka",
+      "label_en": "tanka_ma",
+      "type": "ma_structural",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni tanka è una struttura incompleta: 31 sillabe che attivano un campo più ampio di ciò che possono contenere",
+      "kokyu": "il ritmo del Ma è la pausa interna alla forma: il lettore completa il campo attraverso la propria esperienza percettiva",
+      "yūgen": "il non detto nei tanka è strutturale: la forma non chiude il significato ma lo sospende in uno spazio attivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Ma non si esaurisce nella lettura: ogni ritorno sul testo riattiva un nuovo campo di senso"
+      },
+      "affects": {
+        "silence-02": "il Ma strutturale produce il lutto non detto come campo operativo più denso del lutto dichiarato"
+      },
+      "textual_anchor_it": "Toshihiko Ota vive a Mitsue, prefettura di Nara, in una casa tipica giapponese immersa nei boschi di bambù.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "non_detto_lutto",
+      "label_en": "unsaid_mourning",
+      "type": "tanka_unsaid",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la sorella che tesse, il soldato che affida agli uccelli, l'imperatore che osserva: il lutto non è dichiarato ma agito",
+      "kokyu": "il ritmo del non detto è quello della sostituzione dell'enunciato con il gesto",
+      "yūgen": "il campo emotivo del tanka emerge quando il sentimento non viene nominato ma incarnato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il lutto nei tanka resta aperto: il lettore lo completa senza mai chiuderlo"
+      },
+      "affects": {
+        "silence-04": "il lutto non detto trova nella luna il proprio campo di sincronizzazione"
+      },
+      "textual_anchor_it": "Affinché non provi freddo, tua sorella maggiore, ti farà un abito da indossare.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_storico",
+      "label_en": "historical_silence",
+      "type": "historical_gap",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il tanka riattiva ciò che non è stato trasmesso: la storia emerge come traccia emotiva più che come documento",
+      "kokyu": "il ritmo è quello dell'indagine incompleta: ciò che manca diventa parte della struttura del senso",
+      "yūgen": "la 'misteriosa civiltà' non è un oggetto storico ma un campo percettivo che resta aperto",
+      "textual_anchor_it": "Non c'erano tradizioni tramandate né registri scritti, ma mentre cercavo le tracce delle antiche attività, ho scoperto una misteriosa civiltà.",
+      "glossary_link": [
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "silenzio_della_luna",
+      "label_en": "lunar_silence",
+      "type": "mourning_void",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la luna è il silenzio condiviso: non comunica ma sincronizza le assenze",
+      "kokyu": "il ritmo lunare è ciclico e non discorsivo: ritorna senza spiegazione",
+      "yūgen": "due persone lontane condividono lo stesso oggetto senza scambio: la relazione avviene nel silenzio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la luna non produce messaggio: produce simultaneità percettiva"
+      },
+      "textual_anchor_it": "La moglie sa che suo marito starà guardando la splendida luna piena sorgere sulle montagne vicino al Tempio Todai-ji.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "quattro configurazioni del non detto: struttura (Ma), emozione non nominata, storia non trasmessa, sincronizzazione lunare",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
