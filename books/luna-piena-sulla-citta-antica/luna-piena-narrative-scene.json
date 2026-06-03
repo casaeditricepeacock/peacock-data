@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "presenza_vs_assenza",
+    "temporal_axis": "historical_compression_non_linear",
+    "narrative_logic": "ogni scena è un campo percettivo autonomo che porta un'emozione senza dichiararla — il non detto è sempre più grande del detto"
+  },
+  "editorial_principle": "Le scene non sono capitoli ma configurazioni del campo emotivo. Ogni scena porta un tipo di assenza: il potere che si ritrae, il lutto che continua, la partenza che non garantisce ritorno, la luna che connette, la natura che persiste oltre l'umano. Il libro è un sistema di presenze-assenze connesso da un unico campo lunare.",
+  "scene_types": {
+    "imperial_field": "potere come responsabilità vuota",
+    "mourning_field": "lutto come cura impossibile",
+    "departure_field": "separazione irreversibile",
+    "lunar_field": "connessione tra separati",
+    "seasonal_return": "continuità naturale oltre l'assenza"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "imperatore_nintoku",
+      "type": "imperial_field",
+      "dominant": true,
+      "basho": "il palazzo come vuoto attivo: il potere osserva l'assenza di fumo nelle case e diventa responsabilità silenziosa",
+      "kokyu": "attesa compressa: il sovrano non agisce, ma trattiene il gesto dentro la percezione della sofferenza collettiva",
+      "yūgen": "竈の煙絶えて無く — il fumo assente come forma visibile della crisi del mondo",
+      "affects": {
+        "scene-03": "la responsabilità del potere si trasforma nella possibilità della partenza forzata"
+      },
+      "textual_anchor_it": "Durante il regno dell'Imperatore Nintoku, il sovrano del più grande mausoleo del mondo, osservando le condizioni di vita della popolazione, si accorse che le persone non erano in grado di avere un pasto adeguato.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "sorella_fratello_neve",
+      "type": "mourning_field",
+      "basho": "la tomba nella neve come spazio attivo: il lutto continua a operare oltre la morte",
+      "kokyu": "ripetizione impossibile: il gesto della cura non può raggiungere il destinatario ma non si interrompe",
+      "yūgen": "雪衣を姉皇女織りし — l'abito che non può essere indossato come forma pura del dono",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il lutto non si chiude: resta campo aperto strutturale"
+      },
+      "affects": {
+        "scene-04": "la luna diventa estensione del lutto come connessione a distanza"
+      },
+      "textual_anchor_it": "Oh mio caro fratello principe, che hai perso la vita in una sconfitta così dolorosa. La neve è arrivata nella tua tomba, dove riposi, vero?",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "soldato_uccelli_mare",
+      "type": "departure_field",
+      "basho": "il mare come taglio ontologico: il corpo parte, il pensiero tenta il ritorno",
+      "kokyu": "sospensione del destino: ogni partenza contiene già la possibilità della perdita",
+      "yūgen": "千鳥恋しき飛鳥 — gli uccelli come vettori impossibili dell'affetto",
+      "affects": {
+        "scene-04": "la distanza si trasforma in connessione lunare"
+      },
+      "textual_anchor_it": "Uccelli che volate sopra il mare, vi prego di portare i miei pensieri. È un viaggio di guerra incerto, senza sapere se riuscirò a tornare vivo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "luna_marito_moglie",
+      "type": "lunar_field",
+      "basho": "la stessa luna osservata da luoghi separati come unico spazio condiviso",
+      "kokyu": "ritorno ciclico senza garanzia di incontro umano",
+      "yūgen": "御蓋山の月 — la luna come unica continuità tra separati",
+      "affects": {
+        "scene-05": "la ciclicità lunare genera il tempo stagionale"
+      },
+      "textual_anchor_it": "La moglie sa che suo marito, sicuramente tornerà da un viaggio e che starà guardando la splendida luna piena sorgere sulle montagne vicino al Tempio Todai-ji.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "primavera_asukawa_ritorno",
+      "type": "seasonal_return",
+      "basho": "il fiume come memoria che non dipende dalla presenza umana",
+      "kokyu": "ripetizione del mondo: la natura continua indipendentemente dal lutto",
+      "yūgen": "La primavera è arrivata anche quest'anno — continuità senza consolazione",
+      "affects": {
+        "scene-01": "il tempo naturale retroagisce sul tempo del potere"
+      },
+      "textual_anchor_it": "Sulla riva del fiume Asukawa, nel mio paese natale, da un cesto portato da una giovane ragazza, sboccia un piccolo fiore, portato dal fresco vento. La primavera è arrivata anche quest'anno.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "system_state": "luna_come_operatore_di_connessione_globale",
+    "narrative_model": "cinque campi connessi da un'unica struttura: la distanza come forma primaria di relazione",
+    "retroactive_causality": true,
+    "global_effect": "la luna piena agisce come campo sincronico su tutte le scene"
+  }
+}
