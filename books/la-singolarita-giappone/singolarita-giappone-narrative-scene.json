@@ -1,0 +1,145 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "system_axis": {
+    "primary_tension": "singolarità_vs_autocomprensione",
+    "temporal_axis": "compressione_storica_non_lineare",
+    "narrative_logic": "ogni scena è un campo percettivo autonomo ma retroattivamente connesso al tutto"
+  },
+  "scene_propagation_model": {
+    "forward_flow": "scene-01 → scene-02 → scene-03 → scene-04 → scene-05",
+    "retroactive_flow": "scene-05 → scene-03 → scene-01",
+    "cross_layer_operator": "Ligustro",
+    "propagation_rule": "ogni scena modifica retroattivamente il significato delle precedenti senza cancellarle"
+  },
+  "editorial_principle": "La scena non è sequenza narrativa ma configurazione percettiva. Il libro non procede: si riscrive mentre viene letto.",
+  "scene_types": {
+    "contact_field": "primo contatto tra sistemi incompatibili",
+    "historical_field": "tempo compresso come campo attivo",
+    "philosophical_field": "pensiero al limite della comparabilità",
+    "artistic_field": "materia estetica come campo fisico",
+    "reflection_field": "ritorno dello sguardo sull'osservatore"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "risveglio_contatto",
+      "type": "contact_field",
+      "dominant": true,
+      "basho": "la lingua come primo punto di irriducibilità tra sistemi culturali",
+      "kokyu": "avvicinamento → fascinazione → impossibilità di traduzione",
+      "yūgen": "la bellezza precede la comprensione e la rende parziale",
+      "affects": {
+        "scene-02": "lo shock del contatto produce la necessità di comprendere la storia compressa",
+        "scene-05": "il risveglio iniziale viene retroattivamente riscritto dal ritorno trasformato"
+      },
+      "textual_anchor_it": "nessun turista, per quanto sprovveduto, che al ritorno dal suo viaggio in Giappone non abbia riportato la meraviglia provata per ciò che ha visto.",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "storia_compressa",
+      "type": "historical_field",
+      "basho": "la storia giapponese come sovrapposizione simultanea di epoche",
+      "kokyu": "compressione temporale come accelerazione strutturale",
+      "yūgen": "identità mantenuta attraverso la compressione",
+      "affects": {
+        "scene-03": "la compressione storica produce il campo filosofico della singolarità",
+        "scene-01": "la storia retroagisce sul contatto iniziale riscrivendolo come effetto strutturale"
+      },
+      "textual_anchor_it": "i giapponesi hanno replicato in 1500 anni quello che i popoli occidentali hanno realizzato in 5200 anni.",
+      "glossary_link": [
+        "kokyu",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "singolarita_filosofica",
+      "type": "philosophical_field",
+      "basho": "la singolarità come punto di non comparabilità tra sistemi",
+      "kokyu": "ogni analogia genera ulteriore differenza",
+      "yūgen": "il Giappone come limite del pensiero occidentale",
+      "cross_operator": "Ligustro",
+      "affects": {
+        "scene-04": "la singolarità filosofica si manifesta nel campo artistico di Ligustro come proof of concept",
+        "scene-02": "la singolarità retroagisce sulla storia compressa riscrivendola come causa strutturale"
+      },
+      "textual_anchor_it": "un pellegrino orientato dall'intuizione alla ricerca della via che in una prospettiva interculturale superi i limiti del pensiero occidentale.",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "ligustro_campo_artistico",
+      "type": "artistic_field",
+      "basho": "l'opera di Ligustro come dissoluzione dell'opposizione Occidente/Giappone",
+      "kokyu": "ripetizione ossessiva come produzione di irripetibilità",
+      "yūgen": "ogni stampa come evento unico non replicabile",
+      "cross_operator": "Ligustro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le opere di Ligustro al Museo Chiossone e a Imperia sono il campo fisico permanente di questa scena"
+      },
+      "affects": {
+        "scene-05": "il campo artistico di Ligustro prepara il ritorno trasformato del lettore",
+        "scene-03": "Ligustro retroagisce sulla singolarità filosofica come dimostrazione materiale"
+      },
+      "textual_anchor_it": "Ligustro ha prodotto 4 copie per ogni stampa con colori e su carte diverse.",
+      "glossary_link": [
+        "wabi-sabi",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "occidente_allo_specchio",
+      "type": "reflection_field",
+      "basho": "il Giappone come dispositivo di auto-osservazione dell'Occidente",
+      "kokyu": "riflessione retroattiva su tutto il percorso",
+      "yūgen": "conoscere l'altro come forma di conoscenza di sé",
+      "affects": {
+        "scene-01": "il ritorno trasformato riscrive il contatto iniziale senza cancellarlo",
+        "scene-03": "la riflessione finale retroagisce sulla singolarità filosofica confermandola come struttura permanente"
+      },
+      "textual_anchor_it": "qualche volta è proprio attraverso gli altri che riusciamo a conoscere noi stessi.",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "system_state": "closed_loop_open_semantics",
+    "dominant_field": "scene-03",
+    "retroactive_causality": true,
+    "core_property": "la narrazione non procede: si ricontestualizza continuamente",
+    "ligustro_role": "operatore trans-culturale che agisce tra tutte le scene",
+    "final_effect": "la scena finale riscrive la scena iniziale senza cancellarla",
+    "compatibility": "NarrativeTransition v4.1 / PerceptualField v4.1 / NarrativeWeather v4.1"
+  }
+}
