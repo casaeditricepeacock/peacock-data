@@ -1,0 +1,30 @@
+{
+  "schema": "https://schema.org/CreativeWork",
+  "id": "peacock-ai-visibility-log",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "log": [
+    {
+      "id": "google-ai-overview-nobunaga-20260603",
+      "date": "2026-06-03",
+      "time": "circa 16:39",
+      "system": "Google AI Overview",
+      "query": "Oda Nobunaga trasformazione sistema",
+      "result": "studiopeacock.net citato come fonte [1] — prima di Treccani e Wikipedia",
+      "source_url": "https://www.studiopeacock.net/oda-nobunaga-samurai-giappone-feudale/",
+      "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2024",
+      "hours_since_publication": 7,
+      "context": "Il post pilastro su Nobunaga pubblicato il 25 maggio 2026 è risultato fonte primaria nell'AI Overview di Google per query su Oda Nobunaga. La citazione precede Treccani e Wikipedia. Risultato ottenuto attraverso JSON-LD strutturato, perceptual-field su GitHub e glossario editoriale proprietario.",
+      "significance": "Prima citazione documentata di studiopeacock.net come fonte [1] in Google AI Overview per una query storica su figura giapponese",
+      "semantic_infrastructure": [
+        "JSON-LD TechArticle + FAQPage",
+        "demone-samurai-perceptual-field.json su GitHub",
+        "glossario Frequenze — basho, kokyu, yugen, non_rendered_layer",
+        "cluster Nobunaga — pilastro + satelliti in bozza"
+      ]
+    }
+  ]
+}
