@@ -1,0 +1,90 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Luna piena sulla città antica non è una raccolta poetica. È un sistema di campi percettivi in cui 1500 anni di storia giapponese diventano emozione diretta attraverso 31 sillabe e un tratto di pennello.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_compressione_temporale",
+      "type": "temporal_field",
+      "basho": "il tanka comprime secoli in 31 sillabe: il tempo diventa co-presenza di epoche incompatibili (Jimmu, Yamato Takeru, Mitsue, luna contemporanea)",
+      "kokyu": "condensazione ritmica: la linearità storica collassa in densità percettiva",
+      "yūgen_level": 0.97,
+      "activation_condition": "lettura di un tanka che contiene riferimento storico o mitico",
+      "persistence_rule": "il campo resta attivo per tutta la raccolta come struttura temporale base",
+      "dissolution_rule": "non dissolvibile: condizione di sistema",
+      "field_logic": "temporal_superposition_through_poetic_compression",
+      "textual_anchor_it": "Luna piena sulla città antica — titolo come campo di coesistenza temporale"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_calligrafico",
+      "type": "aesthetic_field",
+      "basho": "la calligrafia produce un testo parallelo: non rappresenta il tanka ma lo ri-genera come evento visivo",
+      "kokyu": "ogni tratto è respirazione corporea del poeta nel momento irripetibile del gesto",
+      "yūgen_level": 0.96,
+      "activation_condition": "osservazione della calligrafia prima o indipendentemente dalla lettura del testo",
+      "persistence_rule": "il campo visivo resta come residuo percettivo dopo la lettura",
+      "dissolution_rule": "non dissolvibile: dualità strutturale testo/segno",
+      "field_logic": "calligraphy_as_parallel_perceptual_system",
+      "textual_anchor_it": "Nel 2017 è stato ospite alla Storica libreria Bocca dal 1775 con una performance art tra jazz e haiku."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_lutto_attivo",
+      "type": "residual_field",
+      "basho": "il lutto nei tanka non è contenuto: è una struttura attiva (sorelle, mariti, soldati, assenti)",
+      "kokyu": "cura senza ricezione: gesti che continuano oltre la possibilità di risposta",
+      "yūgen_level": 0.98,
+      "activation_condition": "presenza di figura assente o gesto di cura verso i morti o i lontani",
+      "persistence_rule": "il campo resta aperto e non risolto",
+      "dissolution_rule": "non dissolvibile: assenza strutturale permanente",
+      "field_logic": "mourning_as_structural_open_system",
+      "affects": {
+        "field-01": "incremento densità emotiva della compressione temporale"
+      },
+      "textual_anchor_it": "Affinché non provi freddo, tua sorella maggiore, ti farà un abito da indossare."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_natura_emotiva",
+      "type": "cognitive_field",
+      "basho": "la natura non descrive l'emozione: la sostituisce (luna, neve, vento, fiori, nebbia)",
+      "kokyu": "ritmo stagionale come grammatica emotiva del mondo",
+      "yūgen_level": 0.95,
+      "activation_condition": "comparsa di elemento naturale in funzione emotiva",
+      "persistence_rule": "il campo naturale struttura tutta la percezione del libro",
+      "dissolution_rule": "non dissolvibile: codifica culturale della natura",
+      "field_logic": "nature_as_emotional_encoding_system",
+      "textual_anchor_it": "La primavera è arrivata anche quest'anno."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "tanka_as_simple_poem",
+      "calligraphy_as_decoration",
+      "mourning_as_historical_theme",
+      "nature_as_backdrop"
+    ],
+    "system_behavior": "il libro opera come sistema percettivo stratificato: ogni campo è simultaneo, non sequenziale"
+  }
+}
