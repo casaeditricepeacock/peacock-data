@@ -1,0 +1,207 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "system_principle": "Il sistema opera come palinsesto filosofico non risolutivo: il Giappone non è oggetto ma dispositivo di comparazione impossibile. La singolarità è simultaneamente condizione di comprensione e di impossibilità della comprensione.",
+  "node_classes": {
+    "scene": "field_activation",
+    "object": "cultural_operator",
+    "ritual": "crossing_protocol",
+    "transition": "systemic_shift",
+    "silence": "untranslatable_structure",
+    "weather": "philosophical_climate",
+    "meta_state": "non_local_system_operator"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-06",
+    "system_shape": "mirror_palimpsest",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "singularity_core_loop",
+        "nodes": [
+          "object-06",
+          "scene-03",
+          "silence-02",
+          "transition-05"
+        ],
+        "type": "self_referential_singularity",
+        "stability": "permanent_open",
+        "propagation_logic": "ogni tentativo di comprensione del Giappone produce incremento dell'incomprensione strutturale",
+        "description": "La singolarità non si chiude: ogni comprensione produce nuova differenza."
+      },
+      {
+        "id": "loop-02",
+        "label": "ligustro_crossing_loop",
+        "nodes": [
+          "object-04",
+          "ritual-03",
+          "scene-04",
+          "transition-03"
+        ],
+        "type": "embodied_cultural_transformation",
+        "stability": "stable",
+        "propagation_logic": "un corpo occidentale può diventare campo percettivo giapponese attraverso pratica artistica totale",
+        "description": "Ligustro è la proof of concept del sistema: l'attraversamento culturale totale è fisicamente possibile."
+      },
+      {
+        "id": "loop-03",
+        "label": "ma_structural_loop",
+        "nodes": [
+          "silence-01",
+          "object-03",
+          "ritual-02"
+        ],
+        "type": "silence_as_structure",
+        "stability": "invariant",
+        "propagation_logic": "il silenzio non è assenza ma infrastruttura percettiva della relazione",
+        "description": "Il Ma attraversa tutti i livelli del sistema come campo generativo non eliminabile."
+      },
+      {
+        "id": "loop-04",
+        "label": "mirror_loop",
+        "nodes": [
+          "scene-05",
+          "scene-01",
+          "transition-05"
+        ],
+        "type": "retroactive_reflection",
+        "stability": "retroactive",
+        "propagation_logic": "il Giappone funziona come dispositivo che restituisce l'Occidente a sé stesso",
+        "description": "Il ritorno trasformato riscrive retroattivamente il contatto iniziale."
+      },
+      {
+        "id": "loop-05",
+        "label": "historical_compression_loop",
+        "nodes": [
+          "scene-02",
+          "transition-04",
+          "object-06"
+        ],
+        "type": "temporal_density_operator",
+        "stability": "stable",
+        "propagation_logic": "la storia giapponese opera per compressione percettiva, non per sequenza lineare",
+        "description": "1500 anni giapponesi come campo attivo simultaneo."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-06",
+      "to": "all",
+      "effect": "singularity_as_global_attractor",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_fields_generated_by_and_returning_to_singularity"
+    },
+    {
+      "from": "silence-01",
+      "to": "all",
+      "effect": "ma_as_structural_timing_layer",
+      "propagation_mode": "infrastructural",
+      "intensity": 0.97,
+      "stability_impact": "silence_as_meaning_field_across_all_layers"
+    },
+    {
+      "from": "object-04",
+      "to": "scene-03",
+      "effect": "art_validates_philosophical_singularity",
+      "propagation_mode": "evidential",
+      "intensity": 0.96,
+      "stability_impact": "ligustro_as_material_proof_of_singularity_traversal"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "retroactive_reframing_of_contact",
+      "propagation_mode": "retroactive",
+      "intensity": 0.88,
+      "stability_impact": "circular_system_without_resolution"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "metastable_palimpsest",
+    "allowed_mutations": [
+      "singularity_deepening",
+      "cross_cultural_inversion",
+      "silence_activation",
+      "mirror_reconfiguration",
+      "temporal_compression_intensification"
+    ],
+    "forbidden_states": [
+      "japan_as_exotic_object",
+      "western_universality",
+      "resolved_singularity",
+      "tourism_as_epistemology",
+      "art_as_decoration"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-06",
+    "closure": false,
+    "closure_type": "permanent_productive_opening",
+    "stability": "philosophical_metastable",
+    "system_behavior": "Il Giappone non è oggetto del sistema ma interfaccia. Il sistema produce conoscenza dell'Occidente attraverso l'asimmetria con il Giappone. La singolarità non si risolve: si mantiene come condizione operativa.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "assolutamente_giappone": "campo estetico della collana Nihon monogatari",
+      "demone_samurai": "campo storico-narrativo compatibile",
+      "AI_amore": "singolarità tecnologica parallela alla singolarità culturale"
+    }
+  }
+}
