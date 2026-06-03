@@ -1,0 +1,93 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "La Singolarità Giappone non descrive il Giappone: attiva un sistema percettivo che ristruttura l'Occidente nel momento stesso in cui tenta di comprenderlo.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "singolarita_culturale_irriducibile",
+      "type": "paradox_field",
+      "basho": "la singolarità non è un oggetto culturale ma una condizione strutturale di non-mappabilità tra sistemi",
+      "kokyu": "ogni tentativo di confronto produce ulteriore differenza invece di ridurla",
+      "yūgen_level": 0.99,
+      "activation_condition": "qualsiasi tentativo di traduzione culturale Giappone–Occidente",
+      "persistence_rule": "il campo non si chiude perché coincide con la struttura stessa della comparazione",
+      "dissolution_rule": "impossibile",
+      "field_logic": "irreducible_difference_as_structure",
+      "textual_anchor_it": "elementi della storia e cultura del Giappone che hanno portato a considerare la cultura giapponese una singolarità."
+    },
+    {
+      "id": "field-02",
+      "label": "relazionalita_costitutiva",
+      "type": "cognitive_field",
+      "basho": "la relazione precede l'individuo come unità primaria del sistema sociale",
+      "kokyu": "ogni interazione ricalibra continuamente posizione e identità",
+      "yūgen_level": 0.94,
+      "activation_condition": "osservazione della comunicazione giapponese",
+      "persistence_rule": "la struttura relazionale è permanente",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "relation_as_primary_ontology",
+      "affects": {
+        "field-01": "la singolarità emerge come effetto della differenza relazionale"
+      },
+      "textual_anchor_it": "il canone fondamentale della cultura giapponese centrata sulla relazione tra le persone piuttosto che sull'ego dei singoli individui."
+    },
+    {
+      "id": "field-03",
+      "label": "ligustro_crossing_operator",
+      "type": "transcultural_field",
+      "basho": "Ligustro non rappresenta il Giappone: lo attraversa fino a produrlo come campo operativo occidentale",
+      "kokyu": "ripetizione ossessiva come struttura meditativa della produzione",
+      "yūgen_level": 0.97,
+      "activation_condition": "ogni osservazione delle xilografie",
+      "persistence_rule": "doppia appartenenza permanente",
+      "dissolution_rule": "impossibile",
+      "field_logic": "western_body_becoming_japanese_system",
+      "textual_anchor_it": "Un Geniale stampatore di Ukiyo-e di Genova è la reincarnazione di Hokusai."
+    },
+    {
+      "id": "field-04",
+      "label": "viaggio_impossibile_operativo",
+      "type": "epistemic_field",
+      "basho": "il viaggio immaginato produce conoscenza non accessibile al viaggio fisico",
+      "kokyu": "la conoscenza si forma per iterazione mentale, non per spostamento",
+      "yūgen_level": 0.92,
+      "activation_condition": "riconoscimento della costruzione mentale del Giappone",
+      "persistence_rule": "persistenza indipendente dall'esperienza reale",
+      "dissolution_rule": "parzialmente riducibile ma mai eliminabile",
+      "field_logic": "imagination_as_epistemic_device",
+      "textual_anchor_it": "ho cercato nell'attesa di ricostruire quel laggiù con l'immaginazione e la curiosità."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "core_shift": "dal Giappone-oggetto al Giappone-sistema operativo del pensiero",
+    "invalidated_elements": [
+      "japan_as_exotic_object",
+      "western_culture_as_universal_standard",
+      "tourism_as_knowledge",
+      "singularity_as_resolvable"
+    ],
+    "system_behavior": "ogni field non descrive il Giappone ma modifica la struttura del vedere",
+    "compatibility": "NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
