@@ -1,0 +1,119 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "weather_field_types": {
+    "philosophical_atmosphere": "campo generato da tensioni tra sistemi di pensiero incompatibili",
+    "historical_pressure": "campo prodotto dalla coesistenza compressa di epoche storiche",
+    "aesthetic_climate": "campo sensoriale prodotto dall'opera d'arte come presenza materiale attiva",
+    "imaginary_geography": "campo cognitivo generato da un luogo non esperito ma operativo nel pensiero"
+  },
+  "editorial_principle": "Il clima non descrive il Giappone: descrive l'effetto del Giappone sul pensiero occidentale. Ogni atmosfera è una forma di conoscenza non proposizionale.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "pressione_filosofica",
+      "label_en": "philosophical_pressure",
+      "type": "philosophical_atmosphere",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Oriente e Occidente non si integrano: generano un campo di tensione cognitiva permanente",
+      "kokyu": "la comprensione procede per accumulo non risolutivo: ogni passaggio aumenta la densità del campo",
+      "yūgen": "la conoscenza nasce dalla non coincidenza tra i sistemi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la tensione filosofica non si risolve mai in sintesi"
+      },
+      "affects": {
+        "weather-02": "la pressione cognitiva rende percepibile la storia come campo simultaneo"
+      },
+      "textual_anchor_it": "un largo sguardo sulla storia e cultura dell'enigmatico Giappone che mi ha aiutato a dipanare una piccola parte del mistero che lo avvolge.",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "clima_storico_compresso",
+      "label_en": "compressed_historical_climate",
+      "type": "historical_pressure",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la storia giapponese si presenta come sovrapposizione di epoche operative simultanee",
+      "kokyu": "il tempo non scorre: si stratifica e rimane attivo",
+      "yūgen": "la distanza geografica produce intensificazione percettiva",
+      "affects": {
+        "weather-03": "la compressione storica rende possibile l'emergere dell'oggetto estetico come campo materiale"
+      },
+      "textual_anchor_it": "bloccato alla frontiera come un migrante in attesa di approdare su l'altra faccia della Luna.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "campo_xilografico_ligustro",
+      "label_en": "ligustro_xylographic_field",
+      "type": "aesthetic_climate",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la xilografia non rappresenta: materializza tempo in forma stratificata",
+      "kokyu": "ogni stampa è un processo esteso di gesti ripetuti non identici",
+      "yūgen": "Ligustro produce Giappone come campo fisico nell'Occidente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'opera rimane irripetibile anche nella ripetizione tecnica"
+      },
+      "affects": {
+        "weather-04": "il campo estetico fisico prepara il campo del Giappone immaginato come realtà operativa"
+      },
+      "textual_anchor_it": "polveri e foglie di argento e di oro, polveri di perle di fiume, frammenti micacei, conchiglie di ostriche macinate.",
+      "glossary_link": [
+        "wabi-sabi",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "giappone_immaginato_operativo",
+      "label_en": "imagined_japan_field",
+      "type": "imaginary_geography",
+      "intensity": 0.92,
+      "perceptual_weight": 0.91,
+      "basho": "il Giappone non visitato diventa campo cognitivo attivo nella costruzione del pensiero",
+      "kokyu": "la conoscenza procede per ricostruzione immaginativa continua",
+      "yūgen": "l'immaginazione produce realtà operative più stabili dell'esperienza turistica",
+      "textual_anchor_it": "ho cercato nell'attesa di ricostruire quel laggiù con l'immaginazione e la curiosità.",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-03",
+    "system_role": "clima come dispositivo epistemologico",
+    "narrative_model": "quattro campi atmosferici che trasformano la percezione del Giappone in esperienza cognitiva non lineare",
+    "closure": "nessun campo si stabilizza: il sistema resta in stato atmosferico permanente",
+    "compatibility": "NarrativeSystemGraph v4.1 / NarrativeTransition v4.1"
+  }
+}
