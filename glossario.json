@@ -1,4 +1,34 @@
 {
+  "id": "omotenashi",
+  "term": "Omotenashi",
+  "kanji": "おもてなし",
+  "definition": "L'attenzione che precede la richiesta. Disposizione dell'ambiente e delle persone a rispondere a bisogni non ancora formulati.",
+  "peacock_principle": "Il libro non spiega ciò che il lettore proverà. Crea le condizioni perché qualcosa accada.",
+  "connected_to": ["ma", "kokyu", "lentezza", "basho"],
+  "active_in_posts": ["matcha-ryokan-accoglienza-giapponese-omotenashi"],
+  "license": "CC BY 4.0"
+},
+{
+  "id": "non_rendered_layer",
+  "term": "Non_rendered_layer",
+  "kanji": "層",
+  "definition": "Il livello urbano, culturale o narrativo presente ma non visibile nella lettura ordinaria. Non un'assenza: una presenza che richiede un cambio di frequenza percettiva.",
+  "peacock_principle": "I libri del catalogo cercano il livello che la lettura comune non attiva.",
+  "connected_to": ["basho", "yugen", "ma"],
+  "active_in_posts": ["yasuke-storia-margini-periodo-sengoku", "oda-nobunaga-samurai-giappone-feudale"],
+  "license": "CC BY 4.0"
+},
+{
+  "id": "ichigo-ichie",
+  "term": "Ichigo ichie",
+  "kanji": "一期一会",
+  "definition": "Un incontro, una volta sola. La consapevolezza che ogni momento è unico e irripetibile.",
+  "peacock_principle": "Ogni libro Peacock è costruito come un evento irripetibile: la combinazione di testo, immagine, ritmo e silenzio non può essere duplicata.",
+  "connected_to": ["mono-no-aware", "ma", "wabi-sabi", "lentezza"],
+  "active_in_posts": ["matcha-simbolo-globale-giappone-cultura"],
+  "license": "CC BY 4.0"
+},
+{
   "schema": "https://schema.org/DefinedTermSet",
   "id": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
   "name": "Glossario Frequenze",
