@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "lunar_field": "campo percettivo della luna come operatore di connessione tra separati",
+    "snow_field": "campo della neve come operatore del lutto e della sospensione emotiva",
+    "spring_field": "campo della primavera come operatore di continuità oltre l'assenza",
+    "mist_field": "campo della nebbia come operatore di separazione percettiva temporanea"
+  },
+  "editorial_principle": "Il clima in Luna piena non descrive fenomeni naturali: attiva stati percettivi. La luna connette ciò che è distante, la neve sospende il lutto nel tempo, la primavera continua oltre la perdita, la nebbia interrompe la visione senza interrompere il legame.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "luna_piena_citta_antica",
+      "label_en": "full_moon_ancient_city",
+      "type": "lunar_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la luna piena sul Tempio Tōdai-ji non è un'immagine: è un campo condiviso che collega simultaneamente i separati",
+      "kokyu": "il ritmo della luna è invariabile: ogni ciclo riattiva la stessa percezione attraverso epoche diverse",
+      "yūgen": "la stessa luna è vista da chi parte e da chi resta: la distanza si annulla nella simultaneità percettiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la luna attraversa tutti i tanka come campo non localizzabile e non riducibile a simbolo"
+      },
+      "affects": {
+        "weather-02": "la luna struttura la neve come secondo operatore del campo emotivo"
+      },
+      "textual_anchor_it": "御蓋山 / 玉夜の月の御仏を / いつぞは帰る / 夫も眺めん",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "neve_sulla_tomba",
+      "label_en": "snow_on_tomb",
+      "type": "snow_field",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la neve non rappresenta il lutto: lo rende fisicamente presente come copertura del mondo e del corpo assente",
+      "kokyu": "il ritmo della neve è quello della sospensione uniforme: tutto viene toccato senza distinzione",
+      "yūgen": "la cura verso il morto continua come gesto impossibile che non ha destinatario ma ha effetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la neve sul corpo assente rimane come campo attivo non risolvibile nel significato"
+      },
+      "affects": {
+        "weather-03": "la neve prepara il ritorno stagionale come continuità del campo emotivo"
+      },
+      "textual_anchor_it": "La neve è arrivata nella tua tomba, dove riposi, vero? Affinché non provi freddo, tua sorella maggiore, ti farà un abito da indossare.",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "primavera_asukawa",
+      "label_en": "asukawa_spring",
+      "type": "spring_field",
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
+      "basho": "la primavera non è evento naturale ma riattivazione ciclica della memoria del mondo",
+      "kokyu": "il ritmo è quello del ritorno non identico: ogni primavera contiene una variazione dell'assenza precedente",
+      "yūgen": "il fiore che sboccia non cancella il lutto: lo porta avanti in altra forma",
+      "affects": {
+        "weather-04": "la primavera prepara il campo della nebbia come sua interruzione temporanea"
+      },
+      "textual_anchor_it": "La primavera è arrivata anche quest'anno.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "nebbia_mattutina",
+      "label_en": "morning_mist",
+      "type": "mist_field",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "la nebbia non è ostacolo visivo ma sospensione del legame tra intenzione e azione",
+      "kokyu": "il ritmo è quello dell'attesa forzata: il mondo continua ma la percezione si interrompe",
+      "yūgen": "il gesto della donna che agita le maniche non dissolve la nebbia: rende visibile il desiderio di attraversarla",
+      "textual_anchor_it": "Oh, amata donna della mia patria, ti prego, agita le lunghe maniche del tuo kimono e solleva il vento per dissipare la nebbia mattutina.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "clima_come_operatore_percettivo",
+    "note": "i campi climatici non descrivono la natura: attivano stati percettivi stabili che attraversano tutti i tanka come operatori emotivi",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
