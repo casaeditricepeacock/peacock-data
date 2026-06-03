@@ -1,0 +1,139 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "cover": "Andrea Brivio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "978-88-946965-4-7",
+    "year": 2025
+  },
+  "transition_types": {
+    "temporal_leap": "salto tra epoche storiche condensate in un unico campo poetico",
+    "departure": "separazione irreversibile che genera persistenza emotiva oltre la distanza",
+    "metamorphic_death": "trasformazione della morte in continuità naturale o simbolica",
+    "seasonal_return": "ritorno ciclico della natura come riattivazione del ricordo",
+    "poetic_transmission": "trasferimento del campo emotivo attraverso la forma poetica tra generazioni"
+  },
+  "editorial_principle": "Le transizioni in Luna piena non separano eventi: trasformano stati dell'esperienza. Ogni tanka è una soglia in cui tempo, natura e affetto coesistono senza risolversi. La morte non chiude, la distanza non interrompe, la natura non decora: tutto continua in altra forma.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "storia_in_tanka",
+      "label_en": "history_into_tanka",
+      "type": "temporal_leap",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "ogni tanka è una compressione temporale estrema: la storia non viene narrata ma resa simultanea in 31 sillabe",
+      "kokyu": "il ritmo è quello della densità: il tempo storico perde linearità e diventa presenza immediata",
+      "yūgen": "imperatori, boschi millenari, memorie arcaiche emergono come residui attivi dentro una forma minima",
+      "affects": {
+        "transition-02": "la compressione temporale intensifica la percezione della separazione"
+      },
+      "textual_anchor_it": "Non c'erano tradizioni tramandate né registri scritti, ma mentre cercavo le tracce delle antiche attività, ho scoperto una misteriosa civiltà.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "partenza_guerra",
+      "label_en": "war_departure",
+      "type": "departure",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la partenza non è un evento storico ma una soglia irreversibile: il corpo si sposta mentre il legame resta sospeso",
+      "kokyu": "il ritmo è quello dell'addio non risolto: il gesto rimane aperto tra chi parte e chi resta",
+      "yūgen": "gli uccelli sul mare non trasportano messaggi ma la continuità impossibile del pensiero oltre la distanza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la separazione non si chiude nel testo: continua come tensione nel campo emotivo del lettore"
+      },
+      "affects": {
+        "transition-03": "la separazione radicale rende possibile la trasformazione della morte in continuità"
+      },
+      "textual_anchor_it": "Uccelli che volate sopra il mare, vi prego di portare i miei pensieri. È un viaggio di guerra incerto, senza sapere se riuscirò a tornare vivo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "morte_cigno",
+      "label_en": "death_into_swan",
+      "type": "metamorphic_death",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la morte non interrompe il campo: lo trasforma in una forma naturale in cui la presenza continua",
+      "kokyu": "il ritmo è quello della metamorfosi: corpo → dissoluzione → forma animale → ritorno simbolico",
+      "yūgen": "Yamato Takeru non scompare: la sua presenza ritorna come movimento del mondo naturale",
+      "affects": {
+        "transition-04": "la continuità post-mortem prepara il ritorno stagionale come struttura del tempo emotivo"
+      },
+      "textual_anchor_it": "La sua anima defunta si è trasformata in un cigno ed è tornata a danzare nella amata terra natale di Yamato.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "ritorno_stagionale",
+      "label_en": "seasonal_return",
+      "type": "seasonal_return",
+      "intensity": 0.92,
+      "perceptual_weight": 0.9,
+      "basho": "la stagione non rappresenta il tempo: lo riattiva come memoria condivisa tra natura e coscienza",
+      "kokyu": "il ritmo è ciclico ma non identico: ogni ritorno contiene una variazione del passato",
+      "yūgen": "la primavera che ritorna senza chi non c'è più non cancella l'assenza: la rende parte del paesaggio",
+      "affects": {
+        "transition-05": "il ciclo naturale rende possibile la trasmissione poetica tra epoche distanti"
+      },
+      "textual_anchor_it": "Sulla riva del fiume Asukawa, nel mio paese natale, da un cesto portato da una giovane ragazza, sboccia un piccolo fiore, portato dal fresco vento. La primavera è arrivata anche quest'anno.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "trasmissione_poetica",
+      "label_en": "poetic_transmission",
+      "type": "poetic_transmission",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la poesia non conserva il passato: lo riattiva come campo percettivo nel presente della lettura",
+      "kokyu": "il ritmo è quello della continuità culturale: voci lontane diventano simultanee nella forma poetica",
+      "yūgen": "Ota non racconta la storia: la fa parlare attraverso il presente della lingua",
+      "textual_anchor_it": "Il bosco di prugne di Tsukigase, piantato grazie all'affinità dell'imperatore Go-Daigo, ha una storia di 700 anni, che lega le generazioni.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione è una soglia attiva tra tempo, natura e affetto: nulla si chiude, tutto cambia forma",
+    "effect": "il lettore attraversa la storia giapponese non come sequenza ma come campo simultaneo di presenza emotiva"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "cinque soglie che trasformano stati dell'esperienza: la storia in compressione, la partenza in attesa, la morte in metamorfosi, la stagione in memoria, la poesia in trasmissione",
+    "stability": "high_metastable",
+    "closure": "circular_without_resolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
