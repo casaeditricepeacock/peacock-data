@@ -1,0 +1,100 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "editorial_purpose": {
+    "function": "attivare un sistema percettivo che trasforma il Giappone in dispositivo di autocomprensione occidentale",
+    "constraint": "il libro non rappresenta il Giappone: lo usa come campo operativo"
+  },
+  "reading_principle": {
+    "rule_01": "ogni capitolo non informa: modifica il campo percettivo del lettore",
+    "rule_02": "Ligustro non illustra: verifica fisicamente la possibilità dell'attraversamento culturale totale",
+    "rule_03": "il Ma non è concetto: è infrastruttura percettiva attivata",
+    "rule_04": "la storia non è contenuto: è compressione attiva del tempo",
+    "rule_05": "il Giappone non è oggetto: è specchio operativo"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "contact_field_activation",
+      "note": "il lettore entra nel sistema attraverso la differenza non traducibile: la lingua come primo campo di irriducibilità"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "historical_compression_field",
+      "note": "la storia smette di essere sequenza e diventa pressione: 1500 anni giapponesi come campo attivo simultaneo"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "singularity_threshold_field",
+      "note": "ogni analogia produce ulteriore distanza: il punto di non comparabilità tra sistemi culturali"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "ligustro_crossing_field",
+      "note": "l'opera di Ligustro diventa prova materiale del passaggio culturale totale"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "recursive_mirror_field",
+      "note": "il Giappone diventa dispositivo di auto-osservazione occidentale: il lettore si vede attraverso ciò che ha letto"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni capitolo stratifica il precedente come campo ancora attivo",
+      "constraint": "il Giappone non si accumula come informazione: si stratifica come campo percettivo"
+    },
+    "kokyu": {
+      "rule": "oscillazione continua tra sapere, percepire e non-comprendere",
+      "effect": "il lettore non trova mai una posizione stabile: il sistema è progettato per non stabilizzarsi"
+    },
+    "yūgen": {
+      "rule": "la singolarità non si risolve: si mantiene come campo operativo",
+      "effect": "il libro finisce ma il campo rimane attivo nel lettore"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "campi attivi non esplicitati che strutturano la lettura",
+    "contains": [
+      "Ma come infrastruttura percettiva attiva in tutti i livelli del testo",
+      "Ligustro come verifica materiale della transizione culturale",
+      "compressione temporale come forza strutturale del sistema",
+      "il Giappone come dispositivo di autoconoscenza occidentale"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il lettore non ha acquisito informazioni: ha modificato il proprio sistema percettivo",
+    "perceptual_residue": "il Ma rimane attivo come filtro percettivo persistente",
+    "temporal_effect": "ogni incontro successivo con il Giappone riattiva l'intero sistema simultaneamente"
+  },
+  "meta_layer": {
+    "system_note": "dispositivo editoriale operativo: il libro funziona come sistema percettivo auto-attivante",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "assolutamente_giappone": "campo estetico parallelo del medesimo sistema",
+      "demone_samurai": "campo storico-narrativo dello stesso ecosistema",
+      "AI_amore": "singolarità tecnologica come riflesso della singolarità culturale"
+    }
+  }
+}
