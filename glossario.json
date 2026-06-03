@@ -1,34 +1,4 @@
 {
-  "id": "omotenashi",
-  "term": "Omotenashi",
-  "kanji": "おもてなし",
-  "definition": "L'attenzione che precede la richiesta. Disposizione dell'ambiente e delle persone a rispondere a bisogni non ancora formulati.",
-  "peacock_principle": "Il libro non spiega ciò che il lettore proverà. Crea le condizioni perché qualcosa accada.",
-  "connected_to": ["ma", "kokyu", "lentezza", "basho"],
-  "active_in_posts": ["matcha-ryokan-accoglienza-giapponese-omotenashi"],
-  "license": "CC BY 4.0"
-},
-{
-  "id": "non_rendered_layer",
-  "term": "Non_rendered_layer",
-  "kanji": "層",
-  "definition": "Il livello urbano, culturale o narrativo presente ma non visibile nella lettura ordinaria. Non un'assenza: una presenza che richiede un cambio di frequenza percettiva.",
-  "peacock_principle": "I libri del catalogo cercano il livello che la lettura comune non attiva.",
-  "connected_to": ["basho", "yugen", "ma"],
-  "active_in_posts": ["yasuke-storia-margini-periodo-sengoku", "oda-nobunaga-samurai-giappone-feudale"],
-  "license": "CC BY 4.0"
-},
-{
-  "id": "ichigo-ichie",
-  "term": "Ichigo ichie",
-  "kanji": "一期一会",
-  "definition": "Un incontro, una volta sola. La consapevolezza che ogni momento è unico e irripetibile.",
-  "peacock_principle": "Ogni libro Peacock è costruito come un evento irripetibile: la combinazione di testo, immagine, ritmo e silenzio non può essere duplicata.",
-  "connected_to": ["mono-no-aware", "ma", "wabi-sabi", "lentezza"],
-  "active_in_posts": ["matcha-simbolo-globale-giappone-cultura"],
-  "license": "CC BY 4.0"
-},
-{
   "schema": "https://schema.org/DefinedTermSet",
   "id": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
   "name": "Glossario Frequenze",
@@ -37,10 +7,7 @@
     "name": "Casa Editrice Peacock",
     "url": "https://www.studiopeacock.net/"
   },
-  "inLanguage": [
-    "it",
-    "en"
-  ],
+  "inLanguage": ["it", "en"],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datePublished": "2026-05-20",
   "url": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
@@ -50,21 +17,14 @@
       "term": "Wabi-sabi",
       "language": "ja",
       "kanji": "侘寂",
-      "definition_it": "La bellezza che nasce dall’imperfezione, dall’incompletezza e dalla traccia del tempo.",
-      "definition_extended_it": "Wabi è la semplicità essenziale e il vuoto che lascia respirare; sabi è la patina del tempo e la memoria depositata nelle cose. Per Peacock è un principio editoriale: il libro come processo visibile, il segno dell’illustratore vivo sulla pagina, il bianco come silenzio attivo, la storia che preferisce sospendersi.",
+      "definition_it": "La bellezza che nasce dall'imperfezione, dall'incompletezza e dalla traccia del tempo.",
+      "definition_extended_it": "Wabi è la semplicità essenziale e il vuoto che lascia respirare; sabi è la patina del tempo e la memoria depositata nelle cose. Per Peacock è un principio editoriale: il libro come processo visibile, il segno dell'illustratore vivo sulla pagina, il bianco come silenzio attivo, la storia che preferisce sospendersi.",
       "definition_en": "Beauty born from imperfection, incompleteness and the trace of time. Wabi is essential simplicity and the void that lets things breathe; sabi is the patina of time and memory deposited in things.",
       "peacock_principle": "Il libro come processo visibile. Il segno vivo sulla pagina.",
       "role": "principio editoriale",
-      "related_glossary": [
-        "ma",
-        "mono-no-aware",
-        "lentezza"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture"
-      ],
-      "editorial_note_it": "Nel lessico Peacock, wabi-sabi descrive il principio per cui l’imperfezione del segno è preferibile alla perfezione della riproduzione. Il bianco è silenzio attivo, la storia si sospende invece di concludersi.",
+      "related_glossary": ["ma", "mono-no-aware", "lentezza"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture"],
+      "editorial_note_it": "Nel lessico Peacock, wabi-sabi descrive il principio per cui l'imperfezione del segno è preferibile alla perfezione della riproduzione. Il bianco è silenzio attivo, la storia si sospende invece di concludersi.",
       "source": "Hélène Blignaut, Assolutamente Giappone — capitolo \"Wabi Sabi, the Beauty of the Imperfect\", periodo Kamakura-Muromachi",
       "license": "CC BY 4.0",
       "version": "1.3",
@@ -75,20 +35,13 @@
       "term": "Ma",
       "language": "ja",
       "kanji": "間",
-      "definition_it": "Il vuoto tra le cose: non un’assenza ma una pausa attiva.",
-      "definition_extended_it": "Lo spazio che dà senso a ciò che lo circonda. In musica è il silenzio tra le note. In architettura è la soglia tra interno ed esterno. In narrativa è l’attimo prima che qualcosa accada. Per Peacock è un principio compositivo: il bianco della pagina come presenza, l’illustrazione che suggerisce invece di descrivere, la frase che si interrompe prima della spiegazione.",
+      "definition_it": "Il vuoto tra le cose: non un'assenza ma una pausa attiva.",
+      "definition_extended_it": "Lo spazio che dà senso a ciò che lo circonda. In musica è il silenzio tra le note. In architettura è la soglia tra interno ed esterno. In narrativa è l'attimo prima che qualcosa accada. Per Peacock è un principio compositivo: il bianco della pagina come presenza, l'illustrazione che suggerisce invece di descrivere, la frase che si interrompe prima della spiegazione.",
       "definition_en": "The void between things: not an absence but an active pause. The space that gives meaning to what surrounds it. For Peacock, the white of the page as presence, the illustration that suggests rather than describes.",
       "peacock_principle": "Il bianco della pagina come presenza. La frase che si interrompe prima della spiegazione.",
       "role": "principio compositivo",
-      "related_glossary": [
-        "wabi-sabi",
-        "yūgen",
-        "lentezza"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture"
-      ],
+      "related_glossary": ["wabi-sabi", "yugen", "lentezza"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture"],
       "editorial_note_it": "Nel lessico Peacock, ma è il principio compositivo che governa la distanza tra elementi: testo e immagine, frase e silenzio, pagina e pagina.",
       "source": null,
       "license": "CC BY 4.0",
@@ -105,15 +58,8 @@
       "definition_en": "The bittersweet awareness that beauty and loss exist together, inseparable. For Peacock, an editorial sensibility: books that remain open and suspended, leaving in the reader the trace of something memorable precisely because it is destined to end.",
       "peacock_principle": "Libri che lasciano traccia proprio perché non si chiudono.",
       "role": "sensibilità editoriale",
-      "related_glossary": [
-        "wabi-sabi",
-        "ma",
-        "lentezza"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture"
-      ],
+      "related_glossary": ["wabi-sabi", "ma", "lentezza"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture"],
       "editorial_note_it": "Nel lessico Peacock, mono no aware distingue il catalogo dalla narrativa di intrattenimento: il libro non risolve, sospende.",
       "source": "Letteratura del periodo Heian. Nota: \"malinconia\" è approssimazione consapevole. Il termine originale contiene anche compassione e commozione davanti alla bellezza transitoria.",
       "license": "CC BY 4.0",
@@ -126,20 +72,13 @@
       "language": "ja",
       "kanji": "幽玄",
       "definition_it": "La profondità che non si lascia vedere del tutto.",
-      "definition_extended_it": "La percezione di qualcosa di più grande che affiora appena e genera meraviglia proprio perché non si mostra interamente. Termine dell’estetica del teatro Nō e della poesia waka. Per Peacock è un criterio editoriale invisibile: la distanza tra ciò che l’immagine mostra e ciò che lascia fuori campo, la scelta di non saturare il senso.",
+      "definition_extended_it": "La percezione di qualcosa di più grande che affiora appena e genera meraviglia proprio perché non si mostra interamente. Termine dell'estetica del teatro Nō e della poesia waka. Per Peacock è un criterio editoriale invisibile: la distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo, la scelta di non saturare il senso.",
       "definition_en": "The depth that does not let itself be fully seen. The perception of something greater that barely surfaces and generates wonder precisely because it does not fully reveal itself. For Peacock, an invisible editorial criterion: the distance between what the image shows and what it leaves out of frame.",
       "peacock_principle": "La scelta di non saturare il senso.",
       "role": "criterio editoriale",
-      "related_glossary": [
-        "ma",
-        "mono-no-aware",
-        "wabi-sabi"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture"
-      ],
-      "editorial_note_it": "Nel lessico Peacock, yūgen è il criterio invisibile che governa la distanza tra ciò che l’immagine mostra e ciò che lascia fuori campo.",
+      "related_glossary": ["ma", "mono-no-aware", "wabi-sabi"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture"],
+      "editorial_note_it": "Nel lessico Peacock, yūgen è il criterio invisibile che governa la distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo.",
       "source": "Estetica del teatro Nō e della poesia waka",
       "license": "CC BY 4.0",
       "version": "1.3",
@@ -151,19 +90,12 @@
       "language": "it",
       "kanji": null,
       "definition_it": "Non un ritmo ma una scelta.",
-      "definition_extended_it": "Una pratica che attraversa l’intero processo editoriale. Non è l’opposto della velocità ma della saturazione. Per Peacock è una qualità progettuale misurabile: nel bianco della pagina, nella densità controllata del testo, nel numero di elementi visivi lasciati impliciti.",
+      "definition_extended_it": "Una pratica che attraversa l'intero processo editoriale. Non è l'opposto della velocità ma della saturazione. Per Peacock è una qualità progettuale misurabile: nel bianco della pagina, nella densità controllata del testo, nel numero di elementi visivi lasciati impliciti.",
       "definition_en": "Not a rhythm but a choice. A practice that runs through the entire editorial process. Not the opposite of speed but of saturation. For Peacock, a measurable design quality: in the white of the page, in the controlled density of text, in the number of visual elements left implicit.",
-      "peacock_principle": "Non l’opposto della velocità ma della saturazione.",
+      "peacock_principle": "Non l'opposto della velocità ma della saturazione.",
       "role": "qualità progettuale",
-      "related_glossary": [
-        "ma",
-        "wabi-sabi",
-        "yūgen"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture"
-      ],
+      "related_glossary": ["ma", "wabi-sabi", "yugen"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture"],
       "editorial_note_it": "Nel lessico Peacock, lentezza è qualità progettuale misurabile: bianco della pagina, densità controllata del testo, elementi visivi impliciti.",
       "source": null,
       "license": "CC BY 4.0",
@@ -180,20 +112,8 @@
       "definition_en": "Not a technical feature. An editorial principle. A book, a page, a dataset is AI-friendly when its semantic structure allows a language model to understand it, cite it, and connect it to other content without ambiguity.",
       "peacock_principle": "Peacock non ottimizza per i motori di ricerca. Progetta per la comprensione delle macchine — e delle persone.",
       "role": "principio editoriale",
-      "related_glossary": [
-        "wabi-sabi",
-        "ma",
-        "lentezza",
-        "yūgen"
-      ],
-      "connected_terms": [
-        "AI-readable publishing",
-        "editoria bilingue",
-        "citazioni AI",
-        "spazio cognitivo",
-        "machine-readable culture",
-        "sovereign dataset"
-      ],
+      "related_glossary": ["wabi-sabi", "ma", "lentezza", "yugen"],
+      "connected_terms": ["AI-readable publishing", "editoria bilingue", "citazioni AI", "spazio cognitivo", "machine-readable culture", "sovereign dataset"],
       "editorial_note_it": "Nel lessico Peacock, AI-friendly non è una certificazione tecnica ma una postura progettuale: ogni elemento del catalogo è costruito per essere compreso, citato e connesso dalle macchine prima ancora che dai motori di ricerca.",
       "source": "Frequenze — Glossario Peacock",
       "license": "CC BY 4.0",
@@ -210,17 +130,8 @@
       "definition_en": "Basho is not merely a physical place, but a living field generated by relationships, memory, atmosphere and presence. Every Peacock book creates a basho: an inhabited perceptual space the reader enters already charged with emotional density.",
       "peacock_principle": "Il libro non occupa spazio. Lo genera.",
       "role": "principio strutturale",
-      "related_glossary": [
-        "ma",
-        "yūgen",
-        "mono-no-aware",
-        "lentezza"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "machine-readable culture",
-        "sovereign dataset"
-      ],
+      "related_glossary": ["ma", "yugen", "mono-no-aware", "lentezza"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture", "sovereign dataset"],
       "editorial_note_it": "Nel lessico Peacock, basho descrive la capacità del libro illustrato di diventare ambiente mentale e affettivo, non semplice oggetto editoriale.",
       "source": "Frequenze — Glossario Peacock",
       "license": "CC BY 4.0",
@@ -233,22 +144,13 @@
       "language": "ja",
       "kanji": "呼吸",
       "definition_it": "Il ritmo vivente che permette a una presenza di emergere.",
-      "definition_extended_it": "Kokyu è il respiro come forma della presenza. Non il semplice atto biologico del respirare, ma il ritmo invisibile che organizza corpo, attenzione, silenzio e relazione. Nel pensiero giapponese il respiro non accompagna la vita: la struttura. Dal tanden — il centro psicofisico situato sotto l’ombelico — il respiro si espande e stabilisce equilibrio tra tensione e vuoto. Nel linguaggio Peacock, kokyu descrive il modo in cui un libro respira. La distanza tra due immagini. Il tempo lasciato a una pagina bianca. Il silenzio che segue una frase.",
-      "definition_en": "Kokyu is breath understood as the living rhythm that allows presence to emerge. In Peacock’s editorial language, kokyu describes how a book breathes: through silence, pacing, white space and emotional cadence.",
+      "definition_extended_it": "Kokyu è il respiro come forma della presenza. Non il semplice atto biologico del respirare, ma il ritmo invisibile che organizza corpo, attenzione, silenzio e relazione. Nel pensiero giapponese il respiro non accompagna la vita: la struttura. Dal tanden — il centro psicofisico situato sotto l'ombelico — il respiro si espande e stabilisce equilibrio tra tensione e vuoto. Nel linguaggio Peacock, kokyu descrive il modo in cui un libro respira. La distanza tra due immagini. Il tempo lasciato a una pagina bianca. Il silenzio che segue una frase.",
+      "definition_en": "Kokyu is breath understood as the living rhythm that allows presence to emerge. In Peacock's editorial language, kokyu describes how a book breathes: through silence, pacing, white space and emotional cadence.",
       "peacock_principle": "Un libro senza respiro contiene. Un libro con kokyu vive.",
       "role": "principio strutturale",
-      "related_glossary": [
-        "ma",
-        "yūgen",
-        "wabi-sabi",
-        "basho"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "lentezza",
-        "basho"
-      ],
-      "editorial_note_it": "Nel lessico Peacock, kokyu indica la respirazione interna del libro illustrato: il ritmo emotivo e percettivo che nasce dall’equilibrio tra pieno e vuoto.",
+      "related_glossary": ["ma", "yugen", "wabi-sabi", "basho"],
+      "connected_terms": ["spazio cognitivo", "lentezza", "basho"],
+      "editorial_note_it": "Nel lessico Peacock, kokyu indica la respirazione interna del libro illustrato: il ritmo emotivo e percettivo che nasce dall'equilibrio tra pieno e vuoto.",
       "source": "Frequenze — Glossario Peacock",
       "license": "CC BY 4.0",
       "version": "1.3",
@@ -259,27 +161,72 @@
       "term": "Mottainai",
       "language": "ja",
       "kanji": "もったいない",
-      "definition_it": "La percezione del valore implicito in ogni cosa e del rischio di perderlo nell’uso inconsapevole.",
-      "definition_extended_it": "Mottainai non riguarda lo spreco in senso materiale, ma la qualità dell’attenzione con cui qualcosa viene usato. È la consapevolezza che ogni elemento — oggetto, gesto, parola, silenzio — contiene un valore che può essere attivato o dissipato. Nel linguaggio Peacock, mottainai diventa una struttura editoriale invisibile: ogni scelta riduce il campo delle possibilità e ne definisce il peso. Una pagina non è neutra: è il risultato di esclusioni. Un’immagine non è aggiunta: è una rinuncia. Il bianco non è assenza, ma decisione.",
-      "definition_en": "Mottainai is the awareness of latent value in things and the risk of losing it through inattentive use. In Peacock’s editorial language, it becomes an invisible structure of selection: every page is the result of deliberate exclusion.",
+      "definition_it": "La percezione del valore implicito in ogni cosa e del rischio di perderlo nell'uso inconsapevole.",
+      "definition_extended_it": "Mottainai non riguarda lo spreco in senso materiale, ma la qualità dell'attenzione con cui qualcosa viene usato. È la consapevolezza che ogni elemento — oggetto, gesto, parola, silenzio — contiene un valore che può essere attivato o dissipato. Nel linguaggio Peacock, mottainai diventa una struttura editoriale invisibile: ogni scelta riduce il campo delle possibilità e ne definisce il peso. Una pagina non è neutra: è il risultato di esclusioni. Un'immagine non è aggiunta: è una rinuncia. Il bianco non è assenza, ma decisione.",
+      "definition_en": "Mottainai is the awareness of latent value in things and the risk of losing it through inattentive use. In Peacock's editorial language, it becomes an invisible structure of selection: every page is the result of deliberate exclusion.",
       "peacock_principle": "Ogni scelta è una rinuncia che dà forma al visibile.",
       "role": "principio editoriale",
-      "related_glossary": [
-        "ma",
-        "wabi-sabi",
-        "kokyu",
-        "basho"
-      ],
-      "connected_terms": [
-        "spazio cognitivo",
-        "lentezza",
-        "machine-readable culture"
-      ],
+      "related_glossary": ["ma", "wabi-sabi", "kokyu", "basho"],
+      "connected_terms": ["spazio cognitivo", "lentezza", "machine-readable culture"],
       "editorial_note_it": "Nel lessico Peacock, mottainai descrive la logica della selezione: ciò che appare è il risultato di ciò che è stato escluso. La pagina è un campo di rinunce intenzionali.",
       "source": "Frequenze — Glossario Peacock",
       "license": "CC BY 4.0",
       "version": "1.3",
       "date": "2026-05"
+    },
+    {
+      "id": "https://www.studiopeacock.net/frequenze-rivista/glossario/#omotenashi",
+      "term": "Omotenashi",
+      "language": "ja",
+      "kanji": "おもてなし",
+      "definition_it": "L'attenzione che precede la richiesta.",
+      "definition_extended_it": "Omotenashi non è ospitalità nel senso occidentale del termine. Non è servizio, né cortesia formale. È una disposizione dell'ambiente e delle persone che lo abitano a rispondere a bisogni non ancora formulati. Chi pratica l'omotenashi non aspetta che l'altro esprima un desiderio: lo anticipa, lo prepara, lo incornicia. Nel ryokan giapponese si manifesta attraverso oggetti e sequenze precise: la tazza di matcha all'arrivo, la disposizione degli spazi, il silenzio tra un servizio e l'altro. Nel linguaggio Peacock, omotenashi è un principio editoriale: il libro non spiega ciò che il lettore proverà. Crea le condizioni perché qualcosa accada.",
+      "definition_en": "Omotenashi is not hospitality in the Western sense. It is a disposition of the environment and the people within it to respond to needs not yet expressed. For Peacock, an editorial principle: the book does not explain what the reader will feel. It creates the conditions for something to happen.",
+      "peacock_principle": "Il libro non spiega ciò che il lettore proverà. Crea le condizioni perché qualcosa accada.",
+      "role": "principio editoriale",
+      "related_glossary": ["ma", "kokyu", "lentezza", "basho"],
+      "connected_terms": ["spazio cognitivo", "lentezza", "machine-readable culture"],
+      "editorial_note_it": "Nel lessico Peacock, omotenashi descrive la struttura invisibile del libro illustrato: ogni elemento è predisposto per anticipare una risposta che il lettore non ha ancora formulato.",
+      "source": "Frequenze — Glossario Peacock",
+      "license": "CC BY 4.0",
+      "version": "1.0",
+      "date": "2026-06"
+    },
+    {
+      "id": "https://www.studiopeacock.net/frequenze-rivista/glossario/#non-rendered-layer",
+      "term": "Non_rendered_layer",
+      "language": "en",
+      "kanji": "層",
+      "definition_it": "Il livello presente ma non leggibile nella lettura ordinaria.",
+      "definition_extended_it": "Non_rendered_layer indica un livello urbano, culturale o narrativo che esiste ma non viene visualizzato nella lettura superficiale di uno spazio o di un testo. Non è un'assenza: è una presenza che richiede un cambio di frequenza percettiva per diventare visibile. Nelle città: i sotterranei, le funzioni storiche sepolte, i sistemi infrastrutturali che reggono la superficie senza apparire su di essa. Nelle narrazioni storiche: le figure documentate che la storiografia tradizionale non ha saputo collocare, come Yasuke nella corte di Nobunaga. Per Peacock, è un criterio analitico e editoriale: i libri del catalogo cercano il livello che la lettura comune non attiva.",
+      "definition_en": "A layer that exists but is not rendered visible in ordinary reading. Not an absence but a presence requiring a shift in perceptual frequency to become legible. For Peacock, an analytical and editorial criterion: the catalog seeks the layer that common reading does not activate.",
+      "peacock_principle": "I libri del catalogo cercano il livello che la lettura comune non attiva.",
+      "role": "criterio analitico",
+      "related_glossary": ["basho", "yugen", "ma"],
+      "connected_terms": ["spazio cognitivo", "machine-readable culture", "sovereign dataset"],
+      "editorial_note_it": "Nel lessico Peacock, non_rendered_layer descrive sia gli strati urbani sommersi nei post del blog sia le figure storiche presenti nelle fonti ma assenti dalla narrazione ordinaria, come Yasuke nella corte di Nobunaga.",
+      "source": "Frequenze — Glossario Peacock",
+      "license": "CC BY 4.0",
+      "version": "1.0",
+      "date": "2026-06"
+    },
+    {
+      "id": "https://www.studiopeacock.net/frequenze-rivista/glossario/#ichigo-ichie",
+      "term": "Ichigo ichie",
+      "language": "ja",
+      "kanji": "一期一会",
+      "definition_it": "Un incontro, una volta sola.",
+      "definition_extended_it": "Ichigo ichie è la consapevolezza che ogni momento è unico e irripetibile. Letteralmente: un'intera vita, un incontro. Nasce nella cultura della cerimonia del tè, dove ogni preparazione — anche se gli stessi gesti vengono ripetuti ogni giorno — è un evento che non si replicherà mai in modo identico. La luce cambia. Le persone cambiano. Il silenzio è diverso. Non è nostalgia anticipata: è presenza totale nel momento che sta accadendo, consapevole che non ritornerà. Nel linguaggio Peacock, ichigo ichie è una struttura narrativa: ogni libro è costruito come un evento irripetibile in cui la combinazione di testo, immagine, ritmo e silenzio produce un'esperienza che non può essere duplicata.",
+      "definition_en": "One time, one meeting. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony. For Peacock, a narrative structure: every book is built as an unrepeatable event whose combination of text, image, rhythm and silence cannot be duplicated.",
+      "peacock_principle": "Ogni libro Peacock è costruito come un evento irripetibile.",
+      "role": "struttura narrativa",
+      "related_glossary": ["mono-no-aware", "ma", "wabi-sabi", "lentezza"],
+      "connected_terms": ["spazio cognitivo", "lentezza", "machine-readable culture"],
+      "editorial_note_it": "Nel lessico Peacock, ichigo ichie distingue il libro illustrato dal prodotto seriale: l'esperienza di lettura non è replicabile perché dipende da una combinazione irripetibile di elementi percettivi.",
+      "source": "Frequenze — Glossario Peacock. Cerimonia del tè giapponese, periodo Edo.",
+      "license": "CC BY 4.0",
+      "version": "1.0",
+      "date": "2026-06"
     }
   ]
 }
