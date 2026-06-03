@@ -1,0 +1,110 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La Singolarità Giappone",
+    "author": "Renato Frabasile",
+    "xylographies": "Giovanni Berio (Ligustro)",
+    "preface": "Francesco Berio",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Nihon monogatari",
+    "isbn": "978-8894696530",
+    "year": 2022
+  },
+  "ritual_types": {
+    "relational_codified": "sequenza rituale che regola i rapporti tra persone attraverso linguaggio, gesto e postura simultaneamente",
+    "philosophical_inquiry": "rituale del pensiero che attraversa sistemi culturali incompatibili per trovare punti di contatto",
+    "artistic_obsession": "pratica ossessiva che ripete centinaia di volte lo stesso gesto fino alla perfezione",
+    "imagined_journey": "viaggio mentale verso un luogo fisicamente inaccessibile che produce conoscenza reale"
+  },
+  "editorial_principle": "I rituali in La Singolarità Giappone sono tutti rituali di attraversamento: il pensiero che attraversa la lingua, il gesto che attraversa la carta, il filosofo che attraversa la storia. Ogni rituale è un tentativo di raggiungere il Giappone da dentro.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "inchino_codificato",
+      "label_en": "codified_bow",
+      "type": "relational_codified",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "l'inchino non è un gesto: è un sistema di comunicazione corporea che codifica gerarchia, contesto e relazione in ogni millimetro di curvatura",
+      "kokyu": "il ritmo è quello della gerarchia visuale: la profondità dell'inchino è inversamente proporzionale al proprio status e direttamente proporzionale al rispetto",
+      "yūgen": "la cortesia giapponese non pone distanze: produce minuzia dei codici — ogni gesto è già tutto il sistema culturale",
+      "affects": {
+        "ritual-02": "il rituale corporeo dell'inchino prepara il campo per il rituale linguistico del registro formale"
+      },
+      "textual_anchor_it": "salutare, ringraziare o porgere scuse hanno differenti forme espressive verbali a secondo della situazione e che si accompagnano a diverse modalità dell'inchino secondo una gerarchia di profondità sottilmente codificata.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "registro_linguistico",
+      "label_en": "linguistic_register",
+      "type": "relational_codified",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il registro linguistico non è stile: è la posizione del parlante nel campo relazionale — ogni enunciato dichiara chi sei rispetto a chi ti ascolta",
+      "kokyu": "il ritmo è quello della situazione: cambiano le parole, la grammatica, la postura al cambiare del contesto",
+      "yūgen": "non si comunica solo con la voce ma con tutto il corpo — inclusi occhi, sorriso, gestualità e abbigliamento: la comunicazione è sempre totale",
+      "affects": {
+        "ritual-03": "il registro linguistico è il campo in cui la singolarità culturale giapponese si manifesta quotidianamente"
+      },
+      "textual_anchor_it": "non si comunica solo con la voce, ma con tutto il corpo, inclusi gli occhi, sorriso, capelli, gestualità e abbigliamento.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "stampa_xilografica",
+      "label_en": "xylographic_printing",
+      "type": "artistic_obsession",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il laboratorio di Ligustro non è uno spazio di lavoro: è un campo di concentrazione assoluta in cui ogni millimetro di legno porta un colore specifico",
+      "kokyu": "il ritmo è quello della ripetizione meditativa: cento legni incisi, cento passaggi, ogni stampa un ciclo che può durare anni",
+      "yūgen": "fino a 800 colori ottenuti da polveri di argento, oro, perle di fiume, frammenti micacei, conchiglie macinate: la materia si trasforma in campo percettivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni stampa di Ligustro è irripetibile: il rituale non produce serie ma singolarità"
+      },
+      "textual_anchor_it": "per ogni stampa possono essere necessari anche oltre 100 legni incisi specifici per ogni particolare e per ogni colore.",
+      "glossary_link": ["wabi-sabi", "mono no aware", "kokyu"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "viaggio_immaginato",
+      "label_en": "imagined_journey",
+      "type": "imagined_journey",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il viaggio in Giappone non viene compiuto fisicamente: viene costruito dalla mente come campo percettivo alternativo alla realtà",
+      "kokyu": "il ritmo è quello della ricerca bibliografica e immaginativa: lettura → meditazione → riflessione → scrittura",
+      "yūgen": "un viaggio immaginato con la mente e vissuto col cuore: la sospensione della libertà di viaggiare come condizione per un tipo superiore di conoscenza",
+      "affects": {
+        "ritual-05": "il viaggio immaginato produce la prospettiva filosofica che il turismo consumistico non può generare"
+      },
+      "textual_anchor_it": "un viaggio immaginato con la mente e vissuto col cuore, disturbato dai luoghi comuni e pregiudizi.",
+      "glossary_link": ["basho", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "dialogo_interculturale",
+      "label_en": "intercultural_dialogue",
+      "type": "philosophical_inquiry",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il dialogo tra Oriente e Occidente non avviene in uno spazio neutro: è sempre già il campo in cui entrambi si modificano reciprocamente",
+      "kokyu": "il ritmo è quello della comparazione: un sistema culturale letto attraverso l'altro produce conoscenza che nessuno dei due potrebbe generare da solo",
+      "yūgen": "attraverso gli altri riusciamo a conoscere noi stessi: il Giappone come specchio che rivela l'Occidente a sé stesso",
+      "textual_anchor_it": "l'importanza del dialogo tra Oriente e Occidente si fonda non tanto sul tentativo di costruire un ponte tra le due tradizioni, quanto sul vantaggio rappresentato da una più profonda conoscenza di sé.",
+      "glossary_link": ["basho", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-03",
+    "narrative_model": "cinque rituali di attraversamento: il corpo, la lingua, l'arte, il viaggio mentale, il dialogo — tutti producono conoscenza del Giappone dall'interno",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
