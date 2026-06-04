@@ -1,0 +1,131 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "silence_types": {
+    "untranslatable_technique": "embodied craft knowledge that cannot be fully encoded in language",
+    "between_languages": "structural gap between English and Japanese that constitutes a third field",
+    "threatened_tradition": "systemic fading of craft transmission across generations",
+    "deferred_perception": "field activation delayed between possession and recognition"
+  },
+  "editorial_principle": "Silence is not absence but structural excess: what remains when language, technique, and transmission reach their limit. The bilingual form of the book is itself a device that exposes this irreducible remainder.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "sapere_incarnato",
+      "label_en": "embodied_knowledge",
+      "label_ja": "体得された知識",
+      "type": "untranslatable_technique",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "embodied technique exists only as enacted timing and pressure within the furnace field; it cannot be fully externalized as description without loss",
+      "kokyu": "knowledge is accumulated temporal pressure: repetition without abstraction produces mastery that resists linguistic capture",
+      "yūgen": "what is most refined in craft is precisely what disappears when one attempts to describe it fully",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "embodied knowledge exceeds representational encoding by structural necessity"
+      },
+      "affects": {
+        "silence-02": "embodied excess generates the structural gap between languages"
+      },
+      "textual_anchor_en": "Within them, you will find techniques refined over centuries, along with the deep emotions and dedication of master artisans.",
+      "textual_anchor_ja": "ここには、何世紀にもわたって磨かれてきた技法と、名匠たちの深い情熱と献身が詰まっています。",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "tra_le_lingue",
+      "label_en": "between_languages",
+      "label_ja": "言語の間",
+      "type": "between_languages",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "between English and Japanese there is not translation but interference: a third field emerges that neither language can stabilize",
+      "kokyu": "reading rhythm splits into parallel flows that intermittently align without converging",
+      "yūgen": "beauty functions here as a shared limit of articulation rather than a shared expression",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "the interlingual field cannot be resolved into a unified semantic system"
+      },
+      "textual_anchor_en": "the universal language of beauty",
+      "textual_anchor_ja": "美の普遍的な言語",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "tradizione_minacciata",
+      "label_en": "threatened_tradition",
+      "label_ja": "脅かされた伝統",
+      "type": "threatened_tradition",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "threatened tradition is a structural condition of modern craft systems: continuity is no longer guaranteed but actively maintained",
+      "kokyu": "transmission decays over time unless reactivated by practice; silence increases as generational links weaken",
+      "yūgen": "documentation records presence but cannot substitute for living practice; loss remains structurally possible",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "absence of practice produces irreversible silence in the system"
+      },
+      "textual_anchor_en": "The Committee for the Safeguarding of the Art of Venetian Glass Beads",
+      "textual_anchor_ja": "ヴェネツィアンガラスビーズの芸術を保護する委員会",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "perla_in_tasca",
+      "label_en": "bead_in_pocket",
+      "label_ja": "ポケットの中のビーズ",
+      "type": "deferred_perception",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "the bead in the pocket is a latent field: presence without perception, object without activation",
+      "kokyu": "time delay is required for perception to occur; immediacy blocks recognition, distance enables it",
+      "yūgen": "what is not seen at the moment of encounter becomes the origin of the entire narrative system",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "latent perception cannot be reduced to missed attention; it is structurally generative"
+      },
+      "textual_anchor_en": "In the rush of the moment, I put them in my pocket without examining them as I should have.",
+      "textual_anchor_ja": "その時の混乱の中で、私はそれらをじっくり観察することなく、ただポケットにしまいました。",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-02",
+    "narrative_model": "four structural silences: embodiment, interference, decay, delay",
+    "system_behavior": "silence is redefined as structural surplus across language, time, and transmission rather than absence of meaning",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
