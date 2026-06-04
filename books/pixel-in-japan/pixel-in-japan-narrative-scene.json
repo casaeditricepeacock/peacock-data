@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "technology_vs_culture",
+    "temporal_axis": "timeline_1979_2024",
+    "narrative_logic": "le epoche videoludiche non sono sequenze ma campi simultanei che coesistono come stratificazioni percettive attive"
+  },
+  "editorial_principle": "Le scene non rappresentano capitoli storici ma configurazioni di campo. Ogni era videoludica giapponese costituisce una struttura percettiva autonoma che persiste oltre la sua condizione tecnologica originaria. La storia del medium è una coesistenza di regimi percettivi, non una loro successione.",
+  "scene_types": {
+    "arcade_field": "campo della sala giochi come infrastruttura rituale collettiva",
+    "jrpg_field": "campo della narrazione espansa e della progressione sistemica",
+    "horror_field": "campo dell'angoscia spaziale e psicologica interattiva",
+    "cultural_export": "campo della diffusione globale dei sistemi videoludici giapponesi",
+    "contemporary_field": "campo della riflessione artistica e della maturazione del medium"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "era_arcade_1979_1985",
+      "type": "arcade_field",
+      "dominant": true,
+      "basho": "la sala giochi come matrice originaria del videogioco giapponese moderno: un ambiente pubblico in cui il gioco è accesso temporizzato e rituale (Sheriff, Donkey Kong, Kung Fu, Super Mario Bros)",
+      "kokyu": "ritmo monetario e intermittente: sessioni brevi, alta intensità, apprendimento corporeo attraverso ripetizione e fallimento controllato",
+      "yūgen": "l'arcade come campo irripetibile: non un luogo nostalgico ma una configurazione percettiva storicamente non trasferibile nel domestico",
+      "affects": {
+        "scene-02": "la domesticazione del medium ristruttura il tempo di gioco e abilita narrazioni estese"
+      },
+      "textual_anchor_it": "Sheriff (1979), Donkey Kong (1981), Kung Fu (1984), Super Mario Bros (1985)",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "nascita_jrpg_1986_1990",
+      "type": "jrpg_field",
+      "basho": "il JRPG come formalizzazione del viaggio narrativo interattivo: Dragon Quest, Final Fantasy, Mother trasformano il gioco in struttura letteraria algoritmica",
+      "kokyu": "espansione temporale del gioco: il tempo non è più unità di sessione ma durata narrativa continua e progressiva",
+      "yūgen": "l'emergere di mondi coerenti che eccedono la singola esperienza del giocatore, producendo continuità immaginativa autonoma",
+      "affects": {
+        "scene-03": "la struttura epica del JRPG viene problematizzata e rovesciata dalla maturazione narrativa del medium"
+      },
+      "textual_anchor_it": "Dragon Quest (1986), Final Fantasy (1987), Mother (1989), The Legend of Zelda (1986)",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "rivoluzione_playstation_1994_2000",
+      "type": "horror_field",
+      "basho": "la PlayStation come rottura ontologica: il 3D non rappresenta lo spazio, lo produce come ambiente abitabile e psicologicamente attivo",
+      "kokyu": "ritmo narrativo dilatato e adulto: emergono strutture complesse (Final Fantasy VII, Metal Gear Solid, Xenogears) che integrano temi politici ed esistenziali",
+      "yūgen": "Silent Hill come soglia percettiva: la nebbia non nasconde il mondo ma lo sostituisce, trasformando lo spazio in incertezza ontologica",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'esperienza percettiva della prima PlayStation non è replicabile: la sua qualità atmosferica eccede la ricostruzione tecnica contemporanea"
+      },
+      "affects": {
+        "scene-04": "la maturazione narrativa del medium abilita la sua espansione globale come linguaggio culturale"
+      },
+      "textual_anchor_it": "Resident Evil (1996), Final Fantasy VII (1997), Metal Gear Solid (1998), Silent Hill (1999)",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "espansione_globale_1996_2005",
+      "type": "cultural_export",
+      "basho": "il videogioco giapponese come infrastruttura culturale globale: Pokémon, Kingdom Hearts e Yakuza diventano sistemi condivisi di immaginario",
+      "kokyu": "diffusione reticolare: ogni franchise agisce come vettore culturale che trasporta estetiche e valori oltre il contesto originario",
+      "yūgen": "Pokémon come sistema simbolico globale: 150 creature come lessico emotivo condiviso su scala planetaria",
+      "affects": {
+        "scene-05": "la globalizzazione del medium produce una riflessione interna sulla propria storia e forma"
+      },
+      "textual_anchor_it": "Pokémon (1996), Kingdom Hearts (2002), Yakuza/Like a Dragon (2005)",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "maturita_artistica_2007_2024",
+      "type": "contemporary_field",
+      "basho": "il videogioco giapponese contemporaneo come spazio autoriflessivo: il medium si usa per interrogare se stesso (The World Ends With You, Tokyo Dark, Paranormasight)",
+      "kokyu": "ritmo stratificato: ogni opera incorpora quarant'anni di storia del medium come memoria operativa attiva",
+      "yūgen": "il videogioco come archivio narrativo vivente: il passato non è citazione ma struttura interna del presente",
+      "affects": {
+        "scene-01": "l'epoca contemporanea riattiva retroattivamente il campo arcade come origine persistente"
+      },
+      "textual_anchor_it": "The World Ends with You (2007), Tokyo Dark (2017), Paranormasight (2023), Rise of the Ronin (2024)",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "timeline_as_coexisting_perceptual_architecture",
+    "narrative_model": "le ere videoludiche giapponesi come campi simultanei che si attivano reciprocamente in una struttura non lineare",
+    "retroactive_causality": true,
+    "global_effect": "il lettore non attraversa una storia del videogioco, ma un sistema di coesistenza di epoche percettive attive"
+  }
+}
