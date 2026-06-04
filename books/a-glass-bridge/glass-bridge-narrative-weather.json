@@ -1,0 +1,128 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "weather_field_types": {
+    "furnace_heat": "thermal production field governing Murano glassmaking",
+    "kyoto_silence": "positive acoustic-temporal field of Japanese craft space",
+    "lagoon_light": "reflected aquatic light as Venetian aesthetic medium",
+    "craft_melancholy": "entropy field of endangered artisanal transmission"
+  },
+  "editorial_principle": "Climate is not background but operative structure. Murano heat and Kyoto silence are co-constitutive fields that generate the bead as interference zone. The object is a climatic intersection rather than a product of environment.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "calore_fornace",
+      "label_en": "furnace_heat",
+      "label_ja": "炉の熱",
+      "type": "furnace_heat",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "Thermal intensity defines all gesture: proximity, timing, deformation thresholds.",
+      "kokyu": "Heat cycle regulates bodily synchronisation with molten matter.",
+      "yūgen": "Transformation exists only within a narrow irreversible thermal window.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Thermal field cannot be preserved outside embodied exposure."
+      },
+      "affects": {
+        "weather-02": "thermal dominance generates Kyoto silence as contrast field"
+      },
+      "textual_anchor_en": "Feel the heat of the flames, the joy of shaping molten glass.",
+      "textual_anchor_ja": "炎の熱を感じ、溶けたガラスを形作る喜びを味わう。",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "silenzio_kyoto",
+      "label_en": "kyoto_silence",
+      "label_ja": "京都の静寂",
+      "type": "kyoto_silence",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "Silence is structural, not absent: it organizes perception and gesture differently from thermal environments.",
+      "kokyu": "Slow temporal density replaces thermal urgency.",
+      "yūgen": "Two incompatible temporalities coexist without fusion.",
+      "affects": {
+        "weather-03": "silence enables perception of reflected Venetian light"
+      },
+      "textual_anchor_en": "the serene workshops of Kyoto",
+      "textual_anchor_ja": "京都の静寂な工房",
+      "glossary_link": [
+        "ma",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "luce_laguna",
+      "label_en": "lagoon_light",
+      "label_ja": "ラグーンの光",
+      "type": "lagoon_light",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "Light in Venice is not illumination but material reflection system embedded in water and glass.",
+      "kokyu": "Refraction and reflection generate unstable visual continuity.",
+      "yūgen": "Silver foil beneath glass preserves submerged luminosity as trapped time.",
+      "affects": {
+        "weather-04": "light becomes melancholic when separated from production context"
+      },
+      "textual_anchor_en": "with the shimmer of silver foil submerged beneath a transparent crystal layer",
+      "textual_anchor_ja": "透明なクリスタル層の下に沈められた銀箔の輝き",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "malinconia_artigianale",
+      "label_en": "craft_melancholy",
+      "label_ja": "職人の哀愁",
+      "type": "craft_melancholy",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "Decline of craft transmission produces atmospheric loss rather than historical closure.",
+      "kokyu": "Each discontinuity in apprenticeship increases entropy of the field.",
+      "yūgen": "Photographic memory replaces but cannot restore embodied practice.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Documentation stabilizes loss without resolving it."
+      },
+      "textual_anchor_en": "a subtle melancholy expressed through timeless compositions",
+      "textual_anchor_ja": "時を超えた構図によって表現された微妙な哀愁",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_model": "dual-atmosphere interference system: heat vs silence → light vs loss",
+    "climatic_logic": "bead emerges as interference product of incompatible atmospheric regimes",
+    "compatibility": "NarrativeSystemGraph v4.1 / NarrativeTransition v4.1 / NarrativeRitual v4.1"
+  }
+}
