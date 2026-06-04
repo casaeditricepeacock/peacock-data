@@ -1,0 +1,167 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_full_en": "The Magic of Beads: A Glass Bridge Between Murano and Kyoto",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "photographers": [
+      "Giorgio Berton",
+      "Andrea Perotta",
+      "Toshiyuki Shino"
+    ],
+    "presentation": "Augusto Panini"
+  },
+  "editorial_principle": "Every object in A Glass Bridge is simultaneously a material and a threshold. The Venetian glass bead does not represent the encounter between Murano and Kyoto — it is that encounter, condensed into a form small enough to hold in the hand. Lotter does not translate one culture into another: he inhabits both as a single unresolved field.",
+  "editorial_principle_ja": "本書のすべての対象は、素材であると同時に敷居でもある。ヴェネツィアのガラスビーズは、ムラノと京都の出会いを象徴するのではなく、その出会いそのものを手のひらに収まる形に凝縮したものだ。",
+  "object_types": {
+    "craft_bridge": "object that physically embodies the encounter between two distinct craft traditions",
+    "molten_field": "glass in its liquid state as perceptual field of transformation",
+    "workshop_space": "atelier as cultural threshold between two worlds",
+    "bead_as_world": "single bead as compressed cosmology of technique and history",
+    "silence_of_kyoto": "the Japanese workshop as counterpoint to the Venetian furnace"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "vetro_fuso",
+      "label_en": "molten_glass",
+      "label_ja": "溶けたガラス",
+      "type": "molten_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "molten glass constitutes a threshold state in which matter has not yet stabilized into form — a temporary field where transformation remains visible and operative",
+      "kokyu": "the rhythm of the furnace resembles breath: heat, movement and attention converge into a shared temporal field linking artisan and material",
+      "yūgen": "every cooling gesture preserves traces of an unrepeatable moment of becoming — difference emerges from the impossibility of exact repetition",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "once stabilized, the glass preserves traces of transformation but no longer returns to the same fluid condition"
+      },
+      "affects": {
+        "object-02": "the transformation field condenses into the bead as a visible carrier of technique"
+      },
+      "textual_anchor_en": "Feel the heat of the flames, the joy of shaping molten glass.",
+      "textual_anchor_ja": "炎の熱を感じ、溶けたガラスを形作る喜びを味わう。",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "perla_veneziana",
+      "label_en": "venetian_bead",
+      "label_ja": "ヴェネツィアンビーズ",
+      "type": "bead_as_world",
+      "intensity": 0.98,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "the bead functions as a condensation point where technical memory, commercial history and intercultural circulation become perceptible within a minimal form",
+      "kokyu": "its rhythm emerges through repetition with variation: continuity of gesture combined with singularity of outcome",
+      "yūgen": "produced through Murano techniques and Kyoto practice, the bead remains suspended between attribution and transformation",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "the object maintains simultaneous affiliations that cannot be fully reduced to a single cultural lineage"
+      },
+      "affects": {
+        "object-03": "the existence of the bead generates the workshop as evidence of a shared field of practice"
+      },
+      "textual_anchor_en": "Lotter's bead is a Venetian bead crafted using the ancient techniques of Murano.",
+      "textual_anchor_ja": "ロッテルのビーズは、ムラノの古い技法を用いて作られたヴェネツィアンビーズです。",
+      "glossary_link": [
+        "wabi-sabi",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "laboratorio_kyoto",
+      "label_en": "kyoto_workshop",
+      "label_ja": "京都の工房",
+      "type": "workshop_space",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "the Kyoto workshop operates as an intersection field where Murano techniques encounter Japanese spatial and temporal sensibilities",
+      "kokyu": "its rhythm emerges from repetition, attention and gradual refinement rather than acceleration",
+      "yūgen": "the workshop sustains proximity between distinct traditions without requiring their fusion",
+      "affects": {
+        "object-04": "the workshop materializes its internal relations through the production of necklaces and bead sequences"
+      },
+      "textual_anchor_en": "From the blazing furnaces of Murano to the serene workshops of Kyoto.",
+      "textual_anchor_ja": "ムラノの燃えさかる炉から京都の静寂な工房へ。",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "collana_ponte",
+      "label_en": "necklace_as_bridge",
+      "label_ja": "橋としてのネックレス",
+      "type": "craft_bridge",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "the necklace functions simultaneously as adornment and narrative sequence, linking individual beads into a visible chain of relations",
+      "kokyu": "continuity emerges bead after bead through recurring gestures whose small variations remain perceptible",
+      "yūgen": "the assembled necklace makes perceptible a network of gestures, places and histories otherwise dispersed across distance",
+      "affects": {
+        "object-05": "the necklace transforms individual technique into transmissible cultural continuity"
+      },
+      "textual_anchor_en": "Maurizio Lotter's Necklaces: Timeless",
+      "textual_anchor_ja": "マウリツィオ・ロッテルのネックレス：時を超えた美しさ",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "eredita_artigianale",
+      "label_en": "craft_heritage",
+      "label_ja": "職人の遺産",
+      "type": "craft_bridge",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "craft heritage operates as a living transmission field that requires continual practice in order to remain active",
+      "kokyu": "knowledge moves across generations through repetition, observation and embodied participation",
+      "yūgen": "heritage persists not through preservation alone but through continual reactivation in new contexts and new hands",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "certain dimensions of artisanal expertise remain inseparable from practice and cannot be exhaustively documented"
+      },
+      "textual_anchor_en": "This book is more than just a story about glass. It is a testament to heritage, culture, and the relentless pursuit of beauty.",
+      "textual_anchor_ja": "この本は単なるガラスの物語ではありません。それは、遺産、文化、そして美を追求する終わりなき探求の証です。",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-02",
+    "secondary_field": "object-01",
+    "narrative_model": "five interdependent fields through which glass becomes a carrier of memory, technique, place, relation and transmission",
+    "bilingual_structure": "EN + JA — each textual_anchor carries both languages as active fields",
+    "lotter_note": "Maurizio Lotter occupies a translocal position between Murano and Kyoto, allowing the two traditions to remain distinct while entering a shared field of practice",
+    "catalog_connection": "Nihon monogatari territory — same Japan field in different register: craft, material culture and transmission",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
