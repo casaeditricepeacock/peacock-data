@@ -1,0 +1,96 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "domestic_warmth": "campo climatico del calore domestico come campo percettivo permanente",
+    "olfactory_field": "campo generato dal profumo come presenza urbana continua",
+    "sonic_atmosphere": "campo climatico prodotto dal suono come struttura dello spazio",
+    "urban_milan_pressure": "campo climatico della città milanese come pressione esterna al palazzo"
+  },
+  "editorial_principle": "Il clima in Ernesto non è meteorologico: è il clima degli interni. Il condotto, la cucina di Pina, il violoncello e la ruota nel 217 costituiscono un sistema climatico chiuso in cui ogni temperatura è percettiva.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "calore_condotto",
+      "label_en": "duct_warmth",
+      "type": "domestic_warmth",
+      "intensity": 0.95,
+      "perceptual_weight": 1.0,
+      "basho": "il condotto del riscaldamento è il clima primario del sistema: calore continuo senza stagioni",
+      "kokyu": "flusso termico costante che attraversa tutte le pareti del palazzo",
+      "yūgen": "tutti credono che il calore venga dai loro appartamenti, ma proviene dal condotto abitato da Ernesto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il calore del condotto resta la base climatica non osservabile del sistema"
+      },
+      "affects": {
+        "weather-02": "amplifica la diffusione olfattiva della cucina di Pina"
+      },
+      "textual_anchor_it": "Abito nel condotto del riscaldamento tra gli appartamenti n. 103 e il 217 al 5° piano.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "weather-02",
+      "label": "profumo_cucina_pina",
+      "label_en": "pina_kitchen_scent",
+      "type": "olfactory_field",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "il profumo della cucina si espande oltre l'appartamento e diventa clima del palazzo",
+      "kokyu": "ritmo dei pasti che struttura la giornata di Ernesto",
+      "yūgen": "attrazione e fuga convivono nello stesso campo olfattivo",
+      "affects": {
+        "weather-03": "sovrapposizione con il campo sonoro del violoncello nel pomeriggio"
+      },
+      "textual_anchor_it": "Il profumo è sempre buono, ma a volte solo a leggere le ricette mi viene da scappare.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "weather-03",
+      "label": "clima_sonoro_violoncello",
+      "label_en": "cello_sonic_climate",
+      "type": "sonic_atmosphere",
+      "intensity": 0.91,
+      "perceptual_weight": 0.93,
+      "basho": "il suono attraversa le pareti come un clima pomeridiano sospeso",
+      "kokyu": "tempo dilatato e non direzionale dell'ascolto",
+      "yūgen": "la musica raggiunge Ernesto senza che il Musicista conosca il suo ascoltatore invisibile",
+      "affects": {
+        "weather-04": "il campo sonoro si attenua nel passaggio al giardino interni dove il clima vegetale lo sostituisce"
+      },
+      "textual_anchor_it": "Passo i miei pomeriggi ad ascoltare, sognando di viaggiare.",
+      "glossary_link": ["kokyu", "mono no aware", "basho"]
+    },
+    {
+      "id": "weather-04",
+      "label": "clima_giardino_interni",
+      "label_en": "indoor_garden_climate",
+      "type": "domestic_warmth",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "il giardino interno genera un microclima tropicale nel cuore del palazzo milanese",
+      "kokyu": "tempo vegetale indipendente dalle stagioni esterne",
+      "yūgen": "Milano si comporta come una spiaggia nascosta tra le pareti",
+      "textual_anchor_it": "caldo tutto l'anno, sembra di essere sempre in spiaggia, circondato da piante aromatiche alte come palme.",
+      "glossary_link": ["basho", "wabi-sabi", "ma"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "climate_as_interior_field",
+    "note": "tutti i campi climatici sono interni al palazzo: la città esterna non partecipa al sistema percettivo",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
