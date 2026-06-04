@@ -1,0 +1,165 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "libertà_vs_struttura",
+    "temporal_axis": "daily_circuit_rhythm",
+    "narrative_logic": "every scene is a perceptual configuration activated by Ernesto's movement through the building"
+  },
+  "editorial_principle": "Le scene non coincidono con gli appartamenti ma con i campi percettivi che Ernesto attiva attraversandoli. Il palazzo è una città compressa e ogni scena è una modalità differente di percepirla.",
+  "scene_types": {
+    "creative_field": "campo prodotto da un'attività creativa in corso",
+    "sensory_field": "campo generato da una percezione dominante",
+    "risk_field": "campo dove il piacere dipende dalla presenza del rischio",
+    "threshold_field": "campo di passaggio che connette altri campi",
+    "empty_attractor": "campo che produce attrazione senza contenuto apparente"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "condotto_invisibile",
+      "type": "threshold_field",
+      "basho": "il condotto non appartiene a nessun appartamento e li connette tutti: è il sistema nervoso del palazzo",
+      "kokyu": "ritmo continuo, caldo e invisibile; Ernesto lo percorre ogni giorno",
+      "yūgen": "tutti beneficiano del suo calore ma nessuno lo vede",
+      "affects": {
+        "scene-02": "rende possibile l'accesso a tutti gli altri campi",
+        "scene-07": "il condotto è anche il ritorno dalla ruota: il ciclo si chiude qui"
+      },
+      "textual_anchor_it": "Abito nel condotto del riscaldamento tra gli appartamenti n.103 e il 217.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "scrittore_olivetti",
+      "type": "creative_field",
+      "basho": "campo dell'anacronismo produttivo: l'Olivetti Lettera 21 color celestino come dichiarazione di identità",
+      "kokyu": "tasto → pausa → tasto → pausa: il tempo dello scrittore come struttura del campo",
+      "yūgen": "Ernesto osserva lo scrittore come fosse un personaggio di romanzo — inversione dell'osservatore osservato",
+      "affects": {
+        "scene-07": "lo scrittore e la ruota sono paralleli: entrambi lavorano dentro strutture che si sono scelti"
+      },
+      "textual_anchor_it": "battendo i tasti della macchina da scrivere, modello Olivetti Lettera 21.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "cucina_pina",
+      "type": "sensory_field",
+      "basho": "campo olfattivo dominante del palazzo",
+      "kokyu": "pranzo e cena scandiscono il tempo come ancore percettive della giornata",
+      "yūgen": "attrazione del profumo e repulsione delle ricette: il campo gastronomico come paradosso irrisolvibile",
+      "textual_anchor_it": "Il profumo è sempre buono, ma a volte solo a leggere le ricette mi viene da scappare.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "libraio_oreste",
+      "type": "risk_field",
+      "basho": "campo del rischio accettato: il libraio con Oreste il gatto",
+      "kokyu": "silenzio → avanzata → morso → ritirata",
+      "yūgen": "il piacere nasce dalla possibilità costante di essere scoperto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Oreste non viene mai neutralizzato: il rischio rimane attivo e necessario"
+      },
+      "affects": {
+        "scene-05": "l'intensità del rischio amplifica la sospensione dell'ascolto musicale"
+      },
+      "textual_anchor_it": "mordicchiare i libri appena usciti, mentre il gattaccio dorme, mi fa impazzire.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "violoncello_e_memoria",
+      "type": "sensory_field",
+      "basho": "campo della sospensione temporale: il pomeriggio che si dilata",
+      "kokyu": "tempo rallentato, senza direzione, solo intensità",
+      "yūgen": "la musica attiva insieme desiderio di futuro e memoria della padroncina",
+      "affects": {
+        "scene-06": "dopo la sospensione musicale, il campo dell'illustratrice introduce il quasi-riconoscimento"
+      },
+      "textual_anchor_it": "Passo i miei pomeriggi ad ascoltare, sognando di viaggiare, ma a volte penso alla mia piccola e pestifera padroncina.",
+      "glossary_link": [
+        "kokyu",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "label": "illustratrice_quasi_riconoscimento",
+      "type": "creative_field",
+      "basho": "campo della visibilità incompleta: l'illustratrice che disegna senza sapere di avere il modello nelle ciabatte",
+      "kokyu": "creazione continua mentre Ernesto dorme nella ciabatta a forma di coccodrillo",
+      "yūgen": "essere forse visto senza sapere se si è stati visti: il campo del doppio riconoscimento involontario",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il dubbio sul riconoscimento non viene mai risolto"
+      },
+      "affects": {
+        "scene-07": "il quasi-riconoscimento prepara l'attrazione finale verso la ruota"
+      },
+      "textual_anchor_it": "Forse un giorno mi ha notato, quando dormivo come mia abitudine, dentro a una calda ciabatta a forma di coccodrillo.",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-07",
+      "label": "attrazione_della_ruota",
+      "type": "empty_attractor",
+      "dominant": true,
+      "basho": "campo dell'origine e del ritorno: l'appartamento 217 vuoto con la ruota",
+      "kokyu": "libertà → attrazione → ingresso → corsa → libertà: il ciclo che non si chiude",
+      "yūgen": "la struttura della gabbia sopravvive alla fuga: la ruota è la gabbietta travestita da libertà",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Ernesto non sa perché torna alla ruota: il sistema non offre risposta"
+      },
+      "affects": {
+        "scene-01": "la ruota retroagisce sull'intero circuito quotidiano trasformandolo in un ritorno inevitabile"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 7,
+    "dominant_field": "scene-07",
+    "system_state": "circolare_con_paradosso_irrisolto",
+    "narrative_model": "sette campi percettivi connessi dal condotto invisibile",
+    "retroactive_causality": true,
+    "global_effect": "la ruota non conclude il percorso: lo genera retroattivamente"
+  }
+}
