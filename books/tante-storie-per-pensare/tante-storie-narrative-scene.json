@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "attenzione_vs_distrazione",
+    "temporal_axis": "infanzia_come_spazio_generativo_del_senso",
+    "narrative_logic": "ogni scena è un dispositivo etico implicito: il significato non è dichiarato ma costruito dal lettore attraverso attrito percettivo"
+  },
+  "editorial_principle": "Le scene non rappresentano valori: li generano come effetti di campo. Il bambino non interpreta una morale già data, ma attraversa configurazioni che lo costringono a produrre giudizio, empatia e posizione.",
+  "scene_types": {
+    "welcome_field": "configurazione dell'accoglienza come problema relazionale concreto",
+    "courage_field": "configurazione del coraggio come deviazione creativa dalla norma",
+    "nature_respect": "configurazione del rapporto ecologico come co-appartenenza materiale",
+    "friendship_field": "configurazione dell'alleanza tra differenze non equivalenti",
+    "maraini_field": "configurazione di retroazione adulta che destabilizza la lettura infantile"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "accoglienza_sospesa",
+      "type": "welcome_field",
+      "dominant": true,
+      "basho": "l'accoglienza non è un atto: è una selezione continua che produce esclusione come stato normale del mondo. Il canile diventa modello ridotto della società.",
+      "kokyu": "alternanza di attesa e sostituzione: arrivi intermittenti, assenze permanenti. Il tempo non risolve la condizione, la stabilizza.",
+      "yūgen": "la domanda non detta del cane non è perché sono qui, ma perché non io. L'identità si forma nella mancata scelta.",
+      "affects": {
+        "scene-02": "la frustrazione dell'attesa genera strategie di auto-superamento del limite"
+      },
+      "textual_anchor_it": "Era molto triste vivere tra le sbarre di quel canile. Il mio desiderio di libertà aumentava ogni giorno di più.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "coraggio_compositivo",
+      "type": "courage_field",
+      "basho": "il coraggio non è opposizione diretta ma ricombinazione delle possibilità: il bisonte non sfida il mondo, lo riorganizza localmente.",
+      "kokyu": "sequenza problema–intervallo–invenzione: il tempo si dilata nel momento della decisione non ovvia.",
+      "yūgen": "la scelta collettiva di interrompere la caccia non è morale esplicita ma saturazione del gesto ripetuto fino al suo svuotamento.",
+      "affects": {
+        "scene-03": "l'invenzione individuale diventa struttura di comportamento ambientale"
+      },
+      "textual_anchor_it": "un giorno decisero di non andare più a caccia degli animali del bosco.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "ecologia_di_relazione",
+      "type": "nature_respect",
+      "basho": "la natura non è sfondo ma vincolo reciproco: ogni azione umana modifica il sistema e ne viene modificata immediatamente.",
+      "kokyu": "ciclicità non armonica: stagioni interrotte, habitat instabili, adattamenti forzati.",
+      "yūgen": "il paesaggio non è perduto, è in stato di risposta continua all'interferenza umana.",
+      "affects": {
+        "scene-04": "la co-appartenenza genera forme ibride di relazione tra specie"
+      },
+      "textual_anchor_it": "Le bruciate e gli animali non hanno più una casa dove vivere.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "alleanza_improbabile",
+      "type": "friendship_field",
+      "basho": "l'amicizia non nasce dalla somiglianza ma dalla compatibilità temporanea tra differenze operative.",
+      "kokyu": "sequenza disallineata: incontro, attrito, adattamento, stabilizzazione provvisoria.",
+      "yūgen": "la cornacchia non diventa altro: diventa leggibile dall'altro senza perdere opacità.",
+      "affects": {
+        "scene-05": "la relazione tra differenze richiede un osservatore esterno che la renda leggibile"
+      },
+      "textual_anchor_it": "L'avventura di una cornacchia — due esseri diversi che camminano nella stessa direzione senza diventare uguali.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "testimonianza_residua",
+      "type": "maraini_field",
+      "basho": "la testimonianza adulta non chiude il sistema narrativo: lo destabilizza introducendo una memoria non assimilabile.",
+      "kokyu": "tempo stratificato: infanzia narrata, guerra ricordata, lettura presente. Tre livelli simultanei senza sintesi.",
+      "yūgen": "il ranocchio non mangiato non è simbolo ma resto materiale di un gesto mancato che continua a produrre senso.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la memoria del trauma non viene convertita in significato narrativo stabile: resta tensione aperta nel sistema"
+      },
+      "affects": {
+        "scene-01": "la testimonianza retroagisce sull'idea stessa di accoglienza come sistema instabile"
+      },
+      "textual_anchor_it": "senza farmi vedere, l'ho delicatamente fatto scivolare sotto il filo spinato — Dacia Maraini.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-05",
+    "system_state": "configurazione_etica_non_conclusiva",
+    "narrative_model": "cinque scene come dispositivi di produzione del giudizio: non raccontano valori, li forzano emergere",
+    "retroactive_causality": true,
+    "global_effect": "la testimonianza adulta non conclude il libro ma ne ristruttura continuamente la lettura"
+  }
+}
