@@ -1,0 +1,149 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025,
+    "cover": "acquarello neve — AnnaLaura Cantone",
+    "project": "ricavato devoluto ad Animals Asia (animalsasia.org)"
+  },
+  "editorial_principle": "Le favole non funzionano come veicolo di morale ma come dispositivi di attivazione del pensiero. Ogni racconto genera una domanda che richiede completamento attivo da parte del lettore bambino. Il questionario non valuta, ma estende il campo dialogico. L'apparato illustrativo introduce una perturbazione intenzionale della percezione. L'intervista non chiude il sistema: lo apre su una dimensione etica adulta condivisa.",
+  "object_types": {
+    "question_generator": "favola come generatore di domande aperte",
+    "animal_field": "animale come dispositivo di empatia e riflessione etica",
+    "maraini_testimony": "testimonianza adulta che valida il campo etico infantile",
+    "cantone_error": "discontinuità visiva intenzionale come attivatore attentivo",
+    "questionnaire": "strumento di attivazione dialogica post-lettura"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "favola_dispositivo_pensiero",
+      "label_en": "fable_as_thought_device",
+      "type": "question_generator",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la favola non occupa lo spazio della morale ma quello della domanda: apre un campo incompleto che il lettore deve attivare",
+      "kokyu": "sequenza narrativa → sospensione → interrogazione → co-produzione del senso da parte del bambino",
+      "yūgen": "il pensiero infantile non è inferiore ma non esplicitato: la favola lo rende operativo senza tradurlo in didattica",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni lettura produce una configurazione diversa del senso: il significato non è contenuto nel testo ma generato nel dialogo"
+      },
+      "affects": {
+        "object-05": "il questionario emerge come estensione strutturale della favola"
+      },
+      "textual_anchor_it": "Il maestro non insegna pensieri, insegna a pensare — Immanuel Kant.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "animale_campo_empatico",
+      "label_en": "animal_empathy_field",
+      "type": "animal_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "l'animale nella favola è un punto di accesso all'empatia: non simbolo morale ma soggetto percettivo alternativo",
+      "kokyu": "immersione in prima persona animale come variazione del punto di vista cognitivo del lettore",
+      "yūgen": "il gesto etico del progetto (donazione ad Animals Asia) estende il campo narrativo oltre il libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'empatia animale non si chiude nella narrazione ma continua come disposizione etica persistente"
+      },
+      "affects": {
+        "object-03": "la dimensione etica trova conferma nella testimonianza adulta"
+      },
+      "textual_anchor_it": "l'animale come soggetto narrativo e non come metafora.",
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "maraini_campo_adulto",
+      "label_en": "maraini_adult_field",
+      "type": "maraini_testimony",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la testimonianza di Dacia Maraini non introduce autorevolezza esterna ma espande il campo etico del testo",
+      "kokyu": "dialogo intergenerazionale basato su continuità percettiva del valore della vita",
+      "yūgen": "l'episodio del ranocchietto verde nel contesto del campo di concentramento in Giappone come nucleo etico irriducibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la memoria della violenza storica resta attiva come controcampo etico interno al libro"
+      },
+      "affects": {
+        "object-01": "la favola si stabilizza come forma letteraria e non didattica"
+      },
+      "textual_anchor_it": "il gesto di non mangiare il ranocchio come atto etico originario — Dacia Maraini.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "errore_cantone",
+      "label_en": "intentional_visual_disruption",
+      "type": "cantone_error",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la deviazione visiva non è decorazione ma dispositivo cognitivo: forza la rilettura del segno",
+      "kokyu": "interruzione percettiva che rompe la lettura automatica e riattiva l'attenzione",
+      "yūgen": "l'errore non completamente identificabile mantiene il sistema percettivo in stato di vigilanza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'errore non si risolve mai completamente: funziona come struttura permanente di attenzione"
+      },
+      "textual_anchor_it": "illustrazione come campo attivo e non illustrativo — AnnaLaura Cantone.",
+      "glossary_link": [
+        "ma",
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "questionario_dialogo",
+      "label_en": "dialogic_questionnaire",
+      "type": "questionnaire",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il questionario non misura comprensione ma produce relazione: attiva un campo dialogico",
+      "kokyu": "struttura domanda–risposta aperta che rigenera continuamente il senso",
+      "yūgen": "il pensiero infantile emerge come produzione creativa, non come risposta corretta",
+      "textual_anchor_it": "la disponibilità dei bambini a formulare interpretazioni autonome e inattese — Giuliana Corea.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-03",
+    "narrative_model": "sistema pedagogico non direttivo basato su attivazione del pensiero, empatia interspecie e dialogo intergenerazionale",
+    "fable_count": 20,
+    "questionnaire_count": 20,
+    "animals_asia": "animalsasia.org — donazione integrale del ricavato",
+    "series_connection": "collana Peacock — editoria per l'infanzia come sistema etico e cognitivo",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
