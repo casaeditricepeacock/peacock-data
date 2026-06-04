@@ -1,0 +1,118 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "childhood_warmth": "campo climatico della fiducia e della curiosità infantile come atmosfera del libro",
+    "nature_field": "campo naturale come ambiente emotivo delle favole",
+    "ethical_pressure": "campo prodotto dalla consapevolezza del dolore animale come tensione operativa",
+    "snow_cover": "campo della copertina — acquarello neve come clima visivo del libro"
+  },
+  "editorial_principle": "Il clima del libro non è descrittivo ma operativo: ogni storia modifica la temperatura percettiva del lettore, spostando il sistema da uno stato di fiducia iniziale a uno stato di responsabilità attiva senza interrompere la dimensione della cura. La neve non rappresenta la purezza: stabilizza uno spazio di attenzione rallentata in cui il pensiero può formarsi.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "calore_infantile",
+      "label_en": "childhood_warmth",
+      "type": "childhood_warmth",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il campo iniziale è una condizione di apertura cognitiva: il bambino non riceve significati ma li genera attraverso partecipazione emotiva e immaginativa",
+      "kokyu": "ritmo di fiducia progressiva: ascolto → immedesimazione → risposta attiva nel dialogo",
+      "yūgen": "la disponibilità infantile non è ingenuità ma una forma primaria di competenza interpretativa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la fiducia attivata dalla lettura non ritorna allo stato precedente: diventa una modalità stabile di relazione con il racconto"
+      },
+      "affects": {
+        "weather-02": "la disponibilità emotiva intensifica la percezione della natura come soggetto e non sfondo"
+      },
+      "textual_anchor_it": "i bambini sono lì, felici di essere coinvolti, pronti ad esprimere un'opinione.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "natura_vivente",
+      "label_en": "living_nature_field",
+      "type": "nature_field",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la natura non è ambientazione narrativa ma agente attivo: modifica comportamento, empatia e giudizio del lettore",
+      "kokyu": "ciclicità percettiva: osservazione → riconoscimento dell'altro vivente → sospensione antropocentrica",
+      "yūgen": "la natura appare come sistema autonomo di significati non riducibili alla funzione narrativa",
+      "affects": {
+        "weather-03": "la percezione della vita animale produce una tensione etica non risolta"
+      },
+      "textual_anchor_it": "il palpitare della vita, meravigliosa e ignara dei pericoli — Dacia Maraini.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "pressione_etica",
+      "label_en": "ethical_pressure_field",
+      "type": "ethical_pressure",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "l'etica non è tema ma pressione continua: emerge dalla coesistenza tra empatia e consapevolezza del danno",
+      "kokyu": "dinamica di responsabilità crescente: riconoscimento → disagio → orientamento all'azione",
+      "yūgen": "il dolore animale non viene narrato come evento ma come condizione persistente del campo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la consapevolezza del danno non si risolve nel testo ma continua oltre la lettura come stato mentale latente"
+      },
+      "affects": {
+        "weather-04": "la pressione etica condensa il campo visivo della copertina come spazio di sospensione"
+      },
+      "textual_anchor_it": "gli animali sono esseri senzienti e non oggetti di proprietà — Dacia Maraini.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "neve_cognitiva",
+      "label_en": "snow_cover_field",
+      "type": "snow_cover",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "la neve non rappresenta il mondo: lo rallenta, creando uno spazio in cui il pensiero diventa visibile nella sua formazione",
+      "kokyu": "ritmo di sospensione: caduta lenta → accumulo silenzioso → trasformazione dello sguardo",
+      "yūgen": "lo spazio bianco non è vuoto ma potenziale cognitivo non ancora determinato",
+      "textual_anchor_it": "acquarello neve — AnnaLaura Cantone.",
+      "glossary_link": [
+        "ma",
+        "wabi-sabi",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "clima_come_modulazione_della_coscienza",
+    "stability": "high",
+    "note": "i campi climatici non descrivono ambienti: regolano la temperatura etica e cognitiva del lettore durante l'esperienza narrativa",
+    "compatibility": "NarrativeSystemGraph v4.1 / NarrativeObject v4.1"
+  }
+}
