@@ -1,0 +1,207 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "system_principle": "The book operates as a distributed ethical cognition system: narrative units generate cognitive states; questionnaires convert them into dialogue; testimony stabilizes them; Animals Asia functions as persistent external actuator that prevents closure.",
+  "node_classes": {
+    "scene": "localized_ethical_state_generator",
+    "object": "cognitive_operator_meaning_production_unit",
+    "ritual": "interaction_protocol_reader_activation_procedure",
+    "transition": "state_shift_between_cognitive_regimes",
+    "silence": "latent_cognition_field_post_reading_processing",
+    "weather": "affective_baseline_field",
+    "meta_state": "external_ethical_persistence_engine_animals_asia"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "acyclic_emergent_ethics_graph",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "fable_question_dialogue",
+        "nodes": [
+          "object-01",
+          "scene-01",
+          "silence-01",
+          "ritual-03"
+        ],
+        "type": "cognitive_opening_loop",
+        "stability": "invariant",
+        "propagation_logic": "input_fable → generate_question → suspend_answer → activate_thought_silence",
+        "description": "The system prevents closure: meaning is generated in suspension, not resolution."
+      },
+      {
+        "id": "loop-02",
+        "label": "animal_empathy_transfer",
+        "nodes": [
+          "object-02",
+          "scene-02",
+          "silence-02",
+          "ritual-05"
+        ],
+        "type": "perspective_shift_loop",
+        "stability": "persistent",
+        "propagation_logic": "animal_viewpoint → identity_shift → empathy_residue → ethical_action",
+        "description": "Perspective-taking becomes irreversible cognitive residue."
+      },
+      {
+        "id": "loop-03",
+        "label": "adult_testimony_reentry",
+        "nodes": [
+          "object-03",
+          "scene-05",
+          "transition-05",
+          "silence-03"
+        ],
+        "type": "retroactive_validation_loop",
+        "stability": "retroactive",
+        "propagation_logic": "child_field → adult_testimony → historical_depth_injection → revalidation",
+        "description": "Maraini injects historical trauma as structural depth layer that reconfigures all prior nodes."
+      },
+      {
+        "id": "loop-04",
+        "label": "ecological_embedding",
+        "nodes": [
+          "scene-03",
+          "weather-02",
+          "transition-03",
+          "object-02"
+        ],
+        "type": "systemic_belonging_loop",
+        "stability": "stable",
+        "propagation_logic": "nature_scene → belonging_recognition → perspective_decentering → empathy",
+        "description": "Nature is not represented but structurally inhabited."
+      },
+      {
+        "id": "loop-05",
+        "label": "ethical_externality_engine",
+        "nodes": [
+          "silence-04",
+          "ritual-05",
+          "weather-03"
+        ],
+        "type": "open_system_driver",
+        "stability": "non_closing",
+        "propagation_logic": "hidden_suffering → ethical_pressure → real_world_action",
+        "description": "Animals Asia functions as external ethical pressure preventing system closure."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-03",
+      "to": "all",
+      "effect": "retroactive_universalization",
+      "propagation_mode": "non_temporal",
+      "intensity": 0.97,
+      "stability_impact": "all_child_fables_reclassified_as_universal_ethics_systems"
+    },
+    {
+      "from": "silence-01",
+      "to": "all",
+      "effect": "thought_residue_generation",
+      "propagation_mode": "latent",
+      "intensity": 0.95,
+      "stability_impact": "thinking_becomes_persistent_post_reading_state"
+    },
+    {
+      "from": "silence-04",
+      "to": "all",
+      "effect": "non_closure_constraint",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "system_cannot_finalize_without_external_ethics_continuation"
+    },
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "question_generation_dominance",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "no_node_produces_answer_only_queries"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "metastable_open_ethics",
+    "allowed_mutations": [
+      "question_amplification",
+      "empathy_transfer",
+      "perspective_decentering",
+      "ethical_action_emergence"
+    ],
+    "forbidden_states": [
+      "narrative_closure",
+      "moral_didacticism",
+      "passive_child_model",
+      "animal_objectification",
+      "testimony_deactivation"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "closure": false,
+    "closure_type": "animals_asia_permanent_open_field",
+    "stability": "controlled_metastability",
+    "system_behavior": "the book behaves as a cognitive-emotional engine that generates thought states rather than narrative content",
+    "external_dependency": "Animals Asia maintains system openness by binding narrative to real-world ethics",
+    "readability": "high_local_low_global_determinism",
+    "catalog_connection": {
+      "ernesto_topolino": "AnnaLaura Cantone as shared visual field",
+      "la_singolarita_giappone": "Maraini mentions Japan concentration camp — same Japan field in different register",
+      "luna_piena_sulla_citta_antica": "same ethical care for living beings as structural field"
+    }
+  }
+}
