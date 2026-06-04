@@ -1,0 +1,99 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "editorial_purpose": {
+    "function": "trasformare la lettura infantile in un sistema di attivazione percettiva: pensiero critico, empatia animale, responsabilità etica",
+    "constraint": "il libro non istruisce e non conclude: genera stati cognitivi aperti che persistono oltre la lettura"
+  },
+  "reading_principle": {
+    "rule_01": "la lettura ad alta voce è la condizione primaria di attivazione del campo narrativo",
+    "rule_02": "il questionario deve interrompere la continuità: il senso nasce nella pausa e non nella risposta",
+    "rule_03": "la sezione Maraini funziona come retroazione adulta e non come commento",
+    "rule_04": "testo e illustrazione sono due sistemi non gerarchici in interferenza percettiva",
+    "rule_05": "la dimensione etica (Animals Asia) è strutturale e non accessoria"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "emotional_inclusion_activation",
+      "note": "ingresso nel sistema: l'abbandono e la domanda di riconoscimento del cane nel canile"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "creative_response_activation",
+      "note": "il coraggio come produzione di soluzioni cognitive non lineari"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "ecological_embeddedness_activation",
+      "note": "la natura non come sfondo ma come sistema di appartenenza condivisa"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "relational_network_activation",
+      "note": "amicizia come costruzione tra differenze non equivalenti"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "adult_retroactive_validation",
+      "note": "Maraini come campo adulto che riconfigura retroattivamente l'intero sistema"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni unità narrativa è autonoma e non serializzabile semanticamente",
+      "constraint": "la separazione tra favola e questionario è strutturale e fisica (pausa obbligata)"
+    },
+    "kokyu": {
+      "rule": "alternanza ritmica tra immersione emotiva e sospensione riflessiva",
+      "effect": "evita saturazione cognitiva e mantiene il sistema sempre riattivabile"
+    },
+    "yūgen": {
+      "rule": "il livello etico non esplicitato sostiene l'intero sistema come campo implicito",
+      "effect": "la coerenza del libro emerge solo nella lettura completa, non nei singoli episodi"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strati operativi non dichiarati nel testo ma attivi nella lettura",
+    "contains": [
+      "empatia animale come trasferimento percettivo non reversibile",
+      "silenzio del bambino come spazio cognitivo primario",
+      "dolore animale (orsi della luna) come struttura etica sottostante",
+      "testimonianza di Maraini come memoria storica non riducibile alla narrativa"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "riorganizzazione del modo di percepire animali, responsabilità e narrazione",
+    "residual_trace": "domande non risolte che continuano a operare dopo la chiusura del libro",
+    "reactivation_trigger": "ogni incontro reale con animali o situazioni di vulnerabilità riattiva il sistema"
+  },
+  "meta_layer": {
+    "system_note": "libro illustrato con 20 favole, 20 questionari, intervista a Dacia Maraini, illustrazioni di AnnaLaura Cantone — devoluzione integrale ad Animals Asia",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "ernesto_topolino": "AnnaLaura Cantone come campo visivo condiviso",
+      "la_singolarita_giappone": "Maraini porta il campo del Giappone come memoria adulta irriducibile",
+      "luna_piena_sulla_citta_antica": "stessa cura etica per i viventi come campo strutturale"
+    }
+  }
+}
