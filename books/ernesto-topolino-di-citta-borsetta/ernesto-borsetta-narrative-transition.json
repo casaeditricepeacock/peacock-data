@@ -1,0 +1,122 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "system_principle": "Le transizioni non collegano spazi: li producono. Ogni soglia è un dispositivo percettivo che genera un mondo locale incompatibile con il precedente. Ernesto non attraversa il palazzo: lo attiva a strati, uno per volta, attraverso attrazioni non reversibili.",
+  "transition_types": {
+    "escape": "uscita irreversibile da un campo di contenimento che diventa origine del sistema",
+    "threshold_crossing": "attivazione di un nuovo regime percettivo attraverso una soglia materiale o invisibile",
+    "memory_activation": "riemersione di un campo precedente non cancellato ma latente",
+    "compulsive_return": "ritorno non intenzionale verso un attrattore strutturale del sistema"
+  },
+  "editorial_principle": "Il palazzo di Ernesto non è uno spazio abitabile ma un insieme di soglie. Il condotto è la matrice continua; gli appartamenti sono discontinuità locali; la ruota è l'attrattore finale che rende leggibile l'intero sistema come ciclo senza chiusura.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "fuga_dalla_gabbietta",
+      "label_en": "escape_from_cage",
+      "type": "escape",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la gabbietta non è un contenitore: è il primo campo di identità, necessario per produrre la possibilità della fuga",
+      "kokyu": "il ritmo è quello dell'evento singolare: compressione → rottura → apertura irreversibile del sistema",
+      "yūgen": "la padrona che resta fuori campo continua a produrre la fuga come evento sempre attivo, mai concluso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la fuga non termina: diventa condizione permanente del sistema percettivo di Ernesto"
+      },
+      "affects": {
+        "transition-02": "la fuga genera il condotto come spazio di sopravvivenza e osservazione"
+      },
+      "textual_anchor_it": "Sono scappato da una piccola gabbietta dove vivevo. Chissà se la mia piccola padrona mi sta ancora cercando.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "transition-02",
+      "label": "ingresso_nel_condotto",
+      "label_en": "entering_the_duct",
+      "type": "threshold_crossing",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "il condotto non connette gli spazi: li rende simultanei senza contatto diretto",
+      "kokyu": "il ritmo è termico e continuo: una respirazione del palazzo che non appartiene a nessun appartamento",
+      "yūgen": "Ernesto è l'unico organismo che abita il sistema nervoso dell'edificio senza esserne visibile",
+      "affects": {
+        "transition-03": "il condotto rende possibile ogni attraversamento locale senza perdita di continuità percettiva"
+      },
+      "textual_anchor_it": "Abito nel condotto del riscaldamento tra gli appartamenti n. 103 e il 217 al 5° piano.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "transition-03",
+      "label": "soglia_appartamento",
+      "label_en": "apartment_threshold",
+      "type": "threshold_crossing",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "ogni appartamento è un regime percettivo autonomo: linguaggio, odore, suono e rischio cambiano completamente",
+      "kokyu": "il ritmo è discontinuo: salto → adattamento → immersione → uscita",
+      "yūgen": "Ernesto attraversa mondi che non si accorgono della sua presenza: la percezione è asimmetrica",
+      "affects": {
+        "transition-04": "la somma delle soglie genera la possibilità del riconoscimento non verificato"
+      },
+      "textual_anchor_it": "Ogni giorno attraverso il condotto, mi reco nei seguenti appartamenti.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "transition-04",
+      "label": "quasi_riconoscimento_illustratrice",
+      "label_en": "almost_recognized_by_illustrator",
+      "type": "memory_activation",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "l'Illustratrice non rappresenta Ernesto: lo intercetta come interferenza percettiva nel proprio spazio quotidiano",
+      "kokyu": "il ritmo è sospeso: osservazione indiretta → dubbio → persistenza del forse",
+      "yūgen": "il disegno è già avvenuto prima della visione: Ernesto esiste come retroazione grafica",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il riconoscimento non si stabilizza: rimane una zona di ambiguità permanente"
+      },
+      "affects": {
+        "transition-05": "l'ambiguità del riconoscimento produce l'attrazione verso il circuito della ruota"
+      },
+      "textual_anchor_it": "Forse un giorno mi ha notato, quando dormivo dentro a una calda ciabatta a forma di coccodrillo.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "transition-05",
+      "label": "attrazione_ruota",
+      "label_en": "wheel_attractor",
+      "type": "compulsive_return",
+      "intensity": 0.99,
+      "perceptual_weight": 1.0,
+      "basho": "la ruota nell'appartamento 217 è l'attrattore finale: uno spazio vuoto che genera comportamento pieno",
+      "kokyu": "il ritmo è circolare e inevitabile: attrazione → ingresso → corsa → riattivazione dell'attrazione",
+      "yūgen": "la libertà assoluta del palazzo converge nella forma più piccola possibile di prigionia attiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ruota non conclude il sistema: lo mantiene in rotazione permanente"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "le transizioni non collegano eventi ma li generano come campi locali. Il sistema è un ciclo aperto di soglie successive che non portano mai a una stabilizzazione finale",
+    "global_structure": "escape → duct → thresholds → recognition_instability → compulsive_return",
+    "closure": "ciclico_non_conclusivo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
