@@ -1,0 +1,195 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025,
+    "edition": "Edizione speciale con borsetta",
+    "edition_note": "la borsetta non è un accessorio: è un operatore percettivo che trasforma il libro in oggetto da regalo e da collezione"
+  },
+  "editorial_principle": "Ogni oggetto in Ernesto è un campo percettivo che definisce il proprio abitante. L'Olivetti Lettera 21 non è una macchina da scrivere: è lo scrittore. Il condotto del riscaldamento non è un passaggio: è la città invisibile che connette tutto. La ruota nel 217 non è un giocattolo: è il campo dell'origine irrisolta.",
+  "object_types": {
+    "identity_object": "oggetto che produce e dichiara l'identità del proprio abitante",
+    "connector_field": "oggetto che connette spazi percettivi incompatibili",
+    "absence_field": "oggetto che genera campo dalla propria assenza o dall'assenza di chi lo ha perduto",
+    "urban_microworld": "spazio urbano ridotto a campo percettivo autonomo",
+    "sonic_object": "oggetto che produce campo attraverso il suono",
+    "borsetta_field": "oggetto che trasforma il libro in sistema di dono e appartiene al campo del regalo come esperienza tattile"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "condotto_riscaldamento",
+      "label_en": "heating_duct",
+      "type": "connector_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il condotto non è uno spazio: è la città dentro le pareti — il sistema nervoso invisibile del palazzo che Ernesto è l'unico a conoscere",
+      "kokyu": "il ritmo è quello della circolazione: continuo, caldo, sotterraneo rispetto alla vita degli appartamenti",
+      "yūgen": "gli abitanti del palazzo non sanno che i loro spazi sono connessi da un campo percettivo che li osserva tutti simultaneamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il condotto rimane il campo permanente di Ernesto: ogni visita agli appartamenti parte e ritorna da qui"
+      },
+      "affects": {
+        "object-02": "il condotto connette l'Olivetti alla ruota del 217: origine e ritorno dello stesso campo",
+        "object-07": "il condotto è la struttura che rende possibile la ruota come attrazione irresistibile"
+      },
+      "textual_anchor_it": "Abito nel condotto del riscaldamento tra gli appartamenti n. 103 e il 217 al 5° piano di un palazzo Milanese.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "olivetti_lettera_21",
+      "label_en": "olivetti_lettera_21",
+      "type": "identity_object",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "l'Olivetti Lettera 21 color celestino non è una macchina da scrivere: è la dichiarazione visibile di un'identità e di un'epoca",
+      "kokyu": "il ritmo è quello della battitura: irregolare, insistente, con pause che valgono quanto i tasti",
+      "yūgen": "una macchina da scrivere in un appartamento contemporaneo produce un campo temporale doppio: il passato che resiste nel presente",
+      "affects": {
+        "object-01": "l'Olivetti produce il campo sonoro dello scrittore che Ernesto attraversa nel condotto"
+      },
+      "textual_anchor_it": "battendo i tasti della macchina da scrivere, modello: Olivetti Lettera 21 color celestino, un cult.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "libri_mordicchiati",
+      "label_en": "nibbled_books",
+      "type": "identity_object",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "il libro mordicchiato è il campo del rischio accettato: il gatto Oreste dorme e Ernesto sceglie il piacere sul pericolo",
+      "kokyu": "il ritmo è quello del furto felice: silenzio → avanzata → morso → fuga",
+      "yūgen": "mordicchiare libri appena usciti: il topolino che legge con i denti produce un campo critico involontario",
+      "affects": {
+        "object-04": "il libro mordicchiato e il profumo della cucina sono i due campi sensoriali che Ernesto cerca attivamente"
+      },
+      "textual_anchor_it": "mordicchiare i libri appena usciti, mentre il gattaccio dorme, mi fa impazzire.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "cucina_pina",
+      "label_en": "pina_kitchen",
+      "type": "urban_microworld",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "la cucina di Pina non è un appartamento: è un campo olfattivo autonomo che Ernesto attraversa due volte al giorno",
+      "kokyu": "il ritmo è quello dei pasti: pranzo e cena come struttura del tempo domestico",
+      "yūgen": "a volte solo a leggere le ricette mi viene da scappare: il cibo come campo paradossale — attrazione e repulsione simultanee",
+      "textual_anchor_it": "Passo per pranzo e cena. Il profumo è sempre buono, ma a volte solo a leggere le ricette mi viene da scappare.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "violoncello",
+      "label_en": "cello",
+      "type": "sonic_object",
+      "intensity": 0.91,
+      "perceptual_weight": 0.93,
+      "basho": "il violoncello non produce musica: produce un campo di viaggio immobile — Ernesto sogna di partire senza muoversi",
+      "kokyu": "il ritmo è quello dell'ascolto pomeridiano: regolare, sognante, senza destinazione",
+      "yūgen": "ascoltare il violoncello e pensare alla padroncina: il campo sonoro attiva la memoria dell'assenza",
+      "affects": {
+        "object-06": "il violoncello e il giardino formano i due campi del piacere puro — senza rischio, senza paradosso"
+      },
+      "textual_anchor_it": "Suona il violoncello, lo adoro! Passo i miei pomeriggi ad ascoltare, sognando di viaggiare.",
+      "glossary_link": [
+        "kokyu",
+        "mono no aware",
+        "basho"
+      ]
+    },
+    {
+      "id": "object-06",
+      "label": "giardino_interni",
+      "label_en": "indoor_garden",
+      "type": "urban_microworld",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "il giardino del giardiniere è un campo climatico autonomo dentro il palazzo: caldo tutto l'anno, sembra di essere sempre in spiaggia",
+      "kokyu": "il ritmo è quello della natura in spazio chiuso: lento, aromatico, sospeso rispetto alla città esterna",
+      "yūgen": "piante aromatiche alte come palme in un appartamento milanese: il campo del paradosso geografico stabilizzato",
+      "textual_anchor_it": "È il mio luogo preferito; caldo tutto l'anno, sembra di essere sempre in spiaggia, circondato da piante aromatiche alte come palme.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-07",
+      "label": "ruota_nel_217",
+      "label_en": "wheel_in_217",
+      "type": "absence_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "la ruota nell'appartamento vuoto è il campo dell'origine: uguale alla gabbietta da cui Ernesto è fuggito, ma in uno spazio libero",
+      "kokyu": "il ritmo è quello della corsa compulsiva: vengo sempre attratto, entro e corro senza decidere",
+      "yūgen": "Ernesto corre nella ruota dell'appartamento in vendita: è libero ma sceglie la struttura della prigionia — il paradosso non si risolve",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ruota è la gabbietta travestita da libertà: il campo dell'origine che non si lascia abbandonare"
+      },
+      "affects": {
+        "object-01": "la ruota è il punto di ritorno del condotto: il sistema si chiude circolarmente"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-08",
+      "label": "borsetta_regalo",
+      "label_en": "gift_bag",
+      "type": "borsetta_field",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la borsetta trasforma il libro in oggetto da regalo: non si entra nel campo del palazzo da soli ma si arriva portando Ernesto come dono",
+      "kokyu": "il ritmo della borsetta è quello del regalo: la sorpresa, l'apertura, la scoperta — il campo del libro si attiva prima ancora di aprirlo",
+      "yūgen": "il libro nella borsetta porta già con sé il campo dell'affetto: chi lo riceve sa che qualcuno ha scelto questo oggetto per lui",
+      "affects": {
+        "object-01": "la borsetta amplifica il campo del condotto — il regalo che porta Ernesto nel mondo"
+      },
+      "textual_anchor_it": "Edizione speciale con borsetta — il libro come oggetto da regalare.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 8,
+    "dominant_field": "object-07",
+    "secondary_field": "object-01",
+    "narrative_model": "il palazzo come città in miniatura: ogni appartamento è un campo percettivo autonomo connesso dal condotto invisibile che solo Ernesto conosce",
+    "urban_connection": "Milano Fantastica — stesso campo urbano milanese, diverso punto di osservazione: l'interno delle pareti invece della strada",
+    "target_note": "narrativa per adulti in registro illustrato: Ernesto è un osservatore urbano, non un personaggio per bambini"
+  }
+}
