@@ -1,0 +1,119 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "silence_types": {
+    "child_thought": "il silenzio del bambino che elabora attivamente dopo la narrazione, quando il linguaggio interno supera quello esterno",
+    "animal_voice": "la frattura tra esperienza animale e sua traduzione narrativa, dove la voce è sempre una ricostruzione umana",
+    "maraini_camp": "la memoria del campo come irruzione storica non assimilabile nella struttura della fiaba",
+    "bears_luna": "la continuità del dolore animale industriale come presenza sistemica non narrativizzabile completamente"
+  },
+  "editorial_principle": "Il silenzio non è assenza di contenuto ma sovraccarico non verbalizzato. In questo sistema, ciò che non viene detto non è marginale: è strutturale. Il bambino, l'animale, la memoria storica e il dolore sistemico restano attivi proprio perché non completamente dicibili.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "pensiero_informulato",
+      "label_en": "unformulated_child_thought",
+      "type": "child_thought",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il momento immediatamente successivo alla chiusura della favola non è vuoto ma densità cognitiva non ancora tradotta in linguaggio: il bambino sta costruendo una posizione senza dichiararla",
+      "kokyu": "la respirazione rallenta dopo lo stimolo narrativo: il sistema cognitivo entra in fase di riorganizzazione autonoma",
+      "yūgen": "ciò che il bambino comprende senza saperlo dire è più esteso di ciò che il questionario può catturare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la rielaborazione interna del bambino non è completamente esternalizzabile in risposta linguistica"
+      },
+      "affects": {
+        "silence-02": "la comprensione implicita del vivente si estende verso la percezione animale"
+      },
+      "textual_anchor_it": "Ci osservano, ci ascoltano con attenzione anche quando non ce ne accorgiamo, si interrogano sul nostro operato — Giuliana Corea.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "traduzione_impossibile",
+      "label_en": "impossible_animal_translation",
+      "type": "animal_voice",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la voce animale nelle fiabe non è accesso al mondo animale ma costruzione di un'interfaccia narrativa che sostituisce il silenzio reale con un linguaggio umano funzionale",
+      "kokyu": "il ritmo della narrazione animale è una simulazione di interiorità che non corrisponde alla struttura percettiva dell'animale reale",
+      "yūgen": "il punto non è far parlare l'animale ma rendere percepibile la distanza tra linguaggio e vita",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'esperienza animale rimane ontologicamente non traducibile in linguaggio umano senza perdita strutturale"
+      },
+      "textual_anchor_it": "Era molto triste vivere tra le sbarre di quel canile — il cane che dice io è una costruzione narrativa che indica una distanza irrisolvibile.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "memoria_non_assorbibile",
+      "label_en": "non_assimilable_camp_memory",
+      "type": "maraini_camp",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la memoria del campo di concentramento non entra nel sistema della fiaba come contenuto ma come discontinuità etica: interrompe ogni estetizzazione possibile",
+      "kokyu": "il tempo della testimonianza non si sincronizza con il tempo narrativo infantile: crea uno scarto irreversibile",
+      "yūgen": "la sopravvivenza non è narrabile senza resto: ciò che resta fuori dalla narrazione è ciò che la rende moralmente attiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'esperienza estrema non può essere convertita in struttura narrativa infantile senza perdita di tensione etica"
+      },
+      "textual_anchor_it": "Nel campo di concentramento non c'erano né cani né gatti. La fame, quando è veramente disperata, si accontenta di qualsiasi cosa — Dacia Maraini.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "dolore_sistemico_invisibile",
+      "label_en": "systemic_invisible_suffering",
+      "type": "bears_luna",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il dolore animale industriale non appare nella fiaba ma ne costituisce la controparte reale: ciò che il racconto tenta di compensare senza mai risolvere",
+      "kokyu": "la continuità del danno non ha ritmo narrativo: è estensione costante senza climax né chiusura",
+      "yūgen": "ogni atto di cura nel libro implica la presenza implicita di ciò che non viene curato completamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sistema del dolore animale resta strutturalmente aperto e non compensabile narrativamente"
+      },
+      "textual_anchor_it": "l'atroce condizione in cui sono costretti a vivere gli orsi della luna per il prelievo della bile.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "quattro forme di non-dicibile strutturale: cognitivo, interspecie, storico, sistemico",
+    "stability": "metastable",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSystemGraph v4.1 / NarrativeObject v4.1"
+  }
+}
