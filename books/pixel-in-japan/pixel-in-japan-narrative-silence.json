@@ -1,0 +1,115 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "silence_types": {
+    "untranslated_title": "zone di campo rimaste in lingua originaria o non tradotte, che conservano integrità culturale non mediata",
+    "lost_arcade": "assenza fisica delle sale giochi come struttura percettiva originaria del medium",
+    "game_over_void": "sospensione irreversibile del gioco come interruzione strutturale del tempo ludico",
+    "cultural_gap": "asimmetria percettiva tra codice culturale giapponese e ricezione occidentale del videogioco"
+  },
+  "editorial_principle": "Il silenzio in Pixel in Japan non è assenza di informazione ma forma attiva del campo. Ciò che non viene tradotto, ciò che non esiste più, ciò che si interrompe e ciò che non viene compreso costituiscono la parte strutturalmente più densa del sistema videoludico giapponese. Il silenzio è un operatore culturale.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "game_over_ma",
+      "label_en": "game_over_void",
+      "type": "game_over_void",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il Game Over non è conclusione ma intervallo strutturale: il Ma del videogioco come spazio di sospensione tra perdita e ripresa dell'agency",
+      "kokyu": "interruzione ritmica che sospende l'azione e produce una riconfigurazione immediata del campo percettivo del giocatore",
+      "yūgen": "la scritta GAME OVER come evento minimo e totale: un segnale testuale che ricostruisce l'intero rapporto tra giocatore e sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Game Over non viene assimilato al flusso di gioco: resta come struttura permanente che condiziona ogni successiva iterazione"
+      },
+      "affects": {
+        "silence-02": "la sospensione del Game Over retroagisce come nostalgia strutturale dell'arcade perduto"
+      },
+      "textual_anchor_it": "GAME OVER come dispositivo fondativo dell'esperienza arcade e domestica",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "sala_giochi_scomparsa",
+      "label_en": "lost_arcade",
+      "type": "lost_arcade",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la sala giochi non sopravvive come luogo ma come struttura percettiva residua che continua a organizzare il modo in cui il gioco viene compreso",
+      "kokyu": "ritmo sociale e competitivo dell'arcade: presenza degli altri, visibilità del fallimento, temporalità monetaria dell'accesso",
+      "yūgen": "l'arcade come campo irripetibile che continua a esistere solo nella forma della sua assenza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la sala giochi non è ricostruibile come esperienza originaria: ogni simulazione è già post-arcade"
+      },
+      "textual_anchor_it": "Sheriff (1979), Donkey Kong (1981), Super Mario Bros (1985) come memoria dell'arcade originario",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "titoli_non_localizzati",
+      "label_en": "untranslated_titles",
+      "type": "untranslated_title",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "esiste un Giappone videoludico non accessibile linguisticamente che rimane operativo solo come potenzialità non tradotta",
+      "kokyu": "asimmetria di accesso: il campo si apre e si chiude in base alla traduzione, creando zone di esperienza negate",
+      "yūgen": "il catalogo dei giochi mai localizzati come archivio fantasma del medium: ciò che esiste senza essere leggibile globalmente",
+      "textual_anchor_it": "titoli rimasti esclusi dai processi di localizzazione occidentale tra anni '80 e 2000",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "cultura_inconsapevole",
+      "label_en": "unconscious_culture",
+      "type": "cultural_gap",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il videogioco giapponese opera come vettore culturale non dichiarato: la cultura viene trasmessa attraverso meccaniche, ritmi e strutture ludiche",
+      "kokyu": "assimilazione senza mediazione: il giocatore interiorizza sistemi culturali prima di poterli interpretare",
+      "yūgen": "milioni di giocatori che hanno attraversato strutture culturali giapponesi senza nominarle come tali",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la trasmissione culturale implicita non è osservabile nel momento della sua attivazione"
+      },
+      "textual_anchor_it": "l'esperienza del videogioco giapponese come forma di apprendimento culturale implicito",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "il silenzio come componente strutturale del sistema videoludico: Game Over, assenza, non traduzione e non consapevolezza come quattro modalità operative del campo",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
