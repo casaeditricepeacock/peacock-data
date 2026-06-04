@@ -1,0 +1,136 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "ritual_types": {
+    "coin_insertion": "il gesto dell'inserimento della moneta come soglia fisica e percettiva tra mondo reale e campo videoludico",
+    "speedrun_obsession": "ripetizione iterativa e tesa alla sottrazione dell'errore, oltre il limite della performance",
+    "save_ritual": "la scrittura del salvataggio come gestione dell'irreversibilità e della memoria del mondo di gioco",
+    "genre_mastery": "appropriazione progressiva delle convenzioni di genere come grammatica percettiva e motoria",
+    "cultural_transmission": "trasmissione intergenerazionale del patrimonio videoludico come continuità affettiva e culturale"
+  },
+  "editorial_principle": "I rituali in Pixel in Japan non descrivono semplicemente pratiche di gioco, ma configurano campi culturali: atti minimi — inserire una moneta, salvare una partita, ripetere una run — diventano dispositivi di appartenenza. La cultura videoludica giapponese emerge come sistema rituale in cui la tecnica coincide con la memoria condivisa.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "inserimento_moneta",
+      "label_en": "coin_insertion",
+      "type": "coin_insertion",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la sala giochi come spazio liminale: la moneta non acquista tempo di gioco, ma apre un varco percettivo in un altro regime del possibile",
+      "kokyu": "ritmo alternato di perdita e riattivazione: game over → moneta → rinascita del ciclo, dove l'errore diventa struttura portante dell'apprendimento",
+      "yūgen": "il suono metallico della moneta nel cabinet arcade come traccia irripetibile di un inizio ormai scomparso nella continuità digitale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la materialità della moneta non è trasferibile nell'ecosistema digitale: la soglia fisica del gioco resta irriducibile"
+      },
+      "affects": {
+        "ritual-02": "l'iterazione della soglia monetaria genera la spinta alla padronanza del sistema di gioco"
+      },
+      "textual_anchor_it": "Sherif (1979) — Donkey Kong (1981): archeologia del gesto di accesso al gioco arcade.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "padronanza_genere",
+      "label_en": "genre_mastery",
+      "type": "genre_mastery",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "ogni genere costituisce un ambiente regolato: platform, shmup, JRPG non sono categorie ma ecosistemi percettivi distinti",
+      "kokyu": "progressione ritmica dall'opacità iniziale alla trasparenza esecutiva: il corpo interiorizza la grammatica del gioco fino a renderla gesto",
+      "yūgen": "quando Super Mario Bros cessa di essere eseguito e inizia a fluire attraverso il giocatore: il gioco come estensione organica del movimento",
+      "affects": {
+        "ritual-03": "la padronanza sistemica del genere rende necessario il gesto del salvataggio come stabilizzazione del progresso"
+      },
+      "textual_anchor_it": "Super Mario Bros (1985), The Legend of Zelda (1986), Final Fantasy (1987): tre matrici generative del linguaggio videoludico.",
+      "glossary_link": [
+        "kokyu",
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "salvataggio_gioco",
+      "label_en": "save_ritual",
+      "type": "save_ritual",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il salvataggio non conserva dati, ma cristallizza uno stato del mondo vissuto dal giocatore",
+      "kokyu": "gestione dell'irreversibilità come ritmo etico del gioco: decidere cosa vale la pena essere trattenuto dal flusso del tempo",
+      "yūgen": "l'impossibilità di annullare alcuni eventi narrativi, anche attraverso il reload del sistema: la permanenza dell'irreparabile",
+      "affects": {
+        "ritual-04": "la struttura del salvataggio prepara il campo del completismo come sua estensione ossessiva"
+      },
+      "textual_anchor_it": "Dragon Quest (1986): il salvataggio come infrastruttura temporale del videogioco domestico.",
+      "glossary_link": [
+        "kokyu",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "ossessione_completismo",
+      "label_en": "completionist_obsession",
+      "type": "speedrun_obsession",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "il completismo come trasformazione del gioco in sistema totale, dove ogni elemento diventa verificabile e ottimizzabile",
+      "kokyu": "ritmo iterativo della perfezione: ripetizione, correzione, riduzione dello scarto tra esecuzione e ideale",
+      "yūgen": "il grinding in Monster Hunter come pratica di immersione prolungata: la ripetizione come forma di conoscenza profonda",
+      "affects": {
+        "ritual-05": "il completismo produce il campo della trasmissione: il maestro che insegna la tecnica al novizio"
+      },
+      "textual_anchor_it": "Monster Hunter (2004): la ripetizione come struttura portante dell'esperienza ludica sistemica.",
+      "glossary_link": [
+        "kokyu",
+        "basho",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "trasmissione_generazionale",
+      "label_en": "generational_transmission",
+      "type": "cultural_transmission",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il videogioco come archivio vivo che attraversa le generazioni, trasformando l'esperienza individuale in memoria condivisa",
+      "kokyu": "ritmo della trasmissione: ogni generazione riceve, rielabora e restituisce il campo videoludico in forma trasformata",
+      "yūgen": "la nostalgia come forma attiva di appartenenza: riconoscere nei giochi del passato una continuità emotiva ancora operante",
+      "affects": {
+        "ritual-01": "la trasmissione intergenerazionale stabilizza la moneta come simbolo culturale anche per chi non ha vissuto l'arcade"
+      },
+      "textual_anchor_it": "La memoria videoludica come continuità affettiva tra infanzia e cultura contemporanea del Sol Levante.",
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-05",
+    "narrative_model": "cinque dispositivi rituali della cultura videoludica giapponese come architettura di appartenenza culturale e percettiva",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
