@@ -1,0 +1,213 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "system_principle": "Il palazzo non contiene Ernesto: lo distribuisce. Ogni appartamento è una funzione percettiva. Il condotto è il sistema nervoso. La ruota è un attrattore stabile. Il libro è la mappa parziale del sistema.",
+  "node_classes": {
+    "scene": "apartment_execution_environment",
+    "object": "identity_or_sensory_module",
+    "ritual": "temporal_structure_device",
+    "transition": "threshold_between_incompatible_fields",
+    "silence": "unresolved_emotional_field",
+    "weather": "interior_climate_field",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05",
+      "scene-06",
+      "scene-07"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06",
+      "object-07"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-07",
+    "system_shape": "vertical_city_os",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "condotto_operating_system",
+        "nodes": [
+          "object-01",
+          "scene-01",
+          "scene-07",
+          "ritual-01"
+        ],
+        "type": "infrastructure_loop",
+        "stability": "permanent",
+        "propagation_logic": "il condotto non collega spazi: li rende simultanei",
+        "field_effect": "building_as_single_body",
+        "description": "Ernesto è l'unico nodo mobile del sistema nervoso del palazzo."
+      },
+      {
+        "id": "loop-02",
+        "label": "oggetti_identitari",
+        "nodes": [
+          "object-03",
+          "object-02",
+          "object-06"
+        ],
+        "type": "identity_production_loop",
+        "stability": "stable",
+        "propagation_logic": "gli oggetti generano identità osservabili solo indirettamente",
+        "field_effect": "object_defined_subject",
+        "description": "Gli oggetti non decorano: producono comportamenti."
+      },
+      {
+        "id": "loop-03",
+        "label": "attrattore_ruota",
+        "nodes": [
+          "object-07",
+          "scene-07",
+          "silence-04",
+          "transition-05"
+        ],
+        "type": "absence_attractor_loop",
+        "stability": "permanent_unresolved",
+        "propagation_logic": "la ruota è un attrattore che riscrive retroattivamente la fuga",
+        "field_effect": "void_as_magnetic_center",
+        "description": "La ruota non conclude: riattiva l'inizio."
+      },
+      {
+        "id": "loop-04",
+        "label": "citta_minima",
+        "nodes": [
+          "scene-02",
+          "scene-04",
+          "scene-05",
+          "scene-06"
+        ],
+        "type": "urban_microcosm_loop",
+        "stability": "stable",
+        "propagation_logic": "ogni appartamento è una città incompatibile con le altre",
+        "field_effect": "multi_world_coexistence",
+        "description": "Coesistenza senza traduzione tra mondi domestici."
+      },
+      {
+        "id": "loop-05",
+        "label": "suono_memoria",
+        "nodes": [
+          "object-05",
+          "silence-01",
+          "scene-05"
+        ],
+        "type": "sonic_memory_loop",
+        "stability": "continuous",
+        "propagation_logic": "il suono produce presenza senza rappresentazione",
+        "field_effect": "auditory_time_residue",
+        "description": "La memoria non è evocata: è generata."
+      }
+    ]
+  },
+  "core_loop": {
+    "sequence": [
+      "condotto",
+      "cucina",
+      "libri",
+      "violoncello",
+      "giardino",
+      "illustratrice",
+      "ruota",
+      "ritorno_condotto"
+    ],
+    "description": "non è un percorso quotidiano ma un circuito neuro-architettonico che genera identità",
+    "closure": "circular_without_resolution",
+    "note": "la sequenza non è lineare ma vettoriale: Ernesto viene attratto tra campi, non sceglie"
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-07",
+      "to": "scene-01",
+      "effect": "retroactive_identity_loop",
+      "propagation_mode": "retroactive",
+      "intensity": 0.98,
+      "stability_impact": "scrittore_e_topolino_condividono_struttura_loop"
+    },
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "building_unification_through_invisible_infrastructure",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_spaces_become_connected_body"
+    },
+    {
+      "from": "silence-02",
+      "to": "all",
+      "effect": "anonymity_enables_total_epistemic_access",
+      "propagation_mode": "structural",
+      "intensity": 0.96,
+      "stability_impact": "invisibility_as_privileged_knowledge_state"
+    }
+  ],
+  "meta_dynamics": {
+    "stability": "metastable_closed_loop",
+    "drift": "Ernesto non cresce: approfondisce lo stesso sistema",
+    "time_model": "non_linear_recursive_domestic_time",
+    "spatial_model": "palazzo_as_folded_continuity",
+    "silence_integration": "il ma non interrompe il sistema: lo sutura — ogni condotto contiene micro-silenzi strutturali tra appartamenti"
+  },
+  "global_state": {
+    "dominant_field": "object-07",
+    "stability": "metastable_coherence",
+    "closure": false,
+    "system_behavior": "Il palazzo è un organismo cognitivo. Ernesto è il suo errore mobile. La ruota è la sua memoria strutturale.",
+    "reader_effect": "ogni edificio viene riletto come sistema percettivo stratificato",
+    "closure_type": "circular_without_resolution",
+    "editorial_note": "non è narrativa infantile: è etologia urbana percettiva",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "milano_fantastica": "stesso campo urbano milanese — stratificazione storica vs stratificazione domestica",
+      "ballerinette": "narrativa illustrata per adulti in registro non realistico",
+      "medusa": "sistema circolare con paradosso irrisolto come conclusione strutturale"
+    }
+  }
+}
