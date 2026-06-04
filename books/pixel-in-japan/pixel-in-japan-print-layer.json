@@ -1,0 +1,99 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "editorial_purpose": {
+    "function": "trasformare 80 titoli videoludici giapponesi (1979–2024) in un sistema coerente di campi culturali che rende leggibile la cultura giapponese attraverso il medium videoludico",
+    "constraint": "il libro non è un catalogo né una cronologia: è una cartografia di campi percettivi. Ogni titolo è un nodo attivo di cultura, non un oggetto informativo"
+  },
+  "reading_principle": {
+    "rule_01": "ogni titolo è un dispositivo di attivazione culturale, non una semplice voce enciclopedica",
+    "rule_02": "la timeline è stratigrafica: le epoche non si succedono ma coesistono come strati percettivi simultanei",
+    "rule_03": "l'apparato visivo non illustra ma raddoppia il campo: testo e immagine sono sistemi autonomi in risonanza",
+    "rule_04": "il GAME OVER finale è un operatore strutturale: trasforma la lettura in ciclo, non in chiusura",
+    "rule_05": "la comprensione del libro produce retroattivamente una rilettura della propria esperienza videoludica come formazione culturale"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "arcade_cultural_field",
+      "note": "1979–1985: la sala giochi come matrice originaria del linguaggio videoludico giapponese — campo pubblico, rituale e competitivo"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "jrpg_narrative_field",
+      "note": "1986–1990: nascita del JRPG — il videogioco come forma narrativa estesa e sistemica (Dragon Quest, Final Fantasy)"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "playstation_maturity_field",
+      "note": "1994–2000: PlayStation e rivoluzione 3D — il videogioco diventa spazio abitabile e psicologico (Silent Hill, Metal Gear Solid)"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "global_cultural_expansion",
+      "note": "1996–2005: globalizzazione del videogioco giapponese — i franchise diventano infrastrutture culturali condivise (Pokémon, Kingdom Hearts)"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "artistic_maturation_field",
+      "note": "2007–2024: maturazione artistica del medium — il videogioco giapponese diventa forma riflessiva e autoriflessiva"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni epoca è un campo percettivo autonomo: arcade, console, 3D e contemporaneo coesistono come strutture non gerarchiche",
+      "constraint": "la storia non è evoluzione ma co-presenza strutturata di campi incompatibili e simultanei"
+    },
+    "kokyu": {
+      "rule": "il ritmo di lettura alterna densità e sospensione, replicando le logiche dei generi videoludici giapponesi",
+      "effect": "la lettura diventa esperienza temporale variabile, non lineare, simile al gameplay"
+    },
+    "yūgen": {
+      "rule": "ciò che non è esplicitato è il trasferimento culturale implicito del Giappone attraverso il videogioco",
+      "effect": "il lettore acquisisce consapevolezza retroattiva della propria formazione culturale mediata dal medium"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "strati culturali attivi non esplicitati nel testo ma operanti come infrastruttura del sistema",
+    "contains": [
+      "titoli non localizzati come zone di inaccessibilità culturale",
+      "la sala giochi scomparsa come origine strutturale del medium",
+      "la trasmissione culturale inconsapevole attraverso le meccaniche di gioco",
+      "Andrea Yuu Dentuto come secondo sistema visivo autonomo in risonanza con il testo"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il videogioco giapponese diventa per il lettore una lente interpretativa sulla cultura giapponese, non un oggetto di consumo",
+    "perceptual_residue": "GAME OVER come operatore ciclico: la fine della lettura è già riattivazione del sistema",
+    "temporal_effect": "ogni successiva esperienza videoludica riattiva il sistema interpretativo del libro come campo latente"
+  },
+  "meta_layer": {
+    "system_note": "prima guida italiana strutturata interamente come sistema di campi culturali videoludici giapponesi (1979–2024)",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "la_medusa_e_la_scimmia": "stesso autore — continuità teorica su cultura e sistemi percettivi",
+      "la_singolarita_giappone": "stesso asse culturale Giappone — declinazione filosofica vs videoludica",
+      "odabooks": "ecosistema editoriale della cultura giapponese in Italia — interoperabilità concettuale"
+    }
+  }
+}
