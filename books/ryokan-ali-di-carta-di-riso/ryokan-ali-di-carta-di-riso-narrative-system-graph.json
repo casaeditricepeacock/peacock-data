@@ -1,0 +1,275 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-23-3",
+    "year": 2025
+  },
+  "system_principle": "The system does not represent a story of loss. It operates as a perceptual field in which death, ritual and departure modify each other retroactively without producing resolution; Yuki is not a character but a non-local perceptual operator that continuously alters the density of every object and space.",
+  "node_classes": {
+    "scene": "stable_spatial_anchor",
+    "object": "localized_field_activator",
+    "ritual": "grief_maintenance_operator",
+    "transition": "topology_mutation_operator",
+    "silence": "field_compression_zone",
+    "weather": "environmental_field_modulator",
+    "meta_state": "system_wide_non_local_operator"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ],
+    "meta_states": [
+      "meta-01",
+      "meta-02"
+    ],
+    "_note": "weather-00 mapped to meta-01; silence-00 mapped to meta-02; both operate as cold field operators"
+  },
+  "meta_states": [
+    {
+      "id": "meta-01",
+      "label": "assenza_climatica",
+      "type": "null_field_operator",
+      "source_file_ref": "weather-00",
+      "system_effect": "global_field_suspension_without_deactivation",
+      "behavior": {
+        "readability": "suppressed",
+        "activity": "persistent",
+        "closure": "blocked"
+      },
+      "affects": [
+        "all"
+      ]
+    },
+    {
+      "id": "meta-02",
+      "label": "zona_fredda_silenzio",
+      "type": "null_silence_operator",
+      "source_file_ref": "silence-00",
+      "system_effect": "narrative_field_suspension_without_deactivation",
+      "behavior": {
+        "readability": "suppressed",
+        "activity": "persistent",
+        "closure": "blocked"
+      },
+      "affects": [
+        "all"
+      ]
+    }
+  ],
+  "topology": {
+    "core_field": "scene-04",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "morte_rituale_campo",
+        "nodes": [
+          "scene-04",
+          "transition-02",
+          "ritual-02",
+          "silence-01"
+        ],
+        "type": "grief_maintenance_loop",
+        "stability": "unstable_persistent",
+        "propagation_logic": "death_as_perceptual_operator_not_narrative_event",
+        "description": "Yuki's death does not close the system; it becomes a non-local operator that continuously alters density of all other nodes"
+      },
+      {
+        "id": "loop-02",
+        "label": "ryokan_origine_irrecuperabile",
+        "nodes": [
+          "scene-01",
+          "scene-02",
+          "object-03",
+          "ritual-01"
+        ],
+        "type": "recursive_origin_loop",
+        "stability": "metastable",
+        "propagation_logic": "ryokan_as_permanent_origin_field_under_all_scenes",
+        "description": "the ryokan does not function as place but as perceptual field that persists under every departure and loss"
+      },
+      {
+        "id": "loop-03",
+        "label": "partenza_campo_non_ritorno",
+        "nodes": [
+          "transition-03",
+          "scene-03",
+          "silence-03",
+          "silence-04"
+        ],
+        "type": "irreversible_field_loop",
+        "stability": "stable_local",
+        "propagation_logic": "departure_produces_non_return_field_not_nostalgia",
+        "description": "Tokyo is not described; it operates as the absence of the ryokan field — departure is irreversible and does not produce longing but structural absence"
+      },
+      {
+        "id": "loop-04",
+        "label": "trasmissione_familiare_frammentata",
+        "nodes": [
+          "ritual-01",
+          "ritual-04",
+          "transition-04",
+          "object-02"
+        ],
+        "type": "fragmented_transmission_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "family_transmits_through_fragment_not_continuity",
+        "description": "the grandmother's ritual of scattering rice transmits something that cannot be named; family cohesion survives as fragment not as system"
+      },
+      {
+        "id": "loop-05",
+        "label": "zone_fredde_doppia_sospensione",
+        "nodes": [
+          "meta-01",
+          "meta-02",
+          "transition-03"
+        ],
+        "type": "dual_cold_field_loop",
+        "stability": "suppressed_active",
+        "propagation_logic": "double_suspension_without_system_collapse",
+        "description": "two simultaneous cold zones suppress readability from both climatic and narrative sides without interrupting field persistence"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "transition-02",
+      "to": "all",
+      "effect": "yuki_operator_activation",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "perceptual_density_permanent_increase"
+    },
+    {
+      "from": "transition-03",
+      "to": "scene-01",
+      "effect": "origin_field_irreversible_loss",
+      "propagation_mode": "recursive",
+      "intensity": 0.97,
+      "stability_impact": "non_integrable_residue_activation"
+    },
+    {
+      "from": "object-01",
+      "to": "object-03",
+      "effect": "wing_threshold_connection",
+      "propagation_mode": "residual",
+      "intensity": 0.92,
+      "stability_impact": "threshold_object_field_reinforcement"
+    },
+    {
+      "from": "scene-04",
+      "to": "scene-02",
+      "effect": "grief_field_retroactive_overlay",
+      "propagation_mode": "bidirectional",
+      "intensity": 0.94,
+      "stability_impact": "origin_field_contamination"
+    },
+    {
+      "from": "meta-01",
+      "to": "all",
+      "effect": "climatic_field_suspension",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "readability_suppression"
+    },
+    {
+      "from": "meta-02",
+      "to": "all",
+      "effect": "narrative_field_suspension",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "readability_suppression"
+    },
+    {
+      "from": "silence-04",
+      "to": "silence-01",
+      "effect": "ghost_room_secret_connection",
+      "propagation_mode": "recursive",
+      "intensity": 0.88,
+      "stability_impact": "silence_field_reinforcement"
+    },
+    {
+      "from": "ritual-02",
+      "to": "ritual-01",
+      "effect": "grief_ritual_continuity",
+      "propagation_mode": "delayed",
+      "intensity": 0.9,
+      "stability_impact": "transmission_field_maintenance"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "metastable",
+    "allowed_mutations": [
+      "grief_field_expansion",
+      "origin_field_compression",
+      "ritual_grief_maintenance",
+      "irreversible_departure",
+      "fragment_transmission",
+      "cold_field_suspension"
+    ],
+    "forbidden_states": [
+      "grief_resolution",
+      "yuki_as_character_only",
+      "ryokan_as_nostalgic_space",
+      "tokyo_as_destination",
+      "family_as_stable_system"
+    ]
+  },
+  "system_tension": {
+    "ryokan_vs_tokyo": 1.0,
+    "life_vs_death_operator": 0.97,
+    "ritual_vs_loss": 0.94,
+    "transmission_vs_fragmentation": 0.91,
+    "silence_vs_secret": 0.88
+  },
+  "global_state": {
+    "dominant_field": "scene-04",
+    "stability": "metastable",
+    "closure": false,
+    "closure_type": "topologically_impossible",
+    "cold_field_present": true,
+    "dual_cold_zones": true,
+    "system_behavior": "Ryokan. Ali di carta di riso operates as a grief field in which Yuki functions as non-local perceptual operator modifying all nodes retroactively; the ryokan persists as irrecoverable origin field; the departure to Tokyo is structurally irreversible; two simultaneous cold zones maintain the system in permanent suspension without collapse.",
+    "readability": "high_local_low_global"
+  }
+}
