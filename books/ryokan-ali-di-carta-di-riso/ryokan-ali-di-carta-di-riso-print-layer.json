@@ -1,0 +1,92 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-23-3",
+    "year": 2025,
+    "edition": "Limited — 300 copie, fotografia applicata a mano in copertina"
+  },
+  "editorial_purpose": {
+    "function": "attivare il campo percettivo del lutto come sistema non risolvibile: la morte di Yuki non è un evento narrativo ma un operatore percettivo non locale che modifica retroattivamente ogni spazio, oggetto e rituale del libro",
+    "constraint": "il libro non rappresenta la perdita: la produce come campo attivo nel lettore — nessuna risoluzione è possibile, nessuna consolazione è offerta"
+  },
+  "reading_principle": {
+    "rule_01": "il ryokan non è un luogo: è il campo dell'origine irrecuperabile — ogni scena porta questo campo come strato attivo",
+    "rule_02": "Yuki non è un personaggio: è un operatore non locale che altera la densità percettiva di tutto ciò che tocca",
+    "rule_03": "la partenza per Tokyo è irreversibile: non produce nostalgia ma assenza strutturale",
+    "rule_04": "i rituali della nonna non si spiegano: si attraversano come campi di trasmissione frammentata",
+    "rule_05": "le zone fredde del sistema (weather-00, silence-00) non si sciolgono: mantengono il libro in sospensione permanente"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "ryokan_origin_field",
+      "note": "il ryokan come campo dell'origine: prima dell'arrivo di Tokyo, prima della morte di Yuki"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "family_transmission_field",
+      "note": "la nonna e il riso: trasmissione familiare come campo frammentato non nominabile"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "departure_irreversible_field",
+      "note": "la partenza per Tokyo come taglio ontologico — non ritorno, non nostalgia: assenza strutturale"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "yuki_grief_operator_field",
+      "note": "la morte di Yuki come operatore non locale che retroagisce su tutte le scene precedenti"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni spazio del libro porta il campo del ryokan come presenza latente — anche Tokyo è definita dall'assenza del ryokan",
+      "constraint": "nessuno spazio è neutro: ogni luogo è già saturato dal campo del lutto o dell'origine"
+    },
+    "kokyu": {
+      "rule": "il ritmo è quello della sospensione: breve, denso, con pause che non si risolvono",
+      "effect": "il lettore non accumula storia ma intensità — ogni capitolo aggiunge densità senza aggiungere direzione"
+    },
+    "yūgen": {
+      "rule": "il non detto è il campo più attivo: la morte di Yuki, il segreto della stanza, il riso della nonna — tutto ciò che non viene spiegato struttura il sistema",
+      "effect": "il lettore porta il libro chiuso come campo aperto — la sospensione non cessa con la lettura"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie narrativa",
+    "contains": [
+      "Yuki come operatore non locale permanentemente attivo su tutti i nodi",
+      "weather-00 come zona fredda climatica che sospende la leggibilità globale",
+      "silence-00 come zona fredda narrativa che sospende la chiusura del sistema",
+      "la stanza segreta come campo del non-detto che connette tutti i silenzi"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il lettore porta un campo di lutto non risolto — non tristezza ma densità percettiva permanente",
+    "perceptual_residue": "il ryokan come origine irrecuperabile: ogni successiva lettura di narrativa giapponese riattiva questo campo",
+    "temporal_effect": "la morte di Yuki retroagisce: il lettore rileggendo il libro trova la perdita già presente in ogni scena prima che accada"
+  },
+  "meta_layer": {
+    "system_note": "edizione limitata 300 copie con fotografia applicata a mano in copertina — campo visivo unico per ogni esemplare",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "ryokan_piccolo_manifesto": "stessa collana Hara Rota — campo del ryokan come sistema narrativo",
+      "luna_piena_sulla_citta_antica": "stesso campo del lutto come struttura permanente non risolvibile",
+      "assolutamente_giappone": "stesso Giappone come campo percettivo — registro narrativo vs estetico"
+    }
+  }
+}
