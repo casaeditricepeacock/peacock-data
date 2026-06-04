@@ -1,0 +1,122 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025
+  },
+  "ritual_types": {
+    "daily_circuit": "percorso ripetuto che struttura il tempo come architettura percettiva",
+    "sensory_raid": "intrusione guidata dal desiderio sensoriale con rischio incorporato",
+    "passive_absorption": "ricezione pura di campi (suono, odore, atmosfera)",
+    "compulsive_return": "attrazione inevitabile verso un punto originario non risolto"
+  },
+  "editorial_principle": "I rituali di Ernesto non descrivono abitudini: producono la forma del palazzo. Il tempo non scorre: viene attraversato come condotti successivi di percezione. Ogni ritorno è già scritto nel primo passo.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "discesa_nel_condotto",
+      "label_en": "descent_into_duct",
+      "type": "daily_circuit",
+      "intensity": 0.96,
+      "perceptual_weight": 1.0,
+      "basho": "il condotto non è passaggio ma infrastruttura ontologica: tutto il palazzo esiste perché Ernesto lo attraversa da qui",
+      "kokyu": "il ritmo è continuo, termico, senza soglie: il tempo si comporta come aria calda in circolazione",
+      "yūgen": "nessun abitante sa che il centro del palazzo è un'intercapedine abitata da un solo sguardo",
+      "affects": {
+        "ritual-02": "il condotto rende possibile la mappa degli appartamenti come sistema percettivo attivabile"
+      },
+      "textual_anchor_it": "Abito nel condotto del riscaldamento tra gli appartamenti n. 103 e il 217.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "mappa_degli_appartamenti",
+      "label_en": "apartment_map_circuit",
+      "type": "daily_circuit",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "ogni appartamento è un mondo autosufficiente con un proprio regime sensoriale incompatibile con gli altri",
+      "kokyu": "il ritmo cambia a ogni soglia: scrittura, cucina, musica — ogni stanza è un tempo diverso",
+      "yūgen": "Ernesto non appartiene ai luoghi che attraversa, ma li conosce meglio di chi li abita",
+      "affects": {
+        "ritual-03": "la mappa attiva le incursioni sensoriali come variazioni del circuito principale",
+        "ritual-05": "ogni attraversamento completo aumenta la probabilità del ritorno alla ruota"
+      },
+      "textual_anchor_it": "Ogni giorno attraverso il condotto, mi reco nei seguenti appartamenti.",
+      "glossary_link": ["basho", "kokyu", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "incursione_libri_e_cucina",
+      "label_en": "books_and_kitchen_raid",
+      "type": "sensory_raid",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "il piacere nasce dove il rischio è minimo ma sempre presente: il gatto e il profumo come guardiani del desiderio",
+      "kokyu": "silenzio → attrazione → assaggio → fuga: sequenza ripetitiva senza stabilizzazione",
+      "yūgen": "la cultura del morso e del profumo produce conoscenza involontaria del mondo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il rischio del gatto Oreste non riduce il piacere: lo rende necessario — il sistema non stabilizza mai questo campo"
+      },
+      "affects": {
+        "ritual-04": "l'intensità sensoriale del rischio amplifica la sospensione dell'ascolto musicale"
+      },
+      "textual_anchor_it": "mordicchiare i libri appena usciti, mentre il gattaccio dorme.",
+      "glossary_link": ["yūgen", "kokyu", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "ascolto_sospeso",
+      "label_en": "suspended_listening",
+      "type": "passive_absorption",
+      "intensity": 0.91,
+      "perceptual_weight": 0.93,
+      "basho": "il violoncello è un campo senza spazio: trasforma il pomeriggio in sospensione percettiva",
+      "kokyu": "il tempo si dilata fino a perdere direzione, mantenendo solo intensità",
+      "yūgen": "l'ascolto genera una forma di viaggio che non richiede movimento",
+      "affects": {
+        "ritual-05": "la sospensione dell'ascolto prepara il campo per l'attrazione della ruota come passo successivo inevitabile"
+      },
+      "textual_anchor_it": "Passo i miei pomeriggi ad ascoltare, sognando di viaggiare.",
+      "glossary_link": ["kokyu", "mono no aware", "ma"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "attrazione_ruota_217",
+      "label_en": "wheel_attractor_217",
+      "type": "compulsive_return",
+      "intensity": 0.99,
+      "perceptual_weight": 1.0,
+      "basho": "la ruota nell'appartamento vuoto è il punto zero del sistema: libertà e gabbia coincidono",
+      "kokyu": "attrazione → ingresso → corsa → ripetizione senza uscita",
+      "yūgen": "il ritorno non è fallimento: è struttura primaria dell'identità di Ernesto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ruota non conclude il sistema: lo mantiene in rotazione permanente senza spiegazione"
+      },
+      "textual_anchor_it": "vengo sempre attratto da una ruota dentro a una piccola gabbietta. Ed allora entro e corro, corro, corro ed ancora corro.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-05",
+    "narrative_model": "il palazzo come macchina percettiva: i rituali non descrivono il comportamento, ma generano il tempo interno del sistema",
+    "cross_layer_coherence": {
+      "object_layer": "condotto + ruota come asse del sistema",
+      "transition_layer": "soglie come attivatori dei rituali",
+      "weather_layer": "campi climatici come modulazione sensoriale dei rituali"
+    },
+    "closure": "circolare_senza_risoluzione",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
