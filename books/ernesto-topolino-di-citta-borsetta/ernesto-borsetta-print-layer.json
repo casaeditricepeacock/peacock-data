@@ -1,0 +1,108 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Ernesto il topolino di città",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-06-6",
+    "year": 2025,
+    "edition": "Edizione speciale con borsetta"
+  },
+  "editorial_purpose": {
+    "function": "linearizzare una struttura di 7 scene percettive autonome senza ridurre la loro autonomia ontologica",
+    "constraint": "il palazzo non è un oggetto narrativo unico ma una sequenza di campi percettivi non sommabili"
+  },
+  "reading_principle": {
+    "rule_01": "Ernesto è un osservatore interno al sistema ma non appartiene a nessuna scena",
+    "rule_02": "ogni scena è un campo percettivo non riducibile a contesto architettonico",
+    "rule_03": "la padroncina è un campo di assenza trasversale (non un personaggio)",
+    "rule_04": "la ruota del 217 è un attrattore irrisolto, non un finale narrativo",
+    "rule_05": "il condotto è infrastruttura percettiva invisibile, non ambientazione"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "duct_infrastructure_activation",
+      "note": "il condotto come sistema nervoso invisibile: base percettiva che rende possibili tutte le scene successive"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "temporal_field_activation",
+      "note": "tempo fermo dello scrittore (Olivetti) come primo regime percettivo dell'appartamento"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "olfactory_field_activation",
+      "note": "attrazione/repulsione gastronomica come primo slittamento sensoriale"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "risk_field_activation",
+      "note": "introduzione del rischio come componente strutturale del piacere"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "temporal_suspension_activation",
+      "note": "violoncello come dilatazione temporale non lineare"
+    },
+    {
+      "order": 6,
+      "scene_ref": "scene-06",
+      "print_function": "partial_visibility_activation",
+      "note": "illustratrice come sistema di riconoscimento incompleto"
+    },
+    {
+      "order": 7,
+      "scene_ref": "scene-07",
+      "print_function": "attractor_loop_activation",
+      "note": "ruota del 217 come attrattore finale non risolutivo"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "le scene non si sommano: si attivano in sequenza come campi indipendenti",
+      "constraint": "nessuna scena deve essere interpretata come 'ambientazione del palazzo'"
+    },
+    "kokyu": {
+      "rule": "alternanza controllata tra densità sensoriale e sospensione temporale",
+      "effect": "la lettura replica il movimento percettivo di Ernesto tra campi"
+    },
+    "yūgen": {
+      "rule": "la ragione della ruota non viene esplicitata in alcun livello del sistema",
+      "effect": "il non-detto diventa struttura portante dell'intero libro"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "componenti strutturali attivi non esplicitati nel livello scene",
+    "contains": [
+      "padroncina come campo di assenza trasversale",
+      "condotto come infrastruttura invisibile di connessione",
+      "Milano come sistema implicito, non rappresentato direttamente",
+      "ruota 217 come attrattore ciclico non risolto"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "riattivazione percettiva dello spazio domestico come sistema di campi multipli",
+    "perceptual_residue": "persistenza dell'attrattore 217 come domanda non risolta",
+    "temporal_effect": "oggetti quotidiani (ruote, macchine da scrivere) riattivano le rispettive scene"
+  },
+  "meta_layer": {
+    "system_note": "narrativa illustrata per adulti: linearizzazione non riduttiva di un sistema percettivo a 7 scene — non è narrativa infantile, è etologia urbana percettiva",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "edition_note": "edizione speciale con borsetta — il libro come oggetto da regalo; la borsetta trasforma il campo percettivo del libro",
+    "isbn_standard": "979-12-81715-05-9"
+  }
+}
