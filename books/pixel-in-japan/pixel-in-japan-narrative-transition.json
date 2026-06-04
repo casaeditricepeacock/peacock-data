@@ -1,0 +1,143 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "transition_types": {
+    "technological_leap": "salto tecnologico che ridefinisce in modo non lineare il campo percettivo del medium",
+    "genre_birth": "emersione di un genere come condensazione stabile di pratiche ludiche e aspettative culturali",
+    "domestic_shift": "traslazione del dispositivo videoludico dalla sfera pubblica arcade alla sfera privata domestica",
+    "global_expansion": "diffusione transnazionale del linguaggio videoludico giapponese come infrastruttura culturale condivisa",
+    "medium_maturation": "stabilizzazione del videogioco come forma narrativa complessa e riflessiva"
+  },
+  "editorial_principle": "Le transizioni in Pixel in Japan non sono progressioni lineari ma discontinuità strutturali: ogni salto tecnico o culturale ricostruisce il campo di esperienza del videogioco. La storia del medium è una sequenza di rotture che si sedimentano come nuove normatività percettive.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "da_sala_a_casa",
+      "label_en": "arcade_to_home",
+      "type": "domestic_shift",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la migrazione dalla sala giochi alla console domestica non implica continuità funzionale ma ristrutturazione del campo: dal regime pubblico dell'arcade al tempo privato e non monetizzato della casa",
+      "kokyu": "mutazione del ritmo esperienziale: dalla scansione monetaria dell'accesso (coin-based temporality) alla continuità estesa del gioco domestico",
+      "yūgen": "l'ingresso del Famicom/NES nello spazio domestico come evento silenzioso ma irreversibile: il videogioco diventa infrastruttura familiare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la socialità dell'arcade non viene trasferita ma rimane come residuo non integrabile nel modello domestico"
+      },
+      "affects": {
+        "transition-02": "la domesticazione del medium abilita strutture narrative estese e sistemi di progressione complessi"
+      },
+      "textual_anchor_it": "diffusione delle console domestiche e trasformazione del consumo videoludico tra anni '80 e '90",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "nascita_jrpg",
+      "label_en": "jrpg_birth",
+      "type": "genre_birth",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "con Dragon Quest si stabilizza un campo narrativo-ludico in cui il viaggio, la crescita e la progressione numerica diventano struttura culturale: il JRPG come romanzo algoritmico giapponese",
+      "kokyu": "espansione temporale dell'esperienza: il gioco non è più sessione ma durata, sequenza prolungata di trasformazioni del personaggio",
+      "yūgen": "il successo massivo di Dragon Quest come segnale di un nuovo immaginario collettivo basato su esplorazione e crescita sistemica",
+      "affects": {
+        "transition-03": "la complessificazione narrativa del JRPG prepara il terreno per la drammatizzazione adulta del videogioco"
+      },
+      "textual_anchor_it": "Dragon Quest (1986) come matrice del JRPG moderno",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "rivoluzione_3d",
+      "label_en": "3d_revolution",
+      "type": "technological_leap",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la transizione al 3D con PlayStation non modifica la grafica ma ricostruisce l'ontologia spaziale del videogioco: lo spazio diventa abitabile, esplorabile, continuo",
+      "kokyu": "allungamento strutturale del tempo di gioco: narrazioni complesse richiedono immersione estesa e continuità percettiva",
+      "yūgen": "il passaggio a Final Fantasy VII, Metal Gear Solid e Silent Hill come emergenza del videogioco come mondo abitato e non più superficie",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la bidimensionalità non scompare ma si ricodifica come scelta estetica secondaria rispetto alla norma tridimensionale"
+      },
+      "affects": {
+        "transition-04": "la spazializzazione 3D abilita nuove forme di ansia, identità e narrazione psicologica"
+      },
+      "textual_anchor_it": "PlayStation (1994) come punto di rottura del linguaggio videoludico",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "espansione_globale",
+      "label_en": "global_expansion",
+      "type": "global_expansion",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "i franchise giapponesi non si diffondono come prodotti ma come grammatiche percettive globali: Mario, Pokémon, Zelda diventano strutture cognitive condivise",
+      "kokyu": "diffusione reticolare del medium: ogni nuova uscita modifica simultaneamente più contesti culturali distanti",
+      "yūgen": "Pokémon come sistema culturale autosufficiente che attraversa confini linguistici senza perdere coerenza interna",
+      "affects": {
+        "transition-05": "la globalizzazione produce retroattivamente la nostalgia come struttura culturale stabile"
+      },
+      "textual_anchor_it": "Pokémon (1996) come dispositivo globale di sincronizzazione culturale",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "maturazione_artistica",
+      "label_en": "artistic_maturation",
+      "type": "medium_maturation",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il videogioco giapponese contemporaneo si configura come spazio narrativo ibrido in cui forma ludica e riflessione culturale coincidono",
+      "kokyu": "il ritmo si stabilizza su forme lente, contemplative o narrative: il gioco come esperienza riflessiva più che performativa",
+      "yūgen": "opere come Yakuza/Like a Dragon o Paranormasight trasformano il medium in dispositivo di indagine culturale e sociale",
+      "textual_anchor_it": "evoluzione del videogioco giapponese nel XXI secolo come forma narrativa matura",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione tecnologica è simultaneamente una ristrutturazione culturale del campo videoludico",
+    "effect": "la storia del videogioco giapponese viene letta come infrastruttura narrativa della modernità culturale giapponese"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-03",
+    "narrative_model": "cinque discontinuità strutturali che sedimentano nuove normatività percettive nel campo videoludico giapponese",
+    "stability": "high_metastable",
+    "closure": "open_historical_timeline",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
