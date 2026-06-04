@@ -1,0 +1,135 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "transition_types": {
+    "child_to_thinker": "passaggio del bambino da ascoltatore passivo a co-autore del senso",
+    "fable_to_ethics": "transizione dalla narrazione all'impegno etico",
+    "animal_to_human": "attraversamento della prospettiva animale come campo di empatia umana",
+    "story_to_action": "prolungamento della favola oltre la lettura verso un atto nel mondo",
+    "innocence_to_awareness": "passaggio dalla fiducia infantile alla consapevolezza critica"
+  },
+  "editorial_principle": "Le transizioni non descrivono passaggi lineari ma soglie operative: la favola non informa, ma riorganizza il campo percettivo del bambino trasformando ascolto, empatia e giudizio in una stessa continuità attiva.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "ascolto_pensiero",
+      "label_en": "listening_to_thought",
+      "type": "child_to_thinker",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il pensiero emerge dentro la sospensione narrativa: il bambino non riceve la storia, la rielabora nel momento stesso in cui la ascolta",
+      "kokyu": "alternanza di flusso e pausa: racconto → silenzio interno → formulazione implicita di domanda",
+      "yūgen": "la posizione del bambino è già autoriale prima ancora della risposta: il senso si genera mentre la storia procede",
+      "affects": {
+        "transition-02": "l'attivazione cognitiva diventa base del dialogo collettivo"
+      },
+      "textual_anchor_it": "i bambini sono felici di essere coinvolti e pronti a esprimere un'opinione.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "narrativa_etica",
+      "label_en": "narrative_to_ethics",
+      "type": "fable_to_ethics",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "l'etica non segue la favola: la attraversa. Il valore emerge come conseguenza interna del racconto stesso",
+      "kokyu": "progressione riflessiva: situazione narrativa → riconoscimento emotivo → formulazione di giudizio",
+      "yūgen": "le qualità morali non vengono insegnate ma rese esperibili: amicizia, coraggio e gentilezza diventano ambienti cognitivi",
+      "affects": {
+        "transition-03": "la struttura etica abilita lo spostamento di prospettiva verso l'animale"
+      },
+      "textual_anchor_it": "l'accoglienza, il coraggio, l'amicizia, la gentilezza.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "prospettiva_animale",
+      "label_en": "animal_perspective_shift",
+      "type": "animal_to_human",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il punto di vista animale non è metafora: è una decostruzione del centro percettivo umano",
+      "kokyu": "identificazione progressiva: osservazione → immedesimazione → coincidenza percettiva temporanea",
+      "yūgen": "l'animale non è rappresentato ma attraversato: il limite tra specie diventa instabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il decentramento percettivo resta attivo anche dopo la lettura come memoria operativa"
+      },
+      "affects": {
+        "transition-04": "il decentramento produce conseguenze comportamentali nel mondo reale"
+      },
+      "textual_anchor_it": "senza farmi vedere, l'ho delicatamente fatto scivolare sotto il filo spinato — Dacia Maraini.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "storia_azione",
+      "label_en": "story_to_action",
+      "type": "story_to_action",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la narrazione non termina nel testo: si estende in pratiche etiche e gesti concreti nel mondo",
+      "kokyu": "continuità tra lettura e durata: la storia prosegue come decisione ripetuta nel tempo",
+      "yūgen": "il gesto etico non è eccezione ma estensione naturale della comprensione narrativa",
+      "affects": {
+        "transition-05": "l'azione continuata stabilizza la consapevolezza come stato percettivo"
+      },
+      "textual_anchor_it": "l'intero ricavato di tutti i suoi libri sarebbe stato devoluto a favore di Animals Asia.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "fiducia_consapevolezza",
+      "label_en": "innocence_to_awareness",
+      "type": "innocence_to_awareness",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la consapevolezza finale non sostituisce l'innocenza: la riarticola su un livello più esteso di comprensione",
+      "kokyu": "trasformazione silenziosa: il soggetto cambia senza percepire il punto esatto del cambiamento",
+      "yūgen": "la fiducia nel mondo non viene eliminata ma resa problematica e quindi più attiva",
+      "textual_anchor_it": "continuo a credere nell'intima bontà dell'uomo — Anne Frank.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-03",
+    "narrative_model": "cinque soglie operative che trasformano la favola in dispositivo cognitivo ed etico: ascolto, etica, decentramento, azione, consapevolezza",
+    "stability": "high",
+    "closure": "open_field_continuation",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
