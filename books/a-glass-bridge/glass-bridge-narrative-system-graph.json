@@ -1,0 +1,211 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "system_principle": "The system is a bilateral craft field sustained by a single operator (Lotter) and a single object (the bead). Murano and Kyoto do not merge: they remain co-active regimes of perception held in tension.",
+  "node_classes": {
+    "scene": "spatial_field",
+    "object": "material_cultural_operator",
+    "ritual": "embodied_transmission_process",
+    "transition": "irreversible_threshold_event",
+    "silence": "untranslatable_residual_field",
+    "weather": "atmospheric_craft_climate",
+    "meta_state": "bilateral_irresolvable_system_condition"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-02",
+    "system_shape": "bilateral_bridge_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "furnace_to_form",
+        "nodes": [
+          "scene-01",
+          "object-01",
+          "ritual-01",
+          "transition-01"
+        ],
+        "type": "material_transformation_loop",
+        "stability": "irreversible",
+        "propagation_logic": "glass transforms once; the bead is the residue of irreversible thermal decision",
+        "description": "Molten glass → decision → fixed form. The irreversibility of glass transformation mirrors the irreversibility of cultural encounter."
+      },
+      {
+        "id": "loop-02",
+        "label": "murano_kyoto_dual_practice",
+        "nodes": [
+          "scene-01",
+          "scene-02",
+          "ritual-03",
+          "transition-02"
+        ],
+        "type": "bilateral_practice_loop",
+        "stability": "permanent",
+        "propagation_logic": "one body sustains two craft regimes without translation or synthesis",
+        "description": "Lotter as single operator who makes the bridge possible: thirty-plus years of practice in two traditions simultaneously active."
+      },
+      {
+        "id": "loop-03",
+        "label": "gift_delay_revelation",
+        "nodes": [
+          "ritual-04",
+          "scene-03",
+          "scene-04",
+          "object-02"
+        ],
+        "type": "deferred_transmission_loop",
+        "stability": "recurring",
+        "propagation_logic": "meaning emerges only after spatial and temporal distance from origin",
+        "description": "Venice → pocket → Como → examination → embodiment. The field of the bead requires delay to become fully visible."
+      },
+      {
+        "id": "loop-04",
+        "label": "embodied_heritage_chain",
+        "nodes": [
+          "silence-01",
+          "ritual-02",
+          "object-05",
+          "transition-04"
+        ],
+        "type": "heritage_transmission_loop",
+        "stability": "fragile",
+        "propagation_logic": "craft exists only as continuous bodily transmission across generations",
+        "description": "Franchini → Murano tradition → Lotter → Kyoto. A chain that can break at any point — the fragile loop in the system."
+      },
+      {
+        "id": "loop-05",
+        "label": "bilingual_irreducibility",
+        "nodes": [
+          "silence-02",
+          "transition-05",
+          "object-03",
+          "weather-01"
+        ],
+        "type": "bilateral_encounter_loop",
+        "stability": "permanent",
+        "propagation_logic": "EN/JA coexist as non-translational parallel fields producing a third irreducible space",
+        "description": "The universal language of beauty: shared epistemic limit rather than shared language."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-02",
+      "to": "all",
+      "effect": "global_bilateral_activation",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_nodes_inherit_irreducibility_of_bead"
+    },
+    {
+      "from": "silence-02",
+      "to": "all",
+      "effect": "structural_bilingual_gap",
+      "propagation_mode": "structural",
+      "intensity": 0.97,
+      "stability_impact": "language_becomes_field_boundary_not_translation_medium"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "retroactive_furnace_activation",
+      "propagation_mode": "temporal_fold",
+      "intensity": 0.9,
+      "stability_impact": "body_worn_bead_reactivates_origin_field"
+    },
+    {
+      "from": "transition-05",
+      "to": "all",
+      "effect": "permanent_irresolvability",
+      "propagation_mode": "non_local",
+      "intensity": 0.96,
+      "stability_impact": "east_west_remains_structurally_non_synthesizable"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "bilateral_metastable",
+    "allowed_mutations": [
+      "furnace_activation",
+      "kyoto_activation",
+      "gift_revelation",
+      "heritage_transmission",
+      "bilingual_opening"
+    ],
+    "forbidden_states": [
+      "cultural_synthesis",
+      "decorative_object_reduction",
+      "language_translation_equivalence",
+      "heritage_as_archive",
+      "single_field_dominance"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-02",
+    "stability": "bilateral_metastable",
+    "closure": false,
+    "closure_type": "bilateral_irresolvable_permanent",
+    "system_behavior": "the bead functions as a non-resolvable attractor that maintains Murano and Kyoto as co-active but non-fusing systems",
+    "readability": "high_local_coherence_high_global_tension",
+    "catalog_connection": {
+      "assolutamente_giappone": "craft as cultural translation vector",
+      "la_singolarita_giappone": "Japan as irreducible singular field",
+      "luna_piena_sulla_citta_antica": "bilingual mediation as structural constraint (EN/JA vs IT/JA)"
+    }
+  }
+}
