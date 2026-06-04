@@ -1,0 +1,150 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025,
+    "season": "Estate",
+    "cover": "acquarello neve",
+    "paper": "holmen book cream vsa 1.8",
+    "edition": "Limited — 300 copie, fotografia applicata a mano in copertina"
+  },
+  "editorial_principle": "La locanda Nakamura è un romanzo di amicizia, crescita e memoria ambientato nell'estate del 1986. Il Ryokan Nakamura diventa il luogo in cui un gruppo di ragazzi condivide esperienze, scoperte e promesse destinate a lasciare un segno duraturo nelle loro vite. La narrazione osserva il passaggio dall'infanzia all'adolescenza attraverso i luoghi, i legami e i ricordi che definiscono quell'estate.",
+  "object_types": {
+    "family_place": "luogo che custodisce relazioni, memorie e continuità familiare",
+    "summer_memory": "elemento che concentra il ricordo di una stagione significativa",
+    "friendship_bond": "legame costruito attraverso esperienze condivise",
+    "shared_space": "spazio che favorisce incontri e crescita collettiva",
+    "memory_trigger": "elemento sensoriale che richiama ricordi ed emozioni"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "ryokan_nakamura",
+      "label_en": "nakamura_inn",
+      "type": "family_place",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il Ryokan Nakamura è il luogo che riunisce famiglie, amici e generazioni diverse, diventando il centro delle esperienze estive della protagonista",
+      "kokyu": "il ritmo del ryokan segue la stagionalità delle vacanze, delle prenotazioni e della vita quotidiana della struttura",
+      "yūgen": "il ritorno annuale al ryokan trasforma il luogo in un punto di riferimento affettivo e identitario per la protagonista",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni ritorno al ryokan aggiunge nuovi ricordi senza cancellare quelli precedenti"
+      },
+      "affects": {
+        "object-02": "il ryokan rende possibile la nascita e la continuità del gruppo di amici"
+      },
+      "textual_anchor_it": "Da che ho memoria, ho sempre trascorso le vacanze estive al Ryokan Nakamura. Mi divertivo un mondo a girare per le stanze, passare il tempo con gli amici del mare e dare una mano quando occorreva.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "patto_dei_sette",
+      "label_en": "pact_of_seven",
+      "type": "friendship_bond",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il patto rappresenta il forte legame di amicizia che unisce i sette ragazzi durante le estati trascorse insieme",
+      "kokyu": "il gruppo evolve di estate in estate mantenendo una continuità affettiva mentre ciascun membro cambia e cresce",
+      "yūgen": "i momenti condivisi assumono valore proprio perché vissuti senza sapere quanto saranno importanti in futuro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i ricordi condivisi continuano a influenzare i protagonisti anche quando le loro strade iniziano a divergere"
+      },
+      "affects": {
+        "object-03": "l'amicizia conferisce significato ai ricordi dell'estate"
+      },
+      "textual_anchor_it": "Tutti e sette inginocchiati sui cuscini a riempirci la bocca come porcellini divertiti.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "estate_1986",
+      "label_en": "summer_1986",
+      "type": "summer_memory",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "l'estate del 1986 costituisce il contesto storico e affettivo in cui si sviluppano gli eventi principali del romanzo",
+      "kokyu": "il ritmo segue le giornate delle vacanze, i lavori del ryokan e le attività dei ragazzi",
+      "yūgen": "i dettagli concreti dell'epoca rendono vivido il ricordo e rafforzano il senso di autenticità della narrazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quell'estate rimane unica e non ripetibile nella stessa forma"
+      },
+      "affects": {
+        "object-01": "la stagione estiva dà vita al ryokan come luogo narrativo"
+      },
+      "textual_anchor_it": "Quel luglio dell'86 la prefettura di Nagasaki raggiunse i venticinque gradi, e per tutto il ryokan si sentiva squillare il telefono per via delle prenotazioni.",
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "papaveri_rossi",
+      "label_en": "red_poppies",
+      "type": "memory_trigger",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "i papaveri rappresentano un elemento naturale ricorrente che accompagna l'arrivo dell'estate e richiama i ricordi della protagonista",
+      "kokyu": "il loro ritorno stagionale accompagna il ripetersi delle vacanze e delle esperienze condivise",
+      "yūgen": "la loro presenza discreta collega il paesaggio ai sentimenti e alla memoria",
+      "affects": {
+        "object-03": "i papaveri rafforzano il legame emotivo con l'estate del 1986"
+      },
+      "textual_anchor_it": "I papaveri flessi dal vento, sbocciati sul dolce pendio del fiume Urakami, annunciavano che presto sarebbe arrivata l'estate.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "nonna_matriarca",
+      "label_en": "grandmother_matriarch",
+      "type": "family_place",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la nonna rappresenta il punto di riferimento della famiglia e della gestione del ryokan",
+      "kokyu": "la sua presenza garantisce continuità e ordine nella vita quotidiana della locanda",
+      "yūgen": "attraverso la sua figura emergono la storia familiare e il valore della dedizione silenziosa",
+      "textual_anchor_it": "A capo di tutto mia nonna, classe 1928, una donna laboriosa e resistente dall'aria impeccabile, capelli color mercurio sempre in ordine.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-03",
+    "narrative_model": "cinque elementi narrativi che strutturano il racconto: il ryokan, il gruppo di amici, l'estate del 1986, i simboli della memoria e le figure familiari",
+    "setting": "Ryokan Nakamura, baia di Omura, prefettura di Nagasaki, estate 1986",
+    "group_count": 7,
+    "glossary_terms": "50+ termini giapponesi con traduzione e spiegazione culturale",
+    "catalog_connection": "condivide con Ryokan di Hara Rota l'ambientazione della locanda giapponese, sviluppandola però attraverso il romanzo di amicizia e formazione",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
