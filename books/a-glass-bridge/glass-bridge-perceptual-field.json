@@ -1,0 +1,107 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "A Glass Bridge is not a book about glass. It is a field in which two craft traditions — Venetian and Japanese — coexist without merging, held together by a single practitioner's body and a single object: the bead. The book is bilingual because the field it describes is irreducibly dual.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_artigianale_bilingue",
+      "label_en": "bilingual_craft_field",
+      "label_ja": "二言語的工芸フィールド",
+      "type": "cognitive_field",
+      "basho": "the bilingual craft field does not translate one tradition into the other: it holds both simultaneously as active perceptual layers — Venetian technique and Japanese spatial sensibility coexist in each bead",
+      "kokyu": "the rhythm is that of thirty-plus years of practice in the intersection: neither tradition dominates, both are continuously active",
+      "yūgen_level": 0.97,
+      "activation_condition": "encounter with any object that carries two traditions simultaneously without resolving into one",
+      "persistence_rule": "the bilingual field remains active as a permanent perceptual disposition",
+      "dissolution_rule": "non_dissolvibile: structural condition of the entire system",
+      "field_logic": "craft_as_irreducible_bilateral_field",
+      "textual_anchor_en": "tradition, innovation, and passion intertwine",
+      "textual_anchor_ja": "伝統、革新、そして情熱が交差する"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_corpo_tecnico",
+      "label_en": "technical_body_field",
+      "label_ja": "技術身体フィールド",
+      "type": "residual_field",
+      "basho": "the technical body of the master is the irreducible field of craft transmission: what Lotter knows cannot be fully said — it lives in the hands, in the timing, in the relationship with heat",
+      "kokyu": "the rhythm of embodied knowledge is that of years of repetition: the technique becomes invisible, the body becomes the technique",
+      "yūgen_level": 0.96,
+      "activation_condition": "any description of craft technique that exceeds linguistic capture",
+      "persistence_rule": "embodied knowledge remains permanently active in the practitioner",
+      "dissolution_rule": "non_dissolvibile: embodied skill cannot be unlearned",
+      "field_logic": "embodied_craft_knowledge_as_irreducible_field",
+      "affects": {
+        "field-01": "embodied knowledge sustains the bilingual field as its enabling condition"
+      },
+      "textual_anchor_en": "techniques refined over centuries, along with the deep emotions and dedication of master artisans",
+      "textual_anchor_ja": "何世紀にもわたって磨かれてきた技法と、名匠たちの深い情熱と献身"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_oggetto_irrisolvibile",
+      "label_en": "irresolvable_object_field",
+      "label_ja": "非解決的オブジェクトフィールド",
+      "type": "aesthetic_field",
+      "basho": "the Lotter bead is an aesthetically irresolvable object: it cannot be classified as Venetian or Japanese — it occupies both without belonging to either",
+      "kokyu": "the rhythm is oscillation between incompatible classificatory systems that both apply and both fail",
+      "yūgen_level": 0.98,
+      "activation_condition": "perception of a bead containing dual cultural origin without synthesis",
+      "persistence_rule": "irresolvability is a permanent structural condition of the object",
+      "dissolution_rule": "non_dissolvibile: classification always produces loss",
+      "field_logic": "object_as_permanently_unclassifiable_field",
+      "textual_anchor_en": "Lotter's bead is a Venetian bead crafted using the same technique as the Franchini masters, but it tells an Eastern story.",
+      "textual_anchor_ja": "ロッテルのビーズは、フランキーニ兄弟の技法で作られたヴェネツィアのビーズですが、東洋の世界を語ります。"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_patrimonio_vivente",
+      "label_en": "living_heritage_field",
+      "label_ja": "生きた遺産フィールド",
+      "type": "temporal_field",
+      "basho": "living heritage is not a museum condition: it is a field that exists only through continuous embodied transmission — Murano survives only in practice",
+      "kokyu": "the rhythm of heritage is fragile continuity: Franchini → Murano tradition → Lotter → Kyoto — a chain that can break at any point",
+      "yūgen_level": 0.95,
+      "activation_condition": "recognition that craft exists only while it is actively practiced",
+      "persistence_rule": "the field remains active only through continuous transmission",
+      "dissolution_rule": "dissolvibile: interruption of transmission collapses the field",
+      "field_logic": "heritage_as_living_transmission_chain",
+      "textual_anchor_en": "heritage, culture, and the relentless pursuit of beauty",
+      "textual_anchor_ja": "遺産、文化、そして美を追求する終わりなき探求"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "glass_as_decorative_object",
+      "east_west_as_synthesis",
+      "craft_as_historical_artifact",
+      "bilingual_as_translation",
+      "unbounded_bilingual_asymmetry",
+      "classification_without_loss"
+    ],
+    "system_behavior": "four coupled perceptual fields forming a single irreversible craft ontology: language, body, object, heritage"
+  }
+}
