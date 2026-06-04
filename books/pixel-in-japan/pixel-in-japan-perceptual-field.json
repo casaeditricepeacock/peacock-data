@@ -1,0 +1,90 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration_of_the_field",
+    "kokyu": "temporal_rhythm_of_activation",
+    "yūgen": "degree_of_perceptual_incompleteness_and_resonance"
+  },
+  "editorial_principle": "Pixel in Japan non descrive il videogioco giapponese come sequenza storica di prodotti, ma come sistema di campi percettivi stratificati. Ogni titolo tra il 1979 e il 2024 non è un oggetto culturale isolato, ma un punto di attivazione di un campo che eccede il gioco stesso. Il pixel è unità minima di cultura operativa, non elemento grafico.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_culturale_videoludico",
+      "type": "cognitive_field",
+      "basho": "il videogioco giapponese opera come infrastruttura culturale: non intrattiene soltanto, ma organizza percezione, valori e immaginario attraverso sistemi ludici coerenti",
+      "kokyu": "sequenza storica non lineare ma stratificata: ogni epoca (arcade, console, 3D, online) riattiva e riscrive le precedenti come strati coesistenti",
+      "yūgen_level": 0.97,
+      "activation_condition": "attivazione di qualsiasi titolo della timeline come accesso a un sistema culturale implicito",
+      "persistence_rule": "il campo rimane attivo come struttura interpretativa permanente dell'intero corpus",
+      "dissolution_rule": "non dissolvibile: costituisce la condizione di leggibilità del sistema",
+      "field_logic": "videogame_as_cultural_infrastructure",
+      "textual_anchor_it": "una selezione di circa 80 titoli giapponesi essenziali dal 1979 al 2024 come mappa culturale del medium"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_nostalgia_attiva",
+      "type": "residual_field",
+      "basho": "la nostalgia videoludica non è recupero del passato ma attivazione presente di un campo percettivo sedimentato: il passato agisce ancora",
+      "kokyu": "ritmo mnestico non volontario: suoni, pixel, interfacce attivano stati affettivi indipendenti dalla memoria cosciente (Super Mario Bros, Zelda, Pokémon)",
+      "yūgen_level": 0.96,
+      "activation_condition": "riconoscimento anche parziale di pattern estetici o sonori associati a epoche precedenti del medium",
+      "persistence_rule": "il campo resta attivo come filtro emotivo permanente sulla lettura",
+      "dissolution_rule": "non dissolvibile: la nostalgia è struttura tecnica del rapporto con il medium",
+      "field_logic": "nostalgia_as_operational_perceptual_system",
+      "affects": {
+        "field-01": "trasforma il campo culturale in esperienza affettiva stratificata"
+      },
+      "textual_anchor_it": "ricordi d'infanzia legati a storie e personaggi del Sol Levante che persistono come memoria culturale condivisa"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_medium_artistico",
+      "type": "aesthetic_field",
+      "basho": "il videogioco giapponese evolve da sistema ludico a forma estetica autonoma: cinema interattivo, narrativa espansa, architettura emotiva (Metal Gear Solid, Final Fantasy VII, Silent Hill)",
+      "kokyu": "progressiva dilatazione della complessità: aumento della durata, densità narrativa e profondità tematica del medium",
+      "yūgen_level": 0.95,
+      "activation_condition": "titoli che eccedono la funzione ludica primaria e operano come dispositivi espressivi complessi",
+      "persistence_rule": "ogni nuovo titolo si stratifica senza sostituire i precedenti",
+      "dissolution_rule": "non dissolvibile: il riconoscimento del videogioco come arte è irreversibile",
+      "field_logic": "videogame_as_aesthetic_medium",
+      "textual_anchor_it": "Metal Gear Solid (1998), Xenogears (1998), Silent Hill (1999), Paranormasight (2023)"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_trasmissione_culturale",
+      "type": "temporal_field",
+      "basho": "il videogioco giapponese funziona come vettore di trasmissione culturale globale: estetiche, valori e immaginari del Giappone si diffondono attraverso sistemi ludici",
+      "kokyu": "diffusione iterativa e generazionale: ogni nuova iterazione del medium riattiva e rielabora forme culturali precedenti in contesti globali",
+      "yūgen_level": 0.94,
+      "activation_condition": "riconoscimento del videogioco come veicolo di cultura oltre la sua funzione ludica immediata",
+      "persistence_rule": "il campo resta attivo indipendentemente dalla tecnologia che lo veicola",
+      "dissolution_rule": "non dissolvibile: la trasmissione culturale è struttura costante del medium",
+      "field_logic": "videogame_as_cultural_transmission_system",
+      "textual_anchor_it": "Mario, Zelda, Pokémon, Final Fantasy come infrastrutture globali di cultura giapponese"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "videogame_as_entertainment_object",
+      "pixel_as_graphical_constraint",
+      "nostalgia_as_emotional_decor",
+      "japanese_videogame_as_export_product"
+    ],
+    "system_behavior": "la guida non organizza titoli ma campi percettivi: ogni entry è un nodo di attivazione culturale. Il lettore non consulta una storia del videogioco giapponese, ma attraversa una geografia operativa della cultura giapponese mediata dal videogioco"
+  }
+}
