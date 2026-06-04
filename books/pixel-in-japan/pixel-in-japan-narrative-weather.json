@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "nostalgia_field": "campo percettivo retroattivo generato dalla memoria collettiva di epoche videoludiche non più accessibili",
+    "pixel_atmosphere": "regime estetico del low-resolution come codice culturale persistente e riattivabile",
+    "horror_climate": "configurazione atmosferica dell'angoscia percettiva nei sistemi ludici survival horror",
+    "epic_field": "regime climatico della narrazione espansa tipica del JRPG come mondo totale esperibile"
+  },
+  "editorial_principle": "Il clima in Pixel in Japan non descrive il mood ma la struttura percettiva delle epoche videoludiche. Ogni era del videogioco giapponese produce un'atmosfera stabile che continua a operare anche dopo la sua dissoluzione tecnica. Il clima è memoria operativa del medium.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "nostalgia_8bit",
+      "label_en": "8bit_nostalgia",
+      "type": "nostalgia_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "l'8-bit non è una fase storica conclusa ma un regime percettivo persistente che continua a generare senso estetico anche nel presente",
+      "kokyu": "struttura ritmica minimale e ciclica: chiptune, loop melodici, pattern ripetuti che costruiscono memoria emotiva stabile (Super Mario Bros, Zelda, Mega Man)",
+      "yūgen": "la riattivazione contemporanea del pixel come forma di nostalgia per un'epoca spesso non vissuta direttamente: nostalgia senza esperienza originaria",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'8-bit non è riproducibile: ogni remake produce citazione, non ricostruzione del campo originario"
+      },
+      "affects": {
+        "weather-02": "la nostalgia 8-bit diventa matrice estetica del pixel contemporaneo come scelta culturale consapevole"
+      },
+      "textual_anchor_it": "Super Mario Bros (1985), The Legend of Zelda (1986), Mega Man (1987) come fondazione del regime estetico 8-bit",
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "atmosfera_jrpg",
+      "label_en": "jrpg_atmosphere",
+      "type": "epic_field",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il JRPG costruisce un campo climatico totale: mondo, storia e progressione numerica coincidono in un unico ecosistema esperienziale",
+      "kokyu": "dilatazione temporale strutturale: il gioco come durata narrativa estesa che trasforma il tempo in materia epica (Dragon Quest, Final Fantasy, Chrono Trigger)",
+      "yūgen": "l'esperienza del JRPG come immersione in mondi che continuano a esistere indipendentemente dal giocatore",
+      "affects": {
+        "weather-03": "l'epica del JRPG intensifica per contrasto la densità psicologica dell'orrore survival"
+      },
+      "textual_anchor_it": "Final Fantasy VI (1994), Chrono Trigger (1995), Final Fantasy VII (1997)",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "nebbia_silent_hill",
+      "label_en": "silent_hill_fog",
+      "type": "horror_climate",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la nebbia in Silent Hill non nasconde il mondo: lo sostituisce. Il visibile viene rimosso per rendere percepibile l'inconscio spaziale",
+      "kokyu": "ritmo sospeso e discontinuo: avanzamento, incertezza, arresto percettivo. Il tempo diventa tensione ambientale (Resident Evil, Silent Hill, Project Zero)",
+      "yūgen": "l'orrore giapponese come forma di spazio mentale esternalizzato: il giocatore attraversa stati psichici prima ancora che luoghi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la nebbia come dispositivo psicologico non è replicabile tecnicamente senza perdita del suo statuto percettivo originario"
+      },
+      "affects": {
+        "weather-04": "l'orrore produce nostalgia come sua contro-forma affettiva stabilizzata"
+      },
+      "textual_anchor_it": "Silent Hill (1999), Resident Evil (1996), Project Zero (2001)",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "pixel_contemporaneo",
+      "label_en": "contemporary_pixel",
+      "type": "pixel_atmosphere",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "l'estetica retro nel contemporaneo non è regressione ma riorganizzazione culturale del passato come materiale attivo di progetto (Animal Crossing, Yo-kai Watch, Akiba's Trip)",
+      "kokyu": "il ritmo è quello della citazione strutturale: il passato non ritorna, viene riattivato come linguaggio operativo nel presente",
+      "yūgen": "il videogioco contemporaneo come archivio vivo: ogni nuova opera contiene simultaneamente stratificazioni storiche del medium",
+      "textual_anchor_it": "Animal Crossing: New Horizons (2020), Yo-kai Watch (2013), Rise of the Ronin (2024)",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "clima_come_architettura_percettiva_del_medium",
+    "note": "ogni campo climatico non descrive il videogioco ma la sua persistenza percettiva oltre la sua epoca tecnica",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
