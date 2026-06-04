@@ -1,0 +1,164 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "transition_types": {
+    "material_transformation": "irreversible state change in physical matter",
+    "cultural_migration": "technique displaced across cultural fields without synthesis",
+    "discovery_delay": "meaning emerges only after temporal separation",
+    "heritage_continuation": "transmission of embodied technique across generations",
+    "east_west_threshold": "coexistence of incompatible epistemic fields in a single object"
+  },
+  "editorial_principle": "Transitions are irreversible field events. Each passage produces a new state that cannot be reverted or reduced. Murano and Kyoto do not merge: they generate a third field that persists as unresolved coexistence.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "fuso_solido",
+      "label_en": "molten_to_solid",
+      "label_ja": "溶融から固体へ",
+      "type": "material_transformation",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Molten glass is a pure potential field; solidification is its closure into irreversible form.",
+      "kokyu": "Thermal decay compresses time into a single decisive threshold.",
+      "yūgen": "Every bead encodes a non-repeatable thermal singularity.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Liquid state is permanently inaccessible after solidification."
+      },
+      "affects": {
+        "transition-02": "material irreversibility mirrors cultural irreversibility"
+      },
+      "textual_anchor_en": "the exhilaration of transforming tradition into contemporary elegance",
+      "textual_anchor_ja": "伝統を現代のエレガンスへと昇華させる興奮",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "murano_kyoto",
+      "label_en": "murano_to_kyoto",
+      "label_ja": "ムラノから京都へ",
+      "type": "cultural_migration",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "Migration is not relocation but co-presence of two operational fields in one body.",
+      "kokyu": "Thirty-year duration produces continuity rather than movement.",
+      "yūgen": "Same technique produces different ontological outcomes in different spatial regimes.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Origin cannot be separated from displacement once cohabitation stabilizes."
+      },
+      "affects": {
+        "transition-03": "object becomes deferred revelation"
+      },
+      "textual_anchor_en": "From the blazing furnaces of Murano to the serene workshops of Kyoto.",
+      "textual_anchor_ja": "ムラノの燃えさかる炉から京都の静寂な工房へ。",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "dono_scoperta",
+      "label_en": "gift_to_discovery",
+      "label_ja": "贈り物から発見へ",
+      "type": "discovery_delay",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "The encounter is not perceived in transit but in return; distance activates comprehension.",
+      "kokyu": "Temporal delay structures meaning: possession precedes understanding.",
+      "yūgen": "Immediate aesthetic response bypasses interpretation entirely.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Meaning is not coeval with reception; it emerges post-facto."
+      },
+      "affects": {
+        "transition-04": "discovery demands transmission"
+      },
+      "textual_anchor_en": "In the rush of the moment, I put them in my pocket without examining them as I should have.",
+      "textual_anchor_ja": "その時の混乱の中で、私はそれらをじっくり観察することなく、ただポケットにしまいました。",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "tecnica_patrimonio",
+      "label_en": "technique_to_heritage",
+      "label_ja": "技法から遺産へ",
+      "type": "heritage_continuation",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "Technique persists as living transmission field, not historical archive.",
+      "kokyu": "Intergenerational continuity preserves gesture, not identity.",
+      "yūgen": "Form remains stable while meaning migrates across cultures.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Embodied knowledge resists full codification."
+      },
+      "affects": {
+        "transition-05": "heritage stabilizes dual-field coexistence"
+      },
+      "textual_anchor_en": "Lotter's bead is a Venetian bead crafted using the same technique as the Franchini masters, but it tells an Eastern story.",
+      "textual_anchor_ja": "ロッテルのビーズは、フランキーニ兄弟の技法で作られたヴェネツィアのビーズですが、東洋の世界を語ります。",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "oriente_occidente",
+      "label_en": "east_west_threshold",
+      "label_ja": "東西の出会い",
+      "type": "east_west_threshold",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "East and West do not integrate; they remain co-active within a single object.",
+      "kokyu": "No resolution is possible; the field remains structurally open.",
+      "yūgen": "Beauty operates as shared epistemic limit rather than shared language.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Classification collapses under dual-field coexistence."
+      },
+      "textual_anchor_en": "tradition, innovation, and passion intertwine",
+      "textual_anchor_ja": "伝統、革新、そして情熱が交差する",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "irreversible field system: matter → displacement → delay → transmission → coexistence",
+    "stability": "permanent_open_system",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  },
+  "editorial_principle_ja": "すべての遷移は不可逆な場の出来事である。ムラノと京都は融合しない。それらは未解決の共存として第三の場を生成する。"
+}
