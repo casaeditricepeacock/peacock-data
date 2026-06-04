@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "ritual_types": {
+    "read_aloud": "lettura condivisa come attivazione di un campo percettivo adulto-bambino",
+    "classroom_dialogue": "pratica collettiva di costruzione del senso dopo la narrazione",
+    "ethical_donation": "atto rituale che estende il libro oltre la sua dimensione testuale",
+    "animal_observation": "pratica attentiva di riconoscimento dell'altro vivente",
+    "question_asking": "attivazione del pensiero tramite interrogazione aperta"
+  },
+  "editorial_principle": "I rituali non sono pratiche accessorie ma infrastrutture cognitive: ogni favola attiva una forma di attenzione, relazione e responsabilità. Il libro non comunica contenuti morali ma organizza situazioni di pensiero condiviso tra bambini e adulti.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "lettura_ad_alta_voce",
+      "label_en": "read_aloud",
+      "type": "read_aloud",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la voce adulta non trasmette soltanto il testo: costruisce uno spazio condiviso in cui il bambino entra come co-presenza interpretativa",
+      "kokyu": "alternanza di voce, pausa e ascolto che sincronizza attenzione e immaginazione",
+      "yūgen": "la favola esiste anche prima e dopo la lettura: la voce la rende temporaneamente visibile",
+      "affects": {
+        "ritual-02": "la condivisione vocale prepara il terreno del dialogo collettivo"
+      },
+      "textual_anchor_it": "Rodari: le favole sono ovunque, latenti nelle cose del mondo quotidiano.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "dialogo_post_favola",
+      "label_en": "post_fable_dialogue",
+      "type": "classroom_dialogue",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il dialogo non è una verifica ma una prosecuzione del campo narrativo: i bambini non rispondono, continuano la favola in altra forma",
+      "kokyu": "ritmo esplorativo e collettivo: ogni intervento modifica la traiettoria del senso",
+      "yūgen": "il pensiero infantile appare come sistema creativo non predicibile, osservabile solo nel suo emergere",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni sessione dialogica produce configurazioni uniche non ripetibili né archiviabili"
+      },
+      "affects": {
+        "ritual-03": "la discussione collettiva si cristallizza nel questionario strutturato"
+      },
+      "textual_anchor_it": "i bambini partecipano con entusiasmo quando il pensiero è attivato come gioco condiviso.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "questionario_riflessivo",
+      "label_en": "reflective_questionnaire",
+      "type": "question_asking",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il questionario non conclude il processo narrativo ma lo prolunga in forma individuale",
+      "kokyu": "passaggio dal collettivo all'introspezione: il pensiero si stabilizza senza chiudersi",
+      "yūgen": "il pensiero come competenza insegnabile senza contenuto determinato",
+      "affects": {
+        "ritual-04": "il questionario individuale produce la disponibilità all'osservazione attenta dell'altro vivente"
+      },
+      "textual_anchor_it": "Kant: pensare non è ricevere pensieri ma produrli attivamente.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "osservazione_animale",
+      "label_en": "animal_observation",
+      "type": "animal_observation",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "l'animale non è oggetto narrativo ma soggetto percettivo autonomo con cui il lettore entra in relazione",
+      "kokyu": "ritmo lento e attentivo: osservare senza appropriazione",
+      "yūgen": "l'empatia interspecie emerge come competenza etica non dichiarata ma praticata",
+      "affects": {
+        "ritual-05": "l'osservazione produce la continuità etica oltre la lettura"
+      },
+      "textual_anchor_it": "Maraini: gli animali liberi sono l'unica forma accettabile di relazione.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "donazione_animals_asia",
+      "label_en": "ethical_continuation_donation",
+      "type": "ethical_donation",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "la donazione non è esterna al libro ma ne costituisce la continuazione operativa nel mondo reale",
+      "kokyu": "ritmo esteso e continuo: ogni copia attiva una trasformazione concreta",
+      "yūgen": "la sofferenza animale non è tematizzata ma assunta come campo reale di intervento",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il gesto etico non si chiude nel testo: rimane attivo come struttura permanente del sistema editoriale"
+      },
+      "textual_anchor_it": "il ricavato devoluto integralmente ad Animals Asia come principio strutturale del progetto.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-02",
+    "narrative_model": "sistema rituale basato su attivazione cognitiva, dialogo educativo ed estensione etica del testo nel mondo reale",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
