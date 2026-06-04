@@ -1,0 +1,155 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025,
+    "format": "24x17",
+    "note": "Prima guida dedicata esclusivamente ai videogiochi giapponesi pubblicata in Italia"
+  },
+  "editorial_principle": "Ogni videogioco presente in Pixel in Japan è simultaneamente gioco, archivio culturale e macchina percettiva. Il videogioco giapponese non racconta semplicemente il Giappone: lo comprime, lo trasforma e lo distribuisce globalmente sotto forma di esperienza interattiva.",
+  "object_types": {
+    "memory_compression_device": "videogioco come condensatore di immaginario collettivo",
+    "cultural_archive": "videogioco come archivio implicito della società giapponese",
+    "interactive_ritual": "atto del giocare come pratica culturale ripetuta",
+    "genre_ecosystem": "insieme di generi che evolvono come specie culturali",
+    "perceptual_machine": "sistema che produce stati emotivi e cognitivi"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "sala_giochi_origine",
+      "label_en": "arcade_origin",
+      "type": "interactive_ritual",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "dominant": true,
+      "basho": "la sala giochi come luogo di nascita della coscienza videoludica giapponese",
+      "kokyu": "ritmo della moneta, del tentativo e della ripetizione",
+      "yūgen": "un mondo sociale oggi quasi scomparso ma ancora presente in ogni design contemporaneo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la sala giochi come spazio fisico non si recupera: rimane come campo dell'origine che struttura tutto il sistema videoludico successivo"
+      },
+      "affects": {
+        "object-02": "l'arcade produce la grammatica Nintendo come estensione domestica del suo linguaggio"
+      },
+      "field_logic": "origin_field",
+      "textual_anchor_it": "assidui frequentatori di sale giochi e possessori di console dalla potenza di calcolo decisamente inferiore a quelle moderne.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "nintendo_grammatica",
+      "label_en": "nintendo_grammar",
+      "type": "cultural_archive",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "Nintendo come grammatica primaria del linguaggio videoludico giapponese",
+      "kokyu": "ogni generazione ridefinisce il lessico del medium",
+      "yūgen": "Mario, Zelda e Metroid sono più vicini ai miti che ai personaggi",
+      "affects": {
+        "object-03": "Nintendo stabilisce il linguaggio narrativo che il JRPG espanderà"
+      },
+      "field_logic": "language_field",
+      "textual_anchor_it": "dai più conosciuti classici Nintendo approdati in sala giochi negli anni '80 come Donkey Kong e Mario Bros.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "jrpg_memoria_narrativa",
+      "label_en": "jrpg_narrative_memory",
+      "type": "memory_compression_device",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "Dragon Quest e Final Fantasy come archivio delle forme narrative giapponesi",
+      "kokyu": "partenza, crescita, perdita, trasformazione",
+      "yūgen": "il giocatore ricorda eventi che non ha vissuto ma che percepisce come propri",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni JRPG porta il proprio campo narrativo come esperienza irripetibile: non si può rivivere la prima volta di Final Fantasy VII"
+      },
+      "affects": {
+        "object-04": "il JRPG produce il campo emotivo che il survival horror rovescerà in angoscia"
+      },
+      "field_logic": "narrative_memory_field",
+      "textual_anchor_it": "esponenti del sempre più famoso genere degli RPG di matrice nipponica, come Dragon Quest, Tales of, Final Fantasy e altri ancora.",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "angoscia_digitale",
+      "label_en": "digital_anxiety",
+      "type": "perceptual_machine",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "Silent Hill, Resident Evil, Metal Gear — il campo dell'angoscia come architettura spaziale",
+      "kokyu": "attesa, tensione, rilascio",
+      "yūgen": "il nemico reale non è il mostro ma l'incertezza: la nebbia come campo percettivo dell'ignoto",
+      "affects": {
+        "object-05": "il campo dell'angoscia contribuisce alla memoria collettiva come suo polo oscuro"
+      },
+      "field_logic": "anxiety_field",
+      "textual_anchor_it": "Silent Hill (1999), Resident Evil (1996), Metal Gear Solid (1998).",
+      "glossary_link": [
+        "yūgen",
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "pixel_memoria_collettiva",
+      "label_en": "pixel_collective_memory",
+      "type": "memory_compression_device",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "40 anni di cultura giapponese compressi in una timeline videoludica",
+      "kokyu": "1979 → 2024: ogni anno un titolo che produce un campo culturale specifico",
+      "yūgen": "ogni pixel contiene più storia culturale di quanto possa mostrare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la storia del videogioco giapponese continua ad espandersi oltre qualsiasi archivio"
+      },
+      "field_logic": "collective_memory_field",
+      "textual_anchor_it": "Una guida che traccia una timeline ideale che arriva fino ai giorni nostri, con una selezione di titoli giapponesi definibili essenziali.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-05",
+    "system_behavior": "80 videogiochi operano come nodi di una memoria culturale distribuita",
+    "game_count": 80,
+    "timeline": "1979 (Sheriff) — 2024 (Rise of the Ronin)",
+    "closure": false,
+    "closure_type": "open_historical_timeline",
+    "dentuto_note": "Andrea Yuu Dentuto — mangaka, unico straniero ad aver pubblicato manga originali di Lupin III sotto la direzione del Maestro Monkey Punch",
+    "catalog_connection": "Francesco Verni: postfazione de La Medusa e la Scimmia — stesso autore nel catalogo Peacock"
+  }
+}
