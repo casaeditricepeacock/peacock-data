@@ -1,0 +1,92 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Tante storie per pensare",
+    "author": "Giuliana Gabriella Corea",
+    "illustrator": "AnnaLaura Cantone",
+    "interview": "Dacia Maraini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-37-0",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Il libro non opera come raccolta di favole ma come dispositivo di riorganizzazione percettiva: la narrazione infantile viene usata come interfaccia per attivare pensiero critico, empatia e responsabilità etica senza separarli in livelli distinti ma facendoli coesistere nello stesso campo esperienziale.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_pensiero_operativo",
+      "type": "cognitive_field",
+      "basho": "la favola non trasmette contenuti ma genera uno spazio di problematizzazione continua in cui il bambino è chiamato a produrre interpretazione, non a riceverla",
+      "kokyu": "sequenza cognitiva non lineare: ascolto → sospensione → formulazione interna → discussione → rielaborazione collettiva",
+      "yūgen_level": 0.96,
+      "activation_condition": "attivazione della domanda implicita nel testo narrativo senza chiusura morale esplicita",
+      "persistence_rule": "il campo resta attivo come schema interpretativo anche fuori dal contesto del libro",
+      "dissolution_rule": "non si estingue, ma si generalizza ad altri testi narrativi",
+      "field_logic": "fable_as_cognitive_engine",
+      "textual_anchor_it": "il maestro non insegna pensieri, insegna a pensare — Immanuel Kant."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_empatia_decentrata",
+      "type": "residual_field",
+      "basho": "la prospettiva animale non funziona come tecnica narrativa ma come spostamento strutturale del centro percettivo umano verso una configurazione plurale",
+      "kokyu": "identificazione progressiva: osservazione → attraversamento percettivo → instabilità del punto di vista antropocentrico",
+      "yūgen_level": 0.97,
+      "activation_condition": "ingresso nel punto di vista animale come soggetto narrativo attivo",
+      "persistence_rule": "una volta attivato, il decentramento percettivo permane come abitudine cognitiva latente",
+      "dissolution_rule": "non reversibile a livello percettivo pieno",
+      "field_logic": "animal_perspective_as_decentering_mechanism",
+      "affects": {
+        "field-01": "la decentralizzazione percettiva modifica la struttura stessa del pensiero critico"
+      },
+      "textual_anchor_it": "il cane nel canile che non capisce perché non viene scelto."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_memoria_storica_adulta",
+      "type": "temporal_field",
+      "basho": "la testimonianza di Dacia Maraini introduce una discontinuità temporale: la memoria storica adulta interferisce con il campo infantile senza annullarlo",
+      "kokyu": "ritmo testimoniale: densità del vissuto → rallentamento narrativo → sospensione etica",
+      "yūgen_level": 0.95,
+      "activation_condition": "emersione del ricordo del campo di concentramento nel discorso sulla vita animale e la sopravvivenza",
+      "persistence_rule": "la memoria storica resta come strato non risolvibile del sistema narrativo",
+      "dissolution_rule": "non cancellabile né integrabile completamente nel registro infantile",
+      "field_logic": "adult_memory_as_intrusive_layer",
+      "textual_anchor_it": "nel campo di concentramento non c'erano né cani né gatti — Dacia Maraini."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_etico_operativo",
+      "type": "cognitive_field",
+      "basho": "l'azione etica non è derivazione della narrazione ma sua estensione strutturale nel mondo reale attraverso pratiche economiche e istituzionali",
+      "kokyu": "continuità causale: lettura → consapevolezza → decisione → trasferimento di valore nel mondo",
+      "yūgen_level": 0.94,
+      "activation_condition": "conoscenza esplicita della devoluzione del ricavato ad Animals Asia",
+      "persistence_rule": "il campo resta attivo indipendentemente dalla fruizione del libro",
+      "dissolution_rule": "non si chiude con la lettura ma con la continuità dell'azione nel tempo",
+      "field_logic": "narrative_as_real_world_intervention",
+      "textual_anchor_it": "l'intero ricavato di tutti i suoi libri sarebbe stato devoluto a favore di Animals Asia."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "system_behavior": "il libro non rappresenta valori ma li attiva come configurazioni percettive stabili che si propagano oltre la lettura",
+    "invalidated_elements": [
+      "child_as_recipient",
+      "story_as_moral_vehicle",
+      "animal_as_metaphor_only",
+      "charity_as_external_appendix"
+    ],
+    "stability": "high",
+    "closure": "open_loop_permanent_activation"
+  }
+}
