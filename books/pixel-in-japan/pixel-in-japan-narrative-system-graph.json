@@ -1,0 +1,208 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Pixel in Japan",
+    "subtitle": "i videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a layered cultural graph in which 80 Japanese videogames (1979–2024) function as perceptual operators. These operators do not represent history but activate overlapping cultural fields that remain simultaneously active across time.",
+  "node_classes": {
+    "scene": "temporal_cultural_field",
+    "object": "primary_cultural_operator",
+    "ritual": "behavioral_activation_pattern",
+    "transition": "threshold_between_cultural_regimes",
+    "silence": "latent_or_absent_cultural_field",
+    "weather": "aesthetic_atmospheric_modulation_layer",
+    "meta_state": "systemic_palimpsest_condition"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-05",
+    "system_shape": "distributed_cultural_palimpsest",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "arcade_origin_field",
+        "nodes": [
+          "object-05",
+          "scene-01",
+          "transition-01",
+          "silence-02"
+        ],
+        "type": "origin_loop",
+        "stability": "persistent",
+        "propagation_logic": "the arcade is not a historical phase but a foundational perceptual structure that remains active in all later forms of play",
+        "description": "The arcade establishes the basic grammar of interaction, failure, repetition, and public visibility that persists across all subsequent eras."
+      },
+      {
+        "id": "loop-02",
+        "label": "jrpg_expansion_loop",
+        "nodes": [
+          "object-03",
+          "scene-02",
+          "ritual-02",
+          "transition-02"
+        ],
+        "type": "narrative_expansion_loop",
+        "stability": "stable",
+        "propagation_logic": "JRPG systems convert videogame interaction into extended narrative architectures (Dragon Quest, Final Fantasy as structural prototypes)",
+        "description": "Narrative length becomes a cultural technology: time itself is reconfigured as playable structure."
+      },
+      {
+        "id": "loop-03",
+        "label": "horror_perceptual_loop",
+        "nodes": [
+          "object-04",
+          "scene-03",
+          "weather-03",
+          "transition-03"
+        ],
+        "type": "affective_horror_loop",
+        "stability": "stable",
+        "propagation_logic": "Survival horror generates perception through absence, ambiguity, and spatial limitation (Silent Hill as canonical model)",
+        "description": "Horror is produced not by content but by the structuring of visibility and uncertainty."
+      },
+      {
+        "id": "loop-04",
+        "label": "global_transmission_loop",
+        "nodes": [
+          "scene-04",
+          "transition-04",
+          "silence-04",
+          "object-05"
+        ],
+        "type": "cultural_diffusion_loop",
+        "stability": "persistent",
+        "propagation_logic": "Japanese videogames operate as vectors of cultural encoding that are absorbed without explicit recognition by global players",
+        "description": "Cultural transfer occurs at the level of mechanics, affect, and repetition rather than explicit representation."
+      },
+      {
+        "id": "loop-05",
+        "label": "nostalgic_stratification_loop",
+        "nodes": [
+          "weather-01",
+          "silence-02",
+          "ritual-05",
+          "scene-05"
+        ],
+        "type": "temporal_palimpsest_loop",
+        "stability": "recursive",
+        "propagation_logic": "nostalgia functions as an active structural layer rather than emotional residue",
+        "description": "Earlier eras remain operational within contemporary play as embedded perceptual strata."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-05",
+      "to": "all",
+      "effect": "pixel_as_distributed_cultural_protocol",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_eras_coexist_as_active_layers"
+    },
+    {
+      "from": "silence-04",
+      "to": "all",
+      "effect": "implicit_cultural_transmission_through_mechanics",
+      "propagation_mode": "structural",
+      "intensity": 0.95,
+      "stability_impact": "culture_is_absorbed_without_explicit_conceptualization"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "retroactive_activation_of_arcade_origin",
+      "propagation_mode": "temporal_fold",
+      "intensity": 0.88,
+      "stability_impact": "contemporary_titles_reactivate_foundational_structures"
+    },
+    {
+      "from": "object-03",
+      "to": "scene-04",
+      "effect": "jrpg_as_primary_export_grammar",
+      "propagation_mode": "systemic",
+      "intensity": 0.93,
+      "stability_impact": "narrative_complexity_enables_global_cultural_diffusion"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "active_cultural_palimpsest",
+    "allowed_mutations": [
+      "era_activation",
+      "nostalgia_strata_activation",
+      "mechanical_cultural_transfer_recognition",
+      "genre_emergence",
+      "affective_horror_activation"
+    ],
+    "forbidden_states": [
+      "videogame_as_entertainment_only",
+      "pixel_as_technical_deficiency",
+      "japan_as_export_origin_only",
+      "nostalgia_as_emotion_only",
+      "history_as_linear_progression"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-05",
+    "stability": "metastable_palimpsest",
+    "closure": false,
+    "closure_type": "recursive_game_over",
+    "system_behavior": "The 80 Japanese videogames form a distributed interpretive system: the reader does not reconstruct history but learns to navigate overlapping cultural fields.",
+    "readability": "high_across_local_and_global_layers",
+    "catalog_connection": {
+      "la_medusa_e_la_scimmia": "shared authorial system within Peacock ontology",
+      "la_singolarita_giappone": "parallel philosophical encoding of Japanese cultural fields",
+      "assolutamente_giappone": "adjacent cultural mapping of Japan across media systems"
+    }
+  }
+}
