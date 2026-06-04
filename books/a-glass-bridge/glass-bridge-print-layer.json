@@ -1,0 +1,102 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "editorial_purpose": {
+    "function": "the book is a dual-field artifact that sustains Murano and Kyoto as coexisting perceptual systems",
+    "constraint": "no translation hierarchy is allowed: EN and JA are co-equal activation layers of the same object"
+  },
+  "reading_principle": {
+    "rule_01": "EN and JA are parallel fields, not translations",
+    "rule_02": "photography is a third autonomous perceptual system, not illustration",
+    "rule_03": "technical sections require slowed perception to activate embodied knowledge traces",
+    "rule_04": "preface functions as entry into the field, not explanation of it",
+    "rule_05": "glossary is structural proof of irreducible dual naming"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "furnace_origin_field",
+      "note": "opening: the Murano furnace as the originary field — why the glass bridge begins here"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "kyoto_workshop_field",
+      "note": "migration: the Kyoto workshop as the second pole — the bridge made spatial"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "venice_encounter_field",
+      "note": "transmission: the Venice meeting as the scene where the field travels from maker to receiver"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "como_revelation_field",
+      "note": "revelation: Como as the space where distance enables perception of the bead's full field"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "body_necklace_field",
+      "note": "embodiment: the necklace worn as the most intimate form of the cultural encounter"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "page layout is a spatial field, not a translation structure",
+      "constraint": "EN and JA must maintain equal visual and semantic weight"
+    },
+    "kokyu": {
+      "rule": "reading alternates between narrative, technique, and image-based suspension",
+      "effect": "reader experiences craft as temporal modulation rather than linear story"
+    },
+    "yūgen": {
+      "rule": "photographs contain the irreducible remainder of the system",
+      "effect": "what cannot be said is displaced into visual density"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "structural presences not explicitly represented in text",
+    "contains": [
+      "embodied knowledge of glassmaking transmitted through gesture",
+      "interstitial EN–JA field that produces meaning without translation",
+      "historical fragility of Venetian beadmaking tradition",
+      "Kyoto as long-duration practice field (30+ years) embedded in objects"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "reader internalizes a dual spatial orientation (Murano / Kyoto)",
+    "perceptual_residue": "irreducible bead-object that resists classification",
+    "temporal_effect": "future encounters with glass reactivate the dual field automatically"
+  },
+  "meta_layer": {
+    "system_note": "bilingual EN+JA craft biography and technical guide — photographs by Berton, Perotta, Shino — presentation Augusto Panini",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "assolutamente_giappone": "same Japan field — cultural translation through craft and fashion",
+      "la_singolarita_giappone": "same Japan as irresolvable singularity — philosophical vs material register",
+      "luna_piena_sulla_citta_antica": "bilingual EN+JA vs IT+JA — different cultural mediations of the Japan field"
+    }
+  }
+}
