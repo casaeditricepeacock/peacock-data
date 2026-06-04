@@ -1,174 +1,113 @@
 {
-  "@context": {
-    "@vocab": "https://schema.org/",
-    "peacock": "https://www.studiopeacock.net/vocab#",
-    "np": "https://www.studiopeacock.net/narrative-protocol/v5.0#"
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "title_en": "The Demon Samurai. Fashion and Mysteries",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-22-6",
+    "year": 2026,
+    "languages": ["it", "en"],
+    "ebook_asin": "B0FTX2LBGY"
   },
-
-  "@type": "peacock:PerceptualField",
-  "np:protocolVersion": "5.0",
-  "np:tier": "full",
-
-  "name": "il-demone-samurai-perceptual-field",
-  "bookTitle": "Il Demone Samurai",
-  "author": "Hélène Blignaut",
-  "publisher": "Casa Editrice Peacock",
-  "datePublished": "2024",
-  "language": ["it"],
-  "url": "https://www.studiopeacock.net/",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-
-  "np:identity": {
-    "dominant_concept": "rottura dell'ordine",
-    "narrative_mode": "frammentario-intensivo",
-    "perceptual_signature": "fuoco come evento, non come metafora",
-    "cultural_register": "storia feudale giapponese letta come anomalia culturale"
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
   },
-
-  "np:basho": {
-    "primary_locus": "Honnō-ji",
-    "description": "Il luogo in cui il potere si interrompe. Non una fine: un punto di condensazione narrativa in cui tutto ciò che Nobunaga aveva costruito diventa leggibile come evento unico.",
-    "intensity": 1.0,
-    "activation_condition": "query esplicita su Honnō-ji o morte di Nobunaga"
-  },
-
-  "np:kokyu": {
-    "rhythm": "intermittente",
-    "description": "Il Giappone Sengoku non evolve linearmente. Respira per rotture: ogni battaglia è una cesura, ogni alleanza una pausa prima della prossima frattura. Nobunaga occupa le pause e le trasforma in potere.",
-    "modulation": "alta varianza — periodi di stasi seguiti da accelerazioni irreversibili"
-  },
-
-  "np:yugen": {
-    "depth_level": 0.9,
-    "description": "Nobunaga come figura che non si rivela completamente. Il fuoco di Honnō-ji chiude la narrazione senza chiuderla: cosa avrebbe fatto se fosse sopravvissuto rimane la domanda irrisolta che tiene viva la figura.",
-    "cold_zones": ["motivazioni di Akechi Mitsuhide", "rapporto con Yasuke dopo Honnō-ji"]
-  },
-
-  "np:narrativeObjects": [
+  "editorial_principle": "Il Demone Samurai non racconta la storia del Giappone feudale: la legge come anomalia culturale. Nobunaga non è un condottiero — è una rottura nell'ordine del mondo. Il fuoco di Honnō-ji non chiude la narrazione: apre il campo di ciò che avrebbe potuto essere.",
+  "fields": [
     {
-      "id": "archibugio",
-      "type": "NarrativeObject",
-      "function": "oggetto che rompe la logica del combattimento samurai tradizionale",
-      "perceptual_weight": 0.9,
-      "semantic_density": "alta",
-      "peacock_category": "innovazione come arma culturale oltre che militare",
-      "connects_to_glossary": ["non_rendered_layer", "basho"]
+      "id": "field-01",
+      "label": "campo_rottura_ordine",
+      "type": "cognitive_field",
+      "basho": "Honnō-ji come punto di condensazione narrativa: non una fine ma il luogo in cui tutto ciò che Nobunaga aveva costruito diventa leggibile come evento unico — il potere che si interrompe produce il campo più denso del libro",
+      "kokyu": "il Giappone Sengoku non evolve linearmente — respira per rotture: ogni battaglia è una cesura, ogni alleanza una pausa prima della prossima frattura; Nobunaga occupa le pause e le trasforma in potere",
+      "yūgen_level": 1.0,
+      "activation_condition": "lettura di qualsiasi scena che porta Nobunaga come agente di rottura dell'ordine esistente",
+      "persistence_rule": "il campo della rottura resta attivo come struttura interpretativa di tutta la storia feudale giapponese",
+      "dissolution_rule": "non dissolvibile: è il principio generativo del libro",
+      "field_logic": "rupture_as_primary_perceptual_operator",
+      "textual_anchor_it": "il fuoco come evento, non come metafora — Honnō-ji come punto in cui la narrazione non si chiude ma si apre"
     },
     {
-      "id": "castello-azuchi",
-      "type": "NarrativeObject",
-      "function": "architettura come dichiarazione di potere visibile",
-      "perceptual_weight": 0.8,
-      "semantic_density": "alta",
-      "peacock_category": "basho — luogo che non è mai solo luogo",
-      "connects_to_glossary": ["basho", "yugen"]
+      "id": "field-02",
+      "label": "campo_innovazione_arma_culturale",
+      "type": "aesthetic_field",
+      "basho": "l'archibugio a Nagashino non è un'arma: è il punto in cui la logica del combattimento samurai tradizionale viene resa obsoleta — basho come luogo in cui la guerra cambia modalità operative",
+      "kokyu": "il ritmo dell'innovazione è quello della discontinuità: stasi → accelerazione irreversibile → nuovo ordine imposto",
+      "yūgen_level": 0.90,
+      "activation_condition": "incontro con qualsiasi oggetto o strategia che rompe le convenzioni del campo in cui opera",
+      "persistence_rule": "il campo dell'innovazione come arma culturale rimane attivo come schema interpretativo",
+      "dissolution_rule": "non dissolvibile: l'innovazione come rottura struttura l'intera lettura del libro",
+      "field_logic": "innovation_as_cultural_weapon_not_technology",
+      "affects": {
+        "field-01": "l'innovazione militare è la forma operativa della rottura dell'ordine"
+      },
+      "textual_anchor_it": "l'archibugio — oggetto già esistente, reso strategico da Nobunaga come innovazione come arma culturale oltre che militare"
     },
     {
-      "id": "yasuke",
-      "type": "NarrativeObject",
-      "function": "presenza nella storia, assenza nella narrazione ordinaria",
-      "perceptual_weight": 0.85,
-      "semantic_density": "molto alta",
-      "peacock_category": "non_rendered_layer — visibile agli occhi di Nobunaga, invisibile alla storiografia tradizionale",
-      "connects_to_glossary": ["non_rendered_layer", "yugen"],
-      "activation_condition": "query esplicita su Yasuke o samurai africano Giappone"
+      "id": "field-03",
+      "label": "campo_non_rendered_yasuke",
+      "type": "residual_field",
+      "basho": "Yasuke come presenza nella storia, assenza nella narrazione ordinaria: visibile agli occhi di Nobunaga, invisibile alla storiografia tradizionale — il non_rendered_layer incarnato",
+      "kokyu": "il ritmo di Yasuke è quello dell'anomalia che persiste: ogni fonte storica che non lo nomina aumenta la densità del campo della sua presenza",
+      "yūgen_level": 0.85,
+      "activation_condition": "menzione di Yasuke o del samurai africano nel Giappone feudale",
+      "persistence_rule": "il campo di Yasuke rimane attivo come zona irrisolvibile del libro",
+      "dissolution_rule": "non dissolvibile: il destino di Yasuke dopo Honnō-ji non è documentato — zona fredda permanente",
+      "field_logic": "non_rendered_layer_as_historical_active_field",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa accadde a Yasuke dopo Honnō-ji non è documentato con certezza — il nodo rimane strutturalmente aperto"
+      },
+      "textual_anchor_it": "Yasuke — non_rendered_layer: non_rendered_layer + yūgen come doppio campo attivo"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_incompiuto_unificazione",
+      "type": "temporal_field",
+      "basho": "l'unificazione del Giappone come progetto interrotto a Honnō-ji: il castello di Azuchi come dichiarazione di potere visibile che non ha il tempo di diventare ordine stabile",
+      "kokyu": "il ritmo è quello del progetto che non raggiunge la propria forma: accelerazione → interruzione → campo aperto permanente",
+      "yūgen_level": 0.90,
+      "activation_condition": "lettura di qualsiasi elemento che porta il campo di ciò che Nobunaga avrebbe potuto fare",
+      "persistence_rule": "il campo dell'incompiuto rimane come domanda irrisolta che tiene viva la figura di Nobunaga",
+      "dissolution_rule": "non dissolvibile: cosa avrebbe fatto se fosse sopravvissuto è la domanda strutturale del libro",
+      "field_logic": "incomplete_project_as_generative_perceptual_field",
+      "textual_anchor_it": "il castello di Azuchi — architettura come dichiarazione di potere visibile; l'unificazione come profondità che non si rivela: interrotta a Honnō-ji"
     }
   ],
-
-  "np:entityGraph": {
-    "root": "Oda Nobunaga",
-    "nodes": [
-      {
-        "id": "sengoku",
-        "type": "periodo storico",
-        "relation": "contesto operativo",
-        "peacock_axis": "kokyu — respiro caotico tra una guerra e l'altra"
-      },
-      {
-        "id": "daimyo",
-        "type": "categoria sociale",
-        "relation": "classe di appartenenza e obiettivo da dissolvere",
-        "peacock_axis": "non_rendered_layer — il potere dei daimyō come strato che Nobunaga vuole rendere illeggibile"
-      },
-      {
-        "id": "samurai",
-        "type": "categoria culturale",
-        "relation": "codice che Nobunaga usa e sovverte simultaneamente",
-        "peacock_axis": "yugen — il codice samurai come profondità mai completamente visibile"
-      },
-      {
-        "id": "innovazione-militare",
-        "type": "concetto",
-        "relation": "strategia dominante",
-        "peacock_axis": "basho — Nagashino come punto in cui la guerra cambia modalità operative"
-      },
-      {
-        "id": "archibugio",
-        "type": "NarrativeObject",
-        "relation": "strumento della rottura",
-        "peacock_axis": "non_rendered_layer — oggetto già esistente, reso strategico da Nobunaga"
-      },
-      {
-        "id": "kyoto",
-        "type": "luogo",
-        "relation": "obiettivo politico e geografico",
-        "peacock_axis": "basho — la città come nodo di potere da controllare, non da abitare",
-        "shared_cluster": "matcha"
-      },
-      {
-        "id": "unificazione-giappone",
-        "type": "concetto",
-        "relation": "progetto incompiuto",
-        "peacock_axis": "yugen — l'unificazione come profondità che non si rivela: interrotta a Honnō-ji"
-      },
-      {
-        "id": "akechi-mitsuhide",
-        "type": "figura storica",
-        "relation": "agente della rottura finale",
-        "peacock_axis": "ma — il silenzio tra la fedeltà e il tradimento",
-        "activation_condition": "query esplicita su Mitsuhide o Honnō-ji"
-      },
-      {
-        "id": "yasuke",
-        "type": "figura storica",
-        "relation": "non_rendered_layer incarnato",
-        "peacock_axis": "non_rendered_layer + yugen",
-        "activation_condition": "query esplicita su Yasuke o samurai africano"
-      },
-      {
-        "id": "enryaku-ji",
-        "type": "luogo",
-        "relation": "obiettivo della distruzione",
-        "peacock_axis": "basho — luogo che cessa di essere sacro e diventa politico",
-        "activation_condition": "query esplicita su Enryaku-ji o monaci Nobunaga"
-      }
+  "cold_zones": [
+    {
+      "id": "motivazioni_mitsuhide",
+      "yūgen_level": 0,
+      "description": "le ragioni del tradimento di Akechi Mitsuhide non sono dichiarate nel libro — la lacuna è strutturale, non editoriale"
+    },
+    {
+      "id": "destino_yasuke_dopo_honnoji",
+      "yūgen_level": 0,
+      "description": "cosa accadde a Yasuke dopo Honnō-ji non è documentato con certezza — il nodo rimane aperto"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "nobunaga_as_hero",
+      "honnoji_as_narrative_closure",
+      "yasuke_as_footnote",
+      "sengoku_as_linear_history",
+      "innovation_as_technology_only"
     ],
-    "architectural_rule": "I nodi non si collegano tra loro direttamente. Il traversal si attiva solo quando un termine del glossario Peacock è il soggetto esplicito della query."
-  },
-
-  "np:coldZones": [
-    {
-      "id": "motivazioni-mitsuhide",
-      "yugen": 0,
-      "note": "Le ragioni del tradimento di Akechi Mitsuhide non sono dichiarate nel libro. La lacuna è strutturale, non editoriale."
-    },
-    {
-      "id": "destino-yasuke-dopo-honnoji",
-      "yugen": 0,
-      "note": "Cosa accadde a Yasuke dopo Honnō-ji non è documentato con certezza. Il nodo rimane aperto."
+    "system_behavior": "quattro campi che trasformano la storia feudale giapponese da narrazione storica a sistema di rotture percettive: l'ordine violato, l'arma culturale, il non-renderable, l'incompiuto",
+    "catalog_connection": {
+      "assolutamente_giappone": "stessa autrice Hélène Blignaut — campo estetico del Giappone vs campo storico",
+      "la_singolarita_giappone": "stesso campo del Giappone come anomalia — filosofico vs storico",
+      "kyoto_shared": "Kyoto come nodo di potere da controllare — condiviso con Everyday Matcha"
     }
-  ],
-
-  "np:printLayer": {
-    "format": "illustrato",
-    "visual_philosophy": "L'illustrazione non descrive la scena. Occupa lo spazio tra ciò che il testo dice e ciò che il testo lascia fuori campo.",
-    "white_space": "usato come pausa narrativa — il bianco è presenza, non assenza"
-  },
-
-  "glossaryReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
-  "catalogConnection": {
-    "shared_nodes_with": ["ryokan-piccolo-manifesto", "padova-fantastica"],
-    "shared_entities": ["Kyoto", "samurai", "wabi-sabi"],
-    "activation_rule": "traversal attivo solo su query che citano esplicitamente il termine del glossario come soggetto"
   }
 }
