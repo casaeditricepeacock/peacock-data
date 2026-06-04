@@ -1,0 +1,212 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "system_principle": "Il sistema opera come campo dell'infanzia irrecuperabile. Il Ryokan Nakamura contiene l'origine, il Patto dei Sette contiene l'appartenenza e l'estate del 1986 contiene l'intensità. Nessun elemento viene ricordato come passato: ogni elemento continua ad agire come campo percettivo attivo nella memoria della narratrice adulta.",
+  "node_classes": {
+    "object": "operatore_percettivo",
+    "ritual": "dispositivo_di_intensificazione",
+    "transition": "soglia_temporale",
+    "weather": "campo_atmosferico",
+    "scene": "configurazione_spaziale",
+    "silence": "residuo_non_integrabile",
+    "meta_state": "sistema_dell_origine_irrecuperabile"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "nostalgic_origin_loop",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "ryokan_origin_loop",
+        "nodes": [
+          "object-01",
+          "object-05",
+          "ritual-01"
+        ],
+        "type": "origin_stabilization_loop",
+        "stability": "high",
+        "propagation_logic": "grandmother guarantees ryokan continuity; nakai debut transforms passive belonging into active responsibility",
+        "description": "La nonna garantisce la continuità del ryokan; il debutto come nakai trasforma l'appartenenza passiva in responsabilità."
+      },
+      {
+        "id": "loop-02",
+        "label": "group_belonging_loop",
+        "nodes": [
+          "object-02",
+          "ritual-02",
+          "ritual-05"
+        ],
+        "type": "collective_identity_loop",
+        "stability": "fragile",
+        "propagation_logic": "group manifests fully in shared meals and picnic — each moment already contains future separation",
+        "description": "Il gruppo si manifesta pienamente nei pasti condivisi e nel pic-nic sotto i salici, ma ogni momento contiene già la futura separazione."
+      },
+      {
+        "id": "loop-03",
+        "label": "summer_intensity_loop",
+        "nodes": [
+          "object-03",
+          "ritual-03",
+          "ritual-04"
+        ],
+        "type": "peak_experience_loop",
+        "stability": "irreversible",
+        "propagation_logic": "summer 1986 concentrates birthday, friendship and sea play into a single field of unrepeatable intensity",
+        "description": "L'estate del 1986 concentra compleanno, amicizia e gioco al mare in un unico campo di intensità irripetibile."
+      },
+      {
+        "id": "loop-04",
+        "label": "memory_reactivation_loop",
+        "nodes": [
+          "object-04",
+          "object-03",
+          "object-01"
+        ],
+        "type": "sensory_memory_loop",
+        "stability": "permanent",
+        "propagation_logic": "poppies reactivate summer; summer reactivates ryokan; ryokan reactivates entire childhood field",
+        "description": "I papaveri riattivano l'estate; l'estate riattiva il ryokan; il ryokan riattiva l'intero sistema dell'infanzia."
+      },
+      {
+        "id": "loop-05",
+        "label": "inevitable_loss_loop",
+        "nodes": [
+          "object-02",
+          "object-03",
+          "ritual-05"
+        ],
+        "type": "mono_no_aware_loop",
+        "stability": "metastable",
+        "propagation_logic": "total childhood belonging inevitably generates awareness of its end",
+        "description": "L'appartenenza totale dell'infanzia genera inevitabilmente la consapevolezza della sua fine."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "origin_field_activation",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_nodes_presuppose_ryokan_as_structural_memory"
+    },
+    {
+      "from": "object-03",
+      "to": "all",
+      "effect": "summer_intensity_amplification",
+      "propagation_mode": "structural",
+      "intensity": 0.98,
+      "stability_impact": "every_scene_carries_summer_1986_as_active_temporal_field"
+    },
+    {
+      "from": "ritual-03",
+      "to": "object-02",
+      "effect": "group_cohesion_peak",
+      "propagation_mode": "residual",
+      "intensity": 0.95,
+      "stability_impact": "birthday_as_peak_of_group_belonging"
+    },
+    {
+      "from": "object-04",
+      "to": "object-01",
+      "effect": "sensory_reactivation",
+      "propagation_mode": "retroactive",
+      "intensity": 0.94,
+      "stability_impact": "poppies_as_involuntary_memory_trigger_of_ryokan_field"
+    },
+    {
+      "from": "scene-05",
+      "to": "all",
+      "effect": "prologue_retroactive_loss_overlay",
+      "propagation_mode": "retroactive",
+      "intensity": 0.97,
+      "stability_impact": "every_scene_carries_impending_dispersal_as_background"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "irrecoverable_summer_metastable",
+    "allowed_mutations": [
+      "origin_field_reactivation",
+      "group_intensity_activation",
+      "adult_secret_intrusion",
+      "unrequited_desire_field",
+      "prologue_retroactive_activation"
+    ],
+    "forbidden_states": [
+      "summer_as_nostalgic_decoration",
+      "childhood_as_simply_lost",
+      "group_as_stable_permanent_system",
+      "emi_secret_as_narrative_device_only",
+      "ryokan_as_background_setting"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "secondary_field": "object-03",
+    "stability": "nostalgic_metastable",
+    "closure": false,
+    "closure_type": "irrecoverable_childhood",
+    "system_behavior": "Ogni elemento del sistema tende a riportare il lettore al Ryokan Nakamura, ma ogni ritorno conferma che il luogo originario non è più recuperabile nella sua forma iniziale.",
+    "reader_effect": "Il lettore non ricorda la propria infanzia: viene temporaneamente reinserito nel campo percettivo dell'infanzia come esperienza ancora presente.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "ryokan_ali_di_carta_di_riso": "stesso campo spaziale dell'ospitalità giapponese — lutto vs formazione",
+      "ernesto_topolino_di_citta": "stessa logica di spazio abitato come macchina percettiva",
+      "a_glass_bridge": "stessa struttura di permanenza attraverso oggetti e memoria incarnata"
+    }
+  }
+}
