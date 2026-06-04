@@ -1,0 +1,165 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "ritual_types": {
+    "furnace_ritual": "body enters thermal field; technique becomes physiological adaptation",
+    "apprenticeship": "knowledge transmitted through spatial co-presence with master",
+    "bilateral_making": "same technique displaced into a second cultural field",
+    "gift_of_glass": "compressed transmission of entire system through object transfer",
+    "slow_observation": "decompression of meaning through temporal attention"
+  },
+  "editorial_principle": "The ritual system does not describe craft: it transmits embodied thresholds. Each gesture is a passage between Murano and Kyoto, where technique becomes environment rather than skill. The bead is not product but residue of transition.",
+  "editorial_principle_ja": "この儀式体系は技法を説明しない。身体化された閾を伝達する。ムラノと京都のあいだで、技術は技能ではなく環境になる。ビーズは製品ではなく遷移の残余である。",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "lavoro_alla_fornace",
+      "label_en": "furnace_work",
+      "label_ja": "炉での作業",
+      "type": "furnace_ritual",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "The furnace is a thermal field that replaces environment: body and fire form a single operative system in which glass exists only in transformation.",
+      "kokyu": "Respiration aligns with heat cycles; gesture is synchronized with viscosity thresholds of molten matter.",
+      "yūgen": "Every intervention is irreversible: once cooled, transformation becomes historical trace, not reversible process.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Thermal knowledge cannot be abstracted from bodily exposure."
+      },
+      "affects": {
+        "ritual-02": "establishes initiation condition for apprenticeship field"
+      },
+      "textual_anchor_en": "Feel the heat of the flames, the joy of shaping molten glass.",
+      "textual_anchor_ja": "炎の熱を感じ、溶けたガラスを形作る喜びを味わう。",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "apprendistato_murano",
+      "label_en": "murano_apprenticeship",
+      "label_ja": "ムラノでの修業",
+      "type": "apprenticeship",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "Apprenticeship is spatial absorption into the master's operational field; learning occurs through proximity, not instruction.",
+      "kokyu": "Repetition compresses time: gesture becomes memory through failure cycles.",
+      "yūgen": "Early entry into furnace culture removes separation between learning and survival of technique.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Technique cannot be separated from the historical body that acquired it."
+      },
+      "affects": {
+        "ritual-03": "enables displacement of technique into Kyoto field"
+      },
+      "textual_anchor_en": "From an apprenticeship in Murano as a child to the challenges of creating unique, one-of-a-kind works.",
+      "textual_anchor_ja": "幼少期のムラノでの修業から、唯一無二の作品を生み出す挑戦まで。",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "fare_a_kyoto",
+      "label_en": "kyoto_making",
+      "label_ja": "京都での制作",
+      "type": "bilateral_making",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "Kyoto is not relocation but reframing: Venetian technique persists inside a contrasting temporal ecology.",
+      "kokyu": "Slow artisanal time modulates the same gestures into different outputs.",
+      "yūgen": "Coexistence of two craft ontologies without fusion or resolution.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "The object remains undecidable between Venetian origin and Kyoto production field."
+      },
+      "affects": {
+        "ritual-04": "object becomes transmissible gift rather than product"
+      },
+      "textual_anchor_en": "a master trained in Venice who had been living and working in Kyoto for over thirty years.",
+      "textual_anchor_ja": "ヴェネツィアで修行を積み、30年以上京都で制作を続ける職人。",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "dono_del_vetro",
+      "label_en": "gift_of_glass",
+      "label_ja": "ガラスの贈り物",
+      "type": "gift_of_glass",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "The bead functions as condensed system transfer: technique, geography, and memory are embedded in a single object.",
+      "kokyu": "Gesture of giving compresses production history into instantaneous transfer.",
+      "yūgen": "Understanding of the object is delayed; meaning unfolds after possession.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Gift cannot be fully interpreted at moment of reception."
+      },
+      "affects": {
+        "ritual-05": "activates deferred perception field"
+      },
+      "textual_anchor_en": "I met Maurizio Lotter last year in Venice. We talked, and he gave me some of his glass beads.",
+      "textual_anchor_ja": "私は昨年ヴェネツィアでマウリツィオ・ロッテル氏と出会いました。彼は自身のガラスビーズをいくつか私に贈ってくれました。",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "osservazione_lenta",
+      "label_en": "slow_observation",
+      "label_ja": "ゆっくりとした観察",
+      "type": "bead_observation",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "Observation is the final activation layer: the object becomes legible only under prolonged attention.",
+      "kokyu": "Attention decelerates perception until micro-structures emerge (foil, patterns, inclusions).",
+      "yūgen": "Final detail (insect-like motif) destabilizes total perception of the object.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Full comprehension is never completed; perception remains open."
+      },
+      "textual_anchor_en": "She took the beads, observed them closely, and, selecting one, said they were truly fascinating.",
+      "textual_anchor_ja": "彼女はビーズを手に取りじっくり観察すると、一つを選び、「これは本当に魅力的ね」と言いました。",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "narrative_model": "five-stage transmission system: furnace → apprenticeship → displacement → gift → delayed perception",
+    "bilingual_structure": "EN/JA synchronized fields without duplication of meaning",
+    "system_state": "stable_threshold_network",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
