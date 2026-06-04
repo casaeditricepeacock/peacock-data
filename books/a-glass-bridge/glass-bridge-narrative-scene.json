@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "system_axis": {
+    "primary_tension": "tradition_vs_continuation",
+    "temporal_axis": "apprenticeship_to_present_as_living_chain",
+    "narrative_logic": "each scene is a spatial threshold: furnace, workshop, city, bead, necklace — five configurations of the same encounter between two traditions"
+  },
+  "editorial_principle": "The scenes are not narrative segments but spatial thresholds. Each location is not a place but a condition of perception in which Murano and Kyoto coexist without synthesis.",
+  "scene_types": {
+    "furnace_field": "originary thermal field of glass transformation",
+    "workshop_field": "operative field of transmission and practice",
+    "city_field": "urban field of cultural exchange and encounter",
+    "bead_field": "compressed perceptual object-field",
+    "body_field": "final integration field where object becomes lived experience"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "fornace_murano",
+      "type": "furnace_field",
+      "dominant": true,
+      "basho": "the Murano furnace is not origin in a linear sense but permanent active condition: every later scene presupposes this thermal field as structural memory",
+      "kokyu": "the rhythm is irreversible thermodynamics: heating, shaping, cooling — the moment passes and cannot be repeated",
+      "yūgen": "Murano fire as the latent horizon of all glass culture in the book — always present even when absent",
+      "affects": {
+        "scene-02": "thermal origin enables displacement into Kyoto without loss of technique"
+      },
+      "textual_anchor_en": "From the blazing furnaces of Murano",
+      "textual_anchor_ja": "ムラノの燃えさかる炉から",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "laboratorio_kyoto",
+      "type": "workshop_field",
+      "basho": "Kyoto is not translation of Murano but a parallel operational field where the same technique produces different temporal behavior",
+      "kokyu": "the rhythm is decelerated craft temporality: repetition becomes meditation, precision becomes silence",
+      "yūgen": "Kyoto as structural counter-field: not opposition but coexistence with Murano across distance",
+      "affects": {
+        "scene-03": "Kyoto field enables displacement of object into circulation (gift event)"
+      },
+      "textual_anchor_en": "to the serene workshops of Kyoto",
+      "textual_anchor_ja": "京都の静寂な工房へ",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "venezia_incontro",
+      "type": "city_field",
+      "basho": "Venice is a circulation field where objects detach from production and enter social transmission — the bead becomes communicable form",
+      "kokyu": "encounter rhythm is discontinuous: speech → gesture → transfer → interruption → pocketing",
+      "yūgen": "the gift exists as unprocessed perception: its meaning is delayed and migrates into another time",
+      "affects": {
+        "scene-04": "delayed perception activates domestic field of recognition"
+      },
+      "textual_anchor_en": "I met Maurizio Lotter last year in Venice.",
+      "textual_anchor_ja": "私は昨年ヴェネツィアでマウリツィオ・ロッテル氏と出会いました。",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "como_rivelazione",
+      "type": "bead_field",
+      "basho": "Como is not geographical return but perceptual deceleration field where object becomes readable for the first time",
+      "kokyu": "revelation rhythm is delay-based cognition: distance produces clarity, immediacy produces opacity",
+      "yūgen": "the bead reveals itself through attention rather than description — especially in the gesture of immediate bodily attraction",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "the instant desire to wear the bead cannot be translated into interpretation — it is direct field activation"
+      },
+      "affects": {
+        "scene-05": "perceptual recognition activates embodiment of the object"
+      },
+      "textual_anchor_en": "Back in Como, while recounting the highlights of my Venetian stay, I remembered the gift.",
+      "textual_anchor_ja": "コモに戻り、ヴェネツィア滞在の思い出を語っていると、彼からの贈り物を思い出しました。",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "collana_corpo",
+      "type": "body_field",
+      "basho": "the body is the final field: the bead ceases to be object and becomes perceptual extension of the wearer across multiple geographies simultaneously",
+      "kokyu": "wearing rhythm is continuous presence: no beginning or end, only sustained contact between skin and cultural memory",
+      "yūgen": "the necklace is not worn object but distributed field of Murano-Kyoto condensed into corporeal continuity",
+      "affects": {
+        "scene-01": "embodiment retroactively activates furnace as lived memory rather than origin"
+      },
+      "textual_anchor_en": "She wished to wear it immediately and asked me to thread it onto one of her necklaces.",
+      "textual_anchor_ja": "彼女はすぐに身につけたかったので、ネックレスに通してほしいと私に頼みました。",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "system_state": "bivalent_perceptual_chain_murano_kyoto",
+    "narrative_model": "five irreversible spatial thresholds forming a single distributed perception system",
+    "retroactive_causality": true,
+    "global_effect": "all scenes function as a single coupled perceptual system rather than linear progression"
+  }
+}
