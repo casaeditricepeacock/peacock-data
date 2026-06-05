@@ -1,0 +1,207 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a lunar grief field in which 25 tanka function as perceptual anchors across the sacred landscape of Yamato province. The moon is the invariant connector; the absent person is the structural void that every tanka circles without resolving. Ma is the excess that prevents closure.",
+  "node_classes": {
+    "scene": "emotional_field_configuration",
+    "object": "compression_operator",
+    "ritual": "condensation_device",
+    "transition": "threshold_between_presence_and_absence",
+    "silence": "ma_structural_field",
+    "weather": "emotional_climate_operator",
+    "meta_state": "system_wide_lunar_connector"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-04",
+    "system_shape": "lunar_grief_field_network",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "luna_connessione_universale",
+        "nodes": [
+          "object-04",
+          "scene-04",
+          "weather-02",
+          "silence-04"
+        ],
+        "type": "lunar_connector_loop",
+        "stability": "permanent_invariant",
+        "propagation_logic": "The moon functions as a non-local connector: all separated subjects — the living and the dead, the one who stayed and the one who left — are simultaneously co-present under the same lunar field.",
+        "description": "All absences (beloved in paradise, departed for distant city, dead irrecoverable) are unified through a single invariant perceptual field."
+      },
+      {
+        "id": "loop-02",
+        "label": "lutto_attesa_impossibile",
+        "nodes": [
+          "scene-01",
+          "object-05",
+          "ritual-05",
+          "silence-02"
+        ],
+        "type": "mourning_waiting_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "Mourning is encoded as continuous waiting toward an absent person who cannot return. The system does not resolve the grief; it stabilizes it as a permanent open field.",
+        "description": "The system does not resolve mourning: it stabilizes it as a structural condition of the field."
+      },
+      {
+        "id": "loop-03",
+        "label": "tanka_compressione_emotiva",
+        "nodes": [
+          "object-01",
+          "ritual-01",
+          "transition-01",
+          "scene-01"
+        ],
+        "type": "emotional_compression_loop",
+        "stability": "stable",
+        "propagation_logic": "31 syllables function as a compression engine for emotional simultaneity: grief, love, waiting and impermanence coexist without resolution.",
+        "description": "Emotional states are not sequenced but superposed within a single perceptual density."
+      },
+      {
+        "id": "loop-04",
+        "label": "calligrafia_campo_visivo",
+        "nodes": [
+          "object-02",
+          "ritual-02",
+          "print-03"
+        ],
+        "type": "calligraphic_field_loop",
+        "stability": "permanent",
+        "propagation_logic": "Calligraphy operates as a parallel perceptual system preceding semantic reading. The brushstroke is embodied time rather than representation.",
+        "description": "The visual field precedes and exceeds the textual field in every spread."
+      },
+      {
+        "id": "loop-05",
+        "label": "luoghi_yamato_memoria",
+        "nodes": [
+          "object-03",
+          "ritual-03",
+          "transition-04",
+          "weather-03"
+        ],
+        "type": "sacred_place_memory_loop",
+        "stability": "cyclic",
+        "propagation_logic": "Sacred places of Yamato encode emotional memory rather than geographic description. Each place name carries its history as perceptual weight.",
+        "description": "The landscape functions as stratified emotional archive across more than a thousand years."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-04",
+      "to": "all",
+      "effect": "lunar_field_as_universal_connector",
+      "propagation_mode": "non_local",
+      "intensity": 1.0,
+      "stability_impact": "all_absences_copresent_under_moon"
+    },
+    {
+      "from": "silence-01",
+      "to": "all",
+      "effect": "ma_as_structural_excess",
+      "propagation_mode": "structural",
+      "intensity": 0.97,
+      "stability_impact": "meaning_exceeds_expression"
+    },
+    {
+      "from": "object-02",
+      "to": "object-01",
+      "effect": "calligraphy_precedes_and_amplifies_compression_field",
+      "propagation_mode": "parallel",
+      "intensity": 0.95,
+      "stability_impact": "visual_precedes_text"
+    },
+    {
+      "from": "scene-05",
+      "to": "scene-01",
+      "effect": "aging_wisdom_retroactive_reframing_of_grief",
+      "propagation_mode": "retroactive",
+      "intensity": 0.87,
+      "stability_impact": "grief_was_already_wisdom"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "lunar_field_metastable",
+    "allowed_mutations": [
+      "grief_field_opening",
+      "lunar_connection_activation",
+      "place_memory_reactivation",
+      "seasonal_cycle_reactivation",
+      "calligraphic_field_activation"
+    ],
+    "forbidden_states": [
+      "tanka_as_literary_object",
+      "grief_resolved",
+      "absence_as_void",
+      "nature_as_background",
+      "calligraphy_as_decoration",
+      "yamato_as_tourist_scenery"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-04",
+    "stability": "lunar_metastable",
+    "closure": false,
+    "closure_type": "irrecoverable_beloved_permanent_open",
+    "system_behavior": "The 25 tanka operate as a distributed perceptual network in which lunar invariance binds all separations — death, distance, time — into a single co-present field of absence.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "luna_piena_sulla_citta_antica": "sister book — same formal system (Tanka series), same calligraphic layer, different basho (Kyoto vs Yamato), different dominant emotion (historical compression vs grief)",
+      "ryokan_ali_di_carta_di_riso": "shared field of Japanese contemplative experience and impermanence",
+      "assolutamente_giappone": "shared cultural-perceptual Japan field"
+    }
+  }
+}
