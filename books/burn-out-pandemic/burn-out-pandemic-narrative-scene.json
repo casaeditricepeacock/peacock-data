@@ -1,0 +1,64 @@
+{
+  "version": "4.1",
+  "name": "narrative-scene",
+  "ontology": "strict_perceptual_4_1",
+  "book": "burn-out-pandemic",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "act": "I",
+      "location": "Caffetteria_chiusa_Umeda_Osaka",
+      "year": 2020,
+      "characters": ["Darma", "Kate", "Uomo_Volpe_voce"],
+      "core_exchange": "354esima variante — cosa manca — il sorriso della gente",
+      "structural_function": "installazione_del_campo_di_privazione",
+      "cold_zones": ["identità_dell_uomo_volpe", "scopo_reale_dei_file_registrati"]
+    },
+    {
+      "id": "scene-02",
+      "act": "I_bis",
+      "location": "Stessa_caffetteria_giorno_dopo",
+      "year": 2020,
+      "characters": ["Darma", "Kate"],
+      "core_exchange": "codici_flyfox — prenotazione_Giacarta — energy_drink_150yen",
+      "structural_function": "innesco_della_fuga — Kate_acconsente_troppo_facilmente"
+    },
+    {
+      "id": "scene-03",
+      "act": "II",
+      "location": "Hotel_chiuso_Giacarta",
+      "year": 2020,
+      "characters": ["Darma", "Uomo_Volpe_voce"],
+      "core_exchange": "metro_Dukuh_Atas — media_al_servizio_del_controllo",
+      "structural_function": "rivelazione_del_meccanismo_di_propaganda",
+      "cold_zones": ["chi_finanzia_i_media", "potere_reale_dietro_l_uomo_volpe"]
+    },
+    {
+      "id": "scene-04",
+      "act": "II_bis_tris",
+      "location": "Hotel_chiuso_Giacarta",
+      "year": 2020,
+      "characters": ["Darma", "Kate"],
+      "core_exchange": "Sekala_Niskala — chef_fallito — fuga_verso_Italia",
+      "structural_function": "Kate_comprende_il_meccanismo_e_propone_la_fuga"
+    },
+    {
+      "id": "scene-05",
+      "act": "III",
+      "location": "Teatro_in_disuso_Italia",
+      "year": 2020,
+      "characters": ["Darma", "Kate"],
+      "core_exchange": "glamping_lodge — libreria_umana — teatro_bianco_pieno_di_gente",
+      "structural_function": "utopia_della_libertà — ancora_dentro_il_sogno"
+    },
+    {
+      "id": "scene-06",
+      "act": "IV",
+      "location": "Letto_matrimoniale",
+      "year": 2020,
+      "characters": ["Kate", "Steve"],
+      "core_exchange": "risveglio — sogno_senza_parole — voglio_essere_libera",
+      "structural_function": "collasso_dell_intera_narrativa_in_un_risveglio"
+    }
+  ]
+}
