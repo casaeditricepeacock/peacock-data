@@ -1,0 +1,116 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "transition_types": {
+    "childhood_to_awareness": "il momento in cui il campo dell'infanzia si incrina con la prima consapevolezza adulta",
+    "innocence_to_secret": "il passaggio dalla superficie estiva al campo del segreto adulto",
+    "summer_to_memory": "la transizione dall'estate vissuta all'estate ricordata",
+    "arrival_to_belonging": "il passaggio dall'essere ospite all'essere custode del ryokan",
+    "group_to_dispersal": "la dissoluzione del patto dei sette nel tempo"
+  },
+  "editorial_principle": "Le transizioni nella Locanda Nakamura sono sempre transizioni verso la consapevolezza che qualcosa finirà. L'infanzia non finisce in un momento: si incrina attraverso segreti, confidenze, amori non corrisposti — e poi l'estate è già passata.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "infanzia_consapevolezza",
+      "label_en": "childhood_to_awareness",
+      "type": "childhood_to_awareness",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il quattordicesimo compleanno come soglia: Taeko si guarda allo specchio e intravede qualcosa di diverso — il campo dell'infanzia che inizia a cedere",
+      "kokyu": "il ritmo della transizione è quello dell'accumulo: ogni evento del giorno del compleanno aggiunge un strato di consapevolezza alla bambina",
+      "yūgen": "Due giorni dopo compii quattordici anni, che nella mia testa era una tappa importante — il campo della soglia come campo del desiderio di crescere che non sa ancora il costo",
+      "affects": {
+        "transition-02": "la consapevolezza dell'infanzia produce l'apertura al segreto adulto"
+      },
+      "textual_anchor_it": "Due giorni dopo compii quattordici anni, che nella mia testa era una tappa importante. Quando mi svegliai mi sentii grande.",
+      "glossary_link": ["basho", "mono no aware", "kokyu"]
+    },
+    {
+      "id": "transition-02",
+      "label": "innocenza_segreto",
+      "label_en": "innocence_to_secret",
+      "type": "innocence_to_secret",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la confidenza di Emi sulla figlia data in adozione: il campo del segreto adulto che irrompe nel campo dell'infanzia di Taeko — mi si gelò il sangue",
+      "kokyu": "il ritmo è quello dello shock gentile: l'estate serena che improvvisamente porta un campo di dolore che appartiene a un altro tempo",
+      "yūgen": "Mia figlia ha tredici anni e vivrebbe con me, se non l'avessi data in adozione — il campo del dolore adulto che attraversa il campo dell'infanzia senza distruggerlo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il segreto di Emi rimane come campo attivo: Taeko non può fare nulla con questa conoscenza — può solo portarla"
+      },
+      "affects": {
+        "transition-03": "il segreto adulto produce la distanza tra l'estate vissuta e l'estate ricordata"
+      },
+      "textual_anchor_it": "Avevo la tua età quando l'ho avuta. Mio padre mi avrebbe ripudiata se l'avessi tenuta. Separarmi da lei è stata la cosa più difficile della mia vita.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "transition-03",
+      "label": "estate_memoria",
+      "label_en": "summer_to_memory",
+      "type": "summer_to_memory",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la transizione dall'estate del 1986 alla narratrice adulta che la ricorda: il campo del tempo che separa l'intensità dalla sua replica memoriale",
+      "kokyu": "il ritmo è quello del prologo: la narratrice adulta a Nagasaki che ricorda l'infanzia — il presente che guarda il passato come campo irrecuperabile",
+      "yūgen": "i miei nonni conducevano una locanda perimetrata da cespugli di papaveri rossi in cui ruotava una serie di personaggi che ora sono andati chissà dove — il campo della dispersione come struttura del ricordo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'estate del 1986 non si recupera: la narratrice adulta porta il campo come calore che non si traduce in ritorno"
+      },
+      "textual_anchor_it": "Non avrei più avuto la possibilità di vivere in un mondo spensierato e felice con quelle persone, e tal pensiero mi bagnò il volto di lacrime.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    },
+    {
+      "id": "transition-04",
+      "label": "ospite_custode",
+      "label_en": "guest_to_keeper",
+      "type": "arrival_to_belonging",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il passaggio da bambina che gira per le stanze a nakai che si prende cura degli ospiti: il campo dell'appartenenza che cambia registro",
+      "kokyu": "il ritmo è quello dell'apprendistato: osservare Kaori, imitarne la grazia, sbagliare con timidezza — il corpo che impara a servire come forma di amore",
+      "yūgen": "camminai a passettini dentro al mio yukata nuovo e scesi in cucina riferendo per filo e per segno tutto alla nonna — il campo del debutto come campo del futuro che non sa ancora di essere limitato",
+      "textual_anchor_it": "Taeko potrebbe proprio diventare una vera nakai — commentò la nonna.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "transition-05",
+      "label": "gruppo_dispersione",
+      "label_en": "group_to_dispersal",
+      "type": "group_to_dispersal",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il patto dei sette come campo destinato alla dispersione: la narratrice adulta sa già, nel prologo, che quei personaggi sono andati chissà dove",
+      "kokyu": "il ritmo è quello della fine annunciata ma non dichiarata: il gruppo vive l'estate come se fosse eterna ma il prologo ha già rivelato la fine",
+      "yūgen": "una serie di personaggi che ora sono andati chissà dove — il campo della dispersione che la narratrice porta come peso mentre racconta il campo dell'origine",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i sette dispersi non tornano: il campo del gruppo sopravvive solo nella memoria della narratrice"
+      },
+      "textual_anchor_it": "una serie di personaggi che ora sono andati chissà dove.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-03",
+    "narrative_model": "cinque soglie che trasformano l'estate in campo della perdita: consapevolezza, segreto, memoria, appartenenza, dispersione",
+    "stability": "high",
+    "closure": "memoria_come_campo_aperto",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
