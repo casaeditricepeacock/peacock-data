@@ -1,0 +1,99 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025,
+    "edition": "Limited — 300 copie, fotografia applicata a mano in copertina"
+  },
+  "editorial_purpose": {
+    "function": "attivare il campo dell'estate 1986 come sistema dell'irrecuperabile: il ryokan come origine, il gruppo come totalità temporanea, il prologo come campo della perdita consapevole",
+    "constraint": "il libro non è un romanzo di nostalgia: porta la perdita come campo attivo senza dichiarare la perdita — il lettore deve trovarla da solo"
+  },
+  "reading_principle": {
+    "rule_01": "il prologo va letto come campo della fine che retroagisce su tutto: ogni scena successiva porta già la perdita come strato attivo",
+    "rule_02": "i sette amici non sono personaggi: sono il campo del gruppo come totalità temporanea — la struttura che non sopravvive al tempo",
+    "rule_03": "il glossario giapponese non è un'appendice: è il campo culturale che dà densità al mondo del ryokan",
+    "rule_04": "la confidenza di Emi è il punto in cui il campo adulto irrompe nel campo infantile — va letto come trauma gentile",
+    "rule_05": "irrimediabilmente felice: l'avverbio è il campo di tutto il libro — la felicità che porta già la propria fine"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-05",
+      "print_function": "prologo_loss_field",
+      "note": "il prologo come campo della perdita consapevole — la narratrice adulta che sa già"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-01",
+      "print_function": "kitchen_origin_field",
+      "note": "la cucina di Saki come campo del calore e dell'abbondanza — il ryokan che funziona"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "sea_intensity_field",
+      "note": "il mare come campo dell'intensità pura — il corpo che esiste senza pensiero"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-02",
+      "print_function": "birthday_celebration_field",
+      "note": "il compleanno come campo della totalità — tutti insieme per Taeko"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-04",
+      "print_function": "night_perfect_field",
+      "note": "la notte perfetta come campo della felicità irrimediabile"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni spazio del libro porta il campo del ryokan come struttura di fondo — anche fuori dal ryokan si è ancora nel suo campo",
+      "constraint": "il prologo è già la fine: il lettore entra nel libro sapendo che quei personaggi sono andati chissà dove"
+    },
+    "kokyu": {
+      "rule": "il ritmo alterna scene corali e momenti intimi — il gruppo e il singolo come campi complementari",
+      "effect": "il lettore sperimenta sia il campo della totalità che il campo della solitudine nel gruppo"
+    },
+    "yūgen": {
+      "rule": "il campo non dichiarato è la fine: il libro non dice addio perché l'estate non dice addio — finisce e basta",
+      "effect": "il lettore porta la fine come campo aperto — il libro si chiude ma il campo rimane"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "campi attivi non esplicitati nella superficie narrativa",
+    "contains": [
+      "il destino dei sette dopo l'estate — campo strutturalmente aperto",
+      "la figlia di Emi (Aika) che non viene mai ritrovata",
+      "il silenzio di Kyosuke come campo del desiderio non corrisposto",
+      "la fine dell'estate non dichiarata come campo della perdita senza addio"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "il lettore porta il campo dell'estate 1986 come campo dell'irrecuperabile — non tristezza ma calore residuo",
+    "perceptual_residue": "irrimediabilmente felice: l'avverbio che non smette di lavorare dopo la lettura",
+    "temporal_effect": "ogni estate successiva riattiva il campo del ryokan come campo dell'origine irrecuperabile"
+  },
+  "meta_layer": {
+    "system_note": "primo romanzo della collana Romanzo pop — edizione limitata 300 copie con fotografia applicata a mano in copertina; glossario giapponese 50+ termini; ambientazione Ryokan Nakamura, baia di Omura, Nagasaki, estate 1986",
+    "stability": "high",
+    "risk": "low",
+    "obsolescence": "non-structural",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1",
+    "catalog_connection": {
+      "ryokan_ali_di_carta_di_riso": "stesso campo del ryokan come origine irrecuperabile — lutto vs infanzia",
+      "ryokan_piccolo_manifesto": "stesso campo del ryokan come spazio percettivo giapponese",
+      "luna_piena_sulla_citta_antica": "stesso campo della perdita come struttura permanente non risolvibile"
+    }
+  }
+}
