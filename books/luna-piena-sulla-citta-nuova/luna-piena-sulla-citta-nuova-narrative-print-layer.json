@@ -1,0 +1,102 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "print_identity": "oggetto artigianale — la materialità è parte costitutiva del campo percettivo",
+  "print_types": {
+    "handmade_cover": "copertina con fotografia applicata a mano — ogni copia è unica nel gesto",
+    "calligraphic_spread": "spread calligrafia + tanka + commento come unità percettiva autonoma",
+    "interlingual_layout": "struttura bilingue JA+IT come corpo tipografico del campo percettivo",
+    "map_insert": "mappa storica di Yamato come ancoraggio geografico dei luoghi poetici"
+  },
+  "editorial_principle": "Il libro come oggetto fisico porta lo stesso campo percettivo del tanka: la fotografia applicata a mano in copertina è già un gesto irripetibile. La carta usomano avoriata assorbe l'inchiostro senza saturarlo. Ogni spread è un'unità autonoma che può essere il punto di ingresso nella raccolta.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "copertina_artigianale",
+      "label_en": "handmade_cover",
+      "type": "handmade_cover",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la copertina è già un gesto — acquarello bianco con fotografia applicata a mano: il libro inizia prima di essere aperto",
+      "kokyu": "ogni copia porta il ritmo della mano che ha applicato la fotografia: la produzione è già performance",
+      "yūgen": "la fotografia applicata a mano introduce una variazione minima tra una copia e l'altra: unicità nel seriale",
+      "textual_anchor_it": "Copertina: acquarello bianco. Foto applicata a mano in copertina.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "print-02",
+      "label": "carta_usomano",
+      "label_en": "usomano_paper",
+      "type": "calligraphic_spread",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "la carta avoriata come campo tattile e visivo: la grana della carta è la superficie su cui il gesto calligrafico lascia il segno",
+      "kokyu": "il ritmo della carta: leggera, traslucente, calda — assorbe l'inchiostro senza saturarlo, come il tanka assorbe l'emozione senza esaurirla",
+      "yūgen": "la carta non è neutrale: porta un colore e una texture che modificano il campo percettivo della calligrafia",
+      "textual_anchor_it": "Carta interno: usomano avoriata.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "print-03",
+      "label": "spread_calligrafia_tanka",
+      "label_en": "calligraphy_tanka_spread",
+      "type": "calligraphic_spread",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "ogni spread è un'unità percettiva completa e autonoma: calligrafia + tanka JA con furigana + commento IT in prosa",
+      "kokyu": "il ritmo visivo-testuale dello spread: il gesto precede la parola, la parola giapponese precede il commento italiano",
+      "yūgen": "il lettore vede il segno calligrafico prima di capirne il significato: il campo percettivo si apre prima del contenuto semantico",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni spread è leggibile come punto di ingresso indipendente: il libro non ha una sola direzione"
+      },
+      "textual_anchor_it": "Le calligrafie originali di Shogoro accompagnano ogni poesia della raccolta.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "print-04",
+      "label": "mappa_yamato",
+      "label_en": "yamato_map",
+      "type": "map_insert",
+      "intensity": 0.89,
+      "perceptual_weight": 0.87,
+      "basho": "la mappa storica di Yamato in bianco e nero alla fine del volume: i luoghi nominati nei tanka diventano territorio reale e verificabile",
+      "kokyu": "la mappa come ancoraggio finale: dopo aver attraversato i luoghi come campi emotivi, il lettore li trova come coordinate geografiche",
+      "yūgen": "la mappa non riduce i luoghi a coordinate: li conferma come luoghi che esistono nel tempo storico oltre che nel campo poetico",
+      "textual_anchor_it": "La mappa storica della provincia di Yamato accompagna la raccolta come riferimento geografico dei luoghi poetici.",
+      "glossary_link": [
+        "basho",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_layer": "print-03",
+    "series_connection": "collana Tanka — lo stesso sistema di spread calligrafia+tanka+commento è condiviso con Luna piena sulla città antica",
+    "narrative_model": "quattro strati materiali che portano il campo percettivo prima e oltre il testo: la copertina artigianale, la carta calda, lo spread come unità autonoma, la mappa come ancoraggio finale",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
