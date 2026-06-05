@@ -1,0 +1,133 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "presenza_vs_assenza",
+    "temporal_axis": "era_tenpyo_e_contemporaneo_sovrapposti",
+    "narrative_logic": "ogni scena è un campo percettivo autonomo che porta un'emozione senza dichiararla — il non detto è sempre più grande del detto"
+  },
+  "editorial_principle": "Le scene non sono capitoli ma configurazioni del campo emotivo. Ogni scena porta un tipo di lutto o attesa: chi è andato in paradiso, chi è partito per la città lontana, chi è irraggiungibile nella morte, chi si aspetta sotto la luna. Il libro è un sistema di presenze-assenze connesso da un unico campo lunare sul cielo di Yamato.",
+  "scene_types": {
+    "grief_field": "lutto come sonno e abbandono",
+    "echo_field": "il nome chiamato che torna senza risposta",
+    "departure_field": "separazione irreversibile verso la città lontana",
+    "lunar_field": "connessione tra separati sotto la stessa luna",
+    "aging_field": "comprensione che arriva solo camminando e invecchiando"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "pioggia_sonno_lutto",
+      "label_en": "rain_sleep_grief",
+      "type": "grief_field",
+      "dominant": true,
+      "basho": "la stanza come campo del cedimento: la pioggia autorizza il corpo a smettere di resistere alla perdita",
+      "kokyu": "il ritmo del sonno come resa: il corpo cede ciò che la mente non riesce a risolvere",
+      "yūgen": "雨漏りの数を数えて — contare le gocce di pioggia come unico modo di abitare il tempo della perdita",
+      "affects": {
+        "scene-03": "il lutto privato si trasforma nella mancanza condivisa sotto la luna"
+      },
+      "textual_anchor_it": "Penso alla persona amata che è andata in paradiso. Vorrei raggiungerla, ma nemmeno questo desiderio può avverarsi. Così, nei giorni di pioggia, mi lascio andare al sonno. La vita di chi resta è fatta di malinconia.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "monte_miwa_eco",
+      "label_en": "miwa_echo",
+      "type": "echo_field",
+      "basho": "la foresta del Monte Miwa come camera acustica: il nome chiamato torna come rimbalzo fisico del vuoto, non come risposta",
+      "kokyu": "il ritmo è quello dell'ascolto impossibile: restare in attesa di una voce che non arriverà mai",
+      "yūgen": "いるようで — è come se quella persona fosse ancora lì: la presenza percettiva senza presenza reale come forma più alta di lutto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il silenzio del Monte Miwa non si chiude: rimane campo aperto strutturale"
+      },
+      "affects": {
+        "scene-04": "l'eco senza risposta prepara la luna come unico connettore possibile tra vivi e morti"
+      },
+      "textual_anchor_it": "Tra gli alberi del Monte Miwa riecheggia il nome di chi non c'è più. Anche se lo chiamo, non ci sarà risposta. Eppure, resto in ascolto.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "partenza_citta_lontana",
+      "label_en": "departure_distant_city",
+      "type": "departure_field",
+      "basho": "Nara come luogo dell'attesa: chi parte per Tokyo o Osaka genera il vuoto che chi resta deve abitare",
+      "kokyu": "il ritmo dell'attesa come forma d'amore: restare fermi mentre il mondo si sposta",
+      "yūgen": "成らず待つ逢坂のひと — aspettare ad Ausaka sapendo che forse non ci si rivedrà: l'amore come resistenza alla certezza della perdita",
+      "affects": {
+        "scene-04": "la distanza terrestre diventa distanza cosmica — la luna come unico spazio condiviso"
+      },
+      "textual_anchor_it": "Aspettare da soli, nella città natale, l'amato partito per Tokyo o Osaka. Sapendo che forse non ci si rivedrà mai, eppure restare, e continuare ad attendere. Questo è l'amore.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "luna_hasedera",
+      "label_en": "hasedera_moon",
+      "type": "lunar_field",
+      "basho": "Hase-dera come spazio dove il tempo cosmico e il tempo umano si incontrano senza risolversi",
+      "kokyu": "il ritmo lunare è ciclico e indifferente: la luna ritorna senza garantire l'incontro umano",
+      "yūgen": "長谷に満月 — la luna piena su Hase-dera: una vita umana è solo un istante nell'universo, ma quell'istante contiene tutto",
+      "affects": {
+        "scene-05": "la misura cosmica della luna prepara la comprensione che arriva solo con la vecchiaia"
+      },
+      "textual_anchor_it": "Fu un colpo di fulmine, e poi camminammo insieme. Invecchiai, e rimasi solo, immerso nella tristezza dei giorni. Eppure, nel cielo del tempio Hase-dera, che unisce i destini, la luna piena continua a brillare. Una vita umana è solo un istante nell'universo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "vecchiaia_yamato_comprensione",
+      "label_en": "aging_yamato_understanding",
+      "type": "aging_field",
+      "basho": "la via di Yamato come strumento cognitivo: la strada attiva la comprensione che la mente da sola non raggiunge",
+      "kokyu": "il ritmo è quello del passo rallentato: il corpo che invecchia diventa più lento e più capace di vedere",
+      "yūgen": "老いぼれてみるとなにやら — ci sono cose che si comprendono solo invecchiando: la via di Yamato come libro che si apre camminando",
+      "affects": {
+        "scene-01": "la comprensione della vecchiaia retroagisce sul lutto: il sonno nei giorni di pioggia era già saggezza"
+      },
+      "textual_anchor_it": "Ci sono cose che si comprendono solo invecchiando. Le si scopre nei gesti quotidiani, camminando per la via di Yamato, sono verità che si rivelano solo col tempo.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "system_state": "luna_come_operatore_di_connessione_e_misura",
+    "narrative_model": "cinque campi connessi da un'unica struttura: l'assenza come forma primaria di relazione, la luna come unico invariante",
+    "retroactive_causality": true,
+    "global_effect": "la luna piena agisce come campo sincronico su tutte le scene — misura la vita, connette i separati, rimane indifferente al lutto"
+  }
+}
