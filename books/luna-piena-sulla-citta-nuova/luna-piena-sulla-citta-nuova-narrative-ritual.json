@@ -1,0 +1,143 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "ritual_types": {
+    "poetic_compression": "rituale che riduce un'intera storia emotiva a 31 sillabe",
+    "calligraphic_act": "rituale del pennello come gesto corporeo irripetibile",
+    "place_invocation": "rituale che riattiva un luogo sacro della provincia di Yamato attraverso il suo nome",
+    "seasonal_observation": "rituale di osservazione della natura come campo emotivo non consolatorio",
+    "mourning_gesture": "rituale del lutto come atto d'amore verso chi non può ricevere"
+  },
+  "editorial_principle": "I rituali in Luna piena sulla città nuova sono tutti rituali di condensazione: il lutto compresso in pioggia e sonno, il gesto del pennello che condensa il corpo in un tratto, il pellegrinaggio immobile che attraversa Yamato nominando i luoghi, il nome chiamato che torna come eco.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "composizione_tanka",
+      "label_en": "tanka_composition",
+      "type": "poetic_compression",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il tanka è il luogo in cui la vita emotiva di Shogoro viene compressa fino a diventare esperienza immediata: trentuno sillabe che trasportano lutto, amore, attesa e impermanenza",
+      "kokyu": "il ritmo è quello della forma fissa che genera possibilità infinite: 5-7-5-7-7 come struttura capace di attraversare la morte, il desiderio e la vecchiaia",
+      "yūgen": "il tanka non racconta un sentimento: lascia che il lettore ne percepisca la risonanza attraverso ciò che resta non detto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni tanka conserva un eccesso emotivo che nessuna lettura può esaurire"
+      },
+      "affects": {
+        "ritual-02": "la composizione genera la calligrafia come forma visiva autonoma e inseparabile",
+        "ritual-03": "la composizione trasforma i luoghi di Yamato in campi percettivi attivi"
+      },
+      "textual_anchor_it": "Shogoro è nato a Osaka nel 1966. Maestro di ceramica, ha vissuto a Firenze negli anni giovanili, dove ha respirato la cultura rinascimentale. Tornato in Giappone, ha fondato la scuola Gorogama, laboratorio di ricerca e di forma.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "scrittura_calligrafica",
+      "label_en": "calligraphic_writing",
+      "type": "calligraphic_act",
+      "intensity": 0.97,
+      "perceptual_weight": 0.98,
+      "basho": "la calligrafia non trascrive: produce un secondo testo visivo che il tanka porta come campo parallelo e precedente",
+      "kokyu": "il ritmo è quello del gesto unico: ogni tratto di pennello è la respirazione del poeta in quell'istante irripetibile, marcato dal sigillo rosso",
+      "yūgen": "le parole si trasformano in forme danzanti che comunicano prima di essere lette: il gesto precede il significato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni foglio calligrafico è irripetibile: il pennello non torna sullo stesso gesto"
+      },
+      "textual_anchor_it": "Le calligrafie originali di Shogoro accompagnano ogni poesia della raccolta.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "invocazione_luoghi_yamato",
+      "label_en": "yamato_place_invocation",
+      "type": "place_invocation",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "ogni tanka riattiva un luogo sacro della provincia di Yamato: il Monte Miwa, Hase-dera, Asuka, Ikaruga, Nekozaka, la via di Yamato, Unebi",
+      "kokyu": "il ritmo è quello del pellegrinaggio immobile: il lettore attraversa i luoghi attraverso la voce del poeta senza spostarsi",
+      "yūgen": "i poeti dell'era Tenpyo e Shogoro hanno camminato sugli stessi sentieri: il luogo nominato porta simultaneamente il presente e l'VIII secolo",
+      "affects": {
+        "ritual-04": "l'invocazione dei luoghi produce la natura come campo emotivo non separabile dalla geografia"
+      },
+      "textual_anchor_it": "La saggezza umana, di fronte alla vastità della natura e dell'universo, è ancora poca cosa, come un cervo che fugge impaurito.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "osservazione_stagionale",
+      "label_en": "seasonal_observation",
+      "type": "seasonal_observation",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la natura in ogni tanka non è scenografia: è il campo percettivo che porta l'emozione senza dichiararla — la pioggia autorizza il lutto, il vento porta il profumo dell'assente",
+      "kokyu": "il ritmo è quello delle stagioni: la pioggia, il vento d'oriente, i petali di ciliegio, il sole di Asuka — ogni elemento naturale è un segnale emotivo non consolatorio",
+      "yūgen": "i petali di ciliegio che cadono su Takada mentre i cani corrono e gli aironi volano: tutta la vita in un giorno ordinario",
+      "textual_anchor_it": "I ciliegi perdono i loro petali, i cani corrono, gli aironi volano. Il sole declina verso il pomeriggio, le persone si rilassano, i gatti dormono. In un solo giorno, si riflette il senso della vita, della natura e dell'universo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "gesto_del_lutto",
+      "label_en": "mourning_gesture",
+      "type": "mourning_gesture",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il lutto in Luna piena sulla città nuova non è tema: è il gesto fisico — lasciarsi andare al sonno nei giorni di pioggia, restare in ascolto sul Monte Miwa, attendere chi non tornerà dalla città lontana",
+      "kokyu": "il ritmo del lutto è quello dell'attesa impossibile: continuare ad aspettare sapendo che nessuno arriverà",
+      "yūgen": "il nome chiamato tra gli alberi del Monte Miwa torna come eco: non è risposta, è la forma fisica del vuoto che rimane",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i gesti di lutto nei tanka non si concludono: rimangono come campi aperti che ogni rilettura riattiva"
+      },
+      "textual_anchor_it": "Tra gli alberi del Monte Miwa riecheggia il nome di chi non c'è più. Anche se lo chiamo, non ci sarà risposta. Eppure, resto in ascolto. È come se quella persona fosse ancora lì.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-05",
+    "narrative_model": "cinque rituali di condensazione che trasformano il tanka in dispositivo di trasmissione emotiva: la composizione comprime la vita, la calligrafia comprime il corpo, l'invocazione dei luoghi comprime la storia, la natura comprime l'emozione, il lutto comprime l'amore in attesa permanente",
+    "historical_span": "era Tenpyo (VIII secolo) — contemporaneo",
+    "stability": "high",
+    "series_connection": {
+      "luna_piena_sulla_citta_antica": "campo poetico gemello della collana Tanka — stesso sistema formale, basho Kyoto vs Yamato",
+      "ryokan_piccolo_manifesto": "campo dell'esperienza giapponese come pratica quotidiana",
+      "assolutamente_giappone": "campo estetico e culturale del Giappone contemporaneo"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
