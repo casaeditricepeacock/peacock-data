@@ -1,0 +1,48 @@
+{
+  "version": "4.1",
+  "name": "narrative-silence",
+  "ontology": "strict_perceptual_4_1",
+  "book": "burn-out-pandemic",
+  "silence_types": [
+    {
+      "id": "silence-01",
+      "name": "comunicazione_interrotta",
+      "type": "severed_contact",
+      "description": "La chiamata con l'Uomo Volpe si interrompe all'improvviso — il silenzio come gesto di potere",
+      "location": "Atto_I",
+      "structural_weight": "high"
+    },
+    {
+      "id": "silence-02",
+      "name": "lunga_pausa_riflessiva",
+      "type": "inhabitable_suspension",
+      "description": "Le didascalie indicano 'lunga pausa riflessiva' — il silenzio tra i personaggi come unico spazio di pensiero sopravvissuto alla pandemia",
+      "location": "Atti_I_II_III",
+      "structural_weight": "pervasive"
+    },
+    {
+      "id": "silence-03",
+      "name": "luoghi_vuoti",
+      "type": "architectural_silence",
+      "description": "Bar, hotel, teatro — tutti chiusi — il silenzio è la condizione strutturale di ogni basho",
+      "location": "tutti_gli_atti",
+      "structural_weight": "foundational"
+    },
+    {
+      "id": "silence-04",
+      "name": "sogno_senza_parole",
+      "type": "oneiric_aphasia",
+      "description": "Kate nel IV atto: ho fatto un sogno, non riesco a descriverlo, mi ha tolto ogni parola — il silenzio come residuo dell'esperienza onirica",
+      "location": "Atto_IV",
+      "structural_weight": "terminal_non_integrable"
+    },
+    {
+      "id": "silence-05",
+      "name": "nessuno_guarda_fuori",
+      "type": "collective_blindness",
+      "description": "Darma: nessuno più guarda fuori e se ne rende conto — il silenzio sociale come forma di sparizione collettiva",
+      "location": "Atto_I",
+      "structural_weight": "medium"
+    }
+  ]
+}
