@@ -1,0 +1,125 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "ritual_types": {
+    "social_judgement": "rituale collettivo del giudicare prima di comprendere",
+    "observation_ritual": "osservazione come tentativo di dare forma all'ignoto",
+    "maternal_protection": "protezione materna come pratica di sostituzione del dolore",
+    "confession_transfer": "trasferimento del segreto da una coscienza all'altra",
+    "departure_without_return": "uscita irreversibile dal sistema sociale"
+  },
+  "editorial_principle": "I rituali di Segreti Svelati non ruotano attorno al crimine ma al giudizio. Ogni personaggio partecipa a un sistema che assegna colpe, ruoli e identità prima che la verità emerga. Il romanzo mostra come il conformismo degli anni Sessanta produca narrazioni sociali più potenti dei fatti stessi.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "giudizio_preventivo",
+      "label_en": "preemptive_judgement",
+      "type": "social_judgement",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la casa di cura, la città, i medici e perfino la narratrice partecipano allo stesso rito: attribuire una colpa prima di conoscere la storia",
+      "kokyu": "il ritmo è immediato e automatico: vedere → classificare → condannare",
+      "yūgen": "la vera violenza del romanzo non è l'omicidio ma la rapidità con cui la società costruisce una verità falsa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "anche dopo la rivelazione finale il giudizio collettivo non viene corretto"
+      },
+      "affects": {
+        "ritual-02": "il giudizio rende necessaria l'osservazione continua",
+        "ritual-03": "il giudizio produce il sacrificio materno come risposta estrema"
+      },
+      "textual_anchor_it": "I medici non volevano quasi credere che quei due meravigliosi occhi tristi appartenessero a un individuo così spietato.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "osservazione_ossessiva",
+      "label_en": "obsessive_observation",
+      "type": "observation_ritual",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la narratrice osserva Francesca per comprenderla ma finisce per costruire un'immagine che riflette soprattutto le proprie paure",
+      "kokyu": "ogni osservazione aggiunge un tassello e contemporaneamente allontana dalla verità",
+      "yūgen": "l'osservazione produce vicinanza emotiva ma non conoscenza reale",
+      "affects": {
+        "ritual-04": "solo l'osservazione costante rende possibile la confessione finale"
+      },
+      "textual_anchor_it": "La mia attenta osservazione divenne una vera e propria ossessione.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "protezione_materna_assoluta",
+      "label_en": "absolute_maternal_protection",
+      "type": "maternal_protection",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "Francesca sostituisce la figlia davanti al mondo assumendo su di sé la colpa e la punizione",
+      "kokyu": "il ritmo è quello della sottrazione: più Giulia sopravvive, più Francesca scompare",
+      "yūgen": "la maternità diventa invisibile proprio nel suo gesto più grande",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sacrificio rimane segreto e non riceve riconoscimento sociale"
+      },
+      "affects": {
+        "ritual-04": "la confessione nasce dal bisogno di onorare il sacrificio"
+      },
+      "textual_anchor_it": "Mia madre si è sacrificata pensando che fosse l'unico modo per rendere libere tutte due.",
+      "glossary_link": ["mono no aware", "yūgen"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "trasferimento_del_segreto",
+      "label_en": "secret_transfer",
+      "type": "confession_transfer",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la confessione avviene fuori dalle istituzioni: la verità passa direttamente da una persona all'altra",
+      "kokyu": "il ritmo accelera improvvisamente dopo una lunga attesa",
+      "yūgen": "la verità non viene consegnata alla giustizia ma alla memoria",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il segreto continua a vivere perché chi lo riceve sceglie il silenzio"
+      },
+      "affects": {
+        "ritual-05": "il trasferimento del segreto permette la partenza definitiva"
+      },
+      "textual_anchor_it": "Grazie per averci voluto bene.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "uscita_dal_sistema",
+      "label_en": "exit_from_system",
+      "type": "departure_without_return",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la strada aperta è l'unico spazio non regolato dalla casa di cura, dalla famiglia e dal giudizio sociale",
+      "kokyu": "il ritmo è quello dell'accelerazione irreversibile",
+      "yūgen": "la libertà non consiste nell'essere assolti ma nel sottrarsi definitivamente al sistema che giudica",
+      "textual_anchor_it": "Salì sulla sua moto.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-03",
+    "system_role": "social_judgement_and_secret_transmission_field",
+    "narrative_model": "il giudizio produce l'inganno, l'osservazione lo alimenta, la protezione materna lo sostiene, la confessione lo rovescia, la partenza lo supera senza distruggerlo",
+    "historical_setting": "Milano 1960 — boom economico, conformismo sociale, emancipazione femminile nascente",
+    "reader_effect": "il lettore scopre di aver partecipato allo stesso rituale di giudizio dei personaggi",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
