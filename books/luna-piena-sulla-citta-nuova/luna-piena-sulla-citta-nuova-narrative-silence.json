@@ -1,0 +1,121 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "silence_types": {
+    "ma_structural": "il silenzio giapponese come struttura comunicativa — non assenza ma campo di possibilità attiva",
+    "tanka_unsaid": "ciò che il tanka non esplicita ma mantiene come densità percettiva interna",
+    "mourning_void": "il silenzio del lutto come spazio operativo lasciato dall'assente",
+    "echo_void": "il silenzio che risponde al nome chiamato — rimbalzo fisico del vuoto senza presenza"
+  },
+  "editorial_principle": "Il silenzio in Luna piena sulla città nuova è il Ma del tanka: la forma a 31 sillabe non contiene il significato ma ne attiva la parte non esprimibile. Ogni figura — l'amato in paradiso, chi è partito, chi non risponde sul Monte Miwa — agisce nel non detto più che nel detto.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "ma_del_tanka",
+      "label_en": "tanka_ma",
+      "type": "ma_structural",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni tanka è una struttura incompleta: 31 sillabe che attivano un campo più ampio di ciò che possono contenere",
+      "kokyu": "il ritmo del Ma è la pausa interna alla forma: il lettore completa il campo attraverso la propria esperienza percettiva",
+      "yūgen": "il non detto nei tanka di Shogoro è strutturale: la forma non chiude il sentimento ma lo sospende in uno spazio attivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Ma non si esaurisce nella lettura: ogni ritorno sul testo riattiva un nuovo campo di senso"
+      },
+      "affects": {
+        "silence-02": "il Ma strutturale produce il lutto non detto come campo operativo più denso del lutto dichiarato"
+      },
+      "textual_anchor_it": "Shogoro vive in Giappone dove ha fondato la scuola Gorogama, laboratorio di ricerca e di forma.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "non_detto_lutto",
+      "label_en": "unsaid_mourning",
+      "type": "tanka_unsaid",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "chi conta la pioggia, chi resta in ascolto sul Monte Miwa, chi attende ad Aōsaka: il lutto non è dichiarato ma agito attraverso il gesto",
+      "kokyu": "il ritmo del non detto è quello della sostituzione dell'enunciato con il gesto: dormire invece di piangere, restare invece di partire",
+      "yūgen": "il campo emotivo del tanka emerge quando il sentimento non viene nominato ma incarnato in un'azione impossibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il lutto nei tanka resta aperto: il lettore lo completa senza mai chiuderlo"
+      },
+      "affects": {
+        "silence-04": "il lutto non detto trova nella luna il proprio campo di sincronizzazione"
+      },
+      "textual_anchor_it": "La vita di chi resta è fatta di malinconia.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_monte_miwa",
+      "label_en": "miwa_echo_silence",
+      "type": "echo_void",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "la foresta del Monte Miwa non risponde: il nome chiamato torna come rimbalzo fisico, non come presenza",
+      "kokyu": "il ritmo è quello dell'ascolto che non cede: restare in attesa di una voce che non arriverà mai è già una forma di fedeltà",
+      "yūgen": "いるようで — è come se quella persona fosse ancora lì: la presenza percettiva senza presenza reale come forma paradossale di relazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'eco del Monte Miwa non si chiude: il silenzio che risponde è permanente"
+      },
+      "textual_anchor_it": "Anche se lo chiamo, non ci sarà risposta. Eppure, resto in ascolto.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "silenzio_della_luna",
+      "label_en": "lunar_silence",
+      "type": "mourning_void",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la luna è il silenzio condiviso: non comunica ma sincronizza le assenze di chi è vivo e di chi è morto",
+      "kokyu": "il ritmo lunare è ciclico e non discorsivo: ritorna senza spiegazione, senza messaggio",
+      "yūgen": "chi è rimasto solo e chi non c'è più guardano lo stesso campo: la relazione avviene nel silenzio della luna, non nello scambio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la luna non produce messaggio: produce simultaneità percettiva tra separati che non possono comunicare"
+      },
+      "textual_anchor_it": "La luna piena continua a brillare. Una vita umana è solo un istante nell'universo.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "quattro configurazioni del non detto: struttura (Ma), emozione non nominata, eco senza risposta, sincronizzazione lunare tra separati",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
