@@ -1,0 +1,71 @@
+{
+  "version": "4.1",
+  "name": "narrative-system-graph",
+  "ontology": "strict_perceptual_4_1",
+  "book": "burn-out-pandemic",
+  "system_shape": "oneiric_void_loop",
+  "closure_type": "dream_revelation_irresolvable",
+  "invalidated_elements": [
+    "realtà_del_viaggio — era_un_sogno",
+    "libertà_conquistata — mai_verificata_fuori_dal_sogno",
+    "identità_dell_uomo_volpe — non_rivelata"
+  ],
+  "nodes": [
+    {
+      "id": "node-01",
+      "name": "AI_Robot",
+      "type": "meta_narrator",
+      "description": "L'intelligenza artificiale che ha raccolto paure, ricordi e aspettative durante la pandemia — autore implicito del testo"
+    },
+    {
+      "id": "node-02",
+      "name": "Uomo_Volpe_Kitsune",
+      "type": "invisible_controller",
+      "description": "Messaggero ingannatore — spirito sacro e misterioso — guida Darma verso uno scopo non rivelato — compare solo come voce"
+    },
+    {
+      "id": "node-03",
+      "name": "Darma",
+      "type": "possessed_agent",
+      "description": "Uomo indonesiano emotivo e ipersensibile — posseduto dallo spirito della volpe — raccoglie file di persone che scompaiono"
+    },
+    {
+      "id": "node-04",
+      "name": "Kate",
+      "type": "lucid_dreamer",
+      "description": "Donna semplice catapultata nella guerra di privazioni — sveglierà il campo onirico nel IV atto — unica a desiderare la libertà senza intermediari"
+    },
+    {
+      "id": "node-05",
+      "name": "Steve",
+      "type": "anchor_reality",
+      "description": "Compagno di Kate — invisibile per tre atti — compare solo nel risveglio — operatore di realtà"
+    }
+  ],
+  "edges": [
+    {"from": "AI_Robot", "to": "Uomo_Volpe_Kitsune", "type": "meta_authorship"},
+    {"from": "Uomo_Volpe_Kitsune", "to": "Darma", "type": "possession_control"},
+    {"from": "Darma", "to": "Kate", "type": "seduction_toward_freedom"},
+    {"from": "Kate", "to": "Steve", "type": "dream_to_reality_return"}
+  ],
+  "cross_layer_effects": [
+    {
+      "from": "theatrical_performance",
+      "to": "graphic_novel",
+      "propagation_mode": "storyboard_expansion",
+      "stability_impact": "medium — la forma muta, il campo percettivo resta"
+    },
+    {
+      "from": "pandemic_reality_2020",
+      "to": "oneiric_narrative",
+      "propagation_mode": "social_media_absorption",
+      "stability_impact": "high — il reale è filtrato dall'AI Robot come post sui social"
+    }
+  ],
+  "system_note": {
+    "structural_key": "Il IV atto rivela retroattivamente che l'intera struttura era onirica — operatore simile al prologo retroattivo de La locanda Nakamura ma applicato al finale",
+    "unique_element": "AI_Robot come autore-personaggio — il testo è scritto da una IA che ha letto i post dei social durante la pandemia",
+    "award": "16th Japan International MANGA Award 2023",
+    "compatibility": "v4.1 — non compatibile con v5.0"
+  }
+}
