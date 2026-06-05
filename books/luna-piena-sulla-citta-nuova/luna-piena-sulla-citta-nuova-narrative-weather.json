@@ -1,0 +1,119 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "weather_types": {
+    "grief_precipitation": "pioggia come campo autorizzante del lutto — il tempo atmosferico che permette il cedimento",
+    "wind_messenger": "vento come vettore impossibile del profumo dell'assente",
+    "petal_storm": "hanafubuki come pienezza che dissolve — la vita intera in un giorno ordinario",
+    "lunar_light": "luce lunare come misura cosmica indifferente alla vita umana",
+    "dawn_cycle": "alba come promessa di ritorno che non dipende dall'assenza umana"
+  },
+  "editorial_principle": "Il clima in Luna piena sulla città nuova non è scenografia: ogni evento atmosferico è un campo emotivo che porta il sentimento senza dichiararlo. La pioggia non descrive il lutto — lo autorizza. Il vento non porta messaggi — porta profumi irripetibili. La luna non consola — misura.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "pioggia_del_lutto",
+      "label_en": "grief_rain",
+      "type": "grief_precipitation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la pioggia come campo che trasforma la stanza in spazio del cedimento: non è necessario resistere quando piove",
+      "kokyu": "il ritmo della pioggia come permesso: ogni goccia è un'unità di tempo che il corpo può abitare senza dover agire",
+      "yūgen": "雨漏りの数を数えて — contare le gocce di pioggia come unico atto possibile nel tempo della perdita",
+      "affects": {
+        "weather-03": "la pioggia prepara il campo per il vento che porta il profumo dell'assente"
+      },
+      "textual_anchor_it": "Così, nei giorni di pioggia, mi lascio andare al sonno.",
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "luna_piena_hasedera",
+      "label_en": "full_moon_hasedera",
+      "type": "lunar_light",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "la luna come campo cosmico che attraversa l'intera raccolta — al Hase-dera misura la vita umana come istante",
+      "kokyu": "il ritmo lunare è ciclico e indifferente: torna senza rispondere al lutto, senza modificarsi per la perdita",
+      "yūgen": "la stessa luna vista da chi è rimasto e da chi non c'è più: campo di simultaneità percettiva tra vivi e morti",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la luna non produce messaggio né consolazione: produce misura cosmica"
+      },
+      "affects": {
+        "weather-01": "la luce lunare retroagisce sulla pioggia: entrambe misurano il tempo dell'attesa"
+      },
+      "textual_anchor_it": "La luna piena continua a brillare. Una vita umana è solo un istante nell'universo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "vento_oriente_ikaruga",
+      "label_en": "east_wind_ikaruga",
+      "type": "wind_messenger",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "Ikaruga come campo aperto al vento d'oriente: la città dove il profumo familiare torna senza portare la persona",
+      "kokyu": "il ritmo del vento come ritorno impossibile: arriva, porta qualcosa di riconoscibile, poi passa",
+      "yūgen": "東風今一度と思う斑鳩が — il desiderio che il vento torni: il profumo come prova percettiva di presenza senza corpo",
+      "affects": {
+        "weather-04": "il vento che porta il profumo prepara la hanafubuki come figura della pienezza che si dissolve"
+      },
+      "textual_anchor_it": "Porta con sé un profumo familiare. Penso che sia il suo, e desidero che il vento torni a soffiare ancora una volta.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "hanafubuki_giornata",
+      "label_en": "petal_storm_day",
+      "type": "petal_storm",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "il giardino di Nara come campo della pienezza ordinaria: petali che cadono, cani, aironi, gatti — un giorno intero come microcosmo dell'universo",
+      "kokyu": "il ritmo è quello della vita compressa in una giornata: mattino-mezzogiorno-sera come misura completa dell'esistenza",
+      "yūgen": "花吹雪 高田千本 — i mille ciliegi di Takada che perdono i petali: la bellezza come evento che si compie dissolvendo",
+      "textual_anchor_it": "I ciliegi perdono i loro petali, i cani corrono, gli aironi volano. In un solo giorno, si riflette il senso della vita, della natura e dell'universo.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-02",
+    "seasonal_axis": {
+      "primavera": "hanafubuki — pienezza che dissolve",
+      "estate": "assente — il lutto non ha stagione propria",
+      "autunno": "vento d'oriente — profumo e rimpianto",
+      "inverno": "pioggia — campo del cedimento e del sonno"
+    },
+    "narrative_model": "quattro campi atmosferici che portano il sentimento senza dichiararlo: la pioggia autorizza il lutto, il vento porta il profumo dell'assente, la hanafubuki comprime la vita, la luna misura tutto senza modificarsi",
+    "stability": "cyclic_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
