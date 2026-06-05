@@ -1,0 +1,154 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "subtitle": "Raccolta di poesie tanka del poeta Shogoro",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025,
+    "cover_note": "acquarello bianco, fotografia applicata a mano in copertina",
+    "paper": "usomano avoriata"
+  },
+  "editorial_principle": "Luna piena sulla città nuova non è una raccolta di poesie sull'amore perduto. Produce un campo percettivo in cui venticinque tanka attraversano i luoghi sacri della provincia di Yamato — Nara, Asuka, Ikaruga, Monte Miwa, Hase-dera — come territorio emotivo stratificato. Ogni poesia è una compressione: il lutto, l'attesa, l'amore e l'impermanenza si condensano in 31 sillabe. La calligrafia originale di Shogoro non accompagna il testo ma ne costituisce il corpo visibile, precedendo il significato come gesto puro.",
+  "object_types": {
+    "temporal_compression": "oggetto che concentra grandi estensioni temporali e emotive in una forma minima",
+    "calligraphic_field": "campo percettivo generato dalla scrittura come gesto corporeo irripetibile",
+    "sacred_place": "luogo della provincia di Yamato che porta memoria storica e affettiva stratificata",
+    "natural_operator": "elemento naturale che connette stati emotivi e figure assenti",
+    "absent_presence": "presenza evocata che continua ad agire pur essendo irraggiungibile"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "tanka_31_sillabe",
+      "label_en": "tanka_31_syllables",
+      "type": "temporal_compression",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il tanka non è una forma breve ma un dispositivo di compressione: lutto, amore e impermanenza coesistono in trentuno sillabe senza risolversi",
+      "kokyu": "il ritmo segue la struttura 5-7-5-7-7: una misura che non limita l'espressione ma ne concentra l'intensità fino al limite della forma",
+      "yūgen": "la parte più vasta del tanka è sempre ciò che non viene detto; il testo apre un campo che continua oltre la sua conclusione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuna lettura esaurisce il tanka: ogni rilettura riattiva strati percettivi differenti"
+      },
+      "affects": {
+        "object-02": "la compressione poetica genera la necessità della calligrafia come seconda forma espressiva autonoma",
+        "object-03": "la compressione emotiva richiede un ancoraggio nei luoghi sacri che ne riveli la profondità storica"
+      },
+      "textual_anchor_it": "Luna piena sulla città nuova — raccolta di poesie tanka del poeta Shogoro.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "calligrafia_shogoro",
+      "label_en": "shogoro_calligraphy",
+      "type": "calligraphic_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "la calligrafia non trascrive il tanka ma ne manifesta il movimento interno; il significato diventa gesto e il gesto diventa paesaggio visivo",
+      "kokyu": "ogni tratto conserva il ritmo respiratorio del poeta nel momento dell'esecuzione; il sigillo rosso marca il punto in cui il corpo ha lasciato il segno",
+      "yūgen": "la calligrafia comunica prima della lettura e continua a comunicare oltre il significato delle parole; il lettore vede prima di capire",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il gesto calligrafico non può essere replicato: ogni foglio mantiene l'unicità dell'istante che lo ha generato"
+      },
+      "affects": {
+        "object-01": "la calligrafia amplifica il campo percettivo del tanka trasformando il testo in immagine e il significato in ritmo visivo"
+      },
+      "textual_anchor_it": "Le calligrafie originali di Shogoro accompagnano ogni poesia della raccolta.",
+      "glossary_link": [
+        "kokyu",
+        "ma",
+        "basho"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "luoghi_yamato",
+      "label_en": "yamato_sacred_places",
+      "type": "sacred_place",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "i luoghi della provincia di Yamato — Monte Miwa, Hase-dera, Asuka, Ikaruga, Nekozaka, Yamabe no michi, Unebi — non sono scenografia ma campi percettivi stratificati: ogni nome porta secoli di memoria",
+      "kokyu": "il ritmo è quello del pellegrinaggio immobile: il lettore attraversa i luoghi senza muoversi, accumulando presenza emotiva tanka dopo tanka",
+      "yūgen": "gli stessi luoghi vissuti nell'VIII secolo dall'era Tenpyo e oggi da Shogoro occupano la stessa coordinata: mille anni collassano in una camminata",
+      "affects": {
+        "object-04": "i luoghi sacri attivano la luna come unico elemento che li attraversa tutti senza appartenervi",
+        "object-05": "ogni luogo nominato richiama una persona assente che lì ha amato, atteso o pianto"
+      },
+      "textual_anchor_it": "Shogoro è nato a Osaka nel 1966. Ha trascorso l'infanzia in un tempio buddhista, esperienza che ha segnato la sua visione armoniosa dell'arte e della vita.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "luna_piena",
+      "label_en": "full_moon",
+      "type": "natural_operator",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la luna piena è il campo percettivo che attraversa l'intera raccolta: al tempio Hase-dera misura la vita umana come istante cosmico",
+      "kokyu": "il suo ritmo è ciclico e non discorsivo: ogni ritorno riattiva tutti i ritorni precedenti senza spiegazione",
+      "yūgen": "la stessa luna osservata da chi è rimasto solo e da chi non c'è più produce una prossimità che supera la distanza fisica e la morte",
+      "affects": {
+        "object-05": "la luna trasforma l'assenza in una forma di presenza condivisa: chi è morto e chi è vivo guardano lo stesso campo"
+      },
+      "textual_anchor_it": "La luna piena sul cielo di Hase-dera continua a brillare: una vita umana è solo un istante nell'universo.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "persona_assente",
+      "label_en": "absent_person",
+      "type": "absent_presence",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "le figure assenti costituiscono il vero centro emotivo della raccolta: l'amato in paradiso, chi è partito per Tokyo, chi non risponde più al nome chiamato sul Monte Miwa",
+      "kokyu": "il ritmo è quello del ritorno memoriale: ogni tanka richiama l'assente nel campo del presente senza poterlo trattenere",
+      "yūgen": "la poesia non elimina la perdita ma la trasforma in presenza percettiva duratura; il nome chiamato tra gli alberi torna come eco — non come risposta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "gli assenti non vengono mai recuperati né risolti: rimangono come campi aperti che sostengono l'intera raccolta"
+      },
+      "affects": {
+        "object-04": "la distanza degli assenti trova nella luna il proprio operatore di connessione e di misura"
+      },
+      "textual_anchor_it": "Penso alla persona amata che è andata in paradiso. Vorrei raggiungerla, ma nemmeno questo desiderio può avverarsi. Così, nei giorni di pioggia, mi lascio andare al sonno.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-05",
+    "system_role": "poetry_as_grief_compression_field",
+    "narrative_model": "cinque operatori percettivi trasformano il tanka in un sistema simultaneamente poetico, calligrafico, geografico e memoriale",
+    "tanka_count": 25,
+    "historical_span": "dall'era Tenpyo (VIII secolo) fino alla contemporaneità",
+    "reader_effect": "il lettore non accumula informazioni sulla poesia giapponese ma acquisisce una nuova percezione del rapporto tra lutto, luogo e impermanenza",
+    "series_connection": "collana Tanka — volume gemello di Luna piena sulla città antica (Toshihiko Ota); stesso sistema formale, basho diverso, campo emotivo dominante diverso",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
