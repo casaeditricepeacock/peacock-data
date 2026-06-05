@@ -1,0 +1,125 @@
+{
+"type": "NarrativeScene",
+"version": "4.1",
+"date": "2026-06",
+"license": "CC BY 4.0",
+"source": "Frequenze — Peacock Narrative Protocol",
+"book": {
+"title": "Segreti Svelati. Milano 1960",
+"author": "Laura Gariboldi",
+"publisher": "Casa Editrice Peacock",
+"series": "Romanzo pop — amore, libertà e diversità",
+"isbn": "979-12-81715-07-3",
+"year": 2024
+},
+"system_axis": {
+"primary_tension": "apparenza_vs_verita",
+"temporal_axis": "Milano_1960_boom_economico_e_conformismo",
+"narrative_logic": "ogni scena costruisce un livello dell'inganno strutturale. Il lettore accumula certezze che si riveleranno errate quando il sistema narrativo verrà reinterpretato retroattivamente."
+},
+"editorial_principle": "Le scene non rappresentano eventi ma configurazioni percettive. Il romanzo costruisce un campo di osservazione in cui Francesca occupa il centro visibile mentre Giulia resta nel margine. La verità non è nascosta: è resa invisibile dal modo in cui i personaggi e il lettore osservano il mondo.",
+"scene_types": {
+"observation_field": "campo percettivo in cui l'atto di osservare produce falsa conoscenza",
+"social_pressure_field": "campo sociale che impone ruoli e identità predefinite",
+"sacrifice_field": "campo invisibile sostenuto da un gesto di rinuncia",
+"liberation_field": "campo di uscita dal sistema sociale",
+"memory_field": "campo costruito da presenze intermittenti e interpretazioni errate"
+},
+"scenes": [
+{
+"id": "scene-01",
+"label": "francesca_nel_salone",
+"label_en": "francesca_in_the_hall",
+"type": "observation_field",
+"dominant": true,
+"basho": "la sala comune della casa di cura come centro gravitazionale dell'intero sistema. Francesca occupa il campo visivo e attira ogni sguardo",
+"kokyu": "il ritmo è quello dell'osservazione ripetuta. Ogni giorno aggiunge dettagli che sembrano avvicinare la verità",
+"yūgen": "la fragilità apparente di Francesca costruisce un'immagine che il lettore desidera comprendere ma che non coincide con la realtà",
+"affects": {
+"scene-03": "l'attenzione concentrata su Francesca rende invisibili le presenze periferiche"
+},
+"textual_anchor_it": "Sembrava una creatura bisognosa di protezione più che una carnefice.",
+"glossary_link": ["basho", "ma", "yūgen"]
+},
+{
+"id": "scene-02",
+"label": "milano_delle_apparenze",
+"label_en": "milan_of_appearances",
+"type": "social_pressure_field",
+"basho": "Milano del boom economico come macchina di conformismo. Una città che produce immagini di normalità e benessere",
+"kokyu": "il ritmo è quello della ripetizione sociale. Famiglia, lavoro, reputazione, rispettabilità",
+"yūgen": "la città non giudica apertamente ma costruisce le condizioni che rendono inevitabile il giudizio",
+"affects": {
+"scene-04": "il conformismo sociale produce il bisogno del sacrificio"
+},
+"textual_anchor_it": "La donna, nel bene o nel male, verrà sempre criticata.",
+"glossary_link": ["basho", "mono no aware"]
+},
+{
+"id": "scene-03",
+"label": "visite_e_silenzi",
+"label_en": "visits_and_silences",
+"type": "memory_field",
+"basho": "Giulia attraversa la casa di cura come una presenza marginale. Appare, scompare, ritorna",
+"kokyu": "il ritmo è quello delle visite intermittenti. Presenza, assenza, ritorno",
+"yūgen": "il personaggio più importante del romanzo occupa costantemente il margine dell'inquadratura",
+"non_integrable_residue": {
+"status": true,
+"description": "nessuno può stabilire con precisione in quale momento la verità fosse già visibile"
+},
+"affects": {
+"scene-04": "la ripetizione delle visite prepara retroattivamente la rivelazione del sacrificio"
+},
+"textual_anchor_it": "Giulia era sempre presente, eppure nessuno sembrava guardarla davvero.",
+"glossary_link": ["ma", "yūgen", "mono no aware"]
+},
+{
+"id": "scene-04",
+"label": "la_verita_di_francesca",
+"label_en": "francesca_truth",
+"type": "sacrifice_field",
+"basho": "la casa di cura diventa il luogo in cui un sacrificio viene custodito e nascosto",
+"kokyu": "il ritmo è quello della sottrazione progressiva. Francesca scompare mentre il significato della sua presenza aumenta",
+"yūgen": "la sua azione più importante consiste nel non parlare",
+"non_integrable_residue": {
+"status": true,
+"description": "Francesca non verrà mai riabilitata pubblicamente"
+},
+"affects": {
+"scene-05": "il sacrificio impone la confessione e rende possibile la partenza"
+},
+"textual_anchor_it": "Francesca non avrebbe mai rivelato che la bestia fosse Giulia.",
+"glossary_link": ["mono no aware", "yūgen"]
+},
+{
+"id": "scene-05",
+"label": "la_strada_aperta",
+"label_en": "the_open_road",
+"type": "liberation_field",
+"basho": "la strada oltre Milano come unico spazio non controllato dal sistema sociale",
+"kokyu": "il ritmo finale è quello dell'accelerazione irreversibile. Addio, moto, orizzonte",
+"yūgen": "Giulia non fugge. Si sottrae al sistema che aveva già deciso chi dovesse essere",
+"affects": {
+"scene-01": "retroagisce sull'intero campo di osservazione iniziale"
+},
+"textual_anchor_it": "La moto sfrecciava lontano verso l'orizzonte infinito.",
+"glossary_link": ["mono no aware", "yūgen", "basho"]
+}
+],
+"retroactive_causality": {
+"enabled": true,
+"source": "scene-05",
+"targets": ["scene-01", "scene-02", "scene-03", "scene-04"],
+"effect": "all_previous_scenes_reinterpreted_after_confession"
+},
+"system_note": {
+"scene_count": 5,
+"dominant_field": "scene-01",
+"secondary_field": "scene-04",
+"system_state": "observation_trap_with_retroactive_revelation",
+"narrative_model": "cinque campi percettivi costruiscono l'inganno. L'osservazione produce falsa conoscenza, il conformismo genera il punto cieco, le visite mantengono l'invisibilità, il sacrificio sostiene il sistema e la partenza finale ne rivela retroattivamente il significato.",
+"retroactive_causality": true,
+"global_effect": "il lettore scopre che il colpevole non era nascosto ma invisibile; l'inganno non apparteneva alla narrazione ma al proprio modo di guardare",
+"compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+}
+}
