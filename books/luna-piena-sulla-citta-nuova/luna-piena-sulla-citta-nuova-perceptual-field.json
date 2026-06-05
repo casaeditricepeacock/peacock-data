@@ -1,0 +1,93 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Luna piena sulla città nuova non è una raccolta d'amore. È un sistema di campi percettivi in cui i luoghi sacri della provincia di Yamato diventano territorio emotivo stratificato: il lutto, l'attesa e l'impermanenza si comprimono in 31 sillabe e un tratto di pennello.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_lutto_attivo",
+      "type": "residual_field",
+      "basho": "il lutto nei tanka di Shogoro non è tema: è struttura attiva — chi è andato in paradiso, chi è partito per la città lontana, chi non risponde al nome chiamato sul Monte Miwa",
+      "kokyu": "attesa senza ricezione: gesti che continuano oltre la possibilità di risposta — dormire nella pioggia, restare in ascolto, non partire",
+      "yūgen_level": 0.98,
+      "activation_condition": "presenza di figura assente o gesto di attesa verso chi non può tornare",
+      "persistence_rule": "il campo resta aperto e non risolto per tutta la raccolta",
+      "dissolution_rule": "non dissolvibile: assenza strutturale permanente",
+      "field_logic": "grief_as_structural_open_system",
+      "affects": {
+        "field-03": "il lutto attiva la luna come unico connettore possibile tra vivi e morti"
+      },
+      "textual_anchor_it": "Penso alla persona amata che è andata in paradiso. Vorrei raggiungerla, ma nemmeno questo desiderio può avverarsi. Così, nei giorni di pioggia, mi lascio andare al sonno."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_calligrafico",
+      "type": "aesthetic_field",
+      "basho": "la calligrafia di Shogoro produce un testo parallelo: non rappresenta il tanka ma lo ri-genera come evento visivo precedente al significato",
+      "kokyu": "ogni tratto è respirazione corporea del poeta nel momento irripetibile del gesto; il sigillo rosso marca il punto in cui il corpo ha lasciato il segno",
+      "yūgen_level": 0.96,
+      "activation_condition": "osservazione della calligrafia prima o indipendentemente dalla lettura del testo",
+      "persistence_rule": "il campo visivo resta come residuo percettivo dopo la lettura",
+      "dissolution_rule": "non dissolvibile: dualità strutturale testo/segno",
+      "field_logic": "calligraphy_as_parallel_perceptual_system",
+      "textual_anchor_it": "Shogoro è nato a Osaka nel 1966. Maestro di ceramica, ha fondato la scuola Gorogama, laboratorio di ricerca e di forma."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_lunare",
+      "type": "temporal_field",
+      "basho": "la luna piena è il campo percettivo invariante che attraversa tutta la raccolta: al Hase-dera misura la vita umana come istante cosmico",
+      "kokyu": "ritmo ciclico non discorsivo: la luna torna senza rispondere al lutto, senza modificarsi per la perdita",
+      "yūgen_level": 0.97,
+      "activation_condition": "comparsa della luna come presenza nel tanka — misura, testimone, connettore",
+      "persistence_rule": "il campo lunare è l'unico elemento che non viene modificato da nessun altro campo: invariante assoluto del sistema",
+      "dissolution_rule": "non dissolvibile: invariante di sistema",
+      "field_logic": "moon_as_cosmic_measure_and_connector",
+      "affects": {
+        "field-01": "la luna sincronizza le assenze: chi è morto e chi è vivo condividono lo stesso campo senza comunicare"
+      },
+      "textual_anchor_it": "La luna piena continua a brillare. Una vita umana è solo un istante nell'universo."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_luoghi_yamato",
+      "type": "cognitive_field",
+      "basho": "i luoghi della provincia di Yamato — Monte Miwa, Hase-dera, Asuka, Ikaruga, Nekozaka, via di Yamato — non descrivono l'emozione: la portano come memoria stratificata",
+      "kokyu": "ritmo del pellegrinaggio immobile: il lettore attraversa i luoghi accumulando presenza emotiva tanka dopo tanka senza spostarsi",
+      "yūgen_level": 0.94,
+      "activation_condition": "nominazione di un luogo sacro di Yamato nel tanka",
+      "persistence_rule": "il campo geografico struttura tutta la percezione spaziale del libro",
+      "dissolution_rule": "non dissolvibile: ogni luogo porta la sovrapposizione di VIII secolo e contemporaneo",
+      "field_logic": "sacred_place_as_stratified_emotional_archive",
+      "textual_anchor_it": "Tra gli alberi del Monte Miwa riecheggia il nome di chi non c'è più. Anche se lo chiamo, non ci sarà risposta."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "tanka_as_simple_love_poem",
+      "calligraphy_as_decoration",
+      "grief_as_biographical_theme",
+      "yamato_as_tourist_scenery",
+      "moon_as_romantic_symbol"
+    ],
+    "system_behavior": "il libro opera come sistema percettivo stratificato: ogni campo è simultaneo, non sequenziale; la luna è l'unico nodo che tutti i campi attraversano senza modificarlo"
+  }
+}
