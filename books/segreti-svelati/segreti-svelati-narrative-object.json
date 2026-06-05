@@ -1,0 +1,171 @@
+{
+"type": "NarrativeObject",
+"version": "4.1",
+"date": "2026-06",
+"license": "CC BY 4.0",
+"source": "Frequenze — Peacock Narrative Protocol",
+"book": {
+"title": "Segreti Svelati. Milano 1960",
+"author": "Laura Gariboldi",
+"publisher": "Casa Editrice Peacock",
+"series": "Romanzo pop — amore, libertà e diversità",
+"isbn": "979-12-81715-07-3",
+"year": 2024,
+"cover_note": "fotografia applicata a mano in copertina",
+"preface": "Sara Bianchi",
+"edition_note": "edizione speciale tratta dal romanzo Vite nel buio"
+},
+"editorial_principle": "Segreti Svelati non è un thriller. È un sistema percettivo in cui il giudizio precede sempre la verità. La società, i medici, i familiari e il lettore stesso costruiscono una colpa apparente prima ancora che il crimine venga compreso. Il romanzo opera come un campo di inganno strutturale: la vittima appare colpevole, la colpevole appare invisibile, la cura si trasforma in controllo e la libertà diventa possibile soltanto fuori dal sistema.",
+"object_types": {
+"narrative_trap": "oggetto che costruisce una falsa evidenza destinata a collassare",
+"social_cage": "struttura sociale che produce esclusione e controllo",
+"double_identity": "identità divisa tra ciò che viene mostrato e ciò che viene nascosto",
+"confession_field": "spazio percettivo in cui la verità emerge per frammenti",
+"liberation_act": "atto che rompe il sistema di controllo",
+"social_prejudice": "campo invisibile che assegna ruoli e colpe prima dei fatti"
+},
+"objects": [
+{
+"id": "object-06",
+"label": "pregiudizio_sociale",
+"label_en": "social_prejudice_field",
+"type": "social_prejudice",
+"intensity": 1.0,
+"perceptual_weight": 1.0,
+"dominant": true,
+"basho": "il pregiudizio attraversa ogni spazio del romanzo prima ancora dei personaggi: la casa di cura, la famiglia, la città e il lettore",
+"kokyu": "il ritmo è quello del giudizio anticipato: osservazione → etichetta → condanna → errore",
+"yūgen": "la colpa viene assegnata prima della comprensione; il vero colpevole è sempre visibile ma il sistema impedisce di riconoscerlo",
+"non_integrable_residue": {
+"status": true,
+"description": "anche dopo la rivelazione finale il lettore scopre di aver partecipato al medesimo errore percettivo"
+},
+"affects": {
+"object-01": "trasforma Francesca nella colpevole ideale",
+"object-02": "rende invisibile Giulia",
+"object-03": "trasforma la cura in reclusione"
+},
+"textual_anchor_it": "I medici non volevano quasi credere che quei due meravigliosi occhi tristi appartenessero a un individuo così spietato.",
+"glossary_link": ["mono no aware","yūgen","ma"]
+},
+{
+"id": "object-01",
+"label": "francesca_angelo_condannato",
+"label_en": "francesca_condemned_angel",
+"type": "narrative_trap",
+"intensity": 0.99,
+"perceptual_weight": 0.98,
+"basho": "Francesca occupa il centro del sistema come oggetto di osservazione continua",
+"kokyu": "ogni rivelazione sembra confermare la sua colpa fino al collasso della costruzione narrativa",
+"yūgen": "la sua innocenza esiste fin dall'inizio ma nessuno possiede il campo percettivo necessario per riconoscerla",
+"non_integrable_residue": {
+"status": true,
+"description": "la sua reputazione non verrà mai realmente restituita"
+},
+"affects": {
+"object-04": "la confessione finale ridefinisce completamente il suo ruolo"
+},
+"textual_anchor_it": "Quei meravigliosi occhi tristi sembravano incompatibili con la crudeltà attribuita alla donna.",
+"glossary_link": ["mono no aware","yūgen"]
+},
+{
+"id": "object-02",
+"label": "giulia_la_bestia",
+"label_en": "giulia_the_beast",
+"type": "double_identity",
+"intensity": 0.99,
+"perceptual_weight": 0.97,
+"basho": "Giulia attraversa il romanzo come presenza marginale mentre occupa segretamente il centro causale della storia",
+"kokyu": "la sua frequenza narrativa rimane nascosta fino alla confessione",
+"yūgen": "la bestia non coincide con la malvagità ma con una forma assoluta e distruttiva di amore",
+"non_integrable_residue": {
+"status": true,
+"description": "madre e assassina continuano a convivere senza mai risolversi"
+},
+"affects": {
+"object-05": "la fuga finale completa la sua trasformazione"
+},
+"textual_anchor_it": "Ho superato ogni limite per amore e lo rifarei ancora.",
+"glossary_link": ["yūgen","mono no aware"]
+},
+{
+"id": "object-03",
+"label": "casa_di_cura_psichiatrica",
+"label_en": "psychiatric_care_house",
+"type": "social_cage",
+"intensity": 0.96,
+"perceptual_weight": 0.94,
+"basho": "la struttura medica diventa spazio di classificazione e controllo",
+"kokyu": "il tempo si dilata fino a trasformarsi in sospensione esistenziale",
+"yūgen": "la differenza tra cura e punizione rimane invisibile ma determina ogni esperienza",
+"affects": {
+"object-01": "produce Francesca come diagnosi prima che come persona"
+},
+"textual_anchor_it": "La pazzia sconvolge perché rivela una natura che le convenzioni non riescono a contenere.",
+"glossary_link": ["basho","ma","mono no aware"]
+},
+{
+"id": "object-04",
+"label": "confessione_finale_giulia",
+"label_en": "giulia_final_confession",
+"type": "confession_field",
+"intensity": 0.98,
+"perceptual_weight": 0.96,
+"basho": "uno spazio di passaggio in cui la verità viene offerta e non estratta",
+"kokyu": "la struttura narrativa accelera e collassa simultaneamente",
+"yūgen": "la confessione è un gesto di fiducia e non di pentimento",
+"non_integrable_residue": {
+"status": true,
+"description": "la verità rimane confinata tra chi parla e chi ascolta"
+},
+"affects": {
+"object-05": "rende possibile la liberazione finale"
+},
+"textual_anchor_it": "Non potevi essere mia. Non eri nella mia storia.",
+"glossary_link": ["ma","yūgen","mono no aware"]
+},
+{
+"id": "object-05",
+"label": "fuga_sulla_moto",
+"label_en": "escape_on_motorcycle",
+"type": "liberation_act",
+"intensity": 0.95,
+"perceptual_weight": 0.93,
+"basho": "la strada aperta diventa l'unico spazio non governato dal giudizio collettivo",
+"kokyu": "movimento irreversibile verso un futuro sconosciuto",
+"yūgen": "la fuga non cancella il passato ma interrompe il potere che il passato esercita",
+"affects": {
+"object-02": "trasforma la bestia in sopravvissuta"
+},
+"textual_anchor_it": "La moto sfrecciava verso l'orizzonte infinito sparendo nel nulla.",
+"glossary_link": ["mono no aware","yūgen"]
+},
+{
+"id": "object-07",
+"label": "milano_1960",
+"label_en": "milan_1960_social_field",
+"type": "social_cage",
+"intensity": 0.96,
+"perceptual_weight": 0.95,
+"basho": "Milano appare moderna ma continua a produrre esclusione, controllo morale e ruoli obbligati",
+"kokyu": "il progresso economico corre più velocemente del cambiamento sociale",
+"yūgen": "la città promette libertà mentre continua a decidere chi è accettabile e chi no",
+"affects": {
+"object-06": "fornisce il terreno culturale che alimenta il pregiudizio"
+},
+"textual_anchor_it": "Milano 1960: boom economico, conformismo e desiderio di emancipazione convivono nello stesso spazio.",
+"glossary_link": ["basho","mono no aware"]
+}
+],
+"system_note": {
+"object_count": 7,
+"dominant_field": "object-06",
+"secondary_field": "object-02",
+"system_role": "social_judgement_as_perceptual_trap",
+"narrative_model": "sette operatori percettivi costruiscono un sistema di giudizio errato: il pregiudizio sociale genera l'angelo condannato, nasconde la bestia, trasforma la cura in gabbia, produce la confessione come dono e rende la fuga l'unica forma possibile di libertà",
+"historical_setting": "Milano 1960 — boom economico, controllo sociale, emancipazione femminile nascente",
+"reader_effect": "il lettore scopre che il vero colpevole non è un personaggio ma il sistema di giudizio che ha condiviso durante tutta la lettura",
+"series_connection": "Romanzo pop — amore, libertà e diversità",
+"compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeWeather v4.1 / NarrativeSystemGraph v4.1"
+}
+}
