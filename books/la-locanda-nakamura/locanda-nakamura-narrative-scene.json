@@ -1,0 +1,112 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "infanzia_vs_tempo",
+    "temporal_axis": "estate_1986_come_campo_del_sempre_prima_della_fine",
+    "narrative_logic": "ogni scena è un campo dell'intensità che porta già il germe della propria fine — il ryokan come spazio che contiene tutto finché l'estate dura"
+  },
+  "editorial_principle": "Le scene non sono episodi: sono configurazioni del campo dell'estate. La cucina di Saki, la veranda, il mare, la notte del compleanno — ogni spazio è un campo percettivo autonomo che porta l'intera rete di relazioni come campo attivo.",
+  "scene_types": {
+    "kitchen_field": "la cucina come campo del calore e del caos creativo",
+    "veranda_field": "la veranda come campo della condivisione e della festa",
+    "sea_field": "il mare come campo dell'intensità pura senza pensiero",
+    "night_field": "la notte come campo del desiderio e della riflessione",
+    "prologo_field": "il presente della narratrice adulta come campo della perdita consapevole"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "cucina_saki",
+      "type": "kitchen_field",
+      "dominant": true,
+      "basho": "la cucina di Saki come campo del caos creativo: il tramestio di piatti, fornelli, gyoza — il campo dell'abbondanza caotica che sostiene tutto il ryokan",
+      "kokyu": "il ritmo della cucina è quello dell'urgenza festiva: fuoco alle polveri!, si bolliva, si friggeva, si tagliuzzava — il tempo del pranzo come tempo del massimo movimento",
+      "yūgen": "Sciò lattanti, fuori dai piedi! — Saki come campo dell'energia bruta che scaccia i bambini e li ama contemporaneamente",
+      "affects": {
+        "scene-02": "la cucina produce la veranda come suo spazio di celebrazione"
+      },
+      "textual_anchor_it": "Fuori! Sciò, sciò! Buttatevi in acqua! ci scacciò Saki, minacciosa, mentre scalpitava con i geta brandendo il battipanni come una katana.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "scene-02",
+      "label": "veranda_compleanno",
+      "type": "veranda_field",
+      "basho": "la veranda come campo della celebrazione collettiva: il compleanno di Taeko con tutti i personaggi del ryokan riuniti — il campo della totalità nel suo momento più intenso",
+      "kokyu": "il ritmo della veranda è quello della festa: le candeline, gli applausi, la torta goffa e perfetta — il tempo che si ferma nella celebrazione",
+      "yūgen": "la torta preparata dagli amici che sapevano appena bollire un uovo: il campo dell'amore come gesto imperfetto e totale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quel compleanno non si ripete: il campo della veranda porta già il campo della fine"
+      },
+      "affects": {
+        "scene-03": "la veranda produce il mare come suo contrappunto fisico"
+      },
+      "textual_anchor_it": "C'erano la nonna, Kaori e Teppei, Saki, il giardiniere, Minami, Mei, Minako e Shinako, Taro, Seichi, Tooru e Kyosuke con la torta in mano che cantavano la canzoncina e applaudivano.",
+      "glossary_link": ["basho", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "scene-03",
+      "label": "mare_baia_omura",
+      "type": "sea_field",
+      "basho": "la baia di Omura come campo dell'intensità pura: i corpi nell'acqua, le strida come aquile, i vestiti lanciati a casaccio — il campo del corpo che esiste senza pensiero",
+      "kokyu": "il ritmo del mare è quello dell'estate senza orologio: non c'è prima né dopo, solo il presente dell'acqua e del sole e delle grida",
+      "yūgen": "Lanciammo i vestiti a casaccio e ci tuffammo in acqua lanciando strida come aquile — il campo dell'intensità che non sa ancora di essere irrecuperabile",
+      "affects": {
+        "scene-04": "il mare produce la notte come suo campo di riflessione"
+      },
+      "textual_anchor_it": "Corremmo, oltrepassammo il giardino, la stradina sterrata, il ponte di legno e raggiungemmo la stretta spiaggia sovrastata dalla fitta e verdeggiante vegetazione della baia di Omura.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "notte_luna",
+      "type": "night_field",
+      "basho": "la notte del compleanno come campo della felicità totale: la luna, le stelle, nessuna nuvola — il campo della perfezione che la narratrice adulta porta come calore",
+      "kokyu": "il ritmo della notte è quello del dormiveglia: il giorno che si scioglie nel sogno, i pensieri che scorrono liberi verso il desiderio di Kyosuke",
+      "yūgen": "io ero irrimediabilmente felice — l'avverbio irrimediabilmente come campo della totalità che non lascia scampo: non si può essere più felici di così, non si può uscire da questa felicità",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quella notte perfetta è irrecuperabile: il campo della felicità irrimediabile sopravvive solo come calore nel ricordo"
+      },
+      "affects": {
+        "scene-05": "la notte perfetta produce il prologo come campo della perdita consapevole"
+      },
+      "textual_anchor_it": "Non una nuvola. Non un'ombra. Nessuna malvagità minacciava il mio mondo, e io ero irrimediabilmente felice.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "scene-05",
+      "label": "prologo_nagasaki",
+      "type": "prologo_field",
+      "basho": "il prologo a Nagasaki come campo della perdita consapevole: la narratrice adulta sul pendio del fiume Urakami che guarda i papaveri e ricorda — il presente che guarda il passato irrecuperabile",
+      "kokyu": "il ritmo del prologo è quello della malinconia attiva: non pianto ma lacrime che scorrono spontanee al pensiero di chi non c'è più",
+      "yūgen": "i miei nonni conducevano una locanda perimetrata da cespugli di papaveri rossi in cui ruotava una serie di personaggi che ora sono andati chissà dove — il campo della dispersione come struttura del ricordo",
+      "affects": {
+        "scene-01": "il prologo retroagisce sulla cucina di Saki: quel caos festoso diventa campo della perdita"
+      },
+      "textual_anchor_it": "Non avrei più avuto la possibilità di vivere in un mondo spensierato e felice con quelle persone, e tal pensiero mi bagnò il volto di lacrime.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "system_state": "estate_come_campo_dell_irrecuperabile_attivo",
+    "narrative_model": "cinque configurazioni del campo estivo: cucina, veranda, mare, notte, prologo — tutte retroattivamente trasformate dal campo della perdita",
+    "retroactive_causality": true,
+    "global_effect": "il prologo retroagisce su tutte le scene: il lettore legge l'estate sapendo già che quei personaggi sono andati chissà dove"
+  }
+}
