@@ -1,0 +1,138 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Tanka",
+    "isbn": "979-12-81715-17-2",
+    "year": 2025
+  },
+  "transition_types": {
+    "temporal_leap": "collasso tra l'era Tenpyo e il presente in un unico campo poetico",
+    "departure": "separazione irreversibile che genera attesa come forma d'amore permanente",
+    "metamorphic_transformation": "trasformazione del desiderio impossibile in forma animale o naturale",
+    "seasonal_return": "ritorno ciclico della natura come riattivazione del ricordo senza consolazione",
+    "poetic_transmission": "trasferimento del campo emotivo attraverso la forma poetica tra epoche distanti"
+  },
+  "editorial_principle": "Le transizioni in Luna piena sulla città nuova non separano eventi: trasformano stati dell'esperienza. Ogni tanka è una soglia in cui tempo, luogo e affetto coesistono senza risolversi. La morte non chiude, la distanza non interrompe, la natura non consola: tutto continua in altra forma.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "era_tenpyo_nel_presente",
+      "label_en": "tenpyo_into_present",
+      "type": "temporal_leap",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "ogni tanka è una compressione temporale: i poeti dell'VIII secolo e Shogoro si interrogano sulle stesse cose — amore, perdita, attesa — sugli stessi luoghi",
+      "kokyu": "il ritmo è quello della densità: il tempo storico perde linearità e diventa presenza immediata nel campo della lettura",
+      "yūgen": "天平の和歌 — scoprire che anche i poeti dell'era Tenpyo si interrogavano sulle stesse cose: il passato diventa specchio del presente",
+      "affects": {
+        "transition-02": "la compressione temporale intensifica la percezione della separazione come condizione umana permanente"
+      },
+      "textual_anchor_it": "Giorni incerti, attraversati dall'ansia del dubbio. E scopro che anche i poeti dell'era Tenpyo si interrogavano sulle stesse cose.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "partenza_verso_attesa",
+      "label_en": "departure_into_waiting",
+      "type": "departure",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la partenza per Tokyo o Osaka non è un evento storico ma una soglia irreversibile: il corpo si sposta mentre il legame resta sospeso ad Aōsaka",
+      "kokyu": "il ritmo è quello dell'addio non risolto: il gesto dell'attesa rimane aperto tra chi parte e chi resta",
+      "yūgen": "成らず待つ — attendere sapendo che forse non si rivedrà mai: l'attesa impossibile come forma più alta d'amore",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la separazione non si chiude nel testo: continua come tensione nel campo emotivo del lettore"
+      },
+      "affects": {
+        "transition-03": "la separazione terrestre prepara il desiderio di trasformazione come unica via per superare il confine"
+      },
+      "textual_anchor_it": "Aspettare da soli, nella città natale, l'amato partito per Tokyo o Osaka. Sapendo che forse non ci si rivedrà mai, eppure restare, e continuare ad attendere.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "trasformazione_in_gatto",
+      "label_en": "transformation_into_cat",
+      "type": "metamorphic_transformation",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la Nekozaka di Nara come soglia metamorfica: cadere sulla salita per trasformarsi in gatto e stare accanto all'amato senza bisogno di parole",
+      "kokyu": "il ritmo è quello del desiderio che supera la forma umana: abbandonare il corpo che non può dire addio per diventare presenza silenziosa e continua",
+      "yūgen": "猫になるかな — il desiderio di trasformazione come risposta all'impossibilità del linguaggio: ci sono amori che non si riesce nemmeno a salutare",
+      "affects": {
+        "transition-04": "il superamento della forma umana prepara il ritorno stagionale come struttura del tempo emotivo"
+      },
+      "textual_anchor_it": "A Nara, si dice della Nekozaka: Se cadi qui, diventi un gatto. E penso a quella donna che, incapace perfino di dire a domani all'amato, vorrebbe cadere su quella salita, trasformarsi in un gatto e potergli stare accanto.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "ritorno_stagionale",
+      "label_en": "seasonal_return",
+      "type": "seasonal_return",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "la stagione non rappresenta il tempo: lo riattiva come memoria condivisa tra natura e coscienza, senza consolazione",
+      "kokyu": "il ritmo è ciclico ma non identico: ogni ritorno contiene una variazione della perdita — il vento porta il profumo dell'assente ma non l'assente",
+      "yūgen": "東風今一度と — il desiderio che il vento d'oriente torni a soffiare ancora una volta: il ritorno naturale che non porta il ritorno umano",
+      "affects": {
+        "transition-05": "il ciclo naturale rende possibile la trasmissione poetica come continuità oltre la singola vita"
+      },
+      "textual_anchor_it": "Dopo la pioggia, un vento d'oriente soffia sulla città di Ikaruga. Porta con sé un profumo familiare. Penso che sia il suo, e desidero che il vento torni a soffiare ancora una volta.",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "trasmissione_poetica",
+      "label_en": "poetic_transmission",
+      "type": "poetic_transmission",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la poesia non conserva il passato: lo riattiva come campo percettivo nel presente della lettura — Shogoro e i poeti dell'era Tenpyo si incontrano nei luoghi di Yamato",
+      "kokyu": "il ritmo è quello della continuità culturale: voci di mille anni fa diventano simultanee nella forma del tanka",
+      "yūgen": "Shogoro non racconta la storia: la fa abitare attraverso il presente della lingua e del corpo che cammina",
+      "textual_anchor_it": "Vivere significa attraversare il mattino della giovinezza, il mezzogiorno della maturità, e la sera, tempo della fine. Eppure, a Unebi, il crepuscolo non è una fine, ma l'attesa di un nuovo mattino.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "basho"
+      ]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione è una soglia attiva tra tempo, luogo e affetto: nulla si chiude, tutto cambia forma",
+    "effect": "il lettore attraversa i luoghi di Yamato non come sequenza ma come campo simultaneo di presenza emotiva stratificata"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "cinque soglie che trasformano stati dell'esperienza: il passato in specchio, la partenza in attesa, il desiderio in metamorfosi, la natura in memoria, la poesia in trasmissione",
+    "stability": "high_metastable",
+    "closure": "circular_without_resolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
