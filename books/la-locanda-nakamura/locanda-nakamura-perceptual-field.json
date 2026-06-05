@@ -1,0 +1,89 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "La locanda Nakamura non è un romanzo sull'infanzia perduta. È un sistema in cui l'infanzia non è perduta ma irrecuperabile — distinzione fondamentale. Il campo del ryokan esiste ancora, ma non è accessibile dalla narratrice adulta. La perdita non è assenza: è presenza che non si può raggiungere.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_origine_irrecuperabile",
+      "type": "residual_field",
+      "basho": "il Ryokan Nakamura come campo dell'origine: tutto ciò che la narratrice è passato attraverso questo spazio — il campo persiste come calore nel cuore ma non come possibilità di ritorno",
+      "kokyu": "il ritmo è quello del ricordo involontario: i papaveri, il caldo, il riso, le voci — il campo si riattiva senza preavviso attraverso i sensi",
+      "yūgen_level": 0.98,
+      "activation_condition": "ogni dettaglio sensoriale che porta il campo dell'estate 1986: un odore, un suono, un colore",
+      "persistence_rule": "il campo dell'origine è permanentemente attivo — non si dimentica, si porta come calore residuo",
+      "dissolution_rule": "non dissolvibile: l'origine irrecuperabile è la struttura fondativa del libro",
+      "field_logic": "origin_as_irrecoverable_not_lost",
+      "textual_anchor_it": "Non avrei più avuto la possibilità di vivere in un mondo spensierato e felice con quelle persone."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_gruppo_temporaneo",
+      "type": "temporal_field",
+      "basho": "il patto dei sette come campo della totalità temporanea: sette corpi nello stesso spazio come se fossero uno solo — il campo che esiste solo durante l'estate",
+      "kokyu": "il ritmo del gruppo è quello dell'estate: intenso, breve, strutturalmente temporaneo — ogni estate è già la penultima estate",
+      "yūgen_level": 0.96,
+      "activation_condition": "ogni scena in cui i sette sono insieme come campo unitario",
+      "persistence_rule": "il campo del gruppo persiste come struttura emotiva anche dopo la dispersione",
+      "dissolution_rule": "dissolvibile: il gruppo si disperde nel tempo — il campo sopravvive solo nella memoria",
+      "field_logic": "group_as_temporary_totality_field",
+      "affects": {
+        "field-01": "il gruppo amplifica il campo dell'origine: senza i sette il ryokan è solo una locanda"
+      },
+      "textual_anchor_it": "una serie di personaggi che ora sono andati chissà dove."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_segreto_adulto",
+      "type": "cognitive_field",
+      "basho": "la confidenza di Emi come irruzione del campo adulto nel campo infantile: il dolore di una madre che ha dato in adozione la figlia — un mondo che Taeko non può ancora contenere",
+      "kokyu": "il ritmo è quello dello shock gentile: l'estate serena che porta improvvisamente un campo di dolore adulto",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni momento in cui il campo adulto irrompe nel campo infantile senza chiedere permesso",
+      "persistence_rule": "il segreto di Emi rimane come campo attivo che trasforma la percezione di tutto il libro",
+      "dissolution_rule": "non dissolvibile: il segreto non si risolve — Taeko lo porta come campo adulto nell'infanzia",
+      "field_logic": "adult_secret_as_intrusive_layer_in_childhood_field",
+      "textual_anchor_it": "Avevo la tua età quando l'ho avuta. Separarmi da lei è stata la cosa più difficile della mia vita."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_amore_non_corrisposto",
+      "type": "aesthetic_field",
+      "basho": "il triangolo Taeko-Kyosuke-Seichi come campo del desiderio asimmetrico: Seichi ama Taeko, Taeko ama Kyosuke, Kyosuke sembra non badare a nessuno",
+      "kokyu": "il ritmo è quello del cuore adolescente: cercava con lo sguardo, io cercavo di stare vicina a Kyosuke — il campo del desiderio come campo dell'estate",
+      "yūgen_level": 0.93,
+      "activation_condition": "ogni scena che porta il campo del desiderio non corrisposto come struttura emotiva",
+      "persistence_rule": "il campo dell'amore non corrisposto è permanentemente attivo come struttura emotiva dell'adolescenza",
+      "dissolution_rule": "non dissolvibile: il desiderio non corrisposto struttura l'intera narrativa del gruppo",
+      "field_logic": "unrequited_love_as_summer_field_structure",
+      "textual_anchor_it": "Seichi mi cercava con lo sguardo, io cercavo di stare vicina a Kyosuke, mentre lui sembrava badarci poco."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "childhood_as_lost",
+      "summer_as_nostalgic_decoration",
+      "group_as_stable_system",
+      "adult_secret_as_narrative_device_only"
+    ],
+    "system_behavior": "quattro campi che trasformano il romanzo di formazione in sistema del campo dell'irrecuperabile: origine, gruppo, segreto, desiderio — tutti attivi simultaneamente come strati dell'estate 1986"
+  }
+}
