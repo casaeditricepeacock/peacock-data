@@ -1,0 +1,98 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "silence_types": {
+    "where_they_went": "il silenzio su dove siano andati i sette dopo l'estate",
+    "adult_grief": "il dolore adulto di Emi che irrompe nel campo infantile senza spiegazione",
+    "unrequited_silence": "il silenzio di Kyosuke verso Taeko come campo del desiderio non corrisposto",
+    "end_not_declared": "la fine dell'estate non dichiarata — il libro che non dice addio"
+  },
+  "editorial_principle": "Il silenzio nella Locanda Nakamura è il silenzio di ciò che non si dice perché non si può dire: dove sono andati i sette, perché Kyosuke non risponde, quando finirà questa estate. Il libro porta la perdita come campo attivo senza mai dichiarare la perdita.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "dove_sono_andati",
+      "label_en": "where_they_went",
+      "type": "where_they_went",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "una serie di personaggi che ora sono andati chissà dove — il silenzio più denso del libro: il lettore non saprà mai dove sono andati i sette dopo l'estate del 1986",
+      "kokyu": "il ritmo del silenzio è quello del prologo: il presente adulto che non spiega, non racconta — solo constata la dispersione",
+      "yūgen": "chissà dove: le due parole più cariche del libro — non si sa, non si può sapere, non si vuole sapere perché sapere chiuderebbe il campo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il destino dei sette non viene mai rivelato — il campo rimane strutturalmente aperto"
+      },
+      "affects": {
+        "silence-04": "il non-sapere dove sono andati produce il silenzio della fine non dichiarata"
+      },
+      "textual_anchor_it": "una serie di personaggi che ora sono andati chissà dove.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-02",
+      "label": "dolore_emi",
+      "label_en": "emi_grief",
+      "type": "adult_grief",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "Emi che non sa perché dice a Taeko queste cose: il dolore adulto che trova sbocco nell'innocenza infantile perché non ha altro posto dove andare",
+      "kokyu": "il ritmo del dolore di Emi è quello della contenzione: la voce che si strozzò, la lacrima che precipitò — il dolore trattenuto per anni che esce solo in quel momento",
+      "yūgen": "Scusa Taeko. Non so perché dico a te queste cose. Forse perché me la ricordi come la figuro nei miei pensieri — il dolore che non sa ancora il proprio nome",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la figlia di Emi (Aika) non viene mai ritrovata nel libro: il campo del dolore rimane strutturalmente aperto"
+      },
+      "textual_anchor_it": "Scusa Taeko. Non so perché dico a te queste cose. Forse perché me la ricordi come la figuro nei miei pensieri.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_kyosuke",
+      "label_en": "kyosuke_silence",
+      "type": "unrequited_silence",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il silenzio di Kyosuke verso Taeko come campo del desiderio non corrisposto: lui sembra badarci poco — il campo del non-risposta come campo più denso del libro",
+      "kokyu": "il ritmo del silenzio amoroso è quello dell'attesa senza risposta: Taeko cerca, Kyosuke non risponde — il campo del desiderio che non sa se stesso",
+      "yūgen": "mentre lui sembrava badarci poco — l'avverbio sembrava porta tutto il dubbio del desiderio: forse ci bada, forse no, ma il silenzio rimane",
+      "textual_anchor_it": "Seichi mi cercava con lo sguardo, io cercavo di stare vicina a Kyosuke, mentre lui sembrava badarci poco.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "fine_non_dichiarata",
+      "label_en": "undeclared_ending",
+      "type": "end_not_declared",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la fine dell'estate come campo del non-detto strutturale: il libro porta il campo della fine senza dichiararlo — il prologo ha già rivelato che quella estate finirà",
+      "kokyu": "il ritmo della fine non dichiarata è quello del presente eterno: il libro vive nell'estate come se non finisse, mentre il prologo ha già detto che è finita",
+      "yūgen": "io ero irrimediabilmente felice — l'irrimediabilità come campo della fine che è già nel presente: non si può essere irrimediabilmente felici senza che quella felicità sia già perduta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la fine dell'estate non viene mai dichiarata nel libro — il campo rimane strutturalmente aperto come campo della perdita senza addio"
+      },
+      "textual_anchor_it": "io ero irrimediabilmente felice.",
+      "glossary_link": ["mono no aware", "ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "narrative_model": "quattro silenzi strutturali: la dispersione, il dolore adulto, il desiderio non corrisposto, la fine non dichiarata",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
