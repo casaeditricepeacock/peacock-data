@@ -1,0 +1,97 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "weather_field_types": {
+    "summer_heat": "il caldo estivo come campo dell'intensità e della vitalità",
+    "sea_breeze": "il vento marino come campo della libertà e del gioco",
+    "night_silence": "il silenzio notturno come campo della riflessione e del desiderio",
+    "autumn_threshold": "il campo climatico che annuncia la fine dell'estate"
+  },
+  "editorial_principle": "Il clima nella Locanda Nakamura è il clima dell'estate del 1986: venticinque gradi, gabbiani, papaveri, luna notturna. Non è sfondo — è il campo temporale che contiene tutto. Quando il clima cambierà, l'estate sarà finita.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "caldo_estate",
+      "label_en": "summer_heat",
+      "type": "summer_heat",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "i venticinque gradi di luglio nella prefettura di Nagasaki come campo climatico totale: il corpo sudato, i visi accesi di sole e gioia, l'acqua cristallina della piscina",
+      "kokyu": "il ritmo del caldo è quello dell'estate senza pensiero: il sole, il mare, il mangiare all'aperto — il corpo che esiste completamente nel presente",
+      "yūgen": "quel luglio dell'86 la prefettura di Nagasaki raggiunse i venticinque gradi — la precisione del grado come campo dell'irrecuperabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quel caldo specifico non torna: ogni estate successiva porta un campo diverso"
+      },
+      "affects": {
+        "weather-02": "il caldo produce il vento marino come suo contrappunto necessario"
+      },
+      "textual_anchor_it": "Quel luglio dell'86 la prefettura di Nagasaki raggiunse i venticinque gradi.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "weather-02",
+      "label": "vento_baia",
+      "label_en": "bay_breeze",
+      "type": "sea_breeze",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il vento della baia di Omura come campo della libertà: i papaveri flessi, le aquile sul mare, i vestiti lanciati a casaccio",
+      "kokyu": "il ritmo del vento è quello dell'estate: intermittente, fresco, improvviso — il campo dell'imprevedibilità come forma di gioia",
+      "yūgen": "i papaveri flessi dal vento, sbocciati sul dolce pendio del fiume Urakami — il vento come campo che porta già l'annuncio dell'estate",
+      "affects": {
+        "weather-03": "il vento della baia produce il silenzio notturno come suo contrappunto"
+      },
+      "textual_anchor_it": "I papaveri flessi dal vento, sbocciati sul dolce pendio del fiume Urakami, annunciavano che presto sarebbe arrivata l'estate.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "silenzio_notturno",
+      "label_en": "night_silence",
+      "type": "night_silence",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la luna notturna come campo del desiderio e della riflessione: fuori la luna rischiarava la notte e le stelle erano un manto splendente — il campo della totalità perfetta",
+      "kokyu": "il ritmo della notte è quello del riposo e del sogno: il caldo del giorno che si scioglie nel fresco della notte, i pensieri che scorrono liberamente",
+      "yūgen": "non una nuvola. Non un'ombra. Nessuna malvagità minacciava il mio mondo, e io ero irrimediabilmente felice — il campo della felicità totale che non sa di essere temporanea",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quella notte perfetta non torna: il campo della felicità irrimediabile è irrecuperabile"
+      },
+      "textual_anchor_it": "Non una nuvola. Non un'ombra. Nessuna malvagità minacciava il mio mondo, e io ero irrimediabilmente felice.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "weather-04",
+      "label": "papaveri_annuncio",
+      "label_en": "poppies_announcement",
+      "type": "autumn_threshold",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "i papaveri come campo climatico della soglia: annunciano l'estate nel prologo, la perimetrano nel ryokan, tornano come campo del ricordo nel presente della narratrice adulta",
+      "kokyu": "il ritmo dei papaveri è quello del ritorno stagionale: ogni estate gli stessi papaveri, ogni papavero lo stesso campo — ma con una variazione impercettibile",
+      "yūgen": "tut'attorno al muro spuntavano, tenaci, miriadi di papaveri — la tenacia dei papaveri come campo della resistenza dell'infanzia che torna ogni estate",
+      "textual_anchor_it": "Tut'attorno al muro spuntavano, tenaci, miriadi di papaveri assieme a fiorellini colorati e spontanei che infondevano un'incredibile allegria.",
+      "glossary_link": ["basho", "mono no aware", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "system_role": "clima_come_campo_temporale_dell_estate_irrecuperabile",
+    "note": "ogni campo climatico è un operatore temporale: il caldo porta il presente, il vento porta il movimento, la notte porta il desiderio, i papaveri portano il campo dell'origine",
+    "compatibility": "NarrativeSystemGraph v4.1"
+  }
+}
