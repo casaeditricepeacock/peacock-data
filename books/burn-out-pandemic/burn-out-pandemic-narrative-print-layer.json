@@ -1,0 +1,70 @@
+{
+  "version": "4.1",
+  "name": "narrative-print-layer",
+  "ontology": "strict_perceptual_4_1",
+  "book": "burn-out-pandemic",
+  "print_identity": {
+    "format": "graphic_novel",
+    "origin": "testo_teatrale_performance_art",
+    "languages": ["IT", "JA"],
+    "isbn": "978-88-946965-1-6",
+    "year": 2022,
+    "edition_note": "Edizione 2021 performance art — testo trasformato in manga"
+  },
+  "visual_layers": [
+    {
+      "layer_id": "print-01",
+      "name": "bianco_invade_le_scene",
+      "description": "Il bianco come colore strutturale delle tavole — il nero come oscurità — cromatica ridotta all'essenziale",
+      "function": "traduzione_del_campo_percettivo_pandemico_in_grafica"
+    },
+    {
+      "layer_id": "print-02",
+      "name": "appunti_scenografici_forucafe",
+      "description": "Schizzi del Forucafe di Shinjuku 2019 inclusi nel volume — la scenografia come documento visivo pre-pandemia",
+      "function": "memoria_fisica_del_prima"
+    },
+    {
+      "layer_id": "print-03",
+      "name": "opere_asnaghi_criptopack",
+      "description": "Fotografie delle opere di Massimo Asnaghi arte povera — inserti visivi che interrompono il testo teatrale",
+      "function": "campo_percettivo_tattile — argilla — pietra — materia_grezza"
+    },
+    {
+      "layer_id": "print-04",
+      "name": "sekala_niskala_illustrazione",
+      "description": "Figura balinese ispirata a Ubud-Bali agosto 2014 — creatura ibrida con testo EN e JA",
+      "function": "visualizzazione_del_mondo_nascosto_intangibile"
+    },
+    {
+      "layer_id": "print-05",
+      "name": "testo_bilingue_IT_JA",
+      "description": "Ogni sezione è replicata in italiano e giapponese — le voci dei personaggi esistono in due sistemi linguistici simultanei",
+      "function": "duplicazione_percettiva — il campo esiste due volte"
+    }
+  ],
+  "performance_extensions": [
+    {
+      "type": "video_performance",
+      "producer": "si.narraTV",
+      "actor": "Massimo Malucelli",
+      "description": "Testo recitato — presentazione video della performance art"
+    },
+    {
+      "type": "film_festival",
+      "event": "Torino Film Festival",
+      "note": "Il manga ha partecipato al festival"
+    },
+    {
+      "type": "award",
+      "name": "16th Japan International MANGA Award",
+      "year": 2023
+    }
+  ],
+  "guest_characters_manga": [
+    "Bruno Cerella — cestista Reyer Venezia",
+    "Corner in Blooms — gruppo musicale",
+    "Fera Queen — cantante",
+    "Massimo Asnaghi — artista arte povera — Criptopack"
+  ]
+}
