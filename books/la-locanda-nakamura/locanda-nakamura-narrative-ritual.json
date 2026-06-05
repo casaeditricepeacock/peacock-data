@@ -1,0 +1,114 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-05",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop",
+    "isbn": "979-12-81715-27-1",
+    "year": 2025
+  },
+  "ritual_types": {
+    "nakai_initiation": "il debutto come nakai come rito di passaggio dall'infanzia alla responsabilità",
+    "summer_meal": "il pasto collettivo come campo della totalità del gruppo",
+    "birthday_ritual": "il compleanno come soglia temporale consapevole",
+    "seaside_play": "il gioco al mare come campo dell'intensità pura senza memoria",
+    "ryokan_service": "il servizio agli ospiti come apprendistato della cura"
+  },
+  "editorial_principle": "I rituali nella Locanda Nakamura sono i rituali dell'estate: i pasti collettivi, il servizio agli ospiti, il gioco al mare, il compleanno con la torta preparata dagli amici. Ogni rituale è già una forma di addio che non sa ancora di essere tale.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "debutto_nakai",
+      "label_en": "nakai_debut",
+      "type": "nakai_initiation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il debutto come nakai trasforma Taeko da ospite del ryokan a sua custode — il campo dell'appartenenza che cambia registro",
+      "kokyu": "il ritmo del servizio nakai è quello della cura precisa: osservare, ascoltare, anticipare — il corpo che impara a prendersi cura degli altri",
+      "yūgen": "Taeko potrebbe proprio diventare una vera nakai — il complimento della nonna come campo del futuro che non si realizzerà",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il debutto come nakai porta già il campo della fine: Taeko diventerà nakai per una sola estate"
+      },
+      "affects": {
+        "ritual-02": "il debutto produce la consapevolezza della routine come campo della bellezza quotidiana"
+      },
+      "textual_anchor_it": "Mi sentii importante. Guidai gli ospiti nelle loro stanze, gli servii il tè di benvenuto, cercai di capire i loro bisogni con discrezione.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "pasto_collettivo",
+      "label_en": "collective_meal",
+      "type": "summer_meal",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il pranzo collettivo in veranda vista piscina è il campo della totalità: tutti e sette più il personale del ryokan — il campo dell'appartenenza al suo massimo",
+      "kokyu": "il ritmo del pasto collettivo è quello dell'estate: improvvisato, abbondante, rumoroso — il corpo che mangia come i porcellini divertiti",
+      "yūgen": "tutti e sette inginocchiati sui cuscini a riempirci la bocca come porcellini divertiti — il campo della totalità che non sa ancora di essere temporanea",
+      "affects": {
+        "ritual-03": "il pasto collettivo produce il compleanno come campo dell'intensità condivisa"
+      },
+      "textual_anchor_it": "Tutti e sette inginocchiati sui cuscini a riempirci la bocca come porcellini divertiti.",
+      "glossary_link": ["basho", "mono no aware", "kokyu"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "compleanno_torta",
+      "label_en": "birthday_cake",
+      "type": "birthday_ritual",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il quattordicesimo compleanno di Taeko come campo della soglia: i quattordici anni come tappa importante nella mente di una bambina che vuole essere grande",
+      "kokyu": "il ritmo del compleanno è quello dell'intensità concentrata: la collanina della nonna, il primo caffè, il debutto da nakai, la confidenza di Emi — tutto nello stesso giorno",
+      "yūgen": "la torta preparata dagli amici che sapevano appena bollire un uovo: il campo dell'amore come gesto goffo e perfetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "quel compleanno non si ripeterà: ognuno di quei quattordici anni porta già il campo della fine"
+      },
+      "textual_anchor_it": "Il pan di spagna era un po' asciutto sui bordi, ma la farcitura di panna e pezzetti di fragole era squisita.",
+      "glossary_link": ["mono no aware", "basho", "yūgen"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "gioco_mare",
+      "label_en": "sea_play",
+      "type": "seaside_play",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il mare come campo dell'intensità pura: lanciare i vestiti a casaccio, tuffarsi lanciando strida come aquile — il corpo che non pensa ma esiste completamente",
+      "kokyu": "il ritmo del gioco al mare è quello dell'estate senza orologio: non c'è prima né dopo, solo il presente dell'acqua e del sole",
+      "yūgen": "ci tuffammo in acqua lanciando strida come aquile — il campo dell'intensità pura che non lascia spazio al pensiero della fine",
+      "textual_anchor_it": "Lanciammo i vestiti a casaccio e ci tuffammo in acqua lanciando strida come aquile.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "pic_nic_salici",
+      "label_en": "willow_picnic",
+      "type": "summer_meal",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il pic-nic sotto i salici come campo del raccoglimento: sandwich, onigiri, tè freddo — il gruppo nel suo momento più intimo e silenzioso",
+      "kokyu": "il ritmo del pic-nic è quello della lentezza estiva: si mangiava con calma, ci si guardava, ci si sorrideva — il tempo che si dilata",
+      "yūgen": "quelle immagini le serbo nella mente e riscaldano ancora il mio cuore — il campo del ricordo che porta già la distanza temporale dal momento che descrive",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il pic-nic sotto i salici è irrecuperabile: il campo persiste come calore nel cuore della narratrice adulta"
+      },
+      "textual_anchor_it": "Quelle immagini le serbo nella mente e riscaldano ancora il mio cuore.",
+      "glossary_link": ["mono no aware", "basho", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-02",
+    "narrative_model": "cinque rituali dell'estate come campi dell'intensità che porta già la propria fine: il pasto, il debutto, il compleanno, il mare, il pic-nic",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
