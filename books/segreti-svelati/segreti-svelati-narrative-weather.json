@@ -1,0 +1,108 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "weather_types": {
+    "industrial_fog": "nebbia come campo percettivo dell'opacità strutturale — ciò che è visibile ma non leggibile",
+    "winter_cold": "freddo come percezione corporea dell'esclusione prima che diventi comprensione sociale",
+    "liberation_sky": "cielo finale come rivelazione retroattiva — l'apertura che svela l'inganno precedente",
+    "artificial_brightness": "luminosità costruita che impedisce di vedere le ombre del sistema"
+  },
+  "editorial_principle": "Il clima in Segreti Svelati non è scenografia: è il campo percettivo dell'inganno. La nebbia governa il sistema dall'inizio alla fine — descrive esattamente il meccanismo del libro: ciò che è visibile ma non leggibile, ciò che è davanti agli occhi ma resta opaco, ciò che esiste ma viene interpretato male. Il cielo finale non governa il romanzo: ne è la conseguenza.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "nebbia_milanese",
+      "label_en": "milan_fog",
+      "type": "industrial_fog",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la nebbia di Milano come campo dell'opacità strutturale: tutto è visibile, niente è leggibile — esattamente il meccanismo percettivo del romanzo",
+      "kokyu": "il ritmo della nebbia è quello della sospensione continua: niente è nitido, niente è definitivo, tutto può essere frainteso",
+      "yūgen": "la nebbia non nasconde: lascia vedere male — la differenza è strutturale; il lettore vede Francesca chiaramente e sbaglia ugualmente",
+      "affects": {
+        "weather-02": "la nebbia produce le condizioni in cui il freddo dell'esclusione non viene riconosciuto come tale",
+        "weather-04": "la nebbia rende necessaria la luce artificiale del boom — l'abbagliamento come risposta all'opacità"
+      },
+      "textual_anchor_it": "Mi mancavano le nebbie notturne in cui amavo perdermi spesso.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "weather-02",
+      "label": "freddo_invernale_esclusione",
+      "label_en": "winter_cold_exclusion",
+      "type": "winter_cold",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il freddo entra dalle finestre, attraversa i corridoi della casa di cura e le strade della città — il corpo percepisce prima di comprendere l'esclusione",
+      "kokyu": "il ritmo del freddo è quello dell'esposizione progressiva: chi non appartiene al sistema non ha tepore — lo sente prima di saperlo",
+      "yūgen": "il freddo del primo capitolo è il campo percettivo dell'intero libro: la Milano del boom è calda solo per chi si adegua",
+      "affects": {
+        "weather-04": "il freddo produce il bisogno della luce artificiale come campo di calore simulato"
+      },
+      "textual_anchor_it": "La ciminiera col suo fumo nero invadeva il cielo non ancora completamente rischiarato dalle luci del giorno su Milano.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "cielo_finale_azzurro",
+      "label_en": "final_blue_sky",
+      "type": "liberation_sky",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "il cielo finale di Milano come unico spazio aperto rimasto dopo la chiusura di tutto — la narratrice in ginocchio guarda il cielo più limpido e azzurro che abbia mai visto",
+      "kokyu": "il ritmo finale è quello del contrasto assoluto: tutto era chiuso, grigio, opaco — e ora il cielo è aperto, azzurro, definitivo",
+      "yūgen": "il cielo limpido non è consolazione: è la misura della perdita — più è bello, più è insopportabile che Giulia sia sparita sotto di esso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il cielo azzurro finale non chiude: rimane aperto come la domanda su dove sia Giulia"
+      },
+      "affects": {
+        "weather-01": "il cielo limpido rivela retroattivamente che la nebbia non era climatica ma percettiva"
+      },
+      "textual_anchor_it": "Guardai il cielo, quel maledetto cielo che non era mai stato più limpido e azzurro a Milano.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "weather-04",
+      "label": "luce_boom_economico",
+      "label_en": "economic_boom_light",
+      "type": "artificial_brightness",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "la luce artificiale del boom come campo dell'abbagliamento obbligatorio: cartelloni pubblicitari, elettrodomestici, donne sorridenti — una luminosità che non illumina ma abbaglia",
+      "kokyu": "il ritmo della luce del boom è quello della superficie continua: brillante, senza ombre — esattamente ciò che produce il punto cieco su Giulia",
+      "yūgen": "la luce del boom non illumina: abbaglia — chi non sorride sotto quella luce viene classificato come malato; chi è nell'ombra diventa invisibile",
+      "affects": {
+        "weather-01": "la luce artificiale intensifica la nebbia percettiva — più si abbaglia, meno si vede"
+      },
+      "textual_anchor_it": "I cartelloni pubblicitari raffiguravano donne sorridenti, acconciate e truccate alla perfezione, accanto a elettrodomestici sempre più evoluti.",
+      "glossary_link": ["basho", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — opacità: la nebbia come meccanismo percettivo del romanzo",
+      "step_2": "weather-02 — esclusione: il freddo come percezione corporea prima della comprensione",
+      "step_3": "weather-04 — abbagliamento: la luce artificiale che impedisce di vedere le ombre",
+      "step_4": "weather-03 — rivelazione: il cielo limpido che svela retroattivamente l'inganno"
+    },
+    "narrative_model": "quattro campi atmosferici che replicano la struttura del romanzo: opacità → esclusione → abbagliamento → rivelazione",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
