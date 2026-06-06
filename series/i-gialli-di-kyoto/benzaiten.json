@@ -1,0 +1,97 @@
+{
+  "node_id": "benzaiten",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "弁財天",
+    "name_it": "Benzaiten",
+    "field": "mitologia giapponese sincretica — divinità femminile",
+    "origin": "induismo — Sarasvati, divinità indiana della conoscenza e delle arti. Giunta in Giappone attraverso il buddhismo cinese, periodo Nara (710–794).",
+    "summary": "Benzaiten è l'unica figura femminile tra i shichifukujin. Presiede a musica, arte, eloquenza, saggezza e acque. È rappresentata con uno shamisen o un biwa in mano, spesso accompagnata da un serpente bianco. I suoi santuari sorgono su isole o vicino all'acqua — il lago Biwa prende il nome dal biwa, il liuto che le è sacro.",
+    "sacred_animal": "serpente bianco — messaggero di Benzaiten, segno di fortuna se avvistato",
+    "sacred_instrument": "biwa (liuto a quattro corde) o shamisen (liuto a tre corde)",
+    "sacred_locations": [
+      {
+        "name": "Isola di Chikubushima",
+        "location": "Lago Biwa, Shiga",
+        "note": "uno dei tre grandi santuari di Benzaiten in Giappone — raggiungibile solo in barca"
+      },
+      {
+        "name": "Enoshima",
+        "location": "Kanagawa",
+        "note": "isola-santuario vicino a Kamakura"
+      },
+      {
+        "name": "Itsukushima",
+        "location": "Hiroshima",
+        "note": "il torii sull'acqua — patrimonio UNESCO"
+      }
+    ]
+  },
+
+  "sarasvati_connection": {
+    "name_sa": "Sarasvati",
+    "origin": "induismo vedico",
+    "domains": "conoscenza, musica, arte, eloquenza, saggezza",
+    "transformation": "In Giappone Sarasvati diventa Benzaiten — mantiene gli attributi musicali e femminili, acquista il dominio delle acque e la connessione con i serpenti. Il processo è un esempio di honji suijaku: adattamento delle divinità straniere al pantheon shintoista."
+  },
+
+  "shamisen_note": {
+    "name_ja": "三味線",
+    "name_it": "shamisen",
+    "description": "Liuto a tre corde con cassa ricoperta di pelle — suono percussivo e melodico insieme. Strumento del teatro kabuki, della musica geisha, della narrativa joruri. Il plettro bachi produce un attacco secco caratteristico.",
+    "benzaiten_connection": "Benzaiten suona il biwa — strumento antenato dello shamisen. Nel teatro kabuki lo shamisen ha preso il posto del biwa come strumento narrativo. Il lettore che interroga lo shamisen arriva a Benzaiten, e da lì al lago Biwa e alla geografia sacra del vol. 1."
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "presenza tra i sette spiriti",
+      "description": "Benzaiten è l'unico spirito femminile del gruppo — la sua presenza tra i shichifukujin introduce il dominio delle arti e dell'eloquenza nella struttura narrativa. Michele la riconosce come voce fuori dal coro."
+    },
+    {
+      "volume": 2,
+      "activation_type": "musica come codice",
+      "description": "Lo shamisen nelle scene kabuki del vol. 2 porta con sé il registro di Benzaiten — la musica non è accompagnamento ma presenza."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "geografia sacra",
+      "description": "Il lago Biwa e l'isola di Chikubushima sono luoghi del vol. 1 — il nome del lago è direttamente connesso al biwa di Benzaiten. Il lettore del vol. 2 che interroga Benzaiten risale alla geografia del vol. 1."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Chi è Benzaiten tra i sette spiriti della fortuna?",
+    "Perché Benzaiten è l'unica donna tra i shichifukujin?",
+    "Qual è il legame tra Benzaiten e il lago Biwa?",
+    "Cos'è il serpente bianco di Benzaiten?",
+    "Da quale divinità indiana deriva Benzaiten?",
+    "Cosa suona Benzaiten — biwa o shamisen?",
+    "Dove si trovano i santuari di Benzaiten in Giappone?"
+  ],
+
+  "connected_nodes": [
+    "shichifukujin",
+    "teatro-kabuki",
+    "kitsuke",
+    "hyakumonogatari-kaidankai"
+  ],
+
+  "glossario_peacock": [
+    "yūgen",
+    "ma",
+    "mono no aware"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Benzaiten, lo shamisen, il lago Biwa, o la figura femminile tra i sette spiriti. La traversata verso il vol. 1 avviene attraverso la geografia sacra del Lago Biwa e Chikubushima.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
