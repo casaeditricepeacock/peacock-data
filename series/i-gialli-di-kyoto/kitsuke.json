@@ -1,0 +1,116 @@
+{
+  "node_id": "kitsuke",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "着付け",
+    "name_it": "Arte di indossare il kimono",
+    "field": "cultura materiale giapponese — codice visivo e sociale",
+    "origin": "Giappone periodo Heian — codificazione progressiva fino al periodo Edo",
+    "summary": "Il kitsuke è la disciplina che regola come si indossa il kimono. Non è estetica: è un sistema di comunicazione. Il tipo di kimono, il colore, il motivo, la posizione dell'obi, il modo in cui la gonna si sovrappone — ogni elemento comunica età, stato civile, occasione, intenzione. Un osservatore addestrato legge una persona vestita in kimono come un testo."
+  },
+
+  "vocabulary": [
+    {
+      "term_ja": "着物",
+      "term_it": "kimono",
+      "definition": "letteralmente: cosa che si indossa — abito tradizionale a forma di T, avvolto attorno al corpo e fermato dall'obi. Il lato sinistro va sempre sopra il destro — invertito solo per vestire i morti."
+    },
+    {
+      "term_ja": "帯",
+      "term_it": "obi",
+      "definition": "fascia larga che avvolge il kimono in vita. Il nodo comunica: obi annodato davanti indica geisha o donna di piacere nel periodo Edo — oggi è segno di lutto o trascuratezza. Obi annodato dietro è la norma."
+    },
+    {
+      "term_ja": "足袋",
+      "term_it": "tabi",
+      "definition": "calzini bianchi con dito separato per il sandalo zori o il geta. Indossati sempre con il kimono formale. Il bianco indica purezza e occasione cerimoniale."
+    },
+    {
+      "term_ja": "草履",
+      "term_it": "zori",
+      "definition": "sandalo piatto in pelle o tessuto — indossato con i tabi in occasioni formali"
+    },
+    {
+      "term_ja": "下駄",
+      "term_it": "geta",
+      "definition": "sandalo di legno rialzato — uso quotidiano o con yukata informale"
+    },
+    {
+      "term_ja": "浴衣",
+      "term_it": "yukata",
+      "definition": "kimono leggero in cotone — uso estivo e informale, festival, ryokan. Meno strati, obi più semplice."
+    },
+    {
+      "term_ja": "紋",
+      "term_it": "mon",
+      "definition": "stemma di famiglia — uno, tre o cinque mon sul kimono indicano formalità crescente. Cinque mon è il massimo livello cerimoniale."
+    }
+  ],
+
+  "reading_the_kimono": {
+    "description": "Michele come semiologo legge il kimono come sistema di segni. Ogni scelta è informazione.",
+    "codes": [
+      {
+        "element": "colore",
+        "signal": "rosso — giovinezza e passione; nero — lutto o massima formalità; bianco — purezza o morte; grigio — maturità discreta"
+      },
+      {
+        "element": "motivo",
+        "signal": "fiori di ciliegio — primavera e impermanenza; gru — longevità e fedeltà; drago — potere e protezione; onda — eternità e cambiamento"
+      },
+      {
+        "element": "numero di strati",
+        "signal": "più strati visibili al collo e ai polsi indicano cerimonia e rango"
+      },
+      {
+        "element": "apertura del colletto",
+        "signal": "colletto molto aperto sul retro del collo — codice geisha: esposizione della nuca come gesto erotico codificato"
+      }
+    ]
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "lettura semiotica",
+      "description": "Michele legge i personaggi giapponesi attraverso il kimono prima che parlino. Il kitsuke è il suo strumento investigativo — il costume dice ciò che le parole nascondono."
+    },
+    {
+      "volume": 2,
+      "activation_type": "scena kabuki",
+      "description": "Nel teatro kabuki il kitsuke è identità del personaggio — Yoshida usa questa logica anche fuori dalla scena teatrale."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è il kitsuke — l'arte di indossare il kimono?",
+    "Cosa comunica il modo in cui è annodato l'obi?",
+    "Perché il lato sinistro del kimono va sempre sopra?",
+    "Cosa significano i diversi colori del kimono?",
+    "Cosa sono i tabi e quando si indossano?",
+    "Come si legge il rango di una persona dal kimono?",
+    "Cosa indica il colletto aperto sul retro del collo?"
+  ],
+
+  "connected_nodes": [
+    "teatro-kabuki",
+    "benzaiten"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "yūgen",
+    "lentezza"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il kimono, l'obi, i tabi, o la lettura semiotica dei personaggi giapponesi. La traversata verso teatro-kabuki avviene se la query include il costume di scena.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
