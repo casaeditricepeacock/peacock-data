@@ -1,0 +1,113 @@
+{
+  "node_id": "sake-ceramica",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "日本酒",
+    "name_it": "Sake giapponese",
+    "field": "cultura materiale giapponese — bevanda cerimoniale",
+    "origin": "Giappone — produzione documentata dall'VIII secolo, codificata nel periodo Edo",
+    "summary": "Il sake è una bevanda alcolica ottenuta dalla fermentazione del riso. Non è un distillato né un vino — è una categoria a sé. La qualità dipende dal grado di lucidatura del riso: più il chicco è lucidato, più il sake è raffinato. Le bottigliette di ceramica da 180ml (ichigo) sono il formato cerimoniale e da viaggio — compatte, opache, ogni vasaio lascia il segno della propria mano."
+  },
+
+  "ceramic_bottle": {
+    "format": "ichigo",
+    "name_ja": "一合",
+    "volume_ml": 180,
+    "material": "ceramica — tokkuri o piccola bottiglia sigillata",
+    "description": "Il formato da 180ml è l'unità base del sake — un go, misura tradizionale giapponese pari a circa 180ml. Le bottigliette in ceramica sono opache: non si vede il contenuto, si deve aprire per sapere cosa c'è dentro.",
+    "tokkuri": {
+      "name_ja": "徳利",
+      "name_it": "tokkuri",
+      "description": "Caraffa in ceramica per servire il sake — collo stretto per rallentare la fuoriuscita e mantenere la temperatura. Si scalda in acqua calda per il sake caldo (kan) o si raffredda per il sake freddo (hiya)."
+    },
+    "ochoko": {
+      "name_ja": "お猪口",
+      "name_it": "ochoko",
+      "description": "Coppetta in ceramica per bere il sake — piccola, senza manico. Il formato riduce la quantità per sorso e allunga il rituale del bere."
+    }
+  },
+
+  "quality_grades": [
+    {
+      "grade": "Junmai Daiginjo",
+      "polish_rate": "50% o meno del chicco rimasto",
+      "character": "il più raffinato — aromi floreali e fruttati, complessità massima"
+    },
+    {
+      "grade": "Junmai Ginjo",
+      "polish_rate": "60% o meno",
+      "character": "equilibrato — fruttato e pulito"
+    },
+    {
+      "grade": "Junmai",
+      "polish_rate": "70% o meno",
+      "character": "carattere del riso presente — più robusto e terroso"
+    },
+    {
+      "grade": "Futsushu",
+      "polish_rate": "nessun requisito",
+      "character": "sake ordinario — il più diffuso e accessibile"
+    }
+  ],
+
+  "ritual_dimension": {
+    "kanpai": {
+      "name_ja": "乾杯",
+      "name_it": "brindisi",
+      "description": "letteralmente: svuotare la coppa — il brindisi giapponese implica bere fino in fondo"
+    },
+    "shinto_use": "Il sake è offerta rituale agli dei shintoisti — presente nei santuari come dono. Le grandi botti di sake sigillate sono dono dei produttori ai santuari.",
+    "ceremony": "Versare il sake a un altro è atto di cura e rispetto — non ci si versa da soli. Chi ha la bottiglia serve gli altri."
+  },
+
+  "italy_importers": {
+    "note": "Il sake di qualità è distribuito in Italia da importatori specializzati — principalmente a Milano, Roma, Bologna. I ristoranti giapponesi di fascia alta lo propongono in abbinamento al menu omakase.",
+    "trend": "Crescita costante dal 2015 — il sake Junmai Daiginjo entra nelle carte vini dei ristoranti stellati italiani come alternativa al vino bianco strutturato."
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "oggetto cerimoniale",
+      "description": "Le bottigliette di ceramica da 180ml compaiono nelle scene di incontro tra i personaggi giapponesi — il sake come protocollo sociale, non come bevanda. Chi serve e chi riceve definisce la gerarchia del momento."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "cultura materiale ricorrente",
+      "description": "Il sake è presenza costante nei luoghi giapponesi del vol. 1 — offerte ai santuari, incontri tra Yoshida e i suoi contatti."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è il sake giapponese?",
+    "Come si produce il sake e cosa significa lucidare il riso?",
+    "Qual è la differenza tra Junmai e Daiginjo?",
+    "Cos'è un tokkuri?",
+    "Perché non ci si versa il sake da soli?",
+    "Come si trova il sake di qualità in Italia?",
+    "Cosa significa kanpai in giapponese?"
+  ],
+
+  "connected_nodes": [
+    "kitsuke",
+    "shichifukujin"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "ma",
+    "lentezza"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il sake, le bottigliette di ceramica, o il rituale del bere nei contesti giapponesi della serie.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
