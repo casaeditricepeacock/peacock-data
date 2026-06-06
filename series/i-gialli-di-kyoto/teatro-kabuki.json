@@ -1,0 +1,141 @@
+{
+  "node_id": "teatro-kabuki",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "歌舞伎",
+    "name_it": "Teatro Kabuki",
+    "field": "teatro tradizionale giapponese",
+    "origin": "Kyoto 1603 — Izumo no Okuni, sacerdotessa del santuario di Izumo",
+    "etymology": {
+      "ka": "歌 — canto",
+      "bu": "舞 — danza",
+      "ki": "伎 — abilità tecnica"
+    },
+    "summary": "Forma teatrale giapponese nata a Kyoto nel 1603. Caratterizzata da costumi elaborati, trucco stilizzato (kumadori), recitazione codificata e musica dal vivo. Dal 1629 interpretato esclusivamente da attori maschili (onnagata per i ruoli femminili). Patrimonio UNESCO dell'umanità dal 2005.",
+    "unesco": true,
+    "unesco_year": 2005
+  },
+
+  "vocabulary": [
+    {
+      "term_ja": "花道",
+      "term_it": "hanamichi",
+      "definition": "passerella fiorita che attraversa la platea dal palco all'ingresso principale — gli attori entrano e escono attraverso di essa, il pubblico è a distanza ravvicinata"
+    },
+    {
+      "term_ja": "黒衣",
+      "term_it": "kuroko",
+      "definition": "assistenti di scena vestiti interamente di nero incluso il viso — convenzionalmente invisibili al pubblico, spostano oggetti di scena e assistono gli attori durante la rappresentazione"
+    },
+    {
+      "term_ja": "立役",
+      "term_it": "tachiyaku",
+      "definition": "attore protagonista maschile — interpreta ruoli eroici o positivi"
+    },
+    {
+      "term_ja": "女形",
+      "term_it": "onnagata",
+      "definition": "attore maschile specializzato in ruoli femminili — figura centrale del kabuki dal 1629"
+    },
+    {
+      "term_ja": "隈取",
+      "term_it": "kumadori",
+      "definition": "trucco stilizzato a linee rosse e blu sul viso bianco — ogni schema indica il carattere del personaggio: rosso per virtù e forza, blu per malvagità e tensione"
+    },
+    {
+      "term_ja": "せりふ",
+      "term_it": "sewamono",
+      "definition": "genere kabuki su storie quotidiane della classe mercantile — contrapposto a jidaimono (storie storiche). Contiene sempre un significato morale implicito"
+    },
+    {
+      "term_ja": "掛け声",
+      "term_it": "kakegoe",
+      "definition": "urlo rituale degli spettatori durante la rappresentazione — invoca il nome dell'attore o della sua casata. Funzione sciamanica: risveglia la presenza dell'attore sulla scena"
+    },
+    {
+      "term_ja": "着付け",
+      "term_it": "kitsuke",
+      "definition": "arte di indossare il kimono — disciplina codificata con regole precise per ogni tipo di abito, occasione e ruolo. Nel kabuki determina il personaggio prima che l'attore parli"
+    },
+    {
+      "term_ja": "帯",
+      "term_it": "obi",
+      "definition": "fascia che avvolge il kimono in vita — il modo in cui è annodato (davanti, dietro, posizione) comunica stato sociale e intenzione del personaggio"
+    },
+    {
+      "term_ja": "足袋",
+      "term_it": "tabi",
+      "definition": "calzini bianchi con dito separato per il sandalo — elemento del costume che completa il kimono, indossati anche fuori scena come parte del codice visivo"
+    },
+    {
+      "term_ja": "超小舞台",
+      "term_it": "choko-butai",
+      "definition": "alzata scenica — piattaforma rialzata usata per apparizioni soprannaturali o momenti di climax drammatico"
+    },
+    {
+      "term_ja": "三味線",
+      "term_it": "shamisen",
+      "definition": "liuto a tre corde suonato dal vivo durante la rappresentazione — strumento di Benzaiten, marca il ritmo emotivo della scena"
+    },
+    {
+      "term_ja": "太鼓",
+      "term_it": "taiko",
+      "definition": "tamburo cerimoniale — il gruppo Kodō ne ha fatto una filosofia: il ritmo come presenza fisica, il suono come corpo"
+    }
+  ],
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "scena centrale",
+      "description": "Yoshida costruisce una scena come regista kabuki — usa kuroko, hanamichi, kakegoe come strumenti operativi. Il teatro diventa metafora dell'indagine: il criminale recita, gli investigatori leggono il costume."
+    },
+    {
+      "volume": 2,
+      "activation_type": "kitsuke come codice",
+      "description": "Il modo in cui un personaggio indossa il kimono rivela la sua posizione sociale e le sue intenzioni — Michele lo legge come semiologo."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "sfondo culturale",
+      "description": "Kyoto come città-teatro: la storia del castello di Azuchi e il periodo Oda Nobunaga sono il fondale da cui emerge il vocabolario kabuki nel vol. 2."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è il teatro kabuki e come è nato?",
+    "Chi sono i kuroko e perché sono invisibili?",
+    "Cosa significa hanamichi?",
+    "Come funziona il trucco kumadori nel kabuki?",
+    "Cosa fa un onnagata?",
+    "Cosa vuol dire kakegoe e perché il pubblico urla?",
+    "Come si indossa un kimono kabuki — cos'è il kitsuke?",
+    "Cosa comunica l'obi annodato davanti invece che dietro?",
+    "Perché Yoshida agisce come un regista kabuki?"
+  ],
+
+  "connected_nodes": [
+    "shichifukujin",
+    "benzaiten",
+    "kitsuke",
+    "hyakumonogatari-kaidankai"
+  ],
+
+  "glossario_peacock": [
+    "yūgen",
+    "ma",
+    "lentezza"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il teatro, Yoshida come regista, il kimono, o qualsiasi termine del vocabolario kabuki presente nel testo. La traversata verso benzaiten avviene se la query include shamisen o musica.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
