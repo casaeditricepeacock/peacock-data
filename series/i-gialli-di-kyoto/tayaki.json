@@ -1,0 +1,98 @@
+{
+  "node_id": "tayaki",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "たい焼き",
+    "name_it": "Dolcetto a forma di pesce",
+    "field": "cultura materiale giapponese — street food cerimoniale",
+    "origin": "Tokyo 1909 — inventato da Seijiro Kobe nella pasticceria Naniwaya Souhonten, Azabu",
+    "summary": "Il tayaki è un dolce da strada giapponese a forma di tai — la carpa rossa dorata, pesce di buon auspicio. Pasta simile alla cialda, ripieno tradizionale di anko (pasta di fagioli azuki dolci). La forma non è decorativa: il tai è il pesce di Ebisu, spirito della fortuna — mangiare un tayaki è gesto beneaugurante."
+  },
+
+  "tai_fish": {
+    "name_ja": "鯛",
+    "name_it": "orata rossa — pagro",
+    "description": "Il tai è il pesce più prezioso della cucina giapponese — simbolo di celebrazione, fortuna e abbondanza. Ebisu, spirito della fortuna e della pesca tra i shichifukujin, lo porta sempre con sé.",
+    "etymology_play": "In giapponese: medetai (lieto, fortunato) contiene la parola tai — il pesce della fortuna è incorporato nella parola stessa per felicità.",
+    "occasions": "Matrimoni, capodanno, nascite, promozioni — il tai intero al forno è il piatto cerimoniale giapponese per eccellenza"
+  },
+
+  "fillings": [
+    {
+      "type": "anko",
+      "name_ja": "あんこ",
+      "description": "pasta di fagioli azuki dolci — ripieno tradizionale, due varianti: tsubuan (grana grossa, fagioli interi visibili) e koshian (pasta liscia filtrata)"
+    },
+    {
+      "type": "custard",
+      "name_ja": "カスタード",
+      "description": "crema pasticcera — variante moderna più diffusa tra i giovani"
+    },
+    {
+      "type": "cioccolato",
+      "description": "variante contemporanea — presente nelle versioni da esportazione e nei festival"
+    },
+    {
+      "type": "formaggio e patata dolce",
+      "description": "varianti regionali — Kyoto privilegia i ripieni tradizionali, Tokyo sperimenta"
+    }
+  ],
+
+  "production": {
+    "mold": "stampo in ghisa a forma di tai — due metà incernierate. La pasta viene versata, il ripieno aggiunto, lo stampo chiuso e girato sul fuoco.",
+    "texture": "croccante fuori, morbido dentro — la coda è sempre più croccante della testa per distribuzione del calore",
+    "debate": "Dibattito nazionale giapponese su dove iniziare a mangiare il tayaki: dalla testa o dalla coda. Nessuna risposta corretta — rivela il carattere."
+  },
+
+  "naniwaya": {
+    "name": "Naniwaya Souhonten",
+    "location": "Azabu, Tokyo",
+    "founded": 1909,
+    "note": "La pasticceria originale è ancora aperta — fila quotidiana. Usa ancora gli stampi in ghisa originali degli anni Venti."
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "oggetto di scena quotidiano",
+      "description": "I tayaki compaiono nelle scene di strada di Kyoto — acquistati da un venditore ambulante, consumati camminando. Momento di normalità dentro la tensione narrativa. La forma del tai connette silenziosamente a Ebisu e ai shichifukujin."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "cultura materiale ricorrente",
+      "description": "Il tayaki è presenza visiva nel paesaggio di Kyoto del vol. 1 — oggetto che il lettore riconosce nel vol. 2 come già noto."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è un tayaki?",
+    "Perché il tayaki ha la forma di un pesce?",
+    "Cosa c'entra il tai con la fortuna giapponese?",
+    "Qual è il ripieno originale del tayaki?",
+    "Dove è stato inventato il tayaki?",
+    "Dal tayaki si inizia a mangiare dalla testa o dalla coda?",
+    "Dove si trova il tayaki a Kyoto?"
+  ],
+
+  "connected_nodes": [
+    "shichifukujin",
+    "sake-ceramica"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "mono no aware"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il tayaki, il cibo di strada di Kyoto, o il pesce tai come simbolo. La traversata verso shichifukujin avviene se la query include Ebisu o il pesce della fortuna.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
