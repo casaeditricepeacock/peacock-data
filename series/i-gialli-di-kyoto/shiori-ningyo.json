@@ -1,0 +1,86 @@
+{
+  "node_id": "shiori-ningyo",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "栞人形",
+    "name_it": "Bamboline segnalibro in carta washi",
+    "field": "artigianato giapponese — cultura materiale",
+    "origin": "Giappone periodo Edo — tradizione degli omiyage (souvenir artigianali) dei templi e santuari di Kyoto",
+    "summary": "Le shiori ningyo sono piccole bamboline piatte costruite in carta washi decorata — chiyogami. Usate come segnalibro ma anche come oggetto devozionale e souvenir. Ogni bambolina è piegata e ritagliata a mano. I motivi chiyogami riprendono i pattern dei kimono tradizionali — fiori, onde, gru, motivi geometrici."
+  },
+
+  "materials": {
+    "washi": {
+      "name_ja": "和紙",
+      "name_it": "carta washi",
+      "description": "Carta tradizionale giapponese prodotta a mano da fibre vegetali — kozo (gelso), mitsumata, gampi. Più resistente della carta occidentale, sottile ma tenace. Patrimonio UNESCO dell'umanità dal 2014.",
+      "production_areas": ["Echizen (Fukui)", "Mino (Gifu)", "Inshu (Tottori)"],
+      "note": "La washi assorbe l'inchiostro diversamente dalla carta occidentale — ogni pennellata ha un comportamento unico"
+    },
+    "chiyogami": {
+      "name_ja": "千代紙",
+      "name_it": "carta chiyogami",
+      "description": "Carta washi decorata con motivi stampati a mano tramite silografia — xilografia giapponese. I pattern riprendono i tessuti kimono tradizionali. Prodotta principalmente a Kyoto e Tokyo.",
+      "motifs": ["sakura", "asa no ha (foglia di canapa)", "seigaiha (squame di pesce)", "yagasuri (frecce incrociate)", "shippo (cerchi sovrapposti)"]
+    }
+  },
+
+  "bookmark_culture": {
+    "shiori": {
+      "name_ja": "栞",
+      "name_it": "segnalibro",
+      "etymology": "dal verbo shioru — piegare, segnare. Originariamente un ramoscello piegato per segnare il cammino nei boschi.",
+      "note": "Il segnalibro come orientamento — la stessa radice semantica del navigare in un testo e del navigare in un bosco"
+    },
+    "omiyage_culture": {
+      "name_ja": "お土産",
+      "name_it": "souvenir rituale",
+      "description": "In Giappone il souvenir non è decorativo — è obbligo sociale. Chi viaggia porta omiyage ai colleghi, amici, familiari. Le shiori ningyo dei templi di Kyoto sono omiyage canonici: piccoli, leggeri, culturalmente densi."
+    }
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "oggetto di scambio",
+      "description": "Le shiori ningyo circolano tra i personaggi come doni — oggetti apparentemente innocui che nascondono messaggi o servono da segnaposto in un testo cifrato. Michele le legge come documenti."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "cultura materiale di Kyoto",
+      "description": "I negozi di Kyoto espongono shiori ningyo — presenza visiva nel paesaggio del vol. 1 che il lettore riconosce nel vol. 2."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cosa sono le shiori ningyo giapponesi?",
+    "Come si fa una bambolina segnalibro in carta washi?",
+    "Cos'è la carta chiyogami?",
+    "Come si produce la carta washi tradizionale?",
+    "Cosa significa omiyage in giapponese?",
+    "Perché il segnalibro in giapponese si chiama shiori?"
+  ],
+
+  "connected_nodes": [
+    "kitsuke",
+    "teatro-kabuki"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "mono no aware",
+    "lentezza"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga le bamboline, la carta washi, il chiyogami, o la cultura dei souvenir di Kyoto.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
