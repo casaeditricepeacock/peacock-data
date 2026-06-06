@@ -1,0 +1,93 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "print_identity": "oggetto editoriale artigianale che introduce il lettore nel campo dell'indagine prima ancora dell'apertura del volume",
+  "print_types": {
+    "handmade_cover": "copertina con fotografia applicata manualmente",
+    "material_uniqueness": "variazione percettiva tra le copie",
+    "reading_compactness": "volume agile progettato per lettura continua",
+    "series_materiality": "identità fisica condivisa con la collana Romanzo pop"
+  },
+  "editorial_principle": "L'oggetto-libro anticipa il tema centrale dell'opera: dietro l'apparente uniformità esiste sempre una differenza invisibile. Ogni copia sembra uguale alle altre ma porta una minima variazione materiale, come ogni personaggio sembra leggibile ma custodisce un segreto non immediatamente visibile.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "fotografia_applicata_a_mano",
+      "label_en": "hand_applied_photograph",
+      "type": "handmade_cover",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la copertina costituisce il primo spazio narrativo del libro — il lettore entra nel campo dell'indagine ancora prima della lettura",
+      "kokyu": "il ritmo del gesto manuale interrompe la serialità industriale della stampa",
+      "yūgen": "nessuna copia coincide perfettamente con un'altra — la differenza esiste ma quasi non si vede",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la traccia della mano che ha applicato la fotografia non può essere completamente registrata dal sistema editoriale"
+      },
+      "textual_anchor_it": "Fotografia applicata a mano in copertina.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "compattezza_del_volume",
+      "label_en": "volume_compactness",
+      "type": "reading_compactness",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il formato compatto favorisce una lettura ravvicinata e continua",
+      "kokyu": "il libro tende a essere letto in poche sessioni lunghe piuttosto che in consultazioni frammentate",
+      "yūgen": "la facilità materiale della lettura contrasta con la crescente complessità morale della storia",
+      "textual_anchor_it": "Romanzo pop — formato agile di lettura.",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "print-03",
+      "label": "identita_materiale_collana",
+      "label_en": "series_material_identity",
+      "type": "series_materiality",
+      "intensity": 0.90,
+      "perceptual_weight": 0.88,
+      "basho": "la collana Romanzo pop costituisce un territorio editoriale riconoscibile",
+      "kokyu": "la continuità grafica permette al lettore di riconoscere immediatamente l'appartenenza al sistema Peacock",
+      "yūgen": "libri differenti condividono una stessa soglia materiale pur generando campi narrativi molto diversi",
+      "textual_anchor_it": "Collana Romanzo pop — amore, libertà e diversità.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "print-04",
+      "label": "oggetto_figlio",
+      "label_en": "derived_volume",
+      "type": "material_uniqueness",
+      "intensity": 0.88,
+      "perceptual_weight": 0.86,
+      "basho": "il volume esiste come oggetto autonomo ma mantiene la memoria della sua origine editoriale",
+      "kokyu": "il libro può essere letto indipendentemente senza richiedere la conoscenza dell'opera madre",
+      "yūgen": "l'esistenza di una struttura narrativa più ampia rimane percepibile come presenza invisibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "una parte del mondo narrativo resta fuori dal volume e continua a esistere oltre il suo perimetro"
+      },
+      "textual_anchor_it": "Edizione speciale tratta dal romanzo Vite nel buio.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_layer": "print-01",
+    "material_focus": "unicità artigianale",
+    "narrative_model": "la materialità introduce il lettore al tema del segreto: l'apparente uniformità nasconde differenze invisibili",
+    "stability": "high",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
