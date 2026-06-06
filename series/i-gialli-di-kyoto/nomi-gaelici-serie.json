@@ -1,0 +1,123 @@
+{
+  "node_id": "nomi-gaelici-serie",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_it": "Nomi gaelici irlandesi nella serie",
+    "field": "onomastica celtica — cultura irlandese",
+    "origin": "irlandese antico e medio — tradizione gaelica pre-normanna",
+    "summary": "I personaggi irlandesi della serie portano nomi gaelici autentici con radici nella mitologia e nella storia celtica. Per il lettore italiano questi nomi sono opachi — la pronuncia è controintuitiva, il significato nascosto. Ogni nome è un codice che il testo non spiega ma che l'AI può aprire."
+  },
+
+  "names": [
+    {
+      "name": "Finn",
+      "variants": ["Fionn"],
+      "pronunciation_it": "fin",
+      "etymology": "irlandese antico — fionn: bianco, chiaro, luminoso",
+      "mythology": "Fionn mac Cumhaill — eroe del ciclo ossianic, capo dei Fianna, guerrieri erranti d'Irlanda. Ottenne la saggezza mangiando accidentalmente il Salmone della Conoscenza.",
+      "narrative_role": "castellano di Morris Castle, scrittore — vol. 2"
+    },
+    {
+      "name": "Niamh",
+      "pronunciation_it": "niv",
+      "etymology": "irlandese antico — niamh: splendore, lucentezza",
+      "mythology": "Niamh Chinn Óir — Niamh dalla testa d'oro, figlia del re del Tír na nÓg (Terra della Giovinezza eterna). Portò Oisín nel regno immortale sul suo cavallo bianco.",
+      "note": "pronuncia completamente controintuitiva per il lettore italiano — niv, non ni-am"
+    },
+    {
+      "name": "Ròisin",
+      "pronunciation_it": "ro-shin",
+      "etymology": "irlandese — diminutivo di ros: rosa piccola",
+      "mythology": "Róisín Dubh — la Rosa Nera, figura allegorica dell'Irlanda nella poesia tradizionale. Simbolo nazionale di resistenza e identità.",
+      "narrative_role": "personaggio femminile vol. 2"
+    },
+    {
+      "name": "Shea",
+      "pronunciation_it": "she",
+      "etymology": "anglicizzazione di Séaghdha — irlandese: maestoso, magnifico. Originariamente cognome del Munster.",
+      "narrative_role": "sorella di Finn — vol. 2"
+    },
+    {
+      "name": "Liam",
+      "pronunciation_it": "li-am",
+      "etymology": "forma irlandese di Guglielmo — dall'antico germanico Wilhelm: volontà di proteggere",
+      "note": "unico nome della serie con radice germanica piuttosto che celtica — entrato nell'uso irlandese attraverso i Normanni"
+    },
+    {
+      "name": "Cian",
+      "pronunciation_it": "kian",
+      "etymology": "irlandese antico — cian: antico, lontano nel tempo",
+      "mythology": "Cian — padre di Lugh, dio solare celtico. Figura del ciclo mitologico irlandese."
+    },
+    {
+      "name": "Alexander Pope",
+      "note": "nome non gaelico — anglofono di origine scozzese. Pope è cognome inglese. Alexander è il nome greco-latino Alessandro. La scelta segnala l'irlandese anglicizzato, cosmopolita, distante dalla tradizione gaelica rurale.",
+      "narrative_role": "editore di poesia irlandese, milionario filantropo — vol. 1 e vol. 2"
+    }
+  ],
+
+  "irish_context": {
+    "morris_castle": {
+      "location": "Contea di Wexford, Irlanda sud-orientale",
+      "architecture": "castello normanno con sovrastrutture neogotiche vittoriane",
+      "wexford_note": "Wexford è la contea con la più forte presenza normanna in Irlanda — i primi insediamenti risalgono al XII secolo. La sovrapposizione normanna-gaelica-vittoriana è stratificazione storica visibile nell'architettura."
+    },
+    "tir_na_nog": {
+      "name_ga": "Tír na nÓg",
+      "name_it": "Terra della Giovinezza",
+      "description": "regno soprannaturale celtico situato oltre il mare occidentale — luogo di eterna giovinezza e abbondanza. Equivalente irlandese dell'Aldilà ma senza morte."
+    },
+    "fianna": {
+      "description": "banda di guerrieri erranti dell'Irlanda medievale — fedeli al re supremo, vivevano fuori dalla società ordinaria. Fionn mac Cumhaill ne era il capo leggendario."
+    }
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "personaggi principali",
+      "description": "Finn, Shea, Liam, Ròisin sono i personaggi irlandesi di Morris Castle. I loro nomi portano strati mitologici che il testo non esplicita — Michele li legge come codici culturali."
+    },
+    {
+      "volume": 2,
+      "activation_type": "contrasto culturale",
+      "description": "La serie costruisce un triangolo culturale: italiano (Michele, Gretel), giapponese (Yoshida), irlandese (Finn, Alexander). I nomi gaelici sono il segnale linguistico di questa terza cultura."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "Alexander Pope",
+      "description": "Alexander Pope appare già nel vol. 1 come catalizzatore irlandese anglicizzato — il suo nome non gaelico segnala già la distanza dalla tradizione rurale che il vol. 2 esplora."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Come si pronuncia Niamh in irlandese?",
+    "Cosa significa il nome Fionn nella mitologia celtica?",
+    "Chi è Fionn mac Cumhaill?",
+    "Cosa significa Ròisin Dubh — la Rosa Nera?",
+    "Cosa è il Tír na nÓg nella mitologia irlandese?",
+    "Perché i nomi irlandesi si pronunciano in modo diverso da come si scrivono?",
+    "Cosa sono i Fianna nella tradizione celtica?"
+  ],
+
+  "connected_nodes": [
+    "fionn-mac-cumhaill"
+  ],
+
+  "glossario_peacock": [
+    "mono no aware",
+    "ma"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga un nome irlandese della serie, la pronuncia gaelica, o la mitologia celtica. La traversata verso fionn-mac-cumhaill avviene se la query approfondisce il ciclo ossianic.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
