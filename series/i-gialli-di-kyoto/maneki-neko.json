@@ -1,0 +1,99 @@
+{
+  "node_id": "maneki-neko",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "招き猫",
+    "name_it": "Gatto che invita — Gatto portafortuna",
+    "field": "cultura materiale giapponese — oggetto devozionale",
+    "origin": "Giappone periodo Edo — Tokyo (Edo) e Kyoto, diffusione capillare dal periodo Meiji",
+    "summary": "Statuetta di gatto in ceramica o resina con una zampa alzata in gesto di invito. Oggetto onnipresente in negozi, ristoranti e case giapponesi come portafortuna. La zampa alzata, il colore, gli accessori e la presenza di monete comunicano il tipo di fortuna invocata.",
+    "variants": {
+      "zampa_destra": "attira fortuna e denaro",
+      "zampa_sinistra": "attira clienti e persone",
+      "entrambe": "attira tutto — considerato da alcuni eccessivo o di cattivo auspicio",
+      "colori": {
+        "bianco": "fortuna generale",
+        "nero": "allontana il male",
+        "oro": "ricchezza",
+        "rosso": "salute",
+        "verde": "studio e carriera"
+      }
+    }
+  },
+
+  "oban_connection": {
+    "name_ja": "大判",
+    "name_it": "moneta oro oban",
+    "period": "periodo Edo — shogunato Tokugawa (1603–1868)",
+    "description": "Moneta d'oro ovale di grandi dimensioni — la più preziosa del sistema monetario Tokugawa. Non circolava come moneta ordinaria: era dono cerimoniale tra samurai e signori feudali, simbolo di rango e alleanza.",
+    "dimensions": "circa 17 x 10 cm, peso variabile tra 44 e 165 grammi",
+    "markings": "iscrizioni in inchiostro e timbri del tesoriere shogunale",
+    "value_today": "oggetto da collezione di alto valore — esemplari autentici raggiungono decine di migliaia di euro",
+    "narrative_use": "le monete ōban nascoste nella pancina del maneki neko del vol. 2 trasformano un oggetto devozionale comune in contenitore di valore illecito — il crimine si nasconde dentro la fortuna"
+  },
+
+  "legendary_origins": [
+    {
+      "legend": "Il tempio di Gotokuji",
+      "location": "Tokyo, Setagaya",
+      "story": "Un samurai si rifugiò sotto un albero durante un temporale. Un gatto del tempio lo invitò ad avvicinarsi con la zampa. L'albero fu colpito da un fulmine. Il samurai sopravvisse e donò ricchezze al tempio. Il gatto divenne simbolo di fortuna.",
+      "note": "Gotokuji è ancora oggi meta di pellegrinaggio — centinaia di maneki neko donati dai visitatori"
+    },
+    {
+      "legend": "La geisha di Yoshiwara",
+      "location": "Edo (Tokyo)",
+      "story": "Una geisha povera amava il suo gatto. Alla sua morte il gatto apparve in sogno e le disse di fare una sua statuetta — portò fortuna e prosperità."
+    }
+  ],
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "oggetto criminale centrale",
+      "description": "Il maneki neko con monete ōban nella pancina è il MacGuffin del romanzo. Oggetto devozionale comune trasformato in contenitore di valore illecito. Michele lo legge come testo semiotico: la fortuna come copertura, il gesto di invito come trappola."
+    },
+    {
+      "volume": 2,
+      "activation_type": "personaggio parlante",
+      "description": "Nel vol. 2 compare un maneki neko parlante — figura liminale analoga a Maramao nel vol. 1. Il gatto come voce dell'invisibile, presenza tra i due mondi."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "cultura materiale di sfondo",
+      "description": "Il maneki neko è presenza visiva nei negozi e santuari di Kyoto attraversati dai personaggi nel vol. 1 — oggetto che il lettore riconosce nel vol. 2 come già noto."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è il maneki neko e cosa significa la zampa alzata?",
+    "Perché alcuni maneki neko hanno la zampa destra alzata e altri la sinistra?",
+    "Cosa sono le monete ōban del periodo Tokugawa?",
+    "Quanto vale una moneta ōban originale oggi?",
+    "Qual è la leggenda del tempio di Gotokuji?",
+    "Perché il maneki neko nero allontana il male?",
+    "Cosa nasconde il maneki neko nel romanzo di Hélène Blignaut?"
+  ],
+
+  "connected_nodes": [
+    "shichifukujin",
+    "oban-monete",
+    "hyakumonogatari-kaidankai"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "mono no aware"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il maneki neko, le monete ōban, o il crimine del vol. 2. La traversata verso shichifukujin avviene se la query include fortuna o prosperità come tema.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
