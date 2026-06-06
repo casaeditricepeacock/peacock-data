@@ -1,0 +1,91 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "dominant_field": "field-04",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_inganno_strutturale",
+      "type": "cognitive_field",
+      "basho": "l'osservazione produce errore invece che comprensione",
+      "kokyu": "ogni indizio aumenta la falsa certezza",
+      "yūgen_level": 0.97,
+      "activation_condition": "ogni scena centrata su Francesca",
+      "persistence_rule": "attivo fino alla confessione",
+      "dissolution_rule": "collassa completamente dopo la rivelazione di Giulia",
+      "field_logic": "false_evidence_accumulation"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_giulia_invisibile",
+      "type": "residual_field",
+      "basho": "presenza continua ma non riconosciuta",
+      "kokyu": "compare spesso senza diventare mai il centro",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni apparizione di Giulia",
+      "persistence_rule": "retroattivo",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "invisible_subject_as_center"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_amore_materno_assoluto",
+      "type": "emotional_field",
+      "basho": "il legame Francesca-Giulia come centro energetico del sistema",
+      "kokyu": "protezione, sacrificio, silenzio, fuga",
+      "yūgen_level": 0.99,
+      "activation_condition": "confessione finale",
+      "persistence_rule": "continua oltre la chiusura del romanzo",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "maternal_love_as_hidden_engine"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_giudizio_sociale",
+      "type": "social_field",
+      "basho": "Milano 1960 come sistema che assegna colpa prima della comprensione",
+      "kokyu": "diagnosi, pettegolezzo, conformismo, esclusione",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni intervento della società sulle vite femminili",
+      "persistence_rule": "attivo dall'inizio alla fine",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "social_judgement_as_reality_generator"
+    },
+    {
+      "id": "field-05",
+      "label": "campo_liberta_irraggiungibile",
+      "type": "threshold_field",
+      "basho": "la moto di Giulia, la strada aperta, il cielo finale",
+      "kokyu": "il sistema si apre proprio quando il personaggio scompare",
+      "yūgen_level": 0.96,
+      "activation_condition": "ultima scena",
+      "persistence_rule": "rimane nel lettore",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "freedom_through_disappearance"
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-04",
+    "secondary": ["field-02", "field-03"],
+    "terminal": "field-05"
+  },
+  "system_note": {
+    "field_count": 5,
+    "ontology": "strict_perceptual_4_1",
+    "core_operation": "the reader judges before understanding",
+    "structural_inversion": "the confession transforms guilt into sacrifice and monster into daughter",
+    "reader_effect": "the reader discovers having participated in the same judgement system criticised by the novel",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
