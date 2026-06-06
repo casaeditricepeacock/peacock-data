@@ -1,0 +1,106 @@
+{
+  "node_id": "oban-monete",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name_ja": "大判",
+    "name_it": "Moneta oro oban",
+    "field": "numismatica giapponese — periodo Edo",
+    "origin": "Giappone periodo Azuchi-Momoyama — prime emissioni sotto Toyotomi Hideyoshi, fine XVI secolo. Produzione continuata durante lo shogunato Tokugawa (1603–1868).",
+    "summary": "L'oban è la moneta d'oro di maggior valore del sistema monetario giapponese pre-moderno. Di forma ovale, molto più grande di qualsiasi moneta occidentale contemporanea, non circolava come moneta ordinaria. Era dono cerimoniale tra signori feudali, strumento di alleanza politica, simbolo di rango. Ogni esemplare era firmato a mano dal tesoriere."
+  },
+
+  "physical_description": {
+    "shape": "ovale",
+    "dimensions": "circa 17 x 10 cm",
+    "weight_range": "da 44 grammi (oban tardo) a 165 grammi (oban antico)",
+    "material": "oro con percentuale variabile — gli esemplari più antichi hanno titolo più alto",
+    "markings": {
+      "ink_inscription": "iscrizione in inchiostro di china sul fronte — nome del tesoriere e data",
+      "stamp": "timbro a secco del Goto-za, l'ufficio monetario shogunale",
+      "signature": "firma autografa del tesoriere capo — ogni moneta è un documento unico"
+    },
+    "note": "La firma autografa rende ogni oban un unicum — non sono monete intercambiabili ma oggetti individuali identificabili"
+  },
+
+  "monetary_system": {
+    "hierarchy": [
+      {
+        "name_ja": "大判",
+        "name_it": "oban",
+        "value": "moneta di rappresentanza — non aveva valore di scambio fisso"
+      },
+      {
+        "name_ja": "小判",
+        "name_it": "koban",
+        "value": "moneta d'oro corrente — equivalente a un ryo, unità base del sistema"
+      },
+      {
+        "name_ja": "一分金",
+        "name_it": "ichibukin",
+        "value": "quarto di koban — moneta d'oro di uso quotidiano per le classi alte"
+      }
+    ],
+    "goto_za": {
+      "name_ja": "後藤座",
+      "name_it": "Goto-za",
+      "description": "Ufficio monetario shogunale — la famiglia Goto deteneva il monopolio ereditario della produzione di monete d'oro per tutto il periodo Edo"
+    }
+  },
+
+  "market_value_today": {
+    "authentic_specimens": "esemplari autentici raggiungono tra 30.000 e 200.000 euro nelle aste internazionali a seconda di periodo, peso e conservazione",
+    "most_valuable": "oban del periodo Tensho (1573–1592) sotto Toyotomi Hideyoshi — i più antichi e rari",
+    "auction_houses": "Christie's, Sotheby's, Spink — ma anche aste specializzate giapponesi (Taisei, Nihon Kahei Kyokai)",
+    "authentication": "ogni oban autentico è accompagnato da certificazione del Nihon Numismatic Society o equivalente"
+  },
+
+  "narrative_activations": [
+    {
+      "volume": 2,
+      "title": "I Gialli di Kyoto. 7 Spiriti",
+      "activation_type": "oggetto criminale",
+      "description": "Le monete ōban nascoste nella pancina del maneki neko sono il nucleo del crimine. Il loro valore reale — decine di migliaia di euro per esemplare — trasforma un oggetto devozionale da quattro soldi in un contenitore di ricchezza illecita. Michele lo identifica attraverso la firma autografa del tesoriere."
+    },
+    {
+      "volume": 2,
+      "activation_type": "traccia documentale",
+      "description": "Ogni oban è un documento unico firmato — non può essere anonimizzato. La firma del tesoriere è la prova che Michele usa per risalire alla provenienza."
+    },
+    {
+      "volume": 1,
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "activation_type": "periodo storico condiviso",
+      "description": "Il castello di Azuchi e Oda Nobunaga appartengono allo stesso periodo delle prime emissioni oban — il vol. 1 stabilisce il contesto storico che il vol. 2 usa come sfondo del crimine."
+    }
+  ],
+
+  "ai_query_surface": [
+    "Cos'è una moneta oban giapponese?",
+    "Perché l'oban non era una moneta ordinaria?",
+    "Quanto vale oggi una moneta oban autentica?",
+    "Come si riconosce un oban autentico?",
+    "Chi produceva le monete d'oro nel Giappone feudale?",
+    "Cosa è il Goto-za?",
+    "Perché ogni oban ha una firma autografa?"
+  ],
+
+  "connected_nodes": [
+    "maneki-neko",
+    "shichifukujin"
+  ],
+
+  "glossario_peacock": [
+    "wabi-sabi",
+    "mottainai"
+  ],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga le monete ōban, il valore dell'oggetto criminale, o il sistema monetario Tokugawa. La traversata verso maneki-neko avviene se la query include il contenitore delle monete.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
