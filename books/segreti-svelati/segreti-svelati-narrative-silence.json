@@ -1,0 +1,119 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "silence_types": {
+    "structural_blind_spot": "il silenzio come punto cieco costruito dal sistema — ciò che è visibile ma non viene visto",
+    "protective_silence": "il silenzio di chi sa e tace per proteggere — Francesca, poi la narratrice",
+    "social_unsaid": "ciò che la società del 1960 non nomina: violenza domestica, oppressione femminile, follia come punizione",
+    "confession_gap": "il silenzio tra la confessione e la sua impossibile conseguenza — la verità che non può essere processata"
+  },
+  "editorial_principle": "Il silenzio in Segreti Svelati è il vero motore narrativo. Non rappresenta un'assenza ma una forza attiva che modella il destino dei personaggi. Francesca tace per amore. La società tace sulla violenza. La follia viene usata come linguaggio sostitutivo per evitare di comprendere. La narratrice tace infine per custodire una verità che nessuna giustizia ufficiale potrebbe accogliere. Ogni silenzio produce una densità percettiva superiore alla parola pronunciata.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "silenzio_di_francesca",
+      "label_en": "francesca_silence",
+      "type": "protective_silence",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la casa di cura come spazio del silenzio protettivo: Francesca non parla perché parlare significherebbe consegnare Giulia alla distruzione",
+      "kokyu": "il ritmo del silenzio di Francesca è quello della sottrazione progressiva: meno dice, più protegge; più protegge, più scompare dal mondo",
+      "yūgen": "il silenzio di Francesca è il gesto più attivo dell'intero romanzo: un sacrificio continuo travestito da passività",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Francesca porta il segreto nella morte — il suo silenzio non verrà mai convertito in verità pubblica"
+      },
+      "affects": {
+        "silence-04": "il sacrificio di Francesca impone alla narratrice il peso del silenzio finale"
+      },
+      "textual_anchor_it": "Francesca non avrebbe mai rivelato che la bestia fosse Giulia e non avrebbe neppure voluto che la figlia fosse arrestata al posto suo.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-02",
+      "label": "silenzio_sociale_sulla_donna",
+      "label_en": "social_silence_on_women",
+      "type": "social_unsaid",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "Milano 1960 come campo del non detto: la violenza subita dalle donne non viene nominata ma assorbita dal sistema sociale",
+      "kokyu": "il ritmo del silenzio sociale è quello della rispettabilità: beneficenza, matrimonio, religione, buone maniere — ogni gesto pubblico copre una sofferenza privata",
+      "yūgen": "la donna viene giudicata prima ancora di essere ascoltata; il silenzio collettivo non protegge la vittima ma l'ordine sociale",
+      "affects": {
+        "silence-01": "il silenzio sociale rende il sacrificio di Francesca l'unica forma possibile di protezione",
+        "silence-03": "la mancata comprensione della violenza prepara la trasformazione del trauma in follia"
+      },
+      "textual_anchor_it": "La gente dice 'se l'è cercata' sia che ci vestiamo in modo succinto che no, bisbigliano 'poco di buono' se lasciamo il marito o se abbiamo tanti partner.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_della_follia",
+      "label_en": "silence_of_madness",
+      "type": "social_unsaid",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la casa di cura come luogo di deposito sociale: ciò che non viene compreso viene rinchiuso e chiamato follia",
+      "kokyu": "il ritmo della follia è quello della cancellazione progressiva: diagnosi, isolamento, oblio",
+      "yūgen": "la follia nel romanzo appare come una categoria sociale prima ancora che medica — un modo per non interrogare le cause profonde del dolore",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuno potrà stabilire dove finisca il trauma e dove inizi la follia"
+      },
+      "affects": {
+        "silence-01": "l'etichetta della follia rende credibile il sacrificio di Francesca",
+        "silence-02": "la società usa la follia per evitare di nominare la violenza",
+        "silence-04": "la confessione finale non dissolve il dubbio costruito da anni di internamento"
+      },
+      "textual_anchor_it": "Per anni tutti avevano creduto che Francesca fosse pazza.",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "silence-04",
+      "label": "silenzio_della_narratrice",
+      "label_en": "narrator_silence",
+      "type": "confession_gap",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il silenzio che segue la confessione di Giulia: la verità esiste ma non entrerà mai nelle istituzioni",
+      "kokyu": "il ritmo del silenzio finale è quello della liberazione seguita dall'assenza: confessione, comprensione, partenza",
+      "yūgen": "la narratrice diventa custode di una verità che il mondo non saprebbe accogliere senza distruggerla",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la giustizia ufficiale resterà per sempre separata dalla verità vissuta"
+      },
+      "affects": {
+        "silence-01": "eredita il sacrificio di Francesca",
+        "silence-02": "rifiuta il linguaggio sociale che aveva prodotto il silenzio originario",
+        "silence-03": "mantiene aperta l'ambiguità tra colpa, trauma e follia"
+      },
+      "textual_anchor_it": "Giulia mi guardò con i suoi occhi profondi. 'Sappi che quella mia e di mia madre è stata una grande storia di amore.'",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "secondary_field": "silence-03",
+    "narrative_model": "quattro configurazioni del silenzio: il silenzio protettivo di Francesca, il silenzio sociale sulla donna, il silenzio della follia come meccanismo di rimozione collettiva e il silenzio finale della narratrice come custodia della verità",
+    "cross_layer_coherence": {
+      "object_layer": "Francesca, Giulia e la casa di cura funzionano come condensatori del silenzio",
+      "scene_layer": "ogni rivelazione aumenta la densità del non detto invece di dissolverla",
+      "system_layer": "la soluzione del mistero non elimina il silenzio ma lo trasferisce alla narratrice"
+    },
+    "stability": "high",
+    "closure": "aperta_per_giustizia_alternativa",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
