@@ -1,0 +1,123 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "transition_types": {
+    "investigation_threshold": "passaggio dalla curiosità alla ricerca ossessiva",
+    "false_evidence_accumulation": "accumulo di prove che sembrano confermare una verità errata",
+    "identity_collapse": "crollo simultaneo delle interpretazioni precedenti",
+    "maternal_bond_revelation": "emersione del legame madre-figlia come struttura nascosta",
+    "departure_threshold": "soglia irreversibile tra passato e futuro"
+  },
+  "editorial_principle": "Le transizioni non collegano eventi ma modificano il campo percettivo del lettore. Ogni passaggio produce una nuova interpretazione della realtà narrativa. Il romanzo procede per progressive riconfigurazioni dello sguardo.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "curiosita_diventa_ossessione",
+      "label_en": "curiosity_becomes_obsession",
+      "type": "investigation_threshold",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la narratrice attraversa la soglia che separa l'osservazione professionale dal coinvolgimento personale",
+      "kokyu": "all'inizio osserva; poi cerca; infine non riesce più a smettere",
+      "yūgen": "la ricerca della verità è già una forma di trasformazione identitaria",
+      "affects": {
+        "transition-02": "l'ossessione rende possibile la costruzione dell'inganno percettivo"
+      },
+      "textual_anchor_it": "Cercavo quasi con morbosità delle informazioni su di lei. Mi ossessionava.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "transition-02",
+      "label": "accumulo_false_certezze",
+      "label_en": "false_certainties_accumulation",
+      "type": "false_evidence_accumulation",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "ogni nuovo dettaglio sembra chiarire il mistero ma allontana dalla verità",
+      "kokyu": "indizio dopo indizio il sistema costruisce una certezza apparentemente solida",
+      "yūgen": "la comprensione diventa la forma più raffinata dell'errore",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuno può sapere quando una convinzione smette di essere conoscenza e diventa illusione"
+      },
+      "affects": {
+        "transition-03": "l'accumulo rende inevitabile il crollo"
+      },
+      "textual_anchor_it": "Ogni elemento sembrava riportare a Francesca.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "transition-03",
+      "label": "crollo_della_versione_ufficiale",
+      "label_en": "collapse_of_official_version",
+      "type": "identity_collapse",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la confessione di Giulia distrugge simultaneamente tutte le interpretazioni precedenti",
+      "kokyu": "la rivelazione arriva rapidamente ma continua a propagarsi retroattivamente",
+      "yūgen": "la verità non compare all'improvviso: rende visibile ciò che era sempre stato presente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni rilettura genera un romanzo differente"
+      },
+      "affects": {
+        "transition-04": "il crollo permette di vedere il centro reale della storia"
+      },
+      "textual_anchor_it": "Come avevo fatto a non capire niente?",
+      "glossary_link": ["yūgen", "mono no aware", "ma"]
+    },
+    {
+      "id": "transition-04",
+      "label": "amore_madre_figlia",
+      "label_en": "mother_daughter_love",
+      "type": "maternal_bond_revelation",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "il centro nascosto del romanzo emerge finalmente come principio organizzatore",
+      "kokyu": "ogni episodio precedente viene reinterpretato attraverso il legame tra Francesca e Giulia",
+      "yūgen": "ciò che sembrava violenza appare come forma estrema di protezione",
+      "affects": {
+        "transition-05": "la comprensione rende possibile la partenza"
+      },
+      "textual_anchor_it": "Sappi che quella mia e di mia madre è stata una grande storia di amore.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    },
+    {
+      "id": "transition-05",
+      "label": "oltre_la_soglia",
+      "label_en": "beyond_the_threshold",
+      "type": "departure_threshold",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "la porta aperta e la moto che si allontana segnano il passaggio verso uno spazio che il romanzo non seguirà",
+      "kokyu": "il movimento continua oltre l'ultima pagina",
+      "yūgen": "il sistema raggiunge il proprio limite: può raccontare la partenza ma non il destino",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la vita di Giulia dopo la fuga resta fuori dal campo narrativo"
+      },
+      "textual_anchor_it": "Salì sulla sua moto e si allontanò senza voltarsi.",
+      "glossary_link": ["basho", "mono no aware", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-03",
+    "secondary_field": "transition-04",
+    "narrative_model": "dalla curiosità all'ossessione, dall'inganno alla rivelazione, dalla rivelazione alla partenza",
+    "stability": "high_metastable",
+    "closure": "open_without_resolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
