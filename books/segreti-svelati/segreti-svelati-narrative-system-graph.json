@@ -1,0 +1,259 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Segreti Svelati. Milano 1960",
+    "author": "Laura Gariboldi",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Romanzo pop — amore, libertà e diversità",
+    "isbn": "979-12-81715-07-3",
+    "year": 2024
+  },
+  "system_principle": "Il sistema opera come campo dell'inganno percettivo. Il lettore, come la narratrice, costruisce la colpa osservando ciò che appare evidente. Il vero centro del sistema non è Giulia ma l'impossibilità di vederla. La confessione finale non chiude il sistema: lo inverte retroattivamente e trasforma ogni elemento precedente in una nuova configurazione di senso.",
+  "node_classes": {
+    "scene": "deception_layer_configuration",
+    "object": "false_evidence_operator",
+    "ritual": "social_mask_device",
+    "transition": "threshold_between_illusion_and_revelation",
+    "silence": "structural_blind_spot_field",
+    "weather": "social_climate_operator",
+    "meta_state": "system_wide_inversion_trigger"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-06",
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-07"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "silence-03",
+    "system_shape": "deception_inversion_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "inganno_strutturale_accumulativo",
+        "nodes": [
+          "object-01",
+          "scene-01",
+          "ritual-01",
+          "silence-03"
+        ],
+        "type": "false_evidence_accumulation_loop",
+        "stability": "stable_until_confession",
+        "propagation_logic": "Ogni osservazione di Francesca produce nuove conferme apparenti. Più il lettore osserva, più rafforza il proprio errore.",
+        "description": "Il campo dell'inganno cresce attraverso elementi veri che conducono a una conclusione falsa."
+      },
+      {
+        "id": "loop-02",
+        "label": "giulia_campo_invisibile",
+        "topological_priority": "primary_generator",
+        "nodes": [
+          "object-02",
+          "silence-03",
+          "scene-03",
+          "transition-02"
+        ],
+        "type": "invisible_subject_loop",
+        "stability": "permanent_until_self_revelation",
+        "propagation_logic": "Giulia è sempre presente ma il sistema non permette di riconoscerla come soggetto reale dell'azione. Il punto cieco è ideologico prima che narrativo.",
+        "description": "La soluzione è sempre stata visibile ma il sistema impediva di leggerla correttamente."
+      },
+      {
+        "id": "loop-03",
+        "label": "legame_materno_motore_nascosto",
+        "nodes": [
+          "object-01",
+          "object-02",
+          "ritual-04",
+          "transition-04"
+        ],
+        "type": "hidden_engine_loop",
+        "stability": "permanent",
+        "propagation_logic": "Il legame tra Francesca e Giulia genera ogni movimento del sistema: sacrificio, omicidio, silenzio, fuga e confessione.",
+        "description": "Centro invisibile della narrazione rivelato solo alla fine."
+      },
+      {
+        "id": "loop-04",
+        "label": "gabbia_sociale_milano_1960",
+        "nodes": [
+          "scene-02",
+          "ritual-02",
+          "weather-02",
+          "weather-04",
+          "object-03",
+          "object-06",
+          "object-07"
+        ],
+        "type": "social_cage_loop",
+        "stability": "permanent",
+        "propagation_logic": "Il conformismo della Milano del boom trasforma la casa di cura in un dispositivo di esclusione sociale. Il pregiudizio sociale e la città producono insieme la gabbia che rende possibile tutta la tragedia.",
+        "description": "La società produce la gabbia che rende possibile tutta la tragedia."
+      },
+      {
+        "id": "loop-05",
+        "label": "confessione_inversione_totale",
+        "nodes": [
+          "object-04",
+          "ritual-03",
+          "transition-03",
+          "silence-04",
+          "object-05"
+        ],
+        "type": "system_inversion_loop",
+        "stability": "instantaneous_permanent",
+        "propagation_logic": "La confessione non aggiunge informazioni: inverte l'intero sistema e dissolve l'inganno accumulato.",
+        "description": "Ogni elemento precedente viene reinterpretato simultaneamente."
+      },
+      {
+        "id": "loop-06",
+        "label": "trasmissione_del_segreto",
+        "nodes": [
+          "silence-01",
+          "object-02",
+          "silence-04"
+        ],
+        "type": "secret_transmission_loop",
+        "stability": "permanent",
+        "propagation_logic": "Il segreto passa da Francesca a Giulia, da Giulia alla narratrice e dalla narratrice al lettore.",
+        "description": "La verità non entra mai nel sistema ufficiale ma sopravvive attraverso la trasmissione personale."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "silence-03",
+      "to": "all",
+      "effect": "blind_spot_generates_entire_system",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "all_nodes_depend_on_inability_to_see_giulia"
+    },
+    {
+      "from": "object-02",
+      "to": "all",
+      "effect": "retroactive_subject_revelation",
+      "propagation_mode": "retroactive",
+      "intensity": 0.99,
+      "stability_impact": "all_previous_events_are_reread_through_giulia"
+    },
+    {
+      "from": "transition-03",
+      "to": "all",
+      "effect": "confession_inverts_entire_system",
+      "propagation_mode": "instantaneous",
+      "intensity": 1.0,
+      "stability_impact": "false_evidence_field_dissolves_permanently"
+    },
+    {
+      "from": "silence-01",
+      "to": "silence-04",
+      "effect": "protective_silence_transmission",
+      "propagation_mode": "interpersonal",
+      "intensity": 0.96,
+      "stability_impact": "narrator_inherits_francesca_function"
+    },
+    {
+      "from": "weather-03",
+      "to": "all",
+      "effect": "open_sky_without_resolution",
+      "propagation_mode": "terminal",
+      "intensity": 0.94,
+      "stability_impact": "system_remains_open_after_departure"
+    },
+    {
+      "from": "object-06",
+      "to": "all",
+      "effect": "social_prejudice_as_structural_generator",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "prejudice_precedes_and_shapes_every_node"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "deception_field_active",
+    "allowed_mutations": [
+      "false_evidence_accumulation",
+      "blind_spot_reinforcement",
+      "social_cage_activation",
+      "maternal_bond_emergence",
+      "secret_transmission",
+      "system_inversion_via_confession"
+    ],
+    "forbidden_states": [
+      "thriller_as_entertainment_only",
+      "francesca_as_actual_guilty",
+      "giulia_as_monster",
+      "violence_as_pathology_not_response",
+      "milan_1960_as_neutral_backdrop"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "silence-03",
+    "secondary_field": "loop-03",
+    "topological_generator": "loop-02",
+    "hidden_engine": "loop-03",
+    "terminal_operator": "loop-06",
+    "stability": "deception_metastable",
+    "closure": false,
+    "closure_type": "open_inversion_without_resolution",
+    "system_behavior": "Il sistema costruisce progressivamente un errore percettivo che collassa durante la confessione finale. Dopo l'inversione il sistema non può più essere ricostruito nella forma originaria.",
+    "reader_effect": "Il lettore scopre che il vero oggetto dell'indagine non era Francesca ma il proprio modo di osservare. La rilettura genera un libro differente.",
+    "readability": "high_local_inverted_global",
+    "catalog_connection": {
+      "vite_nel_buio": "stesso universo narrativo — Segreti Svelati funziona come estrazione focalizzata di un sistema più ampio",
+      "la_locanda_nakamura": "stessa collana Romanzo pop — libertà individuale contro pressione sociale",
+      "demone_samurai": "stessa logica di identità nascosta e lettura errata delle apparenze"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "silence-03",
+    "generator_loop": "loop-02",
+    "hidden_engine": "loop-03",
+    "terminal_loop": "loop-06",
+    "narrative_model": "inganno percettivo, punto cieco strutturale, rivelazione retroattiva e trasmissione del segreto",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1"
+  }
+}
