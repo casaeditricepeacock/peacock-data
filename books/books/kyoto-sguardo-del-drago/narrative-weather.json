@@ -1,0 +1,105 @@
+{
+  "book_id": "kyoto-sguardo-del-drago",
+  "file_type": "NarrativeWeather",
+  "version": "5.0",
+  "ontology": "strict_perceptual_5_0",
+  "publisher": "Casa Editrice Peacock",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+
+  "editorial_principle": "Il clima non accompagna l'azione. La rende leggibile. Il sole ligure appartiene al mondo ordinario, il tramonto sospende il tempo, la notte di Kyoto trasforma la realtà in immagine cinematografica, la pioggia finale assorbe il peso morale che nessun personaggio esplicita. Il meteo è il respiro emotivo del sistema.",
+
+  "weather_types": {
+    "ordinary_world_clarity": "campo di stabilità e apparente armonia prima dell'irruzione dell'enigma",
+    "suspended_beauty": "configurazione contemplativa che rallenta il tempo narrativo",
+    "cinematic_judgement_light": "luce che trasforma i personaggi in figure simboliche",
+    "moral_afterstorm": "clima che assorbe le conseguenze morali della risoluzione"
+  },
+
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "maggio_ligure",
+      "label_en": "ligurian_may",
+      "type": "ordinary_world_clarity",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "location": "Genova — Rapallo — Portofino",
+      "season": "maggio",
+      "basho": "la Riviera ligure appare come spazio ordinario perfettamente abitabile. Il mare, il vento e il profumo del pitosforo costruiscono un mondo ancora integro.",
+      "kokyu": "ritmo lento e regolare. Il respiro del mare accompagna la quotidianità di Michele.",
+      "yugen": "la serenità contiene già la possibilità della perdita futura.",
+      "description": "Luce dorata pomeridiana. Vento quieto di attesa che muove vele bianche e colorate. Profumo di pitosforo. Mare blu e silenzio irreale.",
+      "function": "campo di equilibrio prima dell'attivazione dell'indagine",
+      "field_logic": "ordinary_world_before_disruption"
+    },
+    {
+      "id": "weather-02",
+      "label": "tramonto_rapallo",
+      "label_en": "rapallo_sunset",
+      "type": "suspended_beauty",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "location": "Terrazzo di Michele",
+      "basho": "il terrazzo affacciato sul golfo sospende l'urgenza narrativa. Il paesaggio crea una distanza necessaria dall'enigma.",
+      "kokyu": "ritmo contemplativo. Dialogo e panorama procedono alla stessa velocità.",
+      "yugen": "la bellezza del tramonto non interrompe il mistero ma lo rende più profondo.",
+      "description": "Strappi di nuvole rosse. Mezzaluna. Bagliori sul nero del mare. Luci tremanti lungo la costa.",
+      "function": "campo di sospensione percettiva",
+      "field_logic": "beauty_as_temporal_pause"
+    },
+    {
+      "id": "weather-03",
+      "label": "notte_kyoto",
+      "label_en": "kyoto_night",
+      "type": "cinematic_judgement_light",
+      "intensity": 1.0,
+      "perceptual_weight": 0.99,
+      "location": "Kyoto — ristorante con Torii illuminato",
+      "basho": "la soglia del Torii divide il mondo dell'indagine da quello della responsabilità morale.",
+      "kokyu": "ritmo rallentato e visivo. L'uscita di Fujiwara assume la qualità di una sequenza cinematografica.",
+      "yugen": "la luce non rivela la verità. Rivela il peso della verità.",
+      "description": "Luce azzurra orizzontale. Riverbero rosso verticale del Torii. Fujiwara esce lentamente, curvo.",
+      "function": "inquadratura simbolica del colpevole prima della dissoluzione finale",
+      "field_logic": "light_as_moral_framing",
+      "affects": {
+        "weather-04": "la notte di Kyoto prepara il campo emotivo del lutto finale"
+      }
+    },
+    {
+      "id": "weather-04",
+      "label": "pioggia_finale",
+      "label_en": "final_rain",
+      "type": "moral_afterstorm",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "location": "Rapallo — tredicesimo atto",
+      "season": "giorni dopo la risoluzione",
+      "basho": "il paesaggio ligure assume il peso morale della storia. La pioggia parla al posto dei personaggi.",
+      "kokyu": "ritmo lento e grave. Tuoni, onde e pioggia sostituiscono ogni spiegazione.",
+      "yugen": "il caso è risolto ma il costo umano resta irrisolto.",
+      "description": "Pioggia che lava i dintorni. Mare rabbioso. Tuoni lontani in sintonia con lo sciabordio delle onde. Debussy — La Mer.",
+      "function": "campo del lutto non dichiarato",
+      "field_logic": "landscape_carries_moral_weight",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La morte di Fujiwara non viene assorbita dalla soluzione dell'enigma. Rimane nel paesaggio."
+      },
+      "closure": "E quindi uscimmo a riveder le stelle. Il bel tempo tornerà domani."
+    }
+  ],
+
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-03",
+    "weather_arc": [
+      "equilibrio",
+      "sospensione",
+      "giudizio",
+      "lutto"
+    ],
+    "narrative_model": "quattro configurazioni atmosferiche accompagnano il movimento del sistema dall'ordinario al silenzio finale.",
+    "closure_type": "haiku_after_storm",
+    "compatibility": "NarrativeObject v5.0 / NarrativeTransition v5.0 / NarrativeSystemGraph v5.0"
+  }
+}
