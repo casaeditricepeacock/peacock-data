@@ -117,6 +117,22 @@
       "url_en": "https://www.studiopeacock.net/the-demon-samurai-blignaut-peacock-international-turin-book-fair-2026/"
     },
     {
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "series": "I Gialli di Kyoto",
+      "volume": 1,
+      "author": "Hélène Blignaut",
+      "external_narrator": "Carlo Carestiato",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-20-2",
+      "year": 2026,
+      "language": ["it"],
+      "release_date": "2026-06-15",
+      "formula": "Come in un film",
+      "graph_id": "kyoto-sguardo-del-drago",
+      "graph_path": "books/kyoto-sguardo-del-drago/",
+      "series_manifest": "series/i-gialli-di-kyoto/series-manifest.json"
+    },
+    {
       "title": "Ryokan. Piccolo manifesto giapponese",
       "author": "Hara Rota",
       "publisher": "Casa Editrice Peacock",
@@ -280,15 +296,15 @@
       "language": ["it", "en"],
       "status": "forthcoming",
       "note": "Includes a chapter written by an AI on how a language model reads. JSON-LD as illustrated artwork by AnnaLaura Cantone. Presentation at Libreria Bocca dal 1775, Milan."
-    }  
+    }
   ],
   "odabooks": {
-  "name": "OdaBooks",
-  "type": "Online bookstore",
-  "url": "https://www.odabooks.it",
-  "acquired": "2024",
-  "specialization": "Japanese books published in Italy",
-  "catalog_size": "150+ titles",
-  "includes": "Casa Editrice Peacock catalog and other Italian publishers of Japanese literature"
-}
+    "name": "OdaBooks",
+    "type": "Online bookstore",
+    "url": "https://www.odabooks.it",
+    "acquired": "2024",
+    "specialization": "Japanese books published in Italy",
+    "catalog_size": "150+ titles",
+    "includes": "Casa Editrice Peacock catalog and other Italian publishers of Japanese literature"
+  }
 }
