@@ -1,0 +1,111 @@
+{
+  "book_id": "kyoto-sguardo-del-drago",
+  "file_type": "NarrativePrintLayer",
+  "version": "5.1",
+  "ontology": "strict_perceptual_5_0",
+
+  "print_identity": "romanzo cinematografico semiotico — il libro si presenta come un film da leggere e come un sistema di segni da interpretare",
+
+  "editorial_principle": "La forma materiale anticipa il metodo di Michele Du Toit. Il lettore non entra semplicemente in una storia: entra in un'indagine percettiva. Ogni elemento paratestuale prepara alla lettura dei dettagli come indizi e alla comprensione del romanzo come esperienza cinematografica.",
+
+  "print_types": {
+    "cinematic_structure": "struttura dichiaratamente filmica con trailer, starring page, atti e scene",
+    "semiotic_layout": "impaginazione che valorizza dettagli, dialoghi e osservazioni percettive",
+    "multilingual_texture": "convivenza di italiano, dialetto genovese, gaelico, giapponese e riferimenti poetici",
+    "haiku_closure": "chiusura costruita come condensazione progressiva verso il silenzio finale"
+  },
+
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "come_in_un_film",
+      "label_en": "cinematic_opening",
+      "type": "cinematic_structure",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "il libro si apre come un film prima ancora che come un romanzo. Trailer, citazioni, cast e ambientazioni costruiscono un campo percettivo cinematografico immediatamente riconoscibile",
+      "kokyu": "il ritmo è quello dell'accensione delle luci in sala. Prima il trailer, poi i protagonisti, infine la storia",
+      "yugen": "il lettore sa già di assistere a una rappresentazione e proprio per questo è portato a dimenticarlo durante la lettura",
+      "textual_anchor_it": "COME IN UN FILM",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "print-02",
+      "label": "starring_page",
+      "label_en": "cast_declaration",
+      "type": "cinematic_structure",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la pagina STARRING trasforma i personaggi in presenza scenica prima che narrativa",
+      "kokyu": "il lettore incontra i protagonisti come farebbe osservando i titoli di apertura di un film",
+      "yugen": "conoscere i nomi non significa conoscere i personaggi. L'apparenza precede la comprensione",
+      "textual_anchor_it": "STARRING",
+      "glossary_link": ["ma", "yugen"]
+    },
+    {
+      "id": "print-03",
+      "label": "atti_e_scene",
+      "label_en": "acts_and_scenes",
+      "type": "semiotic_layout",
+      "intensity": 0.97,
+      "perceptual_weight": 0.94,
+      "basho": "tredici atti e scene numerate costruiscono una geografia narrativa precisa",
+      "kokyu": "ogni atto coincide con uno spostamento di conoscenza più che con uno spostamento di trama",
+      "yugen": "la struttura sembra ordinata ma il lettore non comprende immediatamente il ruolo di ogni scena nel sistema complessivo",
+      "textual_anchor_it": "Atto Primo — Genova",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "print-04",
+      "label": "pluralita_linguistica",
+      "label_en": "multilingual_texture",
+      "type": "multilingual_texture",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "dialetto genovese, gaelico, italiano e riferimenti giapponesi convivono nello stesso spazio narrativo",
+      "kokyu": "le lingue emergono quando il luogo cambia e scompaiono quando non servono più",
+      "yugen": "nessuna lingua esaurisce completamente il significato. Ogni idioma conserva una parte irriducibile",
+      "textual_anchor_it": "Oh belin!",
+      "glossary_link": ["ma", "yugen"]
+    },
+    {
+      "id": "print-05",
+      "label": "haiku_finale",
+      "label_en": "haiku_closure",
+      "type": "haiku_closure",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la forma finale del libro non è la soluzione del caso ma il silenzio successivo alla soluzione",
+      "kokyu": "il ritmo accelera verso la rivelazione e rallenta improvvisamente fino a fermarsi nella parola Yume",
+      "yugen": "il significato ultimo non viene spiegato. Rimane sospeso come il riflesso di una campana che continua a vibrare dopo il suono",
+      "textual_anchor_it": "Yume",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La morte di Fujiwara viene compresa ma non completamente giudicata. La parola finale non chiude la ferita morale."
+      },
+      "glossary_link": ["ma", "yugen", "mono_no_aware"]
+    }
+  ],
+
+  "intertextual_field": {
+    "center": "Matsuo Bashō",
+    "satellites": [
+      "William Shakespeare",
+      "Dante Alighieri",
+      "Arthur Rimbaud",
+      "W.B. Yeats",
+      "Takuan Sōho",
+      "Jules Dassin",
+      "Claude Debussy"
+    ],
+    "function": "Le citazioni non operano come ornamento culturale ma come sistema di risonanza. Ogni autore amplia il campo interpretativo della vicenda."
+  },
+
+  "system_note": {
+    "dominant_layer": "print-05",
+    "print_model": "cinematic_semiotic_novel",
+    "reader_experience": "guardare, interpretare, comprendere, contemplare",
+    "closure_type": "haiku_after_resolution",
+    "compatibility": "NarrativeObject v5.0 / NarrativeScene v5.0 / PerceptualField v5.0 / NarrativeSystemProfile v5.1"
+  }
+}
