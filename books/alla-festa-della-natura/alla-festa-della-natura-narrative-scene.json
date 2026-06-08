@@ -1,0 +1,114 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "viaggio_vs_destinazione",
+    "temporal_axis": "primavera_giapponese_Midori_no_Hi",
+    "narrative_logic": "ogni scena è una tappa del viaggio che aggiunge un compagno e un campo percettivo — la festa è il risultato dell'accumulo, non il suo punto di partenza"
+  },
+  "editorial_principle": "Le scene non sono capitoli ma stazioni del viaggio. Ogni luogo porta il suo animale custode e il suo campo percettivo. Il libro si chiude prima della festa — il mattino che la precede è l'ultima scena. La festa esiste come campo aperto oltre l'ultima pagina.",
+  "scene_types": {
+    "departure_field": "preparazione e partenza verso il primo compagno",
+    "collection_field": "tappa del viaggio che aggiunge un nuovo compagno al gruppo",
+    "rest_field": "notte condivisa come spazio di armonia concreta",
+    "arrival_field": "raggiungimento della destinazione finale e preparazione della festa",
+    "dawn_field": "risveglio collettivo che precede la festa — soglia tra il viaggio e la celebrazione"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "parco_ritsurin_tanuki",
+      "label_en": "ritsurin_park_tanuki",
+      "type": "collection_field",
+      "dominant": true,
+      "basho": "il parco Ritsurin come campo del primo incontro — Musasabi arriva in anticipo, si addormenta su un albero, si sveglia sentendo il Tanuki borbottare tra le siepi",
+      "kokyu": "il ritmo è quello dell'attesa comica: il sonnellino, il risveglio di soprassalto, la fame annunciata — il Tanuki entra nel viaggio con tutto il suo appetito",
+      "yūgen": "il parco Ritsurin è uno dei giardini più belli del Giappone — Musasabi lo attraversa come un ramo tra i rami, il Tanuki come una creatura del sottobosco",
+      "affects": {
+        "scene-02": "il Tanuki con la sua fame scandisce il tempo della prima tappa e impone la ricerca del cibo prima della partenza"
+      },
+      "textual_anchor_it": "Vive nel parco Ritsurin. Arrivo ma sono in anticipo… farò un sonnellino su un albero.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-02",
+      "label": "villaggio_volpi_zao",
+      "label_en": "zao_fox_village",
+      "type": "collection_field",
+      "basho": "il Villaggio delle volpi di Zao come campo dell'accoglienza — la montagna, le volpi bianche e rosse, Kitsune preoccupata con il messaggio di ShimaEnaga",
+      "kokyu": "il ritmo è quello della sosta necessaria: si arriva, si saluta, si riceve il messaggio, si decide di ripartire il giorno dopo — la notte al villaggio è una pausa nel viaggio",
+      "yūgen": "Kitsune è bianca come la neve di Zao — dormire sul suo pelo è dormire nel paesaggio stesso",
+      "affects": {
+        "scene-03": "la notte al villaggio delle volpi prepara il gruppo per la tappa finale verso Hokkaido"
+      },
+      "textual_anchor_it": "Kitsune sembra preoccupata. Ci dice che dobbiamo partire subito il giorno dopo.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "scene-03",
+      "label": "notte_con_le_volpi",
+      "label_en": "night_with_foxes",
+      "type": "rest_field",
+      "basho": "il villaggio di Zao di notte come campo dell'armonia — le volpi si addormentano, Musasabi dorme sul pelo di Kitsune, il Tanuki russa sazio",
+      "kokyu": "il ritmo della notte è quello del cedimento progressivo: prima le volpi, poi ShimaEnaga (nel capitolo successivo), poi il Tanuki, poi Musasabi",
+      "yūgen": "il calore della pelliccia di Kitsune è la forma più concreta dell'armonia con la natura — non un concetto ma una sensazione",
+      "affects": {
+        "scene-04": "il risveglio dopo questa notte porta il gruppo verso la tappa finale"
+      },
+      "textual_anchor_it": "Mi appoggio sulla morbida pelliccia di Kitsune e dormo profondamente.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "blue_pond_hokkaido_shimaenaga",
+      "label_en": "hokkaido_blue_pond_shimaenaga",
+      "type": "arrival_field",
+      "basho": "il Blue Pond di Hokkaido come campo finale del viaggio — il lago che cambia colore, lo stormo di ShimaEnaga che cinguetta come segnale di arrivo, il banchetto di foglie già preparato",
+      "kokyu": "il ritmo dell'arrivo è quello del riconoscimento: il cinguettio dello stormo, la salita sul ramo, l'abbraccio con ShimaEnaga — il viaggio si chiude raccogliendo l'ultimo amico",
+      "yūgen": "ShimaEnaga ha già preparato tutto — il più piccolo del gruppo è anche il più premuroso; la tenerezza come forma dell'efficienza",
+      "affects": {
+        "scene-05": "l'arrivo al Blue Pond prepara la notte prima della festa — l'ultimo accoccolarsi prima del grande giorno"
+      },
+      "textual_anchor_it": "Visto dal vivo ShimaEnaga è ancora più carino. Saltella ovunque preparando il cibo per questa festa.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "scene-05",
+      "label": "alba_prima_della_festa",
+      "label_en": "dawn_before_the_festival",
+      "type": "dawn_field",
+      "basho": "il Blue Pond all'alba come campo della soglia — il lago che cambia colore, il sole che si riflette nell'acqua, tutti insieme che si stiracchiano",
+      "kokyu": "il ritmo dell'alba è quello dell'apertura: lento, luminoso, inevitabile — il sole arriva e il lago cambia colore come se il mondo si preparasse",
+      "yūgen": "il libro si chiude qui, prima della festa — la celebrazione esiste come campo aperto oltre l'ultima pagina; siamo tutti insieme e uniti",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa non viene mai mostrata — il lettore la immagina a partire da tutto il viaggio che l'ha preceduta"
+      },
+      "affects": {
+        "scene-01": "l'alba finale retroagisce sulla partenza iniziale — tutto il viaggio era già la festa"
+      },
+      "textual_anchor_it": "All'improvviso arriva il sole. Ci illumina e si riflette in questo lago che diventa di diversi colori. Siamo tutti insieme e uniti…",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "secondary_field": "scene-05",
+    "system_state": "journey_accumulation_toward_open_celebration",
+    "narrative_model": "cinque scene costruiscono l'armonia attraverso il viaggio: il parco Ritsurin, il villaggio di Zao, la notte con le volpi, il Blue Pond, l'alba prima della festa",
+    "retroactive_causality": true,
+    "global_effect": "la festa non viene mai mostrata ma il lettore la sente come campo aperto — tutto il viaggio era già la celebrazione"
+  }
+}
