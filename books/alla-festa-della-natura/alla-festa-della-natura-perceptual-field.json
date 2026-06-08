@@ -1,0 +1,95 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Alla festa della natura non è un libro sulla natura giapponese. È un sistema percettivo in cui il viaggio di raccolta degli amici costruisce l'armonia come esperienza vissuta. La festa non viene mai mostrata — esiste come campo aperto oltre l'ultima pagina. Il lettore bambino la costruisce con tutto ciò che il viaggio gli ha dato.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_viaggio_accumulativo",
+      "type": "temporal_field",
+      "basho": "il viaggio attraversa tre luoghi reali del Giappone — Ritsurin, Zao, Hokkaido — ciascuno aggiunge un compagno e un campo percettivo al gruppo",
+      "kokyu": "il ritmo è quello dell'accumulo progressivo: uno, poi due, poi quattro, poi lo stormo — la festa cresce con il gruppo",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni tappa del viaggio che aggiunge un nuovo compagno",
+      "persistence_rule": "il campo si accumula tappa dopo tappa senza mai azzerarsi",
+      "dissolution_rule": "non dissolvibile — il viaggio è la struttura portante del sistema",
+      "field_logic": "journey_as_harmony_accumulation",
+      "affects": {
+        "field-03": "il viaggio costruisce il gruppo che renderà possibile la festa"
+      },
+      "textual_anchor_it": "Oggi mi sto preparando per incontrare i miei amici, perché festeggeremo tutti insieme la meravigliosa Festa della Natura!"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_armonia_animale",
+      "type": "cognitive_field",
+      "basho": "specie diverse che dormono insieme, condividono il cibo, si svegliano insieme — l'armonia non viene dichiarata ma vissuta fisicamente",
+      "kokyu": "il ritmo è quello della convivenza naturale: il Tanuki russa, le volpi si mordicchiano, ShimaEnaga becca il Tanuki — ogni interazione è già armonia",
+      "yūgen_level": 0.96,
+      "activation_condition": "ogni scena in cui animali di specie diverse condividono uno spazio fisico",
+      "persistence_rule": "il campo cresce con ogni incontro — più animali, più armonia",
+      "dissolution_rule": "non dissolvibile — l'armonia è il campo dominante del sistema",
+      "field_logic": "interspecies_coexistence_as_harmony_field",
+      "affects": {
+        "field-01": "l'armonia animale giustifica e rende significativo ogni passo del viaggio"
+      },
+      "textual_anchor_it": "Ci accoccoliamo con le volpi a dormire."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_festa_aperta",
+      "type": "residual_field",
+      "basho": "la Festa della Natura come campo aperto oltre l'ultima pagina — il Midori no Hi non viene mai mostrato ma è la destinazione di tutto il viaggio",
+      "kokyu": "il ritmo è quello dell'attesa costruttiva: il viaggio prepara la festa, il libro si chiude alla soglia",
+      "yūgen_level": 1.0,
+      "activation_condition": "l'ultima pagina — il mattino che precede la festa",
+      "persistence_rule": "il campo resta aperto oltre la fine del libro",
+      "dissolution_rule": "non dissolvibile — la festa appartiene al lettore",
+      "field_logic": "open_celebration_as_reader_field",
+      "affects": {
+        "field-02": "la festa dà senso retroattivo a ogni momento di armonia vissuto durante il viaggio"
+      },
+      "textual_anchor_it": "Un giorno dove animali e uomini sono in armonia con la natura e tutti vanno d'accordo."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_bilingue_culturale",
+      "type": "aesthetic_field",
+      "basho": "il doppio testo IT+JA come campo percettivo che porta due culture nello stesso spazio — il bambino italiano e il bambino giapponese entrano nella stessa storia da porte diverse",
+      "kokyu": "il ritmo bilingue non è traduzione: le due lingue corrono parallele come due voci che raccontano la stessa storia con alfabeti diversi",
+      "yūgen_level": 0.93,
+      "activation_condition": "ogni pagina bilingue — il bambino percepisce la seconda lingua come campo visivo anche senza capirla",
+      "persistence_rule": "il campo bilingue è strutturale — presente in ogni spread del libro",
+      "dissolution_rule": "non dissolvibile — il doppio testo è parte costitutiva del sistema",
+      "field_logic": "bilingual_text_as_cultural_bridge",
+      "textual_anchor_it": "こんにちは、私の名前はムササビです。 — Ciao mi chiamo Musasabi."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "natura_giapponese_come_sfondo",
+      "animali_come_personaggi_antropomorfi",
+      "festa_come_evento_descritto",
+      "bilingue_come_traduzione"
+    ],
+    "system_behavior": "il libro opera come sistema percettivo costruttivo: ogni campo si accumula tappa dopo tappa; la festa non viene mostrata ma costruita attraverso il viaggio; il lettore bambino la completa"
+  }
+}
