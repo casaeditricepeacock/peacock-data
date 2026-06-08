@@ -1,0 +1,77 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "ontology": "peacock-sensory",
+  "book": {
+    "title": "Kyoto. Lo Sguardo del Drago",
+    "author": "Hélène Blignaut",
+    "series": "I Gialli di Kyoto",
+    "volume": 1,
+    "isbn": "9791281715202",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "sensory_theme": "il colore come porta narrativa",
+  "experience_type": "pre-reading_perception",
+  "dominant_sense": "vista",
+  "activation_condition": "il lettore osserva le tre copertine prima di iniziare la lettura",
+  "sensation_fields": [
+    {
+      "id": "rosa",
+      "label": "Edizione Rosa",
+      "sensory_temperature": "calda",
+      "emotional_frequency": [
+        "passione",
+        "desiderio",
+        "coinvolgimento"
+      ],
+      "narrative_resonance": "Il romanzo viene letto come storia di persone prima che come indagine.",
+      "japanese_echo": "Ume — il pruno che fiorisce prima della fine dell'inverno.",
+      "poetic_anchor": "Il rosa entra nella stanza prima delle parole."
+    },
+    {
+      "id": "crema",
+      "label": "Edizione Crema",
+      "sensory_temperature": "sospesa",
+      "emotional_frequency": [
+        "mistero",
+        "tempo",
+        "memoria"
+      ],
+      "narrative_resonance": "Il romanzo viene letto come stratificazione storica.",
+      "japanese_echo": "Washi — la carta che conserva senza trattenere.",
+      "poetic_anchor": "Le cose antiche non scompaiono. Cambiano posto."
+    },
+    {
+      "id": "verde",
+      "label": "Edizione Verde",
+      "sensory_temperature": "fresca",
+      "emotional_frequency": [
+        "natura",
+        "resistenza",
+        "continuità"
+      ],
+      "narrative_resonance": "Il paesaggio diventa protagonista della lettura.",
+      "japanese_echo": "Matsu — il pino che attraversa le stagioni.",
+      "poetic_anchor": "La pietra si ferma. Il verde continua."
+    }
+  ],
+  "reader_effect": {
+    "description": "La storia resta identica. Cambia il punto di accesso emotivo del lettore.",
+    "mechanism": "La scelta cromatica produce una predisposizione percettiva precedente alla lettura.",
+    "result": "Ogni copertina attiva una diversa aspettativa narrativa."
+  },
+  "philosophical_layer": {
+    "principle": "L'oggetto libro comunica prima del testo.",
+    "semiotic_relation": "La copertina è il primo segno interpretato dal lettore.",
+    "connection_to_story": "Come Michele Du Toit legge gli indizi prima delle parole, il lettore interpreta il colore prima della trama."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "Nessun sistema può prevedere perché un lettore scelga una copertina invece di un'altra."
+  },
+  "closure": {
+    "type": "sensory_question",
+    "text": "Hai scelto il colore o è stato il colore a scegliere te?"
+  }
+}
