@@ -1,0 +1,124 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "transition_types": {
+    "activity_to_collapse": "transisi dari aktivitas intensif ke penghentian total",
+    "external_to_internal": "transisi dari konfirmasi eksternal ke pertanyaan internal",
+    "visible_to_invisible": "transisi dari kelelahan yang tersembunyi ke kelelahan yang tidak bisa lagi disembunyikan",
+    "crisis_to_creation": "transisi dari krisis ke penciptaan novel grafis sebagai respons",
+    "italian_to_indonesian": "transisi budaya dari Italia-Jepang ke bahasa Indonesia"
+  },
+  "editorial_principle": "Transisi dalam Burn Out Pandemi semuanya adalah transisi ambang. Seniman tidak memilih untuk melewatinya — ia mendapati dirinya sudah di sisi lain. Pandemi adalah ambang yang dipaksakan. Burn out adalah ambang yang tidak terlihat sampai sudah dilampaui. Terjemahan adalah ambang yang dipilih dengan sadar.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "dari_gerak_ke_berhenti",
+      "label_en": "from_motion_to_stillness",
+      "type": "activity_to_collapse",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "ambang antara dunia yang bergerak dan dunia yang berhenti — pandemi sebagai kekuatan yang memaksakan penghentian",
+      "kokyu": "transisi bukan gradual — ia tiba-tiba; aktivitas yang terus menerus kemudian terhenti dalam satu hari",
+      "yūgen": "penghentian tiba-tiba tidak menciptakan kedamaian — ia menciptakan ruang kosong yang terlalu besar untuk diisi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "transisi dari gerak ke berhenti meninggalkan inersia yang tidak bisa langsung hilang"
+      },
+      "affects": {
+        "transition-02": "penghentian eksternal memaksa transisi ke dalam — dari dunia luar ke dunia dalam"
+      },
+      "textual_anchor_id": "Pandemi datang dan semua yang telah dibangun berhenti dalam satu hari.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "transition-02",
+      "label": "dari_luar_ke_dalam",
+      "label_en": "from_external_to_internal",
+      "type": "external_to_internal",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "transisi dari ruang publik ke ruang privat — dari kota ke studio ke tubuh ke pertanyaan",
+      "kokyu": "ritme internalisasi: tanpa konfirmasi eksternal, seniman harus bertanya siapa dirinya tanpa karya yang bisa dilihat orang lain",
+      "yūgen": "transisi ke dalam adalah transisi yang paling sulit — menghadapi diri sendiri tanpa mediasi aktivitas",
+      "affects": {
+        "transition-03": "internalisasi mengungkapkan kelelahan yang selama ini tersembunyi di balik aktivitas"
+      },
+      "textual_anchor_id": "Tanpa pertunjukan, tanpa perjalanan, seniman berhadapan dengan pertanyaan yang selama ini tidak ada waktu untuk dijawab.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "transition-03",
+      "label": "dari_tersembunyi_ke_terlihat",
+      "label_en": "from_hidden_to_visible",
+      "type": "visible_to_invisible",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "ambang di mana kelelahan yang tidak terlihat menjadi tidak bisa disembunyikan — tubuh yang berhenti sebagai sinyal yang tidak bisa diabaikan",
+      "kokyu": "transisi ini tidak memiliki ritme — ia terjadi di luar ritme, di momen ketika tubuh tidak lagi mengikuti perintah pikiran",
+      "yūgen": "burn out tidak mengumumkan kedatangannya — ia hanya ada setelah ambang dilampaui; seniman hanya menyadarinya ketika sudah terjadi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "setelah burn out terlihat, tidak bisa kembali ke keadaan tidak terlihat — kesadaran ini permanen"
+      },
+      "affects": {
+        "transition-04": "visibilitas kelelahan mendorong penciptaan sebagai respons — novel grafis sebagai cara untuk memproses"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri.",
+      "glossary_link": ["yūgen", "mono no aware", "ma"]
+    },
+    {
+      "id": "transition-04",
+      "label": "dari_krisis_ke_kreasi",
+      "label_en": "from_crisis_to_creation",
+      "type": "crisis_to_creation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "novel grafis sebagai risposta alla crisi — kreasi yang lahir dari dalam krisis, bukan setelahnya",
+      "kokyu": "ritme kreasi dalam krisis berbeda dari ritme kreasi normal — lebih lambat, lebih jujur, lebih tidak bisa ditolak",
+      "yūgen": "karya yang lahir dari burn out membawa kualitas yang tidak bisa dicapai dalam kondisi normal — kejujuran yang dipaksakan oleh batas",
+      "affects": {
+        "transition-05": "kreasi dalam bahasa Italia dan Jepang membuka jalan ke terjemahan Indonesia"
+      },
+      "textual_anchor_id": "Terlaris di dunia seni pertunjukan — karya yang lahir dari krisis pertunjukan itu sendiri.",
+      "glossary_link": ["kokyu", "yūgen", "basho"]
+    },
+    {
+      "id": "transition-05",
+      "label": "dari_italia_jepang_ke_indonesia",
+      "label_en": "from_italy_japan_to_indonesia",
+      "type": "italian_to_indonesian",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "bahasa Indonesia sebagai ambang ketiga — terjemahan yang porta il testo in uno spazio culturale completamente diverso",
+      "kokyu": "ritme terjemahan Heti Novela porta tre culture in un unico testo — Indonesia, Italia, Giappone come tre frecce nello stesso arco",
+      "yūgen": "la traduzione non è il testo originale — è un testo nuovo che porta qualcosa che l'originale non poteva avere: la prospettiva di chi vive tra tre culture",
+      "textual_anchor_id": "Diterjemahkan oleh Heti Novela. Ia belajar bahasa Italia di Perugia. Hidup di antara budaya Indonesia, Jepang dan Italia.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione è una soglia che non può essere attraversata due volte — burn out, pandemia, traduzione culturale sono tutte trasformazioni irreversibili",
+    "effect": "il lettore attraversa con il narratore ogni soglia — l'esperienza del burn out è costruita come accumulo di transizioni irrecuperabili"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-03",
+    "narrative_model": "dari gerak ke berhenti, dari luar ke dalam, dari tersembunyi ke terlihat, dari krisis ke kreasi, dari Italia-Jepang ke Indonesia",
+    "stability": "high_metastable",
+    "closure": "open_transformation_field",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
