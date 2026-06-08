@@ -1,0 +1,100 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "silence_types": {
+    "graphic_void": "panel kosong dalam novel grafis — kekosongan visual sebagai bahasa aktif",
+    "pandemic_silence": "keheningan pandemi — kota yang sunyi, pertunjukan yang dibatalkan, studio yang terlalu lama kosong",
+    "pre_collapse_unsaid": "apa yang tidak diucapkan sebelum kehancuran — kelelahan yang terakumulasi tanpa diakui",
+    "translation_gap": "celah antara bahasa asli dan terjemahan — apa yang tidak bisa dipindahkan sepenuhnya"
+  },
+  "editorial_principle": "Keheningan dalam Burn Out Pandemi adalah struktur visual dan naratif. Panel kosong bukan kegagalan ilustrasi — ia adalah bagian dari bahasa grafis kelelahan. Keheningan pandemi bukan latar belakang — ia adalah medan yang mengubah segalanya. Apa yang tidak digambar dan tidak diucapkan seringkali lebih kuat dari yang terlihat.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "kekosongan_visual_panel",
+      "label_en": "visual_panel_void",
+      "type": "graphic_void",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "panel kosong dalam novel grafis sebagai ruang aktif — kekosongan yang berbicara tentang apa yang tidak bisa lagi digambar",
+      "kokyu": "ritme visual novel grafis bergantian antara kepadatan dan kekosongan — ritme napas yang terputus",
+      "yūgen": "panel kosong adalah manifestasi paling jujur dari burn out — tubuh yang tidak bisa lagi mengisi ruang",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "kekosongan visual tidak bisa diterjemahkan ke dalam kata — ia hanya ada dalam pengalaman visual langsung"
+      },
+      "affects": {
+        "silence-02": "kekosongan visual amplifikasi keheningan pandemi yang sudah ada di luar halaman"
+      },
+      "textual_anchor_id": "Novel grafis berbicara melalui apa yang tidak digambar sama seperti melalui apa yang digambar.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+    {
+      "id": "silence-02",
+      "label": "keheningan_kota_pandemi",
+      "label_en": "pandemic_city_silence",
+      "type": "pandemic_silence",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "kota-kota yang sunyi sebagai medan keheningan — Venezia, Osaka, Bologna, Tokyo yang tidak lagi bisa dikunjungi",
+      "kokyu": "ritme keheningan pandemi adalah ritme absensi — tidak ada pertunjukan, tidak ada perjalanan, tidak ada konfirmasi bahwa karya ada",
+      "yūgen": "keheningan kota pandemi bukan keheningan biasa — ia adalah keheningan sistem yang biasanya penuh dengan suara seni",
+      "affects": {
+        "silence-03": "keheningan eksternal pandemi membuka keheningan internal yang lebih dalam dan lebih berbahaya"
+      },
+      "textual_anchor_id": "Pandemi menghentikan segalanya — pertunjukan, perjalanan, pertemuan dengan Nomura di Osaka.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "silence-03",
+      "label": "kelelahan_yang_tidak_diakui",
+      "label_en": "unacknowledged_exhaustion",
+      "type": "pre_collapse_unsaid",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "kelelahan yang terakumulasi dalam aktivitas — tersembunyi di balik pameran, pertunjukan, perjalanan yang terus menerus",
+      "kokyu": "ritme yang tidak memberikan ruang untuk mendengar kelelahan sendiri — terus menerus bergerak sebagai cara untuk tidak berhenti",
+      "yūgen": "apa yang tidak diucapkan sebelum kehancuran lebih besar dari kehancuran itu sendiri — seluruh sistem yang tidak berkelanjutan",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "kelelahan yang tidak diakui tidak bisa dibalikkan — hanya bisa diakui setelah fakta"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "silence-04",
+      "label": "celah_terjemahan",
+      "label_en": "translation_gap",
+      "type": "translation_gap",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "bahasa Indonesia sebagai ruang ketiga antara Italia dan Jepang — celah yang Heti Novela mengisi dengan pengalaman hidupnya sendiri",
+      "kokyu": "ritme terjemahan adalah ritme perpindahan yang tidak sempurna — setiap kata yang berpindah membawa sesuatu dan kehilangan sesuatu",
+      "yūgen": "apa yang tidak bisa diterjemahkan dari teks Italia-Jepang ke bahasa Indonesia tetap hadir sebagai resonansi — dirasakan tanpa dipahami sepenuhnya",
+      "textual_anchor_id": "Diterjemahkan oleh Heti Novela. Ia belajar bahasa Italia di Perugia. Hidup di antara budaya Indonesia, Jepang dan Italia. Aktif di grup U-maku Eisa Shinka Indonesia.",
+      "glossary_link": ["ma", "basho", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "secondary_field": "silence-03",
+    "narrative_model": "empat konfigurasi keheningan: panel kosong sebagai bahasa visual, keheningan kota pandemi, kelelahan yang tidak diakui sebelum kehancuran, celah terjemahan sebagai ruang ketiga",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
