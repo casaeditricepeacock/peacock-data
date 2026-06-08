@@ -1,0 +1,107 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "weather_types": {
+    "spring_bloom": "la primavera come campo della fioritura e dell'armonia — sakura, petali, picnic",
+    "forest_shade": "l'ombra del bosco come spazio sicuro per il viaggio e il sonno",
+    "chromatic_lake": "il lago che cambia colore come campo percettivo della trasformazione naturale",
+    "dawn_light": "la luce dell'alba come soglia tra il viaggio e la festa"
+  },
+  "editorial_principle": "Il clima in Alla festa della natura non è sfondo: è il campo percettivo dell'armonia. La primavera porta i sakura e il Midori no Hi. L'ombra del bosco ospita il sonno degli animali. Il Blue Pond cambia colore come se il mondo si preparasse alla festa. L'alba arriva e tutto si apre.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "primavera_sakura",
+      "label_en": "spring_sakura",
+      "type": "spring_bloom",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "dominant": true,
+      "basho": "la primavera giapponese come campo dell'armonia collettiva — i sakura fioriscono, le famiglie fanno picnic, i petali cadono come neve rosa",
+      "kokyu": "il ritmo della primavera è quello della pienezza fugace: i ciliegi fioriscono e subito i petali cadono — la bellezza come evento che si compie dissolvendo",
+      "yūgen": "i bambini raccolgono i petali che cadono come neve rosa — la primavera insegna che la bellezza non si trattiene, si vive",
+      "affects": {
+        "weather-04": "la primavera prepara il campo per l'alba finale — entrambe sono soglie della bellezza"
+      },
+      "textual_anchor_it": "In primavera, in Giappone, tanti alberi di ciliegio, chiamati sakura, fioriscono con bellissimi fiori rosa e bianchi. Gli alberi sembrano coperti di zucchero filato!",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    },
+    {
+      "id": "weather-02",
+      "label": "ombra_del_bosco",
+      "label_en": "forest_shade",
+      "type": "forest_shade",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il bosco come campo del riposo e del viaggio — Musasabi dorme su un albero al parco Ritsurin, il gruppo dorme tra le volpi di Zao",
+      "kokyu": "il ritmo dell'ombra è quello del rallentamento: il bosco invita al sonno, alla pausa, all'attesa — Musasabi arriva in anticipo e si addormenta",
+      "yūgen": "l'ombra del bosco è lo spazio in cui le specie diverse si mescolano senza sforzo — nessuno chiede permesso per dormire su un ramo",
+      "affects": {
+        "weather-03": "l'ombra del bosco prepara il campo per il silenzio del lago"
+      },
+      "textual_anchor_it": "Arrivo ma sono in anticipo… farò un sonnellino su un albero.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "weather-03",
+      "label": "blue_pond_colori",
+      "label_en": "blue_pond_chromatic",
+      "type": "chromatic_lake",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il Blue Pond di Hokkaido come campo della trasformazione cromatica — il lago che cambia colore in base alla stagione e alla giornata",
+      "kokyu": "il ritmo del lago è quello della variazione continua: non ha un colore fisso — è sempre diverso, sempre riconoscibile",
+      "yūgen": "il lago che cambia colore è il campo percettivo più alto del libro — la natura che si trasforma senza sforzo, senza annunciarlo",
+      "affects": {
+        "weather-04": "il lago prepara l'alba — quando il sole arriva, i colori del Blue Pond si moltiplicano"
+      },
+      "textual_anchor_it": "In questa isola c'è un lago che cambia colore in base alla stagione e alla giornata. Si chiama Blue Pond.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    },
+    {
+      "id": "weather-04",
+      "label": "alba_festa",
+      "label_en": "festival_dawn",
+      "type": "dawn_light",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "l'alba sul Blue Pond come campo della soglia — il sole arriva, si riflette nel lago, i colori cambiano, tutti si stiracchiano",
+      "kokyu": "il ritmo dell'alba è quello dell'apertura inevitabile: il sole non chiede permesso — arriva e trasforma tutto",
+      "yūgen": "l'alba è l'ultimo campo del libro — dopo di essa la festa inizia, ma il libro non la mostra; la luce dell'alba è il confine tra il racconto e il campo aperto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa inizia con la luce dell'alba — ma il libro si chiude prima; il campo resta aperto"
+      },
+      "affects": {
+        "weather-01": "l'alba retroagisce sulla primavera — la stessa luce che fa fiorire i sakura ora illumina il giorno della festa"
+      },
+      "textual_anchor_it": "All'improvviso arriva il sole. Ci illumina e si riflette in questo lago che diventa di diversi colori.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — primavera: il campo della fioritura e del Midori no Hi",
+      "step_2": "weather-02 — ombra: il campo del riposo e del viaggio",
+      "step_3": "weather-03 — lago: il campo della trasformazione cromatica",
+      "step_4": "weather-04 — alba: il campo della soglia verso la festa"
+    },
+    "narrative_model": "quattro campi atmosferici che costruiscono l'armonia: primavera → riposo → trasformazione → apertura",
+    "stability": "cyclic_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
