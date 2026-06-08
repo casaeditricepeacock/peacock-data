@@ -1,0 +1,116 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "ritual_types": {
+    "collection_journey": "rituale del viaggio che raccoglie progressivamente i compagni verso la celebrazione",
+    "animal_hospitality": "rituale dell'accoglienza tra specie diverse — dormire insieme, condividere il cibo",
+    "natural_celebration": "rituale della Festa della Natura come armonia concreta tra uomini e animali",
+    "comic_repetition": "rituale della fame del Tanuki come struttura comica che scandisce il tempo",
+    "bilingual_greeting": "rituale del saluto in due lingue come atto di riconoscimento culturale"
+  },
+  "editorial_principle": "I rituali di Alla festa della natura sono tutti rituali di costruzione dell'armonia. Il viaggio non è avventura ma cerimonia: ogni tappa ha la sua forma, ogni incontro il suo saluto, ogni notte il suo accoccolarsi. La festa non viene celebrata nel libro — viene preparata ritualmente pagina per pagina.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "viaggio_di_raccolta",
+      "label_en": "collection_journey",
+      "type": "collection_journey",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il viaggio attraversa tre luoghi reali del Giappone — Parco Ritsurin, Villaggio delle volpi di Zao, Blue Pond di Hokkaido — ciascuno con il suo animale custode",
+      "kokyu": "il ritmo è quello dell'accumulo progressivo: uno, poi due, poi quattro, poi lo stormo — la festa cresce con il gruppo",
+      "yūgen": "il viaggio è già la festa — raccogliere gli amici è già celebrare la natura",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa vera non viene mai mostrata — esiste come campo aperto oltre l'ultima pagina"
+      },
+      "affects": {
+        "ritual-02": "ogni tappa del viaggio produce un'accoglienza diversa che arricchisce il campo collettivo"
+      },
+      "textual_anchor_it": "Oggi mi sto preparando per incontrare i miei amici, perché festeggeremo tutti insieme la meravigliosa Festa della Natura!",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "accoglienza_animale",
+      "label_en": "animal_hospitality",
+      "type": "animal_hospitality",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "dormire insieme è il rito dell'armonia: Musasabi dorme sul pelo di Kitsune, lo stormo di ShimaEnaga si addormenta sui rami, il Tanuki russa sotto un albero",
+      "kokyu": "il ritmo dell'accoglienza è quello del cedere il proprio spazio: Kitsune offre il suo calore, ShimaEnaga prepara il posto per riposare",
+      "yūgen": "il calore della pelliccia di Kitsune è la forma più concreta dell'armonia con la natura — non descritta ma sentita",
+      "affects": {
+        "ritual-03": "l'accoglienza notturna prepara il risveglio collettivo che precede la festa"
+      },
+      "textual_anchor_it": "Ci accoccoliamo con le volpi a dormire. Accoccolato al morbido pelo di Kitsune dormo così beato che neanche il sole mi sveglia.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "banchetto_di_foglie",
+      "label_en": "leaf_banquet",
+      "type": "natural_celebration",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il Blue Pond di Hokkaido come spazio del banchetto — ShimaEnaga ha preparato foglie con leccornie, il lago cambia colore, lo stormo cinguetta",
+      "kokyu": "il ritmo del banchetto è quello della condivisione: ogni animale porta la propria fame e la propria forma di stare insieme",
+      "yūgen": "il banchetto di foglie non è cibo umano — è la forma naturale della festa, costruita con i materiali della natura stessa",
+      "affects": {
+        "ritual-04": "il banchetto attiva la fame del Tanuki come perturbazione comica dell'ordine festivo"
+      },
+      "textual_anchor_it": "ShimaEnaga e i suoi compagni stanno preparando un banchetto di foglie con su leccornie da mangiare durante la festa.",
+      "glossary_link": ["basho", "mono no aware", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "fame_del_tanuki",
+      "label_en": "tanuki_hunger_cycle",
+      "type": "comic_repetition",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "la fame del Tanuki attraversa tutto il libro come ritornello: al parco Ritsurin, al villaggio di Zao, al Blue Pond — ovunque il Tanuki ha fame",
+      "kokyu": "il ritmo è quello della ripetizione comica: fame → mangiare → addormentarsi → svegliarsi con fame — ciclo che non si interrompe mai",
+      "yūgen": "la fame del Tanuki non è difetto: è la forma più naturale del vivere — il corpo che chiede, sempre, indipendentemente dalla situazione",
+      "affects": {
+        "ritual-01": "la fame del Tanuki scandisce le tappe del viaggio — ogni mattina il risveglio è determinato dalla sua fame"
+      },
+      "textual_anchor_it": "Il signor tanuki fa finta di niente e ruba dal banchetto del cibo. Quando ShimaEnaga se ne accorge lo becca sul muso per farlo smettere. Lui sta fermo per un po' e poi ricomincia.",
+      "glossary_link": ["ma", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "saluto_bilingue",
+      "label_en": "bilingual_greeting",
+      "type": "bilingual_greeting",
+      "intensity": 0.91,
+      "perceptual_weight": 0.89,
+      "basho": "ogni incontro tra gli animali avviene in due lingue simultaneamente — il saluto italiano e il saluto giapponese come doppia porta di ingresso nella stessa scena",
+      "kokyu": "il ritmo bilingue non rallenta la narrazione: le due lingue corrono parallele come due voci che raccontano la stessa storia",
+      "yūgen": "il bambino che legge in italiano sente il giapponese come eco — una lingua familiare e lontana che porta il Giappone come campo culturale reale",
+      "textual_anchor_it": "Buongiorno, signor tanuki. Come stai? — おはようございます、タヌキさん。お元気ですか？",
+      "glossary_link": ["basho", "ma"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-02",
+    "system_role": "journey_as_harmony_ritual_field",
+    "narrative_model": "il viaggio raccoglie, l'accoglienza costruisce il calore, il banchetto prepara la festa, la fame del Tanuki scandisce il tempo, il saluto bilingue porta due culture",
+    "historical_setting": "Giappone contemporaneo — Midori no Hi, Festa della Natura",
+    "reader_effect": "il lettore bambino costruisce l'armonia con la natura attraverso il viaggio — non viene spiegata ma vissuta rituale dopo rituale",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
