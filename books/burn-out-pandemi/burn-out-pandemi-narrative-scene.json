@@ -1,0 +1,120 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "system_axis": {
+    "primary_tension": "kreasi_vs_kehancuran",
+    "temporal_axis": "pandemi_2020_2022_waktu_yang_terhenti",
+    "narrative_logic": "setiap adegan adalah konfigurasi medan kelelahan — akumulasi yang tidak terlihat sampai tubuh berhenti, pandemi sebagai akselerator, seni sebagai satu-satunya bahasa yang tersisa"
+  },
+  "editorial_principle": "Adegan-adegan bukan bab tetapi konfigurasi medan perseptual. Novel grafis tidak menceritakan burn out secara linear — ia membangun medan kelelahan melalui visual yang terakumulasi. Setiap panel adalah keputusan tentang apa yang ditampilkan dan apa yang dibiarkan kosong.",
+  "scene_types": {
+    "pre_collapse_field": "medan sebelum kehancuran — aktivitas yang intensif yang menyembunyikan akumulasi kelelahan",
+    "pandemic_freeze_field": "medan pembekuan pandemi — dunia yang berhenti dan seniman yang harus menghadapi kekosongan",
+    "identity_crisis_field": "medan krisis identitas — seniman tanpa pertunjukan, tanpa perjalanan, tanpa konfirmasi eksternal",
+    "graphic_manifestation_field": "medan manifestasi grafis — kelelahan yang mengambil bentuk visual melalui ilustrasi Arrigò",
+    "transformation_field": "medan transformasi — burn out sebagai ambang menuju identitas artistik baru"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "dunia_sebelum_berhenti",
+      "label_en": "world_before_stopping",
+      "type": "pre_collapse_field",
+      "dominant": true,
+      "basho": "kota-kota pameran sebagai medan kehidupan artistik — Venezia, Osaka, Bologna, Tokyo, Milan, Takamatsu, Firenze, Bali, Kopenhagen sebagai sistem perjalanan tanpa henti",
+      "kokyu": "ritme aktivitas yang terus menerus — pameran, pertunjukan, perjalanan, kreasi — ritme yang tidak memberikan ruang untuk berhenti",
+      "yūgen": "di balik intensitas aktivitas, kelelahan terakumulasi tanpa terlihat — ekor kesembilan sudah ada sebelum pandemi datang",
+      "affects": {
+        "scene-02": "aktivitas yang intensif membuat penghentian pandemi menjadi shock total"
+      },
+      "textual_anchor_id": "Dalam beberapa tahun terakhir, telah berpameran secara alami dan spontan di tempat-tempat terkenal di kota-kota seperti: Venezia, Osaka, Bologna, Tokyo, Milan, Takamatsu, Florence, Bali, Kopenhagen.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "scene-02",
+      "label": "pandemi_membekukan_segalanya",
+      "label_en": "pandemic_freezes_everything",
+      "type": "pandemic_freeze_field",
+      "basho": "studio yang terkunci, kota yang sunyi, pertunjukan yang dibatalkan — ruang yang menyempit dari global ke lokal ke tubuh",
+      "kokyu": "ritme pandemi adalah ritme penantian tanpa struktur — hari yang tidak bisa dibedakan, waktu yang berhenti",
+      "yūgen": "pandemi tidak hanya menghentikan aktivitas — ia membuka ruang kosong di mana kelelahan yang tersembunyi menjadi terlihat",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "pandemi mengubah cara seniman memandang karyanya sendiri — perubahan yang tidak bisa dibalikkan"
+      },
+      "affects": {
+        "scene-03": "pembekuan pandemi memaksa seniman berhadapan dengan pertanyaan tentang identitas tanpa konfirmasi eksternal"
+      },
+      "textual_anchor_id": "Pandemi datang seperti ekor kesembilan — menghancurkan segalanya yang telah dibangun.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-03",
+      "label": "krisis_identitas_artistik",
+      "label_en": "artistic_identity_crisis",
+      "type": "identity_crisis_field",
+      "basho": "ruang pameran yang kosong sebagai specchio identitas — seniman yang tidak bisa pameran bukan lagi seniman dalam cara yang sama",
+      "kokyu": "ritme krisis adalah ritme pertanyaan tanpa jawaban — chi sono io senza il mio lavoro?",
+      "yūgen": "krisis identitas artistik tidak terlihat dari luar — ia terjadi dalam keheningan studio yang terlalu lama kosong",
+      "affects": {
+        "scene-04": "krisis identitas mendorong penciptaan novel grafis sebagai respons artistik langsung"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "manifestasi_grafis_kelelahan",
+      "label_en": "graphic_manifestation_exhaustion",
+      "type": "graphic_manifestation_field",
+      "basho": "halaman novel grafis sebagai ruang manifestasi — Arrigò mengubah kelelahan menjadi linea, panel, kekosongan visual",
+      "kokyu": "ritme ilustrasi adalah ritme tangan yang menggambar apa yang kata-kata tidak bisa ungkapkan — kelelahan sebagai pengalaman visual langsung",
+      "yūgen": "panel kosong dalam novel grafis bukan kegagalan — ia adalah bagian dari bahasa; kekosongan yang berbicara",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ilustrasi membawa dimensi yang tidak bisa diterjemahkan sepenuhnya ke dalam teks"
+      },
+      "affects": {
+        "scene-05": "manifestasi grafis kelelahan membuka jalan menuju transformasi"
+      },
+      "textual_anchor_id": "Tahun 2020, Antonella Arrigò berpartisipasi di Penghargaan Manga Internasional Jepang Edisi ke-14.",
+      "glossary_link": ["kokyu", "yūgen", "ma"]
+    },
+    {
+      "id": "scene-05",
+      "label": "transformasi_melalui_krisis",
+      "label_en": "transformation_through_crisis",
+      "type": "transformation_field",
+      "basho": "burn out sebagai ambang — tidak akhir tetapi soglia menuju identitas artistik yang berbeda dan lebih jujur",
+      "kokyu": "ritme transformasi adalah ritme yang sangat lambat — perubahan yang tidak terlihat sampai sudah terjadi",
+      "yūgen": "seniman setelah burn out bukan seniman yang sama — tetapi bukan juga seniman yang lebih lemah; ia adalah seniman yang lebih sadar akan batasnya",
+      "affects": {
+        "scene-01": "transformasi retroagisce sulla scena iniziale — aktivitas sebelum pandemi dibaca ulang sebagai sistem yang tidak berkelanjutan"
+      },
+      "textual_anchor_id": "Berdasarkan buku Burn Out Pandemi — terlaris di dunia seni pertunjukan.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "secondary_field": "scene-02",
+    "system_state": "burnout_as_perceptual_transformation_arc",
+    "narrative_model": "lima medan membangun lengkung transformasi: dunia sebelum berhenti, pembekuan pandemi, krisis identitas, manifestasi grafis, transformasi melalui krisis",
+    "retroactive_causality": true,
+    "global_effect": "pembaca mengalami burn out sebagai proses — tidak sebagai peristiwa tunggal tetapi sebagai akumulasi yang mengubah segalanya"
+  }
+}
