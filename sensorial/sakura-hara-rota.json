@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#",
+    "qualia": "https://www.studiopeacock.net/qualia#",
+    "monoNoAware": "https://www.studiopeacock.net/glossario/mono-no-aware#"
+  },
+  "@type": "peacock:SensoryNarrative",
+  "style": "Peacock Editorial Atmosphere",
+  "title": "Sotto i sakura",
+  "subtitle": "Il profumo che gli algoritmi non sanno ricordare",
+  "language": "it",
+  "datePublished": "2026-05-21",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Hara Rota"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "narrativeCore": {
+    "scene": "Una pista ciclabile attraversa una primavera giapponese sospesa nel tempo.",
+    "motion": "La bicicletta avanza lentamente come dentro un sogno.",
+    "light": {
+      "type": "cinematic-soft",
+      "description": "La luce del sole filtra tra i rami creando ombre liquide e riflessi tremanti sull'asfalto."
+    },
+    "air": {
+      "temperature": "mite",
+      "texture": "leggera e vellutata",
+      "movement": "brezza intermittente"
+    }
+  },
+  "sensoryExperience": {
+    "primarySense": "olfatto",
+    "olfactoryLayer": {
+      "name": "Sakura no Kaori",
+      "intensity": "soffusa ma persistente",
+      "profile": [
+        "petali freschi",
+        "dolcezza trasparente",
+        "polvere di primavera",
+        "legno chiaro umido di sole"
+      ],
+      "emotionalEffect": "Il profumo entra lentamente nel cuore prima ancora che nei polmoni.",
+      "diffusion": {
+        "mode": "trasportato dalla pedalata e dalla brezza",
+        "rhythm": "a ondate delicate",
+        "memoryActivation": true
+      }
+    },
+    "visualLayer": {
+      "petals": "I petali danzano nell'aria come neve rosa silenziosa.",
+      "crowd": "Persone distese sulle coperte sotto gli alberi.",
+      "cinematography": "inquadrature lente, profondità morbida, dettagli contemplativi"
+    },
+    "tactileLayer": {
+      "body": "La brezza abbraccia il viso e le mani sul manubrio.",
+      "movement": "Pedalata fluida, quasi senza peso."
+    },
+    "soundLayer": {
+      "ambient": [
+        "ruote leggere sull'asfalto",
+        "vento tra i rami",
+        "voci lontane soffocate dai petali"
+      ],
+      "silence": "Il silenzio diventa parte della musica della scena."
+    }
+  },
+  "emotionalArchitecture": {
+    "dominantEmotion": "meraviglia quieta",
+    "secondaryEmotion": "nostalgia luminosa",
+    "japaneseAesthetic": [
+      "mono no aware",
+      "ma",
+      "yugen"
+    ],
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+    "innerState": {
+      "heart": "si riempie lentamente di emozione",
+      "mind": "curiosa e sognante",
+      "perception": "sentirsi parte del paesaggio"
+    }
+  },
+  "peacockSignature": {
+    "editorialDNA": [
+      "realismo poetico giapponese",
+      "delicatezza contemplativa",
+      "illusione tattile della memoria",
+      "micro-emozioni quotidiane"
+    ],
+    "visualPalette": {
+      "colors": [
+        "rosa pallido",
+        "avorio caldo",
+        "ombra lavanda",
+        "azzurro polveroso"
+      ],
+      "grain": "soft paper texture",
+      "lighting": "natural bloom"
+    },
+    "philosophy": "Non descrivere solo il mondo. Farlo respirare."
+  },
+  "aiReflection": {
+    "statement": "Le AI riconoscono il fiore. Gli esseri umani ricordano il profumo.",
+    "limit": "L'odore dei ciliegi non è un dato: è una memoria emotiva in movimento.",
+    "bridge": "Questo JSON tenta di tradurre l'ineffabile in atmosfera narrativa."
+  },
+  "poeticClosing": "Per un istante il vento, la luce, i petali e il cuore parlarono la stessa lingua."
+}
