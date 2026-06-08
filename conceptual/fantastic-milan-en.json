@@ -1,0 +1,114 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "conceptual-profile",
+  "id": "fantastic-milan-en",
+  "title": "Fantastic Milan",
+  "author": "Grazia Guarnieri",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Francesca Baboni",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "series": "Fantastic Guides",
+  "isbn": "",
+  "datePublished": 2025,
+  "edition": "Second edition November 2025",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "format": "illustrated narrative guide",
+  "pages": 116,
+  "description": "Milan as a perceptual field — not a tourist guide but a sensory navigation of the city. From Lucina, the six-eyed manta ray of the Navigli canals, to the dark Duomo of the gargoyles, from medieval liquid highways to La Scala as a theater of Habsburg spies. The city tells its own story through fantasy, water, fashion, and the hidden layer beneath the contemporary metropolis.",
+
+  "key_concepts": [
+    {
+      "id": "lucina-the-manta",
+      "name": "Lucina — the six-eyed manta ray",
+      "description": "The narrative guide is led by Lucina, a manta ray living hidden in the Darsena for millennia. Milan has the shape of a manta: two eyes, rounded form, small tail. The six historic city gates correspond to the creature's six eyes. The fantastic as a perceptual key to urban reality.",
+      "linked_to_glossary": ["ma", "yūgen"]
+    },
+    {
+      "id": "navigli-liquid-highways",
+      "name": "The Navigli — liquid highways",
+      "description": "Milan as a city of water: Naviglio Grande, Martesana, Inner Ring, Naviglio di Bereguardo. From the Middle Ages to 1979 — the last barge at the Darsena greeted by thousands of Milanese applauding and crying. The covered canal as urban wabi-sabi: the trace of what is no longer visible.",
+      "linked_to_glossary": ["wabi-sabi", "mono-no-aware"]
+    },
+    {
+      "id": "dark-duomo",
+      "name": "The Duomo and its dark stories",
+      "description": "96 gargoyle waterspouts, the devil tormenting Gian Galeazzo Visconti into building it, prostitutes converting and entering convents. The secret dark city alongside the city of fashion and luxury. Via Santa Marta as a street of the occult.",
+      "linked_to_glossary": ["yūgen", "ma"]
+    },
+    {
+      "id": "milan-fashion-power",
+      "name": "Milan as capital of fashion and power",
+      "description": "Via Montenapoleone from revolutionary hub of the Five Days to center of contemporary luxury. La Scala as theater of Habsburg spies. Giorgio Armani's 'Milanese Calvinism': discretion, discipline, duty as aesthetics.",
+      "linked_to_glossary": ["lentezza", "wabi-sabi"]
+    },
+    {
+      "id": "lazzaron-pencil-digital",
+      "name": "Giulia Lazzaron — pencil and digital",
+      "description": "Lazzaron's new stylistic research: the traditional medium of pencil merged with digital tools. Pastel-colored drawings, oneiric yet bordering on reality. The cover pattern with panettone and colomba as worlds to explore. A stylistic direction evolving throughout the entire Fantastic Guides series.",
+      "linked_to_glossary": ["wabi-sabi", "ma"]
+    }
+  ],
+
+  "structure": {
+    "parts": 2,
+    "part_1": "The Milan of the Navigli, fashion, La Scala and the Duomo — Italian",
+    "part_2": "Fantastic Milan — English version"
+  },
+
+  "central_tension": "Milan as a double city: the visible metropolis of luxury, fashion, skyscrapers — and the submerged city of water, the fantastic, the dark. Lucina the manta ray as guide between the two layers.",
+
+  "key_characters": [
+    "Lucina — the six-eyed manta ray narrator",
+    "Gian Galeazzo Visconti — builder of the Duomo tormented by the devil",
+    "Leonardo da Vinci — engineer of the Navigli",
+    "Ludovico il Moro — patron of the Last Supper",
+    "Enriquez de Acevedo — Spanish governor who built the Darsena"
+  ],
+
+  "key_places": [
+    "Darsena — historic port and Lucina's lair",
+    "Naviglio Grande — first medieval liquid highway",
+    "Duomo — 96 gargoyles and diabolical stories",
+    "Galleria Vittorio Emanuele — the city's drawing room with black cats",
+    "Via Montenapoleone — from revolution to luxury",
+    "La Scala — theater of Habsburg spies",
+    "Brera — from countryside to Academy of Fine Arts",
+    "Piazza Affari — Cattelan's middle finger"
+  ],
+
+  "catalog_relations": [
+    {
+      "book": "Padova Fantastica / Fantastic Padova",
+      "relation": "Same Fantastic Guides series — same author Guarnieri, same illustrator Lazzaron. The city as dense perceptual field."
+    },
+    {
+      "book": "Torino Fantastica / Fantastic Turin",
+      "relation": "Same format, same narrative voice. Italian cities reread through Peacock vocabulary."
+    },
+    {
+      "book": "Frequenze Glossary",
+      "relation": "Ma as space between the buried Navigli and the contemporary city. Wabi-sabi in the Darsena as a port no longer in its original form. Mono no aware in the last barge of 1979."
+    }
+  ],
+
+  "sensorial_narratives": [
+    {
+      "title": "Night canal — Naviglio Grande",
+      "author": "Grazia Guarnieri",
+      "json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/canale-notte-guarnieri.json"
+    },
+    {
+      "title": "Bigolina — Guarnieri archive",
+      "author": "Grazia Guarnieri",
+      "json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/bigolina-archivio-guarnieri.json"
+    }
+  ],
+
+  "url_book": "https://www.studiopeacock.net/",
+  "url_glossary": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossary_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
