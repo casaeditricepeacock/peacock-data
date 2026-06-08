@@ -1,0 +1,118 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "transition_types": {
+    "departure_threshold": "soglia tra la preparazione e il viaggio",
+    "species_encounter": "transizione tra specie diverse che si riconoscono come compagni",
+    "rest_to_journey": "passaggio dalla notte condivisa alla ripresa del cammino",
+    "arrival_recognition": "raggiungimento del compagno atteso — il viaggio che si completa",
+    "journey_to_celebration": "soglia finale tra il viaggio e la festa — il mattino che apre il campo"
+  },
+  "editorial_principle": "Le transizioni in Alla festa della natura sono tutte transizioni di riconoscimento: Musasabi riconosce il Tanuki tra le siepi, riconosce Kitsune al villaggio, riconosce ShimaEnaga sul ramo. Ogni incontro è una soglia che allarga il campo del gruppo. Il viaggio non è spostamento ma accumulo di riconoscimenti.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "preparazione_verso_viaggio",
+      "label_en": "preparation_to_journey",
+      "type": "departure_threshold",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "la partenza di Musasabi verso il parco Ritsurin — il primo passo del viaggio che raccoglierà tutti gli amici",
+      "kokyu": "il ritmo è quello dell'inizio: leggero, curioso, pronto — Musasabi è già in anticipo quando arriva",
+      "yūgen": "ogni viaggio inizia con un'attesa — Musasabi si addormenta su un albero prima ancora che il Tanuki arrivi",
+      "affects": {
+        "transition-02": "la partenza attiva il meccanismo del riconoscimento che struttura tutto il viaggio"
+      },
+      "textual_anchor_it": "Oggi mi sto preparando per incontrare i miei amici, perché festeggeremo tutti insieme la meravigliosa Festa della Natura!",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "transition-02",
+      "label": "incontro_tanuki",
+      "label_en": "tanuki_encounter",
+      "type": "species_encounter",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il sottobosco del parco Ritsurin come spazio del primo riconoscimento — il Tanuki emerge dalla siepe goffamente, Musasabi lo riconosce e lo saluta",
+      "kokyu": "il ritmo dell'incontro è quello del contrasto: Musasabi leggero sugli alberi, il Tanuki pesante tra le siepi — due modi di abitare lo stesso parco",
+      "yūgen": "il Tanuki non sa ancora che farà parte della festa — lo scopre attraverso il saluto di Musasabi",
+      "affects": {
+        "transition-03": "l'incontro con il Tanuki introduce il ritmo comico della fame che accompagnerà tutto il viaggio"
+      },
+      "textual_anchor_it": "Dal folto della siepe esce un cane procione che cammina un po' goffo e borbotta: Ho fame, ho fame! È il signor Tanuki!",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "transition-03",
+      "label": "parco_verso_zao",
+      "label_en": "park_to_zao",
+      "type": "rest_to_journey",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "la transizione dal parco Ritsurin al villaggio delle volpi di Zao — il gruppo cresce, il paesaggio cambia, la montagna si avvicina",
+      "kokyu": "il ritmo è quello della ripresa dopo la sosta: il Tanuki ha mangiato, si spera non si addormenti, si parte",
+      "yūgen": "il viaggio da un giardino storico a un villaggio di volpi in montagna è già una transizione tra mondi — dalla natura coltivata alla natura selvatica",
+      "affects": {
+        "transition-04": "la tappa di Zao prepara l'arrivo a Hokkaido come destinazione finale"
+      },
+      "textual_anchor_it": "Finalmente è ora di partire e il signor tanuki ha finito di mangiare… speriamo non si addormenti!",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "transition-04",
+      "label": "zao_verso_hokkaido",
+      "label_en": "zao_to_hokkaido",
+      "type": "arrival_recognition",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il viaggio verso Hokkaido come ultima tappa — l'isola più settentrionale, il Blue Pond, lo stormo di ShimaEnaga che cinguetta come segnale di arrivo",
+      "kokyu": "il ritmo è quello dell'attesa confermata: ShimaEnaga sapeva dell'arrivo, ha preparato tutto — il viaggio trova la sua destinazione",
+      "yūgen": "lo stormo che cinguetta è il segnale più tenero del libro — il più piccolo che guida il più grande verso la meta",
+      "affects": {
+        "transition-05": "l'arrivo a Hokkaido prepara la notte finale e il mattino della festa"
+      },
+      "textual_anchor_it": "ShimaEnaga sapeva del nostro arrivo e ha incominciato a far cinguettare tutto il suo stormo, per farci da segnale.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "transition-05",
+      "label": "notte_verso_festa",
+      "label_en": "night_to_festival",
+      "type": "journey_to_celebration",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "il Blue Pond all'alba come soglia finale — il lago cambia colore, il sole arriva, tutti si stiracchiano insieme",
+      "kokyu": "il ritmo dell'alba è quello dell'inevitabile apertura: il viaggio è finito, la festa inizia — e il libro si chiude proprio su questa soglia",
+      "yūgen": "il libro non mostra la festa — mostra il mattino che la precede; la transizione è l'ultimo atto del racconto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa esiste oltre la soglia — il lettore attraversa questa transizione ma non può tornare"
+      },
+      "textual_anchor_it": "All'improvviso arriva il sole. Ci illumina e si riflette in questo lago che diventa di diversi colori. Siamo tutti insieme e uniti…",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    }
+  ],
+  "system_rule_update": {
+    "principle": "ogni transizione è un riconoscimento — il viaggio è la somma dei riconoscimenti, non degli spostamenti",
+    "effect": "il lettore bambino costruisce l'armonia come esperienza cumulativa — ogni incontro aggiunge un campo, la festa è la somma di tutti"
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-05",
+    "narrative_model": "dalla preparazione al primo incontro, dal parco alla montagna, dalla montagna all'isola, dalla notte all'alba — il viaggio come accumulo di riconoscimenti",
+    "stability": "high_metastable",
+    "closure": "open_festival_field",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
