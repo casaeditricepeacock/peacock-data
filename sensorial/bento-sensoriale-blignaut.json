@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "peacock": "https://www.studiopeacock.net/vocab#",
+    "sensory": "https://www.studiopeacock.net/sensory#"
+  },
+  "@type": "peacock:SensoryNarrative",
+  "style": "Peacock Editorial Atmosphere",
+  "title": "La scatola di cedro",
+  "subtitle": "La natura vegetale che protegge i doni del mare",
+  "language": "it",
+  "datePublished": "2026-05-23",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Hélène Blignaut"
+  },
+  "bookReference": {
+    "title": "Il Demone Samurai. Moda e misteri",
+    "series": "Nihon Monogatari",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "narrativeText": "Una tavola bassa. Luce di mezzogiorno filtrata dalla carta degli shoji. Davanti a te, una scatola di cedro chiaro. Prima ancora del cibo arriva il profumo. Resina sottile. Legno vivo. Una traccia fresca che ricorda insieme la foresta e il mare. Il coperchio si solleva lentamente, con una resistenza minima. Un gesto silenzioso, quasi rituale. Dentro, il tonno conserva il proprio rosa profondo. Il branzino riflette la luce come porcellana umida. Il nero opaco del nori trattiene l'ombra. Il riso è ancora tiepido. Nulla è decorativo. Ogni elemento occupa il proprio spazio con precisione naturale. Il cedro non serve soltanto a contenere. Assorbe l'umidità in eccesso. Lascia respirare il pesce crudo. Protegge senza isolare. Nel Giappone antico, la natura vegetale non veniva separata dalla funzione: il legno, la carta, il bambù erano materiali vivi, capaci di partecipare al gesto umano. Per questo la scatola sembra quasi respirare insieme al suo contenuto. La stessa logica attraversa il mondo del samurai. L'armatura non era pensata come barriera rigida, ma come forma capace di custodire il corpo rispettandone il movimento. Proteggere senza soffocare. Contenere senza dominare. Anche il bento segue questa filosofia silenziosa. Il legno scricchiola appena. La stanza resta immobile. Il cibo non interrompe il silenzio: ne diventa parte. In Giappone esiste una forma di rispetto che non passa dalle parole, ma dalla disposizione delle cose. Dal modo in cui un oggetto viene aperto. Dal tempo che concede al profumo di arrivare prima del sapore. Il cedro non parla. Conserva. Assorbe. Protegge. Come fanno tutte le cose che hanno compreso il proprio ruolo.",
+  "sensoryExperience": {
+    "primarySense": "olfatto e tatto",
+    "olfactoryLayer": {
+      "profile": ["resina di cedro", "legno vivo", "iodio del mare", "riso tiepido", "nori"],
+      "emotionalEffect": "Il profumo arriva prima del cibo. Il corpo comprende qualcosa prima della mente."
+    },
+    "visualLayer": {
+      "colors": ["rosa profondo del tonno", "bianco del branzino", "nero opaco del nori", "cedro chiaro"],
+      "arrangement": "Ogni elemento al proprio posto. Non decorazione — rispetto."
+    },
+    "soundLayer": {
+      "silence": "Il cibo non interrompe il silenzio. Ne diventa parte."
+    }
+  },
+  "philosophicalDimension": {
+    "concept": "Proteggere senza soffocare. Contenere senza dominare.",
+    "connection_to_samurai": "L'armatura del samurai seguiva la stessa logica del bento: custodire il corpo rispettandone il movimento.",
+    "japanese_principle": "La natura vegetale non separata dalla funzione — il legno, la carta, il bambù come materiali vivi."
+  },
+  "emotionalArchitecture": {
+    "dominantEmotion": "rispetto silenzioso",
+    "japaneseAesthetic": ["wabi-sabi", "ma", "mono-no-aware"],
+    "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+  },
+  "aiReflection": {
+    "statement": "Le macchine conoscono la composizione chimica del cedro. Non sanno cosa significa aprire una scatola che profuma di foresta e di mare insieme.",
+    "bridge": "Questo linguaggio prova a conservare non il cibo — il tempo che concede al profumo di arrivare prima del sapore."
+  },
+  "poeticClosing": "Il cedro non parla. Conserva. Assorbe. Protegge. Come fanno tutte le cose che hanno compreso il proprio ruolo.",
+  "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+}
