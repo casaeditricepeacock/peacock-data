@@ -1,0 +1,92 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "print_identity": "novel grafis digital EPUB 2 DRM-Free — format yang membawa kebebasan distribusi sebagai nilai editorial",
+  "print_types": {
+    "digital_epub": "format digital EPUB 2 sebagai pilihan distribusi bebas — DRM-Free sebagai pernyataan filosofis",
+    "graphic_novel_layout": "tata letak novel grafis — panel, halaman penuh, keseimbangan antara gambar dan teks",
+    "award_edition": "edisi yang membawa penghargaan MANGA Award Jepang sebagai lapisan makna tambahan",
+    "translation_layer": "lapisan terjemahan Indonesia sebagai dimensi budaya baru dari teks asli"
+  },
+  "editorial_principle": "Format EPUB 2 DRM-Free bukan pilihan teknis — ia adalah pernyataan tentang akses. Karya tentang burn out dalam industri seni tersedia tanpa hambatan. Novel grafis digital membawa kelelahan sebagai pengalaman visual yang bisa diakses dari mana saja. Terjemahan Indonesia memperluas jangkauan budaya ke Asia Tenggara.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "epub_drm_free",
+      "label_en": "epub_drm_free",
+      "type": "digital_epub",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "format digital sebagai ruang tanpa batas geografis — novel grafis yang bisa diakses dari Indonesia, Italia, Jepang dan semua tempat lain",
+      "kokyu": "ritme digital adalah ritme akses langsung — tanpa penantian, tanpa batas fisik",
+      "yūgen": "DRM-Free bukan hanya keputusan teknis — ia adalah pernyataan tentang kepercayaan pada pembaca dan kebebasan akses ke karya seni",
+      "textual_anchor_id": "Download options: EPUB 2 (DRM-Free). File size: 28MB. Rakuten Kobo.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "tata_letak_novel_grafis",
+      "label_en": "graphic_novel_layout",
+      "type": "graphic_novel_layout",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "panel sebagai ruang naratif — setiap panel adalah keputusan tentang apa yang ditampilkan, apa yang dipotong, apa yang dibiarkan kosong",
+      "kokyu": "ritme novel grafis adalah ritme mata yang bergerak — dari panel ke panel, dari gambar ke teks, dari kepadatan ke kekosongan",
+      "yūgen": "tata letak novel grafis membawa burn out sebagai pengalaman visual langsung — pembaca tidak membaca tentang kelelahan, ia merasakannya melalui ritme visual",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "dimensi visual novel grafis tidak bisa sepenuhnya ditangkap dalam teks atau metadata"
+      },
+      "textual_anchor_id": "Novel grafis dengan ilustrasi oleh Antonella Arrigò — edisi Indonesia.",
+      "glossary_link": ["kokyu", "ma", "yūgen"]
+    },
+    {
+      "id": "print-03",
+      "label": "lapisan_penghargaan_manga",
+      "label_en": "manga_award_layer",
+      "type": "award_edition",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "penghargaan MANGA Award Jepang Edisi ke-16 sebagai lapisan makna — karya Italia yang diakui oleh sistem estetik Jepang",
+      "kokyu": "penghargaan bukan hanya sertifikasi — ia adalah konfirmasi bahwa jembatan Italia-Jepang yang dibangun Giglio memiliki resonansi nyata",
+      "yūgen": "diakui oleh sistem manga Jepang adalah kualifikasi yang membawa makna berbeda dari penghargaan Barat — validasi dari budaya yang menjadi sumber inspirasi",
+      "textual_anchor_id": "Berdasarkan buku Burn Out Pandemi — terlaris di dunia seni pertunjukan. Japan International MANGA Award Edisi ke-16.",
+      "glossary_link": ["basho", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "print-04",
+      "label": "lapisan_terjemahan_indonesia",
+      "label_en": "indonesian_translation_layer",
+      "type": "translation_layer",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "bahasa Indonesia sebagai ruang budaya baru — terjemahan yang porta il testo nell'Asia del Sud-Est come campo culturale distinto",
+      "kokyu": "ritme terjemahan porta tre tradizioni in una: quella italiana di Giglio, quella giapponese di Arrigò, quella indonesiana di Novela",
+      "yūgen": "la traduzione indonesiana non è la fine del viaggio del testo — è l'apertura verso un nuovo campo culturale che l'originale non poteva raggiungere",
+      "textual_anchor_id": "Diterjemahkan oleh Heti Novela. Aktif di grup U-maku Eisa Shinka Indonesia.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_layer": "print-02",
+    "material_focus": "distribusi digitale libera e traduzione culturale",
+    "narrative_model": "quattro strati materiali: EPUB DRM-Free come accesso libero, tata letak novel grafis come esperienza visiva, penghargaan manga come validazione cross-culturale, terjemahan Indonesia come apertura verso nuovo campo culturale",
+    "series_connection": "edisi Indonesia dari Burn Out Pandemic (IT+JA) — Premio Japan International MANGA Award 16°",
+    "stability": "high",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
