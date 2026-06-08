@@ -1,0 +1,220 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "system_principle": "The system operates as a perceptual exhaustion field in which creative burnout and global pandemic converge in one artist's body. The graphic novel does not narrate burnout — it manifests it as direct visual experience. The Indonesian translation adds a third cultural dimension that transforms the original without replacing it.",
+  "node_classes": {
+    "scene": "burnout_arc_configuration",
+    "object": "exhaustion_operator",
+    "ritual": "limit_construction_device",
+    "transition": "threshold_between_states_of_exhaustion",
+    "silence": "invisible_accumulation_field",
+    "weather": "atmospheric_exhaustion_climate",
+    "meta_state": "transformation_through_crisis_field"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "burnout_transformation_arc",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "akumulasi_kelelahan",
+        "nodes": [
+          "object-01",
+          "scene-01",
+          "ritual-01",
+          "weather-01",
+          "silence-03"
+        ],
+        "type": "invisible_accumulation_loop",
+        "stability": "stable_until_collapse",
+        "propagation_logic": "Kelelahan terakumulasi secara tidak terlihat di balik aktivitas intensif. Semakin aktif seniman, semakin besar akumulasi yang tidak terlihat.",
+        "description": "Loop yang membangun kondisi untuk kehancuran — tidak terlihat dari dalam sistem."
+      },
+      {
+        "id": "loop-02",
+        "label": "pandemi_akselerator",
+        "nodes": [
+          "object-02",
+          "scene-02",
+          "ritual-02",
+          "weather-02",
+          "silence-02"
+        ],
+        "type": "external_force_loop",
+        "stability": "permanent",
+        "propagation_logic": "Pandemi tidak menciptakan burn out — ia mengakselerasi dan mengekspos kelelahan yang sudah ada. Penghentian eksternal membuka ruang di mana kelelahan internal menjadi tidak bisa disembunyikan.",
+        "description": "Pandemi sebagai operator struktural yang mengubah semua kondisi sekaligus."
+      },
+      {
+        "id": "loop-03",
+        "label": "krisis_identitas_artistik",
+        "nodes": [
+          "object-03",
+          "object-04",
+          "scene-03",
+          "transition-02"
+        ],
+        "type": "identity_crisis_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "Krisis identitas artistik tidak terselesaikan — seniman setelah burn out bukan seniman yang sama dan ini adalah transformasi yang tidak bisa dibalikkan.",
+        "description": "Loop yang tetap terbuka — krisis identitas adalah kondisi permanen setelah ambang dilampaui."
+      },
+      {
+        "id": "loop-04",
+        "label": "manifestasi_grafis",
+        "nodes": [
+          "object-05",
+          "scene-04",
+          "ritual-04",
+          "silence-01"
+        ],
+        "type": "graphic_manifestation_loop",
+        "stability": "permanent",
+        "propagation_logic": "Novel grafis tidak mendokumentasikan burn out — ia memanifestasikannya sebagai pengalaman visual langsung. Ilustrasi Arrigò adalah tubuh kedua dari kelelahan Giglio.",
+        "description": "Dimensi visual adalah bahasa primer — teks adalah bahasa sekunder."
+      },
+      {
+        "id": "loop-05",
+        "label": "jembatan_tiga_budaya",
+        "nodes": [
+          "object-04",
+          "ritual-05",
+          "transition-05",
+          "silence-04"
+        ],
+        "type": "cross_cultural_bridge_loop",
+        "stability": "permanent",
+        "propagation_logic": "Italia-Jepang-Indonesia bukan hanya tiga bahasa — mereka adalah tiga sistem persepsi yang, quando convergono, producono qualcosa che non esiste in nessuno dei tre.",
+        "description": "La traduzione indonesiana aggiunge una dimensione culturale che trasforma il testo originale."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "burnout_as_structural_center",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every_node_filtered_through_exhaustion_lens"
+    },
+    {
+      "from": "object-02",
+      "to": "all",
+      "effect": "pandemic_as_universal_accelerator",
+      "propagation_mode": "contextual",
+      "intensity": 0.98,
+      "stability_impact": "pandemic_transforms_all_conditions_simultaneously"
+    },
+    {
+      "from": "object-05",
+      "to": "object-01",
+      "effect": "graphic_novel_manifests_exhaustion_directly",
+      "propagation_mode": "parallel",
+      "intensity": 0.99,
+      "stability_impact": "visual_language_precedes_text"
+    },
+    {
+      "from": "transition-03",
+      "to": "all",
+      "effect": "burnout_visibility_transforms_system",
+      "propagation_mode": "instantaneous",
+      "intensity": 0.97,
+      "stability_impact": "once_visible_burnout_cannot_be_hidden_again"
+    },
+    {
+      "from": "ritual-05",
+      "to": "all",
+      "effect": "indonesian_translation_adds_third_cultural_dimension",
+      "propagation_mode": "additive",
+      "intensity": 0.94,
+      "stability_impact": "text_gains_cultural_resonance_unavailable_in_original"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "burnout_accumulation_active",
+    "allowed_mutations": [
+      "exhaustion_accumulation",
+      "pandemic_acceleration",
+      "identity_crisis_deepening",
+      "graphic_manifestation",
+      "cultural_translation_expansion"
+    ],
+    "forbidden_states": [
+      "pandemi_sebagai_latar_belakang",
+      "burn_out_sebagai_kelemahan_pribadi",
+      "novel_grafis_sebagai_illustrazione_del_testo",
+      "terjemahan_sebagai_salinan",
+      "italia_jepang_sebagai_esotica"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "burnout_metastable",
+    "closure": false,
+    "closure_type": "open_transformation_permanent_field",
+    "system_behavior": "Il sistema accumula kelelahan invisibilmente fino al collasso. La pandemia accelera il processo. Il graphic novel manifesta l'esaurimento come esperienza visiva diretta. La traduzione indonesiana apre il testo verso un terzo spazio culturale che lo trasforma.",
+    "reader_effect": "Pembaca tidak membaca tentang burn out — ia mengalaminya melalui ritme visual dan naratif. Terjemahan Indonesia membawa pengalaman Italia-Jepang ke dalam konteks budaya Asia Tenggara.",
+    "readability": "high_visual_high_emotional",
+    "catalog_connection": {
+      "burn_out_pandemic_it_ja": "edisi asli Italia-Jepang — sistem naratif yang sama dalam bahasa berbeda",
+      "la_singolarita_giappone": "campo condiviso Italia-Giappone come sistema artistico e filosofico",
+      "pixel_in_japan": "campo condiviso della cultura visiva giapponese come sistema di riferimento"
+    }
+  }
+}
