@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian",
+    "format": "graphic novel EPUB 2 DRM-Free",
+    "distribution": "Rakuten Kobo",
+    "award": "Japan International MANGA Award — Edisi ke-16",
+    "origin": "edisi terjemahan dari Burn Out Pandemic (IT+JA)"
+  },
+  "editorial_principle": "Burn Out Pandemi bukan sekadar novel grafis tentang pandemi. Ini adalah sistem perseptual di mana tubuh seniman yang kelelahan bertabrakan dengan dunia yang berhenti. Pandemi bukan latar belakang — pandemi adalah operator struktural yang mengubah waktu, ruang, dan identitas. Seni Jepang dan pengalaman Italia bertemu dalam bahasa Indonesia sebagai jembatan ketiga.",
+  "object_types": {
+    "burnout_field": "medan perseptual kelelahan total — tubuh dan pikiran yang mencapai batas",
+    "pandemic_operator": "pandemi sebagai kekuatan struktural yang mengubah realitas, bukan sekadar konteks",
+    "artistic_identity": "identitas seniman yang dipertaruhkan dalam krisis — seni sebagai pertahanan dan kehancuran",
+    "japan_italy_bridge": "jembatan budaya antara estetika Jepang dan pengalaman Italia",
+    "graphic_silence": "keheningan visual dalam novel grafis — panel kosong, warna yang pudar, garis yang tremor"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "seniman_kelelahan",
+      "label_en": "exhausted_artist",
+      "type": "burnout_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "tubuh seniman sebagai medan pertempuran — kelelahan yang melampaui fisik dan memasuki identitas",
+      "kokyu": "ritme napas yang putus — burn out bukan peristiwa tetapi proses akumulasi yang tidak terlihat sampai tubuh berhenti",
+      "yūgen": "seniman tidak menyadari kehancurannya sampai ia tidak bisa lagi bergerak — batas yang tidak terlihat sampai dilampaui",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "kelelahan meninggalkan jejak permanen — tubuh tidak pernah benar-benar kembali ke keadaan sebelumnya"
+      },
+      "affects": {
+        "object-02": "pandemi mengintensifkan dan mempercepat kelelahan yang sudah ada",
+        "object-03": "identitas artistik dipertaruhkan ketika tubuh tidak bisa lagi berkarya"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "pandemi_operator_struktural",
+      "label_en": "pandemic_structural_operator",
+      "type": "pandemic_operator",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "pandemi sebagai ruang yang menutup semua ruang lain — kota yang sunyi, studio yang terkunci, pertunjukan yang dibatalkan",
+      "kokyu": "ritme pandemi adalah ritme penantian — waktu yang melambat sampai hampir berhenti",
+      "yūgen": "pandemi tidak menghancurkan dunia seni dari luar — ia masuk ke dalam dan mengubah cara seniman memandang karyanya sendiri",
+      "affects": {
+        "object-01": "isolasi pandemi memaksa seniman berhadapan dengan kelelahan yang selama ini disembunyikan oleh aktivitas",
+        "object-04": "pandemi memutus jembatan Italia-Jepang yang menjadi nafas artistik Giglio"
+      },
+      "textual_anchor_id": "Pandemi datang seperti ekor kesembilan — tak terduga, menghancurkan segalanya yang telah dibangun.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "object-03",
+      "label": "identitas_artistik_dipertaruhkan",
+      "label_en": "artistic_identity_at_stake",
+      "type": "artistic_identity",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "ruang pameran yang kosong sebagai cermin identitas yang goyah — Venezia, Osaka, Bologna, Tokyo yang tidak bisa dikunjungi",
+      "kokyu": "ritme kreasi yang terputus — seniman yang tidak bisa berkarya bukan lagi seniman atau menjadi seniman yang berbeda",
+      "yūgen": "identitas artistik tidak hilang dalam pandemi — ia berubah bentuk menjadi sesuatu yang lebih rapuh dan lebih jujur",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "seniman setelah burn out bukan seniman yang sama — transformasi tidak bisa dibalikkan"
+      },
+      "affects": {
+        "object-05": "kehilangan identitas artistik menghasilkan keheningan grafis yang menjadi bahasa baru"
+      },
+      "textual_anchor_id": "Dalam beberapa tahun terakhir, bersama dengan mitra dan desainer tak terpisahkan Elena Lombardi, telah berpameran di Venezia, Osaka, Bologna, Tokyo.",
+      "glossary_link": ["yūgen", "mono no aware", "basho"]
+    },
+    {
+      "id": "object-04",
+      "label": "jembatan_italia_jepang",
+      "label_en": "italy_japan_bridge",
+      "type": "japan_italy_bridge",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "lo spazio tra Italia e Jepang sebagai medan artistik Giglio — hubungan dengan Nomura, ahli keramik di Osaka, sebagai tali yang menghubungkan dua dunia",
+      "kokyu": "ritme jembatan adalah ritme perjalanan yang terhenti — pandemi memutus koneksi fisik tetapi tidak memutus koneksi perseptual",
+      "yūgen": "Italia dan Jepang tidak hanya dua negara — mereka adalah dua sistem persepsi yang, ketika bertemu, menghasilkan sesuatu yang tidak ada di keduanya",
+      "affects": {
+        "object-03": "terputusnya jembatan Italia-Jepang memperdalam krisis identitas artistik"
+      },
+      "textual_anchor_id": "Ia adalah seorang seniman yang hidup di antara Italia dan Jepang, secara artistik terkait dengan sahabatnya yang tak terpisahkan, Nomura, ahli keramik di Osaka.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "object-05",
+      "label": "keheningan_grafis",
+      "label_en": "graphic_silence",
+      "type": "graphic_silence",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "panel kosong, warna yang pudar, garis yang tremor sebagai bahasa visual kelelahan — novel grafis yang berbicara melalui apa yang tidak digambar",
+      "kokyu": "ritme visual novel grafis adalah ritme napas yang terputus — panel yang terlalu penuh alternasi dengan kekosongan",
+      "yūgen": "ilustrasi Antonella Arrigò tidak mendokumentasikan burn out — ia memanifestasikannya sebagai pengalaman visual langsung",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "keheningan grafis tidak bisa diterjemahkan ke dalam kata — ia hanya ada dalam visual"
+      },
+      "affects": {
+        "object-01": "keheningan grafis adalah bentuk paling jujur dari kelelahan — tubuh yang tidak bisa lagi mengisi halaman"
+      },
+      "textual_anchor_id": "Ilustrasi oleh Antonella Arrigò — editor editorial, disertifikasi oleh Lindau Publishing House, Turin.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-02",
+    "system_role": "burnout_as_perceptual_transformation_field",
+    "narrative_model": "lima operator perseptual membangun krisis: seniman yang kelelahan, pandemi sebagai operator struktural, identitas artistik yang dipertaruhkan, jembatan Italia-Jepang yang terputus, keheningan grafis sebagai bahasa baru",
+    "historical_setting": "2020-2022 — pandemi global, dunia seni yang terhenti, isolasi kreatif",
+    "reader_effect": "pembaca tidak membaca tentang burn out — ia mengalaminya melalui visual dan ritme naratif",
+    "series_connection": "edisi Indonesia dari Burn Out Pandemic (IT+JA) — penghargaan MANGA Award Jepang Edisi ke-16",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
