@@ -1,0 +1,126 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "ritual_types": {
+    "creative_exhaustion": "ritual kelelahan kreatif — tubuh yang terus berkarya sampai berhenti",
+    "pandemic_isolation": "ritual isolasi pandemi — ruang yang menyempit sampai hilang",
+    "artistic_performance": "ritual pertunjukan seni — pameran, panggung, kota-kota yang menjadi medan kreasi",
+    "graphic_creation": "ritual penciptaan visual — ilustrasi sebagai gesto tubuh yang meninggalkan jejak",
+    "cross_cultural_encounter": "ritual pertemuan budaya Italia-Jepang-Indonesia sebagai medan kreatif"
+  },
+  "editorial_principle": "Ritual-ritual dalam Burn Out Pandemi semuanya adalah ritual batas. Seniman berkarya sampai tubuh meminta berhenti. Pandemi memaksakan batas yang tidak dipilih. Ilustrasi Arrigò menggambar batas antara yang terlihat dan yang tidak bisa lagi digambar. Terjemahan Heti Novela membawa batas bahasa sebagai jembatan ketiga.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "berkarya_sampai_batas",
+      "label_en": "creating_until_limit",
+      "type": "creative_exhaustion",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "studio, panggung, kota-kota pameran sebagai ruang ritual kreasi — Venezia, Osaka, Bologna, Tokyo, Milan, Takamatsu, Firenze, Bali, Kopenhagen",
+      "kokyu": "ritme kreasi yang terus menerus tanpa henti — sampai tubuh tidak bisa lagi meneruskan",
+      "yūgen": "batas burn out tidak terlihat dari dalam — seniman hanya menyadarinya ketika sudah melewatinya",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "kelelahan kreatif meninggalkan jejak yang tidak bisa dihapus dari tubuh dan karya"
+      },
+      "affects": {
+        "ritual-02": "kelelahan yang terakumulasi membuat isolasi pandemi menjadi ledakan yang tidak bisa ditahan"
+      },
+      "textual_anchor_id": "Dalam beberapa tahun terakhir, telah berpameran secara alami dan spontan di tempat-tempat terkenal di kota-kota seperti: Venezia, Osaka, Bologna, Tokyo, Milan, Takamatsu, Florence, Bali, Kopenhagen.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "isolasi_pandemi",
+      "label_en": "pandemic_isolation",
+      "type": "pandemic_isolation",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "ruang yang menyempit dari kota ke rumah ke studio ke tubuh — isolasi sebagai ruang yang semakin kecil",
+      "kokyu": "ritme penantian pandemi — waktu yang tidak lagi ha struktur, hari yang tidak bisa dibedakan",
+      "yūgen": "isolasi tidak menghentikan kreasi dari luar — ia menghentikannya dari dalam, mengambil alasan untuk berkarya",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "isolasi pandemi mengubah cara seniman memandang karya dan dirinya sendiri — perubahan yang tidak bisa dibalikkan"
+      },
+      "affects": {
+        "ritual-03": "isolasi memaksa seniman berhadapan dengan pertanyaan tentang arti pertunjukan ketika tidak ada penonton"
+      },
+      "textual_anchor_id": "Pandemi datang dan semua yang telah dibangun berhenti — pertunjukan, perjalanan, pertemuan.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "pertunjukan_sebagai_ritual",
+      "label_en": "performance_as_ritual",
+      "type": "artistic_performance",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "ruang pertunjukan sebagai medan ritual — tidak hanya tempat tetapi sistem relasi antara seniman, karya dan penonton",
+      "kokyu": "ritme pertunjukan adalah ritme kehidupan artistik Giglio — tanpa pertunjukan, ritme berhenti",
+      "yūgen": "pertunjukan yang tidak bisa berlangsung selama pandemi tidak hilang — ia tertinggal sebagai potensi yang tidak terwujud",
+      "affects": {
+        "ritual-04": "tidak adanya pertunjukan mendorong penciptaan novel grafis sebagai bentuk pertunjukan alternatif"
+      },
+      "textual_anchor_id": "Terlaris di dunia seni pertunjukan — karya yang lahir dari krisis pertunjukan itu sendiri.",
+      "glossary_link": ["basho", "yūgen", "kokyu"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "penciptaan_ilustrasi",
+      "label_en": "illustration_creation",
+      "type": "graphic_creation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "halaman kosong sebagai ruang ritual penciptaan — Arrigò mengisi halaman dengan garis yang membawa kelelahan sebagai pengalaman visual",
+      "kokyu": "ritme ilustrasi adalah ritme tangan yang bergerak — setiap garis adalah napas, setiap panel adalah momen",
+      "yūgen": "ilustrasi Arrigò tidak menggambarkan burn out — ia memanifestasikannya; pembaca tidak membaca tentang kelelahan, ia merasakannya",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "setiap ilustrasi membawa jejak tangan yang tidak bisa direplikasi"
+      },
+      "affects": {
+        "ritual-05": "ilustrasi membawa bahasa visual yang kemudian harus diterjemahkan ke dalam bahasa Indonesia"
+      },
+      "textual_anchor_id": "Ilustrasi oleh Antonella Arrigò: editor editorial, disertifikasi oleh Lindau Publishing House, Turin.",
+      "glossary_link": ["kokyu", "ma", "yūgen"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "terjemahan_budaya",
+      "label_en": "cultural_translation",
+      "type": "cross_cultural_encounter",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "bahasa Indonesia sebagai ruang ketiga antara Italia dan Jepang — Heti Novela sebagai jembatan hidup antara tiga budaya",
+      "kokyu": "ritme terjemahan adalah ritme perpindahan makna — tidak hanya kata tetapi pengalaman yang harus menemukan tubuh baru",
+      "yūgen": "terjemahan bukan reproduksi — ia adalah kreasi baru yang membawa sesuatu yang tidak ada dalam teks asli",
+      "textual_anchor_id": "Diterjemahkan oleh Heti Novela. Ia belajar bahasa Italia di Perugia. Hidup di antara budaya Indonesia, Jepang dan Italia.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-04",
+    "system_role": "burnout_ritual_transformation_field",
+    "narrative_model": "lima ritual batas: berkarya sampai tubuh berhenti, isolasi yang mempercepat krisis, pertunjukan yang hilang, ilustrasi sebagai manifestasi langsung, terjemahan sebagai kreasi ketiga",
+    "historical_setting": "2020-2022 — pandemi global, dunia seni yang terhenti",
+    "reader_effect": "pembaca mengalami ritual kelelahan melalui visual — bukan membaca tentang burn out tetapi merasakannya",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
