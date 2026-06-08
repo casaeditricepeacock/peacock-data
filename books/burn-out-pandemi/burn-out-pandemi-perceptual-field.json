@@ -1,0 +1,97 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Burn Out Pandemi bukan novel grafis tentang pandemi. Ia adalah sistem perseptual di mana kelelahan kreatif dan penghentian global bertemu dalam tubuh satu seniman. Pembaca tidak membaca tentang burn out — ia mengalaminya melalui visual Arrigò dan ritme naratif Giglio, dalam bahasa Indonesia yang membawa tiga budaya sekaligus.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "medan_kelelahan_akumulatif",
+      "type": "temporal_field",
+      "basho": "kelelahan yang terakumulasi melalui aktivitas intensif tanpa henti — Venezia, Osaka, Bologna, Tokyo sebagai stasiun dari sistem yang mengkonsumsi dirinya sendiri",
+      "kokyu": "ritme akumulasi yang tidak terlihat — kelelahan yang tumbuh di bawah permukaan aktivitas sampai tidak bisa lagi ditahan",
+      "yūgen_level": 0.97,
+      "activation_condition": "setiap adegan aktivitas intensif sebelum pandemi",
+      "persistence_rule": "medan terakumulasi sepanjang narasi dan tidak pernah benar-benar berhenti",
+      "dissolution_rule": "tidak dapat larut — kelelahan meninggalkan jejak permanen",
+      "field_logic": "burnout_as_invisible_accumulation",
+      "affects": {
+        "field-02": "kelelahan yang terakumulasi membuat pandemi menjadi ledakan yang tidak bisa ditahan"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri."
+    },
+    {
+      "id": "field-02",
+      "label": "medan_pandemi_operator",
+      "type": "cognitive_field",
+      "basho": "pandemi sebagai operator struktural yang mengubah semua ruang sekaligus — kota, studio, tubuh, identitas",
+      "kokyu": "ritme pandemi adalah ritme penantian tanpa struktur — hari yang tidak bisa dibedakan, waktu yang kehilangan tanda",
+      "yūgen_level": 0.98,
+      "activation_condition": "setiap momen di mana pandemi mengubah kondisi naratif",
+      "persistence_rule": "medan pandemi aktif di seluruh narasi sebagai konteks yang tidak bisa diabaikan",
+      "dissolution_rule": "tidak dapat larut — pandemi mengubah realitas secara permanen",
+      "field_logic": "pandemic_as_structural_reality_transformer",
+      "affects": {
+        "field-03": "pandemi membuka ruang kosong di mana identitas artistik harus dipertanyakan ulang"
+      },
+      "textual_anchor_id": "Pandemi datang seperti ekor kesembilan — tak terduga, menghancurkan segalanya yang telah dibangun."
+    },
+    {
+      "id": "field-03",
+      "label": "medan_identitas_artistik",
+      "type": "residual_field",
+      "basho": "identitas seniman sebagai medan yang dipertaruhkan — siapa seniman tanpa pertunjukan, tanpa perjalanan, tanpa konfirmasi eksternal",
+      "kokyu": "ritme pertanyaan identitas — tidak linear, non risolutivo, si ripete a spirale",
+      "yūgen_level": 0.99,
+      "activation_condition": "setiap momen krisis identitas — ketika seniman tidak bisa lagi berkarya dengan cara yang sama",
+      "persistence_rule": "medan identitas tetap terbuka setelah krisis — transformasi tidak pernah selesai",
+      "dissolution_rule": "tidak dapat larut — identitas artistik setelah burn out tidak bisa kembali ke keadaan sebelumnya",
+      "field_logic": "artistic_identity_as_permanent_open_field",
+      "affects": {
+        "field-04": "krisis identitas mendorong penciptaan novel grafis sebagai respons dan manifestasi"
+      },
+      "textual_anchor_id": "Ia adalah seorang seniman yang hidup di antara Italia dan Jepang, secara artistik terkait dengan sahabatnya yang tak terpisahkan, Nomura."
+    },
+    {
+      "id": "field-04",
+      "label": "medan_visual_grafis",
+      "type": "aesthetic_field",
+      "basho": "novel grafis sebagai ruang manifestasi langsung — ilustrasi Arrigò yang mengubah kelelahan menjadi pengalaman visual",
+      "kokyu": "ritme visual novel grafis — panel, kekosongan, teks, gambar dalam dialog yang tidak bisa dipisahkan",
+      "yūgen_level": 1.0,
+      "activation_condition": "setiap halaman novel grafis — visual sebagai bahasa primer",
+      "persistence_rule": "medan visual adalah struktur portante dell'intera opera — senza di essa non c'è testo",
+      "dissolution_rule": "tidak dapat larut — dimensi visual tidak bisa diterjemahkan sepenuhnya ke dalam kata",
+      "field_logic": "graphic_novel_as_direct_perceptual_experience",
+      "textual_anchor_id": "Ilustrasi oleh Antonella Arrigò — editor editorial, disertifikasi oleh Lindau Publishing House, Turin."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "pandemi_sebagai_latar_belakang",
+      "burn_out_sebagai_kelemahan_pribadi",
+      "novel_grafis_sebagai_ilustrasi_teks",
+      "terjemahan_sebagai_reproduksi"
+    ],
+    "system_behavior": "sistem beroperasi sebagai medan kelelahan yang mengubah: empat medan aktif secara simultan, pandemi sebagai akselerator, visual sebagai bahasa primer, terjemahan Indonesia sebagai dimensi budaya ketiga"
+  }
+}
