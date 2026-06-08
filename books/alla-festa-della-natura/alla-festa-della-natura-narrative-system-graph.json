@@ -1,0 +1,219 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a progressive harmony accumulation field. Each stop on the journey adds a companion and a perceptual field to the group. The festival is never shown — it exists as an open field beyond the last page. The reader builds the harmony through the journey, not through its description.",
+  "node_classes": {
+    "scene": "journey_stop_configuration",
+    "object": "companion_field_operator",
+    "ritual": "harmony_construction_device",
+    "transition": "threshold_between_journey_stops",
+    "silence": "open_field_beyond_text",
+    "weather": "natural_harmony_climate",
+    "meta_state": "festival_as_permanent_open_field"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-05",
+    "system_shape": "journey_friendship_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "viaggio_accumulativo",
+        "nodes": [
+          "object-01",
+          "scene-01",
+          "scene-02",
+          "scene-04",
+          "transition-01",
+          "transition-04"
+        ],
+        "type": "progressive_accumulation_loop",
+        "stability": "stable",
+        "propagation_logic": "Each journey stop adds a companion and a perceptual field. The group grows with each recognition. The harmony is built cumulatively.",
+        "description": "The journey is the structure — each stop has its animal, its place, its field."
+      },
+      {
+        "id": "loop-02",
+        "label": "armonia_notturna",
+        "nodes": [
+          "scene-03",
+          "ritual-02",
+          "silence-02",
+          "object-03"
+        ],
+        "type": "shared_sleep_harmony_loop",
+        "stability": "permanent",
+        "propagation_logic": "Species sleep together without declaration. The harmony is lived physically, not described.",
+        "description": "The warmth of Kitsune's fur is the most concrete form of harmony in the book."
+      },
+      {
+        "id": "loop-03",
+        "label": "tanuki_ritmo_comico",
+        "nodes": [
+          "object-02",
+          "ritual-04",
+          "transition-02"
+        ],
+        "type": "comic_rhythm_loop",
+        "stability": "cyclic",
+        "propagation_logic": "The Tanuki's hunger cycles through the entire book — eat, sleep, wake hungry. The comic rhythm structures the journey's time.",
+        "description": "The Tanuki is the biological clock of the journey."
+      },
+      {
+        "id": "loop-04",
+        "label": "shimaenaga_preparatore",
+        "nodes": [
+          "object-04",
+          "scene-04",
+          "ritual-03",
+          "weather-03"
+        ],
+        "type": "preparation_field_loop",
+        "stability": "stable",
+        "propagation_logic": "ShimaEnaga has already prepared everything. The smallest of the group is the most organized. The Blue Pond changes color as if the world is preparing.",
+        "description": "Tenderness as a form of efficiency."
+      },
+      {
+        "id": "loop-05",
+        "label": "festa_campo_aperto",
+        "nodes": [
+          "object-05",
+          "silence-01",
+          "scene-05",
+          "transition-05",
+          "weather-04"
+        ],
+        "type": "open_festival_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "The festival is never shown. The book closes at the threshold — the morning before the celebration. The reader builds the festival with everything the journey has given them.",
+        "description": "The open field is the most powerful element of the system."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "musasabi_as_journey_mediator",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every_node_connected_through_musasabi"
+    },
+    {
+      "from": "object-05",
+      "to": "all",
+      "effect": "festival_as_meaning_generator",
+      "propagation_mode": "retroactive",
+      "intensity": 0.98,
+      "stability_impact": "every_journey_stop_gains_meaning_from_the_festival_destination"
+    },
+    {
+      "from": "silence-01",
+      "to": "all",
+      "effect": "unseen_festival_as_open_field",
+      "propagation_mode": "terminal",
+      "intensity": 1.0,
+      "stability_impact": "system_remains_open_after_last_page"
+    },
+    {
+      "from": "object-02",
+      "to": "ritual-04",
+      "effect": "tanuki_hunger_as_comic_clock",
+      "propagation_mode": "cyclic",
+      "intensity": 0.93,
+      "stability_impact": "hunger_structures_journey_time"
+    },
+    {
+      "from": "weather-01",
+      "to": "object-05",
+      "effect": "spring_sakura_frames_midori_no_hi",
+      "propagation_mode": "contextual",
+      "intensity": 0.96,
+      "stability_impact": "the_festival_is_spring_made_collective"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "journey_accumulation_active",
+    "allowed_mutations": [
+      "companion_addition",
+      "place_field_activation",
+      "harmony_accumulation",
+      "comic_hunger_cycle",
+      "festival_field_opening"
+    ],
+    "forbidden_states": [
+      "nature_as_backdrop",
+      "animals_as_anthropomorphic_characters",
+      "festival_as_described_event",
+      "bilingual_as_translation_only",
+      "journey_as_adventure_not_ceremony"
+    ]
+  },
+  "global_state": {
+    "dominant_field": "object-01",
+    "stability": "journey_metastable",
+    "closure": false,
+    "closure_type": "open_festival_permanent_field",
+    "system_behavior": "The system accumulates harmony through the journey. Each stop adds a companion, each night adds warmth, each dawn opens the field further. The festival is the reader's to build.",
+    "reader_effect": "Il lettore bambino costruisce l'armonia con la natura attraverso il viaggio — non viene spiegata ma vissuta tappa dopo tappa.",
+    "readability": "high_local_high_global",
+    "catalog_connection": {
+      "ratata_lascia_cadere_la_pioggia": "stesso sistema bilingue IT+JA — albo illustrato per bambini con protagonisti animali giapponesi",
+      "everyday_matcha": "stesso campo culturale giapponese contemporaneo — rituali quotidiani come forma di armonia",
+      "tante_storie_per_pensare": "stesso destinatario bambino — illustrazioni come campo percettivo primario"
+    }
+  }
+}
