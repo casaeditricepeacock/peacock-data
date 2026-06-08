@@ -1,0 +1,109 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Burn Out Pandemi — Menjejak di Ekor Sembilan",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Arrigò",
+    "translator": "Heti Novela",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005676217",
+    "year": 2022,
+    "language": "Indonesian"
+  },
+  "weather_types": {
+    "pre_pandemic_intensity": "iklim aktivitas intensif sebelum pandemi — energi yang terus menerus tanpa jeda",
+    "pandemic_grey": "iklim pandemi — dunia yang kehilangan warna, suara, gerakan",
+    "internal_storm": "badai internal kelelahan — kekacauan yang tidak terlihat dari luar",
+    "post_crisis_light": "cahaya setelah krisis — tidak terang tetapi berbeda, lebih jujur"
+  },
+  "editorial_principle": "Iklim dalam Burn Out Pandemi bukan cuaca literal. Ia adalah medan atmosferik dari kelelahan dan transformasi. Intensitas sebelum pandemi adalah iklim yang tidak berkelanjutan. Pandemi membawa iklim abu-abu yang membuka badai internal. Cahaya setelah krisis bukan cahaya penuh — ia adalah cahaya yang sudah mengenal kegelapan.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "intensitas_pra_pandemi",
+      "label_en": "pre_pandemic_intensity",
+      "type": "pre_pandemic_intensity",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "dominant": true,
+      "basho": "dunia seni pertunjukan sebagai iklim aktivitas tanpa henti — pameran, perjalanan, kreasi sebagai sistem yang tidak memberikan jeda",
+      "kokyu": "ritme intensitas adalah ritme yang mengkonsumsi dirinya sendiri — terlalu cepat untuk berkelanjutan",
+      "yūgen": "di balik intensitas yang terlihat, kelelahan yang tidak terlihat terakumulasi — iklim yang indah tetapi tidak berkelanjutan",
+      "affects": {
+        "weather-02": "intensitas pra-pandemi membuat iklim abu-abu pandemi menjadi shock yang lebih besar"
+      },
+      "textual_anchor_id": "Dalam beberapa tahun terakhir, telah berpameran secara alami dan spontan di Venezia, Osaka, Bologna, Tokyo, Milan, Takamatsu, Florence, Bali, Kopenhagen.",
+      "glossary_link": ["kokyu", "mono no aware", "basho"]
+    },
+    {
+      "id": "weather-02",
+      "label": "iklim_abu_abu_pandemi",
+      "label_en": "pandemic_grey_climate",
+      "type": "pandemic_grey",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "kota-kota yang kehilangan warna — Venezia tanpa turis, Osaka tanpa pertunjukan, Bologna tanpa pameran",
+      "kokyu": "ritme pandemi adalah ritme yang kehilangan ritme — hari yang sama, minggu yang sama, bulan yang tidak bisa dibedakan",
+      "yūgen": "iklim abu-abu pandemi bukan hanya visual — ia adalah iklim perseptual di mana semuanya kehilangan urgensi dan warna",
+      "affects": {
+        "weather-03": "iklim abu-abu eksternal membuka iklim internal yang lebih gelap"
+      },
+      "textual_anchor_id": "Pandemi datang seperti ekor kesembilan dan mengubah warna segalanya.",
+      "glossary_link": ["ma", "mono no aware", "basho"]
+    },
+    {
+      "id": "weather-03",
+      "label": "badai_internal_kelelahan",
+      "label_en": "internal_exhaustion_storm",
+      "type": "internal_storm",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "tubuh seniman sebagai medan badai — kekacauan yang tidak terlihat dari luar tetapi menghancurkan dari dalam",
+      "kokyu": "ritme badai internal tidak mengikuti ritme eksternal — ia bergerak di lapisan yang lebih dalam dari aktivitas atau penghentian",
+      "yūgen": "badai internal kelelahan adalah yang paling tidak terlihat dan paling merusak — tidak ada cuaca luar yang menandainya",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "badai internal meninggalkan perubahan permanen dalam cara seniman merasakan tubuhnya sendiri"
+      },
+      "affects": {
+        "weather-04": "badai internal mendorong transformasi — krisis sebagai ambang menuju iklim baru"
+      },
+      "textual_anchor_id": "Burn out bukan kelemahan — ini adalah tanda bahwa kamu telah memberikan terlalu banyak dari dirimu sendiri.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    },
+    {
+      "id": "weather-04",
+      "label": "cahaya_pasca_krisis",
+      "label_en": "post_crisis_light",
+      "type": "post_crisis_light",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "iklim transformasi — tidak terang penuh tetapi tidak lagi gelap; cahaya yang sudah mengenal kegelapan",
+      "kokyu": "ritme cahaya pasca-krisis adalah ritme pemulihan yang tidak linear — maju, mundur, maju lagi",
+      "yūgen": "cahaya setelah krisis membawa kualitas yang tidak ada sebelumnya — kejernihan yang lahir dari kelelahan yang telah diakui",
+      "affects": {
+        "weather-01": "cahaya pasca-krisis retroagisce sull'intensità iniziale — l'attività precedente alla pandemia viene riletta come sistema non sostenibile"
+      },
+      "textual_anchor_id": "Karya yang lahir dari krisis membawa cahaya yang berbeda — lebih jujur, lebih sadar akan batasnya.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — intensitas: iklim aktivitas yang tidak berkelanjutan",
+      "step_2": "weather-02 — abu-abu: iklim pandemi yang menghilangkan warna",
+      "step_3": "weather-03 — badai: kelelahan internal yang tidak terlihat dari luar",
+      "step_4": "weather-04 — cahaya: transformasi yang lahir dari krisis"
+    },
+    "narrative_model": "empat iklim membangun lengkung transformasi: intensitas → abu-abu → badai internal → cahaya pasca-krisis",
+    "stability": "cyclic_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
