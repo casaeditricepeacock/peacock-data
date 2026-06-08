@@ -1,0 +1,114 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "scheda-concettuale",
+  "id": "milano-fantastica-it",
+  "title": "Milano Fantastica",
+  "author": "Grazia Guarnieri",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Francesca Baboni",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "series": "Guide Fantastiche",
+  "isbn": "",
+  "datePublished": 2025,
+  "edition": "seconda edizione novembre 2025",
+  "inLanguage": "it",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "format": "guida narrativa illustrata",
+  "pages": 116,
+  "description": "Milano come campo percettivo — non guida turistica ma navigazione sensoriale della città. Dalla manta a sei occhi dei Navigli al Duomo oscuro dei gargoyle, dai Navigli come autostrade liquide medievali alla Scala come teatro di spie asburgiche. La città si racconta attraverso Lucina, la manta con sei occhi tanti quante le porte storiche di Milano.",
+
+  "concetti_chiave": [
+    {
+      "id": "lucina-la-manta",
+      "nome": "Lucina — la manta con sei occhi",
+      "descrizione": "La guida narrativa è condotta da Lucina, manta che vive nascosta nella Darsena da millenni. Milano ha la forma di una manta: due occhi, forma tondeggiante, piccola coda. Le sei porte storiche della città corrispondono ai sei occhi della creatura. Il fantastico come chiave percettiva della realtà urbana.",
+      "collegato_a_glossario": ["ma", "yūgen"]
+    },
+    {
+      "id": "navigli-autostrade-liquide",
+      "nome": "I Navigli — autostrade liquide",
+      "descrizione": "Milano come città dell'acqua: Naviglio Grande, Martesana, Cerchia Interna, Naviglio di Bereguardo. Dal Medioevo al 1979 — l'ultimo barcone in Darsena salutato da migliaia di milanesi che applaudono e piangono. Il canale interrato come forma di wabi-sabi urbano: la traccia di ciò che non è più visibile.",
+      "collegato_a_glossario": ["wabi-sabi", "mono-no-aware"]
+    },
+    {
+      "id": "duomo-oscuro",
+      "nome": "Il Duomo e le sue storie oscure",
+      "descrizione": "96 doccioni con gargoyle, il diavolo che tormenta Gian Galeazzo Visconti per farlo costruire, prostitute che si convertono ed entrano in convento. La città segreta e oscura accanto alla città della moda e del lusso. Via Santa Marta come strada dell'occulto.",
+      "collegato_a_glossario": ["yūgen", "ma"]
+    },
+    {
+      "id": "milano-moda-potere",
+      "nome": "Milano come capitale della moda e del potere",
+      "descrizione": "Via Montenapoleone da fulcro rivoluzionario delle Cinque Giornate a centro del lusso contemporaneo. La Scala come teatro di spie asburgiche. Il 'calvinismo milanese' di Giorgio Armani: discrezione, disciplina, dovere come estetica.",
+      "collegato_a_glossario": ["lentezza", "wabi-sabi"]
+    },
+    {
+      "id": "lazzaron-matita-digitale",
+      "nome": "Giulia Lazzaron — matita e digitale",
+      "descrizione": "La nuova ricerca stilistica di Lazzaron: il mezzo tradizionale della matita unito al digitale. Disegni color pastello, onirici quanto al confine con la realtà. Il pattern di copertina con panettone e colomba come mondi da esplorare. Linea stilistica che evolve lungo tutta la collana Guide Fantastiche.",
+      "collegato_a_glossario": ["wabi-sabi", "ma"]
+    }
+  ],
+
+  "struttura": {
+    "parti": 2,
+    "parte_1": "La Milano dei Navigli, della moda, della Scala e del Duomo — italiano",
+    "parte_2": "Fantastic Milan — versione inglese"
+  },
+
+  "tensione_centrale": "Milano come città doppia: la metropoli visibile del lusso, della moda, dei grattacieli — e la città sommersa dell'acqua, del fantastico, dell'oscuro. Lucina la manta come guida tra i due livelli.",
+
+  "personaggi_principali": [
+    "Lucina — la manta con sei occhi narratrice",
+    "Gian Galeazzo Visconti — il costruttore del Duomo tormentato dal diavolo",
+    "Leonardo da Vinci — ingegnere dei Navigli",
+    "Luodovico il Moro — committente del Cenacolo",
+    "Enriquez de Acevedo — governatore spagnolo costruttore della Darsena"
+  ],
+
+  "luoghi_chiave": [
+    "Darsena — porto storico e tana di Lucina",
+    "Naviglio Grande — prima autostrada liquida medievale",
+    "Duomo — 96 doccioni e storie diaboliche",
+    "Galleria Vittorio Emanuele — salotto buono con i gatti neri",
+    "Via Montenapoleone — da rivoluzione a lusso",
+    "La Scala — teatro di spie asburgiche",
+    "Brera — da campagna a Accademia di Belle Arti",
+    "Piazza Affari — il dito di Cattelan"
+  ],
+
+  "relazioni_catalogo": [
+    {
+      "libro": "Padova Fantastica",
+      "relazione": "Stessa collana Guide Fantastiche — stessa autrice Guarnieri, stessa illustratrice Lazzaron. La città come campo percettivo denso."
+    },
+    {
+      "libro": "Torino Fantastica",
+      "relazione": "Stesso formato, stessa voce narrativa. La città italiana riletta attraverso il vocabolario Peacock."
+    },
+    {
+      "libro": "Glossario Frequenze",
+      "relazione": "Ma come spazio tra i Navigli interrati e la città contemporanea. Wabi-sabi nella Darsena come porto che non esiste più nella forma originale. Mono no aware nell'ultimo barcone del 1979."
+    }
+  ],
+
+  "narrazioni_sensoriali": [
+    {
+      "titolo": "Canale notturno — Naviglio Grande",
+      "autrice": "Grazia Guarnieri",
+      "json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/canale-notte-guarnieri.json"
+    },
+    {
+      "titolo": "Bigolina — archivio Guarnieri",
+      "autrice": "Grazia Guarnieri",
+      "json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/bigolina-archivio-guarnieri.json"
+    }
+  ],
+
+  "url_libro": "https://www.studiopeacock.net/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
