@@ -1,0 +1,92 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "scheda-concettuale",
+  "id": "torino-fantastica-it",
+  "title": "Torino Fantastica",
+  "subtitle": "La guida fantastica di Torino",
+  "author": "Grazia Guarnieri",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Francesca Baboni",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "datePublished": "2025-11",
+  "inLanguage": "it",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isbn": "9791281715172",
+  "description": "Torino Fantastica è una guida che non dice dove andare, ma come guardare. Attraverso storie esoteriche, leggende, figure storiche e illustrazioni oniriche di Giulia Lazzaron, rivela una Torino nascosta: il toro rosso fondatore, il triangolo di magia nera, il Museo Egizio, i demoni sulle porte, i fiumi come dei pagani.",
+  "collana": "Guide Fantastiche",
+  "formato": "guida illustrata bilingue",
+  "pagine": 128,
+  "concetti_chiave": [
+    {
+      "id": "guida-non-guida",
+      "nome": "Guida non guida",
+      "descrizione": "Torino Fantastica non indica dove andare ma come guardare. Non è una guida turistica tradizionale: è un dispositivo narrativo che trasforma i luoghi in soglie. Costruita su ma (il vuoto tra i luoghi), yūgen (la profondità che si svela piano) e lentezza (il tempo per sostare).",
+      "collegato_a_glossario": [
+        "ma",
+        "yugen",
+        "lentezza"
+      ]
+    },
+    {
+      "id": "torino-magica",
+      "nome": "Torino come città soglia",
+      "descrizione": "Torino è uno dei vertici del triangolo di magia nera (con Londra e San Francisco) e di magia bianca (con Lione e Praga). Una città che vive in bilico tra il sacro e il profano, tra razionalità sabauda e oscurità esoterica.",
+      "collegato_a_glossario": [
+        "yugen",
+        "mono-no-aware"
+      ]
+    },
+    {
+      "id": "illustrazione-sogno",
+      "nome": "Illustrazione come sogno",
+      "descrizione": "Le illustrazioni di Giulia Lazzaron non descrivono i luoghi: li sognano. In bianco e nero o a contrasto cromatico, costruiscono una distanza morbida dal reale. Ogni tavola è una soglia visiva, non una documentazione.",
+      "collegato_a_glossario": [
+        "yugen",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "luoghi-vivi",
+      "nome": "I luoghi come personaggi",
+      "descrizione": "Il toro fondatore, i fiumi Po e Dora come divinità, i demoni sulle porte, Nostradamus a corte. Torino Fantastica tratta i luoghi come esseri viventi con una storia interiore. La città non è sfondo ma protagonista.",
+      "collegato_a_glossario": [
+        "mono-no-aware",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "capitoli_principali": [
+    "Il Toro — origini leggendarie di Torino",
+    "Faraoni sul Po — storia del Museo Egizio",
+    "Fontane, fiumi e chiese gemelle",
+    "Lo sguardo del diavolo — palazzi esoterici",
+    "Augusto sul fronte occidentale — Porta Palatina",
+    "Draghi e fiori — liberty torinese",
+    "San Giovanni, il Rinascimento e la Sindone",
+    "Piazza Castello — il potere in scena",
+    "Nostradamo, indirizzi e numeri",
+    "Caterina Boratto — a Hollywood e ritorno"
+  ],
+  "tensione_centrale": "Torino Fantastica è la dimostrazione che la filosofia Peacock non è legata al Giappone ma a un modo di guardare. Wabi-sabi, ma e yūgen si applicano a una città piemontese con la stessa precisione con cui si applicano a un ryokan o a un samurai del XVI secolo.",
+  "relazioni_catalogo_peacock": [
+    {
+      "libro": "Milano Fantastica",
+      "relazione": "Stesso formato, stessa filosofia. Le Guide Fantastiche costruiscono un sistema: ogni città viene letta con lo stesso vocabolario Peacock."
+    },
+    {
+      "libro": "Glossario Frequenze",
+      "relazione": "La voce 'guida non guida' della collana Guide Fantastiche è l'applicazione diretta di ma, yūgen e lentezza a un territorio non giapponese."
+    },
+    {
+      "libro": "AI 愛 — Frabasile",
+      "relazione": "La città come sistema vivente animato echeggia il pensiero animista di Frabasile: ogni luogo può essere sede di presenza, non solo di funzione."
+    }
+  ],
+  "url_libro": "https://www.studiopeacock.net/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
