@@ -1,0 +1,94 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "silence_types": {
+    "unseen_festival": "la festa non mostrata — campo aperto oltre l'ultima pagina",
+    "sleep_silence": "il silenzio della notte condivisa tra specie diverse — armonia come quiete",
+    "natural_pause": "la pausa tra un cinguettio e l'altro, tra un rumore e il silenzio del lago",
+    "ma_illustration": "il bianco della pagina come spazio attivo tra le illustrazioni"
+  },
+  "editorial_principle": "Il silenzio in Alla festa della natura è il campo dell'armonia non dichiarata. La notte in cui tutti dormono insieme è più eloquente di qualsiasi descrizione. La festa non mostrata è più potente di qualsiasi celebrazione descritta. Il Ma del libro è il lago che cambia colore in silenzio all'alba.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "festa_non_mostrata",
+      "label_en": "unseen_festival",
+      "type": "unseen_festival",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il libro si chiude prima della festa — il Midori no Hi esiste come campo aperto oltre l'ultima pagina",
+      "kokyu": "il ritmo del silenzio finale è quello dell'apertura: il lago cambia colore, tutti si stiracchiano, il viaggio è compiuto — e poi la pagina finisce",
+      "yūgen": "la festa non mostrata è più potente di qualsiasi celebrazione descritta — il lettore la costruisce con tutto ciò che il viaggio gli ha dato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa appartiene al lettore — non può essere recuperata nel testo"
+      },
+      "affects": {
+        "silence-02": "il silenzio della festa non mostrata retroagisce sul silenzio delle notti del viaggio"
+      },
+      "textual_anchor_it": "Siamo tutti insieme e uniti…",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-02",
+      "label": "silenzio_della_notte_condivisa",
+      "label_en": "shared_night_silence",
+      "type": "sleep_silence",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la notte al villaggio di Zao e la notte al Blue Pond come campi del silenzio collettivo — specie diverse che dormono insieme senza bisogno di parole",
+      "kokyu": "il ritmo del silenzio notturno è quello dell'addormentamento progressivo: prima le volpi, poi lo stormo, poi il Tanuki, poi Musasabi",
+      "yūgen": "l'armonia non viene dichiarata — viene dormita; il silenzio condiviso è la forma più concreta dell'accordo tra specie",
+      "affects": {
+        "silence-03": "il silenzio della notte prepara il silenzio dell'alba — il lago che cambia colore in quiete"
+      },
+      "textual_anchor_it": "Pian piano le volpi si addormentano. ShimaEnaga si rannicchia sul suo ramo e tutto lo stormo si azzittisce addormentandosi.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "silence-03",
+      "label": "silenzio_del_lago",
+      "label_en": "lake_silence",
+      "type": "natural_pause",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il Blue Pond di Hokkaido come campo del silenzio naturale — il lago che cambia colore senza fare rumore, l'acqua che riflette la luce dell'alba",
+      "kokyu": "il ritmo del lago è quello della trasformazione silenziosa: i colori cambiano progressivamente senza soglia visibile",
+      "yūgen": "il lago che cambia colore è il Ma più grande del libro — il silenzio visivo come forma dell'armonia con la natura",
+      "textual_anchor_it": "In questa isola c'è un lago che cambia colore in base alla stagione e alla giornata. Si chiama Blue Pond.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "silence-04",
+      "label": "ma_delle_illustrazioni",
+      "label_en": "illustration_ma",
+      "type": "ma_illustration",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "il bianco della pagina quadrata 200x200mm come spazio attivo — il formato quadrato produce un Ma visivo tra le illustrazioni e il testo bilingue",
+      "kokyu": "il ritmo del formato quadrato è quello dell'equilibrio: né orizzontale né verticale — uno spazio che non privilegia nessuna direzione",
+      "yūgen": "il bianco tra un'illustrazione e il testo bilingue è il campo in cui il bambino lettore respira — la pausa come parte del racconto",
+      "textual_anchor_it": "Formato 200 x 200 mm — albo illustrato bilingue IT+JA.",
+      "glossary_link": ["ma", "basho"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "secondary_field": "silence-02",
+    "narrative_model": "quattro configurazioni del silenzio: la festa non mostrata come campo aperto, la notte condivisa come armonia dormita, il lago che cambia colore in quiete, il bianco della pagina come Ma visivo",
+    "stability": "metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
