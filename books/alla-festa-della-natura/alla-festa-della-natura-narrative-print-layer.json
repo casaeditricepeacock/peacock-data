@@ -1,0 +1,90 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Alla festa della natura. Il viaggio di Musasabi",
+    "author": "Yasuko Katahira",
+    "illustrator": "Yasuko Katahira",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-24-0",
+    "year": 2025
+  },
+  "print_identity": "albo illustrato quadrato bilingue — il formato 200x200mm porta il campo percettivo dell'equilibrio prima ancora dell'apertura",
+  "print_types": {
+    "square_format": "formato quadrato 200x200mm come campo visivo dell'equilibrio",
+    "bilingual_layout": "doppio testo IT+JA come struttura percettiva che porta due culture simultaneamente",
+    "illustration_field": "illustrazioni di Yasuko Katahira come campo visivo autonomo e primario",
+    "handmade_cover": "fotografia applicata a mano in copertina — unicità artigianale"
+  },
+  "editorial_principle": "Il formato 200x200mm non è una scelta tecnica: è un campo percettivo. Il quadrato non privilegia né l'orizzontale né il verticale — è lo spazio dell'equilibrio, la forma dell'armonia. Le illustrazioni di Yasuko Katahira precedono e sostengono il testo bilingue. La fotografia applicata a mano in copertina introduce unicità in un oggetto seriale.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "formato_quadrato",
+      "label_en": "square_format",
+      "type": "square_format",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il formato 200x200mm come campo percettivo dell'armonia — il quadrato non privilegia nessuna direzione, porta equilibrio prima ancora che il lettore apra il libro",
+      "kokyu": "il ritmo del formato quadrato è quello della simmetria: il bambino può tenere il libro in qualsiasi orientamento e trovare equilibrio",
+      "yūgen": "il quadrato è la forma che non indica una direzione — è il formato della natura che non ha gerarchia tra alto e largo",
+      "textual_anchor_it": "Formato 200 x 200 mm — albo illustrato.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "print-02",
+      "label": "testo_bilingue_it_ja",
+      "label_en": "bilingual_text_it_ja",
+      "type": "bilingual_layout",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "ogni pagina porta il testo in italiano e in giapponese — il doppio testo come campo percettivo che porta due culture nello stesso spazio",
+      "kokyu": "il ritmo bilingue non è traduzione ma sdoppiamento: le due lingue corrono parallele come due voci che raccontano la stessa storia con alfabeti diversi",
+      "yūgen": "il bambino italiano incontra i kanji — segni che non capisce ma percepisce come forma; il bambino giapponese incontra l'italiano — una lingua lontana che porta la stessa storia",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni lettore legge solo una delle due lingue come testo primario — l'altra rimane come campo percettivo parallelo non pienamente accessibile"
+      },
+      "textual_anchor_it": "こんにちは、私の名前はムササビです。 — Ciao mi chiamo Musasabi.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "print-03",
+      "label": "illustrazioni_katahira",
+      "label_en": "katahira_illustrations",
+      "type": "illustration_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "le illustrazioni di Yasuko Katahira come campo visivo primario — i personaggi animali, i luoghi giapponesi, i colori della natura precedono e sostengono il testo",
+      "kokyu": "il ritmo delle illustrazioni è quello del racconto visivo autonomo: un bambino che non sa leggere può seguire il viaggio di Musasabi solo attraverso le immagini",
+      "yūgen": "lo stile di Katahira porta la cultura visiva giapponese — la dolcezza degli animali, i paesaggi riconoscibili, il dettaglio che racconta senza spiegare",
+      "textual_anchor_it": "Yasuko Katahira — illustratrice e autrice. Vincitore della divisione generale del National Postcard Design Award arama 2021.",
+      "glossary_link": ["basho", "yūgen", "kokyu"]
+    },
+    {
+      "id": "print-04",
+      "label": "copertina_fotografica_manuale",
+      "label_en": "hand_applied_photo_cover",
+      "type": "handmade_cover",
+      "intensity": 0.92,
+      "perceptual_weight": 0.90,
+      "basho": "la copertina come campo percettivo del libro — la fotografia applicata a mano introduce unicità in ogni copia",
+      "kokyu": "il ritmo del gesto manuale: ogni copia porta la traccia della mano che ha applicato la fotografia",
+      "yūgen": "la variazione minima tra una copia e l'altra è il segreto del libro in forma materiale — come in natura, niente è esattamente uguale",
+      "textual_anchor_it": "Fotografia applicata a mano in copertina.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    }
+  ],
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_layer": "print-01",
+    "material_focus": "equilibrio artigianale bilingue",
+    "narrative_model": "il formato quadrato porta l'armonia come campo visivo, il doppio testo porta due culture, le illustrazioni portano il racconto visivo autonomo, la copertina artigianale introduce unicità",
+    "series_connection": "albo illustrato bilingue IT+JA — gemello strutturale di Ra-ta-ta. Lascia cadere la pioggia",
+    "stability": "high",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
