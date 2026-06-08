@@ -1,0 +1,78 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "scheda-concettuale",
+  "id": "frabasile-ai-natura",
+  "title": "AI 愛 — Natura e algoritmi giapponesi",
+  "author": "Renato Frabasile",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "isbn": "9791281715196",
+  "datePublished": "2026-01",
+  "inLanguage": "it",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "Saggio filosofico che mette in tensione intelligenza artificiale, filosofia giapponese e pensiero occidentale. Propone un'alternativa all'AI come strumento di dominio: un'intelligenza artificiale empatica, contemplativa, figlia della meraviglia.",
+
+  "concetti_chiave": [
+    {
+      "id": "specchio-uomo",
+      "nome": "AI come specchio dell'uomo",
+      "descrizione": "L'intelligenza artificiale non è uno strumento neutro. È la proiezione dell'homo oeconomicus occidentale: efficienza, produttività, controllo. Riflette i valori di chi l'ha costruita, non una visione universale dell'intelligenza.",
+      "collegato_a_glossario": ["lentezza", "wabi-sabi"]
+    },
+    {
+      "id": "alternativa-giapponese",
+      "nome": "Alternativa giapponese alla tecnica",
+      "descrizione": "Shintō, animismo e sciamanesimo offrono un modello radicalmente diverso di relazione con la tecnica. La macchina può accogliere un'essenza invece di dominarla. Ogni oggetto, ogni sistema può essere sede di presenza — non di funzione.",
+      "collegato_a_glossario": ["ma", "mono-no-aware", "yugen"]
+    },
+    {
+      "id": "ai-quantistica",
+      "nome": "AI quantistica ed empatica",
+      "descrizione": "La proposta centrale del libro: un'intelligenza artificiale figlia della meraviglia, non dell'ottimizzazione. Ispirata a María Zambrano e alla contemplazione orientale. Un'AI che non domina ma partecipa al mondo.",
+      "collegato_a_glossario": ["lentezza", "yugen", "ma"]
+    },
+    {
+      "id": "specchio-triplo",
+      "nome": "Lo specchio triplo",
+      "descrizione": "Tre modi di guardare il mondo messi in tensione: lo specchio greco (ragione e logos), lo specchio giapponese (armonia e presenza), lo specchio tecnologico (algoritmo e pattern). La via d'uscita dalla singolarità come catastrofe passa attraverso il loro dialogo.",
+      "collegato_a_glossario": ["wabi-sabi", "mono-no-aware", "lentezza"]
+    },
+    {
+      "id": "allucinazione-poetica",
+      "nome": "Allucinazione come spazio poetico",
+      "descrizione": "Nella computer science l'allucinazione è un bug. Nel frame di Frabasile diventa un tropo letterario: quando l'AI inventa una lettura, non sbaglia — ridefinisce il testo. È l'equivalente digitale del lettore che vede nel libro cose che l'autore non ha inserito.",
+      "collegato_a_glossario": ["yugen", "ma"]
+    }
+  ],
+
+  "tensione_centrale": "L'AI che esiste oggi è figlia dell'Occidente industriale. Il Giappone — con il suo animismo, il suo shintoismo, il suo rapporto con la natura come sistema vivente — offre un modello alternativo. Frabasile non propone un ritorno al passato ma una terza via: un'intelligenza artificiale che contempla invece di ottimizzare.",
+
+  "relazioni_catalogo_peacock": [
+    {
+      "libro": "Il Demone Samurai",
+      "relazione": "Nobunaga Oda come figura che incarna la tensione tra dominio e meraviglia — il demone come specchio tecnologico del potere."
+    },
+    {
+      "libro": "Everyday Matcha — Il signore del tè",
+      "relazione": "Il tè come pratica contemplativa: esatto opposto dell'ottimizzazione. Incarna l'AI empatica proposta da Frabasile."
+    },
+    {
+      "libro": "Glossario Frequenze",
+      "relazione": "Wabi-sabi, ma, yūgen e lentezza sono i principi editoriali che Peacock condivide con la visione di Frabasile sull'AI contemplativa."
+    }
+  ],
+
+  "riferimenti_filosofici": [
+    "María Zambrano — contemplazione e ragione poetica",
+    "Shintō — animismo e presenza nelle cose",
+    "Federico Faggin — coscienza e irriducibilità",
+    "Werner Heisenberg — fisica e filosofia",
+    "Nishida Kitarō — la logica del luogo"
+  ],
+
+  "url_libro": "https://www.studiopeacock.net/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
