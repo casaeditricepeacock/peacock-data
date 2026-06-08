@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "ontology": "peacock-sensory",
+  "book": {
+    "title": "Kyoto. Lo Sguardo del Drago",
+    "author": "Hélène Blignaut",
+    "series": "I Gialli di Kyoto",
+    "volume": 1,
+    "isbn": "9791281715202",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "sensory_theme": "il mondo domestico di Michele come estensione della città",
+  "experience_type": "inhabited_space_perception",
+  "dominant_sense": "olfatto",
+  "activation_condition": "il lettore entra per la prima volta nell'appartamento di Michele al quarto piano di Rapallo",
+
+  "sensation_fields": [
+    {
+      "id": "garofani_sonali",
+      "label": "I garofani di Sònali",
+      "sensory_temperature": "pungente",
+      "emotional_frequency": [
+        "irruzione",
+        "affetto contrariato",
+        "appartenenza"
+      ],
+      "narrative_resonance": "Sònali si annuncia prima di apparire. Il suo profumo di garofani precede ogni sua entrata in scena — disturbo della quiete pubblica, eppure insostituibile.",
+      "japanese_echo": "Ma — il vuoto attivo. Il profumo occupa lo spazio prima della persona.",
+      "poetic_anchor": "Quante volte ti ho regalato Chanel numero cinque, ma non c'è niente da fare."
+    },
+    {
+      "id": "basilico_terrazzo",
+      "label": "Il basilico sul terrazzo",
+      "sensory_temperature": "fresca, vegetale",
+      "emotional_frequency": [
+        "generosità",
+        "estate",
+        "fiducia"
+      ],
+      "narrative_resonance": "I folti mazzi di basilico sul terrazzo segnano il confine tra il mondo dell'indagine e quello domestico. Quando arriva il basilico, si mangia — e prima di mangiare si decide se fidarsi.",
+      "japanese_echo": "Wabi-sabi — la bellezza del semplice. Il basilico non ha pretese. Profuma e basta.",
+      "poetic_anchor": "L'odore di basilico ci ricorda quanto generosa sia la natura."
+    },
+    {
+      "id": "pesto_caruggi",
+      "label": "Le trenette al pesto di Prà",
+      "sensory_temperature": "calda, densa",
+      "emotional_frequency": [
+        "radicamento",
+        "rituale",
+        "riconoscimento"
+      ],
+      "narrative_resonance": "Ogni giovedì, le trenette al pesto con patate e fagiolini. Il pasto settimanale non è abitudine — è il sistema con cui Michele misura il mondo ordinario. Il giorno che Alexander si siede al tavolo vuoto, il rituale si rompe e la storia inizia.",
+      "japanese_echo": "Kokyu — il ritmo del respiro. Il pranzo del giovedì è il respiro regolare prima dell'irruzione.",
+      "poetic_anchor": "Sul tavolo, la tovaglietta di spessa carta gialla e un gran piatto di trenette al pesto di basilico di Prà."
+    },
+    {
+      "id": "cena_terrazzo",
+      "label": "La cena sul terrazzo — acciughine, minestrone, focaccia",
+      "sensory_temperature": "stratificata — mare, terra, fuoco",
+      "emotional_frequency": [
+        "alleanza",
+        "ospitalità",
+        "fiducia costruita a tavola"
+      ],
+      "narrative_resonance": "Baccicin porta il carrello. Sul tavolo: acciughine fritte, polpettone di patate, focaccia con cipolla, poi il minestrone genovese col pesto — bricchetti, non altra pasta che sarebbe un insulto. Prima di qualsiasi patto, si mangia. La cucina ligure non è decorativa: è il protocollo dell'alleanza.",
+      "japanese_echo": "Omotenashi — l'ospitalità totale, senza riserva. Baccicin conosce ricette segrete. Non le spiega: le serve.",
+      "poetic_anchor": "Ricchezza di verdure e legumi, qualche cucchiaio di pesto di basilico ligure e bricchetti — perché ogni altra pasta sarebbe un insulto."
+    },
+    {
+      "id": "maramao",
+      "label": "Maramao — il gatto che decide",
+      "sensory_temperature": "indeterminata — il gatto non ha temperatura, ha giudizio",
+      "emotional_frequency": [
+        "selezione",
+        "accettazione",
+        "presenza liminale"
+      ],
+      "narrative_resonance": "Maramao squadra Alexander dai piedi alla testa e dalla testa ai piedi. Poi decide: si strofina sul fianco delle sue gambe. Il gatto non sbaglia. Non potevi essere tu a scegliere lui — ma lui a scegliere te. Maramao è il primo test del romanzo. Supera Maramao e puoi entrare nel sistema.",
+      "japanese_echo": "Neko — il gatto nella tradizione giapponese come creatura di soglia, né del mondo umano né di quello invisibile. Maramao è rosso: il colore che porta fortuna.",
+      "poetic_anchor": "Non potevi essere tu a scegliere lui, ma lui a scegliere te."
+    },
+    {
+      "id": "salsedine_caruggi",
+      "label": "Pesce fritto e salsedine nei caruggi",
+      "sensory_temperature": "acida, marina",
+      "emotional_frequency": [
+        "movimento",
+        "vita popolare",
+        "radici"
+      ],
+      "narrative_resonance": "Scesero lungo via Prè tra profumi di pesce fritto e salsedine. Il rumore delle ruote del trolley sul lastricato sveglia le madonnelle nelle edicole. La città entra nell'olfatto prima che negli occhi — Genova si annuncia, non si mostra.",
+      "japanese_echo": "Basho — il luogo come campo relazionale. Via Prè non è una strada: è un sistema di odori, suoni, dialetti e madonnelle.",
+      "poetic_anchor": "Il rumore delle ruote sul lastricato saliva a svegliare le madonnelle nelle loro edicole."
+    },
+    {
+      "id": "pitosforo_rapallo",
+      "label": "Il pitosforo sulla passeggiata a mare",
+      "sensory_temperature": "dolce, persistente",
+      "emotional_frequency": [
+        "memoria",
+        "ritorno",
+        "nostalgia anticipata"
+      ],
+      "narrative_resonance": "Il pitosforo è il profumo di Rapallo. Alexander lo ricorda da ragazzo. Quando lo ritrova sulla passeggiata con Michele, qualcosa si sblocca — il profumo fa il lavoro che le parole non hanno ancora fatto.",
+      "japanese_echo": "Mono no aware — la bellezza delle cose che passano. Il pitosforo fiorisce e poi finisce. Alexander lo ricordava — era ancora lì.",
+      "poetic_anchor": "Sono stato qui da ragazzo. Ricordo ancora il profumo del pitosforo."
+    }
+  ],
+
+  "reader_effect": {
+    "description": "L'appartamento di Michele al quarto piano non è separato dalla città. I caruggi entrano dall'olfatto, il mare entra dalla finestra, Baccicin porta la cucina di strada dentro casa. Il confine tra interno ed esterno non esiste.",
+    "mechanism": "Ogni sensazione domestica rimanda a un luogo della città e ogni luogo della città rimanda a un momento narrativo.",
+    "result": "Il lettore abita Genova e Rapallo attraverso i sensi di Michele prima ancora di conoscere la trama."
+  },
+
+  "philosophical_layer": {
+    "principle": "La casa non protegge dalla città. La distilla.",
+    "semiotic_relation": "Michele legge i segni. La sua casa è il sistema in cui i segni della città vengono elaborati — il pesto, il garofano, il gatto rosso sono dati come l'accento gaelico di Alexander.",
+    "connection_to_story": "Il romanzo inizia a tavola e finisce con la pioggia sul mare. La traiettoria sensoriale va dal cibo al silenzio."
+  },
+
+  "non_integrable_residue": {
+    "status": true,
+    "description": "Maramao non sbaglia mai. Non si spiega come faccia. Rimane oltre il sistema."
+  },
+
+  "closure": {
+    "type": "sensory_question",
+    "text": "Hai sentito prima il basilico o i garofani? Dipende da dove sei entrato."
+  }
+}
