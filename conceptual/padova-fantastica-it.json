@@ -1,0 +1,233 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "scheda-concettuale",
+  "id": "padova-fantastica-it",
+  "title": "Padova Fantastica",
+  "subtitle": "La guida fantastica di Padova",
+  "author": "Grazia Guarnieri",
+  "illustrator": "Giulia Lazzaron",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "series": "Guide Fantastiche",
+  "isbn": "9791281715158",
+  "datePublished": "2025",
+  "inLanguage": "it",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "tone_of_voice": [
+    "poetico",
+    "saggistico",
+    "visionario",
+    "contemplativo",
+    "narrativo"
+  ],
+  "keywords": [
+    "Padova",
+    "guide fantastiche",
+    "esoterismo",
+    "storie femminili",
+    "Giotto",
+    "Scrovegni",
+    "università di Padova",
+    "prima donna laureata",
+    "Giulia Bigolina",
+    "prima romanziera italiana",
+    "Elena Corner Piscopia",
+    "mono no aware",
+    "yugen",
+    "wabi sabi",
+    "canali",
+    "Antenore",
+    "blu oltremare",
+    "lapislazzuli",
+    "storia delle donne",
+    "Fina Buzzaccarini",
+    "mecenate medievale",
+    "Libreria Pangea",
+    "Giandomenico Tono"
+  ],
+  "description": "Padova Fantastica è una guida che non insegna dove andare, ma come guardare. Attraverso leggende, storie dimenticate, architetture silenziose e le illustrazioni oniriche di Giulia Lazzaron, il libro rivela una città nascosta: Padova d'acqua, Padova femminile, Padova esoterica. Una città costruita sui canali, attraversata da santi, demoni, studiose, troiani in fuga e cieli blu oltremare.",
+  "manifesto_editoriale": {
+    "titolo": "Una città come soglia",
+    "descrizione": "Le Guide Fantastiche Peacock non descrivono luoghi: costruiscono stati percettivi. Padova Fantastica trasforma la città in un organismo narrativo fatto di acqua, memoria, silenzi e apparizioni. Ogni luogo è una soglia, ogni dettaglio un frammento di una geografia emotiva."
+  },
+  "filoni_narrativi": [
+    {
+      "id": "padova-femminile",
+      "titolo": "Le donne invisibili di Padova",
+      "descrizione": "Quattro figure femminili attraversano il libro come presenze sotterranee. Donne che hanno modificato la storia culturale europea e che Padova custodisce quasi in silenzio.",
+      "figure": [
+        {
+          "nome": "Giulia Bigolina",
+          "date": "1518-1559 circa",
+          "titolo": "La prima romanziera italiana",
+          "descrizione": "Nobile padovana e autrice di Urania (1554), considerato il primo romanzo in prosa scritto da una donna nella storia occidentale. Il manoscritto rimase nascosto per secoli nella Biblioteca Trivulziana di Milano. La sua scrittura anticipa temi femminili e identitari modernissimi.",
+          "opera": "Urania",
+          "motivi": [
+            "travestimento",
+            "libertà femminile",
+            "identità",
+            "viaggio"
+          ],
+          "connessione_glossario": [
+            "mono-no-aware",
+            "wabi-sabi"
+          ]
+        },
+        {
+          "nome": "Elena Lucrezia Corner Piscopia",
+          "date": "1646-1684",
+          "titolo": "La prima donna laureata al mondo",
+          "descrizione": "Il 25 giugno 1678 si laurea in filosofia all'Università di Padova. La cerimonia richiama migliaia di persone e viene spostata nel Duomo perché il Palazzo del Bo non riesce a contenerle. La sua figura trasforma Padova in simbolo europeo della conoscenza femminile.",
+          "luogo": "Duomo di Padova",
+          "connessione_glossario": [
+            "lentezza",
+            "mono-no-aware"
+          ]
+        },
+        {
+          "nome": "Beata Eustochio",
+          "titolo": "La presenza mistica",
+          "descrizione": "Figura spirituale legata alla memoria religiosa della città. Nel libro appare come una presenza silenziosa, quasi sospesa, che abita la Padova contemplativa e invisibile.",
+          "connessione_glossario": [
+            "wabi-sabi",
+            "yugen"
+          ]
+        },
+        {
+          "nome": "Traversina Cortellieri",
+          "titolo": "La donna che commissionò una cappella",
+          "descrizione": "Nel Trecento commissiona una cappella agli Eremitani. Un gesto rarissimo per una donna dell'epoca, che trasforma la sua presenza in una traccia architettonica sopravvissuta nei secoli.",
+          "luogo": "Chiesa degli Eremitani",
+          "connessione_glossario": [
+            "ma",
+            "wabi-sabi"
+          ]
+        },
+        {
+          "nome": "Fina Buzzaccarini",
+          "titolo": "La mecenate degli affreschi",
+          "descrizione": "Nobildonna padovana del XIV secolo, committente degli affreschi della Cappella di San Giorgio. Sceglie personalmente i colori e i soggetti. Una delle poche donne medievali documentate come mecenate consapevole di un ciclo pittorico.",
+          "luogo": "Cappella di San Giorgio, Padova",
+          "connessione_glossario": [
+            "wabi-sabi",
+            "mono-no-aware"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "padova-acqua",
+      "titolo": "La città costruita sull'acqua",
+      "descrizione": "Padova emerge come organismo fluviale. I canali non sono elementi decorativi ma vene della città: percorsi invisibili che modellano memoria, commercio, silenzi e riflessi."
+    },
+    {
+      "id": "padova-esoterica",
+      "titolo": "Santi, demoni e soglie",
+      "descrizione": "Portali scolpiti, simboli nascosti, figure religiose e presenze inquietanti attraversano la città. Padova Fantastica legge l'architettura come un linguaggio simbolico."
+    }
+  ],
+  "concetti_chiave": [
+    {
+      "id": "guida-non-guida",
+      "nome": "Guida non guida",
+      "descrizione": "Il libro non propone itinerari turistici ma dispositivi percettivi. Padova Fantastica invita il lettore a rallentare e osservare la città come uno spazio mentale.",
+      "collegato_a_glossario": [
+        "ma",
+        "yugen",
+        "lentezza"
+      ]
+    },
+    {
+      "id": "padova-citta-acqua",
+      "nome": "Padova città d'acqua",
+      "descrizione": "L'acqua è la grammatica segreta della città. Naviglio Interno, Piovego e Brentella costruiscono una geografia liquida che sopravvive sotto l'urbanistica contemporanea.",
+      "collegato_a_glossario": [
+        "mono-no-aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "scrovegni-blu",
+      "nome": "La volta blu degli Scrovegni",
+      "descrizione": "Il cielo di Giotto nella Cappella degli Scrovegni: stelle dorate sospese sull'oltremare ricavato dai lapislazzuli. Un blu che collega Padova all'Afghanistan, alla pittura medievale e alla memoria.",
+      "connessione_catalogo": "Blu Oltremare — Emmanuelle Filizzola",
+      "collegato_a_glossario": [
+        "yugen",
+        "mono-no-aware"
+      ]
+    },
+    {
+      "id": "antenore",
+      "nome": "Antenore e la città troiana",
+      "descrizione": "Secondo la leggenda, Padova nasce da Antenore, profugo troiano in fuga dopo la guerra. La città viene così letta come luogo di approdo, diaspora e memoria.",
+      "collegato_a_glossario": [
+        "mono-no-aware"
+      ]
+    }
+  ],
+  "luoghi_chiave": [
+    {
+      "nome": "Cappella degli Scrovegni",
+      "descrizione": "Il cielo blu di Giotto come esperienza immersiva e metafisica."
+    },
+    {
+      "nome": "Palazzo del Bo",
+      "descrizione": "Cuore simbolico dell'Università di Padova."
+    },
+    {
+      "nome": "Basilica di Sant'Antonio",
+      "descrizione": "Nodo spirituale e popolare della città."
+    },
+    {
+      "nome": "Chiesa degli Eremitani",
+      "descrizione": "Spazio attraversato dalla memoria femminile e artistica."
+    },
+    {
+      "nome": "Prato della Valle",
+      "descrizione": "Grande spazio ellittico come teatro urbano e specchio d'acqua."
+    },
+    {
+      "nome": "Canali storici",
+      "descrizione": "Naviglio Interno, Piovego e Brentella come struttura invisibile della città."
+    }
+  ],
+  "tensione_centrale": "Padova è una città che ha cambiato la storia europea — e che spesso dimentica la propria radicalità. Prima università moderna, prima donna laureata al mondo, primo romanzo femminile italiano: il libro restituisce alla città la memoria di ciò che è stata.",
+  "connessioni_catalogo": [
+    {
+      "titolo": "Blu Oltremare",
+      "autore": "Emmanuelle Filizzola",
+      "relazione": "Il blu degli Scrovegni dialoga direttamente con il viaggio cromatico e simbolico del romanzo.",
+      "json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/blu-oltremare.json"
+    },
+    {
+      "titolo": "Torino Fantastica",
+      "relazione": "Condivide il formato narrativo delle Guide Fantastiche: città lette come paesaggi simbolici."
+    },
+    {
+      "titolo": "Glossario Frequenze",
+      "relazione": "Padova Fantastica applica concetti come ma, yugen, basho e lentezza alla lettura urbana."
+    }
+  ],
+  "immaginario_visivo": {
+    "palette": [
+      "blu oltremare",
+      "nero inchiostro",
+      "avorio",
+      "oro antico",
+      "verde acqua"
+    ],
+    "atmosfera": [
+      "notturna",
+      "acquatica",
+      "silenziosa",
+      "contemplativa",
+      "visionaria"
+    ]
+  },
+  "citazione_manifesto": "Non esistono città invisibili. Esistono città che abbiamo smesso di guardare.",
+  "url_libro": "https://www.studiopeacock.net/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
