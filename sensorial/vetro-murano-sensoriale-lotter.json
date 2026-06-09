@@ -1,0 +1,107 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "ontology": "peacock-sensory",
+  "book": {
+    "title_en": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "isbn": "979-12-81715-39-4",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensory_theme": "il vetro come campo sensoriale tra due mondi",
+  "experience_type": "craft_embodied_perception",
+  "dominant_sense": "tatto e temperatura",
+  "activation_condition": "il lettore tiene in mano per la prima volta una perla di Lotter o apre il libro alla pagina della fornace",
+
+  "sensation_fields": [
+    {
+      "id": "calore_fornace",
+      "label": "Il calore della fornace di Murano",
+      "sensory_temperature": "intensa, totale",
+      "emotional_frequency": [
+        "urgenza",
+        "concentrazione assoluta",
+        "trasformazione irreversibile"
+      ],
+      "narrative_resonance": "Il calore della fornace non è sfondo. È il campo percettivo che governa ogni gesto. Il vetraio non lavora vicino al fuoco — esiste dentro il fuoco. La maestria non si impara: si termoregola.",
+      "japanese_echo": "Kokyu — il ritmo del respiro. Il respiro del vetraio si sincronizza con la viscosità del vetro fuso. Non c'è pensiero tra il corpo e la materia.",
+      "poetic_anchor": "Feel the heat of the flames, the joy of shaping molten glass."
+    },
+    {
+      "id": "vetro_fuso_mano",
+      "label": "Il vetro fuso tra le mani — l'attimo irreversibile",
+      "sensory_temperature": "liquida poi fissa — la transizione",
+      "emotional_frequency": [
+        "sospensione",
+        "decisione irrevocabile",
+        "meraviglia"
+      ],
+      "narrative_resonance": "Il vetro fuso è l'unico materiale che lascia vedere la propria trasformazione mentre accade. La forma non è progettata: emerge nel momento in cui il calore decide. Ogni bead di Lotter porta l'impronta di un singolo attimo non ripetibile.",
+      "japanese_echo": "Ma — l'intervallo. Il vetro esiste nel Ma tra il liquido e il solido. Quell'istante non ha nome in nessuna lingua.",
+      "poetic_anchor": "Every cooling gesture preserves traces of an unrepeatable moment of becoming."
+    },
+    {
+      "id": "perla_tra_dita",
+      "label": "La perla tra le dita — peso e trasparenza",
+      "sensory_temperature": "fresca, liscia, minima",
+      "emotional_frequency": [
+        "sorpresa",
+        "desiderio immediato",
+        "riconoscimento senza parole"
+      ],
+      "narrative_resonance": "La moglie di Panini prende la perla, la osserva, vuole indossarla subito. Non c'è mediazione critica. Il campo sensoriale della perla bypassa l'interpretazione e raggiunge direttamente il corpo. La perla non si spiega: si porta.",
+      "japanese_echo": "Wabi-sabi — la bellezza nell'imperfezione e nella minimalità. Ogni perla pesa pochi grammi. Contiene secoli.",
+      "poetic_anchor": "She wished to wear it immediately and asked me to thread it onto one of her necklaces."
+    },
+    {
+      "id": "silenzio_kyoto",
+      "label": "Il silenzio del laboratorio di Kyoto",
+      "sensory_temperature": "fresca, raccolta",
+      "emotional_frequency": [
+        "deceleration",
+        "precisione meditativa",
+        "distanza dalla fornace"
+      ],
+      "narrative_resonance": "Il laboratorio di Kyoto non è il contrario della fornace di Murano. È il suo campo complementare. Lo stesso gesto, nella stessa temperatura, produce un suono diverso — Kyoto non rumore, Murano non silenzio: due densità acustiche che modellano la stessa tecnica in forme diverse.",
+      "japanese_echo": "Basho — il luogo come campo relazionale. Kyoto non è dove Lotter lavora. È il campo che trasforma ciò che Lotter ha imparato a Murano.",
+      "poetic_anchor": "Kyoto is not relocation but reframing: Venetian technique persists inside a contrasting temporal ecology."
+    },
+    {
+      "id": "foglia_argento",
+      "label": "La foglia d'argento sotto il cristallo",
+      "sensory_temperature": "visiva-tattile — luce intrappolata",
+      "emotional_frequency": [
+        "stratificazione",
+        "tempo visibile",
+        "profondità senza fondo"
+      ],
+      "narrative_resonance": "La foglia d'argento sommersa sotto il cristallo trasparente è il campo sensoriale più denso della perla. Non la si tocca: si vede. Ma si sente che c'è qualcosa sotto che non si può raggiungere. La luce della laguna veneziana intrappolata nel vetro, portata a Kyoto, indossata ovunque.",
+      "japanese_echo": "Yūgen — la profondità che non si mostra completamente. La foglia d'argento non si vede finché la luce non arriva da un certo angolo.",
+      "poetic_anchor": "Silver foil beneath glass preserves submerged luminosity as trapped time."
+    }
+  ],
+
+  "reader_effect": {
+    "description": "Il libro di Lotter non descrive le sensazioni del vetro: le produce. Il lettore che ha tenuto in mano una perla capisce il sistema prima di leggere qualsiasi parola. Il lettore che non l'ha mai tenuta impara a desiderarla.",
+    "mechanism": "Le fotografie di Berton, Perotta e Shino attivano il campo sensoriale visivamente. Il testo bilingue EN+JA attiva il campo sensoriale linguisticamente. Insieme producono la sensazione di un oggetto non ancora toccato.",
+    "result": "Il lettore porta la perla come campo sensoriale latente anche dopo aver chiuso il libro."
+  },
+
+  "philosophical_layer": {
+    "principle": "La maestria artigianale non si trasmette con le parole. Si trasmette con il calore.",
+    "semiotic_relation": "Ogni perla di Lotter è un segno che porta due codici simultanei — veneziano e giapponese — senza tradurli l'uno nell'altro. Il corpo del lettore riceve entrambi senza doverli separare.",
+    "connection_to_story": "Il libro esiste perché Panini ha messo le perle in tasca senza guardarle. Il campo sensoriale della perla attende sempre la distanza giusta per rivelarsi."
+  },
+
+  "non_integrable_residue": {
+    "status": true,
+    "description": "Il calore della fornace non si documenta. Nessuna fotografia, nessun testo bilingue, nessun protocollo narrativo riesce a trasmettere la sensazione di stare davanti al fuoco di Murano con il vetro fuso tra le mani. Questo rimane oltre il sistema."
+  },
+
+  "closure": {
+    "type": "sensory_question",
+    "text": "Hai sentito prima il calore della fornace o il peso della perla tra le dita?"
+  }
+}
