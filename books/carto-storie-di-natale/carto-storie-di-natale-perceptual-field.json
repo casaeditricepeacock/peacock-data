@@ -1,0 +1,98 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Carto Storie di Natale non racconta una storia. Costruisce uno spazio in cui le storie possono emergere. Le carte non sono pagine ma operatori narrativi. Ogni composizione attiva una diversa configurazione percettiva del Natale.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_permutazione_narrativa",
+      "type": "generative_field",
+      "basho": "lo spazio narrativo non è la pagina ma il tavolo su cui le carte vengono disposte",
+      "kokyu": "ogni spostamento modifica il ritmo della storia e genera nuove relazioni causali",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni volta che il lettore cambia l'ordine delle carte",
+      "persistence_rule": "il campo resta aperto finché esistono combinazioni non esplorate",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "story_as_permutation",
+      "affects": {
+        "field-03": "la permutazione trasforma il lettore in autore"
+      },
+      "textual_anchor_it": "A seconda di come le disponi, la storia cambia."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_natale_invisibile",
+      "type": "atmospheric_field",
+      "basho": "neve, stelle, luci, alberi e doni costruiscono un paesaggio natalizio senza bisogno di dichiararlo",
+      "kokyu": "ogni carta aggiunge un frammento dell'atmosfera ma nessuna la completa",
+      "yūgen_level": 0.99,
+      "activation_condition": "ogni osservazione delle illustrazioni",
+      "persistence_rule": "presente in ogni composizione possibile",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "christmas_as_shared_background",
+      "affects": {
+        "field-04": "l'atmosfera natalizia viene percepita soprattutto attraverso le immagini"
+      },
+      "textual_anchor_it": "Il Natale poteva finalmente cominciare."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_lettore_coautore",
+      "type": "participatory_field",
+      "basho": "le mani del lettore diventano parte del dispositivo narrativo",
+      "kokyu": "il tempo della storia coincide con il tempo della composizione",
+      "yūgen_level": 0.98,
+      "activation_condition": "il lettore sceglie l'ordine delle carte",
+      "persistence_rule": "ogni lettore produce una versione diversa",
+      "dissolution_rule": "dissolvibile alla fine della sessione di gioco",
+      "field_logic": "reader_as_story_generator",
+      "affects": {
+        "field-01": "ogni scelta modifica il campo delle possibilità"
+      },
+      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_primato_dell_illustrazione",
+      "type": "visual_field",
+      "basho": "l'immagine precede il testo e lo guida",
+      "kokyu": "il ritmo nasce dalla successione visiva prima ancora che dalle frasi",
+      "yūgen_level": 0.97,
+      "activation_condition": "osservazione delle carte",
+      "persistence_rule": "sempre attivo",
+      "dissolution_rule": "non dissolvibile",
+      "field_logic": "image_before_language",
+      "affects": {
+        "field-02": "le immagini generano l'atmosfera natalizia"
+      },
+      "textual_anchor_it": "L'illustrazione precede e supera il testo."
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "single_canonical_story",
+      "fixed_beginning",
+      "fixed_ending",
+      "author_as_only_storyteller",
+      "linear_reading"
+    ],
+    "system_behavior": "Il sistema non racconta una storia ma genera un insieme di storie possibili. I quattro campi operano simultaneamente e rendono il lettore parte integrante della narrazione."
+  }
+}
