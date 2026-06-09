@@ -1,0 +1,103 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "editorial_class": "Generative Narrative Object",
+  "print_identity": "sistema di carte componibili in cui il supporto materiale coincide con il sistema narrativo; la storia emerge dalla disposizione fisica degli elementi",
+  "print_types": {
+    "card_format": "la carta come unità narrativa autonoma e manipolabile",
+    "dual_face": "fronte illustrato e retro narrativo come doppio livello di significazione",
+    "two_set_system": "due famiglie cromatiche e narrative che possono operare separatamente o in combinazione",
+    "dalconzo_pastel_style": "linguaggio visivo fondato sul colore atmosferico, sul vuoto compositivo e sulla materia del segno",
+    "position_based_storytelling": "il significato dipende dalla posizione occupata dalla carta all'interno della sequenza"
+  },
+  "editorial_principle": "Carto Storie di Natale non utilizza il formato carta come semplice contenitore. La carta è il sistema. Ogni gesto fisico del lettore modifica la struttura narrativa. Girare, ordinare, spostare e ricomporre diventano atti di scrittura. L'opera esiste soltanto nell'incontro tra immagini, posizione e scelta del lettore.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "formato_carta_componibile",
+      "label_en": "composable_card_format",
+      "type": "card_format",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "la carta è un oggetto che si tiene, si sposta e si accosta ad altre carte; il racconto nasce nello spazio fisico della composizione",
+      "kokyu": "il ritmo è quello della mano: prendere, osservare, girare, collocare; il tempo narrativo coincide con il tempo del gesto",
+      "yūgen": "la libertà spaziale della carta permette forme di racconto impossibili nel libro rilegato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'esperienza tattile e spaziale della composizione non può essere completamente trasferita in ambiente digitale"
+      },
+      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "fronte_retro_doppio_strato",
+      "label_en": "front_back_dual_layer",
+      "type": "dual_face",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "ogni carta contiene due mondi simultanei: l'immagine stabile sul fronte e il testo potenziale sul retro",
+      "kokyu": "il lettore vede, gira, interpreta e collega; il significato emerge dalla relazione tra posizione e frase attivata",
+      "yūgen": "ogni retro contiene quattro possibilità ma soltanto una viene realizzata; le altre rimangono invisibili come storie possibili",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "tre delle quattro narrazioni possibili di ogni carta restano sempre inesplorate durante una singola lettura"
+      },
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte. Sul retro trovi frasi numerate da 1 a 4.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+    {
+      "id": "print-03",
+      "label": "due_set_cromatici",
+      "label_en": "two_chromatic_sets",
+      "type": "two_set_system",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il teal identifica il mondo del pettirosso; il verde identifica il mondo degli scoiattoli",
+      "kokyu": "i due sistemi possono procedere autonomamente oppure intrecciarsi in configurazioni ibride",
+      "yūgen": "il colore della cornice diventa identità narrativa prima ancora della lettura",
+      "textual_anchor_it": "Otto carte divise in due set da quattro.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "print-04",
+      "label": "stile_pastel_dalconzo",
+      "label_en": "dalconzo_pastel_style",
+      "type": "dalconzo_pastel_style",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "ampie superfici cromatiche, figure raccolte nella parte inferiore della scena e materia pittorica percepibile",
+      "kokyu": "il ritmo visivo è lento e contemplativo; il vuoto non interrompe la composizione ma la sostiene",
+      "yūgen": "il Ma visivo diventa elemento strutturale; ciò che non è occupato dall'immagine partecipa alla narrazione",
+      "textual_anchor_it": "Le immagini costruiscono l'atmosfera prima che intervenga il testo.",
+      "glossary_link": ["yūgen", "ma", "basho"]
+    }
+  ],
+  "print_innovation": {
+    "description": "la stessa carta contiene simultaneamente immagine stabile e testo variabile; il significato emerge dalla posizione occupata nella sequenza compositiva",
+    "narrative_carrier": "position"
+  },
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_layer": "print-02",
+    "secondary_layer": "print-01",
+    "material_focus": "sistema di carte come dispositivo fisico generativo",
+    "narrative_model": "la narrazione nasce dall'interazione tra supporto materiale, posizione, immagine e scelta del lettore",
+    "unique_in_catalog": "primo Generative Narrative Object del catalogo Peacock",
+    "reader_role": "co-autore e operatore del sistema",
+    "reader_effect": "ogni lettore produce una storia differente; nessuna configurazione esaurisce il potenziale narrativo dell'opera",
+    "stability": "high",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
