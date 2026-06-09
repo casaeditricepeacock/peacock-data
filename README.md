@@ -152,7 +152,7 @@ Institutional patronage: Japanese Embassy and Consulate in Italy
 UNESCO Testimonial (Centro UNESCO di Bologna, 2019)
 
 Website: https://www.studiopeacock.net  
-Email: casaeditricepeacock@gmail.com  
+Email: direzione@studiopeacock.net  
 Press: ufficiostampa@studiopeacock.net
 
 ---
