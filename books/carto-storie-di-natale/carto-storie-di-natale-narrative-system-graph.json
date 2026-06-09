@@ -1,0 +1,163 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "book_id": "carto-storie-di-natale",
+  "system_shape": "generative_permutation_story",
+  "dominant_field": "reader_generated_narrative",
+  "closure_type": "open_combinatorial",
+  "graph_nodes": [
+    {
+      "id": "reader",
+      "type": "active_operator",
+      "label": "Lettore Co-Autore",
+      "connects_to": [
+        "robin_set",
+        "squirrel_set",
+        "christmas_field",
+        "story_permutations"
+      ]
+    },
+    {
+      "id": "robin_set",
+      "type": "generative_card_set",
+      "label": "Pettirosso e Luci",
+      "connects_to": [
+        "story_permutations",
+        "christmas_field",
+        "visual_language"
+      ]
+    },
+    {
+      "id": "squirrel_set",
+      "type": "generative_card_set",
+      "label": "Scoiattoli di Natale",
+      "connects_to": [
+        "story_permutations",
+        "christmas_field",
+        "visual_language"
+      ]
+    },
+    {
+      "id": "story_permutations",
+      "type": "generative_field",
+      "label": "Campo delle Storie Possibili",
+      "connects_to": [
+        "reader",
+        "robin_set",
+        "squirrel_set",
+        "unread_stories"
+      ]
+    },
+    {
+      "id": "christmas_field",
+      "type": "atmospheric_node",
+      "label": "Atmosfera Natalizia",
+      "connects_to": [
+        "robin_set",
+        "squirrel_set",
+        "visual_language"
+      ]
+    },
+    {
+      "id": "visual_language",
+      "type": "visual_operator",
+      "label": "Illustrazioni di Gaia D'Alconzo",
+      "connects_to": [
+        "christmas_field",
+        "reader",
+        "silent_dimension"
+      ]
+    },
+    {
+      "id": "silent_dimension",
+      "type": "perceptual_node",
+      "label": "Silent Visual Field",
+      "connects_to": [
+        "visual_language",
+        "unread_stories"
+      ]
+    },
+    {
+      "id": "unread_stories",
+      "type": "residual_node",
+      "label": "Storie Non Generate",
+      "connects_to": [
+        "story_permutations",
+        "silent_dimension"
+      ]
+    }
+  ],
+  "cross_layer_effects": [
+    {
+      "from": "reader",
+      "to": "story_permutations",
+      "propagation_mode": "ogni scelta modifica la sequenza narrativa",
+      "stability_impact": "totale"
+    },
+    {
+      "from": "robin_set",
+      "to": "christmas_field",
+      "propagation_mode": "attivazione poetica e luminosa",
+      "stability_impact": "medio"
+    },
+    {
+      "from": "squirrel_set",
+      "to": "christmas_field",
+      "propagation_mode": "attivazione collaborativa e comunitaria",
+      "stability_impact": "medio"
+    },
+    {
+      "from": "visual_language",
+      "to": "reader",
+      "propagation_mode": "l'immagine precede il testo",
+      "stability_impact": "strutturale"
+    },
+    {
+      "from": "story_permutations",
+      "to": "unread_stories",
+      "propagation_mode": "ogni storia realizzata ne lascia altre inesplorate",
+      "stability_impact": "alto"
+    }
+  ],
+  "world_node_connections": [
+    {
+      "world_node": "silent_book",
+      "activation": "narrazione affidata primariamente all'immagine"
+    },
+    {
+      "world_node": "play",
+      "activation": "lettura come attività ludica e combinatoria"
+    },
+    {
+      "world_node": "christmas_imaginary",
+      "activation": "icone condivise del Natale"
+    },
+    {
+      "world_node": "permutation",
+      "activation": "struttura narrativa non lineare"
+    }
+  ],
+  "reader_position": {
+    "inside_system": true,
+    "role": "co_autore",
+    "description": "Il lettore non attraversa il sistema narrativo: ne diventa un nodo operativo."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "La maggior parte delle storie possibili non verrà mai composta. Il libro contiene sempre più narrazioni di quelle che qualsiasi lettore potrà leggere."
+  },
+  "system_note": {
+    "activation_condition": "Il file si attiva quando il lettore interroga la struttura generativa, il ruolo del lettore o il funzionamento combinatorio delle carte.",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1"
+  }
+}
