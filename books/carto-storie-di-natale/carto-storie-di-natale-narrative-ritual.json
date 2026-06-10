@@ -1,0 +1,139 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "ritual_types": {
+    "card_composition": "rituale della composizione — mani che dispongono le carte in ordine",
+    "christmas_preparation": "rituale della preparazione natalizia come campo condiviso tra animali e lettore",
+    "light_activation": "rituale dell'accensione — le luci che aspettano di brillare",
+    "collective_decoration": "rituale della decorazione collettiva — ogni gesto è un contributo alla festa",
+    "story_invention": "rituale dell'invenzione narrativa — il lettore che decide l'ordine decide la storia"
+  },
+  "editorial_principle": "I rituali di Carto Storie di Natale sono tutti rituali di composizione. Il Natale non viene raccontato — viene preparato, carta per carta, gesto per gesto. Il rituale più importante è quello della disposizione: le mani del lettore che scelgono l'ordine compiono lo stesso gesto degli scoiattoli che decorano l'albero.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "disposizione_delle_carte",
+      "label_en": "card_arrangement",
+      "type": "card_composition",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il tavolo, il pavimento, qualsiasi superficie piana come spazio del rituale compositivo — le carte disposte in fila come parole in una frase",
+      "kokyu": "il ritmo è quello della scelta: prima carta, seconda carta, terza, quarta — ogni posizione attiva una frase diversa sul retro",
+      "yūgen": "la storia non esiste prima della disposizione — emerge nel gesto stesso del comporre; il lettore non scopre la storia, la crea",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni disposizione è irripetibile nel senso che genera una storia unica; anche riproducendo lo stesso ordine, l'esperienza è diversa"
+      },
+      "affects": {
+        "ritual-05": "la disposizione delle carte è già un atto di invenzione narrativa"
+      },
+      "textual_anchor_it": "A seconda di come le disponi, la storia cambia. Mescolando e ricomponendo le carte, la storia cambia sempre.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "preparativi_natalizi",
+      "label_en": "christmas_preparation",
+      "type": "christmas_preparation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il bosco innevato, l'albero, le calze, le luci come spazio del rituale natalizio — gli animali che preparano la festa come atti rituali ripetibili ogni anno",
+      "kokyu": "il ritmo dei preparativi è quello dell'accumulo progressivo: ogni gesto aggiunge un elemento alla festa senza mai completarla fino all'ultima carta",
+      "yūgen": "i preparativi natalizi non descrivono il Natale — lo convocano; ogni carta è un gesto che avvicina la festa senza raggiungerla",
+      "affects": {
+        "ritual-03": "i preparativi rendono necessaria l'accensione delle luci come momento culminante"
+      },
+      "textual_anchor_it": "I preparativi erano cominciati. Tutto profumava già di festa.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "accensione_delle_luci",
+      "label_en": "light_activation",
+      "type": "light_activation",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "il filo di luci a terra come campo dell'attesa — le luci che aspettano di essere accese come potenziale non ancora attivato",
+      "kokyu": "il ritmo dell'attesa delle luci è quello della tensione prima del gesto: giacevano a terra, si mossero piano piano, si accesero",
+      "yūgen": "le luci non erano solo un gioco — il pettirosso comprende questo solo nell'ultima posizione; ma se la carta è in prima posizione, la comprensione arriva prima della scoperta",
+      "affects": {
+        "ritual-04": "l'accensione delle luci è il momento che trasforma la preparazione in festa"
+      },
+      "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare. Ed ecco che, finalmente, si accesero.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "decorazione_collettiva",
+      "label_en": "collective_decoration",
+      "type": "collective_decoration",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "l'albero come centro del rituale collettivo — gli scoiattoli che salgono sulla scala, appendono le calze, posizionano la stella",
+      "kokyu": "il ritmo della decorazione collettiva è quello della cooperazione: ciascuno aveva un compito, nessuno restava fermo — la gioia cresceva ramo dopo ramo",
+      "yūgen": "ogni gesto di decorazione è un regalo — non il dono che si riceve ma il gesto che si compie per gli altri",
+      "textual_anchor_it": "Ciascuno aveva un compito, nessuno restava fermo. Tutti insieme facevano squadra. Ogni gesto era un regalo.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "invenzione_della_storia",
+      "label_en": "story_invention",
+      "type": "story_invention",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "lo spazio mentale del lettore come campo narrativo — la storia si forma mentre le mani dispongono le carte",
+      "kokyu": "il ritmo dell'invenzione è il ritmo del gioco: libero, reversibile, sorprendente — il lettore può ricominciare infinite volte",
+      "yūgen": "ogni storia inventata porta una sfumatura diversa del Natale — non esiste la storia giusta, esiste la storia di questa volta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le infinite storie possibili non composte rimangono come campo di possibilità — ogni lettura lascia storie non vissute"
+      },
+      "textual_anchor_it": "Un silent book interattivo, che diventa ogni volta un racconto nuovo di Natale.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-05",
+    "system_role": "generative_christmas_ritual_field",
+    "narrative_model": "cinque rituali costruiscono il sistema generativo: la disposizione crea la storia, i preparativi convocano il Natale, l'accensione è il momento culminante, la decorazione è gesto collettivo, l'invenzione è il rituale più importante",
+    "reader_effect": "il lettore compie lo stesso rituale degli animali nelle illustrazioni — preparare, decorare, illuminare",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  },
+  "global_non_integrable_residue": {
+    "status": true,
+    "description": "nessun lettore potrà percorrere tutte le storie possibili del sistema; il libro è sempre più grande di ogni sua lettura"
+  }
+}
