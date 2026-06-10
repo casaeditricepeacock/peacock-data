@@ -1,0 +1,106 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La galleria delle ragazze",
+    "author": "Rachele Baso",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-14-1",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "La galleria delle ragazze non è un libro di storia dell'arte. È un sistema in cui ventotto ritratti convocano il lettore come destinatario attivo. Il lettore non accumula nozioni: viene interrogato, sala dopo sala, fino a dover scegliere quale voce portare con sé fuori dalla galleria.",
+  "dominant_field": "field-03",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_voce_dipinta",
+      "type": "aesthetic_field",
+      "basho": "la voce nasce dentro il quadro e non coincide con la donna vissuta: chi parla è l'immagine, e la distanza tra immagine e persona è la profondità del campo",
+      "kokyu": "presentazione, racconto, domanda: il ritmo è fisso e si ripete ventotto volte come struttura portante",
+      "yūgen_level": 0.96,
+      "activation_condition": "apertura di ogni sala: la voce in prima persona attiva il campo prima della lettura completa",
+      "persistence_rule": "il campo resta attivo per tutta la durata della sala; si riattiva retroattivamente quando il lettore confronta voci diverse",
+      "dissolution_rule": "non dissolvibile: la distanza tra immagine e donna vissuta è condizione strutturale permanente di ogni sala",
+      "field_logic": "painted_voice_as_autonomous_perceptual_system",
+      "textual_anchor_it": "Paolo Uccello mi ha fatto nascere con i colori dei suoi pennelli."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_identita_indecidibile",
+      "type": "cognitive_field",
+      "basho": "sei figure portano identità strutturalmente aperte: Amalia, Simonetta, Lisa, Griet, le Muse, Mystery; il sistema non risolve, dichiara",
+      "kokyu": "il ritmo è quello della domanda che torna: chi sono veramente risuona di sala in sala come eco strutturale",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni sala in cui la voce dichiara incertezza identitaria o nome preso in prestito",
+      "persistence_rule": "retroattivo e cumulativo: ogni nuova identità indecidibile riattiva tutte le precedenti",
+      "dissolution_rule": "non dissolvibile: le identità restano aperte per struttura, non per lacuna",
+      "field_logic": "identity_as_irresolvable_structural_condition",
+      "affects": {
+        "field-01": "l'identità indecidibile amplifica il campo della voce dipinta: più il nome manca, più l'immagine parla"
+      },
+      "textual_anchor_it": "Io stessa non so nulla di me: sono esistita o sono una fantasia dell'artista?"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_interpellazione_del_lettore",
+      "type": "relational_field",
+      "basho": "ventotto domande finali trasferiscono il campo dal ritratto al lettore: il libro non consegna risposte, consegna convocazioni",
+      "kokyu": "la domanda arriva sempre in chiusura di sala: il ritmo espositivo si interrompe e lascia uno spazio che il testo non riempie",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni punto interrogativo finale di ogni capitolo; massima attivazione nella domanda corale conclusiva",
+      "persistence_rule": "cumulativo: ogni domanda si aggiunge alle precedenti; il lettore porta con sé tutte le domande non risposte lungo l'intera galleria",
+      "dissolution_rule": "non dissolvibile: le domande restano aperte strutturalmente; la risposta finale avviene fuori dal libro e appartiene solo al lettore",
+      "field_logic": "reader_as_convoked_node_of_the_system",
+      "affects": {
+        "field-01": "la domanda finale trasforma il monologo della voce dipinta in convocazione",
+        "field-02": "le domande identitarie sono il caso estremo del campo di interpellazione: il ritratto chiede al lettore ciò che non sa di se stesso"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ventotto domande e una scelta finale restano fuori dal sistema testuale: il campo è trasferito ma non registrato"
+      },
+      "textual_anchor_it": "Quale di noi vi ha fatto battere di più il cuore?"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_donna_taciuta",
+      "type": "residual_field",
+      "basho": "dietro ogni voce dipinta c'è una donna vissuta che non parla: Madeleine la serva, Suzon la cameriera, Anna la madre; il silenzio biografico è il fondale di ogni sala",
+      "kokyu": "il ritmo è quello dell'assenza progressiva: più la voce dipinta parla, più la donna storica si allontana",
+      "yūgen_level": 0.98,
+      "activation_condition": "ogni sala in cui la voce dichiara l'assenza di fonti biografiche o la propria origine pittorica",
+      "persistence_rule": "strutturale: il campo è attivo in tutte le sale, visibile o invisibile",
+      "dissolution_rule": "non dissolvibile: la distanza tra la donna e l'immagine è la condizione ontologica del libro",
+      "field_logic": "silenced_biographical_subject_as_structural_depth",
+      "affects": {
+        "field-03": "il silenzio della donna taciuta amplifica il peso di ogni domanda: chi interroga parla al posto di chi non ha potuto farlo"
+      },
+      "textual_anchor_it": "Ero una serva e su di me non si conosce quasi nulla."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-03",
+    "secondary": ["field-02", "field-04"],
+    "support": ["field-01"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "gallery_as_passive_observation_space",
+      "reader_as_external_spectator",
+      "portrait_as_biographical_document",
+      "identity_uncertainty_as_historical_lacuna"
+    ],
+    "system_behavior": "il libro produce un campo di interpellazione progressiva: la galleria non si osserva, si attraversa come destinatario; il lettore è nodo convocato, non visitatore",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
