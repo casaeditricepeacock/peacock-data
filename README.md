@@ -148,8 +148,7 @@ World nodes: [`world-nodes/`](./world-nodes/)
 Galzignano Terme (PD) · Italy  
 Founded 2021 · Founder: Stefano Giglio  
 Member: Associazione Editori Veneti (AEV)  
-Institutional patronage: Japanese Embassy and Consulate in Italy  
-UNESCO Testimonial (Centro UNESCO di Bologna, 2019)
+
 
 Website: https://www.studiopeacock.net  
 Email: direzione@studiopeacock.net  
