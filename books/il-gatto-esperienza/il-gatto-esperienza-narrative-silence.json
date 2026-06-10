@@ -1,0 +1,126 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "silence_types": {
+    "invisibility_void": "il silenzio di ciò che esiste ma non viene visto: il gatto presente nel mondo di tutti, percepito solo da Zana",
+    "semantic_void": "il silenzio del significato non trasmesso: la formula opera senza che il suo senso venga mai rivelato",
+    "secret_void": "il silenzio del segreto custodito: ciò che Zana non dice alle amiche non per obbligo ma per natura",
+    "dissolution_void": "il silenzio dopo la formula dimenticata: il campo dell'esperienza che continua senza dispositivo"
+  },
+  "editorial_principle": "Il silenzio nel Gatto Esperienza non è assenza di informazione: è la struttura portante del campo. Il gatto tace agli altri. La formula tace il proprio significato. Il segreto tace tra Zana e il mondo. L'esperienza finale tace la formula che l'ha generata. Il sistema funziona attraverso silenzi operativi.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "invisibilita_del_gatto",
+      "label_en": "cat_invisibility",
+      "type": "invisibility_void",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il gatto non si nasconde: è semplicemente in una frequenza che il mondo ordinario non abita; il silenzio non è scelto ma strutturale",
+      "kokyu": "il ritmo dell'invisibilità è quello della normalità per il gatto: non c'è sforzo nel non essere visto",
+      "yūgen": "il gatto è più presente nel silenzio della sua invisibilità che in qualsiasi descrizione: la sua potenza percettiva dipende da ciò che non mostra",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il gatto sia invisibile a tutti tranne a Zana non viene spiegato: il silenzio ontologico dell'invisibilità è il residuo permanente del sistema"
+      },
+      "affects": {
+        "silence-03": "l'invisibilità del gatto genera il segreto: ciò che solo Zana vede diventa automaticamente segreto"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza non si mostrava a nessuno. Agli occhi di tutti era invisibile.",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "significato_della_formula",
+      "label_en": "formula_meaning",
+      "type": "semantic_void",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la formula 'azu… zen' viene dal libro segreto del corallo; il suo significato non viene trasmesso né cercato; opera come campo sonoro puro",
+      "kokyu": "il ritmo del silenzio semantico è quello della fiducia: Zana pronuncia senza sapere e il campo risponde; il non-sapere è la condizione di funzionamento",
+      "yūgen": "una formula il cui significato è taciuto è più potente di una formula spiegata: il silenzio semantico è la fonte della sua intensità percettiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il significato della formula non viene rivelato in nessun punto del sistema: il silenzio semantico è permanente e intenzionale"
+      },
+      "affects": {
+        "silence-04": "il silenzio del significato prepara il silenzio finale: una formula che non si capisce può essere dimenticata senza perdita"
+      },
+      "textual_anchor_it": "Peccato non sapere cosa significasse.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "segreto_non_condiviso",
+      "label_en": "unshared_secret",
+      "type": "secret_void",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "le amiche di Zana non sanno del gatto: non per una decisione di nascondere ma perché il segreto non ha forma condivisibile; è strutturalmente esclusivo",
+      "kokyu": "il ritmo del segreto è quello della naturalezza: Zana non fatica a tacere; il segreto non pesa",
+      "yūgen": "un segreto che non pesa e non richiede difesa è il segreto più profondo: esiste come campo, non come informazione",
+      "affects": {
+        "silence-01": "il segreto non condiviso è la forma sociale dell'invisibilità del gatto: stessa struttura, scala umana"
+      },
+      "textual_anchor_it": "Le sue amiche non sapevano del Gatto Esperienza. Era il segreto solo di Zana e del gatto.",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "formula_dimenticata",
+      "label_en": "forgotten_formula",
+      "type": "dissolution_void",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "nella barriera corallina la formula scompare dalla memoria di Zana senza essere cercata: il silenzio finale non è perdita ma compimento",
+      "kokyu": "il ritmo del dimenticare è quello dell'immersione: non è un atto, è una conseguenza; il nuoto tra i colori occupa tutto lo spazio cognitivo",
+      "yūgen": "dimenticare il dispositivo mentre si è dentro il campo che ha generato è la forma più alta di esperienza: non serve più la chiave quando si è già dentro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la formula rimane dimenticata oltre la chiusura del libro: il campo dell'esperienza continua senza di essa"
+      },
+      "affects": {
+        "silence-02": "il silenzio finale retroagisce sul silenzio semantico: la formula non significava nulla di recuperabile; era solo un passaggio"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-01",
+    "secondary_field": "silence-02",
+    "narrative_model": "quattro silenzi operativi: l'invisibilità come frequenza inaccessibile, il significato come campo vuoto intenzionale, il segreto come struttura naturale, il dimenticare come compimento",
+    "cross_layer_coherence": {
+      "object_layer": "il gatto invisibile e la formula senza significato sono i due condensatori principali del silenzio",
+      "scene_layer": "ogni soglia si apre attraverso un silenzio: la porta del tempo non viene descritta, la barriera corallina si raggiunge trattenendo il respiro",
+      "system_layer": "il sistema funziona attraverso silenzi operativi: nessuno dei quattro silenzi è lacuna; tutti sono struttura portante"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_esperienza_compiuta",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
