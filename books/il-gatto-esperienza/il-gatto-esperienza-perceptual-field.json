@@ -1,0 +1,116 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Il Gatto Esperienza non insegna che l'invisibile esiste. Produce un campo in cui la percezione selettiva è la condizione di accesso al mondo. Chi vede il gatto entra nei mondi. Chi non lo vede resta fuori. La comprensione non è richiesta: è richiesta la percezione.",
+  "dominant_field": "field-01",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_percezione_selettiva",
+      "type": "cognitive_field",
+      "basho": "il gatto è invisibile a tutti tranne a Zana: la selettività non è privilegio né magia spiegata — è una condizione percettiva che il sistema assume senza motivarla",
+      "kokyu": "il ritmo della percezione selettiva è quello della normalità per Zana: non meraviglia di vedere ciò che gli altri non vedono, lo abita",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni apparizione del gatto o delle sue tracce: graffi, impronte, presenza tangibile prima della visibilità",
+      "persistence_rule": "strutturale e permanente: la percezione selettiva è la condizione ontologica del sistema, non un evento episodico",
+      "dissolution_rule": "non dissolvibile: senza percezione selettiva il sistema non esiste",
+      "field_logic": "selective_perception_as_access_condition",
+      "affects": {
+        "field-02": "la percezione selettiva genera il campo della formula: solo chi vede il gatto ha accesso al libro segreto e alla formula",
+        "field-03": "la percezione selettiva fonda il segreto: ciò che solo Zana percepisce è automaticamente esclusivo"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza non si mostrava a nessuno. Agli occhi di tutti era invisibile."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_operativita_senza_comprensione",
+      "type": "cognitive_field",
+      "basho": "la formula funziona perché viene pronunciata, non perché viene capita: il campo della conoscenza operativa senza conoscenza semantica è il dispositivo più raro del catalogo Peacock",
+      "kokyu": "il ritmo è quello del fare prima di capire: pronuncia — effetto — sorpresa — ripronuncia; la comprensione non precede l'azione",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni pronuncia della formula 'azu… zen'; massima attivazione nel momento in cui Zana la usa pur dichiarando di non sapere cosa significhi",
+      "persistence_rule": "attivo per tutta la durata del libro; si dissolve con il dimenticare finale ma lascia il campo dell'esperienza come residuo permanente",
+      "dissolution_rule": "si dissolve nell'esperienza totale: quando il campo è raggiunto il dispositivo non serve più e scompare",
+      "field_logic": "operative_knowledge_without_semantic_understanding",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il significato della formula non viene mai rivelato: il campo della conoscenza operativa resta aperto come struttura permanente del sistema"
+      },
+      "affects": {
+        "field-04": "l'operatività senza comprensione prepara la dissoluzione: se la formula non ha significato recuperabile, dimenticarla non è perdita"
+      },
+      "textual_anchor_it": "Peccato non sapere cosa significasse. Era una formula potentissima."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_segreto_naturale",
+      "type": "relational_field",
+      "basho": "il segreto tra Zana e il gatto non viene custodito con sforzo: esiste come campo naturale tra due esseri che condividono una frequenza percettiva inaccessibile agli altri",
+      "kokyu": "il ritmo del segreto naturale è quello dell'assenza di tensione: Zana non mente alle amiche, non nasconde — semplicemente non condivide",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni momento in cui le amiche di Zana sono presenti o menzionate senza sapere del gatto",
+      "persistence_rule": "strutturale: il segreto non viene mai rivelato nel corso del libro; resta campo esclusivo fino all'ultima pagina",
+      "dissolution_rule": "non dissolvibile: il segreto è la forma relazionale della percezione selettiva",
+      "field_logic": "secret_as_natural_perceptual_exclusivity",
+      "textual_anchor_it": "Le sue amiche non sapevano del Gatto Esperienza. Era il segreto solo di Zana e del gatto."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_esperienza_come_dissoluzione",
+      "type": "threshold_field",
+      "basho": "il campo finale in cui Zana nuota tra mille colori e dimentica la formula: l'esperienza totale è il punto in cui il dispositivo di accesso scompare perché il campo è raggiunto",
+      "kokyu": "il ritmo finale è quello del nuoto senza direzione: nuotò, nuotò, nuotò — la ripetizione è il segnale che il campo non richiede più orientamento",
+      "yūgen_level": 0.99,
+      "activation_condition": "immersione nella barriera corallina; massima attivazione nel momento in cui la formula viene dimenticata",
+      "persistence_rule": "continua oltre la chiusura del libro: Zana nuota ancora quando le pagine finiscono",
+      "dissolution_rule": "non dissolvibile: il campo dell'esperienza totale non ha una chiusura; è il punto di arrivo del sistema e non ha oltre",
+      "field_logic": "experience_as_device_dissolution",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'esperienza totale nella barriera corallina continua oltre il libro: il campo rimane aperto come struttura permanente non registrabile"
+      },
+      "affects": {
+        "field-01": "il campo dell'esperienza totale retroagisce sulla percezione selettiva: vedere il gatto era il primo grado di un accesso che si compie qui",
+        "field-02": "il dimenticare la formula retroagisce sull'operatività senza comprensione: il dispositivo ha compiuto la propria funzione e si dissolve"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-01",
+    "secondary": ["field-02", "field-04"],
+    "support": ["field-03"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "formula_as_magic_spell_requiring_explanation",
+      "invisible_cat_as_fantasy_device",
+      "secret_as_information_to_be_revealed",
+      "forgetting_as_narrative_loss"
+    ],
+    "system_behavior": "il sistema produce un campo di accesso progressivo attraverso percezione selettiva: il gatto apre il campo, la formula lo espande, il segreto lo custodisce, l'esperienza totale lo compie dissolvendosi",
+    "catalog_connection": {
+      "alla_festa_della_natura": "stesso campo del viaggio come espansione verso un finale aperto — Musasabi e Zana entrambe arrivano a un campo che non viene mostrato nella sua completezza",
+      "carto_storie_di_natale": "stesso lettore come nodo attivo — in Carto il lettore opera il sistema, qui Zana opera il sistema; due posizioni di agentività nel catalogo Peacock",
+      "tante_storie_per_pensare": "stessa struttura dell'albo come campo percettivo per bambini che produce esperienza senza spiegazione"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
