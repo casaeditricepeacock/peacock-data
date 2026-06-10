@@ -1,0 +1,130 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "system_axis": {
+    "primary_tension": "mondo_ordinario_vs_campo_dell_esperienza",
+    "temporal_axis": "threshold_expansion_sequential",
+    "narrative_logic": "ogni scena è una soglia più lontana dal mondo ordinario di Zana: il sistema si espande per anelli concentrici fino all'immersione totale"
+  },
+  "editorial_principle": "Le scene del Gatto Esperienza non sono luoghi: sono gradi di distanza dal mondo ordinario. La foresta è vicina. La porta del tempo è più lontana. La barriera corallina è il punto più lontano raggiungibile. Ogni scena amplia il campo. L'ultima lo dissolve.",
+  "scene_types": {
+    "origin_field": "il mondo ordinario di Zana come condizione di partenza",
+    "discovery_field": "primo contatto con il campo dell'esperienza attraverso la formula",
+    "guide_field": "il gatto come operatore che connette le soglie",
+    "expansion_field": "soglie successive che ampliano il campo oltre il precedente",
+    "dissolution_field": "immersione totale che dissolve la distanza tra Zana e il campo"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "segreto_nella_foresta",
+      "type": "origin_field",
+      "dominant": true,
+      "basho": "la foresta verde è il mondo del gatto e il confine del mondo ordinario di Zana: il segreto esiste qui, tra gli alberi, prima che la formula lo espanda",
+      "kokyu": "il ritmo è quello della custodia: lento, silenzioso, regolare come un segreto che non ha bisogno di essere detto",
+      "yūgen": "il gatto che nessuno vede tranne Zana non è nascosto: è semplicemente in una frequenza percettiva che solo lei abita",
+      "affects": {
+        "scene-02": "il segreto nella foresta prepara il campo in cui la formula può essere usata per la prima volta"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza viveva in una foresta verde e rigogliosa e non si mostrava a nessuno.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "prima_formula_pigne",
+      "type": "discovery_field",
+      "basho": "sulla strada di ritorno a casa Zana pronuncia la formula per la prima volta: le pigne piovono dal grande pino; il campo risponde prima ancora che Zana capisca cosa ha fatto",
+      "kokyu": "il ritmo è quello della sorpresa: la causa e l'effetto sono distanti quanto basta per produrre meraviglia",
+      "yūgen": "le pigne non colpiscono Zana: il campo protegge chi lo attiva; la formula è pericolosa e sicura insieme",
+      "affects": {
+        "scene-03": "la prima risposta della formula produce la curiosità che spinge alla seconda pronuncia"
+      },
+      "textual_anchor_it": "All'improvviso dal grande albero cominciarono a cadere pigne come pioggia. Per fortuna non la colpirono.",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "seconda_formula_volpi",
+      "type": "guide_field",
+      "basho": "con cautela, piano, Zana pronuncia di nuovo la formula: il gatto porta una famiglia di volpi; le code arrotolate si avvicinano prima dei corpi — il campo si annuncia per parti",
+      "kokyu": "il ritmo è quello dell'avvicinamento graduale: prima la coda, poi la famiglia; il campo si rivela lentamente",
+      "yūgen": "la famiglia di volpi guidata dal gatto invisibile è una scena che esiste solo per Zana: il mondo attorno non la vede",
+      "affects": {
+        "scene-04": "l'incontro con le volpi porta Zana al gatto per l'abbraccio, e il gatto la guida alla porta del tempo"
+      },
+      "textual_anchor_it": "Il gatto portò con sé una famiglia di volpi. Si vedevano avvicinare solo le code arrotolate.",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "porta_del_tempo_spiaggia",
+      "type": "expansion_field",
+      "basho": "le impronte del gatto portano alla porta del tempo; la formula la apre; oltre c'è una spiaggia di sabbia bianca con il mare lontano; il campo si è espanso oltre la foresta e oltre il tempo ordinario",
+      "kokyu": "il ritmo cambia: dalla foresta alla spiaggia il passo di Zana si allarga, l'orizzonte si apre, la scala percettiva cresce",
+      "yūgen": "la porta del tempo non viene descritta: esiste come passaggio tra una scena e la successiva; il lettore la attraversa con Zana senza vederla",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "dove porta la porta del tempo, quanti anni o secoli attraversa: il sistema non risponde; il passaggio è percettivo non geografico"
+      },
+      "affects": {
+        "scene-05": "la spiaggia con il mare lontano prepara il campo dell'immersione: l'acqua è già visibile prima di essere raggiunta"
+      },
+      "textual_anchor_it": "Seguendo le impronte del gatto si arrivò alla porta del tempo. Poi una spiaggia di sabbia bianca e in lontananza il mare.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "barriera_corallina_mille_colori",
+      "type": "dissolution_field",
+      "basho": "Zana si tuffa in mare, si aggrappa a una manta, trattiene il respiro, scende alla barriera corallina; i pesci colorati si avvicinano; il campo si espande fino a contenere mille colori simultanei",
+      "kokyu": "il ritmo finale è quello dell'immersione: nuotò, nuotò, nuotò — tre volte la stessa parola, tre gradi di abbandono",
+      "yūgen": "nella barriera corallina Zana non guida più il proprio movimento: nuota tra i colori come parte del campo, non come visitatrice",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il libro finisce mentre Zana nuota ancora: il campo dell'esperienza non ha una chiusura; continua oltre l'ultima pagina"
+      },
+      "affects": {
+        "scene-01": "la dissoluzione nella barriera corallina retroagisce sulla foresta: il segreto nella foresta era l'inizio di questo campo; ora il campo è compiuto"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-05",
+    "system_state": "espansione_concentrica_verso_dissoluzione",
+    "narrative_model": "cinque scene come anelli concentrici: foresta — formula — volpi — porta del tempo — barriera corallina; ogni anello è più lontano dal mondo ordinario del precedente",
+    "retroactive_causality": true,
+    "global_effect": "la barriera corallina retroagisce su tutte le scene precedenti: erano tutte soglie verso questo campo; il sistema si rivela come espansione intenzionale solo alla fine"
+  }
+}
