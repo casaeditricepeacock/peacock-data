@@ -1,0 +1,126 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "weather_model": {
+    "principle": "Il Natale emerge dalla trasformazione reciproca di notte, luce e calore.",
+    "narrative_formula": "notte → attesa → luce → festa",
+    "stability": "cyclic_generative"
+  },
+  "color_system": {
+    "primary_field": {
+      "name": "teal invernale",
+      "hex": "#1F5B6E",
+      "function": "attesa"
+    },
+    "secondary_field": {
+      "name": "avorio caldo",
+      "hex": "#F4E8D0",
+      "function": "accoglienza"
+    },
+    "accent_field": {
+      "name": "oro delle luci",
+      "hex": "#EFC45A",
+      "function": "trasformazione"
+    }
+  },
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "name": "campo_dell_attesa",
+      "archetype": "winter_night",
+      "hierarchy_rank": 1,
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "dominant": true,
+      "basho": "la notte che contiene tutte le possibilità",
+      "kokyu": "lento e silenzioso",
+      "yūgen": "la promessa della luce non ancora visibile",
+      "color": "#1F5B6E",
+      "relations": [
+        {
+          "target": "weather-03",
+          "type": "amplifies"
+        }
+      ]
+    },
+    {
+      "id": "weather-02",
+      "name": "campo_del_focolare",
+      "archetype": "domestic_winter",
+      "hierarchy_rank": 2,
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "lo spazio condiviso",
+      "kokyu": "preparazione",
+      "yūgen": "la gioia prima della festa",
+      "color": "#F4E8D0"
+    },
+    {
+      "id": "weather-03",
+      "name": "campo_della_luce",
+      "archetype": "illumination",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "la luce che modifica il paesaggio",
+      "kokyu": "accensione progressiva",
+      "yūgen": "l'arrivo di ciò che era atteso",
+      "color": "#EFC45A",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessun file può riprodurre il bagliore percepito nell'illustrazione originale"
+      }
+    },
+    {
+      "id": "weather-04",
+      "name": "campo_del_natale",
+      "archetype": "collective_festival",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "l'intero ecosistema delle carte",
+      "kokyu": "accumulo e risonanza",
+      "yūgen": "il Natale come atmosfera emergente"
+    }
+  ],
+  "weather_graph": [
+    {
+      "source": "weather-01",
+      "target": "weather-03",
+      "relation": "amplifies"
+    },
+    {
+      "source": "weather-02",
+      "target": "weather-04",
+      "relation": "stabilizes"
+    },
+    {
+      "source": "weather-03",
+      "target": "weather-04",
+      "relation": "generates"
+    }
+  ],
+  "reader_effects": {
+    "primary_emotion": "attesa gioiosa",
+    "secondary_emotion": "calore condiviso",
+    "memory_trigger": "ricordo del Natale vissuto o immaginato"
+  },
+  "epistemic_limit": {
+    "status": true,
+    "description": "L'atmosfera natalizia non è contenuta nelle singole carte ma emerge dalla loro combinazione. Nessun modello può esaurirla completamente."
+  },
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-03",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
