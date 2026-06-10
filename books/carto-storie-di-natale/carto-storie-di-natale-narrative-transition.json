@@ -1,0 +1,159 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "editorial_principle": "Le transizioni non appartengono alle immagini ma alle relazioni che il lettore costruisce tra esse. La stessa carta genera significati diversi a seconda della posizione che occupa nella composizione narrativa.",
+  "transition_layers": {
+    "structural": ["transition-01"],
+    "narrative": ["transition-02"],
+    "transformative": ["transition-03", "transition-04"],
+    "emotional": ["transition-05"]
+  },
+  "transitions": [
+    {
+      "id": "transition-01",
+      "name": "campo_posizionale",
+      "type": "positional_shift",
+      "hierarchy_rank": 1,
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la posizione della carta come luogo narrativo",
+      "kokyu": "il ritmo della frase che cambia senza modificare l'immagine",
+      "yūgen": "l'immagine rimane identica mentre il significato si trasforma",
+      "transition_energy": {
+        "activation": 1.0,
+        "transformation": 1.0,
+        "closure": 0.2
+      },
+      "latent_paths": ["transition-02", "transition-03", "transition-05"],
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Le posizioni non scelte continuano a esistere come narrazioni potenziali."
+      },
+      "textual_anchor_it": "A seconda della posizione della carta si legge una frase diversa."
+    },
+    {
+      "id": "transition-02",
+      "name": "incrocio_dei_due_set",
+      "type": "set_crossing",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il punto di incontro tra il mondo del pettirosso e quello degli scoiattoli",
+      "kokyu": "sorpresa e convergenza",
+      "yūgen": "due universi visivi distinti scoprono di appartenere alla stessa storia",
+      "transition_energy": {
+        "activation": 0.85,
+        "transformation": 0.92,
+        "closure": 0.35
+      },
+      "textual_anchor_it": "Le carte provenienti dai due set possono condividere la stessa sequenza narrativa."
+    },
+    {
+      "id": "transition-03",
+      "name": "dal_potenziale_all_accensione",
+      "type": "potential_to_act",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "il filo di luci ancora spento",
+      "kokyu": "attesa seguita da attivazione",
+      "yūgen": "ciò che era possibile diventa reale",
+      "transition_energy": {
+        "activation": 1.0,
+        "transformation": 0.98,
+        "closure": 0.15
+      },
+      "textual_anchor_it": "Le luci attendevano di brillare. Poi si accesero."
+    },
+    {
+      "id": "transition-04",
+      "name": "dal_disordine_alla_magia",
+      "type": "chaos_to_magic",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il groviglio luminoso che cambia significato",
+      "kokyu": "reinterpretazione",
+      "yūgen": "la goffaggine diventa bellezza",
+      "transition_energy": {
+        "activation": 0.72,
+        "transformation": 1.0,
+        "closure": 0.55
+      },
+      "textual_anchor_it": "La confusione si rivela parte della festa."
+    },
+    {
+      "id": "transition-05",
+      "name": "dai_preparativi_alla_festa",
+      "type": "preparation_to_celebration",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "gli scoiattoli sotto l'albero completato",
+      "kokyu": "rilascio della tensione",
+      "yūgen": "la quiete che segue il lavoro condiviso",
+      "transition_energy": {
+        "activation": 0.30,
+        "transformation": 0.55,
+        "closure": 1.0
+      },
+      "textual_anchor_it": "Stanchi e felici, lasciarono che il Natale iniziasse."
+    }
+  ],
+  "transition_graph": [
+    {
+      "source": "transition-01",
+      "target": "transition-02",
+      "relation": "enables",
+      "strength": 1.0
+    },
+    {
+      "source": "transition-02",
+      "target": "transition-03",
+      "relation": "accelerates",
+      "strength": 0.92
+    },
+    {
+      "source": "transition-03",
+      "target": "transition-04",
+      "relation": "prepares",
+      "strength": 0.95
+    },
+    {
+      "source": "transition-04",
+      "target": "transition-05",
+      "relation": "generates",
+      "strength": 0.90
+    }
+  ],
+  "reader_effects": {
+    "primary_emotion": "meraviglia",
+    "secondary_emotion": "partecipazione",
+    "closure_emotion": "serenità",
+    "memory_trigger": "ricordo di una festa costruita insieme"
+  },
+  "epistemic_limit": {
+    "status": true,
+    "description": "Nessuna composizione può esaurire tutte le transizioni disponibili. Ogni storia realizzata lascia dietro di sé percorsi alternativi che continuano a esistere come possibilità narrative."
+  },
+  "system_note": {
+    "transition_count": 5,
+    "dominant_transition": "transition-01",
+    "graph_structure": "directed_generative_graph",
+    "stability": "generative_metastable",
+    "closure": "variable_by_composition",
+    "narrative_formula": "posizione → incontro → attivazione → trasformazione → festa",
+    "compatibility": [
+      "NarrativeObject v4.1",
+      "NarrativeWeather v4.1",
+      "NarrativeRitual v4.1",
+      "NarrativeSystemGraph v4.1"
+    ]
+  }
+}
