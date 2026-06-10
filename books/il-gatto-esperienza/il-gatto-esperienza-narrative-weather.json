@@ -1,0 +1,124 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "weather_types": {
+    "forest_green": "campo del verde come ambiente originario del gatto e condizione di partenza dell'esperienza",
+    "impact_field": "campo degli oggetti che cadono: pigne e cocco come risposta fisica e tangibile della formula nel mondo",
+    "white_sand_horizon": "campo della spiaggia bianca come apertura percettiva massima prima dell'immersione",
+    "chromatic_depth": "campo dei mille colori subacquei come clima finale dell'esperienza totale"
+  },
+  "editorial_principle": "Il clima del Gatto Esperienza non è atmosferico: è percettivo e cromatico. La foresta verde contiene il segreto. Il cielo aperto sopra la spiaggia amplia il campo. I mille colori della barriera corallina lo saturano. Il clima accompagna l'espansione del sistema: ogni campo è più cromaticamente intenso del precedente.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "verde_della_foresta",
+      "label_en": "forest_green",
+      "type": "forest_green",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "la foresta verde e rigogliosa è il campo cromatico originario: il verde non è scenografia ma condizione percettiva del segreto; il gatto abita qui perché il verde contiene ciò che non si mostra",
+      "kokyu": "il ritmo del verde è quello della crescita lenta e continua: non cambia, non si interrompe, è il fondo stabile su cui tutto il sistema si costruisce",
+      "yūgen": "il verde rigoglioso non è descritto in dettaglio: agisce come campo atmosferico che precede ogni azione; il lettore lo percepisce prima di leggerlo",
+      "affects": {
+        "weather-02": "il campo verde chiuso prepara per contrasto l'impatto degli oggetti che cadono: il verde protegge ma non trattiene"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza viveva in una foresta verde e rigogliosa.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "campo_degli_impatti",
+      "label_en": "impact_field",
+      "type": "impact_field",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "pigne che piovono dal grande albero, cocco che cade sulla testa: il clima risponde alla formula con oggetti fisici; la formula ha peso e traiettoria",
+      "kokyu": "il ritmo è quello dell'imprevisto puntuale: arriva dall'alto, senza preavviso, e passa; il campo si agita e si stabilizza",
+      "yūgen": "gli oggetti che cadono non colpiscono Zana: il campo è perturbato ma protegge chi lo attiva; la formula è potente e sicura insieme",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché gli oggetti cadano esattamente dopo la formula e non colpiscano Zana: il sistema non spiega la protezione; agisce"
+      },
+      "affects": {
+        "weather-03": "gli impatti dal cielo preparano l'apertura verso la spiaggia: il campo verticale chiuso si trasforma in orizzonte aperto"
+      },
+      "textual_anchor_it": "All'improvviso dal grande albero cominciarono a cadere pigne come pioggia. Per fortuna non la colpirono.",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "spiaggia_bianca_orizzonte",
+      "label_en": "white_sand_horizon",
+      "type": "white_sand_horizon",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la spiaggia di sabbia bianca con il mare lontano è il campo di massima apertura percettiva prima dell'immersione: il bianco della sabbia e l'azzurro dell'orizzonte producono uno spazio senza confini visibili",
+      "kokyu": "il ritmo della spiaggia è quello della distesa: nessun oggetto interrompe il campo visivo; il passo rallenta, lo sguardo si allarga",
+      "yūgen": "il mare è lontano sulla spiaggia: la distanza non è ostacolo ma campo di attesa; il sistema sospende Zana tra il bianco e l'azzurro prima di immergerla",
+      "affects": {
+        "weather-04": "la spiaggia bianca è la soglia cromatica prima dei mille colori: il bianco prepara la saturazione"
+      },
+      "textual_anchor_it": "Poi una spiaggia di sabbia bianca e in lontananza il mare.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "mille_colori_subacquei",
+      "label_en": "chromatic_depth",
+      "type": "chromatic_depth",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la barriera corallina è il campo cromatico finale: mille colori simultanei che saturano ogni percezione; il campo non ha più bordi visibili",
+      "kokyu": "il ritmo è quello del nuoto continuo senza direzione: nuotò, nuotò, nuotò — il colore sostituisce la meta",
+      "yūgen": "mille colori non si descrivono: si abitano; Zana non osserva la barriera corallina, ne diventa parte",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i mille colori non vengono nominati né descritti: il campo cromatico finale è il residuo massimo del sistema — presente e irriducibile a qualsiasi elenco"
+      },
+      "affects": {
+        "weather-01": "i mille colori retroagiscono sul verde della foresta: il verde era il primo colore del campo; i mille colori sono il suo compimento"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori.",
+      "glossary_link": [
+        "yūgen",
+        "mono no aware",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-04",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — verde della foresta: campo cromatico originario e chiuso",
+      "step_2": "weather-02 — impatti dal cielo: il campo risponde fisicamente alla formula",
+      "step_3": "weather-03 — spiaggia bianca: apertura percettiva massima prima dell'immersione",
+      "step_4": "weather-04 — mille colori subacquei: saturazione cromatica e dissoluzione"
+    },
+    "narrative_model": "quattro campi cromatici che replicano l'espansione del sistema: verde chiuso — impatto verticale — bianco aperto — colore totale",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
