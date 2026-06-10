@@ -1,0 +1,151 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "subtitle": "経験ネコ",
+    "author": "Timea Giglio",
+    "illustrator": "Serena Sara Seresini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023,
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue"
+  },
+  "editorial_principle": "Il Gatto Esperienza non racconta un'avventura. Produce un campo in cui la percezione selettiva è la condizione di accesso al mondo. Solo Zana vede il gatto. Solo chi è pronto all'esperienza entra nei mondi che il gatto apre. La formula magica non richiede comprensione: richiede pronuncia. L'esperienza, quando è piena, supera il dispositivo che l'ha generata.",
+  "object_types": {
+    "invisible_guide": "operatore percettivo visibile solo a chi è pronto all'esperienza",
+    "operative_formula": "dispositivo linguistico che produce effetti reali senza richiedere comprensione semantica",
+    "secret_bond": "legame esclusivo tra Zana e il gatto come condizione di accesso",
+    "threshold_object": "oggetto o elemento che segna il passaggio tra il mondo ordinario e il campo dell'esperienza",
+    "dissolution_event": "evento finale in cui l'esperienza supera e dissolve il dispositivo che l'ha attivata"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "gatto_esperienza",
+      "label_en": "experience_cat",
+      "type": "invisible_guide",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il gatto non abita un luogo fisso: abita la soglia tra il mondo visibile e quello accessibile solo attraverso l'esperienza; la foresta è il suo spazio ma non il suo confine",
+      "kokyu": "il ritmo del gatto è quello dell'apparizione selettiva: non si mostra, lascia tracce — graffi sugli alberi, impronte, presenza tangibile prima di essere visibile",
+      "yūgen": "il gatto invisibile a tutti tranne a Zana non è un segreto da scoprire: è una condizione percettiva che il libro non spiega e non risolve",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché solo Zana veda il gatto non viene spiegato: la selettività della percezione è il residuo strutturale permanente del sistema"
+      },
+      "affects": {
+        "object-02": "il gatto porta il libro segreto: la guida invisibile porta il dispositivo linguistico",
+        "object-03": "il gatto fonda il legame segreto con Zana come condizione di tutto ciò che segue"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza è il gatto che non si mostra a nessuno. Solo Zana può vederlo.",
+      "glossary_link": [
+        "yūgen",
+        "ma",
+        "basho"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "formula_senza_significato",
+      "label_en": "meaningless_operative_formula",
+      "type": "operative_formula",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la formula 'azu… zen' viene dal libro segreto del corallo; Zana la ricorda senza sapere cosa significhi; agisce nello spazio tra suono e effetto, senza passare per il senso",
+      "kokyu": "il ritmo della formula è quello della ripetizione audace: la prima volta con curiosità, la seconda con esitazione, poi con abbandono; ogni pronuncia produce un effetto diverso e inatteso",
+      "yūgen": "la formula funziona perché viene pronunciata, non perché viene compresa; il significato è la parte mancante che non serve",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il significato della formula non viene mai rivelato: opera come campo aperto che il sistema non chiude"
+      },
+      "affects": {
+        "object-04": "la formula apre le soglie: ogni pronuncia genera un nuovo passaggio verso un campo diverso",
+        "object-05": "l'uso ripetuto della formula prepara la sua dissoluzione nell'esperienza finale"
+      },
+      "textual_anchor_it": "Dalla formula ricordava solo 'azu… zen'. Una formula potentissima. Peccato non sapere cosa significasse.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "segreto_condiviso",
+      "label_en": "shared_secret",
+      "type": "secret_bond",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il segreto non è un'informazione nascosta: è lo spazio esclusivo tra Zana e il gatto, inaccessibile anche alle amiche più vicine",
+      "kokyu": "il ritmo del segreto è quello della custodia silenziosa: non viene dichiarato né difeso, semplicemente non condiviso",
+      "yūgen": "il segreto è la condizione che rende possibile tutto il resto: senza lo spazio esclusivo tra Zana e il gatto, i mondi che si aprono non esisterebbero",
+      "affects": {
+        "object-01": "il segreto condiviso è la forma relazionale del gatto invisibile: visibile solo a Zana significa segreto solo con Zana"
+      },
+      "textual_anchor_it": "Le sue amiche non sapevano del Gatto Esperienza. Era il segreto solo di Zana e del gatto.",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "soglie_successive",
+      "label_en": "successive_thresholds",
+      "type": "threshold_object",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "ogni pronuncia della formula genera una soglia diversa: pigne che piovono, famiglia di volpi, porta del tempo, spiaggia bianca, cocco che cade, nuvola parlante, barriera corallina; il campo si espande per soglie",
+      "kokyu": "il ritmo delle soglie è quello dell'escalation percettiva: ogni passaggio è più ampio e più lontano dal mondo ordinario del precedente",
+      "yūgen": "le soglie non vengono annunciate: arrivano come conseguenza inattesa della formula; l'inatteso è la loro struttura",
+      "affects": {
+        "object-05": "la sequenza delle soglie prepara il campo dell'esperienza totale che dissolve la formula"
+      },
+      "textual_anchor_it": "Seguendo le impronte del gatto si arrivò alla porta del tempo.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "dissoluzione_nella_esperienza",
+      "label_en": "dissolution_into_experience",
+      "type": "dissolution_event",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "nella barriera corallina, tra mille colori, Zana nuota e nuota e nuota finché dimentica la formula; l'esperienza è diventata il campo — il dispositivo non serve più",
+      "kokyu": "il ritmo finale è quello dell'immersione totale: il nuoto si ripete tre volte nel testo, la formula scompare senza essere dichiarata dimenticata fino all'ultimo",
+      "yūgen": "dimenticare la formula non è una perdita: è il segno che l'esperienza si è compiuta; chi è dentro i mille colori non ha bisogno del dispositivo che lo ha portato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la formula dimenticata non ritorna: il campo rimane aperto come esperienza compiuta che non richiede più un dispositivo di accesso"
+      },
+      "affects": {
+        "object-02": "la dissoluzione retroagisce sulla formula: il suo valore non era semantico ma esperienziale — serviva ad arrivare fin qui"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-02",
+    "system_role": "invisible_guide_experience_field",
+    "narrative_model": "cinque operatori percettivi trasformano l'invisibilità in accesso: il gatto guida, la formula apre, il segreto fonda, le soglie espandono, l'esperienza dissolve il dispositivo",
+    "language_structure": "bilingue IT+JA: il testo italiano e il testo giapponese coesistono come due campi autonomi della stessa storia",
+    "closure_type": "dissolution_into_full_experience",
+    "reader_effect": "il lettore non impara cosa significa la formula: impara che alcune cose funzionano senza essere capite",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
