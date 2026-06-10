@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "format": "8 carte illustrate — 2 set da 4",
+    "genre": "silent book interattivo generativo",
+    "system_note": "ogni carta ha fronte illustrato + retro con frasi 1-4; la storia cambia in base all'ordine di composizione"
+  },
+  "editorial_principle": "Carto Storie di Natale non è un libro da leggere. È un sistema narrativo generativo in cui il lettore è co-autore. Ogni ordine di composizione delle carte produce una storia diversa. Il Natale non è un contenuto fisso — è un campo di possibilità che il lettore attiva ogni volta in modo nuovo. L'illustrazione precede e supera il testo: è il silent book che si compone.",
+  "object_types": {
+    "generative_card": "carta che porta un campo visivo fisso e quattro possibilità narrative in base alla posizione",
+    "permutation_field": "il sistema di tutte le storie possibili generate dalle combinazioni delle carte",
+    "christmas_atmosphere": "campo percettivo del Natale costruito visivamente — non dichiarato ma evocato",
+    "reader_as_author": "il lettore che compone le carte diventa co-autore della storia",
+    "silent_visual_field": "il campo visivo delle illustrazioni che precede e supera il testo"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "set_pettirosso_luci",
+      "label_en": "robin_lights_set",
+      "type": "generative_card",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "quattro carte con cornice blu-teal: pettirosso con luci, pettirosso aggrovigliato, filo di luci a terra, albero nella notte — quattro momenti di un'unica storia natalizia ricomponibile",
+      "kokyu": "il ritmo delle carte è quello della scoperta progressiva: ogni carta porta quattro frasi possibili in base alla posizione — la storia accelera o rallenta secondo l'ordine scelto",
+      "yūgen": "il pettirosso non sa ancora il segreto delle luci — la comprensione arriva solo nella posizione finale; ogni ricomposizione ritarda o anticipa questo momento",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le storie non generate rimangono come campo di possibilità — ogni lettura lascia storie non vissute"
+      },
+      "affects": {
+        "object-02": "il set del pettirosso e il set degli scoiattoli possono essere mescolati per generare storie ibride",
+        "object-03": "ogni ordine attiva un campo atmosferico natalizio diverso"
+      },
+      "textual_anchor_it": "Un pettirosso curioso decise di provarle. / Tra un salto e l'altro finì tutto aggrovigliato. / Un filo di luci giaceva a terra, in attesa di brillare. / Un grande albero si innalzava silenzioso nella notte.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-02",
+      "label": "set_scoiattoli_natale",
+      "label_en": "squirrels_christmas_set",
+      "type": "generative_card",
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "quattro carte con cornice verde: scoiattoli con cuori e stelle, scoiattoli con scala e calza, scoiattoli che decorano l'albero, scoiattoli stanchi e felici sotto l'albero",
+      "kokyu": "il ritmo degli scoiattoli è quello della collaborazione: ogni carta porta un gesto collettivo — cuori, stelle, doni, scala, calze — la festa cresce con ogni posizione",
+      "yūgen": "ogni gesto degli scoiattoli è un regalo — la frase finale 'Ogni gesto era un regalo' diventa il punto di arrivo possibile ma non obbligatorio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la storia degli scoiattoli ha una conclusione naturale ma non necessaria — può essere ricomposta in modo da non raggiungerla mai"
+      },
+      "affects": {
+        "object-01": "mescolato con il set del pettirosso genera storie in cui luci e decorazioni si intrecciano"
+      },
+      "textual_anchor_it": "Gli scoiattoli portarono cuori, stelle e doni. / Con una scala e una calza rossa, arrivarono gli aiutanti. / Insieme sollevarono le stelle più in alto. / Alla fine si sdraiarono, stanchi e felici.",
+      "glossary_link": ["basho", "mono no aware", "ma"]
+    },
+    {
+      "id": "object-03",
+      "label": "campo_natalizio_visivo",
+      "label_en": "christmas_visual_field",
+      "type": "christmas_atmosphere",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "il Natale come campo percettivo costruito visivamente: neve, luci, albero, calze, stelle, cuori, doni — non dichiarato ma evocato da ogni carta",
+      "kokyu": "il ritmo del campo natalizio è quello dell'accumulo: ogni carta aggiunge un elemento dell'atmosfera senza mai completarla",
+      "yūgen": "il Natale non viene mai nominato nelle frasi delle carte — è il campo invisibile che tutte le storie condividono",
+      "affects": {
+        "object-04": "il campo natalizio è lo spazio in cui il lettore-autore opera le sue scelte compositive"
+      },
+      "textual_anchor_it": "Il Natale poteva finalmente cominciare.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-04",
+      "label": "lettore_co_autore",
+      "label_en": "reader_as_coauthor",
+      "type": "reader_as_author",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "il lettore come spazio narrativo attivo — le sue mani che compongono le carte sono parte del sistema; senza il lettore non esiste la storia",
+      "kokyu": "il ritmo della composizione è il ritmo del lettore — può essere lento e meditativo o veloce e ludico; il tempo della storia è il tempo della mano",
+      "yūgen": "ogni lettore ha letto una storia diversa — nessuna storia è sbagliata perché il sistema è generativo, non prescrittivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le storie composte dal lettore esistono solo nel momento della composizione — non possono essere preservate senza fotografare l'ordine"
+      },
+      "affects": {
+        "object-01": "il lettore sceglie quale set usare, come mescolarli, quale ordine produrre"
+      },
+      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre. A seconda di come le disponi, la storia cambia.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "object-05",
+      "label": "illustrazioni_dalconzo",
+      "label_en": "dalconzo_illustrations",
+      "type": "silent_visual_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "le illustrazioni di Gaia D'Alconzo come campo visivo primario e autonomo — il silent book che precede e supera il testo delle frasi",
+      "kokyu": "il ritmo visivo è quello del pastel su carta — texture calda, colori profondi, figura in basso con grande spazio superiore come Ma visivo",
+      "yūgen": "ogni illustrazione porta più di quanto il testo possa dire — il pettirosso aggrovigliato è allo stesso tempo comico e tenero, lanterna vivente e creatura in difficoltà",
+      "textual_anchor_it": "Gaia D'Alconzo — illustratrice italiana attiva nel panorama editoriale internazionale. Dal 2024 collaboratrice della trasmissione Caterpillar Radio 2 RAI.",
+      "glossary_link": ["yūgen", "ma", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-04",
+    "secondary_field": "object-01",
+    "system_role": "generative_narrative_permutation_field",
+    "narrative_model": "cinque operatori costruiscono un sistema narrativo generativo: due set di carte, il campo natalizio come sfondo condiviso, il lettore come co-autore, le illustrazioni come linguaggio primario",
+    "unique_structure": "unico libro del catalogo Peacock in cui la storia non è fissa — ogni composizione produce una narrazione diversa",
+    "reader_effect": "il lettore non legge una storia — ne crea una; ogni sessione è irripetibile",
+    "series_connection": "silent book illustrato — gemello formale di Ra-ta-ta. Lascia cadere la pioggia per dimensione visiva primaria",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
