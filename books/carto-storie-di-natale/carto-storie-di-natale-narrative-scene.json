@@ -1,0 +1,120 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "ordine_vs_possibilita",
+    "temporal_axis": "storia_generata_dal_gesto_del_lettore",
+    "narrative_logic": "ogni scena esiste simultaneamente come possibilità; la composizione delle carte determina quale relazione si crea tra loro"
+  },
+  "editorial_principle": "In Carto Storie di Natale non esiste una sequenza obbligata. Le scene non sono capitoli ma campi narrativi. Ogni carta può essere inizio, centro o conclusione. Il significato emerge dalla relazione tra le immagini e dalla posizione assegnata dal lettore.",
+  "scene_types": {
+    "invitation_field": "qualcosa chiama il personaggio verso l'avventura",
+    "transformation_field": "la situazione cambia forma attraverso il gioco o l'errore",
+    "potential_field": "ciò che non è ancora accaduto ma potrebbe accadere",
+    "gathering_field": "personaggi diversi contribuiscono a una costruzione comune",
+    "completion_field": "la storia trova una forma provvisoria di armonia"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "richiamo_delle_luci",
+      "label_en": "call_of_the_lights",
+      "type": "invitation_field",
+      "dominant": true,
+      "basho": "un filo di luci compare nello spazio silenzioso della neve. Nessuno sa ancora a cosa servirà.",
+      "kokyu": "il ritmo è quello dell'invito. Le luci attendono qualcuno che le raccolga.",
+      "yūgen": "l'oggetto sembra incompleto ma contiene già l'intera festa in forma invisibile.",
+      "affects": {
+        "scene-02": "attira il pettirosso verso l'esplorazione",
+        "scene-04": "prepara l'accensione futura dell'albero"
+      },
+      "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "scene-02",
+      "label": "gioco_del_pettirosso",
+      "label_en": "robin_play",
+      "type": "transformation_field",
+      "basho": "il pettirosso prova le luci come un ornamento e trasforma un oggetto dimenticato in esperienza.",
+      "kokyu": "il ritmo è leggero e curioso. Ogni movimento genera una possibilità inattesa.",
+      "yūgen": "non esiste differenza netta tra errore e scoperta: ciò che sembra sbagliato diventa magia.",
+      "affects": {
+        "scene-03": "può generare l'aggrovigliamento",
+        "scene-05": "può trasformarsi in decorazione collettiva"
+      },
+      "textual_anchor_it": "Un pettirosso curioso decise di provarle.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "scene-03",
+      "label": "aggrovigliamento_felice",
+      "label_en": "joyful_entanglement",
+      "type": "transformation_field",
+      "basho": "il pettirosso rimane intrappolato nelle luci e diventa una figura luminosa nella notte.",
+      "kokyu": "il ritmo accelera. Il disordine produce energia narrativa.",
+      "yūgen": "l'aggrovigliamento non è un ostacolo ma una forma inattesa di bellezza.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "non è possibile stabilire se questa scena sia un problema o una soluzione; dipende dalla posizione assegnata dal lettore"
+      },
+      "affects": {
+        "scene-04": "trasforma l'errore in preparazione",
+        "scene-05": "anticipa la festa"
+      },
+      "textual_anchor_it": "Tra un salto e l'altro finì tutto aggrovigliato.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "costruzione_collettiva",
+      "label_en": "collective_building",
+      "type": "gathering_field",
+      "basho": "gli scoiattoli portano stelle, cuori, calze e doni. Ogni personaggio aggiunge qualcosa che da solo non sarebbe sufficiente.",
+      "kokyu": "il ritmo è collaborativo. La scena cresce per accumulo di piccoli gesti.",
+      "yūgen": "nessun personaggio domina il sistema; la festa emerge dalla somma delle presenze.",
+      "affects": {
+        "scene-05": "rende possibile una forma di completezza"
+      },
+      "textual_anchor_it": "Gli scoiattoli portarono cuori, stelle e doni.",
+      "glossary_link": ["basho", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-05",
+      "label": "natale_potenziale",
+      "label_en": "potential_christmas",
+      "type": "completion_field",
+      "basho": "l'albero è pronto, gli animali riposano, il mondo sembra completo.",
+      "kokyu": "il ritmo rallenta fino alla quiete.",
+      "yūgen": "la festa vera non viene mostrata. Il sistema si ferma un attimo prima che inizi.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la festa non appartiene alle carte ma all'immaginazione del lettore; ogni composizione produce un Natale diverso"
+      },
+      "affects": {
+        "scene-01": "può diventare un nuovo inizio quando la carta viene posta in posizione iniziale"
+      },
+      "textual_anchor_it": "Il Natale poteva finalmente cominciare.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-01",
+    "secondary_field": "scene-05",
+    "system_state": "all_scenes_exist_as_potential",
+    "narrative_model": "invito, gioco, trasformazione, costruzione, armonia — cinque stati che possono apparire in qualsiasi ordine",
+    "retroactive_causality": true,
+    "global_effect": "la conclusione può diventare l'inizio e l'inizio può diventare la conclusione; il lettore genera il tempo della storia"
+  }
+}
