@@ -1,0 +1,142 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "transition_types": {
+    "formula_activation": "la pronuncia della formula come innesco della transizione: il suono apre il passaggio",
+    "consequence_surprise": "l'effetto inatteso che segue la formula: la transizione avviene prima che Zana la comprenda",
+    "body_movement": "il movimento fisico di Zana come dispositivo di attraversamento: seguire, tuffarsi, aggrapparsi",
+    "scale_expansion": "passaggio da un campo percettivo a uno più ampio: foresta — porta del tempo — oceano — barriera corallina",
+    "dissolution_crossing": "transizione finale in cui il confine tra Zana e il campo scompare"
+  },
+  "editorial_principle": "Le transizioni del Gatto Esperienza sono tutte transizioni di scala: ogni passaggio porta Zana in un campo più grande del precedente. La formula è il meccanismo, ma il corpo è il dispositivo. Zana non pensa le transizioni: le compie. La comprensione arriva dopo, se arriva.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "pronuncia_verso_effetto",
+      "label_en": "formula_to_consequence",
+      "type": "formula_activation",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni pronuncia della formula genera una transizione immediata verso un effetto inatteso: il suono e la conseguenza sono connessi senza spiegazione intermedia",
+      "kokyu": "il ritmo è quello dello scatto: la formula finisce, l'effetto inizia; non c'è pausa di elaborazione",
+      "yūgen": "la transizione non viene annunciata: arriva; il campo cambia prima che Zana abbia finito di pronunciare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo che connette la formula all'effetto non viene spiegato: la transizione avviene nel campo del non-sapere"
+      },
+      "affects": {
+        "transition-02": "la sorpresa dell'effetto inatteso genera la curiosità che porta alla pronuncia successiva"
+      },
+      "textual_anchor_it": "All'improvviso dal grande albero cominciarono a cadere pigne come pioggia.",
+      "glossary_link": [
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "sorpresa_verso_coraggio",
+      "label_en": "surprise_to_next_attempt",
+      "type": "consequence_surprise",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "ogni effetto inatteso non spaventa Zana ma la incuriosisce: la transizione dalla sorpresa al coraggio è il campo emotivo che permette la pronuncia successiva",
+      "kokyu": "il ritmo è quello del rimbalzo: sorpresa — pausa — curiosità — nuova pronuncia; la struttura si ripete con variazione di intensità",
+      "yūgen": "la transizione non è dichiarata come scelta coraggiosa: Zana semplicemente riprova; l'audacia è implicita nel gesto",
+      "affects": {
+        "transition-01": "il coraggio di riprovare riattiva il ciclo formula-effetto"
+      },
+      "textual_anchor_it": "Curiosissima! Ma con cautela, di nuovo piano piano, sussurrò ancora la formula.",
+      "glossary_link": [
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "impronte_verso_soglia",
+      "label_en": "tracks_to_threshold",
+      "type": "body_movement",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "le impronte del gatto sono la mappa delle transizioni: Zana non decide dove andare, segue; il corpo compie la transizione prima che la mente la elabori",
+      "kokyu": "il ritmo è quello del passo: regolare, fiducioso, orientato da tracce che potrebbero scomparire",
+      "yūgen": "seguire impronte invisibili agli altri è un atto di fiducia percettiva: la transizione è possibile solo per chi le vede",
+      "affects": {
+        "transition-04": "seguire le impronte porta alla porta del tempo come soglia fisica della transizione di scala"
+      },
+      "textual_anchor_it": "Seguendo le impronte del gatto si arrivò alla porta del tempo.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "porta_del_tempo_verso_oceano",
+      "label_en": "time_door_to_ocean",
+      "type": "scale_expansion",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la porta del tempo è la transizione di scala massima del libro: da un campo terrestre e familiare a uno marino e senza confini visibili",
+      "kokyu": "il ritmo cambia radicalmente: dalla foresta chiusa all'orizzonte aperto; il respiro si allarga con il campo",
+      "yūgen": "la porta del tempo non viene descritta dall'interno: esiste solo come effetto — prima c'era la foresta, dopo c'è la spiaggia bianca",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa attraversa la porta del tempo, quanto tempo separa i due campi: il sistema non risponde; la transizione è percettiva non cronologica"
+      },
+      "affects": {
+        "transition-05": "il campo oceanico aperto prepara l'immersione come transizione finale verso la dissoluzione"
+      },
+      "textual_anchor_it": "Poi una spiaggia di sabbia bianca e in lontananza il mare.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "tuffo_verso_dissoluzione",
+      "label_en": "dive_to_dissolution",
+      "type": "dissolution_crossing",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Zana si tuffa, si aggrappa alla manta, trattiene il respiro, scende: la transizione finale è sequenza di gesti fisici che portano al campo dove il confine tra Zana e l'esperienza scompare",
+      "kokyu": "il ritmo si fa subacqueo: più lento, più denso, più silenzioso; il movimento diventa nuoto continuo senza direzione",
+      "yūgen": "il momento in cui Zana smette di essere visitatrice della barriera corallina e diventa parte del campo non viene dichiarato: accade nel nuoto ripetuto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la transizione finale non ha un punto di arrivo: Zana nuota ancora quando il libro finisce; il confine tra attraversamento e dissoluzione non è segnato"
+      },
+      "affects": {
+        "transition-01": "la transizione finale retroagisce sulla prima: ogni pronuncia della formula era un passo verso questo campo; il sistema si rivela come sequenza intenzionale solo nella dissoluzione"
+      },
+      "textual_anchor_it": "Si tuffò in mare. Si aggrappò a una manta che la portò fino alla barriera corallina.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-01",
+    "secondary_field": "transition-05",
+    "narrative_model": "cinque transizioni di scala crescente: formula-effetto, sorpresa-coraggio, impronte-soglia, porta del tempo-oceano, tuffo-dissoluzione",
+    "stability": "high_metastable",
+    "closure": "open_dissolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
