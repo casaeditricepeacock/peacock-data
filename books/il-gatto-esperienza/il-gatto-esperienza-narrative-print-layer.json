@@ -1,0 +1,153 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "print_identity": "albo illustrato bilingue IT+JA, formato leggero, progettato per lettura condivisa tra adulto e bambino; le illustrazioni di Serena Sara Seresini prodotte da Moorea, Polinesia francese, portano nel libro il campo cromatico della barriera corallina come campo visivo già prima della narrazione",
+  "print_types": {
+    "bilingual_layout": "testo italiano e giapponese come due campi autonomi sulla stessa pagina",
+    "illustrative_field": "le illustrazioni non decorano il testo: producono il campo percettivo che il testo attraversa",
+    "compact_reading": "formato leggero che favorisce lettura continua e condivisa",
+    "coral_origin": "le illustrazioni portano l'origine geografica dell'illustratrice come campo visivo: la Polinesia è nel colore prima di essere nel testo"
+  },
+  "editorial_principle": "L'oggetto-libro del Gatto Esperienza è bilingue per struttura, non per traduzione. IT e JA non si spiegano: coesistono. Le illustrazioni di Seresini non accompagnano la storia: la precedono cromaticamente. Chi apre il libro vede i colori della Polinesia prima di leggere una parola.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "doppio_testo_it_ja",
+      "label_en": "bilingual_it_ja_text",
+      "type": "bilingual_layout",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni pagina porta due testi: italiano e giapponese; non è traduzione sequenziale ma coesistenza di due campi linguistici autonomi sulla stessa superficie",
+      "kokyu": "il ritmo della lettura bilingue è doppio: chi legge italiano percepisce il giapponese come campo visivo parallelo; chi legge giapponese percepisce l'italiano allo stesso modo",
+      "yūgen": "la lingua che non si legge non è assente: agisce come campo sonoro e visivo che accompagna senza essere compreso — esattamente come la formula 'azu… zen'",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il lettore monolingue porta nel libro lo stesso rapporto di Zana con la formula: un campo linguistico operativo che non richiede comprensione semantica"
+      },
+      "textual_anchor_it": "経験ネコは誰にも見えないネコ。",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "print-02",
+      "label": "illustrazioni_da_moorea",
+      "label_en": "moorea_illustrations",
+      "type": "illustrative_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Serena Sara Seresini illustra da Moorea, Polinesia francese: il campo cromatico della barriera corallina è nell'origine delle illustrazioni prima di essere nel finale del libro",
+      "kokyu": "il ritmo delle illustrazioni è quello del colore che precede la forma: la tavolozza polinesiana attraversa tutta la storia come sottofondo cromatico",
+      "yūgen": "i mille colori del finale non arrivano come sorpresa cromatica: erano già presenti nelle illustrazioni sin dalla prima pagina; il lettore li riconosce come campo che ha attraversato fin dall'inizio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'origine geografica delle illustrazioni non viene dichiarata nel testo: agisce come campo invisibile che produce coerenza cromatica senza essere nominato"
+      },
+      "textual_anchor_it": "Disegni di Serena Sara Seresini — attualmente a Moorea, Polinesia francese.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "print-03",
+      "label": "formato_lettura_condivisa",
+      "label_en": "shared_reading_format",
+      "type": "compact_reading",
+      "intensity": 0.91,
+      "perceptual_weight": 0.90,
+      "basho": "il formato leggero e le pagine brevi producono un libro adatto alla lettura ad alta voce tra adulto e bambino: il campo percettivo si condivide nel momento della lettura",
+      "kokyu": "il ritmo è quello della storia raccontata: breve per pagina, aperto per campo; ogni doppia pagina è una sosta",
+      "yūgen": "un adulto che legge il giapponese a un bambino che non lo capisce replica il campo della formula: il suono produce esperienza senza richiedere comprensione",
+      "affects": {
+        "print-01": "la lettura condivisa attiva il doppio campo linguistico: adulto e bambino abitano lingue diverse sulla stessa pagina"
+      },
+      "textual_anchor_it": "Storia di Timea Giglio, disegni di Serena Sara Seresini.",
+      "glossary_link": [
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "print-04",
+      "label": "origine_corallina_del_libro",
+      "label_en": "coral_book_origin",
+      "type": "coral_origin",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il libro segreto del gatto viene dal corallo; le illustrazioni vengono dalla Polinesia; il finale avviene nella barriera corallina: l'origine corallina attraversa il sistema come campo strutturale invisibile",
+      "kokyu": "il ritmo dell'origine corallina è quello della risonanza: lo stesso campo cromatico e geografico ritorna a livelli diversi del sistema",
+      "yūgen": "il corallo non viene nominato come tema: è il campo sotterraneo che connette il libro segreto, le illustrazioni e il finale; la connessione non è dichiarata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'origine corallina del sistema non è esplicitata in nessun punto del testo: agisce come campo di coerenza invisibile che il sistema non registra ma produce"
+      },
+      "textual_anchor_it": "Il Gatto Esperienza possedeva un libro segreto con storie e formule magiche che venivano dai coralli.",
+      "glossary_link": [
+        "basho",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "bilingual_secret_field_opening",
+      "note": "il segreto nella foresta si apre su due lingue: IT e JA coesistono dall'inizio come il segreto tra Zana e il gatto"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "formula_impact_illustration",
+      "note": "le pigne che cadono: il campo visivo polinesiano porta il peso fisico della formula nelle illustrazioni"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "guide_and_fox_field",
+      "note": "il gatto e le volpi: le illustrazioni portano il campo animale come presenza cromatica prima che narrativa"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "threshold_expansion_layout",
+      "note": "la porta del tempo e la spiaggia bianca: l'apertura cromatica si rispecchia nell'apertura della doppia pagina"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "chromatic_dissolution_finale",
+      "note": "i mille colori del finale: il campo cromatico polinesiano delle illustrazioni raggiunge la sua massima densità; il libro si chiude nel punto cromaticamente più intenso"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie testuale",
+    "contains": [
+      "l'origine geografica polinesiana delle illustrazioni come campo cromatico invisibile",
+      "la risonanza corallina tra libro segreto, illustrazioni e finale",
+      "il doppio campo linguistico come replica strutturale della formula incompresa",
+      "la lettura ad alta voce come attivazione sonora del sistema bilingue"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 4,
+    "dominant_field": "print-01",
+    "secondary_field": "print-02",
+    "narrative_model": "l'oggetto fisico porta tre campi sovrapposti: bilingue IT+JA, cromatico polinesiano, corallino strutturale; tutti e tre operano senza essere dichiarati",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
