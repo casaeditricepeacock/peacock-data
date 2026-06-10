@@ -1,0 +1,139 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "ritual_types": {
+    "trace_reading": "rituale della lettura delle tracce invisibili: graffi sugli alberi, impronte — il gatto si annuncia prima di apparire",
+    "formula_utterance": "rituale della pronuncia: la formula viene detta senza comprensione, con esitazione crescente poi abbandono",
+    "embrace_of_guide": "rituale dell'abbraccio al gatto come atto di riconoscimento e ancoraggio prima del passaggio",
+    "threshold_crossing": "rituale dell'attraversamento: ogni soglia richiede il movimento fisico di Zana verso l'ignoto",
+    "dissolution_swim": "rituale finale del nuoto tra i colori come atto di abbandono totale al campo dell'esperienza"
+  },
+  "editorial_principle": "I rituali del Gatto Esperienza sono tutti rituali di accesso: leggere le tracce per trovare il gatto, pronunciare la formula per aprire la soglia, abbracciare il gatto prima di attraversare, muoversi verso ciò che non si conosce. Nessun rituale richiede comprensione. Tutti richiedono movimento.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "lettura_delle_tracce",
+      "label_en": "trace_reading",
+      "type": "trace_reading",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "i graffi sugli alberi e le impronte sono il linguaggio del gatto: Zana li legge con il corpo prima che con la mente — li sente e li vede scomparire",
+      "kokyu": "il ritmo è quello della percezione fugace: la traccia arriva e sparisce; il rituale si compie nell'istante in cui si percepisce",
+      "yūgen": "la traccia che scompare non è perduta: è il segno che il gatto era lì; la scomparsa conferma la presenza",
+      "affects": {
+        "ritual-02": "la lettura delle tracce prepara la pronuncia della formula: trovare il gatto rende possibile usare il dispositivo"
+      },
+      "textual_anchor_it": "Quando incontrava il gatto sentiva i graffi che lasciava sugli alberi… ma sparivano subito.",
+      "glossary_link": [
+        "ma",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "pronuncia_della_formula",
+      "label_en": "formula_utterance",
+      "type": "formula_utterance",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la formula viene pronunciata tre volte nel corso del libro, ogni volta in un contesto diverso: la struttura rituale è la ripetizione con variazione",
+      "kokyu": "prima pronuncia: curiosità; seconda pronuncia: esitazione — piano, sottovoce; terza pronuncia: abbandono gioioso; il ritmo cambia ma il gesto è lo stesso",
+      "yūgen": "la formula non sa cosa produrrà: ogni pronuncia apre un campo diverso e inatteso; l'incertezza è la condizione del rituale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la formula viene pronunciata senza conoscerne il significato e senza sapere cosa produrrà: il rituale opera nel campo del non-sapere"
+      },
+      "affects": {
+        "ritual-03": "dopo ogni pronuncia Zana cerca il gatto per l'abbraccio: la formula e l'abbraccio sono rituali gemelli",
+        "ritual-04": "ogni pronuncia genera una soglia da attraversare"
+      },
+      "textual_anchor_it": "Di nuovo, piano piano, con cautela, sussurrò la formula.",
+      "glossary_link": [
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "abbraccio_al_gatto",
+      "label_en": "embrace_of_guide",
+      "type": "embrace_of_guide",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "quando il gatto appare Zana corre verso di lui, lo abbraccia e lo copre di baci: il rituale dell'abbraccio è il riconoscimento fisico della guida prima del passaggio",
+      "kokyu": "il ritmo è quello dell'impeto: Zana non cammina verso il gatto, ci corre; l'abbraccio non è delicato, è pieno",
+      "yūgen": "abbracciare una guida invisibile agli altri è un atto che non ha spettatori: il rituale esiste solo tra Zana e il gatto",
+      "affects": {
+        "ritual-04": "l'abbraccio precede l'attraversamento: il contatto fisico con la guida è la preparazione alla soglia"
+      },
+      "textual_anchor_it": "Corse verso il gatto, lo abbracciò forte e lo coprì di baci.",
+      "glossary_link": [
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "attraversamento_della_soglia",
+      "label_en": "threshold_crossing",
+      "type": "threshold_crossing",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "ogni soglia richiede un movimento fisico preciso: seguire le impronte, tuffarsi in mare, aggrapparsi alla manta, smettere di respirare per immergersi — il corpo è il dispositivo di attraversamento",
+      "kokyu": "il ritmo dell'attraversamento è quello della decisione immediata: Zana non esita alle soglie fisiche — solo alla formula esita",
+      "yūgen": "la soglia non si descrive dall'esterno: esiste solo per chi la attraversa; il lettore la conosce attraverso il corpo di Zana in movimento",
+      "affects": {
+        "ritual-05": "la sequenza degli attraversamenti porta all'immersione finale come soglia ultima"
+      },
+      "textual_anchor_it": "Seguendo le impronte del gatto si arrivò alla porta del tempo.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "nuoto_finale",
+      "label_en": "dissolution_swim",
+      "type": "dissolution_swim",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "nella barriera corallina Zana nuota tra mille colori senza una direzione: il rituale finale non ha meta, ha solo movimento e colore",
+      "kokyu": "il ritmo si scioglie: nuotò, nuotò, nuotò — la ripetizione triplice è il ritmo dell'abbandono, non dell'azione",
+      "yūgen": "dimenticare la formula mentre si nuota non è un gesto: accade; il rituale si compie dissolvendosi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il rituale finale non ha conclusione dichiarata: Zana nuota ancora quando il libro finisce"
+      },
+      "affects": {
+        "ritual-02": "il nuoto finale retroagisce sulla formula: ogni pronuncia era preparazione a questo campo; ora il campo è raggiunto e la formula non serve"
+      },
+      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula.",
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-02",
+    "secondary_field": "ritual-05",
+    "system_role": "access_through_non_comprehension_field",
+    "narrative_model": "cinque rituali di accesso progressivo: la traccia trova la guida, la formula apre la soglia, l'abbraccio ancora la guida, il corpo attraversa, il nuoto dissolve il dispositivo",
+    "reader_effect": "il lettore attraversa i rituali senza comprenderli come tali: li vive come sequenza di azioni di Zana; la comprensione retroattiva avviene con la formula dimenticata",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
