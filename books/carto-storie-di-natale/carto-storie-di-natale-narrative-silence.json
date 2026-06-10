@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025
+  },
+  "editorial_principle": "Il silenzio non è assenza di narrazione ma il campo che rende possibile ogni narrazione. In Carto Storie di Natale il silenzio si manifesta come spazio visivo, possibilità non attivata, attesa e evocazione.",
+  "silence_layers": {
+    "visual": ["silence-01"],
+    "potential": ["silence-02"],
+    "temporal": ["silence-03"],
+    "symbolic": ["silence-04"]
+  },
+  "silences": [
+    {
+      "id": "silence-01",
+      "name": "ma_visivo",
+      "type": "visual_ma",
+      "hierarchy_rank": 2,
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il grande campo cromatico sopra i personaggi",
+      "kokyu": "lo sguardo respira prima di incontrare l'azione",
+      "yūgen": "il vuoto trattiene più significato dell'immagine stessa",
+      "absence_mode": "visual",
+      "silence_energy": {
+        "openness": 1.0,
+        "evocation": 0.95,
+        "closure": 0.05
+      },
+      "textual_anchor_it": "Il visivo precede il testo."
+    },
+    {
+      "id": "silence-02",
+      "name": "storie_non_generate",
+      "type": "ungenerated_stories",
+      "hierarchy_rank": 1,
+      "intensity": 0.99,
+      "perceptual_weight": 0.97,
+      "basho": "tutte le composizioni che non vengono realizzate",
+      "kokyu": "potenziale permanente",
+      "yūgen": "le storie non narrate superano numericamente quelle narrate",
+      "absence_mode": "possibility",
+      "silence_energy": {
+        "openness": 1.0,
+        "evocation": 1.0,
+        "closure": 0.0
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Ogni lettura lascia intatto un numero indefinito di storie possibili."
+      },
+      "textual_anchor_it": "La storia cambia ogni volta che le carte vengono ricomposte."
+    },
+    {
+      "id": "silence-03",
+      "name": "attesa_della_luce",
+      "type": "pre_illumination",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "il filo luminoso prima dell'accensione",
+      "kokyu": "tensione sospesa",
+      "yūgen": "ciò che non è ancora accaduto genera attesa",
+      "absence_mode": "temporal",
+      "silence_energy": {
+        "openness": 0.90,
+        "evocation": 1.0,
+        "closure": 0.10
+      },
+      "textual_anchor_it": "Le luci attendono di brillare."
+    },
+    {
+      "id": "silence-04",
+      "name": "natale_non_detto",
+      "type": "christmas_unsaid",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "il Natale evocato attraverso gli oggetti",
+      "kokyu": "accumulazione simbolica",
+      "yūgen": "il significato emerge senza essere nominato",
+      "absence_mode": "symbolic",
+      "silence_energy": {
+        "openness": 0.82,
+        "evocation": 0.98,
+        "closure": 0.35
+      },
+      "textual_anchor_it": "Il Natale poteva finalmente cominciare."
+    }
+  ],
+  "silence_graph": [
+    {
+      "source": "silence-01",
+      "target": "silence-02",
+      "relation": "opens"
+    },
+    {
+      "source": "silence-02",
+      "target": "silence-03",
+      "relation": "contains"
+    },
+    {
+      "source": "silence-03",
+      "target": "silence-04",
+      "relation": "anticipates"
+    }
+  ],
+  "reader_effects": {
+    "primary_effect": "contemplazione",
+    "secondary_effect": "immaginazione",
+    "deep_effect": "partecipazione creativa"
+  },
+  "epistemic_limit": {
+    "status": true,
+    "description": "La maggior parte della narrazione rimane non attualizzata. Il sistema rende visibile soltanto una minima parte delle possibilità che contiene."
+  },
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-02",
+    "secondary_field": "silence-01",
+    "graph_structure": "open_absence_graph",
+    "stability": "permanent_generative",
+    "narrative_formula": "vuoto → possibilità → attesa → evocazione",
+    "compatibility": [
+      "NarrativeObject v4.1",
+      "NarrativeWeather v4.1",
+      "NarrativeTransition v4.1",
+      "NarrativeSystemGraph v4.1"
+    ]
+  }
+}
