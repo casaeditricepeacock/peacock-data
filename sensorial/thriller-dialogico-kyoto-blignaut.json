@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "ontology": "peacock-sensory",
+  "book": {
+    "title": "Kyoto. Lo Sguardo del Drago",
+    "author": "Hélène Blignaut",
+    "series": "I Gialli di Kyoto",
+    "volume": 1,
+    "isbn": "9791281715202",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "sensory_theme": "il dialogo come arma",
+  "experience_type": "thriller_tension_perception",
+  "dominant_sense": "udito",
+  "activation_condition": "il lettore entra nel ritmo dialogico del romanzo — frasi brevi, silenzi calcolati, ironia che taglia",
+
+  "sensation_fields": [
+    {
+      "id": "giappone_maniacale",
+      "label": "La passione come codice",
+      "sensory_temperature": "fredda, interrogativa",
+      "emotional_frequency": [
+        "sospetto",
+        "curiosità armata",
+        "riconoscimento"
+      ],
+      "narrative_resonance": "La prima domanda del romanzo non è sul crimine. È sul Giappone. Chi ama il Giappone in modo maniacale ha già scelto un sistema di pensiero — e questo sistema sarà la chiave di tutto.",
+      "japanese_echo": "Ma 間 — la pausa prima della risposta. Il silenzio tra la domanda e ciò che rivela.",
+      "poetic_anchor": "Chissà perché questa passione maniacale per il Giappone?"
+    },
+    {
+      "id": "squalo_a_tavola",
+      "label": "Gli squali a tavola",
+      "sensory_temperature": "ironica, tagliente",
+      "emotional_frequency": [
+        "ironia nera",
+        "lucidità",
+        "distanza calcolata"
+      ],
+      "narrative_resonance": "La caccia allo squalo è pericolosa in mare aperto. Michele li ha sempre visti seduti a tavola. Il pericolo non spaventa chi sa dove si siede il predatore.",
+      "japanese_echo": "Ninjutsu — l'arte di osservare senza essere visti. Michele osserva gli squali prima che loro si accorgano di lui.",
+      "poetic_anchor": "Io invece sono abituato a vederli seduti a tavola gli squali."
+    },
+    {
+      "id": "ri_ni_kanawanai",
+      "label": "Ri ni kanawanai — il non senso come strategia",
+      "sensory_temperature": "asimmetrica, disorientante",
+      "emotional_frequency": [
+        "intelligenza laterale",
+        "sovversione",
+        "controllo nascosto"
+      ],
+      "narrative_resonance": "Quando non hai armi e ti trovi di fronte a un nemico potente, non ti resta che spiazzarlo. Opporgli qualcosa di insensato, inaspettato, incomprensibile. Il nemico perde tempo cercando un senso che non c'è — e nel frattempo perde.",
+      "japanese_echo": "Ri ni kanawanai — il principio del non senso come tattica. Il Giappone medievale lo codificò nei ninja. Michele lo applica nei salotti.",
+      "poetic_anchor": "Lui lo scopo proprio non lo afferra, lo sopravvaluta, si agita, inciampa, si indebolisce."
+    },
+    {
+      "id": "yoshida_ninja",
+      "label": "Yoshida — la fusione delle arti",
+      "sensory_temperature": "densa, stratificata",
+      "emotional_frequency": [
+        "competenza invisibile",
+        "tradizione come arma",
+        "presenza silenziosa"
+      ],
+      "narrative_resonance": "Yoshida non è solo un investigatore. È la sintesi di una tradizione trasmessa oralmente — ninjutsu, bujinkan, karate, teatro, calligrafia, cerimonia. L'arte del rendersi invisibili non si impara dai libri: si eredita.",
+      "japanese_echo": "Ryū-ha — la trasmissione orale della tradizione. Ciò che non si scrive non si cancella.",
+      "poetic_anchor": "L'arte del rendersi invisibili, ma con una fusione di arti marziali e conoscenza delle arti teatrali, cerimoniali, calligrafia, pratiche culturali."
+    },
+    {
+      "id": "criminale_impunito",
+      "label": "Il criminale impunito — per ora",
+      "sensory_temperature": "sospesa, inquieta",
+      "emotional_frequency": [
+        "giustizia differita",
+        "tensione morale",
+        "pazienza come minaccia"
+      ],
+      "narrative_resonance": "Il Giappone riavrebbe il suo gioiello. Il criminale resterebbe impunito. Per ora. Due parole che pesano più di una sentenza — la giustizia nel romanzo non è immediata, è inevitabile.",
+      "japanese_echo": "Mono no aware — la consapevolezza che tutto arriva al suo momento. La punizione non è negata: è rimandata.",
+      "poetic_anchor": "Il criminale resterebbe impunito. Per ora."
+    },
+    {
+      "id": "scalpiccio_silenzio",
+      "label": "Lo scalpiccio — poi il silenzio",
+      "sensory_temperature": "acuta, improvvisamente vuota",
+      "emotional_frequency": [
+        "tensione fisica",
+        "pericolo imminente",
+        "vuoto dopo il movimento"
+      ],
+      "narrative_resonance": "Scalpiccio da altre stanze. Scale in fretta. Piccoli colpi. Un borbottio. Poi silenzio. Il thriller di Hélène Blignaut non mostra la violenza — la fa sentire. Il corpo del lettore reagisce al suono prima che la mente elabori.",
+      "japanese_echo": "Ma 間 — il silenzio dopo il suono è più denso del silenzio prima. Contiene ciò che è appena successo.",
+      "poetic_anchor": "Poi, silenzio."
+    },
+    {
+      "id": "testa_di_mitsuhide",
+      "label": "La testa di Mitsuhide Akechi",
+      "sensory_temperature": "arcaica, inesorabile",
+      "emotional_frequency": [
+        "vendetta storica",
+        "giustizia come memoria",
+        "il passato che agisce nel presente"
+      ],
+      "narrative_resonance": "Per la grazia ispirata di un bandito, la testa di Mitsuhide Akechi, il traditore di Oda Nobunaga, ancora rotola giù da una collina. Secoli dopo. Il tradimento non prescrive. La storia ha una memoria più lunga degli uomini.",
+      "japanese_echo": "Akechi Yaku — il luogo dove la storia non finisce mai. Il passato come agente attivo del presente.",
+      "poetic_anchor": "Ancora rotola giù da una collina, la Akechi Yaku."
+    }
+  ],
+
+  "reader_effect": {
+    "description": "Il thriller di Hélène Blignaut non funziona per accelerazione ma per accumulo. Ogni dialogo aggiunge un layer di tensione che non si scarica — si sedimenta.",
+    "mechanism": "Il lettore sente prima di capire. Le frasi brevi, i silenzi, l'ironia tagliente producono una risposta fisica prima che narrativa.",
+    "result": "La tensione non è nella trama. È nel ritmo del dialogo."
+  },
+
+  "philosophical_layer": {
+    "principle": "Il non senso come forma suprema di controllo.",
+    "semiotic_relation": "Michele non combatte con la forza. Combatte con la struttura — trasforma ogni situazione in un sistema di segni che solo lui sa leggere.",
+    "connection_to_story": "Ri ni kanawanai è il metodo del romanzo prima ancora che il metodo del protagonista."
+  },
+
+  "non_integrable_residue": {
+    "status": true,
+    "description": "La testa di Mitsuhide Akechi rotola ancora. Il tradimento non si risolve — si tramanda."
+  },
+
+  "closure": {
+    "type": "sensory_question",
+    "text": "Hai sentito lo scalpiccio o solo il silenzio dopo?"
+  }
+}
