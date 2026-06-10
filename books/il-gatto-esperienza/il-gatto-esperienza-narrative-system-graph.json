@@ -1,0 +1,228 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il Gatto Esperienza",
+    "author": "Timea Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-5-4",
+    "year": 2023
+  },
+  "system_principle": "The system operates as an invisible guide experience field in which selective perception is the access condition and operative knowledge without semantic understanding is the expansion device. The cat opens the field. The formula expands it. The experience dissolves the formula. What remains is not knowledge but a perceptual capacity that existed before the book and continues after it.",
+  "node_classes": {
+    "scene": "threshold_expansion_configuration",
+    "object": "perceptual_access_operator",
+    "ritual": "non_comprehension_access_device",
+    "transition": "scale_crossing_threshold",
+    "silence": "operative_void_field",
+    "weather": "chromatic_expansion_operator",
+    "meta_state": "system_wide_dissolution_accumulator"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "invisible_guide_experience_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "gatto_formula_soglia",
+        "nodes": [
+          "object-01",
+          "object-02",
+          "ritual-02",
+          "transition-01"
+        ],
+        "type": "guide_to_formula_activation_loop",
+        "stability": "permanent_invariant",
+        "propagation_logic": "The cat is the access condition; the formula is the expansion device. Without the cat there is no formula. Without the formula there is no threshold. The loop is the structural engine of the entire system.",
+        "description": "Selective perception activates operative knowledge: the cat makes the formula possible, the formula opens the field."
+      },
+      {
+        "id": "loop-02",
+        "label": "formula_effetto_coraggio",
+        "nodes": [
+          "ritual-02",
+          "transition-02",
+          "scene-02",
+          "scene-03"
+        ],
+        "type": "surprise_iteration_loop",
+        "stability": "stable_until_dissolution",
+        "propagation_logic": "Each formula utterance produces an unexpected effect. The surprise does not stop Zana: it generates curiosity that leads to the next utterance. The loop repeats with growing intensity until the final immersion dissolves it.",
+        "description": "Non-comprehension as engine: Zana uses the formula without understanding it and the field expands precisely because understanding is not required."
+      },
+      {
+        "id": "loop-03",
+        "label": "scala_espansiva",
+        "nodes": [
+          "scene-01",
+          "scene-04",
+          "transition-04",
+          "weather-03"
+        ],
+        "type": "concentric_scale_expansion_loop",
+        "stability": "directional_permanent",
+        "propagation_logic": "Each scene is perceptually larger than the previous one. The system expands concentrically: forest — time door — white beach — coral reef. The expansion is unidirectional and does not reverse.",
+        "description": "The system moves in one direction only: toward greater perceptual scale. There is no return to the ordinary world."
+      },
+      {
+        "id": "loop-04",
+        "label": "silenzio_operativo",
+        "nodes": [
+          "silence-01",
+          "silence-02",
+          "object-01",
+          "object-02"
+        ],
+        "type": "operative_void_loop",
+        "stability": "permanent_structural",
+        "propagation_logic": "The cat's invisibility and the formula's semantic void are structurally equivalent: both operate without explanation, both require only activation. The silence is not absence of information but the condition that makes the field function.",
+        "description": "The two dominant silences reinforce each other: invisible cat and meaningless formula are the same operative structure at two different scales."
+      },
+      {
+        "id": "loop-05",
+        "label": "dissoluzione_finale",
+        "nodes": [
+          "object-05",
+          "ritual-05",
+          "scene-05",
+          "silence-04"
+        ],
+        "type": "experience_dissolution_loop",
+        "stability": "terminal_open",
+        "propagation_logic": "The coral reef immersion dissolves the formula as a device: the field is reached, the key is no longer needed. The dissolution is not loss but completion. The loop does not close: Zana is still swimming when the book ends.",
+        "description": "The system completes itself by dissolving its own activation device. Experience supersedes the instrument that generated it."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "all",
+      "effect": "selective_perception_as_system_foundation",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "without_the_invisible_cat_no_field_exists"
+    },
+    {
+      "from": "silence-02",
+      "to": "object-02",
+      "effect": "semantic_void_amplifies_operative_power",
+      "propagation_mode": "structural",
+      "intensity": 0.99,
+      "stability_impact": "the_formula_is_more_powerful_because_it_is_not_understood"
+    },
+    {
+      "from": "weather-04",
+      "to": "all",
+      "effect": "chromatic_saturation_confirms_expansion_completion",
+      "propagation_mode": "terminal",
+      "intensity": 0.98,
+      "stability_impact": "mille_colori_is_the_perceptual_maximum_the_system_can_produce"
+    },
+    {
+      "from": "object-05",
+      "to": "object-02",
+      "effect": "dissolution_retroactively_reframes_formula_as_threshold_not_destination",
+      "propagation_mode": "retroactive",
+      "intensity": 0.97,
+      "stability_impact": "every_formula_utterance_was_always_a_step_toward_dissolution_not_a_goal"
+    },
+    {
+      "from": "print-01",
+      "to": "silence-02",
+      "effect": "bilingual_layout_replicates_formula_semantic_void",
+      "propagation_mode": "structural",
+      "intensity": 0.95,
+      "stability_impact": "the_unread_language_operates_like_the_formula_sound_without_meaning_producing_field"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "selective_perception_active",
+    "allowed_mutations": [
+      "formula_activation",
+      "threshold_crossing",
+      "scale_expansion",
+      "operative_surprise_iteration",
+      "coral_chromatic_saturation",
+      "formula_dissolution_through_experience"
+    ],
+    "forbidden_states": [
+      "formula_as_magic_requiring_explanation",
+      "invisible_cat_as_fantasy_device_only",
+      "forgetting_as_narrative_failure",
+      "secret_as_information_to_be_revealed",
+      "bilingual_layout_as_translation"
+    ]
+  },
+  "reader_position": "perceptual_witness",
+  "global_state": {
+    "dominant_field": "object-01",
+    "secondary_field": "object-02",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-05",
+    "stability": "expansion_metastable",
+    "closure": false,
+    "closure_type": "dissolution_into_full_experience",
+    "system_behavior": "The system expands concentrically through five thresholds until the activation device dissolves into the experience it generated. The cat remains invisible. The formula remains semantically empty. The experience remains open. Nothing is explained. Everything functions.",
+    "reader_effect": "The reader does not learn what the formula means. The reader learns that some things function without being understood — and that the experience of not-understanding-but-doing is itself the field the book produces.",
+    "catalog_connection": {
+      "alla_festa_della_natura": "same open_ending structure — Musasabi's party and Zana's coral reef are both fields that the book approaches but does not fully show",
+      "la_galleria_delle_ragazze": "complementary reader positions — convoked_node vs perceptual_witness; two ways the Peacock catalog positions the reader outside the text",
+      "burn_out_pandemi": "same dissolution arc — transformation through immersion in an experience that changes the subject without explaining the mechanism"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-01",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-05",
+    "narrative_model": "percezione selettiva, formula operativa senza comprensione, segreto naturale, espansione concentrica per soglie, dissoluzione nell'esperienza totale",
+    "stability": "expansion_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1"
+  }
+}
