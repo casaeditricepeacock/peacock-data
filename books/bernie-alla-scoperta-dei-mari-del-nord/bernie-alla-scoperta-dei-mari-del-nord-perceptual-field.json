@@ -1,0 +1,115 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Bernie alla scoperta dei mari del nord non insegna geografia dell'Artico. Produce un campo in cui l'esplorazione vale per ciò che si raccoglie e si trasmette. Il viaggio è raccolta. Il ritorno è trasmissione. Lo spirito del Natale non è la meta: è il concentrato di tutto ciò che il viaggio ha depositato in Bernie.",
+  "dominant_field": "field-03",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_geografico_progressivo",
+      "type": "spatial_field",
+      "basho": "l'arco geografico da Gallipoli al Polo Nord come campo percettivo che si espande per gradi: Norvegia, oceano, Polo Nord, villaggio; ogni tappa è più lontana e più fredda della precedente",
+      "kokyu": "il ritmo dell'espansione geografica è quello della progressione naturale: il sistema non salta tappe; ogni campo prepara il successivo",
+      "yūgen_level": 0.93,
+      "activation_condition": "ogni cambio di tappa geografica; massima attivazione al momento dell'arrivo al Polo Nord come punto di massima distanza da Gallipoli",
+      "persistence_rule": "cumulativo: ogni tappa si aggiunge alle precedenti come strato di distanza percepita; il campo geografico totale è la somma di tutte le tappe attraversate",
+      "dissolution_rule": "si dissolve nel ritorno: quando la slitta atterra a Gallipoli il campo geografico progressivo si chiude e lascia posto al campo domestico",
+      "field_logic": "geographic_expansion_as_knowledge_accumulation",
+      "textual_anchor_it": "Dopo alcuni giorni di volo arrivo in uno Stato chiamato Norvegia."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_incontro_animale",
+      "type": "relational_field",
+      "basho": "ogni animale incontrato è un operatore percettivo che trasmette la conoscenza del proprio territorio: la foca trasmette il ghiaccio, le balene trasmettono la velocità dell'oceano, l'orso trasmette il freddo estremo, il gufo trasmette la cura silenziosa, le renne trasmettono la connessione con Babbo Natale",
+      "kokyu": "il ritmo degli incontri è quello della ricezione fiduciosa: Bernie non mette in dubbio nessun incontro; il campo animale è sempre accogliente",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni apparizione di un animale; massima attivazione nell'incontro con le renne che nominano Babbo Natale come connessione tra i campi",
+      "persistence_rule": "ogni incontro lascia un deposito nel campo di Bernie; gli incontri si sommano come strati di conoscenza geografica e relazionale",
+      "dissolution_rule": "non dissolvibile: gli incontri animali restano come campo di memoria che Bernie porta a casa e racconta",
+      "field_logic": "animal_encounter_as_geographic_knowledge_transmission",
+      "affects": {
+        "field-03": "la sequenza degli incontri animali prepara la ricezione dello spirito del Natale: chi ha già ricevuto conoscenza da cinque specie diverse è pronto a ricevere una definizione valoriale"
+      },
+      "textual_anchor_it": "Mi racconta che all'estremo nord la terra è ricoperta dal ghiaccio."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_trasmissione_valoriale",
+      "type": "cognitive_field",
+      "basho": "il villaggio di Babbo Natale come campo di trasmissione diretta: Bernie chiede, Babbo Natale risponde; la definizione dello spirito del Natale come affetto e altruismo quotidiano",
+      "kokyu": "il ritmo della trasmissione è quello del dialogo breve e definitivo: una domanda, una risposta; nessuna mediazione",
+      "yūgen_level": 1.0,
+      "activation_condition": "il momento in cui Bernie dichiara di essere venuto apposta per imparare lo spirito del Natale; massima attivazione nella risposta di Babbo Natale",
+      "persistence_rule": "permanente: la definizione ricevuta non si dissolve; Bernie la porta a casa come campo valoriale attivo",
+      "dissolution_rule": "non dissolvibile: lo spirito del Natale come pratica quotidiana non ha scadenza e non si esaurisce nel viaggio",
+      "field_logic": "direct_value_transmission_as_journey_destination",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la pratica dello spirito del Natale avviene fuori dal libro: il campo della trasmissione è compiuto, il campo della verifica è aperto e appartiene al lettore"
+      },
+      "affects": {
+        "field-04": "la ricezione dello spirito del Natale rende il ritorno un atto di trasmissione: Bernie torna per raccontare ciò che ha ricevuto"
+      },
+      "textual_anchor_it": "Lo spirito del Natale è ricco di sentimenti buoni come l'affetto e l'altruismo. Dovremmo aiutarci gli uni gli altri tutto l'anno non solo a Natale."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_racconto_trasmesso",
+      "type": "relational_field",
+      "basho": "Gallipoli di ritorno come campo di trasmissione orale: i genitori come destinatari del racconto che il libro non contiene; il campo si apre oltre l'ultima pagina",
+      "kokyu": "il ritmo della trasmissione orale è quello dell'annuncio: 'Ho tante cose da raccontarvi' non è un inizio ma una promessa; il racconto inizierà dopo che il libro finisce",
+      "yūgen_level": 0.99,
+      "activation_condition": "l'abbraccio ai genitori e l'ultima frase del libro; massima attivazione nel silenzio dopo il punto fermo finale",
+      "persistence_rule": "continua oltre la chiusura del libro: il racconto di Bernie ai genitori esiste come campo aperto permanente",
+      "dissolution_rule": "non dissolvibile: il racconto non scritto è il residuo massimo del sistema; non si dissolve perché non è mai stato nel testo",
+      "field_logic": "narrative_transmission_as_journey_completion",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto che Bernie farà ai genitori non è scrivibile senza duplicare il libro: resta come campo aperto che il sistema produce e non registra"
+      },
+      "affects": {
+        "field-01": "il campo del racconto trasmesso retroagisce sul campo geografico: ogni tappa era raccolta di materiale narrativo; il viaggio era sempre orientato verso questo campo"
+      },
+      "textual_anchor_it": "Ho tante cose da raccontarvi."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-03",
+    "secondary": ["field-04", "field-02"],
+    "support": ["field-01"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "geographic_journey_as_end_in_itself",
+      "christmas_spirit_as_magic_or_gift",
+      "return_as_narrative_conclusion",
+      "animal_encounters_as_decorative_episodes",
+      "untold_story_as_narrative_omission"
+    ],
+    "system_behavior": "il sistema produce un campo di raccolta-trasmissione progressiva: la geografia accumula conoscenza, gli animali la specificano, Babbo Natale la concentra in valore, il ritorno la trasmette oralmente; il libro finisce dove il racconto di Bernie comincia",
+    "catalog_connection": {
+      "alla_festa_della_natura": "stesso arco del viaggio come campo aperto — Musasabi e Bernie entrambi arrivano a una meta che il libro non mostra completamente",
+      "il_gatto_esperienza": "stesso dispositivo del ritorno come compimento — Zana nuota tra i colori e dimentica la formula; Bernie abbraccia i genitori e annuncia il racconto; entrambi i finali aprono un campo oltre il libro",
+      "la_galleria_delle_ragazze": "stessa struttura della trasmissione come campo aperto — le ventotto domande restano senza risposta scritta come il racconto di Bernie resta senza testo"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
