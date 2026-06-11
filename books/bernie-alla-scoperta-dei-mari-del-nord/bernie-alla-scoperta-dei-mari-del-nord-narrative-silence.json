@@ -1,0 +1,127 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "silence_types": {
+    "family_void": "il silenzio della famiglia durante il viaggio: i genitori esistono ma non sanno; il campo domestico continua senza Bernie",
+    "animal_void": "il silenzio del meccanismo di comunicazione tra specie: Bernie e gli animali si capiscono senza che il sistema spieghi come",
+    "arctic_night": "il silenzio della notte artica sotto il gufo: la scena più silenziosa del viaggio come campo di quiete tra tappa e tappa",
+    "untold_narrative": "il silenzio del racconto non scritto: le cose da raccontarvi che il libro non contiene"
+  },
+  "editorial_principle": "Il silenzio in Bernie non è assenza di voce: è la struttura che tiene separate le parti del campo. I genitori tacciono durante il viaggio non per scelta ma per distanza. Gli animali comunicano senza che il meccanismo venga dichiarato. La notte artica tace tra la corsa e l'arrivo. Il racconto finale tace oltre l'ultima pagina. Ogni silenzio è una riserva di campo.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "famiglia_che_non_sa",
+      "label_en": "unknowing_family",
+      "type": "family_void",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "durante tutto il viaggio i genitori di Bernie cantano, preparano la pasta, decorano l'albero: la vita domestica procede nel suo ritmo senza sapere dell'avventura del figlio",
+      "kokyu": "il silenzio della famiglia è quello della distanza: non c'è preoccupazione dichiarata, non c'è attesa; la famiglia esiste nel proprio campo come se Bernie fosse lì",
+      "yūgen": "la famiglia che stava già festeggiando senza di lui: il Natale non attendeva Bernie; il suo ritorno arricchisce un campo già in moto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i genitori non sanno del viaggio durante tutta la storia: la distanza non viene misurata né sofferta nel testo; il silenzio della famiglia è strutturalmente neutro"
+      },
+      "affects": {
+        "silence-04": "il silenzio della famiglia durante il viaggio rende il racconto finale necessario: i genitori hanno bisogno di sentire ciò che non hanno visto"
+      },
+      "textual_anchor_it": "Vedo subito la mia mamma che canta e prepara la pasta. Papà sta finendo di decorare l'albero di Natale.",
+      "glossary_link": [
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "label": "comunicazione_tra_specie",
+      "label_en": "interspecies_communication",
+      "type": "animal_void",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la foca racconta il ghiaccio, le balene portano Bernie, il gufo lo protegge nel sonno, le renne annunciano il benvenuto: la comunicazione tra un gabbiano e animali di specie diverse non viene spiegata",
+      "kokyu": "il ritmo della comunicazione tra specie è quello della naturalezza: non c'è sorpresa nel capirsi, non c'è attrito; il campo del viaggio include la comprensione reciproca come condizione",
+      "yūgen": "il capo delle renne che parla di Babbo Natale a Bernie con cordialità: due esseri di mondi diversi che condividono un campo di significato senza che il libro giustifichi la condivisione",
+      "affects": {
+        "silence-03": "il silenzio del meccanismo comunicativo prepara il silenzio della notte artica: entrambi operano senza essere dichiarati"
+      },
+      "textual_anchor_it": "Il capo delle renne mi dà il benvenuto: 'Babbo Natale ci ha parlato di te.'",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "label": "notte_artica_sotto_il_gufo",
+      "label_en": "arctic_night_under_owl",
+      "type": "arctic_night",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il grande pino innevato al Polo Nord: il gufo abbraccia Bernie nel sonno; la scena non ha dialogo, non ha azione — è il campo più silenzioso del libro",
+      "kokyu": "il ritmo della notte artica è quello del respiro rallentato: dopo la velocità delle balene il sistema si ferma; il silenzio ha la durata di una notte intera",
+      "yūgen": "il gufo che protegge senza essere stato chiesto: la cura silenziosa come campo che esiste indipendentemente da chi la riceve; Bernie dorme e non sa di essere protetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il gufo protegga Bernie nel sonno non viene spiegato: la cura silenziosa è strutturale al campo artico"
+      },
+      "affects": {
+        "silence-01": "la notte artica sotto il gufo è l'unico momento del viaggio in cui Bernie è completamente fermo: il silenzio del sonno è l'equivalente percettivo del silenzio della famiglia a casa"
+      },
+      "textual_anchor_it": "Al mattino dopo mi svegliano alcune voci che sembrano essere quelle di bambini.",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "basho"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "label": "racconto_non_scritto",
+      "label_en": "untold_story",
+      "type": "untold_narrative",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "le ultime parole del libro aprono uno spazio che il testo non occupa: 'Ho tante cose da raccontarvi' annuncia un racconto che comincia oltre l'ultima pagina",
+      "kokyu": "il ritmo del silenzio finale è quello dell'attesa: il lettore sa che il racconto di Bernie ai genitori esiste, sa che sarà lungo e ricco, ma il libro si chiude prima che inizi",
+      "yūgen": "il racconto non scritto è il campo più denso del libro: contiene tutto il viaggio in forma di promessa orale; la sua assenza dal testo è la sua forma più potente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto che Bernie farà ai genitori non è scrivibile nel libro senza duplicare il libro stesso: resta come campo aperto permanente oltre l'ultima pagina"
+      },
+      "affects": {
+        "silence-01": "il racconto non scritto è la risposta al silenzio della famiglia: i genitori non sapevano, ora sentiranno; i due silenzi si chiudono in un campo aperto"
+      },
+      "textual_anchor_it": "Ho tante cose da raccontarvi.",
+      "glossary_link": [
+        "ma",
+        "mono no aware",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_field": "silence-04",
+    "secondary_field": "silence-03",
+    "narrative_model": "quattro silenzi strutturali: la famiglia che non sa, la comunicazione tra specie che non si spiega, la notte artica che non si commenta, il racconto finale che non si scrive",
+    "cross_layer_coherence": {
+      "object_layer": "il dono del racconto e la famiglia ignara sono i due poli del silenzio strutturale: distanza e trasmissione come coppia",
+      "scene_layer": "la scena artica sotto il gufo è la manifestazione visiva del silenzio più denso; la scena del ritorno è la manifestazione visiva del silenzio più aperto",
+      "system_layer": "i quattro silenzi convergono tutti verso il racconto non scritto: il sistema produce un campo di trasmissione orale che esiste solo fuori dal testo"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_racconto_non_scritto",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
