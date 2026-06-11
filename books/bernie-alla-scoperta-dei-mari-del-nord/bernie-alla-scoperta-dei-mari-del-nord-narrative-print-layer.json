@@ -1,0 +1,169 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "print_identity": "albo illustrato bilingue IT+JA, formato quadrato 20x20 cm, progettato per lettura condivisa tra adulto e bambino; impaginazione alternata testo-illustrazione; illustrazioni a piena pagina con palette cromatica che replica l'arco termico del viaggio",
+  "print_types": {
+    "square_format": "il formato quadrato come campo visivo neutro che non privilegia né il paesaggio né il ritratto: ogni campo geografico occupa lo stesso spazio",
+    "bilingual_alternation": "testo italiano e giapponese come due campi linguistici che si alternano o coesistono sulla stessa apertura",
+    "full_page_illustration": "le illustrazioni a piena pagina come campi visivi autonomi che precedono o seguono il testo senza didascalia",
+    "map_as_orientation": "la mappa dell'Italia con Gallipoli come campo geografico di ancoraggio: il lettore sa da dove parte prima di sapere dove arriva",
+    "explorer_objects": "la doppia pagina degli oggetti del navigatore come campo enciclopedico intermedio tra desiderio e partenza"
+  },
+  "editorial_principle": "L'oggetto-libro di Bernie è costruito per la lettura ad alta voce e per l'orientamento geografico. La mappa apre il viaggio. Le illustrazioni a piena pagina lo abitano. Il formato quadrato lo contiene senza gerarchie visive. Il bilingue IT+JA lo apre a due comunità linguistiche. Chi legge il libro in italiano e chi lo legge in giapponese fanno lo stesso viaggio su pagine diverse.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "formato_quadrato",
+      "label_en": "square_format",
+      "type": "square_format",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "il formato 20x20 cm produce un campo visivo che non ha orientamento preferenziale: il mare orizzontale e il cielo verticale occupano lo stesso spazio; il gabbiano in volo e il ghiaccio orizzontale coesistono senza gerarchie",
+      "kokyu": "il ritmo del formato quadrato è quello dell'equilibrio: nessuna pagina è più larga o più alta; il campo visivo è stabile per tutta la durata del libro",
+      "yūgen": "il formato quadrato è lo stesso de alla-festa-della-natura e di altri albi Peacock: la coerenza formatale è un campo percettivo implicito che il lettore riconosce come identità editoriale",
+      "textual_anchor_it": "Formato 20x20 cm — Casa Editrice Peacock, ottobre 2023.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "print-02",
+      "label": "mappa_di_gallipoli",
+      "label_en": "gallipoli_map",
+      "type": "map_as_orientation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la mappa dell'Italia con la freccia su Gallipoli è il secondo campo visivo del libro: prima ancora che il viaggio inizi il lettore sa da dove parte; l'orientamento geografico precede la narrazione",
+      "kokyu": "il ritmo della mappa è quello dell'ancoraggio: una sola immagine, un solo punto, una sola informazione; il campo visivo è semplice e definitivo",
+      "yūgen": "Gallipoli come punto minuscolo su una mappa dell'Italia: la piccola città di mare come origine di un viaggio fino al Polo Nord; la sproporzione tra origine e destinazione è percepibile già dalla mappa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la mappa mostra l'Italia ma non mostra il nord: il campo geografico della destinazione non viene anticipato visivamente; il lettore vede solo la partenza"
+      },
+      "affects": {
+        "print-03": "la mappa orienta il lettore prima delle illustrazioni: il campo geografico è stabilito visivamente prima che il viaggio inizi nel testo"
+      },
+      "textual_anchor_it": "Vivo in un bel posto di mare, in una città che si chiama Gallipoli e si trova in Italia.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "print-03",
+      "label": "oggetti_del_navigatore",
+      "label_en": "navigator_objects",
+      "type": "explorer_objects",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la doppia pagina con bussola, veliero, cannocchiale, barile, mappa del tesoro, ancora, timone: gli oggetti dell'esplorazione come campo enciclopedico tra il desiderio di Bernie e la sua partenza",
+      "kokyu": "il ritmo degli oggetti è quello dell'inventario: ogni oggetto ha il suo posto nella pagina senza testo che lo commenti; il campo visivo parla da solo",
+      "yūgen": "nessuno di questi oggetti compare nel viaggio di Bernie: il cannocchiale, il barile, l'ancora restano sulla pagina come campo di possibilità non utilizzate; gli oggetti del navigatore sono un universo parallelo al viaggio reale",
+      "affects": {
+        "print-04": "la pagina degli oggetti prepara il campo delle illustrazioni geografiche: dopo gli strumenti astratti del navigatore arrivano i luoghi concreti del viaggio"
+      },
+      "textual_anchor_it": "Da grande vorrei fare l'esploratore.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "print-04",
+      "label": "illustrazioni_a_piena_pagina",
+      "label_en": "full_page_illustrations",
+      "type": "full_page_illustration",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni tappa geografica ha la propria illustrazione a piena pagina: Gallipoli, la Norvegia, le balene, il Polo Nord con orso e gufo, il villaggio di Babbo Natale, le renne; il campo visivo è autonomo dal testo",
+      "kokyu": "il ritmo dell'alternanza testo-illustrazione è quello della doppia lettura: chi legge il testo e chi guarda l'illustrazione ricevono lo stesso campo da ingressi diversi",
+      "yūgen": "le illustrazioni non descrivono il testo: lo abitano; la foca che si rotola, il gufo che abbraccia Bernie nel sonno, le renne che si alzano da terra — queste scene esistono visivamente prima di esistere narrativamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "alcune illustrazioni mostrano dettagli non presenti nel testo: il campo visivo è più ampio del campo testuale; la sproporzione è strutturale"
+      },
+      "textual_anchor_it": "Finito di stampare nel mese di ottobre 2023 presso Mediagraf SpA — Noventa Padovana (PD).",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "print-05",
+      "label": "bilingue_it_ja",
+      "label_en": "bilingual_it_ja",
+      "type": "bilingual_alternation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il testo italiano e il testo giapponese abitano lo stesso libro su pagine proprie o in alternanza: due comunità linguistiche fanno lo stesso viaggio con Bernie su percorsi testuali paralleli",
+      "kokyu": "il ritmo del bilingue è quello della coesistenza: le due lingue non si traducono a vicenda sulla stessa pagina; ciascuna ha il proprio spazio e il proprio ritmo di lettura",
+      "yūgen": "un lettore italiano che incontra il giapponese e un lettore giapponese che incontra l'italiano: entrambi percepiscono la lingua dell'altro come campo visivo parallelo — come il Polo Nord visto dalla Norvegia",
+      "textual_anchor_it": "大人になったら、探検家になりたいです。",
+      "glossary_link": [
+        "ma",
+        "yūgen",
+        "kokyu"
+      ]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "map_and_origin_field",
+      "note": "la mappa di Gallipoli e gli oggetti del navigatore aprono il libro prima che il viaggio inizi"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "geographic_threshold_illustration",
+      "note": "le illustrazioni della Norvegia e delle balene replicano cromaticamente il freddo crescente"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "arctic_silence_illustration",
+      "note": "il gufo che abbraccia Bernie: illustrazione a piena pagina come campo visivo del silenzio artico"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "warm_light_transmission_field",
+      "note": "le luci di Natale e gli oggetti natalizi come campo cromatico caldo nel punto più freddo del viaggio"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "homecoming_domestic_closure",
+      "note": "il ritorno a Gallipoli come campo cromatico warm che chiude il cerchio con la partenza"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie testuale",
+    "contains": [
+      "la coerenza cromatica tra illustrazioni come arco termico visivo del viaggio",
+      "gli oggetti del navigatore come campo di possibilità non utilizzate",
+      "la sproporzione tra Gallipoli sulla mappa e il Polo Nord come campo percettivo implicito",
+      "la comunità giapponese del libro come campo linguistico parallelo invisibile al lettore italiano"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 5,
+    "dominant_field": "print-04",
+    "secondary_field": "print-02",
+    "narrative_model": "cinque strati fisici che replicano la struttura del viaggio: formato neutro, mappa di ancoraggio, oggetti del navigatore, illustrazioni geografiche, bilingue parallelo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
