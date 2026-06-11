@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "system_axis": {
+    "primary_tension": "partenza_vs_ritorno",
+    "temporal_axis": "linear_geographic_arc",
+    "narrative_logic": "ogni scena è una tappa geografica che aggiunge un strato di conoscenza al campo di Bernie; il sistema si espande verso nord e poi torna verso casa; il ritorno non inverte il campo ma lo compie"
+  },
+  "editorial_principle": "Le scene di Bernie non sono paesaggi: sono tappe di raccolta. Ogni campo geografico deposita in Bernie una conoscenza specifica. La Norvegia deposita la foca e il ghiaccio. L'oceano deposita le balene e la velocità. Il Polo Nord deposita il freddo e l'orso. Il villaggio di Babbo Natale deposita lo spirito. Gallipoli riceve tutto.",
+  "scene_types": {
+    "origin_field": "Gallipoli come punto di partenza e misura di tutta la distanza",
+    "geographic_threshold": "tappa intermedia con incontro animale come trasmissione di conoscenza locale",
+    "arctic_field": "il Polo Nord come campo di massima distanza da casa",
+    "transmission_field": "il villaggio di Babbo Natale come campo di ricezione del valore centrale",
+    "return_field": "Gallipoli di ritorno come campo trasformato dal viaggio"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "gallipoli_partenza",
+      "type": "origin_field",
+      "dominant": true,
+      "basho": "Gallipoli: città di mare, punto cardinale del sistema; tutto il viaggio si misura in distanza da qui; il campo originario non viene descritto in dettaglio — viene nominato e lasciato come ancoraggio",
+      "kokyu": "il ritmo della partenza è quello della decisione condivisa: la sera con Gedeone, la mattina il volo; tra decisione e partenza non c'è indugio",
+      "yūgen": "Gallipoli non viene mostrata prima del viaggio: il lettore la incontra nominata e poi lasciata; la città esiste come campo di assenza durante tutta la storia",
+      "affects": {
+        "scene-05": "Gallipoli di partenza e Gallipoli di ritorno sono lo stesso luogo con un campo diverso: la scena finale retroagisce sull'iniziale"
+      },
+      "textual_anchor_it": "Mi chiamo Bernie e sono un gabbiano. Vivo in un bel posto di mare, in una città che si chiama Gallipoli.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "norvegia_foca_oceano_balene",
+      "type": "geographic_threshold",
+      "basho": "due tappe concatenate: la Norvegia con la signora foca che insegna il ghiaccio; l'oceano argentato con le balene su cui Bernie si appoggia e cavalca; il campo si espande verso nord per gradi",
+      "kokyu": "il ritmo è quello della progressione: ogni tappa è più lontana e più fredda della precedente; la velocità della balena introduce il ritmo accelerato che culminerà nelle renne",
+      "yūgen": "cavalcare una balena senza che questo venga trattato come evento straordinario: la meraviglia è nella sproporzione tra il gabbiano e la balena, non nel commento di Bernie",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché le balene accettino il peso di Bernie senza reagire: la disponibilità degli animali è strutturale al campo del viaggio e non viene motivata"
+      },
+      "affects": {
+        "scene-03": "le tappe intermedie preparano il campo artico: ogni grado di freddo e distanza in più rende il Polo Nord raggiungibile come progressione naturale"
+      },
+      "textual_anchor_it": "Da non credere: io, Bernie il gabbiano, mi trovo sulla schiena di una balena. Come va veloce!",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "polo_nord_orso_gufo",
+      "type": "arctic_field",
+      "basho": "il Polo Nord come campo di massima distanza: ghiaccio ovunque, orso polare sul banco di ghiaccio, gufo innevato su un grande pino; Bernie dorme sul pino protetto dal gufo",
+      "kokyu": "il ritmo diventa quello della quiete artica: dopo la velocità delle balene e delle renne il campo si ferma; Bernie dorme, il gufo veglia",
+      "yūgen": "il gufo che protegge Bernie nel sonno è la forma più silenziosa di cura del viaggio: nessun dialogo, nessuna spiegazione; il campo notturno artico è la scena più silenziosa del libro",
+      "affects": {
+        "scene-04": "la quiete del Polo Nord prepara l'arrivo al villaggio di Babbo Natale come passaggio dal silenzio al calore"
+      },
+      "textual_anchor_it": "Ringrazio il signor gufo e scendo a salutare gli elfi.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "villaggio_di_babbo_natale",
+      "type": "transmission_field",
+      "basho": "casette di legno da favola, luci colorate, profumo di biscotti, calore: il villaggio è il campo sensorialmente più ricco del viaggio; Babbo Natale seduto a tavola fa cenno a Bernie di avvicinarsi",
+      "kokyu": "il ritmo si scalda e si rallenta insieme: il lavoro con gli elfi è allegro e veloce ma la conversazione con Babbo Natale è densa e diretta; i due ritmi coesistono nello stesso campo",
+      "yūgen": "lo spirito del Natale definito come pratica quotidiana e non come evento festivo: la risposta di Babbo Natale sposta il campo dalla magia alla responsabilità",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la definizione dello spirito del Natale viene trasmessa ma la sua pratica avviene fuori dal libro: il campo della trasmissione è compiuto, il campo della verifica è aperto"
+      },
+      "affects": {
+        "scene-05": "il valore ricevuto al villaggio trasforma il ritorno da evento geografico a evento valoriale: Bernie non torna solo a Gallipoli ma torna con lo spirito del Natale"
+      },
+      "textual_anchor_it": "Lo spirito del Natale è ricco di sentimenti buoni come l'affetto e l'altruismo. Dovremmo aiutarci gli uni gli altri tutto l'anno non solo a Natale.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "gallipoli_ritorno",
+      "type": "return_field",
+      "basho": "la stessa porta di Gallipoli: la mamma canta e prepara la pasta, il papà decora l'albero; il campo familiare era in moto senza sapere del viaggio",
+      "kokyu": "il ritmo finale è quello dell'arrivo dopo la corsa: la slitta atterra, Bernie corre, abbraccia, annuncia; poi il libro si ferma",
+      "yūgen": "la famiglia che stava già festeggiando senza di lui: Bernie non era necessario alla preparazione del Natale; il suo ritorno aggiunge qualcosa che non mancava ma che ora è più ricco",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto che Bernie annuncia non è nel libro: l'ultima frase apre un campo narrativo che il testo non contiene"
+      },
+      "affects": {
+        "scene-01": "la scena del ritorno retroagisce sulla partenza: Gallipoli non è cambiata; è Bernie che porta il cambiamento dentro al campo immutato"
+      },
+      "textual_anchor_it": "Ho tante cose da raccontarvi.",
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "basho"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "system_state": "arco_geografico_con_trasmissione_valoriale_centrale",
+    "narrative_model": "cinque scene come arco geografico completo: partenza — tappe intermedie — polo — trasmissione — ritorno; ogni scena deposita uno strato nel campo di Bernie",
+    "retroactive_causality": true,
+    "global_effect": "il ritorno retroagisce su tutte le scene precedenti: il viaggio era raccolta di materiale per il racconto finale; la sua direzione era sempre verso casa"
+  }
+}
