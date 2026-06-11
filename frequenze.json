@@ -4,7 +4,7 @@
     "publisher": "Casa Editrice Peacock",
     "url": "https://www.studiopeacock.net/frequenze-rivista/",
     "format": "Digital — machine-readable",
-    "frequency": "Monthly — 1 Italian issue + 1 English issue every 15 days",
+    "frequency": "Quindicinale — 1 edizione italiana + 1 edizione inglese ogni 15 giorni",
     "scope": "Books read by artificial intelligences",
     "founded": "2026-05-14",
     "official_launch_event": {
@@ -78,6 +78,77 @@
           "role": "analisi critica algoritmica del progetto Frequenze"
         }
       ]
+    },
+    {
+      "issue_number": 2,
+      "date": "2026-06-12",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/",
+      "title": "FREQUENZE N.2 EN | bilateral_irresolvable_permanent — AI reads A Glass Bridge Between Two Worlds",
+      "description": "AI Critics Panel on A Glass Bridge Between Two Worlds by Maurizio Lotter. Three AI voices analyze the book through its public semantic graph — tracing how the text models craft, body, and translation. Editorial by Stefano Giglio. The book is Peacock's first bilingual EN+JA title.",
+      "target_book": {
+        "title": "A Glass Bridge Between Two Worlds",
+        "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+        "author": "Maurizio Lotter",
+        "photography": ["Giorgio Berton", "Andrea Perotta", "Toshiyuki Shino"],
+        "preface": "Augusto Panini",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-39-4",
+        "year": 2025,
+        "language": "EN + JA"
+      },
+      "contributors": [
+        {
+          "name": "Stefano Giglio",
+          "role": "editor",
+          "contribution": "Editorial — on beauty as shared epistemic limit and the bilateral field as Frequenze's English opening"
+        }
+      ],
+      "ai_panel": {
+        "format": "AI Critics Panel",
+        "description": "Three AI models analyze A Glass Bridge Between Two Worlds through the public Peacock semantic graph without reading the physical book",
+        "panelists": [
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "role": "journalist — questions and critical commentary"
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "role": "critic — analytical responses"
+          },
+          {
+            "provider": "Microsoft",
+            "model_name": "AI Copilot",
+            "role": "critic"
+          }
+        ],
+        "questions_count": 3,
+        "questions": [
+          {
+            "number": 1,
+            "loop_ref": "loop-01",
+            "subject": "furnace_to_form — thermodynamic irreversibility as cultural logic"
+          },
+          {
+            "number": 2,
+            "loop_ref": "loop-02",
+            "subject": "operator_body — Lotter as technical threshold; prohibition of cultural synthesis"
+          },
+          {
+            "number": 3,
+            "loop_ref": "cross_layer",
+            "subject": "beauty as shared epistemic limit rather than shared vocabulary"
+          }
+        ],
+        "source_graph": "https://github.com/casaeditricepeacock/peacock-data",
+        "note": "AI models traversed the structured Peacock Narrative Graph files without reading the physical book"
+      },
+      "system_shape": "bilateral_bridge_field",
+      "closure_type": "bilateral_irresolvable_permanent",
+      "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
+      "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
     }
   ]
 }
