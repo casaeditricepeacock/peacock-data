@@ -1,0 +1,154 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023,
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "format": "20x20 cm"
+  },
+  "editorial_principle": "Bernie alla scoperta dei mari del nord non racconta un'avventura geografica. Produce un campo in cui ogni incontro è una soglia di conoscenza che il protagonista raccoglie per trasmetterla. Il viaggio non vale per sé: vale per ciò che diventa quando viene raccontato. Il ritorno non è fine del viaggio: è il suo compimento.",
+  "object_types": {
+    "departure_impulse": "il desiderio di esplorare come campo attivo che trasforma l'osservazione passata in azione presente",
+    "encounter_threshold": "ogni animale incontrato come soglia geografica e percettiva che amplia il campo di Bernie",
+    "spirit_transmission": "la definizione dello spirito del Natale come trasmissione diretta di valore da Babbo Natale a Bernie",
+    "return_object": "il ritorno a casa come oggetto narrativo distinto dal viaggio: non inversione ma compimento",
+    "narrative_gift": "il racconto portato a casa come dono ai genitori — equivalente strutturale dei pacchetti natalizi"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "desiderio_di_esplorare",
+      "label_en": "exploration_desire",
+      "type": "departure_impulse",
+      "intensity": 1.0,
+      "perceptual_weight": 0.98,
+      "basho": "Gallipoli come punto di partenza: la città di mare è il campo originario di Bernie, il luogo da cui si misura tutta la distanza del viaggio",
+      "kokyu": "il ritmo del desiderio è quello dell'ascolto: Bernie ascolta i vecchi marinai e il desiderio cresce; il campo si attiva prima della partenza",
+      "yūgen": "il desiderio di esplorare non viene spiegato come scelta razionale: nasce dall'ascolto di storie; è una trasmissione narrativa che produce azione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché proprio i mari del nord: il sistema non motiva la direzione; il nord è la meta senza spiegazione della scelta"
+      },
+      "affects": {
+        "object-02": "il desiderio genera la partenza e la sequenza degli incontri",
+        "object-05": "il desiderio di esplorare si compie nel desiderio di raccontare: le due pulsioni sono strutturalmente speculari"
+      },
+      "textual_anchor_it": "Da grande vorrei fare l'esploratore. Ascoltando i racconti dei vecchi marinai mi è venuta voglia di esplorare il mondo.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "incontri_soglia",
+      "label_en": "encounter_thresholds",
+      "type": "encounter_threshold",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "ogni animale incontrato colloca Bernie in un campo geografico preciso: la foca in Norvegia, le balene sull'oceano, l'orso polare al Polo Nord, il gufo nella foresta artica, le renne al villaggio",
+      "kokyu": "il ritmo degli incontri è quello della tappa: un incontro per campo, ogni incontro trasmette una conoscenza specifica del luogo",
+      "yūgen": "cavalcare una balena non viene commentato come straordinario da Bernie: lo vive come parte del campo; la meraviglia è nello scarto tra l'evento e la naturalezza con cui viene vissuto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché gli animali accettino Bernie e lo aiutino non viene spiegato: la disponibilità è strutturale al campo del viaggio"
+      },
+      "affects": {
+        "object-03": "gli incontri preparano l'arrivo al villaggio dove lo spirito del Natale viene trasmesso direttamente"
+      },
+      "textual_anchor_it": "Da non credere: io, Bernie il gabbiano, mi trovo sulla schiena di una balena. Come va veloce!",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "spirito_del_natale",
+      "label_en": "christmas_spirit_transmission",
+      "type": "spirit_transmission",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il villaggio di Babbo Natale come campo di arrivo: luci colorate, profumo di biscotti, calore delle casette di legno — il campo sensoriale precede la trasmissione verbale",
+      "kokyu": "il ritmo della trasmissione è quello del dialogo diretto: Bernie chiede, Babbo Natale risponde; la definizione viene consegnata senza mediazione",
+      "yūgen": "lo spirito del Natale non è magia né regalo: è affetto e altruismo da praticare tutto l'anno; la risposta di Babbo Natale decentra il Natale dalla festa verso il comportamento quotidiano",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "lo spirito del Natale viene definito ma non può essere dimostrato nel libro: la sua verifica avviene nella vita di chi legge, fuori dal testo"
+      },
+      "affects": {
+        "object-04": "la ricezione dello spirito del Natale rende il ritorno non solo geografico ma valoriale: Bernie torna a casa portando una definizione"
+      },
+      "textual_anchor_it": "Lo spirito del Natale è ricco di sentimenti buoni come l'affetto e l'altruismo. Dovremmo aiutarci gli uni gli altri tutto l'anno non solo a Natale.",
+      "glossary_link": [
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "ritorno_come_compimento",
+      "label_en": "return_as_completion",
+      "type": "return_object",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Gallipoli di nuovo: la stessa città di partenza diventa campo di arrivo trasformato dalla distanza percorsa; lo stesso posto è un luogo diverso perché chi torna è diverso",
+      "kokyu": "il ritmo del ritorno è quello dell'accelerazione finale: le renne corrono, corrono, corrono; poi la slitta atterra e Bernie corre dai genitori",
+      "yūgen": "i genitori che cantano e decorano l'albero non sapevano del viaggio: il ritorno di Bernie è una sorpresa che il libro non aveva preparato — la famiglia esisteva senza sapere dell'avventura",
+      "affects": {
+        "object-05": "il ritorno rende possibile il racconto: si racconta solo ciò che si è vissuto lontano da chi ascolterà"
+      },
+      "textual_anchor_it": "Eccomi a casa. Apro la porta: vedo subito la mia mamma che canta e prepara la pasta.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "dono_del_racconto",
+      "label_en": "narrative_gift",
+      "type": "narrative_gift",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "le ultime parole del libro: 'Ho tante cose da raccontarvi' — il racconto non è ancora iniziato quando il libro finisce; il campo si apre verso il fuori",
+      "kokyu": "il ritmo della chiusura è quello dell'apertura: non è una conclusione ma un annuncio; il libro finisce dove il racconto orale di Bernie comincia",
+      "yūgen": "il dono del racconto è equivalente strutturale dei pacchetti natalizi che Bernie ha aiutato a preparare: entrambi sono trasmissioni di qualcosa di prezioso a chi si ama",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto che Bernie farà ai genitori non è nel libro: esiste come campo aperto oltre l'ultima pagina"
+      },
+      "affects": {
+        "object-01": "il dono del racconto retroagisce sul desiderio di esplorare: esplorare serviva a portare storie; il viaggio era raccolta di materiale narrativo"
+      },
+      "textual_anchor_it": "Ho tante cose da raccontarvi.",
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-02",
+    "secondary_field": "object-05",
+    "system_role": "geographic_exploration_return_field",
+    "narrative_model": "cinque operatori percettivi costruiscono un campo di viaggio-raccolta-trasmissione: il desiderio attiva la partenza, gli incontri raccolgono conoscenza, lo spirito del Natale la concentra in un valore, il ritorno la porta a casa, il racconto la trasmette",
+    "language_structure": "bilingue IT+JA: testo italiano e giapponese come due campi linguistici autonomi della stessa storia",
+    "geographic_arc": "Gallipoli → Norvegia → oceano → Polo Nord → villaggio di Babbo Natale → Gallipoli",
+    "closure_type": "return_as_narrative_transmission",
+    "reader_effect": "il lettore non impara fatti geografici sull'estremo nord: impara che l'esplorazione vale per ciò che si porta a casa e si racconta",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
