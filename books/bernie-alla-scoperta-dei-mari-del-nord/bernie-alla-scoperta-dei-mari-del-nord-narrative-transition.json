@@ -1,0 +1,137 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "transition_types": {
+    "flight_crossing": "il volo come dispositivo di transizione tra tappe: Bernie non descrive il tragitto, arriva",
+    "farewell_departure": "il saluto all'animale come chiusura della tappa e apertura della successiva",
+    "direction_reversal": "la transizione dal nord verso casa: il campo cambia direzione senza tornare indietro",
+    "sled_acceleration": "il ritmo delle renne come transizione di velocità tra il campo del villaggio e il campo domestico",
+    "door_threshold": "la porta di casa come soglia fisica finale tra il campo del viaggio e il campo familiare"
+  },
+  "editorial_principle": "Le transizioni di Bernie sono tutte transizioni di volo o di velocità: il gabbiano non cammina tra le tappe, vola; le renne non portano lentamente, corrono fino al volo. Il sistema si muove per salti percettivi, non per progressioni graduali. Ogni transizione è un taglio netto tra un campo e il successivo.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "volo_di_partenza",
+      "label_en": "departure_flight",
+      "type": "flight_crossing",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "Gallipoli sparisce sotto le ali di Bernie: il volo non descrive la città che si allontana ma il campo che si apre davanti; la partenza è uno stacco netto",
+      "kokyu": "il ritmo del volo è quello della libertà senza resistenza: Bernie è un gabbiano, volare è il suo stato naturale; la transizione non costa fatica",
+      "yūgen": "la distanza da Gallipoli non viene misurata: esiste come campo percettivo di allontanamento che il testo non quantifica",
+      "affects": {
+        "transition-02": "il volo di partenza stabilisce il ritmo di tutte le transizioni successive: il sistema si muove per volo, non per cammino"
+      },
+      "textual_anchor_it": "Così decido di partire e di andare a visitare l'estremo nord.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "saluto_e_partenza_dalla_tappa",
+      "label_en": "farewell_between_stages",
+      "type": "farewell_departure",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "ogni tappa si chiude con un saluto: Bernie saluta le balene, ringrazia il gufo, congeda le renne; il saluto è il rito di chiusura del campo prima del volo verso il successivo",
+      "kokyu": "il ritmo del saluto è breve e definitivo: non c'è indugio, non c'è rimpianto; il campo si chiude e il successivo si apre con la stessa naturalezza",
+      "yūgen": "salutare una balena sull'oceano o un gufo al Polo Nord con la stessa cordialità con cui si saluta un vicino di casa: la distanza tra specie e ambienti non produce differenza nel gesto",
+      "affects": {
+        "transition-01": "ogni saluto riattiva il volo: la struttura farewell-flight è la cellula ritmica del viaggio"
+      },
+      "textual_anchor_it": "Saluto le balene, e continuo il mio viaggio.",
+      "glossary_link": [
+        "ma",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "inversione_di_direzione",
+      "label_en": "northward_to_homeward",
+      "type": "direction_reversal",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il momento in cui Babbo Natale annuncia il ritorno: 'Tra un paio di giorni tornerai a casa'; il campo smette di espandersi verso nord e comincia a contrarsi verso Gallipoli",
+      "kokyu": "il ritmo cambia direzione senza cambiare intensità: il viaggio di ritorno è altrettanto pieno di quello di andata; la slitta delle renne è più veloce del volo solitario",
+      "yūgen": "il ritorno viene proposto da Babbo Natale, non da Bernie: è il campo stesso che decide quando il viaggio è compiuto; Bernie non sente nostalgia dichiarata — il campo lo orienta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "come Babbo Natale sapesse che era il momento giusto per il ritorno: la decisione è strutturale al campo della trasmissione compiuta"
+      },
+      "affects": {
+        "transition-04": "l'inversione di direzione genera immediatamente l'accelerazione delle renne: il ritorno è più veloce dell'andata"
+      },
+      "textual_anchor_it": "Babbo Natale mi abbraccia: 'Tra un paio di giorni tornerai a casa e sarà una bellissima sorpresa per la tua famiglia.'",
+      "glossary_link": [
+        "basho",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "corsa_delle_renne",
+      "label_en": "reindeer_acceleration",
+      "type": "sled_acceleration",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "le renne camminano, poi corrono, poi corrono ancora, poi le zampe si sollevano da terra e la slitta vola: la transizione è fisicamente descritta come progressione di velocità",
+      "kokyu": "il ritmo è quello dell'accelerazione esplicita: correre, correre, correre — la tripla ripetizione è il segnale che il campo ha raggiunto la velocità di volo",
+      "yūgen": "la slitta che sorvola tutta l'Italia mentre Babbo Natale consegna i regali: il viaggio di ritorno è anche il viaggio di distribuzione dei doni; due missioni si compiono nella stessa traiettoria",
+      "affects": {
+        "transition-05": "la velocità della slitta porta Bernie direttamente alla soglia di casa senza tappe intermedie: il ritorno è più diretto dell'andata"
+      },
+      "textual_anchor_it": "Le renne iniziano a camminare, poi a correre, correre, correre, prendono velocità fino a che le loro zampe si sollevano da terra e la slitta prende il volo.",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "porta_di_casa",
+      "label_en": "home_door_threshold",
+      "type": "door_threshold",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la porta di Gallipoli: la soglia fisica finale tra il campo del viaggio e il campo familiare; aprire la porta è l'ultimo atto del viaggio e il primo atto del ritorno",
+      "kokyu": "il ritmo si ferma di colpo: dopo la velocità delle renne e il volo sulla slitta, la porta si apre lentamente; la transizione dalla velocità alla quiete domestica è il cambio di ritmo più netto del libro",
+      "yūgen": "lo scricchiolio della porta che fa voltare i genitori: un suono minimo come innesco di riconoscimento; la transizione più piccola fisicamente produce l'effetto emotivo più grande",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "tra la slitta che atterra e la porta che si apre il sistema non descrive il tragitto: Bernie è sulla slitta e poi è alla porta; il passaggio intermedio è un silenzio strutturale"
+      },
+      "affects": {
+        "transition-01": "la porta di casa retroagisce sul volo di partenza: il viaggio aveva un'origine e ha un arrivo; la porta chiude il cerchio geografico"
+      },
+      "textual_anchor_it": "Allo scricchiolio della porta, i miei genitori si voltano.",
+      "glossary_link": [
+        "ma",
+        "kokyu",
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-04",
+    "secondary_field": "transition-05",
+    "narrative_model": "cinque transizioni che replicano l'arco del viaggio: volo di partenza, saluti tra tappe, inversione di direzione, accelerazione delle renne, soglia domestica",
+    "stability": "high_metastable",
+    "closure": "closed_by_door_threshold",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
