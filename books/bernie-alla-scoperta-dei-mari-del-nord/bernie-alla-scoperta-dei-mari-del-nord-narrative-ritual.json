@@ -1,0 +1,143 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "ritual_types": {
+    "consultation_ritual": "il rito della consultazione dell'amico prima della partenza: la decisione non è solitaria",
+    "encounter_greeting": "il rito del saluto a ogni animale incontrato: Bernie si presenta, l'animale risponde, il campo si apre",
+    "knowledge_reception": "il rito della ricezione diretta: Bernie chiede, Babbo Natale definisce, la trasmissione avviene in una sola battuta",
+    "collective_labor": "il rito del lavoro condiviso con gli elfi come atto di partecipazione allo spirito trasmesso",
+    "homecoming": "il rito del ritorno: la porta che si apre, l'abbraccio, l'annuncio del racconto"
+  },
+  "editorial_principle": "I rituali di Bernie sono tutti rituali di connessione: con l'amico prima di partire, con ogni animale lungo il viaggio, con Babbo Natale al momento della trasmissione, con gli elfi nel lavoro, con i genitori al ritorno. Bernie non esplora da solo: ogni tappa è un rito di incontro.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "consultazione_di_gedeone",
+      "label_en": "gedeone_consultation",
+      "type": "consultation_ritual",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il vicolo di Gallipoli di sera: Gedeone il gatto si avvicina, Bernie chiede consiglio, Gedeone risponde; il rito avviene nello spazio ordinario prima che il campo si espanda",
+      "kokyu": "il ritmo è quello del dialogo tra amici: breve, diretto, senza esitazione; la risposta di Gedeone non pesa — è un'idea bellissima",
+      "yūgen": "l'amico che incoraggia senza seguire: Gedeone non parte con Bernie; il suo ruolo è attivare il campo e poi restare",
+      "affects": {
+        "ritual-02": "la consulenza di Gedeone rende la partenza un atto condiviso: il primo incontro prepara tutti gli incontri successivi"
+      },
+      "textual_anchor_it": "Gedeone mi risponde: 'Caro Bernie, è un'idea bellissima'. Così decido di partire.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "saluto_agli_animali",
+      "label_en": "animal_greeting",
+      "type": "encounter_greeting",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "ogni tappa ha il proprio animale e il proprio spazio: la foca sulla costa norvegese, le balene sull'oceano argentato, l'orso polare sul ghiaccio, il gufo sul pino innevato; ogni saluto colloca Bernie in un campo nuovo",
+      "kokyu": "il ritmo del saluto è costante e si ripete come struttura portante: arrivo — meraviglia — incontro — trasmissione di conoscenza — partenza; la sequenza è la colonna vertebrale del viaggio",
+      "yūgen": "Bernie non descrive gli animali: li incontra; la distanza tra un essere che vola e un essere che si rotola sul ghiaccio non viene commentata; il campo li accoglie entrambi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni animale trasmette una conoscenza del proprio territorio che Bernie riceve senza chiedere come sia possibile capirsi: la comunicazione tra specie è strutturale al campo del viaggio"
+      },
+      "affects": {
+        "ritual-03": "la sequenza degli incontri animali prepara e amplifica il peso del l'incontro con Babbo Natale come vertice della trasmissione"
+      },
+      "textual_anchor_it": "Mi racconta che all'estremo nord la terra è ricoperta dal ghiaccio.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "ricezione_dello_spirito",
+      "label_en": "spirit_reception",
+      "type": "knowledge_reception",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la casetta di legno di Babbo Natale: luci colorate, profumo di biscotti, calore; il campo sensoriale prepara la ricezione verbale",
+      "kokyu": "il ritmo è quello della risposta attesa: Bernie ha viaggiato fino al Polo Nord per questa domanda; Babbo Natale risponde senza preamble",
+      "yūgen": "la definizione dello spirito del Natale non è magica né sentimentale: è pratica e quotidiana — aiutarsi tutto l'anno; la risposta decentra la festa verso il comportamento ordinario",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "lo spirito del Natale viene definito ma la sua pratica avviene fuori dal libro: la trasmissione è compiuta, la verifica è aperta"
+      },
+      "affects": {
+        "ritual-04": "la ricezione dello spirito genera immediatamente la partecipazione: Bernie non ascolta e parte, aiuta prima di tornare"
+      },
+      "textual_anchor_it": "Racconto a Babbo Natale: 'Sono venuto apposta per conoscerti e per imparare che cos'è lo spirito del Natale'.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "lavoro_con_gli_elfi",
+      "label_en": "labor_with_elves",
+      "type": "collective_labor",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il laboratorio di Babbo Natale: elfi che raccolgono pigne, preparano pacchetti, cantano, ridono; Bernie diventa parte del campo lavorativo invece di osservarlo dall'esterno",
+      "kokyu": "il ritmo del lavoro collettivo è quello della festa che si prepara: veloce, allegro, senza gerarchie; il tempo passa in un lampo",
+      "yūgen": "Bernie che aiuta a preparare i regali per i bambini è lui stesso un bambino che ha appena ricevuto il regalo dello spirito del Natale: datore e ricevitore si sovrappongono",
+      "affects": {
+        "ritual-05": "il lavoro condiviso con gli elfi rende il ritorno carico di qualcosa da trasmettere: Bernie non porta solo un racconto ma un'esperienza di partecipazione"
+      },
+      "textual_anchor_it": "Per me è una gioia aiutare Babbo Natale! Le ore trascorrono con tanto divertimento.",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "ritorno_e_annuncio",
+      "label_en": "homecoming_announcement",
+      "type": "homecoming",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "Gallipoli: la stessa porta di sempre, la mamma che canta, il papà che decora l'albero; il campo familiare non è cambiato — è Bernie che è cambiato",
+      "kokyu": "il ritmo finale è quello della corsa verso l'abbraccio: la slitta atterra, Bernie corre, abbraccia forte forte; poi l'annuncio",
+      "yūgen": "le ultime parole non descrivono il viaggio: lo annunciano come racconto futuro; il libro finisce dove il racconto orale comincia",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto che Bernie farà ai genitori non è nel libro: è il campo che si apre dopo l'ultima pagina e che il lettore non potrà mai leggere"
+      },
+      "affects": {
+        "ritual-01": "il ritorno retroagisce sulla partenza: Gedeone aveva detto 'è un'idea bellissima'; il ritorno conferma che lo era"
+      },
+      "textual_anchor_it": "Corro immediatamente verso di loro e li abbraccio forte forte. 'Ho tante cose da raccontarvi.'",
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-03",
+    "secondary_field": "ritual-02",
+    "system_role": "connection_as_exploration_structure",
+    "narrative_model": "cinque rituali di connessione progressiva: l'amico attiva, gli animali ampliano, Babbo Natale trasmette, gli elfi fanno partecipare, i genitori ricevono",
+    "reader_effect": "il lettore percepisce che ogni tappa del viaggio è un rito di incontro e che il viaggio vale per la qualità delle connessioni che produce",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
