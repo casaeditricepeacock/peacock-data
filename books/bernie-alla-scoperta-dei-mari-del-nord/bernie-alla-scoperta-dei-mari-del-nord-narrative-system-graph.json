@@ -1,0 +1,229 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "system_principle": "The system operates as a geographic exploration return field in which every stage deposits a layer of knowledge in Bernie and every encounter is a connection that makes the return meaningful. The journey is collection. The return is transmission. The untold story that Bernie announces to his parents is the field the book produces and never registers. The journey was always oriented toward that final sentence.",
+  "node_classes": {
+    "scene": "geographic_stage_configuration",
+    "object": "knowledge_collection_operator",
+    "ritual": "connection_activation_device",
+    "transition": "flight_threshold_crossing",
+    "silence": "structural_transmission_void",
+    "weather": "chromatic_thermal_arc_operator",
+    "meta_state": "system_wide_narrative_accumulator"
+  },
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04"
+    ]
+  },
+  "topology": {
+    "core_field": "object-05",
+    "system_shape": "geographic_exploration_return_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "desiderio_viaggio_raccolta",
+        "nodes": [
+          "object-01",
+          "ritual-01",
+          "transition-01",
+          "scene-02"
+        ],
+        "type": "desire_to_departure_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "The desire to explore activates departure. Gedeone's encouragement transforms the desire into decision. The flight begins. Every stage from here is a consequence of this loop.",
+        "description": "The journey origin: listening to old sailors generates desire, desire generates departure, departure generates all encounters."
+      },
+      {
+        "id": "loop-02",
+        "label": "incontro_deposito_conoscenza",
+        "nodes": [
+          "object-02",
+          "ritual-02",
+          "transition-02",
+          "field-02"
+        ],
+        "type": "encounter_knowledge_deposit_loop",
+        "stability": "iterative_cumulative",
+        "propagation_logic": "Each animal encounter deposits a layer of geographic and relational knowledge in Bernie. The loop repeats five times with different animals and different knowledge types. Each iteration adds to the cumulative field Bernie will transmit at home.",
+        "description": "The structural engine of the journey: encounter — knowledge — farewell — next encounter; the loop runs until the village of Santa Claus."
+      },
+      {
+        "id": "loop-03",
+        "label": "trasmissione_spirito_natale",
+        "nodes": [
+          "ritual-03",
+          "object-03",
+          "scene-04",
+          "silence-04"
+        ],
+        "type": "value_transmission_loop",
+        "stability": "permanent_concentrated",
+        "propagation_logic": "Bernie travels to the North Pole specifically to receive the definition of the Christmas spirit. The reception is direct and complete in one exchange. The transmitted value becomes the concentrated form of all the knowledge deposited by the journey.",
+        "description": "The journey destination: every encounter was preparation for this transmission; affection and altruism as year-round practice is the concentrated distillation of the entire arc."
+      },
+      {
+        "id": "loop-04",
+        "label": "inversione_ritorno_accelerazione",
+        "nodes": [
+          "transition-03",
+          "transition-04",
+          "object-04",
+          "scene-05"
+        ],
+        "type": "return_acceleration_loop",
+        "stability": "directional_terminal",
+        "propagation_logic": "Santa Claus initiates the return. The reindeer accelerate. The sled flies over Italy. The door opens. The loop is faster than the outward journey because the field is already complete — Bernie carries what he came for.",
+        "description": "The return is not the reverse of departure: it is a different motion, faster and more direct, because it carries a completed field toward its transmission destination."
+      },
+      {
+        "id": "loop-05",
+        "label": "annuncio_racconto_aperto",
+        "nodes": [
+          "object-05",
+          "ritual-05",
+          "silence-04",
+          "field-04"
+        ],
+        "type": "narrative_gift_open_loop",
+        "stability": "terminal_open",
+        "propagation_logic": "The embrace with the parents completes the geographic return. The announcement 'Ho tante cose da raccontarvi' opens the narrative field that the book does not contain. The loop does not close: the story Bernie will tell exists beyond the last page as a permanent open field.",
+        "description": "The book ends where Bernie's oral story begins. The narrative gift is structurally equivalent to the Christmas packages he helped prepare: both are transmissions of something precious to those one loves."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-05",
+      "to": "object-01",
+      "effect": "narrative_gift_retroactively_reveals_journey_as_collection",
+      "propagation_mode": "retroactive",
+      "intensity": 1.0,
+      "stability_impact": "the_desire_to_explore_was_always_the_desire_to_collect_stories_to_transmit"
+    },
+    {
+      "from": "object-03",
+      "to": "all",
+      "effect": "christmas_spirit_definition_concentrates_all_encounter_knowledge",
+      "propagation_mode": "concentrating",
+      "intensity": 0.99,
+      "stability_impact": "every_animal_encounter_was_preparation_for_receiving_this_definition"
+    },
+    {
+      "from": "silence-04",
+      "to": "silence-01",
+      "effect": "untold_story_answers_unknowing_family_silence",
+      "propagation_mode": "structural",
+      "intensity": 0.98,
+      "stability_impact": "the_parents_did_not_know_during_the_journey_and_will_know_after_the_book_ends"
+    },
+    {
+      "from": "weather-03",
+      "to": "weather-04",
+      "effect": "village_warmth_prepares_domestic_warmth_recognition",
+      "propagation_mode": "anticipatory",
+      "intensity": 0.96,
+      "stability_impact": "bernie_recognizes_home_warmth_because_he_has_already_experienced_its_structural_equivalent_at_the_pole"
+    },
+    {
+      "from": "transition-04",
+      "to": "all",
+      "effect": "reindeer_acceleration_compresses_return_into_single_perceptual_arc",
+      "propagation_mode": "terminal",
+      "intensity": 0.97,
+      "stability_impact": "the_return_is_faster_than_the_outward_journey_because_the_field_is_complete"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "geographic_accumulation_active",
+    "allowed_mutations": [
+      "geographic_stage_expansion",
+      "animal_knowledge_deposit",
+      "value_transmission_reception",
+      "direction_reversal_to_home",
+      "reindeer_acceleration",
+      "narrative_gift_announcement"
+    ],
+    "forbidden_states": [
+      "journey_as_end_in_itself",
+      "christmas_spirit_as_magic_not_practice",
+      "return_as_narrative_conclusion",
+      "animal_encounters_as_decorative_episodes",
+      "untold_story_as_narrative_omission",
+      "geographic_knowledge_as_encyclopedic_content"
+    ]
+  },
+  "reader_position": "journey_witness_and_transmission_recipient",
+  "global_state": {
+    "dominant_field": "object-05",
+    "secondary_field": "object-03",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-05",
+    "stability": "return_metastable",
+    "closure": false,
+    "closure_type": "return_as_narrative_transmission",
+    "system_behavior": "The system builds a geographic accumulation field that concentrates into a value transmission at the North Pole and releases as an oral narrative gift at home. The book ends one sentence before the story Bernie will tell begins. Every loop was oriented toward that final open field.",
+    "reader_effect": "The reader does not learn facts about the Arctic. The reader learns that exploration is collection and that collection is worthless without transmission. The journey Bernie took and the story he will tell his parents are the same field in two different forms.",
+    "catalog_connection": {
+      "alla_festa_della_natura": "same open_ending structure — both books end before the destination is fully shown; the field remains open beyond the last page",
+      "il_gatto_esperienza": "complementary closure types — dissolution_into_full_experience vs return_as_narrative_transmission; two ways the Peacock catalog produces open fields beyond the last page",
+      "la_galleria_delle_ragazze": "same transmission structure — the gallery's choral question and Bernie's untold story are both fields that the book opens and does not fill; the reader or the listener completes them"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-05",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-05",
+    "narrative_model": "desiderio di esplorare, raccolta di conoscenza per tappe animali, trasmissione dello spirito del Natale, ritorno accelerato, dono del racconto non scritto",
+    "stability": "return_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1"
+  }
+}
