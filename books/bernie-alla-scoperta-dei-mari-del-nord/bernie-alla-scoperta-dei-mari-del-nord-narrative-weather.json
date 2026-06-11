@@ -1,0 +1,124 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023
+  },
+  "weather_types": {
+    "mediterranean_blue": "campo del blu mediterraneo come clima originario: mare caldo, città di mare, punto di partenza cromatico",
+    "arctic_grey_white": "campo del grigio-bianco artico come clima di massima distanza: ghiaccio, neve, freddo come campo percettivo",
+    "warm_light_field": "campo del calore luminoso del villaggio di Babbo Natale: luci colorate, biscotti, fuoco — il clima si inverte dal freddo al caldo nel punto più lontano da casa",
+    "domestic_warmth": "campo del calore domestico del ritorno: la mamma che canta, l'albero decorato, il Natale già in moto"
+  },
+  "editorial_principle": "Il clima di Bernie è un arco cromatico e termico: dal blu mediterraneo al grigio artico, poi al calore luminoso del villaggio, poi al calore domestico di Gallipoli. Il viaggio si legge nel clima prima che nel testo: ogni campo cromatico è una tappa. Il freddo del Polo Nord e il calore dei biscotti di Babbo Natale sono lo stesso campo percettivo visto da direzioni opposte.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "blu_mediterraneo",
+      "label_en": "mediterranean_blue",
+      "type": "mediterranean_blue",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "Gallipoli sul mare: il blu come campo cromatico originario di Bernie; il mare non è sfondo ma condizione identitaria — Bernie è un gabbiano di mare, il blu è il suo campo naturale",
+      "kokyu": "il ritmo del mediterraneo è quello della familiarità: lento, warm, senza sorprese; è il clima che Bernie porta dentro di sé durante tutto il viaggio come punto di riferimento",
+      "yūgen": "il blu di Gallipoli non viene descritto in dettaglio: agisce come campo percettivo implicito che contrasta con tutto ciò che Bernie incontra verso nord",
+      "affects": {
+        "weather-02": "il blu mediterraneo prepara per contrasto il grigio-bianco artico: più Bernie si allontana dal blu, più il freddo diventa percettivo"
+      },
+      "textual_anchor_it": "Vivo in un bel posto di mare, in una città che si chiama Gallipoli e si trova in Italia.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "weather-02",
+      "label": "grigio_bianco_artico",
+      "label_en": "arctic_grey_white",
+      "type": "arctic_grey_white",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il ghiaccio del Polo Nord come campo cromatico di massima distanza: bianco e grigio ovunque, la terra ricoperta di ghiaccio, i banchi galleggianti, la neve sui rami del pino",
+      "kokyu": "il ritmo del campo artico è quello della quiete fredda: nessun colore caldo, nessun suono di mare; il sistema si raffredda progressivamente dalla Norvegia al Polo",
+      "yūgen": "Bernie che si copre per affrontare il grande freddo: l'unico momento del libro in cui il clima richiede una preparazione fisica; il freddo artico è il campo percettivamente più lontano dal blu di Gallipoli",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il freddo estremo non ferma Bernie né lo spaventa: la disponibilità del campo artico come campo attraversabile è strutturale al sistema del viaggio"
+      },
+      "affects": {
+        "weather-03": "il campo artico prepara per contrasto massimo il calore del villaggio di Babbo Natale: il passaggio dal bianco-grigio alle luci colorate è il cambio climatico più netto del libro"
+      },
+      "textual_anchor_it": "Devo andarci! Mi copro ben bene per affrontare il grande freddo.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "weather-03",
+      "label": "calore_luminoso_del_villaggio",
+      "label_en": "warm_light_village",
+      "type": "warm_light_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "le casette di legno di Babbo Natale: luci colorate ovunque, profumo di biscotti, calore piacevole — il campo sensoriale più ricco del libro emerge nel punto geograficamente più lontano da casa",
+      "kokyu": "il ritmo del villaggio è quello della festa che si prepara: allegro, denso, multisensoriale; suoni, odori, luci e calore coesistono nello stesso campo",
+      "yūgen": "il calore del villaggio di Babbo Natale al Polo Nord è un'inversione termica strutturale: il punto più freddo della Terra contiene il campo più caldo del viaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il calore del villaggio nel punto più freddo della Terra non viene spiegato come fenomeno: agisce come campo percettivo che il sistema assume senza motivare"
+      },
+      "affects": {
+        "weather-04": "il calore luminoso del villaggio prepara il ritorno al calore domestico: i due campi caldi si specchiano a distanza geografica massima"
+      },
+      "textual_anchor_it": "Ci sono luci colorate ovunque, si sente un invitante profumo di biscotti e tante allegre risate.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "weather-04",
+      "label": "calore_domestico_del_ritorno",
+      "label_en": "domestic_warmth",
+      "type": "domestic_warmth",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Gallipoli di ritorno: la mamma canta, il profumo della pasta, l'albero decorato — il campo domestico è warm come il villaggio ma intimo come solo la casa può essere",
+      "kokyu": "il ritmo domestico è quello della quotidianità: la mamma canta mentre cucina, il papà decora con calma; nessuna accelerazione, nessuna urgenza",
+      "yūgen": "il calore di casa è identico nel campo cromatico al calore del villaggio ma diverso nella scala: uno è pubblico e festoso, l'altro è privato e quotidiano; Bernie li ha vissuti entrambi nello stesso viaggio",
+      "affects": {
+        "weather-01": "il calore domestico del ritorno chiude il cerchio con il blu mediterraneo della partenza: il viaggio è passato dal familiare all'estremo e tornato al familiare trasformato"
+      },
+      "textual_anchor_it": "Vedo subito la mia mamma che canta e prepara la pasta. Papà sta finendo di decorare l'albero di Natale.",
+      "glossary_link": [
+        "basho",
+        "mono no aware",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "weather_count": 4,
+    "dominant_field": "weather-03",
+    "secondary_field": "weather-02",
+    "weather_sequence": {
+      "step_1": "weather-01 — blu mediterraneo: campo cromatico originario e punto di misura",
+      "step_2": "weather-02 — grigio-bianco artico: campo di massima distanza termica e cromatica",
+      "step_3": "weather-03 — calore luminoso del villaggio: inversione termica al punto geograficamente più lontano",
+      "step_4": "weather-04 — calore domestico del ritorno: chiusura del cerchio cromatico"
+    },
+    "narrative_model": "arco cromatico e termico completo: blu-caldo mediterraneo → bianco-freddo artico → calore luminoso del villaggio → calore intimo domestico; il viaggio si legge nel clima prima che nel testo",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
