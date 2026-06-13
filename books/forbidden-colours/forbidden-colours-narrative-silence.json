@@ -1,0 +1,141 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "silence_types": {
+    "diaphragm_silence": "il silenzio del diaframma: ciò che sta dall'altra parte del vetro e non si può raggiungere",
+    "fujita_silence": "il silenzio di Fujita: il marito che non sa e non saprà mai",
+    "beauty_silence": "la bellezza che non si può raccontare: ferita di luce che per pudore non può essere trasferita",
+    "family_silence": "il silenzio della famiglia di Philip: il brindisi casalingo che non è mai arrivato",
+    "recognition_silence": "il silenzio del riconoscimento senza nome: il campo esiste prima delle parole che potrebbero descriverlo"
+  },
+  "editorial_principle": "Il silenzio in Forbidden Colours non è assenza di parole. È la struttura che sostiene l'impossibilità e il riconoscimento. Fujita non sa. La famiglia di Philip non ha mai brindato. La bellezza del Fujiyama non può essere raccontata. Il riconoscimento tra Philip e Aiko precede qualsiasi nome. Ogni silenzio è un campo che il romanzo produce e non può registrare.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "diaframma_insuperabile",
+      "label_en": "insuperable_diaphragm",
+      "type": "diaphragm_silence",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la tenda di Place Vendôme, il vetro dell'oblò, la distanza da Aiko dopo Rue Royal: il diaframma come silenzio strutturale permanente che definisce la posizione di Philip rispetto a tutto ciò che ama",
+      "kokyu": "il ritmo del diaframma è quello della distanza mantenuta: non si avvicina mai abbastanza, non si allontana mai del tutto",
+      "yūgen": "il diaframma non è un ostacolo da rimuovere: è la condizione che rende possibile il desiderio; senza il vetro Philip non potrebbe guardare con quella intensità",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il diaframma non viene mai rimosso definitivamente: resta come struttura permanente del campo oltre la chiusura del romanzo"
+      },
+      "affects": {
+        "silence-03": "il diaframma insuperabile è la forma visiva della bellezza non condivisibile: stesso campo, scale diverse",
+        "silence-05": "il diaframma produce il riconoscimento senza nome: si riconosce attraverso una superficie, non nel contatto diretto"
+      },
+      "textual_anchor_it": "Si sentiva esausto, vittima consenziente della propria fissazione.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "silence-02",
+      "label": "fujita_che_non_sa",
+      "label_en": "fujita_unknowing",
+      "type": "fujita_silence",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Fujita che elenca i suoi appuntamenti del giorno dopo mentre il campo dell'amore impossibile lo circonda senza che lo sappia; Philip che lo definisce la persona più bella che abbia conosciuto",
+      "kokyu": "il ritmo del silenzio di Fujita è quello della cura inconsapevole: lui parla di tessuti e riunioni; il campo lo attraversa senza che lo percepisca",
+      "yūgen": "tuo marito è talmente intelligente che arriverebbe persino a comprendere: Philip sa che Fujita potrebbe capire, e questo rende la rinuncia ancora più deliberata e il suo silenzio più pesante",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Fujita non saprà mai: il romanzo si chiude con questo silenzio come campo permanente e irrisolvibile"
+      },
+      "affects": {
+        "silence-01": "il silenzio di Fujita retroagisce sul diaframma: il rispetto per lui è un altro vetro che Philip non attraverserà mai"
+      },
+      "textual_anchor_it": "Forse non si suiciderebbe ma morirebbe dentro. Di questo Fujita-san non saprà mai nulla.",
+      "glossary_link": ["mono no aware", "ma"]
+    },
+    {
+      "id": "silence-03",
+      "label": "bellezza_non_condivisibile",
+      "label_en": "uncondivisible_beauty",
+      "type": "beauty_silence",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "il Fujiyama dall'oblò, la bellezza di Aiko, i viaggi in Giappone con Armand: il campo della bellezza che non si può condividere né raccontare senza perdere qualcosa di essenziale",
+      "kokyu": "il ritmo della ferita di luce è quello dell'intermittenza: a volte, quando ci si lascia andare; poi infrequentabile perché la ferita duole al solo sfiorarla",
+      "yūgen": "la bellezza condivisa dà felicità compiuta; la bellezza non condivisibile lascia una ferita: il romanzo distingue i due campi e li abita entrambi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la bellezza non condivisibile resta non condivisa: il romanzo la nomina ma non la trasferisce; il lettore la percepisce come campo senza poterla descrivere"
+      },
+      "affects": {
+        "silence-04": "la bellezza non condivisibile include il silenzio della famiglia: Philip non ha mai potuto condividere il suo successo con chi amava",
+        "silence-05": "la bellezza non condivisibile e il riconoscimento senza nome appartengono allo stesso campo: entrambi precedono e sopravvivono alle parole"
+      },
+      "textual_anchor_it": "C'è una bellezza che non si può condividere ed è quella che contiene una radice di dolore.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "silence-04",
+      "label": "brindisi_mai_arrivato",
+      "label_en": "missing_toast",
+      "type": "family_silence",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la famiglia di Philip in provincia: il successo ostentatamente non celebrato, il brindisi casalingo che non è mai arrivato; Philip che pianifica una nuova rivoluzione familiare mai compiuta nel romanzo",
+      "kokyu": "il ritmo del silenzio familiare è quello della formalità pacata: nessun conflitto aperto, nessun abbraccio; la distanza mantenuta come regola ferrea",
+      "yūgen": "si sarebbe presentato d'improvviso, con la sua bandiera: la rivoluzione familiare pianificata ma non ancora compiuta; il silenzio resta aperto come campo futuro oltre il romanzo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la nuova rivoluzione familiare di Philip viene decisa ma non realizzata nel romanzo: campo aperto permanente"
+      },
+      "affects": {
+        "silence-03": "il brindisi mai arrivato è la forma domestica della bellezza non condivisibile: Philip non ha potuto condividere il suo successo con la famiglia come non può condividere il Fujiyama"
+      },
+      "textual_anchor_it": "Gli era sempre mancata l'affettuosità di quel brindisi casalingo con un inno alla vittoria.",
+      "glossary_link": ["mono no aware", "basho"]
+    },
+    {
+      "id": "silence-05",
+      "label": "riconoscimento_senza_nome",
+      "label_en": "nameless_recognition",
+      "type": "recognition_silence",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "Aiko e Philip si riconoscono prima di conoscersi: il campo esiste prima delle parole che potrebbero descriverlo; il riconoscimento è reciproco e precede qualsiasi incontro formale",
+      "kokyu": "il ritmo è quello dell'intuizione immediata seguita dalla lenta conferma: accade in un istante, si dispone nel tempo per anni",
+      "yūgen": "ci sono persone che sembrano ricordate invece che incontrate: la formula di Aiko al ristorante descrive esattamente il campo che lei stessa abita con Philip",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il riconoscimento senza nome non può essere spiegato né verificato: il romanzo lo accetta come evento misterioso strutturalmente necessario"
+      },
+      "affects": {
+        "silence-01": "il riconoscimento senza nome retroagisce sul diaframma: Philip guardava attraverso il vetro cercando qualcosa che non sapeva nominare",
+        "silence-03": "il riconoscimento senza nome e la bellezza non condivisibile appartengono allo stesso campo dell'indicibile"
+      },
+      "textual_anchor_it": "Tutti conosciamo uno sconosciuto.",
+      "glossary_link": ["yūgen", "mono no aware", "ma"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 5,
+    "dominant_field": "silence-03",
+    "secondary_field": "silence-05",
+    "narrative_model": "cinque silenzi strutturali: il diaframma che non si rimuove, Fujita che non sa, la bellezza che non si racconta, il brindisi che non è arrivato, il riconoscimento che precede le parole",
+    "cross_layer_coherence": {
+      "object_layer": "il diaframma e la bellezza non condivisibile sono le due forme del silenzio che attraversano tutti gli oggetti",
+      "scene_layer": "silence-05 connette scene-03 (riconoscimento reciproco al ristorante) e scene-04 (Aiko che dice sì): il riconoscimento senza nome precede e rende possibile entrambe",
+      "system_layer": "i cinque silenzi convergono nel campo dell'impossibilità strutturale: niente di ciò che Philip ama può essere pienamente posseduto o condiviso; ma il riconoscimento sopravvive a tutto questo"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_ferita_di_luce_e_riconoscimento_permanente",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
