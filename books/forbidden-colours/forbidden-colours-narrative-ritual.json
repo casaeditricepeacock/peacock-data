@@ -1,0 +1,164 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "ritual_types": {
+    "recognition_ritual": "il rito del riconoscimento: incontrare qualcuno come se lo si fosse sempre conosciuto",
+    "vigil_of_absence": "il rito della veglia dell'assenza: osservare ciò che manca senza poter intervenire",
+    "xylography_contemplation": "il rito della contemplazione della xilografia: fermarsi, guardare a lungo, riconoscere",
+    "forbidden_colours_field": "il rito della ripetizione musicale: Forbidden Colours come spazio sonoro abitabile",
+    "japan_pilgrimage": "il rito del ritorno in Giappone come pellegrinaggio verso un'origine interiore",
+    "verse_transmission": "il rito della trasmissione dei versi: affidare qualcosa alla memoria di un altro"
+  },
+  "editorial_principle": "I rituali di Forbidden Colours non conducono al possesso ma al riconoscimento. Philip non conquista, non trattiene, non costruisce una relazione stabile. Egli riconosce, contempla e custodisce. Ogni rituale è una pratica di fedeltà verso qualcosa che non può essere posseduto ma solo abitato interiormente.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "riconoscimento",
+      "label_en": "recognition",
+      "type": "recognition_ritual",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "ogni luogo in cui Philip riconosce qualcosa che sembra precederlo: Mercedes, la xilografia di Hiroshige, Aiko, il Giappone stesso",
+      "kokyu": "il ritmo del riconoscimento è simultaneamente istantaneo e infinito: accade in un attimo ma continua a dispiegarsi per anni",
+      "yūgen": "Philip non si innamora di Aiko nel senso comune del termine. La riconosce come si riconosce un luogo già visitato in sogno.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il riconoscimento non può essere spiegato psicologicamente. Rimane un evento misterioso che il romanzo accetta senza risolvere."
+      },
+      "affects": {
+        "ritual-02": "trasforma la veglia in attesa significativa",
+        "ritual-04": "trasforma la musica in memoria condivisa",
+        "ritual-06": "rende possibile la trasmissione dei versi"
+      },
+      "textual_anchor_it": "Non la stava incontrando per la prima volta. La stava ritrovando.",
+      "glossary_link": ["yūgen", "mono no aware", "basho"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "veglia_dell_assenza",
+      "label_en": "vigil_of_absence",
+      "type": "vigil_of_absence",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "Place Vendôme: Philip dietro la tenda pesante osserva una finestra che spesso non restituisce alcuna presenza",
+      "kokyu": "il ritmo della veglia è lento, ripetitivo e consumante; ogni giorno replica il precedente senza offrire una soluzione",
+      "yūgen": "la finestra non è importante per ciò che mostra ma per ciò che trattiene. Il desiderio nasce nella distanza.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la veglia sopravvive anche quando l'oggetto osservato scompare. La struttura del rito resta attiva."
+      },
+      "affects": {
+        "ritual-05": "la stessa distanza ritorna nei viaggi in Giappone",
+        "ritual-03": "la contemplazione della xilografia replica la postura della veglia"
+      },
+      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte.",
+      "glossary_link": ["ma", "kokyu", "yūgen"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "contemplazione_della_xilografia",
+      "label_en": "xylography_contemplation",
+      "type": "xylography_contemplation",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il laboratorio Garcia prima e l'appartamento di Philip poi; la xilografia di Hiroshige diventa presenza quotidiana",
+      "kokyu": "il ritmo della contemplazione appartiene alla soglia del sonno, quando il giorno si scioglie e il campo simbolico si intensifica",
+      "yūgen": "il ponte sotto la luna che Philip vede come un sole dimostra che l'immagine non possiede un significato definitivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni contemplazione genera una nuova lettura; la xilografia non si lascia mai esaurire."
+      },
+      "affects": {
+        "ritual-06": "prepara il gesto della trasmissione dei versi",
+        "ritual-01": "mantiene vivo il riconoscimento"
+      },
+      "textual_anchor_it": "Aveva preso l'abitudine di soffermarsi ogni notte davanti a quel ponte sotto la luna.",
+      "glossary_link": ["yūgen", "basho", "mono no aware"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "campo_forbidden_colours",
+      "label_en": "forbidden_colours_field",
+      "type": "forbidden_colours_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "l'appartamento di Rue Royal durante il giorno condiviso tra Philip e Aiko",
+      "kokyu": "il ritmo della ripetizione musicale approfondisce ogni ascolto; la canzone ritorna come ritornano i gesti degli amanti",
+      "yūgen": "la musica non commenta la scena ma la abita dall'interno. Diventa una stanza emotiva.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "dopo il romanzo la canzone continua ad attivare il campo affettivo della storia."
+      },
+      "affects": {
+        "ritual-03": "replica la struttura contemplativa della xilografia",
+        "ritual-06": "trasforma la memoria in esperienza sensoriale"
+      },
+      "textual_anchor_it": "Questa canzone si ripete e si ripete ma non basta mai.",
+      "glossary_link": ["kokyu", "ma", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "pellegrinaggio_in_giappone",
+      "label_en": "japan_pilgrimage",
+      "type": "japan_pilgrimage",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Kyoto, Sagano, i templi, le colline e il Fujiyama osservato dall'oblò",
+      "kokyu": "il ritmo del pellegrinaggio è quello del ritorno. Philip non visita il Giappone una volta sola; continua a ritornarvi.",
+      "yūgen": "il Giappone non è una destinazione geografica ma una geografia interiore che continua a chiamarlo.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni ritorno aggiunge profondità ma non conclude mai il viaggio."
+      },
+      "affects": {
+        "ritual-02": "espande la logica della veglia su scala geografica",
+        "ritual-01": "rafforza il riconoscimento originario"
+      },
+      "textual_anchor_it": "Philip tornò sempre in Giappone.",
+      "glossary_link": ["basho", "yūgen", "kokyu"]
+    },
+    {
+      "id": "ritual-06",
+      "label": "trasmissione_dei_versi",
+      "label_en": "verse_transmission",
+      "type": "verse_transmission",
+      "intensity": 1.0,
+      "perceptual_weight": 0.99,
+      "secondary": true,
+      "basho": "l'appartamento di Rue Royal, poco prima della separazione",
+      "kokyu": "il ritmo della trasmissione è quello del dono immateriale: qualcosa passa da una coscienza all'altra senza occupare spazio",
+      "yūgen": "Philip non lascia lettere né oggetti. Lascia versi da custodire interiormente.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "i versi sopravvivono in Aiko come campo privato che il romanzo non può più osservare."
+      },
+      "affects": {
+        "ritual-01": "trasforma il riconoscimento in memoria duratura",
+        "ritual-04": "prosegue il lavoro della musica oltre la presenza fisica"
+      },
+      "textual_anchor_it": "Impara questi versi di Eliot a memoria. Non prendere appunti, scrivili dentro di te.",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 6,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-06",
+    "system_role": "recognition_and_separation_field",
+    "narrative_model": "sei rituali costruiscono il campo del riconoscimento: Philip riconosce prima di amare, contempla prima di possedere, trasmette prima di perdere. La veglia fonda la distanza, la xilografia connette i mondi, la musica abita il presente, il pellegrinaggio rinnova il campo e i versi garantiscono la sopravvivenza interiore dell'incontro.",
+    "reader_effect": "il lettore comprende che il centro del romanzo non è la relazione tra Philip e Aiko ma il mistero del riconoscimento: la sensazione di aver atteso qualcuno per tutta la vita senza sapere chi fosse.",
+    "closure_type": "recognition_without_possession",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
