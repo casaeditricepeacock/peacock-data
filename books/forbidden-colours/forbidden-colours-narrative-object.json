@@ -1,0 +1,179 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025,
+    "genre": "romanzo"
+  },
+  "editorial_principle": "Forbidden Colours non racconta un amore impossibile. Produce un campo in cui il desiderio nasce dalla distanza e trova compimento nel riconoscimento. Philip e Aiko non si appartengono: si riconoscono. Tutto il sistema narrativo è costruito attraverso superfici di separazione — tende, finestre, immagini, musica, memoria culturale, vetri. L'amore è una conseguenza della visione impossibile.",
+  "object_types": {
+    "diaphragm_object": "superficie che separa e rende visibile",
+    "xylography_operator": "campo visivo che connette mondi lontani",
+    "phantom_double": "figura culturale che orienta il desiderio",
+    "impossible_love_field": "amore che si compie nella separazione",
+    "sacred_mountain": "campo finale della bellezza assoluta",
+    "anticipatory_field": "luogo vissuto interiormente prima dell'esperienza reale",
+    "musical_operator": "campo temporale che dilata il presente"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "diaframma",
+      "label_en": "diaphragm",
+      "type": "diaphragm_object",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "Place Vendôme: Philip nascosto dietro la tenda osserva la finestra di fronte",
+      "kokyu": "ritmo lento, ripetitivo, ossessivo; il desiderio cresce attraverso la distanza",
+      "yūgen": "il diaframma non viene mai eliminato; persiste anche nell'intimità",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la distanza non viene risolta ma trasformata in condizione permanente del campo"
+      },
+      "affects": {
+        "object-04": "rende possibile l'amore impossibile",
+        "object-02": "trasforma la xilografia in superficie contemplativa",
+        "object-05": "dal vetro della finestra al vetro dell'oblò"
+      },
+      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "object-02",
+      "label": "xilografia_hiroshige",
+      "label_en": "hiroshige_xylography",
+      "type": "xylography_operator",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la xilografia di Hiroshige attraversa atelier, appartamenti e memoria",
+      "kokyu": "ritmo della contemplazione e del ritorno",
+      "yūgen": "l'immagine contiene più significati di quanti ne possa esaurire lo sguardo",
+      "affects": {
+        "object-03": "evoca la memoria culturale di Murasaki",
+        "object-06": "costruisce il Giappone immaginato"
+      },
+      "textual_anchor_it": "Hiroshige. Ukiyo-e. Il ponte sotto la luna che a lui sembrava un sole.",
+      "glossary_link": ["yūgen", "mono no aware", "basho"]
+    },
+    {
+      "id": "object-03",
+      "label": "murasaki_shikibu",
+      "label_en": "murasaki_phantom_double",
+      "type": "phantom_double",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la poetessa dell'anno Mille sovrapposta ai volti contemporanei",
+      "kokyu": "ritmo della riapparizione e del riconoscimento",
+      "yūgen": "agisce senza presenza fisica, come memoria culturale attiva",
+      "affects": {
+        "object-04": "trasforma l'amore in riconoscimento",
+        "object-06": "contribuisce alla costruzione del Giappone immaginato",
+        "object-02": "emerge dal medesimo campo visivo dell'ukiyo-e"
+      },
+      "textual_anchor_it": "Aveva sovrapposto l'icona di Murasaki Shikibu.",
+      "glossary_link": ["yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-04",
+      "label": "amore_in_un_giorno",
+      "label_en": "love_in_one_day",
+      "type": "impossible_love_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "Rue Royal: il giorno che contiene tutti i giorni possibili",
+      "kokyu": "ritmo dilatato, quasi sospeso",
+      "yūgen": "il presente viene reso assoluto rinunciando al futuro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il compimento coincide con la separazione"
+      },
+      "affects": {
+        "object-05": "prepara il pianto davanti al Fujiyama",
+        "object-07": "la musica rende eterno il tempo condiviso"
+      },
+      "textual_anchor_it": "Oggi sarà tutti i nostri oggi.",
+      "glossary_link": ["mono no aware", "ma", "yūgen"]
+    },
+    {
+      "id": "object-05",
+      "label": "fujiyama",
+      "label_en": "fujiyama_closure",
+      "type": "sacred_mountain",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "l'oblò dell'aereo e la montagna all'orizzonte",
+      "kokyu": "ritmo della liberazione emotiva",
+      "yūgen": "la montagna opera come presenza prima ancora che come paesaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la bellezza non può essere condivisa né posseduta"
+      },
+      "affects": {
+        "object-01": "chiude il percorso iniziato dietro una finestra"
+      },
+      "textual_anchor_it": "La fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    },
+    {
+      "id": "object-06",
+      "label": "giappone_immaginato",
+      "label_en": "imagined_japan",
+      "type": "anticipatory_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Parigi attraversata da immagini, tessuti, libri e memorie giapponesi",
+      "kokyu": "ritmo dell'attesa lunga anni",
+      "yūgen": "il Giappone esiste interiormente prima del viaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Giappone immaginato non coincide mai completamente con quello reale"
+      },
+      "affects": {
+        "object-02": "la xilografia lo alimenta",
+        "object-03": "Murasaki gli fornisce profondità temporale",
+        "object-04": "Aiko appare come incarnazione parziale di questo campo"
+      },
+      "textual_anchor_it": "Aveva costruito il Giappone dentro di sé molto prima di mettervi piede.",
+      "glossary_link": ["yūgen", "ma", "basho"]
+    },
+    {
+      "id": "object-07",
+      "label": "forbidden_colours_theme",
+      "label_en": "forbidden_colours_theme",
+      "type": "musical_operator",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "l'appartamento di Rue Royal durante il giorno condiviso",
+      "kokyu": "la ripetizione musicale rallenta il tempo",
+      "yūgen": "la musica continua quando la scena è già terminata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la melodia sopravvive agli eventi che accompagna"
+      },
+      "affects": {
+        "object-04": "trasforma un giorno in un tempo fuori dal tempo",
+        "object-05": "prolunga emotivamente il romanzo oltre la chiusura"
+      },
+      "textual_anchor_it": "Forbidden Colours tornava ancora una volta dall'inizio.",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "object_count": 7,
+    "dominant_field": "object-01",
+    "secondary_field": "object-04",
+    "system_role": "impossible_vision_field",
+    "narrative_model": "sette operatori costruiscono un sistema della visione impossibile: il diaframma fonda la distanza, la xilografia connette i mondi, Murasaki orienta il desiderio, il Giappone viene immaginato prima di essere vissuto, l'amore si compie in un giorno, la musica sospende il tempo e il Fujiyama raccoglie tutto in una ferita di bellezza.",
+    "closure_type": "beauty_as_irresolvable_wound",
+    "reader_effect": "il lettore attraversa un sistema in cui vedere conta più che possedere e riconoscere conta più che trattenere.",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
