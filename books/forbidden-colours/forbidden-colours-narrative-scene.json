@@ -1,0 +1,130 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "visione_impossibile_vs_compimento_nella_separazione",
+    "temporal_axis": "accumulation_toward_reciprocal_recognition",
+    "narrative_logic": "ogni scena è una configurazione del diaframma: la distanza non diminuisce ma si qualifica; Philip e Aiko si avvicinano attraverso superfici che rendono possibile il riconoscimento senza permettere il possesso"
+  },
+  "editorial_principle": "Le scene di Forbidden Colours non sono tappe di una conquista. Sono stazioni del riconoscimento reciproco. Philip riconosce Aiko come sempre conosciuta. Aiko riconosce Philip come familiare prima ancora di parlargli. La simmetria del riconoscimento è il campo strutturale del romanzo. Il diaframma di Place Vendôme e il vetro dell'oblò sono la stessa superficie vista da due estremità del tempo.",
+  "scene_types": {
+    "obsession_field": "la fissazione come campo produttivo: il desiderio cresce attraverso la distanza",
+    "revelation_field": "il momento in cui la xilografia materializza il Giappone interiore di Philip",
+    "reciprocal_recognition_field": "la scena in cui Aiko rivela di aver già riconosciuto Philip prima dell'incontro",
+    "compimento_field": "Rue Royal: il giorno unico in cui l'amore si realizza e si separa simultaneamente",
+    "dissolution_field": "il Fujiyama come campo finale della bellezza non condivisibile"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "place_vendome_veglia",
+      "type": "obsession_field",
+      "dominant": true,
+      "basho": "Place Vendôme: Philip nascosto dietro la tenda, gli occhi fissi alla finestra sigillata; la piazza come campo di desiderio non agito; la xilografia di Hiroshige già attiva come campo interiore mentre Philip guarda verso l'esterno",
+      "kokyu": "ritmo della stasi logorante: giorni identici, lo stesso gesto, lo stesso sguardo; il campo non progredisce ma si approfondisce",
+      "yūgen": "la finestra sigillata produce più campo dell'apparizione: l'assenza di Mercedes è più densa della sua presenza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ragione profonda della fissazione non viene mai spiegata; il sistema la assume come condizione data e irriducibile"
+      },
+      "affects": {
+        "scene-02": "la stasi di Place Vendôme si rompe con la decisione di scendere; il diaframma produce finalmente movimento"
+      },
+      "ritual_connection": "ritual-02",
+      "textual_anchor_it": "Da giorni si domandava il perché di quel vuoto. Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "scene-02",
+      "label": "laboratorio_xilografia",
+      "type": "revelation_field",
+      "basho": "il laboratorio Garcia al piano terra: Philip entra e trova la xilografia di Hiroshige appesa alla parete; il Giappone immaginato si materializza nell'ultimo luogo atteso; la xilografia come ponte tra arte, memoria e desiderio",
+      "kokyu": "ritmo dell'irruzione improvvisa: Philip si ferma, porta le mani alla bocca, grida; il campo interiore si manifesta fisicamente prima che verbalmente",
+      "yūgen": "la xilografia in un laboratorio di gioielleria parigino: il campo visivo giapponese appare dove non dovrebbe; la sua presenza è inspiegabile e opera come rivelazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "come la xilografia sia finita nel laboratorio Garcia non viene spiegato; il sistema la tratta come apparizione necessaria"
+      },
+      "affects": {
+        "scene-03": "la rivelazione della xilografia attiva il campo del riconoscimento reciproco: Philip è pronto a riconoscere Aiko perché il Giappone è già pienamente attivo in lui"
+      },
+      "ritual_connection": "ritual-03",
+      "textual_anchor_it": "Philip si avvicinò, lo fissò a lungo e poi portò le mani alla bocca, scuotendo la testa. Gridò: Oh, mio Dio!",
+      "glossary_link": ["yūgen", "basho", "kokyu"]
+    },
+    {
+      "id": "scene-03",
+      "label": "ristorante_riconoscimento_reciproco",
+      "type": "reciprocal_recognition_field",
+      "basho": "il ristorante parigino: Philip incontra Aiko e Fujita; Aiko rivela che conosceva Philip prima di incontrarlo; il riconoscimento non è unilaterale — Aiko ha già costruito Philip interiormente come Philip ha già costruito il Giappone",
+      "kokyu": "ritmo della conversazione elegante sotto la quale opera un campo più denso; Aiko parla di riconoscimento mentre esercita il riconoscimento stesso",
+      "yūgen": "tutti noi conosciamo uno sconosciuto: Aiko descrive il meccanismo esatto che la unisce a Philip senza nominarlo direttamente; la simmetria del riconoscimento si rivela nella parola di lei",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la profondità del riconoscimento reciproco non può essere misurata: il sistema la espone come campo aperto"
+      },
+      "affects": {
+        "scene-04": "il riconoscimento reciproco rende possibile la proposta di Philip; chi si è già riconosciuto non ha bisogno di costruire una relazione — può solo custodirla"
+      },
+      "ritual_connection": "ritual-01",
+      "textual_anchor_it": "Quello che mi dà da pensare è che tutti noi conosciamo uno sconosciuto. E inizia la sua avventura di scoperta.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "rue_royal_compimento",
+      "type": "compimento_field",
+      "basho": "l'appartamento di Philip in Rue Royal: la luce filtrata dalle persiane, la xilografia di Hiroshige sul tavolo come ponte tra i due mondi, Forbidden Colours in loop, i piedi che si sfiorano; Aiko agente attiva del campo — è lei a dire sì, è lei a chiedere di aprire la finestra, è lei a dire ora facciamo l'amore",
+      "kokyu": "ritmo della lentezza deliberata: Philip parla a lungo, la canzone si ripete, il caffè, la finestra aperta; il tempo si dilata per contenere tutto ciò che non potrà essere ripetuto",
+      "yūgen": "oggi per sempre: la formula che trasforma un pomeriggio in un'eternità e una separazione in un atto d'amore; Aiko non subisce la proposta — la sceglie",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ciò che avviene tra Philip e Aiko nel letto non viene descritto; il sistema si chiude sulla soglia e lascia il campo aperto"
+      },
+      "affects": {
+        "scene-05": "il compimento deliberato rende possibile il pianto davanti al Fujiyama; solo chi ha scelto la separazione può piangere di bellezza senza disperazione"
+      },
+      "ritual_connection": "ritual-04",
+      "textual_anchor_it": "Io dico sì e sì per sempre. Ma ora facciamo l'amore.",
+      "glossary_link": ["mono no aware", "ma", "yūgen"]
+    },
+    {
+      "id": "scene-05",
+      "label": "fujiyama_oblo",
+      "type": "dissolution_field",
+      "basho": "l'oblò dell'aereo: il Fujiyama maestoso all'orizzonte, cima tonda, cappuccio bianco nel cielo terso; la fronte di Philip incollata al vetro — simmetria perfetta con la tenda di Place Vendôme; lo stesso gesto, lo stesso diaframma, una diversa qualità del campo",
+      "kokyu": "ritmo della resa silenziosa: dopo tutto il romanzo Philip piange; il pianto è breve, si asciuga in fretta, la testa torna sugli appunti",
+      "yūgen": "la fronte sul vetro dell'oblò chiude il cerchio aperto dalla tenda di Place Vendôme; il diaframma è sempre stato lo stesso — è Philip che è cambiato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la bellezza del Fujiyama non può essere condivisa né raccontata; il campo resta aperto oltre la chiusura del romanzo come ferita di luce permanente"
+      },
+      "affects": {
+        "scene-01": "il Fujiyama visto dall'oblò retroagisce sulla finestra di Place Vendôme: Philip ha sempre guardato attraverso un vetro; ora piange invece di osservare"
+      },
+      "ritual_connection": "ritual-05",
+      "textual_anchor_it": "La fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-04",
+    "system_state": "riconoscimento_reciproco_verso_compimento_e_separazione",
+    "narrative_model": "cinque scene come configurazioni progressive del diaframma: ossessione produttiva — rivelazione della xilografia — riconoscimento reciproco — compimento nella separazione — dissoluzione nel pianto; Aiko operatore attivo in scene-03 e scene-04",
+    "retroactive_causality": true,
+    "symmetry_axis": "la fronte sul vetro dell'oblò in scene-05 chiude il cerchio aperto dalla tenda di Place Vendôme in scene-01; il diaframma è invariante, Philip è trasformato",
+    "aiko_agency": "Aiko non è oggetto del riconoscimento di Philip; rivela in scene-03 di aver già costruito Philip interiormente; in scene-04 è lei a dire sì e a chiedere di fare l'amore; il riconoscimento è strutturalmente reciproco",
+    "global_effect": "il Fujiyama retroagisce su tutta la struttura: il romanzo è la storia di un uomo che impara a piangere davanti alla bellezza che non può possedere"
+  }
+}
