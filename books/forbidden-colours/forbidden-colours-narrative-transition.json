@@ -1,0 +1,141 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "editorial_principle": "Le transizioni di Forbidden Colours sono tutte transizioni di soglia interiore. Philip non attraversa città o paesi: attraversa stati di sé. La decisione di scendere, il grido davanti a Hiroshige, il riconoscimento di Aiko, la scelta di rinunciare, le lacrime davanti al Fujiyama — ogni transizione è un cambiamento di campo interno. Il sistema mostra come il desiderio diventi responsabilità senza perdere intensità.",
+  "transition_types": {
+    "obsession_to_action": "la rottura della stasi: Philip scende, attraversa la piazza — stupido fino in fondo",
+    "discovery_to_recognition": "il passaggio dalla xilografia al riconoscimento: Hiroshige come soglia verso il Giappone interiore di Philip",
+    "social_to_intimate": "il passaggio dalla superficie mondana al campo intimo: dalla cena all'appartamento di Rue Royal",
+    "recognition_to_responsibility": "il passaggio dal riconoscimento amoroso alla responsabilità etica",
+    "compimento_to_renunciation": "il passaggio dal compimento alla separazione deliberata: oggi per sempre come transizione permanente",
+    "grief_to_continuation": "il passaggio dal pianto davanti al Fujiyama alla testa chinata sugli appunti: la vita che continua oltre il campo dell'impossibile"
+  },
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "stasi_verso_azione",
+      "label_en": "stasis_to_action",
+      "type": "obsession_to_action",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Philip scende le scale, attraversa Place Vendôme, entra nel cortile: la transizione dalla veglia passiva all'azione; il corpo si muove mentre la mente dichiara la propria stupidità come condizione di coraggio",
+      "kokyu": "il ritmo è quello della decisione secca: si decise — scese — attraversò — entrò; quattro verbi in successione senza esitazione",
+      "yūgen": "se stupido devo essere, lo sarò fino in fondo: la transizione si attiva attraverso l'accettazione dell'irrazionale; Philip non agisce per logica ma per resa",
+      "affects": {
+        "transition-02": "l'azione produce immediatamente la scoperta: scendere porta alla xilografia"
+      },
+      "textual_anchor_it": "Si decise: Se stupido devo essere, lo sarò fino in fondo.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "transition-02",
+      "label": "xilografia_verso_giappone_interiore",
+      "label_en": "xylography_to_inner_japan",
+      "type": "discovery_to_recognition",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il grido davanti alla xilografia: Philip attraversa la soglia tra il campo parigino e il campo giapponese interiore; Hiroshige come portale",
+      "kokyu": "il ritmo è quello dell'irruzione: Philip si ferma di colpo, le mani alla bocca, il grido; la transizione è fisica prima che verbale",
+      "yūgen": "Armand che non capisce cosa vede Philip: la transizione avviene solo per chi ha il campo interiore giapponese già attivo; per Armand è solo un quadro",
+      "affects": {
+        "transition-03": "il campo giapponese attivato dalla xilografia rende possibile il riconoscimento di Aiko"
+      },
+      "textual_anchor_it": "Oh, mio Dio! Hiroshige. Ukiyo-e.",
+      "glossary_link": ["yūgen", "kokyu", "basho"]
+    },
+    {
+      "id": "transition-03",
+      "label": "superficie_verso_intimita",
+      "label_en": "social_surface_to_intimate_field",
+      "type": "social_to_intimate",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "dalla cena con Aiko e Fujita all'appartamento di Rue Royal dopo Schiaparelli: la transizione dalla superficie mondana al campo dove il riconoscimento reciproco diventa esperienza vissuta",
+      "kokyu": "il ritmo del passaggio è quello della fiducia assoluta: ti fidi di me — totalmente; la transizione si compie in due parole",
+      "yūgen": "la mostra di Schiaparelli attraversata quasi senza essere vista: il campo interiore è più denso di qualsiasi spettacolo esterno",
+      "affects": {
+        "transition-04": "l'intimità rende possibile la comprensione delle conseguenze etiche dell'amore"
+      },
+      "textual_anchor_it": "Ti fidi di me? — Totalmente.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "transition-04",
+      "label": "riconoscimento_verso_responsabilita",
+      "label_en": "recognition_to_responsibility",
+      "type": "recognition_to_responsibility",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "tra il riconoscimento reciproco e la decisione finale; non un luogo fisico ma il campo in cui Philip e Aiko comprendono che il loro amore coinvolge anche Fujita",
+      "kokyu": "il ritmo è quello della presa di coscienza: prima il desiderio, poi il riconoscimento delle conseguenze",
+      "yūgen": "l'amore non viene negato ma assunto come responsabilità; il campo cresce proprio perché rinuncia alla distruzione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "non esiste un momento preciso in cui il desiderio diventa responsabilità; la trasformazione avviene nel corso dell'intero pomeriggio"
+      },
+      "affects": {
+        "transition-05": "trasforma la rinuncia da perdita a scelta etica"
+      },
+      "textual_anchor_it": "Non possiamo tradire.",
+      "glossary_link": ["mono no aware", "ma", "yūgen"]
+    },
+    {
+      "id": "transition-05",
+      "label": "compimento_verso_rinuncia",
+      "label_en": "fulfilment_to_renunciation",
+      "type": "compimento_to_renunciation",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "l'appartamento di Rue Royal: il compimento dell'amore si trasforma volontariamente in separazione per preservare ciò che è stato riconosciuto come prezioso",
+      "kokyu": "il ritmo è quello dell'accettazione: nessuna fuga, nessuna tragedia, nessuna rottura; soltanto la decisione di custodire il campo creato",
+      "yūgen": "oggi per sempre: la rinuncia non cancella il compimento ma gli permette di restare intatto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la rinuncia non conclude l'amore; lo trasferisce in una forma che il romanzo non può più rappresentare"
+      },
+      "affects": {
+        "transition-06": "la rinuncia deliberata rende possibile il pianto davanti al Fujiyama"
+      },
+      "textual_anchor_it": "Oggi sarà tutti i nostri oggi.",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "transition-06",
+      "label": "pianto_verso_continuazione",
+      "label_en": "grief_to_continuation",
+      "type": "grief_to_continuation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "dall'oblò al foglio degli appunti: Philip piange davanti al Fujiyama, si asciuga gli occhi, consegna l'immagine al domani e torna alla vita",
+      "kokyu": "il ritmo finale è quello della ripresa: il pianto è breve ma definitivo; la vita continua con una nuova profondità",
+      "yūgen": "la bellezza non interrompe il mondo; lo trasforma silenziosamente",
+      "affects": {
+        "transition-01": "la ripresa dopo il pianto retroagisce sulla discesa iniziale da Place Vendôme: tutta la vita di Philip è una successione di rese e riprese"
+      },
+      "textual_anchor_it": "Si asciugò gli occhi in fretta, consegnò quell'immagine al suo domani e chinò la testa sugli appunti.",
+      "glossary_link": ["mono no aware", "kokyu", "ma"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 6,
+    "dominant_field": "transition-03",
+    "secondary_field": "transition-04",
+    "narrative_model": "sei transizioni di soglia interiore: dalla stasi all'azione, dalla xilografia al Giappone interiore, dalla superficie all'intimità, dal riconoscimento alla responsabilità, dal compimento alla rinuncia, dal pianto alla continuazione",
+    "ethical_axis": "desire_becomes_responsibility",
+    "stability": "high_metastable",
+    "closure": "ethical_continuation",
+    "global_effect": "il sistema non racconta la sconfitta di un amore ma la sua trasformazione in responsabilità; il desiderio non viene negato ma custodito",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
