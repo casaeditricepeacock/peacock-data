@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "sensory_theme": "musica_che_non_finisce",
+  "experience_type": "dilatazione_temporale_sonora",
+  "dominant_sense": "udito",
+  "activation_condition": "il momento in cui la canzone ricomincia nell'appartamento di Rue Royal; ogni ascolto successivo di Forbidden Colours di Ryuichi Sakamoto attiva retrospettivamente il campo del romanzo",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "primo_ascolto_nell_appartamento",
+      "basho": "l'appartamento di Rue Royal: Philip aziona il telecomando, le prime note avvolgono lo spazio; la luce filtrata dalle persiane di giugno, i piedi di Philip e Aiko che si sfiorano sul sofà; la musica non accompagna la scena — la fonda",
+      "kokyu": "il ritmo della canzone è quello del respiro lento degli amanti: né veloce né lento, sospeso tra un battito e il successivo; la melodia non progredisce verso una risoluzione — si mantiene nel campo del desiderio non concluso",
+      "yūgen": "My love wears forbidden colours: le parole non descrivono la situazione, la abitano dall'interno; il testo della canzone è il campo invisibile che tiene insieme Philip e Aiko senza nominarli",
+      "japanese_echo": "Ryuichi Sakamoto come campo sonoro tra Oriente e Occidente: la canzone porta già in sé la stessa tensione bilaterale del romanzo — David Sylvian canta in inglese su musica giapponese",
+      "poetic_anchor": "la musica che si ripete non è ripetizione: è approfondimento; ogni volta che ricomincia il campo è più denso del precedente"
+    },
+    {
+      "id": "sensation-02",
+      "label": "il_loop_come_tempo_fuori_dal_tempo",
+      "basho": "il momento in cui la canzone finisce e ricomincia: una frazione di silenzio, poi le prime note di nuovo; Philip e Aiko non parlano durante questo passaggio — il loop è il confine tra due istanti dello stesso campo",
+      "kokyu": "il ritmo del loop è quello del desiderio che non si sazia: come non bastano mai i baci degli amanti — la frase di Philip descrive sia la canzone sia il campo in cui si trovano",
+      "yūgen": "la canzone continua quando la scena è già terminata: il lettore che ha chiuso il romanzo e ascolta Forbidden Colours sente che il campo è ancora attivo; la musica sopravvive agli eventi che accompagna",
+      "japanese_echo": "la struttura ciclica come forma musicale giapponese: il ma tra un ciclo e l'altro come spazio respirante; la canzone non conclude, ricomincia",
+      "poetic_anchor": "un loop musicale non è ripetizione meccanica: è la forma sonora dell'eterno presente — oggi per sempre come struttura melodica"
+    }
+  ],
+  "reader_effect": "il lettore che conosce la canzone entra nel romanzo con il campo sonoro già attivo; il lettore che non la conosce la cerca dopo l'ultima pagina; in entrambi i casi il romanzo e la canzone diventano un campo unico che nessuno dei due può attivare da solo",
+  "philosophical_layer": {
+    "core_concept": "la musica in loop come forma del desiderio che non si esaurisce: il campo non progredisce verso una risoluzione ma si approfondisce nella ripetizione; il loop è la struttura sonora dell'impossibilità che diventa permanenza",
+    "japanese_resonance": "Ryuichi Sakamoto come sintesi del campo bilaterale — la sua musica abita lo stesso spazio tra culture che Philip e Aiko abitano; ma come struttura del silenzio tra un ciclo e l'altro",
+    "western_resonance": "il loop come forma contemporanea dell'eterno ritorno: non tragico ma contemplativo; la ripetizione come approfondimento invece che come perdita"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "Forbidden Colours di Sakamoto non può più essere ascoltata dopo il romanzo senza attivare il campo di Philip e Aiko; la canzone e il romanzo si sono fusi in un unico operatore percettivo che nessuno dei due controllava da solo"
+  },
+  "closure": "quando una melodia ricomincia, stai ascoltando la stessa canzone o un'altra?"
+}
