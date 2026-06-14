@@ -1,0 +1,122 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "weather_types": {
+    "parisian_grey": "il clima grigio-dorato di Parigi come campo di superfici riflettenti e distanze mantenute",
+    "ukiyo_e_field": "il campo visivo dell'Ukiyo-e come clima interiore di Philip",
+    "warm_intimate_light": "la luce filtrata dalle persiane di Rue Royal come clima del compimento",
+    "ethical_atmosphere": "l'atmosfera della responsabilità amorosa: il clima invisibile che nasce quando il desiderio incontra il rispetto",
+    "sacred_mountain_sky": "il cielo terso intorno al Fujiyama come manifestazione finale del campo"
+  },
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "grigio_dorato_parigino",
+      "label_en": "parisian_grey_gold",
+      "type": "parisian_grey",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "Place Vendôme: le superfici riflettenti della piazza, il palazzo di fronte, la tenda pesante; Parigi come campo di eleganza e distanza simultanee",
+      "kokyu": "il ritmo parigino è quello dell'efficienza elegante: Philip ha orari fissi, lavora, viaggia; la superficie è impeccabile mentre il campo interiore fermenta",
+      "yūgen": "sotto la superficie parigina il campo interno di Philip è in movimento: la città non sa nulla di ciò che accade dietro la tenda",
+      "affects": {
+        "weather-02": "il grigio parigino prepara per contrasto il campo visivo dell'Ukiyo-e: le due atmosfere coesistono in Philip senza sintesi"
+      },
+      "textual_anchor_it": "Philip de Villiers, designer di moda di fama mondiale, a cinquant'anni aveva avuto dalla vita tutto quello che le aveva chiesto.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "weather-02",
+      "label": "campo_ukiyo_e",
+      "label_en": "ukiyo_e_field",
+      "type": "ukiyo_e_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "dominant": true,
+      "basho": "l'Ukiyo-e come clima percettivo permanente che permette a Philip di riconoscere il mondo come fragile e transitorio",
+      "kokyu": "il ritmo del mondo fluttuante è quello della trasformazione continua",
+      "yūgen": "Philip riconosce nell'Ukiyo-e una forma della propria anima prima ancora di comprenderla",
+      "affects": {
+        "weather-03": "il campo Ukiyo-e rende l'appartamento di Rue Royal il luogo naturale del compimento: il mondo fluttuante trova la propria stanza"
+      },
+      "textual_anchor_it": "Se ne innamorò perdutamente con tutte le fatiche che comporta la passione.",
+      "glossary_link": ["yūgen", "basho", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "luce_filtrata_rue_royal",
+      "label_en": "filtered_light_rue_royal",
+      "type": "warm_intimate_light",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "l'appartamento di Rue Royal come stanza fuori dal tempo",
+      "kokyu": "il ritmo della sospensione",
+      "yūgen": "la luce filtrata non illumina soltanto lo spazio ma la possibilità di un'eternità racchiusa in poche ore",
+      "affects": {
+        "weather-04": "la sospensione intima prepara il campo della responsabilità: nel calore di Rue Royal Philip comprende cosa non può fare"
+      },
+      "textual_anchor_it": "La luce di una bella giornata di giugno filtrava dalle persiane di legno chiuse.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "weather-04",
+      "label": "atmosfera_della_responsabilita",
+      "label_en": "ethical_atmosphere",
+      "type": "ethical_atmosphere",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "secondary": true,
+      "basho": "lo spazio invisibile tra Philip, Aiko e Fujita",
+      "kokyu": "il ritmo della consapevolezza: il desiderio rallenta e diventa scelta",
+      "yūgen": "l'amore non diminuisce quando rinuncia al possesso; cambia stato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "questa atmosfera non appartiene a nessun luogo fisico del romanzo ma attraversa ogni scena finale"
+      },
+      "affects": {
+        "weather-05": "l'atmosfera etica prepara la resa davanti al Fujiyama: solo chi ha già scelto può piangere senza disperazione"
+      },
+      "textual_anchor_it": "Non possiamo tradire.",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "weather-05",
+      "label": "cielo_terso_fujiyama",
+      "label_en": "clear_sky_fujiyama",
+      "type": "sacred_mountain_sky",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il Fujiyama visto dall'oblò",
+      "kokyu": "il ritmo della resa",
+      "yūgen": "la montagna non conclude il romanzo ma rende visibile ciò che è già stato deciso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Fujiyama non genera il campo; lo manifesta"
+      },
+      "affects": {
+        "weather-01": "il cielo terso del Fujiyama retroagisce sul grigio parigino: Philip ha attraversato tutto questo campo per arrivare a piangere davanti a una montagna"
+      },
+      "textual_anchor_it": "La fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 5,
+    "dominant_field": "weather-02",
+    "secondary_field": "weather-04",
+    "narrative_model": "cinque climi: superficie parigina, mondo fluttuante, sospensione intima, responsabilità amorosa, manifestazione finale nel Fujiyama",
+    "global_effect": "il romanzo non termina nel paesaggio ma nell'atmosfera etica che il paesaggio rende visibile",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeTransition v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
