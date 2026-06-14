@@ -1,0 +1,223 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a contemplative perceptual field in which impossible love emerges from a deeper structure of recognition, distance and contemplation. The diaphragm is not an obstacle but the perceptual condition that allows desire, beauty and knowledge to exist. Philip does not fail to possess what he loves: he inhabits the distance that makes recognition possible. Renunciation is not defeat but transformation. Beauty that cannot be shared remains the permanent residue of the field.",
+  "node_classes": {
+    "scene": "diaphragm_configuration",
+    "object": "perceptual_operator",
+    "ritual": "contemplation_practice",
+    "transition": "interior_threshold_crossing",
+    "silence": "structural_impossibility_void",
+    "weather": "perceptual_state_operator",
+    "field": "perceptual_generator",
+    "meta_state": "system_wide_irresolvable_accumulator"
+  },
+  "layers": {
+    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05"],
+    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05", "object-06", "object-07"],
+    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05"],
+    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06"],
+    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05", "ritual-06"],
+    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05"],
+    "perceptual_fields": ["field-01", "field-02", "field-03", "field-04", "field-05"]
+  },
+  "topology": {
+    "core_field": "field-05",
+    "system_shape": "impossible_vision_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "diaframma_come_condizione",
+        "nodes": ["object-01", "ritual-02", "scene-01", "field-01"],
+        "type": "structural_diaphragm_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "The diaphragm is the founding condition of the system. The window, the curtain, the airplane glass and the distance from Aiko are not barriers but generators of perception. Desire survives because distance survives.",
+        "description": "Distance is the condition of love and perception."
+      },
+      {
+        "id": "loop-02",
+        "label": "riconoscimento_precede_amore",
+        "nodes": ["field-05", "silence-05", "scene-03", "ritual-01"],
+        "type": "recognition_first_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "Recognition precedes love and makes it possible. Philip does not fall in love with Aiko: he recognises her. Aiko has already built Philip interiorly before meeting him. The recognition is reciprocal and operates before any conscious decision.",
+        "description": "Recognition precedes love: the system's deepest generator."
+      },
+      {
+        "id": "loop-03",
+        "label": "ukiyo_e_phantom_double",
+        "nodes": ["object-02", "object-03", "weather-02", "field-02"],
+        "type": "visual_recognition_loop",
+        "stability": "permanent_active",
+        "propagation_logic": "The Ukiyo-e field transforms Philip's perception. Hiroshige activates a visual grammar through which recognition becomes possible. Murasaki, Mercedes and Aiko emerge as manifestations of the same perceptual structure.",
+        "description": "Recognition emerges from the floating world."
+      },
+      {
+        "id": "loop-04",
+        "label": "compimento_separazione_etica",
+        "nodes": ["object-04", "ritual-06", "scene-04", "transition-04"],
+        "type": "fulfilment_renunciation_loop",
+        "stability": "terminal_permanent",
+        "propagation_logic": "Fulfilment and separation occur simultaneously. The love is realised precisely because it is not transformed into possession. The transition from recognition to responsibility makes renunciation an ethical act, not a defeat. Fujita's innocence stabilises the ethical dimension of the field.",
+        "description": "Love survives because it refuses appropriation and assumes responsibility."
+      },
+      {
+        "id": "loop-05",
+        "label": "bellezza_non_condivisibile",
+        "nodes": ["silence-03", "object-05", "scene-05", "field-04"],
+        "type": "uncondivisible_beauty_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "Beauty accumulates through every stage of the novel and reaches its maximum intensity before the Fujiyama. What cannot be shared becomes what cannot disappear.",
+        "description": "Beauty becomes a permanent wound of light."
+      },
+      {
+        "id": "loop-06",
+        "label": "contemplazione_trasformativa",
+        "nodes": ["ritual-03", "weather-02", "field-02", "scene-02"],
+        "type": "contemplative_transformation_loop",
+        "stability": "permanent_active",
+        "propagation_logic": "Philip is transformed not through action but through prolonged contemplation. The Ukiyo-e field alters perception before it alters narrative events. Looking becomes a mode of becoming.",
+        "description": "Contemplation produces identity transformation."
+      },
+      {
+        "id": "loop-07",
+        "label": "giappone_come_ritorno",
+        "nodes": ["ritual-05", "scene-05", "object-05", "weather-05"],
+        "type": "pilgrimage_return_loop",
+        "stability": "iterative_permanent",
+        "propagation_logic": "Japan is not a destination but a recurring perceptual state. Every return deepens the field and reinforces the contemplative structure.",
+        "description": "Japan is the geography of recognition."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "field-05",
+      "to": "all",
+      "effect": "recognition_as_system_foundation",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "recognition precedes and generates all other fields in the system"
+    },
+    {
+      "from": "field-01",
+      "to": "all",
+      "effect": "diaphragm_as_universal_structural_condition",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every element of the system is filtered through distance and perception"
+    },
+    {
+      "from": "silence-02",
+      "to": "object-04",
+      "effect": "fujita_unknowing_makes_renunciation_moral",
+      "propagation_mode": "structural",
+      "intensity": 0.99,
+      "stability_impact": "without Fujita's innocence the renunciation would lose ethical necessity"
+    },
+    {
+      "from": "object-02",
+      "to": "object-03",
+      "effect": "hiroshige_activates_murasaki_phantom",
+      "propagation_mode": "retroactive",
+      "intensity": 0.98,
+      "stability_impact": "the xylography activates the recognition field"
+    },
+    {
+      "from": "object-05",
+      "to": "field-01",
+      "effect": "fujiyama_closes_diaphragm_loop_with_tears",
+      "propagation_mode": "terminal",
+      "intensity": 0.99,
+      "stability_impact": "the final glass repeats the first glass and completes the perceptual arc"
+    },
+    {
+      "from": "weather-02",
+      "to": "all",
+      "effect": "ukiyo_e_field_as_perceptual_substrate",
+      "propagation_mode": "structural",
+      "intensity": 0.97,
+      "stability_impact": "the floating world atmosphere underlies the entire system"
+    },
+    {
+      "from": "object-07",
+      "to": "scene-04",
+      "effect": "forbidden_colours_loop_dilates_compimento_field",
+      "propagation_mode": "temporal",
+      "intensity": 0.96,
+      "stability_impact": "the musical loop extends the afternoon at Rue Royal beyond clock time"
+    },
+    {
+      "from": "silence-05",
+      "to": "field-05",
+      "effect": "nameless_recognition_feeds_recognition_field",
+      "propagation_mode": "structural",
+      "intensity": 0.97,
+      "stability_impact": "the silence before words confirms that recognition precedes language"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "contemplation_active_recognition_sustained",
+    "allowed_mutations": [
+      "obsession_intensification",
+      "xylography_recognition_activation",
+      "phantom_double_superimposition",
+      "social_surface_maintenance",
+      "reciprocal_recognition_emergence",
+      "intimate_field_opening",
+      "recognition_to_responsibility_transition",
+      "compimento_renunciation_simultaneous",
+      "beauty_accumulation",
+      "fujiyama_tears_release",
+      "japan_return_iteration",
+      "contemplative_transformation",
+      "musical_loop_time_dilation"
+    ],
+    "forbidden_states": [
+      "diaphragm_as_obstacle_to_overcome",
+      "renunciation_as_narrative_defeat",
+      "impossible_love_as_pathology",
+      "japan_as_geographic_destination_only",
+      "beauty_as_shared_universal_language",
+      "fujita_as_antagonist",
+      "recognition_as_one_directional",
+      "aiko_as_passive_object_of_desire"
+    ]
+  },
+  "reader_position": "participant_in_contemplative_field",
+  "global_state": {
+    "dominant_field": "field-05",
+    "secondary_field": "field-01",
+    "topological_generator": "loop-02",
+    "terminal_operator": "loop-05",
+    "stability": "contemplative_metastable",
+    "closure": false,
+    "closure_type": "recognition_as_permanent_distance",
+    "system_behavior": "The system sustains a contemplative perceptual field in which impossible love emerges as one expression of a deeper structure of recognition. The diaphragm is not an obstacle but a perceptual condition. Recognition precedes possession. Aiko is not the object of Philip's desire but its co-generator: the recognition is reciprocal. Contemplation precedes action. Beauty remains irreducible. The novel closes when Philip finally accepts that distance itself can become a dwelling place.",
+    "reader_effect": "The reader is progressively initiated into Philip's mode of perception. The novel does not merely tell a story of impossible love. It teaches a contemplative relationship with absence, beauty and recognition. The mirror structure — curtain at Place Vendôme, glass at the oblò — is perceived only after the last page.",
+    "catalog_connection": {
+      "a_glass_bridge_between_two_worlds": "both systems are founded on a bilateral perceptual field where separation generates knowledge rather than resolution; beauty as shared epistemic limit in both",
+      "il_demone_samurai": "same author Hélène Blignaut; Japan functions as a perceptual and symbolic state rather than a geographical destination",
+      "assolutamente_giappone": "same author; Japan appears as a field of inexhaustible recognition rather than an object of possession"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "field-05",
+    "generator_loop": "loop-02",
+    "terminal_loop": "loop-05",
+    "narrative_model": "riconoscimento reciproco che precede l'amore, diaframma strutturale, contemplazione trasformativa, compimento-rinuncia come atto etico simultaneo, Aiko come co-generatrice del campo, bellezza non condivisibile come residuo permanente",
+    "stability": "contemplative_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1 / PerceptualField v4.1"
+  }
+}
