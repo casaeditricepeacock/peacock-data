@@ -1,0 +1,157 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "print_identity": "romanzo formato A5, struttura a capitoli numerati in romano, prosa densa con dialoghi diretti; il titolo in inglese dichiara il campo sonoro prima dell'apertura; la struttura speculare tra tenda e oblò non viene dichiarata ma percepita retroattivamente",
+  "print_types": {
+    "english_title": "il titolo in inglese come campo semantico e sonoro: Forbidden Colours è il titolo della canzone di Sakamoto; il romanzo porta il proprio campo musicale già in copertina",
+    "roman_chapters": "capitoli numerati in numeri romani come struttura portante: la gravità del classico come contenitore della modernità del campo interiore",
+    "dense_prose": "prosa densa con lunghi periodi e dialoghi diretti; il ritmo della scrittura replica il ritmo interiore di Philip; la geometria del romanzo è nascosta, non esibita",
+    "a5_format": "formato A5 come oggetto del privato: compatto, denso, da tenere in una mano",
+    "reflective_structure": "struttura speculare tra apertura e chiusura: la tenda di Place Vendôme e il vetro dell'oblò come due manifestazioni dello stesso gesto"
+  },
+  "editorial_principle": "L'oggetto-libro di Forbidden Colours porta il campo del romanzo già nel titolo. Il formato A5 è il formato del privato. I capitoli in numeri romani scandiscono il tempo con la gravità del classico. La prosa densa nasconde la geometria del romanzo invece di esibirla. La struttura speculare tra tenda e oblò non viene mai dichiarata: il lettore la percepisce solo dopo l'ultima pagina.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "titolo_in_inglese",
+      "label_en": "english_title_field",
+      "type": "english_title",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "il titolo Forbidden Colours come campo semantico che precede la lettura: chi conosce la canzone di Sakamoto entra nel romanzo con il campo sonoro già attivo; chi non la conosce la cercherà",
+      "kokyu": "il ritmo del titolo inglese in un romanzo italiano è quello dello straniamento produttivo: la lingua proibita come segnale che il campo attraversa più culture",
+      "yūgen": "My love wears forbidden colours: il titolo è un verso della canzone; il romanzo porta il desiderio impossibile già nel nome",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il titolo attiva un campo sonoro che il libro non può contenere: Forbidden Colours di Sakamoto esiste fuori dal testo e il testo ne dipende"
+      },
+      "affects": {
+        "print-05": "il titolo anticipa il sistema speculare tra desiderio e rinuncia che la struttura del romanzo porta a compimento"
+      },
+      "textual_anchor_it": "Forbidden Colours — Hélène Blignaut.",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "capitoli_numeri_romani",
+      "label_en": "roman_numeral_chapters",
+      "type": "roman_chapters",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "i numeri romani come campo visivo della progressione: I, II... XXX; la struttura classica come contenitore della modernità del campo interiore",
+      "kokyu": "il ritmo dei numeri romani è quello della gravità: ogni capitolo ha il peso di una pietra; la numerazione non accelera né rallenta",
+      "yūgen": "trenta capitoli come trenta configurazioni del diaframma: il numero non viene annunciato ma percepito come struttura portante",
+      "textual_anchor_it": "I — Parigi. XXX.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "print-03",
+      "label": "prosa_densa",
+      "label_en": "dense_prose",
+      "type": "dense_prose",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la prosa di Blignaut come campo fisico della pagina: periodi lunghi, subordinate, dialoghi diretti incastonati nella narrazione; il campo interiore di Philip occupa ogni riga",
+      "kokyu": "il ritmo della prosa è quello della riflessione in movimento: la frase si sviluppa mentre Philip pensa; il pensiero non precede la scrittura, la accompagna",
+      "yūgen": "la prosa densa nasconde la geometria speculare del romanzo: il lettore non vede la struttura mentre la attraversa; la percepisce solo alla fine",
+      "affects": {
+        "print-05": "la prosa densa nasconde la struttura speculare invece di esibirla; la simmetria opera sotto la superficie"
+      },
+      "textual_anchor_it": "A volte, avvertiva una insolubile infelicità ed anche questo termine non era esatto.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "print-04",
+      "label": "formato_a5_privato",
+      "label_en": "private_a5_format",
+      "type": "a5_format",
+      "intensity": 0.92,
+      "perceptual_weight": 0.91,
+      "basho": "il formato A5 come campo fisico del privato: abbastanza piccolo da tenere in una mano, abbastanza grande da contenere trenta capitoli densi",
+      "kokyu": "il ritmo del formato A5 è quello della lettura personale: non si legge in pubblico come un libro da tavolo, si legge tenendolo in mano",
+      "yūgen": "il formato A5 non viene dichiarato nel testo: agisce come campo fisico che il lettore percepisce nel momento in cui prende il libro in mano",
+      "textual_anchor_it": "Formato A5 — Casa Editrice Peacock, 2025.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "print-05",
+      "label": "romanzo_specchio",
+      "label_en": "mirror_novel_structure",
+      "type": "reflective_structure",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "dominant": true,
+      "basho": "l'intero corpo del romanzo: apertura alla finestra di Place Vendôme e chiusura all'oblò dell'aereo; due vetri, due sguardi, un'unica struttura riflessa",
+      "kokyu": "il ritmo è quello della ripetizione trasformata: il lettore incontra più volte lo stesso gesto sotto forme differenti — guardare, contemplare, attendere, ricordare",
+      "yūgen": "la struttura non dichiara mai apertamente la propria simmetria; il lettore la percepisce retroattivamente solo dopo l'ultima pagina",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il romanzo non si chiude davvero nel Fujiyama ma nel riconoscimento della propria struttura speculare; la ferita resta attiva oltre la lettura"
+      },
+      "affects": {
+        "print-01": "il titolo Forbidden Colours anticipa il sistema speculare tra desiderio e rinuncia",
+        "print-03": "la prosa densa nasconde la geometria del romanzo invece di esibirla"
+      },
+      "textual_anchor_it": "Restava fermo dietro una tenda. / La fronte incollata al vetro dell'oblò.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "mirror_opening",
+      "note": "la tenda di Place Vendôme come primo specchio: il gesto che la struttura ripeterà nell'oblò"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "xylography_pivot",
+      "note": "la xilografia come campo visivo che connette arte, memoria e desiderio; pivot strutturale del romanzo"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "reciprocal_recognition_surface",
+      "note": "il ristorante come superficie mondana sotto cui opera il riconoscimento reciproco"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "compimento_renunciation_core",
+      "note": "Rue Royal come nucleo del romanzo: il compimento e la rinuncia come atto simultaneo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "mirror_closure",
+      "note": "il vetro dell'oblò come secondo specchio: chiude la struttura aperta dalla tenda di Place Vendôme; Philip ha sempre guardato attraverso un vetro, ora piange"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie testuale",
+    "contains": [
+      "la canzone di Sakamoto come campo sonoro che il libro non può contenere ma da cui dipende",
+      "la struttura speculare tenda-oblò che opera sotto la prosa senza essere dichiarata",
+      "il silenzio di Fujita come campo che regge tutta la struttura etica del romanzo senza apparire",
+      "la nuova rivoluzione familiare di Philip come campo futuro aperto oltre la chiusura"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 5,
+    "dominant_field": "print-05",
+    "secondary_field": "print-01",
+    "narrative_model": "cinque strati fisici: titolo inglese come campo sonoro dichiarato, capitoli romani come struttura classica, prosa densa come campo interiore nascosto, formato A5 come oggetto privato, struttura speculare come architettura invisibile del romanzo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
