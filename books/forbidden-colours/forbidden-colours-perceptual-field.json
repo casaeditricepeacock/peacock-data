@@ -1,0 +1,156 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Forbidden Colours non racconta un amore proibito. Produce un campo in cui il riconoscimento precede l'amore e l'impossibilità ne garantisce la permanenza. Philip non rinuncia ad Aiko perché non può averla: rinuncia perché averla dissolverebbe il campo. Il diaframma non è l'ostacolo: è la struttura.",
+  "dominant_field": "field-05",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_diaframma_strutturale",
+      "type": "spatial_field",
+      "basho": "la tenda di Place Vendôme, il vetro dell'oblò, la distanza da Aiko dopo Rue Royal",
+      "kokyu": "fissità mobile: Philip si muove nel mondo ma la distanza strutturale resta costante",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni volta che Philip guarda attraverso una superficie; massima attivazione nell'oblò davanti al Fujiyama",
+      "persistence_rule": "strutturale e permanente: il diaframma non si dissolve in nessun punto del romanzo",
+      "dissolution_rule": "non dissolvibile: il diaframma è la condizione ontologica del campo; rimuoverlo dissolverebbe il sistema",
+      "field_logic": "diaphragm_as_love_condition_not_obstacle",
+      "affects": {
+        "field-05": "il diaframma è la forma spaziale del riconoscimento: si riconosce attraverso una superficie, non nel contatto diretto"
+      },
+      "textual_anchor_it": "Restava fermo, un po' nascosto dalla tenda pesante per non essere visto. La fronte incollata al vetro dell'oblò."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_doppio_fantasmatico",
+      "type": "cognitive_field",
+      "basho": "Murasaki Shikibu sovrapposta a Mercedes e poi ad Aiko",
+      "kokyu": "sovrapposizione istantanea seguita da lenta conferma",
+      "yūgen_level": 0.98,
+      "activation_condition": "ogni apparizione di Mercedes o Aiko; massima attivazione nella sovrapposizione con Murasaki Shikibu",
+      "persistence_rule": "retroattivo e cumulativo: ogni sovrapposizione consolida il campo",
+      "dissolution_rule": "non dissolvibile: il doppio fantasmatico è la forma che il desiderio di Philip prende strutturalmente",
+      "field_logic": "phantom_double_as_recognition_field",
+      "affects": {
+        "field-05": "trasforma il doppio fantasmatico da proiezione a riconoscimento: Murasaki orienta il campo verso Aiko"
+      },
+      "textual_anchor_it": "Aveva sovrapposto l'icona di Murasaki Shikibu."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_compimento_impossibile",
+      "type": "relational_field",
+      "basho": "Rue Royal come luogo del compimento-separazione",
+      "kokyu": "lentezza massima: il tempo si dilata per contenere tutto ciò che non potrà essere ripetuto",
+      "yūgen_level": 1.0,
+      "activation_condition": "la proposta di Philip; massima attivazione nella formula oggi per sempre e nella risposta di Aiko",
+      "persistence_rule": "permanente come memoria: il pomeriggio di Rue Royal continua nell'anima separata di Philip e Aiko",
+      "dissolution_rule": "non dissolvibile: il compimento impossibile è il nucleo del sistema",
+      "field_logic": "love_fulfilled_through_renunciation",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ciò che avviene tra Philip e Aiko nel letto non viene descritto: il campo si chiude sulla soglia del corpo e si apre sull'anima"
+      },
+      "affects": {
+        "field-04": "il compimento impossibile produce la bellezza non condivisibile: ciò che Philip ha vissuto non può essere raccontato"
+      },
+      "textual_anchor_it": "Oggi sarà tutti i nostri oggi."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_bellezza_non_condivisibile",
+      "type": "residual_field",
+      "basho": "il Fujiyama dall'oblò; la bellezza di Aiko; i viaggi in Giappone con Armand",
+      "kokyu": "intermittenza: a volte, quando ci si lascia andare; poi infrequentabile perché la ferita duole al solo sfiorarla",
+      "yūgen_level": 0.99,
+      "activation_condition": "ogni momento di bellezza vissuta in solitudine o in separazione; massima attivazione davanti al Fujiyama",
+      "persistence_rule": "permanente come ferita: la bellezza non condivisibile resta come campo attivo nell'intimo di Philip",
+      "dissolution_rule": "non dissolvibile: il campo della bellezza non condivisibile è la forma finale del diaframma",
+      "field_logic": "beauty_as_irresolvable_wound",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ferita di luce non può essere trasferita: resta come residuo massimo del sistema oltre la chiusura del romanzo"
+      },
+      "affects": {
+        "field-01": "la bellezza non condivisibile retroagisce sul diaframma: il vetro non è ostacolo ma condizione della bellezza"
+      },
+      "textual_anchor_it": "C'è una bellezza che non si può condividere."
+    },
+    {
+      "id": "field-05",
+      "label": "campo_riconoscimento",
+      "label_en": "recognition_field",
+      "type": "ontological_field",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "lo spazio invisibile tra Philip e Aiko nel momento in cui si riconoscono",
+      "kokyu": "istantaneo nel momento del riconoscimento, infinito nella durata",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni volta che Philip incontra qualcuno che sembra provenire da un tempo precedente alla conoscenza reale",
+      "persistence_rule": "retroattivo e permanente: il riconoscimento non decade",
+      "dissolution_rule": "non dissolvibile: il campo del riconoscimento è la condizione ontologica del sistema",
+      "field_logic": "recognition_precedes_love",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il romanzo non spiega mai perché Philip riconosca Aiko: il riconoscimento è un evento misterioso strutturalmente necessario"
+      },
+      "affects": {
+        "field-01": "giustifica la permanenza del diaframma: chi riconosce non ha bisogno di possedere",
+        "field-02": "trasforma il doppio fantasmatico da proiezione a riconoscimento",
+        "field-03": "rende possibile il compimento immediato: chi si è già riconosciuto non ha bisogno di costruire una relazione"
+      },
+      "textual_anchor_it": "Ti vidi là e ti riconobbi. Ti avevo sempre vista."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-05",
+    "secondary": ["field-01", "field-03"],
+    "support": ["field-02", "field-04"]
+  },
+  "system_note": {
+    "field_count": 5,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "diaphragm_as_obstacle_to_overcome",
+      "impossible_love_as_tragedy",
+      "renunciation_as_defeat",
+      "phantom_double_as_psychological_pathology",
+      "beauty_as_shared_universal_language",
+      "love_as_progressive_construction",
+      "knowledge_precedes_recognition"
+    ],
+    "system_behavior": "il sistema produce un campo in cui il riconoscimento precede l'amore e l'impossibilità ne garantisce la permanenza; il diaframma fonda la distanza, il doppio fantasmatico orienta il desiderio, il compimento impossibile lo realizza nella separazione, la bellezza non condivisibile lo prolunga oltre il romanzo",
+    "field_sequence": [
+      "field-05 riconoscimento",
+      "field-01 diaframma",
+      "field-02 doppio fantasmatico",
+      "field-03 compimento impossibile",
+      "field-04 bellezza non condivisibile"
+    ],
+    "closure_type": "recognition_as_permanent_distance",
+    "compatibility": [
+      "NarrativeObject v4.1",
+      "NarrativeScene v4.1",
+      "NarrativeSilence v4.1",
+      "NarrativeTransition v4.1",
+      "NarrativeWeather v4.1",
+      "NarrativePrintLayer v4.1",
+      "NarrativeSystemGraph v4.1"
+    ]
+  }
+}
