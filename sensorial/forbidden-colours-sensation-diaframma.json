@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-10-3",
+    "year": 2025
+  },
+  "sensory_theme": "visione_attraverso_superficie",
+  "experience_type": "contemplazione_della_distanza",
+  "dominant_sense": "vista",
+  "activation_condition": "ogni volta che Philip guarda attraverso un vetro, una tenda, un oblò; massima attivazione nell'ultimo gesto del romanzo — la fronte incollata al vetro dell'oblò davanti al Fujiyama",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "tenda_di_place_vendome",
+      "basho": "il corpo fermo dietro la tenda pesante: la testa leggermente inclinata, gli occhi che cercano un punto fisso oltre il tessuto; la tenda filtra senza bloccare — il palazzo di fronte esiste come campo seminascosto",
+      "kokyu": "il ritmo è quello della veglia immobile: il respiro si fa lento, la postura si irrigidisce nel tempo; minuti che diventano ore senza che il corpo se ne accorga",
+      "yūgen": "ciò che si vede attraverso la tenda è meno nitido di ciò che si immagina; il diaframma produce più campo di quanto lo sguardo diretto potrebbe generare",
+      "japanese_echo": "ma — lo spazio tra le cose come campo attivo; il vuoto che non è assenza ma presenza sospesa",
+      "poetic_anchor": "guardare è già un modo di toccare ciò che non si può raggiungere"
+    },
+    {
+      "id": "sensation-02",
+      "label": "vetro_dell_oblo",
+      "basho": "la fronte fredda contro il vetro curvato dell'oblò: il contatto fisico con la superficie come unico punto di connessione con il Fujiyama all'orizzonte; fuori il cielo terso, dentro il calore dell'aereo",
+      "kokyu": "il ritmo è quello della resa silenziosa: il corpo si abbandona al vetro, la tensione accumulata in tutto il romanzo trova finalmente una superficie su cui appoggiarsi",
+      "yūgen": "la montagna non si avvicina né si allontana; resta dove è, padrone dell'orizzonte; il vetro non è ostacolo ma membrana che rende visibile la distanza insuperabile",
+      "japanese_echo": "Fujiyama come manifestazione del sacro che non si possiede ma si contempla; la montagna come campo che non richiede avvicinamento",
+      "poetic_anchor": "la fronte sul vetro è il gesto più intimo del romanzo: il corpo che chiede alla superficie di trasmettere ciò che non può contenere"
+    }
+  ],
+  "reader_effect": "il lettore riconosce nel proprio corpo la postura della veglia: la tendenza a fermarsi davanti a una finestra, a cercare qualcosa oltre il vetro senza sapere cosa; il romanzo attiva una memoria fisica della distanza contemplata",
+  "philosophical_layer": {
+    "core_concept": "il diaframma come condizione della visione intensa: ciò che si vede attraverso una superficie è percepito con più forza di ciò che si tocca direttamente; la distanza non riduce il campo ma lo concentra",
+    "japanese_resonance": "ma e yūgen — lo spazio tra le cose come generatore di profondità; il mondo fluttuante dell'Ukiyo-e come sistema visivo costruito sulla distanza contemplativa",
+    "western_resonance": "la finestra nella pittura fiamminga come soglia tra interno ed esterno; l'oblò come versione moderna della stessa struttura — Philip appartiene a entrambe le tradizioni"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il gesto della fronte sul vetro non si esaurisce nella lettura: resta come campo fisico attivo nel lettore; ogni finestra, ogni oblò, ogni superficie trasparente può riattivarla"
+  },
+  "closure": "cosa vedi quando guardi attraverso un vetro che non puoi aprire?"
+}
