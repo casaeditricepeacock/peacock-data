@@ -1,0 +1,131 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "system_axis": {
+    "primary_tension": "paura_vs_ciclo_naturale",
+    "temporal_axis": "circular_not_linear",
+    "narrative_logic": "le scene non sono tappe di un percorso verso la guarigione: sono fasi del ciclo dell'acqua vissute dall'interno; il sistema non progredisce verso una meta ma si rinnova"
+  },
+  "editorial_principle": "Le scene del nuvolotto Ciro non sono capitoli di una storia di crescita. Sono configurazioni del ciclo: ogni scena è una fase del ciclo dell'acqua abitata da una nuvola con la vertigine. Il sistema si chiude come si apre. La trasformazione non è lineare ma circolare.",
+  "scene_types": {
+    "origin_field": "la nascita nel ciclo come campo di partenza",
+    "fear_field": "l'incontro con la paura come campo ricorrente",
+    "encounter_field": "gli incontri in volo come soglie percettive",
+    "paradox_field": "l'incontro con Cumulina come campo della soluzione impossibile",
+    "dissolution_field": "il pianto come campo della trasformazione",
+    "rebirth_field": "la rinascita come campo circolare che chiude e riapre il ciclo"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "nascita_e_prima_paura",
+      "type": "origin_field",
+      "dominant": false,
+      "basho": "il cielo come campo di nascita e primo campo ostile: Ciro nasce, apre gli occhi, guarda giù; il paradosso si manifesta immediatamente — la nuvola teme il proprio elemento",
+      "kokyu": "il ritmo è quello della scoperta immediata: nascita e paura avvengono nello stesso campo senza pausa",
+      "yūgen": "oggi, tra le altre, è nato il nuvolotto Ciro: la nascita è ordinaria nel ciclo ma il nome la distingue; ogni nuvola nasce così, solo Ciro ha la vertigine",
+      "affects": {
+        "scene-06": "la prima scena retroagisce sulla rinascita: stesso incipit, campo trasformato"
+      },
+      "textual_anchor_it": "Oggi, tra le altre, è nato il nuvolotto Ciro. Appena aperti gli occhi, ha guardato a terra e... ha avuto paura.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02",
+      "label": "volo_del_vento_e_citta",
+      "type": "fear_field",
+      "basho": "il vento porta Ciro sulla città: case, strade viste dall'alto; Ciro chiude gli occhi e trema; il campo della paura si espande su ogni paesaggio",
+      "kokyu": "il ritmo è quello della fuga impossibile: Ciro tenta di scendere, il vento lo riporta su; il campo non permette l'uscita",
+      "yūgen": "Ciro non vede i campi e i prati perché ha gli occhi chiusi: il campo visivo è negato dalla paura; il paesaggio esiste ma non viene percepito",
+      "affects": {
+        "scene-03": "il volo forzato prepara gli incontri: il vento porta Ciro verso le soglie successive"
+      },
+      "textual_anchor_it": "Come sono lontane! Ahi, ahi, ho paura! Passa sopra campi e prati, ma non li vede, ha gli occhi chiusi e trema spaventato.",
+      "glossary_link": ["ma", "kokyu"]
+    },
+    {
+      "id": "scene-03",
+      "label": "aereo_e_solletico",
+      "type": "encounter_field",
+      "basho": "il piccolo aereo bianco e rosso che si infila nel nuvolotto: il primo incontro produce riso invece di paura; il solletico come campo percettivo alternativo alla vertigine",
+      "kokyu": "il ritmo è quello dell'irruption comica: lo stesso ritmo del tremore ma con segno opposto; il riso e il tremore hanno la stessa struttura corporea",
+      "yūgen": "per un attimo Ciro dimentica la paura: il campo del riso sostituisce temporaneamente il campo della vertigine; ma il vento riporta tutto come prima",
+      "affects": {
+        "scene-04": "la dimenticanza temporanea della paura mostra che il campo può essere interrotto; prepara la soluzione paradossale"
+      },
+      "textual_anchor_it": "Ah ah ah... mi fai il solletico! E la paura? Per un attimo l'ha dimenticata!",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "scene-04",
+      "label": "temporale_e_fulmine",
+      "type": "fear_field",
+      "basho": "il temporale come campo di massima paura: SKRAK — un fulmine attraversa Ciro; il campo raggiunge la sua intensità più alta prima della soluzione",
+      "kokyu": "il ritmo del temporale è quello dell'impatto fisico: il fulmine non si annuncia, arriva; il campo si rompe e si ricompone",
+      "yūgen": "il fulmine attraversa Ciro senza distruggerlo: la paura massima non produce la fine ma prepara la soglia della trasformazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il fulmine non dissolva Ciro come poi farà il pianto: il sistema non spiega la differenza tra i due tipi di dissoluzione"
+      },
+      "affects": {
+        "scene-05": "il temporale porta Ciro alla brezza che lo conduce da Cumulina: la paura massima produce il movimento verso la soluzione"
+      },
+      "textual_anchor_it": "SKRAK! Un fulmine lo attraversa tutto. Ciro trema e chiude gli occhi aspettando che il vento lo porti via.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-05",
+      "label": "cumulina_e_il_paradosso",
+      "type": "paradox_field",
+      "dominant": true,
+      "basho": "l'incontro con Cumulina: Ciro chiede come guarire, Cumulina risponde con il paradosso; il campo si inverte — più paura, non meno",
+      "kokyu": "il ritmo è quello della risposta breve e definitiva: una frase, un paradosso, il silenzio del non detto",
+      "yūgen": "non ti dico altro: Cumulina tace la parte essenziale; il sistema lascia uno spazio che solo l'esperienza può riempire",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Cumulina avrebbe detto resta aperto: il non detto è parte strutturale del campo"
+      },
+      "affects": {
+        "scene-06": "il paradosso attiva il pianto e la dissoluzione che portano alla rinascita"
+      },
+      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!",
+      "glossary_link": ["yūgen", "kokyu", "ma"]
+    },
+    {
+      "id": "scene-06",
+      "label": "rinascita_circolare",
+      "type": "rebirth_field",
+      "basho": "il secondo incipit: le stesse parole, il cielo identico, Ciro che nasce di nuovo; il campo è circolare — il libro si chiude dove si apre ma il campo è trasformato",
+      "kokyu": "il ritmo della rinascita è quello del riconoscimento: stesse parole, ritmo identico, sorriso al posto del tremore",
+      "yūgen": "il lettore riconosce le parole dell'incipit: la circolarità non viene annunciata, viene percepita; la struttura si rivela retroattivamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la memoria del ciclo precedente resta aperta: Cumulina riconosce Ciro, Ciro forse no; il sistema non chiude questa questione"
+      },
+      "affects": {
+        "scene-01": "la rinascita retroagisce sulla prima nascita: il ciclo si è compiuto; la stessa apertura porta un campo diverso"
+      },
+      "textual_anchor_it": "Oggi, tra le altre nuvole, è nato... il nuvolotto Ciro. Appena aperti gli occhi, ha guardato a terra ed... ha sorriso, felice!",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 6,
+    "dominant_field": "scene-05",
+    "system_state": "ciclo_circolare_con_trasformazione_interna",
+    "narrative_model": "sei scene come fasi del ciclo: nascita — paura — incontro comico — paura massima — paradosso — rinascita; il sistema non è lineare ma circolare",
+    "retroactive_causality": true,
+    "circular_structure": "scene-06 retroagisce su scene-01: le stesse parole, il campo trasformato; la circolarità è percepita solo alla fine",
+    "global_effect": "il ciclo dell'acqua governa la struttura narrativa: ogni scena corrisponde a una fase del ciclo; il sistema si rinnova senza perdita"
+  }
+}
