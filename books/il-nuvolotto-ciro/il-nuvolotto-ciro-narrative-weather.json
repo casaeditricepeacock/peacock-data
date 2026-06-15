@@ -1,0 +1,132 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "weather_types": {
+    "calm_generative": "il bel tempo come campo generativo: sole, mare calmo, vapore che sale — il clima che produce il ciclo",
+    "vertigo_sky": "il cielo visto dalla paura: lo stesso spazio percepito come campo ostile",
+    "storm_field": "il temporale come campo di massima intensità climatica e emotiva",
+    "gentle_breeze": "la brezza delicata come campo di transizione: dopo la tempesta, verso Cumulina",
+    "chromatic_sunset": "il tramonto come campo cromatico finale: rosso, giallo, amaranto — il ciclo continua oltre Ciro"
+  },
+  "editorial_principle": "Il clima del nuvolotto Ciro non è sfondo: è protagonista. Il sole genera il ciclo, il vento trasporta Ciro, il temporale lo attraversa, la brezza lo guida, il tramonto chiude il campo con i colori di domani. Il clima e la storia sono lo stesso campo — Ciro non è nella storia del meteo, è fatto di meteo.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "bel_tempo_generativo",
+      "label_en": "calm_generative_weather",
+      "type": "calm_generative",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il mare calmo e placido, il sole che scalda l'acqua, il vapore che sale: il campo climatico che genera il ciclo e quindi Ciro stesso; presente in apertura e in chiusura con le stesse parole",
+      "kokyu": "il ritmo del bel tempo è quello della costanza silente: non cambia, non si interrompe; è il campo di base su cui tutti gli altri si costruiscono",
+      "yūgen": "il bel tempo non viene descritto come bello: viene dichiarato come stato; è bel tempo — affermazione senza aggettivi ulteriori; la bellezza è nella struttura del ciclo che produce",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il bel tempo continua oltre la chiusura del libro: il ciclo non si ferma; domani sarà ancora una bella giornata"
+      },
+      "affects": {
+        "weather-02": "il bel tempo produce il cielo in cui Ciro nasce con la vertigine: lo stesso campo genera sia la nuvola che la sua paura"
+      },
+      "textual_anchor_it": "E' bel tempo, il mare è calmo e placido. Il calore del sole scalda l'acqua con i suoi raggi infuocati.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "weather-02",
+      "label": "cielo_della_vertigine",
+      "label_en": "vertigo_sky",
+      "type": "vertigo_sky",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il cielo come campo ostile percepito da dentro: Ciro è nuvola ma non può guardare in basso; il campo visivo della vertigine trasforma il cielo da elemento naturale a campo di paura",
+      "kokyu": "il ritmo del cielo della vertigine è quello del tremore: irregolare, interrotto, con gli occhi chiusi",
+      "yūgen": "lo stesso cielo è campo generativo per il sole e campo ostile per Ciro: il clima non cambia, cambia la percezione di chi lo abita dall'interno",
+      "affects": {
+        "weather-03": "il cielo della vertigine prepara il temporale come sua intensificazione: dalla paura ordinaria alla paura massima"
+      },
+      "textual_anchor_it": "Come sono lontane! Ahi, ahi, ho paura! Ha gli occhi chiusi e trema spaventato.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "weather-03",
+      "label": "temporale",
+      "label_en": "storm_field",
+      "type": "storm_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il temporale come campo di massima intensità: il vento forte e inquieto, il fulmine che attraversa Ciro, il tremore estremo; il campo climatico raggiunge il suo massimo",
+      "kokyu": "il ritmo del temporale è quello dell'impatto secco: SKRAK — onomatopea come cambio di ritmo assoluto; il campo non si annuncia, irrompe",
+      "yūgen": "il fulmine attraversa Ciro senza dissolverlo: la paura massima non produce la fine; il temporale è il campo che porta Ciro al limite senza superarlo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il fulmine non dissolva Ciro mentre il pianto sì: il sistema non spiega la differenza tra i due tipi di attraversamento"
+      },
+      "affects": {
+        "weather-04": "il temporale produce la brezza come campo successivo: il ciclo climatico procede verso la quiete"
+      },
+      "textual_anchor_it": "Il vento si fa più forte e inquieto. SKRAK! Un fulmine lo attraversa tutto.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "weather-04",
+      "label": "brezza_delicata",
+      "label_en": "gentle_breeze",
+      "type": "gentle_breeze",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la brezza delicata dopo il temporale: il campo climatico si ammorbidisce e porta Ciro verso Cumulina; il clima come operatore di transizione verso la soluzione",
+      "kokyu": "il ritmo della brezza è quello della morbidezza: soffio delicato — due parole che cambiano tutto il campo dopo il SKRAK del fulmine",
+      "yūgen": "la brezza porta Ciro dove deve andare senza che lui sappia dove sta andando: il clima sa prima di Ciro la direzione del ciclo",
+      "affects": {
+        "weather-05": "la brezza prepara il tramonto: il campo si apre verso la fine del ciclo giornaliero"
+      },
+      "textual_anchor_it": "Quando finalmente sente il soffio delicato di una brezza si ritrova sopra altri campi, sopra nuove città.",
+      "glossary_link": ["ma", "basho", "kokyu"]
+    },
+    {
+      "id": "weather-05",
+      "label": "tramonto_cromatico",
+      "label_en": "chromatic_sunset",
+      "type": "chromatic_sunset",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il sole che tramonta e colora di rosso, giallo, amaranto tutte le nuvole: il campo cromatico finale come annuncio che il ciclo continua oltre Ciro e Cumulina",
+      "kokyu": "il ritmo del tramonto è quello della dissolvenza: i colori si sovrappongono, le nuvole cambiano forma, il giorno si chiude",
+      "yūgen": "domani sarà ancora una bella giornata piena di luce e di nuvole: il tramonto non è fine ma promessa; il campo si apre verso il ciclo del giorno successivo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il tramonto chiude il libro ma non il ciclo: le nuvole di domani non sono descritte; il sistema rimane aperto"
+      },
+      "affects": {
+        "weather-01": "il tramonto retroagisce sul bel tempo iniziale: il ciclo si chiude su se stesso; domani il sole scalderà di nuovo il mare"
+      },
+      "textual_anchor_it": "Il sole tramonta e colora di rosso, giallo, amaranto tutte le nuvole; domani sarà ancora una bella giornata.",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 5,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — bel tempo generativo: il campo che produce il ciclo e Ciro",
+      "step_2": "weather-02 — cielo della vertigine: lo stesso campo percepito dalla paura",
+      "step_3": "weather-03 — temporale: il campo di massima intensità",
+      "step_4": "weather-04 — brezza delicata: il campo di transizione verso la soluzione",
+      "step_5": "weather-05 — tramonto cromatico: il campo finale che annuncia il ciclo di domani"
+    },
+    "narrative_model": "cinque campi climatici che replicano il ciclo: generazione — paura — massima intensità — transizione — chiusura cromatica; il clima è la storia, non il contesto",
+    "stability": "cyclical_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
