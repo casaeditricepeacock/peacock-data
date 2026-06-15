@@ -1,0 +1,134 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "silence_types": {
+    "technique_void": "il silenzio della tecnica assente: cosa Darma cucini esattamente non viene mai mostrato",
+    "abop_thought_void": "il silenzio del pensiero di ABOP: cosa l'AI registri e trasmetta non viene dichiarato",
+    "verification_void": "il silenzio della verifica: nessuno chiede a Darma le credenziali; il campo della simpatia le rende superflue",
+    "recipe_void": "il silenzio della ricetta: il manga mostra i dessert ma non il processo; il come resta fuori dal campo visivo",
+    "panel_gap": "il silenzio tra le vignette: il campo narrativo che esiste tra una tavola e la successiva"
+  },
+  "editorial_principle": "Il silenzio in AI ロボット ABOP è il silenzio di ciò che non serve essere detto perché la simpatia ha già operato. Le credenziali non vengono richieste. La tecnica non viene dimostrata. ABOP non dichiara il proprio pensiero. La ricetta non viene mostrata. Il manga porta questi silenzi come struttura visiva: il campo tra le vignette è silenzio narrativo attivo.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "tecnica_assente",
+      "label_en": "absent_technique",
+      "type": "technique_void",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il campo della cucina di Darma che non viene mai mostrato nel processo: si vede la presentazione, si vedono i dessert, non si vede il taglio delle patate che a mala pena sa fare",
+      "kokyu": "il ritmo della tecnica assente è quello dell'ellissi: il manga salta il processo e mostra il risultato; il silenzio tra la proposta e la tavola apparecchiata è il campo in cui la tecnica dovrebbe esistere",
+      "yūgen": "la tecnica mancante non viene dichiarata come mancanza: il campo della simpatia la rende irrilevante; il silenzio sulla tecnica è la condizione che permette al campo della simpatia di operare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Darma cucini esattamente e come non viene mai mostrato: il silenzio sulla tecnica è permanente e strutturale"
+      },
+      "affects": {
+        "silence-03": "il silenzio sulla tecnica è connesso al silenzio della verifica: nessuno chiede perché nessuno ha bisogno di sapere"
+      },
+      "textual_anchor_it": "A mala pena sapevo tagliare le patate.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "silence-02",
+      "label": "pensiero_di_abop",
+      "label_en": "abop_thought",
+      "type": "abop_thought_void",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "ABOP che osserva il campo della simpatia di Darma senza dichiarare cosa registri: il robot vola, emette bzzz bzzz, appare nelle vignette; il suo pensiero è il campo più denso e più chiuso del manga",
+      "kokyu": "il ritmo del silenzio di ABOP è quello della presenza senza parola: il robot è visivamente attivo ma narrativamente silente; la sua presenza amplifica il campo senza commentarlo",
+      "yūgen": "un'AI che osserva la simpatia umana senza poterla replicare e senza dichiarare cosa stia pensando: il silenzio di ABOP è il campo più misterioso del sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il pensiero di ABOP sul campo della simpatia resta permanentemente chiuso: è il residuo più denso del manga"
+      },
+      "affects": {
+        "silence-01": "il silenzio di ABOP amplifica il silenzio sulla tecnica: l'AI osserva esattamente ciò che non viene mostrato"
+      },
+      "textual_anchor_it": "BZZZ, BZZZ — AI ロボット ABOP",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "silence-03",
+      "label": "verifica_non_richiesta",
+      "label_en": "verification_void",
+      "type": "verification_void",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il campo in cui nessuno chiede a Darma le credenziali: Kate non chiede il curriculum, Madame non chiede il diploma, le amiche di yoga non chiedono referenze; la simpatia rende la verifica superflua",
+      "kokyu": "il ritmo della verifica assente è quello dell'accettazione immediata: la proposta viene accettata prima che la competenza venga valutata; il campo sociale opera prima del campo professionale",
+      "yūgen": "sul serio?! — certo!: la risposta di Darma chiude il campo della verifica con una sola parola; nessuno insiste; il silenzio sulla verifica è la misura della simpatia come operatore",
+      "affects": {
+        "silence-04": "il silenzio sulla verifica è connesso al silenzio sulla ricetta: se nessuno verifica le credenziali, nessuno chiede il processo"
+      },
+      "textual_anchor_it": "Sul serio?! Certo!",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "silence-04",
+      "label": "ricetta_non_mostrata",
+      "label_en": "recipe_void",
+      "type": "recipe_void",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "la tavola dei dessert che appare senza processo: il manga mostra il risultato senza il percorso; la cucina come campo estetico finale senza il campo tecnico intermedio",
+      "kokyu": "il ritmo della ricetta assente è quello dell'ellissi visiva: una vignetta mostra Darma che propone, la successiva mostra i dessert; il campo del processo è il silenzio tra le due tavole",
+      "yūgen": "i dessert belli e abbondanti senza la ricetta: il campo visivo del manga porta il cibo come ukiyo-e — immagine piena di significato senza istruzioni operative",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la ricetta di Darma non viene mai rivelata: il campo tecnico è strutturalmente assente dal sistema"
+      },
+      "affects": {
+        "silence-05": "il silenzio sulla ricetta è connesso al silenzio tra le vignette: entrambi sono campi narrativi che il manga non riempie"
+      },
+      "textual_anchor_it": "Cucinavo in lussuose ville.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "silence-05",
+      "label": "spazio_tra_le_vignette",
+      "label_en": "panel_gap",
+      "type": "panel_gap",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il campo bianco tra una vignetta e la successiva: nel manga questo spazio non è vuoto ma campo narrativo attivo; il lettore lo attraversa costruendo la continuità che le tavole non mostrano",
+      "kokyu": "il ritmo del campo tra le vignette è quello della lettura visiva: l'occhio salta da una tavola all'altra riempiendo il salto; il tempo della storia esiste in questo silenzio",
+      "yūgen": "il campo tra le vignette è il luogo in cui la simpatia di Darma opera: ciò che succede tra la proposta e il risultato è il campo non mostrato che il lettore ricostruisce",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo tra le vignette non può essere registrato nel protocollo: è strutturalmente fuori dal testo e dalla sequenza visiva; appartiene al lettore"
+      },
+      "affects": {
+        "silence-01": "il campo tra le vignette è dove la tecnica assente dovrebbe esistere: il silenzio visivo del manga replica il silenzio narrativo sulla competenza"
+      },
+      "textual_anchor_it": "18 tavole — spazio tra le vignette come campo narrativo.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 5,
+    "dominant_field": "silence-02",
+    "secondary_field": "silence-01",
+    "narrative_model": "cinque silenzi strutturali: la tecnica assente, il pensiero chiuso di ABOP, la verifica non richiesta, la ricetta non mostrata, il campo tra le vignette",
+    "cross_layer_coherence": {
+      "object_layer": "ABOP e la simpatia come competenza sono i due condensatori principali del silenzio: entrambi operano senza dichiarare il proprio meccanismo",
+      "scene_layer": "ogni scena produce un silenzio specifico: la proposta tace la tecnica, il flashback tace il processo, i dessert tacciono la ricetta, ABOP tace il pensiero",
+      "system_layer": "i cinque silenzi convergono nel campo della simpatia come operatore invisibile: ciò che la simpatia fa non viene mai mostrato, solo i risultati vengono registrati"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_pensiero_di_abop",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
