@@ -1,0 +1,130 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Il nuvolotto Ciro non insegna che le paure si vincono. Produce un campo in cui la paura si attraversa fino in fondo e che attraversarla produce trasformazione. Il ciclo dell'acqua non è metafora: è la struttura ontologica del sistema. Ciro non guarisce: compie il proprio ciclo naturale.",
+  "dominant_field": "field-03",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_paradosso_strutturale",
+      "type": "cognitive_field",
+      "basho": "la nuvola con la vertigine come condizione strutturale: il proprio elemento naturale come campo ostile; il paradosso non viene risolto — viene attraversato",
+      "kokyu": "fissità oscillante: Ciro è sempre in cielo ma sempre in fuga dal cielo; il campo non si stabilizza fino alla rinascita",
+      "yūgen_level": 0.97,
+      "activation_condition": "ogni volta che Ciro guarda in basso; massima attivazione nel momento del pianto deliberato",
+      "persistence_rule": "attivo per tutto il primo ciclo; si dissolve nella rinascita ma lascia il campo trasformato",
+      "dissolution_rule": "si dissolve attraverso il pianto trasformativo: la paura massima produce la propria dissoluzione",
+      "field_logic": "paradox_as_structural_condition_not_problem",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Ciro nasca con la vertigine non viene spiegato: il paradosso è condizione strutturale permanente del campo"
+      },
+      "affects": {
+        "field-02": "il paradosso strutturale è la condizione che rende necessario il ciclo: senza vertigine non c'è dissoluzione",
+        "field-03": "il paradosso alimenta il ciclo dell'acqua come campo dominante"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra e... ha avuto paura."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_soluzione_paradossale",
+      "type": "cognitive_field",
+      "basho": "Cumulina come operatore del campo: non consolazione ma rovesciamento; prova ad avere più paura — la soluzione che va nella direzione opposta al problema",
+      "kokyu": "istantaneo nella ricezione, lento nell'esecuzione: Ciro riceve il paradosso in una frase e lo esegue con grande impegno",
+      "yūgen_level": 1.0,
+      "activation_condition": "il momento in cui Cumulina pronuncia la frase non completata; massima attivazione nel non detto finale",
+      "persistence_rule": "permanente come struttura logica: il paradosso resta operativo anche nella rinascita",
+      "dissolution_rule": "non dissolvibile: la logica paradossale è la forma che il ciclo naturale usa per produrre trasformazione",
+      "field_logic": "paradoxical_solution_as_natural_cycle_logic",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Cumulina avrebbe detto resta aperto: il non detto è parte strutturale del campo"
+      },
+      "affects": {
+        "field-04": "la soluzione paradossale attiva il campo della memoria del ciclo: Cumulina conosce il meccanismo perché ha già visto il ciclo compiersi"
+      },
+      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_ciclo_naturale",
+      "type": "ontological_field",
+      "basho": "il ciclo dell'acqua come campo ontologico dominante: vapore — nuvola — pioggia — fiume — mare — vapore; Ciro non è nel ciclo, è il ciclo",
+      "kokyu": "circolare e permanente: il ciclo non ha ritmo perché non ha inizio né fine; si rinnova continuamente",
+      "yūgen_level": 1.0,
+      "activation_condition": "dall'apertura del libro alla chiusura e oltre: il campo è attivo prima che il libro inizi e continua dopo che finisce",
+      "persistence_rule": "strutturale e permanente: il ciclo non si dissolve; è la condizione ontologica del sistema",
+      "dissolution_rule": "non dissolvibile: il ciclo è il campo fondante; dissolverlo dissolverebbe il sistema",
+      "field_logic": "water_cycle_as_ontological_system_structure",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il ciclo continua oltre la chiusura del libro: Ciro tornerà ad essere pioggia, vapore, nuvola ancora; il sistema non ha fine registrabile"
+      },
+      "affects": {
+        "field-01": "il ciclo naturale contiene il paradosso strutturale: la vertigine è parte del ciclo, non un'anomalia",
+        "field-02": "il ciclo naturale valida la soluzione paradossale: nella natura, la dissoluzione produce rinascita",
+        "field-04": "il ciclo produce la memoria come residuo: ogni giro del ciclo lascia una traccia"
+      },
+      "textual_anchor_it": "E' bel tempo, il mare è calmo e placido. Il calore del sole scalda l'acqua."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_memoria_del_ciclo",
+      "type": "residual_field",
+      "basho": "la rinascita di Ciro e il riconoscimento di Cumulina: lei lo riconosce, lui forse no; il campo della memoria del ciclo come residuo aperto",
+      "kokyu": "intermittente e asimmetrico: Cumulina porta la memoria, Ciro forse no; il campo è attivo in lei, incerto in lui",
+      "yūgen_level": 0.99,
+      "activation_condition": "il momento in cui Cumulina dice forse non ti ricordi di me; massima attivazione nel silenzio di Ciro che non risponde direttamente",
+      "persistence_rule": "permanente come questione aperta: il sistema non chiude mai la questione della memoria attraverso il ciclo",
+      "dissolution_rule": "non dissolvibile: la memoria del ciclo è il residuo massimo del sistema; resta aperta oltre la chiusura del libro",
+      "field_logic": "cycle_memory_as_permanent_open_residue",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Ciro ricordi del ciclo precedente non viene specificato: il sistema lascia la questione aperta come campo strutturale"
+      },
+      "affects": {
+        "field-03": "la memoria del ciclo retroagisce sul campo del ciclo naturale: il ciclo non è solo trasformazione ma anche traccia"
+      },
+      "textual_anchor_it": "Sono Cumulina, caro Ciro... tu forse non ti ricordi di me..."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-03",
+    "secondary": ["field-02", "field-04"],
+    "support": ["field-01"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "fear_as_problem_to_solve",
+      "transformation_as_linear_growth",
+      "dissolution_as_death",
+      "cycle_as_metaphor_not_structure",
+      "cumulina_as_wise_guide_with_answers",
+      "rebirth_as_narrative_reward"
+    ],
+    "system_behavior": "il sistema produce un campo in cui il ciclo dell'acqua governa la trasformazione: la vertigine attiva il ciclo, il paradosso ne indica la direzione, il pianto produce la dissoluzione, la rinascita rinnova il campo; la memoria del ciclo resta aperta come residuo permanente",
+    "catalog_connection": {
+      "alla_festa_della_natura": "stesso campo del viaggio come trasformazione senza antagonista: Musasabi e Ciro entrambi attraversano un percorso che li porta a un campo aperto",
+      "il_gatto_esperienza": "stessa struttura della conoscenza operativa senza comprensione: Ciro esegue il paradosso di Cumulina come Zana pronuncia la formula senza capirne il significato",
+      "bernie_alla_scoperta_dei_mari_del_nord": "stesso ciclo del viaggio come trasformazione: Bernie torna a casa cambiato; Ciro rinasce cambiato; il campo non è mai lo stesso dopo il ciclo"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
