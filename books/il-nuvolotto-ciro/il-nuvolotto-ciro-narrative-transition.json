@@ -1,0 +1,153 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "transition_types": {
+    "wind_crossing": "il vento come operatore di transizione: Ciro non decide dove andare, viene portato",
+    "fear_to_laughter": "il passaggio dalla paura al riso: l'aereo produce una frattura nel campo della vertigine",
+    "laughter_to_fear": "il ritorno alla paura dopo la dimenticanza: il campo si richiude",
+    "storm_to_calm": "il passaggio dal temporale alla brezza: la paura massima produce il movimento verso la soluzione",
+    "paradox_to_dissolution": "il passaggio dalla ricezione del paradosso al pianto trasformativo",
+    "dissolution_to_river": "il passaggio dalla nuvola al rivolo d'acqua: la transizione di stato senza soglia dichiarata",
+    "river_to_rebirth": "il passaggio dal fiume al mare al vapore alla nuvola: il ciclo che si richiude"
+  },
+  "editorial_principle": "Le transizioni del nuvolotto Ciro non sono scelte di Ciro: sono movimenti del ciclo. Il vento trasporta, il fulmine attraversa, il pianto dissolve, il sole evaporizza. Ciro subisce le transizioni del ciclo e le abita. L'unica transizione deliberata è quella del pianto: Ciro decide di avere più paura. Tutto il resto lo compie il campo.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "nascita_verso_paura",
+      "label_en": "birth_to_fear",
+      "type": "wind_crossing",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il passaggio dalla condensazione alla prima apertura degli occhi: il ciclo produce Ciro e immediatamente lo espone alla vertigine; non c'è pausa tra nascita e paura",
+      "kokyu": "il ritmo è quello della sequenza immediata: nato — aperto gli occhi — guardato giù — paura; quattro momenti senza respiro",
+      "yūgen": "la paura arriva prima che Ciro abbia avuto il tempo di capire dove si trova: il campo della vertigine precede la consapevolezza",
+      "affects": {
+        "transition-02": "la paura immediata attiva il tentativo di fuga che il vento impedisce"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "transition-02",
+      "label": "fuga_verso_trasporto",
+      "label_en": "escape_to_transport",
+      "type": "wind_crossing",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "Ciro tenta di scendere verso il mare, il vento lo riporta in quota e lo spinge sulla città: la transizione dal tentativo di fuga al trasporto passivo",
+      "kokyu": "il ritmo è quello della resistenza inutile: Ciro si muove, il vento lo corregge; il campo non permette l'uscita dal ciclo",
+      "yūgen": "il vento non è antagonista: è il ciclo che mantiene Ciro nel proprio campo; la resistenza di Ciro è parte del sistema, non opposizione ad esso",
+      "affects": {
+        "transition-03": "il trasporto passivo porta Ciro all'aereo: il vento genera gli incontri"
+      },
+      "textual_anchor_it": "Tenta subito di scendere giù, si lascia scivolare verso il mare. Una folata di vento lo riporta in quota.",
+      "glossary_link": ["ma", "basho"]
+    },
+    {
+      "id": "transition-03",
+      "label": "paura_verso_riso",
+      "label_en": "fear_to_laughter",
+      "type": "fear_to_laughter",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "l'aereo che si infila nel nuvolotto: il campo della paura si interrompe bruscamente e lascia posto al solletico e al riso; la stessa struttura corporea del tremore produce il riso",
+      "kokyu": "il ritmo è quello della frattura improvvisa: il campo cambia segno senza preavviso; tremore — irruzione — solletico — riso",
+      "yūgen": "il riso e la paura hanno la stessa struttura: il corpo di Ciro reagisce allo stesso modo a entrambi; la transizione rivela che i due campi sono più vicini di quanto sembrino",
+      "affects": {
+        "transition-04": "la dimenticanza temporanea della paura rende visibile che il campo può essere interrotto; prepara la comprensione del paradosso di Cumulina"
+      },
+      "textual_anchor_it": "L'aereo si infila nel nuvolotto. Ah ah ah... mi fai il solletico! E la paura? Per un attimo l'ha dimenticata!",
+      "glossary_link": ["kokyu", "ma"]
+    },
+    {
+      "id": "transition-04",
+      "label": "riso_verso_temporale",
+      "label_en": "laughter_to_storm",
+      "type": "laughter_to_fear",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "l'aereo si allontana, il vento cambia direzione, Ciro finisce nel temporale: il campo del riso si chiude e quello della paura massima si apre",
+      "kokyu": "il ritmo è quello del ritorno amplificato: la paura torna più intensa di prima; il temporale come campo di massima intensità",
+      "yūgen": "SKRAK — il fulmine attraversa Ciro senza distruggerlo: la paura massima non produce la fine; il sistema porta Ciro al limite senza dissolverlo",
+      "affects": {
+        "transition-05": "il temporale produce il movimento verso Cumulina: la paura massima è la condizione che porta alla soluzione"
+      },
+      "textual_anchor_it": "Il vento si fa più forte e inquieto: il povero nuvolotto finisce nel bel mezzo di un temporale. SKRAK!",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "transition-05",
+      "label": "temporale_verso_cumulina",
+      "label_en": "storm_to_cumulina",
+      "type": "storm_to_calm",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "dalla tempesta alla brezza delicata: Ciro trova Cumulina dopo il campo di massima paura; la transizione dalla violenza alla quiete come preparazione alla ricezione del paradosso",
+      "kokyu": "il ritmo cambia radicalmente: dal SKRAK del fulmine al soffio delicato della brezza; la transizione è anche un cambio di ritmo",
+      "yūgen": "quando finalmente sente il soffio delicato di una brezza: il sistema segnala la transizione con la percezione tattile prima che visiva",
+      "affects": {
+        "transition-06": "l'incontro con Cumulina attiva la transizione verso il pianto trasformativo"
+      },
+      "textual_anchor_it": "Quando finalmente sente il soffio delicato di una brezza si ritrova sopra altri campi, sopra nuove città.",
+      "glossary_link": ["ma", "basho", "kokyu"]
+    },
+    {
+      "id": "transition-06",
+      "label": "paradosso_verso_dissoluzione",
+      "label_en": "paradox_to_dissolution",
+      "type": "paradox_to_dissolution",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il momento in cui Ciro decide di avere ancora più paura: spalanca gli occhi, si concentra sulla vertigine, piange; la transizione più deliberata del libro — l'unica in cui Ciro agisce",
+      "kokyu": "il ritmo è quello dell'escalation consapevole: ho paura, ho tanta paura, ho le vertigini — la costruzione progressiva del campo fino alla soglia",
+      "yūgen": "la transizione più attiva del libro è anche quella che produce la perdita di forma: Ciro agisce per dissolversi; l'azione produce la fine dell'azione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il punto esatto in cui il pianto diventa pioggia non è marcato: la transizione avviene nel campo del pianto stesso"
+      },
+      "affects": {
+        "transition-07": "la dissoluzione produce il rivolo d'acqua che scorre verso il fiume e il mare"
+      },
+      "textual_anchor_it": "Con grande impegno, spalanca gli occhi, guarda giù e pensa: ho paura, ho tanta paura, ho le vertigini...",
+      "glossary_link": ["mono no aware", "kokyu", "ma"]
+    },
+    {
+      "id": "transition-07",
+      "label": "dissoluzione_verso_rinascita",
+      "label_en": "dissolution_to_rebirth",
+      "type": "river_to_rebirth",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "dal rivolo d'acqua al fiume al mare al vapore alla nuvola: il ciclo completo che riporta Ciro al punto di partenza trasformato; la transizione più lunga e silenziosa",
+      "kokyu": "il ritmo del ciclo di ritorno è quello del gorgoglio: bluuubluu — Ciro canta mentre scorre; il ritmo è cambiato rispetto al tremore iniziale",
+      "yūgen": "la transizione dal rivolo alla nuvola non viene narrata: il libro salta direttamente alla rinascita; il ciclo avviene nel silenzio tra le pagine",
+      "affects": {
+        "transition-01": "la rinascita retroagisce sulla prima transizione: lo stesso ciclo, il campo trasformato; nascita e paura si ripetono ma con segno diverso"
+      },
+      "textual_anchor_it": "Ciro non ha più le vertigini mentre scorre portato dal fiume verso il mare: anzi, felice, canta sommessamente gorgogliando bluuubluu.",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 7,
+    "dominant_field": "transition-06",
+    "secondary_field": "transition-07",
+    "narrative_model": "sette transizioni che replicano il ciclo: nascita-paura, fuga-trasporto, paura-riso, riso-temporale, temporale-Cumulina, paradosso-dissoluzione, dissoluzione-rinascita; solo transition-06 è deliberata — tutte le altre sono movimenti del ciclo",
+    "agency_note": "transition-06 è l'unica transizione in cui Ciro agisce deliberatamente: tutto il resto è compiuto dal campo",
+    "stability": "cyclical_metastable",
+    "closure": "open_cycle",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
