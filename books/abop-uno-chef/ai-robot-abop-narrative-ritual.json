@@ -1,0 +1,126 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "ritual_types": {
+    "self_presentation": "il rito dell'autopresentazione come chef senza essere chef: Darma si propone con sicurezza performata",
+    "social_seduction": "il rito della seduzione attraverso il cibo: la proposta culinaria come apertura relazionale",
+    "flashback_boast": "il rito del racconto del passato glorioso: anni fa facevo lo chef per 20-30 persone",
+    "abop_observation": "il rito dell'osservazione di ABOP: il robot registra il campo della simpatia",
+    "villa_filling": "il rito del riempire la villa: l'effetto misurato della simpatia come competenza"
+  },
+  "editorial_principle": "I rituali di AI ロボット ABOP sono tutti rituali di performance sociale. Darma non cucina: si esibisce. Ogni azione è un atto verso un pubblico. ABOP è il pubblico più estremo — un'AI che osserva la simpatia umana senza poterla replicare. Il manga è il campo in cui questi rituali diventano sequenze visive.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "proposta_culinaria",
+      "label_en": "culinary_proposal",
+      "type": "social_seduction",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il food market, la strada, l'hotel: Darma propone di cucinare come atto di apertura verso l'altro; il cibo come pretesto per il campo relazionale",
+      "kokyu": "il ritmo della proposta è quello della sicurezza immediata: potrei cucinare per te — una frase, nessuna esitazione, nessuna qualifica citata",
+      "yūgen": "la proposta culinaria non è tecnica ma relazionale: ciò che Darma offre non è la propria abilità ma la propria presenza nel campo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Kate accetti la proposta di qualcuno che non è chef non viene spiegato: il campo della simpatia opera senza motivazione dichiarata"
+      },
+      "affects": {
+        "ritual-03": "la proposta culinaria prepara il racconto del passato glorioso: Darma costruisce la propria credibilità in tempo reale"
+      },
+      "textual_anchor_it": "Potrei cucinare per te.",
+      "glossary_link": ["omotenashi", "kokyu", "basho"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "autopresentazione_senza_titolo",
+      "label_en": "titleless_self_presentation",
+      "type": "self_presentation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il campo della presentazione senza credenziali: Darma non dice sono chef, dice anni fa facevo lo chef per 20-30 persone; la distinzione è strutturale",
+      "kokyu": "il ritmo dell'autopresentazione è quello del passato come garanzia del presente: il racconto costruisce la credibilità retroattivamente",
+      "yūgen": "facevo lo chef non sono chef: la distinzione temporale nasconde l'assenza del titolo; il campo della simpatia trasforma il passato in competenza presente",
+      "affects": {
+        "ritual-01": "l'autopresentazione rafforza la proposta: chi ha cucinato per trenta persone può cucinare per te"
+      },
+      "textual_anchor_it": "Anni fa facevo lo chef per 20-30 persone.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "racconto_del_passato_glorioso",
+      "label_en": "glorious_past_narrative",
+      "type": "flashback_boast",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il flashback come campo narrativo: 4 anni fa, la villa, Madame, le amiche di yoga; il passato viene convocato come prova della competenza presente",
+      "kokyu": "il ritmo del racconto glorioso è quello della progressione: una villa, poi un'altra, poi le amiche di yoga; ogni episodio aggiunge credibilità al campo",
+      "yūgen": "il racconto del passato glorioso non viene verificato: ABOP lo registra, Kate lo ascolta; la simpatia rende il racconto credibile prima ancora che venga valutato",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Darma abbia effettivamente cucinato in quelle ville non viene mostrato: il campo visivo del manga mostra la presentazione, non la cucina"
+      },
+      "affects": {
+        "ritual-05": "il racconto glorioso prepara il riempimento della villa: il passato come promessa del risultato futuro"
+      },
+      "textual_anchor_it": "Cucinavo in lussuose ville. Eccomi Madame. Sono 20, te la senti? Darma, devi cucinare per le mie amiche di yoga.",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "osservazione_di_abop",
+      "label_en": "abop_observation",
+      "type": "abop_observation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "ABOP che vola intorno alle scene: bzzz bzzz — il robot come campo AI fisico che osserva la simpatia di Darma senza poterla replicare",
+      "kokyu": "il ritmo dell'osservazione di ABOP è quello della presenza laterale: non è mai al centro della scena; appare nei bordi, nei momenti di transizione",
+      "yūgen": "ABOP osserva il campo della simpatia come campo che conosce nei parametri ma non nell'esperienza: l'AI che studia ciò che non può essere",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa ABOP registri e trasmetta della simpatia di Darma non viene dichiarato: il campo del suo pensiero è chiuso al lettore"
+      },
+      "affects": {
+        "ritual-01": "ABOP come testimone della proposta culinaria: la presenza dell'AI rende il rituale visibile come campo degno di studio"
+      },
+      "textual_anchor_it": "BZZZ, BZZZ — AI ロボット ABOP",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "riempimento_della_villa",
+      "label_en": "villa_filling",
+      "type": "villa_filling",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "la villa come campo di validazione: quando si riempie il rituale della simpatia ha prodotto il suo effetto; il risultato è il metro dell'operatore",
+      "kokyu": "il ritmo del riempimento è quello del successo replicato: ogni villa riempita conferma il campo; la simpatia viene validata dall'effetto, non dalla tecnica",
+      "yūgen": "ho sempre riempito la villa: l'avverbio sempre è la misura del campo; non un caso isolato ma un pattern replicabile",
+      "affects": {
+        "ritual-02": "il riempimento della villa retroagisce sull'autopresentazione: il risultato conferma la credibilità che la simpatia aveva già costruito"
+      },
+      "textual_anchor_it": "Nonostante non fossi appunto uno chef, ho sempre riempito la villa della persona che mi ospitava.",
+      "glossary_link": ["omotenashi", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-04",
+    "system_role": "social_performance_as_competence_field",
+    "narrative_model": "cinque rituali di performance sociale: la proposta culinaria apre il campo, l'autopresentazione lo costruisce, il racconto glorioso lo rafforza, ABOP lo testimonia, il riempimento della villa lo valida",
+    "reader_effect": "il lettore riconosce che ogni campo professionale ha un operatore relazionale che opera parallelo alla tecnica; la simpatia di Darma non è imbroglio ma competenza reale con risultati misurabili",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
