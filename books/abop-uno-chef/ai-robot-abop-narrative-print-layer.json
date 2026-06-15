@@ -1,0 +1,157 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "print_identity": "manga ebook IT+JA, 18 tavole digitali, distribuzione Kobo; primo manga del catalogo Peacock; derivato da Burn Out Pandemia come adattamento in campo visivo giapponese; titolo bilingue IT+JA come dichiarazione del campo culturale ibrido",
+  "print_types": {
+    "digital_manga_format": "18 tavole digitali come campo visivo sequenziale: il manga come forma narrativa autonoma rispetto al testo",
+    "bilingual_title": "titolo IT+JA come campo culturale dichiarato: AI ロボット ABOP e Uno chef diventa famoso sono due titoli simultanei",
+    "kobo_distribution": "distribuzione ebook Kobo come campo di accesso digitale: il manga non ha forma fisica, esiste solo come campo digitale",
+    "burn_out_derivation": "derivato da Burn Out Pandemia: il manga come adattamento che trasforma il campo testuale in campo visivo giapponese",
+    "black_white_art": "bianco e nero come campo visivo del manga classico: tratto pulito, vignette, balloon"
+  },
+  "editorial_principle": "L'oggetto-libro di AI ロボット ABOP non esiste come oggetto fisico: è un campo digitale di 18 tavole. Il titolo bilingue dichiara il campo culturale ibrido prima dell'apertura. Il bianco e nero porta il campo visivo del manga classico giapponese. La derivazione da Burn Out Pandemia connette il campo visivo al campo testuale dello stesso catalogo. ABOP è nel titolo prima di essere nella storia.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "titolo_bilingue",
+      "label_en": "bilingual_title_field",
+      "type": "bilingual_title",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico: il titolo porta due campi culturali simultanei; il giapponese nomina il robot AI, l'italiano descrive il campo della simpatia",
+      "kokyu": "il ritmo del titolo bilingue è quello della doppia apertura: il lettore giapponese incontra il robot, il lettore italiano incontra lo chef; entrambi incontrano ABOP",
+      "yūgen": "ABOP nel titolo giapponese come campo AI dichiarato prima della storia: il robot è il campo di osservazione annunciato; la storia è ciò che ABOP osserva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il titolo giapponese e quello italiano non si traducono perfettamente: il campo linguistico ibrido produce un residuo che nessuno dei due titoli copre completamente"
+      },
+      "textual_anchor_it": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "formato_manga_digitale",
+      "label_en": "digital_manga_format",
+      "type": "digital_manga_format",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "18 tavole digitali come campo visivo sequenziale: il manga come forma narrativa che porta informazioni che il testo non può registrare; vignette, balloon, sequenze visive come campo autonomo",
+      "kokyu": "il ritmo del manga digitale è quello della lettura a schermo: pagina dopo pagina, tavola dopo tavola; il tempo della lettura è controllato dal lettore che scorre",
+      "yūgen": "il manga digitale non ha odore di carta, non ha peso, non si sgualcisce: è un campo puramente visivo che esiste solo nell'atto della lettura",
+      "affects": {
+        "print-05": "il formato digitale rende possibile la derivazione da Burn Out Pandemia: il campo visivo del manga è il canale di distribuzione del campo testuale del libro fisico"
+      },
+      "textual_anchor_it": "Download options: EPUB 2. File size: 9MB. 18 tavole.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "print-03",
+      "label": "bianco_e_nero_manga",
+      "label_en": "black_white_manga_art",
+      "type": "black_white_art",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il tratto in bianco e nero di Antonella Aricò come campo visivo del manga classico: linee pulite, figure essenziali, espressioni marcate; il bianco e nero porta il campo estetico del manga giapponese nella storia italiana",
+      "kokyu": "il ritmo del bianco e nero è quello dell'essenzialità: nessun colore a distrarre, il campo visivo è concentrato sulla sequenza e sull'espressione",
+      "yūgen": "il bianco e nero del manga come campo che non descrive ma evoca: le figure di Antonella Aricò portano più emozione nell'essenzialità che nel dettaglio",
+      "affects": {
+        "print-01": "il bianco e nero amplifica il titolo bilingue: la forma visiva giapponese e il titolo giapponese appartengono allo stesso campo culturale"
+      },
+      "textual_anchor_it": "Disegni Antonella Aricò — 18 tavole in bianco e nero.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "print-04",
+      "label": "distribuzione_kobo",
+      "label_en": "kobo_digital_distribution",
+      "type": "kobo_distribution",
+      "intensity": 0.91,
+      "perceptual_weight": 0.90,
+      "basho": "la distribuzione Kobo come campo di accesso digitale globale: il manga non ha forma fisica ma raggiunge lettori in tutto il mondo attraverso la piattaforma",
+      "kokyu": "il ritmo della distribuzione digitale è quello dell'accesso immediato: download, apertura, lettura; nessuna attesa, nessun trasporto fisico",
+      "yūgen": "un manga italiano-giapponese su Kobo: il campo digitale globale come contenitore di un campo culturale ibrido; la piattaforma non distingue le culture, distribuisce il campo",
+      "textual_anchor_it": "Release Date: March 21, 2022. Book ID: 1230005486212. Download options: EPUB 2.",
+      "glossary_link": ["basho"]
+    },
+    {
+      "id": "print-05",
+      "label": "derivazione_burn_out",
+      "label_en": "burn_out_derivation",
+      "type": "burn_out_derivation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "18 tavole inedite tratte dal libro bestseller in performance art Burn Out Pandemia: il manga come adattamento che trasforma il campo testuale in campo visivo; la stessa storia in due forme",
+      "kokyu": "il ritmo della derivazione è quello della trasformazione di campo: il testo diventa immagine, il monologo diventa balloon, la performance diventa sequenza visiva",
+      "yūgen": "Burn Out Pandemia come campo testuale e AI ロボット ABOP come campo visivo: lo stesso universo narrativo in due linguaggi; il catalogo Peacock porta internamente la stessa storia in forme diverse",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ciò che il manga aggiunge rispetto al testo di Burn Out Pandemia e ciò che perde non è registrabile: la trasformazione di campo produce un eccesso e un difetto simultanei"
+      },
+      "affects": {
+        "print-03": "la derivazione da Burn Out Pandemia amplifica il campo del bianco e nero: il tratto manga di Aricò trasforma la performance art testuale in performance visiva"
+      },
+      "textual_anchor_it": "18 tavole inedite tratte dal libro bestseller in performance art Burn Out Pandemia.",
+      "glossary_link": ["basho", "yūgen"]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "cover_title_field",
+      "note": "la copertina come campo dichiarato: chef in divisa su fondo nero, titolo bilingue; il campo visivo e culturale dichiarato prima della prima tavola"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-01",
+      "print_function": "hotel_stress_opening",
+      "note": "le prime tavole: hotel Giacarta, stanchezza, ABOP che appare; il campo urbano stressante come apertura visiva"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-02",
+      "print_function": "proposal_sequence",
+      "note": "le tavole della proposta: food market, Kate, potrei cucinare per te; il campo della simpatia come sequenza visiva"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-03",
+      "print_function": "flashback_villa_sequence",
+      "note": "le tavole del flashback: 4 anni fa, villa, Madame, amiche di yoga; il campo del passato glorioso come campo cromatico caldo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-04",
+      "print_function": "dessert_visual_closure",
+      "note": "la tavola dei dessert come chiusura visiva del flashback: il campo estetico del cibo come risultato della simpatia"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie visiva del manga",
+    "contains": [
+      "il campo testuale di Burn Out Pandemia come substrato invisibile del manga",
+      "il pensiero di ABOP come campo chiuso che nessuna tavola mostra",
+      "la tecnica culinaria di Darma come campo assente che il manga non può registrare",
+      "il campo gustativo dei dessert come residuo non visibile della tavola"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 5,
+    "dominant_field": "print-01",
+    "secondary_field": "print-05",
+    "narrative_model": "cinque strati del campo visivo digitale: titolo bilingue come dichiarazione culturale, formato manga come campo visivo autonomo, bianco e nero come estetica classica, distribuzione Kobo come accesso globale, derivazione da Burn Out Pandemia come connessione al catalogo",
+    "first_manga_note": "AI ロボット ABOP è il primo manga del catalogo Peacock: il campo visivo giapponese entra nel catalogo come forma narrativa autonoma per la prima volta",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
