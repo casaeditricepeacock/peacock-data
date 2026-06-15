@@ -1,0 +1,170 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "illustrator": "Carolina Livio",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024,
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue"
+  },
+  "author_context": {
+    "historical_field": "Corrierino anni Ottanta — divulgazione scientifica con Nidasio, Laganà, Scarabottolo, Lasagni; articoli su esplorazione spaziale con Grazia Nidasio e Tiziano Sclavi; Goldrake come campo giapponese in Italia dal 1980",
+    "goldrake_note": "Bagnobianchi ha operato nel campo giapponese in Italia quarant'anni prima che Peacock lo strutturasse come catalogo; non mediatore tra culture ma operatore interno a quel campo fin dall'origine",
+    "libreria_bocca": "ha diretto la collana I Girasoli e la rivista Ekecheiria per Libreria Bocca 1775",
+    "annalaura_cantone": "ha pubblicato con AnnaLaura Cantone per Emme Edizioni nel 2015 — illustratrice ricorrente del catalogo Peacock"
+  },
+  "editorial_principle": "Il nuvolotto Ciro non racconta la guarigione da una paura. Produce un campo in cui la paura si risolve dissolvendosi nel ciclo naturale. Ciro non vince la vertigine: la attraversa piangendo fino a sciogliersi. La trasformazione non è conquista ma resa al proprio ciclo. Il libro si chiude come si apre — ma il campo è cambiato. Il vero operatore del sistema non è Ciro ma il ciclo dell'acqua che lo governa.",
+  "object_types": {
+    "paradox_object": "la nuvola con la vertigine come condizione strutturale paradossale",
+    "dissolution_operator": "il pianto come meccanismo di trasformazione: la paura diventa il dispositivo della propria risoluzione",
+    "cycle_field": "il ciclo dell'acqua come struttura narrativa e operatore dominante del sistema",
+    "guide_operator": "Cumulina come figura che introduce il paradosso della trasformazione",
+    "rebirth_object": "la rinascita come campo trasformato: stesso ciclo, campo diverso",
+    "hidden_generator": "il sole come operatore invisibile che rende possibile l'intero ciclo senza apparire come protagonista"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "vertigine_della_nuvola",
+      "label_en": "cloud_vertigo",
+      "type": "paradox_object",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il cielo come campo ostile per chi dovrebbe abitarlo: Ciro apre gli occhi, guarda giù, sente l'altezza e ha paura; il paradosso è strutturale — una nuvola con la vertigine non può vivere nel proprio elemento",
+      "kokyu": "il ritmo della vertigine è quello del tremore: Ciro chiude gli occhi, trema, si agita; il corpo della nuvola reagisce prima che la mente elabori",
+      "yūgen": "la vertigine non viene spiegata come origine: Ciro nasce con essa come condizione data; il sistema la assume senza motivarla",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Ciro nasca con la vertigine non viene spiegato: è la condizione strutturale del campo"
+      },
+      "affects": {
+        "object-02": "la vertigine prepara la dissoluzione: solo chi ha abbastanza paura può piangere abbastanza da sciogliersi",
+        "object-05": "la vertigine è la condizione che rende possibile la rinascita"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "pianto_trasformativo",
+      "label_en": "dissolving_cry",
+      "type": "dissolution_operator",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "il momento in cui Ciro decide di avere ancora più paura: spalanca gli occhi, guarda giù, si concentra sulla vertigine fino a piangere; il pianto non è resa ma meccanismo di trasformazione",
+      "kokyu": "il ritmo del pianto è quello dell'escalation: piange, piange e piange; la ripetizione triplice è il segnale che il campo ha raggiunto la soglia della trasformazione",
+      "yūgen": "la soluzione paradossale di Cumulina: non avere meno paura ma averne di più; il pianto come dispositivo che la paura stessa genera per risolversi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo per cui la paura massima produce la trasformazione non viene spiegato logicamente: opera come campo del ciclo naturale"
+      },
+      "affects": {
+        "object-03": "il pianto genera la pioggia che alimenta il ciclo: la dissoluzione di Ciro è benefica per prati, campi, fiumi"
+      },
+      "textual_anchor_it": "Il nuvolotto Ciro piange, piange e così cade giù in grossi goccioloni di pioggia.",
+      "glossary_link": ["kokyu", "mono no aware", "ma"]
+    },
+    {
+      "id": "object-03",
+      "label": "ciclo_dell_acqua",
+      "label_en": "water_cycle",
+      "type": "cycle_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il ciclo completo come struttura portante del libro e operatore dominante del sistema: vapore che sale dal mare, nuvola che nasce, pioggia che scende, fiume che scorre verso il mare; il libro si apre e si chiude con le stesse parole",
+      "kokyu": "il ritmo del ciclo è quello della circolarità perfetta: la fine è l'inizio; il sistema non progredisce linearmente ma si rinnova; nulla viene perduto",
+      "yūgen": "il ciclo dell'acqua non viene spiegato come legge scientifica: viene vissuto dall'interno come campo di trasformazione continua; Ciro non studia il ciclo, lo è",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il ciclo continua oltre la chiusura del libro: Ciro tornerà ad essere pioggia, poi vapore, poi nuvola ancora; il sistema non ha fine"
+      },
+      "affects": {
+        "object-05": "il ciclo fonda la rinascita: Ciro non muore sciogliendosi, compie il proprio ciclo naturale",
+        "object-06": "il ciclo dipende dal sole come generatore nascosto: senza calore non c'è evaporazione"
+      },
+      "textual_anchor_it": "E' bel tempo, il mare è calmo e placido. Il calore del sole scalda l'acqua con i suoi raggi infuocati e il vapore fugge verso l'alto.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "object-04",
+      "label": "cumulina",
+      "label_en": "cumulina_guide",
+      "type": "guide_operator",
+      "intensity": 1.0,
+      "perceptual_weight": 0.99,
+      "basho": "Cumulina come operatore della trasformazione: non consola, non rassicura; introduce il paradosso; riconosce Ciro nella rinascita come traccia di memoria del ciclo",
+      "kokyu": "il ritmo di Cumulina è quello della risposta breve e definitiva: una frase, un paradosso, nessuna spiegazione aggiuntiva",
+      "yūgen": "non ti dico altro — Cumulina non completa la frase; il non detto è parte strutturale del suo ruolo; la comprensione arriva attraverso l'esperienza non attraverso la spiegazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Cumulina avrebbe detto se avesse completato la frase non viene mai rivelato; nel secondo ciclo riconosce Ciro — la sua memoria del ciclo è il residuo aperto del sistema"
+      },
+      "affects": {
+        "object-02": "Cumulina attiva il pianto trasformativo fornendo il dispositivo paradossale",
+        "object-05": "Cumulina riconosce Ciro nella rinascita: porta la traccia del ciclo precedente"
+      },
+      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "object-05",
+      "label": "rinascita_trasformata",
+      "label_en": "transformed_rebirth",
+      "type": "rebirth_object",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il secondo incipit del libro: le stesse parole dell'apertura, ma Ciro è rinato senza paura; il campo è lo stesso, la nuvola è diversa",
+      "kokyu": "il ritmo della rinascita è quello del riconoscimento: Ciro riapre gli occhi, guarda giù, e questa volta sorride; lo stesso gesto, il campo opposto",
+      "yūgen": "il libro non annuncia la rinascita come evento: la mostra riaprendo con le stesse parole; il lettore riconosce la circolarità solo leggendo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Ciro ricordi del ciclo precedente non viene specificato: Cumulina lo riconosce, Ciro non è sicuro; la memoria del ciclo è il residuo aperto"
+      },
+      "affects": {
+        "object-01": "la rinascita retroagisce sulla vertigine iniziale: la paura era la condizione necessaria del ciclo"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, ha visto tutto il mondo colorato di pallidi verdi e azzurri soffusi ed... ha sorriso, felice!",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    },
+    {
+      "id": "object-06",
+      "label": "sole_generatore",
+      "label_en": "hidden_sun_generator",
+      "type": "hidden_generator",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il sole come operatore invisibile: non appare come personaggio, non interviene nella storia; eppure senza il suo calore non c'è evaporazione, non c'è ciclo, non c'è Ciro",
+      "kokyu": "il ritmo del sole è quello della costanza silente: presente in apertura e in chiusura con le stesse parole; mai in primo piano, sempre attivo",
+      "yūgen": "il sole rende possibile l'intero sistema senza essere riconosciuto come protagonista: è il generatore nascosto del campo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sole non viene mai messo a fuoco come agente: opera come campo strutturale invisibile che il sistema assume senza dichiarare"
+      },
+      "affects": {
+        "object-03": "il sole genera il ciclo dell'acqua: è la condizione prima di tutto il sistema"
+      },
+      "textual_anchor_it": "Il calore del sole scalda l'acqua con i suoi raggi infuocati e il vapore fugge verso l'alto.",
+      "glossary_link": ["basho", "ma"]
+    }
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-03",
+    "secondary_field": "object-04",
+    "system_role": "fear_dissolution_natural_cycle_field",
+    "narrative_model": "sei operatori producono un campo in cui il ciclo dell'acqua governa la trasformazione: il sole genera, il ciclo struttura, la vertigine attiva, Cumulina introduce il paradosso, il pianto dissolve, la rinascita rinnova",
+    "language_structure": "bilingue IT+JA",
+    "closure_type": "circular_rebirth_transformed",
+    "reader_effect": "il lettore non impara che la paura si vince: impara che la paura si attraversa fino in fondo e che attraversarla produce trasformazione",
+    "goldrake_connection": "Bagnobianchi opera nel campo giapponese in Italia dal 1980 — Goldrake come primo campo giapponese di massa in Italia; Il nuvolotto Ciro come continuazione naturale di quella presenza",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
