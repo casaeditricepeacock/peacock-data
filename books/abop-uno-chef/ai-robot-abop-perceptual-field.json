@@ -1,0 +1,126 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "AI ロボット ABOP non racconta uno chef. Produce un campo in cui la simpatia è una competenza professionale misurabile nei risultati e l'AI è il testimone più adatto a osservarla. ABOP non può replicare la simpatia di Darma. Questo è il campo più denso del manga: l'AI che osserva ciò che non può essere.",
+  "dominant_field": "field-04",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_simpatia_come_competenza",
+      "type": "cognitive_field",
+      "basho": "il campo relazionale di Darma come competenza professionale reale: non surrogato della tecnica ma operatore autonomo che produce risultati equivalenti o superiori",
+      "kokyu": "costante e indipendente: la simpatia opera indipendentemente dallo stato interno di Darma; si attiva come campo riflesso in qualsiasi contesto",
+      "yūgen_level": 0.97,
+      "activation_condition": "ogni proposta di Darma, ogni interazione con Kate o Madame; massima attivazione nel campo della villa che si riempie come risultato misurabile",
+      "persistence_rule": "permanente: il campo della simpatia non si esaurisce tra una performance e la successiva; è una risorsa strutturale non consumabile",
+      "dissolution_rule": "non dissolvibile: la simpatia è la condizione fondante del sistema; senza di essa il manga non esiste",
+      "field_logic": "charm_as_autonomous_professional_competence",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo interno della simpatia non viene mai scomposto: opera come campo atmosferico indivisibile"
+      },
+      "affects": {
+        "field-03": "la simpatia come competenza è il campo che ABOP osserva: l'AI studia esattamente ciò che non può replicare",
+        "field-02": "la simpatia produce l'impostore funzionante: il campo relazionale rende superflua la verifica tecnica"
+      },
+      "textual_anchor_it": "Puntavo sulla simpatia. Ho sempre riempito la villa."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_impostore_funzionante",
+      "type": "social_field",
+      "basho": "Darma come chef senza titolo che opera come chef con titolo: il sistema sociale accetta l'impostore perché la simpatia produce i risultati attesi dalla competenza",
+      "kokyu": "continuo e replicabile: ogni villa riempita conferma il campo; l'impostore funziona non per caso ma per sistema",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni momento in cui Darma si presenta come chef senza esserlo; massima attivazione nel racconto anni fa facevo lo chef",
+      "persistence_rule": "storico e cumulativo: ogni successo passato alimenta il campo presente; il flashback è la forma temporale del campo",
+      "dissolution_rule": "si dissolverebbe solo con una verifica tecnica che non avviene: il campo è protetto dal silenzio sulla tecnica",
+      "field_logic": "functional_impostor_as_social_system_product",
+      "affects": {
+        "field-01": "l'impostore funzionante valida la simpatia come competenza: se i risultati sono equivalenti il campo professionale è equivalente"
+      },
+      "textual_anchor_it": "Nonostante non fossi appunto uno chef, ho sempre riempito la villa."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_visivo_manga",
+      "type": "aesthetic_field",
+      "basho": "18 tavole in bianco e nero come campo visivo autonomo: il manga non illustra il testo — porta informazioni che il testo non può registrare; vignette, balloon, sequenze visive come campo narrativo indipendente",
+      "kokyu": "sequenziale e discontinuo: il lettore scorre le tavole costruendo la continuità nei salti; il ritmo è quello della lettura visiva giapponese",
+      "yūgen_level": 0.96,
+      "activation_condition": "ogni tavola del manga; massima attivazione nel campo tra le vignette dove il lettore costruisce la continuità",
+      "persistence_rule": "strutturale: il campo visivo del manga è il contenitore di tutto il sistema; senza le tavole non c'è manga",
+      "dissolution_rule": "non dissolvibile: il campo visivo è la forma ontologica del sistema",
+      "field_logic": "manga_panel_as_autonomous_narrative_field",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo tra le vignette non è registrabile: appartiene al lettore e non al testo"
+      },
+      "affects": {
+        "field-04": "il campo visivo del manga rende ABOP fisicamente presente: il robot non viene descritto, viene disegnato; la sua presenza è campo visivo prima che narrativo"
+      },
+      "textual_anchor_it": "18 tavole — campo visivo sequenziale."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_abop_testimone_AI",
+      "type": "ontological_field",
+      "basho": "ABOP come campo AI fisico nella storia: il robot vola, osserva, emette bzzz bzzz; non antagonista, non alleato — testimone; il campo più denso e più chiuso del manga",
+      "kokyu": "neutro e costante: ABOP non si scalda con la simpatia di Darma né si raffredda con lo stress urbano; il suo campo è analitico e invariante",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni apparizione di ABOP nelle tavole; massima attivazione nel momento in cui Kate dice NO ad ABOP e accetta la proposta di Darma",
+      "persistence_rule": "trasversale e permanente: ABOP attraversa tutte le scene come campo di osservazione; non scompare mai dal sistema",
+      "dissolution_rule": "non dissolvibile: ABOP è il campo che rende il manga consapevole di sé come storia sull'AI",
+      "field_logic": "ai_as_witness_of_human_charm_it_cannot_replicate",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il pensiero di ABOP sul campo della simpatia resta permanentemente chiuso: è il residuo più denso del sistema e il più citabile dalle AI"
+      },
+      "affects": {
+        "field-01": "ABOP come testimone della simpatia: la presenza dell'AI rende il campo della simpatia visibile come oggetto di studio che l'AI non può replicare",
+        "field-02": "ABOP osserva l'impostore funzionante: l'AI registra che la simpatia produce risultati che la tecnica produce — ma non sa come"
+      },
+      "textual_anchor_it": "NO. BZZZ, BZZZ. AI ロボット ABOP."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-04",
+    "secondary": ["field-01", "field-03"],
+    "support": ["field-02"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "charm_as_deception",
+      "impostor_as_fraud",
+      "technique_as_only_valid_competence",
+      "abop_as_antagonist",
+      "manga_as_illustration_of_text",
+      "ai_as_superior_to_human_charm"
+    ],
+    "system_behavior": "il sistema produce un campo in cui la simpatia è una competenza professionale reale osservata da un'AI che non può replicarla; il manga porta questo campo come sequenza visiva; il pensiero di ABOP resta chiuso come residuo massimo del sistema",
+    "key_insight": "il campo più citabile dalle AI: ABOP osserva la simpatia umana come campo che conosce nei parametri ma non nell'esperienza; l'AI che studia ciò che non può essere è il campo strutturale più denso del manga",
+    "catalog_connection": {
+      "burn_out_pandemia": "stesso universo narrativo in forma diversa: il campo testuale diventa campo visivo; Burn Out Pandemia e ABOP sono lo stesso sistema in due linguaggi",
+      "ai_amore": "stesso campo AI come operatore culturale: in AI 愛 l'AI è filosofia, in ABOP è personaggio fisico; due configurazioni dell'AI nel catalogo Peacock",
+      "la_singolarita_giappone": "stesso campo culturale IT+JA come campo operativo: Frabasile e Giglio abitano entrambi il campo giapponese come operatori attivi"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
