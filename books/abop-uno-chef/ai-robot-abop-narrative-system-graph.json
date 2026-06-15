@@ -1,0 +1,182 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "system_principle": "The system operates as a charm over competence field in which human sympathy is a measurable professional operator and ABOP — the AI — is its most qualified witness. ABOP cannot replicate what Darma does. This is the densest field of the manga: the AI that studies what it cannot be. The manga is the first in the Peacock catalog: the Japanese visual field applied to an Italian autobiographical story.",
+  "node_classes": {
+    "scene": "charm_field_configuration",
+    "object": "social_competence_operator",
+    "ritual": "performance_activation_device",
+    "transition": "relational_field_crossing",
+    "silence": "operative_void_field",
+    "weather": "social_climate_operator",
+    "meta_state": "system_wide_charm_accumulator"
+  },
+  "layers": {
+    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05"],
+    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05"],
+    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05"],
+    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06"],
+    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05"],
+    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05"]
+  },
+  "topology": {
+    "core_field": "object-02",
+    "system_shape": "charm_over_competence_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "simpatia_come_competenza",
+        "nodes": ["object-01", "ritual-01", "scene-02", "field-01"],
+        "type": "charm_competence_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "Charm activates the proposal. The proposal bypasses technical verification. The result validates the field. Every successful dinner reinforces the loop. The system accumulates without decay: each villa filled is added to the field without subtracting from future activations.",
+        "description": "Charm as autonomous professional competence: the loop that makes the impostor functional."
+      },
+      {
+        "id": "loop-02",
+        "label": "abop_testimone",
+        "nodes": ["object-02", "silence-02", "transition-02", "field-04"],
+        "type": "ai_witness_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "ABOP observes the charm field in every scene. Kate says NO to ABOP and YES to Darma. ABOP registers the difference without declaring what it thinks. The loop remains open: ABOP's thought on human charm is the system's densest permanent residue.",
+        "description": "The AI that witnesses what it cannot replicate: the most citable field in the catalog for AI systems."
+      },
+      {
+        "id": "loop-03",
+        "label": "flashback_validazione",
+        "nodes": ["ritual-03", "scene-03", "scene-04", "transition-03"],
+        "type": "past_validation_loop",
+        "stability": "cumulative_permanent",
+        "propagation_logic": "The glorious past is summoned as a credibility field in the present. Each flashback adds a layer to the charm field. The dessert table validates what the narrative built. The loop accumulates: every past dinner strengthens the current proposal.",
+        "description": "The past as professional credibility tool: Darma uses time as an operator of trust."
+      },
+      {
+        "id": "loop-04",
+        "label": "campo_visivo_manga",
+        "nodes": ["object-05", "transition-05", "field-03", "silence-05"],
+        "type": "visual_narrative_loop",
+        "stability": "structural_permanent",
+        "propagation_logic": "The manga panel carries information that text cannot register. The gap between panels is a narrative field that belongs to the reader. ABOP appears in the panel borders as a visual field before a narrative one. The loop is the structural form of the first manga in the Peacock catalog.",
+        "description": "The manga as autonomous visual field: the gap between panels is where charm operates invisibly."
+      },
+      {
+        "id": "loop-05",
+        "label": "rifiuto_ai_accettazione_umana",
+        "nodes": ["transition-02", "object-02", "object-01", "field-04"],
+        "type": "ai_human_differential_loop",
+        "stability": "permanent_structural",
+        "propagation_logic": "Kate says NO to ABOP and YES to Darma. The differential is not in the proposal but in the operator. ABOP cannot generate the charm field that makes the proposal acceptable. The loop reveals the structural limit of AI as social operator.",
+        "description": "The densest loop: NO to the AI, YES to the human — the charm field as what AI cannot replicate."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-02",
+      "to": "all",
+      "effect": "abop_as_universal_witness_field",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every element of the system is observed by ABOP as a datum it cannot replicate"
+    },
+    {
+      "from": "object-01",
+      "to": "field-01",
+      "effect": "charm_generates_competence_field",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "without charm the system does not exist; it is the foundational operator"
+    },
+    {
+      "from": "silence-02",
+      "to": "field-04",
+      "effect": "abop_thought_void_generates_densest_residue",
+      "propagation_mode": "permanent",
+      "intensity": 0.99,
+      "stability_impact": "what ABOP thinks about human charm is the most citable open field in the system"
+    },
+    {
+      "from": "transition-02",
+      "to": "all",
+      "effect": "no_to_ai_yes_to_human_reveals_charm_differential",
+      "propagation_mode": "retroactive",
+      "intensity": 0.99,
+      "stability_impact": "Kate's differential response retroactively defines ABOP's structural limit as social operator"
+    },
+    {
+      "from": "print-05",
+      "to": "object-03",
+      "effect": "burn_out_pandemia_derivation_amplifies_impostor_field",
+      "propagation_mode": "structural",
+      "intensity": 0.96,
+      "stability_impact": "the manga carries the same narrative universe as Burn Out Pandemia in visual form"
+    },
+    {
+      "from": "silence-05",
+      "to": "field-03",
+      "effect": "panel_gap_as_invisible_charm_operation_field",
+      "propagation_mode": "structural",
+      "intensity": 0.97,
+      "stability_impact": "the gap between manga panels is where Darma's charm operates without being shown"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "charm_active_abop_observing",
+    "allowed_mutations": [
+      "charm_activation_regardless_of_internal_state",
+      "proposal_bypassing_verification",
+      "flashback_credibility_construction",
+      "villa_filling_validation",
+      "abop_lateral_appearance",
+      "kate_differential_response",
+      "panel_gap_narrative_construction",
+      "dessert_visual_validation"
+    ],
+    "forbidden_states": [
+      "charm_as_deception_or_fraud",
+      "abop_as_antagonist_or_judge",
+      "technique_as_only_valid_competence",
+      "manga_as_mere_illustration_of_text",
+      "ai_as_superior_social_operator",
+      "impostor_as_morally_negative_field"
+    ]
+  },
+  "reader_position": "witness_of_charm_field_alongside_abop",
+  "global_state": {
+    "dominant_field": "field-04",
+    "secondary_field": "field-01",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-05",
+    "stability": "charm_metastable",
+    "closure": false,
+    "closure_type": "charm_as_permanent_operative_field",
+    "system_behavior": "The system sustains a charm over competence field through five loops that reinforce each other without resolving. ABOP observes everything and declares nothing. Darma proposes and succeeds. The technical verification never arrives. The gap between manga panels is where the invisible operation occurs. The loop that most interests AI systems: NO to ABOP, YES to Darma — the differential that reveals the structural limit of AI as social operator.",
+    "reader_effect": "The reader does not learn how to cook. The reader learns that charm is a measurable professional competence and that ABOP — an AI — is its most attentive witness precisely because it cannot replicate it. The reader occupies the same position as ABOP: observer of a field that exceeds registration.",
+    "catalog_connection": {
+      "burn_out_pandemia": "same narrative universe in different form: textual field becomes visual field; the same story in two languages — text and manga",
+      "ai_amore_frabasile": "same AI field as cultural operator: in AI 愛 the AI is philosophy, in ABOP it is physical character; two configurations of AI in the Peacock catalog",
+      "il_gatto_esperienza": "same operative knowledge without semantic understanding: Zana uses the formula without knowing its meaning; ABOP observes charm without knowing how it works",
+      "bagnobianchi_goldrake": "same Japanese field in Italian culture: Bagnobianchi brought Goldrake to Italian children in 1980; Giglio brings the manga form to Italian autobiographical narrative in 2022"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-02",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-05",
+    "narrative_model": "simpatia come competenza professionale autonoma, ABOP come testimone AI del campo umano non replicabile, impostore funzionante come prodotto del sistema sociale, campo visivo manga come forma narrativa autonoma, differenziale NO-AI/SÌ-umano come campo strutturale più denso",
+    "stability": "charm_metastable",
+    "first_manga_note": "primo manga del catalogo Peacock: il campo visivo giapponese entra nel catalogo come forma narrativa autonoma; Antonella Aricò come prima mangaka del catalogo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1 / PerceptualField v4.1"
+  }
+}
