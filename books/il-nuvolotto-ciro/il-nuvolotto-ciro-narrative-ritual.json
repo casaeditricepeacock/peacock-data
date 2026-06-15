@@ -1,0 +1,147 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "ritual_types": {
+    "birth_ritual": "il rituale della nascita dalla condensazione: il vapore sale, si raffredda, la nuvola appare",
+    "fear_encounter": "il rituale dell'incontro con la paura: aprire gli occhi, guardare giù, tremare",
+    "wind_transport": "il rituale del trasporto del vento: Ciro non sceglie dove andare, viene portato",
+    "paradox_reception": "il rituale della ricezione della soluzione paradossale: ascoltare Cumulina, non capire, fidarsi",
+    "dissolution_cry": "il rituale del pianto trasformativo: concentrarsi sulla paura fino a sciogliersi",
+    "rebirth_recognition": "il rituale della rinascita: gli stessi occhi che si aprono, lo stesso cielo, un campo diverso"
+  },
+  "editorial_principle": "I rituali del nuvolotto Ciro sono tutti rituali del ciclo: nascere, temere, essere trasportati, ricevere, dissolversi, rinascere. Nessun rituale è compiuto per scelta autonoma di Ciro — il ciclo lo compie attraverso di lui. La sua unica azione deliberata è quella di avere ancora più paura su suggerimento di Cumulina.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "nascita_dalla_condensazione",
+      "label_en": "birth_from_condensation",
+      "type": "birth_ritual",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il cielo come luogo di nascita: il vapore sale dal mare riscaldato dal sole, si raffredda, si condensa; Ciro non sceglie di nascere — il ciclo lo produce",
+      "kokyu": "il ritmo della nascita è quello della condensazione: graduale, invisibile, poi improvviso; la nuvola appare quando le condizioni sono pronte",
+      "yūgen": "oggi, tra le altre, è nato il nuvolotto Ciro: la nascita è ordinaria nel ciclo e unica per chi la vive; il sistema non distingue tra le nuvole ma Ciro è distinto dal suo nome",
+      "affects": {
+        "ritual-02": "la nascita genera immediatamente l'incontro con la paura: aprire gli occhi è il primo atto e la prima soglia"
+      },
+      "textual_anchor_it": "Oggi, tra le altre, è nato il nuvolotto Ciro.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "incontro_con_la_paura",
+      "label_en": "fear_encounter",
+      "type": "fear_encounter",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il primo sguardo verso il basso: Ciro apre gli occhi, vede la terra lontana, sente l'altezza come campo ostile; il rituale si ripete ogni volta che guarda giù",
+      "kokyu": "il ritmo dell'incontro con la paura è quello dello schianto improvviso: un momento di apertura, poi il tremore",
+      "yūgen": "chiudere gli occhi non risolve la vertigine: il campo della paura è attivo anche nell'oscurità; Ciro trema con gli occhi chiusi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la paura non diminuisce con l'abitudine: ogni sguardo verso il basso produce lo stesso campo"
+      },
+      "affects": {
+        "ritual-05": "l'incontro con la paura prepara il rituale del pianto: solo chi ha incontrato abbastanza paura può piangere abbastanza da dissolversi"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
+      "glossary_link": ["basho", "ma", "kokyu"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "trasporto_del_vento",
+      "label_en": "wind_transport",
+      "type": "wind_transport",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il vento come operatore del ciclo: porta Ciro sulla città, sui campi, sulla montagna, verso il temporale, verso Cumulina; Ciro non decide la direzione",
+      "kokyu": "il ritmo del vento è quello della discontinuità: cambia direzione senza preavviso; Ciro subisce ogni cambio come evento nuovo",
+      "yūgen": "il vento non è personaggio né antagonista: è il campo che muove il sistema; la sua presenza è strutturale e invisibile",
+      "affects": {
+        "ritual-04": "il vento porta Ciro da Cumulina: l'incontro con la guida è prodotto dal ciclo, non cercato"
+      },
+      "textual_anchor_it": "Una folata di vento lo riporta in quota e lo spinge sulla città.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "ricezione_paradossale",
+      "label_en": "paradox_reception",
+      "type": "paradox_reception",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "l'incontro con Cumulina: Ciro chiede come scendere e guarire; Cumulina risponde con il paradosso; il rituale è la ricezione di una soluzione che non si capisce ma si esegue",
+      "kokyu": "il ritmo della ricezione è quello della fiducia immediata: Ciro non discute, non chiede spiegazioni; riceve e agisce",
+      "yūgen": "non ti dico altro: prova ad avere più paura; Cumulina non completa la frase; il sistema lascia uno spazio che Ciro deve riempire da solo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Cumulina avrebbe detto se avesse completato la frase non viene mai rivelato: il non detto è parte strutturale del rituale"
+      },
+      "affects": {
+        "ritual-05": "la ricezione paradossale attiva il rituale del pianto: Ciro sa cosa fare anche se non sa perché"
+      },
+      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!",
+      "glossary_link": ["yūgen", "kokyu"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "pianto_trasformativo",
+      "label_en": "dissolving_cry",
+      "type": "dissolution_cry",
+      "intensity": 0.99,
+      "perceptual_weight": 0.99,
+      "basho": "Ciro spalanca gli occhi, guarda giù, si concentra sulla paura con tutto se stesso; il pianto cresce fino a diventare pioggia; la dissoluzione è il rituale centrale del libro",
+      "kokyu": "il ritmo è quello dell'escalation deliberata: Ciro non piange per caso — si sforza di avere paura; la ripetizione ho paura, ho tanta paura costruisce il campo fino alla soglia",
+      "yūgen": "piangere fino a sciogliersi non è morte ma trasformazione: il rituale produce il passaggio di stato senza perdita",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il punto esatto in cui Ciro smette di essere nuvola e diventa pioggia non è marcato: la transizione avviene nel pianto stesso"
+      },
+      "affects": {
+        "ritual-06": "il pianto trasformativo produce il campo della rinascita: la dissoluzione è la condizione necessaria del rituale successivo"
+      },
+      "textual_anchor_it": "Il nuvolotto Ciro piange, piange e così cade giù in grossi goccioloni di pioggia.",
+      "glossary_link": ["mono no aware", "kokyu", "ma"]
+    },
+    {
+      "id": "ritual-06",
+      "label": "rinascita_nel_ciclo",
+      "label_en": "rebirth_in_cycle",
+      "type": "rebirth_recognition",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il secondo incipit del libro: il vapore sale di nuovo, la nuvola si forma di nuovo, Ciro nasce di nuovo; il rituale della rinascita è identico a quello della prima nascita ma il campo è trasformato",
+      "kokyu": "il ritmo della rinascita è quello del riconoscimento lento: le stesse parole, lo stesso cielo, un sorriso al posto del tremore",
+      "yūgen": "Cumulina che riconosce Ciro: il sistema porta con sé una traccia della vita precedente che non è memoria ma risonanza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Ciro ricordi del ciclo precedente resta aperto: la memoria del ciclo è il residuo strutturale permanente del sistema"
+      },
+      "affects": {
+        "ritual-01": "la rinascita retroagisce sulla prima nascita: il ciclo si chiude e si riapre; la struttura è la stessa, il campo è diverso"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, ha visto tutto il mondo colorato di pallidi verdi e azzurri soffusi ed... ha sorriso, felice!",
+      "glossary_link": ["mono no aware", "basho", "kokyu"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 6,
+    "dominant_field": "ritual-02",
+    "secondary_field": "ritual-05",
+    "system_role": "cycle_as_ritual_structure",
+    "narrative_model": "sei rituali che replicano il ciclo dell'acqua: nascita — paura — trasporto — ricezione — dissoluzione — rinascita; il ciclo è il rituale, non il contenuto",
+    "reader_effect": "il lettore percepisce che il ciclo non è metafora ma struttura: ogni elemento del sistema narrativo corrisponde a una fase del ciclo dell'acqua",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
