@@ -1,0 +1,135 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "illustrator": "Antonella Aricò",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022,
+    "language": "IT + JA",
+    "genre": "manga ebook",
+    "format": "18 tavole digitali",
+    "origin": "derivato da Burn Out Pandemia — seguendo le nove code"
+  },
+  "editorial_principle": "AI ロボット ABOP non racconta la storia di uno chef. Produce un campo in cui la simpatia è una competenza professionale reale — non un surrogato della tecnica ma un operatore autonomo che genera risultati equivalenti. ABOP osserva questo campo senza giudicarlo. Il manga è il primo del catalogo Peacock: il campo visivo giapponese applicato a una storia italiana autobiografica.",
+  "object_types": {
+    "charm_operator": "la simpatia come competenza professionale: non abilità tecnica ma campo relazionale che produce risultati concreti",
+    "ai_witness": "ABOP come robot AI testimone: presente nelle scene come osservatore volante, interlocutore, campo AI fisico nella storia",
+    "impostor_field": "Darma che cucina per 20-30 persone senza essere chef: l'impostore che funziona come il sistema accetta",
+    "social_kitchen": "la cucina come campo sociale: non luogo di tecnica ma spazio di relazione e seduzione",
+    "manga_panel": "la tavola manga come unità percettiva: vignetta, balloon, sequenza visiva come campo narrativo autonomo"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "simpatia_come_competenza",
+      "label_en": "charm_as_competence",
+      "type": "charm_operator",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la villa lussuosa come campo in cui la simpatia di Darma produce lo stesso effetto di una competenza tecnica certificata: le cene si riempiono, gli ospiti tornano, la fama cresce",
+      "kokyu": "il ritmo della simpatia è quello della sicurezza senza fondamento: Darma parla con calma, sorride, propone; non esita mai anche quando non sa tagliare le patate",
+      "yūgen": "la simpatia non è descrivibile: produce effetti misurabili senza poter essere scomposta in elementi tecnici; è il campo che il manga mostra senza spiegare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché la simpatia funzioni come la tecnica non viene spiegato: il sistema la assume come operatore dato e misurabile nei risultati"
+      },
+      "affects": {
+        "object-02": "la simpatia di Darma è osservata da ABOP come campo degno di studio: l'AI testimonia ciò che non può replicare",
+        "object-03": "la simpatia produce l'impostore funzionante: Darma non è chef ma il campo lo tratta come tale"
+      },
+      "textual_anchor_it": "Facevo delle cene con 20, 30 persone ma a mala pena sapevo tagliare le patate, però la faccia da bronzo non mi è mai mancata, puntavo sulla simpatia.",
+      "glossary_link": ["kokyu", "basho", "omotenashi"]
+    },
+    {
+      "id": "object-02",
+      "label": "abop_testimone_AI",
+      "label_en": "abop_ai_witness",
+      "type": "ai_witness",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "ABOP come robot volante presente nelle scene: bzzz bzzz — il suono del robot che osserva; non antagonista, non alleato, non giudice; presenza AI fisica nel campo della storia",
+      "kokyu": "il ritmo di ABOP è quello dell'osservazione silenziosa: appare, registra, commenta raramente; la sua presenza cambia il campo senza agire direttamente",
+      "yūgen": "ABOP è un robot AI in una storia di cucina e seduzione: la sua presenza non viene spiegata; agisce come campo che rende la storia consapevole di sé come storia sull'AI",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa ABOP pensi della simpatia di Darma non viene dichiarato: l'AI osserva ma non giudica; il campo del suo pensiero resta chiuso"
+      },
+      "affects": {
+        "object-01": "ABOP come testimone della simpatia: la presenza dell'AI rende il campo della simpatia visibile come oggetto di studio"
+      },
+      "textual_anchor_it": "調理師は面白いからって人気になった — AI ロボット ABOP",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "object-03",
+      "label": "impostore_funzionante",
+      "label_en": "functional_impostor",
+      "type": "impostor_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "Darma che si presenta come chef senza avere la tecnica: il sistema sociale accetta l'impostore perché la simpatia produce gli stessi effetti attesi dalla competenza",
+      "kokyu": "il ritmo dell'impostore funzionante è quello della sicurezza performata: Darma non esita, non si scusa, non ammette lacune; il campo non lascia spazio al dubbio",
+      "yūgen": "l'impostora funziona perché il sistema valuta i risultati non i titoli: le ville si riempiono — questo è il metro; la tecnica è un campo invisibile se i risultati sono visibili",
+      "affects": {
+        "object-04": "l'impostore funzionante trasforma la cucina in campo sociale: non laboratorio tecnico ma spazio di relazione"
+      },
+      "textual_anchor_it": "Nonostante non fossi appunto uno chef, ho sempre riempito la villa della persona che mi ospitava.",
+      "glossary_link": ["kokyu", "omotenashi"]
+    },
+    {
+      "id": "object-04",
+      "label": "cucina_come_campo_sociale",
+      "label_en": "kitchen_as_social_field",
+      "type": "social_kitchen",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "la villa, il food market, la cena per le amiche di yoga: la cucina non è luogo di tecnica ma campo di relazione; ciò che si cucina è meno importante di come si gestisce il campo sociale attorno al cibo",
+      "kokyu": "il ritmo della cucina sociale è quello dell'improvvisazione organizzata: Darma compra, cucina, serve; la sequenza è tecnica ma il campo è relazionale",
+      "yūgen": "potrei cucinare per te — la proposta non è tecnica ma seduttiva; il cibo come campo di apertura verso l'altro",
+      "affects": {
+        "object-01": "la cucina sociale è il campo in cui la simpatia opera: senza il contesto sociale la simpatia non ha dove agire"
+      },
+      "textual_anchor_it": "Potrei cucinare per te. Anni fa facevo lo chef per 20-30 persone.",
+      "glossary_link": ["omotenashi", "basho", "kokyu"]
+    },
+    {
+      "id": "object-05",
+      "label": "tavola_manga",
+      "label_en": "manga_panel_field",
+      "type": "manga_panel",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "18 tavole in bianco e nero come campo visivo giapponese applicato a una storia italiana autobiografica: vignette, balloon, sequenze visive; il manga come contenitore culturale che trasforma la storia",
+      "kokyu": "il ritmo della tavola manga è quello della lettura visiva: l'occhio segue i balloon, poi le figure, poi la sequenza; il tempo della lettura è diverso da quello del testo",
+      "yūgen": "il tratto manga di Antonella Aricò porta il campo visivo giapponese nella storia italiana di Darma: la forma cambia il contenuto; una storia autobiografica italiana diventa campo culturale ibrido",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo visivo delle tavole non è traducibile in testo: la sequenza di vignette porta informazioni che il NarrativeProtocol non può registrare"
+      },
+      "affects": {
+        "object-02": "la tavola manga rende ABOP visivamente presente: il robot non è descritto, è disegnato; la sua presenza è campo visivo prima che narrativo"
+      },
+      "textual_anchor_it": "18 tavole inedite tratte dal libro bestseller in performance art Burn out pandemia.",
+      "glossary_link": ["basho", "ma"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": "object-02",
+    "system_role": "charm_over_competence_field",
+    "narrative_model": "cinque operatori producono un campo in cui la simpatia sostituisce la tecnica: la simpatia come competenza fonda il sistema, ABOP lo testimonia come AI, l'impostore funzionante lo valida, la cucina sociale gli fornisce il campo, la tavola manga lo porta nel campo visivo giapponese",
+    "language_structure": "IT + JA: italiano autobiografico e titolo giapponese come due campi culturali che abitano lo stesso manga",
+    "format_note": "primo manga del catalogo Peacock; ebook Kobo; derivato da Burn Out Pandemia",
+    "closure_type": "charm_as_permanent_operative_field",
+    "reader_effect": "il lettore non impara a cucinare: impara che la simpatia è una competenza misurabile nei risultati e che ABOP — l'AI — è il testimone più adatto a osservare questo campo",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
