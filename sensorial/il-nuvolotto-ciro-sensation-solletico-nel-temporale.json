@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "sensory_theme": "irruzione_comica_nel_campo_della_paura",
+  "experience_type": "frattura_percettiva_improvvisa",
+  "dominant_sense": "tatto",
+  "activation_condition": "il momento in cui l'aereo bianco e rosso si infila nel nuvolotto Ciro; ogni esperienza in cui qualcosa di inatteso interrompe un campo di paura o tensione e produce riso invece del tremore atteso",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "irruzione_dell_aereo",
+      "basho": "il piccolo aereo bianco e rosso che si infila nel corpo della nuvola: un oggetto solido che attraversa un corpo soffice; il contatto è simultaneamente fisico e percettivo — Ciro sente qualcosa entrare nel proprio spazio corporeo",
+      "kokyu": "il ritmo dell'irruzione è quello dello stacco netto: vrvrvrvrvr — il rumore che si avvicina — poi il contatto; il campo della paura si interrompe di colpo e si trasforma in qualcosa di completamente diverso",
+      "yūgen": "il pilota che gioca a fare acrobazie dentro, fuori, intorno al nuvolotto: il corpo della nuvola come spazio ludico per qualcuno che non ha paura; la stessa sostanza che per Ciro è campo di vertigine per il pilota è campo di gioco",
+      "japanese_echo": "ichigo ichie — l'incontro unico e irripetibile; questo specifico aereo, questo specifico solletico, questo specifico momento in cui la paura viene dimenticata non accadrà mai di nuovo esattamente così",
+      "poetic_anchor": "il solletico è la forma più gentile con cui il mondo può attraversare un corpo che ha paura"
+    },
+    {
+      "id": "sensation-02",
+      "label": "stessa_struttura_tremore_e_riso",
+      "basho": "Ciro si agita — la stessa agitazione del tremore — ma il campo è completamente diverso; il corpo non distingue tra il tremore della paura e quello del riso; la differenza è solo nel segno del campo",
+      "kokyu": "il ritmo del riso è identico al ritmo del tremore: irregolare, involontario, che percorre tutto il corpo; ma il riso sale mentre il tremore preme verso il basso",
+      "yūgen": "e la paura? Per un attimo l'ha dimenticata: la paura non viene risolta, viene interrotta; il campo si svuota per un istante e Ciro si ritrova senza il peso che portava; poi l'aereo si allontana e il campo si richiude",
+      "japanese_echo": "ma — lo spazio tra due stati come campo attivo; il momento in cui la paura è sospesa e il riso non è ancora finito è il campo più denso della scena",
+      "poetic_anchor": "dimenticare la paura per un attimo non è guarire: è scoprire che il corpo conosce altri campi oltre a quello della paura"
+    }
+  ],
+  "reader_effect": "il lettore riconosce nel proprio corpo la sensazione del solletico come irruzione incontrollabile — qualcosa che entra nel proprio spazio corporeo senza permesso e produce una reazione che non si può scegliere; il libro produce la memoria fisica della frattura percettiva: quel momento in cui un campo di tensione si rompe improvvisamente e produce qualcosa di inatteso",
+  "philosophical_layer": {
+    "core_concept": "il riso e la paura come campi percettivi strutturalmente identici ma con segno opposto: entrambi producono agitazione involontaria, perdita di controllo, alterazione del respiro; la differenza non è nel corpo ma nel campo che li genera; il solletico come rivelatore di questa identità strutturale",
+    "japanese_resonance": "ichigo ichie come campo dell'incontro unico — ogni solletico è irripetibile; la presenza piena nell'istante come forma di dimenticanza della paura; la leggerezza come pratica, non come assenza di peso",
+    "scientific_resonance": "il solletico come fenomeno neurologico che non si può produrre su se stessi: richiede l'alterità; l'aereo come alterità necessaria che produce ciò che Ciro non potrebbe produrre da solo"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il momento in cui la paura ritorna dopo il riso non viene descritto: il sistema salta direttamente al vento che porta Ciro verso il temporale; la transizione dal riso alla paura è un silenzio strutturale del campo"
+  },
+  "closure": "c'è qualcosa che ti ha fatto ridere proprio nel momento in cui avevi paura?"
+}
