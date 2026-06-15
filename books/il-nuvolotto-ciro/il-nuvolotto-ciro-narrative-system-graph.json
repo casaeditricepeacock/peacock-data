@@ -1,0 +1,209 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "system_principle": "The system operates as a fear dissolution natural cycle field. The water cycle is not a metaphor: it is the ontological structure of the system. Ciro does not overcome his fear: he completes his natural cycle. Nothing is lost. Every dissolution is a passage. The sun generates, the wind transports, the paradox activates, the tears dissolve, the cycle renews. The memory of the previous cycle remains open as the system's permanent residue.",
+  "node_classes": {
+    "scene": "cycle_phase_configuration",
+    "object": "cycle_operator",
+    "ritual": "cycle_activation_device",
+    "transition": "cycle_movement_threshold",
+    "silence": "operative_void_field",
+    "weather": "climate_cycle_operator",
+    "meta_state": "system_wide_cycle_accumulator"
+  },
+  "layers": {
+    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05", "scene-06"],
+    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05", "object-06"],
+    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05"],
+    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06", "transition-07"],
+    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05", "ritual-06"],
+    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05"]
+  },
+  "topology": {
+    "core_field": "object-03",
+    "system_shape": "fear_dissolution_natural_cycle_field",
+    "primary_loop": {
+      "id": "loop-01",
+      "label": "ciclo_acqua_trasformazione",
+      "sequence": [
+        "object-06",
+        "weather-01",
+        "object-03",
+        "object-01",
+        "object-04",
+        "object-02",
+        "object-05",
+        "object-06"
+      ],
+      "stability": "permanent_cyclical",
+      "propagation_logic": "The sun heats the water. Vapour rises and condenses into cloud. The cloud is born with vertigo. Cumulina introduces the paradox. The tears dissolve the cloud into rain. The rain flows to the river and sea. The sun heats the water again. The cycle has no end.",
+      "description": "The cycle has no conclusion. Every end coincides with a new beginning."
+    },
+    "secondary_loops": [
+      {
+        "id": "loop-02",
+        "label": "paura_paradosso_dissoluzione",
+        "nodes": ["object-01", "object-04", "object-02", "silence-02"],
+        "type": "fear_paradox_dissolution_loop",
+        "stability": "terminal_within_cycle",
+        "propagation_logic": "The vertigo activates the search for a solution. Cumulina introduces the paradox without completing it. Ciro executes what he does not understand. The tears dissolve him. The silence of the incomplete sentence remains open.",
+        "description": "Fear dissolved through paradox: the operative knowledge without semantic understanding."
+      },
+      {
+        "id": "loop-03",
+        "label": "rinascita_memoria",
+        "nodes": ["object-05", "object-04", "silence-03", "field-04"],
+        "type": "rebirth_memory_loop",
+        "stability": "permanent_open",
+        "propagation_logic": "Ciro is reborn. Cumulina recognises him. Ciro perhaps does not remember. The memory of the previous cycle remains as an open residue. The loop does not close: the system leaves the question of memory permanently open.",
+        "description": "Rebirth carries a trace of the previous cycle that cannot be fully recovered."
+      },
+      {
+        "id": "loop-04",
+        "label": "sole_generatore_invisibile",
+        "nodes": ["object-06", "weather-01", "silence-04", "object-03"],
+        "type": "hidden_generator_loop",
+        "stability": "permanent_structural",
+        "propagation_logic": "The sun generates the entire cycle without appearing as protagonist. Its silence in the narrative is proportional to its structural necessity. Without the sun there is no evaporation, no cloud, no Ciro.",
+        "description": "The hidden generator: the sun as silent structural condition of the entire field."
+      },
+      {
+        "id": "loop-05",
+        "label": "vento_trasportatore",
+        "nodes": ["transition-02", "transition-04", "transition-05", "object-04"],
+        "type": "wind_transport_loop",
+        "stability": "iterative_within_cycle",
+        "propagation_logic": "The wind carries Ciro without his choosing direction. Every change of wind direction is a new encounter. The wind brings Ciro to the storm, then to Cumulina. The cycle uses the wind as its transport operator.",
+        "description": "The wind as cycle operator: Ciro moves without deciding where to go."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-03",
+      "to": "all",
+      "effect": "water_cycle_as_ontological_system_foundation",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every element of the system is a phase or expression of the water cycle"
+    },
+    {
+      "from": "object-06",
+      "to": "object-03",
+      "effect": "sun_generates_entire_cycle_silently",
+      "propagation_mode": "structural",
+      "intensity": 0.95,
+      "stability_impact": "without the sun there is no evaporation and therefore no system"
+    },
+    {
+      "from": "object-04",
+      "to": "object-02",
+      "effect": "cumulina_activates_paradoxical_dissolution",
+      "propagation_mode": "direct",
+      "intensity": 0.99,
+      "stability_impact": "the paradox is the only activation device for the tears that dissolve Ciro"
+    },
+    {
+      "from": "silence-02",
+      "to": "field-02",
+      "effect": "incomplete_sentence_generates_operative_field",
+      "propagation_mode": "structural",
+      "intensity": 0.98,
+      "stability_impact": "the unsaid part of Cumulina's sentence is the most active part of the paradox field"
+    },
+    {
+      "from": "object-05",
+      "to": "object-01",
+      "effect": "rebirth_retroactively_validates_vertigo_as_necessary_condition",
+      "propagation_mode": "retroactive",
+      "intensity": 0.97,
+      "stability_impact": "without the vertigo there is no dissolution and without dissolution there is no rebirth"
+    },
+    {
+      "from": "silence-03",
+      "to": "field-04",
+      "effect": "memory_void_generates_permanent_open_residue",
+      "propagation_mode": "permanent",
+      "intensity": 0.98,
+      "stability_impact": "the question of what Ciro remembers remains the system's deepest open field"
+    },
+    {
+      "from": "print-01",
+      "to": "object-03",
+      "effect": "circular_text_embodies_water_cycle_in_physical_book",
+      "propagation_mode": "structural",
+      "intensity": 0.96,
+      "stability_impact": "the same words at opening and closing make the cycle physically present in the object"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "cycle_active_vertigo_sustained",
+    "allowed_mutations": [
+      "condensation_birth",
+      "vertigo_activation",
+      "wind_transport",
+      "comic_interruption",
+      "storm_intensification",
+      "paradox_reception",
+      "deliberate_fear_escalation",
+      "dissolution_through_tears",
+      "river_flow",
+      "solar_evaporation",
+      "rebirth_condensation",
+      "memory_trace_recognition"
+    ],
+    "forbidden_states": [
+      "fear_as_problem_to_solve_rationally",
+      "dissolution_as_death",
+      "cycle_as_metaphor_not_structure",
+      "cumulina_as_omniscient_guide",
+      "rebirth_as_narrative_reward",
+      "transformation_as_linear_growth",
+      "sun_as_narrative_character"
+    ]
+  },
+  "reader_position": "witness_of_natural_cycle",
+  "global_state": {
+    "dominant_operator": "object-03",
+    "secondary_operator": "object-04",
+    "dominant_field": "field-03",
+    "secondary_field": "field-04",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-03",
+    "stability": "cyclical_metastable",
+    "closure": false,
+    "closure_type": "circular_rebirth_transformed",
+    "system_behavior": "The system sustains a fear dissolution natural cycle field through four loops that reinforce each other without resolving. The water cycle is structural and permanent. The vertigo is the necessary activation condition. The paradox dissolves fear through escalation. The sun generates silently. The memory of the previous cycle remains open. The book ends where it began — but the field is transformed.",
+    "reader_effect": "The reader does not learn that fears can be overcome. The reader learns that some fears dissolve only when fully inhabited. The circular text makes the cycle physically present: the reader encounters the same words twice and understands retroactively that transformation does not change the world but the field within it.",
+    "memory_cycle_residue": {
+      "status": true,
+      "description": "it is not clear whether Ciro remembers his previous life or whether the transformation erased his memory. Cumulina seems to recognise him. The system leaves the question permanently open."
+    },
+    "catalog_connection": {
+      "il_gatto_esperienza": "same operative knowledge without semantic understanding: Ciro executes the paradox without understanding it as Zana pronounces the formula without knowing its meaning",
+      "alla_festa_della_natura": "same open journey field: Musasabi and Ciro both arrive at a transformed field without antagonist or explicit resolution",
+      "forbidden_colours": "in both systems the solution does not come from possession or conquest but from acceptance of the field's structure",
+      "bernie_alla_scoperta_dei_mari_del_nord": "same transformation through journey without conflict: Bernie returns home changed; Ciro is reborn changed; the field is never the same after the cycle",
+      "bagnobianchi_goldrake_field": "Il nuvolotto Ciro carries the Japanese field that Bagnobianchi has inhabited since 1980 — Goldrake, Il Corrierino, forty years before Peacock structured it as a catalog"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-03",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-03",
+    "narrative_model": "ciclo dell'acqua come struttura ontologica, sole generatore invisibile, vertigine come condizione necessaria, Cumulina come operatore del paradosso, pianto come dissoluzione trasformativa, rinascita come campo rinnovato, memoria del ciclo come residuo aperto permanente",
+    "stability": "cyclical_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1 / PerceptualField v4.1"
+  }
+}
