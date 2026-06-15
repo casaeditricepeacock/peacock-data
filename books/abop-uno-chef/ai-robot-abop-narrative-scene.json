@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "system_axis": {
+    "primary_tension": "simpatia_vs_competenza_tecnica",
+    "temporal_axis": "present_flashback_present",
+    "narrative_logic": "le scene alternano il presente della proposta con i flashback delle ville gloriose; ogni scena è una dimostrazione del campo della simpatia come operatore professionale reale; ABOP osserva il campo in ogni scena"
+  },
+  "editorial_principle": "Le scene di AI ロボット ABOP non sono episodi di una storia culinaria. Sono configurazioni del campo della simpatia: ogni scena mostra la simpatia di Darma che produce un effetto misurabile in un contesto diverso. ABOP è presente in ogni campo come testimone. Il manga non giudica: mostra.",
+  "scene_types": {
+    "contemporary_field": "il presente della storia: Darma, Kate, ABOP nell'hotel e per le strade",
+    "flashback_field": "il passato glorioso: le ville, le cene, Madame e le amiche di yoga",
+    "proposal_field": "la scena della proposta: Darma che apre il campo relazionale attraverso il cibo",
+    "validation_field": "la scena della validazione: il campo che accetta Darma come chef",
+    "ai_witness_field": "ABOP come campo visivo presente nella scena"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "hotel_stanchezza_proposta",
+      "type": "contemporary_field",
+      "dominant": false,
+      "basho": "l'hotel Giacarta come campo di partenza: Darma stanco, stressato dalla metro; ABOP che tenta il flirt con Kate — NO — poi la proposta culinaria come cambio di campo",
+      "kokyu": "il ritmo è quello della transizione rapida: stanchezza — frustrazione — proposta; la simpatia si attiva come risposta alla stanchezza, non nonostante essa",
+      "yūgen": "questa storia della metro mi sta stressando / mio Dio come sono stanco: la stanchezza non impedisce la performance della simpatia; il campo si attiva indipendentemente dallo stato interno",
+      "affects": {
+        "scene-02": "la proposta nel presente attiva il flashback: Darma costruisce la credibilità convocando il passato"
+      },
+      "textual_anchor_it": "Questa storia della metro, mi sta stressando! Mio Dio! Come sono stanco! Ehi Kate, siamo soli soletti!",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "scene-02",
+      "label": "food_market_proposta_culinaria",
+      "type": "proposal_field",
+      "dominant": true,
+      "basho": "il food market come campo della proposta: dopo la spesa Darma propone di cucinare per Kate; la sequenza spesa-proposta-sorpresa di Kate come struttura del campo",
+      "kokyu": "il ritmo è quello della sicurezza immediata: potrei cucinare per te — anni fa facevo lo chef per 20-30 persone — sul serio?! — certo!; la progressione non lascia spazio al dubbio",
+      "yūgen": "sul serio?! — la reazione di Kate come indicatore del campo: la proposta è inaspettata ma immediatamente credibile; la simpatia ha già preparato il campo prima che la tecnica venga menzionata",
+      "affects": {
+        "scene-03": "la sorpresa di Kate prepara l'accettazione: il campo della simpatia è già attivo prima che il flashback inizi"
+      },
+      "textual_anchor_it": "Potrei cucinare per te. Anni fa facevo lo chef per 20-30 persone. Sul serio?! Certo!",
+      "glossary_link": ["omotenashi", "kokyu", "basho"]
+    },
+    {
+      "id": "scene-03",
+      "label": "flashback_madame_yoga",
+      "type": "flashback_field",
+      "basho": "4 anni fa: la villa, Madame con la maglietta Vegan Love, le amiche di yoga; il flashback come campo di validazione retroattiva; Darma in divisa da chef che dice eccomi Madame",
+      "kokyu": "il ritmo del flashback è quello della progressione verticale: una villa, poi venti persone, poi le amiche di yoga; ogni elemento aggiunge densità al campo della credibilità",
+      "yūgen": "la divisa da chef nel flashback: Darma indossa il costume della competenza anche quando non la possiede; il campo visivo del manga rende la performance visibile come tale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Darma abbia effettivamente cucinato in quelle ville non viene mostrato: il campo visivo mostra la presentazione, la dessert table, non il processo"
+      },
+      "affects": {
+        "scene-04": "il flashback glorioso prepara il campo della cena attuale: il passato come promessa del futuro"
+      },
+      "textual_anchor_it": "4 anni fa. Eccomi Madame. Sono 20, te la senti? Darma, devi cucinare per le mie amiche di yoga.",
+      "glossary_link": ["basho", "kokyu", "omotenashi"]
+    },
+    {
+      "id": "scene-04",
+      "label": "dessert_table_validazione",
+      "type": "validation_field",
+      "basho": "la tavola dei dessert come campo di validazione visiva: torte, pasticcini, frutti — il risultato del campo della simpatia reso visibile come produzione culinaria",
+      "kokyu": "il ritmo della tavola è quello dell'abbondanza: molti dolci, molti colori, molte forme; il campo visivo del manga porta il cibo come campo estetico prima che gustativo",
+      "yūgen": "i dessert non vengono descritti: vengono mostrati; il manga porta il campo visivo giapponese alla cucina italiana — la tavola come ukiyo-e del cibo",
+      "affects": {
+        "scene-05": "la tavola validata prepara il ritorno al presente: il flashback ha costruito il campo, ora Darma può operare nel presente"
+      },
+      "textual_anchor_it": "Cucinavo in lussuose ville.",
+      "glossary_link": ["basho", "yūgen", "omotenashi"]
+    },
+    {
+      "id": "scene-05",
+      "label": "abop_nel_campo",
+      "type": "ai_witness_field",
+      "basho": "ABOP come campo visivo trasversale: presente nell'hotel, nel food market, nelle scene con Kate; il robot vola ai margini delle vignette come campo AI testimone che attraversa tutta la storia",
+      "kokyu": "il ritmo di ABOP è quello della presenza intermittente: appare, emette bzzz bzzz, scompare; la sua presenza non interrompe il campo ma lo rende consapevole",
+      "yūgen": "ABOP in una storia di cucina e seduzione: il robot non commenta, non giudica, non spiega; osserva il campo della simpatia come campo che conosce nei parametri ma non nell'esperienza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa ABOP stia registrando e trasmettendo non viene dichiarato in nessuna scena: il campo del suo pensiero è permanentemente chiuso"
+      },
+      "affects": {
+        "scene-01": "ABOP retroagisce su tutte le scene: la sua presenza trasforma ogni campo della simpatia in un campo osservabile come dato"
+      },
+      "textual_anchor_it": "BZZZ, BZZZ.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-02",
+    "system_state": "simpatia_come_campo_professionale_validato",
+    "narrative_model": "cinque scene come configurazioni del campo della simpatia: stanchezza che non impedisce la performance, proposta che bypassa la verifica tecnica, flashback che costruisce credibilità retroattiva, dessert che validano il campo, ABOP che lo testimonia",
+    "retroactive_causality": true,
+    "manga_structure": "le scene sono tavole: la sequenza visiva porta informazioni che il testo non può registrare; il campo visivo del manga giapponese applicato alla storia italiana produce un campo ibrido",
+    "global_effect": "ABOP retroagisce su tutte le scene: la presenza dell'AI trasforma ogni campo della simpatia in un campo osservabile e potenzialmente replicabile"
+  }
+}
