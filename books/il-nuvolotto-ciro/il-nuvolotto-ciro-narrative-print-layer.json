@@ -1,0 +1,165 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "print_identity": "albo illustrato bilingue IT+JA, formato quadrato, illustrazioni di Carolina Livio; testo circolare che si apre e si chiude con le stesse parole; storia nata per Il Corrierino negli anni Ottanta, pubblicata da Peacock dopo decenni",
+  "print_types": {
+    "circular_text": "il testo che si apre e si chiude con le stesse parole come struttura fisica del ciclo",
+    "bilingual_layout": "IT+JA come due campi linguistici autonomi sulla stessa storia",
+    "square_format": "il formato quadrato come campo visivo neutro che contiene il cielo senza privilegiare orizzontale o verticale",
+    "corrierino_origin": "la storia nata per Il Corrierino negli anni Ottanta come campo storico che precede la pubblicazione",
+    "chromatic_illustration": "le illustrazioni di Carolina Livio come campo cromatico che replica il ciclo: dai bianchi e azzurri dell'inizio ai rossi e gialli del tramonto"
+  },
+  "editorial_principle": "L'oggetto-libro del nuvolotto Ciro porta nel proprio corpo fisico la struttura del ciclo. Le stesse parole in apertura e chiusura non sono una scelta stilistica: sono la forma stampata del ciclo dell'acqua. Il formato quadrato contiene il cielo in modo neutro. Le illustrazioni di Carolina Livio portano il campo cromatico del ciclo dalla condensazione al tramonto.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "testo_circolare",
+      "label_en": "circular_text",
+      "type": "circular_text",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "le stesse parole in apertura e chiusura come struttura fisica del ciclo: E' bel tempo, il mare è calmo e placido — il lettore le incontra due volte; la seconda volta le riconosce e comprende retroattivamente la struttura",
+      "kokyu": "il ritmo del testo circolare è quello della ricorrenza: le stesse parole hanno un ritmo diverso la seconda volta perché il campo è diverso",
+      "yūgen": "il testo circolare non viene annunciato: il lettore scopre la struttura solo quando le stesse parole riappaiono; la circolarità è percepita retroattivamente",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il testo circolare non si chiude definitivamente: il ciclo continua oltre l'ultima pagina; le stesse parole potrebbero riaprire un terzo ciclo"
+      },
+      "affects": {
+        "print-05": "il testo circolare replica fisicamente la struttura del ciclo dell'acqua che le illustrazioni portano cromaticamente"
+      },
+      "textual_anchor_it": "E' bel tempo, il mare è calmo e placido. / E' bel tempo, il mare è calmo e placido.",
+      "glossary_link": ["basho", "kokyu", "mono no aware"]
+    },
+    {
+      "id": "print-02",
+      "label": "bilingue_it_ja",
+      "label_en": "bilingual_it_ja",
+      "type": "bilingual_layout",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il testo italiano e il testo giapponese come due campi linguistici che abitano la stessa storia; il giapponese porta con sé il campo culturale di Bagnobianchi — Goldrake, Il Corrierino, il Giappone come campo operativo dal 1980",
+      "kokyu": "il ritmo del bilingue è quello della coesistenza: le due lingue non si traducono sulla stessa riga; ciascuna ha il proprio respiro",
+      "yūgen": "il giapponese nel libro di Bagnobianchi non è traduzione: è il campo giapponese che Bagnobianchi ha abitato per quarant'anni che trova forma nella storia di Ciro",
+      "affects": {
+        "print-04": "il bilingue amplifica il campo storico di Bagnobianchi: la storia nata per bambini italiani negli anni Ottanta arriva ai bambini giapponesi attraverso Peacock"
+      },
+      "textual_anchor_it": "晴れています、海は穏やかで静かです。",
+      "glossary_link": ["ma", "basho"]
+    },
+    {
+      "id": "print-03",
+      "label": "formato_quadrato",
+      "label_en": "square_format",
+      "type": "square_format",
+      "intensity": 0.92,
+      "perceptual_weight": 0.91,
+      "basho": "il formato quadrato come contenitore neutro del cielo: né paesaggio orizzontale né ritratto verticale; il cielo occupa lo spazio senza direzione privilegiata",
+      "kokyu": "il ritmo del formato quadrato è quello dell'equilibrio: ogni apertura di pagina è uno spazio uguale per il cielo e per Ciro",
+      "yūgen": "il formato quadrato non privilegia né la vastità orizzontale del cielo né la verticalità del volo; Ciro fluttua in uno spazio che non ha su né giù preferenziali",
+      "textual_anchor_it": "Formato quadrato — Casa Editrice Peacock, 2024.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "print-04",
+      "label": "origine_corrierino",
+      "label_en": "corrierino_origin",
+      "type": "corrierino_origin",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la storia nata per Il Corrierino negli anni Ottanta e pubblicata da Peacock dopo decenni: il libro porta con sé un campo storico che precede la sua forma attuale; Ciro il nuvolotto esiste da prima del libro",
+      "kokyu": "il ritmo dell'origine è quello della latenza lunga: la storia ha aspettato quarant'anni per trovare la sua forma definitiva; il campo era già formato, mancava il contenitore",
+      "yūgen": "Ciro il nuvolotto, una storia pensata per l'ultimo numero del Corrierino, vede finalmente la luce dopo anni: la pubblicazione come compimento di un ciclo editoriale lungo quanto il ciclo dell'acqua nel libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la versione originale per Il Corrierino non è nel libro: il campo storico opera come presenza invisibile che precede il testo attuale"
+      },
+      "affects": {
+        "print-02": "l'origine del Corrierino è connessa al campo giapponese di Bagnobianchi: Goldrake e Il Corrierino sono lo stesso campo storico"
+      },
+      "textual_anchor_it": "Ciro il nuvolotto, una storia pensata per l'ultimo numero del Corrierino, vede finalmente la luce dopo anni.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "print-05",
+      "label": "illustrazioni_ciclo_cromatico",
+      "label_en": "chromatic_cycle_illustrations",
+      "type": "chromatic_illustration",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "le illustrazioni di Carolina Livio come campo cromatico che replica il ciclo: bianchi e azzurri soffusi per la nascita e la rinascita, grigi e neri per il temporale, rossi e gialli per il tramonto",
+      "kokyu": "il ritmo delle illustrazioni è quello del ciclo climatico: i colori cambiano con le fasi del campo; il lettore percepisce il ciclo cromaticamente prima di leggerlo",
+      "yūgen": "le illustrazioni non descrivono il testo: portano il campo cromatico del ciclo come campo visivo autonomo che il testo attraversa",
+      "affects": {
+        "print-01": "il campo cromatico delle illustrazioni replica visivamente la struttura circolare del testo: apertura e chiusura con gli stessi colori"
+      },
+      "textual_anchor_it": "Il sole tramonta e colora di rosso, giallo, amaranto tutte le nuvole.",
+      "glossary_link": ["basho", "kokyu", "yūgen"]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "circular_opening",
+      "note": "le stesse parole che chiuderanno il libro: il lettore le legge senza sapere ancora che le ritroverà"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "fear_field_illustration",
+      "note": "il cielo come campo ostile: le illustrazioni portano il grigio della vertigine"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "comic_encounter_illustration",
+      "note": "l'aereo e il solletico: le illustrazioni portano il bianco e rosso dell'aereo nel campo grigio della nuvola"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "storm_chromatic_peak",
+      "note": "il temporale: i colori più scuri del libro; SKRAK come campo visivo e sonoro simultaneo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "paradox_field_illustration",
+      "note": "Cumulina: le illustrazioni portano una nuvola diversa da Ciro — la guida come campo visivo distinto"
+    },
+    {
+      "order": 6,
+      "scene_ref": "scene-06",
+      "print_function": "circular_closure",
+      "note": "le stesse parole dell'apertura: il lettore le riconosce; il campo cromatico torna ai bianchi e azzurri soffusi della nascita"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie testuale",
+    "contains": [
+      "la versione originale per Il Corrierino come campo storico precedente al libro",
+      "il campo giapponese di Bagnobianchi come substrato del bilingue IT+JA",
+      "il ciclo dell'acqua come struttura portante invisibile del testo circolare",
+      "la memoria del ciclo precedente di Ciro come campo aperto oltre la chiusura"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 5,
+    "dominant_field": "print-01",
+    "secondary_field": "print-04",
+    "narrative_model": "cinque strati fisici: testo circolare come struttura del ciclo, bilingue IT+JA come campo storico di Bagnobianchi, formato quadrato come contenitore neutro, origine del Corrierino come latenza quarantennale, illustrazioni come campo cromatico del ciclo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
