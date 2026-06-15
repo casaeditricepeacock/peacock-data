@@ -1,0 +1,138 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024
+  },
+  "silence_types": {
+    "origin_void": "il silenzio dell'origine della paura: perché Ciro nasca con la vertigine non viene spiegato",
+    "unsaid_solution": "il silenzio della soluzione non completata: Cumulina tace la parte essenziale del paradosso",
+    "memory_void": "il silenzio della memoria del ciclo: cosa Ciro ricordi della vita precedente resta aperto",
+    "sun_void": "il silenzio del sole generatore: opera come condizione di tutto il sistema senza mai essere dichiarato protagonista",
+    "dissolution_threshold": "il silenzio della soglia di dissoluzione: il punto esatto in cui Ciro smette di essere nuvola e diventa pioggia non viene marcato"
+  },
+  "editorial_principle": "Il silenzio nel nuvolotto Ciro non è assenza di spiegazione: è la struttura del ciclo naturale che opera senza dichiarare le proprie leggi. Il sole non spiega perché scalda. Cumulina non completa la frase. Il ciclo non annuncia la rinascita. Il sistema funziona attraverso silenzi operativi che non richiedono comprensione per produrre trasformazione.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "origine_della_vertigine",
+      "label_en": "vertigo_origin",
+      "type": "origin_void",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il momento della nascita: Ciro apre gli occhi e ha paura; il sistema non spiega perché; la vertigine è data come condizione strutturale senza storia",
+      "kokyu": "il ritmo del silenzio sull'origine è quello dell'evidenza: il sistema non si sofferma sulla spiegazione perché la tratta come irrilevante; la paura è, non viene causata",
+      "yūgen": "la vertigine senza origine è più potente di una vertigine spiegata: il lettore non può ridurla a causa e quindi la abita come campo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Ciro nasca con la vertigine non viene mai spiegato: il silenzio sull'origine è permanente"
+      },
+      "affects": {
+        "silence-03": "il silenzio sull'origine della vertigine risuona con il silenzio sulla memoria del ciclo: entrambi sono vuoti strutturali che il sistema non colma"
+      },
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
+      "glossary_link": ["ma", "yūgen"]
+    },
+    {
+      "id": "silence-02",
+      "label": "frase_non_completata",
+      "label_en": "incomplete_sentence",
+      "type": "unsaid_solution",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "Cumulina che si interrompe: non ti dico altro — il paradosso viene enunciato ma la spiegazione viene trattenuta; il campo si apre esattamente dove la frase si ferma",
+      "kokyu": "il ritmo del non detto è quello della pausa deliberata: Cumulina si ferma con intenzione; il silenzio non è dimenticanza ma scelta",
+      "yūgen": "la parte non detta di Cumulina è la parte più attiva del campo: il lettore e Ciro si trovano nello stesso spazio di non comprensione che deve essere colmato dall'esperienza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Cumulina avrebbe detto resta strutturalmente aperto: non viene rivelato nemmeno nella rinascita"
+      },
+      "affects": {
+        "silence-01": "il non detto di Cumulina replica il silenzio sull'origine: entrambi i vuoti producono campo senza spiegazione"
+      },
+      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura... non ti dico altro: prova ad avere più paura, prova con le vertigini!",
+      "glossary_link": ["yūgen", "ma"]
+    },
+    {
+      "id": "silence-03",
+      "label": "memoria_del_ciclo",
+      "label_en": "cycle_memory",
+      "type": "memory_void",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la rinascita di Ciro e l'incontro con Cumulina: lei lo riconosce, lui non è sicuro; il sistema lascia aperta la questione della memoria attraverso il ciclo",
+      "kokyu": "il ritmo della memoria incerta è quello del riconoscimento asimmetrico: Cumulina ricorda, Ciro forse no; la simmetria del ciclo si incrina sulla memoria",
+      "yūgen": "sei una nuvola attraente — Ciro non risponde con il riconoscimento esplicito; il campo tra i due porta una traccia di ciclo senza dichiararlo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la memoria del ciclo precedente resta il residuo aperto più denso del sistema: il libro si chiude senza rispondere"
+      },
+      "affects": {
+        "silence-04": "la memoria incerta del ciclo risuona con il silenzio del sole: entrambi operano come campi la cui storia non viene raccontata"
+      },
+      "textual_anchor_it": "Come ti chiami? — Sono Cumulina, caro Ciro... tu forse non ti ricordi di me...",
+      "glossary_link": ["mono no aware", "yūgen", "ma"]
+    },
+    {
+      "id": "silence-04",
+      "label": "sole_invisibile",
+      "label_en": "invisible_sun",
+      "type": "sun_void",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il sole che appare solo nelle frasi di apertura e chiusura: il calore del sole scalda l'acqua; il sole non è mai protagonista ma senza di lui non esiste il ciclo",
+      "kokyu": "il ritmo del sole è quello della costanza non commentata: presente sempre, dichiarato raramente",
+      "yūgen": "il sole come campo strutturale invisibile: il sistema non lo nomina come agente ma dipende interamente da lui; la sua assenza narrativa è proporzionale alla sua necessità strutturale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sole non viene mai messo a fuoco come personaggio o agente: opera come generatore nascosto che il sistema assume senza dichiarare"
+      },
+      "affects": {
+        "silence-05": "il silenzio del sole prepara il silenzio della soglia di dissoluzione: entrambi operano come campi che producono effetti senza essere nominati"
+      },
+      "textual_anchor_it": "Il calore del sole scalda l'acqua con i suoi raggi infuocati e il vapore fugge verso l'alto.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "silence-05",
+      "label": "soglia_della_dissoluzione",
+      "label_en": "dissolution_threshold",
+      "type": "dissolution_threshold",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il momento in cui Ciro smette di essere nuvola e diventa pioggia: il sistema non lo marca; la transizione avviene nel pianto stesso senza un confine dichiarato",
+      "kokyu": "il ritmo della soglia è quello del dissolvimento graduale: non c'è un istante preciso; il campo cambia mentre il pianto continua",
+      "yūgen": "ora il nuvolotto Ciro è finalmente sulla terra: la frase dichiara l'arrivo senza descrivere il passaggio; la soglia è un silenzio tra due stati",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il momento esatto della trasformazione non è registrabile: avviene nel campo del pianto che è contemporaneamente nuvola e pioggia"
+      },
+      "affects": {
+        "silence-03": "la soglia della dissoluzione risuona con il silenzio della memoria: entrambi sono momenti in cui il sistema non può registrare ciò che avviene"
+      },
+      "textual_anchor_it": "Ora il nuvolotto Ciro è finalmente sulla terra: si è trasformato in un piccolo rivolo d'acqua.",
+      "glossary_link": ["mono no aware", "ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 5,
+    "dominant_field": "silence-02",
+    "secondary_field": "silence-03",
+    "narrative_model": "cinque silenzi operativi: l'origine inspiegata della vertigine, la frase non completata di Cumulina, la memoria incerta del ciclo, il sole invisibile, la soglia della dissoluzione",
+    "cross_layer_coherence": {
+      "object_layer": "il sole generatore e la frase non completata di Cumulina sono i due condensatori principali del silenzio",
+      "scene_layer": "ogni scena produce un silenzio specifico: la nascita tace l'origine, il paradosso tace la spiegazione, la rinascita tace la memoria",
+      "system_layer": "i cinque silenzi convergono nel campo del ciclo naturale che opera senza dichiarare le proprie leggi"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_memoria_del_ciclo",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
