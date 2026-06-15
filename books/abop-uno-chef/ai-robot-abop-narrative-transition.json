@@ -1,0 +1,140 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "transition_types": {
+    "fatigue_to_charm": "il passaggio dalla stanchezza alla performance della simpatia: il campo si attiva indipendentemente dallo stato interno",
+    "refusal_to_proposal": "il passaggio dal NO di Kate alla proposta culinaria: il campo della simpatia trova sempre un nuovo ingresso",
+    "present_to_flashback": "il passaggio dal presente al passato glorioso: il tempo viene convocato come strumento di credibilità",
+    "flashback_to_validation": "il passaggio dal racconto al risultato: la villa che si riempie come chiusura del campo",
+    "panel_to_panel": "la transizione tra vignette: il salto visivo come campo narrativo attivo",
+    "witness_activation": "il momento in cui ABOP entra nel campo visivo come operatore di osservazione"
+  },
+  "editorial_principle": "Le transizioni di AI ロボット ABOP sono tutte transizioni di campo relazionale. Darma non attraversa spazi fisici: attraversa stati del campo sociale. Il passaggio dalla stanchezza alla proposta, dal rifiuto alla seduzione, dal presente al flashback — ogni transizione è un movimento del campo della simpatia verso un nuovo punto di applicazione. ABOP osserva ogni transizione.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "stanchezza_verso_performance",
+      "label_en": "fatigue_to_charm_activation",
+      "type": "fatigue_to_charm",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "l'hotel: Darma stanco, stressato dalla metro; poi il campo si attiva — ehi Kate, siamo soli soletti; la stanchezza non impedisce la performance della simpatia",
+      "kokyu": "il ritmo è quello dello switch immediato: lo stato interno di stanchezza e il campo esterno della performance coesistono senza che l'uno annulli l'altro",
+      "yūgen": "la simpatia si attiva come riflesso condizionato: non richiede energia né preparazione; è un campo che opera indipendentemente dallo stato interno di Darma",
+      "affects": {
+        "transition-02": "la performance attivata trova immediatamente il campo della resistenza di Kate che produce la transizione successiva"
+      },
+      "textual_anchor_it": "Mio Dio! Come sono stanco! Ehi Kate, siamo soli soletti!",
+      "glossary_link": ["kokyu", "basho"]
+    },
+    {
+      "id": "transition-02",
+      "label": "rifiuto_verso_proposta_culinaria",
+      "label_en": "refusal_to_culinary_proposal",
+      "type": "refusal_to_proposal",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "Kate che dice NO alla proposta di ABOP; Darma che dopo la spesa trova un campo diverso: potrei cucinare per te; il rifiuto del robot apre lo spazio per la proposta umana",
+      "kokyu": "il ritmo è quello del pivot rapido: il campo del flirt fallisce, il campo culinario si apre immediatamente; nessuna esitazione tra i due movimenti",
+      "yūgen": "il NO di Kate a ABOP e il SÌ implicito alla proposta di Darma: la differenza non è nella proposta ma nell'operatore; la simpatia umana produce ciò che l'AI non può",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Kate dica NO ad ABOP e accetti la proposta di Darma non viene spiegato: il campo della differenza tra AI e simpatia umana è il residuo più denso della transizione"
+      },
+      "affects": {
+        "transition-03": "la proposta accettata attiva il flashback come costruzione della credibilità"
+      },
+      "textual_anchor_it": "NO. Perché non... Devo andare pure al food market. Potrei cucinare per te.",
+      "glossary_link": ["ma", "kokyu", "yūgen"]
+    },
+    {
+      "id": "transition-03",
+      "label": "presente_verso_flashback",
+      "label_en": "present_to_flashback",
+      "type": "present_to_flashback",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il food market nel presente: anni fa facevo lo chef per 20-30 persone; il passato viene convocato come campo di credibilità nel momento della proposta; la transizione temporale è simultanea alla proposta",
+      "kokyu": "il ritmo è quello della convocazione immediata: Darma non aspetta che Kate chieda; porta il passato come parte della proposta stessa",
+      "yūgen": "anni fa come campo di credibilità: il tempo passato non è limite ma risorsa; ciò che Darma era è garanzia di ciò che può essere ora",
+      "affects": {
+        "transition-04": "il flashback produce la scena della villa e dei dessert come campo di validazione visiva"
+      },
+      "textual_anchor_it": "Anni fa facevo lo chef per 20-30 persone. 4 anni fa. Eccomi Madame.",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "transition-04",
+      "label": "racconto_verso_validazione",
+      "label_en": "narrative_to_validation",
+      "type": "flashback_to_validation",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "dal racconto glorioso alla tavola dei dessert: il flashback si chiude sul risultato visivo; la transizione dal testo all'immagine è la forma manga della validazione",
+      "kokyu": "il ritmo è quello della chiusura visiva: il racconto costruisce il campo, la tavola lo conferma; la sequenza parola-immagine è la struttura della credibilità nel manga",
+      "yūgen": "la tavola dei dessert come chiusura del flashback: il campo della simpatia produce bellezza visiva come risultato; il manga porta questo risultato come tavola ukiyo-e del cibo",
+      "affects": {
+        "transition-05": "la validazione chiude il flashback e riapre il presente: Darma può ora operare nel campo attuale con la credibilità costruita"
+      },
+      "textual_anchor_it": "Cucinavo in lussuose ville.",
+      "glossary_link": ["basho", "yūgen", "omotenashi"]
+    },
+    {
+      "id": "transition-05",
+      "label": "vignetta_verso_vignetta",
+      "label_en": "panel_to_panel",
+      "type": "panel_to_panel",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il campo bianco tra una tavola e la successiva: la transizione visiva come campo narrativo attivo; il lettore costruisce la continuità nel salto",
+      "kokyu": "il ritmo del salto tra vignette è quello della lettura visiva giapponese: l'occhio si muove seguendo la sequenza delle tavole; ogni salto è una transizione di tempo, spazio o campo",
+      "yūgen": "il campo tra le vignette è dove la simpatia di Darma opera: ciò che accade tra la proposta e il risultato non viene mostrato; la transizione visiva è il campo della competenza invisibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo tra le vignette non può essere registrato: è strutturalmente fuori dalla sequenza narrativa e appartiene al lettore"
+      },
+      "affects": {
+        "transition-06": "ogni salto tra vignette produce l'apparizione di ABOP come campo di osservazione: il robot materializza il campo nell'interstizio visivo"
+      },
+      "textual_anchor_it": "18 tavole — transizione visiva come campo narrativo.",
+      "glossary_link": ["ma", "basho", "yūgen"]
+    },
+    {
+      "id": "transition-06",
+      "label": "scena_verso_abop",
+      "label_en": "scene_to_abop_witness",
+      "type": "witness_activation",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il momento in cui ABOP appare nel bordo della vignetta: bzzz bzzz — la transizione dal campo della storia al campo della testimonianza AI; ABOP materializza il campo dell'osservazione",
+      "kokyu": "il ritmo dell'apparizione di ABOP è quello dell'irruzione laterale: non si annuncia, appare; la sua presenza cambia il campo della scena senza modificarne il contenuto",
+      "yūgen": "ABOP nel bordo della vignetta: il robot non è protagonista ma il suo campo di osservazione attraversa ogni scena; la sua presenza laterale è più densa della sua assenza",
+      "affects": {
+        "transition-01": "la presenza di ABOP retroagisce su tutte le transizioni: ogni movimento del campo della simpatia viene osservato dall'AI come dato"
+      },
+      "textual_anchor_it": "BZZZ, BZZZ.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 6,
+    "dominant_field": "transition-02",
+    "secondary_field": "transition-05",
+    "narrative_model": "sei transizioni del campo relazionale: stanchezza-performance, rifiuto-proposta, presente-flashback, racconto-validazione, vignetta-vignetta, scena-testimonianza ABOP",
+    "manga_note": "transition-05 è specifica del formato manga: il campo tra le vignette come transizione narrativa non registrabile; unica nel catalogo Peacock",
+    "key_insight": "transition-02 è la transizione più densa del sistema: il NO di Kate ad ABOP e il SÌ implicito a Darma rivela la differenza tra AI e simpatia umana come campo strutturale del manga",
+    "stability": "high_metastable",
+    "closure": "open_abop_field",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
