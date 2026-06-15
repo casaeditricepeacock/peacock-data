@@ -1,0 +1,132 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "weather_types": {
+    "urban_stress": "il clima della città stressante: metro, hotel, stanchezza — campo urbano come pressione di fondo",
+    "charm_field": "il clima della simpatia attiva: il campo relazionale di Darma come atmosfera che trasforma ogni ambiente",
+    "flashback_warmth": "il clima del passato glorioso: ville, lusso, amiche di yoga — campo cromatico del ricordo",
+    "dessert_light": "il clima della tavola dei dessert: luce soffusa, abbondanza, campo estetico del cibo",
+    "abop_field": "il clima dell'osservazione AI: il campo neutro e analitico di ABOP che attraversa tutti gli altri"
+  },
+  "editorial_principle": "Il clima di AI ロボット ABOP non è meteorologico: è sociale e relazionale. Lo stress della metro e il calore della villa non sono condizioni atmosferiche ma stati del campo sociale in cui la simpatia di Darma opera. ABOP porta il proprio clima neutro come campo trasversale che non si scalda né si raffredda.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "stress_urbano",
+      "label_en": "urban_stress_field",
+      "type": "urban_stress",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "la metro, l'hotel Giacarta, la città che stanca: il campo urbano come pressione di fondo che Darma subisce ma non lascia che interferisca con il campo della simpatia",
+      "kokyu": "il ritmo dello stress urbano è quello della frammentazione: questa storia della metro mi sta stressando — la città produce interruzioni, distrazioni, stanchezza",
+      "yūgen": "lo stress urbano non impedisce la performance della simpatia: i due campi coesistono; Darma è stanco e simpatico simultaneamente; la simpatia è indipendente dallo stato interno",
+      "affects": {
+        "weather-02": "lo stress urbano prepara per contrasto il campo della simpatia: il campo relazionale di Darma emerge come risposta al contesto stressante"
+      },
+      "textual_anchor_it": "Questa storia della metro, mi sta stressando! Mio Dio! Come sono stanco!",
+      "glossary_link": ["basho", "kokyu"]
+    },
+    {
+      "id": "weather-02",
+      "label": "campo_della_simpatia",
+      "label_en": "charm_atmosphere",
+      "type": "charm_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il campo relazionale di Darma come clima che trasforma ogni ambiente: l'hotel, il food market, la villa; la simpatia non dipende dal luogo ma lo trasforma",
+      "kokyu": "il ritmo della simpatia è quello della costanza attiva: sempre disponibile, sempre pronta; il campo non si esaurisce tra una performance e la successiva",
+      "yūgen": "la simpatia come clima invisibile: non si descrive, si percepisce negli effetti; Kate che accetta, Madame che chiama, la villa che si riempie — il clima della simpatia si misura nei risultati",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo della simpatia non può essere scomposto nei suoi elementi: opera come campo atmosferico indivisibile"
+      },
+      "affects": {
+        "weather-03": "il clima della simpatia trasforma il flashback in campo caldo: il passato glorioso è la simpatia di Darma applicata nel tempo"
+      },
+      "textual_anchor_it": "Puntavo sulla simpatia. Ho sempre riempito la villa.",
+      "glossary_link": ["omotenashi", "kokyu", "basho"]
+    },
+    {
+      "id": "weather-03",
+      "label": "calore_del_flashback",
+      "label_en": "flashback_warmth",
+      "type": "flashback_warmth",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "le ville lussuose, Madame, le amiche di yoga: il flashback come campo cromatico caldo; il passato di Darma ha una temperatura percettiva più alta del presente stressante",
+      "kokyu": "il ritmo del calore del flashback è quello della dilatazione: il tempo si allarga, i dettagli si moltiplicano, il campo si popola di persone e situazioni",
+      "yūgen": "il flashback non è nostalgia: è dimostrazione; il calore del passato serve a riscaldare il campo del presente; Darma non rimpiange, usa",
+      "affects": {
+        "weather-04": "il calore del flashback produce il campo estetico della tavola: la temperatura cromatica del ricordo si materializza nei dessert"
+      },
+      "textual_anchor_it": "4 anni fa. Eccomi Madame. Cucinavo in lussuose ville.",
+      "glossary_link": ["basho", "mono no aware"]
+    },
+    {
+      "id": "weather-04",
+      "label": "luce_dei_dessert",
+      "label_en": "dessert_light_field",
+      "type": "dessert_light",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la tavola dei dessert come campo estetico: luce soffusa che illumina torte, pasticcini, frutti; il campo visivo del manga porta il cibo come campo cromatico autonomo",
+      "kokyu": "il ritmo della luce dei dessert è quello dell'abbondanza contemplata: nessuna fretta, nessun gesto; il campo si apre e si offre allo sguardo",
+      "yūgen": "i dessert non vengono descritti: vengono mostrati come campo visivo; il manga porta il cibo come ukiyo-e — immagine che porta più di ciò che mostra",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il sapore dei dessert non è nel campo visivo del manga: il campo gustativo è il residuo non registrabile della tavola"
+      },
+      "affects": {
+        "weather-05": "il campo estetico dei dessert prepara il clima di ABOP: il robot osserva la tavola come dato del campo della simpatia"
+      },
+      "textual_anchor_it": "Cucinavo in lussuose ville. [tavola dei dessert]",
+      "glossary_link": ["yūgen", "basho", "omotenashi"]
+    },
+    {
+      "id": "weather-05",
+      "label": "clima_abop",
+      "label_en": "abop_neutral_field",
+      "type": "abop_field",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il campo neutro di ABOP come clima trasversale: il robot non si scalda con il calore del flashback né si raffredda con lo stress urbano; il suo campo è analitico e costante",
+      "kokyu": "il ritmo di ABOP è quello della costanza analitica: bzzz bzzz — il suono è sempre lo stesso indipendentemente dal campo in cui appare",
+      "yūgen": "ABOP come clima che non partecipa: il robot attraversa tutti i campi climatici del manga senza essere modificato da nessuno; la sua neutralità è il campo più denso del sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo interno di ABOP non si manifesta come clima: il robot porta un'atmosfera neutra che non tradisce il proprio stato"
+      },
+      "affects": {
+        "weather-01": "il clima di ABOP retroagisce sullo stress urbano: la neutralità del robot rende visibile per contrasto l'emotività del campo umano"
+      },
+      "textual_anchor_it": "BZZZ, BZZZ.",
+      "glossary_link": ["ma", "yūgen"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 5,
+    "dominant_field": "weather-02",
+    "secondary_field": "weather-05",
+    "weather_sequence": {
+      "step_1": "weather-01 — stress urbano: il campo di pressione che la simpatia attraversa",
+      "step_2": "weather-02 — campo della simpatia: il clima dominante che trasforma ogni ambiente",
+      "step_3": "weather-03 — calore del flashback: il passato come campo termico più alto del presente",
+      "step_4": "weather-04 — luce dei dessert: il campo estetico del risultato culinario",
+      "step_5": "weather-05 — clima ABOP: il campo neutro trasversale che non partecipa"
+    },
+    "narrative_model": "cinque campi climatici: stress urbano — simpatia attiva — calore del passato — luce dei dessert — neutralità AI; il manga porta questi climi come atmosfere visive prima che narrative",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
