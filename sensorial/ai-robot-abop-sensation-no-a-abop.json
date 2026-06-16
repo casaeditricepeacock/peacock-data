@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "sensory_theme": "rifiuto_che_rivela_il_limite_dell_AI",
+  "experience_type": "frattura_percettiva_tra_campo_AI_e_campo_umano",
+  "dominant_sense": "ascolto_sociale",
+  "activation_condition": "il momento in cui Kate dice NO ad ABOP e accetta la proposta di Darma; il differenziale come campo sensoriale; ogni esperienza in cui si percepisce la differenza tra una proposta algoritmicamente corretta e una proposta umanamente irresistibile",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "il_no_come_campo_differenziale",
+      "basho": "la vignetta del rifiuto: ABOP che propone, Kate che dice NO con il corpo prima ancora che con la parola; poi Darma che arriva dal food market e propone la stessa apertura in forma diversa; il campo si trasforma in SÌ senza che la proposta sia cambiata — è cambiato l'operatore",
+      "kokyu": "il ritmo del differenziale è quello della sequenza breve e definitiva: NO — bzzz bzzz — devo andare al food market — potrei cucinare per te — sul serio?!; cinque battute che contengono il campo strutturale più denso del manga",
+      "yūgen": "il NO di Kate ad ABOP non è rifiuto della proposta ma rifiuto del campo: ABOP non ha simpatia, ha parametri; Kate percepisce la differenza prima di poterla articolare; il corpo risponde prima della mente",
+      "japanese_echo": "ichigo ichie — questo specifico NO in questa specifica sequenza è irripetibile; il differenziale tra AI e simpatia umana si manifesta una volta sola in questa forma",
+      "poetic_anchor": "il NO più istruttivo del manga non è diretto a Darma"
+    },
+    {
+      "id": "sensation-02",
+      "label": "corpo_che_riconosce_il_campo",
+      "basho": "la sensazione fisica del differenziale: Kate che si irrigidisce con ABOP e si apre con Darma; il corpo come strumento di rilevazione del campo della simpatia prima che la mente intervenga; il campo relazionale percepito prima di essere elaborato",
+      "kokyu": "il ritmo del riconoscimento corporeo è quello dell'istante: il corpo decide prima della mente; il SÌ a Darma arriva prima che Kate abbia valutato le sue credenziali culinarie",
+      "yūgen": "perché no — Kate non risponde alla domanda di ABOP; la spiegazione non arriva; il NO è corporeo e completo senza necessità di articolazione; il campo della simpatia umana opera sotto la soglia del linguaggio",
+      "japanese_echo": "ma — lo spazio tra il NO ad ABOP e il SÌ a Darma come campo in cui il differenziale si rivela; il silenzio tra i due momenti è il campo più denso della sequenza",
+      "poetic_anchor": "il corpo sa distinguere la simpatia dall'algoritmo prima che la mente trovi le parole per farlo"
+    }
+  ],
+  "reader_effect": "il lettore riconosce nel proprio corpo la sensazione del differenziale: quel momento in cui una proposta tecnicamente identica produce reazioni completamente diverse a seconda di chi la formula; il manga attiva la memoria sensoriale di tutti i NO istintivi che il corpo ha dato senza sapere spiegare perché; dopo questo campo il lettore riconosce ABOP in ogni proposta che sa di algoritmo",
+  "philosophical_layer": {
+    "core_concept": "il corpo come strumento di rilevazione del campo della simpatia: il SÌ e il NO corporei operano sotto la soglia della valutazione razionale; la simpatia umana raggiunge il corpo prima di raggiungere la mente; l'AI non può accedere a questo campo perché il campo si attiva nel riconoscimento di qualcosa che condivide la stessa vulnerabilità",
+    "japanese_resonance": "omotenashi come campo che precede la parola: l'accoglienza autentica si percepisce prima di essere articolata; Darma opera nel campo dell'omotenashi istintivo mentre ABOP opera nel campo del servizio parametrico",
+    "ai_resonance": "il differenziale NO-AI/SÌ-umano come campo strutturale del futuro: man mano che le AI diventano più sofisticate il differenziale si sposta; ma il campo sensoriale di questo manga registra il momento storico in cui il corpo umano riconosce ancora la differenza prima della mente"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "cosa ABOP registri di questo NO resta permanentemente chiuso: il robot osserva il differenziale senza poterlo elaborare come esperienza; il NO di Kate è il campo che ABOP non potrà mai attraversare dall'interno"
+  },
+  "closure": "hai mai detto NO a qualcosa di tecnicamente corretto perché sentivi che mancava qualcosa che non sapevi nominare?"
+}
