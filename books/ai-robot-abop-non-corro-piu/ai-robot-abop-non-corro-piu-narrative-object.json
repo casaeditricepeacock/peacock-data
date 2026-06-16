@@ -1,0 +1,150 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "illustrator": "Manganella",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022,
+    "language": "IT",
+    "genre": "manga ebook",
+    "format": "24 tavole digitali",
+    "origin": "personaggi tratti da Burn Out Pandemia — il vuoto; ambientato tra le colline di Abano Terme e Shibukawa, Giappone"
+  },
+  "editorial_principle": "AI ロボット ABOP — Non corro più produce un campo in cui la velocità diventa il linguaggio invisibile della relazione. Darma e Kate non negoziano il loro rapporto attraverso dichiarazioni esplicite ma attraverso accelerazioni, soste, deviazioni e ritorni. La Fiat 500 ABOP è il microcosmo mobile che contiene il sistema. L'onsen sospende il movimento. La yonige offre una via di fuga che non viene percorsa. Il sogno di Abano mantiene il viaggio aperto oltre la sua conclusione.",
+  "object_types": {
+    "velocity_operator": "la velocità come campo relazionale: 30 km/h e 120 km/h come stati percettivi del rapporto tra Darma e Kate",
+    "onsen_field": "il ryokan Kanouya e l'ofuro come spazio di sospensione e riequilibrio",
+    "mobile_microcosm": "la Fiat 500 come microcosmo mobile che contiene tutti i personaggi e rende possibile il sistema",
+    "yonige_escape": "la yonige come possibilità narrativa di sparizione che rimane non attuata",
+    "silent_witness": "ABOP e Esch3r come testimoni permanenti del campo relazionale",
+    "dream_field": "Abano come immagine di ritorno e promessa aperta"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "velocita_come_campo_relazionale",
+      "label_en": "velocity_as_relational_field",
+      "type": "velocity_operator",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la strada tra Shibukawa e le colline come campo in cui la velocità misura lo stato del rapporto: 30 km/h è Darma che non vuole arrivare; 120 km/h è Darma che perde il controllo del ritmo condiviso",
+      "kokyu": "il ritmo cambia istantaneamente: Kate ordina di accelerare, Darma obbedisce; il sistema passa dalla lentezza alla tensione in una sola vignetta",
+      "yūgen": "la velocità non viene spiegata psicologicamente ma mostrata attraverso numeri, posture e reazioni corporee",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'obbedienza immediata di Darma all'ordine di accelerare non viene motivata dal testo"
+      },
+      "affects": {
+        "object-02": "la tensione prodotta dalla velocità conduce alla necessità della sosta termale",
+        "object-03": "la velocità esiste perché il microcosmo mobile la contiene"
+      },
+      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo!",
+      "glossary_link": ["kokyu", "basho", "ma"]
+    },
+    {
+      "id": "object-02",
+      "label": "onsen_come_campo_sospeso",
+      "label_en": "onsen_as_suspended_field",
+      "type": "onsen_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il ryokan Kanouya e l'ofuro come luogo di sospensione del movimento e della tensione",
+      "kokyu": "il viaggio rallenta fino quasi a fermarsi; il corpo entra nell'acqua e il campo cambia registro",
+      "yūgen": "l'esperienza termale viene registrata più che descritta; il lettore percepisce il rallentamento prima di comprenderlo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la conversazione tra Darma e Kate nel vapore dell'onsen resta in gran parte invisibile"
+      },
+      "affects": {
+        "object-04": "la sospensione permette l'emersione della possibilità della yonige",
+        "object-01": "l'onsen interrompe temporaneamente il dominio della velocità"
+      },
+      "textual_anchor_it": "Onsen Kanouya. Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
+    },
+    {
+      "id": "object-03",
+      "label": "fiat500_microcosmo_mobile",
+      "label_en": "fiat500_mobile_microcosm",
+      "type": "mobile_microcosm",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la Fiat 500 con targa ABOP come microcosmo in movimento che contiene Darma, Kate, ABOP ed Esch3r",
+      "kokyu": "il veicolo compare nei momenti chiave e tiene unito il sistema attraverso tutto il viaggio",
+      "yūgen": "la presenza di una Fiat 500 italiana nel paesaggio giapponese non viene spiegata ma accettata come dato poetico",
+      "affects": {
+        "object-05": "i testimoni silenziosi esistono nel campo grazie al microcosmo che li trasporta",
+        "object-01": "la velocità assume forma concreta all'interno del veicolo"
+      },
+      "textual_anchor_it": "targa ABOP — Giappone, Shibukawa — Abano, stiamo arrivando!",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    },
+    {
+      "id": "object-04",
+      "label": "yonige_come_possibilita_di_fuga",
+      "label_en": "yonige_escape_operator",
+      "type": "yonige_escape",
+      "intensity": 0.82,
+      "perceptual_weight": 0.81,
+      "basho": "la yonige appare come soluzione teorica al disagio e alla stanchezza del viaggio",
+      "kokyu": "la proposta emerge naturalmente nella conversazione ma non viene mai trasformata in azione",
+      "yūgen": "il campo della fuga è presente ma resta potenziale",
+      "affects": {
+        "object-02": "la sospensione dell'onsen rende possibile la comparsa dell'idea di sparire"
+      },
+      "textual_anchor_it": "Allora chiamerò una yonige — è una società di traslochi notturni, tu li chiami e ti fanno sparire.",
+      "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
+    },
+    {
+      "id": "object-05",
+      "label": "abop_esch3r_testimoni_silenziosi",
+      "label_en": "silent_witnesses_field",
+      "type": "silent_witness",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "ABOP e Esch3r accompagnano l'intero percorso senza intervenire nelle decisioni",
+      "kokyu": "la loro presenza è continua e discreta",
+      "yūgen": "l'intelligenza artificiale e il gatto comprendono più di quanto dicano",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ciò che registrano interiormente non viene mai rivelato"
+      },
+      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-06",
+      "label": "abano_come_sogno_di_ritorno",
+      "label_en": "abano_as_return_dream",
+      "type": "dream_field",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "Abano non come destinazione raggiunta ma come immagine condivisa che continua a chiamare i personaggi oltre la fine del viaggio",
+      "kokyu": "il ritmo è quello del ritorno immaginato; il movimento termina ma il desiderio di ripartire resta attivo",
+      "yūgen": "Abano appare più come promessa che come luogo geografico",
+      "affects": {
+        "object-01": "trasforma il viaggio da percorso lineare a ciclo aperto",
+        "object-02": "prolunga interiormente la sospensione sperimentata all'onsen"
+      },
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma.",
+      "glossary_link": ["mono no aware", "basho", "ichigo ichie"]
+    }
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "secondary_field": ["object-02", "object-06"],
+    "system_role": "velocity_as_relationship_negotiation",
+    "narrative_model": "la velocità fonda il sistema relazionale, l'onsen lo sospende, la Fiat 500 lo contiene, la yonige offre una fuga potenziale, ABOP ed Esch3r osservano, Abano mantiene il viaggio aperto come sogno di ritorno",
+    "closure_type": "open_return_dream",
+    "reader_effect": "il lettore non arriva realmente ad Abano; continua a desiderare di ripartire verso di essa insieme ai personaggi",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
