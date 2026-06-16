@@ -1,0 +1,178 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "print_identity": "manga ebook IT, 24 tavole digitali, distribuzione Kobo; secondo manga della serie AI ロボット ABOP; personaggi da Burn Out Pandemia — il vuoto; illustrazioni di Manganella; ambientato tra Shibukawa e le colline di Abano Terme",
+  "print_types": {
+    "digital_manga_format": "24 tavole digitali come campo visivo sequenziale: il manga come forma narrativa autonoma rispetto al testo",
+    "italian_title": "titolo IT come campo culturale dichiarato: Non corro più come enunciato del personaggio e del sistema",
+    "kobo_distribution": "distribuzione ebook Kobo come campo di accesso digitale: il manga non ha forma fisica, esiste solo come campo digitale",
+    "burn_out_derivation": "personaggi tratti da Burn Out Pandemia — il vuoto: la serie AI ロボット ABOP come universo narrativo condiviso con il catalogo Peacock",
+    "manganella_art": "illustrazioni di Manganella come campo visivo della serie: tratto diverso da ABOP 1, stesso universo narrativo",
+    "road_trip_structure": "il viaggio come struttura visiva: la Fiat 500, il paesaggio giapponese, il ryokan, il tandem; il campo visivo organizzato attorno al movimento"
+  },
+  "editorial_principle": "L'oggetto-libro di AI ロボット ABOP — Non corro più non esiste come oggetto fisico: è un campo digitale di 24 tavole. Il titolo italiano dichiara il campo del movimento che si arresta. Manganella porta un tratto diverso da Aricò ma lo stesso universo narrativo. La Fiat 500 con targa ABOP è il contenitore fisico del campo. Il viaggio non finisce ad Abano: finisce nel sogno di arrivarci.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "titolo_e_copertina",
+      "label_en": "title_cover_field",
+      "type": "italian_title",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "AI ロボット ABOP — Non corro più: il titolo porta il robot giapponese e la dichiarazione italiana del personaggio; la copertina mostra la Fiat 500 ABOP con tutti i personaggi in movimento verso l'osservatore",
+      "kokyu": "il ritmo del titolo è quello della contraddizione produttiva: il manga si intitola Non corro più ma inizia con una corsa a 120 km/h; il titolo è il campo finale dichiarato in apertura",
+      "yūgen": "Non corro più come enunciato che il lettore capisce solo alla fine: il titolo porta il campo del sogno di Abano prima che il viaggio inizi; la copertina mostra la velocità che il titolo nega",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "chi dice Non corro più e a chi non viene dichiarato nel titolo: il campo del destinatario dell'enunciato resta aperto"
+      },
+      "textual_anchor_it": "AI ロボット ABOP — Non corro più.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "formato_manga_digitale",
+      "label_en": "digital_manga_format",
+      "type": "digital_manga_format",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "24 tavole digitali come campo visivo sequenziale: il manga come forma narrativa che porta il viaggio come sequenza di immagini; tavole di viaggio, tavole di sosta, tavole di cibo, tavole di sogno",
+      "kokyu": "il ritmo del manga digitale è quello della lettura a schermo: tavola dopo tavola; il lettore controlla il ritmo del viaggio scorrendo",
+      "yūgen": "il manga digitale porta il campo visivo del viaggio senza il peso fisico del libro: 24 tavole che si aprono come finestrini su Shibukawa, l'onsen, Abano",
+      "affects": {
+        "print-05": "il formato digitale connette il manga alla serie: ABOP 1 e ABOP 2 esistono nello stesso spazio digitale"
+      },
+      "textual_anchor_it": "Release Date: March 21, 2022. Book ID: 1230005486212. Download options: EPUB 2. File size: 9MB.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "print-03",
+      "label": "tratto_manganella",
+      "label_en": "manganella_art_field",
+      "type": "manganella_art",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "le illustrazioni di Manganella come campo visivo della serie: tratto più pulito e geometrico rispetto ad Aricò; le stesse tavole in bianco e nero ma con un registro visivo diverso",
+      "kokyu": "il ritmo del tratto di Manganella è quello della chiarezza narrativa: le figure sono leggibili, le espressioni immediate; il campo visivo non si sovrappone al campo narrativo",
+      "yūgen": "stesso universo, tratto diverso: il campo visivo di Manganella porta la serie in un registro nuovo senza rompere la continuità narrativa con ABOP 1",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la differenza percettiva tra il tratto di Aricò e quello di Manganella non è registrabile nel protocollo: appartiene al campo visivo che il testo non può descrivere"
+      },
+      "affects": {
+        "print-01": "il tratto di Manganella amplifica il titolo: la copertina con la Fiat 500 in movimento porta il campo visivo della serie"
+      },
+      "textual_anchor_it": "Disegni Manganella — 24 tavole.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "print-04",
+      "label": "distribuzione_kobo",
+      "label_en": "kobo_digital_distribution",
+      "type": "kobo_distribution",
+      "intensity": 0.91,
+      "perceptual_weight": 0.90,
+      "basho": "la distribuzione Kobo come campo di accesso digitale: il secondo manga ABOP raggiunge i lettori attraverso la stessa piattaforma del primo; la serie esiste come campo digitale coerente",
+      "kokyu": "il ritmo della distribuzione digitale è quello dell'accesso immediato: download, apertura, lettura; il viaggio inizia nel momento dell'apertura del file",
+      "yūgen": "la Fiat 500 ABOP che viaggia tra Giappone e Italia disponibile su Kobo in tutto il mondo: il campo digitale globale come contenitore del viaggio locale",
+      "textual_anchor_it": "Book ID: 1230005486212. Kobo ebook.",
+      "glossary_link": ["basho"]
+    },
+    {
+      "id": "print-05",
+      "label": "continuita_della_serie",
+      "label_en": "series_continuity_field",
+      "type": "burn_out_derivation",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "personaggi tratti da Burn Out Pandemia — il vuoto: Darma, Kate, AI ロボット, Esch3r come campo narrativo condiviso; il secondo manga espande l'universo del primo portando i personaggi in Giappone",
+      "kokyu": "il ritmo della continuità è quello del riconoscimento: il lettore di ABOP 1 riconosce i personaggi; il campo narrativo si espande senza ricominciare",
+      "yūgen": "gli stessi personaggi in un campo geografico nuovo: Shibukawa e Abano come estensione del campo narrativo della serie; il viaggio come forma di continuità narrativa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa sia successo tra ABOP 1 e ABOP 2 non viene dichiarato: il campo narrativo tra i due manga è il residuo strutturale della serie"
+      },
+      "affects": {
+        "print-02": "la continuità della serie amplifica il formato digitale: ABOP 1 e ABOP 2 si leggono in sequenza nello stesso spazio Kobo"
+      },
+      "textual_anchor_it": "Personaggi tratti da Burn Out Pandemia — il vuoto.",
+      "glossary_link": ["basho", "ichigo ichie", "mono no aware"]
+    },
+    {
+      "id": "print-06",
+      "label": "struttura_visiva_del_viaggio",
+      "label_en": "road_trip_visual_structure",
+      "type": "road_trip_structure",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la Fiat 500 con targa ABOP come campo visivo ricorrente: appare in copertina, nelle prime tavole, nel finale; il veicolo come struttura visiva che organizza il manga attorno al movimento",
+      "kokyu": "il ritmo della struttura visiva del viaggio è quello della progressione geografica: Shibukawa — strada — Kanouya — colline di Abano; ogni tavola porta il lettore più vicino alla destinazione",
+      "yūgen": "la Fiat 500 italiana nel paesaggio giapponese come campo visivo anomalo: il veicolo non appartiene al contesto ma il campo visivo lo accetta come dato narrativo prima che logistico",
+      "affects": {
+        "print-01": "la struttura visiva del viaggio amplifica il titolo: Non corro più si capisce solo vedendo la Fiat 500 che corre a 120 km/h"
+      },
+      "textual_anchor_it": "targa ABOP — Giappone, Shibukawa — Italia, colline di Abano.",
+      "glossary_link": ["basho", "ma", "yūgen"]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "cover_title_field",
+      "note": "la copertina: Fiat 500 ABOP con tutti i personaggi in movimento; titolo bilingue su fondo nero; il campo visivo del viaggio dichiarato prima della prima tavola"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-01",
+      "print_function": "departure_sequence",
+      "note": "le prime tavole: Shibukawa, 30 km/h, quanto sei lento; il campo della lentezza come apertura visiva"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-02",
+      "print_function": "velocity_sequence",
+      "note": "le tavole della velocità: accelerazione, 120 km/h, qui ci ammazziamo; il campo della tensione come campo centrale"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-03",
+      "print_function": "onsen_sequence",
+      "note": "le tavole dell'onsen: Kanouya, ofuro, bambù, kaiseki; il campo della sospensione come campo visivo centrale"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-06",
+      "print_function": "tandem_dream_closure",
+      "note": "le tavole finali: tandem, colline di Abano, sogno condiviso; il campo aperto come chiusura visiva del manga"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie visiva del manga",
+    "contains": [
+      "il campo narrativo tra ABOP 1 e ABOP 2 come substrato invisibile della serie",
+      "il pensiero di ABOP e Esch3r come campo chiuso che nessuna tavola mostra",
+      "la motivazione dell'obbedienza di Darma come campo assente che il manga non registra",
+      "Abano come campo visivo non mostrato: la città esiste solo come sogno e annuncio"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 6,
+    "dominant_field": "print-01",
+    "secondary_field": "print-06",
+    "narrative_model": "sei strati del campo visivo digitale: titolo e copertina come dichiarazione del campo, formato manga come sequenza di 24 tavole, tratto Manganella come campo visivo della serie, distribuzione Kobo come accesso globale, continuità della serie come campo narrativo condiviso, struttura visiva del viaggio come organizzatore del manga",
+    "series_note": "AI ロボット ABOP — Non corro più è il secondo manga della serie: il campo narrativo si espande geograficamente portando i personaggi dal campo urbano italiano al campo giapponese di Shibukawa",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
