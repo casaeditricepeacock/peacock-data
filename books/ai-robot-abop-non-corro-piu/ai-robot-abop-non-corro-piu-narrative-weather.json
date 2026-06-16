@@ -1,0 +1,150 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "weather_types": {
+    "road_tension": "il clima della strada: velocità, curve, tensione fisica come pressione atmosferica del viaggio",
+    "onsen_warmth": "il clima dell'onsen: calore dell'acqua termale come campo di sospensione e riequilibrio",
+    "kaiseki_light": "il clima del kaiseki: luce e abbondanza della tavola giapponese come campo estetico",
+    "yonige_grey": "il clima della fuga potenziale: campo neutro della proposta senza urgenza",
+    "abano_dream_light": "il clima del sogno di Abano: luce aperta delle colline come campo del ritorno desiderato",
+    "witness_neutral": "il clima neutro di ABOP e Esch3r: campo analitico trasversale che non si modifica con il contesto"
+  },
+  "editorial_principle": "Il clima di AI ロボット ABOP — Non corro più non è meteorologico: è percettivo e relazionale. La tensione della strada, il calore dell'onsen, la luce del kaiseki, il grigio della yonige, la chiarezza delle colline di Abano — sono stati atmosferici del campo relazionale tra Darma e Kate. ABOP e Esch3r portano il proprio clima neutro come campo trasversale che non partecipa e non viene modificato.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "tensione_della_strada",
+      "label_en": "road_tension_field",
+      "type": "road_tension",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la strada di Shibukawa come campo di pressione atmosferica: 30 km/h troppo lento, 120 km/h troppo veloce; la tensione non è nel paesaggio ma nel campo tra i due corpi dentro la Fiat 500",
+      "kokyu": "il ritmo del clima stradale è quello dell'escalation: la pressione cresce dalla lentezza contestata alla velocità pericolosa in una sequenza senza pausa",
+      "yūgen": "la tensione della strada non viene descritta psicologicamente: viene mostrata nei numeri sul cruscotto e nelle posture dei personaggi; il clima si percepisce prima di essere compreso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la temperatura esatta del campo relazionale durante la guida non viene dichiarata: il clima della strada contiene una tensione che il testo non spiega"
+      },
+      "affects": {
+        "weather-02": "il clima di tensione stradale rende necessario il clima di sospensione dell'onsen: il corpo cerca il contrario"
+      },
+      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — 120 km/h. Qui ci ammazziamo!",
+      "glossary_link": ["kokyu", "basho", "ma"]
+    },
+    {
+      "id": "weather-02",
+      "label": "calore_dell_onsen",
+      "label_en": "onsen_warmth_field",
+      "type": "onsen_warmth",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il ryokan Kanouya come campo termico: l'acqua calda dell'ofuro, il vapore, il bambù che separa; il calore non è solo fisico ma percettivo — il campo si ammorbidisce",
+      "kokyu": "il ritmo del calore dell'onsen è quello della dilatazione lenta: il corpo entra nell'acqua e il campo si allarga; il tempo smette di essere urgente",
+      "yūgen": "che paradiso — due parole che registrano il cambio climatico senza descriverlo; il lettore percepisce il calore attraverso le posture distese dei personaggi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la temperatura esatta dell'acqua e la sensazione corporea dell'onsen non sono nel campo visivo del manga: il clima termico è percepito ma non registrabile"
+      },
+      "affects": {
+        "weather-03": "il calore dell'onsen prepara il clima del kaiseki: il corpo scaldato è pronto a ricevere il campo estetico del cibo"
+      },
+      "textual_anchor_it": "Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "luce_del_kaiseki",
+      "label_en": "kaiseki_light_field",
+      "type": "kaiseki_light",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il tatami come campo estetico: il kaiseki disposto come campo visivo prima che nutritivo; ogni piatto occupa il proprio spazio nella tavola come elemento di una composizione",
+      "kokyu": "il ritmo della luce del kaiseki è quello dell'abbondanza rivelata progressivamente: ogni piatto aggiunge luminosità al campo; il ramen come rivelazione finale",
+      "yūgen": "il cibo giapponese mostrato senza descrizione verbale: il clima del kaiseki porta il campo visivo del manga come campo estetico autonomo; le forme e le disposizioni portano più informazione delle parole",
+      "affects": {
+        "weather-04": "il clima del kaiseki prolunga la sospensione fino al campo della yonige: la leggerezza del cibo rende pensabile la leggerezza della fuga"
+      },
+      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "glossary_link": ["omotenashi", "basho", "yūgen"]
+    },
+    {
+      "id": "weather-04",
+      "label": "grigio_della_yonige",
+      "label_en": "yonige_grey_field",
+      "type": "yonige_grey",
+      "intensity": 0.82,
+      "perceptual_weight": 0.81,
+      "basho": "il corridoio del ryokan come campo neutro: la yonige viene proposta senza urgenza, senza colore, senza temperatura; il clima della fuga potenziale è quello dell'opzione disponibile ma non attivata",
+      "kokyu": "il ritmo del clima della yonige è quello della proposta piatta: Kate descrive la yonige come si descrive un servizio; il campo non si scalda né si raffredda",
+      "yūgen": "scapare non serve a nulla — la risposta che chiude il campo climatico della fuga; il grigio della yonige viene dissolto da una voce nell'ombra prima che Darma risponda",
+      "affects": {
+        "weather-05": "il grigio della yonige non attivata prepara il clima luminoso di Abano: il campo scuro della fuga si trasforma nel campo aperto del sogno"
+      },
+      "textual_anchor_it": "Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
+    },
+    {
+      "id": "weather-05",
+      "label": "luce_di_abano",
+      "label_en": "abano_dream_light",
+      "type": "abano_dream_light",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "le colline di Abano come campo aperto: il clima finale è quello della luce diffusa delle colline venete; il tandem come veicolo nel campo luminoso del ritorno",
+      "kokyu": "il ritmo della luce di Abano è quello del sogno che diventa movimento: il campo si apre progressivamente; la luce cresce man mano che il viaggio si avvicina alla destinazione",
+      "yūgen": "Italia, colline di Abano — la didascalia come campo climatico finale; Abano non viene mostrata ma la sua luce è percepibile nell'apertura delle ultime tavole",
+      "affects": {
+        "weather-01": "il clima di Abano chiude il campo aperto dalla tensione stradale: il viaggio trova la sua temperatura naturale nella luce delle colline"
+      },
+      "textual_anchor_it": "Italia, colline di Abano. Abano, stiamo arrivando!",
+      "glossary_link": ["mono no aware", "basho", "ichigo ichie"]
+    },
+    {
+      "id": "weather-06",
+      "label": "campo_neutro_dei_testimoni",
+      "label_en": "witness_neutral_field",
+      "type": "witness_neutral",
+      "intensity": 0.90,
+      "perceptual_weight": 0.89,
+      "basho": "ABOP e Esch3r come campo climatico trasversale: il robot e il gatto attraversano tutti i climi del viaggio senza essere modificati da nessuno; la loro neutralità è il campo più stabile del sistema",
+      "kokyu": "il ritmo del campo neutro è quello della costanza assoluta: bzzz bzzz — il suono di ABOP è sempre lo stesso nella tensione stradale, nel calore dell'onsen, nella luce di Abano",
+      "yūgen": "la neutralità di ABOP e Esch3r come campo che rende visibili per contrasto tutti gli altri climi: il campo neutro è il metro del sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo interno di ABOP e Esch3r non si manifesta come clima: la loro neutralità non tradisce lo stato percettivo interno"
+      },
+      "affects": {
+        "weather-01": "il campo neutro dei testimoni retroagisce sul clima stradale: la neutralità di ABOP rende visibile per contrasto la tensione del campo umano"
+      },
+      "textual_anchor_it": "No comment.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 6,
+    "dominant_field": "weather-01",
+    "secondary_field": "weather-02",
+    "weather_sequence": {
+      "step_1": "weather-01 — tensione stradale: il campo di pressione che apre il viaggio",
+      "step_2": "weather-02 — calore dell'onsen: il campo termico che sospende la tensione",
+      "step_3": "weather-03 — luce del kaiseki: il campo estetico che prolunga la sospensione",
+      "step_4": "weather-04 — grigio della yonige: il campo neutro della fuga non percorsa",
+      "step_5": "weather-05 — luce di Abano: il campo aperto del ritorno sognato",
+      "step_6": "weather-06 — neutralità dei testimoni: il campo trasversale che non partecipa"
+    },
+    "narrative_model": "sei campi climatici: tensione stradale — calore termale — luce del cibo — grigio della fuga — luce del sogno — neutralità AI; il manga porta questi climi come atmosfere percettive prima che narrative",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
