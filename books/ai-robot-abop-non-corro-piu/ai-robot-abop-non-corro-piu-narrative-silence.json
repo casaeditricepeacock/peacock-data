@@ -1,0 +1,159 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "silence_types": {
+    "obedience_void": "il silenzio della motivazione: perché Darma obbedisce all'ordine di accelerare non viene dichiarato",
+    "onsen_conversation_void": "il silenzio della conversazione nell'onsen: cosa si dicano Darma e Kate nel vapore resta invisibile",
+    "witness_thought_void": "il silenzio del pensiero di ABOP e Esch3r: cosa registrino del viaggio non viene mai dichiarato",
+    "yonige_void": "il silenzio della fuga non percorsa: cosa sarebbe successo se la yonige fosse stata chiamata",
+    "abano_void": "il silenzio di Abano come destinazione: la città non viene mai mostrata, solo sognata e annunciata",
+    "panel_gap": "il silenzio tra le vignette: il campo narrativo che esiste tra una tavola e la successiva"
+  },
+  "editorial_principle": "Il silenzio in AI ロボット ABOP — Non corro più è il silenzio del campo relazionale che opera sotto la soglia del linguaggio. Darma obbedisce senza spiegare. Kate propone la fuga senza urgenza. ABOP e Esch3r osservano senza commentare. Abano viene sognata ma non mostrata. Il viaggio produce i suoi effetti nel campo invisibile tra le vignette.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "motivazione_dell_obbedienza",
+      "label_en": "obedience_motivation_void",
+      "type": "obedience_void",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il campo tra il comando di Kate e l'obbedienza di Darma: premi l'acceleratore — ai tuoi ordini; il silenzio sulla motivazione è il campo più denso della scena di velocità",
+      "kokyu": "il ritmo del silenzio è quello dell'esecuzione immediata: non c'è spazio tra l'ordine e l'azione; la motivazione non ha tempo di formarsi nel campo visivo",
+      "yūgen": "l'obbedienza senza motivazione è il campo in cui il rapporto tra Darma e Kate opera: non viene spiegato perché il campo relazionale non ha bisogno di spiegazione per funzionare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Darma obbedisca immediatamente e senza resistenza resta permanentemente chiuso: il campo della relazione contiene questa risposta ma non la dichiara"
+      },
+      "affects": {
+        "silence-02": "il silenzio sulla motivazione si estende al silenzio nell'onsen: il campo relazionale tra Darma e Kate opera sempre sotto la soglia del linguaggio"
+      },
+      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini!",
+      "glossary_link": ["ma", "kokyu", "yūgen"]
+    },
+    {
+      "id": "silence-02",
+      "label": "conversazione_nell_onsen",
+      "label_en": "onsen_conversation_void",
+      "type": "onsen_conversation_void",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il vapore dell'ofuro come campo che nasconde la conversazione: Darma e Kate sono separati dal bambù poi riuniti sul tatami; ciò che si dicano nel mezzo non viene mostrato",
+      "kokyu": "il ritmo del silenzio è quello della sospensione totale: il manga mostra l'acqua, il vapore, le posture; le parole restano fuori dal campo visivo",
+      "yūgen": "peccato che durerà poco — la frase emerge dopo l'onsen come residuo della conversazione invisibile; il campo del silenzio lascia tracce nel testo senza rivelarsi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la conversazione tra Darma e Kate nell'onsen è strutturalmente assente dal sistema: il manga non può mostrare ciò che accade nel vapore"
+      },
+      "affects": {
+        "silence-04": "il silenzio nell'onsen prepara il campo della yonige: la proposta di fuga emerge come effetto della conversazione invisibile"
+      },
+      "textual_anchor_it": "Peccato che durerà poco.",
+      "glossary_link": ["ma", "mono no aware", "basho"]
+    },
+    {
+      "id": "silence-03",
+      "label": "pensiero_dei_testimoni",
+      "label_en": "witness_thought_void",
+      "type": "witness_thought_void",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "ABOP e Esch3r come campi chiusi: il robot e il gatto attraversano tutto il viaggio registrando ogni campo senza dichiarare cosa registrino; il loro pensiero è il silenzio più denso del manga",
+      "kokyu": "il ritmo del silenzio dei testimoni è quello della presenza senza parola: no comment come unica dichiarazione; il campo del loro pensiero è attivo ma inaccessibile",
+      "yūgen": "un'AI e un gatto che attraversano un viaggio Italia-Giappone senza commentare: il silenzio di ABOP è il campo in cui l'intelligenza artificiale osserva l'intelligenza umana senza poterla dichiarare",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa ABOP e Esch3r registrino del viaggio, della velocità, dell'onsen, del sogno di Abano resta permanentemente chiuso: è il residuo più denso del sistema"
+      },
+      "affects": {
+        "silence-01": "il silenzio dei testimoni amplifica il silenzio sulla motivazione: ABOP osserva esattamente il campo che non viene spiegato"
+      },
+      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "glossary_link": ["yūgen", "ma", "mono no aware"]
+    },
+    {
+      "id": "silence-04",
+      "label": "yonige_non_attivata",
+      "label_en": "yonige_unactivated_void",
+      "type": "yonige_void",
+      "intensity": 0.82,
+      "perceptual_weight": 0.81,
+      "basho": "il campo della yonige come possibilità non percorsa: la fuga viene nominata, descritta, considerata; poi il campo si chiude senza azione; il silenzio su cosa sarebbe successo se fosse stata chiamata",
+      "kokyu": "il ritmo del silenzio è quello della proposta che non produce risposta: uhm — il campo si chiude; la yonige resta nel campo come potenziale non attivato",
+      "yūgen": "scapare non serve a nulla — la risposta arriva dall'ombra prima che Darma risponda; il campo della fuga viene chiuso da una voce esterna; il silenzio di Darma sulla yonige è il campo in cui la decisione di restare si forma",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa sarebbe successo se la yonige fosse stata chiamata resta strutturalmente fuori dal sistema: il manga non esplora la fuga che non viene percorsa"
+      },
+      "affects": {
+        "silence-05": "la yonige non attivata prepara il silenzio di Abano: se non ci si fugge, si sogna di arrivare"
+      },
+      "textual_anchor_it": "Uhm...",
+      "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
+    },
+    {
+      "id": "silence-05",
+      "label": "abano_non_mostrata",
+      "label_en": "abano_unshown_void",
+      "type": "abano_void",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "Abano come campo sognato e annunciato ma non mostrato: il manga finisce con Abano stiamo arrivando; la città non viene mai raggiunta nel campo visivo; il silenzio su Abano è il campo aperto che il manga lascia al lettore",
+      "kokyu": "il ritmo del silenzio è quello dell'arrivo mancato: il tandem si avvicina alle colline, la frase annuncia l'arrivo, il manga finisce; Abano esiste solo come promessa nel campo",
+      "yūgen": "Italia, colline di Abano — la didascalia finale come campo che apre senza chiudere; Abano è più reale come sogno che come destinazione mostrata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Abano non viene mai mostrata nel campo visivo del manga: resta come campo aperto permanente; il lettore la costruisce con la propria immaginazione"
+      },
+      "affects": {
+        "silence-03": "il silenzio di Abano si connette al silenzio dei testimoni: ABOP e Esch3r non commentano nemmeno l'arrivo che non viene mostrato"
+      },
+      "textual_anchor_it": "Abano, stiamo arrivando!",
+      "glossary_link": ["mono no aware", "basho", "yūgen"]
+    },
+    {
+      "id": "silence-06",
+      "label": "spazio_tra_le_vignette",
+      "label_en": "panel_gap",
+      "type": "panel_gap",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il campo bianco tra una vignetta e la successiva: nel manga questo spazio non è vuoto ma campo narrativo attivo; il viaggio esiste in gran parte in questo silenzio",
+      "kokyu": "il ritmo del campo tra le vignette è quello della lettura visiva: l'occhio salta da una tavola all'altra riempiendo il salto; la velocità del viaggio esiste in questo silenzio",
+      "yūgen": "il campo tra le vignette è il luogo in cui la relazione tra Darma e Kate opera: ciò che succede tra una scena e la successiva è il campo non mostrato che il lettore ricostruisce",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo tra le vignette non può essere registrato nel protocollo: appartiene strutturalmente al lettore e non al testo"
+      },
+      "affects": {
+        "silence-01": "il campo tra le vignette è dove la motivazione dell'obbedienza dovrebbe esistere: il silenzio visivo replica il silenzio narrativo sulla relazione"
+      },
+      "textual_anchor_it": "24 tavole — spazio tra le vignette come campo narrativo.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 6,
+    "dominant_field": "silence-03",
+    "secondary_field": "silence-01",
+    "narrative_model": "sei silenzi strutturali: la motivazione dell'obbedienza, la conversazione nell'onsen, il pensiero dei testimoni, la yonige non attivata, Abano non mostrata, il campo tra le vignette",
+    "cross_layer_coherence": {
+      "object_layer": "la velocità e i testimoni silenziosi sono i due condensatori principali del silenzio: entrambi operano senza dichiarare il proprio meccanismo",
+      "scene_layer": "ogni scena produce un silenzio specifico: la velocità tace la motivazione, l'onsen tace la conversazione, la yonige tace la fuga, il tandem tace Abano",
+      "system_layer": "i sei silenzi convergono nel campo relazionale come operatore invisibile: ciò che Darma e Kate costruiscono insieme non viene mai dichiarato, solo i suoi effetti vengono registrati"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_abano_e_testimoni",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
