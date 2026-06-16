@@ -1,0 +1,146 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "system_axis": {
+    "primary_tension": "velocita_vs_sospensione",
+    "temporal_axis": "present_journey_dream",
+    "narrative_logic": "le scene alternano il movimento del viaggio con le soste che lo trasformano; ogni scena è una configurazione del campo relazionale tra Darma e Kate; ABOP e Esch3r osservano ogni campo senza intervenire"
+  },
+  "editorial_principle": "Le scene di AI ロボット ABOP — Non corro più non sono tappe di un itinerario. Sono configurazioni del campo relazionale tra Darma e Kate: ogni scena mostra come la velocità, la sosta, il cibo e il sogno producano effetti diversi sullo stesso campo. Il viaggio non è geografico ma percettivo.",
+  "scene_types": {
+    "departure_field": "la partenza come campo di tensione iniziale: chi comanda il ritmo",
+    "velocity_field": "la velocità come campo relazionale attivo: 30 km/h e 120 km/h come stati percettivi",
+    "onsen_field": "l'onsen come campo di sospensione e riequilibrio",
+    "food_field": "il kaiseki come campo visivo e sensoriale",
+    "escape_field": "la yonige come campo di fuga potenziale non attivata",
+    "dream_field": "Abano come campo del ritorno sognato",
+    "witness_field": "ABOP e Esch3r come campo trasversale di testimonianza silenziosa"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "partenza_da_shibukawa",
+      "type": "departure_field",
+      "dominant": false,
+      "basho": "Shibukawa come campo di partenza: la Fiat 500 con targa ABOP, Kate sul tetto, Darma al volante, Esch3r sul sedile; il gruppo come sistema già formato prima che il viaggio inizi",
+      "kokyu": "il ritmo è quello della lentezza contestata: 30 km/h — quanto sei lento; il campo si attiva attraverso il conflitto sul ritmo, non attraverso la destinazione",
+      "yūgen": "la Fiat 500 italiana nel paesaggio giapponese non viene spiegata; il campo visivo accetta il dettaglio come dato poetico prima che narrativo",
+      "affects": {
+        "scene-02": "la lentezza iniziale rende possibile l'escalation: il campo non può che accelerare"
+      },
+      "textual_anchor_it": "Giappone, Shibukawa. Quanto sei lento — 30 km/h.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02",
+      "label": "accelerazione_e_pericolo",
+      "type": "velocity_field",
+      "dominant": true,
+      "basho": "la strada come campo di tensione massima: Kate ordina, Darma obbedisce, il campo raggiunge 120 km/h; la curva come limite fisico del sistema",
+      "kokyu": "il ritmo è quello dell'escalation immediata: premi l'acceleratore — ai tuoi ordini — bruuum — qui ci ammazziamo; quattro battute che portano il campo dal comando al pericolo",
+      "yūgen": "sono un pilota di Formula 1 — Darma trasforma l'obbedienza in performance; il campo del pericolo viene reinterpretato come campo della competenza",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Kate ordini di accelerare e perché Darma obbedisca senza resistenza non viene motivato; il campo della relazione contiene un'obbedienza che il testo non spiega"
+      },
+      "affects": {
+        "scene-03": "la tensione della velocità rende necessaria la sosta: il corpo cerca il contrario del campo appena attraversato"
+      },
+      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo! Sono un pilota di Formula 1!",
+      "glossary_link": ["kokyu", "basho", "ma"]
+    },
+    {
+      "id": "scene-03",
+      "label": "onsen_kanouya",
+      "type": "onsen_field",
+      "basho": "il ryokan Kanouya come campo di sospensione: l'ofuro diviso da separè di bambù, le stanze minimaliste con l'enso sul muro; il Giappone come spazio che accoglie il viaggio e lo trasforma",
+      "kokyu": "il ritmo è quello della fermata necessaria: ci incontriamo in ofuro tra 30 minuti — il campo rallenta fino alla sosta; i corpi nell'acqua calda come registro opposto alla velocità",
+      "yūgen": "che paradiso — ci voleva proprio: due frasi che registrano la trasformazione del campo senza descriverla; l'onsen come spazio che non ha bisogno di spiegazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa Darma e Kate si dicano nel vapore dell'onsen non viene mostrato; il campo della loro conversazione intima resta chiuso"
+      },
+      "affects": {
+        "scene-04": "la sospensione dell'onsen apre il campo al cibo: il corpo scaldato è pronto a ricevere il kaiseki",
+        "scene-05": "la sospensione permette la proposta della yonige: solo in questo campo la fuga diventa pensabile"
+      },
+      "textual_anchor_it": "Onsen Kanouya. Ci incontriamo in ofuro tra 30 minuti, ok? Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "kaiseki_sul_tatami",
+      "type": "food_field",
+      "basho": "il tatami del ryokan come campo visivo del cibo: piatti disposti, ramen rivelato per ultimo, bacchette appoggiate; il kaiseki come sequenza estetica prima che nutritiva",
+      "kokyu": "il ritmo è quello della scoperta progressiva: quanto cibo — che meraviglia — c'è pure il ramen?! — questo me lo pappo subito; ogni esclamazione aggiunge densità al campo",
+      "yūgen": "il cibo kaiseki non viene descritto nei sapori ma mostrato nelle forme; il lettore percepisce l'abbondanza visiva prima che il testo la nomini",
+      "affects": {
+        "scene-03": "il kaiseki prolunga la sospensione dell'onsen: il campo del riposo si estende attraverso il pasto"
+      },
+      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "glossary_link": ["omotenashi", "basho", "yūgen"]
+    },
+    {
+      "id": "scene-05",
+      "label": "yonige_nel_corridoio",
+      "type": "escape_field",
+      "basho": "il corridoio del ryokan come campo della proposta di fuga: Kate descrive la yonige come soluzione normale; Darma ascolta; un personaggio nell'ombra risponde prima di lui",
+      "kokyu": "il ritmo è quello della proposta senza urgenza: la yonige viene presentata come opzione disponibile, non come necessità immediata; il campo non si attiva",
+      "yūgen": "scapare non serve a nulla — la risposta arriva dall'ombra; il campo conosce già la risposta prima che venga formulata la domanda",
+      "affects": {
+        "scene-06": "la yonige non attuata prepara la partenza in tandem: se non si fugge, si parte verso qualcosa di condiviso"
+      },
+      "textual_anchor_it": "Allora chiamerò una yonige. È una società di traslochi notturni, tu li chiami e ti fanno sparire. Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
+    },
+    {
+      "id": "scene-06",
+      "label": "tandem_verso_abano",
+      "type": "dream_field",
+      "basho": "le colline di Abano come campo del ritorno sognato e poi raggiunto: il tandem con Kate, ABOP e Esch3r; la Fiat 500 abbandonata, il ritmo del viaggio trasformato dalla pedalata condivisa",
+      "kokyu": "il ritmo è quello del sogno che diventa movimento: sogno assieme a te di andare ad Abano Terme — poi Abano stiamo arrivando; il campo passa dal desiderio all'azione senza transizione esplicita",
+      "yūgen": "grazie a te, Darma — Kate che ringrazia senza spiegare cosa; il campo del riconoscimento opera sotto la soglia del linguaggio",
+      "affects": {
+        "scene-02": "il tandem chiude il campo aperto dalla velocità: il viaggio trova il suo ritmo naturale nella cooperazione"
+      },
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
+    },
+    {
+      "id": "scene-07",
+      "label": "abop_esch3r_nel_campo",
+      "type": "witness_field",
+      "basho": "ABOP e Esch3r come campo trasversale: presenti nella Fiat 500, nell'onsen, nel corridoio, sul tandem; il robot e il gatto attraversano tutte le scene senza modificarne il campo",
+      "kokyu": "il ritmo dei testimoni è quello della presenza continua e discreta: appaiono nei bordi delle vignette, nei pannelli di transizione; il campo non li chiama ma loro ci sono",
+      "yūgen": "no comment — le due parole che definiscono il campo dei testimoni; l'AI e il gatto comprendono più di quanto dichiarano",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa ABOP e Esch3r registrino del viaggio non viene mai dichiarato; i loro campi interni restano chiusi per tutta la durata del manga"
+      },
+      "affects": {
+        "scene-01": "i testimoni retroagiscono su tutte le scene: la loro presenza trasforma ogni campo relazionale in un campo osservabile come dato"
+      },
+      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 7,
+    "dominant_field": "scene-02",
+    "system_state": "velocita_come_campo_relazionale_trasformato",
+    "narrative_model": "sette scene come configurazioni del campo relazionale: la partenza installa la tensione sul ritmo, la velocità la porta al limite, l'onsen la sospende, il kaiseki la nutre, la yonige offre la fuga che non viene presa, il tandem trasforma la velocità in cooperazione, i testimoni silenziosi osservano tutto",
+    "retroactive_causality": true,
+    "manga_structure": "le scene sono tavole: la sequenza visiva porta informazioni che il testo non può registrare; il campo visivo del manga giapponese applicato al viaggio italiano-giapponese produce un campo ibrido",
+    "global_effect": "ABOP e Esch3r retroagiscono su tutte le scene: la presenza dei testimoni trasforma ogni campo relazionale in un campo osservabile e potenzialmente analizzabile"
+  }
+}
