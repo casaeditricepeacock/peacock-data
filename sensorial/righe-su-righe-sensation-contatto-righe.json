@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "sensory_theme": "il_contatto_come_campo_percettivo_della_trasformazione",
+  "experience_type": "trasformazione_attraverso_il_tocco",
+  "dominant_sense": "tatto",
+  "activation_condition": "il momento in cui le righe accettano la proposta di Osvalda e si toccano per la prima volta; la pagina senza testo della festa come campo visivo del contatto; ogni esperienza in cui qualcosa di temuto si trasforma nel momento in cui viene attraversato",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "il_momento_del_primo_tocco",
+      "basho": "la pagina senza testo della festa come campo del primo contatto: le righe che si avvicinano, il momento prima del tocco come campo di massima tensione; poi il contatto e l'esplosione cromatica; il lettore percepisce il momento del tocco come campo fisico prima che visivo",
+      "kokyu": "il ritmo del primo tocco è quello dell'istante che precede: il campo si addensa nel momento prima del contatto; poi si espande all'improvviso; non c'è gradualità tra il prima e il dopo",
+      "yūgen": "il tocco non produce dolore né perdita: produce colore; la sensazione del contatto è quella di qualcosa che si moltiplica invece di dissolversi; il campo percettivo del tocco contraddice la legge che lo vietava",
+      "japanese_echo": "ichigo ichie, questo specifico contatto in questa specifica sequenza è irripetibile; le righe non si toccheranno mai di nuovo per la prima volta",
+      "poetic_anchor": "il momento in cui due righe si toccano non è la fine di nessuna delle due"
+    },
+    {
+      "id": "sensation-02",
+      "label": "calore_della_moltiplicazione",
+      "basho": "la festa di colori come campo termico: le righe che si toccano producono calore cromatico; il lettore percepisce la temperatura della pagina che cambia mentre le righe si sovrappongono; il calore come effetto fisico della trasformazione",
+      "kokyu": "il ritmo del calore è quello dell'esplosione contenuta: il campo non brucia, si scalda; le righe producono calore attraverso il contatto come due mani che si stringono",
+      "yūgen": "il calore della festa come campo percettivo che il libro porta visivamente: Anna Corradi usa colori caldi per la festa; il lettore sente il calore prima di capirlo",
+      "japanese_echo": "ma, lo spazio tra le righe che si avvicinano come campo di massima tensione percettiva prima del contatto",
+      "poetic_anchor": "la festa di colori ha una temperatura che le righe singole non avevano"
+    }
+  ],
+  "reader_effect": "il lettore che ha mai temuto un contatto riconosce nel campo del primo tocco delle righe la propria esperienza; la sensazione non è di sollievo ma di sorpresa; il tocco produce qualcosa di inaspettato che non era prevedibile dalla legge che lo vietava",
+  "philosophical_layer": {
+    "core_concept": "il contatto come campo generativo: due identità che si toccano non si perdono ma producono un campo nuovo che nessuna delle due poteva essere da sola; il tocco come operatore di moltiplicazione invece che di dissoluzione",
+    "japanese_resonance": "ichigo ichie come campo del tocco irripetibile: ogni contatto tra due identità diverse avviene una volta sola in quella forma; la festa di colori è un campo ichigo ichie — irripetibile nella sua configurazione specifica",
+    "ai_resonance": "il campo del contatto come campo che l'AI non può attraversare dall'interno: l'AI può registrare la festa di colori come dato visivo ma non può percepire il momento del primo tocco come campo fisico; la sensazione del contatto è il campo strutturale che separa il testimone dal partecipante"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "la sensazione esatta del primo contatto tra le righe non è registrabile nel protocollo: appartiene al campo percettivo del lettore che attraversa la pagina senza testo della festa"
+  },
+  "closure": "hai mai toccato qualcosa che temevi di toccare e scoperto che il tocco produceva qualcosa di inaspettato?"
+}
