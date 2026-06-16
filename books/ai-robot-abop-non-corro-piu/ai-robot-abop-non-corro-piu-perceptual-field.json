@@ -1,0 +1,131 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "AI ロボット ABOP — Non corro più non racconta un viaggio. Produce un campo in cui la velocità è il linguaggio della relazione e la sosta è la sua sospensione necessaria. Darma e Kate non negoziano attraverso dichiarazioni: negoziano attraverso i km/h. ABOP e Esch3r osservano il campo senza modificarlo. Abano non viene mai raggiunta nel campo visivo: esiste solo come campo aperto.",
+  "dominant_field": "field-01",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_velocita_relazionale",
+      "type": "relational_field",
+      "basho": "la strada come campo in cui la velocità misura lo stato del rapporto: 30 km/h è Darma che non vuole arrivare, 120 km/h è il campo sotto il controllo di Kate; il cruscotto come strumento di lettura della relazione",
+      "kokyu": "istantaneo e irreversibile: il campo passa dalla lentezza alla velocità in una vignetta e non torna indietro; ogni cambio di ritmo è un cambio di campo relazionale",
+      "yūgen_level": 1.0,
+      "activation_condition": "ogni variazione di velocità nella Fiat 500; massima attivazione nel momento del comando di Kate e dell'obbedienza immediata di Darma",
+      "persistence_rule": "strutturale: il campo della velocità relazionale è la condizione fondante del viaggio; senza di essa il manga non ha campo",
+      "dissolution_rule": "si dissolve nel tandem finale: quando Darma e Kate pedalano insieme il campo della velocità come negoziazione si trasforma in campo della cooperazione",
+      "field_logic": "velocity_as_relational_negotiation_language",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Darma obbedisca immediatamente all'ordine di accelerare non viene dichiarato: il campo della relazione contiene questa risposta ma non la rivela"
+      },
+      "affects": {
+        "field-02": "la velocità produce la necessità della sosta: il campo della tensione genera il campo della sospensione",
+        "field-04": "la velocità è osservata da ABOP e Esch3r come campo relazionale: i testimoni registrano il campo senza commentarlo"
+      },
+      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_sospensione_onsen",
+      "type": "perceptual_field",
+      "basho": "il ryokan Kanouya come campo di sospensione totale: l'ofuro diviso dal bambù, il kaiseki sul tatami, il vapore che nasconde la conversazione; il Giappone come spazio che assorbe la tensione del viaggio",
+      "kokyu": "lento e dilatato: il campo dell'onsen espande il tempo; ci incontriamo in ofuro tra 30 minuti come dichiarazione di un ritmo opposto alla velocità stradale",
+      "yūgen_level": 0.98,
+      "activation_condition": "l'ingresso nel ryokan Kanouya; massima attivazione nell'immersione nell'ofuro come campo termico e relazionale",
+      "persistence_rule": "temporaneo ma denso: il campo dell'onsen dura il tempo della sosta; lascia tracce nel campo relazionale che persistono fino ad Abano",
+      "dissolution_rule": "si dissolve con la partenza in tandem: il campo della sospensione termina quando il movimento riprende in forma cooperativa",
+      "field_logic": "onsen_as_relational_suspension_and_reequilibrium",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la conversazione tra Darma e Kate nel vapore dell'onsen non viene mostrata: il campo della sospensione contiene un dialogo che il manga non può registrare"
+      },
+      "affects": {
+        "field-03": "la sospensione dell'onsen prepara il campo del sogno: solo dopo la sosta Abano diventa pensabile come destinazione",
+        "field-01": "l'onsen interrompe temporaneamente il campo della velocità: la sospensione è la risposta necessaria alla tensione"
+      },
+      "textual_anchor_it": "Onsen Kanouya. Che paradiso! — Ci voleva proprio. Peccato che durerà poco."
+    },
+    {
+      "id": "field-03",
+      "label": "campo_abano_aperto",
+      "type": "dream_field",
+      "basho": "Abano come campo non chiuso: la città non viene mai mostrata nel campo visivo del manga; esiste come immagine condivisa che il viaggio porta verso di sé senza mai raggiungerla visivamente",
+      "kokyu": "progressivo e aperto: il campo di Abano si intensifica man mano che il viaggio procede; non raggiunge mai un punto di chiusura — il manga finisce prima che Abano appaia",
+      "yūgen_level": 0.93,
+      "activation_condition": "la frase di Kate — sogno assieme a te di andare ad Abano Terme; massima attivazione nel finale con il tandem sulle colline",
+      "persistence_rule": "aperto oltre il manga: il campo di Abano non si chiude con la fine del manga; il lettore lo porta con sé",
+      "dissolution_rule": "non dissolvibile: Abano come campo aperto è la condizione strutturale del finale; la sua non-chiusura è il sistema",
+      "field_logic": "abano_as_permanently_open_return_field",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Abano non viene mai mostrata: il campo visivo del manga si chiude prima di raggiungerla; il campo aperto è il residuo strutturale del sistema"
+      },
+      "affects": {
+        "field-01": "Abano trasforma il campo della velocità in campo del sogno condiviso: il viaggio non è più negoziazione ma movimento verso qualcosa di desiderato insieme"
+      },
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Abano, stiamo arrivando!"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_testimoni_silenziosi",
+      "type": "ontological_field",
+      "basho": "ABOP e Esch3r come campo trasversale di osservazione: il robot e il gatto attraversano tutti i campi del viaggio senza modificarli; la Fiat 500 come contenitore fisico del campo dei testimoni",
+      "kokyu": "neutro e costante: il campo dei testimoni non si modifica con la velocità né con la sospensione; ABOP emette sempre bzzz bzzz con lo stesso ritmo indipendentemente dal contesto",
+      "yūgen_level": 0.99,
+      "activation_condition": "ogni apparizione di ABOP o Esch3r nelle tavole; massima attivazione nel no comment durante la tensione tra Darma e Kate",
+      "persistence_rule": "trasversale e permanente: i testimoni attraversano tutte le scene come campo di osservazione; non scompaiono mai dal sistema",
+      "dissolution_rule": "non dissolvibile: i testimoni sono il campo che rende il manga consapevole di sé come viaggio osservato",
+      "field_logic": "ai_and_cat_as_permanent_silent_witness_field",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il pensiero di ABOP e Esch3r sul viaggio resta permanentemente chiuso: è il residuo più denso del sistema"
+      },
+      "affects": {
+        "field-01": "i testimoni osservano il campo della velocità: ABOP registra la negoziazione relazionale come dato senza commentarlo",
+        "field-02": "i testimoni entrano nell'onsen: ABOP nell'acqua calda — wow — come unica dichiarazione di campo"
+      },
+      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment."
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-01",
+    "secondary": ["field-02", "field-04"],
+    "support": ["field-03"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "velocity_as_mere_transportation",
+      "onsen_as_tourist_attraction",
+      "abano_as_geographic_destination",
+      "abop_as_comic_sidekick",
+      "esch3r_as_decorative_element",
+      "road_trip_as_plot_device"
+    ],
+    "system_behavior": "il sistema produce un campo in cui la velocità è linguaggio relazionale, la sosta è sospensione necessaria, Abano è campo aperto permanente, i testimoni osservano senza commentare; il viaggio non finisce nella destinazione ma nel desiderio condiviso di tornarci",
+    "key_insight": "il campo più denso del sistema: ABOP e Esch3r osservano il campo relazionale tra Darma e Kate come campo che non possono abitare dall'interno; il no comment è la dichiarazione più densa del manga",
+    "catalog_connection": {
+      "ai_robot_abop_1": "stesso universo narrativo: i personaggi si spostano dal campo urbano italiano al campo giapponese di Shibukawa; la serie espande il campo geografico",
+      "burn_out_pandemia": "stessi personaggi in forma manga: il campo testuale di Burn Out Pandemia produce il campo visivo della serie ABOP",
+      "kyoto_lo_sguardo_del_drago": "stesso campo giapponese come spazio narrativo: Shibukawa e Kyoto come due configurazioni del Giappone nel catalogo Peacock"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
