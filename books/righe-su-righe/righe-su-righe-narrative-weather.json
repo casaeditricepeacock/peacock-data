@@ -1,0 +1,128 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "weather_types": {
+    "storm_field": "il clima del temporale: perturbazione del campo ordinario come condizione atmosferica della soglia",
+    "stripe_cold": "il clima del mondo a righe prima della trasformazione: isolamento, fuga, solitudine come atmosfera percettiva",
+    "curiosity_warm": "il clima di Osvalda: calore della curiosità come campo atmosferico che attraversa tutti gli ambienti",
+    "feast_light": "il clima della festa di colori: esplosione cromatica come campo atmosferico della trasformazione",
+    "return_warm": "il clima del ritorno: il mondo ordinario visto con occhi nuovi come atmosfera finale"
+  },
+  "editorial_principle": "Il clima di Righe su righe non è meteorologico: è cromatico e relazionale. Il temporale apre il campo. Il mondo a righe ha un clima di isolamento freddo. Osvalda porta il proprio clima caldo di curiosità che non cambia mai. La festa produce un'esplosione di calore cromatico. Il ritorno porta questo calore nel mondo ordinario.",
+  "weather_fields": [
+    {
+      "id": "weather-01",
+      "label": "temporale_come_campo_atmosferico",
+      "label_en": "storm_atmospheric_field",
+      "type": "storm_field",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il temporale come campo atmosferico di perturbazione: le righe di pioggia nel campo illustrativo come prima forma visiva delle righe del titolo; il temporale non è solo causa del passaggio ma primo campo cromatico del libro",
+      "kokyu": "il ritmo del temporale è quello dell'interruzione totale: fa saltare tutto — la tv, il campo ordinario, la continuità; il temporale non ha gradualità",
+      "yūgen": "le righe della pioggia come anticipazione del mondo a righe: Anna Corradi porta il tema delle righe già nella scena del temporale; il campo atmosferico contiene già il campo narrativo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la durata del temporale e il momento in cui smette non vengono dichiarati: il temporale esiste come campo sospeso per tutta la durata del libro"
+      },
+      "affects": {
+        "weather-02": "il temporale produce il clima del mondo a righe: dal campo perturbato al campo isolato"
+      },
+      "textual_anchor_it": "Ma all'improvviso un gran temporale fa saltare tutto.",
+      "glossary_link": ["basho", "ma", "ichigo ichie"]
+    },
+    {
+      "id": "weather-02",
+      "label": "freddo_dell_isolamento",
+      "label_en": "stripe_world_cold_field",
+      "type": "stripe_cold",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il clima del mondo a righe come isolamento percettivo: i personaggi-righe che non si toccano, che fuggono, che spariscono; il campo atmosferico è quello della solitudine difensiva; ogni essere è una riga sola nel proprio campo",
+      "kokyu": "il ritmo del freddo è quello della distanza mantenuta: i personaggi-righe si avvicinano abbastanza da essere visti ma non abbastanza da essere toccati; il campo respinge il contatto come regola atmosferica",
+      "yūgen": "il freddo del mondo a righe non è ostilità: è paura; il clima percettivo dell'isolamento è prodotto dalla legge che protegge l'identità; il freddo è il prezzo dell'identità preservata",
+      "affects": {
+        "weather-03": "il freddo dell'isolamento contrasta con il calore di Osvalda: i due campi atmosferici si incontrano senza risolversi finché la festa non li trasforma"
+      },
+      "textual_anchor_it": "Non capisco. Avrò fatto qualcosa di male? Perché tutti spariscono e mi lasciano sola?",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "weather-03",
+      "label": "calore_della_curiosita",
+      "label_en": "curiosity_warm_field",
+      "type": "curiosity_warm",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il clima di Osvalda come campo caldo costante: la curiosità come temperatura percettiva che non cambia mai; Osvalda è disorientata ma non spaventata; il suo campo atmosferico è quello dell'apertura verso l'altro",
+      "kokyu": "il ritmo del calore di Osvalda è quello della costanza: il campo non si raffredda nonostante le sparizioni ripetute; ogni nuovo incontro viene affrontato con la stessa apertura del precedente",
+      "yūgen": "ehi, voi: vi va di farmi compagnia — la stessa formula ripetuta ad ogni incontro; il calore di Osvalda non apprende dalla delusione; è un campo atmosferico strutturale, non una scelta",
+      "affects": {
+        "weather-04": "il calore di Osvalda produce il clima della festa: solo un campo caldo può sovvertire il freddo dell'isolamento"
+      },
+      "textual_anchor_it": "Ehi, voi: vi va di farmi compagnia? Non so dove sono, non so dove andare.",
+      "glossary_link": ["omotenashi", "kokyu", "basho"]
+    },
+    {
+      "id": "weather-04",
+      "label": "esplosione_cromatica_della_festa",
+      "label_en": "color_feast_light_field",
+      "type": "feast_light",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "il clima della festa di colori come esplosione cromatica: la pagina intera che diventa campo di righe colorate sovrapposte; il campo atmosferico più caldo e più denso del libro; il calore prodotto dal contatto tra le righe",
+      "kokyu": "il ritmo del clima della festa è quello dell'abbondanza improvvisa: il campo passa dal freddo dell'isolamento all'esplosione cromatica senza gradualità; la festa non si annuncia — esplode",
+      "yūgen": "le righe che si toccano producono un clima che non esisteva prima: il calore della festa è un campo atmosferico nuovo che nessuna riga singola poteva generare; il clima come effetto del contatto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la temperatura esatta del campo cromatico della festa non è registrabile nel protocollo: appartiene alla percezione visiva del lettore"
+      },
+      "affects": {
+        "weather-05": "il clima della festa produce il clima del ritorno: Osvalda porta il calore cromatico nel mondo ordinario"
+      },
+      "textual_anchor_it": "Se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["yūgen", "ichigo ichie", "omotenashi"]
+    },
+    {
+      "id": "weather-05",
+      "label": "calore_del_ritorno",
+      "label_en": "return_warm_field",
+      "type": "return_warm",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "il clima del ritorno come mondo ordinario trasformato: la casa è la stessa ma il campo atmosferico è cambiato; il vestito a righe di Osvalda porta il calore della festa nel campo freddo del mondo ordinario",
+      "kokyu": "il ritmo del clima del ritorno è quello del calore persistente: il campo non torna al freddo ordinario; Osvalda porta con sé la temperatura del mondo a righe trasformato",
+      "yūgen": "i colori ora sono ancora più belli — il clima del ritorno come percezione aumentata; il mondo ordinario non è cambiato ma Osvalda lo vede con una temperatura percettiva diversa",
+      "affects": {
+        "weather-01": "il clima del ritorno chiude il campo aperto dal temporale: dal freddo perturbato al calore trasformato; il ciclo atmosferico si completa"
+      },
+      "textual_anchor_it": "Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["mono no aware", "basho", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "weather_count": 5,
+    "dominant_field": "weather-04",
+    "secondary_field": "weather-03",
+    "weather_sequence": {
+      "step_1": "weather-01 — temporale: perturbazione cromatica che apre il campo",
+      "step_2": "weather-02 — freddo dell'isolamento: clima difensivo del mondo a righe",
+      "step_3": "weather-03 — calore di Osvalda: campo caldo costante che attraversa tutto",
+      "step_4": "weather-04 — esplosione cromatica: clima della trasformazione",
+      "step_5": "weather-05 — calore del ritorno: mondo ordinario con temperatura aumentata"
+    },
+    "narrative_model": "cinque campi climatici: temporale perturbante — freddo isolamento — calore curiosità — esplosione cromatica — calore ritorno; il libro porta questi climi come campi visivi prima che come atmosfere narrative",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
