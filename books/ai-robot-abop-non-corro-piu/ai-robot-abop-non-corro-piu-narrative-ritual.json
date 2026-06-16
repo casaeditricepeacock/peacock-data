@@ -1,0 +1,138 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "ritual_types": {
+    "activation_ritual": "il rito che mette in moto il campo relazionale attraverso un comando accettato senza negoziazione",
+    "onsen_entry": "il rito dell'ingresso nell'onsen: il corpo che entra nell'acqua calda come passaggio da un campo all'altro",
+    "kaiseki_contemplation": "il rito della contemplazione del cibo kaiseki: il pasto come campo visivo e sensoriale prima che nutritivo",
+    "unperformed_ritual": "il rito della fuga nominata ma non compiuta",
+    "tandem_departure": "il rito della partenza in tandem: il ritorno verso Abano come campo condiviso e sognato",
+    "witness_ritual": "il rito della testimonianza silenziosa: osservare senza intervenire"
+  },
+  "editorial_principle": "I rituali di AI ロボット ABOP — Non corro più sono rituali di movimento e sospensione. Il viaggio non è mai solo spostamento fisico: ogni accelerazione, ogni sosta, ogni pasto è un rito che regola il campo relazionale tra Darma e Kate. ABOP e Esch3r assistono ai rituali senza parteciparvi. Il no comment è l'unico rito che appartiene loro.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "ordine_di_accelerare",
+      "label_en": "acceleration_command",
+      "type": "activation_ritual",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "la strada di Shibukawa come campo in cui Kate emette l'ordine e Darma lo esegue: premi l'acceleratore — ai tuoi ordini; il rito trasforma il passeggero in comandante e il guidatore in esecutore",
+      "kokyu": "il ritmo del rito è quello dell'obbedienza immediata: nessuna resistenza, nessuna negoziazione; l'ordine e l'esecuzione occupano la stessa vignetta",
+      "yūgen": "il rito non parla realmente di velocità ma di fiducia e disponibilità all'altro; il pericolo emerge come effetto secondario di una relazione già attiva",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Darma obbedisca senza resistenza non viene dichiarato; il rito si compie prima che il lettore possa chiedersi se sia giusto farlo"
+      },
+      "affects": {
+        "ritual-02": "il rito dell'attivazione rende necessario il rito della sosta: il corpo ha bisogno di recuperare dopo la tensione"
+      },
+      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo!",
+      "glossary_link": ["kokyu", "basho", "ma"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "ingresso_nell_onsen",
+      "label_en": "onsen_entry_ritual",
+      "type": "onsen_entry",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il ryokan Kanouya come campo di transizione: ci incontriamo in ofuro tra 30 minuti; il rito dell'ingresso nell'acqua calda come passaggio obbligato dal movimento alla sospensione",
+      "kokyu": "il ritmo del rito è quello della separazione e del ricongiungimento: uomini e donne separati dal bambù, poi riuniti nella conversazione sul tatami",
+      "yūgen": "che paradiso — il rito viene registrato in due parole; l'esperienza corporea dell'acqua calda non viene descritta ma il lettore la percepisce attraverso le posture dei personaggi",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa accada nel lato femminile dell'ofuro durante la separazione non viene mostrato"
+      },
+      "affects": {
+        "ritual-04": "il rito dell'onsen crea il campo in cui la yonige può essere proposta",
+        "ritual-03": "l'ingresso nell'onsen prepara il campo per il rito del pasto kaiseki"
+      },
+      "textual_anchor_it": "Ci incontriamo in ofuro tra 30 minuti, ok? — Va bene. Che paradiso! — Ci voleva proprio.",
+      "glossary_link": ["ma", "wabi-sabi", "basho", "omotenashi"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "contemplazione_del_kaiseki",
+      "label_en": "kaiseki_contemplation",
+      "type": "kaiseki_contemplation",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il tatami del ryokan come campo in cui il cibo kaiseki viene disposto e osservato: quanto cibo — che meraviglia; il pasto come campo visivo prima che nutritivo",
+      "kokyu": "il ritmo del rito è quello della scoperta progressiva: ogni piatto viene nominato separatamente; il ramen appare per ultimo come rivelazione",
+      "yūgen": "la contemplazione estetica del kaiseki viene continuamente interrotta dall'entusiasmo infantile dei personaggi; il rito oscilla tra meraviglia e comicità",
+      "affects": {
+        "ritual-02": "il rito del pasto segue il rito dell'onsen: il corpo che si è scaldato nell'acqua ora si nutre"
+      },
+      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "glossary_link": ["omotenashi", "basho", "mono no aware"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "proposta_della_yonige",
+      "label_en": "yonige_proposal_ritual",
+      "type": "unperformed_ritual",
+      "field_status": "proposed_not_activated",
+      "intensity": 0.82,
+      "perceptual_weight": 0.81,
+      "basho": "il corridoio del ryokan come campo in cui la yonige viene nominata: ti fanno sparire, evaporizzi nel nulla; il rito della fuga proposta come soluzione al campo del disagio",
+      "kokyu": "il ritmo del rito è quello della proposta seria in tono leggero: Kate descrive la yonige senza urgenza; Darma ascolta e dice uhm; il rito si chiude senza azione",
+      "yūgen": "scapare non serve a nulla — la risposta arriva da un personaggio nell'ombra prima che Darma risponda; il campo conosce già la risposta",
+      "affects": {
+        "ritual-05": "il rito della yonige non attuata prepara il rito della partenza: se non si fugge, si parte verso qualcosa"
+      },
+      "textual_anchor_it": "Allora chiamerò una yonige — è una società di traslochi notturni, tu li chiami e ti fanno sparire. Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "partenza_in_tandem",
+      "label_en": "tandem_departure_ritual",
+      "type": "tandem_departure",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "le colline di Abano come campo immaginato e poi raggiunto: il tandem come veicolo del sogno condiviso; Kate che alza le braccia — yiuppi; Darma che pedala verso la destinazione promessa",
+      "kokyu": "il ritmo del rito è quello del ritorno circolare: il viaggio era partito con la Fiat 500, si conclude con il tandem; il campo cambia veicolo ma mantiene la stessa formazione",
+      "yūgen": "sogno assieme a te di andare ad Abano Terme — il rito del sogno condiviso che diventa realtà; la destinazione non è geografica ma relazionale",
+      "affects": {
+        "ritual-01": "il rito della partenza in tandem chiude il campo aperto dal rito dell'attivazione: il viaggio trova il suo ritmo naturale quando la cooperazione sostituisce il comando"
+      },
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
+    },
+    {
+      "id": "ritual-06",
+      "label": "no_comment",
+      "label_en": "silent_observation",
+      "type": "witness_ritual",
+      "intensity": 0.90,
+      "perceptual_weight": 0.89,
+      "basho": "ABOP ed Esch3r osservano il campo senza intervenire: nella Fiat 500, nell'onsen, durante il viaggio e nel finale",
+      "kokyu": "presenza continua senza partecipazione; il rito consiste nel restare nel campo senza modificarlo",
+      "yūgen": "capire senza spiegare; vedere senza giudicare; il silenzio come forma di comprensione",
+      "textual_anchor_it": "No comment.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 6,
+    "dominant_field": "ritual-02",
+    "secondary_field": "ritual-05",
+    "system_role": "relational_suspension_field",
+    "narrative_model": "sei rituali regolano il campo: l'attivazione della velocità apre il sistema, l'onsen ne costituisce il centro trasformativo, il kaiseki lo nutre, la yonige offre una fuga che non viene scelta, il no comment testimonia senza intervenire, il tandem conclude il viaggio trasformando la velocità in ritmo condiviso",
+    "reader_effect": "il lettore riconosce che ogni viaggio ha rituali di accelerazione e sosta che non dipendono dalla geografia ma dal campo relazionale tra chi viaggia insieme",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
