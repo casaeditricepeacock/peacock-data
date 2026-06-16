@@ -1,0 +1,145 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "system_axis": {
+    "primary_tension": "solitudine_vs_contatto",
+    "temporal_axis": "ordinario_soglia_mondo_a_righe_ritorno",
+    "narrative_logic": "le scene alternano il campo del mondo ordinario con il campo del mondo a righe; ogni scena nel mondo a righe testa la legge del contatto; la scena finale sovverte tutte le scene precedenti"
+  },
+  "editorial_principle": "Le scene di Righe su righe non sono ambientazioni. Sono configurazioni del campo del contatto: ogni scena mostra una forma diversa del rapporto tra Osvalda e le righe. La scena del temporale apre il campo. Le scene degli incontri testano la legge. La scena della festa la sovverte. La scena del ritorno la porta nel mondo ordinario.",
+  "scene_types": {
+    "ordinary_field": "il mondo ordinario: la casa, il papà, la tv — campo di partenza e di ritorno",
+    "threshold_field": "la soglia: il temporale, le righe nella tv, il passaggio",
+    "encounter_field": "gli incontri nel mondo a righe: ogni personaggio-riga come configurazione diversa della legge",
+    "dissolution_field": "il campo della sparizione: i personaggi che scompaiono prima del contatto",
+    "transformation_field": "il campo della trasformazione: la festa di colori come sovversione della legge",
+    "return_field": "il ritorno trasformato: il mondo ordinario visto con occhi nuovi"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "casa_temporale_tv",
+      "type": "ordinary_field",
+      "dominant": false,
+      "basho": "la casa come campo ordinario: Osvalda e il papà guardano la tv; il temporale come perturbazione del campo; le righe colorate sullo schermo come prima apparizione del mondo a righe nel campo ordinario",
+      "kokyu": "il ritmo è quello della quotidianità interrotta: sto guardando la tv con papà — poi il temporale; la scena ordinaria dura poco prima che il campo cambi",
+      "yūgen": "il televisore vintage come oggetto che contiene già il mondo a righe: le righe erano lì prima che il temporale le liberasse; la soglia era già presente nel campo ordinario",
+      "affects": {
+        "scene-02": "il temporale produce il passaggio: la scena ordinaria genera la scena soglia"
+      },
+      "textual_anchor_it": "Sto guardando la tv con papà, ma all'improvviso un gran temporale fa saltare tutto.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "scene-02",
+      "label": "passaggio_nel_mondo_a_righe",
+      "type": "threshold_field",
+      "dominant": false,
+      "basho": "il momento del passaggio: le righe colorate della tv che diventano campo fisico; il divano e la tv che scompaiono; Osvalda che si trova circondata da righe-muri senza sapere come ci è arrivata",
+      "kokyu": "il ritmo è quello della disorientazione immediata: ma che succede — dove è finito il divano — e la tv; tre domande senza risposta che registrano il cambio di campo",
+      "yūgen": "il passaggio avviene senza che Osvalda lo attraversi consapevolmente: il campo cambia intorno a lei mentre lei guarda; la soglia non si vede — ci si trova dentro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il momento esatto del passaggio non viene mostrato: Osvalda guarda le righe e poi è già dentro; la soglia è il campo che il libro non può mostrare"
+      },
+      "affects": {
+        "scene-03": "il passaggio produce la prima scena di incontro: Osvalda nel mondo a righe cerca subito compagnia"
+      },
+      "textual_anchor_it": "Ma che succede? Dove è finito il divano? E la tv?",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "scene-03",
+      "label": "incontro_con_le_righe_colorate",
+      "type": "encounter_field",
+      "basho": "le righe-personaggi come primo incontro: figure fatte di righe che fuggono quando Osvalda si avvicina; il campo visivo del libro porta le righe come personaggi autonomi con corpo, movimento, direzione",
+      "kokyu": "il ritmo dell'incontro è quello della fuga immediata: Osvalda si avvicina, le righe scappano; il campo non lascia spazio alla relazione",
+      "yūgen": "ehi, voi: vi va di farmi compagnia — la domanda che non ottiene risposta; le righe rispondono con il corpo invece che con le parole; la fuga è già una risposta",
+      "affects": {
+        "scene-04": "la fuga delle righe colorate produce la scena dell'incontro col signore delle cravatte: Osvalda continua a cercare compagnia"
+      },
+      "textual_anchor_it": "Ehi, voi: vi va di farmi compagnia? Non so dove sono, non so dove andare. No, ma che fate? Tornate qui, volevo solo giocare con voi!",
+      "glossary_link": ["ichigo ichie", "ma", "mono no aware"]
+    },
+    {
+      "id": "scene-04",
+      "label": "signore_delle_cravatte",
+      "type": "encounter_field",
+      "basho": "il signore delle cravatte come campo dell'incontro parziale: chiede a Osvalda di grattargli la schiena, le spiega che è nel mondo a righe, scompare prima di finire la frase; il contatto utilitario come unica forma tollerata",
+      "kokyu": "il ritmo è quello dell'incontro a metà: il signore delle cravatte si avvicina abbastanza da parlare e farsi servire; non abbastanza da rimanere",
+      "yūgen": "sei nel mondo a righe, bambina. E in questo mondo... — la frase che non finisce; il campo della spiegazione viene interrotto dalla sparizione; Osvalda non saprà mai cosa voleva dire",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa volesse dire il signore delle cravatte con in questo mondo non viene mai rivelato: la frase incompiuta è il residuo strutturale della scena"
+      },
+      "affects": {
+        "scene-05": "l'incontro col signore delle cravatte prepara la scena del signore Scala: Osvalda impara che nel mondo a righe il contatto è possibile in forma limitata"
+      },
+      "textual_anchor_it": "Sei nel mondo a righe, bambina. E in questo mondo... E in questo mondo cosa? Ma è scomparso anche lui.",
+      "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
+    },
+    {
+      "id": "scene-05",
+      "label": "signore_scala",
+      "type": "encounter_field",
+      "basho": "il signore Scala come campo dell'incontro funzionale: aiuta Osvalda a scendere dall'alto, le spiega la legge del mondo a righe, sparisce dopo aver adempiuto al proprio compito; il contatto come servizio che non produce relazione",
+      "kokyu": "il ritmo è quello della rivelazione seguita dalla sparizione: il signore Scala consegna la legge — non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo — e poi non c'è più",
+      "yūgen": "il signore Scala che spiega la propria legge e poi la esegue sparendo: il personaggio più coerente del sistema; la sua sparizione dopo la spiegazione è la forma più perfetta della legge che ha appena enunciato",
+      "affects": {
+        "scene-06": "la rivelazione della legge prepara la scena della trasformazione: Osvalda ora conosce la legge che sta per sovvertire"
+      },
+      "textual_anchor_it": "Bimba, nel mondo a righe è così: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "scene-06",
+      "label": "festa_di_colori",
+      "type": "transformation_field",
+      "dominant": true,
+      "basho": "la scena della trasformazione: Osvalda al centro delle righe che si toccano e producono la festa di colori; il campo visivo del libro porta questa scena come esplosione cromatica; la pagina intera diventa il campo trasformato",
+      "kokyu": "il ritmo è quello della proposta immediata seguita dalla trasformazione: ma no, signor Scala — se mettete insieme le vostre righe sarà una gran festa di colori; la scena non mostra il processo di convincimento, solo il prima e il dopo",
+      "yūgen": "le righe che si toccano e non si perdono: la trasformazione produce qualcosa che nessuno aveva visto; il campo visivo porta la festa come pagina senza testo — solo colori; la scena più densa del libro è la più silenziosa",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "come Osvalda convinca le righe ad accettare la proposta non viene mostrato: il campo del convincimento è il silenzio strutturale della scena"
+      },
+      "affects": {
+        "scene-07": "la festa di colori produce il ritorno: Osvalda porta le righe con sé come vestito"
+      },
+      "textual_anchor_it": "Ma no, signor Scala! Anzi, se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["yūgen", "ichigo ichie", "omotenashi"]
+    },
+    {
+      "id": "scene-07",
+      "label": "ritorno_a_casa",
+      "type": "return_field",
+      "basho": "il mondo ordinario ritrovato: la casa, il papà, la stessa domanda sulla tv; ma Osvalda è diversa e il campo è diverso; il vestito a righe come traccia fisica del mondo attraversato",
+      "kokyu": "il ritmo è quello del ritorno circolare: la scena finale replica la scena iniziale con un elemento cambiato; la casa è la stessa, il papà è lo stesso, la domanda è la stessa — solo i colori sono più belli",
+      "yūgen": "i colori ora sono ancora più belli — Osvalda non spiega cosa ha vissuto; la trasformazione è nel vestito e nella risposta; il papà non vede la differenza ma il lettore sì",
+      "affects": {
+        "scene-01": "il ritorno chiude il campo aperto dalla scena iniziale: il ciclo si completa con una differenza che solo il lettore può misurare"
+      },
+      "textual_anchor_it": "Ehi, ma sono tornata a casa. Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["mono no aware", "basho", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "scene_count": 7,
+    "dominant_field": "scene-06",
+    "system_state": "contatto_trasformato_in_festa",
+    "narrative_model": "sette scene come configurazioni del campo del contatto: casa e temporale aprono il sistema, il passaggio installa la soglia, tre incontri testano la legge, la festa la sovverte, il ritorno la porta nel mondo ordinario",
+    "retroactive_causality": true,
+    "visual_structure": "le illustrazioni di Anna Corradi portano le righe come campo visivo autonomo; le scene di pura riga senza testo sono i campi più densi del libro",
+    "global_effect": "la scena della festa retroagisce su tutte le scene precedenti: ogni sparizione diventa leggibile come autodifesa invece che come rifiuto; il mondo a righe non era ostile — era spaventato"
+  }
+}
