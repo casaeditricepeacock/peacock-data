@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "sensory_theme": "la_salita_come_campo_percettivo_del_ritorno",
+  "experience_type": "fatica_condivisa_come_campo_relazionale",
+  "dominant_sense": "propriocezione",
+  "activation_condition": "il momento in cui il tandem affronta la salita di via Regazzoni Alta verso Galzignano; le gambe che spingono insieme come unico modo per salire; la curva che non finisce mai come campo visivo delle colline di Abano",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "fatica_delle_gambe_sul_tandem",
+      "basho": "via Regazzoni Alta come campo fisico del ritorno: la salita non si percepisce con gli occhi ma con i muscoli delle gambe; Darma che pedala davanti, Kate che pedala dietro; la fatica condivisa come unico modo per raggiungere Galzignano",
+      "kokyu": "il ritmo della salita è quello della respirazione sincronizzata: due corpi che spingono lo stesso pedale in tempi diversi finché il ritmo non diventa uno solo; la salita si misura nel fiato",
+      "yūgen": "la fatica della salita non viene dichiarata nel manga: le ultime tavole mostrano il tandem in pianura; la salita di via Regazzoni Alta è il campo che il manga non mostra ma che il lettore che conosce i colli Euganei aggiunge da sé",
+      "japanese_echo": "kokyu, il respiro come campo relazionale: due corpi che respirano insieme sulla salita producono lo stesso campo dell'onsen di Shibukawa",
+      "poetic_anchor": "le colline di Abano non si guardano, si salgono"
+    },
+    {
+      "id": "sensation-02",
+      "label": "curva_che_non_finisce",
+      "basho": "la curva di via Regazzoni Alta come campo visivo della salita: il nastro d'asfalto che sale tra i vigneti e i castagni; ogni curva promette la cima e ne rivela un'altra; il campo collinare come sequenza di promesse non mantenute",
+      "kokyu": "il ritmo della curva che non finisce è quello della sorpresa replicata: il ciclista sa che ci sarà un'altra curva ma il corpo reagisce ogni volta come se fosse l'ultima",
+      "yūgen": "la cima di via Regazzoni Alta non si vede dal basso: il campo della salita opera senza mostrare la destinazione; stesso campo di Abano nel manga, stesso meccanismo percettivo",
+      "japanese_echo": "ma, lo spazio tra una curva e la successiva come campo di sospensione e anticipazione",
+      "poetic_anchor": "ogni curva di via Regazzoni Alta promette la fine della salita e ne rivela un'altra"
+    }
+  ],
+  "reader_effect": "il lettore che conosce via Regazzoni Alta riconosce nel finale del manga il campo fisico della salita; chi non la conosce percepisce la fatica come campo relazionale prima che geografico; in entrambi i casi il tandem sul finale del manga produce una sensazione muscolare prima che visiva",
+  "philosophical_layer": {
+    "core_concept": "la fatica condivisa come campo relazionale: due corpi che spingono lo stesso veicolo in salita producono una sincronizzazione involontaria che nessun dialogo può generare; la salita di via Regazzoni Alta è il campo in cui Darma e Kate diventano un sistema prima di diventare una coppia",
+    "japanese_resonance": "kokyu come respiro condiviso: la sincronizzazione respiratoria della salita replica il campo dell'onsen; i colli Euganei come Giappone termale d'Italia",
+    "ai_resonance": "ABOP sul tandem non pedala: il robot è trasportato; il campo della fatica condivisa è il campo che l'AI non può abitare dall'interno; la salita di via Regazzoni Alta è il campo strutturale che separa il testimone dal partecipante"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "la sensazione esatta della salita di via Regazzoni Alta in giugno, con il caldo dei colli Euganei e il profumo di erba secca, non è registrabile nel protocollo; appartiene al corpo di chi l'ha percorsa"
+  },
+  "closure": "hai mai pedalato in salita con qualcuno senza parlare sapendo che il silenzio era la forma più densa di comunicazione disponibile?"
+}
