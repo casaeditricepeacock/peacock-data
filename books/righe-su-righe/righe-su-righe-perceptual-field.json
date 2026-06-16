@@ -1,0 +1,126 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Righe su righe produce un campo in cui l'identità è una riga e il contatto è il rischio che la trasforma. Osvalda è il campo estraneo che entra nel sistema senza conoscerne la legge e la sovverte per ingenuità e poi per proposta. La festa di colori non è un lieto fine: è un campo nuovo che non esisteva prima. Il libro porta questa trasformazione come esperienza visiva prima che come narrazione.",
+  "dominant_field": "field-03",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_riga_come_identita",
+      "type": "ontological_field",
+      "basho": "il mondo a righe come campo in cui ogni essere è le proprie righe: identità e forma coincidono; toccare un'altra riga significa perdere la propria forma; il campo dell'identità-riga è il fondamento strutturale del sistema",
+      "kokyu": "costante e assoluto: la legge dell'identità-riga non ammette eccezioni prima di Osvalda; ogni personaggio-riga la esegue automaticamente senza contestarla",
+      "yūgen_level": 0.97,
+      "activation_condition": "ogni apparizione dei personaggi-righe; massima attivazione nella dichiarazione del signore Scala — non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo",
+      "persistence_rule": "strutturale: il campo dell'identità-riga è la condizione fondante del mondo a righe; senza di essa il sistema non esiste",
+      "dissolution_rule": "si trasforma con la festa: il campo non viene abolito ma dimostrato falso nella sua premessa; le righe toccandosi non si perdono",
+      "field_logic": "identity_as_untouchable_stripe",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'origine della legge che lega identità e intoccabilità non viene mai dichiarata: il campo fondante del sistema non ha storia"
+      },
+      "affects": {
+        "field-02": "il campo dell'identità-riga produce il campo della paura del contatto: se l'identità è a rischio nel tocco, il tocco produce paura",
+        "field-03": "il campo dell'identità-riga è ciò che Osvalda attraversa senza conoscerlo: la sua estraneità è la condizione della trasformazione"
+      },
+      "textual_anchor_it": "Bimba, nel mondo a righe è così: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo."
+    },
+    {
+      "id": "field-02",
+      "label": "campo_paura_del_contatto",
+      "type": "relational_field",
+      "basho": "il campo della paura come operatore relazionale: ogni personaggio-riga mantiene la distanza da Osvalda come risposta automatica alla legge; la paura non viene dichiarata ma eseguita attraverso la sparizione",
+      "kokyu": "istantaneo e reattivo: i personaggi-righe spariscono prima del contatto; il campo della paura opera in anticipo sulla minaccia",
+      "yūgen_level": 0.95,
+      "activation_condition": "ogni avvicinamento di Osvalda ai personaggi-righe; massima attivazione nella ripetizione delle sparizioni",
+      "persistence_rule": "reattivo e ripetuto: il campo della paura si attiva ogni volta che il contatto è possibile; non si esaurisce con la ripetizione",
+      "dissolution_rule": "si dissolve con la proposta della festa: quando Osvalda propone il contatto come festa il campo della paura non ha più ragione di esistere",
+      "field_logic": "fear_as_identity_protection_mechanism",
+      "affects": {
+        "field-03": "la paura del contatto isola Osvalda: il campo estraneo viene tenuto a distanza dal campo della paura"
+      },
+      "textual_anchor_it": "No, ma che fate? Tornate qui, volevo solo giocare con voi!"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_osvalda_intrusa",
+      "type": "cognitive_field",
+      "basho": "Osvalda come campo estraneo al sistema: entra senza righe proprie, non conosce la legge, porta il proprio campo caldo di curiosità nel mondo freddo dell'isolamento; la sua estraneità è la condizione necessaria della trasformazione",
+      "kokyu": "costante e aperto: il campo di Osvalda non cambia nonostante le sparizioni ripetute; la curiosità non apprende dalla delusione; è un campo strutturale",
+      "yūgen_level": 0.98,
+      "activation_condition": "ogni azione di Osvalda nel mondo a righe; massima attivazione nel momento della proposta — ma no, signor Scala",
+      "persistence_rule": "permanente: il campo di Osvalda attraversa tutto il libro senza modificarsi; è il campo più stabile del sistema",
+      "dissolution_rule": "non dissolvibile: Osvalda è il campo fondante della trasformazione; senza di lei il sistema non cambia",
+      "field_logic": "intruder_as_transformation_agent",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché Osvalda non tema il contatto con le righe non viene spiegato: il campo della curiosità senza paura opera come dato strutturale"
+      },
+      "affects": {
+        "field-04": "il campo di Osvalda produce il campo della trasformazione: solo chi non conosce la legge può sovvertirla"
+      },
+      "textual_anchor_it": "Ehi, voi: vi va di farmi compagnia? Non so dove sono, non so dove andare."
+    },
+    {
+      "id": "field-04",
+      "label": "campo_festa_di_colori",
+      "type": "aesthetic_field",
+      "basho": "la festa di colori come campo nuovo: le righe che si toccano producono un campo che non esisteva prima; non è la somma delle righe singole ma qualcosa di diverso che nasce dal contatto",
+      "kokyu": "istantaneo e totale: la festa non si costruisce gradualmente; esplode quando le righe accettano la proposta; il campo si trasforma in un'unica apertura cromatica",
+      "yūgen_level": 1.0,
+      "activation_condition": "il momento in cui le righe si toccano dopo la proposta di Osvalda; massima attivazione nella tavola senza testo della festa cromatica",
+      "persistence_rule": "trasformativo e permanente: il campo della festa trasforma irreversibilmente il sistema; il mondo a righe non può tornare alla legge dell'isolamento dopo aver vissuto la festa",
+      "dissolution_rule": "non dissolvibile: la festa è il campo che dimostra la falsità della legge originale; una volta vissuta non può essere negata",
+      "field_logic": "contact_generates_new_field_beyond_sum_of_parts",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa le righe percepiscano nel momento del contatto non viene dichiarato: il campo interno della festa resta chiuso al lettore"
+      },
+      "affects": {
+        "field-01": "la festa retroagisce sul campo dell'identità-riga: dimostra che il tocco non dissolve — trasforma; la legge fondante del sistema era falsa",
+        "field-03": "la festa valida il campo di Osvalda: la proposta era giusta; il campo caldo della curiosità ha prodotto il campo nuovo"
+      },
+      "textual_anchor_it": "Se mettete insieme le vostre righe sarà una gran festa di colori!"
+    }
+  ],
+  "field_hierarchy": {
+    "dominant": "field-03",
+    "secondary": ["field-04", "field-01"],
+    "support": ["field-02"]
+  },
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "stripe_identity_as_absolute",
+      "contact_as_dissolution",
+      "intruder_as_threat",
+      "isolation_as_necessary",
+      "law_as_unchangeable",
+      "diversity_as_incompatibility"
+    ],
+    "system_behavior": "il sistema produce un campo in cui l'identità-riga fonda la legge dell'isolamento, la paura del contatto la esegue, Osvalda la attraversa senza conoscerla, la festa di colori la sovverte; il campo nuovo non abolisce le righe — le trasforma in qualcosa che da sole non potevano essere",
+    "key_insight": "il campo più citabile dal sistema: la festa di colori come prova che il contatto non dissolve l'identità ma la moltiplica; la legge del mondo a righe era una legge di paura non di necessità",
+    "catalog_connection": {
+      "il_nuvolotto_ciro": "stesso campo della trasformazione della paura: Ciro teme il temporale, le righe temono il contatto; entrambi scoprono che ciò che temevano era il campo della trasformazione",
+      "la_galleria_delle_ragazze": "stesso campo dell'identità visiva come campo narrativo: i ritratti di Rachele Baso e le righe di Anna Corradi come due forme dell'identità visiva nel catalogo Peacock",
+      "bernie_alla_scoperta_dei_mari_del_nord": "stesso campo del viaggio in un mondo sconosciuto: Bernie e Osvalda come due figure che attraversano campi ignoti e ne escono trasformate"
+    },
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
