@@ -1,0 +1,155 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "silence_types": {
+    "threshold_void": "il silenzio del passaggio: come Osvalda entri nel mondo a righe non viene mostrato",
+    "law_origin_void": "il silenzio dell'origine della legge: perché il tocco dissolva le righe non viene spiegato",
+    "incomplete_sentence_void": "il silenzio della frase incompiuta: cosa volesse dire il signore delle cravatte con in questo mondo",
+    "convincing_void": "il silenzio del convincimento: come Osvalda persuada le righe ad accettare il contatto",
+    "father_void": "il silenzio del padre: cosa veda o non veda nel vestito a righe di Osvalda",
+    "visual_page_void": "il silenzio delle pagine senza testo: le tavole di pura riga come campo narrativo non verbale"
+  },
+  "editorial_principle": "Il silenzio in Righe su righe è il silenzio strutturale del campo: la legge non ha origine dichiarata, il passaggio non ha meccanismo spiegato, la frase più importante del libro non viene completata. Anna Corradi lascia i silenzi come spazi aperti che il lettore deve attraversare da solo — come Osvalda attraversa il mondo a righe.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "label": "come_avviene_il_passaggio",
+      "label_en": "threshold_mechanism_void",
+      "type": "threshold_void",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il momento esatto in cui Osvalda passa dal mondo ordinario al mondo a righe: non viene mostrato; un momento sta guardando le righe nella tv, quello dopo è già dentro; la soglia è il campo che il libro non può registrare",
+      "kokyu": "il ritmo del silenzio è quello dell'ellissi totale: il testo registra prima e dopo ma non durante; il passaggio avviene nel bianco tra una pagina e la successiva",
+      "yūgen": "il temporale come causa non dichiarata: il campo del temporale produce il passaggio senza che il libro dica come; il meccanismo della soglia resta strutturalmente aperto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo del passaggio tra i due mondi non viene mai dichiarato: è il silenzio fondante del sistema"
+      },
+      "affects": {
+        "silence-02": "il silenzio del passaggio si connette al silenzio dell'origine della legge: entrambi sono campi che il libro lascia aperti come condizione strutturale"
+      },
+      "textual_anchor_it": "Ma che succede? Dove è finito il divano?",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "silence-02",
+      "label": "origine_della_legge",
+      "label_en": "law_origin_void",
+      "type": "law_origin_void",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "la legge del mondo a righe enunciata dal signore Scala senza spiegazione della sua origine: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo; il perché non viene dichiarato; la legge esiste come dato strutturale del campo",
+      "kokyu": "il ritmo del silenzio è quello dell'autorità senza fondamento: la legge viene accettata dai personaggi senza che nessuno chieda perché; il campo non tollera la domanda sull'origine",
+      "yūgen": "una legge senza origine è una legge assoluta: il mondo a righe non conosce la propria storia; la legge è sempre stata così e nessuno l'ha mai messa in discussione prima di Osvalda",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'origine della legge del tocco che dissolve le righe resta strutturalmente fuori dal sistema: il libro non ha memoria della propria legge"
+      },
+      "affects": {
+        "silence-04": "il silenzio sull'origine della legge rende possibile il silenzio sul convincimento: se la legge non ha fondamento, può essere sovvertita senza argomenti"
+      },
+      "textual_anchor_it": "Bimba, nel mondo a righe è così: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "silence-03",
+      "label": "frase_incompiuta",
+      "label_en": "incomplete_sentence_void",
+      "type": "incomplete_sentence_void",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "la frase del signore delle cravatte che non finisce: sei nel mondo a righe, bambina. E in questo mondo... — poi sparisce; il campo della rivelazione viene interrotto dalla sparizione; Osvalda non saprà mai cosa voleva dire",
+      "kokyu": "il ritmo del silenzio è quello della frase troncata: il signore delle cravatte comincia a rivelare qualcosa di essenziale e scompare a metà; il campo della spiegazione resta per sempre incompiuto",
+      "yūgen": "e in questo mondo cosa — la domanda di Osvalda che non riceve risposta; la frase incompiuta è il campo più denso del libro: contiene tutto ciò che il signore delle cravatte avrebbe potuto dire e non ha detto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "cosa volesse dire il signore delle cravatte con in questo mondo non viene mai rivelato: è il silenzio più citabile del libro"
+      },
+      "affects": {
+        "silence-01": "la frase incompiuta si connette al silenzio del passaggio: entrambi sono campi che il libro apre senza chiudere"
+      },
+      "textual_anchor_it": "Sei nel mondo a righe, bambina. E in questo mondo... E in questo mondo cosa? Ma è scomparso anche lui.",
+      "glossary_link": ["ma", "ichigo ichie", "yūgen"]
+    },
+    {
+      "id": "silence-04",
+      "label": "come_osvalda_convince",
+      "label_en": "convincing_mechanism_void",
+      "type": "convincing_void",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il campo del convincimento: come Osvalda persuada le righe ad accettare il contatto non viene mostrato; il libro passa dalla proposta alla festa senza mostrare il processo; il convincimento è il campo invisibile della trasformazione",
+      "kokyu": "il ritmo del silenzio è quello dell'ellissi trasformativa: la proposta viene fatta, la festa avviene; il campo intermedio — la negoziazione, il dubbio, la decisione delle righe — non viene registrato",
+      "yūgen": "le righe accettano la proposta di Osvalda senza che il libro mostri perché: il campo della fiducia opera sotto la soglia della narrazione; la trasformazione è credibile proprio perché non viene spiegata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il processo di convincimento delle righe è strutturalmente assente dal testo: la trasformazione avviene nel silenzio tra la proposta e la festa"
+      },
+      "affects": {
+        "silence-05": "il silenzio sul convincimento si connette al silenzio del padre: entrambi sono campi che il libro lascia al lettore"
+      },
+      "textual_anchor_it": "Ma no, signor Scala! Anzi, se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["ichigo ichie", "yūgen", "omotenashi"]
+    },
+    {
+      "id": "silence-05",
+      "label": "cosa_vede_il_padre",
+      "label_en": "father_perception_void",
+      "type": "father_void",
+      "intensity": 0.90,
+      "perceptual_weight": 0.89,
+      "basho": "il padre che chiede della tv senza vedere il vestito a righe di Osvalda: la trasformazione della figlia è visibile nel vestito ma il padre non la nomina; il campo della percezione del padre è il silenzio del mondo ordinario che non sa leggere il mondo a righe",
+      "kokyu": "il ritmo del silenzio del padre è quello della domanda sbagliata: chiede della tv quando la risposta è nel vestito; il campo ordinario non ha gli strumenti per leggere la trasformazione",
+      "yūgen": "si, papà. Anzi, i colori ora sono ancora più belli — Osvalda risponde al padre senza spiegargli nulla; il vestito a righe rimane silenzioso tra loro come campo condiviso solo dal lettore",
+      "affects": {
+        "silence-06": "il silenzio del padre si connette al silenzio delle pagine senza testo: entrambi sono campi che il libro lascia aperti al lettore"
+      },
+      "textual_anchor_it": "Osvalda funziona la tv ora? Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["ma", "mono no aware", "basho"]
+    },
+    {
+      "id": "silence-06",
+      "label": "pagine_senza_testo",
+      "label_en": "textless_pages_void",
+      "type": "visual_page_void",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "le pagine di pura riga senza testo come campo narrativo autonomo: le tavole delle righe verticali, orizzontali, della festa di colori; Anna Corradi porta il campo visivo come narrazione che il testo non può contenere",
+      "kokyu": "il ritmo delle pagine senza testo è quello della contemplazione: il lettore si ferma sulle righe senza sapere cosa cercare; il campo visivo produce la propria lettura",
+      "yūgen": "la scena della festa di colori come pagina intera senza parole: il momento più trasformativo del libro è anche il più silenzioso; la trasformazione non ha bisogno di testo per essere percepita",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo visivo delle tavole di pura riga non è registrabile nel protocollo: appartiene alla percezione del lettore e non al testo"
+      },
+      "affects": {
+        "silence-01": "le pagine senza testo retroagiscono sul silenzio del passaggio: entrambi sono campi che il libro porta come esperienza visiva prima che narrativa"
+      },
+      "textual_anchor_it": "40 pagine — le tavole di pura riga come campo narrativo non verbale.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    }
+  ],
+  "system_note": {
+    "silence_count": 6,
+    "dominant_field": "silence-03",
+    "secondary_field": "silence-01",
+    "narrative_model": "sei silenzi strutturali: il meccanismo del passaggio, l'origine della legge, la frase incompiuta del signore delle cravatte, il convincimento invisibile, la cecità del padre, le pagine senza testo",
+    "cross_layer_coherence": {
+      "object_layer": "la riga come identità e il tocco come trasformazione sono i due condensatori principali del silenzio: entrambi operano senza dichiarare il proprio meccanismo",
+      "scene_layer": "ogni scena produce un silenzio specifico: il passaggio tace il meccanismo, gli incontri tacciono il convincimento, il ritorno tace la percezione del padre",
+      "system_layer": "i sei silenzi convergono nel campo della trasformazione come operatore invisibile: ciò che cambia Osvalda non viene mai mostrato, solo i suoi effetti vengono registrati"
+    },
+    "stability": "metastable",
+    "closure": "aperta_per_frase_incompiuta_e_passaggio",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
