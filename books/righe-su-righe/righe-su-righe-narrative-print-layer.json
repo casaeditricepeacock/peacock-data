@@ -1,0 +1,161 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "illustrator": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "print_identity": "albo illustrato IT, 40 pagine, libro cartonato; primo libro di Anna Corradi; progetto IED Milano; illustrazioni a matite colorate su fondo avorio; le righe come elemento visivo strutturale che attraversa testo e illustrazione",
+  "print_types": {
+    "picture_book_format": "albo illustrato come campo visivo autonomo: testo e illustrazione come campi separati che si completano senza sovrapporsi",
+    "pencil_color_art": "matite colorate su fondo avorio come campo estetico: tratto leggero, colori caldi, righe come struttura visiva ricorrente",
+    "stripe_as_visual_system": "la riga come sistema visivo totale: presente nella copertina, nelle pagine di guardia, nelle tavole, nel vestito finale di Osvalda",
+    "ied_project": "progetto IED Milano come campo di origine: primo lavoro di una giovane illustratrice; il libro come manifesto visivo di un'identità autoriale",
+    "textless_pages": "le pagine senza testo come campo visivo autonomo: le tavole di pura riga come narrazione non verbale"
+  },
+  "editorial_principle": "L'oggetto-libro di Righe su righe è un libro che racconta la propria forma. La riga non è solo il tema della storia: è il linguaggio visivo del libro. Le pagine di guardia sono righe. Le illustrazioni sono costruite con righe. Il finale porta Osvalda con un vestito a righe. Anna Corradi produce un libro in cui contenuto e forma sono la stessa cosa.",
+  "print_layers": [
+    {
+      "id": "print-01",
+      "label": "copertina_e_pagine_di_guardia",
+      "label_en": "cover_and_endpaper_field",
+      "type": "stripe_as_visual_system",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la copertina come campo dichiarato: righe verticali di diversi colori come campo visivo prima ancora che inizi la storia; le pagine di guardia come continuazione del campo cromatico; il libro che inizia con le righe prima che Osvalda le incontri",
+      "kokyu": "il ritmo della copertina è quello della presentazione diretta: le righe non illustrano la storia — sono già la storia; il titolo e le righe occupano lo stesso campo visivo",
+      "yūgen": "le pagine di guardia come righe senza personaggi: il mondo a righe esiste prima e dopo la storia di Osvalda; il campo visivo del libro è più grande della narrazione che contiene",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "le righe delle pagine di guardia non appartengono alla storia ma al libro come oggetto: il campo visivo delle guardie è il residuo strutturale del sistema"
+      },
+      "textual_anchor_it": "Righe su righe. Le righe come non le hai mai viste.",
+      "glossary_link": ["basho", "yūgen", "ma"]
+    },
+    {
+      "id": "print-02",
+      "label": "formato_albo_illustrato",
+      "label_en": "picture_book_format",
+      "type": "picture_book_format",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il formato albo illustrato come campo visivo: ogni apertura porta testo e illustrazione come due campi che si completano; il testo è sempre breve e posizionato nello spazio bianco; le illustrazioni occupano la maggior parte della pagina",
+      "kokyu": "il ritmo del formato è quello della doppia pagina come unità percettiva: il lettore legge il testo e poi attraversa l'illustrazione; i due campi hanno ritmi diversi che si alternano",
+      "yūgen": "le tavole senza testo come campo visivo puro: Anna Corradi sceglie di raccontare alcuni momenti solo con le righe; il formato albo illustrato permette questo silenzio visivo",
+      "affects": {
+        "print-05": "il formato albo illustrato rende possibili le pagine senza testo: la struttura del libro include lo spazio per il silenzio visivo"
+      },
+      "textual_anchor_it": "40 pagine — albo illustrato per bambini.",
+      "glossary_link": ["basho", "ma"]
+    },
+    {
+      "id": "print-03",
+      "label": "matite_colorate_corradi",
+      "label_en": "pencil_color_art_field",
+      "type": "pencil_color_art",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "le matite colorate di Anna Corradi come campo estetico: il tratto leggero produce righe visibili anche nelle illustrazioni dei personaggi; i colori caldi del fondo avorio; Osvalda in viola come campo cromatico stabile tra le righe colorate",
+      "kokyu": "il ritmo del tratto è quello della costruzione per righe: le illustrazioni dei personaggi-righe sono costruite con lo stesso gesto che costruisce le righe pure; la tecnica e il tema sono la stessa cosa",
+      "yūgen": "il tratto a matita come campo visivo che mostra il proprio processo: le righe del tratto sono visibili nelle campiture; il libro non nasconde come è fatto",
+      "affects": {
+        "print-01": "il tratto a matita amplifica il campo delle righe: le illustrazioni portano le righe come texture prima che come tema"
+      },
+      "textual_anchor_it": "Storia e illustrazioni di Anna Corradi.",
+      "glossary_link": ["basho", "yūgen", "wabi-sabi"]
+    },
+    {
+      "id": "print-04",
+      "label": "progetto_ied_milano",
+      "label_en": "ied_origin_field",
+      "type": "ied_project",
+      "intensity": 0.91,
+      "perceptual_weight": 0.90,
+      "basho": "il progetto IED Milano come campo di origine: Righe su righe nasce come progetto di fine corso; il libro come manifesto visivo di un'identità autoriale in formazione; Anna Corradi che porta se stessa nel libro — dal look agli appunti tutto nella sua vita segue il ritmo di righe",
+      "kokyu": "il ritmo del progetto di formazione è quello dell'identità dichiarata: Anna Corradi non illustra una storia esterna — illustra la propria visione del mondo; il libro è autobiografico nel linguaggio visivo",
+      "yūgen": "una giovane illustratrice che porta il proprio sistema visivo come primo libro: la riga come identità del libro è anche la riga come identità dell'autrice; il tema e la persona si sovrappongono",
+      "affects": {
+        "print-03": "il progetto IED amplifica il campo del tratto: la tecnica a matite colorate è la scelta identitaria di Anna Corradi prima che una scelta editoriale"
+      },
+      "textual_anchor_it": "Anna Corradi, progettato con IED Milano. Anno 2023/24.",
+      "glossary_link": ["basho", "ichigo ichie"]
+    },
+    {
+      "id": "print-05",
+      "label": "pagine_senza_testo",
+      "label_en": "textless_visual_pages",
+      "type": "textless_pages",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "le pagine di pura riga come campo narrativo non verbale: le tavole delle righe verticali, della festa di colori, delle righe orizzontali sul fondo; Anna Corradi porta il campo visivo come narrazione autonoma che non ha bisogno di testo",
+      "kokyu": "il ritmo delle pagine senza testo è quello della contemplazione forzata: il lettore non può leggere — solo guardare; il campo visivo prende il controllo del ritmo della lettura",
+      "yūgen": "la tavola della festa di colori come pagina senza testo: il momento più trasformativo del libro è anche il più silenzioso verbalmente; la trasformazione non viene descritta — viene mostrata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo visivo delle pagine senza testo non è registrabile nel protocollo: appartiene alla percezione del lettore e non al testo"
+      },
+      "affects": {
+        "print-01": "le pagine senza testo amplificano le pagine di guardia: il libro inizia e finisce con righe senza testo; il campo visivo delle righe è il contenitore del libro"
+      },
+      "textual_anchor_it": "40 pagine — tavole di pura riga come narrazione visiva autonoma.",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    }
+  ],
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "cover_stripe_field",
+      "note": "copertina e pagine di guardia: righe colorate come campo visivo dichiarato prima della storia"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-01",
+      "print_function": "ordinary_world_opening",
+      "note": "casa, papà, tv, temporale: campo ordinario con prime apparizioni delle righe"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "stripe_world_encounters",
+      "note": "gli incontri nel mondo a righe: personaggi-righe, fughe, sparizioni"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-06",
+      "print_function": "color_feast_visual_explosion",
+      "note": "la festa di colori: pagina senza testo come campo cromatico massimo"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-07",
+      "print_function": "striped_return_closure",
+      "note": "ritorno con vestito a righe: campo ordinario trasformato"
+    }
+  ],
+  "non_rendered_layer": {
+    "definition": "campi strutturali attivi non esplicitati nella superficie visiva del libro",
+    "contains": [
+      "il meccanismo del passaggio tra i due mondi come campo invisibile",
+      "l'origine della legge del tocco che dissolve le righe",
+      "la frase incompiuta del signore delle cravatte",
+      "il campo visivo percepito dal padre nel vestito a righe di Osvalda"
+    ]
+  },
+  "system_note": {
+    "print_layer_count": 5,
+    "dominant_field": "print-01",
+    "secondary_field": "print-05",
+    "narrative_model": "cinque strati del campo visivo: copertina e guardie come dichiarazione del tema, formato albo come struttura, matite colorate come identità autoriale, origine IED come campo biografico, pagine senza testo come narrazione visiva autonoma",
+    "first_book_note": "Righe su righe è il primo libro di Anna Corradi: il campo visivo delle righe è sia tema narrativo che identità autoriale; il libro porta la riga come manifesto prima che come storia",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
