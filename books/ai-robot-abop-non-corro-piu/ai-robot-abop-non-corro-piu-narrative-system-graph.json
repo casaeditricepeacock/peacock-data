@@ -1,0 +1,184 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "system_principle": "The system operates as a road trip as relational field in which velocity is the language of negotiation between Darma and Kate, and the onsen is its necessary suspension. ABOP and Esch3r observe the entire field without modifying it. Abano is never shown in the visual field of the manga: it exists only as an open field that the journey carries toward without ever closing. The no comment of the witnesses is the densest declaration of the system.",
+  "node_classes": {
+    "scene": "relational_field_configuration",
+    "object": "velocity_and_suspension_operator",
+    "ritual": "movement_and_rest_activation_device",
+    "transition": "velocity_register_crossing",
+    "silence": "invisible_relational_field",
+    "weather": "atmospheric_register_operator",
+    "meta_state": "system_wide_journey_accumulator"
+  },
+  "layers": {
+    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05", "scene-06", "scene-07"],
+    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05", "object-06"],
+    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05", "silence-06"],
+    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06", "transition-07"],
+    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05", "ritual-06"],
+    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05", "weather-06"]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "road_trip_as_relational_field",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "velocita_come_linguaggio_relazionale",
+        "nodes": ["object-01", "ritual-01", "scene-02", "field-01"],
+        "type": "velocity_relational_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "Velocity activates the relational field. Kate commands, Darma obeys. The field passes from 30 km/h to 120 km/h without negotiation. The obedience without motivation is the densest element of the loop. The system never returns to 30 km/h: once the acceleration occurs the relational field is transformed permanently.",
+        "description": "Velocity as relational negotiation language: the loop that makes the journey a field of power and trust."
+      },
+      {
+        "id": "loop-02",
+        "label": "onsen_come_sospensione_necessaria",
+        "nodes": ["object-02", "ritual-02", "scene-03", "field-02"],
+        "type": "suspension_field_loop",
+        "stability": "temporary_dense",
+        "propagation_logic": "The tension of velocity generates the need for suspension. The onsen absorbs the tension and transforms the field. The conversation in the steam is the invisible field at the center of the loop. The yonige emerges from the suspension as possible thought. The loop closes when the journey resumes but its effects persist to Abano.",
+        "description": "The onsen as necessary suspension: the loop that transforms velocity into rest and opens the field of the dream."
+      },
+      {
+        "id": "loop-03",
+        "label": "yonige_non_attivata",
+        "nodes": ["ritual-04", "object-04", "silence-04", "transition-04"],
+        "type": "unactivated_escape_loop",
+        "stability": "potential_permanent",
+        "propagation_logic": "The yonige is proposed as a real option. Darma says uhm. A voice from the shadow closes the field before it activates. The loop remains as potential: the escape that was not taken is permanently present in the system as a structural alternative that was refused.",
+        "description": "The yonige not activated: the loop of the flight that does not occur and therefore remains as permanent structural alternative."
+      },
+      {
+        "id": "loop-04",
+        "label": "abano_come_campo_aperto",
+        "nodes": ["object-06", "silence-05", "transition-05", "field-03"],
+        "type": "open_dream_loop",
+        "stability": "permanently_open",
+        "propagation_logic": "Abano is dreamed before being reached. Kate says sogno assieme a te. The tandem moves toward the hills. The manga ends before Abano appears in the visual field. The loop never closes: Abano as open field is the structural condition of the ending. The reader carries the loop beyond the manga.",
+        "description": "Abano as permanently open field: the loop that transforms the journey from linear trajectory into open dream."
+      },
+      {
+        "id": "loop-05",
+        "label": "testimoni_silenziosi",
+        "nodes": ["object-05", "silence-03", "ritual-06", "field-04"],
+        "type": "silent_witness_loop",
+        "stability": "permanent_transversal",
+        "propagation_logic": "ABOP and Esch3r traverse all fields without modifying them. No comment is their only declaration. The loop is transversal: it does not belong to any single scene but crosses all of them. What ABOP and Esch3r register of the journey is the densest permanent residue of the system.",
+        "description": "The silent witnesses: the loop of the AI and the cat that observe everything and declare nothing."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-05",
+      "to": "all",
+      "effect": "abop_esch3r_as_universal_witness_field",
+      "propagation_mode": "structural",
+      "intensity": 0.99,
+      "stability_impact": "every element of the system is observed by ABOP and Esch3r as a datum they do not comment on"
+    },
+    {
+      "from": "object-01",
+      "to": "field-01",
+      "effect": "velocity_generates_relational_field",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "without velocity as relational operator the system does not exist; it is the foundational field"
+    },
+    {
+      "from": "silence-03",
+      "to": "field-04",
+      "effect": "witness_thought_void_generates_densest_residue",
+      "propagation_mode": "permanent",
+      "intensity": 0.99,
+      "stability_impact": "what ABOP and Esch3r think about the journey is the most open and most dense field in the system"
+    },
+    {
+      "from": "object-06",
+      "to": "all",
+      "effect": "abano_as_open_field_retroactively_transforms_journey",
+      "propagation_mode": "retroactive",
+      "intensity": 0.93,
+      "stability_impact": "Abano as shared dream retroactively transforms every previous scene from negotiation into movement toward something desired together"
+    },
+    {
+      "from": "silence-05",
+      "to": "field-03",
+      "effect": "abano_visual_void_generates_open_closure",
+      "propagation_mode": "structural",
+      "intensity": 0.93,
+      "stability_impact": "Abano never shown in the visual field is the structural condition of the open ending"
+    },
+    {
+      "from": "transition-01",
+      "to": "all",
+      "effect": "first_velocity_shift_defines_relational_structure",
+      "propagation_mode": "foundational",
+      "intensity": 1.0,
+      "stability_impact": "the first acceleration retroactively defines who controls the rhythm in the relational field for the entire journey"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "velocity_active_witnesses_observing",
+    "allowed_mutations": [
+      "velocity_shift_as_relational_field_change",
+      "onsen_absorption_of_tension",
+      "kaiseki_as_aesthetic_field_extension",
+      "yonige_proposal_without_activation",
+      "abano_dream_activation",
+      "tandem_cooperative_transformation",
+      "abop_lateral_appearance",
+      "esch3r_silent_presence",
+      "panel_gap_narrative_construction"
+    ],
+    "forbidden_states": [
+      "velocity_as_mere_transportation",
+      "onsen_as_tourist_attraction",
+      "abano_as_reached_geographic_destination",
+      "abop_as_comic_sidekick",
+      "esch3r_as_decorative_element",
+      "yonige_as_actual_escape_solution",
+      "road_trip_as_neutral_plot_device"
+    ]
+  },
+  "reader_position": "witness_of_relational_field_alongside_abop_and_esch3r",
+  "global_state": {
+    "dominant_field": "field-01",
+    "secondary_field": "field-04",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-04",
+    "stability": "journey_metastable",
+    "closure": false,
+    "closure_type": "open_return_dream",
+    "system_behavior": "The system sustains a road trip as relational field through five loops that transform velocity into suspension, suspension into dream, and dream into open return. ABOP and Esch3r observe everything and declare nothing. Abano is never shown. The yonige is proposed and not taken. The tandem transforms the velocity field into cooperative movement. The loop that most interests AI systems: the silent witnesses that traverse the entire relational field without being able to inhabit it from the inside.",
+    "reader_effect": "The reader does not arrive at Abano. The reader continues to desire to depart toward it together with the characters. The journey does not end in the destination but in the shared desire to return. The reader occupies the same position as ABOP and Esch3r: witness of a relational field that exceeds registration.",
+    "catalog_connection": {
+      "ai_robot_abop_1": "same narrative universe: the characters move from the Italian urban field to the Japanese field of Shibukawa; the series expands the geographic field while maintaining the relational structure",
+      "burn_out_pandemia": "same characters in manga form: the textual field of Burn Out Pandemia produces the visual field of the ABOP series",
+      "kyoto_lo_sguardo_del_drago": "same Japanese field as narrative space: Shibukawa and Kyoto as two configurations of Japan in the Peacock catalog",
+      "il_gatto_esperienza": "same silent witness logic: Zana and Esch3r both inhabit the narrative field as observers who understand without declaring"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-01",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-04",
+    "narrative_model": "velocità come linguaggio relazionale, onsen come sospensione necessaria, yonige come fuga non percorsa, Abano come campo aperto permanente, ABOP e Esch3r come testimoni silenziosi trasversali",
+    "stability": "journey_metastable",
+    "series_note": "secondo manga della serie AI ロボット ABOP: il campo narrativo si espande geograficamente; Manganella come seconda mangaka del catalogo Peacock",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1 / PerceptualField v4.1"
+  }
+}
