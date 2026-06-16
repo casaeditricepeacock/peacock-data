@@ -1,0 +1,140 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "transition_types": {
+    "ordinary_to_threshold": "il passaggio dal mondo ordinario alla soglia: il temporale come operatore di transizione",
+    "threshold_to_stripe_world": "il passaggio dalla soglia al mondo a righe: l'ellissi come forma della transizione",
+    "encounter_to_disappearance": "il passaggio dall'incontro alla sparizione: ogni personaggio-riga che transita via prima del contatto",
+    "fear_to_proposal": "il passaggio dalla paura della dissoluzione alla proposta del contatto: Osvalda che sovverte la direzione del campo",
+    "dissolution_to_feast": "il passaggio dalla legge della dissoluzione alla festa di colori: la transizione più densa del libro",
+    "stripe_world_to_ordinary": "il passaggio dal mondo a righe al mondo ordinario: il ritorno come transizione trasformata"
+  },
+  "editorial_principle": "Le transizioni di Righe su righe sono tutte transizioni tra campi percettivi distinti. Il temporale apre la soglia. La soglia produce il mondo a righe. Ogni incontro transita verso la sparizione. La proposta transita verso la festa. Il ritorno transita verso il mondo ordinario trasformato. Ogni transizione è irreversibile: il campo non torna mai al punto di partenza.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "temporale_verso_soglia",
+      "label_en": "storm_to_threshold",
+      "type": "ordinary_to_threshold",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il temporale come operatore di transizione: il campo ordinario della casa e della tv viene interrotto dal temporale; le righe colorate della tv rotta come prima apparizione della soglia nel campo ordinario",
+      "kokyu": "il ritmo è quello dell'interruzione improvvisa: sto guardando la tv con papà — poi il temporale fa saltare tutto; la transizione non si annuncia",
+      "yūgen": "il temporale come causa non dichiarata della transizione: il campo del temporale produce la soglia senza che il libro spieghi il meccanismo; la transizione avviene nella zona tra la causa e l'effetto",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo per cui il temporale apra la soglia verso il mondo a righe non viene dichiarato: la transizione è strutturalmente inspiegata"
+      },
+      "affects": {
+        "transition-02": "il temporale produce la soglia che produce il passaggio: le transizioni si concatenano senza pausa"
+      },
+      "textual_anchor_it": "Sto guardando la tv con papà, ma all'improvviso un gran temporale fa saltare tutto.",
+      "glossary_link": ["basho", "ma", "ichigo ichie"]
+    },
+    {
+      "id": "transition-02",
+      "label": "soglia_verso_mondo_a_righe",
+      "label_en": "threshold_to_stripe_world",
+      "type": "threshold_to_stripe_world",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il passaggio dalla soglia al campo del mondo a righe: le righe della tv che diventano ambiente fisico; il divano e la tv che scompaiono; Osvalda che si trova dentro senza aver attraversato consapevolmente la soglia",
+      "kokyu": "il ritmo è quello dell'ellissi totale: il campo cambia tra una pagina e la successiva senza mostrare il momento del passaggio; la transizione è il bianco tra le pagine",
+      "yūgen": "ma che succede — la domanda che registra la transizione già avvenuta; Osvalda scopre di essere dall'altra parte solo dopo esserci arrivata; la soglia non si vede dall'interno",
+      "affects": {
+        "transition-03": "il passaggio nel mondo a righe produce la prima transizione verso l'incontro-sparizione"
+      },
+      "textual_anchor_it": "Ma che succede? Dove è finito il divano? E la tv?",
+      "glossary_link": ["ma", "yūgen", "basho"]
+    },
+    {
+      "id": "transition-03",
+      "label": "incontro_verso_sparizione",
+      "label_en": "encounter_to_disappearance",
+      "type": "encounter_to_disappearance",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il campo dell'incontro che transita sempre verso la sparizione: ogni personaggio-riga che appare e scompare prima che il contatto avvenga; la transizione si ripete come struttura del mondo a righe",
+      "kokyu": "il ritmo è quello della ripetizione con variazioni: ogni incontro segue lo stesso schema — avvicinamento, contatto sfiorato, sparizione; il campo accumula la stessa transizione in forme diverse",
+      "yūgen": "ma è scomparso anche lui — la frase che si ripete come registro della transizione; ogni sparizione produce la stessa sorpresa in Osvalda; il campo non impara dalla ripetizione",
+      "affects": {
+        "transition-04": "la ripetizione dell'incontro-sparizione prepara la transizione verso la proposta: Osvalda accumula abbastanza esperienza del campo da poter provare a sovvertirlo"
+      },
+      "textual_anchor_it": "No, ma che fate? Tornate qui, volevo solo giocare con voi! Ma è scomparso anche lui.",
+      "glossary_link": ["ichigo ichie", "mono no aware", "ma"]
+    },
+    {
+      "id": "transition-04",
+      "label": "paura_verso_proposta",
+      "label_en": "fear_to_proposal",
+      "type": "fear_to_proposal",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il momento in cui Osvalda transita dalla ricezione passiva della legge alla proposta attiva: il signore Scala enuncia la legge — non possiamo mai stare insieme — e Osvalda risponde con ma no; la transizione avviene nello spazio tra la legge e la sua sovversione",
+      "kokyu": "il ritmo è quello della risposta immediata: il signore Scala finisce la frase e Osvalda propone; non c'è esitazione tra la comprensione della legge e la sua messa in discussione",
+      "yūgen": "ma no — le due parole che aprono la transizione più importante del libro; Osvalda non argomenta, non chiede permesso; la transizione avviene nella negazione semplice prima ancora della proposta",
+      "affects": {
+        "transition-05": "la proposta produce la transizione verso la festa: il campo accetta la sovversione e si trasforma"
+      },
+      "textual_anchor_it": "Ma no, signor Scala! Anzi, se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["kokyu", "ichigo ichie", "omotenashi"]
+    },
+    {
+      "id": "transition-05",
+      "label": "dissoluzione_verso_festa",
+      "label_en": "dissolution_to_color_feast",
+      "type": "dissolution_to_feast",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "la transizione dalla legge della dissoluzione alla festa di colori: il campo più denso del libro; le righe che si toccano e non si perdono; la tavola intera che diventa campo cromatico senza testo",
+      "kokyu": "il ritmo della transizione è quello dell'esplosione silenziosa: la proposta viene fatta, la pagina successiva è già festa; il processo di transizione non viene mostrato — solo il prima e il dopo",
+      "yūgen": "la festa di colori come campo che non esisteva prima della transizione: le righe insieme producono qualcosa di nuovo che nessuna riga poteva essere da sola; la transizione crea il campo invece di spostarsi tra campi già esistenti",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il momento esatto in cui le righe decidono di toccarsi non viene mostrato: la transizione avviene nel silenzio tra la proposta e la festa"
+      },
+      "affects": {
+        "transition-06": "la festa produce la transizione verso il ritorno: Osvalda porta le righe con sé come vestito"
+      },
+      "textual_anchor_it": "Se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["yūgen", "ichigo ichie", "basho"]
+    },
+    {
+      "id": "transition-06",
+      "label": "mondo_a_righe_verso_ritorno",
+      "label_en": "stripe_world_to_return",
+      "type": "stripe_world_to_ordinary",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "il ritorno al mondo ordinario come transizione finale: Osvalda che si trova a casa con il vestito a righe; il campo ordinario ritrovato con una differenza che solo il lettore può misurare",
+      "kokyu": "il ritmo della transizione finale è quello del ritorno circolare: la casa è la stessa, il papà è lo stesso, la domanda è la stessa; solo il vestito e la risposta di Osvalda segnalano che il campo è cambiato",
+      "yūgen": "i colori ora sono ancora più belli — la risposta che porta il mondo a righe nel mondo ordinario senza nominarlo; la transizione finale non chiude il campo — lo lascia aperto nel vestito di Osvalda",
+      "affects": {
+        "transition-01": "la transizione finale chiude il campo aperto dalla transizione iniziale: il ciclo si completa con una differenza permanente"
+      },
+      "textual_anchor_it": "Ehi, ma sono tornata a casa. Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["mono no aware", "basho", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 6,
+    "dominant_field": "transition-05",
+    "secondary_field": "transition-01",
+    "narrative_model": "sei transizioni del campo percettivo: il temporale apre la soglia, l'ellissi produce il passaggio, l'incontro-sparizione si ripete come struttura, la negazione semplice sovverte la legge, la festa trasforma il campo, il ritorno circolare chiude con differenza",
+    "key_insight": "transition-05 è la transizione più densa: dalla legge della dissoluzione alla festa di colori senza mostrare il processo; la trasformazione più radicale avviene nel silenzio più completo",
+    "stability": "high_metastable",
+    "closure": "open_striped_world",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
