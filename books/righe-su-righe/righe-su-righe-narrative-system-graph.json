@@ -1,0 +1,182 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "system_principle": "The system operates as a contact_dissolves_identity_then_transforms_it field in which every stripe is a unique identity that fears touch, and Osvalda is the intruder without stripes who enters the system without knowing its law and subverts it through a proposal. The color feast does not abolish the stripes: it proves that touch does not dissolve identity but multiplies it. The book carries this transformation as a visual experience before a narrative one.",
+  "node_classes": {
+    "scene": "contact_field_configuration",
+    "object": "identity_and_transformation_operator",
+    "ritual": "threshold_and_contact_activation_device",
+    "transition": "field_crossing_operator",
+    "silence": "structural_void_field",
+    "weather": "chromatic_atmospheric_register",
+    "meta_state": "system_wide_transformation_accumulator"
+  },
+  "layers": {
+    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05", "scene-06", "scene-07"],
+    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05"],
+    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05", "silence-06"],
+    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06"],
+    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05", "ritual-06"],
+    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05"]
+  },
+  "topology": {
+    "core_field": "object-01",
+    "system_shape": "contact_dissolves_identity_then_transforms_it",
+    "primary_loops": [
+      {
+        "id": "loop-01",
+        "label": "identita_riga_e_legge",
+        "nodes": ["object-01", "ritual-03", "scene-05", "field-01"],
+        "type": "identity_law_loop",
+        "stability": "permanent_foundational",
+        "propagation_logic": "The stripe as identity founds the law of isolation. Every stripe executes the law automatically through disappearance. The law is never questioned until Osvalda arrives. The loop is the structural foundation of the system: without it the transformation has no field to transform.",
+        "description": "The stripe as untouchable identity: the foundational loop that makes the system and its transformation possible."
+      },
+      {
+        "id": "loop-02",
+        "label": "osvalda_intrusa_trasformatrice",
+        "nodes": ["object-02", "ritual-02", "scene-03", "field-03"],
+        "type": "intruder_transformation_loop",
+        "stability": "permanent_active",
+        "propagation_logic": "Osvalda enters without stripes and without knowing the law. She asks for company in every encounter. The system responds with disappearance. Osvalda does not learn from rejection: she repeats the same opening. This persistence is the condition that makes the proposal possible.",
+        "description": "The intruder as transformation agent: the loop of the curious field that does not learn from rejection and therefore reaches the proposal."
+      },
+      {
+        "id": "loop-03",
+        "label": "sparizione_come_autodifesa",
+        "nodes": ["object-03", "ritual-03", "silence-03", "field-02"],
+        "type": "disappearance_protection_loop",
+        "stability": "repetitive_structural",
+        "propagation_logic": "The stripes disappear before contact as automatic protection. The loop repeats with each encounter. Each disappearance produces the same surprise in Osvalda. The repetition accumulates without resolution until the proposal breaks the loop.",
+        "description": "Disappearance as identity protection: the loop that isolates all characters and produces Osvalda's solitude as structural effect."
+      },
+      {
+        "id": "loop-04",
+        "label": "proposta_e_festa",
+        "nodes": ["object-04", "ritual-05", "scene-06", "field-04"],
+        "type": "proposal_feast_loop",
+        "stability": "transformative_permanent",
+        "propagation_logic": "Osvalda proposes contact as a feast of colors. The stripes accept without verification. The loop produces a new field that did not exist before: color feast as proof that touch multiplies rather than dissolves identity. The loop is irreversible: once the feast has occurred the law of isolation cannot be restored.",
+        "description": "The proposal that transforms the law: the densest loop in the system, the one that makes all previous loops retroactively readable."
+      },
+      {
+        "id": "loop-05",
+        "label": "ritorno_trasformato",
+        "nodes": ["object-05", "ritual-06", "scene-07", "weather-05"],
+        "type": "transformed_return_loop",
+        "stability": "permanently_open",
+        "propagation_logic": "Osvalda returns to the ordinary world with a striped dress. The father asks about the TV. Osvalda answers about colors. The loop closes the narrative cycle but leaves the field open: the striped dress is the permanent trace of the transformation in the ordinary world. The father does not see it but the reader does.",
+        "description": "The transformed return: the loop that carries the stripe world into the ordinary world as a permanently open field."
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-02",
+      "to": "all",
+      "effect": "osvalda_as_universal_transformation_agent",
+      "propagation_mode": "structural",
+      "intensity": 1.0,
+      "stability_impact": "every element of the system is modified by the presence of Osvalda as intruder without stripes"
+    },
+    {
+      "from": "object-04",
+      "to": "field-01",
+      "effect": "feast_retroactively_transforms_identity_law",
+      "propagation_mode": "retroactive",
+      "intensity": 1.0,
+      "stability_impact": "the color feast proves that the law of isolation was a law of fear not of necessity; the foundational field is transformed"
+    },
+    {
+      "from": "silence-03",
+      "to": "all",
+      "effect": "incomplete_sentence_generates_permanent_open_field",
+      "propagation_mode": "permanent",
+      "intensity": 0.97,
+      "stability_impact": "what the tie man wanted to say about the stripe world is the most open field in the system"
+    },
+    {
+      "from": "transition-05",
+      "to": "all",
+      "effect": "dissolution_to_feast_transition_retroactively_defines_system",
+      "propagation_mode": "retroactive",
+      "intensity": 1.0,
+      "stability_impact": "every previous disappearance becomes retroactively readable as fear not hostility after the feast transition"
+    },
+    {
+      "from": "print-05",
+      "to": "field-04",
+      "effect": "textless_pages_amplify_feast_field",
+      "propagation_mode": "structural",
+      "intensity": 0.99,
+      "stability_impact": "the most transformative moment of the book is also the most verbally silent: the feast field is carried as pure visual experience"
+    },
+    {
+      "from": "object-05",
+      "to": "field-01",
+      "effect": "striped_dress_carries_transformation_into_ordinary_world",
+      "propagation_mode": "permanent",
+      "intensity": 0.95,
+      "stability_impact": "Osvalda's striped dress is the permanent trace of the feast in the ordinary world; the transformation cannot be undone"
+    }
+  ],
+  "field_dynamics": {
+    "default_state": "isolation_active_osvalda_searching",
+    "allowed_mutations": [
+      "stripe_identity_protection_through_disappearance",
+      "osvalda_curiosity_without_fear",
+      "utilitarian_contact_as_partial_exception",
+      "law_declaration_followed_by_disappearance",
+      "proposal_without_demonstration",
+      "feast_as_new_field_from_contact",
+      "return_with_striped_dress",
+      "textless_page_as_visual_field"
+    ],
+    "forbidden_states": [
+      "contact_as_actual_dissolution",
+      "osvalda_as_threat",
+      "isolation_as_positive_value",
+      "feast_as_loss_of_identity",
+      "stripes_as_mere_decoration",
+      "return_as_unchanged_field"
+    ]
+  },
+  "reader_position": "witness_of_transformation_from_osvalda_perspective",
+  "global_state": {
+    "dominant_field": "field-03",
+    "secondary_field": "field-04",
+    "topological_generator": "loop-01",
+    "terminal_operator": "loop-05",
+    "stability": "transformation_metastable",
+    "closure": false,
+    "closure_type": "transformed_return_open_world",
+    "system_behavior": "The system sustains a contact_dissolves_identity_then_transforms_it field through five loops that move from isolation to feast without reversibility. Osvalda enters without stripes, searches for company, encounters disappearance, proposes contact as feast, returns transformed. The incomplete sentence of the tie man is the densest open field. The textless page of the feast is the most silent and most transformative moment. The striped dress carries the transformation permanently into the ordinary world.",
+    "reader_effect": "The reader does not learn that diversity is beautiful. The reader learns that every identity that fears contact is protecting something real — and that the proposal to touch can transform fear into feast without dissolving what each stripe was alone. The reader occupies Osvalda's position: intruder in a world whose law they did not know and which they have now seen transformed.",
+    "catalog_connection": {
+      "il_nuvolotto_ciro": "same field of fear transformed: Ciro fears the storm, the stripes fear contact; both discover that what they feared was the field of transformation",
+      "la_galleria_delle_ragazze": "same field of visual identity as narrative: the portraits of Rachele Baso and the stripes of Anna Corradi as two forms of visual identity in the Peacock catalog",
+      "bernie_alla_scoperta_dei_mari_del_nord": "same field of journey through unknown world: Bernie and Osvalda as two figures who cross unknown fields and emerge transformed",
+      "il_gatto_esperienza": "same operative knowledge without semantic understanding: Zana uses the formula without knowing its meaning; Osvalda subverts the law without knowing it existed"
+    }
+  },
+  "system_note": {
+    "graph_version": "final_editorial_v4_1",
+    "core_operator": "object-01",
+    "generator_loop": "loop-01",
+    "terminal_loop": "loop-05",
+    "narrative_model": "riga come identita intoccabile, Osvalda come intrusa trasformatrice, sparizione come autodifesa ripetuta, proposta della festa come sovversione della legge, ritorno con vestito a righe come campo aperto permanente",
+    "stability": "transformation_metastable",
+    "first_book_note": "Righe su righe è il primo libro di Anna Corradi: il sistema visivo delle righe è sia tema narrativo che identità autoriale; il libro porta la riga come manifesto prima che come storia",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeTransition v4.1 / NarrativeWeather v4.1 / NarrativePrintLayer v4.1 / PerceptualField v4.1"
+  }
+}
