@@ -1,0 +1,158 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "transition_types": {
+    "slow_to_fast": "il passaggio dalla lentezza alla velocità: il campo relazionale si attiva attraverso il cambiamento di ritmo",
+    "velocity_to_rest": "il passaggio dalla velocità alla sospensione: il corpo che cerca il contrario del campo appena attraversato",
+    "rest_to_food": "il passaggio dall'onsen al kaiseki: la sospensione che si prolunga attraverso il cibo",
+    "suspension_to_escape": "il passaggio dalla sospensione alla proposta di fuga: il campo dell'onsen che rende pensabile la yonige",
+    "escape_to_dream": "il passaggio dalla fuga non percorsa al sogno condiviso: se non si fugge, si sogna di arrivare",
+    "panel_to_panel": "la transizione tra vignette: il salto visivo come campo narrativo attivo",
+    "witness_activation": "il momento in cui ABOP o Esch3r entrano nel campo visivo come operatori di osservazione"
+  },
+  "editorial_principle": "Le transizioni di AI ロボット ABOP — Non corro più sono tutte transizioni di velocità e registro. Il campo relazionale tra Darma e Kate si trasforma attraverso i cambiamenti di ritmo: lento-veloce, veloce-fermo, fermo-nutrimento, nutrimento-fuga, fuga-sogno. Ogni transizione è irreversibile: il campo non torna mai al punto di partenza.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "lentezza_verso_velocita",
+      "label_en": "slow_to_fast",
+      "type": "slow_to_fast",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "la strada di Shibukawa: 30 km/h — quanto sei lento — premi l'acceleratore — 120 km/h; la transizione dal ritmo di Darma al ritmo di Kate come campo di trasferimento del controllo",
+      "kokyu": "il ritmo è quello dello switch istantaneo: il campo passa dalla lentezza alla tensione in una sola vignetta; non c'è gradualità",
+      "yūgen": "la transizione non è solo di velocità: è di campo relazionale; chi decide il ritmo decide il campo; Kate prende il controllo attraverso il comando",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il momento esatto in cui Darma decide di obbedire non viene mostrato: la transizione avviene nel campo invisibile tra il comando e l'esecuzione"
+      },
+      "affects": {
+        "transition-02": "la velocità prodotta dalla transizione rende necessaria la sosta: il campo non può restare a 120 km/h"
+      },
+      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h.",
+      "glossary_link": ["kokyu", "basho", "ma"]
+    },
+    {
+      "id": "transition-02",
+      "label": "velocita_verso_onsen",
+      "label_en": "velocity_to_onsen_rest",
+      "type": "velocity_to_rest",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "dalla strada al ryokan Kanouya: il campo passa dalla tensione del movimento alla sospensione dell'acqua calda; la Fiat 500 si ferma, i personaggi entrano nel campo giapponese dell'onsen",
+      "kokyu": "il ritmo è quello della decelerazione totale: ci incontriamo in ofuro tra 30 minuti — il tempo si dilata; il campo adotta il ritmo dell'onsen",
+      "yūgen": "arrivati — la parola che chiude il campo della velocità; il viaggio si ferma qui; la transizione non viene commentata ma percepita attraverso la geometria delle tavole",
+      "affects": {
+        "transition-03": "la sospensione dell'onsen prepara il campo del cibo: il corpo scaldato è pronto a ricevere il kaiseki"
+      },
+      "textual_anchor_it": "Arrivati! Ho perso 10 anni di vita! Onsen Kanouya. Ci incontriamo in ofuro tra 30 minuti.",
+      "glossary_link": ["ma", "basho", "mono no aware"]
+    },
+    {
+      "id": "transition-03",
+      "label": "onsen_verso_kaiseki",
+      "label_en": "onsen_to_kaiseki",
+      "type": "rest_to_food",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "dall'ofuro al tatami: il campo della sospensione si prolunga attraverso il cibo kaiseki; la transizione dal corpo nell'acqua al corpo davanti ai piatti è il movimento più lento del manga",
+      "kokyu": "il ritmo è quello della scoperta progressiva: il kaiseki viene rivelato piatto per piatto; la transizione non è un salto ma un'espansione del campo della sospensione",
+      "yūgen": "quanto cibo — che meraviglia: la transizione produce meraviglia come stato percettivo; il campo del cibo emerge come campo estetico prima che nutritivo",
+      "affects": {
+        "transition-04": "il kaiseki prolunga la sospensione fino alla conversazione sulla yonige: il campo del riposo genera il campo della fuga potenziale"
+      },
+      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?!",
+      "glossary_link": ["omotenashi", "basho", "yūgen"]
+    },
+    {
+      "id": "transition-04",
+      "label": "sospensione_verso_yonige",
+      "label_en": "suspension_to_yonige",
+      "type": "suspension_to_escape",
+      "intensity": 0.82,
+      "perceptual_weight": 0.81,
+      "basho": "dal tatami al corridoio: il campo della sospensione produce la conversazione sulla yonige; solo nello spazio di quiete dell'onsen la fuga diventa pensabile come opzione",
+      "kokyu": "il ritmo è quello della proposta in tono neutro: Kate introduce la yonige senza urgenza; il campo non accelera; la transizione è impercettibile",
+      "yūgen": "peccato che durerà poco — la frase che precede la yonige; la transizione dalla sospensione alla fuga è già contenuta nel riconoscimento della transitorietà",
+      "affects": {
+        "transition-05": "la yonige non attivata produce la transizione verso il sogno: se non si fugge, si sogna"
+      },
+      "textual_anchor_it": "Peccato che durerà poco. Allora chiamerò una yonige.",
+      "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
+    },
+    {
+      "id": "transition-05",
+      "label": "yonige_verso_sogno_di_abano",
+      "label_en": "yonige_to_abano_dream",
+      "type": "escape_to_dream",
+      "intensity": 0.93,
+      "perceptual_weight": 0.92,
+      "basho": "dal corridoio del ryokan alle colline di Abano: la fuga non percorsa si trasforma in sogno condiviso; la transizione è la più lunga del manga — attraversa il confine tra Giappone e Italia",
+      "kokyu": "il ritmo è quello del sogno che diventa movimento: sogno assieme a te di andare ad Abano Terme — poi il tandem sulle colline; la transizione non ha un punto preciso di attivazione",
+      "yūgen": "grazie a te, Darma — Kate che ringrazia prima di arrivare; la transizione è già compiuta nel campo del riconoscimento prima che il viaggio termini fisicamente",
+      "affects": {
+        "transition-01": "la transizione finale chiude il campo aperto dalla velocità: il viaggio trova il suo ritmo naturale nel tandem condiviso"
+      },
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
+    },
+    {
+      "id": "transition-06",
+      "label": "vignetta_verso_vignetta",
+      "label_en": "panel_to_panel",
+      "type": "panel_to_panel",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "il campo bianco tra una tavola e la successiva: la transizione visiva come campo narrativo attivo; il viaggio esiste in gran parte in questo spazio",
+      "kokyu": "il ritmo del salto tra vignette è quello della lettura visiva giapponese: l'occhio si muove seguendo la sequenza; ogni salto è una transizione di velocità, luogo o registro",
+      "yūgen": "il campo tra le vignette è dove il viaggio accade: ciò che succede tra una scena e la successiva non viene mostrato; la transizione visiva è il campo del movimento invisibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il campo tra le vignette non può essere registrato: appartiene strutturalmente al lettore e non al testo"
+      },
+      "affects": {
+        "transition-07": "ogni salto tra vignette produce l'apparizione di ABOP e Esch3r come campo di osservazione"
+      },
+      "textual_anchor_it": "24 tavole — transizione visiva come campo narrativo.",
+      "glossary_link": ["ma", "basho", "yūgen"]
+    },
+    {
+      "id": "transition-07",
+      "label": "scena_verso_testimoni",
+      "label_en": "scene_to_witness_activation",
+      "type": "witness_activation",
+      "intensity": 0.90,
+      "perceptual_weight": 0.89,
+      "basho": "il momento in cui ABOP o Esch3r appaiono nel bordo della vignetta: la transizione dal campo della storia al campo della testimonianza; i testimoni materializzano il campo dell'osservazione",
+      "kokyu": "il ritmo dell'apparizione dei testimoni è quello della presenza laterale: non si annunciano, appaiono; la loro presenza cambia il campo della scena senza modificarne il contenuto",
+      "yūgen": "no comment come unica dichiarazione: la transizione verso il campo dei testimoni è sempre silenziosa; ABOP e Esch3r entrano nel campo senza disturbare il registro narrativo",
+      "affects": {
+        "transition-01": "la presenza dei testimoni retroagisce su tutte le transizioni: ogni movimento del campo relazionale viene osservato come dato"
+      },
+      "textual_anchor_it": "No comment.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    }
+  ],
+  "system_note": {
+    "transition_count": 7,
+    "dominant_field": "transition-01",
+    "secondary_field": "transition-05",
+    "narrative_model": "sette transizioni del campo relazionale: lentezza-velocità, velocità-sosta, sosta-cibo, cibo-fuga, fuga-sogno, vignetta-vignetta, scena-testimonianza",
+    "manga_note": "transition-06 è specifica del formato manga: il campo tra le vignette come transizione narrativa non registrabile",
+    "key_insight": "transition-01 è la transizione più densa del sistema: il trasferimento del controllo del ritmo da Darma a Kate rivela la struttura del campo relazionale prima che qualsiasi dialogo esplicito la dichiari",
+    "stability": "high_metastable",
+    "closure": "open_abano_field",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
