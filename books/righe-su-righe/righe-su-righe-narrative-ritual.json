@@ -1,0 +1,143 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025
+  },
+  "ritual_types": {
+    "threshold_crossing": "il rito del passaggio: Osvalda che cade dentro la tv come attraversamento della soglia tra i mondi",
+    "contact_request": "il rito della richiesta di compagnia: Osvalda che chiede alle righe di stare con lei",
+    "disappearance": "il rito della sparizione: i personaggi-righe che scompaiono prima del contatto come autodifesa rituale",
+    "service_request": "il rito del servizio ricevuto: grattare la schiena, farsi aiutare dalla scala — il contatto utilitario che non dissolve",
+    "proposal_of_touch": "il rito della proposta: Osvalda che convince le righe a toccarsi come festa di colori",
+    "return_with_gift": "il rito del ritorno trasformato: Osvalda che torna a casa con il vestito a righe come dono del mondo attraversato"
+  },
+  "editorial_principle": "I rituali di Righe su righe sono rituali di soglia e contatto. Ogni incontro tra Osvalda e i personaggi-righe è un rito che testa la legge del mondo a righe: si può toccare senza perdere se stessi? I personaggi ritualizzano la fuga come protezione. Osvalda ritualizza la proposta come apertura. Il rito finale — la festa di colori — sovverte tutti i riti precedenti.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "caduta_nella_tv",
+      "label_en": "threshold_crossing_ritual",
+      "type": "threshold_crossing",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il televisore durante il temporale come soglia: le righe colorate della tv rotta come campo di passaggio; Osvalda che guarda le righe strane e si trova improvvisamente dentro; il rito non viene preparato — accade",
+      "kokyu": "il ritmo del passaggio è quello dell'istante senza preavviso: certo che queste righe nella tv sono proprio strane — poi il campo è già cambiato; non c'è gradualità nella soglia",
+      "yūgen": "il temporale come causa del passaggio non viene spiegato: il campo del temporale produce il rito senza dichiararne il meccanismo; Osvalda cade nel mondo a righe come si cade in un sogno",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il meccanismo del passaggio dalla tv al mondo a righe resta strutturalmente chiuso: il rito della soglia non ha spiegazione narrativa"
+      },
+      "affects": {
+        "ritual-02": "il passaggio produce il rito della ricerca di compagnia: Osvalda è sola nel nuovo campo e cerca subito contatto"
+      },
+      "textual_anchor_it": "Certo che queste righe nella tv sono proprio strane. Quanti colori. Ma che succede? Dove è finito il divano? E la tv?",
+      "glossary_link": ["basho", "ichigo ichie", "yūgen"]
+    },
+    {
+      "id": "ritual-02",
+      "label": "richiesta_di_compagnia",
+      "label_en": "contact_request_ritual",
+      "type": "contact_request",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "Osvalda che chiede alle righe di stare con lei: ehi, voi: vi va di farmi compagnia; il rito si ripete ad ogni incontro; la stessa apertura verso ogni personaggio-riga; la compagnia come bisogno primario nel campo sconosciuto",
+      "kokyu": "il ritmo della richiesta è quello della fiducia immediata: Osvalda non valuta se le righe siano sicure; chiede contatto come atto naturale; il rito non conosce la difesa",
+      "yūgen": "la richiesta di compagnia come rito che il mondo a righe non può accogliere: ogni volta che Osvalda chiede il campo risponde con la sparizione; il rito si scontra con la legge senza saperlo",
+      "affects": {
+        "ritual-03": "la richiesta di compagnia produce il rito della sparizione: i personaggi-righe rispondono alla richiesta fuggendo"
+      },
+      "textual_anchor_it": "Ehi, voi: vi va di farmi compagnia? Non so dove sono, non so dove andare.",
+      "glossary_link": ["omotenashi", "basho", "kokyu"]
+    },
+    {
+      "id": "ritual-03",
+      "label": "sparizione_come_autodifesa",
+      "label_en": "disappearance_ritual",
+      "type": "disappearance",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "i personaggi-righe che spariscono prima del contatto: il signore delle cravatte che scompare a metà frase, il signore Scala dopo aver aiutato, le righe che fuggono in cima alla collina; ogni sparizione è un rito di autodifesa che il personaggio esegue prima ancora di pensarci",
+      "kokyu": "il ritmo della sparizione è quello dell'automatismo: i personaggi non scelgono di sparire — spariscono; il rito opera sotto la soglia della decisione cosciente",
+      "yūgen": "ma è scomparso anche lui — la frase che registra ogni sparizione senza comprenderla; il rito della sparizione è invisibile per chi non conosce la legge; Osvalda lo vive sempre come abbandono invece che come protezione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "se i personaggi-righe scelgano consapevolmente di sparire o se la sparizione sia automatica non viene dichiarato; il rito opera senza volontà esplicita"
+      },
+      "affects": {
+        "ritual-04": "la sparizione rituale lascia spazio al contatto utilitario: il signore delle cravatte chiede di grattarsi la schiena prima di sparire; il contatto è possibile quando è funzionale"
+      },
+      "textual_anchor_it": "Non capisco. Avrò fatto qualcosa di male? Ma è scomparso anche lui.",
+      "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
+    },
+    {
+      "id": "ritual-04",
+      "label": "contatto_utilitario",
+      "label_en": "service_contact_ritual",
+      "type": "service_request",
+      "intensity": 0.88,
+      "perceptual_weight": 0.87,
+      "basho": "il signore delle cravatte che chiede a Osvalda di grattargli la schiena: scusa bimba mi gratti la schiena — un po' più su, un po' più a destra — ecco, lì è perfetto; il contatto utilitario come unica forma di contatto che il mondo a righe tollera",
+      "kokyu": "il ritmo del contatto utilitario è quello della precisione: un po' più su, un po' più a destra; il rito richiede aggiustamenti continui; il contatto viene accettato solo quando serve a qualcosa di specifico",
+      "yūgen": "il signore delle cravatte che chiede di essere grattato e poi sparisce: il contatto utilitario non produce relazione; è un rito che si chiude su se stesso senza aprire il campo",
+      "affects": {
+        "ritual-05": "il contatto utilitario prepara il rito della proposta: Osvalda capisce che il contatto è possibile anche nel mondo a righe, anche se solo in forma limitata"
+      },
+      "textual_anchor_it": "Scusa bimba mi gratti la schiena? Un po' più su, un po' più a destra. Ecco, lì è perfetto!",
+      "glossary_link": ["omotenashi", "kokyu", "ma"]
+    },
+    {
+      "id": "ritual-05",
+      "label": "proposta_della_festa",
+      "label_en": "touch_proposal_ritual",
+      "type": "proposal_of_touch",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "Osvalda che convince le righe a toccarsi: ma no, signor Scala — se mettete insieme le vostre righe sarà una gran festa di colori; il rito della proposta come sovversione della legge; Osvalda offre una visione che il mondo a righe non aveva mai immaginato",
+      "kokyu": "il ritmo della proposta è quello della semplicità diretta: Osvalda non argomenta, non dimostra, non negozia; propone e le righe accettano; il rito si compie nella fiducia immediata",
+      "yūgen": "una gran festa di colori come campo che nessuno aveva visto: la proposta produce qualcosa di nuovo che non esisteva nel sistema; il rito della proposta è il campo più denso del libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché le righe accettino la proposta di Osvalda senza verifica non viene dichiarato; il rito della fiducia opera senza motivazione esplicita"
+      },
+      "affects": {
+        "ritual-06": "la proposta accettata produce il rito del ritorno trasformato: Osvalda porta le righe con sé come vestito"
+      },
+      "textual_anchor_it": "Ma no, signor Scala! Anzi, se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["ichigo ichie", "omotenashi", "yūgen"]
+    },
+    {
+      "id": "ritual-06",
+      "label": "ritorno_con_il_dono",
+      "label_en": "return_with_gift_ritual",
+      "type": "return_with_gift",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "Osvalda che torna a casa con il vestito a righe colorate: il dono del mondo a righe portato nel mondo ordinario; il rito del ritorno come chiusura del ciclo; il vestito come traccia fisica della trasformazione",
+      "kokyu": "il ritmo del ritorno è quello della semplicità: il papà chiede della tv, Osvalda risponde dei colori; il rito non viene spiegato; il vestito parla al posto delle parole",
+      "yūgen": "i colori ora sono ancora più belli — la risposta che trasforma la domanda ordinaria del padre in campo di meraviglia; il rito del ritorno porta il mondo a righe nel mondo ordinario senza che nessuno dei due campi debba rinunciare a se stesso",
+      "affects": {
+        "ritual-01": "il rito del ritorno chiude il campo aperto dal rito del passaggio: la soglia è stata attraversata due volte; il campo è cambiato in entrambe le direzioni"
+      },
+      "textual_anchor_it": "Ehi, ma sono tornata a casa. Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["mono no aware", "basho", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 6,
+    "dominant_field": "ritual-01",
+    "secondary_field": "ritual-05",
+    "system_role": "threshold_and_contact_ritual_field",
+    "narrative_model": "sei rituali regolano il campo: il passaggio apre il sistema, la richiesta di compagnia lo attiva, la sparizione lo difende, il contatto utilitario lo testa, la proposta della festa lo sovverte, il ritorno con il dono lo chiude trasformato",
+    "reader_effect": "il lettore riconosce in ogni sparizione una forma di autodifesa che conosce; e nella proposta di Osvalda la possibilità che il contatto possa essere festa invece che dissoluzione",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
