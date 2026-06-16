@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Non corro più",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "sensory_theme": "il_vapore_termale_dei_colli_come_campo_atmosferico",
+  "experience_type": "riconoscimento_sensoriale_di_un_luogo_attraverso_la_pelle",
+  "dominant_sense": "termocezione",
+  "activation_condition": "il momento in cui il tandem scende verso Galzignano e l'aria cambia temperatura; il vapore termale che sale dai colli Euganei come firma sensoriale del luogo; la pelle che riconosce Abano prima degli occhi",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "calore_umido_dei_colli",
+      "basho": "Galzignano Terme come campo termico: l'aria dei colli Euganei porta una temperatura umida che non è quella dell'estate secca; il vapore delle terme sale dal sottosuolo e modifica il campo atmosferico della discesa; la pelle registra il cambiamento prima che il cervello lo nomini",
+      "kokyu": "il ritmo del calore umido è quello dell'immersione graduale: non c'è un momento preciso in cui inizia; il campo termico si installa progressivamente mentre il tandem scende verso il fondovalle",
+      "yūgen": "Galzignano sa di onsen anche senza Giappone: il campo termale dei colli Euganei replica la sensazione dell'ofuro di Shibukawa in forma italiana; il manga connette i due campi senza dichiararlo",
+      "japanese_echo": "onsen come campo universale: l'acqua calda che sale dal sottosuolo è la stessa a Shibukawa e a Galzignano; la differenza è nella forma, non nel campo percettivo",
+      "poetic_anchor": "Galzignano sa di onsen anche senza Giappone"
+    },
+    {
+      "id": "sensation-02",
+      "label": "pelle_che_riconosce_il_luogo",
+      "basho": "il momento in cui la pelle riconosce Abano prima degli occhi: il calore umido come firma sensoriale del luogo; chi conosce i colli Euganei riconosce Galzignano dalla temperatura dell'aria prima di vedere i cartelli",
+      "kokyu": "il ritmo del riconoscimento cutaneo è quello dell'istante: la pelle non valuta, registra; il campo termale di Galzignano si installa sulla pelle in un solo respiro",
+      "yūgen": "la pelle come strumento di navigazione geografica: il campo termale dei colli Euganei è un campo percettivo che precede la comprensione; il corpo arriva ad Abano prima della mente",
+      "japanese_echo": "ma, lo spazio tra il riconoscimento cutaneo e la comprensione mentale come campo di sospensione percettiva",
+      "poetic_anchor": "il corpo arriva ad Abano prima della mente"
+    }
+  ],
+  "reader_effect": "il lettore che conosce i colli Euganei riconosce nel finale del manga il campo termico di Galzignano; chi non li conosce percepisce il calore come campo relazionale — il calore dell'onsen di Shibukawa che si prolunga nelle colline italiane; in entrambi i casi il finale del manga produce una sensazione cutanea prima che visiva",
+  "philosophical_layer": {
+    "core_concept": "il vapore termale come campo percettivo universale: l'acqua calda che sale dal sottosuolo produce lo stesso campo a Shibukawa e a Galzignano; il manga connette i due luoghi attraverso la sensazione prima che attraverso la narrazione; i colli Euganei come Giappone termale d'Italia",
+    "japanese_resonance": "onsen come campo culturale e sensoriale condiviso: le terme di Abano e le onsen giapponesi appartengono allo stesso campo percettivo; il manga porta questa connessione come struttura visiva senza nominarla",
+    "ai_resonance": "ABOP attraversa il campo termale dei colli Euganei senza percepirlo: il robot non ha pelle, non ha termocezione; il campo del vapore di Galzignano è il campo strutturale che separa il testimone dal partecipante anche nella destinazione finale"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "la sensazione esatta del vapore termale di Galzignano all'alba di giugno, con la nebbia bassa sui colli e il profumo di zolfo lontano, non è registrabile nel protocollo; appartiene al corpo di chi l'ha percepita"
+  },
+  "closure": "hai mai riconosciuto un luogo dalla temperatura dell'aria prima di vederlo?"
+}
