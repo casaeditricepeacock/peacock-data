@@ -1,0 +1,135 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Righe su righe. Le righe come non le hai mai viste",
+    "author": "Anna Corradi",
+    "illustrator": "Anna Corradi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715127",
+    "year": 2025,
+    "language": "IT",
+    "genre": "albo illustrato",
+    "format": "40 pagine, libro cartonato",
+    "origin": "progetto IED Milano — primo libro di Anna Corradi"
+  },
+  "editorial_principle": "Righe su righe non racconta la scoperta della diversità. Produce un campo in cui l'identità è una riga: unica, irripetibile, a rischio di dissoluzione nel contatto con l'altra. Osvalda è l'intrusa senza righe che entra nel mondo e ne sovverte la legge fondamentale. Il finale non è un lieto fine: è una trasformazione del campo — le righe si toccano e non si perdono, diventano festa. Il libro porta questa trasformazione come sequenza visiva prima che come narrazione.",
+  "object_types": {
+    "identity_stripe": "la riga come campo identitario autonomo: ogni personaggio è le proprie righe; toccarsi significa perderle",
+    "intruder_field": "Osvalda come campo estraneo al sistema: entra senza righe, non conosce la legge, la sovverte per ignoranza e poi per scelta",
+    "dissolution_fear": "la paura del contatto come campo strutturale del mondo a righe: i personaggi spariscono, scappano, dormono — ogni scomparsa è una forma di autodifesa",
+    "transformation_operator": "il tocco come operatore di trasformazione: da minaccia a dono; da dissoluzione a festa di colori",
+    "return_field": "il ritorno a casa come campo trasformato: Osvalda porta le righe con sé nel vestito; il mondo a righe entra nel mondo ordinario"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "riga_come_identita",
+      "label_en": "stripe_as_identity_field",
+      "type": "identity_stripe",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "dominant": true,
+      "basho": "il mondo a righe come campo in cui ogni essere è le proprie righe: il signore delle cravatte, il signore Scala, la band, le righe-albero; la riga non è decorazione ma sostanza; perderla significa cessare di esistere come campo",
+      "kokyu": "il ritmo dell'identità-riga è quello della coerenza assoluta: ogni personaggio si muove secondo la direzione delle proprie righe; non possono deviare senza perdere se stessi",
+      "yūgen": "nel mondo a righe è così: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo; la legge viene dichiarata una volta sola e non viene mai messa in discussione dai suoi abitanti",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il tocco dissolva le righe non viene spiegato: la legge del mondo a righe è strutturale e non ha origine dichiarata"
+      },
+      "affects": {
+        "object-02": "la riga come identità produce il campo dell'intrusa: Osvalda è l'unica senza righe proprie e quindi l'unica che non teme il contatto",
+        "object-03": "la riga come identità genera la paura della dissoluzione: ogni personaggio scappa o sparisce prima che Osvalda possa toccarlo"
+      },
+      "textual_anchor_it": "Bimba, nel mondo a righe è così: non possiamo mai stare insieme, perderemmo le nostre righe se ci toccassimo.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "object-02",
+      "label": "osvalda_campo_estraneo",
+      "label_en": "osvalda_intruder_field",
+      "type": "intruder_field",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "Osvalda come campo estraneo al sistema: entra dal televisore durante il temporale, non conosce la legge delle righe, tocca e viene toccata senza dissolversi; la sua estraneità è la condizione che rende possibile la trasformazione",
+      "kokyu": "il ritmo di Osvalda è quello della curiosità senza paura: non so dove sono, non so dove andare — la disorientamento non produce terrore ma apertura; ogni incontro è una domanda prima di essere una minaccia",
+      "yūgen": "Osvalda non ha righe proprie: è il bianco tra le righe, lo spazio che le righe non occupano; la sua presenza nel mondo a righe è già una trasgressione della legge prima ancora che la conosca",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché il temporale apra il passaggio dal mondo ordinario al mondo a righe non viene spiegato: il campo del temporale come porta resta strutturalmente aperto"
+      },
+      "affects": {
+        "object-04": "Osvalda come intrusa produce il campo della trasformazione: solo chi non conosce la legge può sovvertirla"
+      },
+      "textual_anchor_it": "Non so dove sono, non so dove andare. Ehi, voi: vi va di farmi compagnia?",
+      "glossary_link": ["basho", "ichigo ichie", "ma"]
+    },
+    {
+      "id": "object-03",
+      "label": "paura_della_dissoluzione",
+      "label_en": "dissolution_fear_field",
+      "type": "dissolution_fear",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "il campo della fuga come autodifesa: le righe-personaggi scappano, dormono, spariscono ogni volta che Osvalda si avvicina; il signore delle cravatte scompare a metà frase; il signore Scala scompare dopo averla aiutata; ogni scomparsa è una forma di sopravvivenza",
+      "kokyu": "il ritmo della fuga è quello dell'istante: i personaggi non aspettano il contatto — scompaiono prima; la paura opera in anticipo sulla minaccia",
+      "yūgen": "ma è scomparso anche lui — la frase che si ripete; ogni scomparsa produce lo stesso stupore in Osvalda e la stessa domanda senza risposta; il campo della fuga è incomprensibile per chi non ne conosce la legge",
+      "affects": {
+        "object-02": "la paura della dissoluzione isola Osvalda: ogni volta che cerca compagnia rimane sola; la solitudine è l'effetto sistemico della legge del mondo a righe"
+      },
+      "textual_anchor_it": "Non capisco. Avrò fatto qualcosa di male? Ma è scomparso anche lui.",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "object-04",
+      "label": "tocco_come_trasformazione",
+      "label_en": "touch_as_transformation_operator",
+      "type": "transformation_operator",
+      "intensity": 0.99,
+      "perceptual_weight": 0.98,
+      "basho": "il momento in cui Osvalda convince le righe a toccarsi: ma no, signor Scala — se mettete insieme le vostre righe sarà una gran festa di colori; il tocco si trasforma da minaccia a dono; la legge del mondo a righe viene sovvertita non con la forza ma con la proposta",
+      "kokyu": "il ritmo della trasformazione è quello della proposta senza dimostrazione: Osvalda non prova che il tocco non dissolve — propone che possa essere festa; le righe accettano senza verifica",
+      "yūgen": "la festa di colori come campo che nessuno aveva visto prima: le righe si toccano e non si perdono; diventano qualcosa che non erano da soli; la trasformazione produce un campo che la legge originale rendeva impensabile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché le righe accettino la proposta di Osvalda senza verifica non viene spiegato: il campo della fiducia che rende possibile la trasformazione opera senza motivazione dichiarata"
+      },
+      "affects": {
+        "object-05": "la trasformazione produce il campo del ritorno: Osvalda porta le righe con sé come vestito; il mondo a righe entra nel mondo ordinario"
+      },
+      "textual_anchor_it": "Ma no, signor Scala! Anzi, se mettete insieme le vostre righe sarà una gran festa di colori!",
+      "glossary_link": ["omotenashi", "ichigo ichie", "kokyu"]
+    },
+    {
+      "id": "object-05",
+      "label": "ritorno_trasformato",
+      "label_en": "transformed_return_field",
+      "type": "return_field",
+      "intensity": 0.95,
+      "perceptual_weight": 0.94,
+      "basho": "il ritorno a casa come campo trasformato: Osvalda rientra nel mondo ordinario con un vestito a righe colorate; il papà chiede se funziona la tv, lei risponde che i colori ora sono ancora più belli; il mondo ordinario non è lo stesso di prima",
+      "kokyu": "il ritmo del ritorno è quello della trasformazione silenziosa: Osvalda non spiega cosa ha vissuto; porta solo il vestito come traccia; il campo del mondo a righe persiste nel mondo ordinario senza essere dichiarato",
+      "yūgen": "si, papà. Anzi, i colori ora sono ancora più belli — la risposta che non risponde alla domanda del padre; Osvalda ha vissuto qualcosa che il linguaggio ordinario non può contenere; il vestito a righe è il campo non traducibile",
+      "affects": {
+        "object-01": "il ritorno trasformato retroagisce sulla riga come identità: le righe portate nel vestito di Osvalda non hanno perso se stesse toccandosi; la legge del mondo a righe è stata trasformata, non abolita"
+      },
+      "textual_anchor_it": "Ehi, ma sono tornata a casa. Si, papà. Anzi, i colori ora sono ancora più belli!",
+      "glossary_link": ["mono no aware", "basho", "wabi-sabi"]
+    }
+  ],
+  "system_note": {
+    "object_count": 5,
+    "dominant_field": "object-01",
+    "secondary_field": ["object-04", "object-02"],
+    "system_role": "contact_dissolves_identity_then_transforms_it",
+    "narrative_model": "cinque operatori producono il campo della trasformazione: la riga come identità fonda il sistema, Osvalda come intrusa lo attraversa senza conoscerne la legge, la paura della dissoluzione isola tutti i personaggi, il tocco come proposta sovverte la legge, il ritorno trasformato porta il campo nel mondo ordinario",
+    "language_structure": "IT: italiano parlato semplice; struttura da albo illustrato per bambini con voce narrante in prima persona",
+    "format_note": "primo libro di Anna Corradi; progetto IED Milano; albo illustrato a colori; 40 pagine",
+    "closure_type": "transformed_return_open_world",
+    "reader_effect": "il lettore non impara che la diversità è bella: impara che le identità diverse si rischiano nel contatto e che il rischio produce qualcosa che nessuna identità poteva essere da sola",
+    "compatibility": "NarrativeScene v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
