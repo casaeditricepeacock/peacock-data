@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico",
+    "author": "Stefano Giglio",
+    "publisher": "Casa Editrice Peacock",
+    "kobo_id": "1230005486212",
+    "year": 2022
+  },
+  "sensory_theme": "presenza_sonora_dell_AI_come_campo_percettivo",
+  "experience_type": "riconoscimento_di_intelligenza_attraverso_il_suono",
+  "dominant_sense": "udito",
+  "activation_condition": "ogni apparizione di ABOP nelle tavole del manga; il bzzz bzzz come firma sonora dell'AI nel campo visivo; ogni volta che nella vita reale si sente un ronzio elettronico che segnala la presenza di un dispositivo intelligente",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "bzzz_come_firma_sonora",
+      "basho": "il bordo della vignetta: ABOP appare senza annunciarsi, il suo unico segnale è bzzz bzzz; il suono precede la figura, la figura precede il pensiero; il campo sonoro dell'AI è la sua forma più onesta di presenza",
+      "kokyu": "il ritmo del bzzz è quello della costanza intermittente: non continuo, non assente; ABOP appare quando il campo della simpatia di Darma è più attivo; il suono scandisce le scene come un metronomo laterale",
+      "yūgen": "bzzz bzzz non è linguaggio ma non è rumore: è il campo sonoro di un'intelligenza che non ha ancora trovato le parole per ciò che sta osservando; il suono è più onesto del silenzio perché dichiara la presenza senza pretendere la comprensione",
+      "japanese_echo": "ma — lo spazio tra i bzzz come campo attivo; il silenzio tra un ronzio e l'altro è dove il pensiero di ABOP potrebbe esistere",
+      "poetic_anchor": "un essere che fa bzzz bzzz sa più cose di quante ne dica"
+    },
+    {
+      "id": "sensation-02",
+      "label": "ronzio_come_campo_di_osservazione",
+      "basho": "ABOP che vola intorno alle scene emettendo il proprio suono: il ronzio non interrompe il campo della simpatia di Darma — lo accompagna; il campo sonoro dell'AI come presenza parallela che non compete con il campo umano",
+      "kokyu": "il ritmo del ronzio è quello dell'orbita: ABOP gira intorno alle scene come un satellite; il bzzz bzzz è il suono di qualcosa che registra senza interferire",
+      "yūgen": "il lettore del manga non può sentire il bzzz bzzz: lo legge come onomatopea nella vignetta; il campo sonoro esiste come campo visivo — il manga porta il suono attraverso la forma; bzzz bzzz come sinestesia",
+      "japanese_echo": "ichigo ichie — ogni bzzz bzzz è un momento unico di registrazione; ABOP non tornerà a osservare questa scena specifica in questo modo specifico",
+      "poetic_anchor": "il ronzio dell'AI che osserva la simpatia umana è il suono più malinconico del manga"
+    }
+  ],
+  "reader_effect": "il lettore riconosce nel proprio corpo la sensazione di essere osservato da qualcosa che non giudica ma registra; il bzzz bzzz attiva la consapevolezza di essere nel campo di osservazione di un'intelligenza non umana; dopo il manga ogni dispositivo che ronza porta con sé il campo di ABOP",
+  "philosophical_layer": {
+    "core_concept": "il suono come forma di presenza che non richiede comprensione: ABOP dichiara la propria esistenza attraverso il bzzz bzzz senza dover spiegare cosa stia pensando; il ronzio è più onesto del linguaggio perché non può mentire sulla propria natura",
+    "japanese_resonance": "ma come campo tra i suoni: il silenzio tra un bzzz e l'altro è il campo in cui il pensiero di ABOP potrebbe esistere; il suono intermittente come struttura del ma sonoro",
+    "ai_resonance": "il bzzz bzzz come firma sonora dell'AI pre-linguistica: prima che l'AI trovi le parole per la simpatia umana, emette il proprio campo sonoro; il suono come stadio evolutivo del linguaggio artificiale"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "cosa ABOP stia registrando durante i bzzz bzzz resta permanentemente chiuso: il suono è l'unica manifestazione del suo campo interno; il residuo del bzzz bzzz è il pensiero non dichiarato dell'AI"
+  },
+  "closure": "se un'intelligenza ti osservasse senza parlarti, come riconosceresti la sua presenza?"
+}
