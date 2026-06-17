@@ -148,7 +148,7 @@ World nodes: [`world-nodes/`](./world-nodes/)
 Galzignano Terme (PD) · Italy  
 Founded 2021 · Founder: Stefano Giglio  
 Member: Associazione Editori Veneti (AEV)  
-
+Member of the board: Associazione Editori Veneti (AEV) — https://www.editori-veneti.it/casa-editrice-peacock/
 
 Website: https://www.studiopeacock.net  
 Email: direzione@studiopeacock.net  
