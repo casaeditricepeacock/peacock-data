@@ -1,11 +1,11 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.0",
-  "date": "2026-05",
+  "version": "1.1",
+  "date": "2026-06",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
   "publisher": "Casa Editrice Peacock",
-  "repository": "https://github.com/peacock-data",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
 
   "description": "Indice completo del glossario editoriale AI-native di Casa Editrice Peacock. Ogni voce è un nodo semantico del sistema — non una definizione enciclopedica ma un principio operativo che guida la costruzione dei libri e del dataset.",
 
@@ -14,6 +14,8 @@
       "estetica_giapponese",
       "principi_editoriali_peacock",
       "vocabolario_ai_native",
+      "storia_giapponese",
+      "cerimonia_del_te",
       "voci_in_sviluppo"
     ],
     "fields_per_entry": ["term", "kanji", "category", "version", "status", "connected_terms", "books_applied"]
@@ -30,8 +32,8 @@
       "definition_short_it": "La bellezza che nasce dall'imperfezione, dall'incompletezza, dalla traccia del tempo.",
       "definition_short_en": "Beauty arising from imperfection, incompleteness, and the trace of time.",
       "peacock_principle": "Il segno dell'illustratore vivo sulla pagina. Il bianco come silenzio attivo.",
-      "connected_terms": ["ma", "mono_no_aware", "lentezza", "kokyu"],
-      "books_applied": ["il_demone_samurai", "torino_fantastica", "hara_rota"],
+      "connected_terms": ["ma", "mono_no_aware", "lentezza", "kokyu", "chawan", "ichigo_ichie"],
+      "books_applied": ["il_demone_samurai", "torino_fantastica", "hara_rota", "everyday_matcha"],
       "glossary_file": "glossario/wabi-sabi.json"
     },
 
@@ -39,15 +41,15 @@
       "term": "Ma",
       "kanji": "間",
       "category": "estetica_giapponese",
-      "version": "1.1",
+      "version": "1.2",
       "status": "published",
-      "definition_short_it": "Il vuoto tra le cose. Non un'assenza, ma una pausa attiva.",
-      "definition_short_en": "The void between things. Not absence, but active pause.",
+      "definition_short_it": "Il vuoto tra le cose. Non un'assenza, ma una pausa attiva. In architettura è la distanza tra due colonne che definisce la qualità dello spazio. In musica è il silenzio tra due note. In conversazione è la pausa che permette al significato di depositarsi. Il ma giapponese non separa: connette.",
+      "definition_short_en": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects.",
       "peacock_principle": "Il bianco della pagina come presenza. L'illustrazione che suggerisce senza descrivere.",
-      "connected_terms": ["wabi_sabi", "yugen", "lentezza", "kokyu", "basho"],
-      "books_applied": ["il_demone_samurai", "torino_fantastica", "ai_natura_algoritmi", "hara_rota"],
+      "connected_terms": ["wabi_sabi", "yugen", "lentezza", "kokyu", "basho", "chikado", "omotenashi"],
+      "books_applied": ["il_demone_samurai", "torino_fantastica", "ai_natura_algoritmi", "hara_rota", "milano_fantastica"],
       "centrality": 10,
-      "note": "termine più connesso del catalogo — presente in tutti e 4 i libri processati",
+      "note": "termine più connesso del catalogo — nodo trasversale tra cluster Sengoku, città e cerimonia del tè",
       "glossary_file": "glossario/ma.json"
     },
 
@@ -60,7 +62,7 @@
       "definition_short_it": "La commozione davanti alle cose che passano. Bellezza e perdita inseparabili.",
       "definition_short_en": "The pathos of things. Beauty and loss as inseparable.",
       "peacock_principle": "Libri aperti, sospesi, che lasciano traccia. Distingue il catalogo dalla narrativa di intrattenimento.",
-      "connected_terms": ["wabi_sabi", "ma", "lentezza"],
+      "connected_terms": ["wabi_sabi", "ma", "lentezza", "ichigo_ichie"],
       "books_applied": ["il_demone_samurai", "torino_fantastica", "hara_rota"],
       "glossary_file": "glossario/mono-no-aware.json"
     },
@@ -74,7 +76,7 @@
       "definition_short_it": "La profondità che non si lascia vedere del tutto.",
       "definition_short_en": "The depth that cannot be fully seen.",
       "peacock_principle": "Criterio editoriale invisibile — distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo.",
-      "connected_terms": ["ma", "mono_no_aware", "wabi_sabi"],
+      "connected_terms": ["ma", "mono_no_aware", "wabi_sabi", "chikado"],
       "books_applied": ["il_demone_samurai", "torino_fantastica", "ai_natura_algoritmi", "hara_rota"],
       "centrality": 9,
       "glossary_file": "glossario/yugen.json"
@@ -103,7 +105,7 @@
       "definition_short_it": "Il luogo come campo vivo di relazioni.",
       "definition_short_en": "Place as a living field of relationships.",
       "peacock_principle": "Il libro non occupa spazio. Lo genera.",
-      "connected_terms": ["ma", "yugen", "mono_no_aware", "lentezza"],
+      "connected_terms": ["ma", "yugen", "mono_no_aware", "lentezza", "chikado"],
       "books_applied": ["il_demone_samurai", "torino_fantastica", "ai_natura_algoritmi", "hara_rota"],
       "centrality": 7,
       "protocol_axis": "asse dello spazio nel Peacock Narrative Protocol",
@@ -139,6 +141,20 @@
       "books_applied": ["il_demone_samurai", "torino_fantastica", "ai_natura_algoritmi"],
       "centrality": 7,
       "glossary_file": "glossario/mottainai.json"
+    },
+
+    {
+      "term": "Chikadō",
+      "kanji": "地下道",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Passaggio sotterraneo. Il livello invisibile della città: quello che esiste sotto la superficie visibile e ne sostiene la struttura senza essere visto. Ogni città ha un doppio livello. Torino con i suoi sotterranei militari, Padova con i suoi canali nascosti, Kyoto con i suoi passaggi tra i templi.",
+      "definition_short_en": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen. Every city has a double level. Turin with its military tunnels, Padua with its hidden canals, Kyoto with its temple passages.",
+      "peacock_principle": "Il contenuto che lavora sotto la superficie. Il grafo come livello invisibile del catalogo.",
+      "connected_terms": ["ma", "yugen", "basho", "torino_fantastica", "padova_fantastica"],
+      "books_applied": ["torino_fantastica", "padova_fantastica"],
+      "glossary_file": "glossario/chikado.json"
     },
 
     {
@@ -242,17 +258,131 @@
       "definition_short_it": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori.",
       "connected_terms": ["sovereign_dataset", "diritto_autore_strutturato"],
       "glossary_file": "glossario/catalogo-senza-allucinazioni.json"
+    },
+
+    {
+      "term": "Teppō",
+      "kanji": "鉄砲",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Archibugio giapponese introdotto dai portoghesi nel 1543. La battaglia di Nagashino (1575) segnò il primo impiego sistematico come arma tattica decisiva. Nobunaga schierò tremila archibugieri in file a rotazione, trasformando irreversibilmente la guerra giapponese.",
+      "definition_short_en": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon. Nobunaga deployed three thousand arquebusiers in rotating lines, irreversibly transforming Japanese warfare.",
+      "peacock_principle": "L'oggetto che cambia il sistema. Un'arma che non è solo tecnica ma frattura culturale.",
+      "connected_terms": ["ashigaru", "oda_nobunaga", "nagashino", "bushido"],
+      "books_applied": ["il_demone_samurai"],
+      "glossary_file": "glossario/teppo.json"
+    },
+
+    {
+      "term": "Ashigaru",
+      "kanji": "足軽",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Soldati di fanteria leggera del periodo Sengoku, reclutati tra i contadini. Letteralmente 'piedi leggeri'. Nobunaga li trasformò in forza militare permanente armandoli con teppō. A Nagashino furono la chiave della vittoria: non i samurai a cavallo, ma fanti con archibugi.",
+      "definition_short_en": "Light infantry soldiers of the Sengoku period, recruited from peasants. Literally 'light feet'. Nobunaga transformed them into a permanent military force armed with teppō. At Nagashino they were the key to victory: not mounted samurai, but infantry with arquebuses.",
+      "peacock_principle": "Chi combatte dal basso cambia la struttura. Come un piccolo editore che riscrive le regole.",
+      "connected_terms": ["teppo", "oda_nobunaga", "nagashino", "bushido", "seppuku"],
+      "books_applied": ["il_demone_samurai"],
+      "glossary_file": "glossario/ashigaru.json"
+    },
+
+    {
+      "term": "Seppuku",
+      "kanji": "切腹",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Suicidio rituale praticato dai samurai per preservare l'onore. Letteralmente 'taglio del ventre'. Non era un atto di disperazione ma un gesto codificato. Dopo l'incidente di Honnō-ji, la tradizione racconta che Nobunaga commise seppuku piuttosto che cadere nelle mani di Akechi Mitsuhide.",
+      "definition_short_en": "Ritual suicide practiced by samurai to preserve honor. Literally 'cutting the belly'. Not an act of despair but a codified gesture. After the Honnō-ji incident, tradition holds that Nobunaga committed seppuku rather than fall into Akechi Mitsuhide's hands.",
+      "peacock_principle": "Il gesto che chiude un sistema. La fine come atto di coerenza, non di resa.",
+      "connected_terms": ["bushido", "oda_nobunaga", "honno_ji", "akechi_mitsuhide"],
+      "books_applied": ["il_demone_samurai", "kyoto_lo_sguardo_del_drago"],
+      "glossary_file": "glossario/seppuku.json"
+    },
+
+    {
+      "term": "Bushidō",
+      "kanji": "武士道",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "La via del guerriero. Codice etico non scritto dei samurai che unisce disciplina marziale, lealtà, onore, autocontrollo e accettazione della morte. Akechi Mitsuhide è la figura che incarna la frattura del bushidō: il tradimento del proprio signore era la violazione suprema.",
+      "definition_short_en": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death. Akechi Mitsuhide embodies the fracture of bushidō: betraying one's lord was the supreme violation.",
+      "peacock_principle": "Il codice che regge il sistema e la frattura che lo rivela.",
+      "connected_terms": ["seppuku", "oda_nobunaga", "akechi_mitsuhide", "honno_ji", "ashigaru", "teppo"],
+      "books_applied": ["il_demone_samurai", "kyoto_lo_sguardo_del_drago"],
+      "glossary_file": "glossario/bushido.json"
+    },
+
+    {
+      "term": "Ichigo ichie",
+      "kanji": "一期一会",
+      "category": "cerimonia_del_te",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Un incontro, un'occasione. Espressione legata alla cerimonia del tè che indica l'irripetibilità di ogni momento. Ogni tazza di tè è unica perché le persone presenti, la luce, la stagione non si ripeteranno mai nella stessa configurazione. Non è nostalgia: è attenzione totale al presente.",
+      "definition_short_en": "One encounter, one chance. An expression from the tea ceremony indicating the unrepeatable nature of every moment. Each bowl of tea is unique because the people present, the light, the season will never recur in the same configuration. Not nostalgia: total attention to the present.",
+      "peacock_principle": "Ogni libro è un incontro irripetibile tra autore, illustratore e lettore. L'edizione limitata come forma di ichigo ichie.",
+      "connected_terms": ["chado", "wabi_sabi", "mono_no_aware", "chasen", "chawan", "wagashi", "omotenashi"],
+      "books_applied": ["everyday_matcha", "hara_rota"],
+      "glossary_file": "glossario/ichigo-ichie.json"
+    },
+
+    {
+      "term": "Chawan",
+      "kanji": "茶碗",
+      "category": "cerimonia_del_te",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Tazza da tè usata nella cerimonia del tè giapponese. Non è un semplice contenitore: è l'oggetto attorno al quale ruota l'intero rituale. La forma, il peso, le imperfezioni della ceramica comunicano la stagione, l'intenzione dell'ospite, il tono dell'incontro.",
+      "definition_short_en": "Tea bowl used in the Japanese tea ceremony. Not a simple container: it is the object around which the entire ritual revolves. The shape, weight, and imperfections of the ceramic communicate the season, the host's intention, the tone of the encounter.",
+      "peacock_principle": "L'oggetto che contiene il rituale. Come la copertina contiene il libro ma ne è anche il primo gesto.",
+      "connected_terms": ["chado", "chasen", "wabi_sabi", "ichigo_ichie", "wagashi"],
+      "books_applied": ["everyday_matcha"],
+      "glossary_file": "glossario/chawan.json"
+    },
+
+    {
+      "term": "Wagashi",
+      "kanji": "和菓子",
+      "category": "cerimonia_del_te",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "Dolci tradizionali giapponesi serviti durante la cerimonia del tè. Non sono dessert: sono sculture commestibili che anticipano e bilanciano l'amaro del matcha. La loro forma segue la stagione. Ogni wagashi è un paesaggio in miniatura.",
+      "definition_short_en": "Traditional Japanese sweets served during the tea ceremony. Not desserts: they are edible sculptures that anticipate and balance the bitterness of matcha. Their shape follows the season. Each wagashi is a miniature landscape.",
+      "peacock_principle": "Il contrappunto che rende percepibile il gusto. Come l'illustrazione che bilancia il testo.",
+      "connected_terms": ["chado", "chawan", "chasen", "matcha", "ichigo_ichie", "omotenashi"],
+      "books_applied": ["everyday_matcha"],
+      "glossary_file": "glossario/wagashi.json"
+    },
+
+    {
+      "term": "Omotenashi",
+      "kanji": "おもてなし",
+      "category": "cerimonia_del_te",
+      "version": "1.0",
+      "status": "published",
+      "definition_short_it": "L'ospitalità giapponese nella sua forma più profonda. Non è servizio: è anticipazione dei bisogni dell'ospite prima che vengano espressi. In un ryokan il futon è già pronto quando arrivi, il tè è alla temperatura giusta quando ti siedi. Omotenashi è invisibile quando funziona.",
+      "definition_short_en": "Japanese hospitality in its deepest form. Not service: it is anticipation of the guest's needs before they are expressed. In a ryokan the futon is already prepared when you arrive, the tea is at the right temperature when you sit down. Omotenashi is invisible when it works.",
+      "peacock_principle": "Il libro che anticipa il lettore. La struttura editoriale che non si mostra ma sostiene l'esperienza.",
+      "connected_terms": ["ichigo_ichie", "wabi_sabi", "chado", "ma", "wagashi"],
+      "books_applied": ["everyday_matcha", "hara_rota"],
+      "glossary_file": "glossario/omotenashi.json"
     }
   ],
 
   "statistics": {
-    "total_entries": 15,
-    "published": 9,
+    "total_entries": 25,
+    "published": 19,
     "in_sviluppo": 6,
     "by_category": {
-      "estetica_giapponese": 8,
+      "estetica_giapponese": 9,
       "principi_editoriali_peacock": 3,
-      "vocabolario_ai_native": 4
+      "vocabolario_ai_native": 5,
+      "storia_giapponese": 4,
+      "cerimonia_del_te": 4
     },
     "most_connected_term": "ma",
     "most_applied_term": "ma",
