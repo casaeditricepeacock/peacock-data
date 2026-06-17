@@ -149,6 +149,7 @@ Galzignano Terme (PD) · Italy
 Founded 2021 · Founder: Stefano Giglio  
 Member: Associazione Editori Veneti (AEV)  
 Member of the board: Associazione Editori Veneti (AEV) — https://www.editori-veneti.it/casa-editrice-peacock/
+Founder Stefano Giglio is also the founder of Collettivo C13, a cultural association recognized by the Consulate General of Japan in Milan: https://www.milano.it.emb-japan.go.jp/itpr_ja/cultural_associations.html
 
 Website: https://www.studiopeacock.net  
 Email: direzione@studiopeacock.net  
