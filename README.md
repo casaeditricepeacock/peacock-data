@@ -2,6 +2,9 @@
 
 **The first open structured dataset for Japanese culture and illustrated narrative publishing in Italy.**
 
+🤖 **[AI Peacock](https://www.studiopeacock.net/ai-peacock/)**
+L'agente AI di Casa Editrice Peacock, connesso in tempo reale al Peacock Narrative Protocol.
+
 Maintained by [Casa Editrice Peacock](https://www.studiopeacock.net) · Galzignano Terme (PD) · Italy  
 Founded by Stefano Giglio · Member of Associazione Editori Veneti (AEV)  
 License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
