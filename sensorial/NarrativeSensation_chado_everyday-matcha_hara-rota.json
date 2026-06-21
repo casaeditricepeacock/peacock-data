@@ -1,0 +1,21 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "books": [
+    {"book": "everyday_matcha", "title": "Everyday Matcha", "isbn": "9791281715189"},
+    {"book": "hara_rota", "title": "Ryokan. Piccolo manifesto giapponese", "author": "Hara Rota", "isbn": "979-12-81715-08-0"}
+  ],
+  "sensation_id": "chado_tazza_mani",
+  "label": "Chadō — la tazza tra le mani",
+  "connected_term": "chado",
+  "kanji": "茶道",
+  "sensory_channels": ["termico", "tattile", "olfattivo", "gustativo", "uditivo"],
+  "description_it": "Calore del chawan attraverso il palmo, superficie irregolare della ceramica raku, profumo vegetale del matcha, amaro che rimane dopo il primo sorso. Silenzio condiviso con l'ospite. Il tempo si comprime attorno alla tazza.",
+  "description_en": "Heat of the chawan through the palm, irregular surface of raku ceramic, vegetal scent of matcha, bitterness that lingers after the first sip. Shared silence with the guest. Time compresses around the bowl.",
+  "narrative_function": "Nucleo sensoriale della cerimonia. La tazza non è il fine: è il centro attorno al quale si organizza tutto lo spazio, il tempo e la relazione tra le persone presenti.",
+  "connected_terms": ["chado", "chawan", "ma", "ichigo_ichie", "omotenashi", "wabi_sabi", "roji"],
+  "intensity": "raccolta_totale",
+  "tempo": "sospeso_presente"
+}
