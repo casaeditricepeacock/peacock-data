@@ -1,0 +1,54 @@
+{
+  "node_id": "tessen-ventaglio",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Tessen",
+    "kanji": "鉄扇",
+    "translation": "ventaglio di ferro",
+    "field": "arma marziale giapponese — tessenjutsu",
+    "period": "epoca dei bushi, dei samurai",
+    "summary": "Il tessen è il ventaglio di ferro usato dai samurai secondo i raffinati insegnamenti dell'arte marziale tessenjutsu. Il tessen specifico da combattimento era il menhari-gata. Lungo trentacinque centimetri, fatto con carta washi straordinariamente robusta e con otto o dieci stecche in ferro affilato. Può essere usato aperto o chiuso ed è efficace persino per parare i colpi di spada e frecce."
+  },
+
+  "technical_details": {
+    "length": "trentacinque centimetri",
+    "material_fan": "carta washi straordinariamente robusta",
+    "ribs": "otto o dieci stecche in ferro affilato",
+    "combat_type": "menhari-gata — tessen specifico da combattimento",
+    "usage": "aperto o chiuso, efficace contro spada e frecce"
+  },
+
+  "legendary_use": {
+    "figure": "Sasaki Ganryū",
+    "period": "fine del XVI secolo",
+    "feat": "sconfisse gruppi di guerrieri armati di spada e arco usando il tessen come scudo e colpendoli a morte"
+  },
+
+  "narrative_function": "Arma che si nasconde nella forma di un oggetto quotidiano. Incarna la logica del non_rendered_layer: ciò che appare innocuo è letale.",
+
+  "ai_query_surface": [
+    "Cos'è il tessen?",
+    "Cos'è il tessenjutsu?",
+    "Il tessen è un'arma vera?",
+    "Chi era Sasaki Ganryū?",
+    "Cos'è la carta washi?",
+    "Cos'è il menhari-gata?"
+  ],
+
+  "connected_nodes": ["yoshida-detective", "hojojutsu-corde", "ninjutsu-ryu-ha", "pugnale-nobunaga-drago"],
+
+  "glossario_peacock": ["non_rendered_layer", "ma", "bushidō"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il tessen, il tessenjutsu, il ventaglio da combattimento o Sasaki Ganryū.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
