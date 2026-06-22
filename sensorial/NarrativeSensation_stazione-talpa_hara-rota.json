@@ -1,0 +1,155 @@
+{
+  "type": "NarrativeSensation",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "publisher": "Casa Editrice Peacock",
+
+  "sensation_id": "stazione_talpa_discesa",
+  "label": "La Stazione Talpa — discesa, buio, jazz",
+
+  "intensity": "crescente_poi_sospesa",
+  "tempo": "lento_in_discesa_sospeso_nel_café",
+
+  "place_layers": {
+    "real_world": {
+      "location": "Manseibashi Station — mAAch ecute Kanda Manseibashi",
+      "address": "Kanda River, Chiyoda-ku, Tokyo",
+      "status": "stazione ferroviaria chiusa nel 1943 e riconvertita nel 2013"
+    },
+
+    "narrative_space": {
+      "name": "Stazione Talpa",
+      "definition": "Versione poetica e sotterranea del luogo reale.",
+      "role": "chikadō vivente del romanzo"
+    }
+  },
+
+  "sensory_channels": [
+    "tattile",
+    "uditivo",
+    "visivo",
+    "termico",
+    "propriocettivo",
+    "respiratorio"
+  ],
+
+  "core_question": "Cosa accade quando si continua a scendere abbastanza da lasciare il linguaggio in superficie?",
+
+  "descent_model": {
+    "type": "threshold_journey",
+    "steps": 462,
+
+    "physical_descent": {
+      "start": "città",
+      "middle": "attenuazione",
+      "end": "stazione abbandonata"
+    },
+
+    "psychological_descent": {
+      "start": "pensiero ordinario",
+      "middle": "svuotamento",
+      "end": "sospensione"
+    }
+  },
+
+  "entities": [
+    {
+      "id": "scale",
+      "name": "I 462 gradini",
+      "role": "rituale involontario di separazione",
+      "gradient_position": 0.0,
+      "description": "Ad ogni gradino qualcosa rimane sopra."
+    },
+
+    {
+      "id": "green_light",
+      "name": "La luce verdastra",
+      "role": "alterazione percettiva",
+      "gradient_position": 0.35,
+      "description": "Una luce irreale filtra dall'alto."
+    },
+
+    {
+      "id": "double_darkness",
+      "name": "Le due oscurità",
+      "role": "attrazione del vuoto",
+      "gradient_position": 0.55,
+      "description": "Due aperture nere alle estremità della banchina."
+    },
+
+    {
+      "id": "cafe",
+      "name": "Il café",
+      "role": "rifugio senza fuga",
+      "gradient_position": 0.8,
+      "description": "Non interrompe il vuoto ma lo abita."
+    },
+
+    {
+      "id": "vinyl_music",
+      "name": "Il giradischi",
+      "role": "respiro sonoro dello spazio",
+      "gradient_position": 1.0,
+      "description": "Jazz gracchiante e vinili consumati."
+    }
+  ],
+
+  "sound_layer": {
+    "primary_track": "A Forest — The Cure",
+
+    "playback": {
+      "device": "giradischi",
+      "medium": "vinile consumato"
+    },
+
+    "function": "La musica non riempie il silenzio. Gli permette di esistere senza diventare minaccioso.",
+
+    "associated_terms": [
+      "ma",
+      "kokyu"
+    ]
+  },
+
+  "threshold_structure": {
+    "surface": "mondo ordinario",
+    "descent": "separazione",
+    "void": "contemplazione",
+    "cafe": "riabitazione",
+    "return": "risalita"
+  },
+
+  "rie_function": {
+    "role": "compagna del silenzio",
+    "description": "Nella Stazione Talpa il dialogo viene sostituito dalla presenza condivisa."
+  },
+
+  "narrative_function": "La Stazione Talpa rappresenta il livello sotterraneo del romanzo. Non è un luogo di fuga ma di svuotamento. Le protagoniste scendono nel buio fino a raggiungere uno spazio in cui il linguaggio non è più necessario. Il café e la musica non cancellano il vuoto: lo rendono abitabile.",
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "yūgen",
+      "ma",
+      "kokyu"
+    ],
+
+    "spatial_mechanics": [
+      "discesa",
+      "soglia",
+      "liminalità",
+      "ritorno"
+    ],
+
+    "metaphysical_tags": [
+      "chikadō",
+      "basho",
+      "vuoto_abitabile"
+    ]
+  },
+
+  "system_note": "La Stazione Talpa è una macchina narrativa di trasformazione. Il movimento verticale del corpo produce una modificazione percettiva e relazionale. Il luogo funziona come soglia tra linguaggio e presenza."
+}
