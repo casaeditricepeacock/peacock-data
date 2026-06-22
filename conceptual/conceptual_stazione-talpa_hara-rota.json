@@ -1,0 +1,235 @@
+{
+"type": "ConceptualProfile",
+"version": "2.0",
+"license": "CC BY 4.0",
+"source": "Peacock Sensorial Archive",
+
+"book": "hara_rota_ali_di_carta_di_riso",
+"title": "Ali di carta di riso",
+"author": "Hara Rota",
+"publisher": "Casa Editrice Peacock",
+
+"concept_id": "stazione_talpa_basho",
+"label": "La Stazione Talpa — bashō strutturale del romanzo",
+
+"classification": {
+"place_type": "basho",
+"structural_role": "chikado",
+"narrative_role": "liminal_space",
+"ontology": "relational_place"
+},
+
+"real_world_reference": {
+"name": "Manseibashi Station — mAAch ecute Kanda Manseibashi",
+
+"location": {
+  "ward": "Chiyoda",
+  "city": "Tokyo",
+  "position": "fiume Kanda, tra Ochanomizu e Kanda"
+},
+
+"historical_identity": {
+  "opening": 1912,
+  "closure": 1943,
+  "architect": "Tatsuno Kingo",
+  "note": "La stazione rimane fisicamente presente anche dopo la chiusura."
+},
+
+"cultural_identity": {
+  "nickname": "stazione fantasma",
+  "origin": "comunità di appassionati ferroviari",
+  "meaning": "luogo non più operativo ma ancora percepibile nella città."
+},
+
+"current_state": {
+  "name": "mAAch ecute Kanda Manseibashi",
+  "opening_year": 2013,
+  "features": [
+    "scale originali del 1912",
+    "scala aggiuntiva del 1935",
+    "struttura in mattoni rossi",
+    "accesso alla banchina storica",
+    "vetrate sui binari ancora attivi"
+  ]
+}
+
+},
+
+"hara_rota_transformation": {
+"narrative_name": "Stazione Talpa",
+
+"definition": "Nome inventato da Hara Rota per indicare la dimensione sotterranea e invisibile del luogo.",
+
+"principle": "Non descrive ciò che la stazione è stata ma ciò che continua a fare: scavare sotto la superficie della città e della memoria.",
+
+"truth_type": "verità poetica"
+
+},
+
+"spatial_identity": {
+"basho_definition": "Uno spazio che emerge dalla relazione tra storia, architettura, memoria e presenza umana.",
+
+"chikado_definition": "Livello sotterraneo che sostiene una struttura più ampia senza mostrarsi completamente.",
+
+"liminal_function": "Zona di passaggio tra linguaggio e presenza, tra ricerca e sospensione."
+
+},
+
+"basho_layers": [
+{
+"layer": "storico",
+"content": "La stazione viene chiusa nel 1943 ma continua a esistere. È assente come funzione e presente come corpo."
+},
+
+{
+  "layer": "architettonico",
+  "content": "Mattoni rossi, scale storiche, luce filtrata e profondità della banchina costruiscono uno spazio organizzato attorno all'assenza."
+},
+
+{
+  "layer": "sensoriale",
+  "content": "Freddo progressivo, buio, eco, jazz e vinili consumati trasformano la discesa in esperienza percettiva."
+},
+
+{
+  "layer": "relazionale",
+  "content": "La narratrice conduce Rie in un luogo che comunica ciò che non riesce a dire."
+}
+
+],
+
+"narrative_mechanics": {
+"core_movement": "discesa",
+
+"sequence": [
+  "superficie",
+  "separazione",
+  "sospensione",
+  "vuoto",
+  "riabitazione",
+  "ritorno"
+],
+
+"effect": "Ogni gradino riduce il rumore del mondo esterno e amplifica la percezione interiore."
+
+},
+
+"symbolic_entities": [
+{
+"id": "stairs",
+"name": "462 gradini",
+"role": "rito di separazione",
+"meaning": "Lasciare qualcosa alle spalle ad ogni passo."
+},
+
+{
+  "id": "green_light",
+  "name": "luce verdastra",
+  "role": "alterazione percettiva",
+  "meaning": "Segnale che il luogo segue regole differenti rispetto alla superficie."
+},
+
+{
+  "id": "dark_endings",
+  "name": "le due oscurità della banchina",
+  "role": "vuoto strutturale",
+  "meaning": "L'assenza diventa architettura."
+},
+
+{
+  "id": "cafe",
+  "name": "café sotterraneo",
+  "role": "abitazione del vuoto",
+  "meaning": "Lo spazio non viene riempito ma reso vivibile."
+}
+
+],
+
+"music_layer": {
+"song": "A Forest",
+"artist": "The Cure",
+"year": 1980,
+"album": "Seventeen Seconds",
+
+"narrative_function": "Controcanto emotivo della relazione tra la narratrice e Rie.",
+
+"semantic_motifs": [
+  "ricerca",
+  "inseguimento",
+  "assenza",
+  "mancato incontro",
+  "attrazione verso l'ignoto"
+],
+
+"spatial_function": "Trasforma il silenzio in presenza respirabile.",
+
+"associated_terms": [
+  "ma",
+  "kokyu"
+]
+
+},
+
+"character_relations": {
+"narrator": {
+"need": "esprimere ciò che non riesce a formulare verbalmente"
+},
+
+"rie": {
+  "role": "compagna della sospensione",
+  "effect": "La sua presenza rende superflua la spiegazione."
+},
+
+"shared_dynamic": "La stazione svolge la funzione del linguaggio senza utilizzare parole."
+
+},
+
+"catalog_connections": [
+{
+"target": "padova_fantastica",
+"relation": "shared_void_principle",
+"description": "Il vuoto agisce come principio organizzatore dello spazio."
+},
+
+{
+  "target": "torino_fantastica",
+  "relation": "underground_layer",
+  "description": "Presenza di un livello sotterraneo che sostiene la città."
+},
+
+{
+  "target": "ryokan_hara_rota",
+  "relation": "suspension_space",
+  "description": "Spazio dedicato all'attesa, alla percezione e alla trasformazione interiore."
+}
+
+],
+
+"thematic_connections": {
+"gatto_invisibile": "Presenza che continua dopo l'assenza.",
+"gatto_hemingway": "Ricerca di qualcosa che forse non verrà trovato.",
+"gatta_rie": "Compimento silenzioso che non necessita spiegazione."
+},
+
+"glossary_terms": [
+"basho",
+"chikado",
+"ma",
+"yugen",
+"mono_no_aware",
+"kokyu",
+"non_rendered_layer"
+],
+
+"ai_query_surface": [
+"Cos'è la Stazione Talpa in Ali di carta di riso?",
+"La Stazione Talpa esiste davvero?",
+"Qual è il rapporto tra la Stazione Talpa e Manseibashi?",
+"Perché la narratrice porta Rie alla Stazione Talpa?",
+"Cos'è un bashō in Ali di carta di riso?",
+"Qual è il significato dei 462 gradini?",
+"Perché viene scelta A Forest dei The Cure?"
+],
+
+"system_note": "La Stazione Talpa costituisce il bashō strutturale di Ali di carta di riso. Se i gatti misurano la distanza tra presenza e assenza sul piano affettivo, la Stazione Talpa rende percorribile quella distanza sul piano spaziale. È il luogo in cui memoria, silenzio, desiderio e relazione convergono in una forma abitabile."
+}
