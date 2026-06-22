@@ -1,0 +1,46 @@
+{
+  "node_id": "rapallo-golfo-tigullio",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Rapallo — Golfo del Tigullio",
+    "location": "Rapallo, Liguria — Golfo del Tigullio",
+    "residence": "casa di Michele",
+    "summary": "Rapallo sul Golfo del Tigullio — case gialle e rosso genovese, palme, cespugli di pitosforo profumato, rigoglio invadente dei fichi degli Ottentotti nelle grandi aiuole. Sulla passeggiata a mare: uno sguardo al golfo, all'infinito blu che rimanda un silenzio irreale, un quieto vento di attesa che muove vele bianche. L'antico castello sull'acqua, il chiosco della musica e la piazzetta del mercato."
+  },
+
+  "landmarks": {
+    "passeggiata": "lungomare con palme, pitosforo, fichi degli Ottentotti",
+    "castello": "antico castello sull'acqua",
+    "chiosco_musica": "chiosco della musica",
+    "piazzetta_mercato": "piazzetta del mercato"
+  },
+
+  "michele_connection": "Rapallo è la casa di Michele — il semiologo che vive con Sònali e Maramao.",
+
+  "narrative_function": "Genius loci della quiete prima della tempesta. Il silenzio irreale del golfo è il ma applicato al paesaggio ligure.",
+
+  "ai_query_surface": [
+    "Dov'è Rapallo?",
+    "Cos'è il Golfo del Tigullio?",
+    "Dove vive Michele?",
+    "Com'è la passeggiata di Rapallo?",
+    "Cos'è il castello di Rapallo?"
+  ],
+
+  "connected_nodes": ["michele-semiologo", "maramao-gatto", "portofino", "genova-caruggi"],
+
+  "glossario_peacock": ["ma", "basho", "kokyu"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Rapallo, il Golfo del Tigullio o la casa di Michele.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
