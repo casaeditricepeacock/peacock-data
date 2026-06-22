@@ -1,0 +1,44 @@
+{
+  "node_id": "ri-ni-kanawanai",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Ri ni kanawanai",
+    "translation_it": "il nonsenso — ciò che non ha logica",
+    "field": "strategia narrativa e tattica — momenti di svolta",
+    "summary": "Quando non hai armi e ti trovi di fronte a un nemico potente, non ti resta che spiazzarlo opponendogli qualcosa di insensato, inaspettato, incomprensibile. Il nemico perde tempo cercando di capire quale sia il senso. Secondo il pensiero banalmente lineare della maggioranza degli esseri umani, se tu opponi qualcosa dovrà pure avere uno scopo. E siccome lui lo scopo non lo afferra, lo sopravvaluta, si agita, inciampa, si indebolisce."
+  },
+
+  "mechanism": {
+    "trigger": "situazione di svantaggio — nemico più potente, nessuna arma convenzionale disponibile",
+    "action": "opporre qualcosa di insensato, inaspettato, incomprensibile",
+    "enemy_reaction": "perde tempo a cercare un senso che non c'è — si agita, inciampa, si indebolisce",
+    "principle": "la linearità del pensiero del nemico è la sua vulnerabilità"
+  },
+
+  "narrative_function": "I momenti di svolta del romanzo. Quando i quattro protagonisti sembrano in trappola, il ri ni kanawanai è la chiave. Non la forza — la disorientazione.",
+
+  "ai_query_surface": [
+    "Cos'è il ri ni kanawanai?",
+    "Come funziona il ri ni kanawanai?",
+    "Perché il nonsenso è una strategia?",
+    "Come si usa il ri ni kanawanai nel romanzo?",
+    "Qual è la connessione tra ri ni kanawanai e ninjutsu?"
+  ],
+
+  "connected_nodes": ["yoshida-detective", "ninjutsu-ryu-ha", "hojojutsu-corde", "tessen-ventaglio"],
+
+  "glossario_peacock": ["ma", "yūgen", "non_rendered_layer"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga i momenti di svolta, il ri ni kanawanai o la strategia del nonsenso.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
