@@ -1,0 +1,58 @@
+{
+  "node_id": "michele-semiologo",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Michele",
+    "nationality": "francese / italiano",
+    "residence": "Rapallo, Liguria",
+    "age": "anziano ma non ha età",
+    "profession": "semiologo, decifratore di codici segreti, poliglotta",
+    "reputation": "noto a livello internazionale",
+    "summary": "Michele è un genio ironico e divertente, capace di mantenere leggerezza anche nelle situazioni più drammatiche. Troppo colto — sua moglie lo abbandonò per fuggire con un giovane ballerino di flamenco. Vive con Sònali, la governante indiana che lo accudisce come una sorella, e con il gatto Maramao."
+  },
+
+  "character_traits": [
+    "ironia costante anche nelle situazioni drammatiche",
+    "cultura enciclopedica usata con leggerezza",
+    "solitudine affettuosa compensata da Sònali e Maramao",
+    "capacità di leggere i codici nascosti nelle situazioni quotidiane"
+  ],
+
+  "narrative_function": "Motore intellettuale del gruppo. Michele decifra ciò che gli altri non vedono — non per forza fisica ma per profondità semiotica. Il suo humour è lo scudo e il metodo.",
+
+  "household": {
+    "sonali": "governante indiana, accudisce Michele come una sorella, lo sopporta con affetto",
+    "maramao": "gatto rosso parlante, crash test per i nuovi arrivati"
+  },
+
+  "ai_query_surface": [
+    "Chi è Michele in Kyoto. Lo Sguardo del Drago?",
+    "Cosa fa un semiologo?",
+    "Perché Michele vive a Rapallo?",
+    "Chi è Sònali?",
+    "Qual è il ruolo di Michele nella trama?"
+  ],
+
+  "connected_nodes": [
+    "maramao-gatto",
+    "rapallo-golfo-tigullio",
+    "yoshida-detective",
+    "alexander-editore",
+    "gretel-karateka"
+  ],
+
+  "glossario_peacock": ["ma", "yūgen", "mono no aware"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Michele, il semiologo, i codici segreti o la casa di Rapallo.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
