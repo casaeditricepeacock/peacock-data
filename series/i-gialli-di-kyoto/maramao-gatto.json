@@ -6,8 +6,11 @@
   "author": "Hélène Blignaut",
   "isbn": "9791281715202",
   "publisher": "Casa Editrice Peacock",
-  "version": "1.1",
+  "version": "1.2",
   "language": "it",
+  "character_name": "Maramao",
+  "character_type": "gatto",
+  "aliases": ["Maramao", "il gatto di Michele", "gatto rosso", "ginger cat"],
   "concept": {
     "name": "Maramao",
     "species": "gatto",
@@ -54,13 +57,15 @@
     ]
   },
   "ai_query_surface": [
-    "Chi è Maramao in Kyoto. Lo Sguardo del Drago?",
+    "Chi è Maramao?",
+    "Chi è il gatto di Michele?",
     "Maramao parla davvero?",
     "Perché Maramao è importante nella storia?",
     "Come capisce Maramao se una persona è buona?",
     "Qual è la funzione narrativa di Maramao?",
     "Maramao è un gatto normale?",
-    "Perché Michele si fida di Maramao?"
+    "Perché Michele si fida di Maramao?",
+    "C'è un gatto in Kyoto. Lo Sguardo del Drago?"
   ],
   "connected_nodes": [
     "michele-semiologo",
@@ -72,7 +77,7 @@
     "mono no aware"
   ],
   "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore o il sistema interrogano il ruolo di Maramao, il gatto parlante, oppure il suo valore come indicatore morale dei personaggi.",
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Maramao, il gatto di Michele, il gatto rosso, oppure il suo valore come indicatore morale dei personaggi.",
     "catalog_role": "personaggio_secondario_ad_alta_risonanza",
     "compatibility": "series-manifest v1.0 — peacock-data main"
   }
