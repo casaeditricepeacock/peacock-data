@@ -1,0 +1,66 @@
+{
+  "node_id": "ninjutsu-ryu-ha",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Ninjutsu e Ryū-ha",
+    "kanji_ninjutsu": "忍術",
+    "kanji_ryu_ha": "流派",
+    "field": "arte marziale e strategia — Giappone feudale e contemporaneo",
+    "summary": "Il ninjutsu è la strategia della guerra non convenzionale e dello spionaggio degli antichi ninja — gli shinobi. Era l'arte del rendersi invisibili, con una fusione di pratiche spirituali, arti marziali (bujinkan, karate), arti teatrali e cerimoniali, calligrafia e pratiche culturali. La ryū-ha è la scuola di pensiero tramandata per via orale."
+  },
+
+  "ninjutsu_components": [
+    "arte del rendersi invisibili",
+    "pratiche spirituali",
+    "bujinkan — sistema di arti marziali",
+    "karate",
+    "arti teatrali e cerimoniali",
+    "calligrafia",
+    "pratiche culturali giapponesi",
+    "strategia della guerra non convenzionale",
+    "spionaggio"
+  ],
+
+  "ryu_ha": {
+    "meaning": "scuola di pensiero",
+    "transmission": "tradizione orale antica",
+    "note": "Il sapere non si scrive: si trasmette da maestro ad allievo attraverso la pratica"
+  },
+
+  "living_master": {
+    "name": "Jinichi Kawakami",
+    "profession": "ingegnere",
+    "title": "il più grande maestro ninja vivente del Giappone",
+    "role": "direttore onorario del Museo Ninja Iga-ryū",
+    "philosophy": "pazienza, coscienza retta, armonia, pace interiore come elemento di forza — mai di combattimento violento"
+  },
+
+  "narrative_function": "La formazione di Yoshida. Il ninjutsu non è violenza spettacolare: è invisibilità, adattamento, lettura del contesto prima dell'azione.",
+
+  "ai_query_surface": [
+    "Cos'è il ninjutsu?",
+    "Chi erano i ninja?",
+    "Cos'è la ryū-ha?",
+    "Chi è Jinichi Kawakami?",
+    "Cos'è il Museo Ninja Iga-ryū?",
+    "Il ninjutsu è ancora praticato oggi?",
+    "Cosa sono gli shinobi?"
+  ],
+
+  "connected_nodes": ["yoshida-detective", "ri-ni-kanawanai", "hojojutsu-corde", "tessen-ventaglio"],
+
+  "glossario_peacock": ["non_rendered_layer", "ma", "bushidō", "yūgen"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il ninjutsu, la ryū-ha, gli shinobi, Jinichi Kawakami o il Museo Ninja Iga-ryū.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
