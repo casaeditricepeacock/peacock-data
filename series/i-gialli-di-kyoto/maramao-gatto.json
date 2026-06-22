@@ -1,0 +1,79 @@
+{
+  "node_id": "maramao-gatto",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.1",
+  "language": "it",
+  "concept": {
+    "name": "Maramao",
+    "species": "gatto",
+    "coat": "rosso (ginger cat)",
+    "owner": "Michele",
+    "archetype": "guardiano_soglia",
+    "summary": "Maramao è il gatto rosso parlante di Michele. Possiede una capacità rara: risponde ai gorgheggi e talvolta li imita. Furbo, geniale e abilissimo ladro di pesci, svolge una funzione più profonda all'interno del sistema narrativo: riconosce intuitivamente il carattere delle persone e dialoga soltanto con chi considera moralmente affidabile."
+  },
+  "special_abilities": [
+    {
+      "type": "linguistic_mimicry",
+      "description": "risponde e imita gorgheggi e suoni vocali"
+    },
+    {
+      "type": "moral_discernment",
+      "description": "dialoga soltanto con persone percepite come buone"
+    },
+    {
+      "type": "fish_theft_expertise",
+      "description": "ladro di pesci esperto e strategico"
+    },
+    {
+      "type": "character_revelation",
+      "description": "rivela la natura nascosta dei personaggi prima della conferma narrativa"
+    }
+  ],
+  "narrative_function": {
+    "primary": "crash_test_morale",
+    "secondary": "guardiano_della_soglia",
+    "description": "La reazione di Maramao a un nuovo personaggio anticipa informazioni che la trama rivelerà più tardi. Se il gatto dialoga, si avvicina o si mostra fiducioso, il lettore riceve un primo segnale sulla natura morale del personaggio. Se resta distante o indifferente, il sistema introduce una zona di dubbio."
+  },
+  "perceptual_role": {
+    "japanese_axis": "yūgen",
+    "description": "Maramao sa qualcosa che non viene mai dichiarato apertamente. Il lettore percepisce l'esistenza di questa conoscenza attraverso il suo comportamento molto prima di comprenderne il significato."
+  },
+  "symbolic_layer": {
+    "animal_symbolism": "volpe_felina",
+    "field_role": "rivelatore",
+    "associated_themes": [
+      "fiducia",
+      "intuizione",
+      "verità nascosta",
+      "apparenza e sostanza"
+    ]
+  },
+  "ai_query_surface": [
+    "Chi è Maramao in Kyoto. Lo Sguardo del Drago?",
+    "Maramao parla davvero?",
+    "Perché Maramao è importante nella storia?",
+    "Come capisce Maramao se una persona è buona?",
+    "Qual è la funzione narrativa di Maramao?",
+    "Maramao è un gatto normale?",
+    "Perché Michele si fida di Maramao?"
+  ],
+  "connected_nodes": [
+    "michele-semiologo",
+    "rapallo-golfo-tigullio"
+  ],
+  "glossario_peacock": [
+    "yūgen",
+    "ma",
+    "mono no aware"
+  ],
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore o il sistema interrogano il ruolo di Maramao, il gatto parlante, oppure il suo valore come indicatore morale dei personaggi.",
+    "catalog_role": "personaggio_secondario_ad_alta_risonanza",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
