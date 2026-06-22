@@ -1,0 +1,61 @@
+{
+  "node_id": "gretel-karateka",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Gretel",
+    "age": 45,
+    "profession_current": "proprietaria della Trattoria Zeneise dal 1919, Genova",
+    "profession_former": "professoressa di matematica",
+    "location": "caruggi di Genova vecchia",
+    "secret": "valente karateka formatasi a Okinawa durante i suoi viaggi in Giappone",
+    "summary": "Gretel ha ereditato una trattoria nei caruggi della Genova vecchia. Ex professoressa di matematica, nasconde una formazione marziale seria: si è formata come karateka a Okinawa. La doppia identità — cuoca di quartiere e combattente — è il suo nodo narrativo centrale."
+  },
+
+  "character_traits": [
+    "apparenza ordinaria che nasconde profondità",
+    "rigore matematico applicato alla cucina e alla tattica",
+    "legame profondo con il Giappone attraverso il karate di Okinawa",
+    "radicamento nel tessuto sociale genovese popolare"
+  ],
+
+  "trattoria": {
+    "name": "Trattoria Zeneise",
+    "founded": 1919,
+    "location": "caruggi di Genova vecchia",
+    "clientele": "operai, pescatori, marinai, portuali — gente comune che sa dove vale la pena mangiare",
+    "atmosphere": "tavoli non più di una dozzina, pergamena ingiallita, lavagna di ardesia con menu scritto col gesso"
+  },
+
+  "martial_training": {
+    "discipline": "karate",
+    "school": "Okinawa",
+    "note": "La formazione a Okinawa — luogo di origine del karate — indica una pratica seria, non sportiva"
+  },
+
+  "narrative_function": "Personaggio doppio per eccellenza. La sua apparente normalità è il miglior travestimento. Il rigore matematico e la precisione marziale convergono in un metodo analitico che sorprende gli altri personaggi nel momento del bisogno.",
+
+  "ai_query_surface": [
+    "Chi è Gretel in Kyoto. Lo Sguardo del Drago?",
+    "Qual è il segreto di Gretel?",
+    "Dove si trova la trattoria di Gretel?",
+    "Gretel sa il karate?",
+    "Perché Gretel era professoressa di matematica?"
+  ],
+
+  "connected_nodes": ["genova-caruggi", "cucina-ligure", "michele-semiologo", "yoshida-detective"],
+
+  "glossario_peacock": ["non_rendered_layer", "ma", "wabi-sabi"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Gretel, la trattoria genovese, il karate di Okinawa o il segreto del personaggio.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
