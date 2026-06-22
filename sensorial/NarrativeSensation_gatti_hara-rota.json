@@ -1,0 +1,169 @@
+{
+  "type": "NarrativeSensation",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "publisher": "Casa Editrice Peacock",
+
+  "sensation_id": "gatti_costellazione_hara_rota",
+  "label": "I gatti — costellazione di presenze e assenze",
+
+  "connected_terms_global": [
+    "mono no aware",
+    "ma",
+    "yūgen",
+    "kokyu",
+    "ichigo_ichie",
+    "wabi_sabi"
+  ],
+
+  "intensity": "bassa_profonda",
+  "tempo": "stratificato_lungo_tutto_il_libro",
+
+  "description_it": "Cinque gatti attraversano il libro come gradazioni della stessa domanda: cosa rimane quando qualcosa — o qualcuno — non c'è più? ... Eravamo una famiglia.",
+
+  "description_en": "Five cats move through the book as gradations of the same question: what remains when something — or someone — is no longer there? ... We were a family.",
+
+  "narrative_function": "I gatti non sono simboli decorativi ma sensori della presenza e dell'assenza. Misurano la distanza tra ciò che è e ciò che non c'è più.",
+
+  "narrative_arc": {
+    "structure_type": "gradient_non_linear",
+    "progression": [
+      "assenza persistente (gatto invisibile)",
+      "desiderio non soddisfatto (gatto Hemingway)",
+      "mediazione tra mondi (gatto procione)",
+      "rifiuto del mondo / comicità del dolore (gatto fratello)",
+      "compimento silenzioso (gatta Rie)"
+    ],
+    "note": "L'arc non è lineare ma oscillatorio; il primo elemento ritorna implicitamente come eco."
+  },
+
+  "sensory_channels": [
+    "tattile",
+    "uditivo",
+    "visivo",
+    "olfattivo",
+    "termico",
+    "propriocettivo"
+  ],
+
+  "entities": [
+    {
+      "id": "gatto_invisibile",
+      "name": "Il gatto invisibile del fratello",
+      "state": "morto_da_anni_presenza_residua",
+      "role": "apertura / definizione di ma incarnato",
+      "gradient_position": 0.0,
+      "axis": "assenza-presenza",
+      "reference_framework": ["mono no aware", "ma", "yūgen"],
+      "sensory_profile": {
+        "tattile": 0.7,
+        "uditivo": 0.2,
+        "visivo": 0.3,
+        "olfattivo": 0.0,
+        "termico": 0.4,
+        "propriocettivo": 0.6
+      },
+      "description": "Stiracchiarsi nel futon, ombra sottile nell'aria."
+    },
+
+    {
+      "id": "gatto_hemingway",
+      "name": "Il gatto sotto la pioggia — Hemingway",
+      "state": "cercato_non_trovato",
+      "role": "specchio del desiderio di essere visti",
+      "gradient_position": 0.25,
+      "axis": "desiderio-assenza",
+      "reference_framework": ["ma", "mono no aware", "floating_intertext"],
+      "sensory_profile": {
+        "tattile": 0.2,
+        "uditivo": 0.6,
+        "visivo": 0.8,
+        "olfattivo": 0.1,
+        "termico": 0.2,
+        "propriocettivo": 0.3
+      },
+      "description": "Pioggia sui vetri, attesa, vuoto dopo la discesa."
+    },
+
+    {
+      "id": "gatto_procione",
+      "name": "Il gatto con la coda da procione",
+      "state": "presenza_mediatrice",
+      "role": "mediatore tra visibile e invisibile",
+      "gradient_position": 0.5,
+      "axis": "soglia",
+      "reference_framework": ["yūgen", "ma"],
+      "sensory_profile": {
+        "tattile": 0.3,
+        "uditivo": 0.2,
+        "visivo": 0.9,
+        "olfattivo": 0.0,
+        "termico": 0.1,
+        "propriocettivo": 0.4
+      },
+      "description": "Sguardo indifferente che cattura ciò che sfugge."
+    },
+
+    {
+      "id": "gatto_fratello",
+      "name": "Il gatto che dorme sul fratello",
+      "state": "presenza_attiva",
+      "role": "comicità del dolore / ritorno corporeo",
+      "gradient_position": 0.75,
+      "axis": "resistenza-realtà",
+      "reference_framework": ["wabi_sabi", "kokyu"],
+      "sensory_profile": {
+        "tattile": 0.9,
+        "uditivo": 0.7,
+        "visivo": 0.6,
+        "olfattivo": 0.2,
+        "termico": 0.8,
+        "propriocettivo": 0.8
+      },
+      "description": "Si infila sotto le coperte al suono della campanella."
+    },
+
+    {
+      "id": "gatta_rie",
+      "name": "La gattina di Rie",
+      "state": "compimento_relazionale",
+      "role": "chiusura silenziosa del ciclo",
+      "gradient_position": 1.0,
+      "axis": "compimento",
+      "reference_framework": ["kokyu", "ichigo_ichie", "omotenashi"],
+      "sensory_profile": {
+        "tattile": 1.0,
+        "uditivo": 0.5,
+        "visivo": 0.7,
+        "olfattivo": 0.4,
+        "termico": 1.0,
+        "propriocettivo": 0.9
+      },
+      "description": "Fusa ai piedi del futon, ritmo condiviso del respiro."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "mono no aware",
+      "yūgen",
+      "wabi_sabi"
+    ],
+    "narrative_mechanics": [
+      "presenza-assenza oscillatoria",
+      "gradiente emotivo",
+      "eco del non detto"
+    ],
+    "metaphysical_tags": [
+      "ma",
+      "liminalità",
+      "persistenza del residuo"
+    ]
+  },
+
+  "system_note": "Questo oggetto è progettato come sistema interrogabile: ogni gatto rappresenta una posizione su un asse di presenza. L'intero set funziona come sensore narrativo della perdita e del ritorno minimo."
+}
