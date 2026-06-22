@@ -1,0 +1,43 @@
+{
+  "node_id": "portofino",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Portofino",
+    "location": "promontorio ligure — piccolo golfo",
+    "summary": "Il minuscolo incantevole paese nel piccolo golfo e sul promontorio: da antico borgo di pescatori a the place to be per celebrities e vacanze lussuose. Ville ottocentesche in rosso genovese, yacht milionari. Luogo di apertura del romanzo: dal lusso degli yacht di Portofino ai ruderi di un antico castello in Giappone."
+  },
+
+  "character": {
+    "origin": "antico borgo di pescatori",
+    "current": "destinazione di celebrities e vacanze lussuose",
+    "architecture": "ville ottocentesche in rosso genovese",
+    "harbor": "yacht milionari"
+  },
+
+  "narrative_function": "Luogo di apertura del romanzo. Il lusso ostentato che copre storie che non si raccontano — il non_rendered_layer del benessere.",
+
+  "ai_query_surface": [
+    "Dov'è Portofino?",
+    "Come si raggiunge Portofino?",
+    "Perché Portofino è famosa?",
+    "Portofino era un borgo di pescatori?",
+    "Cosa c'è da vedere a Portofino?"
+  ],
+
+  "connected_nodes": ["rapallo-golfo-tigullio", "genova-caruggi", "alexander-editore"],
+
+  "glossario_peacock": ["non_rendered_layer", "basho", "yūgen"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Portofino, gli yacht o il promontorio ligure.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
