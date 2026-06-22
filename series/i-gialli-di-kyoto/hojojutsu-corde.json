@@ -1,0 +1,45 @@
+{
+  "node_id": "hojojutsu-corde",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Hojojutsu",
+    "kanji": "捕縄術",
+    "field": "arte marziale giapponese — uso delle corde",
+    "period": "in uso già ai tempi di Oda Nobunaga",
+    "summary": "L'arte raffinata e assolutamente efficace dell'usare le corde (nawa). Di specialistica scuola, permette di catturare e immobilizzare il nemico con speciali nodi e speciali lanci, senza procurargli grave dolore o infliggergli ferite. Le corde venivano portate nascoste nelle maniche o legate in vita come una cintura."
+  },
+
+  "technical_details": {
+    "material": "nawa — corde",
+    "carrying_method": "nascoste nelle maniche o legate in vita come cintura",
+    "effect": "cattura e immobilizzazione senza infliggere ferite gravi",
+    "method": "nodi speciali e lanci speciali di scuola specialistica"
+  },
+
+  "narrative_function": "Arma invisibile. L'hojojutsu incarna il principio del ninjutsu — la forza che non si mostra fino al momento dell'uso.",
+
+  "ai_query_surface": [
+    "Cos'è l'hojojutsu?",
+    "Come si usano le corde nel hojojutsu?",
+    "L'hojojutsu fa male?",
+    "Come si portano le corde del hojojutsu?",
+    "Hojojutsu e ninjutsu sono collegati?"
+  ],
+
+  "connected_nodes": ["yoshida-detective", "tessen-ventaglio", "ninjutsu-ryu-ha", "ri-ni-kanawanai"],
+
+  "glossario_peacock": ["ma", "non_rendered_layer", "bushidō"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga l'hojojutsu, le corde come arma, o le tecniche di immobilizzazione.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
