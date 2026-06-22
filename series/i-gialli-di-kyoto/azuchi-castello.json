@@ -1,0 +1,56 @@
+{
+  "node_id": "azuchi-castello",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Castello di Azuchi",
+    "location": "promontorio sul lago Biwa — riva est, già chiamato lago Omi — area oggi incorporata in Ōmihachiman",
+    "built_by": "Oda Nobunaga",
+    "fate": "dato alle fiamme dopo appena tre anni dall'assassinio di Nobunaga",
+    "summary": "L'avveniristico castello di Oda Nobunaga su un promontorio del lago Biwa. Una città-castello terrazzata su una collina con strade che portavano a Kyoto e alle principali roccaforti strategiche. Il mastio centrale tenshu di sette piani, alto quarantadue metri e mezzo, con ogni piano dipinto in tinte diverse e ornato con foglie d'oro."
+  },
+
+  "architecture": {
+    "tenshu": {
+      "floors": 7,
+      "height_feet": 138,
+      "height_meters": 42.5,
+      "innovation": "ogni piano dipinto in tinte luminose diverse — non il colore naturale dei materiali come sempre si era usato nei secoli precedenti",
+      "decoration": "ornato con foglie d'oro"
+    },
+    "materials": "legno per le strutture, pietra per le fondamenta",
+    "collections": "opere d'arte in ceramica, dipinti di Eitaku, vasellame per la cerimonia del tè"
+  },
+
+  "legacy": {
+    "current_state": "museo a cielo aperto con le fondamenta originali, modello in scala ricostruito",
+    "festival": "Festival del fuoco Sagicho a Ōmihachiman — ultimo fine settimana di marzo"
+  },
+
+  "narrative_function": "Il monumento alla hybris di Nobunaga — grandioso, colorato, innovativo, distrutto in tre anni. Rappresenta il fūrinkazan portato all'architettura.",
+
+  "ai_query_surface": [
+    "Dov'è il castello di Azuchi?",
+    "Come era fatto il castello di Nobunaga?",
+    "Perché il castello di Azuchi fu bruciato?",
+    "Cos'è il Festival Sagicho?",
+    "Quanti piani aveva il tenshu di Azuchi?",
+    "Cosa rimane oggi del castello di Azuchi?"
+  ],
+
+  "connected_nodes": ["omihachiman-festival", "monte-hiei-enryakuji", "takashima-lago-biwa", "pugnale-nobunaga-drago"],
+
+  "glossario_peacock": ["fūrinkazan", "ma", "yūgen"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga Azuchi, il castello di Nobunaga, il lago Biwa o il tenshu.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
