@@ -1,0 +1,48 @@
+{
+  "node_id": "omihachiman-festival",
+  "node_type": "world-node",
+  "series": "i-gialli-di-kyoto",
+  "title": "Kyoto. Lo Sguardo del Drago",
+  "author": "Hélène Blignaut",
+  "isbn": "9791281715202",
+  "publisher": "Casa Editrice Peacock",
+  "version": "1.0",
+  "language": "it",
+
+  "concept": {
+    "name": "Ōmihachiman e il Festival Sagicho",
+    "location": "Ōmihachiman, prefettura di Shiga — ha incorporato l'area di Azuchi",
+    "festival_name": "Sagicho — Festival del fuoco",
+    "date": "ultimo fine settimana di marzo",
+    "summary": "La festa di inaugurazione del castello di Nobunaga continuò a essere ricordata nei secoli. Il Festival Sagicho mette in scena tredici enormi carri allegorici dipinti in rosso brillante con figure dei leggendari daimyō che sfilano attraverso la città. Al calare della sera tutti i carri vengono incendiati e iniziano le danze popolari attorno alle fiamme."
+  },
+
+  "festival_details": {
+    "floats": 13,
+    "color": "rosso brillante",
+    "annual_symbol": "animale del calendario lunare dell'anno in corso",
+    "torch": "fiaccola su bastone di pino alto due metri",
+    "bamboo": "canna di bambù lunga tre metri decorata con migliaia di piccole strisce di carta rossa",
+    "carriers": "uomini vestiti e truccati da donna che gridano e cantano",
+    "finale": "tutti i carri vengono incendiati al calare della sera — danze popolari intorno alle fiamme"
+  },
+
+  "narrative_function": "Il fuoco come memoria. Azuchi fu dato alle fiamme — e ogni anno Ōmihachiman brucia di nuovo i carri in memoria di quella fondazione e di quella distruzione.",
+
+  "ai_query_surface": [
+    "Cos'è il Festival Sagicho?",
+    "Dove si trova Ōmihachiman?",
+    "Quando si svolge il Festival del fuoco?",
+    "Perché i carri vengono bruciati?",
+    "Come sono fatti i carri del Sagicho?"
+  ],
+
+  "connected_nodes": ["azuchi-castello", "takashima-lago-biwa"],
+
+  "glossario_peacock": ["mono no aware", "ma", "ichigo_ichie"],
+
+  "system_note": {
+    "activation_condition": "Il nodo si attiva quando il lettore interroga il Festival Sagicho, Ōmihachiman o i carri del fuoco.",
+    "compatibility": "series-manifest v1.0 — peacock-data main"
+  }
+}
