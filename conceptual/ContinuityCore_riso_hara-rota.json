@@ -1,0 +1,198 @@
+{
+  "type": "ContinuityCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "riso_trasmissione_corporea",
+  "label": "Il riso — continuità, memoria corporea e presenza dei morti",
+
+  "classification": {
+    "entity_type": "continuity_core",
+    "structural_role": "continuity_carrier",
+    "emotional_role": "grief_container",
+    "metaphysical_role": "body_memory_transmitter"
+  },
+
+  "core_statement": "Il riso non è cibo. È una tecnologia della continuità. Attraverso il gesto ripetuto permette ai morti di restare nel mondo dei vivi senza trasformarsi in ricordo astratto.",
+
+  "ontology": {
+    "presence_mode": "trasmissione_corporea",
+    "visibility": "quotidiana_invisibile",
+    "narrative_density": "bassa_profonda",
+    "system_position": "filo_di_continuita",
+    "time_model": "ciclico"
+  },
+
+  "continuity_function": {
+    "definition": "Il riso non genera il sistema narrativo ma impedisce che si disgreghi.",
+    "mechanism": "Ripetizione quotidiana di gesti ereditati.",
+    "effect": "La perdita viene incorporata nella vita invece di essere rimossa."
+  },
+
+  "transmission_model": {
+    "type": "body_memory",
+
+    "source": {
+      "figure": "nonna",
+      "mode": "insegnamento implicito"
+    },
+
+    "receiver": {
+      "figure": "narratrice",
+      "mode": "ripetizione spontanea"
+    },
+
+    "medium": "gesto_ripetuto",
+
+    "mechanism": "Le mani compiono gli stessi movimenti senza istruzioni esplicite. Il corpo riconosce una conoscenza che la mente non ha formulato.",
+
+    "grief_function": "Preparare il riso significa mantenere la nonna presente nel gesto."
+  },
+
+  "ritual_structure": {
+    "phases": [
+      {
+        "id": "washing",
+        "name": "lavaggio",
+        "symbolic_function": "purificazione"
+      },
+      {
+        "id": "soaking",
+        "name": "ammollo",
+        "symbolic_function": "attesa"
+      },
+      {
+        "id": "cooking",
+        "name": "cottura",
+        "symbolic_function": "trasformazione"
+      },
+      {
+        "id": "serving",
+        "name": "servizio",
+        "symbolic_function": "cura"
+      }
+    ],
+
+    "time_quality": "lento_non_accelerabile",
+
+    "ma_function": "Ogni fase contiene una pausa necessaria. Il riso impone un tempo che non può essere contratto.",
+
+    "wabi_principle": "La profondità emerge dalla semplicità del gesto."
+  },
+
+  "kokyu_relation": {
+    "definition": "Il riso segue la stessa logica del respiro.",
+
+    "parallel": [
+      "lavaggio come inspirazione",
+      "ammollo come sospensione",
+      "cottura come trasformazione interna",
+      "servizio come espirazione verso l'altro"
+    ],
+
+    "narrative_function": "Restituisce al corpo un ritmo abitabile dopo la perdita.",
+
+    "book_role": "respiro strutturale del romanzo"
+  },
+
+  "nonna_presence": {
+    "presence_mode": "assente_come_persona_presente_come_gesto",
+
+    "description": "La nonna non ritorna come memoria narrativa ma come competenza corporea incorporata.",
+
+    "continuity_type": "quotidiana"
+  },
+
+  "absence_matrix": {
+    "yuki": {
+      "presence_mode": "silenzio",
+      "spatial_behavior": "occupa_i_vuoti",
+      "emotional_intensity": "alta",
+      "narrative_function": "frattura"
+    },
+
+    "nonna": {
+      "presence_mode": "gesto",
+      "spatial_behavior": "abita_la_quotidianita",
+      "emotional_intensity": "bassa_profonda",
+      "narrative_function": "continuita"
+    }
+  },
+
+  "symbolic_entities": [
+    { "id": "raw_grain", "name": "chicco crudo", "role": "potenziale" },
+    { "id": "washing_water", "name": "acqua del lavaggio", "role": "purificazione" },
+    { "id": "waiting_time", "name": "tempo dell'ammollo", "role": "trasformazione invisibile" },
+    { "id": "steam", "name": "vapore", "role": "manifestazione del cambiamento" },
+    { "id": "bowl", "name": "ciotola servita", "role": "dono" }
+  ],
+
+  "network_connections": [
+    {
+      "target": "yuki_central_presence",
+      "relation": "counterbalance_to_loss",
+      "description": "Yuki rappresenta la frattura. Il riso rappresenta la continuità."
+    },
+    {
+      "target": "stazione_talpa_basho",
+      "relation": "shared_suspension",
+      "description": "Entrambi impongono un rallentamento e una modificazione del tempo percepito."
+    },
+    {
+      "target": "gatti_costellazione_hara_rota",
+      "relation": "continuity_of_care",
+      "description": "I gatti misurano la presenza affettiva. Il riso misura la presenza della cura."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "wabi_sabi",
+      "ma",
+      "omotenashi",
+      "ichigo_ichie",
+      "kokyu"
+    ],
+
+    "narrative_mechanics": [
+      "memoria_muscolare",
+      "trasmissione_generazionale",
+      "rituale_quotidiano",
+      "continuita"
+    ],
+
+    "metaphysical_tags": [
+      "presenza_residua",
+      "cura_incorporata",
+      "tempo_lento",
+      "eredita_corporea"
+    ]
+  },
+
+  "glossary_terms": [
+    "ma",
+    "omotenashi",
+    "wabi_sabi",
+    "ichigo_ichie",
+    "kokyu"
+  ],
+
+  "system_position": {
+    "parent_structure": "Ali di carta di riso",
+
+    "triad": {
+      "yuki": "perdita",
+      "stazione_talpa": "attraversamento",
+      "riso": "continuita"
+    }
+  },
+
+  "system_note": "Nel sistema narrativo di Ali di carta di riso il riso costituisce il Continuity Core. Se Yuki è la ferita originaria e la Stazione Talpa è il luogo in cui quella ferita viene attraversata, il riso è ciò che permette alla vita di continuare senza negare il dolore. Non risolve la perdita. Le costruisce attorno una forma abitabile."
+}
