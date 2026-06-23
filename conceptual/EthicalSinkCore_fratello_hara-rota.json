@@ -1,0 +1,108 @@
+{
+  "type": "EthicalSinkCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "fratello_colpa_non_detta",
+  "label": "Il fratello — nodo di colpa non nominata e assorbimento etico",
+
+  "classification": {
+    "entity_type": "ethical_sink",
+    "structural_role": "guilt_absorption_node",
+    "emotional_role": "unspoken_weight",
+    "metaphysical_role": "non_resolution_chamber"
+  },
+
+  "core_statement": "Il fratello non è definito dalla sua azione, ma dal fatto che quella azione non viene mai detta. Il silenzio è la sua forma narrativa.",
+
+  "ontology": {
+    "presence_mode": "colpa_silenziosa",
+    "visibility": "implicita_non_narrata",
+    "narrative_density": "alta_per_repressione",
+    "system_position": "nodo_di_assorbimento_morale"
+  },
+
+  "guilt_layer": {
+    "act": "ha spinto Yuki giù dalle scale",
+
+    "naming_rule": "non viene verbalizzato nel sistema narrativo esplicito",
+
+    "effect": "la colpa esiste solo come pressione distribuita nei comportamenti familiari",
+
+    "family_silence": "il silenzio non nasconde il fatto — lo stabilizza"
+  },
+
+  "cat_witness": {
+    "role": "testimone non giudicante",
+
+    "function": "trasforma la colpa in peso corporeo condiviso",
+
+    "behavior": "il gatto dorme sul fratello senza distinguere colpa e persona",
+
+    "sensation": "calore continuo, respiro sincronizzato, assenza di giudizio"
+  },
+
+  "grief_body": {
+    "mechanism": "la colpa si manifesta come lentezza corporea",
+
+    "morning_layer": "campanella come interruzione forzata del contenimento",
+
+    "protection_structure": "le coperte diventano zona di sospensione morale"
+  },
+
+  "entities": [
+    { "id": "scale_vuote", "name": "Le scale dopo", "state": "localizzazione_della_frattura" },
+    { "id": "silenzio_familiare", "name": "Il silenzio a tavola", "state": "struttura_non_linguistica" },
+    { "id": "gatto_sul_fratello", "name": "Il gatto che dorme sul fratello", "state": "compressione_affettiva" },
+    { "id": "campanella", "name": "La campanella della colazione", "state": "interruzione_del_silenzio" },
+    { "id": "coda_che_ondeggia", "name": "La coda del gatto fuori dalle coperte", "state": "persistenza_della_vita" }
+  ],
+
+  "network_connections": [
+    {
+      "target": "yuki_central_presence",
+      "relation": "origin_of_sink",
+      "description": "Yuki è la sorgente della frattura che il fratello assorbe senza linguaggio."
+    },
+    {
+      "target": "gatti_costellazione_hara_rota",
+      "relation": "witness_system",
+      "description": "I gatti funzionano come dispositivi di registrazione affettiva non giudicante."
+    },
+    {
+      "target": "riso_trasmissione_corporea",
+      "relation": "counterbalance",
+      "description": "Il riso è continuità gestuale; il fratello è interruzione morale non risolta."
+    },
+    {
+      "target": "ryokan_intertextual_basho",
+      "relation": "compression_parallel",
+      "description": "Entrambi sono spazi di stasi, ma il ryokan è interpretativo mentre il fratello è etico."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "mono_no_aware", "wabi_sabi"],
+
+    "narrative_mechanics": [
+      "moral_compression",
+      "unspoken_guilt_structure",
+      "affective_displacement"
+    ],
+
+    "metaphysical_tags": [
+      "colpa_senza_linguaggio",
+      "peso_distribuito",
+      "testimone_non_giudicante"
+    ]
+  },
+
+  "system_note": "Il fratello è il punto in cui il libro trattiene il giudizio. Tutti gli altri nodi (Yuki, ryokan, gatti, riso) elaborano il dolore. Lui lo contiene senza trasformarlo in parola. È il sink etico del sistema narrativo."
+}
