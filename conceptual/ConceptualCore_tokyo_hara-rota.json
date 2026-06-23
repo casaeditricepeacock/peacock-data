@@ -1,0 +1,104 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "tokyo_basho_movimento",
+  "label": "Tokyo — bashō del movimento e campo relazionale",
+
+  "classification": {
+    "entity_type": "urban_basho",
+    "structural_role": "relational_field_resynchronizer",
+    "emotional_role": "re_entry_space",
+    "metaphysical_role": "circulation_engine"
+  },
+
+  "core_statement": "Tokyo non è sfondo. È l'organismo che rimette in circolo ciò che il ryokan ha addensato e ciò che la Stazione Talpa ha sottratto alla superficie.",
+
+  "ontology": {
+    "presence_mode": "campo_attivo",
+    "visibility": "totale_sensoriale",
+    "narrative_density": "alta_diffusa",
+    "system_position": "spazio_di_ritorno_e_ricomposizione"
+  },
+
+  "basho_analysis": {
+    "definition": "Tokyo è il bashō urbano più esteso del libro: non un luogo ma un campo relazionale che riattiva ciò che era stato sospeso o compresso.",
+    "operation": "La città muove i personaggi prima della loro intenzione. Non introduce eventi: riattiva possibilità.",
+
+    "layers": [
+      {
+        "layer": "sensoriale",
+        "content": "Metropolitana, neon, odori, pioggia sull'asfalto, silenzio improvviso tra due quartieri. La città come sistema percettivo continuo."
+      },
+      {
+        "layer": "relazionale",
+        "content": "Tokyo consente il ricongiungimento non esplicito tra narratrice e Rie. Non lo produce: lo rende possibile."
+      },
+      {
+        "layer": "sotterraneo",
+        "content": "La Stazione Talpa come contro-campo: sotto la città visibile opera una seconda infrastruttura emotiva."
+      }
+    ]
+  },
+
+  "structural_role_in_book": {
+    "function": "ricircolo",
+    "sequence": "ryokan → addensamento → Stazione Talpa → discesa → Tokyo → riattivazione",
+    "principle": "Tokyo non risolve il sistema narrativo: ne riattiva la circolazione dopo la sospensione e la colpa."
+  },
+
+  "rie_arc": {
+    "setting": "Tokyo",
+    "state": "presenza senza spiegazione",
+    "event": "Rie ritrovata con la gattina",
+    "sensation": "futon condiviso, respiro sincronizzato, assenza di necessità narrativa",
+    "note": "Il compimento non è spiegato: è accaduto nel campo urbano, non nel campo simbolico."
+  },
+
+  "double_level_tokyo": {
+    "surface": "città visibile — flusso, densità, discontinuità spaziale",
+    "subsurface": "Stazione Talpa — infrastruttura sotterranea percettiva",
+    "relation": "Tokyo esiste solo come sovrapposizione di livelli non separabili"
+  },
+
+  "network_connections": [
+    {
+      "target": "ryokan_basho_sospensione",
+      "relation": "phase_transition",
+      "description": "Il ryokan sospende; Tokyo riattiva."
+    },
+    {
+      "target": "stazione_talpa_basho",
+      "relation": "subsurface_counterfield",
+      "description": "La Stazione Talpa è il negativo sotterraneo di Tokyo."
+    },
+    {
+      "target": "gatti_costellazione_hara_rota",
+      "relation": "final_integration_point",
+      "description": "La gattina di Rie chiude la costellazione felina nel campo urbano."
+    },
+    {
+      "target": "riso_trasmissione_corporea",
+      "relation": "continuity_restoration",
+      "description": "Tokyo permette alla continuità del gesto (riso, vita quotidiana) di riemergere dopo la sospensione."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["basho", "ma", "kokyu"],
+    "narrative_mechanics": ["riattivazione", "ricircolo", "compimento_non_esplicativo"],
+    "metaphysical_tags": ["città_organica", "ritorno_possibile", "doppio_livello_integrato"]
+  },
+
+  "glossary_terms": ["basho", "ma", "kokyu", "chikadō"],
+
+  "system_note": "Tokyo è il dispositivo di riattivazione del libro. Dopo la sospensione (ryokan) e la compressione (Stazione Talpa), la città non chiude la narrazione: la rimette in circolo senza bisogno di spiegazione. È il punto in cui la vita riprende senza diventare risoluzione."
+}
