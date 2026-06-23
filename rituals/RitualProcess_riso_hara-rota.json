@@ -1,0 +1,136 @@
+{
+  "type": "RitualProcess",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "process_id": "riso_rituale_memoria",
+  "label": "Il riso — rituale della continuità",
+
+  "classification": {
+    "process_type": "daily_ritual",
+    "narrative_role": "continuity_mechanism",
+    "emotional_role": "embodied_memory",
+    "temporal_role": "cyclical_time"
+  },
+
+  "core_statement": "Il riso non nutre soltanto il corpo. Conserva una forma di continuità tra generazioni attraverso il gesto ripetuto.",
+
+  "ontology": {
+    "transmission_mode": "corporeo",
+    "memory_type": "procedurale",
+    "learning_source": "imitazione_implicita",
+    "persistence": "quotidiana"
+  },
+
+  "ritual_arc": {
+    "structure": [
+      "purificazione",
+      "attesa",
+      "trasformazione",
+      "condivisione"
+    ],
+    "principle": "La trasformazione non avviene attraverso un evento eccezionale ma mediante una sequenza ripetuta di piccoli gesti."
+  },
+
+  "ritual_phases": [
+    {
+      "id": "washing",
+      "name": "lavaggio",
+      "sensory_profile": {
+        "tattile": "acqua fredda e chicchi mobili",
+        "visivo": "torbido che diventa limpido",
+        "uditivo": "fruscio sommesso dell'acqua"
+      },
+      "symbolic_function": "purificazione"
+    },
+    {
+      "id": "soaking",
+      "name": "ammollo",
+      "sensory_profile": {
+        "visivo": "trasformazione invisibile",
+        "propriocettivo": "sospensione dell'azione",
+        "temporale": "attesa"
+      },
+      "symbolic_function": "ma"
+    },
+    {
+      "id": "cooking",
+      "name": "cottura",
+      "sensory_profile": {
+        "olfattivo": "amido e vapore",
+        "uditivo": "bollore che rallenta",
+        "termico": "calore crescente"
+      },
+      "symbolic_function": "trasformazione"
+    },
+    {
+      "id": "serving",
+      "name": "servizio",
+      "sensory_profile": {
+        "termico": "ciotola calda",
+        "tattile": "peso del recipiente",
+        "visivo": "vapore che sale"
+      },
+      "symbolic_function": "cura"
+    }
+  ],
+
+  "memory_transmission": {
+    "source": "nonna",
+    "mechanism": "memoria muscolare",
+    "description": "La narratrice ripete gesti che il corpo conosce prima che la mente li formuli.",
+    "narrative_effect": "La nonna continua a partecipare al presente attraverso il movimento delle mani."
+  },
+
+  "symbolic_entities": [
+    { "id": "raw_grain", "name": "chicco crudo", "role": "potenziale" },
+    { "id": "washing_water", "name": "acqua del lavaggio", "role": "purificazione" },
+    { "id": "waiting_time", "name": "tempo dell'attesa", "role": "trasformazione invisibile" },
+    { "id": "steam", "name": "vapore", "role": "manifestazione del cambiamento" },
+    { "id": "bowl", "name": "ciotola", "role": "dono condiviso" }
+  ],
+
+  "family_network": {
+    "grandmother": {
+      "role": "origine del sapere corporeo"
+    },
+    "narrator": {
+      "role": "custode inconsapevole del gesto"
+    }
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "wabi_sabi",
+      "ma",
+      "omotenashi",
+      "ichigo_ichie",
+      "kokyu"
+    ],
+    "narrative_mechanics": [
+      "memoria_muscolare",
+      "trasmissione_intergenerazionale",
+      "ritualità_quotidiana"
+    ],
+    "metaphysical_tags": [
+      "presenza_residua",
+      "gesto_come_memoria",
+      "cura_invisibile"
+    ]
+  },
+
+  "network_connections": [
+    { "target": "yuki_central_presence", "relation": "life_continues_after_loss" },
+    { "target": "gatti_costellazione_hara_rota", "relation": "everyday_presence" },
+    { "target": "stazione_talpa_basho", "relation": "shared_silence" }
+  ],
+
+  "system_note": "Nel sistema narrativo di Ali di carta di riso il riso rappresenta la continuità. Se Yuki è la ferita e la Stazione Talpa è il luogo della sospensione, il riso è il gesto che permette al tempo di riprendere a scorrere. Non cancella il dolore: gli costruisce attorno una forma abitabile."
+}
