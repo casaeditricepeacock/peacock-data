@@ -1,0 +1,113 @@
+{
+  "type": "IntertextualBashoCore",
+  "version": "2.2",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "ryokan_intertextual_basho",
+  "label": "Il ryokan — camera intertestuale della sospensione narrativa",
+
+  "classification": {
+    "entity_type": "interpretive_space",
+    "structural_role": "translation_chamber",
+    "emotional_role": "desire_refractor",
+    "metaphysical_role": "meaning_modulation_field"
+  },
+
+  "core_statement": "Il ryokan non contiene la narrazione: la traduce. Ogni emozione che entra esce in una forma diversa, filtrata dalla pioggia, dalla carta di riso e dal silenzio.",
+
+  "ontology": {
+    "presence_mode": "interpretazione_forzata",
+    "visibility": "chiusa_dalla_pioggia",
+    "narrative_density": "alta_per_rifrazione",
+    "system_position": "camera_di_riformulazione_del_senso"
+  },
+
+  "basho_function": {
+    "definition": "Il ryokan è uno spazio che non produce eventi ma variazioni di significato.",
+
+    "mechanism": "isolamento + pioggia continua + lettura intertestuale obbligata",
+
+    "effect": "ogni esperienza diventa traduzione di un'altra esperienza"
+  },
+
+  "hemingway_intertextuality": {
+    "text": "Cat in the Rain — Ernest Hemingway",
+
+    "function": "non citazione ma dispositivo di riscrittura percettiva",
+
+    "parallel_structure": {
+      "hemingway_woman": "desiderio esplicito",
+      "narrator": "desiderio implicito",
+      "hemingway_husband": "incomprensione strutturale",
+      "rie": "assenza che non risponde ma riformula lo spazio emotivo"
+    },
+
+    "cat_resolution": "Il gatto finale non coincide con il desiderio iniziale: il sistema del desiderio è ciò che viene osservato, non il suo oggetto.",
+
+    "reading_effect": "il testo diventa uno specchio che non riflette immagini ma strutture emotive"
+  },
+
+  "rain_operator": {
+    "function": "La pioggia è un operatore semantico, non atmosferico.",
+
+    "effect": "chiude lo spazio fisico e apre lo spazio interpretativo",
+
+    "role": "impone lentezza e impossibilità di fuga narrativa"
+  },
+
+  "shoji_mechanics": {
+    "material": "carta di riso",
+
+    "function": "filtro tra interno ed esterno",
+
+    "narrative_role": "trasforma ogni luce in informazione attenuata"
+  },
+
+  "network_connections": [
+    {
+      "target": "yuki_central_presence",
+      "relation": "desire_reflection",
+      "description": "Il ryokan non mostra Yuki: mostra come la sua assenza viene interpretata."
+    },
+    {
+      "target": "stazione_talpa_basho",
+      "relation": "orthogonal_space",
+      "description": "La Stazione Talpa è spazio verticale di discesa. Il ryokan è spazio orizzontale di stasi interpretativa."
+    },
+    {
+      "target": "ciliegi_emotional_register",
+      "relation": "contrastive_filter",
+      "description": "I ciliegi codificano il tempo. Il ryokan codifica la lettura del tempo."
+    },
+    {
+      "target": "riso_trasmissione_corporea",
+      "relation": "non_translation_zone",
+      "description": "Il riso resta gesto puro; il ryokan invece trasforma tutto in interpretazione."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "yūgen", "basho", "mono_no_aware"],
+
+    "narrative_mechanics": [
+      "intertextual_refraction",
+      "meaning_translation",
+      "emotional_modulation"
+    ],
+
+    "metaphysical_tags": [
+      "stanza_come_interprete",
+      "pioggia_come_codice",
+      "assenza_come_linguaggio_secondario"
+    ]
+  },
+
+  "system_note": "Il ryokan è il punto in cui il libro smette di raccontare direttamente e inizia a interpretarsi attraverso altri testi. Hemingway non è citazione: è il dispositivo che mostra come il desiderio cambia forma quando viene chiuso in una stanza dalla pioggia."
+}
