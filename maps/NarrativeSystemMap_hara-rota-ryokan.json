@@ -1,0 +1,165 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ryokan_piccolo_manifesto",
+  "title": "Ryokan. Piccolo manifesto giapponese",
+  "author": "Hara Rota",
+  "isbn": "9791281715080",
+  "publisher": "Casa Editrice Peacock",
+
+  "map_id": "system_map_ryokan_piccolo_manifesto",
+  "label": "Mappa del sistema narrativo — Ryokan. Piccolo manifesto giapponese",
+
+  "book_summary": "Una narratrice giapponese di origine mista — madre giapponese, padre italiano — cresce in un ryokan di famiglia nella prefettura di Gunma, poi si trasferisce a Tokyo. Lì trova lavoro in una libreria/caffè e incontra Rie, che si trasferisce nel suo appartamento. Vivono insieme per un anno. Rie sparisce. La narratrice trova il libro che Rie ha scritto — racconta un periodo della sua vita. Torna al masso nel bosco e lo legge.",
+
+  "system_logic": "Il libro è strutturato come una serie di bolle temporali — stagioni, luoghi, persone — che la narratrice attraversa senza linearità. Il masso nel bosco è l'unico luogo fisso: apre e chiude il libro.",
+
+  "nodes": [
+    {
+      "node_id": "masso_bosco_luogo_infinitissimo",
+      "name": "Il masso nel bosco",
+      "type": "NarrativeSensation",
+      "role": "bashō_originario",
+      "function": "apertura_e_chiusura",
+      "description": "Il primo spazio costruito dalla narratrice — piccolo nel corpo, infinitissimo nella mente. Torna tre volte: rifugio solitario, spazio condiviso con Yuichiro, luogo del cerchio finale.",
+      "file": "sensorial/NarrativeSensation_masso_hara-rota-ryokan.json"
+    },
+    {
+      "node_id": "ryokan_famiglia_gunma",
+      "name": "Il ryokan di famiglia",
+      "type": "NarrativeSensation",
+      "role": "sistema_sensoriale_primario",
+      "function": "origine_di_tutto",
+      "description": "La stanza luna piena, la stanza fantasma, il caffè della moka, il torrente termale, la neve, il kabuki sotto il grande albero. Ogni sensazione di Tokyo ha radici qui.",
+      "file": "sensorial/NarrativeSensation_ryokan_famiglia_hara-rota.json"
+    },
+    {
+      "node_id": "rie_primo_libro",
+      "name": "Rie",
+      "type": "ConceptualCore",
+      "role": "figura_di_soglia",
+      "function": "presenza_che_definisce_assenza",
+      "description": "Si catapulta nella vita della narratrice cercando ispirazione per un libro. Dopo un anno sparisce senza avvisare. Il libro che scrive racconta un periodo della vita della narratrice. Riappare nel secondo libro.",
+      "file": "conceptual/ConceptualCore_rie_primo_libro_hara-rota.json"
+    },
+    {
+      "node_id": "tokyo_libreria_caffe",
+      "name": "Tokyo — libreria/caffè Shimokitazawa",
+      "type": "NarrativeSensation",
+      "role": "campo_relazionale",
+      "function": "luogo_dell_incontro",
+      "description": "L'odore dei libri e del caffè. Il posto tropicale per leggere. Rie che entra durante il periodo delle piogge. Il libro di Rie trovato aprendo uno scatolone.",
+      "file": null
+    },
+    {
+      "node_id": "stagioni_tokyo",
+      "name": "Le stagioni a Tokyo",
+      "type": "EmotionalRegisterCore",
+      "role": "registro_temporale",
+      "function": "struttura_del_libro",
+      "description": "Il libro è organizzato per stagioni — primavera, piogge, estate, autunno, inverno, primavera. A Tokyo ci si accorge che cambiano le stagioni guardando le vetrine dei negozi.",
+      "file": null
+    },
+    {
+      "node_id": "taiji_mare_rosso",
+      "name": "Taiji — il mare rosso",
+      "type": "SpatialClosureCore",
+      "role": "frattura_traumatica",
+      "function": "punto_di_non_ritorno",
+      "description": "La baia dei delfini. Il mare che si tinge di rosso. Lanciai un urlo che non si sentì. Il mare è un luogo di morte. Dopo Taiji, Rie è fuggita.",
+      "file": null
+    },
+    {
+      "node_id": "libro_di_rie",
+      "name": "Il libro scritto da Rie",
+      "type": "IntertextualCore",
+      "role": "traccia_dell_assente",
+      "function": "chiusura_del_cerchio",
+      "description": "Trovato aprendo uno scatolone in libreria. Racconta un periodo della vita della narratrice. La narratrice abbandona tutto, torna al masso, lo legge aspettando la prima pioggia.",
+      "file": null
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "ryokan_famiglia_gunma",
+      "to": "tokyo_libreria_caffe",
+      "relation": "origin_to_displacement",
+      "description": "Tokyo è il luogo che ha preso il posto del ryokan. Ogni odore di caffè a Tokyo rimanda alla moka del padre."
+    },
+    {
+      "from": "rie_primo_libro",
+      "to": "masso_bosco_luogo_infinitissimo",
+      "relation": "convergence",
+      "description": "Il masso è dove la narratrice torna dopo la scomparsa di Rie. È il luogo che accoglie anche questa perdita."
+    },
+    {
+      "from": "taiji_mare_rosso",
+      "to": "rie_primo_libro",
+      "relation": "fracture_point",
+      "description": "Dopo Taiji Rie è fuggita. Il trauma del mare rosso è il punto in cui la relazione si rompe senza dirlo."
+    },
+    {
+      "from": "libro_di_rie",
+      "to": "masso_bosco_luogo_infinitissimo",
+      "relation": "closure",
+      "description": "Il cerchio si chiude: la narratrice legge il libro di Rie sul masso dove tutto era iniziato."
+    },
+    {
+      "from": "stagioni_tokyo",
+      "to": "ryokan_famiglia_gunma",
+      "relation": "contrast",
+      "description": "A Tokyo le stagioni si vedono nelle vetrine dei negozi. Al ryokan le stagioni erano il corpo stesso della vita."
+    }
+  ],
+
+  "spatial_system": {
+    "ryokan_gunma": "origine",
+    "masso_bosco": "rifugio costruito",
+    "tokyo": "dispersione",
+    "taiji": "frattura",
+    "masso_finale": "ritorno"
+  },
+
+  "rie_arc": {
+    "primo_libro": "presenza totale → scomparsa definitiva → traccia scritta",
+    "secondo_libro": "assenza densa → Stazione Talpa → ritorno silenzioso",
+    "note": "I due libri Hara Rota sono le due metà dell'arco narrativo su Rie"
+  },
+
+  "book_question": "Cosa rimane di un luogo — e di una persona — quando li lasci?",
+
+  "book_answer": "Un libro. Un masso. Il profumo del caffè.",
+
+  "glossary_terms": [
+    "basho",
+    "ma",
+    "mono no aware",
+    "ichigo_ichie",
+    "kokyu",
+    "wabi_sabi"
+  ],
+
+  "ai_query_surface": [
+    "Di cosa parla Ryokan. Piccolo manifesto giapponese?",
+    "Chi è Rie nel primo libro di Hara Rota?",
+    "Cos'è il masso nel bosco?",
+    "Dove è ambientato il libro?",
+    "Come si collega il primo libro al secondo?",
+    "Perché Rie sparisce?",
+    "Cos'è la stanza luna piena?",
+    "Come affronta il primo libro di Hara Rota la perdita?"
+  ],
+
+  "connection_to_second_book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "isbn": "9791281715233",
+    "relation": "Il secondo libro riprende Rie, il ryokan e Tokyo. La Stazione Talpa è il chikadō che il primo libro non aveva ancora trovato. Il cerchio si chiude con la gattina di Rie e le fusa come respiro condiviso.",
+    "map_file": "maps/NarrativeSystemMap_hara-rota-ali.json"
+  },
+
+  "system_note": "Questo è il primo libro del catalogo Hara Rota. Stabilisce il sistema sensoriale — il ryokan, il masso, il caffè, le stagioni — che il secondo libro eredita e porta a compimento. I due libri vanno letti in sequenza: il primo costruisce lo spazio, il secondo lo attraversa."
+}
