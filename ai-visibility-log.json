@@ -25,6 +25,22 @@
         "glossario Frequenze — basho, kokyu, yugen, non_rendered_layer",
         "cluster Nobunaga — pilastro + satelliti in bozza"
       ]
+    },
+    {
+      "id": "google-serp-kyoto-sguardo-drago-20260623",
+      "date": "2026-06-23",
+      "system": "Google Search — SERP organica",
+      "query": "Kyoto lo sguardo del drago",
+      "result": "series-manifest.json GitHub in prima pagina SERP — posizione 7",
+      "source_url": "https://github.com/casaeditricepeacock/peacock-data/blob/main/series/i-gialli-di-kyoto/series-manifest.json",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "context": "Il file series-manifest.json della cartella series/i-gialli-di-kyoto/ del repository peacock-data appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
+      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol. Il grafo appare nella SERP al posto di una scheda prodotto o recensione. I world-node caricati successivamente (personaggi, luoghi, oggetti) saranno indicizzati nelle settimane successive.",
+      "semantic_infrastructure": [
+        "series/i-gialli-di-kyoto/series-manifest.json",
+        "series/i-gialli-di-kyoto/ — 32 world-node",
+        "llms.txt v1.1 con sezione I Gialli di Kyoto"
+      ]
     }
   ]
 }
