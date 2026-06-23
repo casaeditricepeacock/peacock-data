@@ -1,0 +1,121 @@
+{
+  "type": "SpatialClosureCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "ryokan_stanza_fantasma",
+  "label": "Il ryokan — camera di assenza e compressione narrativa",
+
+  "classification": {
+    "entity_type": "spatial_closure_core",
+    "structural_role": "emotional_pressure_chamber",
+    "emotional_role": "absence_amplifier",
+    "metaphysical_role": "stillness_as_structure"
+  },
+
+  "core_statement": "Nel ryokan la narrazione non procede. Si comprime. L'assenza di Rie non è un vuoto: è una densità che occupa lo spazio più del corpo.",
+
+  "ontology": {
+    "presence_mode": "assenza_saturata",
+    "visibility": "ridotta_ma_intensa",
+    "narrative_density": "massima_staticità",
+    "system_position": "camera_di_sospensione_del_sistema"
+  },
+
+  "closure_function": {
+    "definition": "Il ryokan non aggiunge eventi al sistema narrativo. Li sospende tutti nello stesso spazio chiuso.",
+
+    "mechanism": "isolamento spaziale + pioggia continua + assenza relazionale",
+
+    "effect": "trasforma la mancanza in materia percettiva"
+  },
+
+  "room_profile": {
+    "name": "stanza fantasma",
+
+    "sensation": "tatami freddo, futon doppio vuoto, odore di legno e carta, luce lattiginosa filtrata dagli shoji",
+
+    "silence_quality": "silenzio abitato dall'assenza di Rie"
+  },
+
+  "rain_layer": {
+    "function": "La pioggia è la struttura che impedisce la fuga.",
+
+    "sensation": "rumore continuo sul tetto, grigio crescente, umidità che chiude lo spazio",
+
+    "narrative_role": "sigilla il capitolo come un contenitore chiuso"
+  },
+
+  "entities": [
+    {
+      "id": "futon_vuoto",
+      "name": "Il futon di Rie",
+      "state": "assenza_formalizzata",
+      "sensation": "impronta non più presente, ma ancora leggibile"
+    },
+    {
+      "id": "shoji",
+      "name": "Gli shoji sotto la pioggia",
+      "state": "membrana_attiva",
+      "sensation": "luce filtrata, vibrazione sottile della carta di riso"
+    },
+    {
+      "id": "tatami",
+      "name": "Il tatami",
+      "state": "supporto_mnemonico",
+      "sensation": "freddo, trama vegetale, contatto diretto col corpo"
+    },
+    {
+      "id": "hemingway",
+      "name": "Cat in the Rain — Hemingway",
+      "state": "specchio_strutturale",
+      "sensation": "desiderio non soddisfatto che risuona nella stanza"
+    },
+    {
+      "id": "rie_assente",
+      "name": "Rie che non c'è",
+      "state": "assenza_saturata",
+      "sensation": "presenza percepita come spazio occupato dal vuoto"
+    }
+  ],
+
+  "hemingway_mirror": {
+    "function": "Il testo di Hemingway non è citazione ma risonanza strutturale.",
+
+    "parallel": "desiderio → incomprensione → oggetto che arriva ma non coincide",
+
+    "effect": "la stanza diventa eco di un desiderio non risolto"
+  },
+
+  "network_connections": [
+    { "target": "yuki_central_presence", "relation": "internalized_loss" },
+    { "target": "stazione_talpa_basho", "relation": "spatial_opposite" },
+    { "target": "riso_trasmissione_corporea", "relation": "counter_process" },
+    { "target": "ciliegi_emotional_register", "relation": "temporal_contrast" }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "yūgen", "mono_no_aware"],
+
+    "narrative_mechanics": [
+      "compressione_spaziale",
+      "assenza_attiva",
+      "stasi_emotiva"
+    ],
+
+    "metaphysical_tags": [
+      "stanza_come_soglia_invertita",
+      "pioggia_come_sigillo",
+      "assenza_come_materia"
+    ]
+  },
+
+  "system_note": "Il ryokan è il punto di massima immobilità del sistema. Se la Stazione Talpa è discesa e il riso è continuità, il ryokan è sospensione assoluta: tutto ciò che manca diventa più presente di ciò che c'è."
+}
