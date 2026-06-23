@@ -1,0 +1,167 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "map_id": "system_map_ali_di_carta_di_riso",
+  "label": "Mappa del sistema narrativo — Ali di carta di riso",
+
+  "book_summary": "Il libro non racconta il lutto ma lo rende abitabile attraverso un sistema di luoghi (ryokan, Stazione Talpa, Tokyo), gesti (riso), entità sensoriali (gatti) e nuclei di assenza (Yuki, il fratello). La narrazione è un campo di risonanza più che una sequenza di eventi.",
+
+  "system_logic": "Il sistema non è lineare ma topologico: il significato emerge dalle relazioni tra nodi, non dai nodi stessi.",
+
+  "nodes": [
+    {
+      "node_id": "yuki_central_presence",
+      "name": "Yuki",
+      "type": "AbsenceCore",
+      "role": "frattura_generativa",
+      "function": "origine_del_sistema",
+      "description": "Centro assente del sistema. Non è un personaggio ma una discontinuità che struttura tutti gli altri nodi.",
+      "file": "conceptual/ConceptualCore_yuki_hara-rota.json"
+    },
+    {
+      "node_id": "fratello_colpa_non_detta",
+      "name": "Il fratello",
+      "type": "GuiltCore",
+      "role": "sink_etico",
+      "function": "compressione_silenziosa",
+      "description": "Nodo di colpa non nominata. Non genera azione ma campo di tensione stabile.",
+      "file": "conceptual/EthicalSinkCore_fratello_hara-rota.json"
+    },
+    {
+      "node_id": "riso_trasmissione_corporea",
+      "name": "Il riso",
+      "type": "ContinuityCore",
+      "role": "flusso",
+      "function": "respiro_sistemico",
+      "description": "Gesto ripetitivo che mantiene il sistema vitale. Trasferisce memoria senza linguaggio.",
+      "file": "conceptual/ContinuityCore_riso_hara-rota.json"
+    },
+    {
+      "node_id": "ciliegi_mono_no_aware",
+      "name": "I ciliegi",
+      "type": "TemporalAestheticCore",
+      "role": "registro_emotivo",
+      "function": "modulazione_della_percezione",
+      "description": "Indicatore di impermanenza. Definisce la qualità temporale dell'intero sistema.",
+      "file": "conceptual/AestheticCore_ciliegi_hara-rota.json"
+    },
+    {
+      "node_id": "ryokan_stanza_fantasma",
+      "name": "Ryokan",
+      "type": "SuspensionCore",
+      "role": "compressione",
+      "function": "stasi_narrativa",
+      "description": "Spazio di sospensione dove il tempo si blocca e il desiderio diventa percezione.",
+      "file": "conceptual/SpatialClosureCore_ryokan_hara-rota.json"
+    },
+    {
+      "node_id": "stazione_talpa_basho",
+      "name": "Stazione Talpa",
+      "type": "DescentCore",
+      "role": "attraversamento",
+      "function": "discesa_strutturale",
+      "description": "Spazio liminale sotterraneo. Trasforma il vuoto in esperienza sensoriale.",
+      "file": "conceptual/conceptual_stazione-talpa_hara-rota.json"
+    },
+    {
+      "node_id": "tokyo_basho_movimento",
+      "name": "Tokyo",
+      "type": "ReactivationCore",
+      "role": "ricircolo",
+      "function": "riattivazione_sistemica",
+      "description": "Campo urbano che riattiva ciò che era sospeso o compresso negli altri nodi.",
+      "file": "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+    },
+    {
+      "node_id": "gatti_costellazione_hara_rota",
+      "name": "I gatti",
+      "type": "SensorialNetworkCore",
+      "role": "misuratori",
+      "function": "indicatori_presenza_assenza",
+      "description": "Rete sensoriale che traduce l'assenza in percezione distribuita.",
+      "file": "sensorial/NarrativeSensation_gatti_hara-rota.json"
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "yuki_central_presence",
+      "to": "fratello_colpa_non_detta",
+      "relation": "causal_shadow",
+      "description": "La colpa del fratello è la traccia diretta dell'assenza di Yuki."
+    },
+    {
+      "from": "yuki_central_presence",
+      "to": "ciliegi_mono_no_aware",
+      "relation": "temporal_equivalence",
+      "description": "Entrambi definiscono la brevità come struttura del senso."
+    },
+    {
+      "from": "riso_trasmissione_corporea",
+      "to": "yuki_central_presence",
+      "relation": "counterbalance",
+      "description": "La continuità del gesto bilancia la frattura della perdita."
+    },
+    {
+      "from": "ryokan_stanza_fantasma",
+      "to": "stazione_talpa_basho",
+      "relation": "vertical_opposition",
+      "description": "Sospensione orizzontale vs discesa verticale."
+    },
+    {
+      "from": "stazione_talpa_basho",
+      "to": "tokyo_basho_movimento",
+      "relation": "reactivation_sequence",
+      "description": "La discesa rende possibile la riemersione."
+    },
+    {
+      "from": "tokyo_basho_movimento",
+      "to": "gatti_costellazione_hara_rota",
+      "relation": "integration",
+      "description": "La rete sensoriale si chiude nel campo urbano."
+    }
+  ],
+
+  "system_quadrant": {
+    "yuki": "assenza_originaria",
+    "fratello": "colpa_non_detta",
+    "riso": "continuità_corporea",
+    "ciliegi": "impermanenza_visibile"
+  },
+
+  "spatial_triad": {
+    "ryokan": "compressione",
+    "stazione_talpa": "attraversamento",
+    "tokyo": "riattivazione"
+  },
+
+  "system_dynamics": {
+    "phase_1": "addensamento (ryokan)",
+    "phase_2": "compressione verticale (stazione talpa)",
+    "phase_3": "ricircolo (tokyo)",
+    "loop_type": "non-chiusura: il sistema resta aperto"
+  },
+
+  "book_answer": "Non una risoluzione. Una riconfigurazione del campo attorno all'assenza.",
+
+  "glossary_terms": [
+    "mono no aware",
+    "ma",
+    "yūgen",
+    "kokyu",
+    "basho",
+    "chikadō",
+    "non_rendered_layer"
+  ],
+
+  "system_note": "Questa versione trasforma la mappa da descrittiva a operativa: non rappresenta il libro, ne simula la logica interna. È un sistema interrogabile a livelli."
+}
