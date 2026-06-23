@@ -1,0 +1,151 @@
+{
+  "type": "AestheticCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "ciliegi_mono_no_aware",
+  "label": "I ciliegi — il volto visibile del mono no aware",
+
+  "classification": {
+    "entity_type": "aesthetic_core",
+    "structural_role": "interpretive_key",
+    "emotional_role": "sweet_sorrow_generator",
+    "metaphysical_role": "impermanence_embodiment"
+  },
+
+  "core_statement": "I ciliegi sono belli perché finiscono. La loro brevissima durata rende visibile la natura temporanea di ogni presenza. In Ali di carta di riso questo principio prende il nome di Yuki.",
+
+  "ontology": {
+    "presence_mode": "apparizione_temporanea",
+    "visibility": "massima_e_brevissima",
+    "narrative_density": "media_profonda",
+    "system_position": "chiave_interpretativa_del_libro"
+  },
+
+  "mono_no_aware_model": {
+    "definition": "La consapevolezza che ogni cosa bella è destinata a terminare.",
+
+    "paradox": "La fine non diminuisce la bellezza. La genera.",
+
+    "physical_response": "Una lieve contrazione nel petto causata dalla percezione simultanea di presenza e perdita.",
+
+    "book_function": "Fornisce il linguaggio emotivo con cui leggere Yuki, i gatti, la Stazione Talpa e il riso."
+  },
+
+  "seasonal_arc": {
+    "stages": [
+      { "id": "bud", "name": "bocciolo", "role": "attesa" },
+      { "id": "bloom", "name": "fioritura", "role": "pienezza" },
+      { "id": "falling_petal", "name": "petalo_che_cade", "role": "inizio_della_fine" },
+      { "id": "petal_ground", "name": "terra_coperta_di_petali", "role": "bellezza_residua" },
+      { "id": "bare_branches", "name": "rami_spogli", "role": "assenza" }
+    ],
+
+    "principle": "La forma completa del ciliegio comprende anche la sua scomparsa."
+  },
+
+  "hanami_layer": {
+    "ritual": "hanami",
+
+    "essence": "Celebrare qualcosa proprio perché durerà poco.",
+
+    "cultural_function": "Accettare la transitorietà senza cercare di correggerla.",
+
+    "book_function": "L'intero romanzo può essere letto come un hanami narrativo dedicato a Yuki."
+  },
+
+  "yuki_connection": {
+    "relationship": "structural_parallel",
+
+    "statement": "Yuki occupa nel romanzo la stessa posizione che il ciliegio occupa nell'immaginario giapponese.",
+
+    "shared_properties": [
+      "brevità",
+      "bellezza",
+      "fragilità",
+      "persistenza_nella_memoria"
+    ]
+  },
+
+  "petal_wings_relation": {
+    "observation": "Il petalo non precipita. Veleggia.",
+
+    "connection": "Le ali di carta di riso seguono lo stesso movimento.",
+
+    "important_distinction": {
+      "fall": "La caduta di Yuki è violenta.",
+      "wings": "La sua trasformazione successiva è lieve."
+    }
+  },
+
+  "absence_matrix": {
+    "yuki": {
+      "form": "assenza_personale",
+      "duration": "permanente",
+      "emotional_weight": "alta"
+    },
+
+    "cherry_blossoms": {
+      "form": "assenza_stagionale",
+      "duration": "ciclica",
+      "emotional_weight": "dolceamara"
+    }
+  },
+
+  "network_connections": [
+    { "target": "yuki_central_presence", "relation": "aesthetic_interpretation" },
+    { "target": "riso_trasmissione_corporea", "relation": "impermanence_and_continuity" },
+    { "target": "stazione_talpa_basho", "relation": "shared_temporality" },
+    { "target": "gatti_costellazione_hara_rota", "relation": "presence_absence_measurement" }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "mono_no_aware",
+      "wabi_sabi",
+      "ma",
+      "ichigo_ichie"
+    ],
+
+    "narrative_mechanics": [
+      "impermanenza",
+      "durata_limitata",
+      "bellezza_e_perdita",
+      "presenza_temporanea"
+    ],
+
+    "metaphysical_tags": [
+      "stagionalita",
+      "petalo_come_ala",
+      "apparizione",
+      "scomparsa"
+    ]
+  },
+
+  "glossary_terms": [
+    "mono no aware",
+    "wabi sabi",
+    "ma",
+    "ichigo ichie"
+  ],
+
+  "system_position": {
+    "parent_structure": "Ali di carta di riso",
+
+    "quadriga_concettuale": {
+      "yuki": "perdita",
+      "stazione_talpa": "attraversamento",
+      "riso": "continuita",
+      "ciliegi": "impermanenza"
+    }
+  },
+
+  "system_note": "I ciliegi costituiscono l'Aesthetic Core di Ali di carta di riso. Non spiegano il dolore, non lo curano e non lo attraversano. Insegnano semplicemente a guardarlo. Come i petali che cadono, Yuki mostra che alcune cose diventano pienamente visibili soltanto quando iniziano a scomparire."
+}
