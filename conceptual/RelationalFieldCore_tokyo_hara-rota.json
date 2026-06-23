@@ -1,0 +1,133 @@
+{
+  "type": "RelationalFieldCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "tokyo_ritorno_campo_relazionale",
+  "label": "Tokyo — campo di riattivazione narrativa",
+
+  "classification": {
+    "entity_type": "urban_relational_field",
+    "structural_role": "reactivation_environment",
+    "emotional_role": "re_synchronization_space",
+    "metaphysical_role": "movement_restorer"
+  },
+
+  "core_statement": "Tokyo non è uno sfondo e non è un centro. È il campo in cui ciò che era sospeso riprende movimento senza essere risolto.",
+
+  "ontology": {
+    "presence_mode": "attivazione_diffusa",
+    "visibility": "pervasiva_non_centrale",
+    "narrative_density": "variabile_alta",
+    "system_position": "campo_di_riemersione"
+  },
+
+  "tokyo_as_field": {
+    "definition": "Tokyo non organizza la narrazione: la riattiva.",
+
+    "sensory_density": "flusso continuo di stimoli non gerarchici",
+
+    "movement_quality": "il corpo si sincronizza senza decisione cosciente"
+  },
+
+  "return_sensation": {
+    "arrival": "il corpo viene reinserito nel flusso urbano",
+
+    "physical_shift": "respirazione e passo si riadattano al ritmo collettivo",
+
+    "emotional_shift": "non comprensione ma riattivazione del movimento"
+  },
+
+  "entities": [
+    {
+      "id": "metropolitana",
+      "name": "La metropolitana di Tokyo",
+      "state": "circolazione_involontaria",
+      "sensation": "flusso ordinato di corpi che non si interrompe mai"
+    },
+    {
+      "id": "quartiere",
+      "name": "Discontinuità urbana",
+      "state": "cambio_di_registro",
+      "sensation": "micro-mondi adiacenti senza transizione narrativa"
+    },
+    {
+      "id": "rie_a_tokyo",
+      "name": "Rie ritrovata a Tokyo",
+      "state": "riemersione_relazionale",
+      "sensation": "presenza che non risolve il vuoto ma lo rende abitabile"
+    },
+    {
+      "id": "stazione_talpa_ingresso",
+      "name": "Soglia verso il sottosuolo",
+      "state": "accesso_verticale",
+      "sensation": "discesa come interruzione del campo urbano"
+    },
+    {
+      "id": "tokyo_notte",
+      "name": "Tokyo notturna",
+      "state": "persistenza_luminosa",
+      "sensation": "luce artificiale che impedisce la chiusura del giorno"
+    }
+  ],
+
+  "field_dynamics": {
+    "principle": "Tokyo non produce significato — riattiva significati sospesi da altri nodi.",
+
+    "interaction_model": "riemersione invece di risoluzione",
+
+    "contrast_nodes": {
+      "ryokan": "sospensione totale",
+      "stazione_talpa": "compressione verticale",
+      "tokyo": "riattivazione orizzontale"
+    }
+  },
+
+  "network_connections": [
+    {
+      "target": "ryokan_intertextual_basho",
+      "relation": "inverse_dynamics",
+      "description": "Ryokan interrompe il flusso; Tokyo lo riattiva."
+    },
+    {
+      "target": "stazione_talpa_basho",
+      "relation": "vertical_opposition",
+      "description": "Tokyo è orizzontale e diffusa; la Stazione Talpa è verticale e concentrata."
+    },
+    {
+      "target": "yuki_central_presence",
+      "relation": "recontextualization",
+      "description": "Tokyo non cancella Yuki, ma ne cambia il modo di essere percepita."
+    },
+    {
+      "target": "gatti_costellazione_hara_rota",
+      "relation": "ambient_reactivation",
+      "description": "I gatti riemergono come segnali di presenza nel campo urbano."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["basho", "ma", "kokyu"],
+
+    "narrative_mechanics": [
+      "reactivation",
+      "diffuse_movement",
+      "non_hierarchical_flow"
+    ],
+
+    "metaphysical_tags": [
+      "città_come_campo",
+      "movimento_senza_causa",
+      "riemersione_senza_risoluzione"
+    ]
+  },
+
+  "system_note": "Tokyo non è il punto finale del libro. È il campo che impedisce al libro di chiudersi definitivamente. Dopo sospensione (ryokan) e compressione (stazione talpa), introduce di nuovo movimento, ma senza risolvere nulla."
+}
