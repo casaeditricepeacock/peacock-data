@@ -1,0 +1,97 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "hara_rota_ryokan_piccolo_manifesto",
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "isbn": "9791281715080",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "core_id": "rie_primo_libro",
+  "label": "Rie — presenza totale e scomparsa definitiva",
+
+  "classification": {
+    "entity_type": "relational_core",
+    "structural_role": "presence_that_defines_absence",
+    "emotional_role": "axis_of_desire_and_loss",
+    "metaphysical_role": "threshold_figure"
+  },
+
+  "core_statement": "Rie entra nel libro come un'irruzione — si catapulta nella vita della narratrice. Lo lascia come sparisce la neve: senza avvisare, senza spiegazioni. Il libro è scritto nell'arco tra questi due momenti.",
+
+  "arrival": {
+    "setting": "libreria/caffè di Shimokitazawa, periodo delle piogge",
+    "mode": "si è semplicemente catapultata nella mia vita",
+    "stated_reason": "cercava ispirazione per scrivere un libro — ha trovato me",
+    "speed": "dopo due giorni si trasferisce nell'appartamento",
+    "sensory_breakdown": {
+      "visual": "luce accecante dalle vetrate",
+      "tactile": "un unico futon",
+      "olfactory": "moka la domenica mattina"
+    }
+  },
+
+  "shared_life": {
+    "space": "appartamento 7 tatami Shinjuku — corridoio largo due metri che gira il perimetro",
+    "objects": ["futon condiviso", "moka", "gattina senza nome"],
+    "rituals": ["caffè la domenica", "pic-nic sotto i ciliegi", "dormire abbracciate con la gattina"],
+    "dynamic": "Rie sparisce senza avvisare per brevi periodi. La narratrice impara a non chiedere — per paura di essere lasciata."
+  },
+
+  "disappearances": {
+    "pattern": "brevi scomparse senza spiegazione",
+    "final_disappearance": {
+      "setting": "Kanda Second Hand Book Festival — la folla le separa",
+      "sensory_breakdown": {
+        "proprioceptive": "il cuore che batte più veloce, panico dello smarrimento",
+        "visual": "cercare disperatamente nella folla"
+      },
+      "parallels": {
+        "emotional": "il terrore provato lasciando il ryokan di famiglia per Tokyo",
+        "conceptual": "la certezza intima e immediata che non sarebbe più tornata"
+      }
+    }
+  },
+
+  "book_written_by_rie": {
+    "discovery": "La narratrice trova il libro di Rie in libreria aprendo uno scatolone",
+    "content": "racconta un periodo della mia vita",
+    "response": "abbandona la libreria, prende il primo treno, torna al masso nel bosco",
+    "reading_condition": "legge il libro tutto di un fiato aspettando la prima pioggia",
+    "metaphysical_meaning": "Rie era sparita ma aveva lasciato il libro. Come il gatto invisibile nel secondo libro — assente come persona, presente come gesto"
+  },
+
+  "connection_to_second_book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "isbn": "9791281715233",
+    "rie_evolution": "Rie riappare nel secondo libro — il ryokan, la pioggia, l'assenza che riempie la stanza. Il libro di Hemingway letto nell'attesa.",
+    "resolution": "Alla Stazione Talpa. Tokyo. La gattina in braccio. Eravamo una famiglia.",
+    "note": "I due libri sono le due metà dello stesso arco narrativo su Rie."
+  },
+
+  "network_connections": [
+    {
+      "target": "masso_bosco_luogo_infinitissimo",
+      "relation": "convergence_point",
+      "description": "Il masso è il luogo dove la narratrice torna dopo la scomparsa di Rie — e dove legge il suo libro."
+    },
+    {
+      "target": "ryokan_famiglia_gunma",
+      "relation": "emotional_origin",
+      "description": "La paura di perdere Rie è la stessa paura di aver perso il ryokan. Tokyo insegna a lasciar scivolare."
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ichigo_ichie", "mono_no_aware", "ma", "basho"],
+    "narrative_mechanics": ["presenza_totale", "scomparsa_definitiva", "libro_come_traccia"],
+    "metaphysical_tags": ["figura_di_soglia", "assenza_che_scrive", "amore_non_detto"]
+  },
+
+  "system_note": "Rie è la figura di soglia di entrambi i libri Hara Rota. Nel primo libro è presenza totale che si trasforma in assenza definitiva. Nel secondo libro è assenza che torna — senza spiegazione, come era arrivata. Il catalogo Hara Rota è scritto attorno a lei."
+}
