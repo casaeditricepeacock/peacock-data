@@ -1,0 +1,116 @@
+{
+  "type": "ConceptualCore",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": "hara_rota_ali_di_carta_di_riso",
+  "title": "Ali di carta di riso",
+  "author": "Hara Rota",
+  "isbn": "9791281715233",
+  "publisher": "Casa Editrice Peacock",
+
+  "core_id": "yuki_central_presence",
+  "label": "Yuki — il centro invisibile",
+
+  "classification": {
+    "entity_type": "narrative_core",
+    "structural_role": "absent_center",
+    "emotional_role": "source_of_grief",
+    "metaphysical_role": "threshold_crosser"
+  },
+
+  "core_statement": "Le ali di carta di riso sono Yuki. Il titolo del libro non descrive un'immagine: nomina la sua trasformazione.",
+
+  "ontology": {
+    "presence_mode": "presenza_attraverso_assenza",
+    "visibility": "quasi_assente",
+    "narrative_density": "massima",
+    "system_position": "origine_di_tutte_le_risonanze"
+  },
+
+  "life_death_transition": {
+    "event": "caduta_dalle_scale",
+
+    "sequence": [
+      "presenza",
+      "caduta",
+      "rituale",
+      "attraversamento",
+      "presenza_diffusa"
+    ],
+
+    "interpretation": "La morte non interrompe la presenza narrativa di Yuki. Ne modifica la forma."
+  },
+
+  "threshold_model": {
+    "architectural_object": "shoji",
+    "material": "washi",
+
+    "symbolic_function": "confine permeabile tra mondi",
+
+    "crossing_type": "irreversible",
+
+    "statement": "Yuki non apre la soglia. La attraversa definitivamente."
+  },
+
+  "manifestations": [
+    { "id": "yuki_on_stairs", "role": "vita_prima_della_soglia" },
+    { "id": "the_fall", "role": "rottura" },
+    { "id": "funeral", "role": "ritualizzazione_dell_assenza" },
+    { "id": "rice_paper_wings", "role": "trasformazione" },
+    { "id": "diffused_presence", "role": "presenza_residua" }
+  ],
+
+  "symbolic_system": {
+    "stairs": "discesa involontaria",
+    "wings": "attraversamento",
+    "paper": "fragilità del confine",
+    "light": "continuità oltre la soglia",
+    "silence": "forma della presenza"
+  },
+
+  "cat_relation": {
+    "guardian": "gatto_con_coda_da_procione",
+
+    "function": "custode della soglia",
+
+    "interpretation": "Il gatto vede ciò che gli esseri umani non riescono a vedere."
+  },
+
+  "title_relation": {
+    "book_title": "Ali di carta di riso",
+
+    "reading": "Il titolo è una forma indiretta del nome di Yuki.",
+
+    "consequence": "L'intero romanzo orbita attorno a un personaggio che raramente occupa il centro della scena."
+  },
+
+  "network_connections": [
+    { "target": "gatti_costellazione_hara_rota", "relation": "source_of_absence" },
+    { "target": "stazione_talpa_basho", "relation": "space_of_processing" }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "mono_no_aware",
+      "yugen",
+      "ma"
+    ],
+
+    "narrative_mechanics": [
+      "assenza_attiva",
+      "eco",
+      "attraversamento",
+      "presenza_residua"
+    ],
+
+    "metaphysical_tags": [
+      "non_rendered_layer",
+      "threshold_crossing",
+      "invisible_center"
+    ]
+  },
+
+  "system_note": "Yuki costituisce il centro invisibile di Ali di carta di riso. I gatti misurano la sua assenza. La Stazione Talpa permette di attraversarla. Il titolo ne conserva la forma trasformata. Pur apparendo raramente, Yuki è l'elemento che organizza l'intero sistema narrativo."
+}
