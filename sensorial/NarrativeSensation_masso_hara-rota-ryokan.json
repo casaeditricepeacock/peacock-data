@@ -1,0 +1,95 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "isbn": "9791281715080",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "sensation_id": "masso_bosco_luogo_infinitissimo",
+  "label": "Il masso nel bosco — il piccolo ma infinitissimo spazio",
+
+  "intensity": "bassa_espansa",
+  "tempo": "sospeso_stagionale",
+
+  "sensory_channels": [
+    "tattile",
+    "uditivo",
+    "visivo",
+    "olfattivo",
+    "termico",
+    "propriocettivo"
+  ],
+
+  "core_statement": "Il masso non è un luogo fisico. È il primo spazio che la narratrice costruisce per se stessa — piccolo nel corpo, infinitissimo nella mente. Torna tre volte nel libro: primavera, estate, tardo autunno.",
+
+  "entities": [
+    {
+      "id": "masso_primavera",
+      "name": "Il masso con il futon preso di nascosto",
+      "state": "rifugio_costruito",
+      "gradient_position": 0.0,
+      "season": "primavera",
+      "sensory_breakdown": {
+        "tactile": "pietra tiepida sotto il corpo, futon rubato",
+        "auditory": "suono del torrente",
+        "conceptual": "i confini erano veramente infinitamente immensi"
+      }
+    },
+    {
+      "id": "masso_estate",
+      "name": "Il masso con Yuichiro",
+      "state": "condivisione",
+      "gradient_position": 0.5,
+      "season": "estate",
+      "sensory_breakdown": {
+        "tactile": "futon portato sulle spalle, libro tenuto in mano",
+        "auditory": "silenzio del bosco, suono del torrente",
+        "conceptual": "lo spazio privato diventa spazio condiviso — epifania di ichigo ichie: un'estate che non si ripeterà mai più nello stesso modo"
+      },
+      "ichigo_ichie_note": "L'estate con Yuichiro è il caso più puro di ichigo ichie nel libro: un incontro unico, irripetibile, che finisce senza drammi — l'estate finì presto."
+    },
+    {
+      "id": "masso_fine",
+      "name": "Il masso dopo Rie",
+      "state": "ritorno_finale",
+      "gradient_position": 1.0,
+      "season": "tardo_autunno",
+      "sensory_breakdown": {
+        "visual": "la prima pioggia che si attende",
+        "tactile": "le pagine del libro di Rie",
+        "thermal": "aria che si raffredda, avvicinarsi della prima neve",
+        "conceptual": "lo spazio infinitissimo accoglie il cerchio che si chiude e la fine del ciclo — poco prima che la neve torni a coprire tutto"
+      }
+    }
+  ],
+
+  "snow_erasure": {
+    "description": "Ogni anno il masso viene spazzato via dalla prima neve. Ogni primavera riappare. La narratrice lo saluta con un inchino come un vecchio amico.",
+    "sensation": "la neve che copre — poi il riapparire — poi l'inchino. Ciclico come il riso, stagionale come i ciliegi.",
+    "connected_term": "mono no aware",
+    "seasonal_logic": "Il ritorno al masso nel tardo autunno — con il libro di Rie, aspettando la pioggia — avviene nell'ultima stagione prima della neve. Il cerchio si chiude esattamente prima che lo spazio venga di nuovo cancellato."
+  },
+
+  "return_arc": {
+    "structure": "Il masso apre e chiude il libro. Non è flashback — è il luogo che aspetta sempre.",
+    "first_appearance": "rifugio solitario dell'infanzia — primavera",
+    "middle_appearance": "spazio condiviso con Yuichiro — estate — ichigo ichie",
+    "last_appearance": "luogo del cerchio finale — tardo autunno — leggere il libro di Rie prima della neve"
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "basho", "mono no aware", "wabi_sabi", "ichigo_ichie"],
+    "narrative_mechanics": ["luogo_che_ritorna", "spazio_costruito", "cerchio_narrativo", "stagionalità_crepuscolare"],
+    "metaphysical_tags": ["infinitissimo", "soglia_stagionale", "memoria_del_corpo"]
+  },
+
+  "connected_terms": ["ma", "basho", "mono no aware", "wabi_sabi", "ichigo_ichie"],
+
+  "system_note": "Il masso è il bashō originario di Hara Rota — il primo luogo che ha costruito per se stessa. Tutto il resto (Tokyo, il futon con Rie, la Stazione Talpa nel secondo libro) è una variazione di questo spazio: piccolo nel corpo, infinitissimo nella mente."
+}
