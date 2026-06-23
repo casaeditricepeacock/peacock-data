@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "hara_rota_ryokan_piccolo_manifesto",
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "isbn": "9791281715080",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "sensation_id": "ryokan_famiglia_gunma",
+  "label": "Il ryokan di famiglia — Gunma, le stagioni, la stanza luna piena",
+
+  "intensity": "densa_stratificata",
+  "tempo": "stagionale_ciclico",
+
+  "sensory_channels": [
+    "olfattivo",
+    "termico",
+    "uditivo",
+    "tattile",
+    "visivo",
+    "propriocettivo"
+  ],
+
+  "core_statement": "Il ryokan di famiglia non è un albergo. È il sistema nervoso del libro — ogni sensazione della narratrice ha radici qui: il caffè della moka, il futon, la neve, il torrente termale.",
+
+  "rooms": {
+    "stanza_luna_piena": {
+      "size": "4 tatami",
+      "status": "mai utilizzata dai clienti",
+      "occupant": "il gatto di Giorgio — nero e bianco, baffi lunghi, coda da procione",
+      "sensory_breakdown": {
+        "visual": "pareti in legno decorate da dipinti floreali in oro che narravano storie antiche, luce filtrata",
+        "auditory": "il respiro del gatto che detta le pause di lettura",
+        "conceptual": "atmosfera magica di isolamento privato, applicazione del kokyu"
+      }
+    },
+    "stanza_fantasma": {
+      "name": "stanza fantasma — come la chiamava la nonna",
+      "sensory_breakdown": {
+        "olfactory": "odore di caffè che saliva dalla cucina come a chiamare",
+        "proprioceptive": "le scale di legno riservate ai clienti percorse di corsa"
+      }
+    }
+  },
+
+  "sensory_anchors": [
+    {
+      "id": "caffe_moka",
+      "type": "olfactory_memory",
+      "description": "L'odore del caffè dalla moka è il filo che attraversa entrambi i libri. Nel ryokan viene dalla cucina del padre italiano. A Tokyo viene dalla moka di Rie la domenica mattina.",
+      "connection": "trasmissione corporea — come il riso nel secondo libro"
+    },
+    {
+      "id": "torrente_termale",
+      "type": "thermal_auditory",
+      "description": "Scorreva caldo anche d'inverno. In estate ci giocavano i fratelli. Il libro di Hiro trascinato dalla corrente come una canoa sulle rapide.",
+      "sensory_details": "acqua calda in acqua fredda, suono costante, vapore nell'aria fredda"
+    },
+    {
+      "id": "neve",
+      "type": "environmental_suspension",
+      "description": "Cadeva silenziosa. Copriva il masso. Chiudeva il ryokan tranne nei weekend. Le giornate erano lunghe e il sole calava presto.",
+      "sensory_details": "silenzio ovattato, alberi piegati sotto il peso, attesa della primavera"
+    },
+    {
+      "id": "kabuki_sotto_il_grande_albero",
+      "type": "cultural_ritual",
+      "description": "Lo storico ryokan vicino al lago. Ogni estate una compagnia di teatro kabuki. Palco sotto un grande albero con luce soffusa.",
+      "sensory_details": "correre tra i corridoi silenziosi, poi in riva al lago a ballare con la luna che si specchiava, foglie che danzano, profumo di incenso e cucina tradizionale"
+    }
+  ],
+
+  "father_layer": {
+    "origin": "italiano",
+    "presence": "la cucina e il profumo del caffè — unico legame rimasto con la sua terra",
+    "bento_anecdote": "sul Monte Arasawa — sempre una sorpresa italiana che riempiva il cuore di sorriso",
+    "narrative_fate": "Carlo a 16 anni costretto a trasferirsi a Tokyo — il padre rimasto nel ryokan per amore della madre"
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["basho", "ma", "kokyu", "wabi_sabi", "omotenashi"],
+    "narrative_mechanics": ["luogo_d_origine", "sistema_sensoriale_primario", "stagionalità"],
+    "metaphysical_tags": ["ryokan_come_corpo", "odore_come_memoria", "neve_come_sospensione"]
+  },
+
+  "system_note": "Il ryokan di famiglia è il bashō originario di tutto il catalogo Hara Rota. Non è un luogo visitato — è il luogo da cui si viene. Ogni appartamento di Tokyo, ogni futon condiviso, ogni odore di caffè è una variazione di questo spazio."
+}
