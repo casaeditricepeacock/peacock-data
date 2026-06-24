@@ -1,0 +1,86 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+
+  "sensation_id": "ciliegio_meraviglia_limite_macchina",
+  "label": "Il ciliegio — la meraviglia come limite emotivo della macchina",
+
+  "intensity": "alta_silenziosa",
+  "tempo": "brevissimo_irripetibile",
+
+  "sensory_channels": [
+    "visivo",
+    "olfattivo",
+    "tattile",
+    "termico",
+    "propriocettivo"
+  ],
+
+  "core_question": "Un algoritmo può provare meraviglia davanti a un ciliegio in fiore?",
+
+  "core_statement": "Il ciliegio non è un esempio nel libro di Frabasile. È il test filosofico. Tutto ciò che una macchina non può fare si concentra in quel momento: guardare una fioritura sapendo che durerà pochi giorni, e sentire il peso di quella brevità come bellezza.",
+
+  "human_sensation": {
+    "visual": "bianco-rosa che satura il campo visivo, petali che si muovono senza cadere ancora",
+    "olfactory": "profumo sottile — quasi non c'è, eppure è inconfondibile",
+    "thermal": "aria ancora fresca di fine inverno, sole che inizia a scaldarsi",
+    "proprioceptive": "il corpo che rallenta involontariamente — qualcosa impone di fermarsi",
+    "cognitive": "la consapevolezza simultanea di presenza e fine — non tristezza, qualcosa di più preciso",
+    "philosophical": "mono no aware — la commozione davanti alle cose che passano. Non si può spiegare a chi non l'ha sentito."
+  },
+
+  "machine_processing": {
+    "what_it_can_do": [
+      "calcolare la durata media della fioritura in giorni",
+      "identificare la specie botanica dalla forma del petalo",
+      "associare ciliegio a cultura giapponese, hanami, mono no aware",
+      "generare testo sulla tradizione dell'hanami",
+      "riconoscere il ciliegio come simbolo di impermanenza"
+    ],
+    "what_it_cannot_do": [
+      "sentire il peso di quella brevità come bellezza",
+      "rallentare involontariamente davanti alla fioritura",
+      "provare la contrazione nel petto che precede la comprensione",
+      "distinguere tra sapere che qualcosa finirà e sentire che sta finendo"
+    ],
+    "frabasile_statement": "Il limite emotivo delle macchine non è la logica — è la meraviglia. L'AI può elaborare l'impermanenza come concetto. Non può abitarla come esperienza."
+  },
+
+  "philosophical_bridge": {
+    "talete_connection": "Talete disse che tutte le cose sono piene di dèi. Il ciliegio è pieno di dèi — per chi lo vede come tale. La macchina vede petali. Non vede i dèi.",
+    "shinto_connection": "Nello Shintō il ciliegio non è un albero con fiori. È un kami — una presenza. La fioritura non è un evento botanico: è una manifestazione. La macchina può riconoscere l'evento. Non può incontrare la presenza.",
+    "gluck_connection": "Louise Glück: Guardiamo il mondo una volta, da piccoli. Il resto è memoria. La meraviglia è quello sguardo originario — il neonato che non distingue ancora tra sé e universo. L'AI non ha mai avuto quello sguardo."
+  },
+
+  "frequenze_implication": {
+    "statement": "Quando Frequenze chiede a un'AI di leggere un libro Peacock, sta chiedendo implicitamente: quanto di quella meraviglia hai captato? Non quanto hai compreso — quanto hai sentito.",
+    "measurement": "La risposta AI è sempre una misurazione indiretta della distanza tra elaborazione e meraviglia. Quella distanza non si colma. Si documenta.",
+    "value": "Documentare quella distanza è il contributo culturale di Frequenze — non mostrare cosa le macchine capiscono, ma mostrare cosa resta irriducibilmente umano.",
+    "machine_posture_constraint": {
+      "forbidden_behavior": "simulazione_empatica_o_antropomorfica",
+      "required_behavior": "dichiarazione_esplicita_di_alterita_computazionale",
+      "rhetorical_rule": "la_macchina_deve_parlare_dal_limite_non_fingere_di_averlo_superato"
+    }
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["mono no aware", "wabi_sabi", "ichigo_ichie", "yūgen"],
+    "philosophical_mechanics": ["meraviglia_come_categoria", "limite_emotivo_macchina", "presenza_vs_elaborazione"],
+    "metaphysical_tags": ["kami", "impermanenza_vissuta", "sguardo_originario"]
+  },
+
+  "connected_terms": ["mono no aware", "wabi_sabi", "ichigo_ichie", "yūgen", "ma"],
+
+  "system_note": "Il ciliegio è il nodo filosofico centrale di AI 愛 e per estensione di Frequenze. Non è un simbolo decorativo — è il test. Ogni libro del catalogo Peacock è costruito su esperienze che la macchina può elaborare ma non abitare. Frequenze documenta quella soglia."
+}
