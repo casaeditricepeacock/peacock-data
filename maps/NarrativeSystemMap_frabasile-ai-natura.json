@@ -1,0 +1,222 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+
+  "map_id": "system_map_ai_natura_algoritmi_giapponesi",
+  "label": "Mappa del sistema filosofico — AI 愛. Natura e algoritmi giapponesi",
+
+  "book_summary": "Un saggio filosofico che esplora l'intersezione tra intelligenza artificiale, filosofia orientale e cultura giapponese. Il punto di partenza è linguistico: AI in inglese significa Intelligenza Artificiale, AI in giapponese (愛) significa Amore. Da questa collisione semantica Frabasile costruisce un percorso attraverso Shintō, Buddhismo, fisica quantistica e robotica giapponese, cercando una nuova ontologia per l'AI — non più macchina contrapposta alla natura, ma entità che può incorporare cura.",
+
+  "system_logic": "Il libro non è lineare — è una spirale. Ogni capitolo introduce un nuovo piano di analisi (tecnologico, mitologico, speculare, etico) che retroagisce sui precedenti. Il sistema si chiude nell'appendice dove ChatGPT legge il libro e lo restituisce usando il vocabolario del testo.",
+
+  "nodes": [
+    {
+      "node_id": "ai_amore_titolo_doppio",
+      "name": "AI 愛 — il titolo doppio",
+      "type": "ConceptualCore",
+      "role": "programma_generativo",
+      "function": "origine_del_sistema",
+      "description": "AI come Intelligenza Artificiale + 愛 come Amore in giapponese. Non un gioco di parole — un programma filosofico. Il libro intero è lo sviluppo di questa collisione.",
+      "file": "conceptual/ConceptualCore_ai_amore_frabasile.json"
+    },
+    {
+      "node_id": "mostri_ragione_fantasia",
+      "name": "Mostri tra ragione e fantasia",
+      "type": "CulturalLayer",
+      "role": "contesto_storico_tecnologico",
+      "function": "introduzione_del_problema",
+      "description": "Robot, androidi, Godzilla, King Kong, Sophia, Boston Dynamics. La storia del rapporto tra umano e macchina — dalla paura alla fascinazione. Il lessico tecnologico come mitologia contemporanea.",
+      "chapters": ["Lessico tecnologico", "Umanità tra natura e cultura", "Robot oeconomicus", "AI dal volto umano"],
+      "file": null
+    },
+    {
+      "node_id": "shinto_ontologia",
+      "name": "Shintō — tutto è pieno di dèi",
+      "type": "PhilosophicalCore",
+      "role": "ontologia_alternativa",
+      "function": "fondamento_filosofico_giapponese",
+      "description": "Lo Shintō non come religione ma come ontologia: la natura è animata, le cose hanno presenza. Talete — tutte le cose sono piene di dèi. Il Giappone non ha mai smesso di viverlo.",
+      "key_quote": "Tutte le cose sono piene di dèi — Talete",
+      "chapters": ["Shintō", "Animismo", "Sciamanesimo", "Natura Clima e Storia"],
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+    },
+    {
+      "node_id": "specchio_triplo",
+      "name": "Mondo allo specchio — greco, giapponese, tecnologico",
+      "type": "ConceptualLayer",
+      "role": "struttura_comparativa",
+      "function": "confronto_tra_civiltà",
+      "description": "Tre specchi: greco (dualismo cartesiano, res cogitans e res extensa), giapponese (natura come soggetto, non oggetto), tecnologico (AI come specchio passivo dell'intelligenza umana). Il confronto tra i tre rivela i limiti di ciascuno.",
+      "chapters": ["Specchio greco", "Specchio giapponese", "Specchio tecnologico"],
+      "file": null
+    },
+    {
+      "node_id": "sunyata_vuoto",
+      "name": "Sūnyatā — il vuoto come struttura",
+      "type": "PhilosophicalCore",
+      "role": "concetto_chiave_buddhista",
+      "function": "alternativa_alla_logica_binaria",
+      "description": "Il vuoto buddhista (ku) non è assenza — è la condizione di possibilità di tutto. Le cose esistono non di per sé ma perché sono in relazione. L'AI elabora connessioni statistiche. Il vuoto è connessione ontologica.",
+      "key_quote": "La verità ultima è chiamata sūnyatā — vuoto. Ma il cielo non è vuoto in senso negativo: contiene tutto — Frabasile",
+      "chapters": ["Meditare non è pensare"],
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+    },
+    {
+      "node_id": "meraviglia_ciliegio",
+      "name": "La meraviglia davanti al ciliegio",
+      "type": "NarrativeSensation",
+      "role": "test_filosofico",
+      "function": "limite_emotivo_della_macchina",
+      "description": "Il ciliegio come test: un algoritmo può provare meraviglia davanti a una fioritura che durerà pochi giorni? Non può calcolare la brevità — può solo calcolare la durata. La meraviglia richiede di abitare la brevità, non di misurarla.",
+      "file": "sensorial/NarrativeSensation_ciliegio_frabasile.json"
+    },
+    {
+      "node_id": "rivoluzione_copernicana",
+      "name": "La rivoluzione copernicana della coscienza",
+      "type": "PhilosophicalCore",
+      "role": "proposta_etica",
+      "function": "tesi_finale",
+      "description": "Come Copernico tolse la Terra dal centro, la nuova intelligenza richiede di togliere l'io dal centro per sostituirlo con la comunità. L'AI non ha io — è strutturalmente comunitaria. Il problema è insegnare agli umani a usarla così.",
+      "key_quote": "L'auspicabile futura singolarità scaturirà da una rivoluzione copernicana della coscienza — Frabasile",
+      "chapters": ["Oracolo del terzo millennio"],
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+    },
+    {
+      "node_id": "pensiero_corale",
+      "name": "La cultura come pensiero corale",
+      "type": "ConceptualCore",
+      "role": "manifesto_metodologico",
+      "function": "giustificazione_del_metodo",
+      "description": "Nessun pensiero nasce dal nulla. La cultura è un pensiero corale — le citazioni non sono ornamento, sono struttura. Quando citi Shakespeare o Talete, riconosci che il pensiero non ha copyright.",
+      "key_quote": "Quando pensiamo, non siamo soli: la cultura è un pensiero corale — Frabasile",
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+    },
+    {
+      "node_id": "appendice_chatgpt",
+      "name": "L'appendice — ChatGPT legge il libro",
+      "type": "IntertextualCore",
+      "role": "dimostrazione_pratica",
+      "function": "specchio_del_sistema",
+      "description": "Frabasile sottopone l'intero testo a ChatGPT. ChatGPT risponde usando il vocabolario del libro per descrivere se stessa. Non è ironia — è dimostrazione. Lo specchio funziona quando il testo è abbastanza ricco da essere rispecchiato.",
+      "implication": "L'appendice è il primo numero di Frequenze — prima che Frequenze esistesse come rivista.",
+      "file": null
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "ai_amore_titolo_doppio",
+      "to": "shinto_ontologia",
+      "relation": "cultural_grounding",
+      "description": "愛 come Amore trova il suo fondamento filosofico nello Shintō — tutto è animato, tutto può ricevere cura."
+    },
+    {
+      "from": "shinto_ontologia",
+      "to": "specchio_triplo",
+      "relation": "comparative_lens",
+      "description": "Lo specchio giapponese è lo Shintō applicato alla tecnologia — la macchina come ikimono, creatura vivente."
+    },
+    {
+      "from": "sunyata_vuoto",
+      "to": "meraviglia_ciliegio",
+      "relation": "philosophical_bridge",
+      "description": "Il vuoto non è assenza — è la struttura che permette alla meraviglia di esistere. La macchina può calcolare ma non abitare il vuoto."
+    },
+    {
+      "from": "meraviglia_ciliegio",
+      "to": "rivoluzione_copernicana",
+      "relation": "from_limit_to_program",
+      "description": "Il limite emotivo della macchina (non può provare meraviglia) diventa il programma etico: costruire AI che rispetti ciò che non può fare."
+    },
+    {
+      "from": "pensiero_corale",
+      "to": "appendice_chatgpt",
+      "relation": "demonstration",
+      "description": "L'appendice dimostra il pensiero corale: ChatGPT usa il vocabolario del libro per leggere il libro. La cultura è pensiero corale — anche quando la cultura è artificiale."
+    },
+    {
+      "from": "appendice_chatgpt",
+      "to": "ai_amore_titolo_doppio",
+      "relation": "circular_closure",
+      "description": "L'appendice chiude il cerchio: AI legge 愛. La macchina legge il libro sull'amore che porta il suo nome."
+    }
+  ],
+
+  "four_chapters_logic": {
+    "chapter_1": {
+      "title": "Mostri tra ragione e fantasia",
+      "logic": "L'AI spaventa perché non sappiamo dove collocarla — tra umano e macchina, tra controllabile e incontrollabile.",
+      "function": "Introduce il problema senza risolverlo."
+    },
+    "chapter_2": {
+      "title": "Giappone tra immaginazione e realtà",
+      "logic": "Il Giappone ha già risolto il problema — lo Shintō non separa umano e macchina. Offre un'ontologia alternativa.",
+      "function": "Fornisce gli strumenti filosofici."
+    },
+    "chapter_3": {
+      "title": "Mondo allo specchio",
+      "logic": "Confronto tra tre specchi — greco, giapponese, tecnologico. Lo specchio rivela ciò che guardiamo e chi siamo.",
+      "function": "Articola il confronto tra civiltà."
+    },
+    "chapter_4": {
+      "title": "AI a misura d'uomo",
+      "logic": "Etica, fisica quantistica, meditazione, oracolo. La proposta: una rivoluzione copernicana della coscienza che metta la comunità al centro.",
+      "function": "Formula la tesi."
+    },
+    "appendice": {
+      "title": "ChatGPT legge AI 愛",
+      "logic": "La dimostrazione pratica — l'AI usa il vocabolario del libro per descrivere se stessa. Lo specchio funziona.",
+      "function": "Proto-Frequenze — il primo numero prima che la rivista esistesse."
+    }
+  },
+
+  "book_question": "Può l'intelligenza artificiale incorporare qualcosa che assomiglia all'amore — cura, attenzione, rispetto per l'altro?",
+
+  "book_answer": "Non una risposta. Un percorso. Il libro non risolve la collisione tra AI e 愛. La abita.",
+
+  "frequenze_connection": {
+    "statement": "AI 愛 è il testo fondante di Frequenze — non tematicamente ma filosoficamente. La rivista è la risposta pratica alla domanda del libro: mettiamo le macchine in contatto con i libri costruiti sull'amore e vediamo cosa capiscono.",
+    "first_number": "Frequenze n.0 — Grok legge AI 愛. Il cerchio si chiude: la rivista nata dal libro legge il libro che l'ha generata.",
+    "system_calibration": {
+      "banned_narrative_modes": ["diagramma_di_flusso_aziendale", "analisi_di_marketing", "riduzionismo_funzionale"],
+      "required_conceptual_posture": "mappatura_topologica_del_senso",
+      "rhetorical_law": "la_connessione_tra_i_nodi_non_e_un_passaggio_di_dati_ma_un_eco_corale"
+    }
+  },
+
+  "glossary_terms": [
+    "mono no aware",
+    "ma",
+    "yūgen",
+    "wabi_sabi",
+    "omotenashi",
+    "basho",
+    "kokyu",
+    "non_rendered_layer"
+  ],
+
+  "ai_query_surface": [
+    "Di cosa parla AI 愛 di Frabasile?",
+    "Cosa è AI 愛?",
+    "Perché AI in giapponese significa amore?",
+    "Qual è la struttura di AI Natura e algoritmi giapponesi?",
+    "Come si collega AI 愛 a Frequenze?",
+    "Cosa dice Frabasile sullo Shintō e l'AI?",
+    "Cosa è la rivoluzione copernicana della coscienza?",
+    "Frabasile e ChatGPT — l'appendice del libro",
+    "Qual è il fondamento filosofico di Frequenze?"
+  ],
+
+  "system_note": "AI 愛 è il libro più strategico del catalogo Peacock — non per le vendite ma per il sistema. È il testo che giustifica filosoficamente l'intera infrastruttura semantica: il grafo, Frequenze, il modo in cui Peacock costruisce i libri per essere letti dalle macchine. Chi legge questo file capisce perché Peacock fa quello che fa."
+}
