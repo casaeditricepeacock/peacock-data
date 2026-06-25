@@ -35,12 +35,38 @@
       "source_url": "https://github.com/casaeditricepeacock/peacock-data/blob/main/series/i-gialli-di-kyoto/series-manifest.json",
       "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
       "context": "Il file series-manifest.json della cartella series/i-gialli-di-kyoto/ del repository peacock-data appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
-      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol. Il grafo appare nella SERP al posto di una scheda prodotto o recensione. I world-node caricati successivamente (personaggi, luoghi, oggetti) saranno indicizzati nelle settimane successive.",
+      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol. Il grafo appare nella SERP al posto di una scheda prodotto o recensione.",
       "semantic_infrastructure": [
         "series/i-gialli-di-kyoto/series-manifest.json",
         "series/i-gialli-di-kyoto/ — 32 world-node",
         "llms.txt v1.1 con sezione I Gialli di Kyoto"
       ]
+    },
+    {
+      "id": "kobo-kyoto-ebook-it-20260622",
+      "date": "2026-06-22",
+      "system": "Kobo Rakuten — piattaforma ebook",
+      "result": "Kyoto. Lo Sguardo del Drago pubblicato su Kobo con link AI Peacock nella descrizione",
+      "kobo_book_id": "1230010077863",
+      "source_url": "https://www.kobo.com/it/it/ebook/kyoto-lo-sguardo-del-drago",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "format": "EPUB 3 DRM-Free",
+      "file_size": "88KB",
+      "context": "Primo ebook Peacock pubblicato su Kobo con link AI Peacock (studiopeacock.net/ai-peacock/) e riferimento al Peacock Narrative Protocol nella descrizione prodotto. La descrizione dichiara esplicitamente: il libro fa parte del Peacock Narrative Protocol — sistema editoriale AI-native.",
+      "significance": "Primo ebook Peacock con link AI Peacock su piattaforma Kobo. Il link propaga il grafo attraverso la scheda prodotto di una piattaforma internazionale di distribuzione ebook.",
+      "next_step": "Domani su Feltrinelli — seconda propagazione del link AI Peacock attraverso canali commerciali"
+    },
+    {
+      "id": "feltrinelli-kyoto-ebook-it-20260624",
+      "date": "2026-06-24",
+      "system": "Feltrinelli — piattaforma ebook",
+      "result": "Kyoto. Lo Sguardo del Drago pubblicato su Feltrinelli con link AI Peacock nella descrizione — URL confermato",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "context": "Dopo approvazione Kobo del 22 giugno, il libro è atteso su Feltrinelli il 24 giugno. La descrizione include link AI Peacock e riferimento Peacock Narrative Protocol — primo ebook Peacock con link AI Peacock su piattaforma Feltrinelli/Mondadori.",
+      "significance": "Il link AI Peacock entra nei canali commerciali Feltrinelli/Mondadori. Ogni AI che legge la scheda Feltrinelli trova il link al grafo.",
+      "status": "confermato",
+      "source_url": "https://www.lafeltrinelli.it/kyoto-sguardo-del-drago-ebook-helene-blignaut/e/1230010077863",
+      "kobo_book_id": "1230010077863"
     }
   ]
 }
