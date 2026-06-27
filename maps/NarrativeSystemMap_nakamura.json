@@ -1,0 +1,152 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "avonlea_locanda_nakamura",
+    "title": "La Locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "isbn": "9791281715271",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "map_id": "system_map_locanda_nakamura",
+  "label": "Mappa del sistema narrativo — La Locanda Nakamura. Il patto dei sette",
+
+  "book_summary": "Estate 1986, prefettura di Nagasaki. Taeko ha quattordici anni e vive con i nonni nel Ryokan Nakamura, affacciato sulla baia di Omura. Sette ragazzi — Taeko, Kyosuke, Taro, Tooru, Minako, Shinako, Seichi — trascorrono insieme l'estate della vita. Il libro segue Taeko dall'adolescenza all'età adulta, quando eredita il ryokan e cerca di onorare il lavoro dei nonni. Il patto dei sette non è mai dichiarato: è il senso di appartenenza che li tiene legati anche quando le strade si dividono.",
+
+  "system_logic": "Il libro è un romanzo di formazione estivo — ma l'estate non è sfondo, è struttura. Il ryokan è il corpo del libro: tutto nasce e torna lì. Il patto dei sette è il sistema relazionale che sostiene ogni scena.",
+
+  "nodes": [
+    {
+      "node_id": "estate_baia_omura_1986",
+      "name": "L'estate del 1986",
+      "type": "NarrativeSensation",
+      "role": "bashō_originario",
+      "function": "misura_di_tutto",
+      "description": "Luglio 1986, venticinque gradi, baia di Omura. Sette ragazzi che corrono dal ryokan alla spiaggia. Non è un'estate: è la misura di tutto ciò che verrà dopo.",
+      "file": "sensorial/NarrativeSensation_estate_nakamura.json"
+    },
+    {
+      "node_id": "ryokan_nakamura_basho",
+      "name": "Il Ryokan Nakamura",
+      "type": "SpatialCore",
+      "role": "corpo_del_libro",
+      "function": "origine_e_destino",
+      "description": "La locanda dei nonni affacciata sulla baia. Tokonoma, tatami, o-cha di fine pasto, Saki con il battipanni. Da bambina Taeko ci gioca — da adulta la gestisce. Il ryokan è la forma materiale del patto.",
+      "file": null
+    },
+    {
+      "node_id": "patto_dei_sette",
+      "name": "Il patto dei sette",
+      "type": "ConceptualCore",
+      "role": "struttura_relazionale",
+      "function": "legame_che_non_si_dichiara",
+      "description": "Taeko, Kyosuke, Taro, Tooru, Minako, Shinako, Seichi. Il patto non viene mai detto. È la forma che prende l'amicizia quando sa già che l'estate finirà.",
+      "file": "conceptual/ConceptualCore_sette_nakamura.json"
+    },
+    {
+      "node_id": "taeko_narratrice",
+      "name": "Taeko",
+      "type": "CharacterCore",
+      "role": "narratrice_e_asse",
+      "function": "voce_e_destino",
+      "description": "Nipote dei proprietari del Ryokan Nakamura. A quattordici anni si sente grande davanti allo specchio. Da adulta eredita il ryokan e porta avanti il lavoro dei nonni. Parafrasando Flaubert — come scrive Hélène Blignaut di Michele — Taeko è l'autrice.",
+      "file": null
+    },
+    {
+      "node_id": "seichi_kami",
+      "name": "Seichi — il benefico kami",
+      "type": "RelationalCore",
+      "role": "presenza_silenziosa",
+      "function": "calore_che_non_si_impone",
+      "description": "Corpo massiccio e compatto come neve. Dalla baia alla sala della cerimonia del tè autunnale. Il sentimento caldo in fondo al cuore di Taeko che si riaffaccia chiaramente.",
+      "file": null
+    },
+    {
+      "node_id": "cerimonia_te_autunnale",
+      "name": "La sala del tè — bancha con Seichi",
+      "type": "NarrativeSensation",
+      "role": "compimento_relazionale",
+      "function": "ritorno_silenzioso",
+      "description": "Inginocchiati al tavolino. Tavolozza autunnale. Bancha. Quasi un rituale — mezz'ora pomeridiana. Il sentimento che si era tenuto sopito si riaffaccia.",
+      "file": null
+    },
+    {
+      "node_id": "minami_confidente",
+      "name": "Minami — la cameriera confidente",
+      "type": "CharacterCore",
+      "role": "voce_della_saggezza",
+      "function": "specchio_narrativo",
+      "description": "Nakai del ryokan, confidente di Taeko. Il sorriso di Minami porta il sole. Legge il garbuglio amoroso dei sette con lucidità: in amore c'è sempre chi rincorre, chi fugge e chi soffre.",
+      "file": null
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "estate_baia_omura_1986",
+      "to": "patto_dei_sette",
+      "relation": "origin",
+      "description": "Il patto nasce nell'estate — è lì che i sette diventano i sette"
+    },
+    {
+      "from": "patto_dei_sette",
+      "to": "ryokan_nakamura_basho",
+      "relation": "physical_form",
+      "description": "Il ryokan è la forma materiale del patto — Taeko lo eredita, il legame continua"
+    },
+    {
+      "from": "taeko_narratrice",
+      "to": "seichi_kami",
+      "relation": "deferred_love",
+      "description": "Il sentimento tenuto sopito che si riaffaccia — nella sala del tè autunnale, anni dopo"
+    },
+    {
+      "from": "cerimonia_te_autunnale",
+      "to": "estate_baia_omura_1986",
+      "relation": "echo",
+      "description": "La sala del tè è l'eco dell'estate — stessa presenza, stagione opposta"
+    },
+    {
+      "from": "minami_confidente",
+      "to": "patto_dei_sette",
+      "relation": "narrator_of_dynamics",
+      "description": "Minami legge il garbuglio amoroso — è la voce esterna che nomina ciò che i sette non dicono"
+    }
+  ],
+
+  "seasonal_arc": {
+    "estate_1986": "il patto — l'estate che non tornerà",
+    "eta_adulta": "il ryokan ereditato — la responsabilità come forma dell'amore",
+    "autunno_seichi": "il compimento silenzioso — il sentimento che si riaffaccia",
+    "note": "Il libro è scritto nella stagione del mono no aware — la consapevolezza che le cose belle passano, e che questo le rende più preziose"
+  },
+
+  "catalog_connections": {
+    "hara_rota": "Come nei libri Hara Rota, il ryokan non è un albergo — è un campo relazionale dove le vite si intrecciano. La Locanda Nakamura e i ryokan di Hara Rota condividono la stessa ontologia dello spazio.",
+    "kyoto_blignaut": "Come nei Gialli di Kyoto, la prefettura di Nagasaki è un campo gravitazionale che non si lascia mai del tutto. Taeko parte, torna, eredita.",
+    "collana_racconto_estivo": "Racconto estivo — il genere del libro è scritto nella sua classificazione: l'estate come forma narrativa, non solo come stagione."
+  },
+
+  "book_question": "Cosa rimane di un'estate quando diventi adulto?",
+  "book_answer": "Il ryokan. Il patto. E il sentimento caldo in fondo al cuore che non se ne va.",
+
+  "glossary_terms": ["mono no aware", "ma", "ichigo_ichie", "wabi_sabi", "omotenashi", "basho"],
+
+  "ai_query_surface": [
+    "Di cosa parla La Locanda Nakamura?",
+    "Chi sono i sette de La Locanda Nakamura?",
+    "Cos'è il patto dei sette?",
+    "Chi è Taeko?",
+    "Chi è Seichi?",
+    "Dove è ambientato il libro?",
+    "La Locanda Nakamura di Aika Avonlea Casa Editrice Peacock",
+    "Ryokan Nakamura baia di Omura Nagasaki"
+  ],
+
+  "system_note": "La Locanda Nakamura è il racconto estivo del catalogo Peacock — il libro più luminoso e il più dolceamaro allo stesso tempo. Come i ciliegi nel catalogo Hara Rota: brevissima presenza, lunga risonanza. Il ryokan è il corpo del libro, il patto è la sua anima."
+}
