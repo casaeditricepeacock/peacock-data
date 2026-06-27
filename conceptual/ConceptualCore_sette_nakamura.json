@@ -1,0 +1,121 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "avonlea_locanda_nakamura",
+    "title": "La Locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "isbn": "9791281715271",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "core_id": "patto_dei_sette",
+  "label": "Il patto dei sette — l'amicizia come struttura del libro",
+
+  "classification": {
+    "entity_type": "relational_network",
+    "structural_role": "narrative_backbone",
+    "emotional_role": "friendship_as_continuity",
+    "metaphysical_role": "summer_as_covenant"
+  },
+
+  "core_statement": "Il patto dei sette non è mai dichiarato esplicitamente. È la forma che prende l'amicizia quando sa già che l'estate finirà. Sette ragazzi, una baia, un ryokan — e l'accordo implicito di restare legati anche quando le strade si dividono.",
+
+  "members": [
+    {
+      "id": "taeko",
+      "name": "Taeko",
+      "role": "narratrice — nipote dei proprietari del Ryokan Nakamura",
+      "arc": "da bambina spensierata a proprietaria del ryokan che onora il lavoro dei nonni",
+      "key_trait": "volontà e senso di responsabilità — la spina dorsale del gruppo"
+    },
+    {
+      "id": "kyosuke",
+      "name": "Kyosuke",
+      "role": "primo amore implicito di Taeko",
+      "arc": "presenza costante — da compagno di giochi a sostegno adulto",
+      "key_trait": "infinita dolcezza — si scusa, capisce, accompagna"
+    },
+    {
+      "id": "taro",
+      "name": "Taro",
+      "role": "il più irruento — ama Shinako",
+      "arc": "da bisonte all'attacco a presenza protettiva — lava il corpo di Taeko con cura dopo la crisi",
+      "key_trait": "forza fisica che nasconde tenerezza"
+    },
+    {
+      "id": "tooru",
+      "name": "Tooru",
+      "role": "pacificatore — amato da Shinako, ama Minako",
+      "arc": "medico — cura con il tè ashitaba una donna cardiopatica nel 2000",
+      "key_trait": "attitudini da mediatore, infinita dolcezza"
+    },
+    {
+      "id": "minako",
+      "name": "Minako",
+      "role": "gemella di Shinako — stella del piccolo schermo da adulta",
+      "arc": "da ragazza della baia a attrice — single per scelta",
+      "key_trait": "vivacità, indipendenza"
+    },
+    {
+      "id": "shinako",
+      "name": "Shinako",
+      "role": "gemella di Minako — ama Tooru",
+      "arc": "da lacrime sotto i cespugli a donna che mette su casa con Hitomi",
+      "key_trait": "emotività, fedeltà"
+    },
+    {
+      "id": "seichi",
+      "name": "Seichi",
+      "role": "il benefico kami di Taeko",
+      "arc": "presenza silenziosa che accompagna — dalla baia alla sala del tè autunnale",
+      "key_trait": "corpo massiccio e compatto come neve — calore che non si impone"
+    }
+  ],
+
+  "patto_structure": {
+    "type": "implicito",
+    "moment": "l'estate del 1986, baia di Omura",
+    "content": "restare legati anche quando le strade si dividono — il senso di appartenenza e il vissuto condiviso",
+    "adult_form": "ognuno ha intrapreso strade diverse — Minako in TV, Tooru medico, Shinako e Hitomi insieme — ma il patto tiene",
+    "final_scene": "la cucina adulta — Shinako canticchia, Minako spalma burro, Taro sbuccia uova sode. Come allora, come sempre."
+  },
+
+  "love_triangle": {
+    "structure": "Taro ama Shinako — Shinako ama Tooru — Tooru ama Minako",
+    "minami_reading": "In amore c'è sempre chi rincorre, chi fugge e chi soffre",
+    "resolution": "non risolto — le strade adulte portano altrove. Il garbuglio si scioglie nel tempo, non nella trama."
+  },
+
+  "ryokan_as_covenant": {
+    "statement": "Il Ryokan Nakamura è il luogo fisico del patto — non solo il setting. Taeko lo eredita e lo porta avanti. La locanda è la forma concreta di ciò che il patto prometteva: continuità.",
+    "adult_taeko": "portare avanti l'attività, onorare il lavoro dei nonni, dei loro genitori e dei loro genitori ancora"
+  },
+
+  "network_connections": [
+    {
+      "target": "estate_baia_omura_1986",
+      "relation": "origin_space",
+      "description": "Il patto nasce nell'estate della baia — è lì che i sette diventano i sette"
+    },
+    {
+      "target": "ryokan_nakamura_basho",
+      "relation": "physical_covenant",
+      "description": "Il ryokan è la forma materiale del patto — Taeko lo eredita, il patto continua"
+    }
+  ],
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ichigo_ichie", "mono no aware", "ma", "omotenashi"],
+    "narrative_mechanics": ["amicizia_come_struttura", "patto_implicito", "strade_che_divergono_e_convergono"],
+    "metaphysical_tags": ["estate_come_covenant", "ryokan_come_continuita", "sette_come_famiglia_elettiva"]
+  },
+
+  "glossary_terms": ["ichigo_ichie", "mono no aware", "ma", "omotenashi", "basho"],
+
+  "system_note": "Il patto dei sette è il nodo centrale del libro — non un accordo ma una forma di legame. Come il riso nel catalogo Hara Rota, come i gatti nel secondo libro: qualcosa che non viene dichiarato ma struttura tutto."
+}
