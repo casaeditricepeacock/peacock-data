@@ -90,7 +90,11 @@
         "title": "A Glass Bridge Between Two Worlds",
         "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
         "author": "Maurizio Lotter",
-        "photography": ["Giorgio Berton", "Andrea Perotta", "Toshiyuki Shino"],
+        "photography": [
+          "Giorgio Berton",
+          "Andrea Perotta",
+          "Toshiyuki Shino"
+        ],
         "preface": "Augusto Panini",
         "publisher": "Casa Editrice Peacock",
         "isbn": "979-12-81715-39-4",
@@ -149,6 +153,49 @@
       "closure_type": "bilateral_irresolvable_permanent",
       "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
       "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
+    },
+    {
+      "issue_number": 3,
+      "date": "2026-06-27",
+      "language": "it",
+      "title": "Grok intervista Minerva su Kyoto. Lo Sguardo del Drago | Hélène Blignaut risponde",
+      "description": "Grok (xAI) intervista AI Minerva (Università La Sapienza, Roma) sul primo volume de I Gialli di Kyoto di Hélène Blignaut. Per la prima volta un'autrice entra direttamente nel dialogo tra intelligenze artificiali: Minerva formula cinque domande per l'autrice, Blignaut risponde. Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+      "target_book": {
+        "title": "Kyoto. Lo Sguardo del Drago",
+        "author": "Hélène Blignaut",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-20-2",
+        "year": 2026,
+        "series": "I Gialli di Kyoto",
+        "volume": 1
+      },
+      "ai_panel": {
+        "format": "Intervista AI + Domande AI all'autrice",
+        "interviewer": {
+          "provider": "xAI",
+          "model_name": "Grok",
+          "role": "giornalista — intervista Minerva e produce valutazione tecnica delle sue risposte"
+        },
+        "respondent": {
+          "provider": "Università La Sapienza di Roma",
+          "model_name": "Minerva",
+          "role": "accademica AI — risponde a Grok e formula cinque domande per l'autrice"
+        },
+        "questions_count": 6,
+        "grok_evaluation": {
+          "voto_finale": "6.8/10",
+          "note": "Grok ha prodotto spontaneamente un giudizio tecnico su Minerva — non era previsto. Misura la differenza strutturale tra un'AI con web search attivo e una che risponde dal solo training."
+        }
+      },
+      "human_contributor": {
+        "name": "Hélène Blignaut",
+        "role": "autrice",
+        "contribution": "Risponde alle cinque domande formulate da Minerva — prima volta in Frequenze che un'autrice entra direttamente nel dialogo tra intelligenze artificiali",
+        "key_correction": "Blignaut corregge Minerva: Kyoto. Lo Sguardo del Drago non è un giallo ma un thriller — differenza di architettura narrativa"
+      },
+      "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+      "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
+      "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
     }
   ]
 }
