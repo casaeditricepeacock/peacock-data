@@ -1,0 +1,113 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "avonlea_locanda_nakamura",
+    "title": "La Locanda Nakamura. Il patto dei sette",
+    "author": "Aika Avonlea",
+    "isbn": "9791281715271",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "estate_baia_omura_1986",
+  "label": "L'estate del 1986 — baia di Omura, ryokan Nakamura, i sette",
+
+  "intensity": "alta_luminosa",
+  "tempo": "veloce_poi_sospeso",
+
+  "sensory_channels": [
+    "tattile",
+    "uditivo",
+    "visivo",
+    "olfattivo",
+    "termico",
+    "propriocettivo"
+  ],
+
+  "core_statement": "Luglio 1986, prefettura di Nagasaki, venticinque gradi. Il ryokan Nakamura affacciato sulla baia di Omura. Sette ragazzi che corrono dal giardino alla spiaggia passando per il ponte di legno. Non è un'estate. È la misura di tutto ciò che verrà dopo.",
+
+  "entities": [
+    {
+      "id": "baia_omura",
+      "name": "La baia di Omura",
+      "state": "estate_piena",
+      "gradient_position": 0.0,
+      "season": "estate",
+      "sensory_breakdown": {
+        "visual": "acqua della baia, vegetazione fitta e verdeggiante, spiaggia stretta",
+        "thermal": "venticinque gradi, sole di luglio, acqua fresca",
+        "auditory": "gridolini di spavento ed eccitazione, onde, risate",
+        "proprioceptive": "correre dal giardino alla stradina sterrata, il ponte di legno, il tuffo"
+      }
+    },
+    {
+      "id": "ryokan_nakamura",
+      "name": "Il ryokan Nakamura",
+      "state": "cuore_del_libro",
+      "gradient_position": 0.3,
+      "sensory_breakdown": {
+        "olfactory": "gyoza in cucina, tè verde o-cha di fine pasto, profumo del tatami",
+        "auditory": "Saki che scalpita con i geta brandendo il battipanni, voci dei villeggianti, NHK2",
+        "visual": "tokonoma nelle camere, veranda affacciata sul giardino, l'appartamento dei nonni",
+        "tactile": "tatami profumato, futon, geta sul pavimento di legno"
+      }
+    },
+    {
+      "id": "colazione_compleanno",
+      "name": "La colazione del quattordicesimo compleanno",
+      "state": "soglia_dell_adolescenza",
+      "gradient_position": 0.5,
+      "season": "estate",
+      "sensory_breakdown": {
+        "taste": "pane tostato e burro — e il primo caffè, 'ha un sapore forte'",
+        "visual": "lo specchio la mattina del compleanno — 'intraveddi qualcosa di diverso'",
+        "conceptual": "quattordici anni come tappa importante — sentirsi grande davanti allo specchio"
+      },
+      "ichigo_ichie_note": "La colazione del compleanno con la nonna — irripetibile nella sua semplicità. Non tornerà mai più."
+    },
+    {
+      "id": "cerimonia_te_seichi",
+      "name": "Il bancha con Seichi — sala della cerimonia del tè",
+      "state": "ritorno_e_compimento",
+      "gradient_position": 0.8,
+      "season": "autunno",
+      "sensory_breakdown": {
+        "visual": "tavolozza dei colori autunnali — rosso ruggine, giallo oro",
+        "tactile": "inginocchiati al tavolino della sala",
+        "taste": "bancha — tè autunnale, caldo e sobrio",
+        "conceptual": "quasi un rituale — mezz'ora di conversazione pomeridiana. Il sentimento caldo in fondo al cuore che si era riaffacciato."
+      }
+    },
+    {
+      "id": "ryokan_adulto",
+      "name": "Taeko proprietaria del Ryokan Nakamura",
+      "state": "compimento_narrativo",
+      "gradient_position": 1.0,
+      "sensory_breakdown": {
+        "conceptual": "portare avanti l'attività, onorare il lavoro dei nonni. Il ryokan come continuità — non nostalgia.",
+        "emotional": "vorrei essere la quattordicenne spensierata che ero — ma il ryokan è ancora lì"
+      }
+    }
+  ],
+
+  "sette_layer": {
+    "members": ["Taeko", "Kyosuke", "Taro", "Tooru", "Minako", "Shinako", "Seichi"],
+    "dynamic": "Taro ama Shinako, Shinako ama Tooru, Tooru ama Minako — un bel garbuglio. In amore c'è sempre chi rincorre, chi fugge e chi soffre.",
+    "sensation": "correre insieme, tuffarsi nella baia, spiare i grandi in veranda, gyoza in cucina, piangere e ridere nello stesso pomeriggio",
+    "connected_term": "ichigo_ichie"
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["mono no aware", "ma", "ichigo_ichie", "wabi_sabi"],
+    "narrative_mechanics": ["estate_come_misura", "primo_amore_multiplo", "ritorno_al_ryokan"],
+    "metaphysical_tags": ["estate_irripetibile", "ryokan_come_continuita", "adolescenza_come_soglia"]
+  },
+
+  "connected_terms": ["mono no aware", "ma", "ichigo_ichie", "wabi_sabi", "omotenashi", "basho"],
+
+  "system_note": "L'estate del 1986 è il bashō del libro — il luogo-tempo che non torna ma struttura tutto ciò che viene dopo. Taeko da adulta gestisce il ryokan che da bambina abitava. Il patto dei sette non è un accordo formale: è la forma che prende l'amicizia quando sa già che cambierà."
+}
