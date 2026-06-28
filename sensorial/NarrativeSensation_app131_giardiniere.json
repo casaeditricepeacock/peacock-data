@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_131_giardiniere_paradiso",
+  "label": "Appartamento 131 — Il Giardiniere e il paradiso tropicale",
+
+  "intensity": "alta_espansa",
+  "tempo": "senza_tempo_come_una_spiaggia",
+
+  "sensory_channels": [
+    "olfattivo",
+    "termico",
+    "visivo",
+    "tattile",
+    "uditivo"
+  ],
+
+  "core_statement": "L'appartamento 131 non appartiene a Milano. È un'anomalia climatica e sensoriale nel cuore di un palazzo della città: caldo tutto l'anno, piante aromatiche alte come palme, un'estate permanente in via Condotto del Riscaldamento. Il luogo preferito di Ernesto.",
+
+  "architectural_profile": {
+    "dominant_element": "le piante — alte come palme, aromatiche, così dense da creare un microclima autonomo",
+    "spatial_logic": "il giardiniere ha trasformato ogni superficie disponibile in spazio per le piante. Il pavimento, i davanzali, le mensole, le scale — tutto ospita vasi, terriccio, radici. Lo spazio originale dell'appartamento è scomparso sotto la vegetazione",
+    "atmosphere": "umidità costante, calore morbido, profumo di terra e piante aromatiche — un habitat che non appartiene alla città",
+    "color_field": "verde in tutte le declinazioni — verde scuro delle foglie grandi, verde chiaro dei germogli, verde grigio delle piante aromatiche — con macchie di colore dei fiori",
+    "ernesto_entry_point": "il condotto sbuca tra le radici di un vaso gigante — Ernesto emerge nella vegetazione, invisibile per definizione"
+  },
+
+  "character_imprint": {
+    "name": "Il Giardiniere",
+    "activity": "coltiva piante aromatiche e tropicali nell'appartamento — ha creato un ambiente rilassante e allegro",
+    "spatial_effect": "chi coltiva piante al chiuso trasforma lo spazio in un organismo vivo. L'appartamento 131 respira — produce ossigeno, umidità, profumi in cicli biologici che ignorano la città fuori",
+    "seasonal_anomaly": "caldo tutto l'anno — il giardiniere ha neutralizzato le stagioni milanesi. Dentro è sempre estate"
+  },
+
+  "botanical_sensation": {
+    "aromatic_plants": "rosmarino, basilico, menta, timo, lavanda, salvia — un catalogo di profumi che cambiano a seconda di dove Ernesto si trova tra le piante",
+    "humidity": "umidità dell'aria che si sente sulla pelliccia — più densa che in qualsiasi altro appartamento del palazzo",
+    "soil_smell": "terra umida sotto le zampe — il profumo più lontano dalla città che Ernesto conosce",
+    "tropical_illusion": "sembra di essere sempre in spiaggia — l'appartamento 131 è la finzione geografica più riuscita del palazzo",
+    "plant_sounds": "gocce d'acqua che cadono dai vasi, foglie che si muovono nell'aria dell'appartamento — suoni di natura in un contesto urbano"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "calore_anomalo",
+      "description": "Ernesto sente il calore ancora nel condotto — diverso dagli altri appartamenti. Non è calore di riscaldamento: è calore vivo.",
+      "dominant_sense": "termico"
+    },
+    {
+      "id": "profumo_aromatico",
+      "description": "Rosmarino. Poi basilico. Poi qualcosa di tropicale che Ernesto non sa nominare ma riconosce come 'buono'.",
+      "dominant_sense": "olfattivo"
+    },
+    {
+      "id": "verde_ovunque",
+      "description": "Ernesto emerge tra le radici. Verde sopra, verde intorno, verde sotto. La città non esiste più.",
+      "dominant_sense": "visivo"
+    },
+    {
+      "id": "rilassamento",
+      "description": "Ernesto si sdraia tra le foglie. Il luogo preferito. Nessun rischio, nessun gatto, nessuna macchina da scrivere. Solo verde e calore.",
+      "dominant_sense": "tattile + termico + propriocettivo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "Milano in inverno è grigia e fredda. L'appartamento 131 è la rivolta silenziosa contro il clima milanese — un atto di volontà botanica che trasforma la latitudine.",
+    "palazzo_context": "In un palazzo milanese il giardiniere è il vicino che profuma il corridoio. L'appartamento 131 cambia l'olfatto dell'intero piano."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["basho", "ma", "wabi_sabi"],
+    "narrative_mechanics": ["spazio_che_respira", "anomalia_climatica", "rifugio_senza_rischi"],
+    "metaphysical_tags": ["estate_permanente", "natura_in_città", "luogo_preferito"]
+  },
+
+  "connected_terms": ["basho", "ma", "wabi_sabi", "kokyu"],
+
+  "system_note": "L'appartamento 131 è il bashō di Ernesto — il suo luogo preferito, l'unico dove si ferma senza un motivo specifico. Il giardiniere ha creato uno spazio che non appartiene a Milano e per questo è il più milanese di tutti: la città che resiste alla sua stessa natura."
+}
