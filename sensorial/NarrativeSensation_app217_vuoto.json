@@ -1,0 +1,98 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_217_vuoto_ruota",
+  "label": "Appartamento 217 — In vendita. Il vuoto e la ruota",
+
+  "intensity": "bassa_assoluta_poi_alta",
+  "tempo": "silenzio_poi_corsa",
+
+  "sensory_channels": [
+    "visivo",
+    "uditivo",
+    "propriocettivo",
+    "tattile",
+    "termico"
+  ],
+
+  "core_statement": "L'appartamento 217 è in vendita. È vuoto. È il luogo dove Ernesto abita — il condotto sbuca qui. È anche il luogo della tentazione: dentro c'è una piccola gabbietta con una ruota. Ernesto è un evaso. Eppure entra e corre.",
+
+  "architectural_profile": {
+    "dominant_element": "il vuoto — nessun oggetto, nessun personaggio, nessun suono. Solo spazio",
+    "spatial_logic": "un appartamento vuoto in vendita è uno spazio sospeso — non è ancora di nessuno, non è più di nessuno. Le pareti nude mostrano le tracce di chi c'era prima: segni di quadri, buchi di tasselli, strisce di vernice",
+    "atmosphere": "eco — ogni suono rimbalza senza essere assorbito. I passi di Ernesto riecheggiano. Il palazzo entra dall'esterno senza filtri",
+    "color_field": "bianco delle pareti nude, grigio del pavimento, il beige del bordo della gabbietta — una monocromia interrotta solo dalla ruota",
+    "ernesto_entry_point": "il condotto sbuca qui — l'appartamento 217 è il punto di partenza e di ritorno di ogni esplorazione"
+  },
+
+  "character_imprint": {
+    "name": "Nessuno — in vendita",
+    "activity": "assenza totale di attività umana",
+    "spatial_effect": "il vuoto ha la sua architettura. Senza oggetti, lo spazio rivela la sua struttura originaria — proporzioni, altezze, esposizione. L'appartamento 217 è il più grande del palazzo nella percezione di Ernesto perché è l'unico che può attraversare di corsa",
+    "gabbietta": "dentro c'è una piccola gabbietta con una ruota — chi l'ha lasciata? Perché? Il mistero dell'oggetto abbandonato in uno spazio vuoto"
+  },
+
+  "ruota_sensation": {
+    "attraction": "vengo sempre attratto da una ruota dentro a una piccola gabbietta — l'attrazione irresistibile dell'oggetto che appartiene alla sua natura di topolino",
+    "paradox": "Ernesto è un evaso — è fuggito da una gabbietta. Eppure entra in un'altra gabbietta e corre sulla ruota. Il topolino libero che sceglie volontariamente di correre in gabbia",
+    "running": "ed allora entro e corro, corro, corro ed ancora corro — la corsa sulla ruota come liberazione paradossale",
+    "sound": "il cigolìo ritmico della ruota nell'appartamento vuoto — amplificato dall'eco, riempie lo spazio in modo diverso da qualsiasi suono degli altri appartamenti",
+    "philosophical_reading": "la gabbia non è la prigione — è il movimento. Ernesto non corre per uscire: corre per correre"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "vuoto",
+      "description": "Ernesto emerge dal condotto. Silenzio. Echo dei suoi passi. Lo spazio sembra enorme.",
+      "dominant_sense": "uditivo + visivo"
+    },
+    {
+      "id": "attrazione",
+      "description": "La gabbietta nell'angolo. La ruota. Ernesto la guarda. Sa che non dovrebbe.",
+      "dominant_sense": "visivo + propriocettivo"
+    },
+    {
+      "id": "corsa",
+      "description": "Cigolìo. Ritmo. Velocità. Ernesto corre, corre, corre, ancora corre. L'eco della ruota riempie il vuoto.",
+      "dominant_sense": "propriocettivo + uditivo + tattile"
+    },
+    {
+      "id": "fermata",
+      "description": "Ernesto si ferma. Respira. L'appartamento 217 ritorna al silenzio. In vendita.",
+      "dominant_sense": "termico + propriocettivo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "Milano ha molti appartamenti in vendita — vuoti, sospesi tra un proprietario e l'altro. Questi spazi vuoti sono i non-luoghi della città: presenti ma inabitati.",
+    "palazzo_context": "In un palazzo milanese l'appartamento in vendita è il mistero condominiale — chi c'era? Chi verrà? L'appartamento 217 è il capitolo bianco del libro del palazzo."
+  },
+
+  "ma_reading": {
+    "statement": "L'appartamento 217 è il ma del palazzo — il vuoto che rende possibile tutto il resto. Senza questo spazio vuoto Ernesto non avrebbe una casa, non avrebbe un punto di partenza e di ritorno.",
+    "philosophical_note": "Il vuoto non è assenza di contenuto: è presenza di possibilità. Come il ma giapponese — lo spazio tra le cose che permette alle cose di esistere."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "wabi_sabi", "yūgen"],
+    "narrative_mechanics": ["vuoto_come_casa", "gabbia_come_paradosso", "corsa_come_libertà"],
+    "metaphysical_tags": ["appartamento_in_vendita", "ruota_come_destino", "evaso_che_sceglie_la_gabbia"]
+  },
+
+  "connected_terms": ["ma", "wabi_sabi", "yūgen", "basho"],
+
+  "system_note": "L'appartamento 217 è il cuore del libro — il luogo dove Ernesto abita e il luogo dove rivela la sua natura contraddittoria: evaso che sceglie volontariamente la gabbia. Il vuoto come spazio più denso del palazzo."
+}
