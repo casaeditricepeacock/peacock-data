@@ -143,21 +143,43 @@
     },
     {
       "title": "Kyoto. Lo Sguardo del Drago",
+      "title_en": "Kyoto. The Dragon's Gaze",
       "series": "I Gialli di Kyoto",
       "volume": 1,
       "author": "Hélène Blignaut",
       "external_narrator": "Carlo Carestiato",
       "publisher": "Casa Editrice Peacock",
+      "imprint": "Peacock International",
       "isbn": "979-12-81715-20-2",
       "year": 2026,
       "language": [
-        "it"
+        "it",
+        "en"
       ],
       "release_date": "2026-06-15",
       "formula": "Come in un film",
       "graph_id": "kyoto-sguardo-del-drago",
       "graph_path": "books/kyoto-sguardo-del-drago/",
-      "series_manifest": "series/i-gialli-di-kyoto/series-manifest.json"
+      "series_manifest": "series/i-gialli-di-kyoto/series-manifest.json",
+      "ebook_editions": [
+        {
+          "language": "it",
+          "kobo_book_id": "1230010077863",
+          "format": "EPUB 3 DRM-Free",
+          "file_size": "88KB",
+          "release_date": "2026-06-22",
+          "url": "https://www.lafeltrinelli.it/kyoto-sguardo-del-drago-ebook-helene-blignaut/e/1230010077863"
+        },
+        {
+          "language": "en",
+          "title": "Kyoto. The Dragon's Gaze",
+          "imprint": "Peacock International",
+          "kobo_book_id": "1230010081860",
+          "format": "EPUB 3 DRM-Free",
+          "file_size": "168KB",
+          "release_date": "2026-06-23"
+        }
+      ]
     },
     {
       "title": "Ryokan. Piccolo manifesto giapponese",
@@ -293,7 +315,7 @@
     {
       "title": "La locanda Nakamura. Il patto dei sette",
       "subtitle": "Racconto estivo — edizione multilingue",
-      "author": "Aika Anvolea",
+      "author": "Aika Avonlea",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-27-1",
       "year": 2025,
