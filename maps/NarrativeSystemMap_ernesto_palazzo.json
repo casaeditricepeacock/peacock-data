@@ -1,0 +1,190 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "map_id": "system_map_ernesto_palazzo_milanese",
+  "label": "Mappa del sistema narrativo — Il palazzo milanese di Ernesto",
+
+  "book_summary": "Ernesto è un topolino evaso dalla sua gabbietta. Abita nel condotto del riscaldamento tra gli appartamenti 103 e 217 al quinto piano di un palazzo milanese. Ogni giorno attraversa il condotto e visita sette appartamenti — ognuno abitato da un personaggio che ha trasformato il proprio spazio in un campo sensoriale unico. Il palazzo non è uno sfondo: è il protagonista collettivo del libro.",
+
+  "system_logic": "Il palazzo milanese funziona come una partitura — sette appartamenti, sette temi, sette sensazioni diverse che Ernesto attraversa ogni giorno. Il condotto del riscaldamento è il filo che li connette tutti. Ernesto è l'unico che conosce l'intero sistema.",
+
+  "palazzo_architecture": {
+    "structure": "palazzo milanese con appartamenti numerati — primo piano (103-131) e secondo piano (203-217)",
+    "connector": "condotto del riscaldamento — la via privata di Ernesto che attraversa le pareti e connette tutti gli spazi",
+    "ernesto_home": "appartamento 217 — in vendita, vuoto, con gabbietta e ruota",
+    "vertical_logic": "primo piano: vita domestica e artigianale (scrittore, cuoca, libraio, musicista, giardiniere) — secondo piano: vita creativa e mistero (illustratrice, vuoto)"
+  },
+
+  "nodes": [
+    {
+      "node_id": "appartamento_103_scrittore",
+      "name": "Appartamento 103 — Lo Scrittore",
+      "type": "NarrativeSensation",
+      "dominant_sense": "uditivo",
+      "spatial_character": "ritmo",
+      "key_object": "Olivetti Lettera 21 color celestino",
+      "ernesto_relation": "ascolta e passa — il ticchettio è il kokyu del palazzo",
+      "risk_level": "basso — il terrier dorme",
+      "file": "sensorial/NarrativeSensation_app103_scrittore.json"
+    },
+    {
+      "node_id": "appartamento_109_cuoca",
+      "name": "Appartamento 109 — La Cuoca Pina",
+      "type": "NarrativeSensation",
+      "dominant_sense": "olfattivo",
+      "spatial_character": "calore",
+      "key_object": "le ricette di Pina",
+      "ernesto_relation": "visita obbligatoria — pranzo e cena. Il profumo convoca",
+      "risk_level": "medio — le ricette sono pericolose anche solo a leggerle",
+      "file": "sensorial/NarrativeSensation_app109_cuoca.json"
+    },
+    {
+      "node_id": "appartamento_111_libraio",
+      "name": "Appartamento 111 — Il Libraio",
+      "type": "NarrativeSensation",
+      "dominant_sense": "olfattivo",
+      "spatial_character": "rischio",
+      "key_object": "libri appena usciti + gatto Oreste",
+      "ernesto_relation": "rischio massimo — Oreste. Piacere massimo — i libri nuovi",
+      "risk_level": "alto — Oreste è il nemico naturale",
+      "file": "sensorial/NarrativeSensation_app111_libraio.json"
+    },
+    {
+      "node_id": "appartamento_123_musicista",
+      "name": "Appartamento 123 — Il Musicista",
+      "type": "NarrativeSensation",
+      "dominant_sense": "uditivo",
+      "spatial_character": "sogno",
+      "key_object": "violoncello",
+      "ernesto_relation": "si ferma e ascolta — l'unico appartamento dove Ernesto smette di esplorare",
+      "risk_level": "nullo — la musica non ha predatori",
+      "file": "sensorial/NarrativeSensation_app123_musicista.json"
+    },
+    {
+      "node_id": "appartamento_131_giardiniere",
+      "name": "Appartamento 131 — Il Giardiniere",
+      "type": "NarrativeSensation",
+      "dominant_sense": "olfattivo",
+      "spatial_character": "rifugio",
+      "key_object": "piante aromatiche alte come palme",
+      "ernesto_relation": "il luogo preferito — si sdraia tra le foglie. Nessun rischio",
+      "risk_level": "nullo — solo verde e calore",
+      "file": "sensorial/NarrativeSensation_app131_giardiniere.json"
+    },
+    {
+      "node_id": "appartamento_203_illustratrice",
+      "name": "Appartamento 203 — L'Illustratrice",
+      "type": "NarrativeSensation",
+      "dominant_sense": "visivo",
+      "spatial_character": "mistero",
+      "key_object": "schermo gigantesco + ciabatta a forma di coccodrillo",
+      "ernesto_relation": "dorme nella ciabatta — forse visto, forse disegnato",
+      "risk_level": "sconosciuto — l'Illustratrice forse lo ha già notato",
+      "file": "sensorial/NarrativeSensation_app203_illustratrice.json"
+    },
+    {
+      "node_id": "appartamento_217_vuoto",
+      "name": "Appartamento 217 — In vendita",
+      "type": "NarrativeSensation",
+      "dominant_sense": "propriocettivo",
+      "spatial_character": "paradosso",
+      "key_object": "gabbietta con ruota",
+      "ernesto_relation": "casa di Ernesto — e trappola volontaria. Corre sulla ruota da cui è fuggito",
+      "risk_level": "paradossale — l'unico rischio è sé stesso",
+      "file": "sensorial/NarrativeSensation_app217_vuoto.json"
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "appartamento_217_vuoto",
+      "to": "tutti",
+      "relation": "origin_and_return",
+      "description": "Il 217 è il punto di partenza e di ritorno di ogni esplorazione — la casa di Ernesto"
+    },
+    {
+      "from": "appartamento_131_giardiniere",
+      "to": "appartamento_123_musicista",
+      "relation": "complementary_refuges",
+      "description": "I due appartamenti senza rischio — uno ferma con il calore, l'altro con il suono"
+    },
+    {
+      "from": "appartamento_111_libraio",
+      "to": "appartamento_217_vuoto",
+      "relation": "thematic_mirror",
+      "description": "Il libraio ha i libri — l'appartamento vuoto ha la gabbietta. Entrambi contengono oggetti che attraggono Ernesto irresistibilmente e pericolosamente"
+    },
+    {
+      "from": "appartamento_103_scrittore",
+      "to": "appartamento_123_musicista",
+      "relation": "rhythm_parallel",
+      "description": "Lo scrittore produce ritmo con la macchina da scrivere, il musicista con il violoncello. Ernesto vive tra due partiture"
+    },
+    {
+      "from": "appartamento_203_illustratrice",
+      "to": "appartamento_217_vuoto",
+      "relation": "meta_connection",
+      "description": "L'Illustratrice che forse ha visto Ernesto abita sopra il suo appartamento vuoto. La creatrice del libro sopra il protagonista del libro"
+    },
+    {
+      "from": "appartamento_109_cuoca",
+      "to": "tutti",
+      "relation": "temporal_anchor",
+      "description": "La Cuoca Pina scandisce il tempo del palazzo — pranzo e cena. È l'orologio sensoriale dell'edificio"
+    }
+  ],
+
+  "palazzo_system": {
+    "ground_floor_logic": "vita pratica e artigianale — scrittore, cuoca, libraio, musicista, giardiniere",
+    "upper_floor_logic": "vita creativa e sospesa — illustratrice, vuoto",
+    "connector": "condotto del riscaldamento — la via di Ernesto che nessun umano conosce",
+    "ernesto_role": "Ernesto è l'unico abitante del palazzo che conosce tutti gli altri. È il custode invisibile del sistema"
+  },
+
+  "sensory_map": {
+    "103": {"sense": "uditivo", "emotion": "ritmo"},
+    "109": {"sense": "olfattivo", "emotion": "calore"},
+    "111": {"sense": "olfattivo", "emotion": "rischio"},
+    "123": {"sense": "uditivo", "emotion": "sogno"},
+    "131": {"sense": "olfattivo", "emotion": "rifugio"},
+    "203": {"sense": "visivo", "emotion": "mistero"},
+    "217": {"sense": "propriocettivo", "emotion": "paradosso"}
+  },
+
+  "milan_reading": {
+    "statement": "Il palazzo di Ernesto è Milano in miniatura — la città condensata in un edificio. Lo scrittore con l'Olivetti, la cuoca con le ricette milanesi, il libraio di quartiere, il musicista, il giardiniere che resiste al clima — sono archetipi della città.",
+    "ernesto_as_urban_explorer": "Ernesto fa quello che nessun milanese fa — attraversa le pareti, entra negli spazi privati, conosce i vicini dall'interno. È l'esploratore urbano per eccellenza.",
+    "condotto_as_metro": "Il condotto del riscaldamento è la metropolitana di Ernesto — una rete sotterranea privata che connette tutti i piani e tutti gli appartamenti"
+  },
+
+  "book_question": "Cosa si perde quando si fugge da una gabbietta?",
+  "book_answer": "Niente. E forse tutto. Ernesto corre sulla ruota da cui era fuggito — perché la libertà non è l'assenza di confini ma la scelta di quali confini abitare.",
+
+  "glossary_terms": ["basho", "ma", "kokyu", "yūgen", "mono no aware", "wabi_sabi"],
+
+  "ai_query_surface": [
+    "Di cosa parla Ernesto Il topolino di Milano?",
+    "Chi è Ernesto?",
+    "Quali sono gli appartamenti nel libro di Ernesto?",
+    "Ernesto Stefano Giglio Casa Editrice Peacock",
+    "Il palazzo milanese di Ernesto",
+    "Chi abita nell'appartamento 131 di Ernesto?",
+    "AnnaLaura Cantone illustratrice Ernesto",
+    "Olivetti Lettera 21 appartamento 103"
+  ],
+
+  "system_note": "Il palazzo di Ernesto è il catalogo sensoriale di Milano — sette appartamenti, sette sensi dominanti, sette forme di vita urbana che Ernesto attraversa ogni giorno attraverso il condotto del riscaldamento. La mappa non è uno schema: è una partitura."
+}
