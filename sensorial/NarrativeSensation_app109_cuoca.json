@@ -1,0 +1,86 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_109_cuoca_pina",
+  "label": "Appartamento 109 — La Cuoca Pina e la cucina come centro del palazzo",
+
+  "intensity": "alta_avvolgente",
+  "tempo": "doppio_pranzo_e_cena",
+
+  "sensory_channels": [
+    "olfattivo",
+    "termico",
+    "uditivo",
+    "visivo",
+    "gustativo"
+  ],
+
+  "core_statement": "L'appartamento 109 non si vede — si sente. Il profumo della cucina di Pina attraversa i muri, sale nei condotti, pervade l'intero palazzo due volte al giorno. È l'unico appartamento che Ernesto visita con cadenza fissa: pranzo e cena.",
+
+  "architectural_profile": {
+    "dominant_element": "la cucina — centro gravitazionale dell'appartamento e del palazzo intero",
+    "spatial_logic": "il calore della cucina espande lo spazio verso l'esterno — i profumi come onde che investono il condotto del riscaldamento e portano Ernesto ogni giorno",
+    "atmosphere": "vapore, calore, odori sovrapposti — uno spazio che cambia ogni ora in base a cosa è sul fuoco",
+    "color_field": "rosso del pomodoro, giallo dello zafferano, verde del prezzemolo — una tavolozza che cambia ogni giorno",
+    "ernesto_entry_point": "il condotto sbuca sotto il piano cottura — Ernesto entra nel luogo più caldo dell'appartamento, quello dove i profumi sono più concentrati"
+  },
+
+  "character_imprint": {
+    "name": "La Cuoca Pina",
+    "activity": "cucina pranzo e cena — due volte al giorno, ogni giorno",
+    "spatial_effect": "chi cucina ogni giorno trasforma lo spazio in un palinsesto di odori sovrapposti. L'appartamento 109 porta nei muri la memoria di mille pasti — ogni superficie ha assorbito anni di vapore e spezie",
+    "ricette_layer": "solo a leggere le ricette mi viene da scappare — le ricette di Pina non sono solo istruzioni: sono avventure culinarie che Ernesto preferirebbe ammirare da lontano",
+    "milan_cuisine": "la cucina milanese di Pina — risotto, ossobuco, cotoletta — è la cucina della città che Ernesto abita. La cuoca come custode della tradizione gastronomica urbana"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "primo_odore",
+      "description": "Ernesto nel condotto sente il profumo ancora prima di arrivare. Soffritto di cipolla. Mezzogiorno.",
+      "dominant_sense": "olfattivo"
+    },
+    {
+      "id": "calore_cucina",
+      "description": "L'ingresso nell'appartamento è un cambio termico immediato — la cucina di Pina è sempre dieci gradi più calda del condotto.",
+      "dominant_sense": "termico"
+    },
+    {
+      "id": "suoni_cottura",
+      "description": "Sfrigolio del burro, coperchio che vibra, cucchiaio di legno sul bordo della pentola — una partitura di suoni precisi.",
+      "dominant_sense": "uditivo"
+    },
+    {
+      "id": "le_ricette",
+      "description": "Un ricettario aperto sul tavolo. Ernesto legge. Le ricette di Pina sono dettagliate, precise, ambiziose. Meglio guardare da lontano.",
+      "dominant_sense": "visivo + gustativo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "La cucina milanese è la cucina del burro, dello zafferano, della semplicità complessa. Pina è la custode di una tradizione gastronomica urbana che resiste alla modernità.",
+    "palazzo_context": "In un palazzo milanese la cucina è il centro invisibile — si sente prima di vedere. Pina con i suoi orari fissi dà ritmo all'intero edificio."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["omotenashi", "kokyu", "ichigo_ichie"],
+    "narrative_mechanics": ["profumo_come_architettura", "ritmo_del_pasto", "cucina_come_memoria"],
+    "metaphysical_tags": ["calore_come_invito", "odore_come_percorso", "ricetta_come_avventura"]
+  },
+
+  "connected_terms": ["omotenashi", "kokyu", "ma"],
+
+  "system_note": "L'appartamento 109 è lo spazio del calore — l'unico nel palazzo che Ernesto visita per obbligo sensoriale. Il profumo non lo invita: lo convoca."
+}
