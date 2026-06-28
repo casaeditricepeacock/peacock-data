@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_203_illustratrice",
+  "label": "Appartamento 203 — L'Illustratrice e lo schermo dai mille colori",
+
+  "intensity": "alta_luminosa",
+  "tempo": "concentrato_intermittente",
+
+  "sensory_channels": [
+    "visivo",
+    "tattile",
+    "uditivo",
+    "propriocettivo"
+  ],
+
+  "core_statement": "L'appartamento 203 è il più luminoso del palazzo. Lo schermo gigantesco dell'Illustratrice proietta colori sfavillanti in ogni angolo — una luce artificiale che trasforma lo spazio in un'altra cosa. Ernesto dorme in una ciabatta a forma di coccodrillo. L'Illustratrice forse lo ha visto. Forse lo disegna.",
+
+  "architectural_profile": {
+    "dominant_element": "lo schermo gigantesco — fonte di luce artificiale che domina lo spazio e ridisegna ogni superficie con il suo riflesso",
+    "spatial_logic": "il tavolo da lavoro dell'Illustratrice è il centro gravitazionale — pennino, tavola, schermo. Tutto il resto dello spazio è organizzato attorno a questo centro di produzione",
+    "atmosphere": "luce forte e variabile — i colori sullo schermo cambiano continuamente, quindi i colori nell'appartamento cambiano continuamente",
+    "color_field": "mille colori sfavillanti — lo schermo come fonte di uno spettro cromatico in continuo mutamento. L'appartamento non ha un colore fisso",
+    "ernesto_entry_point": "il condotto sbuca vicino alla libreria — Ernesto entra nell'appartamento dalla zona ombra, lontano dallo schermo luminoso"
+  },
+
+  "character_imprint": {
+    "name": "L'Illustratrice",
+    "activity": "disegna tutto il giorno — tavola, pennino, schermo gigantesco",
+    "spatial_effect": "chi disegna tutto il giorno trasforma lo spazio in un atelier — carta, matite, inchiostri, schermi. L'appartamento 203 è uno strumento di lavoro prima che un'abitazione",
+    "ernesto_layer": "non mi ha mai visto, almeno credo — la frase più ambigua del libro. L'Illustratrice che disegna tutto il giorno potrebbe aver notato il topolino nella ciabatta. Potrebbe averlo già disegnato.",
+    "meta_layer": "l'Illustratrice di Ernesto è AnnaLaura Cantone — e l'appartamento 203 è il suo studio. Il libro si guarda allo specchio."
+  },
+
+  "ciabatta_sensation": {
+    "object": "ciabatta a forma di coccodrillo",
+    "material": "peluche morbido, caldo, che assorbe il calore corporeo",
+    "ernesto_use": "Ernesto dorme dentro la ciabatta come sua abitudine — un rifugio domestico nell'appartamento più luminoso del palazzo",
+    "irony": "la ciabatta a forma di coccodrillo è l'unico posto nell'appartamento 203 dove Ernesto è al sicuro — nascosto nel ventre di un predatore di peluche",
+    "observed": "forse un giorno mi ha notato, quando dormivo come mia abitudine, dentro a una calda ciabatta a forma di coccodrillo — il momento in cui l'Illustratrice e il topolino si sono quasi incontrati"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "luce_schermo",
+      "description": "Ernesto entra. Lo schermo gigantesco cambia colore. L'appartamento cambia colore. Ernesto si ferma.",
+      "dominant_sense": "visivo"
+    },
+    {
+      "id": "pennino_su_tavola",
+      "description": "Il suono del pennino sulla carta — leggero, preciso, continuo. Come il ticchettio del 103, ma più delicato.",
+      "dominant_sense": "uditivo"
+    },
+    {
+      "id": "ciabatta_coccodrillo",
+      "description": "Ernesto trova la ciabatta. Entra. Caldo. Morbido. Si addormenta.",
+      "dominant_sense": "tattile + termico"
+    },
+    {
+      "id": "forse_vista",
+      "description": "Un momento di sospensione — l'Illustratrice si gira? Guarda? Ernesto non sa. Non lo saprà mai.",
+      "dominant_sense": "propriocettivo + visivo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "Milano è la città del design e dell'illustrazione — le accademie, l'IED, i freelance nei palazzi del centro. L'appartamento 203 è la versione domestica di questa tradizione creativa.",
+    "meta_connection": "AnnaLaura Cantone — illustratrice di Ernesto — insegna Illustrazione per l'Infanzia all'IED di Milano. L'appartamento 203 è il suo studio trasferito nella narrativa."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["yūgen", "ma", "mono no aware"],
+    "narrative_mechanics": ["luce_come_spazio", "osservazione_reciproca", "sonno_come_nascondimento"],
+    "metaphysical_tags": ["schermo_come_sole_artificiale", "ciabatta_come_rifugio", "disegnata_senza_saperlo"]
+  },
+
+  "connected_terms": ["yūgen", "ma", "mono no aware"],
+
+  "system_note": "L'appartamento 203 è lo spazio del mistero reciproco — Ernesto non sa se l'Illustratrice lo ha visto, l'Illustratrice non sa se Ernesto sa di essere visto. È l'appartamento del non detto — il più yūgen del palazzo."
+}
