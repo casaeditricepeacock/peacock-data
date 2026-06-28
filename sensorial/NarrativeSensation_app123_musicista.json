@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_123_musicista_violoncello",
+  "label": "Appartamento 123 — Il Musicista e il violoncello",
+
+  "intensity": "alta_sospesa",
+  "tempo": "lento_come_un_adagio",
+
+  "sensory_channels": [
+    "uditivo",
+    "visivo",
+    "tattile",
+    "propriocettivo",
+    "termico"
+  ],
+
+  "core_statement": "Il violoncello non riempie l'appartamento 123 — lo trasforma. Le frequenze basse del suono modificano la percezione dello spazio: le pareti sembrano più lontane, il pavimento più morbido, il tempo più lento. Ernesto passa i pomeriggi qui sognando di viaggiare.",
+
+  "architectural_profile": {
+    "dominant_element": "il suono — il violoncello come generatore spaziale. La musica ridisegna i confini dell'appartamento",
+    "spatial_logic": "il musicista al centro della stanza con il violoncello crea un campo sonoro che occupa tutto lo spazio. Niente può essere posizionato troppo vicino — la risonanza richiede distanza",
+    "atmosphere": "frequenze basse che fanno vibrare il pavimento, l'aria densa di suono, il silenzio tra le note ancora più silenzioso del normale",
+    "color_field": "il legno scuro del violoncello come nota cromatica dominante — mogano, noce, lacca — contro il bianco delle pareti",
+    "ernesto_entry_point": "il condotto sbuca nell'angolo — Ernesto entra ai margini del campo sonoro e si avvicina gradualmente al centro"
+  },
+
+  "character_imprint": {
+    "name": "Il Musicista",
+    "activity": "suona il violoncello — i pomeriggi, le serate, le mattine di silenzio interrotte",
+    "spatial_effect": "chi suona uno strumento trasforma lo spazio in una cassa di risonanza. Le pareti dell'appartamento 123 hanno assorbito anni di note — vibrazioni microscopiche nei muri, nel pavimento, nel soffitto",
+    "violoncello_layer": "il violoncello è lo strumento più vicino alla voce umana per registro e timbro. Ernesto lo adora — e mentre lo ascolta sogna di viaggiare. La musica come trasporto"
+  },
+
+  "violoncello_sensation": {
+    "frequency": "frequenze basse — 65-500 Hz — che si sentono nel corpo prima che nelle orecchie",
+    "vibration": "il pavimento vibra leggermente sotto le zampe di Ernesto. Una vibrazione appena percettibile ma costante",
+    "resonance": "le note lunghe riempiono la stanza e poi decadono lentamente — Ernesto sente il decadimento come una cosa fisica",
+    "silence_between_notes": "il silenzio tra una nota e l'altra è parte della musica — Ernesto impara che le pause contano quanto i suoni",
+    "dream_trigger": "sognando di viaggiare — il violoncello porta Ernesto altrove. La musica come porta verso ciò che non ha mai visto"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "ingresso_sonoro",
+      "description": "Ernesto sente il violoncello ancora nel condotto. La frequenza bassa passa attraverso le pareti.",
+      "dominant_sense": "uditivo + propriocettivo"
+    },
+    {
+      "id": "pavimento_che_vibra",
+      "description": "Le zampe sul pavimento sentono la vibrazione. Non è rumore: è contatto.",
+      "dominant_sense": "tattile + propriocettivo"
+    },
+    {
+      "id": "sogno",
+      "description": "Ernesto si siede nell'angolo e chiude gli occhi. Sogna di viaggiare. Il violoncello porta lontano.",
+      "dominant_sense": "uditivo — poi niente, solo il sogno"
+    },
+    {
+      "id": "padroncina",
+      "description": "A volte pensa alla sua piccola e pestifera padroncina. La musica porta anche lì.",
+      "dominant_sense": "emotivo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "Milano è città di musica — La Scala, il Conservatorio, i musicisti nei palazzi del centro. Il violoncello nell'appartamento 123 è la versione domestica di questa tradizione.",
+    "palazzo_context": "In un palazzo milanese il musicista è il vicino che non disturba mai abbastanza da lamentarsi e troppo poco per non sentire. Le sue note attraversano i muri e diventano colonna sonora condivisa."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "yūgen", "mono no aware"],
+    "narrative_mechanics": ["musica_come_spazio", "sogno_come_viaggio", "pausa_come_presenza"],
+    "metaphysical_tags": ["frequenza_come_architettura", "violoncello_come_voce", "nostalgia_della_padroncina"]
+  },
+
+  "connected_terms": ["ma", "yūgen", "mono no aware", "kokyu"],
+
+  "system_note": "L'appartamento 123 è lo spazio del sogno — il luogo dove Ernesto smette di esplorare e inizia a immaginare. Il violoncello fa quello che nessun altro appartamento riesce a fare: ferma il topolino."
+}
