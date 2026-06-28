@@ -1,0 +1,96 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_103_scrittore",
+  "label": "Appartamento 103 — Lo Scrittore e l'Olivetti Lettera 21",
+
+  "intensity": "bassa_ritmica",
+  "tempo": "lento_ossessivo",
+
+  "sensory_channels": [
+    "uditivo",
+    "visivo",
+    "tattile",
+    "olfattivo",
+    "propriocettivo"
+  ],
+
+  "core_statement": "Lo Scrittore non abita l'appartamento 103. Lo riempie di un suono. Il ticchettio dell'Olivetti Lettera 21 color celestino è la battuta cardiaca dello spazio — tutto il resto orbita attorno a quel ritmo.",
+
+  "architectural_profile": {
+    "dominant_element": "la finestra — fonte di luce e di sguardo sul mondo",
+    "spatial_logic": "lo scrittore seduto accanto alla finestra crea un asse verticale luce-macchina-pagina. Lo spazio si organizza attorno a questo asse come un'orbita",
+    "atmosphere": "tempo sospeso — le ore non scorrono, si accumulano in fogli",
+    "color_field": "celestino dell'Olivetti come nota cromatica dominante — un colore che appartiene agli anni Cinquanta e alla luce milanese di mattina",
+    "ernesto_entry_point": "il condotto del riscaldamento sbuca sotto il davanzale — Ernesto entra nello spazio da sotto, dal basso, dove il battitore di tasti non guarda mai"
+  },
+
+  "character_imprint": {
+    "name": "Lo Scrittore",
+    "activity": "scrive gialli su macchina da scrivere Olivetti Lettera 21 color celestino",
+    "companion": "cane terrier — presenza fisica al piede della sedia",
+    "posture": "ore seduto accanto alla finestra — il corpo immobile, le dita in movimento",
+    "spatial_effect": "chi scrive per ore trasforma lo spazio in un campo di concentrazione. L'appartamento 103 non è un appartamento vissuto — è un appartamento scritto. Ogni oggetto è lì perché non disturba.",
+    "giallo_layer": "ha tutta la faccia di uno scrittore di libri gialli — il mistero come professione quotidiana. Ernesto, topolino evaso, è lui stesso un personaggio da giallo: presente ma invisibile"
+  },
+
+  "olivetti_sensation": {
+    "model": "Olivetti Lettera 21",
+    "color": "celestino",
+    "sound": "ticchettio irregolare — pause — accelerazioni — pausa lunga — ticchettio — campanella del ritorno a capo",
+    "tactile": "tasti con resistenza meccanica, nastro con odore di inchiostro, carta che avanza con scatto",
+    "cultural_weight": "la Lettera 21 è un oggetto di design italiano — Marcello Nizzoli, 1950. Non è una macchina da scrivere: è un manifesto della forma che segue la funzione",
+    "ernesto_perception": "il ticchettio visto da sotto — dal pavimento, dal baseboard — suona come una pioggia lontana, ritmica, rassicurante"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "ingresso",
+      "description": "Ernesto entra. Odore di carta vecchia e inchiostro. Luce dalla finestra che taglia il pavimento in diagonale.",
+      "dominant_sense": "olfattivo + visivo"
+    },
+    {
+      "id": "ticchettio",
+      "description": "Il suono della Lettera 21 riempie lo spazio. Non è rumore: è ritmo. Ernesto si ferma ad ascoltare.",
+      "dominant_sense": "uditivo"
+    },
+    {
+      "id": "il_terrier",
+      "description": "Il cane dorme ai piedi della sedia. Respiro regolare. Ernesto passa a tre centimetri — il terrier non si sveglia.",
+      "dominant_sense": "propriocettivo + termico"
+    },
+    {
+      "id": "la_pagina",
+      "description": "Un foglio cade dal rullo. Rimane sul pavimento. Ernesto ci passa sopra — sente il freddo della carta sotto le zampe.",
+      "dominant_sense": "tattile"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "L'Olivetti Lettera 21 è milanese nell'anima — design italiano del dopoguerra, produzione lombarda. Lo Scrittore che scrive gialli a Milano con una Lettera 21 è un'icona urbana precisa: l'intellettuale milanese del secondo Novecento.",
+    "palazzo_context": "Il palazzo milanese con appartamenti numerati — 103, 109, 111 — è la struttura che contiene e separa le vite. Ernesto è l'unico che attraversa i muri."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "wabi_sabi", "kokyu"],
+    "narrative_mechanics": ["spazio_scritto", "ritmo_come_architettura", "invisibilità_di_ernesto"],
+    "metaphysical_tags": ["ticchettio_come_battito", "finestra_come_soglia", "giallo_come_professione"]
+  },
+
+  "connected_terms": ["ma", "kokyu", "basho"],
+
+  "system_note": "L'appartamento 103 è lo spazio del ritmo — il ticchettio dell'Olivetti è il kokyu del libro. Ernesto entra, ascolta, passa. Non disturba il ritmo. È parte di esso."
+}
