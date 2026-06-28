@@ -1,0 +1,93 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "giglio_ernesto_topolino_citta",
+    "title": "Ernesto. Il topolino di Milano",
+    "author": "Stefano Giglio",
+    "illustrator": "AnnaLaura Cantone",
+    "isbn": "9791281715059",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "appartamento_111_libraio_oreste",
+  "label": "Appartamento 111 — Il Libraio e il gatto Oreste",
+
+  "intensity": "alta_rischiosa",
+  "tempo": "lento_con_picchi_di_adrenalina",
+
+  "sensory_channels": [
+    "olfattivo",
+    "tattile",
+    "uditivo",
+    "visivo",
+    "propriocettivo"
+  ],
+
+  "core_statement": "L'appartamento 111 è il più pericoloso e il più irresistibile. Il gatto Oreste dorme — ma potrebbe svegliarsi. I libri appena usciti profumano di carta nuova. Ernesto rischia tutto per mordicchiare una copertina.",
+
+  "architectural_profile": {
+    "dominant_element": "gli scaffali di libri — pareti che diventano biblioteche, spazio che si riduce man mano che la collezione cresce",
+    "spatial_logic": "il libraio vive circondato dai libri che vende — l'appartamento è un'estensione della libreria del quartiere. Lo spazio privato e quello professionale si sovrappongono",
+    "atmosphere": "silenzio denso — il silenzio dei libri che aspettano di essere letti, con la sola eccezione del respiro di Oreste",
+    "color_field": "dorsali dei libri in sequenza cromatica disordinata — rosso, blu, giallo, verde, bianco — una parete di colori ordinati per caso",
+    "ernesto_entry_point": "il condotto sbuca dietro lo scaffale più basso — Ernesto emerge tra i libri, invisibile, protetto dalla carta"
+  },
+
+  "character_imprint": {
+    "name": "Il Libraio",
+    "activity": "vive con i libri — li porta dalla libreria a casa, li legge, li impila, li ordina e riordina",
+    "companion": "il gatto Oreste — antagonista naturale di Ernesto, nemico per definizione",
+    "spatial_effect": "chi vive con i libri trasforma lo spazio in un labirinto di carta. L'appartamento 111 non ha pareti libere — ogni superficie è occupata da volumi. Lo spazio si restringe con ogni acquisto.",
+    "oreste_layer": "il gatto Oreste è il guardiano involontario della biblioteca. Dorme sui libri, tra i libri, sotto i libri. La sua presenza è il rischio che Ernesto accetta"
+  },
+
+  "libro_sensation": {
+    "new_books": "profumo di carta patinata, colla fresca, inchiostro tipografico — i libri appena usciti hanno un odore preciso e irresistibile",
+    "mordicchiare": "mordicchiare i libri appena usciti — Ernesto non legge, assaggia. Il libro come oggetto sensoriale prima che narrativo",
+    "oreste_sleeping": "il gattaccio dorme — respiro regolare, pelo che si solleva e abbassa. Ernesto misura il rischio in cicli di respiro",
+    "adrenalina": "l'impazzimento di Ernesto per i libri appena usciti è una forma di passione — rischiosa, irrazionale, necessaria"
+  },
+
+  "sensory_sequence": [
+    {
+      "id": "odore_carta",
+      "description": "Ernesto emerge dallo scaffale. Odore di carta nuova. Un libro appena arrivato dalla libreria.",
+      "dominant_sense": "olfattivo"
+    },
+    {
+      "id": "oreste_check",
+      "description": "Oreste dorme sul cuscino in cima allo scaffale. Ernesto lo misura con lo sguardo — distanza, posizione, respiro.",
+      "dominant_sense": "visivo + propriocettivo"
+    },
+    {
+      "id": "morso",
+      "description": "La copertina del libro nuovo sotto le incisivi. Carta che cede. Profumo che esplode. Impazzire.",
+      "dominant_sense": "tattile + olfattivo + gustativo"
+    },
+    {
+      "id": "fuga",
+      "description": "Oreste apre un occhio. Ernesto sparisce nel condotto. Il cuore batte.",
+      "dominant_sense": "propriocettivo + uditivo"
+    }
+  ],
+
+  "milan_layer": {
+    "city_connection": "Il libraio di quartiere milanese — figura in via di estinzione nelle grandi città. L'appartamento 111 è il suo rifugio professionale e personale insieme.",
+    "palazzo_context": "In un palazzo milanese il libraio porta la cultura all'interno delle mura domestiche — i libri come estensione della vita pubblica nella vita privata."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["yūgen", "ma", "wabi_sabi"],
+    "narrative_mechanics": ["rischio_come_piacere", "libro_come_oggetto_sensoriale", "gatto_come_antagonista"],
+    "metaphysical_tags": ["biblioteca_come_labirinto", "morso_come_lettura", "adrenalina_culturale"]
+  },
+
+  "connected_terms": ["ma", "yūgen", "wabi_sabi"],
+
+  "system_note": "L'appartamento 111 è lo spazio del rischio culturale — Ernesto ama i libri abbastanza da rischiare Oreste. È il luogo dove la passione supera la prudenza."
+}
