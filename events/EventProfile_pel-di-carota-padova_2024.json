@@ -1,0 +1,49 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+
+  "event_id": "pel_di_carota_padova_maggio_2024",
+  "label": "La Medusa e la Scimmia — Libreria Pel di Carota, Padova, 9 maggio 2024",
+
+  "event": {
+    "title": "La Medusa e la Scimmia — presentazione",
+    "date": "2024-05-09",
+    "location": "Libreria Pel di Carota — Via Boccalerie 29, Padova",
+    "book": {
+      "title": "La Medusa e la Scimmia",
+      "author": "Andreina Parpajola",
+      "postface": "Francesco Verni",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715011",
+      "language": ["it", "ja"]
+    }
+  },
+
+  "peacock_place_description": {
+    "statement": "La Medusa e la Scimmia — una fiaba della tradizione giapponese — presentata nella libreria per ragazzi del territorio Peacock. Il racconto del viaggio della Medusa tra i mari arriva in una via che sbuca in Piazza della Frutta, nel mercato medievale di Padova.",
+    "spatial_constraint": {
+      "banned_descriptions": ["evento_scolastico", "presentazione_commerciale"],
+      "required_spatial_tone": "intimo_e_narrativo",
+      "ma_definition": "il_silenzio_della_libreria_prima_che_inizi_il_racconto_e_il_tempo_del_mare_che_aspetta"
+    }
+  },
+
+  "network_connections": [
+    {
+      "target": "la_medusa_e_la_scimmia_parpajola",
+      "relation": "presented_here",
+      "description": "La Medusa e la Scimmia — presentato il 9 maggio 2024"
+    },
+    {
+      "target": "libreria_pel_di_carota_padova",
+      "relation": "hosted_at",
+      "description": "Libreria Pel di Carota — luogo dell'evento"
+    }
+  ],
+
+  "source_url": "https://www.studiopeacock.net/2024/05/09/libreria-pel-di-carota-padova/",
+  "system_note": "Primo evento Peacock documentato alla Libreria Pel di Carota — la libreria per ragazzi del territorio Peacock a Padova."
+}
