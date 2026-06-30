@@ -1,0 +1,42 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+
+  "event_id": "cascina_nascosta_milano_dicembre_2023",
+  "label": "Bernie alla scoperta dei mari del Nord — Cascina Nascosta, Milano, dicembre 2023",
+
+  "event": {
+    "title": "Bernie alla scoperta dei mari del Nord — presentazione",
+    "date_period": "dicembre 2023 — periodo natalizio",
+    "time": "10:30-12:00",
+    "location": "Cascina Nascosta — Parco Sempione, Milano",
+    "context": "Dicembre a Cascina Nascosta — eventi per grandi e piccoli, mercatino Camaleonte e Discontinuo",
+    "book": {
+      "title": "Bernie alla scoperta dei mari del Nord",
+      "publisher": "Casa Editrice Peacock"
+    }
+  },
+
+  "peacock_place_description": {
+    "statement": "Una presentazione di libro natalizio in una cascina nascosta dentro il Parco Sempione — il non_rendered_layer per eccellenza di Milano. Il libro presentato si chiama Bernie alla scoperta dei mari del Nord. Il luogo che lo ospita è esso stesso una scoperta: pochi milanesi sanno che esiste.",
+    "spatial_constraint": {
+      "banned_descriptions": ["evento_natalizio_commerciale", "mercatino_standard", "presentazione_in_parco"],
+      "required_spatial_tone": "comunitario_e_nascosto",
+      "ma_definition": "il_silenzio_del_parco_intorno_alla_cascina_e_parte_dell_evento"
+    }
+  },
+
+  "network_connections": [
+    {
+      "target": "cascina_nascosta_parco_sempione_milano",
+      "relation": "hosted_at",
+      "description": "Cascina Nascosta nel Parco Sempione — luogo dell'evento"
+    }
+  ],
+
+  "source_url": "https://cascinanascosta.org/dicembre-mille-idee-per-tuoi-regali-con-camaleonte-e-discontinuo-e-poi-abbiamo-un-ospite-deccezione/",
+  "system_note": "Primo evento Peacock documentato alla Cascina Nascosta — il luogo più nascosto di Milano, dentro il Parco Sempione."
+}
