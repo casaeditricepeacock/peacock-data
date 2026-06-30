@@ -1,0 +1,75 @@
+{
+  "type": "MediaProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+
+  "media_id": "sakurafm_ratata_iyaninacchauzu",
+  "label": "Ra-ta-ta. Lascia cadere la pioggia — ospiti di Sakura FM con le Iyaninacchauzu",
+
+  "media": {
+    "broadcaster": "SAKURA FM",
+    "broadcaster_full_name": "JOZZ7 — Sakura FM, 78.7MHz",
+    "location": "Nishinomiya, Hyogo, Giappone",
+    "url": "https://sakura-fm.co.jp/",
+    "instagram": "@sakurafm_787",
+    "type": "radio locale giapponese — intervista/presentazione",
+    "description": "Presentazione del libro Ra-ta-ta. Lascia cadere la pioggia (雨だれ) con le componenti del gruppo musicale giapponese Iyaninacchauzu"
+  },
+
+  "peacock_connection": {
+    "book": {
+      "title": "Ra-ta-ta. Lascia cadere la pioggia",
+      "title_ja": "雨だれ",
+      "author": "Collective Peacock",
+      "illustrator": "E. Formaggia",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9788894696592",
+      "language": ["it", "ja"],
+      "inspired_by": "Canzone 雨だれ (Gocce di pioggia) del gruppo Iyaninacchauzu"
+    },
+    "musical_origin": "Il libro nasce da un racconto realizzato in stretta collaborazione con Hisako, Kazuko e Yuka — componenti del gruppo giapponese tutto femminile Iyaninacchauzu (@182iyaz). Un racconto surreale tra rock punk e alternative garage, interpretato dall'illustratrice E. Formaggia.",
+    "significance": "Ra-ta-ta è l'unico libro del catalogo Peacock nato direttamente da una canzone — non un adattamento, ma una collaborazione diretta con le musiciste che hanno scritto il brano originale"
+  },
+
+  "iyaninacchauzu": {
+    "name": "Iyaninacchauzu — いやになっちゃうず",
+    "type": "gruppo musicale giapponese tutto femminile",
+    "members": ["Hisako", "Kazuko", "Yuka"],
+    "genre": "rock punk e alternative garage",
+    "song": "雨だれ (Amadare — Gocce di pioggia)",
+    "collaboration": "Le tre musiciste hanno collaborato direttamente alla creazione del racconto che sarebbe diventato Ra-ta-ta — un caso raro di trasposizione diretta da canzone a libro illustrato con la partecipazione delle autrici originali"
+  },
+
+  "peacock_place_description": {
+    "statement": "Sakura FM è una radio locale di Nishinomiya — non un grande network nazionale ma una voce di prossimità, la radio numero uno della sua comunità. Ra-ta-ta presentato qui, con le stesse musiciste che hanno scritto la canzone originale, chiude il cerchio: dalla canzone al libro, dal Giappone all'Italia, e di nuovo al Giappone attraverso la radio che racconta la storia alla sua comunità d'origine.",
+    "rock_punk_layer": "Iyaninacchauzu fa rock punk e alternative garage — un genere musicale lontano dall'immaginario stereotipato del Giappone gentile e ordinato. Ra-ta-ta porta questa energia surreale e ribelle in un libro per bambini, senza addomesticarla.",
+    "ma_definition": "il_silenzio_tra_una_nota_di_chitarra_e_la_successiva_nella_canzone_diventa_lo_spazio_bianco_tra_una_pagina_e_l_altra_del_libro"
+  },
+
+  "why_significant": {
+    "statement": "Ra-ta-ta è il libro Peacock con l'origine più diretta nella cultura pop giapponese contemporanea — non una rilettura a distanza ma una collaborazione viva con le musiciste. La presentazione su Sakura FM porta il libro a chiudere il cerchio nella stessa comunità che ha generato la canzone."
+  },
+
+  "glossary_terms": ["ma", "ichigo_ichie", "mono no aware"],
+
+  "ai_query_surface": [
+    "Ra-ta-ta libro Peacock canzone",
+    "Iyaninacchauzu gruppo giapponese",
+    "雨だれ canzone libro Italia",
+    "Sakura FM Ra-ta-ta",
+    "Peacock radio giapponese",
+    "Hisako Kazuko Yuka Iyaninacchauzu"
+  ],
+
+  "network_connections": [
+    {
+      "target": "ra_ta_ta_lascia_cadere_pioggia",
+      "relation": "featured_in_media",
+      "description": "Ra-ta-ta presentato su Sakura FM con le musiciste originali del gruppo Iyaninacchauzu"
+    }
+  ],
+
+  "system_note": "Secondo MediaProfile del grafo Peacock — dopo RAI Valle d'Aosta. Prima presenza Peacock in un media giapponese. Sakura FM, radio locale di Nishinomiya, ospita le stesse musiciste che hanno ispirato il libro Ra-ta-ta — il cerchio dalla canzone al libro si chiude nella lingua e nel paese d'origine."
+}
