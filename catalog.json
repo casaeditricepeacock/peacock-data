@@ -378,6 +378,26 @@
       ],
       "status": "forthcoming",
       "note": "Includes a chapter written by an AI on how a language model reads. JSON-LD as illustrated artwork by AnnaLaura Cantone. Presentation at Libreria Bocca dal 1775, Milan."
+    },
+    {
+      "title": "Forbidden Colours",
+      "series": "Nihon Monogatari",
+      "author": "Hélène Blignaut",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-10-3",
+      "year": 2025,
+      "genre": "romanzo",
+      "language": [
+        "it"
+      ],
+      "format": "148x210",
+      "photography": "Massimo Crivelli",
+      "photography_note": "Fotografie di tessuti ispirati alle opere di Yoichi Ohira — maestro vetraio veneziano di origine giapponese",
+      "narrative_system": "sistema della visione impossibile — sette operatori narrativi",
+      "graph_files": [
+        "sensorial/NarrativeSensation_forbidden-colours-blignaut.json",
+        "maps/NarrativeSystemMap_forbidden-colours-blignaut.json"
+      ]
     }
   ],
   "odabooks": {
