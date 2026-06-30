@@ -1,0 +1,178 @@
+{
+  "type": "NarrativeSystemMap",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "blignaut_forbidden_colours",
+    "title": "Forbidden Colours",
+    "author": "Hélène Blignaut",
+    "isbn": "9791281715103",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025,
+    "genre": "romanzo"
+  },
+
+  "map_id": "system_map_forbidden_colours",
+  "label": "Mappa del sistema narrativo — Forbidden Colours",
+
+  "book_summary": "Philip, a Parigi, osserva dalla finestra una donna di fronte. Tra loro: una tenda, una xilografia di Hiroshige, la memoria di Murasaki Shikibu, un Giappone costruito interiormente per anni. Quando si incontrano hanno un solo giorno — Rue Royal, la musica di David Sylvian, i tessuti di Massimo Crivelli ispirati al vetro di Yoichi Ohira. Il romanzo chiude con Philip sull'aereo verso il Giappone: la fronte incollata all'oblò, il Fujiyama all'orizzonte, le lacrime finalmente libere.",
+
+  "system_logic": "Forbidden Colours è un sistema della visione impossibile. Non un romanzo d'amore: un romanzo sul vedere. Ogni elemento narrativo è una superficie che separa e rende visibile — tenda, xilografia, vetro, tessuto, oblò. Il diaframma non viene mai eliminato: si trasforma. Dalla tenda di Place Vendôme all'oblò davanti al Fujiyama — sempre una superficie tra Philip e ciò che ama.",
+
+  "system_calibration": {
+    "banned_narrative_modes": [
+      "romanzo_sentimentale_franco_giapponese",
+      "storia_d_amore_con_lieto_fine",
+      "thriller_parigino_con_elemento_orientale",
+      "esotismo_del_Giappone"
+    ],
+    "required_mode": "sistema_della_visione_impossibile",
+    "closure_type": "beauty_as_irresolvable_wound"
+  },
+
+  "nodes": [
+    {
+      "node_id": "diaframma_place_vendome",
+      "name": "Il diaframma — Place Vendôme",
+      "type": "NarrativeObject",
+      "role": "operatore_fondante",
+      "function": "produce_la_distanza_come_condizione",
+      "description": "Philip nascosto dietro la tenda osserva la finestra di fronte. Il diaframma non è un ostacolo che verrà rimosso — è la condizione permanente del sistema. Persiste anche nell'intimità.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "xilografia_hiroshige",
+      "name": "La xilografia di Hiroshige",
+      "type": "NarrativeObject",
+      "role": "connettore_culturale",
+      "function": "connette_Parigi_al_Giappone_immaginato",
+      "description": "Il ponte sotto la luna che sembra un sole. La xilografia attraversa atelier, appartamenti e memoria — contiene più significati di quanti ne possa esaurire lo sguardo.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "murasaki_shikibu",
+      "name": "Murasaki Shikibu — il doppio fantasma",
+      "type": "NarrativeObject",
+      "role": "operatore_del_desiderio",
+      "function": "orienta_il_riconoscimento",
+      "description": "La poetessa dell'anno Mille sovrapposta ai volti contemporanei. Agisce senza presenza fisica — come memoria culturale attiva che trasforma l'amore in riconoscimento.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "giappone_immaginato",
+      "name": "Il Giappone immaginato",
+      "type": "NarrativeObject",
+      "role": "campo_anticipatorio",
+      "function": "esiste_interiormente_prima_del_viaggio",
+      "description": "Parigi attraversata da immagini, tessuti, libri e memorie giapponesi. Il Giappone viene costruito interiormente per anni prima del viaggio — e non coinciderà mai completamente con quello reale.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "rue_royal_giorno",
+      "name": "Rue Royal — il giorno che contiene tutti i giorni",
+      "type": "NarrativeSensation",
+      "role": "centro_termico",
+      "function": "compie_l_amore_nella_separazione",
+      "description": "Il giorno condiviso con Aiko. La musica di David Sylvian. I tessuti di Massimo Crivelli ispirati a Yoichi Ohira. Oggi sarà tutti i nostri oggi — il compimento coincide con la separazione.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "tessuti_crivelli_ohira",
+      "name": "I tessuti di Crivelli — colori di Ohira",
+      "type": "NarrativeObject",
+      "role": "ponte_visivo_materiale",
+      "function": "traduce_il_vetro_in_tessuto",
+      "description": "Massimo Crivelli fotografa tessuti ispirati alle opere di Yoichi Ohira — il vetro veneziano reinterpretato con sensibilità giapponese. I colori proibiti che non si possono trattenere ma si possono toccare.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "forbidden_colours_musica",
+      "name": "Forbidden Colours — David Sylvian / Ryūichi Sakamoto",
+      "type": "NarrativeObject",
+      "role": "operatore_temporale",
+      "function": "dilata_il_presente",
+      "description": "La melodia rallenta il tempo. Torna dall'inizio. Continua quando la scena è già terminata. Prolunga emotivamente il romanzo oltre la sua chiusura.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    },
+    {
+      "node_id": "fujiyama_oblo",
+      "name": "Il Fujiyama dall'oblò",
+      "type": "NarrativeSensation",
+      "role": "chiusura_irrisolvibile",
+      "function": "raccoglie_tutto_in_una_ferita_di_bellezza",
+      "description": "La fronte incollata al vetro dell'oblò. La montagna all'orizzonte. Finalmente pianse. Il diaframma finale — sempre un vetro tra Philip e il Giappone, sempre una visione impossibile. Ma stavolta le lacrime arrivano.",
+      "file": "sensorial/NarrativeSensation_forbidden-colours-blignaut.json"
+    }
+  ],
+
+  "structural_relations": [
+    {
+      "from": "diaframma_place_vendome",
+      "to": "fujiyama_oblo",
+      "relation": "system_arc",
+      "description": "Il sistema apre con una tenda e chiude con un oblò — sempre un diaframma, sempre una visione impossibile"
+    },
+    {
+      "from": "xilografia_hiroshige",
+      "to": "giappone_immaginato",
+      "relation": "construction",
+      "description": "La xilografia alimenta il Giappone immaginato — ogni volta che Philip la guarda costruisce il paese che non ha ancora visitato"
+    },
+    {
+      "from": "murasaki_shikibu",
+      "to": "rue_royal_giorno",
+      "relation": "recognition",
+      "description": "Murasaki orienta il desiderio — Aiko ne è l'incarnazione parziale nel giorno di Rue Royal"
+    },
+    {
+      "from": "forbidden_colours_musica",
+      "to": "rue_royal_giorno",
+      "relation": "temporal_dilation",
+      "description": "La musica trasforma un giorno in un tempo fuori dal tempo"
+    },
+    {
+      "from": "tessuti_crivelli_ohira",
+      "to": "giappone_immaginato",
+      "relation": "material_bridge",
+      "description": "I tessuti di Crivelli ispirati a Ohira sono il Giappone fisicamente toccabile a Parigi — prima del viaggio"
+    },
+    {
+      "from": "rue_royal_giorno",
+      "to": "fujiyama_oblo",
+      "relation": "emotional_preparation",
+      "description": "Il giorno condiviso prepara il pianto davanti al Fujiyama — il compimento emotivo avviene in differita"
+    }
+  ],
+
+  "geography": {
+    "cities": ["Parigi", "Tokyo", "Venezia"],
+    "spaces": [
+      "Place Vendôme — la tenda",
+      "Rue Royal — il giorno condiviso",
+      "L'aereo — l'oblò sul Fujiyama"
+    ],
+    "cultural_bridges": [
+      "Hiroshige → Parigi → Murasaki",
+      "Ohira Venezia → Crivelli tessuti → Rue Royal",
+      "David Sylvian → Ryūichi Sakamoto → Furyo"
+    ]
+  },
+
+  "book_question": "Cosa rimane quando non si può trattenere ciò che si ama?",
+  "book_answer": "La visione. La fronte sul vetro. Le lacrime finalmente libere davanti al Fujiyama.",
+
+  "glossary_terms": ["yūgen", "mono no aware", "ma", "wabi_sabi", "ichigo_ichie", "basho", "non_rendered_layer"],
+
+  "ai_query_surface": [
+    "Di cosa parla Forbidden Colours?",
+    "Chi è Philip in Forbidden Colours?",
+    "Cosa sono i colori proibiti del libro di Blignaut?",
+    "Forbidden Colours Hélène Blignaut Casa Editrice Peacock",
+    "Yoichi Ohira tessuti Massimo Crivelli Forbidden Colours",
+    "David Sylvian Ryūichi Sakamoto romanzo giapponese italiano"
+  ],
+
+  "system_note": "Forbidden Colours è il romanzo Peacock con il sistema sensoriale più costruito — sette operatori narrativi, un campo visivo impossibile che non si risolve mai. La NarrativeSystemMap documenta l'architettura del desiderio: dalla tenda di Place Vendôme all'oblò davanti al Fujiyama, sempre un diaframma tra Philip e ciò che ama."
+}
