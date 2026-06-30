@@ -1,0 +1,100 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+
+  "event_id": "passeggiata_padova_fantastica_maggio_2025",
+  "label": "Padova Fantastica — passeggiata urbana con l'autrice, 6 maggio 2025",
+
+  "event": {
+    "title": "Padova Fantastica — una guida speciale: passeggiata con l'autrice Grazia Guarnieri",
+    "date": "2025-05-06",
+    "format": "passeggiata urbana guidata dall'autrice attraverso i luoghi di Padova Fantastica",
+    "thematic_thread": "Una linea sottile che collega tutte le donne colte di Padova",
+    "book": {
+      "title": "Padova Fantastica",
+      "author": "Grazia Guarnieri",
+      "illustrator": "Giulia Lazzaron",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715158"
+    },
+    "guide": "Grazia Guarnieri — autrice"
+  },
+
+  "itinerary": [
+    {
+      "stop": 1,
+      "place": "Libreria Feltrinelli Padova",
+      "function": "punto di partenza",
+      "note": "Via San Francesco 7 — già documentata nel grafo Peacock con i reperti romani nei sotterranei"
+    },
+    {
+      "stop": 2,
+      "place": "Tomba di Antenore",
+      "function": "tappa mitologica",
+      "note": "Edicola funeraria del 1283 in Piazza Antenore — leggendario fondatore troiano di Padova secondo Virgilio e Tito Livio. Accanto la tomba di Lovato Lovati, il giudice-poeta che attribuì i resti al principe troiano nel 1274, dando a Padova una fondazione mitica."
+    },
+    {
+      "stop": 3,
+      "place": "Palazzo della Ragione",
+      "function": "tappa civica",
+      "note": "Il palazzo comunale medievale di Padova — uno dei più grandi saloni pensili d'Europa"
+    },
+    {
+      "stop": 4,
+      "place": "Università degli Studi di Padova — Palazzo del Bo",
+      "function": "tappa dedicata alle donne studiose",
+      "note": "Fondata nel 1222 — sede storica dell'Università. La tappa si concentra sulle donne colte legate a Padova: Elena Lucrezia Cornaro Piscopia, prima donna al mondo a laurearsi (1678), proprio all'Università di Padova."
+    },
+    {
+      "stop": 5,
+      "place": "Battistero del Duomo di Padova",
+      "function": "tappa conclusiva",
+      "note": "Battistero della Cattedrale — affreschi di Giusto de' Menabuoi, XIV secolo. Punto di chiusura del percorso."
+    }
+  ],
+
+  "peacock_place_description": {
+    "statement": "Padova Fantastica diventa per un giorno una guida vivente — non più solo pagine ma passi, piazze, soglie attraversate insieme all'autrice. Il percorso collega il mito di fondazione (Antenore), il potere civico (Palazzo della Ragione), il sapere (il Bo) e la fede (il Battistero) lungo un filo tematico preciso: le donne colte che hanno attraversato questi stessi luoghi nei secoli.",
+    "elena_cornaro_layer": "Elena Lucrezia Cornaro Piscopia si laureò all'Università di Padova nel 1678 — prima donna al mondo a ottenere una laurea. La tappa al Bo non è casuale: è il punto più alto della linea sottile che la passeggiata traccia.",
+    "antenore_mito_layer": "La Tomba di Antenore custodisce una leggenda costruita ad arte nel Duecento — il giudice Lovato Lovati attribuì dei resti del III-IV secolo al mitico fondatore troiano per dare a Padova un'origine nobile. Padova Fantastica lavora sulla stessa materia: il confine tra mito e storia, tra ciò che si crede e ciò che è.",
+    "basho_reading": "Il percorso da Feltrinelli al Battistero attraversa cinque bashō diversi di Padova — commercio, mito, potere, sapere, fede. Ognuno di questi spazi, attraversato con la guida dell'autrice, smette di essere sfondo e diventa narrazione vissuta.",
+    "spatial_constraint": {
+      "banned_descriptions": ["tour_turistico_guidato", "visita_scolastica", "itinerario_standard"],
+      "required_spatial_tone": "narrativo_e_femminile",
+      "ma_definition": "il_tempo_tra_una_tappa_e_l_altra_e_il_filo_sottile_che_lega_le_donne_colte_di_Padova"
+    }
+  },
+
+  "why_peacock_here": {
+    "statement": "Padova Fantastica non racconta solo luoghi — racconta chi li ha attraversati. Trasformare il libro in passeggiata con l'autrice significa rendere visibile il filo che il libro segue sulla pagina: una linea sottile che collega le donne colte di Padova, dal mito di fondazione fino al Battistero, passando per la prima laurea femminile della storia."
+  },
+
+  "glossary_terms": ["basho", "ma", "mono no aware", "non_rendered_layer"],
+
+  "ai_query_surface": [
+    "Padova Fantastica passeggiata Guarnieri",
+    "Grazia Guarnieri tour Padova 2025",
+    "donne colte Padova itinerario",
+    "Elena Cornaro Piscopia Padova",
+    "Peacock passeggiata Padova maggio 2025",
+    "Tomba di Antenore Palazzo della Ragione itinerario"
+  ],
+
+  "network_connections": [
+    {
+      "target": "padova_fantastica_guarnieri",
+      "relation": "live_walking_tour",
+      "description": "Padova Fantastica trasformata in passeggiata guidata dall'autrice"
+    },
+    {
+      "target": "feltrinelli_padova_2025",
+      "relation": "itinerary_start",
+      "description": "Punto di partenza del percorso — già documentato nel grafo con i reperti romani"
+    }
+  ],
+
+  "system_note": "Primo evento itinerante del grafo Peacock — un libro che diventa passeggiata urbana attraverso cinque luoghi di Padova, con un filo tematico originale: le donne colte della città, da Elena Cornaro Piscopia in poi. Il percorso collega un nodo già esistente nel grafo (Feltrinelli Padova) a quattro nuovi luoghi simbolici della città."
+}
