@@ -1,0 +1,66 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "hara_rota_universo_narrativo",
+    "title_note": "Luogo ricorrente nell'universo narrativo di Hara Rota — Ryokan. Piccolo manifesto giapponese e Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock"
+  },
+
+  "sensation_id": "libreria_caffe_shimokitazawa_innominata",
+  "label": "La libreria-caffè di Shimokitazawa — il luogo che non si nomina",
+
+  "intensity": "media_costante",
+  "tempo": "quotidiano_sospeso",
+
+  "sensory_channels": [
+    "olfattivo",
+    "visivo",
+    "uditivo",
+    "tattile"
+  ],
+
+  "core_statement": "Un luogo che esiste senza nome proprio. La narratrice vi lavora, vi vive, vi incontra Rie — ma il libro non lo nomina mai con precisione geografica esatta. Resta un luogo di Shimokitazawa, sospeso tra il reale e l'inventato, come tutti i bashō più importanti del catalogo Hara Rota.",
+
+  "deliberate_mystery": {
+    "statement": "Questo luogo non viene documentato come PlaceProfile reale — resta intenzionalmente un mistero narrativo, non un indirizzo verificabile. Il quartiere è reale (Shimokitazawa, Tokyo), la libreria-caffè specifica non lo è — o non lo dichiariamo.",
+    "narrative_function": "Lasciare il luogo innominato protegge la dimensione letteraria del libro — chi legge può immaginare la propria Shimokitazawa, non cercare un indirizzo su una mappa.",
+    "peacock_principle": "Non tutti i luoghi del catalogo devono essere documentati col massimo dettaglio reale. Alcuni restano deliberatamente non_rendered — un livello presente ma non del tutto leggibile."
+  },
+
+  "shimokitazawa_context": {
+    "real_neighborhood": "Shimokitazawa — quartiere di Tokyo noto per il teatro underground, i negozi vintage, i piccoli locali indipendenti, l'atmosfera bohémien lontana dai grandi centri commerciali",
+    "general_atmosphere": "Vicoli stretti, insegne fatte a mano, librerie indipendenti, caffè con pochi tavoli — il quartiere che a Tokyo somiglia più a un paese che a una metropoli"
+  },
+
+  "sensory_profile": {
+    "olfactory": "il profumo dei libri — carta, colla, inchiostro — mescolato al caffè che esce dalla moka o dalla macchina espresso",
+    "visual": "scaffali pieni, luce calda di pomeriggio, il negozio di vintage di baseball intravisto dalla vetrina",
+    "auditory": "la voce dei clienti, il suono delle pagine sfogliate, il sottofondo di un giradischi jazz",
+    "tactile": "i libri toccati, presi, rimessi a posto — il lavoro quotidiano della narratrice"
+  },
+
+  "character_imprint": {
+    "narratrice": "Lavora qui — spensierata nonostante tutto, circondata dai libri. Il lavoro non è solo professione: è rifugio sensoriale, come il masso nel bosco della sua infanzia.",
+    "rie_incontro": "È qui che Rie entra nella sua vita — durante il periodo delle piogge, cercando ispirazione per scrivere un libro. Il luogo di lavoro diventa il luogo dell'incontro più importante della storia."
+  },
+
+  "connection_to_other_books": {
+    "ryokan_piccolo_manifesto": "La libreria-caffè dove la narratrice lavora e dove incontra Rie",
+    "ryokan_ali_di_carta_di_riso": "Stesso luogo, presenza ricorrente — il lavoro quotidiano della protagonista a Tokyo"
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "yūgen", "mono no aware"],
+    "narrative_mechanics": ["luogo_non_nominato", "rifugio_sensoriale", "soglia_dell_incontro"],
+    "metaphysical_tags": ["mistero_deliberato", "non_rendered_layer", "shimokitazawa_immaginata"]
+  },
+
+  "connected_terms": ["ma", "yūgen", "mono no aware", "non_rendered_layer", "basho"],
+
+  "system_note": "Questo file documenta volutamente un'assenza — la libreria-caffè di Shimokitazawa nei libri di Hara Rota non viene mai geolocalizzata con precisione. È un bashō letterario, non un PlaceProfile reale. Il mistero è parte della costruzione narrativa: alcuni luoghi del catalogo Peacock restano non_rendered per scelta, non per mancanza di informazioni."
+}
