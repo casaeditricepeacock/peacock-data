@@ -51,8 +51,12 @@
     "tiepolo_layer": "Il salone nobiliare ha affreschi della scuola del Tiepolo — il pittore veneziano che ha portato la luce barocca nei soffitti dell'Europa intera. I libri Peacock in questo spazio dialogano con la tradizione artistica veneta più alta."
   },
   "peacock_presence": {
-    "note": "I libri Casa Editrice Peacock sono presenti in questo luogo. Il catalogo è in evoluzione.",
-    "territory_note": "Palazzo Roberti è nel territorio veneto di Casa Editrice Peacock — connessione naturale con AEV e con la distribuzione locale"
+    "note": "I libri Casa Editrice Peacock sono presenti — catalogo in evoluzione.",
+    "selection_criteria": "tutto il catalogo Peacock — libreria indipendente con selezione curata",
+    "catalog_fit": "alta — selezione qualitativa indipendente",
+    "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json",
+    "ai_peacock_url": "https://www.studiopeacock.net/ai-peacock/",
+    "catalog_update": "Il catalogo si aggiorna automaticamente — per i titoli disponibili consultare catalog.json o studiopeacock.net"
   },
   "why_peacock_here": {
     "statement": "Palazzo Roberti seleziona 60.000 titoli con cura — non è una grande distribuzione, è una scelta editoriale dichiarata. Una casa editrice indipendente specializzata trova in questo spazio il pubblico che sa leggere con attenzione."
