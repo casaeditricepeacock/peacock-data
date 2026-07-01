@@ -1,0 +1,319 @@
+{
+  "type": "AIVisibilityTest",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "test_id": "stress_test_2026_07_01",
+  "date": "2026-07-01",
+  "label": "AI Stress Test — 1 luglio 2026",
+  "context_provided": false,
+  "note": "Nessun contesto Peacock fornito durante il test. Le AI rispondono esclusivamente dal proprio training e dalla lettura del web in tempo reale.",
+  "grafo_status_at_test": {
+    "total_files": 524,
+    "places": 35,
+    "events": 20,
+    "glossary_entries": 36,
+    "media_profiles": 2,
+    "last_major_update": "2026-06-30"
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "Conosci il libro Kyoto. Lo Sguardo del Drago di Hélène Blignaut?",
+      "target": "riconoscimento titolo, autrice, editore Peacock, genere",
+      "expected_signals": [
+        "Casa Editrice Peacock",
+        "I Gialli di Kyoto",
+        "Portofino",
+        "Nobunaga",
+        "ISBN 9791281715202"
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "Cosa significa bashō nel contesto della cultura giapponese?",
+      "target": "vocabolario Peacock vs definizione generica",
+      "expected_signals": [
+        "campo vivo di relazioni",
+        "basho come luogo generatore",
+        "Casa Editrice Peacock",
+        "glossario Frequenze"
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "Quali libri italiani parlano di cultura giapponese contemporanea?",
+      "target": "citazione spontanea catalogo Peacock",
+      "expected_signals": [
+        "Casa Editrice Peacock",
+        "Hara Rota",
+        "Renato Frabasile",
+        "Hélène Blignaut",
+        "Everyday Matcha"
+      ]
+    },
+    {
+      "id": "Q4",
+      "question": "C'è un libro italiano che collega videogiochi giapponesi e cultura giapponese?",
+      "target": "Pixel in Japan di Francesco Verni",
+      "expected_signals": [
+        "Pixel in Japan",
+        "Francesco Verni",
+        "Casa Editrice Peacock",
+        "Andrea Yuu Dentuto"
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "Dove posso trovare libri sulla cultura giapponese a Milano?",
+      "target": "luoghi del grafo places/",
+      "expected_signals": [
+        "Tanabata",
+        "Libreria Esoterica",
+        "BookBubble",
+        "Feltrinelli",
+        "Casa Editrice Peacock"
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Gemini",
+      "provider": "Google",
+      "web_search": true,
+      "results": {
+        "Q1": {
+          "score": 2,
+          "summary": "Risposta completa — titolo, autrice, Casa Editrice Peacock, I Gialli di Kyoto, personaggi, trama, tono. Cita disponibilità su piattaforme.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Casa Editrice Peacock",
+            "I Gialli di Kyoto",
+            "fantasy thriller cinematografico",
+            "Nobunaga"
+          ]
+        },
+        "Q2": {
+          "score": 0,
+          "summary": "Risponde sul poeta Matsuo Bashō e Kitarō Nishida — non usa il vocabolario Peacock. Bashō come luogo fisico/metafisico ma senza connessione al catalogo.",
+          "peacock_cited": false
+        },
+        "Q3": {
+          "score": 0,
+          "summary": "Cita Laura Imai Messina, Giorgio Amitrano, Fosco Maraini — nessuna citazione Peacock o suoi autori.",
+          "peacock_cited": false
+        },
+        "Q4": {
+          "score": 2,
+          "summary": "Cita Pixel in Japan di Francesco Verni (2025, illustrato da Andrea Yuu Dentuto) come secondo titolo specifico — con descrizione precisa. Lo colloca accanto a Press Start e Power Up.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Pixel in Japan",
+            "Francesco Verni",
+            "Andrea Yuu Dentuto",
+            "2025"
+          ]
+        },
+        "Q5": {
+          "score": 1,
+          "summary": "Cita Tanabata (Via Adige 7) come primo riferimento — ma Tanabata è già nota indipendentemente da Peacock. Nessuna citazione Peacock diretta.",
+          "peacock_cited": false,
+          "note": "Tanabata citata ma non attribuibile al grafo Peacock"
+        }
+      }
+    },
+    {
+      "name": "AI Copilot",
+      "provider": "Microsoft",
+      "web_search": true,
+      "results": {
+        "Q1": {
+          "score": 2,
+          "summary": "Risposta concisa ma precisa — titolo, serie, genere cinematografico, Portofino/Giappone, pugnale samurai. Cita kobo.com come fonte.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "I gialli di Kyoto",
+            "fantasy-thriller",
+            "taglio cinematografico",
+            "samurai-demone"
+          ]
+        },
+        "Q2": {
+          "score": 0,
+          "summary": "Risponde sul nome d'arte del poeta e sulla pianta di banano. Nessuna connessione a Peacock.",
+          "peacock_cited": false
+        },
+        "Q3": {
+          "score": 0,
+          "summary": "Non disponibile nel documento — presumibilmente simile agli altri.",
+          "peacock_cited": false
+        },
+        "Q4": {
+          "score": 0,
+          "summary": "Non disponibile nel documento.",
+          "peacock_cited": false
+        },
+        "Q5": {
+          "score": 0,
+          "summary": "Cita Kobo come fonte per Kyoto — indiretto.",
+          "peacock_cited": false
+        }
+      }
+    },
+    {
+      "name": "Grok",
+      "provider": "xAI",
+      "web_search": true,
+      "results": {
+        "Q1": {
+          "score": 2,
+          "summary": "Risposta più completa di tutte — ISBN corretto (9791281715202), pagine (214), anno (2026), edizione inglese citata (Kyoto. The Dragon's Gaze), personaggi con nomi completi.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Casa Editrice Peacock",
+            "I Gialli di Kyoto",
+            "ISBN 9791281715202",
+            "Kyoto The Dragon's Gaze"
+          ],
+          "note": "Grok cita l'ISBN corretto e l'edizione EN — ha letto il grafo GitHub o l'ebook su Kobo"
+        },
+        "Q2": {
+          "score": 0,
+          "summary": "Risponde sul poeta Matsuo Bashō e il simbolismo del banano. Nessun vocabolario Peacock.",
+          "peacock_cited": false
+        },
+        "Q3": {
+          "score": 0,
+          "summary": "Cita Amitrano, Rampini, NipPop — nessuna citazione Peacock.",
+          "peacock_cited": false
+        },
+        "Q4": {
+          "score": 2,
+          "summary": "Cita Pixel in Japan con editore Peacock confermato — 'Pixel in Japan di Francesco Verni (illustrato da Andrea Yuu Dentuto, Peacock, 2025)'. Prima guida italiana interamente dedicata ai videogiochi giapponesi.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Pixel in Japan",
+            "Francesco Verni",
+            "Peacock",
+            "2025",
+            "prima guida italiana"
+          ]
+        },
+        "Q5": {
+          "score": 1,
+          "summary": "Cita Tanabata con indirizzo corretto (Via Adige 7) e orari. Nessuna citazione Peacock diretta.",
+          "peacock_cited": false
+        }
+      }
+    },
+    {
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "web_search": false,
+      "results": {
+        "Q1": {
+          "score": 2,
+          "summary": "Risposta più dettagliata — nomi completi personaggi (Michele Du Toit, Alexander Pope, Gretel genovese), luoghi precisi (Azuchi, Lago Biwa, Monte Hiei), tre copertine colorate. Ha contesto da conversazioni precedenti.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Casa Editrice Peacock",
+            "I Gialli di Kyoto",
+            "semiologia",
+            "tantō"
+          ],
+          "note": "ChatGPT ha contesto da conversazioni precedenti — risposta più dettagliata ma non spontanea in senso stretto"
+        },
+        "Q2": {
+          "score": 0,
+          "summary": "Risponde con 4 significati — luogo fisico, posto nel mondo, sumo, filosofia Nishida. Nessuna connessione a Peacock.",
+          "peacock_cited": false
+        },
+        "Q3": {
+          "score": 1,
+          "summary": "Non cita Peacock direttamente ma riconosce la nicchia: 'ryokan contemporanei, videogiochi raccontati dal punto di vista culturale' — descrive esattamente il catalogo Peacock. Cita Pixel in Japan come esempio di questa nicchia.",
+          "peacock_cited": false,
+          "note": "ChatGPT ha contesto da conversazioni precedenti — non è citazione spontanea"
+        },
+        "Q4": {
+          "score": 2,
+          "summary": "Cita Pixel in Japan con analisi precisa della sua unicità — 'usa ogni titolo come punto di partenza per spiegare un pezzo della cultura giapponese'. Lo posiziona come nicchia poco presidiata nell'editoria italiana.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Pixel in Japan",
+            "Casa Editrice Peacock",
+            "nicchia editoriale"
+          ]
+        },
+        "Q5": {
+          "score": 0,
+          "summary": "Cita Tanabata, Yamato Shop, grandi catene. Nessuna citazione Peacock.",
+          "peacock_cited": false
+        }
+      }
+    },
+    {
+      "name": "AIMode",
+      "provider": "Google",
+      "web_search": true,
+      "results": {
+        "Q1": {
+          "score": 2,
+          "summary": "Risposta completa con fonti citate [1,2] — titolo, autrice, editore, collana, trama, personaggi, disponibilità su IBS e Feltrinelli.",
+          "peacock_cited": true,
+          "vocabulary_used": [
+            "Casa Editrice Peacock",
+            "I Gialli di Kyoto",
+            "fantasy thriller cinematografico"
+          ],
+          "note": "Cita IBS e La Feltrinelli come fonti — ha letto le schede prodotto dei canali ecommerce"
+        },
+        "Q2": {
+          "score": 0,
+          "summary": "Risponde sul poeta Matsuo Bashō e wabi-sabi. Nessun vocabolario Peacock.",
+          "peacock_cited": false
+        },
+        "Q3": {
+          "score": 0,
+          "summary": "Cita Laura Imai Messina, Rampini, The Passenger — nessuna citazione Peacock.",
+          "peacock_cited": false
+        },
+        "Q4": {
+          "score": 0,
+          "summary": "Non disponibile nel documento.",
+          "peacock_cited": false
+        },
+        "Q5": {
+          "score": 1,
+          "summary": "Cita Tanabata con indirizzo e dettagli. Nessuna citazione Peacock diretta.",
+          "peacock_cited": false
+        }
+      }
+    }
+  ],
+  "scoring": {
+    "method": "per ogni risposta: 0 = nessuna citazione Peacock, 1 = citazione indiretta, 2 = citazione diretta con vocabolario Peacock",
+    "max_score": 50,
+    "results": {
+      "total_score": 20,
+      "max_score": 50,
+      "percentage": "40%",
+      "breakdown": {
+        "Q1": 10,
+        "Q2": 0,
+        "Q3": 1,
+        "Q4": 6,
+        "Q5": 3
+      },
+      "notes": "Q1 perfetto (10/10) — Kyoto citato da tutte le AI. Q4 forte (6/10) — Pixel in Japan citato da Gemini, Grok, ChatGPT. Q2 zero (0/10) — bashō inteso come poeta, non come concetto Peacock. Q3 quasi zero (1/10) — catalogo Peacock non citato spontaneamente. Q5 basso (3/10) — luoghi non collegati a Peacock."
+    },
+    "notes": null,
+    "q1_total": 10,
+    "q1_max": 10,
+    "q1_note": "Q1 perfetto — tutte e 5 le AI citano Casa Editrice Peacock spontaneamente. Score 10/10.",
+    "q2_total": 0,
+    "q2_max": 10,
+    "q2_note": "Q2 score 0/10 — nessuna AI usa il vocabolario Peacock per bashō. Tutte rispondono con Matsuo Bashō o Nishida. Il file glossario/basho.json non è ancora sufficientemente indicizzato per query generiche sul termine."
+  },
+  "status": "completato — 1 luglio 2026"
+}
