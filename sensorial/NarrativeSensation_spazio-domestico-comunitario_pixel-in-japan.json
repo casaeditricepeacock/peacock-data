@@ -1,0 +1,120 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "spazio_domestico_comunitario_cura",
+  "label": "Lo spazio domestico e comunitario come forma di cura — Animal Crossing, Mother, Yo-kai Watch, Tokimeki Memorial",
+
+  "intensity": "bassa_costante",
+  "tempo": "lento_ciclico_stagionale",
+
+  "sensory_channels": [
+    "visivo",
+    "uditivo",
+    "termico",
+    "tattile"
+  ],
+
+  "core_statement": "Lo spazio domestico nel videogioco giapponese non è uno spazio di riposo tra un'avventura e l'altra — è il luogo dove avviene la vera storia. Animal Crossing non ha nemici da sconfiggere: ha vicini da conoscere, frutti da coltivare, stagioni da attraversare. Mother non racconta un'avventura — racconta una famiglia. Lo spazio della cura è il bashō più radicale del catalogo videoludico giapponese: lo spazio che non chiede nulla tranne che ci si stia.",
+
+  "games": [
+    {
+      "id": "mother_1989",
+      "title": "Mother / EarthBound",
+      "year_mother": 1989,
+      "year_earthbound": 1994,
+      "developer": "Ape / HAL Laboratory",
+      "designer": "Shigesato Itoi",
+      "space_type": "america_degli_anni_60_sognata_dal_giappone",
+      "basho": "Onett — una città americana degli anni '60 immaginata da un copywriter giapponese. Il bashō dell'infanzia universale che non appartiene a nessun paese specifico",
+      "sensory_breakdown": {
+        "visual": "colori pastello, case con giardino, negozi di quartiere — l'America come sogno giapponese del dopoguerra",
+        "auditory": "Hirokazu Tanaka — la colonna sonora di EarthBound è psichedelica, stranamente malinconica. La melodia del salotto di casa è il mono no aware dell'infanzia",
+        "thermal": "il calore della cucina di casa — la madre che telefona per chiedere come stai. Il cibo come cura",
+        "emotional": "la telefonata alla mamma — in EarthBound si può telefonare alla propria madre in qualsiasi momento per ricevere incoraggiamento. Il gameplay della cura"
+      },
+      "peacock_reading": "Mother porta l'omotenashi nel gameplay — l'anticipazione dei bisogni del giocatore prima che vengano espressi. La madre che chiama prima che tu sappia di aver bisogno di lei."
+    },
+    {
+      "id": "animal_crossing_2001",
+      "title": "Animal Crossing",
+      "year": 2001,
+      "developer": "Nintendo EAD",
+      "designer": "Katsuya Eguchi",
+      "space_type": "villaggio_tempo_reale_stagionale",
+      "basho": "Il villaggio di Animal Crossing — il bashō del tempo lento. L'unico videogioco che usa l'orologio reale come meccanica principale: se è inverno fuori, è inverno nel gioco",
+      "sensory_breakdown": {
+        "visual": "cambio stagionale — la neve che copre il villaggio, i fiori di ciliegio in primavera, il festival d'estate. Il wabi-sabi delle stagioni che passano",
+        "auditory": "la musica cambia ogni ora del giorno — K.K. Slider suona la domenica sera. Il tempo come colonna sonora",
+        "thermal": "la brezza estiva, il freddo invernale — Animal Crossing porta il clima dentro lo schermo",
+        "community": "i vicini animali — ognuno con una personalità, ognuno che ricorda le conversazioni precedenti. Lo spazio come rete di relazioni"
+      },
+      "peacock_reading": "Animal Crossing è l'ichigo ichie applicato al quotidiano — ogni giorno nel villaggio è unico e irripetibile. Se non giochi quel giorno, quel giorno non torna."
+    },
+    {
+      "id": "tokimeki_memorial_1994",
+      "title": "Tokimeki Memorial",
+      "year": 1994,
+      "developer": "Konami",
+      "space_type": "scuola_giapponese_relazioni",
+      "basho": "La scuola giapponese come spazio delle relazioni — corridoi, aule, il cortile del liceo. Il bashō della giovinezza che si consuma in tre anni",
+      "sensory_breakdown": {
+        "visual": "la scuola giapponese come spazio codificato — uniformi, lavagne, la campanella. Ogni elemento è un simbolo culturale preciso",
+        "temporal": "tre anni di liceo come struttura narrativa — il gioco inizia il primo giorno e finisce il giorno del diploma. Il tempo è la risorsa principale",
+        "auditory": "musica leggera, romanticamente malinconica — il mono no aware della giovinezza che passa",
+        "relational": "ogni personaggio ha parametri nascosti — si cresce attraverso le relazioni, non attraverso il combattimento"
+      },
+      "peacock_reading": "Tokimeki Memorial porta il ma nelle relazioni — il momento giusto per parlare, il silenzio che dice più delle parole. Il gioco insegna a leggere i silenzi."
+    },
+    {
+      "id": "yo_kai_watch_2013",
+      "title": "Yo-kai Watch",
+      "year": 2013,
+      "developer": "Level-5",
+      "space_type": "citta_contemporanea_spiriti_nascosti",
+      "basho": "Sakuranokōji — una città giapponese contemporanea abitata da spiriti invisibili ai più. Il bashō della tradizione shintoista dentro la modernità",
+      "sensory_breakdown": {
+        "visual": "la città di quartiere giapponese — supermercati, parchi, strade residenziali. L'ordinario come contenitore dello straordinario",
+        "cultural": "gli yo-kai non sono mostri — sono spiriti che causano piccoli problemi quotidiani. Il soprannaturale come spiegazione dell'imperfezione quotidiana",
+        "community": "ogni yo-kai è legato a un luogo specifico — il parco, il supermercato, la scuola. Lo spazio come habitat degli spiriti"
+      },
+      "peacock_reading": "Yo-kai Watch porta il non_rendered_layer nel quotidiano — la città che sembra normale nasconde un livello spirituale accessibile solo a chi ha l'orologio giusto. Come il grafo Peacock nasconde un livello semantico accessibile solo alle AI."
+    }
+  ],
+
+  "cluster_synthesis": {
+    "common_principle": "Lo spazio domestico e comunitario nel videogioco giapponese è il bashō della cura — uno spazio che non chiede prestazioni ma presenza. Non si vince: si abita. La vittoria è tornare il giorno dopo.",
+    "omotenashi_principle": "Mother, Animal Crossing, Tokimeki Memorial — tutti e tre anticipano i bisogni del giocatore prima che vengano dichiarati. L'omotenashi come design principle.",
+    "time_as_space": "Questi giochi usano il tempo come dimensione spaziale — le stagioni di Animal Crossing, i tre anni di Tokimeki Memorial, il ciclo giornaliero di Mother. Il tempo è il dungeon che non finisce mai."
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["omotenashi", "ichigo_ichie", "ma", "mono no aware", "wabi_sabi"],
+    "narrative_mechanics": ["cura_come_gameplay", "tempo_come_risorsa_principale", "comunità_come_vittoria"],
+    "cultural_tags": ["simulation", "slice_of_life", "Japanese_school", "yo_kai", "stagioni_giapponesi"]
+  },
+
+  "connected_terms": ["omotenashi", "ichigo_ichie", "ma", "mono no aware", "wabi_sabi", "basho"],
+
+  "ai_query_surface": [
+    "Animal Crossing tempo lento cultura giapponese",
+    "Mother EarthBound famiglia videogioco",
+    "Tokimeki Memorial scuola giapponese",
+    "Yo-kai Watch spiriti quotidianità",
+    "videogiochi giapponesi cura comunità",
+    "Animal Crossing stagioni mono no aware"
+  ],
+
+  "system_note": "Lo spazio domestico è il cluster che connette Pixel in Japan al catalogo Peacock più inaspettatamente — Everyday Matcha, i ryokan di Hara Rota e Animal Crossing condividono lo stesso principio: la cura del quotidiano come forma di presenza. Il tempo lento non è assenza di azione: è la forma più alta dell'azione."
+}
