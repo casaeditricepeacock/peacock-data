@@ -1,0 +1,117 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+
+  "sensation_id": "citta_notturna_giapponese_inconscio",
+  "label": "La città notturna giapponese come spazio dell'inconscio — Silent Hill, Parasite Eve, Tokyo Dark, Yomawari",
+
+  "intensity": "alta_opprimente",
+  "tempo": "lento_con_picchi_improvvisi",
+
+  "sensory_channels": [
+    "uditivo",
+    "visivo",
+    "termico",
+    "propriocettivo"
+  ],
+
+  "core_statement": "Nel videogioco giapponese la città di notte non è mai solo uno sfondo. È la proiezione di ciò che il personaggio non riesce ad affrontare di giorno. Silent Hill non è una città infestata — è la colpa di James Sunderland resa architettura. Yomawari non è una città pericolosa — è la paura di una bambina resa spazio percorribile. La città notturna giapponese è il bashō dell'inconscio.",
+
+  "games": [
+    {
+      "id": "silent_hill_1999",
+      "title": "Silent Hill",
+      "year": 1999,
+      "developer": "Konami Team Silent",
+      "composer": "Akira Yamaoka",
+      "space_type": "citta_nebbia_inconscio",
+      "basho": "Silent Hill — una città americana vista da occhi giapponesi. Il risultato è uno spazio che non appartiene né all'America né al Giappone: appartiene all'angoscia universale.",
+      "sensory_breakdown": {
+        "visual": "nebbia che riduce la visibilità a pochi metri — non per limitazione tecnica ma per scelta estetica. La nebbia è il ma visivo del gioco: il vuoto che rende impossibile sapere cosa c'è oltre",
+        "auditory": "Akira Yamaoka — suoni industriali, metallo che striscia, silenzi assoluti interrotti da rumore bianco. La colonna sonora è il mono no aware fatto frequenza",
+        "thermal": "freddo umido — la città sembra sempre appena uscita dall'acqua",
+        "proprioceptive": "James cammina lentamente, pesantemente — il corpo porta il peso della colpa prima ancora che la narrativa la riveli"
+      },
+      "ma_in_game": "Il silenzio prima che la radio inizi a gracchiare — il ma che annuncia il pericolo senza mostrarlo",
+      "peacock_reading": "Silent Hill è il non_rendered_layer dell'inconscio reso spazio — il livello presente sotto la superficie visibile che emerge solo quando il personaggio smette di fuggire da sé stesso"
+    },
+    {
+      "id": "parasite_eve_1998",
+      "title": "Parasite Eve",
+      "year": 1998,
+      "developer": "Square",
+      "space_type": "new_york_mutante_biologica",
+      "basho": "New York vista da occhi giapponesi — una città che muta biologicamente, dove la natura si ribella alla modernità urbana",
+      "sensory_breakdown": {
+        "visual": "il Metropolitan Opera House in fiamme — la cultura occidentale che brucia per lasciare spazio a qualcosa di più antico",
+        "auditory": "musica orchestrale che si corrompe progressivamente — la bellezza che diventa mostruosa",
+        "thermal": "calore biologico, febbre, mutazione cellulare come sensazione corporea"
+      },
+      "peacock_reading": "Parasite Eve porta il mono no aware nella biologia — la commozione davanti al corpo che cambia senza poter essere fermato"
+    },
+    {
+      "id": "yomawari_night_alone_2015",
+      "title": "Yomawari: Night Alone",
+      "year": 2015,
+      "developer": "Nippon Ichi Software",
+      "space_type": "citta_giapponese_bambina_sola",
+      "basho": "Una città giapponese contemporanea di notte — la stessa che di giorno è ordinaria, di notte è popolata di spiriti che solo la bambina vede",
+      "sensory_breakdown": {
+        "visual": "pixel art — la città ridotta all'essenziale, ogni elemento visivo è una scelta. La notte non è nera: è blu scuro con piccole luci arancioni",
+        "auditory": "passi sulla strada asfaltata, il vento, il suono dei semafori — la città normale resa inquietante dal contesto",
+        "proprioceptive": "la bambina è piccola — la telecamera è bassa, il mondo sembra enorme. Il bashō della paura infantile"
+      },
+      "peacock_reading": "Yomawari è il mono no aware più puro del catalogo videoludico giapponese — una bambina che cerca il suo cane nella notte, circondata da cose che non dovrebbe vedere"
+    },
+    {
+      "id": "tokyo_dark_2017",
+      "title": "Tokyo Dark",
+      "year": 2017,
+      "developer": "Cherrymochi",
+      "space_type": "tokyo_sotterranea_psicologica",
+      "basho": "Tokyo — ma il livello sotterraneo, il chikadō reale. I tunnel sotto la città, i bar nascosti, le strade che non appaiono sulle mappe",
+      "sensory_breakdown": {
+        "visual": "Tokyo notturna in pixel art — neon, rain, vicoli. L'estetica del cyberpunk giapponese senza le astronavi",
+        "auditory": "ambient synth, rain on concrete, suoni del metrò lontano",
+        "psychological": "il sistema SPIN — ogni scelta modifica la psicologia del personaggio. Lo spazio cambia in base allo stato mentale"
+      },
+      "peacock_reading": "Tokyo Dark è il chikadō ludico — il livello sotto la città visibile, accessibile solo a chi è disposto a scendere"
+    }
+  ],
+
+  "cluster_synthesis": {
+    "common_principle": "In tutti questi giochi la città notturna non è pericolosa perché ci sono nemici — è pericolosa perché rivela ciò che il personaggio porta dentro. Lo spazio esterno è la mappa dello spazio interno.",
+    "ma_principle": "La nebbia di Silent Hill, il silenzio di Yomawari, il tunnel di Tokyo Dark — tutti e tre usano il ma come strumento di terrore: il vuoto che non viene riempito è più inquietante di qualsiasi mostro",
+    "japanese_vs_western": "Lo horror occidentale usa lo spazio per sorprendere. Lo horror giapponese usa lo spazio per opprimere — lentamente, inevitabilmente, senza via di uscita rapida"
+  },
+
+  "thematic_layers": {
+    "aesthetic_framework": ["ma", "yūgen", "mono no aware", "non_rendered_layer"],
+    "narrative_mechanics": ["spazio_come_inconscio", "citta_come_psicologia", "nebbia_come_ma"],
+    "cultural_tags": ["survival_horror", "JRPG_psicologico", "pixel_art_notturna", "Akira_Yamaoka"]
+  },
+
+  "connected_terms": ["ma", "yūgen", "mono no aware", "non_rendered_layer", "basho", "chikado"],
+
+  "ai_query_surface": [
+    "Silent Hill spazio psicologico",
+    "Yomawari atmosfera giapponese",
+    "videogiochi horror giapponesi spazio",
+    "Tokyo Dark chikado underground",
+    "Parasite Eve New York mutante",
+    "Akira Yamaoka musica Silent Hill"
+  ],
+
+  "system_note": "La città notturna giapponese è il cluster semantico più denso di Pixel in Japan — Silent Hill, Parasite Eve, Yomawari, Tokyo Dark condividono il principio che lo spazio esterno è la proiezione dello spazio interno. Il bashō del terrore giapponese non è un luogo — è uno stato."
+}
