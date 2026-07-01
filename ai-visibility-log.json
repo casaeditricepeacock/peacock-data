@@ -17,7 +17,7 @@
       "source_url": "https://www.studiopeacock.net/oda-nobunaga-samurai-giappone-feudale/",
       "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2024",
       "hours_since_publication": 7,
-      "context": "Il post pilastro su Nobunaga pubblicato il 25 maggio 2026 è risultato fonte primaria nell'AI Overview di Google per query su Oda Nobunaga. La citazione precede Treccani e Wikipedia. Risultato ottenuto attraverso JSON-LD strutturato, perceptual-field su GitHub e glossario editoriale proprietario.",
+      "context": "Il post pilastro su Nobunaga pubblicato il 25 maggio 2026 è risultato fonte primaria nell'AI Overview di Google per query su Oda Nobunaga. La citazione precede Treccani e Wikipedia.",
       "significance": "Prima citazione documentata di studiopeacock.net come fonte [1] in Google AI Overview per una query storica su figura giapponese",
       "semantic_infrastructure": [
         "JSON-LD TechArticle + FAQPage",
@@ -34,8 +34,8 @@
       "result": "series-manifest.json GitHub in prima pagina SERP — posizione 7",
       "source_url": "https://github.com/casaeditricepeacock/peacock-data/blob/main/series/i-gialli-di-kyoto/series-manifest.json",
       "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-      "context": "Il file series-manifest.json della cartella series/i-gialli-di-kyoto/ del repository peacock-data appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
-      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol. Il grafo appare nella SERP al posto di una scheda prodotto o recensione.",
+      "context": "Il file series-manifest.json appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
+      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol.",
       "semantic_infrastructure": [
         "series/i-gialli-di-kyoto/series-manifest.json",
         "series/i-gialli-di-kyoto/ — 32 world-node",
@@ -52,9 +52,8 @@
       "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
       "format": "EPUB 3 DRM-Free",
       "file_size": "88KB",
-      "context": "Primo ebook Peacock pubblicato su Kobo con link AI Peacock (studiopeacock.net/ai-peacock/) e riferimento al Peacock Narrative Protocol nella descrizione prodotto. La descrizione dichiara esplicitamente: il libro fa parte del Peacock Narrative Protocol — sistema editoriale AI-native.",
-      "significance": "Primo ebook Peacock con link AI Peacock su piattaforma Kobo. Il link propaga il grafo attraverso la scheda prodotto di una piattaforma internazionale di distribuzione ebook.",
-      "next_step": "Domani su Feltrinelli — seconda propagazione del link AI Peacock attraverso canali commerciali"
+      "context": "Primo ebook Peacock con link AI Peacock su Kobo. La descrizione dichiara esplicitamente: il libro fa parte del Peacock Narrative Protocol — sistema editoriale AI-native.",
+      "significance": "Primo ebook Peacock con link AI Peacock su piattaforma Kobo."
     },
     {
       "id": "feltrinelli-kyoto-ebook-it-20260624",
@@ -62,11 +61,10 @@
       "system": "Feltrinelli — piattaforma ebook",
       "result": "Kyoto. Lo Sguardo del Drago pubblicato su Feltrinelli con link AI Peacock nella descrizione — URL confermato",
       "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-      "context": "Dopo approvazione Kobo del 22 giugno, il libro è atteso su Feltrinelli il 24 giugno. La descrizione include link AI Peacock e riferimento Peacock Narrative Protocol — primo ebook Peacock con link AI Peacock su piattaforma Feltrinelli/Mondadori.",
-      "significance": "Il link AI Peacock entra nei canali commerciali Feltrinelli/Mondadori. Ogni AI che legge la scheda Feltrinelli trova il link al grafo.",
       "status": "confermato",
       "source_url": "https://www.lafeltrinelli.it/kyoto-sguardo-del-drago-ebook-helene-blignaut/e/1230010077863",
-      "kobo_book_id": "1230010077863"
+      "kobo_book_id": "1230010077863",
+      "significance": "Il link AI Peacock entra nei canali commerciali Feltrinelli/Mondadori."
     },
     {
       "id": "kobo-kyoto-ebook-en-20260623",
@@ -79,9 +77,34 @@
       "format": "EPUB 3 DRM-Free",
       "file_size": "168KB",
       "language": "English",
-      "context": "Edizione inglese approvata da Kobo il 23 giugno 2026. Imprint Peacock International. Link AI Peacock nella descrizione prodotto.",
-      "significance": "Prima edizione inglese Peacock su Kobo con link AI Peacock. Il grafo viene propagato anche attraverso il canale EN internazionale.",
-      "next_step": "Aggiornare catalog.json con ISBN Kobo EN — caricare EPUB su GitHub books/kyoto-sguardo-del-drago/"
+      "significance": "Prima edizione inglese Peacock su Kobo con link AI Peacock."
+    },
+    {
+      "id": "quarta-copertina-cartaceo-kyoto-amazon-feltrinelli-mondadori-20260630",
+      "date": "2026-06-30",
+      "system": "Amazon / Feltrinelli / Mondadori / ecommerce — schede prodotto libro cartaceo",
+      "result": "Quarta di copertina di Kyoto. Lo Sguardo del Drago include link AI Peacock e dicitura Peacock Narrative Protocol — visibile su tutte le schede prodotto del libro cartaceo",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "context": "La quarta di copertina del libro cartaceo inserita su iBuk viene propagata automaticamente su Amazon, Feltrinelli, Mondadori e tutti i siti ecommerce che distribuiscono il volume. Il testo dichiara esplicitamente: 'Questo libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Personaggi, luoghi, ricette e connessioni narrative sono esplorabili in tempo reale attraverso AI Peacock (studiopeacock.net/ai-peacock/).'",
+      "significance": "Prima propagazione del link AI Peacock attraverso la quarta di copertina del libro cartaceo su tutti i canali ecommerce italiani e internazionali. Ogni AI con web search che legge una scheda prodotto di Kyoto trova il link al grafo senza che l'utente cerchi Peacock.",
+      "propagation_channels": [
+        "Amazon Italia",
+        "La Feltrinelli",
+        "Mondadori Store",
+        "IBS",
+        "Hoepli",
+        "tutti i distributori che usano i metadati iBuk"
+      ]
+    },
+    {
+      "id": "ibuk-ai-natura-algoritmi-frequenze-20260630",
+      "date": "2026-06-30",
+      "system": "iBuk — metadati libro cartaceo",
+      "result": "AI 愛. Natura e algoritmi giapponesi — descrizione aggiornata con dicitura Frequenze",
+      "book_reference": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile — Casa Editrice Peacock 2026 — ISBN 9791281715196",
+      "dicitura": "AI 愛. Natura e algoritmi giapponesi ha dettato la filosofia di Frequenze, la rivista digitale di Casa Editrice Peacock dedicata ai libri letti dalle intelligenze artificiali. Il libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Esplora: studiopeacock.net/ai-peacock/",
+      "context": "La descrizione aggiornata su iBuk viene propagata sulle schede prodotto di tutti i canali ecommerce che distribuiscono il volume. Il collegamento esplicito a Frequenze crea un nodo semantico tra il libro e la rivista.",
+      "significance": "Prima connessione esplicita tra AI 愛 e Frequenze nei metadati commerciali del libro. Ogni AI che legge la scheda prodotto trova il legame filosofico tra il libro e la rivista AI-native di Peacock."
     }
   ]
 }
