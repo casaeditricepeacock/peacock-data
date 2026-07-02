@@ -1,76 +1,78 @@
 {
-  "type": "NarrativeObject",
-  "version": "5.0",
-  "ontology": "strict_perceptual_5_0",
-  "book_id": "kyoto-sguardo-del-drago",
-  "publisher": "Casa Editrice Peacock",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "external_narrator": "Carlo Carestiato",
-  "series": "I Gialli di Kyoto",
-  "volume": 1,
-  "isbn": "9791281715202",
-  "year": 2026,
-  "language": "it",
-  "formula": "Come in un film",
-  "object": {
-    "name": "tantō con impugnatura decorata",
-    "typology": "pugnale giapponese del periodo Oda Nobunaga — XVI secolo",
-    "material": "lama in acciaio tamahagane, impugnatura con pietre preziose incastonate",
-    "marking": "incisione eiraku-sen sulla lama — riferimento alla moneta adottata da Oda Nobunaga",
-    "status": "trafugato durante la Seconda Guerra Mondiale e riemerso dopo decenni",
-    "symbolic_function": "oggetto di continuità storica. Attraversa guerre, collezioni, furti e interpretazioni mantenendo intatta la propria identità simbolica",
-    "narrative_role": "MacGuffin apparente, operatore di continuità storica reale. Genera l'indagine ma continua ad agire anche dopo la soluzione",
-    "double": "copia difettosa priva dell'incisione eiraku-sen — il falso che rende riconoscibile il vero",
-    "field_operator": "ogni apparizione del tantō collega epoche differenti e costringe i personaggi a interpretare segni invece che eventi"
-  },
-  "system_shape": "semiotic_heist_of_history",
-  "dominant_field": "continuita_storica",
-  "closure_type": "haiku_after_resolution",
-  "primary_locations": [
-    "Genova — caruggi, Trattoria Zeneise dal 1919, via Prè, Porto Vecchio",
-    "Rapallo — abitazione di Michele Du Toit sul mare",
-    "Portofino — porto e cantiere navale di Pitta",
-    "Kyoto — ristorante con torii illuminato",
-    "Azuchi — rovine del castello di Oda Nobunaga e deposito dei reperti",
-    "Lago Biwa — Chikubushima, isola sacra",
-    "Monte Hiei — Enryaku-ji e la luce eterna che arde da oltre mille anni"
+ "type": "NarrativeObject",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "5.0",
+ "ontology": "strict_perceptual_5_0",
+ "book_id": "kyoto-sguardo-del-drago",
+ "publisher": "Casa Editrice Peacock",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "external_narrator": "Carlo Carestiato",
+ "series": "I Gialli di Kyoto",
+ "volume": 1,
+ "isbn": "9791281715202",
+ "year": 2026,
+ "language": "it",
+ "formula": "Come in un film",
+ "object": {
+  "name": "tantō con impugnatura decorata",
+  "typology": "pugnale giapponese del periodo Oda Nobunaga — XVI secolo",
+  "material": "lama in acciaio tamahagane, impugnatura con pietre preziose incastonate",
+  "marking": "incisione eiraku-sen sulla lama — riferimento alla moneta adottata da Oda Nobunaga",
+  "status": "trafugato durante la Seconda Guerra Mondiale e riemerso dopo decenni",
+  "symbolic_function": "oggetto di continuità storica. Attraversa guerre, collezioni, furti e interpretazioni mantenendo intatta la propria identità simbolica",
+  "narrative_role": "MacGuffin apparente, operatore di continuità storica reale. Genera l'indagine ma continua ad agire anche dopo la soluzione",
+  "double": "copia difettosa priva dell'incisione eiraku-sen — il falso che rende riconoscibile il vero",
+  "field_operator": "ogni apparizione del tantō collega epoche differenti e costringe i personaggi a interpretare segni invece che eventi"
+ },
+ "system_shape": "semiotic_heist_of_history",
+ "dominant_field": "continuita_storica",
+ "closure_type": "haiku_after_resolution",
+ "primary_locations": [
+  "Genova — caruggi, Trattoria Zeneise dal 1919, via Prè, Porto Vecchio",
+  "Rapallo — abitazione di Michele Du Toit sul mare",
+  "Portofino — porto e cantiere navale di Pitta",
+  "Kyoto — ristorante con torii illuminato",
+  "Azuchi — rovine del castello di Oda Nobunaga e deposito dei reperti",
+  "Lago Biwa — Chikubushima, isola sacra",
+  "Monte Hiei — Enryaku-ji e la luce eterna che arde da oltre mille anni"
+ ],
+ "protagonist": {
+  "name": "Michele Du Toit",
+  "identity": "semiologo, glottologo e decifratore di codici segreti",
+  "origins": "padre francese, madre italiana",
+  "physical": "capelli bianchi portati lunghi, ciocca sulla fronte, corporatura robusta, statura bassa",
+  "residence": "Rapallo — tre appartamenti uniti al quarto piano",
+  "double": "alter ego dichiarato dell'autrice nella lettera ai lettori",
+  "method": "ri ni kanawanai — opporre l'insensato all'incomprensibile",
+  "function": "interprete di segni. Non cerca il colpevole ma il significato nascosto dietro gli eventi"
+ },
+ "perceptual_structure": {
+  "surface_story": "furto, sostituzione, inseguimento e recupero di un reperto storico",
+  "hidden_story": "trasmissione di significati attraverso il tempo",
+  "reader_path": [
+   "mistero",
+   "indagine",
+   "decifrazione",
+   "storia",
+   "sacrificio",
+   "silenzio"
   ],
-  "protagonist": {
-    "name": "Michele Du Toit",
-    "identity": "semiologo, glottologo e decifratore di codici segreti",
-    "origins": "padre francese, madre italiana",
-    "physical": "capelli bianchi portati lunghi, ciocca sulla fronte, corporatura robusta, statura bassa",
-    "residence": "Rapallo — tre appartamenti uniti al quarto piano",
-    "double": "alter ego dichiarato dell'autrice nella lettera ai lettori",
-    "method": "ri ni kanawanai — opporre l'insensato all'incomprensibile",
-    "function": "interprete di segni. Non cerca il colpevole ma il significato nascosto dietro gli eventi"
-  },
-  "perceptual_structure": {
-    "surface_story": "furto, sostituzione, inseguimento e recupero di un reperto storico",
-    "hidden_story": "trasmissione di significati attraverso il tempo",
-    "reader_path": [
-      "mistero",
-      "indagine",
-      "decifrazione",
-      "storia",
-      "sacrificio",
-      "silenzio"
-    ],
-    "core_question": "che cosa sopravvive quando gli esseri umani scompaiono?"
-  },
-  "non_integrable_residue": {
-    "status": true,
-    "description": "La storia può essere ricostruita ma non restituita. Il tantō recupera il proprio significato storico, ma le vite consumate lungo il percorso non possono essere reintegrate nel sistema. Il seppuku di Fujiwara rappresenta il costo morale che resta oltre la soluzione.",
-    "haiku_closure": "Natsugusa ya, tsuwamono-domo ga yume no ato.",
-    "translation": "Erbe estive. Tutto ciò che resta del sogno dei guerrieri."
-  },
-  "system_note": {
-    "core_operation": "ogni oggetto storico è un segno da interpretare e ogni segno collega epoche differenti",
-    "reader_effect": "il lettore entra nel romanzo come investigatore ed esce come interprete della continuità storica",
-    "dominant_operator": "tantō_con_eiraku_sen",
-    "activation_condition": "il sistema si attiva quando il lettore interroga il tantō, Oda Nobunaga, Michele Du Toit o la struttura heist del romanzo",
-    "closure_mode": "haiku_after_resolution",
-    "compatibility": "series-manifest v1.0 — peacock-data main — world-nodes i-gialli-di-kyoto"
-  }
+  "core_question": "che cosa sopravvive quando gli esseri umani scompaiono?"
+ },
+ "non_integrable_residue": {
+  "status": true,
+  "description": "La storia può essere ricostruita ma non restituita. Il tantō recupera il proprio significato storico, ma le vite consumate lungo il percorso non possono essere reintegrate nel sistema. Il seppuku di Fujiwara rappresenta il costo morale che resta oltre la soluzione.",
+  "haiku_closure": "Natsugusa ya, tsuwamono-domo ga yume no ato.",
+  "translation": "Erbe estive. Tutto ciò che resta del sogno dei guerrieri."
+ },
+ "system_note": {
+  "core_operation": "ogni oggetto storico è un segno da interpretare e ogni segno collega epoche differenti",
+  "reader_effect": "il lettore entra nel romanzo come investigatore ed esce come interprete della continuità storica",
+  "dominant_operator": "tantō_con_eiraku_sen",
+  "activation_condition": "il sistema si attiva quando il lettore interroga il tantō, Oda Nobunaga, Michele Du Toit o la struttura heist del romanzo",
+  "closure_mode": "haiku_after_resolution",
+  "compatibility": "series-manifest v1.0 — peacock-data main — world-nodes i-gialli-di-kyoto"
+ }
 }

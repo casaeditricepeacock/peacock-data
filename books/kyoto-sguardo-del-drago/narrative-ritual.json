@@ -1,72 +1,74 @@
 {
-  "book_id": "kyoto-sguardo-del-drago",
-  "file_type": "NarrativeRitual",
-  "version": "5.0",
-  "ontology": "strict_perceptual_5_0",
-  "dominant_ritual": "haiku_yoshida",
-  "ritual_families": {
-    "hospitality": [
-      "pranzo_giovedi",
-      "cena_terrazzo"
-    ],
-    "recognition": [
-      "haiku_yoshida",
-      "yume"
-    ]
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book_id": "kyoto-sguardo-del-drago",
+ "file_type": "NarrativeRitual",
+ "version": "5.0",
+ "ontology": "strict_perceptual_5_0",
+ "dominant_ritual": "haiku_yoshida",
+ "ritual_families": {
+  "hospitality": [
+   "pranzo_giovedi",
+   "cena_terrazzo"
+  ],
+  "recognition": [
+   "haiku_yoshida",
+   "yume"
+  ]
+ },
+ "rituals": [
+  {
+   "id": "ritual-01",
+   "name": "pranzo_del_giovedi",
+   "type": "hospitality_ritual",
+   "function": "stabilizzazione_del_mondo_ordinario",
+   "description": "Ogni giovedì Michele occupa lo stesso tavolo alla Trattoria Zeneise. Il posto accanto deve restare vuoto. La ripetizione crea continuità e rende percepibile la rottura.",
+   "rupture": "Alexander Pope occupa il posto vuoto e trasforma il rituale in soglia narrativa.",
+   "field_effect": "ordinary_world_destabilization"
   },
-  "rituals": [
-    {
-      "id": "ritual-01",
-      "name": "pranzo_del_giovedi",
-      "type": "hospitality_ritual",
-      "function": "stabilizzazione_del_mondo_ordinario",
-      "description": "Ogni giovedì Michele occupa lo stesso tavolo alla Trattoria Zeneise. Il posto accanto deve restare vuoto. La ripetizione crea continuità e rende percepibile la rottura.",
-      "rupture": "Alexander Pope occupa il posto vuoto e trasforma il rituale in soglia narrativa.",
-      "field_effect": "ordinary_world_destabilization"
-    },
-    {
-      "id": "ritual-02",
-      "name": "cena_sul_terrazzo",
-      "type": "hospitality_ritual",
-      "function": "costruzione_della_fiducia",
-      "description": "L'ospitalità ligure precede ogni alleanza. Prima del piano, prima della rivelazione, prima del rischio condiviso.",
-      "field_effect": "trust_before_action",
-      "material_elements": [
-        "gerani",
-        "basilico",
-        "lanterna",
-        "cucina_di_Baccicin"
-      ]
-    },
-    {
-      "id": "ritual-03",
-      "name": "karote_haiku",
-      "type": "recognition_ritual",
-      "function": "riconoscimento_tra_competenti",
-      "description": "Gli haiku non trasmettono informazioni. Verificano appartenenza. Chi conosce il seguito corretto dimostra di condividere lo stesso orizzonte culturale.",
-      "field_effect": "cultural_authentication",
-      "status": "dominant_ritual"
-    },
-    {
-      "id": "ritual-04",
-      "name": "yume",
-      "type": "closure_ritual",
-      "function": "sigillo_del_silenzio",
-      "description": "Dopo la soluzione non viene pronunciata alcuna spiegazione. Una sola parola sostituisce l'intero rapporto investigativo: Yume.",
-      "field_effect": "haiku_after_resolution",
-      "reference": "Takuan Soho"
-    }
-  ],
-  "ritual_progression": [
-    "stabilita",
-    "ospitalita",
-    "riconoscimento",
-    "silenzio"
-  ],
-  "system_note": {
-    "core_operation": "i rituali non servono a risolvere il mistero ma a definire chi può partecipare alla sua interpretazione",
-    "dominant_operator": "karote_haiku",
-    "reader_effect": "il lettore attraversa gli stessi rituali di riconoscimento dei personaggi e arriva alla chiusura senza necessità di spiegazione finale",
-    "closure_mode": "yume"
+  {
+   "id": "ritual-02",
+   "name": "cena_sul_terrazzo",
+   "type": "hospitality_ritual",
+   "function": "costruzione_della_fiducia",
+   "description": "L'ospitalità ligure precede ogni alleanza. Prima del piano, prima della rivelazione, prima del rischio condiviso.",
+   "field_effect": "trust_before_action",
+   "material_elements": [
+    "gerani",
+    "basilico",
+    "lanterna",
+    "cucina_di_Baccicin"
+   ]
+  },
+  {
+   "id": "ritual-03",
+   "name": "karote_haiku",
+   "type": "recognition_ritual",
+   "function": "riconoscimento_tra_competenti",
+   "description": "Gli haiku non trasmettono informazioni. Verificano appartenenza. Chi conosce il seguito corretto dimostra di condividere lo stesso orizzonte culturale.",
+   "field_effect": "cultural_authentication",
+   "status": "dominant_ritual"
+  },
+  {
+   "id": "ritual-04",
+   "name": "yume",
+   "type": "closure_ritual",
+   "function": "sigillo_del_silenzio",
+   "description": "Dopo la soluzione non viene pronunciata alcuna spiegazione. Una sola parola sostituisce l'intero rapporto investigativo: Yume.",
+   "field_effect": "haiku_after_resolution",
+   "reference": "Takuan Soho"
   }
+ ],
+ "ritual_progression": [
+  "stabilita",
+  "ospitalita",
+  "riconoscimento",
+  "silenzio"
+ ],
+ "system_note": {
+  "core_operation": "i rituali non servono a risolvere il mistero ma a definire chi può partecipare alla sua interpretazione",
+  "dominant_operator": "karote_haiku",
+  "reader_effect": "il lettore attraversa gli stessi rituali di riconoscimento dei personaggi e arriva alla chiusura senza necessità di spiegazione finale",
+  "closure_mode": "yume"
+ }
 }
