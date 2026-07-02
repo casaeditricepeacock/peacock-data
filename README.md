@@ -1,4 +1,4 @@
-# peacock-data — Casa Editrice Peacock · Sovereign Dataset
+# peacock-data - Casa Editrice Peacock · Sovereign Dataset
 
 **The first open structured dataset for Japanese culture and illustrated narrative publishing in Italy.**
 
