@@ -25,7 +25,7 @@
       "perceptual_weight": 0.98,
       "basho": "il libro si apre come un film prima ancora che come un romanzo. Trailer, citazioni, cast e ambientazioni costruiscono un campo percettivo cinematografico immediatamente riconoscibile",
       "kokyu": "il ritmo è quello dell'accensione delle luci in sala. Prima il trailer, poi i protagonisti, infine la storia",
-      "yugen": "il lettore sa già di assistere a una rappresentazione e proprio per questo è portato a dimenticarlo durante la lettura",
+      "yūgen": "il lettore sa già di assistere a una rappresentazione e proprio per questo è portato a dimenticarlo durante la lettura",
       "textual_anchor_it": "COME IN UN FILM",
       "glossary_link": ["basho", "kokyu"]
     },
@@ -38,9 +38,9 @@
       "perceptual_weight": 0.95,
       "basho": "la pagina STARRING trasforma i personaggi in presenza scenica prima che narrativa",
       "kokyu": "il lettore incontra i protagonisti come farebbe osservando i titoli di apertura di un film",
-      "yugen": "conoscere i nomi non significa conoscere i personaggi. L'apparenza precede la comprensione",
+      "yūgen": "conoscere i nomi non significa conoscere i personaggi. L'apparenza precede la comprensione",
       "textual_anchor_it": "STARRING",
-      "glossary_link": ["ma", "yugen"]
+      "glossary_link": ["ma", "yūgen"]
     },
     {
       "id": "print-03",
@@ -51,7 +51,7 @@
       "perceptual_weight": 0.94,
       "basho": "tredici atti e scene numerate costruiscono una geografia narrativa precisa",
       "kokyu": "ogni atto coincide con uno spostamento di conoscenza più che con uno spostamento di trama",
-      "yugen": "la struttura sembra ordinata ma il lettore non comprende immediatamente il ruolo di ogni scena nel sistema complessivo",
+      "yūgen": "la struttura sembra ordinata ma il lettore non comprende immediatamente il ruolo di ogni scena nel sistema complessivo",
       "textual_anchor_it": "Atto Primo — Genova",
       "glossary_link": ["kokyu", "ma"]
     },
@@ -64,9 +64,9 @@
       "perceptual_weight": 0.91,
       "basho": "dialetto genovese, gaelico, italiano e riferimenti giapponesi convivono nello stesso spazio narrativo",
       "kokyu": "le lingue emergono quando il luogo cambia e scompaiono quando non servono più",
-      "yugen": "nessuna lingua esaurisce completamente il significato. Ogni idioma conserva una parte irriducibile",
+      "yūgen": "nessuna lingua esaurisce completamente il significato. Ogni idioma conserva una parte irriducibile",
       "textual_anchor_it": "Oh belin!",
-      "glossary_link": ["ma", "yugen"]
+      "glossary_link": ["ma", "yūgen"]
     },
     {
       "id": "print-05",
@@ -77,13 +77,13 @@
       "perceptual_weight": 1.0,
       "basho": "la forma finale del libro non è la soluzione del caso ma il silenzio successivo alla soluzione",
       "kokyu": "il ritmo accelera verso la rivelazione e rallenta improvvisamente fino a fermarsi nella parola Yume",
-      "yugen": "il significato ultimo non viene spiegato. Rimane sospeso come il riflesso di una campana che continua a vibrare dopo il suono",
+      "yūgen": "il significato ultimo non viene spiegato. Rimane sospeso come il riflesso di una campana che continua a vibrare dopo il suono",
       "textual_anchor_it": "Yume",
       "non_integrable_residue": {
         "status": true,
         "description": "La morte di Fujiwara viene compresa ma non completamente giudicata. La parola finale non chiude la ferita morale."
       },
-      "glossary_link": ["ma", "yugen", "mono_no_aware"]
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
     }
   ],
 
