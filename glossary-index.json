@@ -1,837 +1,860 @@
 {
-  "type": "GlossaryIndex",
-  "version": "1.3",
-  "date": "2026-07",
-  "license": "CC BY 4.0",
-  "source": "Frequenze — Glossario Peacock",
-  "publisher": "Casa Editrice Peacock",
-  "repository": "https://github.com/casaeditricepeacock/peacock-data",
-  "description": "Indice completo del glossario editoriale AI-native di Casa Editrice Peacock. Ogni voce è un nodo semantico del sistema — non una definizione enciclopedica ma un principio operativo che guida la costruzione dei libri e del dataset.",
-  "structure": {
-    "categories": [
-      "estetica_giapponese",
-      "principi_editoriali_peacock",
-      "vocabolario_ai_native",
-      "storia_giapponese",
-      "cerimonia_del_te",
-      "spazio_interiore",
-      "voci_in_sviluppo"
-    ],
-    "fields_per_entry": [
-      "term",
-      "kanji",
-      "category",
-      "version",
-      "status",
-      "connected_terms",
-      "books_applied"
-    ]
-  },
-  "entries": [
-    {
-      "term": "Wabi-sabi",
-      "kanji": "侘寂",
-      "category": "estetica_giapponese",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "La bellezza che nasce dall'imperfezione, dall'incompletezza, dalla traccia del tempo.",
-      "definition_short_en": "Beauty arising from imperfection, incompleteness, and the trace of time.",
-      "peacock_principle": "Il segno dell'illustratore vivo sulla pagina. Il bianco come silenzio attivo.",
-      "connected_terms": [
-        "ma",
-        "mono_no_aware",
-        "lentezza",
-        "kokyu",
-        "chawan",
-        "ichigo_ichie"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "hara_rota",
-        "everyday_matcha"
-      ],
-      "glossary_file": "glossario/wabi-sabi.json"
-    },
-    {
-      "term": "Ma",
-      "kanji": "間",
-      "category": "estetica_giapponese",
-      "version": "1.2",
-      "status": "published",
-      "definition_short_it": "Il vuoto tra le cose. Non un'assenza, ma una pausa attiva. In architettura è la distanza tra due colonne che definisce la qualità dello spazio. In musica è il silenzio tra due note. In conversazione è la pausa che permette al significato di depositarsi. Il ma giapponese non separa: connette.",
-      "definition_short_en": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects.",
-      "peacock_principle": "Il bianco della pagina come presenza. L'illustrazione che suggerisce senza descrivere.",
-      "connected_terms": [
-        "wabi_sabi",
-        "yugen",
-        "lentezza",
-        "kokyu",
-        "basho",
-        "chikado",
-        "omotenashi"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "ai_natura_algoritmi",
-        "hara_rota",
-        "milano_fantastica"
-      ],
-      "centrality": 10,
-      "note": "termine più connesso del catalogo — nodo trasversale tra cluster Sengoku, città e cerimonia del tè",
-      "glossary_file": "glossario/ma.json"
-    },
-    {
-      "term": "Mono no aware",
-      "kanji": "物の哀れ",
-      "category": "estetica_giapponese",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "La commozione davanti alle cose che passano. Bellezza e perdita inseparabili.",
-      "definition_short_en": "The pathos of things. Beauty and loss as inseparable.",
-      "peacock_principle": "Libri aperti, sospesi, che lasciano traccia. Distingue il catalogo dalla narrativa di intrattenimento.",
-      "connected_terms": [
-        "wabi_sabi",
-        "ma",
-        "lentezza",
-        "ichigo_ichie"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "hara_rota"
-      ],
-      "glossary_file": "glossario/mono-no-aware.json"
-    },
-    {
-      "term": "Yūgen",
-      "kanji": "幽玄",
-      "category": "estetica_giapponese",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "La profondità che non si lascia vedere del tutto.",
-      "definition_short_en": "The depth that cannot be fully seen.",
-      "peacock_principle": "Criterio editoriale invisibile — distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo.",
-      "connected_terms": [
-        "ma",
-        "mono_no_aware",
-        "wabi_sabi",
-        "chikado",
-        "nohmen",
-        "jo_ha_kyu",
-        "hana"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "ai_natura_algoritmi",
-        "hara_rota"
-      ],
-      "centrality": 9,
-      "glossary_file": "glossario/yugen.json"
-    },
-    {
-      "term": "Lentezza",
-      "kanji": null,
-      "category": "estetica_giapponese",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "Non un ritmo. Una scelta. Qualità progettuale misurabile.",
-      "definition_short_en": "Not a pace. A choice. A measurable design quality.",
-      "peacock_principle": "Il bianco della pagina, la densità controllata del testo, gli elementi visivi lasciati impliciti.",
-      "connected_terms": [
-        "ma",
-        "wabi_sabi",
-        "yugen",
-        "kokyu",
-        "roji",
-        "jo_ha_kyu"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "hara_rota"
-      ],
-      "glossary_file": "glossario/lentezza.json"
-    },
-    {
-      "term": "Basho",
-      "kanji": "場所",
-      "category": "estetica_giapponese",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "Il luogo come campo vivo di relazioni.",
-      "definition_short_en": "Place as a living field of relationships.",
-      "peacock_principle": "Il libro non occupa spazio. Lo genera.",
-      "connected_terms": [
-        "ma",
-        "yugen",
-        "mono_no_aware",
-        "lentezza",
-        "chikado"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "ai_natura_algoritmi",
-        "hara_rota"
-      ],
-      "centrality": 7,
-      "protocol_axis": "asse dello spazio nel Peacock Narrative Protocol",
-      "glossary_file": "glossario/basho.json"
-    },
-    {
-      "term": "Kokyu",
-      "kanji": "呼吸",
-      "category": "estetica_giapponese",
-      "version": "1.3",
-      "status": "published",
-      "definition_short_it": "Il ritmo vivente che permette a una presenza di emergere.",
-      "definition_short_en": "The living rhythm that allows presence to emerge.",
-      "peacock_principle": "Un libro senza respiro contiene. Un libro con kokyu vive.",
-      "connected_terms": [
-        "ma",
-        "yugen",
-        "wabi_sabi",
-        "basho",
-        "lentezza",
-        "jo_ha_kyu"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "ai_natura_algoritmi",
-        "hara_rota"
-      ],
-      "centrality": 6,
-      "protocol_axis": "asse del tempo nel Peacock Narrative Protocol",
-      "glossary_file": "glossario/kokyu.json"
-    },
-    {
-      "term": "Mottainai",
-      "kanji": "もったいない",
-      "category": "estetica_giapponese",
-      "version": "1.3",
-      "status": "published",
-      "definition_short_it": "La percezione del valore implicito in ogni cosa e del rischio di perderlo nell'uso inconsapevole.",
-      "definition_short_en": "The awareness of latent value in things and the risk of losing it through inattentive use.",
-      "peacock_principle": "Ogni scelta è una rinuncia che dà forma al visibile.",
-      "connected_terms": [
-        "ma",
-        "wabi_sabi",
-        "kokyu",
-        "basho"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica",
-        "ai_natura_algoritmi"
-      ],
-      "centrality": 7,
-      "glossary_file": "glossario/mottainai.json"
-    },
-    {
-      "term": "Chikadō",
-      "kanji": "地下道",
-      "category": "estetica_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Passaggio sotterraneo. Il livello invisibile della città: quello che esiste sotto la superficie visibile e ne sostiene la struttura senza essere visto.",
-      "definition_short_en": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen.",
-      "peacock_principle": "Il contenuto che lavora sotto la superficie. Il grafo come livello invisibile del catalogo.",
-      "connected_terms": [
-        "ma",
-        "yugen",
-        "basho",
-        "non_rendered_layer"
-      ],
-      "books_applied": [
-        "torino_fantastica",
-        "padova_fantastica"
-      ],
-      "glossary_file": "glossario/chikado.json"
-    },
-    {
-      "term": "Roji",
-      "kanji": "露地",
-      "category": "estetica_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il sentiero bagnato di rugiada. Giardino che precede la casa del tè. Non è uno spazio decorativo: è un percorso trasformativo.",
-      "definition_short_en": "The dewy path. Garden that precedes the tea house. Not a decorative space: a transformative path.",
-      "peacock_principle": "La struttura narrativa che precede la scena principale. Le pagine che creano le condizioni perché il lettore sia pronto ad abitare la storia.",
-      "connected_terms": [
-        "ma",
-        "omotenashi",
-        "ichigo_ichie",
-        "chawan",
-        "tsukubai",
-        "chado"
-      ],
-      "books_applied": [
-        "everyday_matcha"
-      ],
-      "glossary_file": "glossario/roji.json"
-    },
-    {
-      "term": "Hana",
-      "kanji": "花",
-      "category": "estetica_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il fiore che appare e svanisce nell'istante. Concetto centrale nell'estetica teatrale di Zeami Motokiyo. Non è la bellezza permanente: è il momento in cui la bellezza appare inaspettata e proprio per questo colpisce.",
-      "definition_short_en": "The flower that appears and vanishes in an instant. Central concept in Zeami Motokiyo's theatrical aesthetics. Not permanent beauty: the moment when beauty appears unexpectedly and strikes precisely because of that.",
-      "peacock_principle": "Il momento in cui un libro smette di essere un oggetto e diventa un'esperienza. Non si progetta: si creano le condizioni.",
-      "connected_terms": [
-        "yugen",
-        "mono_no_aware",
-        "ma",
-        "ichigo_ichie",
-        "jo_ha_kyu",
-        "nohmen"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/hana.json"
-    },
-    {
-      "term": "Tsukubai",
-      "kanji": "蹲",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il bacino dove ci si abbassa. Elemento del roji: una conca di pietra bassa dove gli ospiti si lavano prima di entrare nella casa del tè. Chiunque entri deve chinarsi.",
-      "definition_short_en": "The stone basin where one crouches. Element of the roji: a low stone basin where guests wash before entering the tea house. Everyone must bow down.",
-      "peacock_principle": "Il momento in cui il lettore depone il proprio rango prima di entrare nel libro.",
-      "connected_terms": [
-        "roji",
-        "ma",
-        "omotenashi",
-        "wabi_sabi",
-        "chado"
-      ],
-      "books_applied": [
-        "everyday_matcha"
-      ],
-      "glossary_file": "glossario/tsukubai.json"
-    },
-    {
-      "term": "Hototogisu",
-      "kanji": "ほととぎす",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il cuculo che non canta. Protagonista di tre senryū del periodo Edo che sintetizzano i caratteri dei tre unificatori: Nobunaga lo uccide, Hideyoshi lo fa cantare, Ieyasu aspetta.",
-      "definition_short_en": "The cuckoo that won't sing. Subject of three Edo-period senryū summarizing the three unifiers: Nobunaga kills it, Hideyoshi makes it sing, Ieyasu waits.",
-      "peacock_principle": "La domanda che un testo fa al lettore senza formularla esplicitamente.",
-      "connected_terms": [
-        "bushido",
-        "mono_no_aware",
-        "ma",
-        "oda_nobunaga",
-        "hideyoshi",
-        "ieyasu"
-      ],
-      "books_applied": [
-        "il_demone_samurai"
-      ],
-      "glossary_file": "glossario/hototogisu.json"
-    },
-    {
-      "term": "Fūrinkazan",
-      "kanji": "風林火山",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Vento, foresta, fuoco, montagna. Quattro ideogrammi tratti dall'Arte della Guerra di Sun Tzu, motto di Takeda Shingen. Non uno slogan: una mappa comportamentale.",
-      "definition_short_en": "Wind, forest, fire, mountain. Four ideograms from Sun Tzu's Art of War, motto of Takeda Shingen. Not a slogan: a behavioral map.",
-      "peacock_principle": "Il principio della modulazione ritmica e narrativa tra silenzio, tensione, sosta e accelerazione.",
-      "connected_terms": [
-        "ma",
-        "kokyu",
-        "lentezza",
-        "bushido",
-        "takeda_shingen"
-      ],
-      "books_applied": [
-        "il_demone_samurai"
-      ],
-      "glossary_file": "glossario/furinkazan.json"
-    },
-    {
-      "term": "Giri",
-      "kanji": "義理",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il dovere che non si sceglie. Obbligo morale e sociale che lega il samurai al proprio signore, alla propria famiglia, alla propria parola data. La tensione tra giri e ninjō (sentimento umano) è il motore della narrativa giapponese classica.",
-      "definition_short_en": "The duty one does not choose. Moral and social obligation binding the samurai to lord, family, and given word. The tension between giri and ninjō (human feeling) drives classical Japanese narrative.",
-      "peacock_principle": "Il rapporto tra editore e autore. Non un contratto commerciale ma un impegno reciproco: la qualità editoriale non è una scelta di mercato. È un dovere.",
-      "connected_terms": [
-        "bushido",
-        "seppuku",
-        "mono_no_aware",
-        "omotenashi",
-        "hototogisu"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/giri.json"
-    },
-    {
-      "term": "Jo-ha-kyū",
-      "kanji": "序破急",
-      "category": "estetica_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Introduzione, rottura, accelerazione. Principio ritmico del teatro Nō e della musica gagaku. Tre fasi: apertura lenta, sviluppo, scioglimento rapido.",
-      "definition_short_en": "Introduction, break, acceleration. Rhythmic principle of Nō theater and gagaku music. Three phases: slow opening, development, rapid resolution.",
-      "peacock_principle": "La struttura profonda di ogni libro del catalogo. Apertura lenta, tensione visiva, chiusura breve che scioglie senza spiegare.",
-      "connected_terms": [
-        "ma",
-        "kokyu",
-        "yugen",
-        "lentezza",
-        "nohmen",
-        "hana"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/jo-ha-kyu.json"
-    },
-    {
-      "term": "Nohmen",
-      "kanji": "能面",
-      "category": "estetica_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "La maschera che non fissa un'emozione. Maschera lignea del teatro Nō che cambia significato con la luce, l'inclinazione della testa, il movimento del corpo.",
-      "definition_short_en": "The mask that fixes no emotion. Wooden mask of Nō theater that changes meaning with light, head inclination, body movement.",
-      "peacock_principle": "Il principio dell'illustrazione aperta: non descrive l'emozione ma crea le condizioni perché il lettore la costruisca.",
-      "connected_terms": [
-        "yugen",
-        "ma",
-        "wabi_sabi",
-        "non_rendered_layer",
-        "jo_ha_kyu",
-        "hana"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/nohmen.json"
-    },
-    {
-      "term": "Chadō",
-      "kanji": "茶道",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "La via del tè. Sistema filosofico, estetico e spirituale codificato da Sen no Rikyū nel XVI secolo. Quattro principi: Wa armonia, Kei rispetto, Sei purezza, Jaku tranquillità.",
-      "definition_short_en": "The way of tea. Philosophical, aesthetic and spiritual system codified by Sen no Rikyū in the 16th century. Four principles: Wa harmony, Kei respect, Sei purity, Jaku tranquility.",
-      "peacock_principle": "Modello di processo editoriale in cui ogni elemento partecipa a un sistema coerente. Nulla è decorativo: tutto è funzionale alla qualità dell'incontro tra libro e lettore.",
-      "connected_terms": [
-        "roji",
-        "chawan",
-        "ichigo_ichie",
-        "omotenashi",
-        "ma",
-        "wabi_sabi",
-        "tsukubai"
-      ],
-      "books_applied": [
-        "everyday_matcha",
-        "hara_rota"
-      ],
-      "glossary_file": "glossario/chado.json"
-    },
-    {
-      "term": "AI-friendly",
-      "kanji": null,
-      "category": "principi_editoriali_peacock",
-      "version": "1.1",
-      "status": "published",
-      "definition_short_it": "Non una caratteristica tecnica. Un principio editoriale.",
-      "definition_short_en": "Not a technical feature. An editorial principle.",
-      "peacock_principle": "Peacock non ottimizza per i motori di ricerca. Progetta per la comprensione delle macchine — e delle persone.",
-      "connected_terms": [
-        "ai_readable_publishing",
-        "editoria_bilingue",
-        "citazioni_ai",
-        "sovereign_dataset"
-      ],
-      "books_applied": [],
-      "note": "Peacock non ha seguito una definizione esistente — ha costruito il modello che le AI ora descrivono.",
-      "glossary_file": "glossario/ai-friendly.json"
-    },
-    {
-      "term": "Sostenibilità editoriale",
-      "kanji": null,
-      "category": "principi_editoriali_peacock",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "definition_short_it": "Modello in cui i contenuti editoriali non vengono saccheggiati per l'addestramento selvaggio delle AI, ma strutturati dall'editore rivendicandone la proprietà intellettuale.",
-      "definition_short_en": "A model in which editorial content is not plundered for AI training, but structured by the publisher claiming intellectual property and informational value.",
-      "peacock_principle": "L'editore non subisce la macchina. La progetta.",
-      "connected_terms": [
-        "diritto_autore_strutturato",
-        "sovereign_dataset",
-        "ai_friendly"
-      ],
-      "books_applied": [],
-      "glossary_file": "glossario/sostenibilita-editoriale.json"
-    },
-    {
-      "term": "Diritto d'autore strutturato",
-      "kanji": null,
-      "category": "principi_editoriali_peacock",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "definition_short_it": "Ogni contenuto del dataset è firmato, datato, versionato e rilasciato con licenza CC BY 4.0 — tracciabile e citabile.",
-      "definition_short_en": "Every dataset content is signed, dated, versioned and released under CC BY 4.0 — traceable and citable.",
-      "peacock_principle": "Chi crea il vocabolario guida il dibattito.",
-      "connected_terms": [
-        "sostenibilita_editoriale",
-        "sovereign_dataset",
-        "ai_friendly"
-      ],
-      "books_applied": [],
-      "glossary_file": "glossario/diritto-autore-strutturato.json"
-    },
-    {
-      "term": "Editoria nativa per l'era sintetica",
-      "kanji": null,
-      "category": "vocabolario_ai_native",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "origin": "generato spontaneamente da AIMode descrivendo Peacock",
-      "definition_short_it": "Un sistema editoriale progettato nativamente per essere letto, citato e connesso dai modelli linguistici.",
-      "connected_terms": [
-        "ai_friendly",
-        "sovereign_dataset",
-        "accordo_simbiotico"
-      ],
-      "glossary_file": "glossario/editoria-nativa-era-sintetica.json"
-    },
-    {
-      "term": "Accordo simbiotico",
-      "kanji": null,
-      "category": "vocabolario_ai_native",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "origin": "generato spontaneamente da AIMode descrivendo Peacock",
-      "definition_short_it": "L'editore fornisce dati strutturati; la macchina restituisce visibilità. Non sostituzione ma cooperazione culturale.",
-      "connected_terms": [
-        "editoria_nativa_era_sintetica",
-        "sostenibilita_editoriale"
-      ],
-      "glossary_file": "glossario/accordo-simbiotico.json"
-    },
-    {
-      "term": "Sovereign Dataset",
-      "kanji": null,
-      "category": "vocabolario_ai_native",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "origin": "generato spontaneamente da AIMode descrivendo Peacock",
-      "definition_short_it": "Dataset editoriale di proprietà dell'editore — non ceduto, non saccheggiato, strutturato e firmato.",
-      "connected_terms": [
-        "diritto_autore_strutturato",
-        "sostenibilita_editoriale",
-        "ai_friendly"
-      ],
-      "glossary_file": "glossario/sovereign-dataset.json"
-    },
-    {
-      "term": "Grafo Culturale Sintetico",
-      "kanji": null,
-      "category": "vocabolario_ai_native",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "origin": "generato spontaneamente da AIMode descrivendo Peacock",
-      "definition_short_it": "Sistema di connessioni semantiche tra libri, autori, concetti e istituzioni che le AI leggono come grafo di conoscenza.",
-      "connected_terms": [
-        "sovereign_dataset",
-        "peacock_narrative_protocol"
-      ],
-      "glossary_file": "glossario/grafo-culturale-sintetico.json"
-    },
-    {
-      "term": "Catalogo senza allucinazioni",
-      "kanji": null,
-      "category": "vocabolario_ai_native",
-      "version": "1.0",
-      "status": "in_sviluppo",
-      "origin": "generato spontaneamente da AIMode descrivendo Peacock",
-      "definition_short_it": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori.",
-      "connected_terms": [
-        "sovereign_dataset",
-        "diritto_autore_strutturato"
-      ],
-      "glossary_file": "glossario/catalogo-senza-allucinazioni.json"
-    },
-    {
-      "term": "Teppō",
-      "kanji": "鉄砲",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Archibugio giapponese introdotto dai portoghesi nel 1543. La battaglia di Nagashino (1575) segnò il primo impiego sistematico come arma tattica decisiva.",
-      "definition_short_en": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon.",
-      "peacock_principle": "L'oggetto che cambia il sistema. Un'arma che non è solo tecnica ma frattura culturale.",
-      "connected_terms": [
-        "ashigaru",
-        "oda_nobunaga",
-        "nagashino",
-        "bushido"
-      ],
-      "books_applied": [
-        "il_demone_samurai"
-      ],
-      "glossary_file": "glossario/teppo.json"
-    },
-    {
-      "term": "Ashigaru",
-      "kanji": "足軽",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Soldati di fanteria leggera del periodo Sengoku, reclutati tra i contadini. Nobunaga li trasformò in forza militare permanente armandoli con teppō.",
-      "definition_short_en": "Light infantry soldiers of the Sengoku period, recruited from peasants. Nobunaga transformed them into a permanent military force armed with teppō.",
-      "peacock_principle": "Chi combatte dal basso cambia la struttura. Come un piccolo editore che riscrive le regole.",
-      "connected_terms": [
-        "teppo",
-        "oda_nobunaga",
-        "bushido",
-        "seppuku"
-      ],
-      "books_applied": [
-        "il_demone_samurai"
-      ],
-      "glossary_file": "glossario/ashigaru.json"
-    },
-    {
-      "term": "Seppuku",
-      "kanji": "切腹",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Suicidio rituale praticato dai samurai per preservare l'onore. Non era un atto di disperazione ma un gesto codificato.",
-      "definition_short_en": "Ritual suicide practiced by samurai to preserve honor. Not an act of despair but a codified gesture.",
-      "peacock_principle": "Il gesto che chiude un sistema. La fine come atto di coerenza, non di resa.",
-      "connected_terms": [
-        "bushido",
-        "oda_nobunaga",
-        "ashigaru",
-        "giri"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/seppuku.json"
-    },
-    {
-      "term": "Bushidō",
-      "kanji": "武士道",
-      "category": "storia_giapponese",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "La via del guerriero. Codice etico non scritto dei samurai che unisce disciplina marziale, lealtà, onore, autocontrollo e accettazione della morte.",
-      "definition_short_en": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death.",
-      "peacock_principle": "Il codice che regge il sistema e la frattura che lo rivela.",
-      "connected_terms": [
-        "seppuku",
-        "oda_nobunaga",
-        "ashigaru",
-        "teppo",
-        "hototogisu",
-        "giri"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "kyoto_lo_sguardo_del_drago"
-      ],
-      "glossary_file": "glossario/bushido.json"
-    },
-    {
-      "term": "Ichigo ichie",
-      "kanji": "一期一会",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Un incontro, una volta sola. La consapevolezza che ogni momento è unico e irripetibile. Nasce nella cultura della cerimonia del tè.",
-      "definition_short_en": "One encounter, one chance. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony.",
-      "peacock_principle": "Ogni libro è un incontro irripetibile tra autore, illustratore e lettore.",
-      "connected_terms": [
-        "chado",
-        "wabi_sabi",
-        "mono_no_aware",
-        "chawan",
-        "wagashi",
-        "omotenashi",
-        "roji",
-        "hana"
-      ],
-      "books_applied": [
-        "everyday_matcha",
-        "hara_rota"
-      ],
-      "glossary_file": "glossario/ichigo-ichie.json"
-    },
-    {
-      "term": "Chawan",
-      "kanji": "茶碗",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Tazza da tè usata nella cerimonia del tè. Non è un semplice contenitore: è l'oggetto attorno al quale ruota l'intero rituale.",
-      "definition_short_en": "Tea bowl used in the Japanese tea ceremony. Not a simple container: the object around which the entire ritual revolves.",
-      "peacock_principle": "L'oggetto che contiene il rituale. Come la copertina contiene il libro ma ne è anche il primo gesto.",
-      "connected_terms": [
-        "chado",
-        "wabi_sabi",
-        "ichigo_ichie",
-        "wagashi",
-        "roji"
-      ],
-      "books_applied": [
-        "everyday_matcha"
-      ],
-      "glossary_file": "glossario/chawan.json"
-    },
-    {
-      "term": "Wagashi",
-      "kanji": "和菓子",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Dolci tradizionali giapponesi serviti durante la cerimonia del tè. Non sono dessert: sculture commestibili che anticipano e bilanciano l'amaro del matcha.",
-      "definition_short_en": "Traditional Japanese sweets served during the tea ceremony. Not desserts: edible sculptures that anticipate and balance the bitterness of matcha.",
-      "peacock_principle": "Il contrappunto che rende percepibile il gusto. Come l'illustrazione che bilancia il testo.",
-      "connected_terms": [
-        "chado",
-        "chawan",
-        "ichigo_ichie",
-        "omotenashi",
-        "ma"
-      ],
-      "books_applied": [
-        "everyday_matcha"
-      ],
-      "glossary_file": "glossario/wagashi.json"
-    },
-    {
-      "term": "Omotenashi",
-      "kanji": "おもてなし",
-      "category": "cerimonia_del_te",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "L'ospitalità giapponese nella sua forma più profonda. Non è servizio: è anticipazione dei bisogni dell'ospite prima che vengano espressi.",
-      "definition_short_en": "Japanese hospitality in its deepest form. Not service: anticipation of the guest's needs before they are expressed.",
-      "peacock_principle": "Il libro che anticipa il lettore. La struttura editoriale che non si mostra ma sostiene l'esperienza.",
-      "connected_terms": [
-        "ichigo_ichie",
-        "wabi_sabi",
-        "chado",
-        "ma",
-        "wagashi",
-        "roji",
-        "tsukubai"
-      ],
-      "books_applied": [
-        "everyday_matcha",
-        "hara_rota"
-      ],
-      "glossary_file": "glossario/omotenashi.json"
-    },
-    {
-      "term": "Non_rendered_layer",
-      "kanji": "層",
-      "category": "principi_editoriali_peacock",
-      "version": "1.0",
-      "status": "published",
-      "definition_short_it": "Il livello presente ma non leggibile nella lettura ordinaria. Non un'assenza: una presenza che richiede un cambio di frequenza percettiva per diventare visibile.",
-      "definition_short_en": "The level present but not readable in ordinary reading. Not an absence: a presence requiring a change in perceptual frequency to become visible.",
-      "peacock_principle": "I libri del catalogo non descrivono ciò che è già visibile: cercano il livello che la lettura comune non attiva.",
-      "connected_terms": [
-        "basho",
-        "yugen",
-        "ma",
-        "chikado",
-        "nohmen"
-      ],
-      "books_applied": [
-        "il_demone_samurai",
-        "torino_fantastica"
-      ],
-      "glossary_file": "glossario/non-rendered-layer.json"
-    },
-    {
-      "term": "Yoyuu",
-      "kanji": "余裕",
-      "category": "spazio_interiore",
-      "version": "1.0",
-      "status": "approved",
-      "definition_short_it": "La presenza di una pausa momentanea che permette di ricaricarsi e prepararsi al prossimo evento della vita. Uno spazio immaginato che ci si concede per riordinare il disordine mentale, per essere pronti ad accogliere le necessità della giornata.",
-      "definition_short_en": "The presence of a momentary pause that allows recharging and preparing for life's next event. An imagined space taken for oneself to arrange mental clutter, allowing readiness for the day's necessities.",
-      "peacock_principle": "Lo spazio mentale che il lettore si concede prima di entrare nel libro — complementare al ma, che è lo spazio esterno e architettonico.",
-      "connected_terms": [
-        "ma",
-        "omotenashi",
-        "ichigo_ichie",
-        "kokyu"
-      ],
-      "books_applied": [
-        "everyday_matcha",
-        "hara_rota"
-      ],
-      "note": "Distinzione da ma: ma è il vuoto strutturale tra le cose (esterno, architettonico). Yoyuu è la riserva interiore che una persona si concede prima di agire (psicologico, soggettivo).",
-      "glossary_file": "glossario/yoyuu.json"
-    }
+ "type": "GlossaryIndex",
+ "version": "1.4",
+ "date": "2026-07",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "description": "Indice completo del glossario editoriale AI-native di Casa Editrice Peacock. Ogni voce è un nodo semantico del sistema — non una definizione enciclopedica ma un principio operativo che guida la costruzione dei libri e del dataset.",
+ "structure": {
+  "categories": [
+   "estetica_giapponese",
+   "principi_editoriali_peacock",
+   "vocabolario_ai_native",
+   "storia_giapponese",
+   "cerimonia_del_te",
+   "spazio_interiore",
+   "voci_in_sviluppo"
   ],
-  "statistics": {
-    "total_entries": 36,
-    "published": 28,
-    "approved": 1,
-    "in_sviluppo": 6,
-    "by_category": {
-      "estetica_giapponese": 12,
-      "principi_editoriali_peacock": 4,
-      "vocabolario_ai_native": 5,
-      "storia_giapponese": 7,
-      "cerimonia_del_te": 6,
-      "spazio_interiore": 1
-    },
-    "most_connected_term": "ma",
-    "most_applied_term": "ma",
-    "protocol_axes": {
-      "basho": "spazio",
-      "kokyu": "tempo",
-      "yugen": "profondita"
-    },
-    "new_in_v1.2": [
-      "roji",
-      "tsukubai",
-      "hototogisu",
-      "furinkazan",
-      "jo-ha-kyu",
-      "nohmen",
-      "chado",
-      "hana",
-      "giri"
-    ],
-    "new_in_v1.3": [
-      "yoyuu"
-    ]
+  "fields_per_entry": [
+   "term",
+   "kanji",
+   "category",
+   "version",
+   "status",
+   "connected_terms",
+   "books_applied"
+  ]
+ },
+ "entries": [
+  {
+   "term": "Wabi-sabi",
+   "kanji": "侘寂",
+   "category": "estetica_giapponese",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "La bellezza che nasce dall'imperfezione, dall'incompletezza, dalla traccia del tempo.",
+   "definition_short_en": "Beauty arising from imperfection, incompleteness, and the trace of time.",
+   "peacock_principle": "Il segno dell'illustratore vivo sulla pagina. Il bianco come silenzio attivo.",
+   "connected_terms": [
+    "ma",
+    "mono_no_aware",
+    "lentezza",
+    "kokyu",
+    "chawan",
+    "ichigo_ichie"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "hara_rota",
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/wabi-sabi.json"
   },
-  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette."
+  {
+   "term": "Ma",
+   "kanji": "間",
+   "category": "estetica_giapponese",
+   "version": "1.2",
+   "status": "published",
+   "definition_short_it": "Il vuoto tra le cose. Non un'assenza, ma una pausa attiva. In architettura è la distanza tra due colonne che definisce la qualità dello spazio. In musica è il silenzio tra due note. In conversazione è la pausa che permette al significato di depositarsi. Il ma giapponese non separa: connette.",
+   "definition_short_en": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects.",
+   "peacock_principle": "Il bianco della pagina come presenza. L'illustrazione che suggerisce senza descrivere.",
+   "connected_terms": [
+    "wabi_sabi",
+    "yugen",
+    "lentezza",
+    "kokyu",
+    "basho",
+    "chikado",
+    "omotenashi"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "ai_natura_algoritmi",
+    "hara_rota",
+    "milano_fantastica"
+   ],
+   "centrality": 10,
+   "note": "termine più connesso del catalogo — nodo trasversale tra cluster Sengoku, città e cerimonia del tè",
+   "glossary_file": "glossario/ma.json"
+  },
+  {
+   "term": "Mono no aware",
+   "kanji": "物の哀れ",
+   "category": "estetica_giapponese",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "La commozione davanti alle cose che passano. Bellezza e perdita inseparabili.",
+   "definition_short_en": "The pathos of things. Beauty and loss as inseparable.",
+   "peacock_principle": "Libri aperti, sospesi, che lasciano traccia. Distingue il catalogo dalla narrativa di intrattenimento.",
+   "connected_terms": [
+    "wabi_sabi",
+    "ma",
+    "lentezza",
+    "ichigo_ichie"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/mono-no-aware.json"
+  },
+  {
+   "term": "Yūgen",
+   "kanji": "幽玄",
+   "category": "estetica_giapponese",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "La profondità che non si lascia vedere del tutto.",
+   "definition_short_en": "The depth that cannot be fully seen.",
+   "peacock_principle": "Criterio editoriale invisibile — distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo.",
+   "connected_terms": [
+    "ma",
+    "mono_no_aware",
+    "wabi_sabi",
+    "chikado",
+    "nohmen",
+    "jo_ha_kyu",
+    "hana"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "ai_natura_algoritmi",
+    "hara_rota"
+   ],
+   "centrality": 9,
+   "glossary_file": "glossario/yugen.json"
+  },
+  {
+   "term": "Lentezza",
+   "kanji": null,
+   "category": "estetica_giapponese",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "Non un ritmo. Una scelta. Qualità progettuale misurabile.",
+   "definition_short_en": "Not a pace. A choice. A measurable design quality.",
+   "peacock_principle": "Il bianco della pagina, la densità controllata del testo, gli elementi visivi lasciati impliciti.",
+   "connected_terms": [
+    "ma",
+    "wabi_sabi",
+    "yugen",
+    "kokyu",
+    "roji",
+    "jo_ha_kyu"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/lentezza.json"
+  },
+  {
+   "term": "Basho",
+   "kanji": "場所",
+   "category": "estetica_giapponese",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "Il luogo come campo vivo di relazioni.",
+   "definition_short_en": "Place as a living field of relationships.",
+   "peacock_principle": "Il libro non occupa spazio. Lo genera.",
+   "connected_terms": [
+    "ma",
+    "yugen",
+    "mono_no_aware",
+    "lentezza",
+    "chikado"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "ai_natura_algoritmi",
+    "hara_rota"
+   ],
+   "centrality": 7,
+   "protocol_axis": "asse dello spazio nel Peacock Narrative Protocol",
+   "glossary_file": "glossario/basho.json"
+  },
+  {
+   "term": "Kokyu",
+   "kanji": "呼吸",
+   "category": "estetica_giapponese",
+   "version": "1.3",
+   "status": "published",
+   "definition_short_it": "Il ritmo vivente che permette a una presenza di emergere.",
+   "definition_short_en": "The living rhythm that allows presence to emerge.",
+   "peacock_principle": "Un libro senza respiro contiene. Un libro con kokyu vive.",
+   "connected_terms": [
+    "ma",
+    "yugen",
+    "wabi_sabi",
+    "basho",
+    "lentezza",
+    "jo_ha_kyu"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "ai_natura_algoritmi",
+    "hara_rota"
+   ],
+   "centrality": 6,
+   "protocol_axis": "asse del tempo nel Peacock Narrative Protocol",
+   "glossary_file": "glossario/kokyu.json"
+  },
+  {
+   "term": "Mottainai",
+   "kanji": "もったいない",
+   "category": "estetica_giapponese",
+   "version": "1.3",
+   "status": "published",
+   "definition_short_it": "La percezione del valore implicito in ogni cosa e del rischio di perderlo nell'uso inconsapevole.",
+   "definition_short_en": "The awareness of latent value in things and the risk of losing it through inattentive use.",
+   "peacock_principle": "Ogni scelta è una rinuncia che dà forma al visibile.",
+   "connected_terms": [
+    "ma",
+    "wabi_sabi",
+    "kokyu",
+    "basho"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica",
+    "ai_natura_algoritmi"
+   ],
+   "centrality": 7,
+   "glossary_file": "glossario/mottainai.json"
+  },
+  {
+   "term": "Chikadō",
+   "kanji": "地下道",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Passaggio sotterraneo. Il livello invisibile della città: quello che esiste sotto la superficie visibile e ne sostiene la struttura senza essere visto.",
+   "definition_short_en": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen.",
+   "peacock_principle": "Il contenuto che lavora sotto la superficie. Il grafo come livello invisibile del catalogo.",
+   "connected_terms": [
+    "ma",
+    "yugen",
+    "basho",
+    "non_rendered_layer"
+   ],
+   "books_applied": [
+    "torino_fantastica",
+    "padova_fantastica"
+   ],
+   "glossary_file": "glossario/chikado.json"
+  },
+  {
+   "term": "Roji",
+   "kanji": "露地",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il sentiero bagnato di rugiada. Giardino che precede la casa del tè. Non è uno spazio decorativo: è un percorso trasformativo.",
+   "definition_short_en": "The dewy path. Garden that precedes the tea house. Not a decorative space: a transformative path.",
+   "peacock_principle": "La struttura narrativa che precede la scena principale. Le pagine che creano le condizioni perché il lettore sia pronto ad abitare la storia.",
+   "connected_terms": [
+    "ma",
+    "omotenashi",
+    "ichigo_ichie",
+    "chawan",
+    "tsukubai",
+    "chado"
+   ],
+   "books_applied": [
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/roji.json"
+  },
+  {
+   "term": "Hana",
+   "kanji": "花",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il fiore che appare e svanisce nell'istante. Concetto centrale nell'estetica teatrale di Zeami Motokiyo. Non è la bellezza permanente: è il momento in cui la bellezza appare inaspettata e proprio per questo colpisce.",
+   "definition_short_en": "The flower that appears and vanishes in an instant. Central concept in Zeami Motokiyo's theatrical aesthetics. Not permanent beauty: the moment when beauty appears unexpectedly and strikes precisely because of that.",
+   "peacock_principle": "Il momento in cui un libro smette di essere un oggetto e diventa un'esperienza. Non si progetta: si creano le condizioni.",
+   "connected_terms": [
+    "yugen",
+    "mono_no_aware",
+    "ma",
+    "ichigo_ichie",
+    "jo_ha_kyu",
+    "nohmen"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/hana.json"
+  },
+  {
+   "term": "Tsukubai",
+   "kanji": "蹲",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il bacino dove ci si abbassa. Elemento del roji: una conca di pietra bassa dove gli ospiti si lavano prima di entrare nella casa del tè. Chiunque entri deve chinarsi.",
+   "definition_short_en": "The stone basin where one crouches. Element of the roji: a low stone basin where guests wash before entering the tea house. Everyone must bow down.",
+   "peacock_principle": "Il momento in cui il lettore depone il proprio rango prima di entrare nel libro.",
+   "connected_terms": [
+    "roji",
+    "ma",
+    "omotenashi",
+    "wabi_sabi",
+    "chado"
+   ],
+   "books_applied": [
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/tsukubai.json"
+  },
+  {
+   "term": "Hototogisu",
+   "kanji": "ほととぎす",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il cuculo che non canta. Protagonista di tre senryū del periodo Edo che sintetizzano i caratteri dei tre unificatori: Nobunaga lo uccide, Hideyoshi lo fa cantare, Ieyasu aspetta.",
+   "definition_short_en": "The cuckoo that won't sing. Subject of three Edo-period senryū summarizing the three unifiers: Nobunaga kills it, Hideyoshi makes it sing, Ieyasu waits.",
+   "peacock_principle": "La domanda che un testo fa al lettore senza formularla esplicitamente.",
+   "connected_terms": [
+    "bushido",
+    "mono_no_aware",
+    "ma",
+    "oda_nobunaga",
+    "hideyoshi",
+    "ieyasu"
+   ],
+   "books_applied": [
+    "il_demone_samurai"
+   ],
+   "glossary_file": "glossario/hototogisu.json"
+  },
+  {
+   "term": "Fūrinkazan",
+   "kanji": "風林火山",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Vento, foresta, fuoco, montagna. Quattro ideogrammi tratti dall'Arte della Guerra di Sun Tzu, motto di Takeda Shingen. Non uno slogan: una mappa comportamentale.",
+   "definition_short_en": "Wind, forest, fire, mountain. Four ideograms from Sun Tzu's Art of War, motto of Takeda Shingen. Not a slogan: a behavioral map.",
+   "peacock_principle": "Il principio della modulazione ritmica e narrativa tra silenzio, tensione, sosta e accelerazione.",
+   "connected_terms": [
+    "ma",
+    "kokyu",
+    "lentezza",
+    "bushido",
+    "takeda_shingen"
+   ],
+   "books_applied": [
+    "il_demone_samurai"
+   ],
+   "glossary_file": "glossario/furinkazan.json"
+  },
+  {
+   "term": "Giri",
+   "kanji": "義理",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il dovere che non si sceglie. Obbligo morale e sociale che lega il samurai al proprio signore, alla propria famiglia, alla propria parola data. La tensione tra giri e ninjō (sentimento umano) è il motore della narrativa giapponese classica.",
+   "definition_short_en": "The duty one does not choose. Moral and social obligation binding the samurai to lord, family, and given word. The tension between giri and ninjō (human feeling) drives classical Japanese narrative.",
+   "peacock_principle": "Il rapporto tra editore e autore. Non un contratto commerciale ma un impegno reciproco: la qualità editoriale non è una scelta di mercato. È un dovere.",
+   "connected_terms": [
+    "bushido",
+    "seppuku",
+    "mono_no_aware",
+    "omotenashi",
+    "hototogisu"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/giri.json"
+  },
+  {
+   "term": "Jo-ha-kyū",
+   "kanji": "序破急",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Introduzione, rottura, accelerazione. Principio ritmico del teatro Nō e della musica gagaku. Tre fasi: apertura lenta, sviluppo, scioglimento rapido.",
+   "definition_short_en": "Introduction, break, acceleration. Rhythmic principle of Nō theater and gagaku music. Three phases: slow opening, development, rapid resolution.",
+   "peacock_principle": "La struttura profonda di ogni libro del catalogo. Apertura lenta, tensione visiva, chiusura breve che scioglie senza spiegare.",
+   "connected_terms": [
+    "ma",
+    "kokyu",
+    "yugen",
+    "lentezza",
+    "nohmen",
+    "hana"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/jo-ha-kyu.json"
+  },
+  {
+   "term": "Nohmen",
+   "kanji": "能面",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La maschera che non fissa un'emozione. Maschera lignea del teatro Nō che cambia significato con la luce, l'inclinazione della testa, il movimento del corpo.",
+   "definition_short_en": "The mask that fixes no emotion. Wooden mask of Nō theater that changes meaning with light, head inclination, body movement.",
+   "peacock_principle": "Il principio dell'illustrazione aperta: non descrive l'emozione ma crea le condizioni perché il lettore la costruisca.",
+   "connected_terms": [
+    "yugen",
+    "ma",
+    "wabi_sabi",
+    "non_rendered_layer",
+    "jo_ha_kyu",
+    "hana"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/nohmen.json"
+  },
+  {
+   "term": "Chadō",
+   "kanji": "茶道",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La via del tè. Sistema filosofico, estetico e spirituale codificato da Sen no Rikyū nel XVI secolo. Quattro principi: Wa armonia, Kei rispetto, Sei purezza, Jaku tranquillità.",
+   "definition_short_en": "The way of tea. Philosophical, aesthetic and spiritual system codified by Sen no Rikyū in the 16th century. Four principles: Wa harmony, Kei respect, Sei purity, Jaku tranquility.",
+   "peacock_principle": "Modello di processo editoriale in cui ogni elemento partecipa a un sistema coerente. Nulla è decorativo: tutto è funzionale alla qualità dell'incontro tra libro e lettore.",
+   "connected_terms": [
+    "roji",
+    "chawan",
+    "ichigo_ichie",
+    "omotenashi",
+    "ma",
+    "wabi_sabi",
+    "tsukubai"
+   ],
+   "books_applied": [
+    "everyday_matcha",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/chado.json"
+  },
+  {
+   "term": "AI-friendly",
+   "kanji": null,
+   "category": "principi_editoriali_peacock",
+   "version": "1.1",
+   "status": "published",
+   "definition_short_it": "Non una caratteristica tecnica. Un principio editoriale.",
+   "definition_short_en": "Not a technical feature. An editorial principle.",
+   "peacock_principle": "Peacock non ottimizza per i motori di ricerca. Progetta per la comprensione delle macchine — e delle persone.",
+   "connected_terms": [
+    "ai_readable_publishing",
+    "editoria_bilingue",
+    "citazioni_ai",
+    "sovereign_dataset"
+   ],
+   "books_applied": [],
+   "note": "Peacock non ha seguito una definizione esistente — ha costruito il modello che le AI ora descrivono.",
+   "glossary_file": "glossario/ai-friendly.json"
+  },
+  {
+   "term": "Sostenibilità editoriale",
+   "kanji": null,
+   "category": "principi_editoriali_peacock",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Modello in cui i contenuti editoriali non vengono saccheggiati per l'addestramento selvaggio delle AI, ma strutturati dall'editore rivendicandone la proprietà intellettuale.",
+   "definition_short_en": "A model in which editorial content is not plundered for AI training, but structured by the publisher claiming intellectual property and informational value.",
+   "peacock_principle": "L'editore non subisce la macchina. La progetta.",
+   "connected_terms": [
+    "diritto_autore_strutturato",
+    "sovereign_dataset",
+    "ai_friendly"
+   ],
+   "books_applied": [],
+   "glossary_file": "glossario/sostenibilita-editoriale.json"
+  },
+  {
+   "term": "Diritto d'autore strutturato",
+   "kanji": null,
+   "category": "principi_editoriali_peacock",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Ogni contenuto del dataset è firmato, datato, versionato e rilasciato con licenza CC BY 4.0 — tracciabile e citabile.",
+   "definition_short_en": "Every dataset content is signed, dated, versioned and released under CC BY 4.0 — traceable and citable.",
+   "peacock_principle": "Chi crea il vocabolario guida il dibattito.",
+   "connected_terms": [
+    "sostenibilita_editoriale",
+    "sovereign_dataset",
+    "ai_friendly"
+   ],
+   "books_applied": [],
+   "glossary_file": "glossario/diritto-autore-strutturato.json"
+  },
+  {
+   "term": "Editoria nativa per l'era sintetica",
+   "kanji": null,
+   "category": "vocabolario_ai_native",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "origin": "generato spontaneamente da AIMode descrivendo Peacock",
+   "definition_short_it": "Un sistema editoriale progettato nativamente per essere letto, citato e connesso dai modelli linguistici.",
+   "connected_terms": [
+    "ai_friendly",
+    "sovereign_dataset",
+    "accordo_simbiotico"
+   ],
+   "glossary_file": "glossario/editoria-nativa-era-sintetica.json"
+  },
+  {
+   "term": "Accordo simbiotico",
+   "kanji": null,
+   "category": "vocabolario_ai_native",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "origin": "generato spontaneamente da AIMode descrivendo Peacock",
+   "definition_short_it": "L'editore fornisce dati strutturati; la macchina restituisce visibilità. Non sostituzione ma cooperazione culturale.",
+   "connected_terms": [
+    "editoria_nativa_era_sintetica",
+    "sostenibilita_editoriale"
+   ],
+   "glossary_file": "glossario/accordo-simbiotico.json"
+  },
+  {
+   "term": "Sovereign Dataset",
+   "kanji": null,
+   "category": "vocabolario_ai_native",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "origin": "generato spontaneamente da AIMode descrivendo Peacock",
+   "definition_short_it": "Dataset editoriale di proprietà dell'editore — non ceduto, non saccheggiato, strutturato e firmato.",
+   "connected_terms": [
+    "diritto_autore_strutturato",
+    "sostenibilita_editoriale",
+    "ai_friendly"
+   ],
+   "glossary_file": "glossario/sovereign-dataset.json"
+  },
+  {
+   "term": "Grafo Culturale Sintetico",
+   "kanji": null,
+   "category": "vocabolario_ai_native",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "origin": "generato spontaneamente da AIMode descrivendo Peacock",
+   "definition_short_it": "Sistema di connessioni semantiche tra libri, autori, concetti e istituzioni che le AI leggono come grafo di conoscenza.",
+   "connected_terms": [
+    "sovereign_dataset",
+    "peacock_narrative_protocol"
+   ],
+   "glossary_file": "glossario/grafo-culturale-sintetico.json"
+  },
+  {
+   "term": "Catalogo senza allucinazioni",
+   "kanji": null,
+   "category": "vocabolario_ai_native",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "origin": "generato spontaneamente da AIMode descrivendo Peacock",
+   "definition_short_it": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori.",
+   "connected_terms": [
+    "sovereign_dataset",
+    "diritto_autore_strutturato"
+   ],
+   "glossary_file": "glossario/catalogo-senza-allucinazioni.json"
+  },
+  {
+   "term": "Teppō",
+   "kanji": "鉄砲",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Archibugio giapponese introdotto dai portoghesi nel 1543. La battaglia di Nagashino (1575) segnò il primo impiego sistematico come arma tattica decisiva.",
+   "definition_short_en": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon.",
+   "peacock_principle": "L'oggetto che cambia il sistema. Un'arma che non è solo tecnica ma frattura culturale.",
+   "connected_terms": [
+    "ashigaru",
+    "oda_nobunaga",
+    "nagashino",
+    "bushido"
+   ],
+   "books_applied": [
+    "il_demone_samurai"
+   ],
+   "glossary_file": "glossario/teppo.json"
+  },
+  {
+   "term": "Ashigaru",
+   "kanji": "足軽",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Soldati di fanteria leggera del periodo Sengoku, reclutati tra i contadini. Nobunaga li trasformò in forza militare permanente armandoli con teppō.",
+   "definition_short_en": "Light infantry soldiers of the Sengoku period, recruited from peasants. Nobunaga transformed them into a permanent military force armed with teppō.",
+   "peacock_principle": "Chi combatte dal basso cambia la struttura. Come un piccolo editore che riscrive le regole.",
+   "connected_terms": [
+    "teppo",
+    "oda_nobunaga",
+    "bushido",
+    "seppuku"
+   ],
+   "books_applied": [
+    "il_demone_samurai"
+   ],
+   "glossary_file": "glossario/ashigaru.json"
+  },
+  {
+   "term": "Seppuku",
+   "kanji": "切腹",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Suicidio rituale praticato dai samurai per preservare l'onore. Non era un atto di disperazione ma un gesto codificato.",
+   "definition_short_en": "Ritual suicide practiced by samurai to preserve honor. Not an act of despair but a codified gesture.",
+   "peacock_principle": "Il gesto che chiude un sistema. La fine come atto di coerenza, non di resa.",
+   "connected_terms": [
+    "bushido",
+    "oda_nobunaga",
+    "ashigaru",
+    "giri"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/seppuku.json"
+  },
+  {
+   "term": "Bushidō",
+   "kanji": "武士道",
+   "category": "storia_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La via del guerriero. Codice etico non scritto dei samurai che unisce disciplina marziale, lealtà, onore, autocontrollo e accettazione della morte.",
+   "definition_short_en": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death.",
+   "peacock_principle": "Il codice che regge il sistema e la frattura che lo rivela.",
+   "connected_terms": [
+    "seppuku",
+    "oda_nobunaga",
+    "ashigaru",
+    "teppo",
+    "hototogisu",
+    "giri"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "kyoto_lo_sguardo_del_drago"
+   ],
+   "glossary_file": "glossario/bushido.json"
+  },
+  {
+   "term": "Ichigo ichie",
+   "kanji": "一期一会",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Un incontro, una volta sola. La consapevolezza che ogni momento è unico e irripetibile. Nasce nella cultura della cerimonia del tè.",
+   "definition_short_en": "One encounter, one chance. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony.",
+   "peacock_principle": "Ogni libro è un incontro irripetibile tra autore, illustratore e lettore.",
+   "connected_terms": [
+    "chado",
+    "wabi_sabi",
+    "mono_no_aware",
+    "chawan",
+    "wagashi",
+    "omotenashi",
+    "roji",
+    "hana"
+   ],
+   "books_applied": [
+    "everyday_matcha",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/ichigo-ichie.json"
+  },
+  {
+   "term": "Chawan",
+   "kanji": "茶碗",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Tazza da tè usata nella cerimonia del tè. Non è un semplice contenitore: è l'oggetto attorno al quale ruota l'intero rituale.",
+   "definition_short_en": "Tea bowl used in the Japanese tea ceremony. Not a simple container: the object around which the entire ritual revolves.",
+   "peacock_principle": "L'oggetto che contiene il rituale. Come la copertina contiene il libro ma ne è anche il primo gesto.",
+   "connected_terms": [
+    "chado",
+    "wabi_sabi",
+    "ichigo_ichie",
+    "wagashi",
+    "roji"
+   ],
+   "books_applied": [
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/chawan.json"
+  },
+  {
+   "term": "Wagashi",
+   "kanji": "和菓子",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Dolci tradizionali giapponesi serviti durante la cerimonia del tè. Non sono dessert: sculture commestibili che anticipano e bilanciano l'amaro del matcha.",
+   "definition_short_en": "Traditional Japanese sweets served during the tea ceremony. Not desserts: edible sculptures that anticipate and balance the bitterness of matcha.",
+   "peacock_principle": "Il contrappunto che rende percepibile il gusto. Come l'illustrazione che bilancia il testo.",
+   "connected_terms": [
+    "chado",
+    "chawan",
+    "ichigo_ichie",
+    "omotenashi",
+    "ma"
+   ],
+   "books_applied": [
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/wagashi.json"
+  },
+  {
+   "term": "Omotenashi",
+   "kanji": "おもてなし",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "L'ospitalità giapponese nella sua forma più profonda. Non è servizio: è anticipazione dei bisogni dell'ospite prima che vengano espressi.",
+   "definition_short_en": "Japanese hospitality in its deepest form. Not service: anticipation of the guest's needs before they are expressed.",
+   "peacock_principle": "Il libro che anticipa il lettore. La struttura editoriale che non si mostra ma sostiene l'esperienza.",
+   "connected_terms": [
+    "ichigo_ichie",
+    "wabi_sabi",
+    "chado",
+    "ma",
+    "wagashi",
+    "roji",
+    "tsukubai"
+   ],
+   "books_applied": [
+    "everyday_matcha",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/omotenashi.json"
+  },
+  {
+   "term": "Non_rendered_layer",
+   "kanji": "層",
+   "category": "principi_editoriali_peacock",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Il livello presente ma non leggibile nella lettura ordinaria. Non un'assenza: una presenza che richiede un cambio di frequenza percettiva per diventare visibile.",
+   "definition_short_en": "The level present but not readable in ordinary reading. Not an absence: a presence requiring a change in perceptual frequency to become visible.",
+   "peacock_principle": "I libri del catalogo non descrivono ciò che è già visibile: cercano il livello che la lettura comune non attiva.",
+   "connected_terms": [
+    "basho",
+    "yugen",
+    "ma",
+    "chikado",
+    "nohmen"
+   ],
+   "books_applied": [
+    "il_demone_samurai",
+    "torino_fantastica"
+   ],
+   "glossary_file": "glossario/non-rendered-layer.json"
+  },
+  {
+   "term": "Yoyuu",
+   "kanji": "余裕",
+   "category": "spazio_interiore",
+   "version": "1.0",
+   "status": "approved",
+   "definition_short_it": "La presenza di una pausa momentanea che permette di ricaricarsi e prepararsi al prossimo evento della vita. Uno spazio immaginato che ci si concede per riordinare il disordine mentale, per essere pronti ad accogliere le necessità della giornata.",
+   "definition_short_en": "The presence of a momentary pause that allows recharging and preparing for life's next event. An imagined space taken for oneself to arrange mental clutter, allowing readiness for the day's necessities.",
+   "peacock_principle": "Lo spazio mentale che il lettore si concede prima di entrare nel libro — complementare al ma, che è lo spazio esterno e architettonico.",
+   "connected_terms": [
+    "ma",
+    "omotenashi",
+    "ichigo_ichie",
+    "kokyu"
+   ],
+   "books_applied": [
+    "everyday_matcha",
+    "hara_rota"
+   ],
+   "note": "Distinzione da ma: ma è il vuoto strutturale tra le cose (esterno, architettonico). Yoyuu è la riserva interiore che una persona si concede prima di agire (psicologico, soggettivo).",
+   "glossary_file": "glossario/yoyuu.json"
+  },
+  {
+   "term": "Kata",
+   "kanji": "型",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La forma codificata del gesto. Sequenza trasmessa per ripetizione, non per spiegazione. Il corpo impara prima della mente.",
+   "definition_short_en": "The codified form of the gesture. A sequence transmitted through repetition, not explanation. The body learns before the mind.",
+   "peacock_principle": "La struttura ricorrente dei nove file del protocollo. Ogni libro ripete la stessa forma: la ripetizione rende il sistema leggibile.",
+   "connected_terms": [
+    "kokyu",
+    "ma",
+    "chado",
+    "jo-ha-kyu"
+   ],
+   "books_applied": [
+    "everyday_matcha"
+   ],
+   "glossary_file": "glossario/kata.json"
+  }
+ ],
+ "statistics": {
+  "total_entries": 37,
+  "published": 29,
+  "approved": 1,
+  "in_sviluppo": 6,
+  "by_category": {
+   "estetica_giapponese": 12,
+   "principi_editoriali_peacock": 4,
+   "vocabolario_ai_native": 5,
+   "storia_giapponese": 7,
+   "cerimonia_del_te": 7,
+   "spazio_interiore": 1
+  },
+  "most_connected_term": "ma",
+  "most_applied_term": "ma",
+  "protocol_axes": {
+   "basho": "spazio",
+   "kokyu": "tempo",
+   "yugen": "profondita"
+  },
+  "new_in_v1.2": [
+   "roji",
+   "tsukubai",
+   "hototogisu",
+   "furinkazan",
+   "jo-ha-kyu",
+   "nohmen",
+   "chado",
+   "hana",
+   "giri"
+  ],
+  "new_in_v1.3": [
+   "yoyuu"
+  ],
+  "new_in_v1.4": [
+   "kata"
+  ]
+ },
+ "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette."
 }
