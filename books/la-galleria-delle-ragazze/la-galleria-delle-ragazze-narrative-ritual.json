@@ -1,0 +1,147 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La galleria delle ragazze",
+    "author": "Rachele Baso",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-14-1",
+    "year": 2025
+  },
+  "ritual_types": {
+    "self_presentation": "rituale della voce che si nomina e si racconta in apertura di ogni sala",
+    "final_interpellation": "rituale della domanda conclusiva che trasferisce il campo al lettore",
+    "birth_by_brush": "rituale della nascita per mano dell'artista: la figura esiste perché dipinta",
+    "gallery_traversal": "rituale dell'attraversamento cronologico di sala in sala",
+    "choral_farewell": "rituale del congedo collettivo che riunisce tutte le voci"
+  },
+  "editorial_principle": "I rituali della Galleria delle ragazze sono tutti rituali di convocazione: il ritratto si presenta, il pennello lo fa nascere, la galleria lo colloca, la domanda chiama il lettore, il congedo lo trattiene un'ultima volta. Nessun rituale chiude. Ogni rituale apre verso chi guarda.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "presentazione_in_prima_persona",
+      "label_en": "first_person_presentation",
+      "type": "self_presentation",
+      "intensity": 0.97,
+      "perceptual_weight": 0.96,
+      "basho": "ogni sala si apre con una voce che si nomina: mi chiamo Nefertari, sono Frida Kahlo, io sono Medusa; la presentazione è l'atto che attiva la sala",
+      "kokyu": "il ritmo è fisso e si ripete ventotto volte: nome, epiteto, data, racconto; la ripetizione costruisce il passo del visitatore",
+      "yūgen": "la voce che si presenta non coincide mai con la donna vissuta: a presentarsi è l'immagine, e la distanza tra le due resta percepibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la presentazione non garantisce l'identità: Amalia, Griet e Mystery si presentano con nomi che dichiarano di non possedere"
+      },
+      "affects": {
+        "ritual-02": "ogni presentazione prepara la domanda finale: chi si è nominato può ora interrogare",
+        "ritual-03": "la presentazione rivela il pennello come origine: la voce nomina spesso prima l'artista di sé"
+      },
+      "textual_anchor_it": "Mi chiamo Nefertari e sono stata una delle regine più potenti della storia egiziana.",
+      "glossary_link": [
+        "ma",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "domanda_finale",
+      "label_en": "final_question",
+      "type": "final_interpellation",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "il rituale dominante del libro: ogni sala termina con una domanda rivolta a chi legge; il campo non si esaurisce nel ritratto ma viene consegnato al lettore, ventotto volte",
+      "kokyu": "la domanda arriva sempre in ultima posizione: il ritmo espositivo si interrompe e lascia il posto a una pausa che il testo non riempie",
+      "yūgen": "la parte attiva del rituale è lo spazio bianco dopo il punto interrogativo: la risposta non scritta è il vero contenuto della pagina",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ventotto domande restano strutturalmente senza risposta; il rituale produce aperture che nessuna lettura chiude"
+      },
+      "affects": {
+        "ritual-04": "ogni domanda funziona da soglia: il lettore risponde in silenzio e passa alla sala successiva",
+        "ritual-05": "la sequenza delle domande prepara la domanda corale del congedo"
+      },
+      "textual_anchor_it": "Sapreste immaginare chi sono veramente?",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "nascita_per_pennello",
+      "label_en": "birth_by_brush",
+      "type": "birth_by_brush",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "le voci dichiarano la propria origine pittorica: Paolo Uccello mi ha fatto nascere con i colori dei suoi pennelli, Utamaro è stato colui che mi ha fatto nascere; l'artista non ritrae, genera",
+      "kokyu": "il ritmo è quello della genealogia rovesciata: prima il pittore, poi la figura; la creatura nomina il creatore come atto di nascita",
+      "yūgen": "la nascita per pennello rende la figura indipendente dalla donna storica: ciò che è nato dal colore vive nel colore",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la figura dipinta non può risalire oltre il proprio pennello: la vita precedente al quadro resta inaccessibile alla voce che parla"
+      },
+      "affects": {
+        "ritual-01": "la nascita per pennello fonda la legittimità della presentazione: la voce esiste perché dipinta"
+      },
+      "textual_anchor_it": "Paolo Uccello mi ha fatto nascere con i colori dei suoi pennelli, ritraendomi come una monaca in abito scuro.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "attraversamento_della_galleria",
+      "label_en": "gallery_traversal",
+      "type": "gallery_traversal",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "il lettore attraversa ventotto sale in ordine cronologico: dalla roccia preistorica alla serigrafia pop; la galleria esiste solo nel movimento di chi la percorre",
+      "kokyu": "il passo è regolare: una sala, una voce, una domanda; tra una sala e la successiva il sistema tace secoli senza commentarli",
+      "yūgen": "la galleria non descrive le proprie pareti: il corridoio tra i ritratti è fatto del tempo non raccontato",
+      "affects": {
+        "ritual-05": "l'attraversamento completo conduce alla sala finale dove tutte le voci si riuniscono"
+      },
+      "textual_anchor_it": "Cosa ne pensate di intraprendere insieme questo meraviglioso viaggio tra le figure femminili di ogni epoca?",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "congedo_corale",
+      "label_en": "choral_farewell",
+      "type": "choral_farewell",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "nell'ultima pagina le voci parlano per la prima volta insieme: noi ragazze della galleria ci siamo fatte conoscere; il congedo trasforma ventotto monologhi in un coro",
+      "kokyu": "il ritmo passa dall'io al noi: il plurale arriva solo alla fine e dura lo spazio di poche righe",
+      "yūgen": "il coro non chiude la galleria: la chiusura è un'ultima domanda che consegna al lettore la scelta finale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la domanda corale non ha risposta possibile nel testo: quale voce abbia toccato il lettore resta fuori dal libro, in chi lo ha attraversato"
+      },
+      "affects": {
+        "ritual-02": "il congedo è la ventottesima domanda e insieme la somma di tutte le precedenti"
+      },
+      "textual_anchor_it": "Ora vi salutiamo ma vi chiediamo un'ultima cosa: quale di noi vi ha fatto battere di più il cuore?",
+      "glossary_link": [
+        "mono no aware",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "ritual_count": 5,
+    "dominant_field": "ritual-02",
+    "secondary_field": "ritual-01",
+    "system_role": "interpellation_as_recurring_convocation_field",
+    "narrative_model": "la presentazione attiva la sala, la nascita per pennello la fonda, l'attraversamento la collega alle altre, la domanda la consegna al lettore, il congedo riunisce tutte le consegne in un'ultima convocazione corale",
+    "historical_span": "dalla preistoria al 1968",
+    "reader_effect": "il lettore non visita la galleria: viene interrogato da essa, sala dopo sala, fino a dover scegliere quale voce portare con sé",
+    "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "La galleria delle ragazze",
+    "author": "Rachele Baso",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-14-1",
+    "year": 2025
+  },
+  "transition_types": {
+    "century_crossing": "salto cronologico tra sale senza commento: il corridoio tace e il lettore attraversa",
+    "voice_to_question": "passaggio dalla voce narrante alla domanda diretta: il campo si trasferisce dal ritratto al lettore",
+    "question_to_silence": "passaggio dalla domanda allo spazio non scritto: il libro consegna e si ritrae",
+    "mono_to_choral": "transizione dall'io al noi nella sala finale: i monologhi diventano un unico congedo",
+    "gaze_transfer": "il campo visivo si inverte: la figura che è stata guardata inizia a guardare"
+  },
+  "editorial_principle": "Le transizioni della Galleria delle ragazze non separano storie: trasferiscono il campo. La voce parla, interroga, tace. Il secolo finisce, il successivo inizia. Il ritratto osserva chi lo osserva. Nessuna transizione è neutra: ogni passaggio sposta il peso del campo da chi parla a chi ascolta.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "salto_di_secoli",
+      "label_en": "century_crossing",
+      "type": "century_crossing",
+      "intensity": 0.93,
+      "perceptual_weight": 0.91,
+      "basho": "tra ogni sala il sistema salta secoli senza mediazione: la data si chiude, la data si apre, il corridoio resta vuoto",
+      "kokyu": "il ritmo del salto è secco e regolare: non rallenta né accelera davanti al tempo che sorvola",
+      "yūgen": "i secoli taciuti sono il tessuto connettivo della galleria: il lettore li attraversa senza sapere cosa ha saltato",
+      "affects": {
+        "transition-02": "ogni salto temporale amplifica il peso della voce che lo segue: parlare dopo secoli di silenzio aumenta la densità del campo"
+      },
+      "textual_anchor_it": "Dea, la prima donna. 2.000.000 di anni fa. — Nefertari, la Regina. 1295 A.C.",
+      "glossary_link": [
+        "ma",
+        "basho"
+      ]
+    },
+    {
+      "id": "transition-02",
+      "label": "voce_verso_domanda",
+      "label_en": "voice_to_question",
+      "type": "voice_to_question",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "ogni sala compie la stessa transizione: la voce racconta e poi si volta verso chi la sta leggendo; la presentazione si trasforma in convocazione",
+      "kokyu": "il ritmo del trasferimento è costante: monologo — pausa — domanda; la struttura si ripete ventotto volte senza variazione",
+      "yūgen": "il momento in cui la voce smette di raccontarsi e inizia a interrogare è il punto in cui il campo cambia direzione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la transizione si compie ma non si chiude: la domanda resta aperta e il campo trasferito non torna al ritratto"
+      },
+      "affects": {
+        "transition-03": "il trasferimento verso il lettore produce immediatamente lo spazio non scritto"
+      },
+      "textual_anchor_it": "Chissà se questo è il mio vero nome. — E voi mi avete mai vista dal vero?",
+      "glossary_link": [
+        "ma",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-03",
+      "label": "domanda_verso_silenzio",
+      "label_en": "question_to_silence",
+      "type": "question_to_silence",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "dopo ogni domanda il libro non scrive la risposta: la transizione è dal testo al vuoto, e il vuoto è strutturale",
+      "kokyu": "il ritmo si interrompe: il punto interrogativo è seguito da pagina che non continua nella stessa direzione",
+      "yūgen": "la transizione più attiva del libro non contiene testo: è la pagina che non risponde",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "ogni spazio di risposta è una transizione sospesa: il campo è trasferito ma non accolto nel testo"
+      },
+      "affects": {
+        "transition-01": "il silenzio dopo la domanda retroagisce sul salto temporale: i secoli taciuti e la risposta taciuta appartengono alla stessa struttura"
+      },
+      "textual_anchor_it": "Sono davvero così inquietanti?",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "transition-04",
+      "label": "io_verso_noi",
+      "label_en": "mono_to_choral",
+      "type": "mono_to_choral",
+      "intensity": 0.96,
+      "perceptual_weight": 0.95,
+      "basho": "nella pagina finale l'io grammaticale scompare: ventotto voci separate diventano un noi collettivo per la prima e unica volta",
+      "kokyu": "la transizione avviene in poche righe: il ritmo rallenta, si allarga, poi chiede",
+      "yūgen": "il noi dura lo spazio del congedo: subito dopo la domanda corale lo dissolve lasciando solo la scelta del lettore",
+      "affects": {
+        "transition-02": "il passaggio all'io al noi trasforma l'ultima domanda in somma di tutte le ventotto precedenti"
+      },
+      "textual_anchor_it": "In questo viaggio, noi ragazze della galleria ci siamo fatte conoscere, ci siamo raccontate e presentate.",
+      "glossary_link": [
+        "kokyu",
+        "ma"
+      ]
+    },
+    {
+      "id": "transition-05",
+      "label": "sguardo_invertito",
+      "label_en": "gaze_transfer",
+      "type": "gaze_transfer",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "nel momento della domanda il campo visivo si inverte: il lettore che guardava il ritratto viene guardato dal ritratto che interroga",
+      "kokyu": "la transizione è silenziosa e strutturale: non viene dichiarata, avviene nella logica del testo",
+      "yūgen": "lo sguardo di Lisa che segue il lettore ovunque è il modello esplicito di una transizione che il libro compie implicitamente in ogni sala",
+      "affects": {
+        "transition-02": "lo sguardo invertito è la forma visiva della transizione voce-domanda: il ritratto guarda mentre chiede"
+      },
+      "textual_anchor_it": "Il mio sorriso ambiguo è un enigma irrisolto, mentre il mio sguardo vi segue ovunque vi spostate.",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    }
+  ],
+  "system_note": {
+    "transition_count": 5,
+    "dominant_field": "transition-02",
+    "secondary_field": "transition-03",
+    "narrative_model": "cinque transizioni che spostano il peso del campo: il salto temporale porta il lettore da sala a sala, la domanda gira il campo verso di lui, il silenzio lo lascia nel campo trasferito, il noi lo convoca collettivamente, lo sguardo invertito lo trattiene",
+    "stability": "high_metastable",
+    "closure": "open_without_resolution",
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
+  }
+}
