@@ -1,36 +1,38 @@
 {
-  "version": "4.1",
-  "name": "perceptual-field",
-  "ontology": "strict_perceptual_4_1",
-  "book": "burn-out-pandemic",
-  "field_name": "pandemic_void_field",
-  "axes": {
-    "basho": "luoghi_chiusi_e_vuoti — caffetteria_hotel_teatro — stessa_architettura_del_nulla",
-    "kokyu": "dialogo_come_respirazione_minima — pause_lunghe — comunicazione_interrotta",
-    "yūgen": "la_volpe_come_presenza_invisibile — Sekala_Niskala — mondo_nascosto_intangibile"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "4.1",
+ "name": "perceptual-field",
+ "ontology": "strict_perceptual_4_1",
+ "book": "burn-out-pandemic",
+ "field_name": "pandemic_void_field",
+ "axes": {
+  "basho": "luoghi_chiusi_e_vuoti — caffetteria_hotel_teatro — stessa_architettura_del_nulla",
+  "kokyu": "dialogo_come_respirazione_minima — pause_lunghe — comunicazione_interrotta",
+  "yūgen": "la_volpe_come_presenza_invisibile — Sekala_Niskala — mondo_nascosto_intangibile"
+ },
+ "yūgen_level": 8,
+ "dissolution_rule": "non_dissolvibile — il vuoto pandemico non si risolve, si rivela come sogno solo nel IV atto",
+ "non_integrable_residue": {
+  "status": true,
+  "description": "Il viaggio di Kate e Darma non può essere reintegrato nella realtà — era onirico dall'inizio — il residuo è la domanda: la libertà era reale o solo sognata?"
+ },
+ "perceptual_layers": [
+  {
+   "layer": "bianco_scenico",
+   "description": "Il bianco totale come campo neutro che assorbe ogni colore — spazio senza identità geografica fino alla scritta proiettata"
   },
-  "yūgen_level": 8,
-  "dissolution_rule": "non_dissolvibile — il vuoto pandemico non si risolve, si rivela come sogno solo nel IV atto",
-  "non_integrable_residue": {
-    "status": true,
-    "description": "Il viaggio di Kate e Darma non può essere reintegrato nella realtà — era onirico dall'inizio — il residuo è la domanda: la libertà era reale o solo sognata?"
+  {
+   "layer": "sekala_niskala",
+   "description": "Dimensione visibile e invisibile simultanee — equilibrio tra luce e oscurità — il mondo nascosto che nessuno riesce a percepire"
   },
-  "perceptual_layers": [
-    {
-      "layer": "bianco_scenico",
-      "description": "Il bianco totale come campo neutro che assorbe ogni colore — spazio senza identità geografica fino alla scritta proiettata"
-    },
-    {
-      "layer": "sekala_niskala",
-      "description": "Dimensione visibile e invisibile simultanee — equilibrio tra luce e oscurità — il mondo nascosto che nessuno riesce a percepire"
-    },
-    {
-      "layer": "social_media_texture",
-      "description": "I dialoghi sono veloci come post sui social — rubati — la pandemia come grande social unico obbligatorio"
-    },
-    {
-      "layer": "manga_storyboard",
-      "description": "Il testo teatrale trasformato in graphic novel — il bianco invade le scene — il nero rappresenta l'oscurità"
-    }
-  ]
+  {
+   "layer": "social_media_texture",
+   "description": "I dialoghi sono veloci come post sui social — rubati — la pandemia come grande social unico obbligatorio"
+  },
+  {
+   "layer": "manga_storyboard",
+   "description": "Il testo teatrale trasformato in graphic novel — il bianco invade le scene — il nero rappresenta l'oscurità"
+  }
+ ]
 }

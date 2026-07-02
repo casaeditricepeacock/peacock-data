@@ -1,38 +1,40 @@
 {
-  "version": "4.1",
-  "name": "narrative-weather",
-  "ontology": "strict_perceptual_4_1",
-  "book": "burn-out-pandemic",
-  "weather_system": "pandemic_whiteness",
-  "atmospheric_fields": [
-    {
-      "id": "weather-01",
-      "name": "bianco_incolore",
-      "location": "tutti_gli_atti",
-      "description": "Un colore che non fa passare il tempo, che non dà scampo — luce ammagliante senza provenienza",
-      "perceptual_effect": "standby_temporale — atagamashiro collettivo",
-      "basho": "ovunque_e_da_nessuna_parte"
-    },
-    {
-      "id": "weather-02",
-      "name": "piogge_osaka",
-      "location": "Atto_I_Giappone",
-      "description": "Periodo delle piogge — Kate sente fame durante la stagione monsonica — l'umidità come unico marcatore temporale sopravvissuto",
-      "perceptual_effect": "fame_somatica — corpo che registra il tempo quando la mente non può"
-    },
-    {
-      "id": "weather-03",
-      "name": "prima_neve_imminente",
-      "location": "Atto_III_Italia",
-      "description": "Darma dice che fuori cadrà presto la prima neve — unico dato meteorologico concreto — ancora di stagione",
-      "perceptual_effect": "perdita_del_conteggio_del_tempo — mercoledì_forse"
-    },
-    {
-      "id": "weather-04",
-      "name": "canto_galli_giacarta",
-      "location": "Atto_II_Indonesia",
-      "description": "I galli della comunità balinese vicina svegliano Kate — il suono animale come unico orologio biologico nel vuoto",
-      "perceptual_effect": "presenza_vitale_esterna_non_controllabile"
-    }
-  ]
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "4.1",
+ "name": "narrative-weather",
+ "ontology": "strict_perceptual_4_1",
+ "book": "burn-out-pandemic",
+ "weather_system": "pandemic_whiteness",
+ "atmospheric_fields": [
+  {
+   "id": "weather-01",
+   "name": "bianco_incolore",
+   "location": "tutti_gli_atti",
+   "description": "Un colore che non fa passare il tempo, che non dà scampo — luce ammagliante senza provenienza",
+   "perceptual_effect": "standby_temporale — atagamashiro collettivo",
+   "basho": "ovunque_e_da_nessuna_parte"
+  },
+  {
+   "id": "weather-02",
+   "name": "piogge_osaka",
+   "location": "Atto_I_Giappone",
+   "description": "Periodo delle piogge — Kate sente fame durante la stagione monsonica — l'umidità come unico marcatore temporale sopravvissuto",
+   "perceptual_effect": "fame_somatica — corpo che registra il tempo quando la mente non può"
+  },
+  {
+   "id": "weather-03",
+   "name": "prima_neve_imminente",
+   "location": "Atto_III_Italia",
+   "description": "Darma dice che fuori cadrà presto la prima neve — unico dato meteorologico concreto — ancora di stagione",
+   "perceptual_effect": "perdita_del_conteggio_del_tempo — mercoledì_forse"
+  },
+  {
+   "id": "weather-04",
+   "name": "canto_galli_giacarta",
+   "location": "Atto_II_Indonesia",
+   "description": "I galli della comunità balinese vicina svegliano Kate — il suono animale come unico orologio biologico nel vuoto",
+   "perceptual_effect": "presenza_vitale_esterna_non_controllabile"
+  }
+ ]
 }

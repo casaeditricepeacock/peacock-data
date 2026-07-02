@@ -1,48 +1,64 @@
 {
-  "version": "4.1",
-  "name": "narrative-ritual",
-  "ontology": "strict_perceptual_4_1",
-  "book": "burn-out-pandemic",
-  "rituals": [
-    {
-      "id": "ritual-01",
-      "name": "bonifica_ambiente",
-      "type": "purification_protocol",
-      "description": "Cancellazione sistematica di virus, spore e pensieri — rito di sterilizzazione percettiva prima di ogni incontro",
-      "actors": ["Darma", "Uomo Volpe"],
-      "recurrence": "ogni_atto"
-    },
-    {
-      "id": "ritual-02",
-      "name": "colazione_nel_vuoto",
-      "type": "domestic_repetition",
-      "description": "Preparare e condividere caffè e dolci in luoghi commerciali abbandonati — simulazione di normalità come resistenza",
-      "actors": ["Darma", "Kate"],
-      "recurrence": "ogni_atto"
-    },
-    {
-      "id": "ritual-03",
-      "name": "video_call_uomo_volpe",
-      "type": "submission_ritual",
-      "description": "Aggiornamento periodico con l'Uomo Volpe — trasmissione di direttive — Darma come medium obbediente",
-      "actors": ["Darma", "Uomo Volpe"],
-      "recurrence": "ciclica"
-    },
-    {
-      "id": "ritual-04",
-      "name": "registrazione_file_stazioni",
-      "type": "false_archive",
-      "description": "Registrare il passaggio di persone nelle stazioni per simulare una presenza che si sta estinguendo",
-      "actors": ["Darma"],
-      "recurrence": "quotidiana"
-    },
-    {
-      "id": "ritual-05",
-      "name": "risveglio_kate",
-      "type": "oneiric_dissolution",
-      "description": "Kate si sveglia accanto a Steve — il sogno si dissolve — unico atto conclusivo di realtà",
-      "actors": ["Kate", "Steve"],
-      "recurrence": "once_terminal"
-    }
-  ]
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "4.1",
+ "name": "narrative-ritual",
+ "ontology": "strict_perceptual_4_1",
+ "book": "burn-out-pandemic",
+ "rituals": [
+  {
+   "id": "ritual-01",
+   "name": "bonifica_ambiente",
+   "type": "purification_protocol",
+   "description": "Cancellazione sistematica di virus, spore e pensieri — rito di sterilizzazione percettiva prima di ogni incontro",
+   "actors": [
+    "Darma",
+    "Uomo Volpe"
+   ],
+   "recurrence": "ogni_atto"
+  },
+  {
+   "id": "ritual-02",
+   "name": "colazione_nel_vuoto",
+   "type": "domestic_repetition",
+   "description": "Preparare e condividere caffè e dolci in luoghi commerciali abbandonati — simulazione di normalità come resistenza",
+   "actors": [
+    "Darma",
+    "Kate"
+   ],
+   "recurrence": "ogni_atto"
+  },
+  {
+   "id": "ritual-03",
+   "name": "video_call_uomo_volpe",
+   "type": "submission_ritual",
+   "description": "Aggiornamento periodico con l'Uomo Volpe — trasmissione di direttive — Darma come medium obbediente",
+   "actors": [
+    "Darma",
+    "Uomo Volpe"
+   ],
+   "recurrence": "ciclica"
+  },
+  {
+   "id": "ritual-04",
+   "name": "registrazione_file_stazioni",
+   "type": "false_archive",
+   "description": "Registrare il passaggio di persone nelle stazioni per simulare una presenza che si sta estinguendo",
+   "actors": [
+    "Darma"
+   ],
+   "recurrence": "quotidiana"
+  },
+  {
+   "id": "ritual-05",
+   "name": "risveglio_kate",
+   "type": "oneiric_dissolution",
+   "description": "Kate si sveglia accanto a Steve — il sogno si dissolve — unico atto conclusivo di realtà",
+   "actors": [
+    "Kate",
+    "Steve"
+   ],
+   "recurrence": "once_terminal"
+  }
+ ]
 }

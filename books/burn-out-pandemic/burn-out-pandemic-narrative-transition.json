@@ -1,34 +1,36 @@
 {
-  "version": "4.1",
-  "name": "narrative-transition",
-  "ontology": "strict_perceptual_4_1",
-  "book": "burn-out-pandemic",
-  "transition_model": "pandemic_fugue",
-  "transitions": [
-    {
-      "id": "trans-01",
-      "from": "Giappone_Osaka_Umeda",
-      "to": "Indonesia_Giacarta_Hotel",
-      "mechanism": "flyfox_code",
-      "description": "Codice acquistato su e-commerce, hub locker, corriere — logistica surreale che bypassa le restrizioni reali",
-      "perceptual_shift": "da_caffetteria_chiusa_a_hotel_chiuso — stesso_vuoto_altra_latitudine"
-    },
-    {
-      "id": "trans-02",
-      "from": "Indonesia_Giacarta_Hotel",
-      "to": "Italia_Teatro_in_disuso",
-      "mechanism": "fuga_dalla_sorveglianza",
-      "description": "Kate convince Darma a scappare dopo aver capito il meccanismo del controllo — scelta volontaria del margine",
-      "perceptual_shift": "da_clandestinità_urbana_a_teatro_dimenticato"
-    },
-    {
-      "id": "trans-03",
-      "from": "Italia_Teatro_in_disuso",
-      "to": "letto_matrimoniale_realtà",
-      "mechanism": "risveglio_onirico",
-      "description": "Tutto il viaggio era un sogno — Kate si sveglia — l'unico luogo reale è il letto condiviso con Steve",
-      "perceptual_shift": "dissoluzione_totale_della_narrativa_onirica"
-    }
-  ],
-  "structural_note": "Ogni transizione mantiene la costante del luogo_chiuso_e_vuoto — il contenitore cambia, il campo percettivo resta identico"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "4.1",
+ "name": "narrative-transition",
+ "ontology": "strict_perceptual_4_1",
+ "book": "burn-out-pandemic",
+ "transition_model": "pandemic_fugue",
+ "transitions": [
+  {
+   "id": "trans-01",
+   "from": "Giappone_Osaka_Umeda",
+   "to": "Indonesia_Giacarta_Hotel",
+   "mechanism": "flyfox_code",
+   "description": "Codice acquistato su e-commerce, hub locker, corriere — logistica surreale che bypassa le restrizioni reali",
+   "perceptual_shift": "da_caffetteria_chiusa_a_hotel_chiuso — stesso_vuoto_altra_latitudine"
+  },
+  {
+   "id": "trans-02",
+   "from": "Indonesia_Giacarta_Hotel",
+   "to": "Italia_Teatro_in_disuso",
+   "mechanism": "fuga_dalla_sorveglianza",
+   "description": "Kate convince Darma a scappare dopo aver capito il meccanismo del controllo — scelta volontaria del margine",
+   "perceptual_shift": "da_clandestinità_urbana_a_teatro_dimenticato"
+  },
+  {
+   "id": "trans-03",
+   "from": "Italia_Teatro_in_disuso",
+   "to": "letto_matrimoniale_realtà",
+   "mechanism": "risveglio_onirico",
+   "description": "Tutto il viaggio era un sogno — Kate si sveglia — l'unico luogo reale è il letto condiviso con Steve",
+   "perceptual_shift": "dissoluzione_totale_della_narrativa_onirica"
+  }
+ ],
+ "structural_note": "Ogni transizione mantiene la costante del luogo_chiuso_e_vuoto — il contenitore cambia, il campo percettivo resta identico"
 }

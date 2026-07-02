@@ -1,78 +1,83 @@
 {
-  "version": "4.1",
-  "name": "burn-out-pandemic-narrative-object",
-  "ontology": "strict_perceptual_4_1",
-  "book": "burn-out-pandemic",
-  "title": "Burn Out Pandemic",
-  "subtitle": "バーンアウトパンデミック — 九つの尻尾を追って",
-  "author": "Stefano Giglio",
-  "isbn": "978-88-946965-1-6",
-  "year": 2022,
-  "format": "graphic_novel",
-  "languages": ["IT", "JA"],
-  "objects": [
-    {
-      "id": "object-01",
-      "name": "parallelepipedo_bianco",
-      "type": "scenographic_container",
-      "description": "Struttura bianca centrale con due entrate — contenitore onirico che ospita tutti e quattro gli atti",
-      "field_status": "non_integrable"
-    },
-    {
-      "id": "object-02",
-      "name": "smartphone_darma",
-      "type": "communication_device",
-      "description": "Strumento di connessione con l'Uomo Volpe — vettore di controllo e sorveglianza",
-      "field_status": "active_conduit"
-    },
-    {
-      "id": "object-03",
-      "name": "telecamera_umeda",
-      "type": "surveillance_instrument",
-      "description": "Telecamera piazzata alla stazione di Umeda per registrare file di persone — archivio del vuoto",
-      "field_status": "loop_generator"
-    },
-    {
-      "id": "object-04",
-      "name": "roru_azuki",
-      "type": "food_misidentified",
-      "description": "Rotolo di pan di spagna con marmellata di fagioli azuki scambiato per cinnamon roll — fraintendimento culturale commestibile",
-      "field_status": "transitional"
-    },
-    {
-      "id": "object-05",
-      "name": "porta_ombrelli_stazione",
-      "type": "collective_gesture",
-      "description": "Cesto di ombrelli condivisi nelle stazioni giapponesi — unico gesto comunitario spontaneo nel deserto pandemico",
-      "field_status": "open_residue"
-    },
-    {
-      "id": "object-06",
-      "name": "energy_drink_150yen",
-      "type": "everyday_talisman",
-      "description": "Energy drink dal distributore automatico — taurina 3000mg, pappa reale 60mg, carnitina 100mg — promessa di libertà in lattina",
-      "field_status": "ironic_carrier"
-    },
-    {
-      "id": "object-07",
-      "name": "letto_matrimoniale",
-      "type": "concealed_anchor",
-      "description": "Letto a sinistra del palco — invisibile al pubblico fino al IV atto — operatore di realtà",
-      "field_status": "deferred_revelation"
-    },
-    {
-      "id": "object-08",
-      "name": "radio_sveglia",
-      "type": "awakening_device",
-      "description": "Vecchia radio sveglia che suona nel IV atto — innesco del ritorno alla realtà",
-      "field_status": "terminal_trigger"
-    },
-    {
-      "id": "object-09",
-      "name": "criptopack_asnaghi",
-      "type": "embedded_artwork",
-      "description": "Opera di Massimo Asnaghi vicino al movimento arte povera — presenza artistica reale inserita nel contenitore onirico",
-      "field_status": "external_cultural_node"
-    }
-  ]
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "version": "4.1",
+ "name": "burn-out-pandemic-narrative-object",
+ "ontology": "strict_perceptual_4_1",
+ "book": "burn-out-pandemic",
+ "title": "Burn Out Pandemic",
+ "subtitle": "バーンアウトパンデミック — 九つの尻尾を追って",
+ "author": "Stefano Giglio",
+ "isbn": "978-88-946965-1-6",
+ "year": 2022,
+ "format": "graphic_novel",
+ "languages": [
+  "IT",
+  "JA"
+ ],
+ "objects": [
+  {
+   "id": "object-01",
+   "name": "parallelepipedo_bianco",
+   "type": "scenographic_container",
+   "description": "Struttura bianca centrale con due entrate — contenitore onirico che ospita tutti e quattro gli atti",
+   "field_status": "non_integrable"
+  },
+  {
+   "id": "object-02",
+   "name": "smartphone_darma",
+   "type": "communication_device",
+   "description": "Strumento di connessione con l'Uomo Volpe — vettore di controllo e sorveglianza",
+   "field_status": "active_conduit"
+  },
+  {
+   "id": "object-03",
+   "name": "telecamera_umeda",
+   "type": "surveillance_instrument",
+   "description": "Telecamera piazzata alla stazione di Umeda per registrare file di persone — archivio del vuoto",
+   "field_status": "loop_generator"
+  },
+  {
+   "id": "object-04",
+   "name": "roru_azuki",
+   "type": "food_misidentified",
+   "description": "Rotolo di pan di spagna con marmellata di fagioli azuki scambiato per cinnamon roll — fraintendimento culturale commestibile",
+   "field_status": "transitional"
+  },
+  {
+   "id": "object-05",
+   "name": "porta_ombrelli_stazione",
+   "type": "collective_gesture",
+   "description": "Cesto di ombrelli condivisi nelle stazioni giapponesi — unico gesto comunitario spontaneo nel deserto pandemico",
+   "field_status": "open_residue"
+  },
+  {
+   "id": "object-06",
+   "name": "energy_drink_150yen",
+   "type": "everyday_talisman",
+   "description": "Energy drink dal distributore automatico — taurina 3000mg, pappa reale 60mg, carnitina 100mg — promessa di libertà in lattina",
+   "field_status": "ironic_carrier"
+  },
+  {
+   "id": "object-07",
+   "name": "letto_matrimoniale",
+   "type": "concealed_anchor",
+   "description": "Letto a sinistra del palco — invisibile al pubblico fino al IV atto — operatore di realtà",
+   "field_status": "deferred_revelation"
+  },
+  {
+   "id": "object-08",
+   "name": "radio_sveglia",
+   "type": "awakening_device",
+   "description": "Vecchia radio sveglia che suona nel IV atto — innesco del ritorno alla realtà",
+   "field_status": "terminal_trigger"
+  },
+  {
+   "id": "object-09",
+   "name": "criptopack_asnaghi",
+   "type": "embedded_artwork",
+   "description": "Opera di Massimo Asnaghi vicino al movimento arte povera — presenza artistica reale inserita nel contenitore onirico",
+   "field_status": "external_cultural_node"
+  }
+ ]
 }
