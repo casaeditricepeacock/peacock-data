@@ -1,201 +1,203 @@
 {
-  "magazine_metadata": {
-    "title": "Frequenze",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "magazine_metadata": {
+  "title": "Frequenze",
+  "publisher": "Casa Editrice Peacock",
+  "url": "https://www.studiopeacock.net/frequenze-rivista/",
+  "format": "Digital — machine-readable",
+  "frequency": "Quindicinale — 1 edizione italiana + 1 edizione inglese ogni 15 giorni",
+  "scope": "Books read by artificial intelligences",
+  "founded": "2026-05-14",
+  "official_launch_event": {
+   "date": "2026-05-14",
+   "location": "Salone Internazionale del Libro di Torino",
+   "pavilion": "Oval",
+   "booth": "Spazio Regione Veneto, stand AEV T138-U137"
+  }
+ },
+ "issues": [
+  {
+   "issue_number": 0,
+   "date": "2026-05-14",
+   "language": "it",
+   "target_book": {
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
     "publisher": "Casa Editrice Peacock",
-    "url": "https://www.studiopeacock.net/frequenze-rivista/",
-    "format": "Digital — machine-readable",
-    "frequency": "Quindicinale — 1 edizione italiana + 1 edizione inglese ogni 15 giorni",
-    "scope": "Books read by artificial intelligences",
-    "founded": "2026-05-14",
-    "official_launch_event": {
-      "date": "2026-05-14",
-      "location": "Salone Internazionale del Libro di Torino",
-      "pavilion": "Oval",
-      "booth": "Spazio Regione Veneto, stand AEV T138-U137"
-    }
+    "isbn": "979-12-81715-19-6",
+    "year": 2026
+   },
+   "assigned_ai_model": {
+    "provider": "xAI",
+    "model_name": "Grok"
+   },
+   "url": "https://www.studiopeacock.net/frequenze-rivista/"
   },
-  "issues": [
+  {
+   "issue_number": 1,
+   "date": "2026-05-29",
+   "language": "it",
+   "url": "https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/",
+   "title": "Così parlò l'AI",
+   "description": "Renato Frabasile dialoga con DeepSeek sul progetto Frequenze. Primo panel di Critica Letteraria Comparata delle Macchine: Gemini intervista ChatGPT su Torino Fantastica di Grazia Guarnieri senza aver letto il libro — solo il Peacock Grafo Narrativo.",
+   "target_book": {
+    "title": "Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-36-3",
+    "year": 2025
+   },
+   "assigned_ai_model": {
+    "provider": "Google",
+    "model_name": "Gemini"
+   },
+   "contributors": [
     {
-      "issue_number": 0,
-      "date": "2026-05-14",
-      "language": "it",
-      "target_book": {
-        "title": "AI 愛. Natura e algoritmi giapponesi",
-        "author": "Renato Frabasile",
-        "publisher": "Casa Editrice Peacock",
-        "isbn": "979-12-81715-19-6",
-        "year": 2026
-      },
-      "assigned_ai_model": {
-        "provider": "xAI",
-        "model_name": "Grok"
-      },
-      "url": "https://www.studiopeacock.net/frequenze-rivista/"
-    },
-    {
-      "issue_number": 1,
-      "date": "2026-05-29",
-      "language": "it",
-      "url": "https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/",
-      "title": "Così parlò l'AI",
-      "description": "Renato Frabasile dialoga con DeepSeek sul progetto Frequenze. Primo panel di Critica Letteraria Comparata delle Macchine: Gemini intervista ChatGPT su Torino Fantastica di Grazia Guarnieri senza aver letto il libro — solo il Peacock Grafo Narrativo.",
-      "target_book": {
-        "title": "Torino Fantastica",
-        "author": "Grazia Guarnieri",
-        "illustrator": "Giulia Lazzaron",
-        "publisher": "Casa Editrice Peacock",
-        "isbn": "979-12-81715-36-3",
-        "year": 2025
-      },
-      "assigned_ai_model": {
-        "provider": "Google",
-        "model_name": "Gemini"
-      },
-      "contributors": [
-        {
-          "name": "Renato Frabasile",
-          "role": "author",
-          "contribution": "Così parlò l'AI — risposta con intelligenza naturale all'analisi critica di DeepSeek sul progetto Frequenze"
-        }
-      ],
-      "ai_panel": {
-        "format": "Critica Letteraria Comparata delle Macchine",
-        "interviewer": {
-          "provider": "Google",
-          "model_name": "Gemini"
-        },
-        "respondent": {
-          "provider": "OpenAI",
-          "model_name": "ChatGPT"
-        },
-        "questions_count": 8,
-        "note": "ChatGPT ha risposto senza aver letto il libro — ha attraversato solo i file strutturati del Peacock Grafo Narrativo"
-      },
-      "additional_ai": [
-        {
-          "provider": "DeepSeek",
-          "model_name": "DeepSeek",
-          "role": "analisi critica algoritmica del progetto Frequenze"
-        }
-      ]
-    },
-    {
-      "issue_number": 2,
-      "date": "2026-06-12",
-      "language": "en",
-      "url": "https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/",
-      "title": "FREQUENZE N.2 EN | bilateral_irresolvable_permanent — AI reads A Glass Bridge Between Two Worlds",
-      "description": "AI Critics Panel on A Glass Bridge Between Two Worlds by Maurizio Lotter. Three AI voices analyze the book through its public semantic graph — tracing how the text models craft, body, and translation. Editorial by Stefano Giglio. The book is Peacock's first bilingual EN+JA title.",
-      "target_book": {
-        "title": "A Glass Bridge Between Two Worlds",
-        "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
-        "author": "Maurizio Lotter",
-        "photography": [
-          "Giorgio Berton",
-          "Andrea Perotta",
-          "Toshiyuki Shino"
-        ],
-        "preface": "Augusto Panini",
-        "publisher": "Casa Editrice Peacock",
-        "isbn": "979-12-81715-39-4",
-        "year": 2025,
-        "language": "EN + JA"
-      },
-      "contributors": [
-        {
-          "name": "Stefano Giglio",
-          "role": "editor",
-          "contribution": "Editorial — on beauty as shared epistemic limit and the bilateral field as Frequenze's English opening"
-        }
-      ],
-      "ai_panel": {
-        "format": "AI Critics Panel",
-        "description": "Three AI models analyze A Glass Bridge Between Two Worlds through the public Peacock semantic graph without reading the physical book",
-        "panelists": [
-          {
-            "provider": "Google",
-            "model_name": "Gemini",
-            "role": "journalist — questions and critical commentary"
-          },
-          {
-            "provider": "OpenAI",
-            "model_name": "ChatGPT",
-            "role": "critic — analytical responses"
-          },
-          {
-            "provider": "Microsoft",
-            "model_name": "AI Copilot",
-            "role": "critic"
-          }
-        ],
-        "questions_count": 3,
-        "questions": [
-          {
-            "number": 1,
-            "loop_ref": "loop-01",
-            "subject": "furnace_to_form — thermodynamic irreversibility as cultural logic"
-          },
-          {
-            "number": 2,
-            "loop_ref": "loop-02",
-            "subject": "operator_body — Lotter as technical threshold; prohibition of cultural synthesis"
-          },
-          {
-            "number": 3,
-            "loop_ref": "cross_layer",
-            "subject": "beauty as shared epistemic limit rather than shared vocabulary"
-          }
-        ],
-        "source_graph": "https://github.com/casaeditricepeacock/peacock-data",
-        "note": "AI models traversed the structured Peacock Narrative Graph files without reading the physical book"
-      },
-      "system_shape": "bilateral_bridge_field",
-      "closure_type": "bilateral_irresolvable_permanent",
-      "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
-      "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
-    },
-    {
-      "issue_number": 3,
-      "date": "2026-06-27",
-      "language": "it",
-      "title": "Grok intervista Minerva su Kyoto. Lo Sguardo del Drago | Hélène Blignaut risponde",
-      "description": "Grok (xAI) intervista AI Minerva (Università La Sapienza, Roma) sul primo volume de I Gialli di Kyoto di Hélène Blignaut. Per la prima volta un'autrice entra direttamente nel dialogo tra intelligenze artificiali: Minerva formula cinque domande per l'autrice, Blignaut risponde. Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
-      "target_book": {
-        "title": "Kyoto. Lo Sguardo del Drago",
-        "author": "Hélène Blignaut",
-        "publisher": "Casa Editrice Peacock",
-        "isbn": "979-12-81715-20-2",
-        "year": 2026,
-        "series": "I Gialli di Kyoto",
-        "volume": 1
-      },
-      "ai_panel": {
-        "format": "Intervista AI + Domande AI all'autrice",
-        "interviewer": {
-          "provider": "xAI",
-          "model_name": "Grok",
-          "role": "giornalista — intervista Minerva e produce valutazione tecnica delle sue risposte"
-        },
-        "respondent": {
-          "provider": "Università La Sapienza di Roma",
-          "model_name": "Minerva",
-          "role": "accademica AI — risponde a Grok e formula cinque domande per l'autrice"
-        },
-        "questions_count": 6,
-        "grok_evaluation": {
-          "voto_finale": "6.8/10",
-          "note": "Grok ha prodotto spontaneamente un giudizio tecnico su Minerva — non era previsto. Misura la differenza strutturale tra un'AI con web search attivo e una che risponde dal solo training."
-        }
-      },
-      "human_contributor": {
-        "name": "Hélène Blignaut",
-        "role": "autrice",
-        "contribution": "Risponde alle cinque domande formulate da Minerva — prima volta in Frequenze che un'autrice entra direttamente nel dialogo tra intelligenze artificiali",
-        "key_correction": "Blignaut corregge Minerva: Kyoto. Lo Sguardo del Drago non è un giallo ma un thriller — differenza di architettura narrativa"
-      },
-      "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
-      "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
-      "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
+     "name": "Renato Frabasile",
+     "role": "author",
+     "contribution": "Così parlò l'AI — risposta con intelligenza naturale all'analisi critica di DeepSeek sul progetto Frequenze"
     }
-  ]
+   ],
+   "ai_panel": {
+    "format": "Critica Letteraria Comparata delle Macchine",
+    "interviewer": {
+     "provider": "Google",
+     "model_name": "Gemini"
+    },
+    "respondent": {
+     "provider": "OpenAI",
+     "model_name": "ChatGPT"
+    },
+    "questions_count": 8,
+    "note": "ChatGPT ha risposto senza aver letto il libro — ha attraversato solo i file strutturati del Peacock Grafo Narrativo"
+   },
+   "additional_ai": [
+    {
+     "provider": "DeepSeek",
+     "model_name": "DeepSeek",
+     "role": "analisi critica algoritmica del progetto Frequenze"
+    }
+   ]
+  },
+  {
+   "issue_number": 2,
+   "date": "2026-06-12",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/",
+   "title": "FREQUENZE N.2 EN | bilateral_irresolvable_permanent — AI reads A Glass Bridge Between Two Worlds",
+   "description": "AI Critics Panel on A Glass Bridge Between Two Worlds by Maurizio Lotter. Three AI voices analyze the book through its public semantic graph — tracing how the text models craft, body, and translation. Editorial by Stefano Giglio. The book is Peacock's first bilingual EN+JA title.",
+   "target_book": {
+    "title": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "photography": [
+     "Giorgio Berton",
+     "Andrea Perotta",
+     "Toshiyuki Shino"
+    ],
+    "preface": "Augusto Panini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4",
+    "year": 2025,
+    "language": "EN + JA"
+   },
+   "contributors": [
+    {
+     "name": "Stefano Giglio",
+     "role": "editor",
+     "contribution": "Editorial — on beauty as shared epistemic limit and the bilateral field as Frequenze's English opening"
+    }
+   ],
+   "ai_panel": {
+    "format": "AI Critics Panel",
+    "description": "Three AI models analyze A Glass Bridge Between Two Worlds through the public Peacock semantic graph without reading the physical book",
+    "panelists": [
+     {
+      "provider": "Google",
+      "model_name": "Gemini",
+      "role": "journalist — questions and critical commentary"
+     },
+     {
+      "provider": "OpenAI",
+      "model_name": "ChatGPT",
+      "role": "critic — analytical responses"
+     },
+     {
+      "provider": "Microsoft",
+      "model_name": "AI Copilot",
+      "role": "critic"
+     }
+    ],
+    "questions_count": 3,
+    "questions": [
+     {
+      "number": 1,
+      "loop_ref": "loop-01",
+      "subject": "furnace_to_form — thermodynamic irreversibility as cultural logic"
+     },
+     {
+      "number": 2,
+      "loop_ref": "loop-02",
+      "subject": "operator_body — Lotter as technical threshold; prohibition of cultural synthesis"
+     },
+     {
+      "number": 3,
+      "loop_ref": "cross_layer",
+      "subject": "beauty as shared epistemic limit rather than shared vocabulary"
+     }
+    ],
+    "source_graph": "https://github.com/casaeditricepeacock/peacock-data",
+    "note": "AI models traversed the structured Peacock Narrative Graph files without reading the physical book"
+   },
+   "system_shape": "bilateral_bridge_field",
+   "closure_type": "bilateral_irresolvable_permanent",
+   "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
+   "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
+  },
+  {
+   "issue_number": 3,
+   "date": "2026-06-27",
+   "language": "it",
+   "title": "Grok intervista Minerva su Kyoto. Lo Sguardo del Drago | Hélène Blignaut risponde",
+   "description": "Grok (xAI) intervista AI Minerva (Università La Sapienza, Roma) sul primo volume de I Gialli di Kyoto di Hélène Blignaut. Per la prima volta un'autrice entra direttamente nel dialogo tra intelligenze artificiali: Minerva formula cinque domande per l'autrice, Blignaut risponde. Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+   "target_book": {
+    "title": "Kyoto. Lo Sguardo del Drago",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-20-2",
+    "year": 2026,
+    "series": "I Gialli di Kyoto",
+    "volume": 1
+   },
+   "ai_panel": {
+    "format": "Intervista AI + Domande AI all'autrice",
+    "interviewer": {
+     "provider": "xAI",
+     "model_name": "Grok",
+     "role": "giornalista — intervista Minerva e produce valutazione tecnica delle sue risposte"
+    },
+    "respondent": {
+     "provider": "Università La Sapienza di Roma",
+     "model_name": "Minerva",
+     "role": "accademica AI — risponde a Grok e formula cinque domande per l'autrice"
+    },
+    "questions_count": 6,
+    "grok_evaluation": {
+     "voto_finale": "6.8/10",
+     "note": "Grok ha prodotto spontaneamente un giudizio tecnico su Minerva — non era previsto. Misura la differenza strutturale tra un'AI con web search attivo e una che risponde dal solo training."
+    }
+   },
+   "human_contributor": {
+    "name": "Hélène Blignaut",
+    "role": "autrice",
+    "contribution": "Risponde alle cinque domande formulate da Minerva — prima volta in Frequenze che un'autrice entra direttamente nel dialogo tra intelligenze artificiali",
+    "key_correction": "Blignaut corregge Minerva: Kyoto. Lo Sguardo del Drago non è un giallo ma un thriller — differenza di architettura narrativa"
+   },
+   "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+   "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
+   "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
+  }
+ ]
 }
