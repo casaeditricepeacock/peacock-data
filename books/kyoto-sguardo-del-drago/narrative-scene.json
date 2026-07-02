@@ -1,0 +1,124 @@
+{
+  "book_id": "kyoto-sguardo-del-drago",
+  "file_type": "NarrativeScene",
+  "version": "5.0",
+  "ontology": "strict_perceptual_5_0",
+
+  "editorial_principle": "Le scene chiave non costruiscono suspense ma interpretazione. Ogni scena introduce un nuovo sistema di segni da leggere. Il romanzo procede per decifrazione progressiva: persone, oggetti, paesaggi e silenzi vengono compresi prima di essere spiegati.",
+
+  "dominant_scene": "yoshida_fujiwara",
+
+  "key_scenes": [
+    {
+      "id": "incontro_trattoria",
+      "act": "Primo Atto — Scena II",
+      "title": "Lo Straniero",
+      "location": "Trattoria Zeneise, caruggi di Genova",
+      "basho": "uno spazio ordinario trasformato in soglia narrativa",
+      "description": "Alexander Pope entra nella trattoria e occupa il tavolo che nessuno può occupare. Michele riconosce l'accento gaelico quasi immediatamente. Il riconoscimento precede ogni spiegazione.",
+      "key_line": "Prima si riconoscono, poi si conoscono.",
+      "function": "Scena di attivazione del sistema. Nasce la coppia investigativa della serie.",
+      "field_effect": "riconoscimento_semiotico"
+    },
+    {
+      "id": "milione_dollari",
+      "act": "Primo Atto — Scena III",
+      "title": "Un Milione di Dollari",
+      "location": "Trattoria Zeneise",
+      "basho": "lo stesso luogo assume un nuovo significato dopo il riconoscimento",
+      "description": "Alexander propone una consulenza da un milione di dollari. Michele reagisce con indifferenza. Il valore economico viene ridotto a semplice dato accessorio.",
+      "key_line": "Se non si tratta di qualcosa di estremamente impegnativo fisicamente, volentieri.",
+      "function": "Definizione morale del protagonista. La curiosità prevale sull'interesse."
+    },
+    {
+      "id": "tanto_rivelato",
+      "act": "Secondo Atto — Scena IV",
+      "title": "Il Pugnale e il Castello",
+      "location": "Terrazzo di Rapallo",
+      "basho": "spazio elevato e aperto che permette l'espansione del campo storico",
+      "description": "Alexander presenta il tantō. L'oggetto smette di essere reperto e diventa testo. Oda Nobunaga entra nel sistema narrativo.",
+      "key_line": "Tenka Fubu. Riunire il Giappone sotto una sola spada.",
+      "function": "Attivazione del campo semiotico-storico.",
+      "field_effect": "macguffin_to_document"
+    },
+    {
+      "id": "isola_chikubushima",
+      "act": "Ottavo Atto",
+      "title": "L'Acqua e il Segreto",
+      "location": "Lago Biwa — Chikubushima",
+      "description": "Il viaggio verso l'isola sacra introduce una dimensione diversa dell'indagine. La ricerca materiale si intreccia con la memoria storica.",
+      "function": "Passaggio dal mistero archeologico al mistero culturale.",
+      "field_effect": "history_becomes_presence"
+    },
+    {
+      "id": "torii_notturno",
+      "act": "Nono Atto",
+      "title": "La Porta di Luce",
+      "location": "Kyoto — ristorante con Torii illuminato",
+      "description": "L'immagine del Torii azzurro e rosso funziona come soglia simbolica. Dopo questa scena il romanzo cambia registro e accelera verso la soluzione.",
+      "function": "Portale percettivo tra indagine e giudizio.",
+      "field_effect": "threshold_activation"
+    },
+    {
+      "id": "yoshida_fujiwara",
+      "act": "Dodicesimo Atto",
+      "title": "La Doppia Scelta",
+      "location": "Ristorante di Kyoto con Torii",
+      "basho": "luogo di giudizio senza tribunale",
+      "description": "Yoshida mette Fujiwara davanti al falso tantō. Gli haiku sostituiscono le prove processuali. Il colpevole comprende che il sistema ha già letto tutti i segni.",
+      "key_line": "Ci manda Oda Nobunaga-san, con tanti saluti.",
+      "resolution": "Fujiwara sceglie la giustizia dell'onore invece di quella dello Stato.",
+      "function": "Centro gravitazionale dell'intero romanzo.",
+      "field_effect": "truth_without_trial"
+    },
+    {
+      "id": "chiusura_poetica",
+      "act": "Tredicesimo Atto — Scena II",
+      "title": "La Tragedia e la Poesia",
+      "location": "Rapallo — salotto di Michele",
+      "basho": "ritorno al luogo domestico dopo l'attraversamento del mistero",
+      "description": "Michele e Alexander leggono la notizia della morte di Fujiwara. La pioggia cade sul mare. Maramao dorme. Nessuno celebra la vittoria.",
+      "key_lines": [
+        "La campana del tempio tace, ma il suono continua a uscire dai fiori.",
+        "E poi uscimmo a riveder le stelle.",
+        "Il luogo dove vivi è il tuo destino."
+      ],
+      "function": "Dissoluzione narrativa in forma poetica.",
+      "field_effect": "haiku_closure"
+    }
+  ],
+
+  "cross_scene_dynamics": [
+    {
+      "from": "incontro_trattoria",
+      "to": "yoshida_fujiwara",
+      "effect": "dal_riconoscimento_al_giudizio",
+      "description": "Il romanzo si apre con il riconoscimento di uno sconosciuto e si chiude con il riconoscimento di un colpevole."
+    },
+    {
+      "from": "tanto_rivelato",
+      "to": "chiusura_poetica",
+      "effect": "dall_oggetto_al_silenzio",
+      "description": "Il tantō attiva la storia; la poesia la conclude."
+    },
+    {
+      "from": "torii_notturno",
+      "to": "yoshida_fujiwara",
+      "effect": "soglia_verso_giudizio",
+      "description": "La luce del Torii anticipa la scelta finale di Fujiwara."
+    }
+  ],
+
+  "non_integrable_residue": {
+    "status": true,
+    "description": "La soluzione del caso non elimina il peso morale della scelta di Fujiwara. La verità viene ricostruita, ma il costo umano rimane fuori dal sistema investigativo."
+  },
+
+  "system_note": {
+    "scene_count": 7,
+    "dominant_scene": "yoshida_fujiwara",
+    "scene_shape": "semiotic_progression",
+    "closure_type": "haiku_after_resolution",
+    "compatibility": "NarrativeObject 5.0 / NarrativeRitual 5.0 / NarrativeTransition 5.0 / NarrativeWeather 5.0 / PerceptualField 5.0"
+  }
+}
