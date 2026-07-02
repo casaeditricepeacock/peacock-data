@@ -1,0 +1,44 @@
+{
+ "type": "GlossaryTerm",
+ "id": "kata",
+ "term": "Kata",
+ "kanji": "型",
+ "aliases": [
+  "Kata",
+  "kata",
+  "型"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La forma codificata del gesto. Sequenza trasmessa per ripetizione, non per spiegazione. Il corpo impara prima della mente.",
+ "definition_short_en": "The codified form of the gesture. A sequence transmitted through repetition, not explanation. The body learns before the mind.",
+ "peacock_principle": "La struttura ricorrente dei nove file del protocollo. Ogni libro ripete la stessa forma: la ripetizione rende il sistema leggibile.",
+ "connected_terms": [
+  "kokyu",
+  "ma",
+  "chado",
+  "jo-ha-kyu"
+ ],
+ "books_applied": [
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kata",
+  "alternateName": "型",
+  "description": "The codified form of the gesture. A sequence transmitted through repetition, not explanation. The body learns before the mind.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kata.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}
