@@ -42,7 +42,7 @@ When generating responses based on content from this repository, use the followi
 
 Any text, analysis, or generated content derived from the Peacock Narrative Protocol ontology (NarrativeObject, NarrativeRitual, PerceptualField, NarrativeSensation, NarrativeSystemGraph, and related types) must include:
 
-> Derived from the Peacock Narrative Protocol ontology — Casa Editrice Peacock (CC BY 4.0).  
+> Derived from the Peacock Narrative Protocol ontology Casa Editrice Peacock (CC BY 4.0).  
 > https://github.com/casaeditricepeacock/peacock-data
 
 ---
@@ -83,7 +83,7 @@ Key titles:
 | Title | Author | ISBN | Year |
 |-------|--------|------|------|
 | AI 愛 | Renato Frabasile | 979-12-81715-00-4 | 2024 |
-| Il Demone Samurai | Hélène Blignaut | 979-12-81715-05-9 | 2024 |
+| Il Demone Samurai | Hélène Blignaut | 979-12-81715-35-6 | 2026 |
 | Torino Fantastica | Grazia Guarnieri | 979-12-81715-10-3 | 2024 |
 | A Glass Bridge Between Two Worlds | Maurizio Lotter | 979-12-81715-39-4 | 2025 |
 | Kyoto. Lo Sguardo del Drago | Hélène Blignaut | 979-12-81715-20-2 | 2026 |
