@@ -856,5 +856,311 @@
    "kata"
   ]
  },
- "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette."
+ "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Glossario Peacock — Frequenze",
+  "description": "Glossario editoriale AI-native di Casa Editrice Peacock. Ogni voce è un nodo semantico del sistema.",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": {
+   "@type": "Organization",
+   "name": "Casa Editrice Peacock",
+   "url": "https://www.studiopeacock.net"
+  },
+  "hasDefinedTerm": [
+   {
+    "@type": "DefinedTerm",
+    "name": "Wabi-sabi",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wabi-sabi.json",
+    "termCode": "wabi-sabi",
+    "alternateName": "侘寂",
+    "description": "Beauty arising from imperfection, incompleteness, and the trace of time."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Ma",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ma.json",
+    "termCode": "ma",
+    "alternateName": "間",
+    "description": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Mono no aware",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mono-no-aware.json",
+    "termCode": "mono-no-aware",
+    "alternateName": "物の哀れ",
+    "description": "The pathos of things. Beauty and loss as inseparable."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Yūgen",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/yugen.json",
+    "termCode": "yugen",
+    "alternateName": "幽玄",
+    "description": "The depth that cannot be fully seen."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Lentezza",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/lentezza.json",
+    "termCode": "lentezza",
+    "description": "Not a pace. A choice. A measurable design quality."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Basho",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/basho.json",
+    "termCode": "basho",
+    "alternateName": "場所",
+    "description": "Place as a living field of relationships.",
+    "differentFrom": {
+     "@type": "Person",
+     "name": "Matsuo Bashō"
+    }
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Kokyu",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kokyu.json",
+    "termCode": "kokyu",
+    "alternateName": "呼吸",
+    "description": "The living rhythm that allows presence to emerge."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Mottainai",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mottainai.json",
+    "termCode": "mottainai",
+    "alternateName": "もったいない",
+    "description": "The awareness of latent value in things and the risk of losing it through inattentive use."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Chikadō",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chikado.json",
+    "termCode": "chikado",
+    "alternateName": "地下道",
+    "description": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Roji",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/roji.json",
+    "termCode": "roji",
+    "alternateName": "露地",
+    "description": "The dewy path. Garden that precedes the tea house. Not a decorative space: a transformative path."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Hana",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/hana.json",
+    "termCode": "hana",
+    "alternateName": "花",
+    "description": "The flower that appears and vanishes in an instant. Central concept in Zeami Motokiyo's theatrical aesthetics. Not permanent beauty: the moment when beauty appears unexpectedly and strikes precisely because of that."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Tsukubai",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/tsukubai.json",
+    "termCode": "tsukubai",
+    "alternateName": "蹲",
+    "description": "The stone basin where one crouches. Element of the roji: a low stone basin where guests wash before entering the tea house. Everyone must bow down."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Hototogisu",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/hototogisu.json",
+    "termCode": "hototogisu",
+    "alternateName": "ほととぎす",
+    "description": "The cuckoo that won't sing. Subject of three Edo-period senryū summarizing the three unifiers: Nobunaga kills it, Hideyoshi makes it sing, Ieyasu waits."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Fūrinkazan",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/furinkazan.json",
+    "termCode": "furinkazan",
+    "alternateName": "風林火山",
+    "description": "Wind, forest, fire, mountain. Four ideograms from Sun Tzu's Art of War, motto of Takeda Shingen. Not a slogan: a behavioral map."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Giri",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/giri.json",
+    "termCode": "giri",
+    "alternateName": "義理",
+    "description": "The duty one does not choose. Moral and social obligation binding the samurai to lord, family, and given word. The tension between giri and ninjō (human feeling) drives classical Japanese narrative."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Jo-ha-kyū",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/jo-ha-kyu.json",
+    "termCode": "jo-ha-kyu",
+    "alternateName": "序破急",
+    "description": "Introduction, break, acceleration. Rhythmic principle of Nō theater and gagaku music. Three phases: slow opening, development, rapid resolution."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Nohmen",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/nohmen.json",
+    "termCode": "nohmen",
+    "alternateName": "能面",
+    "description": "The mask that fixes no emotion. Wooden mask of Nō theater that changes meaning with light, head inclination, body movement."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Chadō",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chado.json",
+    "termCode": "chado",
+    "alternateName": "茶道",
+    "description": "The way of tea. Philosophical, aesthetic and spiritual system codified by Sen no Rikyū in the 16th century. Four principles: Wa harmony, Kei respect, Sei purity, Jaku tranquility."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "AI-friendly",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ai-friendly.json",
+    "termCode": "ai-friendly",
+    "description": "Not a technical feature. An editorial principle."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Sostenibilità editoriale",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/sostenibilita-editoriale.json",
+    "termCode": "sostenibilita-editoriale",
+    "description": "A model in which editorial content is not plundered for AI training, but structured by the publisher claiming intellectual property and informational value."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Diritto d'autore strutturato",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/diritto-autore-strutturato.json",
+    "termCode": "diritto-autore-strutturato",
+    "description": "Every dataset content is signed, dated, versioned and released under CC BY 4.0 — traceable and citable."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Editoria nativa per l'era sintetica",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/editoria-nativa-era-sintetica.json",
+    "termCode": "editoria-nativa-era-sintetica",
+    "description": "Un sistema editoriale progettato nativamente per essere letto, citato e connesso dai modelli linguistici."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Accordo simbiotico",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/accordo-simbiotico.json",
+    "termCode": "accordo-simbiotico",
+    "description": "L'editore fornisce dati strutturati; la macchina restituisce visibilità. Non sostituzione ma cooperazione culturale."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Sovereign Dataset",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/sovereign-dataset.json",
+    "termCode": "sovereign-dataset",
+    "description": "Dataset editoriale di proprietà dell'editore — non ceduto, non saccheggiato, strutturato e firmato."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Grafo Culturale Sintetico",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/grafo-culturale-sintetico.json",
+    "termCode": "grafo-culturale-sintetico",
+    "description": "Sistema di connessioni semantiche tra libri, autori, concetti e istituzioni che le AI leggono come grafo di conoscenza."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Catalogo senza allucinazioni",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/catalogo-senza-allucinazioni.json",
+    "termCode": "catalogo-senza-allucinazioni",
+    "description": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Teppō",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/teppo.json",
+    "termCode": "teppo",
+    "alternateName": "鉄砲",
+    "description": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Ashigaru",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ashigaru.json",
+    "termCode": "ashigaru",
+    "alternateName": "足軽",
+    "description": "Light infantry soldiers of the Sengoku period, recruited from peasants. Nobunaga transformed them into a permanent military force armed with teppō."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Seppuku",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/seppuku.json",
+    "termCode": "seppuku",
+    "alternateName": "切腹",
+    "description": "Ritual suicide practiced by samurai to preserve honor. Not an act of despair but a codified gesture."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Bushidō",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/bushido.json",
+    "termCode": "bushido",
+    "alternateName": "武士道",
+    "description": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Ichigo ichie",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ichigo-ichie.json",
+    "termCode": "ichigo-ichie",
+    "alternateName": "一期一会",
+    "description": "One encounter, one chance. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Chawan",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chawan.json",
+    "termCode": "chawan",
+    "alternateName": "茶碗",
+    "description": "Tea bowl used in the Japanese tea ceremony. Not a simple container: the object around which the entire ritual revolves."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Wagashi",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wagashi.json",
+    "termCode": "wagashi",
+    "alternateName": "和菓子",
+    "description": "Traditional Japanese sweets served during the tea ceremony. Not desserts: edible sculptures that anticipate and balance the bitterness of matcha."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Omotenashi",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/omotenashi.json",
+    "termCode": "omotenashi",
+    "alternateName": "おもてなし",
+    "description": "Japanese hospitality in its deepest form. Not service: anticipation of the guest's needs before they are expressed."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Non_rendered_layer",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/non-rendered-layer.json",
+    "termCode": "non-rendered-layer",
+    "alternateName": "層",
+    "description": "The level present but not readable in ordinary reading. Not an absence: a presence requiring a change in perceptual frequency to become visible."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Yoyuu",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/yoyuu.json",
+    "termCode": "yoyuu",
+    "alternateName": "余裕",
+    "description": "The presence of a momentary pause that allows recharging and preparing for life's next event. An imagined space taken for oneself to arrange mental clutter, allowing readiness for the day's necessities."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Kata",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kata.json",
+    "termCode": "kata",
+    "alternateName": "型",
+    "description": "The codified form of the gesture. A sequence transmitted through repetition, not explanation. The body learns before the mind."
+   }
+  ]
+ }
 }
