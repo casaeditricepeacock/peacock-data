@@ -1,0 +1,46 @@
+{
+ "type": "GlossaryTerm",
+ "id": "chikado",
+ "term": "Chikadō",
+ "kanji": "地下道",
+ "aliases": [
+  "Chikadō",
+  "chikadō",
+  "地下道"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Passaggio sotterraneo. Il livello invisibile della città: quello che esiste sotto la superficie visibile e ne sostiene la struttura senza essere visto.",
+ "definition_short_en": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen.",
+ "peacock_principle": "Il contenuto che lavora sotto la superficie. Il grafo come livello invisibile del catalogo.",
+ "connected_terms": [
+  "ma",
+  "yugen",
+  "basho",
+  "non_rendered_layer"
+ ],
+ "books_applied": [
+  "torino_fantastica",
+  "padova_fantastica"
+ ],
+ "books_applied_paths": [
+  "books/padova-fantastica",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chikadō",
+  "description": "Underground passage. The invisible level of the city: what exists beneath the visible surface and supports its structure without being seen.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chikado.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "地下道"
+ }
+}

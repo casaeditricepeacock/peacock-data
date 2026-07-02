@@ -1,0 +1,44 @@
+{
+ "type": "GlossaryTerm",
+ "id": "wagashi",
+ "term": "Wagashi",
+ "kanji": "和菓子",
+ "aliases": [
+  "Wagashi",
+  "和菓子"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Dolci tradizionali giapponesi serviti durante la cerimonia del tè. Non sono dessert: sculture commestibili che anticipano e bilanciano l'amaro del matcha.",
+ "definition_short_en": "Traditional Japanese sweets served during the tea ceremony. Not desserts: edible sculptures that anticipate and balance the bitterness of matcha.",
+ "peacock_principle": "Il contrappunto che rende percepibile il gusto. Come l'illustrazione che bilancia il testo.",
+ "connected_terms": [
+  "chado",
+  "chawan",
+  "ichigo_ichie",
+  "omotenashi",
+  "ma"
+ ],
+ "books_applied": [
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Wagashi",
+  "description": "Traditional Japanese sweets served during the tea ceremony. Not desserts: edible sculptures that anticipate and balance the bitterness of matcha.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wagashi.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "和菓子"
+ }
+}

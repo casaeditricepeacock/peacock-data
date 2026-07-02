@@ -1,0 +1,52 @@
+{
+ "type": "GlossaryTerm",
+ "id": "kokyu",
+ "term": "Kokyu",
+ "kanji": "呼吸",
+ "aliases": [
+  "Kokyu",
+  "呼吸"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.3",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il ritmo vivente che permette a una presenza di emergere.",
+ "definition_short_en": "The living rhythm that allows presence to emerge.",
+ "peacock_principle": "Un libro senza respiro contiene. Un libro con kokyu vive.",
+ "protocol_axis": "asse del tempo nel Peacock Narrative Protocol",
+ "centrality": 6,
+ "connected_terms": [
+  "ma",
+  "yugen",
+  "wabi_sabi",
+  "basho",
+  "lentezza",
+  "jo_ha_kyu"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "ai_natura_algoritmi",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/ai-natura-algoritmi",
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kokyu",
+  "description": "The living rhythm that allows presence to emerge.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kokyu.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "呼吸"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "seppuku",
+ "term": "Seppuku",
+ "kanji": "切腹",
+ "aliases": [
+  "Seppuku",
+  "切腹"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Suicidio rituale praticato dai samurai per preservare l'onore. Non era un atto di disperazione ma un gesto codificato.",
+ "definition_short_en": "Ritual suicide practiced by samurai to preserve honor. Not an act of despair but a codified gesture.",
+ "peacock_principle": "Il gesto che chiude un sistema. La fine come atto di coerenza, non di resa.",
+ "connected_terms": [
+  "bushido",
+  "oda_nobunaga",
+  "ashigaru",
+  "giri"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seppuku",
+  "description": "Ritual suicide practiced by samurai to preserve honor. Not an act of despair but a codified gesture.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/seppuku.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "切腹"
+ }
+}

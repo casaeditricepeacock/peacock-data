@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "hototogisu",
+ "term": "Hototogisu",
+ "kanji": "ほととぎす",
+ "aliases": [
+  "Hototogisu",
+  "ほととぎす"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il cuculo che non canta. Protagonista di tre senryū del periodo Edo che sintetizzano i caratteri dei tre unificatori: Nobunaga lo uccide, Hideyoshi lo fa cantare, Ieyasu aspetta.",
+ "definition_short_en": "The cuckoo that won't sing. Subject of three Edo-period senryū summarizing the three unifiers: Nobunaga kills it, Hideyoshi makes it sing, Ieyasu waits.",
+ "peacock_principle": "La domanda che un testo fa al lettore senza formularla esplicitamente.",
+ "connected_terms": [
+  "bushido",
+  "mono_no_aware",
+  "ma",
+  "oda_nobunaga",
+  "hideyoshi",
+  "ieyasu"
+ ],
+ "books_applied": [
+  "il_demone_samurai"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hototogisu",
+  "description": "The cuckoo that won't sing. Subject of three Edo-period senryū summarizing the three unifiers: Nobunaga kills it, Hideyoshi makes it sing, Ieyasu waits.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/hototogisu.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "ほととぎす"
+ }
+}

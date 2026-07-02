@@ -1,0 +1,53 @@
+{
+ "type": "GlossaryTerm",
+ "id": "yugen",
+ "term": "Yūgen",
+ "kanji": "幽玄",
+ "aliases": [
+  "Yūgen",
+  "yūgen",
+  "幽玄"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La profondità che non si lascia vedere del tutto.",
+ "definition_short_en": "The depth that cannot be fully seen.",
+ "peacock_principle": "Criterio editoriale invisibile — distanza tra ciò che l'immagine mostra e ciò che lascia fuori campo.",
+ "centrality": 9,
+ "connected_terms": [
+  "ma",
+  "mono_no_aware",
+  "wabi_sabi",
+  "chikado",
+  "nohmen",
+  "jo_ha_kyu",
+  "hana"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "ai_natura_algoritmi",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/ai-natura-algoritmi",
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Yūgen",
+  "description": "The depth that cannot be fully seen.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/yugen.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "幽玄"
+ }
+}

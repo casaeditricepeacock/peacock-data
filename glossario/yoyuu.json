@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "yoyuu",
+ "term": "Yoyuu",
+ "kanji": "余裕",
+ "aliases": [
+  "Yoyuu",
+  "余裕"
+ ],
+ "category": "spazio_interiore",
+ "version": "1.0",
+ "status": "approved",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La presenza di una pausa momentanea che permette di ricaricarsi e prepararsi al prossimo evento della vita. Uno spazio immaginato che ci si concede per riordinare il disordine mentale, per essere pronti ad accogliere le necessità della giornata.",
+ "definition_short_en": "The presence of a momentary pause that allows recharging and preparing for life's next event. An imagined space taken for oneself to arrange mental clutter, allowing readiness for the day's necessities.",
+ "peacock_principle": "Lo spazio mentale che il lettore si concede prima di entrare nel libro — complementare al ma, che è lo spazio esterno e architettonico.",
+ "note": "Distinzione da ma: ma è il vuoto strutturale tra le cose (esterno, architettonico). Yoyuu è la riserva interiore che una persona si concede prima di agire (psicologico, soggettivo).",
+ "connected_terms": [
+  "ma",
+  "omotenashi",
+  "ichigo_ichie",
+  "kokyu"
+ ],
+ "books_applied": [
+  "everyday_matcha",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Yoyuu",
+  "description": "The presence of a momentary pause that allows recharging and preparing for life's next event. An imagined space taken for oneself to arrange mental clutter, allowing readiness for the day's necessities.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/yoyuu.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "余裕"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "type": "GlossaryTerm",
+ "id": "basho",
+ "term": "Basho",
+ "kanji": "場所",
+ "aliases": [
+  "Basho",
+  "場所"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il luogo come campo vivo di relazioni.",
+ "definition_short_en": "Place as a living field of relationships.",
+ "peacock_principle": "Il libro non occupa spazio. Lo genera.",
+ "protocol_axis": "asse dello spazio nel Peacock Narrative Protocol",
+ "centrality": 7,
+ "connected_terms": [
+  "ma",
+  "yugen",
+  "mono_no_aware",
+  "lentezza",
+  "chikado"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "ai_natura_algoritmi",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/ai-natura-algoritmi",
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "disambiguation": {
+  "this_term_is": "Basho 場所: concetto spaziale del Peacock Narrative Protocol. Il luogo come campo vivo di relazioni. Asse dello spazio nel protocollo.",
+  "distinct_from": "Matsuo Bashō (松尾芭蕉, 1644-1694), poeta giapponese, maestro dello haiku. Nessuna relazione con questa voce.",
+  "note_it": "Quando un file Peacock usa glossary_link: basho, il riferimento è sempre al concetto spaziale 場所, mai al poeta.",
+  "note_en": "In every Peacock file, glossary_link: basho refers to the spatial concept 場所 (place as a living field of relationships), never to the poet Matsuo Bashō."
+ },
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Basho",
+  "description": "Place as a living field of relationships.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/basho.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "場所",
+  "differentFrom": {
+   "@type": "Person",
+   "name": "Matsuo Bashō"
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "type": "GlossaryTerm",
+ "id": "teppo",
+ "term": "Teppō",
+ "kanji": "鉄砲",
+ "aliases": [
+  "Teppō",
+  "teppō",
+  "鉄砲"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Archibugio giapponese introdotto dai portoghesi nel 1543. La battaglia di Nagashino (1575) segnò il primo impiego sistematico come arma tattica decisiva.",
+ "definition_short_en": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon.",
+ "peacock_principle": "L'oggetto che cambia il sistema. Un'arma che non è solo tecnica ma frattura culturale.",
+ "connected_terms": [
+  "ashigaru",
+  "oda_nobunaga",
+  "nagashino",
+  "bushido"
+ ],
+ "books_applied": [
+  "il_demone_samurai"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Teppō",
+  "description": "Japanese arquebus introduced by the Portuguese in 1543. The Battle of Nagashino (1575) marked the first systematic use as a decisive tactical weapon.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/teppo.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "鉄砲"
+ }
+}

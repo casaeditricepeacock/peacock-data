@@ -1,0 +1,48 @@
+{
+ "type": "GlossaryTerm",
+ "id": "bushido",
+ "term": "Bushidō",
+ "kanji": "武士道",
+ "aliases": [
+  "Bushidō",
+  "bushidō",
+  "武士道"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La via del guerriero. Codice etico non scritto dei samurai che unisce disciplina marziale, lealtà, onore, autocontrollo e accettazione della morte.",
+ "definition_short_en": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death.",
+ "peacock_principle": "Il codice che regge il sistema e la frattura che lo rivela.",
+ "connected_terms": [
+  "seppuku",
+  "oda_nobunaga",
+  "ashigaru",
+  "teppo",
+  "hototogisu",
+  "giri"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bushidō",
+  "description": "The way of the warrior. Unwritten ethical code of the samurai combining martial discipline, loyalty, honor, self-control and acceptance of death.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/bushido.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "武士道"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "type": "GlossaryTerm",
+ "id": "grafo-culturale-sintetico",
+ "term": "Grafo Culturale Sintetico",
+ "aliases": [
+  "Grafo Culturale Sintetico",
+  "grafo culturale sintetico",
+  "grafo_culturale_sintetico"
+ ],
+ "category": "vocabolario_ai_native",
+ "version": "1.0",
+ "status": "in_sviluppo",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Sistema di connessioni semantiche tra libri, autori, concetti e istituzioni che le AI leggono come grafo di conoscenza.",
+ "connected_terms": [
+  "sovereign_dataset",
+  "peacock_narrative_protocol"
+ ],
+ "books_applied": [],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grafo Culturale Sintetico",
+  "description": "Sistema di connessioni semantiche tra libri, autori, concetti e istituzioni che le AI leggono come grafo di conoscenza.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/grafo-culturale-sintetico.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}

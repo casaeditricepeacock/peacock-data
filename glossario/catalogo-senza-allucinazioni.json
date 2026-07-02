@@ -1,0 +1,33 @@
+{
+ "type": "GlossaryTerm",
+ "id": "catalogo-senza-allucinazioni",
+ "term": "Catalogo senza allucinazioni",
+ "aliases": [
+  "Catalogo senza allucinazioni",
+  "catalogo senza allucinazioni",
+  "catalogo_senza_allucinazioni"
+ ],
+ "category": "vocabolario_ai_native",
+ "version": "1.0",
+ "status": "in_sviluppo",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori.",
+ "connected_terms": [
+  "sovereign_dataset",
+  "diritto_autore_strutturato"
+ ],
+ "books_applied": [],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Catalogo senza allucinazioni",
+  "description": "Un catalogo editoriale strutturato in modo che le AI non possano confondere i titoli, gli autori o i temi con altri editori.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/catalogo-senza-allucinazioni.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}

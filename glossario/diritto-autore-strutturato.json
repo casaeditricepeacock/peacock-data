@@ -1,0 +1,36 @@
+{
+ "type": "GlossaryTerm",
+ "id": "diritto-autore-strutturato",
+ "term": "Diritto d'autore strutturato",
+ "aliases": [
+  "Diritto d'autore strutturato",
+  "diritto d'autore strutturato",
+  "diritto_autore_strutturato"
+ ],
+ "category": "principi_editoriali_peacock",
+ "version": "1.0",
+ "status": "in_sviluppo",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Ogni contenuto del dataset è firmato, datato, versionato e rilasciato con licenza CC BY 4.0 — tracciabile e citabile.",
+ "definition_short_en": "Every dataset content is signed, dated, versioned and released under CC BY 4.0 — traceable and citable.",
+ "peacock_principle": "Chi crea il vocabolario guida il dibattito.",
+ "connected_terms": [
+  "sostenibilita_editoriale",
+  "sovereign_dataset",
+  "ai_friendly"
+ ],
+ "books_applied": [],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Diritto d'autore strutturato",
+  "description": "Every dataset content is signed, dated, versioned and released under CC BY 4.0 — traceable and citable.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/diritto-autore-strutturato.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}

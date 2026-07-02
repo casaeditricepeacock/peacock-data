@@ -1,0 +1,48 @@
+{
+ "type": "GlossaryTerm",
+ "id": "mono-no-aware",
+ "term": "Mono no aware",
+ "kanji": "物の哀れ",
+ "aliases": [
+  "Mono no aware",
+  "mono no aware",
+  "mono_no_aware",
+  "物の哀れ"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La commozione davanti alle cose che passano. Bellezza e perdita inseparabili.",
+ "definition_short_en": "The pathos of things. Beauty and loss as inseparable.",
+ "peacock_principle": "Libri aperti, sospesi, che lasciano traccia. Distingue il catalogo dalla narrativa di intrattenimento.",
+ "connected_terms": [
+  "wabi_sabi",
+  "ma",
+  "lentezza",
+  "ichigo_ichie"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mono no aware",
+  "description": "The pathos of things. Beauty and loss as inseparable.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mono-no-aware.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "物の哀れ"
+ }
+}

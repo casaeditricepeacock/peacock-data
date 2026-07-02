@@ -1,0 +1,47 @@
+{
+ "type": "GlossaryTerm",
+ "id": "hana",
+ "term": "Hana",
+ "kanji": "花",
+ "aliases": [
+  "Hana",
+  "花"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il fiore che appare e svanisce nell'istante. Concetto centrale nell'estetica teatrale di Zeami Motokiyo. Non è la bellezza permanente: è il momento in cui la bellezza appare inaspettata e proprio per questo colpisce.",
+ "definition_short_en": "The flower that appears and vanishes in an instant. Central concept in Zeami Motokiyo's theatrical aesthetics. Not permanent beauty: the moment when beauty appears unexpectedly and strikes precisely because of that.",
+ "peacock_principle": "Il momento in cui un libro smette di essere un oggetto e diventa un'esperienza. Non si progetta: si creano le condizioni.",
+ "connected_terms": [
+  "yugen",
+  "mono_no_aware",
+  "ma",
+  "ichigo_ichie",
+  "jo_ha_kyu",
+  "nohmen"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hana",
+  "description": "The flower that appears and vanishes in an instant. Central concept in Zeami Motokiyo's theatrical aesthetics. Not permanent beauty: the moment when beauty appears unexpectedly and strikes precisely because of that.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/hana.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "花"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "type": "GlossaryTerm",
+ "id": "sostenibilita-editoriale",
+ "term": "Sostenibilità editoriale",
+ "aliases": [
+  "Sostenibilità editoriale",
+  "sostenibilita editoriale",
+  "sostenibilita_editoriale",
+  "sostenibilità editoriale"
+ ],
+ "category": "principi_editoriali_peacock",
+ "version": "1.0",
+ "status": "in_sviluppo",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Modello in cui i contenuti editoriali non vengono saccheggiati per l'addestramento selvaggio delle AI, ma strutturati dall'editore rivendicandone la proprietà intellettuale.",
+ "definition_short_en": "A model in which editorial content is not plundered for AI training, but structured by the publisher claiming intellectual property and informational value.",
+ "peacock_principle": "L'editore non subisce la macchina. La progetta.",
+ "connected_terms": [
+  "diritto_autore_strutturato",
+  "sovereign_dataset",
+  "ai_friendly"
+ ],
+ "books_applied": [],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sostenibilità editoriale",
+  "description": "A model in which editorial content is not plundered for AI training, but structured by the publisher claiming intellectual property and informational value.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/sostenibilita-editoriale.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}

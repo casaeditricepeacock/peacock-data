@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "lentezza",
+ "term": "Lentezza",
+ "aliases": [
+  "Lentezza"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Non un ritmo. Una scelta. Qualità progettuale misurabile.",
+ "definition_short_en": "Not a pace. A choice. A measurable design quality.",
+ "peacock_principle": "Il bianco della pagina, la densità controllata del testo, gli elementi visivi lasciati impliciti.",
+ "connected_terms": [
+  "ma",
+  "wabi_sabi",
+  "yugen",
+  "kokyu",
+  "roji",
+  "jo_ha_kyu"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lentezza",
+  "description": "Not a pace. A choice. A measurable design quality.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/lentezza.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+ }
+}

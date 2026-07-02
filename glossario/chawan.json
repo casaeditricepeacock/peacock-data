@@ -1,0 +1,44 @@
+{
+ "type": "GlossaryTerm",
+ "id": "chawan",
+ "term": "Chawan",
+ "kanji": "茶碗",
+ "aliases": [
+  "Chawan",
+  "茶碗"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Tazza da tè usata nella cerimonia del tè. Non è un semplice contenitore: è l'oggetto attorno al quale ruota l'intero rituale.",
+ "definition_short_en": "Tea bowl used in the Japanese tea ceremony. Not a simple container: the object around which the entire ritual revolves.",
+ "peacock_principle": "L'oggetto che contiene il rituale. Come la copertina contiene il libro ma ne è anche il primo gesto.",
+ "connected_terms": [
+  "chado",
+  "wabi_sabi",
+  "ichigo_ichie",
+  "wagashi",
+  "roji"
+ ],
+ "books_applied": [
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chawan",
+  "description": "Tea bowl used in the Japanese tea ceremony. Not a simple container: the object around which the entire ritual revolves.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chawan.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "茶碗"
+ }
+}

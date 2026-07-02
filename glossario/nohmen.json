@@ -1,0 +1,47 @@
+{
+ "type": "GlossaryTerm",
+ "id": "nohmen",
+ "term": "Nohmen",
+ "kanji": "能面",
+ "aliases": [
+  "Nohmen",
+  "能面"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La maschera che non fissa un'emozione. Maschera lignea del teatro Nō che cambia significato con la luce, l'inclinazione della testa, il movimento del corpo.",
+ "definition_short_en": "The mask that fixes no emotion. Wooden mask of Nō theater that changes meaning with light, head inclination, body movement.",
+ "peacock_principle": "Il principio dell'illustrazione aperta: non descrive l'emozione ma crea le condizioni perché il lettore la costruisca.",
+ "connected_terms": [
+  "yugen",
+  "ma",
+  "wabi_sabi",
+  "non_rendered_layer",
+  "jo_ha_kyu",
+  "hana"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Nohmen",
+  "description": "The mask that fixes no emotion. Wooden mask of Nō theater that changes meaning with light, head inclination, body movement.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/nohmen.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "能面"
+ }
+}

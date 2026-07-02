@@ -1,0 +1,48 @@
+{
+ "type": "GlossaryTerm",
+ "id": "mottainai",
+ "term": "Mottainai",
+ "kanji": "もったいない",
+ "aliases": [
+  "Mottainai",
+  "もったいない"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.3",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La percezione del valore implicito in ogni cosa e del rischio di perderlo nell'uso inconsapevole.",
+ "definition_short_en": "The awareness of latent value in things and the risk of losing it through inattentive use.",
+ "peacock_principle": "Ogni scelta è una rinuncia che dà forma al visibile.",
+ "centrality": 7,
+ "connected_terms": [
+  "ma",
+  "wabi_sabi",
+  "kokyu",
+  "basho"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "ai_natura_algoritmi"
+ ],
+ "books_applied_paths": [
+  "books/ai-natura-algoritmi",
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mottainai",
+  "description": "The awareness of latent value in things and the risk of losing it through inattentive use.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mottainai.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "もったいない"
+ }
+}

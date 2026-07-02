@@ -1,0 +1,50 @@
+{
+ "type": "GlossaryTerm",
+ "id": "ichigo-ichie",
+ "term": "Ichigo ichie",
+ "kanji": "一期一会",
+ "aliases": [
+  "Ichigo ichie",
+  "ichigo ichie",
+  "ichigo_ichie",
+  "一期一会"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Un incontro, una volta sola. La consapevolezza che ogni momento è unico e irripetibile. Nasce nella cultura della cerimonia del tè.",
+ "definition_short_en": "One encounter, one chance. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony.",
+ "peacock_principle": "Ogni libro è un incontro irripetibile tra autore, illustratore e lettore.",
+ "connected_terms": [
+  "chado",
+  "wabi_sabi",
+  "mono_no_aware",
+  "chawan",
+  "wagashi",
+  "omotenashi",
+  "roji",
+  "hana"
+ ],
+ "books_applied": [
+  "everyday_matcha",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ichigo ichie",
+  "description": "One encounter, one chance. The awareness that every moment is unique and unrepeatable. Born in the culture of the tea ceremony.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ichigo-ichie.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "一期一会"
+ }
+}

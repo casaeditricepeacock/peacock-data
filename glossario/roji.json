@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "roji",
+ "term": "Roji",
+ "kanji": "露地",
+ "aliases": [
+  "Roji",
+  "露地"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il sentiero bagnato di rugiada. Giardino che precede la casa del tè. Non è uno spazio decorativo: è un percorso trasformativo.",
+ "definition_short_en": "The dewy path. Garden that precedes the tea house. Not a decorative space: a transformative path.",
+ "peacock_principle": "La struttura narrativa che precede la scena principale. Le pagine che creano le condizioni perché il lettore sia pronto ad abitare la storia.",
+ "connected_terms": [
+  "ma",
+  "omotenashi",
+  "ichigo_ichie",
+  "chawan",
+  "tsukubai",
+  "chado"
+ ],
+ "books_applied": [
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roji",
+  "description": "The dewy path. Garden that precedes the tea house. Not a decorative space: a transformative path.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/roji.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "露地"
+ }
+}

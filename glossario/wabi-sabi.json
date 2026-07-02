@@ -1,0 +1,51 @@
+{
+ "type": "GlossaryTerm",
+ "id": "wabi-sabi",
+ "term": "Wabi-sabi",
+ "kanji": "侘寂",
+ "aliases": [
+  "Wabi-sabi",
+  "wabi_sabi",
+  "侘寂"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La bellezza che nasce dall'imperfezione, dall'incompletezza, dalla traccia del tempo.",
+ "definition_short_en": "Beauty arising from imperfection, incompleteness, and the trace of time.",
+ "peacock_principle": "Il segno dell'illustratore vivo sulla pagina. Il bianco come silenzio attivo.",
+ "connected_terms": [
+  "ma",
+  "mono_no_aware",
+  "lentezza",
+  "kokyu",
+  "chawan",
+  "ichigo_ichie"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "hara_rota",
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/everyday-matcha",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Wabi-sabi",
+  "description": "Beauty arising from imperfection, incompleteness, and the trace of time.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wabi-sabi.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "侘寂"
+ }
+}

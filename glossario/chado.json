@@ -1,0 +1,48 @@
+{
+ "type": "GlossaryTerm",
+ "id": "chado",
+ "term": "Chadō",
+ "kanji": "茶道",
+ "aliases": [
+  "Chadō",
+  "chadō",
+  "茶道"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La via del tè. Sistema filosofico, estetico e spirituale codificato da Sen no Rikyū nel XVI secolo. Quattro principi: Wa armonia, Kei rispetto, Sei purezza, Jaku tranquillità.",
+ "definition_short_en": "The way of tea. Philosophical, aesthetic and spiritual system codified by Sen no Rikyū in the 16th century. Four principles: Wa harmony, Kei respect, Sei purity, Jaku tranquility.",
+ "peacock_principle": "Modello di processo editoriale in cui ogni elemento partecipa a un sistema coerente. Nulla è decorativo: tutto è funzionale alla qualità dell'incontro tra libro e lettore.",
+ "connected_terms": [
+  "roji",
+  "chawan",
+  "ichigo_ichie",
+  "omotenashi",
+  "ma",
+  "wabi_sabi",
+  "tsukubai"
+ ],
+ "books_applied": [
+  "everyday_matcha",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chadō",
+  "description": "The way of tea. Philosophical, aesthetic and spiritual system codified by Sen no Rikyū in the 16th century. Four principles: Wa harmony, Kei respect, Sei purity, Jaku tranquility.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/chado.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "茶道"
+ }
+}

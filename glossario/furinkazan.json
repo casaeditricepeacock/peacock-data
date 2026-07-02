@@ -1,0 +1,45 @@
+{
+ "type": "GlossaryTerm",
+ "id": "furinkazan",
+ "term": "Fūrinkazan",
+ "kanji": "風林火山",
+ "aliases": [
+  "Fūrinkazan",
+  "fūrinkazan",
+  "風林火山"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Vento, foresta, fuoco, montagna. Quattro ideogrammi tratti dall'Arte della Guerra di Sun Tzu, motto di Takeda Shingen. Non uno slogan: una mappa comportamentale.",
+ "definition_short_en": "Wind, forest, fire, mountain. Four ideograms from Sun Tzu's Art of War, motto of Takeda Shingen. Not a slogan: a behavioral map.",
+ "peacock_principle": "Il principio della modulazione ritmica e narrativa tra silenzio, tensione, sosta e accelerazione.",
+ "connected_terms": [
+  "ma",
+  "kokyu",
+  "lentezza",
+  "bushido",
+  "takeda_shingen"
+ ],
+ "books_applied": [
+  "il_demone_samurai"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Fūrinkazan",
+  "description": "Wind, forest, fire, mountain. Four ideograms from Sun Tzu's Art of War, motto of Takeda Shingen. Not a slogan: a behavioral map.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/furinkazan.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "風林火山"
+ }
+}

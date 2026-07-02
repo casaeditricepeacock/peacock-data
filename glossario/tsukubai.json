@@ -1,0 +1,44 @@
+{
+ "type": "GlossaryTerm",
+ "id": "tsukubai",
+ "term": "Tsukubai",
+ "kanji": "蹲",
+ "aliases": [
+  "Tsukubai",
+  "蹲"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il bacino dove ci si abbassa. Elemento del roji: una conca di pietra bassa dove gli ospiti si lavano prima di entrare nella casa del tè. Chiunque entri deve chinarsi.",
+ "definition_short_en": "The stone basin where one crouches. Element of the roji: a low stone basin where guests wash before entering the tea house. Everyone must bow down.",
+ "peacock_principle": "Il momento in cui il lettore depone il proprio rango prima di entrare nel libro.",
+ "connected_terms": [
+  "roji",
+  "ma",
+  "omotenashi",
+  "wabi_sabi",
+  "chado"
+ ],
+ "books_applied": [
+  "everyday_matcha"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tsukubai",
+  "description": "The stone basin where one crouches. Element of the roji: a low stone basin where guests wash before entering the tea house. Everyone must bow down.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/tsukubai.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "蹲"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "type": "GlossaryTerm",
+ "id": "non-rendered-layer",
+ "term": "Non_rendered_layer",
+ "kanji": "層",
+ "aliases": [
+  "Non_rendered_layer",
+  "non_rendered_layer",
+  "層"
+ ],
+ "category": "principi_editoriali_peacock",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il livello presente ma non leggibile nella lettura ordinaria. Non un'assenza: una presenza che richiede un cambio di frequenza percettiva per diventare visibile.",
+ "definition_short_en": "The level present but not readable in ordinary reading. Not an absence: a presence requiring a change in perceptual frequency to become visible.",
+ "peacock_principle": "I libri del catalogo non descrivono ciò che è già visibile: cercano il livello che la lettura comune non attiva.",
+ "connected_terms": [
+  "basho",
+  "yugen",
+  "ma",
+  "chikado",
+  "nohmen"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Non_rendered_layer",
+  "description": "The level present but not readable in ordinary reading. Not an absence: a presence requiring a change in perceptual frequency to become visible.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/non-rendered-layer.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "層"
+ }
+}

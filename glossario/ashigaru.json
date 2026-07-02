@@ -1,0 +1,43 @@
+{
+ "type": "GlossaryTerm",
+ "id": "ashigaru",
+ "term": "Ashigaru",
+ "kanji": "足軽",
+ "aliases": [
+  "Ashigaru",
+  "足軽"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Soldati di fanteria leggera del periodo Sengoku, reclutati tra i contadini. Nobunaga li trasformò in forza militare permanente armandoli con teppō.",
+ "definition_short_en": "Light infantry soldiers of the Sengoku period, recruited from peasants. Nobunaga transformed them into a permanent military force armed with teppō.",
+ "peacock_principle": "Chi combatte dal basso cambia la struttura. Come un piccolo editore che riscrive le regole.",
+ "connected_terms": [
+  "teppo",
+  "oda_nobunaga",
+  "bushido",
+  "seppuku"
+ ],
+ "books_applied": [
+  "il_demone_samurai"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashigaru",
+  "description": "Light infantry soldiers of the Sengoku period, recruited from peasants. Nobunaga transformed them into a permanent military force armed with teppō.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ashigaru.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "足軽"
+ }
+}

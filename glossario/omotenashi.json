@@ -1,0 +1,47 @@
+{
+ "type": "GlossaryTerm",
+ "id": "omotenashi",
+ "term": "Omotenashi",
+ "kanji": "おもてなし",
+ "aliases": [
+  "Omotenashi",
+  "おもてなし"
+ ],
+ "category": "cerimonia_del_te",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "L'ospitalità giapponese nella sua forma più profonda. Non è servizio: è anticipazione dei bisogni dell'ospite prima che vengano espressi.",
+ "definition_short_en": "Japanese hospitality in its deepest form. Not service: anticipation of the guest's needs before they are expressed.",
+ "peacock_principle": "Il libro che anticipa il lettore. La struttura editoriale che non si mostra ma sostiene l'esperienza.",
+ "connected_terms": [
+  "ichigo_ichie",
+  "wabi_sabi",
+  "chado",
+  "ma",
+  "wagashi",
+  "roji",
+  "tsukubai"
+ ],
+ "books_applied": [
+  "everyday_matcha",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/everyday-matcha"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omotenashi",
+  "description": "Japanese hospitality in its deepest form. Not service: anticipation of the guest's needs before they are expressed.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/omotenashi.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "おもてなし"
+ }
+}

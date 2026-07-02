@@ -1,0 +1,46 @@
+{
+ "type": "GlossaryTerm",
+ "id": "giri",
+ "term": "Giri",
+ "kanji": "義理",
+ "aliases": [
+  "Giri",
+  "義理"
+ ],
+ "category": "storia_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il dovere che non si sceglie. Obbligo morale e sociale che lega il samurai al proprio signore, alla propria famiglia, alla propria parola data. La tensione tra giri e ninjō (sentimento umano) è il motore della narrativa giapponese classica.",
+ "definition_short_en": "The duty one does not choose. Moral and social obligation binding the samurai to lord, family, and given word. The tension between giri and ninjō (human feeling) drives classical Japanese narrative.",
+ "peacock_principle": "Il rapporto tra editore e autore. Non un contratto commerciale ma un impegno reciproco: la qualità editoriale non è una scelta di mercato. È un dovere.",
+ "connected_terms": [
+  "bushido",
+  "seppuku",
+  "mono_no_aware",
+  "omotenashi",
+  "hototogisu"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Giri",
+  "description": "The duty one does not choose. Moral and social obligation binding the samurai to lord, family, and given word. The tension between giri and ninjō (human feeling) drives classical Japanese narrative.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/giri.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "義理"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "type": "GlossaryTerm",
+ "id": "ma",
+ "term": "Ma",
+ "kanji": "間",
+ "aliases": [
+  "Ma",
+  "間"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.2",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Il vuoto tra le cose. Non un'assenza, ma una pausa attiva. In architettura è la distanza tra due colonne che definisce la qualità dello spazio. In musica è il silenzio tra due note. In conversazione è la pausa che permette al significato di depositarsi. Il ma giapponese non separa: connette.",
+ "definition_short_en": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects.",
+ "peacock_principle": "Il bianco della pagina come presenza. L'illustrazione che suggerisce senza descrivere.",
+ "note": "termine più connesso del catalogo — nodo trasversale tra cluster Sengoku, città e cerimonia del tè",
+ "centrality": 10,
+ "connected_terms": [
+  "wabi_sabi",
+  "yugen",
+  "lentezza",
+  "kokyu",
+  "basho",
+  "chikado",
+  "omotenashi"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "torino_fantastica",
+  "ai_natura_algoritmi",
+  "hara_rota",
+  "milano_fantastica"
+ ],
+ "books_applied_paths": [
+  "books/ai-natura-algoritmi",
+  "books/demone-samurai",
+  "books/milano-fantastica",
+  "books/torino-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ma",
+  "description": "The void between things. Not absence, but active pause. In architecture, the distance between columns that defines space. In music, the silence between notes. In conversation, the pause that lets meaning settle. Ma does not separate: it connects.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ma.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "間"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "type": "GlossaryTerm",
+ "id": "jo-ha-kyu",
+ "term": "Jo-ha-kyū",
+ "kanji": "序破急",
+ "aliases": [
+  "Jo-ha-kyū",
+  "jo-ha-kyū",
+  "jo_ha_kyu",
+  "序破急"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "Introduzione, rottura, accelerazione. Principio ritmico del teatro Nō e della musica gagaku. Tre fasi: apertura lenta, sviluppo, scioglimento rapido.",
+ "definition_short_en": "Introduction, break, acceleration. Rhythmic principle of Nō theater and gagaku music. Three phases: slow opening, development, rapid resolution.",
+ "peacock_principle": "La struttura profonda di ogni libro del catalogo. Apertura lenta, tensione visiva, chiusura breve che scioglie senza spiegare.",
+ "connected_terms": [
+  "ma",
+  "kokyu",
+  "yugen",
+  "lentezza",
+  "nohmen",
+  "hana"
+ ],
+ "books_applied": [
+  "il_demone_samurai",
+  "kyoto_lo_sguardo_del_drago"
+ ],
+ "books_applied_paths": [
+  "books/demone-samurai",
+  "books/kyoto-sguardo-del-drago"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jo-ha-kyū",
+  "description": "Introduction, break, acceleration. Rhythmic principle of Nō theater and gagaku music. Three phases: slow opening, development, rapid resolution.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/jo-ha-kyu.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "序破急"
+ }
+}
