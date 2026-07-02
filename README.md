@@ -13,7 +13,7 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 
 ## What this repository is
 
-`peacock-data` is a structured semantic dataset describing the editorial catalog, narrative ontology, and cultural vocabulary of Casa Editrice Peacock — an independent Italian publisher specializing in Japanese culture, illustrated narrative, tanka poetry, and bilingual books.
+`peacock-data` is a structured semantic dataset describing the editorial catalog, narrative ontology, and cultural vocabulary of Casa Editrice Peacock an independent Italian publisher specializing in Japanese culture, illustrated narrative, tanka poetry, and bilingual books.
 
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
