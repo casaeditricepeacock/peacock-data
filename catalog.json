@@ -439,5 +439,594 @@
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "contact": "direzione@studiopeacock.net"
+ },
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Catalogo Casa Editrice Peacock",
+  "description": "Catalogo completo di Casa Editrice Peacock: cultura giapponese, narrativa illustrata, saggi visivi.",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher": {
+   "@type": "Organization",
+   "name": "Casa Editrice Peacock",
+   "url": "https://www.studiopeacock.net",
+   "founder": {
+    "@type": "Person",
+    "name": "Stefano Giglio"
+   },
+   "location": "Galzignano Terme, Padova, Italia"
+  },
+  "numberOfItems": 24,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "Book",
+     "name": "Milano Fantastica",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "Fantastic Milan",
+     "author": {
+      "@type": "Person",
+      "name": "Grazia Guarnieri"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "Giulia Lazzaron"
+     },
+     "isbn": "979-12-81715-03-5",
+     "datePublished": "2024",
+     "numberOfPages": 220,
+     "inLanguage": [
+      "it",
+      "en"
+     ],
+     "url": "https://www.studiopeacock.net/fantastic-milan-illustrated-guide-peacock-guarnieri-lazzaron/"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "Book",
+     "name": "Padova Fantastica",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "Fantastic Padova",
+     "author": {
+      "@type": "Person",
+      "name": "Grazia Guarnieri"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "Giulia Lazzaron"
+     },
+     "isbn": "979-12-81715-15-8",
+     "datePublished": "2025",
+     "numberOfPages": 100,
+     "inLanguage": [
+      "it",
+      "en"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "Book",
+     "name": "Torino Fantastica",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "Fantastic Turin",
+     "author": {
+      "@type": "Person",
+      "name": "Grazia Guarnieri"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "Giulia Lazzaron"
+     },
+     "isbn": "979-12-81715-36-3",
+     "datePublished": "2025",
+     "numberOfPages": 128,
+     "inLanguage": [
+      "it",
+      "en"
+     ],
+     "url": "https://www.studiopeacock.net/torino-fantastica-guida-illustrata-peacock-salone-libro-2026/"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "Book",
+     "name": "Luna piena sulla città antica",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Toshihiko Ota"
+     },
+     "isbn": "978-88-946965-4-7",
+     "datePublished": "2023",
+     "inLanguage": [
+      "it",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "Book",
+     "name": "Luna piena sulla città nuova",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Shogoro"
+     },
+     "isbn": "979-12-81715-17-2",
+     "datePublished": "2025",
+     "inLanguage": [
+      "it",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "Book",
+     "name": "Assolutamente Giappone. Moda e misteri",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Hélène Blignaut"
+     },
+     "isbn": "979-12-81715-16-5",
+     "datePublished": "2025",
+     "numberOfPages": 150,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "Book",
+     "name": "Il Demone Samurai. Moda e misteri",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "The Demon Samurai. Fashion and Mysteries",
+     "author": {
+      "@type": "Person",
+      "name": "Hélène Blignaut"
+     },
+     "isbn": "979-12-81715-22-6",
+     "datePublished": "2026",
+     "numberOfPages": 150,
+     "inLanguage": [
+      "it",
+      "en"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "Book",
+     "name": "Kyoto. Lo Sguardo del Drago",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "Kyoto. The Dragon's Gaze",
+     "author": {
+      "@type": "Person",
+      "name": "Hélène Blignaut"
+     },
+     "isbn": "979-12-81715-20-2",
+     "datePublished": "2026",
+     "inLanguage": [
+      "it",
+      "en"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "item": {
+     "@type": "Book",
+     "name": "Ryokan. Piccolo manifesto giapponese",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Hara Rota"
+     },
+     "isbn": "979-12-81715-08-0",
+     "datePublished": "2024",
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "item": {
+     "@type": "Book",
+     "name": "Ryokan. Ali di carta di riso",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Hara Rota"
+     },
+     "isbn": "979-12-81715-23-3",
+     "datePublished": "2025",
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "item": {
+     "@type": "Book",
+     "name": "AI 愛. Natura e algoritmi giapponesi",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Renato Frabasile"
+     },
+     "isbn": "979-12-81715-19-6",
+     "datePublished": "2026",
+     "numberOfPages": 250,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "item": {
+     "@type": "Book",
+     "name": "La singolarità Giappone",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Renato Frabasile"
+     },
+     "isbn": "978-88-946965-3-0",
+     "datePublished": "2023",
+     "numberOfPages": 250,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 13,
+    "item": {
+     "@type": "Book",
+     "name": "Ernesto. Il topolino di Milano",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Stefano Giglio"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "AnnaLaura Cantone"
+     },
+     "isbn": "979-12-81715-05-9",
+     "datePublished": "2024",
+     "numberOfPages": 50,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
+    "item": {
+     "@type": "Book",
+     "name": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Francesco Verni"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "Andrea Yuu Dentuto"
+     },
+     "isbn": "979-12-81715-13-4",
+     "datePublished": "2025",
+     "numberOfPages": 140,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 15,
+    "item": {
+     "@type": "Book",
+     "name": "Tante storie per pensare",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Giuliana Gabriella Corea"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "AnnaLaura Cantone"
+     },
+     "isbn": "979-12-81715-37-0",
+     "datePublished": "2025",
+     "numberOfPages": 150,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 16,
+    "item": {
+     "@type": "Book",
+     "name": "Le mie ballerinette",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Cristina Gastel"
+     },
+     "isbn": "979-12-81715-11-0",
+     "datePublished": "2025",
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 17,
+    "item": {
+     "@type": "Book",
+     "name": "La Medusa e la Scimmia",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Andreina Parpajola"
+     },
+     "isbn": "979-12-81715-01-1",
+     "datePublished": "2024",
+     "numberOfPages": 68,
+     "inLanguage": [
+      "it",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 18,
+    "item": {
+     "@type": "Book",
+     "name": "Everyday Matcha. Rituali e ricette per un tempo lento",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Senyo Machida"
+     },
+     "isbn": "979-12-81715-18-9",
+     "datePublished": "2025",
+     "numberOfPages": 128,
+     "inLanguage": [
+      "it"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 19,
+    "item": {
+     "@type": "Book",
+     "name": "La locanda Nakamura. Il patto dei sette",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Aika Avonlea"
+     },
+     "isbn": "979-12-81715-27-1",
+     "datePublished": "2025",
+     "numberOfPages": 210
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 20,
+    "item": {
+     "@type": "Book",
+     "name": "Ra-ta-ta. Lascia cadere la pioggia",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Collective Peacock"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "E Formaggia"
+     },
+     "isbn": "978-88-946965-9-2",
+     "numberOfPages": 50,
+     "inLanguage": [
+      "it",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 21,
+    "item": {
+     "@type": "Book",
+     "name": "A Glass Bridge Between Two Worlds",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Maurizio Lotter"
+     },
+     "isbn": "979-12-81715-39-4",
+     "datePublished": "2025",
+     "inLanguage": [
+      "en",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 22,
+    "item": {
+     "@type": "Book",
+     "name": "Burn Out Pandemic",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Stefano Giglio"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "Manganella"
+     },
+     "isbn": "978-88-946965-1-6",
+     "datePublished": "2022",
+     "inLanguage": [
+      "it",
+      "ja"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 23,
+    "item": {
+     "@type": "Book",
+     "name": "Libri",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "alternateName": "Books",
+     "author": {
+      "@type": "Person",
+      "name": "Stefano Giglio"
+     },
+     "illustrator": {
+      "@type": "Person",
+      "name": "AnnaLaura Cantone"
+     },
+     "inLanguage": [
+      "it",
+      "en"
+     ]
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 24,
+    "item": {
+     "@type": "Book",
+     "name": "Forbidden Colours",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Hélène Blignaut"
+     },
+     "isbn": "979-12-81715-10-3",
+     "datePublished": "2025",
+     "inLanguage": [
+      "it"
+     ]
+    }
+   }
+  ]
  }
 }
