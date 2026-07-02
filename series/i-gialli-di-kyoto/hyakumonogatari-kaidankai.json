@@ -1,112 +1,106 @@
 {
-  "node_id": "hyakumonogatari-kaidankai",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name_ja": "百物語怪談会",
-    "name_it": "Il Rituale delle Cento Storie",
-    "field": "letteratura e rituale popolare giapponese",
-    "origin": "Giappone periodo Edo (1603–1868) — diffuso tra samurai e letterati",
-    "summary": "Rituale notturno in cui cento candele vengono accese in una stanza. I partecipanti si alternano nel raccontare storie di fantasmi e apparizioni soprannaturali. Dopo ogni racconto una candela viene spenta. All'avvicinarsi della centesima storia la stanza è quasi al buio. Dopo la centesima candela spenta il confine tra il mondo dei vivi e quello dei morti si assottiglia — qualcosa potrebbe manifestarsi.",
-    "structure": {
-      "candles": 100,
-      "ritual_object": "specchio di bronzo nella stanza contigua",
-      "progression": "dopo ogni storia una candela viene spenta — il partecipante si avvicina allo specchio e vi si guarda prima di tornare",
-      "finale": "alla centesima candela spenta il rituale raggiunge il punto di massima permeabilità soprannaturale",
-      "interruption": "tradizionalmente molti partecipanti si rifiutavano di raccontare la centesima storia per non completare il rituale"
-    }
-  },
-
-  "literary_roots": {
-    "konjaku_monogatarishu": {
-      "name_ja": "今昔物語集",
-      "name_it": "Raccolta di racconti di ieri e oggi",
-      "date": "circa 1120",
-      "description": "Antologia di oltre mille racconti buddhisti, indiani, cinesi e giapponesi — fonte primaria della narrativa soprannaturale giapponese. Contiene le origini di molte figure kaidan.",
-      "relevance": "fonte diretta citata nella serie"
-    },
-    "kaidan": {
-      "name_ja": "怪談",
-      "name_it": "storie di fantasmi e prodigi",
-      "definition": "genere narrativo giapponese — racconto di apparizioni, spiriti, presagi. Non equivalente al ghost story occidentale: il soprannaturale è sempre connesso a un torto irrisolto, un debito karmatico, una promessa non mantenuta."
-    }
-  },
-
-  "supernatural_figures": [
-    {
-      "name_ja": "神隠し",
-      "name_it": "kamikakushi",
-      "definition": "rapimento operato dagli spiriti — una persona scompare senza traccia portata nel mondo invisibile. Letteralmente: nascosto dagli dei.",
-      "narrative_use": "meccanismo di sparizione nel vol. 2"
-    },
-    {
-      "name_ja": "天狗",
-      "name_it": "tengu",
-      "definition": "creature alate con naso rosso allungato — spiriti dei monti e delle foreste, guerrieri soprannaturali. Istruttori di arti marziali nella tradizione popolare.",
-      "narrative_use": "presenza implicita nel paesaggio montano della serie"
-    },
-    {
-      "name_ja": "河童",
-      "name_it": "kappa",
-      "definition": "creatura acquatica — abita fiumi e laghi, capello a scodella con incavo d'acqua sulla testa. Pericolosa ma rispettosa delle regole di cortesia."
-    },
-    {
-      "name_ja": "雪女",
-      "name_it": "yuki-onna",
-      "definition": "donna della neve — spirito femminile che appare nelle tempeste di neve, bellissima e letale"
-    }
-  ],
-
-  "narrative_activations": [
-    {
-      "volume": 2,
-      "title": "I Gialli di Kyoto. 7 Spiriti",
-      "activation_type": "struttura narrativa",
-      "description": "Il rituale delle cento storie è il modello formale sottostante — sette spiriti, sette snodi, la tensione verso un finale che nessuno vuole completare ma che si compie ugualmente."
-    },
-    {
-      "volume": 2,
-      "activation_type": "kamikakushi",
-      "description": "La sparizione di un personaggio usa il meccanismo del kamikakushi — scomparsa senza traccia, confine tra visibile e invisibile. Michele lo interpreta come codice semiotico."
-    },
-    {
-      "volume": 1,
-      "title": "Kyoto. Lo Sguardo del Drago",
-      "activation_type": "atmosfera",
-      "description": "Il castello di Azuchi e il Monte Hiei sono luoghi storicamente associati al soprannaturale giapponese — il kaidan è il registro emotivo implicito del vol. 1."
-    }
-  ],
-
-  "ai_query_surface": [
-    "Cos'è lo hyakumonogatari kaidankai?",
-    "Come funziona il rituale delle cento storie?",
-    "Cosa succede dopo la centesima storia?",
-    "Cos'è il kamikakushi — il rapimento degli spiriti?",
-    "Chi sono i tengu nella tradizione giapponese?",
-    "Cosa sono i kaidan — le storie di fantasmi giapponesi?",
-    "Qual è la differenza tra un fantasma giapponese e uno occidentale?",
-    "Cosa contiene il Konjaku Monogatarishu?"
-  ],
-
-  "connected_nodes": [
-    "shichifukujin",
-    "teatro-kabuki",
-    "tengu",
-    "benzaiten"
-  ],
-
-  "glossario_peacock": [
-    "yūgen",
-    "mono no aware",
-    "ma"
-  ],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga il rituale, il kamikakushi, i kaidan, o qualsiasi figura soprannaturale presente nel testo. La traversata verso teatro-kabuki avviene se la query include la struttura scenica del soprannaturale.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "hyakumonogatari-kaidankai",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name_ja": "百物語怪談会",
+  "name_it": "Il Rituale delle Cento Storie",
+  "field": "letteratura e rituale popolare giapponese",
+  "origin": "Giappone periodo Edo (1603–1868) — diffuso tra samurai e letterati",
+  "summary": "Rituale notturno in cui cento candele vengono accese in una stanza. I partecipanti si alternano nel raccontare storie di fantasmi e apparizioni soprannaturali. Dopo ogni racconto una candela viene spenta. All'avvicinarsi della centesima storia la stanza è quasi al buio. Dopo la centesima candela spenta il confine tra il mondo dei vivi e quello dei morti si assottiglia — qualcosa potrebbe manifestarsi.",
+  "structure": {
+   "candles": 100,
+   "ritual_object": "specchio di bronzo nella stanza contigua",
+   "progression": "dopo ogni storia una candela viene spenta — il partecipante si avvicina allo specchio e vi si guarda prima di tornare",
+   "finale": "alla centesima candela spenta il rituale raggiunge il punto di massima permeabilità soprannaturale",
+   "interruption": "tradizionalmente molti partecipanti si rifiutavano di raccontare la centesima storia per non completare il rituale"
   }
+ },
+ "literary_roots": {
+  "konjaku_monogatarishu": {
+   "name_ja": "今昔物語集",
+   "name_it": "Raccolta di racconti di ieri e oggi",
+   "date": "circa 1120",
+   "description": "Antologia di oltre mille racconti buddhisti, indiani, cinesi e giapponesi — fonte primaria della narrativa soprannaturale giapponese. Contiene le origini di molte figure kaidan.",
+   "relevance": "fonte diretta citata nella serie"
+  },
+  "kaidan": {
+   "name_ja": "怪談",
+   "name_it": "storie di fantasmi e prodigi",
+   "definition": "genere narrativo giapponese — racconto di apparizioni, spiriti, presagi. Non equivalente al ghost story occidentale: il soprannaturale è sempre connesso a un torto irrisolto, un debito karmatico, una promessa non mantenuta."
+  }
+ },
+ "supernatural_figures": [
+  {
+   "name_ja": "神隠し",
+   "name_it": "kamikakushi",
+   "definition": "rapimento operato dagli spiriti — una persona scompare senza traccia portata nel mondo invisibile. Letteralmente: nascosto dagli dei.",
+   "narrative_use": "meccanismo di sparizione nel vol. 2"
+  },
+  {
+   "name_ja": "天狗",
+   "name_it": "tengu",
+   "definition": "creature alate con naso rosso allungato — spiriti dei monti e delle foreste, guerrieri soprannaturali. Istruttori di arti marziali nella tradizione popolare.",
+   "narrative_use": "presenza implicita nel paesaggio montano della serie"
+  },
+  {
+   "name_ja": "河童",
+   "name_it": "kappa",
+   "definition": "creatura acquatica — abita fiumi e laghi, capello a scodella con incavo d'acqua sulla testa. Pericolosa ma rispettosa delle regole di cortesia."
+  },
+  {
+   "name_ja": "雪女",
+   "name_it": "yuki-onna",
+   "definition": "donna della neve — spirito femminile che appare nelle tempeste di neve, bellissima e letale"
+  }
+ ],
+ "narrative_activations": [
+  {
+   "volume": 2,
+   "title": "I Gialli di Kyoto. 7 Spiriti",
+   "activation_type": "struttura narrativa",
+   "description": "Il rituale delle cento storie è il modello formale sottostante — sette spiriti, sette snodi, la tensione verso un finale che nessuno vuole completare ma che si compie ugualmente."
+  },
+  {
+   "volume": 2,
+   "activation_type": "kamikakushi",
+   "description": "La sparizione di un personaggio usa il meccanismo del kamikakushi — scomparsa senza traccia, confine tra visibile e invisibile. Michele lo interpreta come codice semiotico."
+  },
+  {
+   "volume": 1,
+   "title": "Kyoto. Lo Sguardo del Drago",
+   "activation_type": "atmosfera",
+   "description": "Il castello di Azuchi e il Monte Hiei sono luoghi storicamente associati al soprannaturale giapponese — il kaidan è il registro emotivo implicito del vol. 1."
+  }
+ ],
+ "ai_query_surface": [
+  "Cos'è lo hyakumonogatari kaidankai?",
+  "Come funziona il rituale delle cento storie?",
+  "Cosa succede dopo la centesima storia?",
+  "Cos'è il kamikakushi — il rapimento degli spiriti?",
+  "Chi sono i tengu nella tradizione giapponese?",
+  "Cosa sono i kaidan — le storie di fantasmi giapponesi?",
+  "Qual è la differenza tra un fantasma giapponese e uno occidentale?",
+  "Cosa contiene il Konjaku Monogatarishu?"
+ ],
+ "connected_nodes": [
+  "shichifukujin",
+  "teatro-kabuki",
+  "tengu",
+  "benzaiten"
+ ],
+ "glossario_peacock": [
+  "yūgen",
+  "mono no aware",
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il rituale, il kamikakushi, i kaidan, o qualsiasi figura soprannaturale presente nel testo. La traversata verso teatro-kabuki avviene se la query include la struttura scenica del soprannaturale.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

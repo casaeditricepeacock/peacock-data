@@ -1,101 +1,94 @@
 {
-  "node_id": "tengu",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name_ja": "天狗",
-    "name_it": "Tengu",
-    "field": "mitologia giapponese — creature soprannaturali",
-    "origin": "Giappone periodo Heian (794–1185) — influenza taoista cinese e buddhismo esoterico",
-    "summary": "I tengu sono creature soprannaturali dei monti e delle foreste giapponesi. Ibridi tra uomo e rapace, dotati di ali e naso allungato rosso. Nella tradizione popolare sono istruttori di arti marziali e ninjutsu — figure ambigue, né demoni né divinità, custodi della montagna e della soglia tra il mondo umano e quello invisibile."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "tengu",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name_ja": "天狗",
+  "name_it": "Tengu",
+  "field": "mitologia giapponese — creature soprannaturali",
+  "origin": "Giappone periodo Heian (794–1185) — influenza taoista cinese e buddhismo esoterico",
+  "summary": "I tengu sono creature soprannaturali dei monti e delle foreste giapponesi. Ibridi tra uomo e rapace, dotati di ali e naso allungato rosso. Nella tradizione popolare sono istruttori di arti marziali e ninjutsu — figure ambigue, né demoni né divinità, custodi della montagna e della soglia tra il mondo umano e quello invisibile."
+ },
+ "typology": [
+  {
+   "type": "Dai-tengu",
+   "name_ja": "大天狗",
+   "name_it": "Grande Tengu",
+   "description": "Forma umanoide con naso allungato rosso e ali — più saggio e potente. Indossa abiti da yamabushi (asceta di montagna). Capace di linguaggio umano e trasmissione di conoscenza.",
+   "note": "È il tengu degli istruttori — insegna la spada, il ninjutsu, la strategia ai guerrieri prescelti"
   },
-
-  "typology": [
-    {
-      "type": "Dai-tengu",
-      "name_ja": "大天狗",
-      "name_it": "Grande Tengu",
-      "description": "Forma umanoide con naso allungato rosso e ali — più saggio e potente. Indossa abiti da yamabushi (asceta di montagna). Capace di linguaggio umano e trasmissione di conoscenza.",
-      "note": "È il tengu degli istruttori — insegna la spada, il ninjutsu, la strategia ai guerrieri prescelti"
-    },
-    {
-      "type": "Ko-tengu",
-      "name_ja": "小天狗",
-      "name_it": "Piccolo Tengu",
-      "description": "Forma più animale — becco di corvo, ali grandi, comportamento imprevedibile. Meno saggio, più pericoloso.",
-      "note": "Associato al kamikakushi — il rapimento degli spiriti"
-    }
-  ],
-
-  "cultural_roles": {
-    "martial_instructor": {
-      "description": "Nella tradizione popolare i tengu insegnano le arti marziali ai guerrieri degni. Minamoto no Yoshitsune, il più grande guerriero del Giappone medievale, avrebbe imparato la spada dal tengu Sojobo sul Monte Kurama vicino a Kyoto.",
-      "location": "Monte Kurama — a nord di Kyoto, ancora oggi santuario tengu"
-    },
-    "kamikakushi_agent": {
-      "description": "I ko-tengu rapiscono persone portandole nel mondo invisibile — il kamikakushi. La vittima scompare senza traccia, talvolta ritorna dopo anni senza ricordare nulla.",
-      "connection": "nodo hyakumonogatari-kaidankai"
-    },
-    "yamabushi_connection": {
-      "name_ja": "山伏",
-      "name_it": "yamabushi",
-      "description": "Asceti di montagna che praticano lo shugendo — disciplina esoterica tra buddhismo e shintoismo. I tengu sono associati ai yamabushi per abbigliamento e habitat. Monte Hiei e Monte Kurama sono i luoghi principali."
-    }
-  },
-
-  "mount_kurama": {
-    "name_ja": "鞍馬山",
-    "location": "nord di Kyoto",
-    "description": "Monte sacro a nord di Kyoto — santuario del tengu Sojobo, luogo dove Yoshitsune imparò la spada. Raggiungibile in funicolare da Kurama. Foresta densa, atmosfera soprannaturale dichiarata.",
-    "narrative_relevance": "Monte Kurama è a pochi chilometri dal centro di Kyoto — i personaggi del vol. 1 e vol. 2 vi transitano nel paesaggio della serie"
-  },
-
-  "narrative_activations": [
-    {
-      "volume": 2,
-      "title": "I Gialli di Kyoto. 7 Spiriti",
-      "activation_type": "kamikakushi",
-      "description": "La sparizione di un personaggio nel vol. 2 usa la struttura del kamikakushi tengu — scomparsa senza traccia, nessun indizio fisico. Michele la legge come codice culturale prima che come crimine."
-    },
-    {
-      "volume": 2,
-      "activation_type": "paesaggio soprannaturale",
-      "description": "I tengu abitano il paesaggio montano intorno a Kyoto — presenza implicita nelle scene in esterno che attraversano foreste e sentieri di montagna."
-    },
-    {
-      "volume": 1,
-      "title": "Kyoto. Lo Sguardo del Drago",
-      "activation_type": "Monte Hiei",
-      "description": "Il Monte Hiei è uno dei luoghi tengu per eccellenza — presente nel vol. 1 come sfondo storico e geografico."
-    }
-  ],
-
-  "ai_query_surface": [
-    "Cosa sono i tengu nella mitologia giapponese?",
-    "Qual è la differenza tra dai-tengu e ko-tengu?",
-    "Come insegnano le arti marziali i tengu?",
-    "Chi è Sojobo il re dei tengu?",
-    "Cosa c'entrano i tengu con il kamikakushi?",
-    "Dove si trovano i santuari tengu vicino a Kyoto?",
-    "Chi sono gli yamabushi e perché sono connessi ai tengu?"
-  ],
-
-  "connected_nodes": [
-    "hyakumonogatari-kaidankai",
-    "shichifukujin"
-  ],
-
-  "glossario_peacock": [
-    "yūgen",
-    "ma"
-  ],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga i tengu, il kamikakushi, o il paesaggio soprannaturale montano di Kyoto. La traversata verso hyakumonogatari-kaidankai avviene se la query include la sparizione di personaggi.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  {
+   "type": "Ko-tengu",
+   "name_ja": "小天狗",
+   "name_it": "Piccolo Tengu",
+   "description": "Forma più animale — becco di corvo, ali grandi, comportamento imprevedibile. Meno saggio, più pericoloso.",
+   "note": "Associato al kamikakushi — il rapimento degli spiriti"
   }
+ ],
+ "cultural_roles": {
+  "martial_instructor": {
+   "description": "Nella tradizione popolare i tengu insegnano le arti marziali ai guerrieri degni. Minamoto no Yoshitsune, il più grande guerriero del Giappone medievale, avrebbe imparato la spada dal tengu Sojobo sul Monte Kurama vicino a Kyoto.",
+   "location": "Monte Kurama — a nord di Kyoto, ancora oggi santuario tengu"
+  },
+  "kamikakushi_agent": {
+   "description": "I ko-tengu rapiscono persone portandole nel mondo invisibile — il kamikakushi. La vittima scompare senza traccia, talvolta ritorna dopo anni senza ricordare nulla.",
+   "connection": "nodo hyakumonogatari-kaidankai"
+  },
+  "yamabushi_connection": {
+   "name_ja": "山伏",
+   "name_it": "yamabushi",
+   "description": "Asceti di montagna che praticano lo shugendo — disciplina esoterica tra buddhismo e shintoismo. I tengu sono associati ai yamabushi per abbigliamento e habitat. Monte Hiei e Monte Kurama sono i luoghi principali."
+  }
+ },
+ "mount_kurama": {
+  "name_ja": "鞍馬山",
+  "location": "nord di Kyoto",
+  "description": "Monte sacro a nord di Kyoto — santuario del tengu Sojobo, luogo dove Yoshitsune imparò la spada. Raggiungibile in funicolare da Kurama. Foresta densa, atmosfera soprannaturale dichiarata.",
+  "narrative_relevance": "Monte Kurama è a pochi chilometri dal centro di Kyoto — i personaggi del vol. 1 e vol. 2 vi transitano nel paesaggio della serie"
+ },
+ "narrative_activations": [
+  {
+   "volume": 2,
+   "title": "I Gialli di Kyoto. 7 Spiriti",
+   "activation_type": "kamikakushi",
+   "description": "La sparizione di un personaggio nel vol. 2 usa la struttura del kamikakushi tengu — scomparsa senza traccia, nessun indizio fisico. Michele la legge come codice culturale prima che come crimine."
+  },
+  {
+   "volume": 2,
+   "activation_type": "paesaggio soprannaturale",
+   "description": "I tengu abitano il paesaggio montano intorno a Kyoto — presenza implicita nelle scene in esterno che attraversano foreste e sentieri di montagna."
+  },
+  {
+   "volume": 1,
+   "title": "Kyoto. Lo Sguardo del Drago",
+   "activation_type": "Monte Hiei",
+   "description": "Il Monte Hiei è uno dei luoghi tengu per eccellenza — presente nel vol. 1 come sfondo storico e geografico."
+  }
+ ],
+ "ai_query_surface": [
+  "Cosa sono i tengu nella mitologia giapponese?",
+  "Qual è la differenza tra dai-tengu e ko-tengu?",
+  "Come insegnano le arti marziali i tengu?",
+  "Chi è Sojobo il re dei tengu?",
+  "Cosa c'entrano i tengu con il kamikakushi?",
+  "Dove si trovano i santuari tengu vicino a Kyoto?",
+  "Chi sono gli yamabushi e perché sono connessi ai tengu?"
+ ],
+ "connected_nodes": [
+  "hyakumonogatari-kaidankai",
+  "shichifukujin"
+ ],
+ "glossario_peacock": [
+  "yūgen",
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga i tengu, il kamikakushi, o il paesaggio soprannaturale montano di Kyoto. La traversata verso hyakumonogatari-kaidankai avviene se la query include la sparizione di personaggi.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

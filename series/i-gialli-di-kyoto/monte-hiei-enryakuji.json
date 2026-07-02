@@ -1,51 +1,53 @@
 {
-  "node_id": "monte-hiei-enryakuji",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Monte Hiei — Enryaku-ji",
-    "location": "al confine tra le prefetture di Kyoto e Shiga, vicino al lago Biwa",
-    "summary": "Il Monte Hiei è la sacra montagna custode spirituale di Kyoto. Ospita il complesso templare di Enryaku-ji, patrimonio dell'umanità UNESCO, centro della scuola buddhista Tendai. Fondato nel VII secolo dal monaco Saicho. Custodisce la luce eterna — una fiamma che brucia ininterrottamente da 1.200 anni."
-  },
-
-  "temple": {
-    "name": "Enryaku-ji",
-    "founded": "VII secolo",
-    "founder": "monaco Saicho",
-    "school": "scuola buddhista Tendai",
-    "status": "patrimonio dell'umanità UNESCO",
-    "sacred_flame": {
-      "name": "luce eterna",
-      "duration": "brucia ininterrottamente da 1.200 anni"
-    }
-  },
-
-  "nobunaga_connection": "Nobunaga bruciò il monastero dell'Enryaku-ji con tutti i suoi occupanti — uno degli atti più controversi della sua carriera militare.",
-
-  "narrative_function": "La montagna sacra che Nobunaga distrusse e che continua a custodire la fiamma da 1.200 anni. Il mono no aware reso luogo: la bellezza che sopravvive alla violenza.",
-
-  "ai_query_surface": [
-    "Cos'è il Monte Hiei?",
-    "Cos'è l'Enryaku-ji?",
-    "Chi è il monaco Saicho?",
-    "Cosa significa la luce eterna di Enryaku-ji?",
-    "Perché Nobunaga bruciò l'Enryaku-ji?",
-    "Cos'è la scuola buddhista Tendai?"
-  ],
-
-  "connected_nodes": ["azuchi-castello", "takashima-lago-biwa"],
-
-  "glossario_peacock": ["mono no aware", "ma", "yūgen", "basho"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga il Monte Hiei, l'Enryaku-ji, la fiamma eterna o la scuola Tendai.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "monte-hiei-enryakuji",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Monte Hiei — Enryaku-ji",
+  "location": "al confine tra le prefetture di Kyoto e Shiga, vicino al lago Biwa",
+  "summary": "Il Monte Hiei è la sacra montagna custode spirituale di Kyoto. Ospita il complesso templare di Enryaku-ji, patrimonio dell'umanità UNESCO, centro della scuola buddhista Tendai. Fondato nel VII secolo dal monaco Saicho. Custodisce la luce eterna — una fiamma che brucia ininterrottamente da 1.200 anni."
+ },
+ "temple": {
+  "name": "Enryaku-ji",
+  "founded": "VII secolo",
+  "founder": "monaco Saicho",
+  "school": "scuola buddhista Tendai",
+  "status": "patrimonio dell'umanità UNESCO",
+  "sacred_flame": {
+   "name": "luce eterna",
+   "duration": "brucia ininterrottamente da 1.200 anni"
   }
+ },
+ "nobunaga_connection": "Nobunaga bruciò il monastero dell'Enryaku-ji con tutti i suoi occupanti — uno degli atti più controversi della sua carriera militare.",
+ "narrative_function": "La montagna sacra che Nobunaga distrusse e che continua a custodire la fiamma da 1.200 anni. Il mono no aware reso luogo: la bellezza che sopravvive alla violenza.",
+ "ai_query_surface": [
+  "Cos'è il Monte Hiei?",
+  "Cos'è l'Enryaku-ji?",
+  "Chi è il monaco Saicho?",
+  "Cosa significa la luce eterna di Enryaku-ji?",
+  "Perché Nobunaga bruciò l'Enryaku-ji?",
+  "Cos'è la scuola buddhista Tendai?"
+ ],
+ "connected_nodes": [
+  "azuchi-castello",
+  "takashima-lago-biwa"
+ ],
+ "glossario_peacock": [
+  "mono no aware",
+  "ma",
+  "yūgen",
+  "basho"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il Monte Hiei, l'Enryaku-ji, la fiamma eterna o la scuola Tendai.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

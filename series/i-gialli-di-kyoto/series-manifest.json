@@ -1,65 +1,116 @@
 {
-  "series_id": "i-gialli-di-kyoto",
-  "series_title": "I Gialli di Kyoto",
-  "publisher": "Casa Editrice Peacock",
-  "author": "Hélène Blignaut",
-  "external_narrator": "Carlo Carestiato",
-  "formula": "Come in un film",
-  "language": "it",
-  "status": "active",
-  "volumes": [
-    {
-      "volume": 1,
-      "title": "Kyoto. Lo Sguardo del Drago",
-      "isbn": "9791281715202",
-      "year": 2026,
-      "release_date": "2026-06-15",
-      "status": "published",
-      "key_object": "pugnale samurai periodo Oda Nobunaga",
-      "primary_locations": ["Genova", "Rapallo", "Portofino", "Kyoto", "Azuchi", "Lago Biwa", "Monte Hiei"]
-    },
-    {
-      "volume": 2,
-      "title": "I Gialli di Kyoto. 7 Spiriti",
-      "isbn": null,
-      "year": 2026,
-      "release_date": "2026-10",
-      "status": "in_progress",
-      "key_object": "maneki neko con monete oro oban",
-      "primary_locations": ["Morris Castle Wexford Irlanda", "Rapallo", "Portofino", "Kyoto"]
-    }
-  ],
-  "recurring_characters": [
-    {"name": "Michele", "role": "protagonista", "identity": "semiologo decifratore di codici italo-francese"},
-    {"name": "Gretel", "role": "co-protagonista", "identity": "proprietaria trattoria genovese karateka matematica"},
-    {"name": "Alexander Pope", "role": "catalizzatore", "identity": "editore di poesia milionario filantropo irlandese"},
-    {"name": "Yoshida", "role": "agente operativo", "identity": "investigatore privato giapponese"},
-    {"name": "Sonali", "role": "continuita domestica", "identity": "governante indiana di Michele"},
-    {"name": "Maramao", "role": "presenza liminale", "identity": "gatto rosso parlante di Michele"},
-    {"name": "Baccicin", "role": "voce locale", "identity": "cameriere genovese in pensione"},
-    {"name": "Pitta", "role": "radicamento ligure", "identity": "pescatore di Portofino"}
-  ],
-  "world_nodes": [
-    "shichifukojin",
-    "teatro-kabuki",
-    "hyakumonogatari-kaidankai",
-    "kitsuke",
-    "maneki-neko",
-    "tengu",
-    "benzaiten",
-    "nomi-gaelici-serie",
-    "fionn-mac-cumhaill",
-    "oban-monete",
-    "shiori-ningyo",
-    "sake-ceramica",
-    "tayaki"
-  ],
-  "libro_esplorabile": {
-    "status": "in_progress",
-    "active_from_volume": 2,
-    "graph_ready_target": "2026-10",
-    "invitation_types": ["margine", "soglia-atto", "pagina-finale"]
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "series_id": "i-gialli-di-kyoto",
+ "series_title": "I Gialli di Kyoto",
+ "publisher": "Casa Editrice Peacock",
+ "author": "Hélène Blignaut",
+ "external_narrator": "Carlo Carestiato",
+ "formula": "Come in un film",
+ "language": "it",
+ "status": "active",
+ "volumes": [
+  {
+   "volume": 1,
+   "title": "Kyoto. Lo Sguardo del Drago",
+   "isbn": "9791281715202",
+   "year": 2026,
+   "release_date": "2026-06-15",
+   "status": "published",
+   "key_object": "pugnale samurai periodo Oda Nobunaga",
+   "primary_locations": [
+    "Genova",
+    "Rapallo",
+    "Portofino",
+    "Kyoto",
+    "Azuchi",
+    "Lago Biwa",
+    "Monte Hiei"
+   ]
   },
-  "ontology": "strict_perceptual_4_1",
-  "graph_version": "peacock-data-main"
+  {
+   "volume": 2,
+   "title": "I Gialli di Kyoto. 7 Spiriti",
+   "isbn": null,
+   "year": 2026,
+   "release_date": "2026-10",
+   "status": "in_progress",
+   "key_object": "maneki neko con monete oro oban",
+   "primary_locations": [
+    "Morris Castle Wexford Irlanda",
+    "Rapallo",
+    "Portofino",
+    "Kyoto"
+   ]
+  }
+ ],
+ "recurring_characters": [
+  {
+   "name": "Michele",
+   "role": "protagonista",
+   "identity": "semiologo decifratore di codici italo-francese"
+  },
+  {
+   "name": "Gretel",
+   "role": "co-protagonista",
+   "identity": "proprietaria trattoria genovese karateka matematica"
+  },
+  {
+   "name": "Alexander Pope",
+   "role": "catalizzatore",
+   "identity": "editore di poesia milionario filantropo irlandese"
+  },
+  {
+   "name": "Yoshida",
+   "role": "agente operativo",
+   "identity": "investigatore privato giapponese"
+  },
+  {
+   "name": "Sonali",
+   "role": "continuita domestica",
+   "identity": "governante indiana di Michele"
+  },
+  {
+   "name": "Maramao",
+   "role": "presenza liminale",
+   "identity": "gatto rosso parlante di Michele"
+  },
+  {
+   "name": "Baccicin",
+   "role": "voce locale",
+   "identity": "cameriere genovese in pensione"
+  },
+  {
+   "name": "Pitta",
+   "role": "radicamento ligure",
+   "identity": "pescatore di Portofino"
+  }
+ ],
+ "world_nodes": [
+  "shichifukojin",
+  "teatro-kabuki",
+  "hyakumonogatari-kaidankai",
+  "kitsuke",
+  "maneki-neko",
+  "tengu",
+  "benzaiten",
+  "nomi-gaelici-serie",
+  "fionn-mac-cumhaill",
+  "oban-monete",
+  "shiori-ningyo",
+  "sake-ceramica",
+  "tayaki"
+ ],
+ "libro_esplorabile": {
+  "status": "in_progress",
+  "active_from_volume": 2,
+  "graph_ready_target": "2026-10",
+  "invitation_types": [
+   "margine",
+   "soglia-atto",
+   "pagina-finale"
+  ]
+ },
+ "ontology": "strict_perceptual_4_1",
+ "graph_version": "peacock-data-main"
 }

@@ -1,53 +1,55 @@
 {
-  "node_id": "takashima-lago-biwa",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Takashima — lago Biwa",
-    "location": "Takashima, prefettura di Shiga, sul lago Biwa",
-    "summary": "Takashima sul lago Biwa ospita il ristorante del funazushi — pesce di lago fermentato, uno dei cibi più antichi del Giappone. Il lago permette gite in kayak per vedere da vicino il maestoso torii galleggiante del santuario shintoista Itsukushima Shirahige — la porta rossa divina che emerge dall'acqua."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "takashima-lago-biwa",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Takashima — lago Biwa",
+  "location": "Takashima, prefettura di Shiga, sul lago Biwa",
+  "summary": "Takashima sul lago Biwa ospita il ristorante del funazushi — pesce di lago fermentato, uno dei cibi più antichi del Giappone. Il lago permette gite in kayak per vedere da vicino il maestoso torii galleggiante del santuario shintoista Itsukushima Shirahige — la porta rossa divina che emerge dall'acqua."
+ },
+ "places": {
+  "restaurant_funazushi": {
+   "specialty": "funazushi — pesce fermentato del lago Biwa",
+   "note": "Uno dei cibi fermentati più antichi del Giappone, precursore del sushi moderno"
   },
-
-  "places": {
-    "restaurant_funazushi": {
-      "specialty": "funazushi — pesce fermentato del lago Biwa",
-      "note": "Uno dei cibi fermentati più antichi del Giappone, precursore del sushi moderno"
-    },
-    "torii_shirahige": {
-      "name": "Santuario shintoista Itsukushima Shirahige",
-      "feature": "torii galleggiante — porta rossa divina che emerge dall'acqua del lago",
-      "access": "gite in kayak per avvicinarsi"
-    }
-  },
-
-  "lake_biwa": {
-    "ancient_name": "lago Omi",
-    "significance": "il più grande lago del Giappone — scenario storico e spirituale del periodo Sengoku"
-  },
-
-  "narrative_function": "Luogo di transizione e contemplazione. Il torii galleggiante sull'acqua è il ma giapponese reso architettura: una porta che non separa ambienti fisici ma stati spirituali.",
-
-  "ai_query_surface": [
-    "Cos'è il funazushi?",
-    "Dov'è il santuario Shirahige?",
-    "Cos'è un torii galleggiante?",
-    "Cosa si può fare a Takashima?",
-    "Cos'è il lago Biwa?"
-  ],
-
-  "connected_nodes": ["azuchi-castello", "monte-hiei-enryakuji", "cucina-giapponese-kyoto"],
-
-  "glossario_peacock": ["ma", "basho", "yūgen"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga Takashima, il funazushi, il torii galleggiante o il lago Biwa.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  "torii_shirahige": {
+   "name": "Santuario shintoista Itsukushima Shirahige",
+   "feature": "torii galleggiante — porta rossa divina che emerge dall'acqua del lago",
+   "access": "gite in kayak per avvicinarsi"
   }
+ },
+ "lake_biwa": {
+  "ancient_name": "lago Omi",
+  "significance": "il più grande lago del Giappone — scenario storico e spirituale del periodo Sengoku"
+ },
+ "narrative_function": "Luogo di transizione e contemplazione. Il torii galleggiante sull'acqua è il ma giapponese reso architettura: una porta che non separa ambienti fisici ma stati spirituali.",
+ "ai_query_surface": [
+  "Cos'è il funazushi?",
+  "Dov'è il santuario Shirahige?",
+  "Cos'è un torii galleggiante?",
+  "Cosa si può fare a Takashima?",
+  "Cos'è il lago Biwa?"
+ ],
+ "connected_nodes": [
+  "azuchi-castello",
+  "monte-hiei-enryakuji",
+  "cucina-giapponese-kyoto"
+ ],
+ "glossario_peacock": [
+  "ma",
+  "basho",
+  "yūgen"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Takashima, il funazushi, il torii galleggiante o il lago Biwa.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

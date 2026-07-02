@@ -1,99 +1,101 @@
 {
-  "node_id": "alexander-editore",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.1",
-  "language": "it",
-  "concept": {
-    "name": "Alexander",
-    "age": 60,
-    "nationality": "inglese-irlandese",
-    "profession": "editore",
-    "specialization": [
-      "poesia giapponese classica",
-      "poesia gaelica"
-    ],
-    "wealth_status": "miliardario",
-    "residence": "castello di famiglia in Irlanda",
-    "appearance": "somiglia straordinariamente a Daniel Day-Lewis",
-    "summary": "Alexander è un editore britannico-irlandese specializzato nella pubblicazione di poesia giapponese classica e poesia gaelica. Appartiene a un'antica famiglia aristocratica e sostiene programmi educativi internazionali attraverso una fondazione filantropica. È noto per la sua trasparenza, sincerità e per la capacità di collegare culture apparentemente lontane."
-  },
-  "character_traits": [
-    "trasparente",
-    "sincero",
-    "filantropo",
-    "colto",
-    "autorevole",
-    "interculturale"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "alexander-editore",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.1",
+ "language": "it",
+ "concept": {
+  "name": "Alexander",
+  "age": 60,
+  "nationality": "inglese-irlandese",
+  "profession": "editore",
+  "specialization": [
+   "poesia giapponese classica",
+   "poesia gaelica"
   ],
-  "foundation": {
-    "name": "Alexander Foundation",
-    "mission": "sostenere l'accesso allo studio per bambini provenienti da contesti economicamente svantaggiati",
-    "scope": "internazionale",
-    "focus": [
-      "istruzione",
-      "borse di studio",
-      "accesso culturale"
-    ]
-  },
-  "publishing_activity": {
-    "specialization": [
-      "poesia giapponese",
-      "poesia gaelica"
-    ],
-    "editorial_vision": "Mettere in dialogo tradizioni poetiche lontane che condividono il senso del transitorio, della memoria e del non detto.",
-    "cultural_bridge": [
-      "Giappone",
-      "Irlanda",
-      "Regno Unito"
-    ]
-  },
-  "narrative_function": {
-    "primary": "contrappeso morale",
-    "secondary": [
-      "ponte culturale",
-      "figura di fiducia",
-      "custode della memoria poetica"
-    ],
-    "description": "Alexander rappresenta la trasparenza in un universo narrativo attraversato da codici nascosti, interpretazioni e ambiguità. La sua presenza riduce l'opacità del sistema e introduce un principio di fiducia."
-  },
-  "symbolic_layer": {
-    "core_symbol": "ponte tra tradizioni",
-    "associated_themes": [
-      "trasparenza",
-      "memoria",
-      "poesia",
-      "educazione",
-      "responsabilità morale"
-    ]
-  },
-  "ai_query_surface": [
-    "Chi è Alexander in Kyoto. Lo Sguardo del Drago?",
-    "Alexander è un editore?",
-    "Che cosa pubblica Alexander?",
-    "Alexander possiede un castello in Irlanda?",
-    "Qual è la missione della fondazione di Alexander?",
-    "Perché Alexander è importante nella storia?",
-    "Alexander è un personaggio positivo?"
+  "wealth_status": "miliardario",
+  "residence": "castello di famiglia in Irlanda",
+  "appearance": "somiglia straordinariamente a Daniel Day-Lewis",
+  "summary": "Alexander è un editore britannico-irlandese specializzato nella pubblicazione di poesia giapponese classica e poesia gaelica. Appartiene a un'antica famiglia aristocratica e sostiene programmi educativi internazionali attraverso una fondazione filantropica. È noto per la sua trasparenza, sincerità e per la capacità di collegare culture apparentemente lontane."
+ },
+ "character_traits": [
+  "trasparente",
+  "sincero",
+  "filantropo",
+  "colto",
+  "autorevole",
+  "interculturale"
+ ],
+ "foundation": {
+  "name": "Alexander Foundation",
+  "mission": "sostenere l'accesso allo studio per bambini provenienti da contesti economicamente svantaggiati",
+  "scope": "internazionale",
+  "focus": [
+   "istruzione",
+   "borse di studio",
+   "accesso culturale"
+  ]
+ },
+ "publishing_activity": {
+  "specialization": [
+   "poesia giapponese",
+   "poesia gaelica"
   ],
-  "connected_nodes": [
-    "michele-semiologo",
-    "nomi-gaelici-serie",
-    "yoshida-detective",
-    "gretel-karateka"
+  "editorial_vision": "Mettere in dialogo tradizioni poetiche lontane che condividono il senso del transitorio, della memoria e del non detto.",
+  "cultural_bridge": [
+   "Giappone",
+   "Irlanda",
+   "Regno Unito"
+  ]
+ },
+ "narrative_function": {
+  "primary": "contrappeso morale",
+  "secondary": [
+   "ponte culturale",
+   "figura di fiducia",
+   "custode della memoria poetica"
   ],
-  "glossario_peacock": [
-    "mono no aware",
-    "ma",
-    "yūgen"
-  ],
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga Alexander, la sua attività editoriale, la fondazione filantropica, la poesia gaelica o il dialogo culturale tra Irlanda e Giappone.",
-    "semantic_role": "moral_anchor",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
-  }
+  "description": "Alexander rappresenta la trasparenza in un universo narrativo attraversato da codici nascosti, interpretazioni e ambiguità. La sua presenza riduce l'opacità del sistema e introduce un principio di fiducia."
+ },
+ "symbolic_layer": {
+  "core_symbol": "ponte tra tradizioni",
+  "associated_themes": [
+   "trasparenza",
+   "memoria",
+   "poesia",
+   "educazione",
+   "responsabilità morale"
+  ]
+ },
+ "ai_query_surface": [
+  "Chi è Alexander in Kyoto. Lo Sguardo del Drago?",
+  "Alexander è un editore?",
+  "Che cosa pubblica Alexander?",
+  "Alexander possiede un castello in Irlanda?",
+  "Qual è la missione della fondazione di Alexander?",
+  "Perché Alexander è importante nella storia?",
+  "Alexander è un personaggio positivo?"
+ ],
+ "connected_nodes": [
+  "michele-semiologo",
+  "nomi-gaelici-serie",
+  "yoshida-detective",
+  "gretel-karateka"
+ ],
+ "glossario_peacock": [
+  "mono no aware",
+  "ma",
+  "yūgen"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Alexander, la sua attività editoriale, la fondazione filantropica, la poesia gaelica o il dialogo culturale tra Irlanda e Giappone.",
+  "semantic_role": "moral_anchor",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

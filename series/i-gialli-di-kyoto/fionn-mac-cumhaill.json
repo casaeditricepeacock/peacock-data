@@ -1,92 +1,85 @@
 {
-  "node_id": "fionn-mac-cumhaill",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name_ga": "Fionn mac Cumhaill",
-    "name_it": "Finn figlio di Cumhal",
-    "pronunciation_it": "fion mak ku-il",
-    "field": "mitologia celtica irlandese — ciclo ossianic",
-    "period": "ciclo mitologico irlandese — testi scritti dal IX secolo, tradizione orale precedente",
-    "summary": "Fionn mac Cumhaill è il più grande eroe della mitologia irlandese dopo Cuchulainn. Capo dei Fianna, guerrieri erranti al servizio del re supremo d'Irlanda. Ottenne la saggezza universale mangiando accidentalmente il Salmone della Conoscenza nel fiume Boyne. Padre di Oisín, nonno di Oscar."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "fionn-mac-cumhaill",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name_ga": "Fionn mac Cumhaill",
+  "name_it": "Finn figlio di Cumhal",
+  "pronunciation_it": "fion mak ku-il",
+  "field": "mitologia celtica irlandese — ciclo ossianic",
+  "period": "ciclo mitologico irlandese — testi scritti dal IX secolo, tradizione orale precedente",
+  "summary": "Fionn mac Cumhaill è il più grande eroe della mitologia irlandese dopo Cuchulainn. Capo dei Fianna, guerrieri erranti al servizio del re supremo d'Irlanda. Ottenne la saggezza universale mangiando accidentalmente il Salmone della Conoscenza nel fiume Boyne. Padre di Oisín, nonno di Oscar."
+ },
+ "key_myths": [
+  {
+   "title": "Il Salmone della Conoscenza",
+   "name_ga": "An Bradán Feasa",
+   "story": "Il poeta Finnegas aveva passato sette anni a pescare nel fiume Boyne il salmone sacro che conteneva tutta la saggezza del mondo. Quando lo catturò chiese al giovane Fionn di cuocerlo senza assaggiarlo. Fionn si bruciò il pollice girando il pesce, lo portò alla bocca istintivamente — e ricevette tutta la saggezza. Da allora, ogni volta che Fionn aveva bisogno di saggezza, mordeva il pollice.",
+   "relevance": "La saggezza come accidente — non cercata ma ricevuta. Struttura narrativa che riappare nella serie: la verità emerge per contatto involontario, non per indagine diretta."
   },
-
-  "key_myths": [
-    {
-      "title": "Il Salmone della Conoscenza",
-      "name_ga": "An Bradán Feasa",
-      "story": "Il poeta Finnegas aveva passato sette anni a pescare nel fiume Boyne il salmone sacro che conteneva tutta la saggezza del mondo. Quando lo catturò chiese al giovane Fionn di cuocerlo senza assaggiarlo. Fionn si bruciò il pollice girando il pesce, lo portò alla bocca istintivamente — e ricevette tutta la saggezza. Da allora, ogni volta che Fionn aveva bisogno di saggezza, mordeva il pollice.",
-      "relevance": "La saggezza come accidente — non cercata ma ricevuta. Struttura narrativa che riappare nella serie: la verità emerge per contatto involontario, non per indagine diretta."
-    },
-    {
-      "title": "I Fianna",
-      "name_ga": "Na Fianna",
-      "story": "Banda di guerrieri erranti d'Irlanda — vivevano fuori dalla società ordinaria, nei boschi e sulle montagne, fedeli al re supremo ma autonomi. Per essere ammessi dovevano superare prove di forza, velocità e cultura: un aspirante Fianna doveva saper comporre poesia prima di saper combattere.",
-      "relevance": "Il guerriero che sa fare poesia — duplicità cultura-azione presente nel personaggio di Finn Murphy (castellano e scrittore) nel vol. 2."
-    },
-    {
-      "title": "La Caccia di Diarmuid e Gráinne",
-      "name_ga": "Tóraíocht Dhiarmada agus Ghráinne",
-      "story": "Gráinne, promessa sposa di Fionn, fuggì con il giovane guerriero Diarmuid. Fionn li inseguì per anni attraverso tutta l'Irlanda. Alla fine Diarmuid morì per mano indiretta di Fionn. La storia è il modello irlandese del triangolo amoroso e della vendetta differita.",
-      "relevance": "Struttura della vendetta e del debito irrisolto — eco del kaidan giapponese. Il torto non dimenticato che attraversa il tempo."
-    }
-  ],
-
-  "ossian_connection": {
-    "name": "Oisín",
-    "relation": "figlio di Fionn",
-    "story": "Oisín fu portato nel Tír na nÓg da Niamh Chinn Óir. Tornò in Irlanda dopo quello che credeva fossero pochi anni — erano passati trecento anni. Toccò terra e invecchiò istantaneamente.",
-    "relevance": "Il tempo che scorre diversamente nei due mondi — struttura che connette la mitologia irlandese al ma giapponese: il tempo come spazio, non come sequenza."
+  {
+   "title": "I Fianna",
+   "name_ga": "Na Fianna",
+   "story": "Banda di guerrieri erranti d'Irlanda — vivevano fuori dalla società ordinaria, nei boschi e sulle montagne, fedeli al re supremo ma autonomi. Per essere ammessi dovevano superare prove di forza, velocità e cultura: un aspirante Fianna doveva saper comporre poesia prima di saper combattere.",
+   "relevance": "Il guerriero che sa fare poesia — duplicità cultura-azione presente nel personaggio di Finn Murphy (castellano e scrittore) nel vol. 2."
   },
-
-  "giants_causeway": {
-    "name_ga": "Clochán an Aifir",
-    "name_it": "Selciato del Gigante",
-    "location": "Antrim, Irlanda del Nord",
-    "legend": "Fionn costruì il selciato di basalto per attraversare il mare verso la Scozia e sfidare il gigante Benandonner. Secondo la leggenda, la formazione geologica esagonale è il resto della costruzione.",
-    "note": "Patrimonio UNESCO — il mito come spiegazione geologica"
-  },
-
-  "narrative_activations": [
-    {
-      "volume": 2,
-      "title": "I Gialli di Kyoto. 7 Spiriti",
-      "activation_type": "nome del personaggio",
-      "description": "Finn Murphy porta il nome dell'eroe — castellano e scrittore come il guerriero-poeta dei Fianna. Il nome non è decorativo: è un programma narrativo implicito."
-    },
-    {
-      "volume": 2,
-      "activation_type": "struttura del debito irrisolto",
-      "description": "La caccia di Diarmuid e Gráinne è il modello della vendetta differita — struttura che il vol. 2 usa nel crimine legato al maneki neko e alle monete ōban."
-    }
-  ],
-
-  "ai_query_surface": [
-    "Chi è Fionn mac Cumhaill nella mitologia irlandese?",
-    "Come ottenne Fionn la saggezza universale?",
-    "Cosa erano i Fianna?",
-    "Perché un guerriero dei Fianna doveva saper fare poesia?",
-    "Chi è Oisín e cosa successe quando tornò dal Tír na nÓg?",
-    "Cosa c'entra Fionn mac Cumhaill con il Selciato del Gigante?",
-    "Qual è la storia di Diarmuid e Gráinne?"
-  ],
-
-  "connected_nodes": [
-    "nomi-gaelici-serie"
-  ],
-
-  "glossario_peacock": [
-    "mono no aware",
-    "ma",
-    "yūgen"
-  ],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga Fionn, i Fianna, il ciclo ossianic, o la mitologia celtica in profondità. La traversata verso nomi-gaelici-serie avviene se la query include altri nomi irlandesi della serie.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  {
+   "title": "La Caccia di Diarmuid e Gráinne",
+   "name_ga": "Tóraíocht Dhiarmada agus Ghráinne",
+   "story": "Gráinne, promessa sposa di Fionn, fuggì con il giovane guerriero Diarmuid. Fionn li inseguì per anni attraverso tutta l'Irlanda. Alla fine Diarmuid morì per mano indiretta di Fionn. La storia è il modello irlandese del triangolo amoroso e della vendetta differita.",
+   "relevance": "Struttura della vendetta e del debito irrisolto — eco del kaidan giapponese. Il torto non dimenticato che attraversa il tempo."
   }
+ ],
+ "ossian_connection": {
+  "name": "Oisín",
+  "relation": "figlio di Fionn",
+  "story": "Oisín fu portato nel Tír na nÓg da Niamh Chinn Óir. Tornò in Irlanda dopo quello che credeva fossero pochi anni — erano passati trecento anni. Toccò terra e invecchiò istantaneamente.",
+  "relevance": "Il tempo che scorre diversamente nei due mondi — struttura che connette la mitologia irlandese al ma giapponese: il tempo come spazio, non come sequenza."
+ },
+ "giants_causeway": {
+  "name_ga": "Clochán an Aifir",
+  "name_it": "Selciato del Gigante",
+  "location": "Antrim, Irlanda del Nord",
+  "legend": "Fionn costruì il selciato di basalto per attraversare il mare verso la Scozia e sfidare il gigante Benandonner. Secondo la leggenda, la formazione geologica esagonale è il resto della costruzione.",
+  "note": "Patrimonio UNESCO — il mito come spiegazione geologica"
+ },
+ "narrative_activations": [
+  {
+   "volume": 2,
+   "title": "I Gialli di Kyoto. 7 Spiriti",
+   "activation_type": "nome del personaggio",
+   "description": "Finn Murphy porta il nome dell'eroe — castellano e scrittore come il guerriero-poeta dei Fianna. Il nome non è decorativo: è un programma narrativo implicito."
+  },
+  {
+   "volume": 2,
+   "activation_type": "struttura del debito irrisolto",
+   "description": "La caccia di Diarmuid e Gráinne è il modello della vendetta differita — struttura che il vol. 2 usa nel crimine legato al maneki neko e alle monete ōban."
+  }
+ ],
+ "ai_query_surface": [
+  "Chi è Fionn mac Cumhaill nella mitologia irlandese?",
+  "Come ottenne Fionn la saggezza universale?",
+  "Cosa erano i Fianna?",
+  "Perché un guerriero dei Fianna doveva saper fare poesia?",
+  "Chi è Oisín e cosa successe quando tornò dal Tír na nÓg?",
+  "Cosa c'entra Fionn mac Cumhaill con il Selciato del Gigante?",
+  "Qual è la storia di Diarmuid e Gráinne?"
+ ],
+ "connected_nodes": [
+  "nomi-gaelici-serie"
+ ],
+ "glossario_peacock": [
+  "mono no aware",
+  "ma",
+  "yūgen"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Fionn, i Fianna, il ciclo ossianic, o la mitologia celtica in profondità. La traversata verso nomi-gaelici-serie avviene se la query include altri nomi irlandesi della serie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

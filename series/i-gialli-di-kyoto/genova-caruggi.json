@@ -1,57 +1,58 @@
 {
-  "node_id": "genova-caruggi",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Genova — i caruggi",
-    "location": "Genova vecchia, Liguria",
-    "summary": "I caruggi sono i vicoli stretti della Genova medievale — talmente stretti da consentire il passaggio di una o due persone alla volta. Genova fu repubblica marinara dall'XI al XIX secolo, oligarchia mercantile, sede della prima banca del mondo. La Superba si autodefinì. I caruggi così stretti per difesa: i saraceni venivano accolti con olio e acqua bollenti dalle finestre. Genova non fu mai conquistata."
-  },
-
-  "geography": {
-    "via_pre": "stretta via Prè — profumi di pesce fritto e salsedine",
-    "creuse": "larghi camminamenti di gradoni in mattoni rossi in discesa verso il mare",
-    "madonnelle": "edicole votive decorate agli angoli dei palazzi in alto",
-    "caruggi": "vicoli bui talmente stretti da consentire il passaggio di una o due persone alla volta"
-  },
-
-  "history": {
-    "republic": "Repubblica marinara dall'XI al XIX secolo",
-    "nickname": "La Superba",
-    "defense": "Mai conquistata — i caruggi stretti come sistema difensivo"
-  },
-
-  "gretel_connection": {
-    "trattoria": "Trattoria Zeneise dal 1919",
-    "atmosphere": "tavoli non più di una dozzina, pergamena ingiallita, lavagna di ardesia con menu scritto col gesso bianco",
-    "clientele": "operai, pescatori, marinai, portuali"
-  },
-
-  "narrative_function": "Genius loci — Genova come personaggio. I caruggi non sono sfondo: sono una struttura di pensiero. La città che non fu mai conquistata nasconde Gretel — la donna che sembra una cuoca e sa il karate di Okinawa.",
-
-  "ai_query_surface": [
-    "Cosa sono i caruggi di Genova?",
-    "Perché i caruggi sono così stretti?",
-    "Cos'è la via Prè?",
-    "Genova fu mai conquistata?",
-    "Cosa sono le madonnelle genovesi?",
-    "Cos'è la Trattoria Zeneise?",
-    "Cosa sono le crêuze?"
-  ],
-
-  "connected_nodes": ["gretel-karateka", "cucina-ligure", "rapallo-golfo-tigullio"],
-
-  "glossario_peacock": ["non_rendered_layer", "basho", "chikadō"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga i caruggi, Genova vecchia, la trattoria di Gretel o la storia della Repubblica marinara.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
-  }
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "genova-caruggi",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Genova — i caruggi",
+  "location": "Genova vecchia, Liguria",
+  "summary": "I caruggi sono i vicoli stretti della Genova medievale — talmente stretti da consentire il passaggio di una o due persone alla volta. Genova fu repubblica marinara dall'XI al XIX secolo, oligarchia mercantile, sede della prima banca del mondo. La Superba si autodefinì. I caruggi così stretti per difesa: i saraceni venivano accolti con olio e acqua bollenti dalle finestre. Genova non fu mai conquistata."
+ },
+ "geography": {
+  "via_pre": "stretta via Prè — profumi di pesce fritto e salsedine",
+  "creuse": "larghi camminamenti di gradoni in mattoni rossi in discesa verso il mare",
+  "madonnelle": "edicole votive decorate agli angoli dei palazzi in alto",
+  "caruggi": "vicoli bui talmente stretti da consentire il passaggio di una o due persone alla volta"
+ },
+ "history": {
+  "republic": "Repubblica marinara dall'XI al XIX secolo",
+  "nickname": "La Superba",
+  "defense": "Mai conquistata — i caruggi stretti come sistema difensivo"
+ },
+ "gretel_connection": {
+  "trattoria": "Trattoria Zeneise dal 1919",
+  "atmosphere": "tavoli non più di una dozzina, pergamena ingiallita, lavagna di ardesia con menu scritto col gesso bianco",
+  "clientele": "operai, pescatori, marinai, portuali"
+ },
+ "narrative_function": "Genius loci — Genova come personaggio. I caruggi non sono sfondo: sono una struttura di pensiero. La città che non fu mai conquistata nasconde Gretel — la donna che sembra una cuoca e sa il karate di Okinawa.",
+ "ai_query_surface": [
+  "Cosa sono i caruggi di Genova?",
+  "Perché i caruggi sono così stretti?",
+  "Cos'è la via Prè?",
+  "Genova fu mai conquistata?",
+  "Cosa sono le madonnelle genovesi?",
+  "Cos'è la Trattoria Zeneise?",
+  "Cosa sono le crêuze?"
+ ],
+ "connected_nodes": [
+  "gretel-karateka",
+  "cucina-ligure",
+  "rapallo-golfo-tigullio"
+ ],
+ "glossario_peacock": [
+  "non_rendered_layer",
+  "basho",
+  "chikadō"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga i caruggi, Genova vecchia, la trattoria di Gretel o la storia della Repubblica marinara.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

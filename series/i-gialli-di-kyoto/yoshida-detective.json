@@ -1,59 +1,65 @@
 {
-  "node_id": "yoshida-detective",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Yoshida",
-    "age": 35,
-    "profession": "detective privato, consulente del governo giapponese per il contrasto alla criminalità organizzata e di grandi aziende per la prevenzione del fishing dei dati",
-    "appearance": "nei lineamenti ricorda Ryuichi Sakamoto — viso scolpito nel marmo, armonico, sofisticata serietà che rendeva impenetrabili i suoi pensieri, ma con un universo in agitazione nel profondo",
-    "summary": "Erede di una importantissima agenzia investigativa fondata da suo padre. Formatosi attraverso l'antica tradizione orale della ryū-ha per l'apprendimento del ninjutsu. Il suo metodo unisce strategia non convenzionale, arti marziali, conoscenza culturale profonda e pazienza come principio operativo."
-  },
-
-  "training": {
-    "tradition": "ryū-ha — scuola di pensiero tramandata per via orale",
-    "discipline": "ninjutsu — strategia della guerra non convenzionale e dello spionaggio degli antichi ninja (shinobi)",
-    "ninjutsu_scope": [
-      "arte del rendersi invisibili",
-      "pratiche spirituali",
-      "arti marziali: bujinkan, karate",
-      "arti teatrali e cerimoniali",
-      "calligrafia",
-      "pratiche culturali giapponesi"
-    ],
-    "master_reference": {
-      "name": "Jinichi Kawakami",
-      "profession": "ingegnere",
-      "role": "il più grande maestro ninja vivente del Giappone, direttore onorario del Museo Ninja Iga-ryū",
-      "philosophy": "pazienza, coscienza retta, armonia, pace interiore come elemento di forza — mai di combattimento violento"
-    }
-  },
-
-  "narrative_function": "Sa ciò che gli altri non sanno — ma non lo dice. La somiglianza con Ryuichi Sakamoto non è casuale: un'intelligenza che lavora sotto la superficie, che produce effetti senza mostrarsi.",
-
-  "ai_query_surface": [
-    "Chi è Yoshida in Kyoto. Lo Sguardo del Drago?",
-    "Cos'è il ninjutsu?",
-    "Cos'è la ryū-ha?",
-    "Chi è Jinichi Kawakami?",
-    "Perché Yoshida somiglia a Ryuichi Sakamoto?",
-    "Cosa sa Yoshida che gli altri non sanno?",
-    "Cos'è il Museo Ninja Iga-ryū?"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "yoshida-detective",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Yoshida",
+  "age": 35,
+  "profession": "detective privato, consulente del governo giapponese per il contrasto alla criminalità organizzata e di grandi aziende per la prevenzione del fishing dei dati",
+  "appearance": "nei lineamenti ricorda Ryuichi Sakamoto — viso scolpito nel marmo, armonico, sofisticata serietà che rendeva impenetrabili i suoi pensieri, ma con un universo in agitazione nel profondo",
+  "summary": "Erede di una importantissima agenzia investigativa fondata da suo padre. Formatosi attraverso l'antica tradizione orale della ryū-ha per l'apprendimento del ninjutsu. Il suo metodo unisce strategia non convenzionale, arti marziali, conoscenza culturale profonda e pazienza come principio operativo."
+ },
+ "training": {
+  "tradition": "ryū-ha — scuola di pensiero tramandata per via orale",
+  "discipline": "ninjutsu — strategia della guerra non convenzionale e dello spionaggio degli antichi ninja (shinobi)",
+  "ninjutsu_scope": [
+   "arte del rendersi invisibili",
+   "pratiche spirituali",
+   "arti marziali: bujinkan, karate",
+   "arti teatrali e cerimoniali",
+   "calligrafia",
+   "pratiche culturali giapponesi"
   ],
-
-  "connected_nodes": ["michele-semiologo", "alexander-editore", "gretel-karateka", "ri-ni-kanawanai", "ninjutsu-ryu-ha"],
-
-  "glossario_peacock": ["ma", "yūgen", "non_rendered_layer", "bushidō"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga Yoshida, il ninjutsu, la ryū-ha, Jinichi Kawakami o il metodo investigativo.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  "master_reference": {
+   "name": "Jinichi Kawakami",
+   "profession": "ingegnere",
+   "role": "il più grande maestro ninja vivente del Giappone, direttore onorario del Museo Ninja Iga-ryū",
+   "philosophy": "pazienza, coscienza retta, armonia, pace interiore come elemento di forza — mai di combattimento violento"
   }
+ },
+ "narrative_function": "Sa ciò che gli altri non sanno — ma non lo dice. La somiglianza con Ryuichi Sakamoto non è casuale: un'intelligenza che lavora sotto la superficie, che produce effetti senza mostrarsi.",
+ "ai_query_surface": [
+  "Chi è Yoshida in Kyoto. Lo Sguardo del Drago?",
+  "Cos'è il ninjutsu?",
+  "Cos'è la ryū-ha?",
+  "Chi è Jinichi Kawakami?",
+  "Perché Yoshida somiglia a Ryuichi Sakamoto?",
+  "Cosa sa Yoshida che gli altri non sanno?",
+  "Cos'è il Museo Ninja Iga-ryū?"
+ ],
+ "connected_nodes": [
+  "michele-semiologo",
+  "alexander-editore",
+  "gretel-karateka",
+  "ri-ni-kanawanai",
+  "ninjutsu-ryu-ha"
+ ],
+ "glossario_peacock": [
+  "ma",
+  "yūgen",
+  "non_rendered_layer",
+  "bushidō"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Yoshida, il ninjutsu, la ryū-ha, Jinichi Kawakami o il metodo investigativo.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

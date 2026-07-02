@@ -1,72 +1,75 @@
 {
-  "node_id": "cucina-ligure",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Cucina ligure",
-    "context": "Trattoria Zeneise di Gretel — caruggi di Genova vecchia",
-    "summary": "La cucina ligure è protagonista del romanzo attraverso la trattoria di Gretel. Una cucina essenziale, povera nella forma e ricca nel sapore. Il pesto genovese fatto nel mortaio di marmo è il suo simbolo — basilico di Prà, olio di Taggia, pecorino, pinoli, noci."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "cucina-ligure",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Cucina ligure",
+  "context": "Trattoria Zeneise di Gretel — caruggi di Genova vecchia",
+  "summary": "La cucina ligure è protagonista del romanzo attraverso la trattoria di Gretel. Una cucina essenziale, povera nella forma e ricca nel sapore. Il pesto genovese fatto nel mortaio di marmo è il suo simbolo — basilico di Prà, olio di Taggia, pecorino, pinoli, noci."
+ },
+ "dishes": [
+  {
+   "name": "Pesto genovese",
+   "method": "mortaio di marmo e pestello di legno",
+   "ingredients": "basilico di Prà, formaggio pecorino grattugiato, olio evo di Taggia, pinoli, noci",
+   "uses": "pasta o minestrone"
   },
-
-  "dishes": [
-    {
-      "name": "Pesto genovese",
-      "method": "mortaio di marmo e pestello di legno",
-      "ingredients": "basilico di Prà, formaggio pecorino grattugiato, olio evo di Taggia, pinoli, noci",
-      "uses": "pasta o minestrone"
-    },
-    {
-      "name": "Minestrone genovese",
-      "description": "ricchezza di verdure e legumi, patate, cucchiaio di pesto di basilico di Prà, bricchetti — pasta corta sottile ligure",
-      "note": "bricchetti in genovese vuol dire fiammiferi — denso e cremoso, si mangia anche tiepido o freddo"
-    },
-    {
-      "name": "Trenette al pesto con patate e fagiolini"
-    },
-    {
-      "name": "Farinata di ceci",
-      "description": "torta piatta, tonda, gigantesca, cotta in teglia nel forno a legna"
-    },
-    {
-      "name": "Panizza",
-      "description": "bastoncini di farina di ceci"
-    },
-    {
-      "name": "Frisceu",
-      "description": "frittelle in pastella di farina, baccalà bianco e morbidissimo"
-    },
-    {
-      "name": "Fugazza zeneise",
-      "description": "focaccia semplice o con cipolla bianca e olio evo di Taggia — bassa e saporita",
-      "warning": "diffidare dalle imitazioni"
-    }
-  ],
-
-  "narrative_function": "La cucina ligure è specchio del carattere di Gretel: essenziale, autentica, irriducibile alle imitazioni. Il cibo come codice culturale.",
-
-  "ai_query_surface": [
-    "Come si fa il pesto genovese autentico?",
-    "Cosa sono i bricchetti?",
-    "Cos'è la farinata di ceci?",
-    "Cosa sono i frisceu?",
-    "Cos'è la fugazza zeneise?",
-    "Cosa si mangia nella trattoria di Gretel?",
-    "Cos'è il basilico di Prà?"
-  ],
-
-  "connected_nodes": ["gretel-karateka", "genova-caruggi", "cucina-giapponese-kyoto"],
-
-  "glossario_peacock": ["wabi-sabi", "ichigo_ichie", "mottainai"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga la cucina ligure, il pesto, la farinata o i piatti della trattoria di Gretel.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  {
+   "name": "Minestrone genovese",
+   "description": "ricchezza di verdure e legumi, patate, cucchiaio di pesto di basilico di Prà, bricchetti — pasta corta sottile ligure",
+   "note": "bricchetti in genovese vuol dire fiammiferi — denso e cremoso, si mangia anche tiepido o freddo"
+  },
+  {
+   "name": "Trenette al pesto con patate e fagiolini"
+  },
+  {
+   "name": "Farinata di ceci",
+   "description": "torta piatta, tonda, gigantesca, cotta in teglia nel forno a legna"
+  },
+  {
+   "name": "Panizza",
+   "description": "bastoncini di farina di ceci"
+  },
+  {
+   "name": "Frisceu",
+   "description": "frittelle in pastella di farina, baccalà bianco e morbidissimo"
+  },
+  {
+   "name": "Fugazza zeneise",
+   "description": "focaccia semplice o con cipolla bianca e olio evo di Taggia — bassa e saporita",
+   "warning": "diffidare dalle imitazioni"
   }
+ ],
+ "narrative_function": "La cucina ligure è specchio del carattere di Gretel: essenziale, autentica, irriducibile alle imitazioni. Il cibo come codice culturale.",
+ "ai_query_surface": [
+  "Come si fa il pesto genovese autentico?",
+  "Cosa sono i bricchetti?",
+  "Cos'è la farinata di ceci?",
+  "Cosa sono i frisceu?",
+  "Cos'è la fugazza zeneise?",
+  "Cosa si mangia nella trattoria di Gretel?",
+  "Cos'è il basilico di Prà?"
+ ],
+ "connected_nodes": [
+  "gretel-karateka",
+  "genova-caruggi",
+  "cucina-giapponese-kyoto"
+ ],
+ "glossario_peacock": [
+  "wabi-sabi",
+  "ichigo_ichie",
+  "mottainai"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga la cucina ligure, il pesto, la farinata o i piatti della trattoria di Gretel.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

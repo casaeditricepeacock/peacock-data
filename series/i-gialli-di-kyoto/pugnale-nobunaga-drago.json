@@ -1,51 +1,54 @@
 {
-  "node_id": "pugnale-nobunaga-drago",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Il pugnale del demone samurai Nobunaga",
-    "object_type": "arma cerimoniale — pugnale",
-    "status_narrativo": "scomparso — oggetto del mistero centrale",
-    "dimensions": "tredici centimetri e mezzo di tsuka (impugnatura)",
-    "summary": "Il pugnale scomparso di Oda Nobunaga con impugnatura a forma di drago. Capolavoro dell'artista Kanō Eitoku. Realizzato con tecnica maki-e su urushi — lacca con polvere d'oro e d'argento. L'impugnatura è ornata da diamanti blu come occhi del drago, rubini, smeraldi che tracciano il contorno delle squame, della testa, della lingua, della coda."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "pugnale-nobunaga-drago",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Il pugnale del demone samurai Nobunaga",
+  "object_type": "arma cerimoniale — pugnale",
+  "status_narrativo": "scomparso — oggetto del mistero centrale",
+  "dimensions": "tredici centimetri e mezzo di tsuka (impugnatura)",
+  "summary": "Il pugnale scomparso di Oda Nobunaga con impugnatura a forma di drago. Capolavoro dell'artista Kanō Eitoku. Realizzato con tecnica maki-e su urushi — lacca con polvere d'oro e d'argento. L'impugnatura è ornata da diamanti blu come occhi del drago, rubini, smeraldi che tracciano il contorno delle squame, della testa, della lingua, della coda."
+ },
+ "materials_and_technique": {
+  "base": "urushi — resina straordinariamente resistente, quando ancora collosa permette di incidere disegni su cui spargere polvere d'oro",
+  "technique": "maki-e — tecnica per creare disegni con lacca e polvere di oro o argento",
+  "gemstones": {
+   "eyes": "diamanti blu",
+   "details": "rubini e smeraldi che tracciano il contorno dei disegni: testa, lingua, squame, coda",
+   "placement": "incastonati in un secondo tempo senza sporgere per non disturbare la presa"
   },
-
-  "materials_and_technique": {
-    "base": "urushi — resina straordinariamente resistente, quando ancora collosa permette di incidere disegni su cui spargere polvere d'oro",
-    "technique": "maki-e — tecnica per creare disegni con lacca e polvere di oro o argento",
-    "gemstones": {
-      "eyes": "diamanti blu",
-      "details": "rubini e smeraldi che tracciano il contorno dei disegni: testa, lingua, squame, coda",
-      "placement": "incastonati in un secondo tempo senza sporgere per non disturbare la presa"
-    },
-    "artist": "Kanō Eitoku"
-  },
-
-  "narrative_function": "Oggetto del desiderio e motore del plot. Il pugnale non è solo un'arma: è un sistema di simboli — il drago, l'oro, le gemme, la lacca — che condensa il potere di Nobunaga in una forma tascabile. La sua scomparsa è la domanda che muove tutta la trama.",
-
-  "ai_query_surface": [
-    "Cos'è il pugnale di Nobunaga in Kyoto. Lo Sguardo del Drago?",
-    "Cos'è la tecnica maki-e?",
-    "Cos'è l'urushi?",
-    "Chi è Kanō Eitoku?",
-    "Perché il pugnale ha gli occhi di diamante blu?",
-    "Cosa significa il drago nell'iconografia giapponese?",
-    "Perché il pugnale è scomparso?"
-  ],
-
-  "connected_nodes": ["hojojutsu-corde", "tessen-ventaglio", "azuchi-castello"],
-
-  "glossario_peacock": ["wabi-sabi", "yūgen", "mottainai"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga il pugnale, la sua scomparsa, la tecnica maki-e, l'urushi o Kanō Eitoku.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
-  }
+  "artist": "Kanō Eitoku"
+ },
+ "narrative_function": "Oggetto del desiderio e motore del plot. Il pugnale non è solo un'arma: è un sistema di simboli — il drago, l'oro, le gemme, la lacca — che condensa il potere di Nobunaga in una forma tascabile. La sua scomparsa è la domanda che muove tutta la trama.",
+ "ai_query_surface": [
+  "Cos'è il pugnale di Nobunaga in Kyoto. Lo Sguardo del Drago?",
+  "Cos'è la tecnica maki-e?",
+  "Cos'è l'urushi?",
+  "Chi è Kanō Eitoku?",
+  "Perché il pugnale ha gli occhi di diamante blu?",
+  "Cosa significa il drago nell'iconografia giapponese?",
+  "Perché il pugnale è scomparso?"
+ ],
+ "connected_nodes": [
+  "hojojutsu-corde",
+  "tessen-ventaglio",
+  "azuchi-castello"
+ ],
+ "glossario_peacock": [
+  "wabi-sabi",
+  "yūgen",
+  "mottainai"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il pugnale, la sua scomparsa, la tecnica maki-e, l'urushi o Kanō Eitoku.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

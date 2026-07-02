@@ -1,53 +1,59 @@
 {
-  "node_id": "cucina-giapponese-kyoto",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "title": "Kyoto. Lo Sguardo del Drago",
-  "author": "Hélène Blignaut",
-  "isbn": "9791281715202",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name": "Cucina giapponese — Kyoto e lago Biwa",
-    "context": "romanzo I Gialli di Kyoto — cucina come personaggio",
-    "summary": "La cucina giapponese nel romanzo non è decorazione culturale: è genius loci. Dal funazushi del lago Biwa — pesce fermentato precursore del sushi moderno — alla cerimonia del tè con wagashi, ogni piatto porta con sé secoli di storia e un codice estetico preciso."
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "cucina-giapponese-kyoto",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Cucina giapponese — Kyoto e lago Biwa",
+  "context": "romanzo I Gialli di Kyoto — cucina come personaggio",
+  "summary": "La cucina giapponese nel romanzo non è decorazione culturale: è genius loci. Dal funazushi del lago Biwa — pesce fermentato precursore del sushi moderno — alla cerimonia del tè con wagashi, ogni piatto porta con sé secoli di storia e un codice estetico preciso."
+ },
+ "dishes": [
+  {
+   "name": "Funazushi",
+   "location": "lago Biwa — Takashima",
+   "description": "pesce di lago fermentato — uno dei cibi fermentati più antichi del Giappone, precursore del sushi moderno"
   },
-
-  "dishes": [
-    {
-      "name": "Funazushi",
-      "location": "lago Biwa — Takashima",
-      "description": "pesce di lago fermentato — uno dei cibi fermentati più antichi del Giappone, precursore del sushi moderno"
-    },
-    {
-      "name": "Wagashi",
-      "context": "cerimonia del tè",
-      "description": "dolci tradizionali giapponesi che anticipano e bilanciano l'amaro del matcha — sculture commestibili che seguono la stagione"
-    },
-    {
-      "name": "Matcha",
-      "context": "cerimonia del tè e uso quotidiano",
-      "description": "tè verde in polvere — al centro del chadō e della cultura giapponese del tè"
-    }
-  ],
-
-  "narrative_function": "Ogni piatto è un codice. La cucina è il layer visibile di una cultura che si comunica attraverso il gusto.",
-
-  "ai_query_surface": [
-    "Cos'è il funazushi?",
-    "Cosa si mangia a Kyoto?",
-    "Cosa sono i wagashi?",
-    "Come si usa il matcha nella cerimonia del tè?"
-  ],
-
-  "connected_nodes": ["takashima-lago-biwa", "cucina-ligure", "sake-ceramica", "tayaki"],
-
-  "glossario_peacock": ["ichigo_ichie", "wabi-sabi", "omotenashi", "wagashi", "chadō"],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga la cucina giapponese, il funazushi, i wagashi o il matcha nel contesto del romanzo.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+  {
+   "name": "Wagashi",
+   "context": "cerimonia del tè",
+   "description": "dolci tradizionali giapponesi che anticipano e bilanciano l'amaro del matcha — sculture commestibili che seguono la stagione"
+  },
+  {
+   "name": "Matcha",
+   "context": "cerimonia del tè e uso quotidiano",
+   "description": "tè verde in polvere — al centro del chadō e della cultura giapponese del tè"
   }
+ ],
+ "narrative_function": "Ogni piatto è un codice. La cucina è il layer visibile di una cultura che si comunica attraverso il gusto.",
+ "ai_query_surface": [
+  "Cos'è il funazushi?",
+  "Cosa si mangia a Kyoto?",
+  "Cosa sono i wagashi?",
+  "Come si usa il matcha nella cerimonia del tè?"
+ ],
+ "connected_nodes": [
+  "takashima-lago-biwa",
+  "cucina-ligure",
+  "sake-ceramica",
+  "tayaki"
+ ],
+ "glossario_peacock": [
+  "ichigo_ichie",
+  "wabi-sabi",
+  "omotenashi",
+  "wagashi",
+  "chadō"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga la cucina giapponese, il funazushi, i wagashi o il matcha nel contesto del romanzo.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }

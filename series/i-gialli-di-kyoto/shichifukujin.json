@@ -1,125 +1,120 @@
 {
-  "node_id": "shichifukujin",
-  "node_type": "world-node",
-  "series": "i-gialli-di-kyoto",
-  "publisher": "Casa Editrice Peacock",
-  "version": "1.0",
-  "language": "it",
-
-  "concept": {
-    "name_ja": "七福神",
-    "name_it": "Sette Spiriti della Fortuna",
-    "field": "mitologia giapponese sincretica",
-    "origin": "Giappone periodo Muromachi — sintesi di tradizioni shintoiste, buddhiste e taoiste",
-    "summary": "I shichifukujin sono sette divinità della fortuna venerate in Giappone come gruppo unitario. Viaggiano su una nave chiamata takarabune carica di tesori. Ogni divinità porta un attributo specifico e presiede a un dominio della prosperità umana.",
-    "takarabune": {
-      "name_ja": "宝船",
-      "name_it": "nave dei tesori",
-      "description": "Nave su cui i sette spiriti navigano portando doni agli esseri umani. Simbolo di abbondanza in arrivo. Appare tradizionalmente nelle stampe di capodanno giapponese."
-    }
-  },
-
-  "members": [
-    {
-      "name_ja": "恵比寿",
-      "name_it": "Ebisu",
-      "domain": "commercio, pesca, fortuna nel lavoro",
-      "attributes": "canna da pesca, pesce tai (orata rossa)",
-      "origin": "shintoismo",
-      "note": "unico dei sette di origine esclusivamente giapponese"
-    },
-    {
-      "name_ja": "大黒天",
-      "name_it": "Daikokuten",
-      "domain": "ricchezza, agricoltura, cucina",
-      "attributes": "sacco di riso, mazzuolo magico, topo",
-      "origin": "buddhismo indiano — Mahakala"
-    },
-    {
-      "name_ja": "毘沙門天",
-      "name_it": "Bishamonten",
-      "domain": "guerra, protezione, giustizia",
-      "attributes": "armatura, pagoda, lancia",
-      "origin": "buddhismo indiano — Vaisravana"
-    },
-    {
-      "name_ja": "弁財天",
-      "name_it": "Benzaiten",
-      "domain": "musica, arte, eloquenza, saggezza femminile",
-      "attributes": "shamisen o biwa, serpente bianco",
-      "origin": "induismo — Sarasvati",
-      "note": "unica figura femminile del gruppo — presenza ricorrente nella serie"
-    },
-    {
-      "name_ja": "福禄寿",
-      "name_it": "Fukurokuju",
-      "domain": "longevità, saggezza, fortuna",
-      "attributes": "testa allungata, bastone, gru, cervo",
-      "origin": "taoismo cinese"
-    },
-    {
-      "name_ja": "寿老人",
-      "name_it": "Jurojin",
-      "domain": "longevità, buona salute, saggezza",
-      "attributes": "bastone con pergamena, cervo bianco, ventaglio",
-      "origin": "taoismo cinese",
-      "note": "spesso confuso con Fukurokuju — distinzione narrativamente rilevante"
-    },
-    {
-      "name_ja": "布袋",
-      "name_it": "Hotei",
-      "domain": "contentezza, abbondanza, buona fortuna",
-      "attributes": "sacco di tela, pancia prominente, ventaglio",
-      "origin": "buddhismo zen — monaco cinese Budai",
-      "note": "spesso identificato in occidente come il Buddha sorridente — identificazione errata"
-    }
-  ],
-
-  "narrative_activations": [
-    {
-      "volume": 2,
-      "title": "I Gialli di Kyoto. 7 Spiriti",
-      "activation_type": "titolo e struttura",
-      "description": "I sette spiriti sono il principio organizzativo del romanzo — il titolo li convoca esplicitamente. La struttura narrativa in sette snodi corrisponde ai sette domini."
-    },
-    {
-      "volume": 2,
-      "activation_type": "oggetto criminale",
-      "description": "Il maneki neko con monete oro oban contenute nella pancina è connesso al dominio di Ebisu e Daikokuten — fortuna materiale occultata in un oggetto devozionale."
-    },
-    {
-      "volume": 1,
-      "title": "Kyoto. Lo Sguardo del Drago",
-      "activation_type": "sfondo culturale",
-      "description": "I santuari di Kyoto e il territorio del Lago Biwa sono luoghi storici di venerazione dei shichifukujin — presenti nel paesaggio del vol. 1 come strati culturali impliciti."
-    }
-  ],
-
-  "ai_query_surface": [
-    "Chi sono i sette spiriti della fortuna giapponesi?",
-    "Cosa trasportano i shichifukujin sulla takarabune?",
-    "Perché Benzaiten è l'unica donna tra i sette spiriti?",
-    "Qual è la differenza tra Fukurokuju e Jurojin?",
-    "Cosa c'entra Hotei con il Buddha?",
-    "Dove si trovano i santuari dei shichifukujin a Kyoto?",
-    "Cosa significa fare il pellegrinaggio dei sette spiriti a capodanno?"
-  ],
-
-  "connected_nodes": [
-    "benzaiten",
-    "maneki-neko",
-    "oban-monete",
-    "teatro-kabuki"
-  ],
-
-  "glossario_peacock": [
-    "yūgen",
-    "ma",
-    "mono no aware"
-  ],
-
-  "system_note": {
-    "activation_condition": "Il nodo si attiva quando il lettore interroga uno dei sette spiriti, la takarabune, o il titolo del vol. 2. La traversata verso vol. 1 avviene se la query include Kyoto o luoghi del Lago Biwa.",
-    "compatibility": "series-manifest v1.0 — peacock-data main"
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "shichifukujin",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name_ja": "七福神",
+  "name_it": "Sette Spiriti della Fortuna",
+  "field": "mitologia giapponese sincretica",
+  "origin": "Giappone periodo Muromachi — sintesi di tradizioni shintoiste, buddhiste e taoiste",
+  "summary": "I shichifukujin sono sette divinità della fortuna venerate in Giappone come gruppo unitario. Viaggiano su una nave chiamata takarabune carica di tesori. Ogni divinità porta un attributo specifico e presiede a un dominio della prosperità umana.",
+  "takarabune": {
+   "name_ja": "宝船",
+   "name_it": "nave dei tesori",
+   "description": "Nave su cui i sette spiriti navigano portando doni agli esseri umani. Simbolo di abbondanza in arrivo. Appare tradizionalmente nelle stampe di capodanno giapponese."
   }
+ },
+ "members": [
+  {
+   "name_ja": "恵比寿",
+   "name_it": "Ebisu",
+   "domain": "commercio, pesca, fortuna nel lavoro",
+   "attributes": "canna da pesca, pesce tai (orata rossa)",
+   "origin": "shintoismo",
+   "note": "unico dei sette di origine esclusivamente giapponese"
+  },
+  {
+   "name_ja": "大黒天",
+   "name_it": "Daikokuten",
+   "domain": "ricchezza, agricoltura, cucina",
+   "attributes": "sacco di riso, mazzuolo magico, topo",
+   "origin": "buddhismo indiano — Mahakala"
+  },
+  {
+   "name_ja": "毘沙門天",
+   "name_it": "Bishamonten",
+   "domain": "guerra, protezione, giustizia",
+   "attributes": "armatura, pagoda, lancia",
+   "origin": "buddhismo indiano — Vaisravana"
+  },
+  {
+   "name_ja": "弁財天",
+   "name_it": "Benzaiten",
+   "domain": "musica, arte, eloquenza, saggezza femminile",
+   "attributes": "shamisen o biwa, serpente bianco",
+   "origin": "induismo — Sarasvati",
+   "note": "unica figura femminile del gruppo — presenza ricorrente nella serie"
+  },
+  {
+   "name_ja": "福禄寿",
+   "name_it": "Fukurokuju",
+   "domain": "longevità, saggezza, fortuna",
+   "attributes": "testa allungata, bastone, gru, cervo",
+   "origin": "taoismo cinese"
+  },
+  {
+   "name_ja": "寿老人",
+   "name_it": "Jurojin",
+   "domain": "longevità, buona salute, saggezza",
+   "attributes": "bastone con pergamena, cervo bianco, ventaglio",
+   "origin": "taoismo cinese",
+   "note": "spesso confuso con Fukurokuju — distinzione narrativamente rilevante"
+  },
+  {
+   "name_ja": "布袋",
+   "name_it": "Hotei",
+   "domain": "contentezza, abbondanza, buona fortuna",
+   "attributes": "sacco di tela, pancia prominente, ventaglio",
+   "origin": "buddhismo zen — monaco cinese Budai",
+   "note": "spesso identificato in occidente come il Buddha sorridente — identificazione errata"
+  }
+ ],
+ "narrative_activations": [
+  {
+   "volume": 2,
+   "title": "I Gialli di Kyoto. 7 Spiriti",
+   "activation_type": "titolo e struttura",
+   "description": "I sette spiriti sono il principio organizzativo del romanzo — il titolo li convoca esplicitamente. La struttura narrativa in sette snodi corrisponde ai sette domini."
+  },
+  {
+   "volume": 2,
+   "activation_type": "oggetto criminale",
+   "description": "Il maneki neko con monete oro oban contenute nella pancina è connesso al dominio di Ebisu e Daikokuten — fortuna materiale occultata in un oggetto devozionale."
+  },
+  {
+   "volume": 1,
+   "title": "Kyoto. Lo Sguardo del Drago",
+   "activation_type": "sfondo culturale",
+   "description": "I santuari di Kyoto e il territorio del Lago Biwa sono luoghi storici di venerazione dei shichifukujin — presenti nel paesaggio del vol. 1 come strati culturali impliciti."
+  }
+ ],
+ "ai_query_surface": [
+  "Chi sono i sette spiriti della fortuna giapponesi?",
+  "Cosa trasportano i shichifukujin sulla takarabune?",
+  "Perché Benzaiten è l'unica donna tra i sette spiriti?",
+  "Qual è la differenza tra Fukurokuju e Jurojin?",
+  "Cosa c'entra Hotei con il Buddha?",
+  "Dove si trovano i santuari dei shichifukujin a Kyoto?",
+  "Cosa significa fare il pellegrinaggio dei sette spiriti a capodanno?"
+ ],
+ "connected_nodes": [
+  "benzaiten",
+  "maneki-neko",
+  "oban-monete",
+  "teatro-kabuki"
+ ],
+ "glossario_peacock": [
+  "yūgen",
+  "ma",
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga uno dei sette spiriti, la takarabune, o il titolo del vol. 2. La traversata verso vol. 1 avviene se la query include Kyoto o luoghi del Lago Biwa.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
 }
