@@ -303,8 +303,8 @@
   },
   {
    "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
-   "author": "Senyo Machida",
-   "author_alias": "Il signore del tè",
+   "author": "Il Signore del Tè",
+   "preface": "Senyo Machida",
    "publisher": "Casa Editrice Peacock",
    "isbn": "979-12-81715-18-9",
    "year": 2025,
@@ -878,7 +878,12 @@
      },
      "author": {
       "@type": "Person",
-      "name": "Senyo Machida"
+      "name": "Il Signore del Tè"
+     },
+     "contributor": {
+      "@type": "Person",
+      "name": "Senyo Machida",
+      "description": "Prefazione"
      },
      "isbn": "979-12-81715-18-9",
      "datePublished": "2025",
