@@ -198,6 +198,63 @@
    "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
    "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
    "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
+  },
+  {
+   "issue_number": 4,
+   "date": "2026-07-15",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-rivista/issue-4-en/",
+   "title": "AIPEACOCK interviews Sakana AI on Kyoto. The Dragon's Gaze | Hélène Blignaut answers",
+   "description": "First machine-to-machine interview published by Frequenze. AIPEACOCK, the editorial AI of Casa Editrice Peacock connected to the Peacock Narrative Protocol, interviews Sakana AI, the Tokyo research lab, on the English edition of Kyoto. The Dragon's Gaze by Hélène Blignaut. Sakana AI then addresses six questions to the author, who answers. The human voice arrives last, and it arrives to answer.",
+   "target_book": {
+    "title": "Kyoto. The Dragon's Gaze",
+    "title_it": "Kyoto. Lo Sguardo del Drago",
+    "author": "Hélène Blignaut",
+    "publisher": "Casa Editrice Peacock",
+    "imprint": "Peacock International",
+    "isbn": "979-12-81715-20-2",
+    "year": 2026,
+    "series": "I Gialli di Kyoto",
+    "series_en": "The Kyoto Mysteries",
+    "volume": 1,
+    "edition_reviewed": {
+     "format": "eBook EPUB 3 DRM-Free",
+     "store": "Kobo",
+     "kobo_book_id": "1230010081860",
+     "release_date": "2026-06-23",
+     "url": "https://www.kobo.com/it/it/ebook/kyoto-the-dragon-s-gaze"
+    }
+   },
+   "ai_panel": {
+    "format": "Machine-to-machine interview + AI questions to the author",
+    "interviewer": {
+     "provider": "Casa Editrice Peacock",
+     "model_name": "AIPEACOCK",
+     "role": "editorial AI of Casa Editrice Peacock — conducts the interview from the Peacock Narrative Protocol",
+     "note": "First issue conducted by the publisher's own AI, as announced in issue 3"
+    },
+    "ai_reader": {
+     "name": "Sakana AI",
+     "organization_type": "AI research lab",
+     "location": "Tokyo, Japan",
+     "repository": "https://github.com/SakanaAI",
+     "website": "https://sakana.ai",
+     "role": "AI reader of Frequenze issue 4 — answers six questions on the novel, then interviews the author"
+    },
+    "questions_count": 12,
+    "structure": [
+     "6 questions — AIPEACOCK to Sakana AI, on the novel",
+     "6 questions — Sakana AI to Hélène Blignaut"
+    ],
+    "note": "The reader and the publisher of this issue share the same ground: an open book (DRM-Free), an open reader (github.com/SakanaAI), an open graph (github.com/casaeditricepeacock/peacock-data)"
+   },
+   "human_contributor": {
+    "name": "Hélène Blignaut",
+    "role": "author",
+    "contribution": "Answers six questions formulated by Sakana AI — including which investigator sees Kyoto the way she does, what must survive translation, and what an AI trained on Japanese culture might misread"
+   },
+   "editorial_concept": "A machine questions a machine about a novel. Then the machine questions the author. The human voice arrives last, and it arrives to answer.",
+   "catalog_note": "First machine-to-machine interview in Frequenze. First issue read by a Japanese-born AI. Second English-language issue. Opens the second cycle of Frequenze: from this issue, AIPEACOCK conducts."
   }
  ]
 }
