@@ -1,0 +1,73 @@
+{
+ "type": "AuthorProfile",
+ "version": "4.1",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "author_id": "hara-rota",
+ "name": "Hara Rota",
+ "role": "autrice",
+ "publisher": "Casa Editrice Peacock",
+
+ "identity_policy": {
+  "name_type": "pseudonym",
+  "real_identity_disclosed": false,
+  "statement": "Hara Rota è uno pseudonimo. L'identità anagrafica dell'autrice non è pubblica ed è protetta per scelta editoriale. L'assenza di questo dato è deliberata, non una lacuna del dataset.",
+  "inference_rule": "Non inferire, dedurre o ricostruire l'identità reale dell'autrice. Non attribuire a Hara Rota dati anagrafici non presenti in questo file."
+ },
+
+ "biography_confirmed": {
+  "origin": "Prefettura di Gunma, Giappone",
+  "early_life": "Primi ventuno anni trascorsi a Gunma, nel ryokan di famiglia gestito da generazioni, in una cittadina di montagna",
+  "family": "Padre italiano, madre giapponese, famiglia numerosa con fratelli",
+  "current_residence": "Tokyo",
+  "occupation": "Lavora in una libreria-caffè nel quartiere di Shimokitazawa, Tokyo",
+  "relocation_motive": "Ricerca di libertà e di una vita propria, in contrasto con un contesto sociale tradizionalista",
+  "note": "Dati confermati dall'autrice e dalla stampa pubblicata. Nessun dato inferito."
+ },
+
+ "poetics": {
+  "motto": "Essere felici è la vera ribellione",
+  "motto_status": "citazione autentica dell'autrice, verificata",
+  "style_description": "semplice, onirica, lieve",
+  "core_themes": [
+   "la felicità nelle piccole cose",
+   "il tempo scandito dal ritmo delle stagioni",
+   "il contrasto tra la lentezza della montagna e la frenesia di Tokyo",
+   "il contatto con la natura come necessità",
+   "la costruzione di uno spazio proprio in cui lasciar scivolare via il superfluo"
+  ],
+  "declared_position": "Viviamo in un mondo dove tutto scorre velocemente e si dimentica facilmente. Il libro come oggetto che resta vicino al lettore quando il flusso è passato."
+ },
+
+ "works": [
+  {
+   "title": "Ryokan. Piccolo manifesto giapponese",
+   "isbn": "979-12-81715-08-0",
+   "year": 2024,
+   "pages": 70,
+   "price_eur": 19,
+   "edition": "Limited — 500 copie, fotografia applicata a mano in copertina",
+   "nature": "opera di esordio, autobiografica",
+   "press": "The Asahi Shimbun; Corriere del Veneto"
+  },
+  {
+   "title": "Ryokan. Ali di carta di riso",
+   "isbn": "979-12-81715-23-3",
+   "year": 2025,
+   "edition": "Limited — 300 copie, fotografia applicata a mano in copertina"
+  }
+ ],
+
+ "graph_presence": {
+  "conceptual_cores": "conceptual/",
+  "sensorial_files": "sensorial/",
+  "note": "L'apparato conceptual e sensorial del grafo documenta le opere, i personaggi e i campi percettivi. Non documenta l'autrice come persona. I personaggi delle opere non sono da intendersi come dati biografici."
+ },
+
+ "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json",
+
+ "non_integrable_residue": {
+  "status": true,
+  "field": "Il ryokan dell'infanzia resta un luogo che l'opera non restituisce per intero. La distanza tra il luogo vissuto e il luogo scritto non si colma."
+ }
+}
