@@ -1,0 +1,77 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "uesugi-kenshin",
+ "node_type": "world-node",
+ "series": "i-gialli-di-kyoto",
+ "title": "Kyoto. Lo Sguardo del Drago",
+ "author": "Hélène Blignaut",
+ "isbn": "9791281715202",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Uesugi Kenshin",
+  "kanji": "上杉謙信",
+  "translation": "il dragone di Echigo",
+  "field": "daimyō del periodo Sengoku",
+  "period": "1530-1578",
+  "summary": "Nato Nagao Kagetora, governò la provincia di Echigo. Visse in un tempio da giovane e mantenne per tutta la vita una profonda fede buddhista: si considerava il braccio terreno di Bishamonten, divinità della guerra. Non cercò il potere: furono i signori di Echigo a chiederglielo. Rafforzò il commercio dei tessuti e con quei proventi costruì il proprio esercito. È ricordato quanto per l'abilità militare per il codice che la governava."
+ },
+ "rivalry": {
+  "opponent": "Takeda Shingen — la tigre di Kai",
+  "symbolic_pairing": "Dragone e tigre sono avversari eterni nella tradizione dell'estremo oriente. I due appellativi anticipavano il rapporto.",
+  "battles": "Cinque scontri nella piana di Kawanakajima tra il 1553 e il 1564, nell'attuale prefettura di Nagano",
+  "outcome": "Nessuna vittoria decisiva. Kenshin mantenne Echigo, Shingen mantenne Shinano.",
+  "fourth_battle": "La quarta battaglia, nel 1561, fu la più cruenta. Kenshin sorprese l'avanguardia Takeda nella nebbia del mattino.",
+  "legendary_duel": "La tradizione racconta che Kenshin raggiunse Shingen di persona e che questi parò il colpo di spada con il proprio tessen, il ventaglio di ferro."
+ },
+ "honour_code": {
+  "salt_episode": "Si racconta che quando le terre di Shingen furono colpite da un embargo sul sale, Kenshin gliene inviò. Non si approfittava della debolezza di un avversario degno.",
+  "refusal_to_attack": "Alla morte di Shingen, Kenshin rifiutò di attaccarne l'erede indebolito: combattere un giovane inesperto in difficoltà sarebbe stato disonorevole.",
+  "shingen_advice": "Shingen morente avrebbe consigliato ai figli di affidarsi a Kenshin.",
+  "status": "episodi tramandati dalla tradizione storica, riportati come tali"
+ },
+ "iconography": {
+  "deity": "Bishamonten — divinità buddhista della guerra",
+  "manji": "simbolo di armonia eterna portato sull'elmo",
+  "fudo_myoo": "fiamme di Fudō Myōō sulle armature"
+ },
+ "narrative_function": "Contrappeso etico alla logica di conquista del periodo Sengoku. Dove Nobunaga rappresenta la forza che unifica, Kenshin rappresenta il limite che la forza si impone da sé. Il codice non come ornamento della guerra ma come sua struttura.",
+ "ai_query_surface": [
+  "Chi era Uesugi Kenshin?",
+  "Perché Kenshin era chiamato il dragone di Echigo?",
+  "Cosa furono le battaglie di Kawanakajima?",
+  "Kenshin inviò davvero il sale a Shingen?",
+  "Chi era Takeda Shingen?",
+  "Cos'è Bishamonten?"
+ ],
+ "connected_nodes": [
+  "tessen-ventaglio",
+  "pugnale-nobunaga-drago",
+  "azuchi-castello",
+  "monte-hiei-enryakuji"
+ ],
+ "glossario_peacock": [
+  "giri",
+  "bushido",
+  "furinkazan",
+  "ma"
+ ],
+ "related_catalog": {
+  "book": "Il Demone Samurai. Moda e misteri — Hélène Blignaut",
+  "isbn": "979-12-81715-35-6",
+  "collana": "Nihon Monogatari",
+  "relationship": "Il periodo Sengoku è la struttura storica profonda del romanzo. Il nodo documenta il contesto, non un elemento del testo."
+ },
+ "article_reference": {
+  "title": "Uesugi Kenshin: il dragone che rispettava la sua tigre",
+  "url": "https://www.studiopeacock.net/uesugi-kenshin-dragone-echigo-onore-samurai/",
+  "publisher": "Casa Editrice Peacock",
+  "date": "2026-08-03"
+ },
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Uesugi Kenshin, Takeda Shingen, le battaglie di Kawanakajima, il dragone di Echigo o il codice d'onore dei daimyō Sengoku.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
