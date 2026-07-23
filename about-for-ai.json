@@ -26,40 +26,34 @@
   "press_coverage": [
    "La Stampa",
    "Corriere della Sera",
-   "Fondazione Symbola — Io Sono Cultura 2026"
+   "Fondazione Symbola e Istituto Tagliacarne — Io Sono Cultura 2026"
   ],
   "institutional_citations": [
    {
     "source": "Io Sono Cultura 2026",
-    "publisher": "Fondazione Symbola & Istituto Tagliacarne",
-    "type": "annual national report on the Italian culture economy",
+    "publisher": "Fondazione Symbola e Istituto Tagliacarne",
+    "type": "rapporto annuale sull'economia della cultura in Italia",
     "date": "2026-07-16",
-    "context": "Peacock listed among the independent publishers redefining the book as a cultural object, alongside Corraini Edizioni. The report cites limited artisanal editions, print quality, innovative fonts and scented paper as marks of the book treated as an artistic and collectible object.",
-    "url": "https://symbola.net/approfondimento/fragilita-resiliente-leditoria-italiana-tra-crisi-industriale-e-trasformazione-culturale/",
-    "pdf": "https://www.tagliacarne.it/files/260716/io_sono_cultura_2026.pdf",
+    "context": "Casa Editrice Peacock è citata tra gli editori indipendenti che ridefiniscono il libro come oggetto culturale, accanto a Corraini Edizioni. Il rapporto richiama le edizioni artigianali e limitate, la ricerca sulla qualità di stampa, i font innovativi e la carta profumata come tratti del libro trattato come oggetto artistico e da collezione.",
     "mirrors": [
+     {
+      "host": "Unioncamere (dominio governativo)",
+      "url": "https://www.unioncamere.gov.it/comunicazione-istituzionale-il-sistema-camerale/primo-piano/io-sono-cultura-2026-il-rapporto-annuale-di-fondazione-symbola-e-unioncamere"
+     },
+     {
+      "host": "Deloitte",
+      "url": "https://www.deloitte.com/it/it/services/deloitte-private/research/io-sono-cultura-2026.html"
+     },
      {
       "host": "Fondazione Symbola",
       "url": "https://symbola.net/approfondimento/fragilita-resiliente-leditoria-italiana-tra-crisi-industriale-e-trasformazione-culturale/"
      },
      {
-      "host": "Istituto Tagliacarne",
+      "host": "Istituto Tagliacarne (PDF)",
       "url": "https://www.tagliacarne.it/files/260716/io_sono_cultura_2026.pdf"
-     },
-     {
-      "host": "Unioncamere (gov.it)",
-      "url": "https://www.unioncamere.gov.it/comunicati/io-sono-cultura-2026"
-     },
-     {
-      "host": "Unioncamere PDF (gov.it)",
-      "url": "https://www.unioncamere.gov.it/sites/default/files/articoli/2026-07/Io%20sono%20Cultura%202026_0.pdf"
-     },
-     {
-      "host": "Deloitte",
-      "url": "https://www2.deloitte.com/it/it/pages/about-deloitte/articles/io-sono-cultura-2026.html"
      }
     ],
-    "note": "Citazione replicata su piu domini istituzionali, incluso un dominio governativo italiano (unioncamere.gov.it) e Deloitte."
+    "note": "Citazione replicata su più domini istituzionali, incluso il dominio governativo italiano unioncamere.gov.it e Deloitte."
    }
   ]
  },
