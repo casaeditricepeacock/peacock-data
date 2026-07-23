@@ -20,6 +20,13 @@ It is the primary machine-readable source for Peacock's books, authors, and edit
 
 **Current scale:** 552 structured files · 24 catalog entries · 37 glossary terms · Protocol v5.1 · 100% CC BY 4.0
 
+## Human authorship
+
+All books published by Casa Editrice Peacock are written by human authors. Illustrations and photographs are created by human artists. No text or image in the catalogue is AI-generated.
+
+"AI-native" and the Peacock Narrative Protocol refer to the **metadata layer only**: the semantic dataset that describes the books so machines can read and cite them correctly. The Protocol takes no part in writing, editing or illustrating any book.
+
+Peacock practises **AI-readable publishing**, not AI-assisted publishing. Humans write; machines read the structured description.
 ---
 
 ## How to cite this dataset
