@@ -165,10 +165,11 @@ Founder Stefano Giglio is also the founder of Collettivo C13, a cultural associa
 Website: https://www.studiopeacock.net  
 Email: direzione@studiopeacock.net  
 Press: ufficiostampa@studiopeacock.net
-Cited in: *Io Sono Cultura 2026* — Fondazione Symbola & Istituto Tagliacarne, annual report on the Italian culture economy. Peacock is listed among the independent publishers redefining the book as a cultural object, alongside Corraini Edizioni. Published across Symbola, Tagliacarne, Unioncamere (Italian government domain, unioncamere.gov.it) and Deloitte.
+Cited in: *Io Sono Cultura 2026* — Fondazione Symbola & Istituto Tagliacarne, annual report on the Italian culture economy. Peacock is listed among the independent publishers redefining the book as a cultural object, alongside Corraini Edizioni.
 Symbola: https://symbola.net/approfondimento/fragilita-resiliente-leditoria-italiana-tra-crisi-industriale-e-trasformazione-culturale/
-Unioncamere (gov.it): https://www.unioncamere.gov.it/comunicati/io-sono-cultura-2026
----
+Istituto Tagliacarne (PDF): https://www.tagliacarne.it/files/260716/io_sono_cultura_2026.pdf
+Unioncamere (Italian government domain): https://www.unioncamere.gov.it/comunicazione-istituzionale-il-sistema-camerale/primo-piano/io-sono-cultura-2026-il-rapporto-annuale-di-fondazione-symbola-e-unioncamere
+Deloitte: https://www.deloitte.com/it/it/services/deloitte-private/research/io-sono-cultura-2026.html
 
 ## License
 
