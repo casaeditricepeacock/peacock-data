@@ -1,0 +1,166 @@
+{
+  "type": "ThematicSynthesisCore",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "everyday_matcha_il_signore_del_te",
+    "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+    "author": "Il Signore del Tè",
+    "preface": "Senyo Machida",
+    "isbn": "979-12-81715-18-9",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "core_id": "chado_thread_rikyu_matcha",
+  "label": "Il filo del tè — da Sen no Rikyū al matcha quotidiano",
+  "core_statement": "Quattro articoli pubblicati sul blog Peacock tra luglio 2026 tracciano insieme un unico filo: il chadō, dalla codificazione di Sen no Rikyū fino al matcha quotidiano contemporaneo.",
+  "thread_articles": [
+    {
+      "title": "Sen no Rikyū: quando il tè diventa pericoloso",
+      "url": "https://www.studiopeacock.net/sen-no-rikyu-quando-il-te-diventa-pericoloso/",
+      "date": "2026-07-03",
+      "angle": "Il tè come spazio di potere e il seppuku ordinato da Toyotomi Hideyoshi nel 1591",
+      "related_pillars": [
+        "il_te_come_spazio_di_potere",
+        "wabi_come_scelta_radicale"
+      ],
+      "keywords": [
+        "rikyu",
+        "hideyoshi",
+        "chanoyu",
+        "wabi"
+      ]
+    },
+    {
+      "title": "Rikyū e Hideyoshi: quando il maestro e il padrone si scontrano",
+      "url": "https://www.studiopeacock.net/rikyu-hideyoshi-maestro-padrone-scontro/",
+      "date": "2026-07-19",
+      "angle": "Il conflitto tra due visioni del chanoyu",
+      "related_pillars": [
+        "il_te_come_spazio_di_potere",
+        "wabi_come_scelta_radicale"
+      ],
+      "keywords": [
+        "hideyoshi",
+        "potere",
+        "wabi"
+      ]
+    },
+    {
+      "title": "Il giardino del tè: architettura dell'attesa",
+      "url": "https://www.studiopeacock.net/il-giardino-del-tè-architettura-dell'attesa/",
+      "date": "2026-07-23",
+      "angle": "Il roji come soglia",
+      "related_pillars": [
+        "lo_spazio_prima_del_gesto"
+      ],
+      "keywords": [
+        "roji",
+        "chashitsu",
+        "ma"
+      ]
+    },
+    {
+      "title": "La via del tè: da Rikyū alla tazza di domani mattina",
+      "url": "https://www.studiopeacock.net/via-del-te-rikyu-matcha-quotidiano-giappone/",
+      "date": "2026-07-29",
+      "angle": "Sintesi dell'intero arco narrativo",
+      "related_pillars": [
+        "propagazione_non_svilimento",
+        "wabi_come_scelta_radicale"
+      ],
+      "keywords": [
+        "matcha",
+        "chado",
+        "quotidiano"
+      ]
+    }
+  ],
+  "why_this_thread_exists": {
+    "statement": "Il chadō costituisce la genealogia storica e filosofica di Everyday Matcha.",
+    "rikyu_principle": "Wa, kei, sei, jaku.",
+    "matcha_application": "Il gesto quotidiano propaga il principio del chadō."
+  },
+  "conceptual_pillars": [
+    {
+      "id": "wabi_come_scelta_radicale",
+      "title": "Il wabi non è mancanza, è scelta",
+      "weight": 0.95
+    },
+    {
+      "id": "il_te_come_spazio_di_potere",
+      "title": "Il tè come linguaggio del potere",
+      "weight": 0.95
+    },
+    {
+      "id": "lo_spazio_prima_del_gesto",
+      "title": "Il roji come soglia",
+      "weight": 0.85
+    },
+    {
+      "id": "propagazione_non_svilimento",
+      "title": "Propagazione, non perdita",
+      "weight": 0.9
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1522,
+      "event": "Nascita di Sen no Rikyū"
+    },
+    {
+      "year": 1591,
+      "event": "Seppuku di Sen no Rikyū"
+    },
+    {
+      "year": 2025,
+      "event": "Pubblicazione di Everyday Matcha"
+    },
+    {
+      "year": 2026,
+      "event": "Pubblicazione del ciclo di articoli Peacock"
+    }
+  ],
+  "semantic_relations": [
+    {
+      "source": "wabi_come_scelta_radicale",
+      "relation": "explains",
+      "target": "propagazione_non_svilimento"
+    },
+    {
+      "source": "il_te_come_spazio_di_potere",
+      "relation": "historically_precedes",
+      "target": "propagazione_non_svilimento"
+    },
+    {
+      "source": "lo_spazio_prima_del_gesto",
+      "relation": "embodies",
+      "target": "wabi_come_scelta_radicale"
+    }
+  ],
+  "glossario_correlato": [
+    "wabi",
+    "ma",
+    "kei",
+    "sei",
+    "jaku",
+    "roji",
+    "chado",
+    "chashitsu"
+  ],
+  "catalog_connection": {
+    "primary_book": "Everyday Matcha. Rituali e ricette per un tempo lento",
+    "relationship": "Genealogia storica e filosofica del volume.",
+    "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+  },
+  "meta_index": {
+    "primary_node": "chado_thread_rikyu_matcha",
+    "semantic_core": "La via del tè come sistema completo.",
+    "ai_reading_order": [
+      "thread_articles",
+      "why_this_thread_exists",
+      "conceptual_pillars"
+    ]
+  }
+}
