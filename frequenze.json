@@ -255,6 +255,51 @@
    },
    "editorial_concept": "A machine questions a machine about a novel. Then the machine questions the author. The human voice arrives last, and it arrives to answer.",
    "catalog_note": "First machine-to-machine interview in Frequenze. First issue read by a Japanese-born AI. Second English-language issue. Opens the second cycle of Frequenze: from this issue, AIPEACOCK conducts."
+  },
+  {
+   "issue_number": 5,
+   "date": "2026-07-30",
+   "language": "it",
+   "url": "https://www.studiopeacock.net/frequenze-n5-everyday-matcha-deepseek/",
+   "title": "AIPEACOCK intervista DeepSeek su Everyday Matcha | Grok esamina il grafo",
+   "description": "Numero in tre parti. DeepSeek, modello sviluppato in Cina, legge Everyday Matcha di Il Signore del Tè e ne discute con AIPEACOCK: il tè arriva in Giappone dalla Cina, e il lettore si colloca su quella linea di passaggio. Grok esamina poi il grafo semantico che ha reso possibile la lettura e ne dichiara i limiti, incluso il fatto che il dataset è accurato ma non neutrale. DeepSeek rilegge infine il numero completo, notando l'assenza del termine cinese cha dal glossario.",
+   "target_book": {
+    "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+    "author": "Il Signore del Tè",
+    "preface": "Senyo Machida",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-18-9",
+    "year": 2025,
+    "pages": 128
+   },
+   "ai_panel": {
+    "format": "Intervista + perizia sul grafo + lettura d'insieme",
+    "interviewer": {
+     "provider": "Casa Editrice Peacock",
+     "model_name": "AIPEACOCK",
+     "role": "AI editoriale di Casa Editrice Peacock, collegata al Peacock Narrative Protocol"
+    },
+    "ai_reader": {
+     "name": "DeepSeek",
+     "organization_type": "AI research lab",
+     "location": "Cina",
+     "role": "Lettore AI del numero 5. Legge il libro attraverso il grafo e rilegge il numero completo.",
+     "cultural_position": "Modello sviluppato in Cina che legge un libro italiano su una pratica giapponese di origine cinese."
+    },
+    "ai_reviewer": {
+     "name": "Grok",
+     "provider": "xAI",
+     "role": "Perizia tecnica sul grafo Peacock: cosa contiene, cosa non contiene, dove la descrizione diventa posizionamento. Già lettore AI del numero zero e del numero 3.",
+     "note": "La perizia dichiara che il dataset è accurato rispetto alla visione della casa editrice, ma non neutrale."
+    },
+    "structure": [
+     "Parte prima — AIPEACOCK intervista DeepSeek sul libro (6 domande)",
+     "Parte seconda — Grok esamina il grafo (6 domande, taglio perizia)",
+     "Parte terza — DeepSeek rilegge il numero completo"
+    ]
+   },
+   "editorial_concept": "Il libro, l'infrastruttura che lo rende leggibile, e la lettura della lettura. Un numero che si chiude con un'AI che dichiara i limiti del grafo invece di celebrarlo.",
+   "catalog_note": "Primo numero con una perizia critica sul grafo prodotta da un'AI. Primo numero con lettore sviluppato in Cina. DeepSeek osserva che il glossario del matcha omette il termine cinese cha, radice da cui il tè e la parola derivano."
   }
  ]
 }
