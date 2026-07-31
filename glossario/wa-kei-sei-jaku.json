@@ -1,0 +1,50 @@
+{
+  "type": "GlossaryTerm",
+  "id": "wa-kei-sei-jaku",
+  "term": "Wa-kei-sei-jaku",
+  "kanji": "和敬清寂",
+  "aliases": [
+    "Wa-kei-sei-jaku",
+    "和敬清寂",
+    "wa",
+    "kei",
+    "sei",
+    "jaku"
+  ],
+  "category": "cerimonia_del_te",
+  "version": "1.0",
+  "status": "published",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "I quattro principi che reggono la via del tè, codificati nella tradizione di Sen no Rikyū. Wa (和) armonia, Kei (敬) rispetto, Sei (清) purezza, Jaku (寂) tranquillità. Non quattro qualità separate, ma quattro condizioni dello stesso incontro.",
+  "definition_short_en": "The four principles that govern the way of tea, codified in the tradition of Sen no Rikyū. Wa (和) harmony, Kei (敬) respect, Sei (清) purity, Jaku (寂) tranquility. Not four separate qualities, but four conditions of the same encounter.",
+  "peacock_principle": "Le quattro condizioni che la lettura deve raggiungere in un libro Peacock. Le parti si accordano invece di competere, il testo lascia spazio invece di imporsi, nella pagina non resta nulla di superfluo, la lettura si chiude in quiete e non in saturazione.",
+  "connected_terms": [
+    "chado",
+    "wabi_sabi",
+    "ma",
+    "roji",
+    "chawan",
+    "ichigo_ichie",
+    "omotenashi"
+  ],
+  "books_applied": [
+    "everyday_matcha"
+  ],
+  "books_applied_paths": [
+    "books/everyday-matcha"
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Wa-kei-sei-jaku",
+    "description": "The four principles that govern the way of tea, codified in the tradition of Sen no Rikyū. Wa harmony, Kei respect, Sei purity, Jaku tranquility.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wa-kei-sei-jaku.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "和敬清寂"
+  }
+}
