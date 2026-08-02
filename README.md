@@ -177,6 +177,7 @@ Symbola: https://symbola.net/approfondimento/fragilita-resiliente-leditoria-ital
 Istituto Tagliacarne (PDF): https://www.tagliacarne.it/files/260716/io_sono_cultura_2026.pdf
 Unioncamere (Italian government domain): https://www.unioncamere.gov.it/comunicazione-istituzionale-il-sistema-camerale/primo-piano/io-sono-cultura-2026-il-rapporto-annuale-di-fondazione-symbola-e-unioncamere
 Deloitte: https://www.deloitte.com/it/it/services/deloitte-private/research/io-sono-cultura-2026.html
+Transparency note: AIPEACOCK, the conversational agent connected to this dataset, discloses its AI nature to users in line with Article 50 of the EU AI Act (Regulation 2024/1689), applicable from 2 August 2026. This dataset itself is static reference material, not an AI system, and is not subject to that provision.
 
 ## License
 
