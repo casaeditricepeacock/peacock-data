@@ -1,0 +1,48 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "silenzio_e_irruzione",
+  "label": {
+    "it": "Il silenzio assordante e l'irruzione della canzone",
+    "en": "Deafening Silence and the Song's Irruption"
+  },
+  "kanji": "序破急",
+  "descriptions": {
+    "it": "Il silenzio si addensa finché diventa insostenibile, poi la canzone irrompe dalla finestra aperta. Prima il vicolo è saturo di assenza di suono, poi di musica a pieno volume. Nessun passaggio graduale tra i due stati.",
+    "en": "The silence thickens until it becomes unbearable, then the song bursts in from the open window. First the alley is saturated with absence of sound, then with full-volume music. No gradual passage between the two states."
+  },
+  "sensory_channels": [
+    "uditivo"
+  ],
+  "narrative_function": "Il campo sonoro non transita: si accumula e si rompe. Il silenzio non prepara la musica, la musica lo interrompe. Compressione e rilascio senza transizione.",
+  "intensity": "variabile",
+  "stability": "instabile",
+  "rhythm": "compressione_rilascio",
+  "persistence": "improvvisa",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "jo_ha_kyu"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    },
+    {
+      "predicate": "evokes",
+      "target": "kokyu"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
