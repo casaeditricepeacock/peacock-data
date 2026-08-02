@@ -1,0 +1,50 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "bolla_rosa",
+  "label": {
+    "it": "La bolla rosa",
+    "en": "The Pink Bubble"
+  },
+  "kanji": "物の哀れ",
+  "descriptions": {
+    "it": "Superficie elastica che si gonfia e si allenta, rotola, rimbalza, pulsa. Rosa contro il buio del vicolo. Non deve farsi vedere, non deve emettere suono. Tensione di una cosa che può rompersi in ogni istante.",
+    "en": "An elastic surface that swells and slackens, rolls, bounces, pulses. Pink against the dark of the alley. It must not be seen, it must make no sound. The tension of a thing that can burst at any instant."
+  },
+  "sensory_channels": [
+    "visivo",
+    "tattile",
+    "propriocettivo"
+  ],
+  "narrative_function": "Il protagonista è una superficie che può rompersi in ogni istante. La fragilità non è debolezza ma la condizione stessa della sua esistenza. Esiste finché non scoppia.",
+  "intensity": "media",
+  "stability": "pulsante",
+  "rhythm": "gonfia_sgonfia",
+  "persistence": "precaria",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    },
+    {
+      "predicate": "evokes",
+      "target": "wabi_sabi"
+    },
+    {
+      "predicate": "evokes",
+      "target": "kokyu"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
