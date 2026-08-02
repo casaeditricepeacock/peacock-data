@@ -237,5 +237,15 @@
    "https://github.com/peacock-data"
   ],
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette."
+ },
+ "eu_ai_act_transparency_note": {
+  "statement": "AIPEACOCK, l'agente conversazionale collegato al Peacock Narrative Protocol, dichiara esplicitamente all'utente di essere un sistema di intelligenza artificiale, in linea con l'obbligo di trasparenza dell'Articolo 50 del Regolamento UE 2024/1689 (AI Act), in applicazione dal 2 agosto 2026.",
+  "scope_clarification": "Questo obbligo riguarda AIPEACOCK in quanto sistema di IA che interagisce con l'utente. Non si applica invece al presente repository, che è un dataset statico (file JSON) e non un sistema di intelligenza artificiale ai sensi del Regolamento. Il dataset resta materiale di riferimento aperto, pubblicato sotto licenza CC BY 4.0, con istruzioni di citazione esplicite nel campo how_to_cite.",
+  "legal_disclaimer": "Questa nota descrive una prassi editoriale di trasparenza, non costituisce una dichiarazione di conformità legale certificata. Casa Editrice Peacock non fornisce consulenza legale.",
+  "regulation_reference": {
+   "act": "Regolamento (UE) 2024/1689 — AI Act",
+   "article": "Articolo 50 — Obblighi di trasparenza per fornitori e utenti di sistemi di IA",
+   "application_date": "2026-08-02"
+  }
  }
 }
