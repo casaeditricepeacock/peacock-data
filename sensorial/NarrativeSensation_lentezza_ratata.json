@@ -1,0 +1,48 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "lentezza_che_non_dimentica",
+  "label": {
+    "it": "La lentezza che non dimentica",
+    "en": "The Slowness that Does Not Forget"
+  },
+  "descriptions": {
+    "it": "Il corpo che resta lento, che non riesce ad andarsene, il ritardo che diventa condizione. Il peso di non poter dimenticare tiene fermi sul posto. Non stanchezza: incapacità di lasciare.",
+    "en": "The body that stays slow, that cannot leave, the delay that becomes a condition. The weight of being unable to forget holds one in place. Not tiredness: an inability to leave."
+  },
+  "sensory_channels": [
+    "propriocettivo",
+    "interocettivo"
+  ],
+  "narrative_function": "La lentezza emotiva del personaggio, l'incapacità di andarsene, trova forma nella lentezza editoriale del libro: pagina che non accelera, tempo lasciato al ricordo.",
+  "intensity": "bassa",
+  "stability": "persistente",
+  "rhythm": "trattenuto",
+  "persistence": "duratura",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "lentezza"
+    },
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
