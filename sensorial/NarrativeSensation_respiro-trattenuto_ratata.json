@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "respiro_trattenuto",
+  "label": {
+    "it": "Il respiro trattenuto",
+    "en": "Held Breath"
+  },
+  "kanji": "呼吸",
+  "descriptions": {
+    "it": "Il petto che non si muove, lo sforzo di non emettere suono, l'aria trattenuta per non farsi trovare. La ragazza trattiene il respiro e forma la bolla. Il respiro sospeso lega la bolla e chi la guarda.",
+    "en": "The chest that does not move, the effort of making no sound, breath held so as not to be found. The girl holds her breath and forms the bubble. Suspended breath binds the bubble and the one who watches it."
+  },
+  "sensory_channels": [
+    "propriocettivo",
+    "uditivo"
+  ],
+  "narrative_function": "Non emettere respiro significa non farsi trovare. La bolla e la ragazza condividono lo stesso gesto: trattenere per esistere. Il respiro sospeso è la regola di sopravvivenza del libro.",
+  "intensity": "alta",
+  "stability": "immobile",
+  "rhythm": "sospeso",
+  "persistence": "trattenuta",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "kokyu"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    },
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
