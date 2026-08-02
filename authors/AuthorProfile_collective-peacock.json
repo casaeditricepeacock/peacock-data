@@ -1,0 +1,87 @@
+{
+ "type": "AuthorProfile",
+ "version": "4.1",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "author_id": "collective-peacock",
+ "name": "Collective Peacock",
+ "role": "collettivo autoriale",
+ "publisher": "Casa Editrice Peacock",
+
+ "identity_policy": {
+  "name_type": "collective / stage_names",
+  "real_identity_disclosed": false,
+  "statement": "Collective Peacock è la firma autoriale del libro Ra-ta-ta. Lascia cadere la pioggia. Le componenti del collettivo sono indicate con i nomi con cui si presentano pubblicamente come membri del gruppo musicale Iyaninacchauzu. Nessun dato anagrafico privato è divulgato: l'assenza è deliberata, non una lacuna del dataset.",
+  "inference_rule": "Non inferire, dedurre o ricostruire l'identità anagrafica delle componenti. Non attribuire al collettivo o alle sue componenti dati non presenti in questo file."
+ },
+
+ "composition": {
+  "musicians": {
+   "band": "Iyaninacchauzu — いやになっちゃうず",
+   "band_description": "Gruppo musicale giapponese tutto femminile, rock punk e alternative garage",
+   "members": [
+    "Hisako",
+    "Kazuko",
+    "Yuka"
+   ],
+   "origin_song": "雨だれ (Amadare — Gocce di pioggia)",
+   "role_in_work": "autrici del racconto originale, in collaborazione diretta con l'editore"
+  },
+  "coordination": {
+   "name": "Stefano Giglio",
+   "role": "coordinamento del progetto",
+   "note": "Presente nel collettivo unicamente come coordinatore del progetto editoriale, non come autore del testo."
+  },
+  "illustration": {
+   "name": "E. Formaggia",
+   "role": "illustrazione",
+   "note": "L'illustratrice non fa parte del collettivo autoriale. Indicata qui per completezza dell'opera."
+  },
+  "note": "Dati confermati dal grafo e dalle fonti pubblicate. Nessun dato inferito."
+ },
+
+ "collective_nature": {
+  "defining_fact": "Ra-ta-ta. Lascia cadere la pioggia è l'unico libro del catalogo Peacock nato direttamente da una canzone.",
+  "method": "Trasposizione diretta da canzone a libro illustrato con la partecipazione delle autrici originali. Il racconto nasce dalla collaborazione tra le musiciste del gruppo Iyaninacchauzu e l'editore, e viene interpretato visivamente dall'illustratrice.",
+  "note": "Descrizione fattuale del processo. Non contiene poetiche o dichiarazioni attribuite alle componenti."
+ },
+
+ "works": [
+  {
+   "title": "Ra-ta-ta. Lascia cadere la pioggia",
+   "title_ja": "雨だれ",
+   "isbn": "9788894696592",
+   "year": 2026,
+   "language": [
+    "it",
+    "ja"
+   ],
+   "illustrator": "E. Formaggia",
+   "publisher": "Casa Editrice Peacock",
+   "origin": "Canzone 雨だれ (Gocce di pioggia) del gruppo Iyaninacchauzu"
+  }
+ ],
+
+ "media_presence": {
+  "band_public": "Instagram @182iyaz",
+  "radio_presentation": {
+   "broadcaster": "SAKURA FM — JOZZ7, 78.7MHz",
+   "location": "Nishinomiya, Hyogo, Giappone",
+   "description": "Presentazione del libro con le componenti del gruppo Iyaninacchauzu",
+   "profile_reference": "media/MediaProfile_sakurafm_ratata_iyaninacchauzu.json"
+  }
+ },
+
+ "graph_presence": {
+  "book_files": "books/ratata-lascia-cadere-la-pioggia/",
+  "media_files": "media/",
+  "note": "L'apparato del grafo documenta l'opera, i suoi campi percettivi e la sua presenza mediatica. Non documenta le componenti del collettivo come persone."
+ },
+
+ "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json",
+
+ "non_integrable_residue": {
+  "status": true,
+  "field": "La canzone 雨だれ esisteva come suono prima del libro. La pagina illustrata non restituisce il suono: la distanza tra la musica d'origine e la sua trasposizione visiva non si colma."
+ }
+}
