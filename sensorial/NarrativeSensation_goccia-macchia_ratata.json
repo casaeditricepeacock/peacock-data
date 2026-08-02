@@ -1,0 +1,50 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "goccia_che_diventa_macchia",
+  "label": {
+    "it": "La goccia che diventa macchia",
+    "en": "The Drop that Becomes a Stain"
+  },
+  "kanji": "侘寂",
+  "descriptions": {
+    "it": "Il ritmo della goccia che cade, poi l'acqua che si allarga e asciugando lascia un segno. La macchia resta dove la goccia è passata. Ciò che cade non svanisce: si deposita.",
+    "en": "The rhythm of the falling drop, then the water spreading and, as it dries, leaving a mark. The stain remains where the drop passed. What falls does not vanish: it settles."
+  },
+  "sensory_channels": [
+    "uditivo",
+    "visivo",
+    "tattile"
+  ],
+  "narrative_function": "Il segno che resta dopo il passaggio. La macchia è memoria depositata, non sporco. La traccia è la forma in cui il tempo rimane.",
+  "intensity": "bassa",
+  "stability": "persistente",
+  "rhythm": "goccia_a_goccia",
+  "persistence": "duratura",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "wabi_sabi"
+    },
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
