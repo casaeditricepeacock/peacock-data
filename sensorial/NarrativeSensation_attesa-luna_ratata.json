@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "attesa_della_luna",
+  "label": {
+    "it": "L'attesa della luna e la trasparenza",
+    "en": "Waiting for the Moon and Transparency"
+  },
+  "kanji": "幽玄",
+  "descriptions": {
+    "it": "Il desiderio che la pioggia lavi ogni cosa fino a rendere trasparenti. Il cielo notturno dove la luna non è ancora comparsa. L'attesa misurata dall'apparire della luna e delle stelle.",
+    "en": "The wish that the rain wash everything until it becomes transparent. The night sky where the moon has not yet appeared. The wait measured by the appearing of the moon and the stars."
+  },
+  "sensory_channels": [
+    "visivo",
+    "propriocettivo"
+  ],
+  "narrative_function": "Ciò che conta non è ancora visibile: sta oltre la pioggia, dietro le nuvole. L'attesa che la luna compaia è la misura del tempo. La profondità non si mostra del tutto.",
+  "intensity": "bassa",
+  "stability": "sospesa",
+  "rhythm": "dilatato",
+  "persistence": "protratta",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "yūgen"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    },
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
