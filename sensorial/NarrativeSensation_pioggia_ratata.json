@@ -1,0 +1,50 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "ratata_lascia_cadere_la_pioggia",
+    "title": "Ratata. Lascia cadere la pioggia",
+    "isbn": "9788894696592"
+  },
+  "id": "pioggia_che_cade",
+  "label": {
+    "it": "La pioggia che cade",
+    "en": "Falling Rain"
+  },
+  "kanji": "物の哀れ",
+  "descriptions": {
+    "it": "Caduta regolare e ostinata. Il gocciolare riempie il silenzio del vicolo, l'acqua bagna l'asfalto e la pelle, la pozzanghera si allarga. La pioggia non smette e su di essa si posa tutto ciò che accade.",
+    "en": "A steady, stubborn fall. The dripping fills the alley's silence, water wets asphalt and skin, the puddle spreads. The rain does not stop, and everything that happens settles upon it."
+  },
+  "sensory_channels": [
+    "uditivo",
+    "tattile",
+    "visivo"
+  ],
+  "narrative_function": "La pioggia è il tempo emotivo su cui la storia si posa, non lo sfondo meteorologico. Ogni evento del libro accade perché la pioggia sta cadendo.",
+  "intensity": "bassa",
+  "stability": "costante",
+  "rhythm": "regolare",
+  "persistence": "ostinata",
+  "relations": [
+    {
+      "predicate": "evokes",
+      "target": "mono no aware"
+    },
+    {
+      "predicate": "evokes",
+      "target": "ma"
+    },
+    {
+      "predicate": "evokes",
+      "target": "kokyu"
+    }
+  ],
+  "metadata": {
+    "created_for": "Peacock Graph",
+    "language": "it",
+    "schema": "NarrativeSensation"
+  }
+}
