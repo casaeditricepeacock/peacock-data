@@ -1,0 +1,64 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "patrizia-da-re",
+  "name": "Patrizia Da Re",
+  "role": "illustratrice e incisora",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Patrizia Da Re è un'artista con profilo pubblico documentato. I dati biografici sono tratti da fonti pubbliche indipendenti."
+  },
+  "biography_confirmed": {
+    "nationality": "italiana",
+    "city": "Padova",
+    "relationship_to_padova": "Nata, residente e attiva a Padova",
+    "practice": "Pittrice e incisora. Esordisce con la pittura a olio, poi si specializza nelle tecniche incisorie tradizionali e sperimentali: xilografia (stampa con matrici in legno), acquaforte, acquatinta, punta secca.",
+    "artist_books": "Nota per libri d'arte in tiratura limitata, tra cui Il libro della Genesi, raccolta di 17 incisioni commentate dall'artista (CLEUP).",
+    "training": "Allieva del Maestro Bruno Gorlato. Collabora con la Bottega del Tintoretto a Venezia per la ricerca sui materiali calcografici.",
+    "themes": "Meditazione sulla realtà e sulle forme; ricerca nell'ambito dell'arte sacra.",
+    "exhibitions": "Mostre personali e collettive a Padova, tra cui alla Galleria laRinascente, e in eventi culturali regionali.",
+    "note": "Dati confermati da fonti pubbliche. Nessun dato inferito. L'artista non è definita 'famosa': si riportano solo i fatti documentati."
+  },
+  "sources": [
+    "https://www.clubarte.it/artista/da-re-patrizia/",
+    "https://www.arttimeinsight.net/da-re-patrizia.html",
+    "https://www.cleup.it/product/13020586/il-libro-della-genesi-interpretato-da-patrizia-da-re",
+    "http://www.domna.it/presentazione-mostra-e-libro-patrizia-da-re/",
+    "https://oubliettemagazine.com/2015/03/05/voi-siete-qui-la-personale-di-patrizia-da-re-in-galleria-la-rinascente-dal-6-febbraio-al-15-marzo-2015-padova/",
+    "https://www.padovaoggi.it/persone/patrizia-da-re/"
+  ],
+  "poetics": {
+    "medium": "xilografia e tecniche calcografiche (acquaforte, acquatinta, punta secca)",
+    "signature_gesture": "xilografia applicata a mano; incisioni sperimentali",
+    "core_themes": [
+      "arte sacra",
+      "meditazione sulla realtà e sulle forme",
+      "il libro d'arte come oggetto in tiratura limitata"
+    ]
+  },
+  "works": [
+    {
+      "title": "Blu Oltremare",
+      "author_of_text": "Emmanuelle Filizzola",
+      "role_in_work": "illustratrice e incisora",
+      "contribution": "Xilografia applicata a mano in copertina e incisioni sperimentali all'interno",
+      "isbn": "979-12-81715-02-8",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "sensorial/blu-oltremare.json"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Nel catalogo Peacock la xilografia applicata a mano accomuna Patrizia Da Re e Ligustro (Giovanni Berio), due incisori di due tradizioni diverse. Cfr. sensorial/blu-oltremare.json.",
+    "inference_rule": "Patrizia Da Re è illustratrice e incisora del volume Blu Oltremare. L'autrice del testo è Emmanuelle Filizzola. Non attribuire a Da Re la scrittura del testo."
+  },
+  "graph_presence": {
+    "sensorial_files": "sensorial/blu-oltremare.json",
+    "note": "Il nodo sensoriale documenta l'opera e i suoi campi percettivi, non l'artista come persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
