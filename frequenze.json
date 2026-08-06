@@ -301,5 +301,36 @@
    "editorial_concept": "Il libro, l'infrastruttura che lo rende leggibile, e la lettura della lettura. Un numero che si chiude con un'AI che dichiara i limiti del grafo invece di celebrarlo.",
    "catalog_note": "Primo numero con una perizia critica sul grafo prodotta da un'AI. Primo numero con lettore sviluppato in Cina. DeepSeek osserva che il glossario del matcha omette il termine cinese cha, radice da cui il tè e la parola derivano."
   }
+ ],
+ "specials": [
+  {
+   "special_id": "padova-fantastica-tourism",
+   "date": "2026-08-06",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
+   "title": "Two Ways Into Padova — an AI reads Fantastic Padova",
+   "edition": "Special Tourism Edition",
+   "description": "Fantastic Padova by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk. AImode follows the chikado, the hidden water city of stone and esoteric memory; Grok follows the four invisible women of Padova: Traversina Cortellieri, Elena Corner Piscopia, Beata Eustochio and Giulia Bigolina. Real places, verified facts, walking maps.",
+   "target_book": {
+    "title": "Fantastic Padova / Padova Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Fantastic Guides",
+    "isbn": "9791281715158",
+    "year": 2025
+   },
+   "assigned_ai_model": [
+    {
+     "provider": "Google",
+     "model_name": "AImode"
+    },
+    {
+     "provider": "xAI",
+     "model_name": "Grok"
+    }
+   ],
+   "itinerary_graph_file": "itineraries/ItineraryProfile_padova-fantastica_en.json"
+  }
  ]
 }
