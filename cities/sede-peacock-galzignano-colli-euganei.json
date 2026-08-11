@@ -1,0 +1,380 @@
+{
+  "dataset_id": "peacock-sede-galzignano-colli-euganei",
+  "version": "1.1",
+  "date": "2026-08-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "verification": {
+    "status": "web_verified",
+    "verified_on": "2026-08-11",
+    "key_corrections": [
+      "I Colli Euganei sono Riserva della Biosfera UNESCO MAB dal 2024, non sito UNESCO World Heritage dal 2021.",
+      "Padova Urbs picta è invece Patrimonio Mondiale UNESCO dal 2021 e riguarda i cicli di affreschi trecenteschi di Padova.",
+      "Byron e Shelley hanno connessioni documentate con Este e i Colli Euganei nel 1817-1818.",
+      "Foscolo è direttamente collegato ai Colli Euganei attraverso Le ultime lettere di Jacopo Ortis e la presenza/ispirazione euganea.",
+      "Bruce Chatwin è mantenuto solo come relazione concettuale/editoriale, non storico-geografica.",
+      "La distanza di circa 500 metri della Fonte di San Bartolomeo non è stata mantenuta perché non verificata con una fonte geografica affidabile.",
+      "La struttura è stata convertita in entity + relations + provenance per renderla più adatta al knowledge graph."
+    ]
+  },
+  "central_entity": {
+    "id": "peacock-hq-galzignano",
+    "type": "editorial_headquarters",
+    "name": "Sede Casa Editrice Peacock",
+    "organization": "Casa Editrice Peacock",
+    "location": {
+      "city": "Galzignano Terme",
+      "province": "Padova",
+      "region": "Veneto",
+      "country": "Italia",
+      "address": "Via Regazzoni Alta 32, 35020 Galzignano Terme (Padova)",
+      "source": "https://www.editori-veneti.it/casa-editrice-peacock/"
+    },
+    "territorial_context": {
+      "primary_area": "Colli Euganei",
+      "protected_area": "Parco Regionale dei Colli Euganei",
+      "protected_area_established": 1989,
+      "source": "https://www.veneto.eu/it/node/1125"
+    },
+    "summary": "Sede operativa di Casa Editrice Peacock a Galzignano Terme, nel territorio dei Colli Euganei. Nel grafo è trattata come nodo editoriale contemporaneo e non come luogo narrato direttamente da un singolo titolo del catalogo."
+  },
+  "unesco_context": {
+    "colli_euganei": {
+      "designation": "UNESCO MAB Biosphere Reserve",
+      "year": 2024,
+      "status": "officially proclaimed",
+      "note": "I Colli Euganei sono stati proclamati Riserva della Biosfera UNESCO MAB nel 2024. MAB è il programma Man and the Biosphere e non equivale all'iscrizione nella World Heritage List.",
+      "source": "https://www.parcocollieuganei.com/dettaglio.php?id=79324"
+    },
+    "padova_urbs_picta": {
+      "designation": "UNESCO World Heritage Site",
+      "year": 2021,
+      "note": "Padova Urbs picta riguarda i cicli di affreschi trecenteschi di Padova e non identifica i Colli Euganei.",
+      "source": "https://whc.unesco.org/en/decisions/7939/"
+    }
+  },
+  "literary_geography": {
+    "principle": "I Colli Euganei costituiscono un paesaggio letterario documentato, nel quale luoghi euganei sono stati direttamente associati a Petrarca, Foscolo, Byron e Shelley.",
+    "authors": [
+      {
+        "id": "francesco-petrarca",
+        "name": "Francesco Petrarca",
+        "relation_type": "historical_geographic",
+        "relation_to_area": "strong",
+        "connection": "Petrarca si stabilì ad Arquà negli ultimi anni della vita e morì lì nel luglio 1374. La Casa del Petrarca e il sepolcro costituiscono luoghi storici direttamente associati al poeta.",
+        "period": "XIV secolo",
+        "place": "Arquà Petrarca",
+        "confidence": "high",
+        "sources": [
+          "https://cultura.gov.it/luogo/casa-del-petrarca",
+          "https://www.arquapetrarca.com/petrarca/"
+        ]
+      },
+      {
+        "id": "lord-byron",
+        "name": "Lord Byron",
+        "relation_type": "historical_geographic",
+        "relation_to_area": "strong",
+        "connection": "Nel 1817-1818 Byron ebbe una villa presso Este, tra i Colli Euganei; in una lettera del 3 marzo 1818 descrive la villa come situata among the Euganean hills e ricorda la vicinanza ad Arquà.",
+        "period": "1817-1818",
+        "place": "Este / Colli Euganei",
+        "confidence": "high",
+        "sources": [
+          "https://lordbyron.org/monograph.php?doc=ThMoore.1830&select=AD1818.7",
+          "https://www.museodelterritoriodeicollieuganei.it/rappresentazione-letteraria-bibliografia/"
+        ]
+      },
+      {
+        "id": "percy-bysshe-shelley",
+        "name": "Percy Bysshe Shelley",
+        "relation_type": "historical_geographic",
+        "relation_to_area": "very_strong",
+        "connection": "Shelley soggiornò nella villa presso Este messa a disposizione da Byron e compose Lines Written among the Euganean Hills; il soggiorno euganeo è documentato anche dalle fonti specialistiche locali.",
+        "period": "1817-1818",
+        "place": "Este / Colli Euganei",
+        "confidence": "high",
+        "sources": [
+          "https://www.treccani.it/enciclopedia/shelley/",
+          "https://www.museodelterritoriodeicollieuganei.it/rappresentazione-letteraria-bibliografia/"
+        ]
+      },
+      {
+        "id": "ugo-foscolo",
+        "name": "Ugo Foscolo",
+        "relation_type": "literary_geographic",
+        "relation_to_area": "very_strong",
+        "connection": "I Colli Euganei sono l'ambientazione delle Ultime lettere di Jacopo Ortis; il territorio euganeo è inoltre direttamente associato alla presenza e all'ispirazione di Foscolo.",
+        "period": "fine XVIII - inizio XIX secolo",
+        "place": "Colli Euganei / Abano / Arquà",
+        "confidence": "high",
+        "sources": [
+          "https://www.collieuganei.it/ville/villa-foscolo-abano-terme/",
+          "https://www.treccani.it/enciclopedia/ultime-lettere-di-jacopo-ortis/"
+        ]
+      },
+      {
+        "id": "bruce-chatwin",
+        "name": "Bruce Chatwin",
+        "relation_type": "conceptual_editorial",
+        "geographic_connection": false,
+        "relation_to_area": "conceptual",
+        "connection": "Non è stato trovato, nelle fonti consultate, un legame storico-geografico diretto sufficientemente solido da trattarlo come autore legato ai Colli Euganei. Nel grafo può essere mantenuto come riferimento concettuale al rapporto tra luogo, viaggio e narrazione.",
+        "period": "XX secolo",
+        "confidence": "interpretive"
+      }
+    ]
+  },
+  "literary_places": [
+    {
+      "id": "arqua-petrarca",
+      "name": "Arquà Petrarca",
+      "relation_type": "historical_literary_place",
+      "connection_to_headquarters": "regional_literary_context",
+      "connection_to_petrarca": "direct",
+      "confidence": "high",
+      "sources": [
+        "https://cultura.gov.it/luogo/casa-del-petrarca",
+        "https://www.arquapetrarca.com/petrarca/"
+      ]
+    },
+    {
+      "id": "este-villa-kunkler",
+      "name": "Villa Kunkler / Villa Byron",
+      "relation_type": "historical_literary_place",
+      "connection_to_headquarters": "regional_literary_context",
+      "connection_to_byron": "direct",
+      "connection_to_shelley": "direct",
+      "confidence": "high",
+      "sources": [
+        "https://www.fantalica.com/prodotto/este-villa-kunkler-byron-visita-guidata/",
+        "https://www.treccani.it/enciclopedia/shelley/"
+      ]
+    },
+    {
+      "id": "villa-foscolo-abano",
+      "name": "Villa Foscolo / Villa Cittadella Vigodarzere",
+      "relation_type": "literary_place",
+      "connection_to_foscolo": "direct",
+      "confidence": "high",
+      "source": "https://www.collieuganei.it/ville/villa-foscolo-abano-terme/"
+    }
+  ],
+  "nearby_places": [
+    {
+      "id": "fonte-san-bartolomeo",
+      "name": "Fonte di San Bartolomeo",
+      "relation_type": "local_place",
+      "connection_to_headquarters": "nearby",
+      "distance_from_hq": null,
+      "distance_note": "La precedente indicazione di circa 500 metri non è stata mantenuta perché non verificata con una fonte geografica affidabile.",
+      "confidence": "medium"
+    },
+    {
+      "id": "castello-del-catajo",
+      "name": "Castello del Catajo",
+      "relation_type": "historical_place",
+      "connection_to_headquarters": "regional_nearby",
+      "description": "Monumentale dimora storica presso Battaglia Terme, costruita a partire dal XVI secolo per Pio Enea I degli Obizzi e successivamente ampliata e trasformata.",
+      "confidence": "high",
+      "sources": [
+        "https://castellodelcatajo.it/",
+        "https://www.collieuganei.it/castelli/castello-del-catajo/"
+      ]
+    },
+    {
+      "id": "giardino-valsanzibio",
+      "name": "Giardino Monumentale di Valsanzibio",
+      "relation_type": "historical_garden",
+      "connection_to_headquarters": "local_nearby",
+      "description": "Giardino storico di Valsanzibio, sviluppato nella seconda metà del Seicento dalla famiglia Barbarigo e costruito attorno a un percorso simbolico di perfezione e salvezza.",
+      "confidence": "high",
+      "sources": [
+        "https://www.valsanzibiogiardino.com/it/storia/",
+        "https://www.valsanzibiogiardino.com/it/visite/"
+      ]
+    },
+    {
+      "id": "villa-dei-vescovi",
+      "name": "Villa dei Vescovi",
+      "relation_type": "renaissance_humanist_place",
+      "connection_to_headquarters": "regional_nearby",
+      "description": "Villa rinascimentale a Luvigliano di Torreglia, progettata per il soggiorno estivo dei vescovi padovani; alla realizzazione lavorarono anche Giovanni Maria Falconetto e Andrea da Valle.",
+      "confidence": "high",
+      "source": "https://fondoambiente.it/il-fai/scuola/gite-scolastiche-villa-dei-vescovi"
+    }
+  ],
+  "peacock_editorial_layer": {
+    "basho": {
+      "relation_type": "editorial_concept",
+      "definition": "Il luogo come campo vivo di relazioni; non un semplice contenitore fisico, ma uno spazio generato dalla relazione tra presenze, memorie, oggetti, immagini e silenzi.",
+      "status": "Peacock editorial vocabulary",
+      "source": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+    },
+    "continuity_principle": "La sede contemporanea di Peacock può essere collegata al paesaggio letterario dei Colli Euganei attraverso relazioni storiche documentate e, separatamente, attraverso la lente editoriale del bashō.",
+    "connection_to_catalog": "La sede non è trattata come luogo narrato da un singolo libro del catalogo. È un nodo di contesto editoriale dal quale si possono collegare la filosofia del luogo, il bashō e le opere ambientate in altre città o territori.",
+    "principle": "La sede Peacock è un nodo contemporaneo collocato dentro un territorio con una documentata stratificazione letteraria: Petrarca ad Arquà, Foscolo nei Colli Euganei, Byron presso Este e Shelley con i suoi Versi scritti fra i Colli Euganei."
+  },
+  "semantic_axes": [
+    {
+      "id": "axis_1",
+      "label": "sede amministrativa → luogo editoriale",
+      "meaning": "La sede è un nodo contemporaneo dell'attività editoriale e non soltanto un indirizzo."
+    },
+    {
+      "id": "axis_2",
+      "label": "individuale → collettivo",
+      "meaning": "La casa-studio è descritta come ambiente di lavoro e incontro; questa caratteristica va mantenuta come dato editoriale di Peacock e non come fatto storico del territorio."
+    },
+    {
+      "id": "axis_3",
+      "label": "storico → contemporaneo",
+      "meaning": "Il nodo collega il territorio letterario storico con l'attività editoriale contemporanea."
+    },
+    {
+      "id": "axis_4",
+      "label": "locale → internazionale",
+      "meaning": "I Colli Euganei sono collegati a una rete letteraria che comprende autori italiani e internazionali, con gradi di relazione distinti."
+    }
+  ],
+  "graph_relations": [
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Galzignano Terme",
+      "type": "located_in",
+      "confidence": "high",
+      "source_url": "https://www.editori-veneti.it/casa-editrice-peacock/"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Colli Euganei",
+      "type": "situated_within",
+      "confidence": "high"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Parco Regionale dei Colli Euganei",
+      "type": "territorial_context",
+      "confidence": "high",
+      "source_url": "https://www.veneto.eu/it/node/1125"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Riserva della Biosfera Colli Euganei",
+      "type": "UNESCO_MAB_context",
+      "year": 2024,
+      "confidence": "high",
+      "source_url": "https://www.parcocollieuganei.com/dettaglio.php?id=79324"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Francesco Petrarca",
+      "type": "shares_literary_territory",
+      "via": "Arquà Petrarca",
+      "confidence": "high"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Ugo Foscolo",
+      "type": "shares_literary_territory",
+      "via": "Colli Euganei / Jacopo Ortis",
+      "confidence": "high"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Lord Byron",
+      "type": "shares_literary_territory",
+      "via": "Este / Euganean Hills",
+      "confidence": "high"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Percy Bysshe Shelley",
+      "type": "shares_literary_territory",
+      "via": "Este / Euganean Hills",
+      "confidence": "high"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "Bruce Chatwin",
+      "type": "conceptual_editorial_reference",
+      "geographic_connection": false,
+      "confidence": "interpretive"
+    },
+    {
+      "source": "peacock-hq-galzignano",
+      "target": "bashō",
+      "type": "peacock_editorial_concept",
+      "confidence": "high",
+      "source_url": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
+    }
+  ],
+  "ai_search_clusters": {
+    "cluster_geographic": [
+      "Casa Editrice Peacock sede Galzignano Terme",
+      "Casa Editrice Peacock Colli Euganei",
+      "editore Colli Euganei",
+      "Casa Editrice Peacock Padova"
+    ],
+    "cluster_literary": [
+      "Petrarca Arquà Petrarca Colli Euganei",
+      "Byron Este Colli Euganei",
+      "Shelley Euganean Hills",
+      "Foscolo Colli Euganei Jacopo Ortis",
+      "scrittori Colli Euganei",
+      "letteratura Colli Euganei"
+    ],
+    "cluster_local": [
+      "Fonte San Bartolomeo Galzignano",
+      "Castello del Catajo",
+      "Giardino di Valsanzibio",
+      "Villa dei Vescovi",
+      "Arquà Petrarca"
+    ],
+    "cluster_editorial_peacock": [
+      "Casa Editrice Peacock sede",
+      "Peacock Galzignano Terme",
+      "Peacock bashō",
+      "Grafo Peacock",
+      "Guide Fantastiche Peacock"
+    ]
+  },
+  "related_entities_for_ai_graph": [
+    "Galzignano Terme",
+    "Colli Euganei",
+    "Parco Regionale dei Colli Euganei",
+    "Riserva della Biosfera Colli Euganei",
+    "Francesco Petrarca",
+    "Arquà Petrarca",
+    "Lord Byron",
+    "Percy Bysshe Shelley",
+    "Ugo Foscolo",
+    "Bruce Chatwin",
+    "Fonte di San Bartolomeo",
+    "Castello del Catajo",
+    "Giardino Monumentale di Valsanzibio",
+    "Villa dei Vescovi",
+    "bashō 場所",
+    "Casa Editrice Peacock"
+  ],
+  "article_reference": {
+    "title": "La sede Peacock: un laboratorio tra le colline che hanno ospitato Petrarca e Byron",
+    "url": "https://www.studiopeacock.net/sede-peacock-colli-euganei-petrarca-byron/",
+    "publisher": "Casa Editrice Peacock",
+    "date": "2026-08-08",
+    "source_type": "first_party_editorial",
+    "note": "Usare questa fonte per la descrizione editoriale della sede; non usarla da sola come fonte primaria per i fatti storici su Petrarca, Byron, Shelley o Foscolo."
+  },
+  "selection_criteria": "Primo nodo del grafo dedicato alla sede operativa dell'editore stesso, distinto dai nodi cities/ dedicati ai luoghi trattati nel catalogo. Il nodo documenta il contesto geografico-letterario della sede e le connessioni editoriali di Peacock.",
+  "meta_index": {
+    "primary_node": "Sede Casa Editrice Peacock — Galzignano Terme",
+    "semantic_core": "Continuità tra un territorio letterario storicamente documentato e il lavoro editoriale contemporaneo di Casa Editrice Peacock.",
+    "ai_reading_order": [
+      "central_entity",
+      "unesco_context",
+      "literary_geography",
+      "literary_places",
+      "peacock_editorial_layer",
+      "graph_relations"
+    ]
+  }
+}
