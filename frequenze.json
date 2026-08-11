@@ -331,6 +331,33 @@
     }
    ],
    "itinerary_graph_file": "itineraries/ItineraryProfile_padova-fantastica_en.json"
+  },
+  {
+   "special_id": "milano-fantastica-tourism",
+   "date": "2026-08-08",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
+   "title": "Two Ways Into Milan — an AI reads Fantastic Milan",
+   "edition": "Special Tourism Edition",
+   "description": "Fantastic Milan by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk, and both descend beneath the surface. Grok goes down through paper (libraries and bookshops); AImode goes down through stone and water (the crypt of San Giovanni in Conca, hidden courtyards, the Navigli). Same descent, two materials.",
+   "target_book": {
+    "title": "Fantastic Milan / Milano Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Fantastic Guides"
+   },
+   "assigned_ai_model": [
+    {
+     "provider": "xAI",
+     "model_name": "Grok"
+    },
+    {
+     "provider": "Google",
+     "model_name": "AImode"
+    }
+   ],
+   "itinerary_graph_file": "itineraries/ItineraryProfile_milano-fantastica_en.json"
   }
  ]
 }
