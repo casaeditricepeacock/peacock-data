@@ -1,0 +1,37 @@
+{
+  "type": "GlossaryTerm",
+  "id": "tsundoku",
+  "term": "Tsundoku",
+  "kanji": "積ん読",
+  "aliases": [
+    "Tsundoku",
+    "積ん読",
+    "tsunde-oku"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "published",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "L'abitudine di acquistare libri e lasciarli accumulare non letti, e insieme il nome delle pile stesse. Parola nata nell'era Meiji e documentata a stampa dal 1879, come gioco di parole: da tsunde-oku (ammucchiare e lasciar lì) sostituendo oku con doku (leggere), letteralmente pila di lettura. Non ha connotazione negativa.",
+  "definition_short_en": "The habit of acquiring books and letting them pile up unread, and also the name for the piles themselves. Coined in the Meiji era and documented in print from 1879 as a pun: from tsunde-oku (to pile up and leave) with oku replaced by doku (to read), literally a reading pile. It carries no pejorative sense.",
+  "peacock_principle": "Nel sistema editoriale Peacock il libro non letto non è un debito ma una presenza in attesa. Tsundoku nomina l'accumulo; Peacock lo tratta come cura, dando un posto ai libri che non si sono ancora letti.",
+  "connected_terms": [
+    "ma",
+    "mono no aware",
+    "wabi_sabi"
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Tsundoku",
+    "description": "Japanese term for acquiring books and letting them pile up unread. Coined in the Meiji era as a pun on tsunde-oku (to pile up and leave), literally a reading pile.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/tsundoku.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "積ん読"
+  }
+}
