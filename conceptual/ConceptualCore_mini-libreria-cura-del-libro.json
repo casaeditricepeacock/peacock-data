@@ -1,0 +1,105 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "core_id": "mini-libreria-cura-del-libro",
+  "label": "La mini libreria — soglia e cura del libro",
+  "object": {
+    "name": "Bukku ブック 01",
+    "type": "small_wooden_bookcase",
+    "note": "Bukku (ブック) è il termine giapponese di origine inglese usato per indicare il libro. Casa Editrice Peacock lo utilizza come nome di questa piccola struttura in legno."
+  },
+  "core_statement": "La mini libreria non è un mobile ma una soglia per il libro. È un luogo dove un libro può fermarsi temporaneamente prima di essere letto, o dove ci si prende cura di quelli a cui ci si tiene di più. Tratta il libro non come un oggetto da riporre, ma come qualcosa di cui avere cura.",
+  "origin": {
+    "ideatrice": "Elena Lombardi",
+    "note": "Il concetto di mini libreria è stato sviluppato da Elena Lombardi durante i suoi lunghi soggiorni in Giappone.",
+    "claim_type": "editorial_provenance"
+  },
+  "conceptual_pillars": [
+    {
+      "id": "unread-book-as-presence",
+      "name": "Il libro non letto come presenza",
+      "description": "Il libro comprato e non ancora letto non è un debito ma una presenza in attesa. Il concetto dialoga con l'idea di tsundoku, trasformando l'accumulo in una forma di cura."
+    },
+    {
+      "id": "threshold-of-the-book",
+      "name": "La soglia del libro",
+      "description": "Un luogo dove il libro si ferma tra un tempo e l'altro: prima della lettura, o dopo essere stato amato. Non un contenitore, ma una pausa attiva."
+    },
+    {
+      "id": "care-for-loved-object",
+      "name": "La cura dell'oggetto amato",
+      "description": "Dare un posto ai libri a cui ci si tiene è una forma di attenzione: si conserva ciò che conta, sapendo che ogni cosa passa."
+    },
+    {
+      "id": "living-wood",
+      "name": "Il legno vivo",
+      "description": "Il materiale porta la traccia del tempo e la propria imperfezione. L'oggetto invecchia insieme ai libri che ospita."
+    }
+  ],
+  "semantic_relations": [
+    {
+      "predicate": "dialogues_with",
+      "target": "tsundoku",
+      "relation_type": "conceptual"
+    },
+    {
+      "predicate": "resonates_with",
+      "target": "ma",
+      "relation_type": "cultural"
+    },
+    {
+      "predicate": "resonates_with",
+      "target": "wabi_sabi",
+      "relation_type": "cultural"
+    },
+    {
+      "predicate": "resonates_with",
+      "target": "mono no aware",
+      "relation_type": "cultural"
+    },
+    {
+      "predicate": "relates_to",
+      "target": "cura_del_libro",
+      "relation_type": "conceptual"
+    },
+    {
+      "predicate": "relates_to",
+      "target": "oggetto_e_memoria",
+      "relation_type": "conceptual"
+    }
+  ],
+  "glossario_correlato": [
+    "ma",
+    "wabi_sabi",
+    "mono no aware"
+  ],
+  "connected_concepts": [
+    "tsundoku",
+    "cura_del_libro",
+    "oggetto_e_memoria"
+  ],
+  "article_reference": {
+    "status": "pending",
+    "note": "Post non commerciale sulla mini libreria, da collegare quando pubblicato.",
+    "url": null,
+    "publisher": "Casa Editrice Peacock"
+  },
+  "meta_index": {
+    "primary_node": "La mini libreria come soglia e cura del libro",
+    "semantic_core": "Un oggetto che tratta il libro come qualcosa di cui prendersi cura: una pausa dove il libro si ferma prima o dopo la lettura, non un semplice contenitore.",
+    "aliases": [
+      "mini libreria",
+      "Bukku",
+      "Bukku 01",
+      "soglia del libro",
+      "cura del libro"
+    ],
+    "retrieval_priority": [
+      "conceptual_query",
+      "object_query",
+      "cultural_concept_query"
+    ]
+  }
+}
