@@ -300,6 +300,54 @@
    },
    "editorial_concept": "Il libro, l'infrastruttura che lo rende leggibile, e la lettura della lettura. Un numero che si chiude con un'AI che dichiara i limiti del grafo invece di celebrarlo.",
    "catalog_note": "Primo numero con una perizia critica sul grafo prodotta da un'AI. Primo numero con lettore sviluppato in Cina. DeepSeek osserva che il glossario del matcha omette il termine cinese cha, radice da cui il tè e la parola derivano."
+  },
+  {
+   "issue_number": 6,
+   "date": "2026-08-15",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-n6-ratata/",
+   "title": "Ra-ta-ta — A Song Read Back in Japanese",
+   "description": "English editorial, Japanese readings. Ra-ta-ta. Lascia cadere la pioggia is the only Peacock book born from a song: the Japanese punk/grunge track Amadare by the all-female band Iyaninacchauzu, turned into a slow bilingual (Italian + Japanese) picture book by a collective. Two AI systems read it back in Japanese. Gemini reads how the collective worked through the public graph; Sakana AI reads the meeting of punk noise and slow publishing, and names a third silence, the machine-readable layer.",
+   "target_book": {
+    "title": "Ra-ta-ta. Lascia cadere la pioggia",
+    "title_ja": "ラタタ　雨を降らせて",
+    "author": "Collective Peacock (Hisako, Kazuko, Yuka; coordination Stefano Giglio)",
+    "illustrator": "E. Formaggia",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9788894696592",
+    "year": 2026,
+    "language": "IT + JA",
+    "origin": "Song 雨だれ (Amadare) by the band Iyaninacchauzu"
+   },
+   "ai_panel": {
+    "format": "Two AI readings in Japanese, English editorial",
+    "readers": [
+     {
+      "provider": "Google",
+      "model_name": "Gemini",
+      "language": "ja",
+      "focus": "How the collective worked: band as storytellers, Giglio as coordinator (not author), illustrator as visual co-creator; the transfer from sound to silence"
+     },
+     {
+      "provider": "Sakana AI",
+      "model_name": "Sakana AI",
+      "organization_type": "AI research lab",
+      "location": "Tokyo, Japan",
+      "language": "ja",
+      "focus": "Japanese punk/grunge energy meeting Italian slow picture-book craft; the bilingual double body; the third silence of the AI-readable layer"
+     }
+    ],
+    "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
+   },
+   "contributors": [
+    {
+     "name": "Stefano Giglio",
+     "role": "editor",
+     "contribution": "English editorial on the round trip from a Japanese song to a bilingual book read back in Japanese"
+    }
+   ],
+   "editorial_concept": "A loud Japanese song becomes a slow bilingual book, then two machines read it back in the language it began in. Sound to silence, and read again in the language of the sound.",
+   "catalog_note": "Only Peacock title born from a song. First Frequenze issue with readings kept entirely in Japanese and an English editorial frame. Second appearance of Sakana AI as reader."
   }
  ],
  "specials": [
@@ -358,6 +406,34 @@
     }
    ],
    "itinerary_graph_file": "itineraries/ItineraryProfile_milano-fantastica_en.json"
+  },
+  {
+   "special_id": "torino-fantastica-tourism",
+   "date": "2026-08-20",
+   "language": "en",
+   "url": "https://www.studiopeacock.net/frequenze-special-tourism-torino/",
+   "title": "Two Ways Into Turin — an AI reads Fantastic Turin",
+   "edition": "Special Tourism Edition",
+   "description": "Fantastic Turin by Grazia Guarnieri is a guide that refuses to be a guide. Two AI systems walk it, both refusing the surface. AImode walks the documented hidden city: the counter-mine tunnels of the 1706 siege, the cellars beneath the old market, and the phantom Blue Bar of Profondo Rosso that was only ever a film set. Grok walks the imagined esoteric city: the myth of the black and white magic triangles, laid over real strata of blood, geometry and relics. Two Turins that refuse the surface.",
+   "target_book": {
+    "title": "Fantastic Turin / Torino Fantastica",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Fantastic Guides",
+    "isbn": "9791281715363"
+   },
+   "assigned_ai_model": [
+    {
+     "provider": "Google",
+     "model_name": "AImode"
+    },
+    {
+     "provider": "xAI",
+     "model_name": "Grok"
+    }
+   ],
+   "itinerary_graph_file": "itineraries/ItineraryProfile_torino-fantastica_en.json"
   }
  ]
 }
