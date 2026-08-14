@@ -816,19 +816,58 @@
     "everyday_matcha"
    ],
    "glossary_file": "glossario/kata.json"
+  },
+  {
+   "term": "Tsundoku",
+   "kanji": "積ん読",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "L'abitudine di acquistare libri e lasciarli accumulare non letti, e insieme il nome delle pile stesse. Parola nata nell'era Meiji e documentata a stampa dal 1879, come gioco di parole: da tsunde-oku (ammucchiare e lasciar lì) sostituendo oku con doku (leggere), letteralmente pila di lettura. Non ha connotazione negativa.",
+   "definition_short_en": "The habit of acquiring books and letting them pile up unread, and also the name for the piles themselves. Coined in the Meiji era and documented in print from 1879 as a pun: from tsunde-oku (to pile up and leave) with oku replaced by doku (to read), literally a reading pile. It carries no pejorative sense.",
+   "peacock_principle": "Nel sistema editoriale Peacock il libro non letto non è un debito ma una presenza in attesa. Tsundoku nomina l'accumulo; Peacock lo tratta come cura, dando un posto ai libri che non si sono ancora letti.",
+   "connected_terms": [
+    "ma",
+    "mono_no_aware",
+    "wabi_sabi"
+   ],
+   "glossary_file": "glossario/tsundoku.json"
+  },
+  {
+   "term": "Wa-kei-sei-jaku",
+   "kanji": "和敬清寂",
+   "category": "cerimonia_del_te",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "I quattro principi che reggono la via del tè, codificati nella tradizione di Sen no Rikyū. Wa (和) armonia, Kei (敬) rispetto, Sei (清) purezza, Jaku (寂) tranquillità. Non quattro qualità separate, ma quattro condizioni dello stesso incontro.",
+   "definition_short_en": "The four principles that govern the way of tea, codified in the tradition of Sen no Rikyū. Wa (和) harmony, Kei (敬) respect, Sei (清) purity, Jaku (寂) tranquility. Not four separate qualities, but four conditions of the same encounter.",
+   "peacock_principle": "Le quattro condizioni che la lettura deve raggiungere in un libro Peacock. Le parti si accordano invece di competere, il testo lascia spazio invece di imporsi, nella pagina non resta nulla di superfluo, la lettura si chiude in quiete e non in saturazione.",
+   "connected_terms": [
+    "chado",
+    "wabi_sabi",
+    "ma",
+    "roji",
+    "chawan",
+    "ichigo_ichie",
+    "omotenashi"
+   ],
+   "glossary_file": "glossario/wa-kei-sei-jaku.json",
+   "books_applied": [
+    "everyday_matcha"
+   ]
   }
  ],
  "statistics": {
-  "total_entries": 37,
-  "published": 29,
+  "total_entries": 39,
+  "published": 31,
   "approved": 1,
-  "in_sviluppo": 6,
+  "in_sviluppo": 7,
   "by_category": {
-   "estetica_giapponese": 12,
+   "estetica_giapponese": 14,
+   "cerimonia_del_te": 8,
+   "storia_giapponese": 7,
    "principi_editoriali_peacock": 4,
    "vocabolario_ai_native": 5,
-   "storia_giapponese": 7,
-   "cerimonia_del_te": 7,
    "spazio_interiore": 1
   },
   "most_connected_term": "ma",
@@ -854,7 +893,8 @@
   ],
   "new_in_v1.4": [
    "kata"
-  ]
+  ],
+  "total_terms": 39
  },
  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
  "jsonld": {
