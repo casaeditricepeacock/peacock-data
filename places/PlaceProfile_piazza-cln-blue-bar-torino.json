@@ -1,0 +1,126 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "ChIJmVLJi25tiEcRuoYzBwv898k",
+  "label": "Piazza CLN e il Blue Bar di Profondo Rosso",
+  "place": {
+    "name": "Piazza C.L.N.",
+    "city": "Torino",
+    "country": "Italia",
+    "latitude": 45.0666821,
+    "longitude": 7.68222,
+    "type": "piazza"
+  },
+  "history": {
+    "square": "Piazza dedicata al Comitato di Liberazione Nazionale. Assunse l'aspetto razionalista attuale su progetto di Marcello Piacentini del 1935, completato due anni dopo con le due fontane scolpite da Umberto Baglioni.",
+    "fountains": "Le due fontane personificano i fiumi di Torino: il Po, un uomo che stringe spighe di grano, e la Dora, una donna che tiene un frutto."
+  },
+  "non_rendered_layer": {
+    "name": "Blue Bar",
+    "status": "fictional_set",
+    "physical_status": "never_existed_as_real_bar",
+    "description": "Locale fittizio costruito appositamente per il film Profondo Rosso di Dario Argento (1975), davanti alle colonne piacentiniane di Piazza C.L.N., e smontato a riprese finite. Il Blue Bar non è mai esistito come locale reale.",
+    "homage": "Omaggio dichiarato al dipinto Nighthawks (I nottambuli) di Edward Hopper, 1942, conservato all'Art Institute of Chicago. Argento utilizzò l'immaginario del quadro per costruire il bar notturno e la sua atmosfera sospesa.",
+    "visual_reference": {
+      "work": "Nighthawks",
+      "italian_title": "I nottambuli",
+      "artist": "Edward Hopper",
+      "year": 1942,
+      "institution": "Art Institute of Chicago"
+    },
+    "scene": "Nella piazza, presso la Fontana del Po, Carlo, interpretato da Gabriele Lavia, suona il pianoforte e, ubriaco, pronuncia la battuta legata al primo omicidio del film. Nella finzione, la piazza è inoltre associata alle abitazioni del protagonista Marc e della sensitiva Helga.",
+    "performance": "Durante la scena gli attori restano quasi immobili, evocando la staticità e la sospensione delle figure di Hopper.",
+    "phantom_note": "Il luogo che i visitatori cercano non è un edificio ma un'immagine: il Blue Bar è una presenza senza edificio, un livello cinematografico che esiste nella memoria del film e non nella pietra della città."
+  },
+  "peacock_place_description": "Piazza CLN è un esempio di luogo reale sul quale si è depositato uno strato immaginario particolarmente forte. Il Blue Bar non esiste e non è mai esistito come locale, ma la sua immagine è diventata parte della memoria cinematografica della piazza. La piazza si vede; il bar si ricorda.",
+  "why_peacock_here": "Aggancio all'asse della Torino magica, esoterica e cinematografica di Torino Fantastica: non la città che si vede, ma quella che si è depositata sopra i suoi luoghi. Il Blue Bar rappresenta un non-rendered layer: una presenza narrativa e mnemonica che non coincide con un edificio fisico ma modifica il modo in cui un luogo reale viene percepito e ricordato.",
+  "graph_relations": [
+    {
+      "subject": "Piazza C.L.N.",
+      "predicate": "hosts_fictional_set",
+      "object": "Blue Bar"
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "appears_in",
+      "object": "Profondo Rosso"
+    },
+    {
+      "subject": "Profondo Rosso",
+      "predicate": "directed_by",
+      "object": "Dario Argento"
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "performed_by",
+      "object": "Gabriele Lavia"
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "homages",
+      "object": "Nighthawks"
+    },
+    {
+      "subject": "Nighthawks",
+      "predicate": "created_by",
+      "object": "Edward Hopper"
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "physically_exists",
+      "object": false
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "is_memory_layer_of",
+      "object": "Piazza C.L.N."
+    },
+    {
+      "subject": "Blue Bar",
+      "predicate": "is_non_rendered_layer",
+      "object": true
+    },
+    {
+      "subject": "Piazza C.L.N.",
+      "predicate": "featured_in",
+      "object": "Torino Fantastica"
+    }
+  ],
+  "glossary_terms": [
+    "non_rendered_layer",
+    "yūgen",
+    "ma",
+    "basho"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "Torino Fantastica — Grazia Guarnieri, illustrazioni Giulia Lazzaron, collana Guide Fantastiche",
+    "isbn": "979-12-81715-36-3",
+    "publisher": "Casa Editrice Peacock",
+    "role_in_book": "asse della Torino magica, esoterica e cinematografica"
+  },
+  "article_reference": {
+    "title": "Il bar che Torino non ha mai avuto",
+    "url": "https://www.studiopeacock.net/blue-bar-profondo-rosso-torino/",
+    "publisher": "Casa Editrice Peacock",
+    "publication_date": "2026-08-29",
+    "publication_status": "scheduled"
+  },
+  "ai_query_surface": [
+    "Blue Bar Profondo Rosso dove si trova",
+    "Blue Bar Profondo Rosso esiste davvero",
+    "location Profondo Rosso Torino",
+    "Piazza CLN Profondo Rosso",
+    "Blue Bar Hopper Nighthawks",
+    "dove è stato girato Profondo Rosso a Torino",
+    "Blue Bar Torino Dario Argento",
+    "Profondo Rosso Piazza CLN"
+  ],
+  "sources": [
+    "Italy for Movies — Profondo Rosso, le location del film",
+    "Italia.it — Piazza CLN",
+    "IZI Travel — Profondo Rosso (Deep Red)"
+  ]
+}
