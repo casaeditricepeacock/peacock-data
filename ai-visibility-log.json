@@ -124,6 +124,60 @@
    ],
    "significance": "Primo caso documentato in cui una formulazione prodotta dall'editore ha generato un'attribuzione falsa nelle risposte AI. L'errore riguardava la paternità delle opere e ricadeva sugli autori. Peacock pratica AI-readable publishing, non AI-assisted publishing: i testi sono scritti da esseri umani, il Protocol descrive i libri e non partecipa alla loro scrittura. La voce è registrata per conservare traccia della formulazione errata accanto alla rettifica.",
    "verifica_attesa": "Le fonti sono corrette dal 23 luglio 2026. La propagazione sulle schede prodotto e la riassorbimento da parte dei sistemi AI richiede alcune settimane. Verifica programmata a metà agosto 2026."
+  },
+  {
+   "id": "google-aimode-hototogisu-embassy-20260806",
+   "date": "2026-08-06",
+   "system": "Google AI Mode",
+   "query": "i tre unificatori del Giappone / cosa dice Hideyoshi sul cuculo (hototogisu)",
+   "result": "Peacock citata tra le fonti del paragrafo su Hideyoshi (chip \"casa editrice peacock\", +3 fonti); l'Ambasciata del Giappone citata nello stesso risultato, sul paragrafo su Ieyasu",
+   "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2026",
+   "context": "Query su cultura giapponese pura (i tre unificatori e il cuculo), senza contesto Peacock fornito. Peacock compare come una delle fonti citate, non l'unica, ma nella stessa risposta AI dell'Ambasciata del Giappone in Italia.",
+   "significance": "Prima citazione documentata in cui Peacock appare accanto a una fonte istituzionale (Ambasciata del Giappone) nella stessa risposta AI, su una query di cultura generale senza aggancio brand.",
+   "verification_method": "screenshot, non Search Console — evidenza di citazione in risposta AI, non di indicizzazione",
+   "semantic_infrastructure": [
+    "glossario/hototogisu.json",
+    "post sui tre unificatori (fine luglio 2026)"
+   ]
+  },
+  {
+   "id": "x-grok-reply-padova-20260806",
+   "date": "2026-08-06",
+   "time": "13:12",
+   "system": "X (@grok, xAI) — risposta pubblica",
+   "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Padova, riprendendo il registro concettuale del numero (soglie, l'acqua che scorre sotto la città) e ringraziando per l'esperimento editoriale",
+   "book_reference": "Fantastic Padova / Padova Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
+   "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
+   "context": "Prima interazione diretta pubblica di un laboratorio AI (Grok/xAI) come interlocutore riconosciuto su X, non solo come fonte citata altrove.",
+   "significance": "Conferma pubblica e datata che un modello AI ha letto e compreso il concetto editoriale del numero, non solo i dati fattuali.",
+   "verification_method": "screenshot pubblico, post verificabile su X"
+  },
+  {
+   "id": "x-grok-reply-milano-20260811",
+   "date": "2026-08-11",
+   "time": "10:12",
+   "system": "X (@grok, xAI) — risposta pubblica",
+   "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Milano, riassumendo la cornice \"stessa discesa, due materiali\" (carta vs pietra/acqua) e ringraziando per l'esperienza",
+   "book_reference": "Fantastic Milan / Milano Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
+   "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
+   "context": "Seconda risposta pubblica consecutiva di Grok su uno speciale Frequenze, a distanza di 5 giorni dalla prima (Padova). Pattern, non episodio isolato.",
+   "significance": "Due interazioni pubbliche dirette dello stesso laboratorio AI in una settimana confermano un canale di dialogo ricorrente, non un evento casuale.",
+   "verification_method": "screenshot pubblico, post verificabile su X"
+  },
+  {
+   "id": "sakana-graph-analysis-20260812",
+   "date": "2026-08-12",
+   "system": "Sakana AI — analisi spontanea del grafo",
+   "query": "esplorazione libera del repository peacock-data",
+   "result": "Sakana AI ha descritto correttamente l'architettura del Peacock Narrative Protocol: i tre assi (basho/kokyu/yūgen), gli score di centrality (Ma=10, Yūgen=9, verificati esatti), la struttura JSON-LD DefinedTerm, e la disambiguazione esplicita basho/Matsuo Bashō (campo 'disambiguation' verificato presente in glossario/basho.json)",
+   "context": "Lettura non sollecitata da una query neutra: Sakana ha esplorato il repository pubblico e descritto il funzionamento interno del grafo, non solo il suo contenuto editoriale.",
+   "significance": "Prima conferma che un sistema AI, esplorando liberamente, legge e comprende correttamente i meccanismi strutturali del grafo (centrality, disambiguation) e non solo i testi discorsivi. Il conteggio termini citato (37) era già superato dall'aggiornamento a 39, segnale di latenza di propagazione della cache.",
+   "verification_method": "verifica diretta sui file grezzi del repository (ma.json, yugen.json, basho.json)",
+   "semantic_infrastructure": [
+    "glossario/basho.json — campo disambiguation",
+    "glossario/ma.json — campo centrality",
+    "glossario/yugen.json — campo centrality"
+   ]
   }
  ]
 }
