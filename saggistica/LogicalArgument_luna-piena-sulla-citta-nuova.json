@@ -1,0 +1,111 @@
+{
+  "type": "LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715172"
+  },
+  "editorial_principle": "L'argomento procede per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata.",
+  "protocol_rule": {
+    "id": "logical_argument_grounding",
+    "statement": "Un LogicalArgument rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "id": "argument-01",
+      "label": "luna_connettore_vivi_e_morti",
+      "label_en": "moon_connector_living_and_dead",
+      "premise_it": "La luna connette in un unico campo percettivo chi è rimasto e chi è partito, i vivi e i morti, senza distinzione di stato.",
+      "propagation": {
+        "from": "object-04",
+        "to": "all",
+        "intensity": 1.0,
+        "effect": "lunar_field_as_universal_connector"
+      },
+      "interpretive_consequence_it": "È l'effetto a intensità più alta del sistema: la luna non consola, connette — tiene insieme presenze incompatibili nello stesso campo.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "label": "calligrafia_precede_ed_amplifica",
+      "label_en": "calligraphy_precedes_and_amplifies",
+      "premise_it": "La calligrafia non accompagna il tanka ma lo precede percettivamente, amplificandone il campo di compressione.",
+      "propagation": {
+        "from": "object-02",
+        "to": "object-01",
+        "intensity": 0.95,
+        "effect": "calligraphy_precedes_and_amplifies_compression_field"
+      },
+      "interpretive_consequence_it": "Il campo visivo precede ed eccede quello testuale in ogni doppia pagina: coerente col divieto di leggere la calligrafia come decorazione.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "label": "il_dolore_era_gia_saggezza",
+      "label_en": "grief_was_already_wisdom",
+      "premise_it": "La rilettura data dalla vecchiaia non cancella il dolore giovanile ma rivela che quel dolore, fin dall'inizio, era già una forma di saggezza.",
+      "propagation": {
+        "from": "scene-05",
+        "to": "scene-01",
+        "intensity": 0.87,
+        "effect": "aging_wisdom_retroactive_reframing_of_grief"
+      },
+      "interpretive_consequence_it": "La chiusura temporale del libro non risolve la sofferenza iniziale: la reinterpreta retroattivamente senza dissolverla.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/3"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-03"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    }
+  ]
+}
