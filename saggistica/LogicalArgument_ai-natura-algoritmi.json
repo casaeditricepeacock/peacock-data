@@ -1,0 +1,206 @@
+{
+  "@context": {
+    "pp": "https://peacock-data.org/ns/",
+    "book": "pp:book",
+    "title": "pp:title",
+    "author": "pp:author",
+    "publisher": "pp:publisher",
+    "isbn": "pp:isbn",
+    "arguments": "pp:arguments",
+    "argument": "pp:argument",
+    "argument_type": "pp:argument_type",
+    "label": "pp:label",
+    "label_en": "pp:label_en",
+    "premise": "pp:premise",
+    "premise_en": "pp:premise_en",
+    "propagation": "pp:propagation",
+    "from": "pp:from",
+    "to": "pp:to",
+    "scope": "pp:scope",
+    "locality": "pp:locality",
+    "intensity": "pp:intensity",
+    "effect": "pp:effect",
+    "observed_effect": "pp:observed_effect",
+    "interpretive_consequence": "pp:interpretive_consequence",
+    "grounded_in": "pp:grounded_in",
+    "file": "pp:file",
+    "json_pointer": "pp:json_pointer",
+    "supports_thesis": {
+      "@id": "pp:supports_thesis",
+      "@type": "@id"
+    },
+    "semantic_relations": "pp:semantic_relations",
+    "relation": "pp:relation",
+    "target_type": "pp:target_type",
+    "target_id": {
+      "@id": "pp:target_id",
+      "@type": "@id"
+    },
+    "editorial_principle": "pp:editorial_principle",
+    "protocol_rule": "pp:protocol_rule",
+    "id": "@id",
+    "type": "@type"
+  },
+  "@id": "pp:logical-argument-ai-amore",
+  "@type": "pp:LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "@id": "pp:book-ai-amore-natura-algoritmi",
+    "@type": "pp:Book",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715196"
+  },
+  "editorial_principle": "L'argomento non procede per sillogismo ma per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata (cross_layer_effects). Questo file rende esplicita quella propagazione come struttura logica citabile.",
+  "protocol_rule": {
+    "@id": "pp:logical_argument_grounding",
+    "@type": "pp:ProtocolRule",
+    "statement": "Un LogicalArgument non implica necessariamente una forma sillogistica: rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "@id": "pp:argument-01",
+      "@type": "pp:Argument",
+      "argument_type": "propagative",
+      "label": "dissoluzione_voce_autoriale",
+      "label_en": "authorial_voice_dissolution",
+      "premise": {
+        "it": "Il pensiero umano e la generazione algoritmica diventano indistinguibili nel campo del testo."
+      },
+      "propagation": {
+        "from": "scene-05",
+        "to": "all",
+        "scope": "global",
+        "locality": "non_local",
+        "intensity": 1.0,
+        "effect": "closure_prevention"
+      },
+      "observed_effect": {
+        "it": "L'effetto di scene-05 si propaga a tutti i nodi del sistema con intensità 1.0 e produce un impatto di stabilità classificato come closure_prevention."
+      },
+      "interpretive_consequence": {
+        "it": "L'autorialità non può stabilizzarsi in nessun momento del testo: non è un difetto compositivo ma l'effetto dichiarato con la massima intensità misurata nel sistema.",
+        "en": "Authorship cannot be stabilized at any moment; this is the highest-intensity effect in the system."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/layers/scenes/4"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:yūgen"
+        }
+      ]
+    },
+    {
+      "@id": "pp:argument-02",
+      "@type": "pp:Argument",
+      "argument_type": "state_transition",
+      "label": "interruzione_climatica_non_risolutiva",
+      "label_en": "unresolved_climatic_interruption",
+      "premise": {
+        "it": "La pandemia e la guerra non agiscono come eventi storici da narrare, ma come interruzioni climatiche della cognizione."
+      },
+      "propagation": {
+        "from": "weather-01",
+        "to": "scene-01",
+        "scope": "local",
+        "locality": "direct",
+        "intensity": 0.92,
+        "effect": "compression_of_origin_field"
+      },
+      "observed_effect": {
+        "it": "weather-01 produce su scene-01 una compressione del campo d'origine con intensità 0.92."
+      },
+      "interpretive_consequence": {
+        "it": "Il campo cognitivo del libro viene interrotto ma non risolto: la sospensione resta attiva (suppressed_active) invece di chiudersi in una sintesi.",
+        "en": "The book's cognitive field is interrupted but not resolved: suspension remains active (suppressed_active) rather than closing into a synthesis."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/2"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        }
+      ]
+    },
+    {
+      "@id": "pp:argument-03",
+      "@type": "pp:Argument",
+      "argument_type": "cross_layer",
+      "label": "natura_come_strato_operativo",
+      "label_en": "nature_as_operating_layer",
+      "premise": {
+        "it": "L'algoritmo è un sistema di trasformazione di stati che simula alcune proprietà ricombinatorie dei sistemi naturali senza coincidere con essi."
+      },
+      "propagation": {
+        "from": "weather-03",
+        "to": "object-04",
+        "scope": "cross_layer",
+        "locality": "non_linear",
+        "intensity": 0.91,
+        "effect": "algorithmic_behavior_destabilization"
+      },
+      "observed_effect": {
+        "it": "weather-03 modifica il comportamento di object-04 con una propagazione non lineare di intensità 0.91."
+      },
+      "interpretive_consequence": {
+        "it": "La natura non è sfondo tematico ma strato operativo che modifica attivamente sia il pensiero sia le strutture algoritmiche del testo.",
+        "en": "Nature is not a thematic background but an operating layer that actively modifies both thought and the algorithmic structures of the text."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/6"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:basho"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:yūgen"
+        }
+      ]
+    }
+  ]
+}
