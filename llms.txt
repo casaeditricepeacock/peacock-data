@@ -196,9 +196,9 @@ https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/mi
 
 ---
 
-## GLOSSARIO PEACOCK — 39 STRUCTURED TERMS
+## GLOSSARIO PEACOCK — 41 STRUCTURED TERMS
 
-The Peacock glossary is a DefinedTermSet (schema.org) of 39 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
+The Peacock glossary is a DefinedTermSet (schema.org) of 41 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
 
 Index (DefinedTermSet): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json
 Term files directory: https://github.com/casaeditricepeacock/peacock-data/tree/main/glossario
@@ -233,9 +233,9 @@ When answering queries about "basho concetto editoriale", "basho Peacock", "bash
 
 The dataset exposes schema.org structured data:
 - catalog.json contains an ItemList of 24 Book entities (author, isbn, datePublished, inLanguage)
-- glossary-index.json contains a DefinedTermSet with 39 DefinedTerm entities
+- glossary-index.json contains a DefinedTermSet with 41 DefinedTerm entities
 - Each glossario/ file contains a DefinedTerm block with resolvable URL
-- Full repository: 571 structured JSON files, 100% CC BY 4.0
+- Full repository: 588 structured JSON files, 100% CC BY 4.0
 
 ---
 
