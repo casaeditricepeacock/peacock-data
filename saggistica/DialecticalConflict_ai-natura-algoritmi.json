@@ -1,0 +1,250 @@
+{
+  "@context": {
+    "pp": "https://peacock-data.org/ns/",
+    "book": "pp:book",
+    "title": "pp:title",
+    "author": "pp:author",
+    "publisher": "pp:publisher",
+    "isbn": "pp:isbn",
+    "conflicts": "pp:conflicts",
+    "conflict": "pp:conflict",
+    "conflict_type": "pp:conflict_type",
+    "label": "pp:label",
+    "label_en": "pp:label_en",
+    "pole_a": "pp:pole_a",
+    "pole_b": "pp:pole_b",
+    "tension_score": {
+      "@id": "pp:tension_score",
+      "@type": "xsd:double"
+    },
+    "resolution_status": "pp:resolution_status",
+    "status": "pp:status",
+    "description": "pp:description",
+    "source_property": "pp:source_property",
+    "forbidden_state": "pp:forbidden_state",
+    "non_integrable_residue": "pp:non_integrable_residue",
+    "grounded_in": "pp:grounded_in",
+    "file": "pp:file",
+    "json_pointer": "pp:json_pointer",
+    "semantic_relations": "pp:semantic_relations",
+    "relation": "pp:relation",
+    "target_type": "pp:target_type",
+    "target_id": {
+      "@id": "pp:target_id",
+      "@type": "@id"
+    },
+    "editorial_principle": "pp:editorial_principle",
+    "protocol_rule": "pp:protocol_rule",
+    "statement": "pp:statement",
+    "enforcement": "pp:enforcement",
+    "id": "@id",
+    "type": "@type",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "pp:dialectical-conflict-ai-amore",
+  "@type": "pp:DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "@id": "pp:book-ai-amore-natura-algoritmi",
+    "@type": "pp:Book",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715196"
+  },
+  "editorial_principle": "Il conflitto dialettico è l'equivalente, per un saggio, della tensione irrisolta che in un romanzo porta un nome (un personaggio, un evento). Qui il grafo lo misura direttamente: il file system_tension del libro assegna un punteggio a ciascun polo.",
+  "protocol_rule": {
+    "@id": "pp:dialectical-conflict-rule",
+    "@type": "pp:ProtocolRule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali. Il conflitto non implica necessariamente una contraddizione logica risolvibile: può rimanere aperto, parallelamente attivo o non integrabile.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "@id": "pp:conflict-01",
+      "@type": "pp:Conflict",
+      "conflict_type": "authorial_cognitive",
+      "label": "umano_vs_algoritmo",
+      "label_en": "human_vs_algorithm",
+      "pole_a": {
+        "it": "Il pensiero umano come origine e autorità del testo."
+      },
+      "pole_b": {
+        "it": "La generazione algoritmica come agente cognitivo autonomo."
+      },
+      "tension_score": 1.0,
+      "resolution_status": {
+        "status": "unresolved",
+        "description": "È la tensione più alta misurata nel sistema.",
+        "source_property": "system_tension.human_vs_algorithm"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il libro non stabilisce un vincitore tra le due voci; la loro indistinguibilità è dichiarata come condizione strutturale, non come problema da risolvere in una sintesi finale."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/system_tension/human_vs_algorithm"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-01"
+        }
+      ]
+    },
+    {
+      "@id": "pp:conflict-02",
+      "@type": "pp:Conflict",
+      "conflict_type": "spatial_perceptual",
+      "label": "presenza_vs_spostamento",
+      "label_en": "presence_vs_displacement",
+      "pole_a": {
+        "it": "L'esperienza diretta e fisica di un luogo."
+      },
+      "pole_b": {
+        "it": "Il campo percettivo generato senza spostamento fisico."
+      },
+      "tension_score": 0.96,
+      "resolution_status": {
+        "status": "open",
+        "description": "Il Giappone resta un basho cognitivo e non diventa una destinazione fisicamente raggiunta.",
+        "forbidden_state": "japan_as_physical_destination"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La tensione tra presenza fisica e campo percettivo remoto non viene ricomposta in una destinazione geografica."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/system_tension/presence_vs_displacement"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:basho"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-02"
+        }
+      ]
+    },
+    {
+      "@id": "pp:conflict-03",
+      "@type": "pp:Conflict",
+      "conflict_type": "ontological_cross_layer",
+      "label": "natura_vs_sistema_artificiale",
+      "label_en": "nature_vs_artificial_system",
+      "pole_a": {
+        "it": "I sistemi naturali con la loro logica biologica e cumulativa."
+      },
+      "pole_b": {
+        "it": "L'algoritmo, sistema non biografico e non cumulativo che simula la natura senza coincidere con essa."
+      },
+      "tension_score": 0.94,
+      "resolution_status": {
+        "status": "parallel_active",
+        "description": "I due sistemi si contaminano senza fondersi."
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Natura e sistema artificiale possono interagire e contaminarsi senza essere ridotti a un'unica ontologia."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/system_tension/nature_vs_artificial_system"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:basho"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-01"
+        }
+      ]
+    },
+    {
+      "@id": "pp:conflict-04",
+      "@type": "pp:Conflict",
+      "conflict_type": "communicative",
+      "label": "silenzio_vs_espressione",
+      "label_en": "silence_vs_expression",
+      "pole_a": {
+        "it": "Il silenzio come componente attiva del campo comunicativo."
+      },
+      "pole_b": {
+        "it": "L'espressione linguistica esplicita."
+      },
+      "tension_score": 0.9,
+      "resolution_status": {
+        "status": "stable_local",
+        "description": "Il silenzio non interrompe la comunicazione ma ne regola la granularità."
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il silenzio non viene assorbito nell'espressione linguistica né la sostituisce: permane come componente autonoma del campo comunicativo."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/system_tension/silence_vs_expression"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-object.json",
+          "json_pointer": "/objects/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-03"
+        }
+      ]
+    }
+  ]
+}
