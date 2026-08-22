@@ -1,0 +1,120 @@
+{
+  "type": "DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9788894696547"
+  },
+  "editorial_principle": "Questo libro non ha un campo system_tension numerico nel NarrativeSystemGraph. Le tensioni sono derivate dai forbidden_states abbinati alla funzione reale descritta nei loop, senza punteggi inventati.",
+  "protocol_rule": {
+    "id": "dialectical_conflict_rule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali, anche quando il libro non fornisce un punteggio numerico esplicito.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "id": "conflict-01",
+      "label": "lutto_vs_risoluzione",
+      "label_en": "mourning_vs_resolution",
+      "pole_a": "il lutto come cura continua verso un corpo assente che non può riceverla",
+      "pole_b": "la risoluzione del lutto, esplicitamente vietata dal sistema",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "permanent_open — loop-02 (lutto_cura_impossibile); forbidden_state: mourning_resolved",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il sistema non risolve il lutto: lo stabilizza come campo permanentemente aperto."
+      },
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-02"
+        }
+      ]
+    },
+    {
+      "id": "conflict-02",
+      "label": "assenza_vs_vuoto",
+      "label_en": "absence_vs_void",
+      "pole_a": "l'assenza come presenza percettiva duratura, mantenuta viva dalla memoria poetica",
+      "pole_b": "il vuoto come mancanza pura, esplicitamente vietato come lettura del sistema",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "loop-01 (luna_connessione_universale); forbidden_state: absence_as_void",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-object.json",
+          "json_pointer": "/objects/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-02"
+        }
+      ]
+    },
+    {
+      "id": "conflict-03",
+      "label": "natura_vs_sfondo",
+      "label_en": "nature_vs_background",
+      "pole_a": "i cicli naturali come codifica di continuità emotiva attraverso le epoche",
+      "pole_b": "la natura come semplice sfondo descrittivo, esplicitamente vietata",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "loop-05 (natura_emozione_stagionale); forbidden_state: nature_as_background",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    }
+  ]
+}
