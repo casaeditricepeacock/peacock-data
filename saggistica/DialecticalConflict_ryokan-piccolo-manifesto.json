@@ -1,0 +1,175 @@
+{
+  "type": "DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715080"
+  },
+  "editorial_principle": "Il conflitto dialettico è l'equivalente, per un saggio o un manifesto, della tensione irrisolta che in un romanzo porta un nome. Qui il grafo lo misura direttamente: il campo system_tension del libro assegna un punteggio a ciascun polo.",
+  "protocol_rule": {
+    "id": "dialectical_conflict_rule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali. Il conflitto non implica necessariamente una contraddizione logica risolvibile: può rimanere aperto, parallelamente attivo o non integrabile.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "id": "conflict-01",
+      "label": "origine_vs_spostamento",
+      "label_en": "origin_vs_displacement",
+      "pole_a": "il ryokan come campo d'origine, luogo della prima misura di presenza condivisa",
+      "pole_b": "Tokyo come spostamento che genera un sistema percettivo alternativo, mai convergente",
+      "tension_score": 1.0,
+      "resolution": "non risolto — è la tensione più alta misurata nel sistema (system_tension.origin_vs_displacement = 1.0)",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il libro non sceglie tra il ryokan e Tokyo: li tiene attivi in parallelo, senza fondere i due campi in un'unica origine."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/system_tension/origin_vs_displacement"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-03"
+        }
+      ]
+    },
+    {
+      "id": "conflict-02",
+      "label": "presenza_vs_assenza",
+      "label_en": "presence_vs_absence",
+      "pole_a": "la presenza di Rie, misurata attraverso oggetti condivisi (futon, moka)",
+      "pole_b": "la sua assenza, che genera un campo di attesa rimasto attivo dopo la scomparsa",
+      "tension_score": 0.96,
+      "resolution": "instabile e persistente — loop-02 (presenza_assenza_rie), stability: unstable_persistent",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il campo dell'attesa non si chiude con la scomparsa: resta attivo, amplificato, non riassorbito."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/system_tension/presence_vs_absence"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-03",
+      "label": "silenzio_vs_espressione",
+      "label_en": "silence_vs_expression",
+      "pole_a": "il silenzio come zona di compressione del campo percettivo",
+      "pole_b": "l'espressione testuale esplicita degli oggetti e dei rituali",
+      "tension_score": 0.92,
+      "resolution": "stabile localmente, ma il silenzio finale (silence-10) lavora per impedire la chiusura globale",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/system_tension/silence_vs_expression"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-04",
+      "label": "memoria_vs_tempo_presente",
+      "label_en": "memory_vs_present_time",
+      "pole_a": "la memoria del campo domestico originario (il futon, il minivan del 1979)",
+      "pole_b": "il tempo presente in cui quel campo è già spostato altrove",
+      "tension_score": 0.9,
+      "resolution": "aperto — la gatta senza nome eredita e trasferisce la logica di misura della presenza dal futon, tenendo viva la memoria nel presente",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/system_tension/memory_vs_present_time"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-object.json",
+          "json_pointer": "/objects/3"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-05",
+      "label": "domesticita_vs_perdita",
+      "label_en": "domesticity_vs_loss",
+      "pole_a": "il calore domestico condiviso (il caffè, il futon, i rituali della domenica)",
+      "pole_b": "la perdita del campo originario che quei rituali cercano di misurare e trattenere",
+      "tension_score": 0.88,
+      "resolution": "stable_local — loop-03 (oggetto_corpo_rituale): il futon, il caffè e il ritmo domenicale operano come sistema di misura corporea della presenza condivisa",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/system_tension/domesticity_vs_loss"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/2"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    }
+  ]
+}
