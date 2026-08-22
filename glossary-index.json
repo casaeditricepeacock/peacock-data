@@ -855,15 +855,55 @@
    "books_applied": [
     "everyday_matcha"
    ]
+  },
+  {
+   "term": "Kakekotoba",
+   "kanji": "掛詞",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Tecnica retorica della poesia waka e tanka in cui un'unica parola, sfruttando l'omofonia, porta simultaneamente due significati distinti. Esempio classico: matsu può significare sia \"pino\" sia \"aspettare\". Il verso resta unico ma il senso si biforca, senza che il giapponese debba scegliere tra le due letture.",
+   "definition_short_en": "A rhetorical device in waka and tanka poetry in which a single word, exploiting homophony, carries two distinct meanings simultaneously. Classic example: matsu can mean both \"pine tree\" and \"to wait\". The line remains one, but the sense splits in two.",
+   "peacock_principle": "Il kakekotoba è la prova concreta che il tanka non è portatile in un'altra lingua senza perdita: una traduzione italiana o inglese è costretta a scegliere un solo significato dove il giapponese ne tiene due insieme, nello stesso respiro. Per Peacock è un caso limite del principio yūgen applicato alla lingua stessa: il senso che eccede sempre l'espressione.",
+   "connected_terms": [
+    "ma",
+    "yūgen",
+    "mono_no_aware"
+   ],
+   "glossary_file": "glossario/kakekotoba.json",
+   "books_applied": [
+    "Luna piena sulla città antica",
+    "Luna piena sulla città nuova"
+   ]
+  },
+  {
+   "term": "Engo",
+   "kanji": "縁語",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "Tecnica retorica della poesia waka e tanka che intreccia nel componimento parole legate tra loro per associazione fonetica o semantica, spesso in coppia col kakekotoba. Le parole associate costruiscono una rete di risonanze che si attiva solo per chi conosce l'intera tradizione poetica da cui provengono.",
+   "definition_short_en": "A rhetorical device in waka and tanka poetry that weaves phonetically or semantically associated words through a poem, often paired with kakekotoba, building a web of resonance activated only for a reader versed in the poetic tradition.",
+   "peacock_principle": "L'engo dimostra che il tanka non è mai un testo isolato: ogni parola porta con sé l'eco dell'intera tradizione poetica che la precede. Tradurre un engo significa spezzare quella rete, lasciando visibile solo un nodo alla volta invece dell'intero disegno. È un altro modo in cui il tanka resiste alla lingua occidentale: non basta tradurre la parola, servirebbe tradurre la memoria collettiva che la attraversa.",
+   "connected_terms": [
+    "kakekotoba",
+    "ma",
+    "mono_no_aware"
+   ],
+   "glossary_file": "glossario/engo.json",
+   "books_applied": [
+    "Luna piena sulla città antica",
+    "Luna piena sulla città nuova"
+   ]
   }
  ],
  "statistics": {
-  "total_entries": 39,
-  "published": 31,
+  "total_entries": 41,
+  "published": 33,
   "approved": 1,
   "in_sviluppo": 7,
   "by_category": {
-   "estetica_giapponese": 14,
+   "estetica_giapponese": 16,
    "cerimonia_del_te": 8,
    "storia_giapponese": 7,
    "principi_editoriali_peacock": 4,
@@ -894,7 +934,7 @@
   "new_in_v1.4": [
    "kata"
   ],
-  "total_terms": 39
+  "total_terms": 41
  },
  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
  "jsonld": {
