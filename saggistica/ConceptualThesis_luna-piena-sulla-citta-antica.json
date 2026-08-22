@@ -1,0 +1,120 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9788894696547"
+  },
+  "editorial_principle": "La tesi di un saggio o di una raccolta poetica non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro, o in un'altra fonte dichiarata (incluso il testo primario dell'opera).",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "compressione_storica_millenaria",
+      "label_en": "millennial_historical_compression",
+      "statement_it": "Il sistema opera come campo lunare in cui venticinque tanka connettono 1500 anni di storia giapponese attraverso l'emozione dell'assenza. La luna è il connettore invariante.",
+      "statement_en": "The system operates as a lunar field in which 25 tanka connect 1500 years of Japanese history through the emotion of absence.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/system_principle"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/2"
+        }
+      ],
+      "resolution_status": {
+        "status": "stable",
+        "description": "Le figure storiche non sono sequenziate ma sovrapposte in un'unica densità percettiva."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "luna_come_connettore_universale",
+      "label_en": "moon_as_universal_connector",
+      "statement_it": "La luna piena funziona come connettore non locale: tutti i soggetti separati (marito e moglie, vivi e morti, chi parte e chi resta) sono simultaneamente co-presenti sotto lo stesso campo lunare.",
+      "statement_en": "The moon functions as a non-local connector: all separated subjects are simultaneously co-present under the same lunar field.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "resolution_status": {
+        "status": "permanent_invariant"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Le assenze evocate non vengono mai recuperate né risolte: restano campi aperti che sostengono l'intera raccolta."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "continuita_poetica_yamato_1300_anni",
+      "label_en": "yamato_poetic_continuity_1300_years",
+      "statement_it": "Il territorio sacro di Yamato attraversato in questa raccolta è lo stesso che, nel volume gemello Luna piena sulla città nuova, un'unica voce contemporanea percorre riconoscendosi esplicitamente nella medesima sensibilità poetica.",
+      "statement_en": "The sacred Yamato territory crossed in this collection is the same one that, in the sister volume, a single contemporary voice walks while explicitly recognizing itself in the same poetic sensibility.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/global_state/catalog_connection/luna_piena_sulla_citta_nuova"
+        },
+        {
+          "source_type": "primary_text",
+          "book": "Luna piena sulla città nuova",
+          "poem_id": "itukadare",
+          "quote_it": "Conosco poeti che hanno avuto pensieri simili fin dai tempi dell'era Tenpyo.",
+          "note": "Riconoscimento esplicito, nel testo del volume gemello, della continuità con la sensibilità poetica di questo volume.",
+          "quote_ja": "天平の頃からの短歌にも同じ思いの歌人のいることを知る。"
+        }
+      ],
+      "resolution_status": {
+        "status": "cross_volume_continuity",
+        "description": "La continuità non è tematica ma dichiarata nel testo stesso del volume gemello."
+      },
+      "related_conceptual_thesis": {
+        "book": "Luna piena sulla città nuova",
+        "thesis_id": "thesis-04"
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    }
+  ]
+}
