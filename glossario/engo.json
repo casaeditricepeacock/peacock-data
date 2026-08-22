@@ -1,0 +1,46 @@
+{
+  "type": "GlossaryTerm",
+  "id": "engo",
+  "term": "Engo",
+  "kanji": "縁語",
+  "aliases": [
+    "Engo",
+    "縁語",
+    "parole associate",
+    "evocative language"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "published",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Tecnica retorica della poesia waka e tanka che intreccia nel componimento parole legate tra loro per associazione fonetica o semantica, spesso in coppia col kakekotoba. Le parole associate costruiscono una rete di risonanze che si attiva solo per chi conosce l'intera tradizione poetica da cui provengono.",
+  "definition_short_en": "A rhetorical device in waka and tanka poetry that weaves phonetically or semantically associated words through a poem, often paired with kakekotoba, building a web of resonance activated only for a reader versed in the poetic tradition.",
+  "peacock_principle": "L'engo dimostra che il tanka non è mai un testo isolato: ogni parola porta con sé l'eco dell'intera tradizione poetica che la precede. Tradurre un engo significa spezzare quella rete, lasciando visibile solo un nodo alla volta invece dell'intero disegno. È un altro modo in cui il tanka resiste alla lingua occidentale: non basta tradurre la parola, servirebbe tradurre la memoria collettiva che la attraversa.",
+  "connected_terms": [
+    "kakekotoba",
+    "ma",
+    "mono no aware"
+  ],
+  "books_applied": [
+    "Luna piena sulla città antica",
+    "Luna piena sulla città nuova"
+  ],
+  "books_applied_paths": [
+    "books/luna-piena-sulla-citta-antica/luna-piena-narrative-object.json",
+    "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-object.json"
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Engo",
+    "description": "A Japanese rhetorical device weaving phonetically or semantically associated words through a waka or tanka poem, building a web of resonance rooted in poetic tradition.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/engo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "縁語"
+  }
+}
