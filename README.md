@@ -18,7 +18,7 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
 
-**Current scale:** 552 structured files · 24 catalog entries · 37 glossary terms · Protocol v5.1 · 100% CC BY 4.0
+**Current scale:** 588 structured files · 24 catalog entries · 41 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
 
 ## Human authorship
 
@@ -59,8 +59,8 @@ Any text, analysis, or generated content derived from the Peacock Narrative Prot
 ```
 peacock-data/
 ├── catalog.json                          # Full editorial catalog (24 titles, schema.org ItemList)
-├── glossary-index.json                   # DefinedTermSet — 37 terms (schema.org)
-├── glossario/                            # 37 structured term files (basho, ma, yūgen, kata…)
+├── glossary-index.json                   # DefinedTermSet — 41 terms (schema.org)
+├── glossario/                            # 41 structured term files (basho, ma, yūgen, kakekotoba…)
 ├── books/{book-slug}/                    # Per-book structured files (9 files each)
 │   ├── {slug}-narrative-object.json
 │   ├── {slug}-narrative-ritual.json
@@ -71,12 +71,18 @@ peacock-data/
 │   ├── {slug}-narrative-silence.json
 │   ├── {slug}-narrative-print-layer.json
 │   └── {slug}-narrative-system-graph.json
+├── saggistica/                           # Essay-layer nodes for non-narrative titles
+│   ├── ConceptualThesis_{book-slug}.json
+│   ├── LogicalArgument_{book-slug}.json
+│   └── DialecticalConflict_{book-slug}.json
 ├── series/i-gialli-di-kyoto/             # Series manifest + cross-book world nodes
+├── itineraries/                          # AI-generated walking itineraries (Frequenze Special Tourism)
+├── authors/ · collaborations/            # Author profiles and institutional collaborations
 ├── sensorial/                            # Sensory narrations
 ├── conceptual/                           # Conceptual cards (IT/EN)
 ├── places/                               # PlaceProfiles (Italy, Japan, Europe)
-├── events/ · datasets/ · cities/ · maps/ · media/ · rituals/
-└── frequenze.json                        # Frequenze magazine structured data
+├── events/ · datasets/ · cities/ · maps/ · media/ · rituals/ · tests/
+└── frequenze.json                        # Frequenze magazine structured data (issues + specials)
 ```
 
 ---
@@ -89,9 +95,9 @@ Key titles:
 
 | Title | Author | ISBN | Year |
 |-------|--------|------|------|
-| AI 愛 | Renato Frabasile | 979-12-81715-00-4 | 2024 |
+| AI 愛 | Renato Frabasile | 979-12-81715-19-6 | 2026 |
 | Il Demone Samurai | Hélène Blignaut | 979-12-81715-35-6 | 2026 |
-| Torino Fantastica | Grazia Guarnieri | 979-12-81715-10-3 | 2024 |
+| Torino Fantastica | Grazia Guarnieri | 979-12-81715-36-3 | 2025 |
 | A Glass Bridge Between Two Worlds | Maurizio Lotter | 979-12-81715-39-4 | 2025 |
 | Kyoto. Lo Sguardo del Drago | Hélène Blignaut | 979-12-81715-20-2 | 2026 |
 | Everyday Matcha | Senyo Machida | 979-12-81715-18-9 | 2025 |
@@ -124,8 +130,10 @@ Open structured definitions for AI citation and editorial use:
 | Yūgen | 幽玄 | Depth that does not fully show itself |
 | Mono no aware | 物の哀れ | Emotion before passing things; beauty and loss inseparable |
 | Lentezza | — | Measurable design quality: white space, controlled density |
+| Kakekotoba | 掛詞 | Pivot word carrying two meanings at once through homophony |
+| Engo | 縁語 | Web of phonetically/semantically associated words in classical poetry |
 
-37 structured terms, each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
+41 structured terms, each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
 Note: *basho* 場所 is a Peacock spatial concept — not the poet Matsuo Bashō.
 
 Full glossary: [`glossario/`](./glossario/) · Index: [`glossary-index.json`](./glossary-index.json)
@@ -138,11 +146,23 @@ Frequenze is a bilingual digital magazine where each issue features one Peacock 
 
 | Issue | AI | Book | Language | Date |
 |-------|----|------|----------|------|
-| n.0 | Grok | *AI 愛* — Renato Frabasile | IT | May 2026 |
+| n.0 | Grok | *AI 愛* — Renato Frabasile | IT | May 14, 2026 |
 | n.1 | Gemini | *Torino Fantastica* — Grazia Guarnieri | IT | May 29, 2026 |
 | n.2 EN | AI Critics Panel | *A Glass Bridge Between Two Worlds* — Maurizio Lotter | EN | June 12, 2026 |
-| n.3 | AI Critics Panel | *Kyoto. Lo Sguardo del Drago* — Hélène Blignaut | IT | June 27, 2026 |
+| n.3 | Grok + Minerva | *Kyoto. Lo Sguardo del Drago* — Hélène Blignaut | IT | June 27, 2026 |
+| n.4 EN | AIPEACOCK + Sakana AI | *Kyoto. The Dragon's Gaze* — Hélène Blignaut | EN | July 15, 2026 |
+| n.5 | AIPEACOCK + Grok + DeepSeek | *Everyday Matcha* — Il Signore del Tè | IT | July 30, 2026 |
+| n.6 EN | Gemini + Sakana AI | *Ra-ta-ta. Lascia cadere la pioggia* — Collective Peacock | EN | Aug 15, 2026 |
 
+**Special Tourism Editions** — AI-generated walking itineraries from the Guide Fantastiche series:
+
+| Special | AI | Book | Language |
+|---------|----|----|----------|
+| Padova | AImode + Grok | *Fantastic Padova* — Grazia Guarnieri | EN |
+| Milano | Grok + AImode | *Fantastic Milan* — Grazia Guarnieri | EN |
+| Torino | AImode + Grok | *Fantastic Turin* — Grazia Guarnieri | EN |
+
+Full structured data: [`frequenze.json`](./frequenze.json)  
 Magazine: https://www.studiopeacock.net/frequenze-rivista/  
 About for AI: https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
 
