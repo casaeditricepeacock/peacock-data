@@ -1,0 +1,142 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715172"
+  },
+  "editorial_principle": "La tesi di un saggio o di una raccolta poetica non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro, o in un'altra fonte dichiarata (incluso il testo primario dell'opera).",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "lutto_come_campo_lunare",
+      "label_en": "grief_as_lunar_field",
+      "statement_it": "Il sistema opera come campo lunare di lutto in cui venticinque tanka funzionano come ancore percettive attraverso il paesaggio sacro di Yamato. La persona assente è il vuoto strutturale che ogni tanka circonda senza risolverlo.",
+      "statement_en": "The system operates as a lunar grief field in which 25 tanka function as perceptual anchors across the sacred landscape of Yamato.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/system_principle"
+        }
+      ],
+      "resolution_status": {
+        "status": "permanent_open",
+        "closure_type": "irrecoverable_beloved_permanent_open"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La persona amata scomparsa non viene mai recuperata: resta un vuoto strutturale attorno a cui ogni tanka gira senza chiuderlo."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "luoghi_yamato_come_archivio_emotivo",
+      "label_en": "yamato_places_as_emotional_archive",
+      "statement_it": "I luoghi sacri di Yamato non descrivono geografia ma codificano memoria emotiva: ogni nome di luogo porta il proprio peso percettivo come archivio stratificato di oltre mille anni.",
+      "statement_en": "Sacred places of Yamato encode emotional memory rather than geographic description.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "resolution_status": {
+        "status": "cyclic",
+        "forbidden_state": "yamato_as_tourist_scenery"
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "saggezza_retroattiva_del_lutto",
+      "label_en": "retroactive_wisdom_of_grief",
+      "statement_it": "L'invecchiamento non chiude il lutto ma lo rilegge retroattivamente: il dolore, guardato da vecchi, si rivela essere già stato saggezza.",
+      "statement_en": "Aging does not close grief but retroactively reframes it: grief, seen from old age, turns out to have already been wisdom.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/3"
+        }
+      ],
+      "resolution_status": {
+        "status": "retroactive",
+        "description": "grief_was_already_wisdom — la rilettura non annulla il dolore, lo trasforma senza cancellarlo."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    },
+    {
+      "id": "thesis-04",
+      "label": "continuita_poetica_dichiarata_tenpyo",
+      "label_en": "declared_tenpyo_poetic_continuity",
+      "statement_it": "La voce che attraversa oggi il territorio di Yamato riconosce esplicitamente la propria continuità con i poeti dell'era Tenpyo, la stessa epoca raccolta nel volume gemello Luna piena sulla città antica: la stessa sensibilità, distante 1300 anni, viene dichiarata condivisa nel testo stesso.",
+      "statement_en": "The voice crossing Yamato today explicitly recognizes its continuity with Tenpyo-era poets — the same era gathered in the sister volume.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/global_state/catalog_connection/luna_piena_sulla_citta_antica"
+        },
+        {
+          "source_type": "primary_text",
+          "book": "Luna piena sulla città nuova",
+          "poem_id": "itukadare",
+          "quote_it": "Conosco poeti che hanno avuto pensieri simili fin dai tempi dell'era Tenpyo.",
+          "quote_ja": "天平の頃からの短歌にも同じ思いの歌人のいることを知る。"
+        },
+        {
+          "source_type": "primary_text",
+          "book": "Luna piena sulla città nuova",
+          "poem_id": "sawatarino",
+          "quote_it": "Due innamorati che, prendendo spunto dalla tragica leggenda dell'era Nara, promettono solennemente di non alimentare né ascoltare maldicenze. Una sorta di Romeo e Giulietta dell'antico Giappone.",
+          "quote_ja": "奈良時代の恋人の不幸な伝説になぞらえて、噂話はしないし、聞かないと誓う二人。"
+        }
+      ],
+      "resolution_status": {
+        "status": "cross_volume_continuity",
+        "description": "La continuità è dichiarata esplicitamente nel testo, non solo interpretata dal metadato."
+      },
+      "related_conceptual_thesis": {
+        "book": "Luna piena sulla città antica",
+        "thesis_id": "thesis-03"
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    }
+  ]
+}
