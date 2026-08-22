@@ -1,0 +1,115 @@
+{
+  "type": "LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città antica",
+    "author": "Toshihiko Ota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9788894696547"
+  },
+  "editorial_principle": "L'argomento procede per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata.",
+  "protocol_rule": {
+    "id": "logical_argument_grounding",
+    "statement": "Un LogicalArgument rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "id": "argument-01",
+      "label": "luna_connettore_non_locale",
+      "label_en": "moon_non_local_connector",
+      "premise_it": "La luna non descrive un paesaggio ma attiva una connessione simultanea tra tutte le assenze della raccolta.",
+      "propagation": {
+        "from": "object-04",
+        "to": "all",
+        "intensity": 1.0,
+        "effect": "lunar_field_as_universal_connector"
+      },
+      "interpretive_consequence_it": "È l'effetto a intensità più alta misurata nel sistema: la luna non è un'immagine tra le altre, è la forza che tiene insieme l'intera raccolta.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "label": "ma_come_eccesso_strutturale",
+      "label_en": "ma_as_structural_excess",
+      "premise_it": "Il silenzio tra le sillabe del tanka non è un vuoto compositivo ma un'eccedenza strutturale: il significato supera sempre l'espressione.",
+      "propagation": {
+        "from": "silence-01",
+        "to": "all",
+        "intensity": 0.97,
+        "effect": "ma_as_structural_excess"
+      },
+      "interpretive_consequence_it": "Ogni tanka lascia deliberatamente scoperto più di quanto dichiari: è per questo che il sistema vieta di leggere il tanka come semplice oggetto letterario.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "label": "calligrafia_precede_il_testo",
+      "label_en": "calligraphy_precedes_text",
+      "premise_it": "La calligrafia di Toshihiko Ota non illustra il tanka ma lo amplifica come campo visivo parallelo, che precede la lettura semantica.",
+      "propagation": {
+        "from": "object-02",
+        "to": "object-01",
+        "intensity": 0.95,
+        "effect": "calligraphy_amplifies_compression_field"
+      },
+      "interpretive_consequence_it": "Il visivo precede il testuale: coerente con il divieto esplicito di leggere la calligrafia come decorazione.",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-antica/luna-piena-narrative-object.json",
+          "json_pointer": "/objects/1"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    }
+  ]
+}
