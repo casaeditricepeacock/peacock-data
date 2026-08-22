@@ -1,0 +1,119 @@
+{
+  "type": "LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715080"
+  },
+  "editorial_principle": "L'argomento non procede per sillogismo ma per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata (cross_layer_effects). Questo file rende esplicita quella propagazione come struttura logica citabile.",
+  "protocol_rule": {
+    "id": "logical_argument_grounding",
+    "statement": "Un LogicalArgument non implica necessariamente una forma sillogistica: rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "id": "argument-01",
+      "label": "riattivazione_ricorsiva_del_campo_origine",
+      "label_en": "recursive_reactivation_of_origin_field",
+      "premise_it": "La lettura finale non chiude il libro ma riattiva ricorsivamente il campo percettivo iniziale.",
+      "propagation": {
+        "from": "scene-01",
+        "to": "scene-05",
+        "intensity": 1.0,
+        "effect": "field_reactivation"
+      },
+      "interpretive_consequence_it": "È l'effetto a intensità più alta misurata nel sistema: il ritorno al principio non è ripetizione ma riattivazione, ogni volta diversa.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "label": "sospensione_globale_senza_interruzione",
+      "label_en": "global_suspension_without_interruption",
+      "premise_it": "La zona fredda si propaga a tutti i nodi del sistema, sospendendo la leggibilità senza interrompere la persistenza del campo.",
+      "propagation": {
+        "from": "meta-01",
+        "to": "all",
+        "intensity": 1.0,
+        "effect": "global_field_suspension"
+      },
+      "interpretive_consequence_it": "Il libro può diventare illeggibile in un punto e restare comunque attivo: la sospensione non è un guasto del sistema ma un suo comportamento previsto.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/5"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/meta_states/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "label": "il_silenzio_finale_previene_la_chiusura",
+      "label_en": "final_silence_prevents_closure",
+      "premise_it": "L'ultimo silenzio del libro non conclude il campo ma lo stabilizza mantenendolo aperto.",
+      "propagation": {
+        "from": "silence-10",
+        "to": "all",
+        "intensity": 0.93,
+        "effect": "open_field_stabilization"
+      },
+      "interpretive_consequence_it": "La chiusura è strutturalmente vietata dal sistema (forbidden_state: stable_closure): anche l'ultimo elemento del libro lavora per impedirla, non per realizzarla.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/6"
+        },
+        {
+          "file": "books/ryokan-piccolo-manifesto/ryokan-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    }
+  ]
+}
