@@ -1,0 +1,115 @@
+{
+  "type": "LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715233"
+  },
+  "editorial_principle": "L'argomento non procede per sillogismo ma per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata (cross_layer_effects). Questo file rende esplicita quella propagazione come struttura logica citabile.",
+  "protocol_rule": {
+    "id": "logical_argument_grounding",
+    "statement": "Un LogicalArgument non implica necessariamente una forma sillogistica: rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "id": "argument-01",
+      "label": "attivazione_non_locale_operatore_yuki",
+      "label_en": "yuki_operator_non_local_activation",
+      "premise_it": "Il momento della morte non resta un evento isolato ma si attiva come operatore non locale su tutto il sistema.",
+      "propagation": {
+        "from": "transition-02",
+        "to": "all",
+        "intensity": 1.0,
+        "effect": "yuki_operator_activation"
+      },
+      "interpretive_consequence_it": "È l'effetto a intensità più alta misurata nel sistema: la morte non è un nodo tra gli altri, è la forza che riorganizza permanentemente tutti i nodi.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "label": "perdita_del_campo_origine_attiva_il_residuo",
+      "label_en": "origin_field_loss_activates_residue",
+      "premise_it": "La partenza dal ryokan produce una perdita irreversibile del campo d'origine, che il sistema stesso registra come attivazione di un residuo non integrabile.",
+      "propagation": {
+        "from": "transition-03",
+        "to": "scene-01",
+        "intensity": 0.97,
+        "effect": "origin_field_irreversible_loss"
+      },
+      "interpretive_consequence_it": "Il grafo nomina esplicitamente l'effetto come non_integrable_residue_activation: non è un'interpretazione esterna, è un campo dichiarato dal sistema stesso.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "label": "ali_e_porta_stessa_matrice_di_frattura",
+      "label_en": "wings_and_door_share_fracture_matrix",
+      "premise_it": "Le ali di carta di riso e la porta da cui provengono appartengono alla stessa matrice materiale: ogni rottura di una riattiva la continuità con l'altra.",
+      "propagation": {
+        "from": "object-01",
+        "to": "object-03",
+        "intensity": 0.92,
+        "effect": "wing_threshold_connection"
+      },
+      "interpretive_consequence_it": "L'oggetto che l'autrice porta con sé non è un ricordo simbolico ma un frammento fisico dello stesso confine che si è rotto: soglia portatile invece di soglia fissa.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-object.json",
+          "json_pointer": "/objects/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    }
+  ]
+}
