@@ -1,0 +1,113 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715233"
+  },
+  "editorial_principle": "La tesi di un saggio non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo. Questo nodo rende esplicita, e citabile singolarmente, l'architettura concettuale che nei romanzi è portata dai personaggi.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro o in un'altra fonte dichiarata.",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "yuki_come_operatore_non_personaggio",
+      "label_en": "yuki_as_operator_not_character",
+      "statement_it": "Yuki non è un personaggio del sistema ma un operatore percettivo non locale che altera retroattivamente la densità di ogni altro nodo. Il sistema vieta esplicitamente di leggerla come semplice figura narrativa.",
+      "statement_en": "Yuki is not a character in the system but a non-local perceptual operator that retroactively alters the density of every other node. The system explicitly forbids reading her as a mere narrative figure.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_principle"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "resolution_status": {
+        "status": "strutturalmente_vietata",
+        "forbidden_state": "yuki_as_character_only"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La morte non chiude il sistema: diventa un operatore permanente che continua a modificare tutti gli altri nodi, senza mai stabilizzarsi in un evento concluso."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "ryokan_come_origine_irrecuperabile_permanente",
+      "label_en": "ryokan_as_permanent_irrecoverable_origin",
+      "statement_it": "Il ryokan non funziona come luogo ma come campo percettivo che persiste sotto ogni partenza e ogni perdita: resta il campo d'origine anche quando è geograficamente irraggiungibile.",
+      "statement_en": "The ryokan does not function as a place but as a perceptual field that persists under every departure and loss.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "resolution_status": {
+        "status": "metastable",
+        "forbidden_state": "ryokan_as_nostalgic_space"
+      },
+      "textual_anchor_it": "loop-02 / ryokan_origine_irrecuperabile — the ryokan persists as perceptual field under every departure and loss, not as nostalgic space",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "doppia_sospensione_climatica_e_narrativa",
+      "label_en": "dual_climatic_and_narrative_suspension",
+      "statement_it": "Il sistema contiene due zone fredde simultanee — una climatica, una narrativa — che sospendono la leggibilità da entrambi i lati senza mai far collassare il campo.",
+      "statement_en": "The system contains two simultaneous cold zones — climatic and narrative — that suspend readability from both sides without ever collapsing the field.",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/meta_states/0"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/meta_states/1"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        }
+      ],
+      "resolution_status": {
+        "status": "suppressed_active",
+        "description": "Entrambe le zone restano persistenti e attive mentre sospendono la leggibilità, senza mai disattivarsi."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    }
+  ]
+}
