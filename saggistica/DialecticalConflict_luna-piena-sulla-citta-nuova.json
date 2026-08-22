@@ -1,0 +1,120 @@
+{
+  "type": "DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Luna piena sulla città nuova",
+    "author": "Shogoro",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715172"
+  },
+  "editorial_principle": "Questo libro non ha un campo system_tension numerico nel NarrativeSystemGraph. Le tensioni sono derivate dai forbidden_states abbinati alla funzione reale descritta nei loop, senza punteggi inventati.",
+  "protocol_rule": {
+    "id": "dialectical_conflict_rule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali, anche quando il libro non fornisce un punteggio numerico esplicito.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "id": "conflict-01",
+      "label": "lutto_vs_risoluzione",
+      "label_en": "grief_vs_resolution",
+      "pole_a": "l'attesa continua di una persona che non può tornare",
+      "pole_b": "la risoluzione del lutto, esplicitamente vietata dal sistema",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "permanent_open — loop-02 (lutto_attesa_impossibile); forbidden_state: grief_resolved",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il sistema stabilizza il lutto come condizione strutturale permanente, non come fase da attraversare."
+      },
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-02",
+      "label": "yamato_vs_scenario_turistico",
+      "label_en": "yamato_vs_tourist_scenery",
+      "pole_a": "Yamato come archivio emotivo stratificato, dove ogni luogo porta memoria",
+      "pole_b": "Yamato ridotto a scenario turistico, esplicitamente vietato dal sistema",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "loop-05 (luoghi_yamato_memoria); forbidden_state: yamato_as_tourist_scenery",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-object.json",
+          "json_pointer": "/objects/2"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-02"
+        }
+      ]
+    },
+    {
+      "id": "conflict-03",
+      "label": "assenza_vs_vuoto",
+      "label_en": "absence_vs_void",
+      "pole_a": "l'assenza come presenza percettiva che continua ad agire",
+      "pole_b": "il vuoto come mancanza pura, esplicitamente vietato come lettura del sistema",
+      "tension_score": null,
+      "tension_note": "non quantificato nel NarrativeSystemGraph di questo titolo",
+      "resolution": "loop-01 (luna_connessione_universale); forbidden_state: absence_as_void",
+      "grounded_in": [
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        },
+        {
+          "file": "books/luna-piena-sulla-citta-nuova/luna-piena-sulla-citta-nuova-narrative-object.json",
+          "json_pointer": "/objects/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    }
+  ]
+}
