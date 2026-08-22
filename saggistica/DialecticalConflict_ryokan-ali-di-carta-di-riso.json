@@ -1,0 +1,187 @@
+{
+  "type": "DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Ryokan. Ali di carta di riso",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715233"
+  },
+  "editorial_principle": "Il conflitto dialettico è l'equivalente, per un saggio o un manifesto, della tensione irrisolta che in un romanzo porta un nome. Qui il grafo lo misura direttamente: il campo system_tension del libro assegna un punteggio a ciascun polo.",
+  "protocol_rule": {
+    "id": "dialectical_conflict_rule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali. Il conflitto non implica necessariamente una contraddizione logica risolvibile: può rimanere aperto, parallelamente attivo o non integrabile.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "id": "conflict-01",
+      "label": "ryokan_vs_tokyo",
+      "label_en": "ryokan_vs_tokyo",
+      "pole_a": "il ryokan come campo d'origine permanente, irrecuperabile ma mai dissolto",
+      "pole_b": "Tokyo come partenza irreversibile, mai descritta come destinazione ma come assenza strutturale del campo ryokan",
+      "tension_score": 1.0,
+      "resolution": "non risolto — è la tensione più alta misurata nel sistema (system_tension.ryokan_vs_tokyo = 1.0); Tokyo è forbidden_state come destinazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La partenza non produce nostalgia ma assenza strutturale: il sistema vieta esplicitamente di leggere Tokyo come una destinazione raggiunta."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_tension/ryokan_vs_tokyo"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/2"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-02"
+        }
+      ]
+    },
+    {
+      "id": "conflict-02",
+      "label": "vita_vs_operatore_morte",
+      "label_en": "life_vs_death_operator",
+      "pole_a": "la vita quotidiana del campo domestico (il riso, il futon, i libri di poesia)",
+      "pole_b": "Yuki come operatore percettivo non locale, non evento ma forza permanente",
+      "tension_score": 0.97,
+      "resolution": "non risolto — grief_resolution è esplicitamente un forbidden_state del sistema",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il lutto non si chiude in una risoluzione: resta un operatore attivo che continua a modificare la densità percettiva di ogni oggetto."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_tension/life_vs_death_operator"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-03",
+      "label": "rituale_vs_perdita",
+      "label_en": "ritual_vs_loss",
+      "pole_a": "il rituale come mantenimento attivo della memoria (ritual-02, grief_maintenance_operator)",
+      "pole_b": "la perdita che il rituale non riesce a colmare né a chiudere",
+      "tension_score": 0.94,
+      "resolution": "instabile e persistente — loop-01 (morte_rituale_campo), stability: unstable_persistent",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_tension/ritual_vs_loss"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mono no aware"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-04",
+      "label": "trasmissione_vs_frammentazione",
+      "label_en": "transmission_vs_fragmentation",
+      "pole_a": "la trasmissione familiare come sistema che dovrebbe garantire continuità",
+      "pole_b": "il rituale della nonna che sparge il riso, che trasmette qualcosa che non può essere nominato — solo frammento, non sistema",
+      "tension_score": 0.91,
+      "resolution": "suppressed_active — loop-04 (trasmissione_familiare_frammentata); family_as_stable_system è forbidden_state",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La famiglia sopravvive come frammento, non come sistema coerente: la trasmissione avviene senza poter essere ricomposta in continuità stabile."
+      },
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_tension/transmission_vs_fragmentation"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-object.json",
+          "json_pointer": "/objects/1"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "wabi-sabi"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-05",
+      "label": "silenzio_vs_segreto",
+      "label_en": "silence_vs_secret",
+      "pole_a": "il silenzio come zona di compressione percettiva",
+      "pole_b": "il segreto della stanza fantasma, connesso recursivamente a un altro silenzio",
+      "tension_score": 0.88,
+      "resolution": "stable_local ma ricorsivo — cross_layer_effect silence-04→silence-01, ghost_room_secret_connection",
+      "grounded_in": [
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/system_tension/silence_vs_secret"
+        },
+        {
+          "file": "books/ryokan-ali-di-carta-di-riso/ryokan-ali-di-carta-di-riso-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/6"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-03"
+        }
+      ]
+    }
+  ]
+}
