@@ -1,0 +1,121 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715196"
+  },
+  "editorial_principle": "La tesi di un saggio non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo. Questo nodo rende esplicita, e citabile singolarmente, l'architettura concettuale che nei romanzi è portata dai personaggi.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro o in un'altra fonte dichiarata.",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "campo_cognitivo_ibrido",
+      "label_en": "hybrid_cognitive_field",
+      "statement_it": "Il pensiero umano, la generazione algoritmica e i sistemi naturali si modificano retroattivamente a vicenda, senza produrre una chiusura autoriale stabile.",
+      "statement_en": "Human thought, algorithmic generation and natural systems modify each other retroactively, without producing stable authorial closure.",
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/system_principle"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/global_state/closure"
+        }
+      ],
+      "resolution_status": {
+        "status": "aperta",
+        "closure": false,
+        "closure_type": "topologically_impossible"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il libro non stabilisce mai chi parla — l'uomo, l'algoritmo, o il campo ibrido dei due — e dichiara questa indeterminazione come stato permanente, non come limite da superare."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "giappone_come_basho_cognitivo",
+      "label_en": "japan_as_cognitive_basho",
+      "statement_it": "Il Giappone non è una destinazione geografica ma un basho cognitivo remoto che persiste in ogni nodo del testo senza mai diventare luogo fisico raggiunto.",
+      "statement_en": "Japan operates as a remote cognitive basho that persists across all nodes without becoming a geographic destination.",
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/global_state/system_behavior"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        },
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/0"
+        }
+      ],
+      "resolution_status": {
+        "status": "strutturalmente_vietata",
+        "description": "La risoluzione geografica della tesi è incompatibile con il sistema narrativo.",
+        "forbidden_state": "japan_as_physical_destination"
+      },
+      "textual_anchor_it": "Il viaggio in Giappone è un campo percettivo generato senza spostamento fisico.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "basho"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "silenzio_come_condizione_condivisa",
+      "label_en": "silence_as_shared_condition",
+      "statement_it": "Il silenzio giapponese e il limite strutturale dell'intelligenza artificiale convergono come la stessa condizione di cognizione incompleta, attraversando sistemi umani e algoritmici allo stesso modo.",
+      "statement_en": "Japanese silence and the AI boundary converge as the same condition of incomplete cognition across human and algorithmic systems.",
+      "grounded_in": [
+        {
+          "file": "books/ai-natura-algoritmi/ai-natura-algoritmi-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/3"
+        }
+      ],
+      "resolution_status": {
+        "status": "stable_local",
+        "global_resolution": false
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    }
+  ]
+}
