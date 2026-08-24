@@ -1,0 +1,159 @@
+{
+  "type": "DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4"
+  },
+  "editorial_principle": "Il conflitto dialettico è l'equivalente, per un saggio, della tensione irrisolta che in un romanzo porta un nome. Qui il grafo lo misura tramite forbidden_states e intensità dei cross_layer_effects.",
+  "protocol_rule": {
+    "id": "dialectical_conflict_rule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali. Il conflitto non implica necessariamente una contraddizione logica risolvibile.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "id": "conflict-01",
+      "label": "murano_vs_kyoto",
+      "label_en": "murano_vs_kyoto",
+      "pole_a": "la tradizione vetraria di Murano, pratica corporea trasmessa per generazioni",
+      "pole_b": "l'artigianato di Kyoto, sistema di pratica parallelo e ugualmente radicato",
+      "tension_score": null,
+      "tension_note": "non quantificato come system_tension in questo libro; grounding tramite loop e forbidden_state",
+      "resolution": "permanent — loop-02 (murano_kyoto_dual_practice); forbidden_state: cultural_synthesis",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Un solo corpo, quello dell'autore, sostiene due regimi artigianali senza mai fonderli in una sintesi."
+      },
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    },
+    {
+      "id": "conflict-02",
+      "label": "oggetto_artigiano_vs_oggetto_decorativo",
+      "label_en": "craft_object_vs_decorative_object",
+      "pole_a": "la perla come campo dominante del sistema, portatrice dell'intera tensione del libro",
+      "pole_b": "la perla ridotta a semplice oggetto decorativo",
+      "tension_score": 1.0,
+      "resolution": "vietato esplicitamente — forbidden_state: decorative_object_reduction",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-02"
+        }
+      ]
+    },
+    {
+      "id": "conflict-03",
+      "label": "inglese_vs_giapponese",
+      "label_en": "english_vs_japanese",
+      "pole_a": "l'inglese come campo linguistico del testo",
+      "pole_b": "il giapponese come campo linguistico parallelo, non traduzione ma spazio proprio",
+      "tension_score": 0.97,
+      "resolution": "permanente — loop-05 (bilingual_irreducibility); forbidden_state: language_translation_equivalence",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Le due lingue non producono equivalenza traduttiva: restano campi paralleli che generano uno spazio terzo irriducibile."
+      },
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-03"
+        }
+      ]
+    },
+    {
+      "id": "conflict-04",
+      "label": "trasmissione_vivente_vs_eredita_archiviata",
+      "label_en": "living_transmission_vs_heritage_as_archive",
+      "pole_a": "l'eredità artigianale come trasmissione corporea continua, di generazione in generazione",
+      "pole_b": "l'eredità ridotta ad archivio, conservata ma non più praticata",
+      "tension_score": null,
+      "tension_note": "non quantificato come system_tension; grounding tramite loop fragile e forbidden_state",
+      "resolution": "fragile — loop-04 (embodied_heritage_chain): Franchini → tradizione di Murano → Lotter → Kyoto, una catena che può rompersi in ogni punto; forbidden_state: heritage_as_archive",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "La catena di trasmissione è dichiarata esplicitamente fragile: non è garantita, dipende dalla continuità corporea da un maestro all'altro."
+      },
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/3"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/field_dynamics/forbidden_states"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "wabi-sabi"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "thesis-01"
+        }
+      ]
+    }
+  ]
+}
