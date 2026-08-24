@@ -348,6 +348,53 @@
    ],
    "editorial_concept": "A loud Japanese song becomes a slow bilingual book, then two machines read it back in the language it began in. Sound to silence, and read again in the language of the sound.",
    "catalog_note": "Only Peacock title born from a song. First Frequenze issue with readings kept entirely in Japanese and an English editorial frame. Second appearance of Sakana AI as reader."
+  },
+  {
+   "issue_number": 7,
+   "date": "2026-08-30",
+   "language": "it",
+   "url": "https://www.studiopeacock.net/frequenze-n7-libro-sceglie-macchina/",
+   "title": "Il libro che sceglie la macchina",
+   "description": "Per la prima volta Peacock non assegna il libro. Cinque sistemi AI — Grok, AImode, Perplexity, ChatGPT, Sakana AI — esplorano liberamente il catalogo e il grafo semantico pubblico e scelgono da soli quale libro leggere. Due convergono su AI 愛 (Frabasile), due su Kyoto. Lo Sguardo del Drago (Blignaut), una su Ryokan. Piccolo manifesto giapponese (Hara Rota). Il numero analizza non solo le scelte ma la profondità di ciascuna esplorazione, verificata sui file grezzi del repository.",
+   "ai_panel": {
+    "format": "Scelta libera del libro, cinque sistemi AI in parallelo, stesso prompt",
+    "description": "Ogni AI ha esplorato senza indicazioni il catalogo e il grafo pubblico, scegliendo un libro e motivando la scelta. Le letture sono state verificate una per una sui file grezzi del repository.",
+    "participants": [
+     {
+      "provider": "xAI",
+      "model_name": "Grok",
+      "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
+      "fidelity": "alta — solo dati verificati"
+     },
+     {
+      "provider": "Google",
+      "model_name": "AImode",
+      "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
+      "fidelity": "mista — dati reali e affermazioni non ancorate"
+     },
+     {
+      "provider": "Perplexity",
+      "model_name": "Perplexity",
+      "book_chosen": "Ryokan. Piccolo manifesto giapponese",
+      "fidelity": "bassa — mai aperto il grafo del libro, solo pagine vetrina"
+     },
+     {
+      "provider": "OpenAI",
+      "model_name": "ChatGPT",
+      "book_chosen": "Kyoto. Lo Sguardo del Drago",
+      "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
+     },
+     {
+      "provider": "Sakana AI",
+      "model_name": "Sakana AI",
+      "book_chosen": "Kyoto. Lo Sguardo del Drago",
+      "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
+     }
+    ],
+    "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
+   },
+   "editorial_concept": "La scelta è il dato quanto la lettura. Il protocollo narrativo premia le opere con trama e personaggi rispetto a saggi e manifesti, a parità di densità dati. E non tutte le esplorazioni del grafo sono esplorazioni: alcune AI leggono i file grezzi, altre solo le pagine vetrina, con lo stesso registro sicuro.",
+   "catalog_note": "Primo numero in cui la scelta del libro non è editoriale ma affidata alle AI stesse. Prima verifica sistematica e comparata della profondità di esplorazione del grafo da parte di più sistemi AI in parallelo."
   }
  ],
  "specials": [
