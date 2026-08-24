@@ -1,0 +1,108 @@
+{
+  "type": "LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4"
+  },
+  "editorial_principle": "L'argomento procede per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata.",
+  "protocol_rule": {
+    "id": "logical_argument_grounding",
+    "statement": "Un LogicalArgument rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "id": "argument-01",
+      "label": "attivazione_bilaterale_globale",
+      "label_en": "global_bilateral_activation",
+      "premise_it": "La perla di vetro, oggetto centrale del sistema, attiva un effetto non locale su tutti gli altri nodi.",
+      "propagation": {
+        "from": "object-02",
+        "to": "all",
+        "intensity": 1.0,
+        "effect": "global_bilateral_activation"
+      },
+      "interpretive_consequence_it": "È l'effetto a intensità più alta misurata nel sistema: ogni altro nodo eredita l'irriducibilità della perla, non il contrario.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "label": "la_lingua_diventa_confine",
+      "label_en": "language_becomes_field_boundary",
+      "premise_it": "Il silenzio strutturale tra inglese e giapponese non separa per mancanza di traduzione, ma perché la lingua stessa agisce da confine del campo.",
+      "propagation": {
+        "from": "silence-02",
+        "to": "all",
+        "intensity": 0.97,
+        "effect": "structural_bilingual_gap"
+      },
+      "interpretive_consequence_it": "La lingua non è un mezzo che fallisce nel tradurre: è essa stessa il confine che tiene distinti i due mondi.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-03"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "label": "la_perla_indossata_riattiva_la_fornace",
+      "label_en": "worn_bead_reactivates_origin_field",
+      "premise_it": "Indossare la perla, molto tempo dopo la sua creazione, riattiva retroattivamente il campo originario della fornace.",
+      "propagation": {
+        "from": "scene-05",
+        "to": "scene-01",
+        "intensity": 0.9,
+        "effect": "retroactive_furnace_activation"
+      },
+      "interpretive_consequence_it": "Il tempo del sistema non è lineare: il corpo che indossa la perla oggi riattiva, per piegatura temporale, il momento del vetro fuso.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        }
+      ],
+      "supports_thesis": [
+        "thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    }
+  ]
+}
