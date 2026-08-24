@@ -1,0 +1,80 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "maurizio-lotter",
+  "name": "Maurizio Lotter",
+  "role": "autore, maestro vetraio",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Maurizio Lotter è il nome reale dell'autore, non uno pseudonimo."
+  },
+  "craft": {
+    "discipline": "lavorazione del vetro di Murano, perle di vetro (lampworking)",
+    "graph_evidence": "sensorial/vetro-murano-sensoriale-lotter.json descrive esplicitamente 'una perla di Lotter' come oggetto che il lettore tiene in mano; il campo sensoriale copre il calore della fornace e il vetro fuso lavorato a mano",
+    "network": "Collegato a Bottega Cini (Dorsoduro, Venezia) e a Marisa Convento, ultima impiraressa e vicepresidente del Comitato per la Salvaguardia dell'Arte delle Perle di Vetro Veneziane; l'Arte delle perle di vetro veneziane è Patrimonio Culturale Immateriale UNESCO dal 2020"
+  },
+  "peacock_works": [
+    {
+      "title": "A Glass Bridge Between Two Worlds",
+      "title_full_en": "The Magic of Beads: A Glass Bridge Between Murano and Kyoto",
+      "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+      "isbn": "979-12-81715-39-4",
+      "year": 2025,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "theme": "Murano glassmaking and Japanese craftsmanship of Kyoto",
+      "preface": "Augusto Panini",
+      "photographers": [
+        "Giorgio Berton",
+        "Andrea Perotta",
+        "Toshiyuki Shino"
+      ],
+      "graph_folder": "books/a-glass-bridge/"
+    }
+  ],
+  "events": [
+    {
+      "title": "The Magic of Beads: A Glass Bridge Between Murano and Kyoto",
+      "location": "Equilibri — Fiera del Libro di Venezia",
+      "date": "2025-09-28",
+      "graph_file": "events/EventProfile_equilibri-venezia_2025.json"
+    }
+  ],
+  "recognitions": [
+    {
+      "title": "Finalista — Your Bead for Venice 2026, quinta edizione",
+      "competition_type": "1st International Glass Bead Competition dedicated to the Art of Venetian Glass Beadmaking",
+      "organizers": [
+        "Comitato per la Salvaguardia dell'Arte delle Perle di Vetro Veneziane (CPVV)",
+        "International Society of Glass Beadmakers (ISGB)",
+        "Association des Perliers d'Art de France (APAF)"
+      ],
+      "context": "20 finalisti da 9 nazioni, selezionati dopo la chiusura delle candidature il 20 giugno 2026",
+      "jury": [
+        "Cristina Sfriso (CPVV)",
+        "Annette Otterdahl (CPVV)",
+        "Patricia Lamouroux (Presidente APAF)",
+        "Susan Otto-Bain (vincitrice edizione 2025)",
+        "Joan Keller (ISGB)"
+      ],
+      "exhibition": "Museo del Vetro di Murano, durante The Venice Glass Week, con voto del pubblico per tutta la settimana",
+      "award_ceremony": "2026-09-13",
+      "verification_note": "Fatto verificato da materiale promozionale ufficiale del concorso (settembre 2026); collegamento a Maurizio Lotter confermato tramite dati già presenti nel grafo Peacock (sensorial/vetro-murano-sensoriale-lotter.json, la produzione di perle di vetro)."
+    }
+  ],
+  "connected_places": [
+    "places/places/ied-milano.json — nessuna relazione diretta nota",
+    "places/bottega-cini-venezia.json"
+  ],
+  "graph_presence": {
+    "catalog_json": true,
+    "author_profile_created": "2026",
+    "note": "Prima di questo file, nessun AuthorProfile esisteva per l'autore nonostante il libro fosse già nel catalogo e nel grafo sensoriale."
+  }
+}
