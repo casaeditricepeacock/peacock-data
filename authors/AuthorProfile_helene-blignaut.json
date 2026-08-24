@@ -1,0 +1,89 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "helene-blignaut",
+  "name": "Hélène Blignaut",
+  "role": "autrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Hélène Blignaut è il nome reale dell'autrice, non uno pseudonimo."
+  },
+  "biography_verified": {
+    "origin": "Sudafrica",
+    "residence": "Italia, da molti anni",
+    "academic_role": "Docente di Psicosociologia della Moda e Comunicazione Integrata presso diversi istituti universitari",
+    "other_writing": "Autrice di romanzi e saggista, oltre alla narrativa pubblicata da Casa Editrice Peacock",
+    "verification_note": "Biografia confermata da fonte esterna indipendente (Google Libri, pagina 'Anatomia della moda'), non da un file del grafo Peacock. Nessun dato biografico qui presente è stato inferito o dedotto: ogni affermazione è ancorata alla fonte citata.",
+    "source": "https://books.google.it/books/about/Anatomia_della_moda.html?id=OAkjpTXvpvEC"
+  },
+  "other_works_non_peacock": {
+    "note": "Opere pubblicate da altri editori, non presenti nel catalogo Peacock. Elencate per completezza biografica, non fanno parte del dataset editoriale di Casa Editrice Peacock.",
+    "academic_essays": [
+      {
+        "title": "Anatomia della moda: il corpo, i luoghi, l'arte, il cinema",
+        "publisher": "Franco Angeli",
+        "topic": "sociologia della moda"
+      },
+      {
+        "title": "La comunicazione della moda: significati e metodologie",
+        "publisher": "Franco Angeli",
+        "co_author": "Luisa Ciuni",
+        "topic": "comunicazione e sociologia della moda"
+      }
+    ],
+    "fiction_south_africa_setting": [
+      {
+        "title": "African Delirium",
+        "setting": "Oceano Indiano, Durban, Sudafrica",
+        "genre": "avventura"
+      },
+      {
+        "title": "Sangue sulla Promenade",
+        "genre": "thriller"
+      }
+    ]
+  },
+  "recurring_theme_across_all_writing": "La moda ricorre come chiave interpretativa in ogni fase della sua scrittura: da tema accademico (i saggi Franco Angeli) a motore narrativo nei romanzi Peacock, dove compare esplicitamente nel sottotitolo di due titoli ('Moda e misteri') e come 'strategia politica' nel Giappone feudale del Demone Samurai.",
+  "peacock_works": [
+    {
+      "title": "Assolutamente Giappone. Moda e misteri",
+      "series": "Nihon Monogatari",
+      "isbn": "979-12-81715-16-5",
+      "year": 2025,
+      "graph_folder": "books/assolutamente-giappone/"
+    },
+    {
+      "title": "Il Demone Samurai. Moda e misteri",
+      "series": "Nihon Monogatari",
+      "isbn": "979-12-81715-35-6",
+      "year": 2026,
+      "graph_folder": "books/demone-samurai/",
+      "graph_note": "primary_field: tensione_feudale, dominant_axis: basho (da grafo-inter-libri.json)"
+    },
+    {
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "series": "I Gialli di Kyoto",
+      "volume": 1,
+      "isbn": "979-12-81715-20-2",
+      "year": 2026,
+      "graph_folder": "books/kyoto-sguardo-del-drago/"
+    },
+    {
+      "title": "Forbidden Colours",
+      "series": "Nihon Monogatari",
+      "isbn": "979-12-81715-10-3",
+      "year": 2025,
+      "graph_folder": "books/forbidden-colours/",
+      "graph_note": "narrative_system: sistema della visione impossibile — sette operatori narrativi; fotografie di Massimo Crivelli ispirate a Yoichi Ohira"
+    }
+  ],
+  "graph_presence": {
+    "about_for_ai_key_authors": true,
+    "grafo_inter_libri": true,
+    "note": "Prima di questo file, nessun AuthorProfile esisteva per l'autrice nonostante quattro titoli attivi nel catalogo."
+  }
+}
