@@ -1,0 +1,111 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "A Glass Bridge Between Two Worlds",
+    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+    "author": "Maurizio Lotter",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-39-4"
+  },
+  "editorial_principle": "La tesi di un saggio non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro, o in un'altra fonte dichiarata.",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "campo_artigiano_bilaterale",
+      "label_en": "bilateral_craft_field",
+      "statement_it": "Murano e Kyoto non si fondono in una sintesi culturale: restano due regimi di percezione co-attivi, tenuti insieme in tensione permanente da un solo corpo, quello dell'autore.",
+      "statement_en": "Murano and Kyoto do not merge into cultural synthesis: they remain two co-active regimes of perception, held in permanent tension by a single body, the author's.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/system_principle"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/global_state/closure_type"
+        }
+      ],
+      "resolution_status": {
+        "status": "bilateral_irresolvable_permanent",
+        "closure": false
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il sistema vieta esplicitamente la sintesi culturale: Murano e Kyoto restano distinte, non risolte in un terzo termine unificante."
+      },
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "la_perla_come_attrattore_non_risolvibile",
+      "label_en": "the_bead_as_non_resolvable_attractor",
+      "statement_it": "La perla di vetro funziona come un attrattore che non si risolve mai in un unico significato: mantiene Murano e Kyoto come sistemi co-attivi ma che non si fondono.",
+      "statement_en": "The glass bead functions as a non-resolvable attractor that maintains Murano and Kyoto as co-active but non-fusing systems.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/global_state/system_behavior"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "resolution_status": {
+        "status": "permanent_attractor",
+        "intensity": 1.0
+      },
+      "textual_anchor_it": "object-02 è il campo dominante del sistema (dominant_field), il nodo da cui si propaga l'effetto più intenso misurato nel grafo.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "yūgen"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "irriducibilita_bilingue",
+      "label_en": "bilingual_irreducibility",
+      "statement_it": "Inglese e giapponese coesistono come campi paralleli non traducibili l'uno nell'altro, producendo uno spazio terzo irriducibile: la lingua diventa confine del campo, non strumento di traduzione.",
+      "statement_en": "English and Japanese coexist as non-translational parallel fields producing a third irreducible space: language becomes a field boundary, not a translation medium.",
+      "grounded_in": [
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/4"
+        },
+        {
+          "file": "books/a-glass-bridge/glass-bridge-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/1"
+        }
+      ],
+      "resolution_status": {
+        "status": "permanent",
+        "forbidden_state": "language_translation_equivalence"
+      },
+      "textual_anchor_it": "La lingua universale della bellezza: non una lingua condivisa, ma un limite epistemico condiviso.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    }
+  ]
+}
