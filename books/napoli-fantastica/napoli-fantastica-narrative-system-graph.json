@@ -1,0 +1,162 @@
+{
+ "type": "NarrativeSystemGraph",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "system_principle": "La città non è un insieme di luoghi ma una rete di interferenze percettive tra oggetti, scene, silenzi e transizioni. A Napoli nessun nodo si chiude: la voce di Partenope li attraversa tutti e l'attesa del sangue li riattiva.",
+ "layers": {
+  "scenes": [
+   "scene-01",
+   "scene-02",
+   "scene-03",
+   "scene-04",
+   "scene-05",
+   "scene-06",
+   "scene-07"
+  ],
+  "objects": [
+   "object-01",
+   "object-02",
+   "object-03",
+   "object-04",
+   "object-05",
+   "object-06",
+   "object-07",
+   "object-08",
+   "object-09",
+   "object-10",
+   "object-11",
+   "object-12",
+   "object-13",
+   "object-14",
+   "object-15",
+   "object-16"
+  ],
+  "silences": [
+   "silence-01",
+   "silence-02",
+   "silence-03",
+   "silence-04"
+  ],
+  "transitions": [
+   "transition-01",
+   "transition-02",
+   "transition-03",
+   "transition-04"
+  ]
+ },
+ "topology": {
+  "core_field": "object-14",
+  "primary_loops": [
+   {
+    "loop": "sacro_non_verificabile",
+    "nodes": [
+     "object-14",
+     "silence-03",
+     "silence-01"
+    ],
+    "type": "recursive_stability"
+   },
+   {
+    "loop": "leggenda_che_sostiene",
+    "nodes": [
+     "object-15",
+     "object-01",
+     "scene-01"
+    ],
+    "type": "mythic_overlay"
+   },
+   {
+    "loop": "discesa_nel_sottosuolo",
+    "nodes": [
+     "object-08",
+     "scene-03",
+     "transition-02"
+    ],
+    "type": "subterranean_overlay"
+   },
+   {
+    "loop": "scambio_e_condanna",
+    "nodes": [
+     "object-16",
+     "scene-07",
+     "transition-04"
+    ],
+    "type": "symbolic_drift"
+   },
+   {
+    "loop": "voce_che_non_chiude",
+    "nodes": [
+     "silence-04",
+     "transition-01",
+     "scene-01"
+    ],
+    "type": "non_completion_field"
+   }
+  ]
+ },
+ "cross_layer_effects": [
+  {
+   "from": "object-14",
+   "to": "silence-03",
+   "effect": "l'attesa del sangue mantiene attiva l'incertezza del segno invece di risolverla",
+   "propagation_mode": "recursive",
+   "stability_impact": "reinforcing"
+  },
+  {
+   "from": "object-01",
+   "to": "object-14",
+   "effect": "l'oggetto che protegge senza mostrarsi prepara il sangue che si scioglie senza prova",
+   "propagation_mode": "retroactive",
+   "stability_impact": "reinforcing"
+  },
+  {
+   "from": "object-15",
+   "to": "object-01",
+   "effect": "Colapesce che regge la città da sotto raddoppia l'uovo che la protegge dall'interno",
+   "propagation_mode": "recursive",
+   "stability_impact": "reinforcing"
+  },
+  {
+   "from": "scene-01",
+   "to": "transition-01",
+   "effect": "il campo d'origine si consegna alla voce di Partenope che narra tutti i capitoli successivi",
+   "propagation_mode": "forward",
+   "stability_impact": "neutral"
+  },
+  {
+   "from": "object-16",
+   "to": "scene-07",
+   "effect": "piazza Mercato porta scambio e condanna nello stesso campo, che collassa senza ricomporsi",
+   "propagation_mode": "irreversible",
+   "stability_impact": "destabilizing"
+  },
+  {
+   "from": "transition-04",
+   "to": "scene-07",
+   "effect": "il passaggio da scambio a esecuzione fissa il collasso del campo di piazza Mercato",
+   "propagation_mode": "irreversible",
+   "stability_impact": "destabilizing"
+  },
+  {
+   "from": "silence-04",
+   "to": "all",
+   "effect": "la voce di Partenope non chiusa impedisce la stabilizzazione finale di qualsiasi nodo",
+   "propagation_mode": "global",
+   "stability_impact": "destabilizing"
+  }
+ ],
+ "global_state": {
+  "dominant_field": "recursive_expectation",
+  "stability": "metastable",
+  "closure": false,
+  "city_behavior": "Napoli opera come rete dove sacro e profano condividono il suolo e la leggenda regge il comportamento collettivo, senza convergenza narrativa",
+  "readability": "high_local_low_global"
+ }
+}
