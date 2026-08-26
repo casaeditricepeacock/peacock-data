@@ -1,0 +1,82 @@
+{
+ "type": "PerceptualField",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "protocol_axes": {
+  "basho": "spatial_configuration",
+  "kokyu": "temporal_activation_rhythm",
+  "yūgen": "perceptual_incompleteness_degree"
+ },
+ "editorial_principle": "Each field is a perceptual rule-set. In Naples it keeps incompatible readings on identical coordinates, where the sacred and the profane share the same ground. A field does not describe the city; it sets the conditions under which the city becomes readable.",
+ "fields": [
+  {
+   "id": "field-01",
+   "label": "coincidenza_sacro_profano",
+   "type": "urban_field",
+   "basho": "urban space holds sacred and profane readings on identical coordinates without separation",
+   "kokyu": "perception moves between reverence and everyday use without a transition marker",
+   "yūgen_level": 0.9,
+   "activation_condition": "presence of a site read simultaneously as sacred and profane",
+   "persistence_rule": "field remains active while both readings share the same ground",
+   "dissolution_rule": "field collapses only if one register is fully expelled from the site",
+   "field_logic": "simultaneous_coexistence_of_sacred_and_profane",
+   "textual_anchor_it": "la sua bellezza è insita in un mix di sacro e profano che la rende una città unica al mondo."
+  },
+  {
+   "id": "field-02",
+   "label": "voce_di_partenope",
+   "type": "cognitive_field",
+   "basho": "narrative position coincides with the city itself; perception issues from a voice that claims to be everything and nothing",
+   "kokyu": "temporal synchronization runs from before the city's foundation into its present without a defined origin",
+   "yūgen_level": 0.88,
+   "activation_condition": "single first-person voice that is not external to what it describes",
+   "persistence_rule": "field persists while the narrating voice remains unidentifiable",
+   "dissolution_rule": "field dissolves if the voice resolves into a locatable speaker",
+   "field_logic": "focalized_perception_as_city",
+   "textual_anchor_it": "sono tutto questo e niente, ma soprattutto Napoli."
+  },
+  {
+   "id": "field-03",
+   "label": "attesa_non_verificabile",
+   "type": "urban_field",
+   "basho": "urban space organizes around a sign whose truth cannot be established",
+   "kokyu": "perceptual rhythm returns at fixed intervals to the same expectation without reaching certainty",
+   "yūgen_level": 0.92,
+   "activation_condition": "presence of a recurring collective sign held without verification",
+   "persistence_rule": "field remains active while the expectation is renewed rather than confirmed",
+   "dissolution_rule": "field stabilizes only if the sign becomes verifiable",
+   "field_logic": "structured_expectation_without_verification",
+   "textual_anchor_it": "Sulla figura di Gennaro si sa poco"
+  },
+  {
+   "id": "field-04",
+   "label": "stratificazione_sovrapposta",
+   "type": "temporal_field",
+   "basho": "urban space contains coexisting historical layers surfaced by excavation without erasure",
+   "kokyu": "time operates through simultaneous stratification rather than linear succession",
+   "yūgen_level": 0.86,
+   "activation_condition": "presence of multi-epoch layers made co-perceptible by digging",
+   "persistence_rule": "field remains active while the buried layers stay readable under the surface",
+   "dissolution_rule": "field dissolves if the layers collapse into a single chronology",
+   "field_logic": "non_linear_layer_coexistence",
+   "textual_anchor_it": "altri sono stati rinvenuti durante gli scavi della metropolitana"
+  }
+ ],
+ "system_note": {
+  "field_count": 4,
+  "ontology": "strict_perceptual_4_1",
+  "invalidated_elements": [
+   "subjective_voice_states",
+   "unstable_definition_blocks",
+   "free_text_yugen"
+  ],
+  "system_behavior": "fields operate as persistent perceptual operators over urban reading conditions"
+ }
+}
