@@ -1,0 +1,544 @@
+{
+ "type": "ReaderCompanion",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "companion_type": "reader_map",
+ "editorial_principle": "Il quiz non verifica conoscenza. È uno strumento che il lettore opera in prima persona: segna i luoghi che ha visto e annota ciò che ha fatto. Da lì la guida si estende oltre Napoli, verso i luoghi italiani e stranieri legati alle sue storie. La mappa che ne risulta cambia con chi la compila.",
+ "participation_logic": "il lettore spunta ogni voce visitata o compiuta; in alcune sezioni aggiunge annotazioni, una classifica personale o i personaggi e i fatti a cui un luogo è legato",
+ "sections": [
+  {
+   "id": "section-01",
+   "title": "Posti di Napoli",
+   "instruction": "Segna con una crocetta quelli che hai visitato",
+   "mode": "checklist",
+   "item_count": 59,
+   "items": [
+    {
+     "label": "Castel dell’Ovo",
+     "book_link": "object-01"
+    },
+    {
+     "label": "Lungomare di Mergellina"
+    },
+    {
+     "label": "Posillipo"
+    },
+    {
+     "label": "Gaiola"
+    },
+    {
+     "label": "Marechiaro"
+    },
+    {
+     "label": "Museo archeologico nazionale (MANN)",
+     "book_link": "object-02"
+    },
+    {
+     "label": "Chiesa e ruota dell’Annunziata"
+    },
+    {
+     "label": "Via Toledo",
+     "book_link": "object-03"
+    },
+    {
+     "label": "Parco Vergiliano"
+    },
+    {
+     "label": "Le case di Leopardi (Tour leopardiano)"
+    },
+    {
+     "label": "Caffè Gambrinus"
+    },
+    {
+     "label": "Piazza Plebiscito",
+     "book_link": "object-04"
+    },
+    {
+     "label": "Palazzo Reale"
+    },
+    {
+     "label": "Biblioteca nazionale"
+    },
+    {
+     "label": "Galleria Umberto I"
+    },
+    {
+     "label": "Teatro San Carlo"
+    },
+    {
+     "label": "Archivio fotografico Carbone"
+    },
+    {
+     "label": "Maschio Angioino",
+     "book_link": "object-05"
+    },
+    {
+     "label": "Vomero"
+    },
+    {
+     "label": "Castel Sant’Elmo"
+    },
+    {
+     "label": "Certosa di San Martino"
+    },
+    {
+     "label": "Quartieri Spagnoli",
+     "book_link": "object-06"
+    },
+    {
+     "label": "Murales di Maradona"
+    },
+    {
+     "label": "Stadio Maradona"
+    },
+    {
+     "label": "Palazzo Piacentini"
+    },
+    {
+     "label": "Chiesa di Santa Maria Francesca delle Cinque Piaghe"
+    },
+    {
+     "label": "Pignasecca"
+    },
+    {
+     "label": "Casa di Totò (Rione Sanità)"
+    },
+    {
+     "label": "Via dei Tribunali"
+    },
+    {
+     "label": "Chiesa di Santa Maria alla Pietrasanta"
+    },
+    {
+     "label": "Piazza Dante"
+    },
+    {
+     "label": "Port’Alba",
+     "book_link": "object-08"
+    },
+    {
+     "label": "Conservatorio di San Pietro a Majella"
+    },
+    {
+     "label": "Piazza del Gesù"
+    },
+    {
+     "label": "Chiesa del Gesù Nuovo"
+    },
+    {
+     "label": "Chiesa e chiostro di Santa Chiara"
+    },
+    {
+     "label": "Palazzo Venezia"
+    },
+    {
+     "label": "Cimitero delle Fontanelle"
+    },
+    {
+     "label": "Chiesa di Santa Luciella ai Librai"
+    },
+    {
+     "label": "Chiesa di Santa Maria del Purgatorio ad Arco"
+    },
+    {
+     "label": "Piazza San Domenico Maggiore"
+    },
+    {
+     "label": "Basilica di San Domenico Maggiore"
+    },
+    {
+     "label": "Chiesa di Sant’Angelo a Nilo",
+     "book_link": "object-10"
+    },
+    {
+     "label": "Cappella Sansevero"
+    },
+    {
+     "label": "Basilica di San Lorenzo Maggiore"
+    },
+    {
+     "label": "Napoli sotterranea",
+     "book_link": "object-08"
+    },
+    {
+     "label": "San Gregorio Armeno",
+     "book_link": "object-11"
+    },
+    {
+     "label": "Archivio di Stato"
+    },
+    {
+     "label": "Ospedale delle Bambole"
+    },
+    {
+     "label": "Duomo e Cappella di San Gennaro",
+     "book_link": "object-14"
+    },
+    {
+     "label": "Pio Monte della Misericordia"
+    },
+    {
+     "label": "Castel Capuano"
+    },
+    {
+     "label": "Corso Umberto"
+    },
+    {
+     "label": "Via Mezzocannone",
+     "book_link": "object-15"
+    },
+    {
+     "label": "Museo di Scienze Naturali della Federico II"
+    },
+    {
+     "label": "Piazza Mercato",
+     "book_link": "object-16"
+    },
+    {
+     "label": "Basilica di Santa Maria del Carmine Maggiore"
+    },
+    {
+     "label": "Chiesa di Sant’Eligio Maggiore"
+    },
+    {
+     "label": "Bosco e museo di Capodimonte"
+    }
+   ]
+  },
+  {
+   "id": "section-02",
+   "title": "Cose da fare a Napoli",
+   "instruction": "Segna con una crocetta le cose che hai fatto e aggiungi le tue considerazioni",
+   "mode": "checklist_with_prompt",
+   "item_count": 26,
+   "items": [
+    {
+     "label": "Mangiare la sfogliatella. (Quale ti è piaciuta di più? la frolla o la riccia? o la santarosa?)",
+     "book_link": "object-03"
+    },
+    {
+     "label": "Camminare bendati tra i cavalli di piazza Plebiscito. (Com’è andata?)",
+     "book_link": "object-04"
+    },
+    {
+     "label": "Sedersi sulla Sedia della Fertilità. (Posto 25) (Aspetti un/a bambino/a? Come lo/la chiamerai?)"
+    },
+    {
+     "label": "Trovare i posti dove manca il giglio borbonico."
+    },
+    {
+     "label": "Trovare le edicole votive sparse in giro per la città. (Quante ne hai trovate?)"
+    },
+    {
+     "label": "Tour dei murales di Partenope o di altri protagonisti della storia di Napoli. (Quali hai visto?)"
+    },
+    {
+     "label": "Mangiare alla Pignasecca. (Dove e cosa hai mangiato?)"
+    },
+    {
+     "label": "Taralli e birra sul lungomare di Napoli. (Con chi ci sei stato/a?)"
+    },
+    {
+     "label": "Acquistare libri dalle bancarelle di Port’Alba. (Scrivi i titoli dei libri)",
+     "book_link": "object-08"
+    },
+    {
+     "label": "Osservare al tramonto la statua sulla guglia dell’Immacolata. (Posto 33)"
+    },
+    {
+     "label": "Fotografarsi accanto al Pulcinella di Lello Esposito."
+    },
+    {
+     "label": "Passeggiare per San Gregorio Armeno a Natale.",
+     "book_link": "object-11"
+    },
+    {
+     "label": "Mangiare la pizza. (Dove e quale pizza hai mangiato? Dai un voto da 1 a 10 alla tua pizza)",
+     "book_link": "object-12"
+    },
+    {
+     "label": "Mangiare le fritturine."
+    },
+    {
+     "label": "Bere la limonata “a cosce aperte”. (Com’è andata?)"
+    },
+    {
+     "label": "Regalare un barattolino di aria di Napoli a una persona cara. (A chi l’hai regalato?)"
+    },
+    {
+     "label": "Andare al Duomo in uno dei tre giorni in cui si scioglie il sangue di San Gennaro. (Quale giorno hai scelto? Il sangue si è sciolto? Racconta la tua esperienza)",
+     "book_link": "object-14"
+    },
+    {
+     "label": "Rendere omaggio a Corradino di Svevia. (Posto 55)",
+     "book_link": "object-16"
+    },
+    {
+     "label": "Fare il bagno a Napoli. (Quando e dove lo hai fatto? Com’era l’acqua?)"
+    },
+    {
+     "label": "Prendere il traghetto per una delle isole (Ischia, Capri e Procida). (Quale hai visitato? Quale ti è piaciuta di più?)"
+    },
+    {
+     "label": "Trovare un Pulcinella a Napoli in carne e ossa. (Dove l’hai trovato?)"
+    },
+    {
+     "label": "Trovare Pulcinella dappertutto. (Vale tutto: da quello in carne e ossa a una statua o anche se è disegnato su una tazza)"
+    },
+    {
+     "label": "Imparare almeno 10 parole in napoletano, escluse le parolacce. (Com’è andata? Quali parole hai imparato? Quali parole ricordi di più?)"
+    },
+    {
+     "label": "Imparare bene almeno un proverbio napoletano completo. (Quale hai imparato?)"
+    },
+    {
+     "label": "Ascoltare le canzoni di Pino Daniele. (Quali hai ascoltato? Quale ti piace di più?)",
+     "book_link": "object-09"
+    },
+    {
+     "label": "Assistere a un evento al San Carlo. (Cosa hai visto?)"
+    }
+   ]
+  },
+  {
+   "id": "section-03",
+   "title": "Le stazioni dell’arte della metro",
+   "instruction": "Segna con una crocetta le fermate che hai visto e stila una tua personale classifica delle 5 più belle dopo e esclusa quella di Toledo",
+   "mode": "ranked",
+   "item_count": 20,
+   "items": [
+    {
+     "label": "Duomo"
+    },
+    {
+     "label": "Piscinola"
+    },
+    {
+     "label": "Garibaldi"
+    },
+    {
+     "label": "Università"
+    },
+    {
+     "label": "Municipio"
+    },
+    {
+     "label": "Toledo"
+    },
+    {
+     "label": "Dante"
+    },
+    {
+     "label": "Museo"
+    },
+    {
+     "label": "Materdei"
+    },
+    {
+     "label": "Salvator Rosa"
+    },
+    {
+     "label": "Quattro Giornate"
+    },
+    {
+     "label": "Vanvitelli"
+    },
+    {
+     "label": "Rione Alto"
+    },
+    {
+     "label": "Mergellina"
+    },
+    {
+     "label": "Lala"
+    },
+    {
+     "label": "Augusto"
+    },
+    {
+     "label": "Mostra"
+    },
+    {
+     "label": "Arco Mirelli"
+    },
+    {
+     "label": "San Pasquale"
+    },
+    {
+     "label": "Chiaia"
+    }
+   ]
+  },
+  {
+   "id": "section-04",
+   "title": "Fuori Napoli",
+   "instruction": "Segna con una crocetta i posti che hai visitato",
+   "mode": "checklist",
+   "item_count": 11,
+   "items": [
+    {
+     "label": "Janua, il museo delle streghe di Benevento",
+     "book_link": "object-07"
+    },
+    {
+     "label": "Pompei"
+    },
+    {
+     "label": "Ercolano"
+    },
+    {
+     "label": "Escursione sul Vesuvio"
+    },
+    {
+     "label": "Pozzuoli"
+    },
+    {
+     "label": "Villa delle Ginestre"
+    },
+    {
+     "label": "Portici"
+    },
+    {
+     "label": "Costiera Amalfitana"
+    },
+    {
+     "label": "Museo di Pulcinella ad Acerra"
+    },
+    {
+     "label": "Cuma"
+    },
+    {
+     "label": "Massa Lubrense"
+    }
+   ]
+  },
+  {
+   "id": "section-05",
+   "title": "Napoli e l’Italia",
+   "instruction": "Segna con una crocetta i posti che hai visitato e scrivi accanto i luoghi specifici o i fatti e i personaggi a cui sono legati",
+   "mode": "checklist_with_annotation",
+   "item_count": 15,
+   "items": [
+    {
+     "label": "Brindisi"
+    },
+    {
+     "label": "Pesaro"
+    },
+    {
+     "label": "Roma"
+    },
+    {
+     "label": "Sicilia",
+     "book_link": "object-15"
+    },
+    {
+     "label": "Recanati",
+     "book_link": "object-03"
+    },
+    {
+     "label": "Castenaso"
+    },
+    {
+     "label": "Milano"
+    },
+    {
+     "label": "Greccio",
+     "book_link": "object-11"
+    },
+    {
+     "label": "Arquà"
+    },
+    {
+     "label": "Minervino Murge"
+    },
+    {
+     "label": "Tagliacozzo"
+    },
+    {
+     "label": "Santa Maria di Collemaggio"
+    },
+    {
+     "label": "Jesi"
+    },
+    {
+     "label": "Torremaggiore"
+    },
+    {
+     "label": "Bologna"
+    }
+   ]
+  },
+  {
+   "id": "section-06",
+   "title": "Napoli e il mondo",
+   "instruction": "Segna con una crocetta i posti che hai visitato e scrivi accanto i luoghi specifici o i fatti e i personaggi a cui sono legati",
+   "mode": "checklist_with_annotation",
+   "item_count": 15,
+   "items": [
+    {
+     "label": "Cina"
+    },
+    {
+     "label": "Lanús"
+    },
+    {
+     "label": "Madrid"
+    },
+    {
+     "label": "Atene",
+     "book_link": "object-01"
+    },
+    {
+     "label": "Pella",
+     "book_link": "object-02"
+    },
+    {
+     "label": "Germania"
+    },
+    {
+     "label": "Toledo"
+    },
+    {
+     "label": "Inghilterra"
+    },
+    {
+     "label": "Salisburgo"
+    },
+    {
+     "label": "Palestina"
+    },
+    {
+     "label": "Monte Carmelo"
+    },
+    {
+     "label": "Alessandria d’Egitto",
+     "book_link": "object-10"
+    },
+    {
+     "label": "Istanbul"
+    },
+    {
+     "label": "Francia"
+    },
+    {
+     "label": "Danimarca"
+    }
+   ]
+  }
+ ],
+ "system_note": {
+  "section_count": 6,
+  "total_items": 146,
+  "book_link_count": 28,
+  "relation_to_book": "apparato di partecipazione stampato a chiusura del volume; non è uno dei nove file del protocollo narrativo ma un nodo companion che estende il catalogo verso una mappa operabile dal lettore",
+  "companion_role": "reader_operated_place_and_action_map"
+ }
+}
