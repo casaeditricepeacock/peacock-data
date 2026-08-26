@@ -1,0 +1,106 @@
+{
+ "type": "NarrativeTransition",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "transition_types": {
+  "irreversible": "modifica permanente del campo",
+  "suspended": "oscillazione senza stabilizzazione",
+  "recursive": "modifica retroattiva delle transizioni precedenti",
+  "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+  "gradual_loss": "perdita progressiva di densità percettiva",
+  "involuntary": "transizione riconosciuta dopo il suo avvenimento"
+ },
+ "editorial_principle": "La transizione non porta da uno stato all'altro. A Napoli mostra due regimi che stanno insieme sullo stesso suolo senza sciogliersi: il mercato e la condanna, il sacro e il profano nello stesso presepe. Il passaggio non chiude, aggiunge uno strato.",
+ "transitions": [
+  {
+   "id": "transition-01",
+   "label": "voce_autore_a_partenope",
+   "label_en": "author_voice_to_partenope",
+   "type": "recursive",
+   "intensity": 0.9,
+   "perceptual_weight": 0.9,
+   "basho": "la guida cambia bocca senza cambiare pagina: l'Introduzione è dell'autore, poi a parlare è Partenope in prima persona, e lo stesso testo resta.",
+   "kokyu": "non c'è un momento di passaggio: la voce della sirena era già la città, e da lì in poi ogni capitolo è detto da lei.",
+   "yūgen": "ciò che era racconto sull'esterno diventa racconto dall'interno, senza che la forma del libro cambi.",
+   "affects": {
+    "transition-03": "il doppio registro della voce si estende al presepe, dove sacro e profano parlano insieme"
+   },
+   "textual_anchor_it": "Il mio nome, Partenope, deriva dal greco",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "mono no aware"
+   ]
+  },
+  {
+   "id": "transition-02",
+   "label": "superficie_a_sottosuolo",
+   "label_en": "surface_to_underground",
+   "type": "suspended",
+   "intensity": 0.82,
+   "perceptual_weight": 0.8,
+   "basho": "il passaggio non porta altrove ma sotto: gli scavi della metropolitana e Port'Alba tengono la città moderna e quella greco-romana sullo stesso verticale.",
+   "kokyu": "i due strati non si alternano, oscillano; la superficie non copre il sottosuolo, lo tiene sospeso sotto di sé.",
+   "yūgen": "scendere non sostituisce la città di sopra, la raddoppia.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "il sottosuolo non viene mai assorbito del tutto dalla superficie: resta un regime parallelo attivo."
+   },
+   "textual_anchor_it": "altri sono stati rinvenuti durante gli scavi della metropolitana",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "transition-03",
+   "label": "sacro_a_profano_presepe",
+   "label_en": "sacred_to_profane_nativity",
+   "type": "recursive",
+   "intensity": 0.8,
+   "perceptual_weight": 0.8,
+   "basho": "nella scena del presepe il sacro non lascia il posto al profano: il taverniere entra accanto alla Natività e i due registri restano nella stessa miniatura.",
+   "kokyu": "dal Seicento la figura profana non viene più espulsa; il tempo aggiunge personaggi senza mai chiudere la scena.",
+   "yūgen": "la scena sacra continua a funzionare mentre ospita ciò che sacro non è.",
+   "textual_anchor_it": "ai pastori della Natività si sono aggiunte anche altre figure",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "mono no aware"
+   ]
+  },
+  {
+   "id": "transition-04",
+   "label": "scambio_a_condanna_mercato",
+   "label_en": "exchange_to_execution",
+   "type": "irreversible",
+   "intensity": 0.85,
+   "perceptual_weight": 0.82,
+   "basho": "sullo stesso suolo di piazza Mercato lo scambio commerciale e l'esecuzione capitale non si separano: il luogo del mercato è anche quello delle decapitazioni.",
+   "kokyu": "una volta che la piazza dello scambio ha ospitato la condanna, la lettura del luogo non torna indietro.",
+   "yūgen": "la memoria della condanna resta addosso al mercato e non si lascia lavare via.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "la sovrapposizione tra commercio e condanna non si risolve: la piazza porta entrambe le funzioni in modo permanente."
+   },
+   "textual_anchor_it": "almeno fino all'Ottocento, la piazza è stata anche teatro di molte decapitazioni",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  }
+ ],
+ "system_rule_update": {
+  "principle": "Le transizioni di Napoli non separano stati urbani. Tengono insieme regimi percettivi incompatibili sullo stesso suolo, dove sacro e profano, scambio e condanna, superficie e sottosuolo operano in parallelo.",
+  "effect": "ogni transizione aggiunge uno strato senza produrre chiusura"
+ }
+}
