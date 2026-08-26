@@ -1,0 +1,397 @@
+{
+ "type": "NarrativeObject",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "editorial_principle": "A Napoli l'oggetto urbano non separa il vero dal leggendario. Il campo si attiva quando il corpo attraversa lo spazio, e la leggenda continua a comportarsi come se fosse accaduta. La voce di Partenope percorre l'intera guida in prima persona: questo tiene ogni oggetto dentro un'unica soglia percettiva. Sacro e profano non si alternano, coincidono nello stesso gesto. La statua che si attraversa bendati e l'ampolla del sangue che si osserva ogni anno appartengono allo stesso comportamento della città.",
+ "object_types": {
+  "urban_trigger": "oggetto che modifica la percezione dello spazio urbano circostante",
+  "ritual_device": "oggetto che richiede partecipazione fisica per attivare il campo",
+  "historical_interference": "oggetto che altera la lettura causale della storia",
+  "threshold_object": "oggetto situato su una soglia percettiva o architettonica",
+  "recursive_symbol": "oggetto che rigenera continuamente il proprio mistero senza stabilizzazione",
+  "urban_residue": "campo percettivo degradato ma ancora attivo nella città contemporanea"
+ },
+ "objects": [
+  {
+   "id": "object-01",
+   "label": "uovo_di_virgilio",
+   "label_en": "virgils_egg",
+   "type": "recursive_symbol",
+   "intensity": 0.92,
+   "perceptual_weight": 0.9,
+   "basho": "Castel dell'Ovo si organizza attorno a un oggetto che non si vede: l'uovo nascosto orienta la fortezza e il mare che la circonda.",
+   "kokyu": "il tempo resta appeso alla possibilità che l'uovo si rompa; ogni sventura del castello viene riletta a ritroso come conferma della leggenda.",
+   "yūgen": "la protezione della città dipende da un oggetto la cui esistenza non è verificabile, e per questo non smette di agire.",
+   "activation_condition": "presenza di reliquia mancante, architettura sul mare e attesa di una rottura mai avvenuta",
+   "field_behavior": "il campo resta latente finché la città funziona; si riattiva a ogni disgrazia, attribuita alla rottura dell'uovo.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna ricognizione archeologica del castello riduce la forza narrativa dell'uovo assente."
+   },
+   "affects": {
+    "object-14": "la logica dell'oggetto che protegge Napoli senza mostrarsi prepara il campo del sangue che si scioglie",
+    "object-15": "la custodia magica affidata a Virgilio si estende al nuotatore che regge la città da sotto"
+   },
+   "textual_anchor_it": "avrebbe incantato con le sue arti magiche l'uovo di una gallina e lo avrebbe custodito in una gabbia di ferro nascosta all'interno del castello, affidandogli la protezione del castello e di Napoli.",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "object-02",
+   "label": "volto_di_alessandro",
+   "label_en": "face_of_alexander",
+   "type": "historical_interference",
+   "intensity": 0.8,
+   "perceptual_weight": 0.78,
+   "basho": "il MANN raccoglie in un edificio strati che nello spazio urbano sono dispersi: Pompei, Ercolano e la collezione Farnese nella stessa stanza.",
+   "kokyu": "epoche lontane vengono affiancate senza gerarchia; un volto antico riaffiora dagli scavi della metropolitana e torna a guardare chi passa.",
+   "yūgen": "il reperto mostra un frammento e trattiene la scena a cui apparteneva.",
+   "activation_condition": "presenza di reperti da contesti e secoli incompatibili nello stesso sguardo",
+   "field_behavior": "l'oggetto museale altera la distanza temporale percepita: si attraversano secoli in pochi metri.",
+   "affects": {
+    "object-10": "la lettura stratificata del museo si estende agli oggetti che portano dentro Napoli epoche estranee"
+   },
+   "textual_anchor_it": "uno dei luoghi simbolo della storia campana è sicuramente il Museo archeologico nazionale di Napoli o MANN",
+   "glossary_link": [
+    "yūgen",
+    "kokyu"
+   ]
+  },
+  {
+   "id": "object-03",
+   "label": "dolci_napoletani",
+   "label_en": "neapolitan_sweets",
+   "type": "urban_trigger",
+   "intensity": 0.72,
+   "perceptual_weight": 0.7,
+   "basho": "il dolce non ha un luogo unico ma una traiettoria lungo via Toledo, che il popolo non ha mai smesso di chiamare così anche quando la mappa diceva via Roma. Sotto, la stazione della metropolitana e il suo cono di luce sulle scale mobili.",
+   "kokyu": "il gesto di camminare a caccia di delizie ripete un passo antico: qui passeggiava Leopardi, e il presente si sovrappone a quella figura.",
+   "yūgen": "il piacere immediato del dolce lascia intatto ciò che lo circonda.",
+   "activation_condition": "movimento del corpo lungo la via commerciale associato a un desiderio e a una figura letteraria",
+   "field_behavior": "l'oggetto attiva il campo mentre il corpo cammina e consuma; fermo, non produce nulla.",
+   "affects": {
+    "object-12": "la logica del cibo come identità collettiva prepara il campo della pizza"
+   },
+   "textual_anchor_it": "«Passiammo pe' Tuledo», ma senza mamme apprensive alle nostre spalle, immaginando di essere un giovane poeta a caccia di delizie, non uno qualunque ma un certo Giacomo Leopardi.",
+   "glossary_link": [
+    "ma",
+    "kokyu"
+   ]
+  },
+  {
+   "id": "object-04",
+   "label": "statue_equestri_plebiscito",
+   "label_en": "plebiscito_equestrian_statues",
+   "type": "ritual_device",
+   "intensity": 0.85,
+   "perceptual_weight": 0.82,
+   "basho": "piazza Plebiscito diventa dispositivo quando il corpo tenta il tragitto a occhi chiusi tra le due statue equestri; lo spazio aperto si stringe in una linea invisibile.",
+   "kokyu": "il tempo si accende solo nell'attraversamento e si spegne raggiunto l'altro lato.",
+   "yūgen": "l'esito del gesto non è garantito, e l'incertezza tiene viva l'usanza.",
+   "activation_condition": "attraversamento bendato e intenzionale della piazza tra i due monumenti",
+   "field_behavior": "il campo rituale resta inattivo finché il corpo non accetta la prova a occhi chiusi.",
+   "affects": {
+    "object-05": "il corpo abituato al rito si muove verso il castello vicino già dentro una logica di prova"
+   },
+   "textual_anchor_it": "non dimenticate di provare ad attraversare bendati le due statue equestri",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "object-05",
+   "label": "maschio_angioino",
+   "label_en": "angevin_keep",
+   "type": "threshold_object",
+   "intensity": 0.78,
+   "perceptual_weight": 0.75,
+   "basho": "il Maschio Angioino sta sulla soglia tra il mare e la città del potere; il nome richiama il mastio, la torre che cade per ultima.",
+   "kokyu": "l'edificio conserva la successione delle dominazioni come strati sovrapposti che non si annullano.",
+   "yūgen": "la fortezza mostra la resistenza e nasconde quanto le è costata.",
+   "activation_condition": "posizione sulla linea tra porto e centro del potere, sotto il segno della torre che resiste",
+   "field_behavior": "l'oggetto-soglia riorienta il passaggio dal porto verso l'interno amministrativo della città.",
+   "affects": {
+    "object-16": "la logica del potere che si difende si estende alla piazza dove il potere esegue le condanne"
+   },
+   "textual_anchor_it": "richiama invece il mastio, la torre più robusta di un castello e l'ultima a cadere durante un assedio",
+   "glossary_link": [
+    "basho",
+    "ma"
+   ]
+  },
+  {
+   "id": "object-06",
+   "label": "quartieri_spagnoli",
+   "label_en": "spanish_quarters",
+   "type": "urban_residue",
+   "intensity": 0.8,
+   "perceptual_weight": 0.82,
+   "basho": "i vicoli nati come alloggi per i soldati del viceré restano un tessuto stretto e verticale dove ogni facciata trattiene un episodio.",
+   "kokyu": "il tempo si accumula: nel Seicento un pittore in fuga vi lascia una tela, e i secoli successivi non cancellano la traccia.",
+   "yūgen": "il quartiere continua a custodire ciò che vi è passato senza restituirlo per intero.",
+   "activation_condition": "permanenza in un tessuto urbano denso costruito per una funzione militare poi dispersa",
+   "field_behavior": "il campo degradato resta attivo: i vicoli producono interferenza anche mentre funzionano da quartiere abitato.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna riqualificazione dissolve la densità narrativa depositata nei vicoli."
+   },
+   "affects": {
+    "object-16": "la fuga del pittore condannato prepara il campo del luogo dove la città esegue le sue sentenze"
+   },
+   "textual_anchor_it": "la sua non fu una gita di piacere, ma una fuga dopo aver commesso un omicidio ed essere stato condannato a morte",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "object-07",
+   "label": "janara",
+   "label_en": "janara",
+   "type": "recursive_symbol",
+   "intensity": 0.86,
+   "perceptual_weight": 0.84,
+   "basho": "la janara non abita un luogo ma una soglia oraria e una condizione: la notte, la curatrice che conosce i segreti della natura.",
+   "kokyu": "la figura riattraversa i secoli cambiando nome, dal culto di Diana al dio bifronte Giano, senza fissarsi.",
+   "yūgen": "ciò che la janara sa non passa alla luce del giorno, che le è fatale.",
+   "activation_condition": "condizione notturna associata a sapere popolare non trasmissibile in pieno giorno",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna spiegazione razionale della figura chiude la sua circolazione nel racconto popolare."
+   },
+   "affects": {
+    "object-09": "la creatura che agisce nel buio prepara il campo degli spiriti che abitano la casa"
+   },
+   "textual_anchor_it": "spesso sono curatrici che conoscono i segreti della natura",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "object-08",
+   "label": "port_alba_sottosuolo",
+   "label_en": "portalba_underground",
+   "type": "threshold_object",
+   "intensity": 0.82,
+   "perceptual_weight": 0.8,
+   "basho": "Port'Alba è una soglia scavata: il viceré aprì la strada perforando le mura angioine, ma i napoletani avevano già iniziato a scavare di nascosto.",
+   "kokyu": "il tempo dello scavo precede l'atto ufficiale; la città anticipa sottoterra ciò che il potere dichiara dopo.",
+   "yūgen": "il collegamento nascosto resta più vero della porta che lo autorizza.",
+   "activation_condition": "presenza di un passaggio aperto dal basso prima che venga riconosciuto dall'alto",
+   "field_behavior": "l'oggetto-soglia lavora sotto la superficie: il campo si attiva nel sottosuolo prima che in strada.",
+   "affects": {
+    "object-05": "lo scavo che precede il permesso rovescia la logica della fortezza che si difende"
+   },
+   "textual_anchor_it": "i napoletani iniziarono a scavare di nascosto per creare un collegamento migliore",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "object-09",
+   "label": "spiriti_domestici",
+   "label_en": "household_spirits",
+   "type": "urban_residue",
+   "intensity": 0.8,
+   "perceptual_weight": 0.8,
+   "basho": "la Bella 'Mbriana e il Munaciello non stanno in strada ma dentro casa: la Signora che resta e si prende cura dello spazio domestico.",
+   "kokyu": "gli spiriti persistono nel presente attraverso un disco di Pino Daniele e i gesti di chi ancora li nomina.",
+   "yūgen": "la presenza domestica si avverte nel comportamento della casa più che nell'apparizione.",
+   "activation_condition": "permanenza in uno spazio abitato che continua a essere trattato come custodito",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna razionalizzazione dell'abitare cancella la cura attribuita agli spiriti di casa."
+   },
+   "affects": {
+    "object-11": "lo spirito che cura la casa prepara il campo del presepe, l'altra casa in miniatura"
+   },
+   "textual_anchor_it": "la Signora che resta e si prende cura dello spazio domestico",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "object-10",
+   "label": "statua_del_nilo",
+   "label_en": "statue_of_the_nile",
+   "type": "historical_interference",
+   "intensity": 0.83,
+   "perceptual_weight": 0.82,
+   "basho": "in Largo Corpo di Napoli un dio egizio disteso rappresenta la città: un uomo barbuto con la cornucopia, portato qui dagli Alessandrini in età greco-romana.",
+   "kokyu": "un fiume straniero diventa il corpo della città e continua a nominarla, secoli dopo chi lo scolpì.",
+   "yūgen": "la statua chiamata Corpo di Napoli dà volto alla città con la figura di un altro luogo.",
+   "activation_condition": "presenza di un simbolo di provenienza estranea adottato come immagine di sé",
+   "field_behavior": "l'oggetto altera la lettura dell'identità: la città si riconosce in una figura importata.",
+   "affects": {
+    "object-02": "il reperto che porta dentro Napoli un'epoca lontana trova nel Nilo la sua forma urbana"
+   },
+   "textual_anchor_it": "in Largo Corpo di Napoli potete ammirare la statua del dio Nilo. Un uomo barbuto disteso stringe a sé una cornucopia, simbolo di abbondanza",
+   "glossary_link": [
+    "yūgen",
+    "kokyu"
+   ]
+  },
+  {
+   "id": "object-11",
+   "label": "presepe_san_gregorio",
+   "label_en": "nativity_san_gregorio",
+   "type": "ritual_device",
+   "intensity": 0.84,
+   "perceptual_weight": 0.82,
+   "basho": "San Gregorio Armeno tiene il presepe fuori dal calendario: la via dei presepi lavora tutto l'anno, non solo a dicembre.",
+   "kokyu": "il tempo del presepe non è quello della Natività: dal Seicento al sacro si aggiunge il profano, e tavernieri e lavandaie entrano nella scena.",
+   "yūgen": "la scena in miniatura accoglie figure che non appartengono al racconto e le tiene comunque dentro.",
+   "activation_condition": "costruzione manuale di una scena sacra che assorbe elementi profani senza espellerli",
+   "field_behavior": "il campo si attiva nella costruzione della scena: il presepe richiede mani, non sguardo soltanto.",
+   "affects": {
+    "object-09": "la casa in miniatura del presepe raccoglie la stessa cura degli spiriti domestici"
+   },
+   "textual_anchor_it": "camminando per San Gregorio Armeno, la via napoletana dei presepi per eccellenza",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "object-12",
+   "label": "pizza",
+   "label_en": "pizza",
+   "type": "urban_trigger",
+   "intensity": 0.88,
+   "perceptual_weight": 0.7,
+   "basho": "la pizza non ha un monumento ma una città intera come luogo: nasce dai pani appiattiti dei Greci e resta legata alla mano che la prepara.",
+   "kokyu": "una tradizione culinaria antica arriva intatta al presente e viene rivendicata come irripetibile fuori da Napoli.",
+   "yūgen": "l'oggetto più imitato al mondo trattiene qualcosa che l'imitazione non prende.",
+   "activation_condition": "preparazione e consumo di un cibo rivendicato come identità collettiva non trasferibile",
+   "field_behavior": "l'oggetto attiva il campo nel gesto della preparazione e nel morso; la riproduzione altrove ne indebolisce l'intensità.",
+   "affects": {
+    "object-03": "la pizza chiude il campo del cibo come identità aperto dai dolci"
+   },
+   "textual_anchor_it": "la vera regina di Napoli, ossia la pizza, imitata in tutto il mondo, ma mai così buona come nella mia città",
+   "glossary_link": [
+    "kokyu",
+    "ma"
+   ]
+  },
+  {
+   "id": "object-13",
+   "label": "wunderkammer_imperato",
+   "label_en": "imperato_wunderkammer",
+   "type": "historical_interference",
+   "intensity": 0.76,
+   "perceptual_weight": 0.74,
+   "basho": "la camera delle meraviglie dello speziale Ferrante Imperato raccoglieva in una stanza pezzi presi in ogni parte del mondo naturale.",
+   "kokyu": "il museo privato del Cinquecento anticipa il museo pubblico, e la mostra di oggi lo riapre.",
+   "yūgen": "la raccolta accosta oggetti senza spiegarne l'ordine e lascia il senso al visitatore.",
+   "activation_condition": "compresenza di reperti naturali eterogenei riuniti da un unico collezionista",
+   "field_behavior": "l'oggetto interferisce con la storia della conoscenza: la meraviglia precede la classificazione.",
+   "affects": {
+    "object-02": "la camera delle meraviglie privata prepara la logica del museo pubblico del MANN"
+   },
+   "textual_anchor_it": "una wunderkammer (camera delle meraviglie), ossia un museo che conteneva i pezzi raccolti in giro durante i suoi viaggi",
+   "glossary_link": [
+    "ma",
+    "kokyu"
+   ]
+  },
+  {
+   "id": "object-14",
+   "label": "sangue_di_san_gennaro",
+   "label_en": "blood_of_san_gennaro",
+   "type": "recursive_symbol",
+   "intensity": 1.0,
+   "perceptual_weight": 1.0,
+   "basho": "il Duomo si organizza attorno a un'ampolla; la cappella custodisce un tesoro dal valore superiore a quello della Corona d'Inghilterra e un evento che si ripete.",
+   "kokyu": "il tempo non avanza ma torna a scadenza fissa alla domanda se il sangue si scioglierà, riaprendo ogni volta la stessa attesa.",
+   "yūgen": "la storia del santo si sa poco e si racconta senza pretesa di veridicità, eppure regge la devozione di una città.",
+   "activation_condition": "presenza di reliquia, attesa collettiva e impossibilità di verifica definitiva",
+   "field_behavior": "il campo si riattiva a ogni ricorrenza: la città sospende il giudizio e attende il segno.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna indagine sul rito riduce la densità dell'attesa che si rinnova ogni anno."
+   },
+   "affects": {
+    "object-01": "il sangue che si scioglie eredita dalla città l'abitudine a dipendere da un oggetto che non si può verificare"
+   },
+   "textual_anchor_it": "Sulla figura di Gennaro si sa poco... così com'è raccontata da Matilde Serao, senza alcuna pretesa di veridicità.",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "object-15",
+   "label": "colapesce",
+   "label_en": "colapesce",
+   "type": "recursive_symbol",
+   "intensity": 0.9,
+   "perceptual_weight": 0.9,
+   "basho": "un bassorilievo di Orione all'angolo di via Mezzocannone è per tutti Colapesce, il nuotatore che regge la città da sotto.",
+   "kokyu": "la leggenda non si chiude: il nuotatore resta sott'acqua e la sua permanenza sostiene il presente della città.",
+   "yūgen": "chi tiene su Napoli non si vede, e proprio per questo non può smettere.",
+   "activation_condition": "attribuzione popolare che trasforma una figura antica in un sostegno sommerso e permanente",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna identificazione erudita del bassorilievo sostituisce Colapesce nel racconto della città."
+   },
+   "affects": {
+    "object-01": "il nuotatore che regge la città da sotto raddoppia la logica dell'uovo che la protegge"
+   },
+   "textual_anchor_it": "il bassorilievo di Orione, ma che per tutti è Colapesce... un grande nuotatore che riusciva a resistere per molto tempo sott'acqua",
+   "glossary_link": [
+    "yūgen",
+    "basho"
+   ]
+  },
+  {
+   "id": "object-16",
+   "label": "piazza_mercato",
+   "label_en": "market_square",
+   "type": "historical_interference",
+   "intensity": 0.8,
+   "perceptual_weight": 0.82,
+   "basho": "piazza Mercato è più defilata dei percorsi turistici; nasce come Campo Muricino, esterna alle mura ma addossata a esse, dove arrivavano anche i mercanti saraceni.",
+   "kokyu": "il luogo del mercato diventa il luogo delle esecuzioni, e le due funzioni si sovrappongono nella stessa piazza.",
+   "yūgen": "lo spazio dello scambio e quello della condanna occupano lo stesso suolo senza separarsi.",
+   "activation_condition": "compresenza, sullo stesso terreno, della funzione commerciale e di quella capitale",
+   "field_behavior": "l'oggetto interferisce con la lettura del luogo: la piazza del commercio resta segnata dalle esecuzioni.",
+   "affects": {
+    "object-06": "la piazza delle condanne raccoglie la fuga del pittore lasciata aperta nei vicoli"
+   },
+   "textual_anchor_it": "Campo Muricino perché era sì esterna alle mura cittadine ma comunque addossata a esse",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  }
+ ],
+ "system_note": {
+  "object_count": 16,
+  "narrating_voice": "Partenope narra la guida in prima persona dall'Introduzione in poi; opera come voce di sistema e non figura tra gli oggetti, pur avendo i propri oggetti-ancora nel capitolo Origini di Partenope (object-01).",
+  "dominant_field": "object-14",
+  "urban_activation_model": "gli oggetti richiedono attraversamento fisico, partecipazione manuale o permanenza nello spazio urbano per produrre interferenza percettiva",
+  "unresolved_fields": [
+   "object-01",
+   "object-06",
+   "object-07",
+   "object-09",
+   "object-14",
+   "object-15"
+  ],
+  "city_behavior": "Napoli opera come rete in cui sacro e profano condividono lo stesso oggetto, e la leggenda regge il comportamento collettivo senza chiedere verifica",
+  "degraded_fields_present": true
+ }
+}
