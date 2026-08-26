@@ -1,0 +1,105 @@
+{
+ "type": "NarrativeRitual",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "ritual_types": {
+  "codified": "sequenza esplicita e riconoscibile",
+  "compressed": "rituale ridotto alla sola struttura funzionale",
+  "degraded": "sequenza che perde componenti ma mantiene campo",
+  "interfered": "rituale attraversato da evento esterno non controllato",
+  "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente"
+ },
+ "editorial_principle": "Il rituale non chiede di credere per funzionare. A Napoli il gesto ripetuto tiene aperto un campo anche quando la sua ragione resta fuori verifica. Il corpo attraversa bendato la piazza e la città attende il sangue a date fisse: la forma sopravvive alla spiegazione.",
+ "rituals": [
+  {
+   "id": "ritual-01",
+   "label": "attraversamento_bendato_plebiscito",
+   "label_en": "blindfolded_crossing_plebiscito",
+   "type": "codified",
+   "intensity": 0.85,
+   "perceptual_weight": 0.82,
+   "basho": "piazza Plebiscito smette di essere spazio aperto e diventa una linea da tenere a occhi chiusi tra le due statue equestri.",
+   "kokyu": "il rito esiste solo durante il tragitto; fuori dall'attraversamento la piazza torna neutra.",
+   "yūgen": "l'esito non è garantito, e chi non arriva dall'altra parte non smette per questo di ripetere la prova.",
+   "affects": {
+    "ritual-02": "il corpo che ha già affidato l'esito a una prova incerta è disposto ad attendere anche il segno del sangue"
+   },
+   "textual_anchor_it": "non dimenticate di provare ad attraversare bendati le due statue equestri",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "ritual-02",
+   "label": "liquefazione_sangue_gennaro",
+   "label_en": "liquefaction_of_the_blood",
+   "type": "codified",
+   "intensity": 1.0,
+   "perceptual_weight": 1.0,
+   "basho": "il Duomo raccoglie la città attorno a un'ampolla; lo spazio si organizza sull'attesa di un cambiamento di stato.",
+   "kokyu": "il rito torna tre volte l'anno a date fisse, e ogni volta riapre la stessa domanda invece di chiuderla.",
+   "yūgen": "il segno atteso non è verificabile e regge comunque la devozione di una città intera.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "nessuna analisi del fenomeno riduce la densità collettiva dell'attesa che si rinnova a ogni ricorrenza."
+   },
+   "textual_anchor_it": "la venerazione dei napoletani per san Gennaro è legata soprattutto al miracolo del suo sangue che si liquefà tre volte all'anno",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "ritual-03",
+   "label": "costruzione_presepe",
+   "label_en": "building_the_nativity",
+   "type": "codified",
+   "intensity": 0.84,
+   "perceptual_weight": 0.82,
+   "basho": "il presepe è una casa in miniatura costruita a mano lungo San Gregorio Armeno; la scena si allarga fino ad accogliere tavernieri e lavandaie accanto alla Natività.",
+   "kokyu": "il tempo del presepe non coincide con quello del Natale: dal Seicento il profano entra nella scena sacra e non ne esce più.",
+   "yūgen": "la miniatura assorbe figure che non appartengono al racconto e le tiene comunque dentro.",
+   "affects": {
+    "ritual-04": "la casa sacra costruita a mano prepara l'altra scena domestica del Natale, quella del gioco"
+   },
+   "textual_anchor_it": "ai pastori della Natività si sono aggiunte anche altre figure",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "ritual-04",
+   "label": "tombola_natalizia",
+   "label_en": "christmas_tombola",
+   "type": "compressed",
+   "intensity": 0.6,
+   "perceptual_weight": 0.58,
+   "basho": "il gioco si concentra attorno al tavolo di casa e sospende per la sera la funzione ordinaria della stanza.",
+   "kokyu": "il rito ritorna una volta l'anno e resta legato a un tempo domestico che non serve ad altro.",
+   "yūgen": "la tombola tiene insieme la famiglia attraverso una struttura di numeri che ha smesso da tempo di essere solo un gioco.",
+   "textual_anchor_it": "Dal presepe alla tombola con gli amici",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "kokyu"
+   ]
+  }
+ ],
+ "system_note": {
+  "ritual_count": 4,
+  "dominant_field": "ritual-02",
+  "urban_activation_model": "i rituali di Napoli operano per attraversamento fisico, costruzione manuale o attesa collettiva; non richiedono credenza per produrre campo"
+ }
+}
