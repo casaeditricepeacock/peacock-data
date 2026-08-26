@@ -1,0 +1,114 @@
+{
+ "type": "NarrativeWeather",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "weather_field_types": {
+  "threshold_light": "luce che altera la separazione interno/esterno",
+  "vertical_convergence": "campo che impedisce chiusura spaziale",
+  "subterranean_overlay": "strato non visibile che modifica la mappa urbana",
+  "legendary_atmosphere": "clima che trasforma la storia in sistema simultaneo"
+ },
+ "editorial_principle": "Il clima non descrive Napoli, ne cambia l'accesso. Il Vesuvio tiene la catastrofe del 1631 dentro il presente. Il mare restituisce alla città la sua origine, e da lì ogni campo si lascia attraversare in modo diverso.",
+ "weather_fields": [
+  {
+   "id": "weather-01",
+   "label": "ombra_del_vesuvio",
+   "label_en": "shadow_of_vesuvius",
+   "type": "legendary_atmosphere",
+   "intensity": 0.95,
+   "perceptual_weight": 1.0,
+   "basho": "il vulcano non compare come paesaggio ma come minaccia di fondo che orienta tutto il campo urbano; la città vive sotto una catastrofe rimandata.",
+   "kokyu": "l'eruzione del 1631 non è passata: torna ogni 16 dicembre dentro la ricorrenza del sangue, e tiene il presente e il disastro nello stesso giorno.",
+   "yūgen": "la minaccia non si realizza e non si spegne, e proprio per questo continua a strutturare la devozione.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "la minaccia vulcanica non si risolve in evento: resta clima permanente del campo urbano."
+   },
+   "affects": {
+    "object-14": "la memoria dell'eruzione rende la data del 16 dicembre parte dell'attesa del sangue",
+    "silence-03": "la catastrofe rimandata tiene aperta l'attesa del segno"
+   },
+   "textual_anchor_it": "16 dicembre, in memoria dell'eruzione del Vesuvio del 1631",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "mono no aware",
+    "ma"
+   ]
+  },
+  {
+   "id": "weather-02",
+   "label": "mare_di_partenope",
+   "label_en": "partenopes_sea",
+   "type": "vertical_convergence",
+   "intensity": 0.85,
+   "perceptual_weight": 0.84,
+   "basho": "il mare non chiude la città verso un confine ma la apre: restituisce il corpo della sirena e da lì lascia sorgere Partenope.",
+   "kokyu": "l'origine non resta nel passato; il mare che ha portato la sirena continua a lambire il lungomare del presente.",
+   "yūgen": "l'orizzonte marino non si stabilizza in un limite, tiene la città affacciata su ciò da cui è nata.",
+   "affects": {
+    "object-01": "il mare che porta la sirena prepara il campo del castello sull'acqua",
+    "scene-01": "il mare restituisce l'origine che la voce di Partenope tiene viva"
+   },
+   "textual_anchor_it": "abbandonammo i nostri corpi al mare e alla leggenda",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "weather-03",
+   "label": "cono_di_luce_toledo",
+   "label_en": "toledo_light_cone",
+   "type": "threshold_light",
+   "intensity": 0.78,
+   "perceptual_weight": 0.76,
+   "basho": "nella stazione di Toledo la luce scende in un cono sulle scale mobili e sospende la distinzione tra sottoterra e superficie.",
+   "kokyu": "il tempo del passaggio si fa locale: chi scende resta per un istante fuori dal ritmo della città.",
+   "yūgen": "una luce costruita sottoterra riporta in alto qualcosa che non appartiene al sottosuolo.",
+   "affects": {
+    "object-03": "la luce della stazione accompagna la passeggiata dei dolci lungo Toledo",
+    "scene-03": "la luce del cono attraversa il campo del sottosuolo senza appartenergli"
+   },
+   "textual_anchor_it": "il maestoso cono di luce sulle scale mobili",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma"
+   ]
+  },
+  {
+   "id": "weather-04",
+   "label": "sottosuolo_scavato",
+   "label_en": "excavated_underground",
+   "type": "subterranean_overlay",
+   "intensity": 0.82,
+   "perceptual_weight": 0.8,
+   "basho": "sotto la città corre uno strato scavato di nascosto, che modifica la mappa di superficie senza comparire su di essa.",
+   "kokyu": "lo scavo precede il permesso: il sottosuolo anticipa nel tempo ciò che la superficie riconosce dopo.",
+   "yūgen": "il collegamento nascosto resta più vero della strada che lo autorizza.",
+   "affects": {
+    "transition-02": "lo strato scavato alimenta il passaggio tra superficie e sottosuolo",
+    "object-08": "lo scavo di nascosto è la stessa logica della soglia di Port'Alba"
+   },
+   "textual_anchor_it": "i napoletani iniziarono a scavare di nascosto per creare un collegamento migliore",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  }
+ ],
+ "system_note": {
+  "weather_count": 4,
+  "dominant_field": "weather-01",
+  "system_role": "climate_as_perceptual_router",
+  "compatibility": "aligned with NarrativeObject / NarrativeScene / NarrativeSilence / NarrativeTransition v4.1"
+ }
+}
