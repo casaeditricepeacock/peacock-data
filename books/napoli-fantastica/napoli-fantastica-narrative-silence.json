@@ -1,0 +1,115 @@
+{
+ "type": "NarrativeSilence",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "silence_types": {
+  "structural": "silenzio strutturale permanente del sistema urbano",
+  "residual": "effetto persistente di un evento non risolto",
+  "recursive": "silenzio che modifica la lettura degli altri silenzi",
+  "productive": "silenzio che genera interpretazione senza chiusura",
+  "null_silence": "zona non traducibile in mappa causale",
+  "relational": "silenzio tra livelli narrativi incompatibili"
+ },
+ "editorial_principle": "Il silenzio non è assenza di racconto. A Napoli è la parte del campo che resta fuori dalla luce e continua ad agire: l'uovo che non si vede, il sapere che la janara non porta al giorno. La città funziona anche dove non si lascia leggere.",
+ "silences": [
+  {
+   "id": "silence-01",
+   "label": "uovo_di_virgilio_assente",
+   "label_en": "virgils_absent_egg",
+   "type": "structural",
+   "intensity": 0.95,
+   "perceptual_weight": 1.0,
+   "basho": "l'oggetto che protegge la città non occupa uno spazio visibile: sta chiuso in una gabbia di ferro dentro il castello, e da lì orienta tutto senza mostrarsi.",
+   "kokyu": "il tempo resta fermo sull'attesa di una rottura che non si vede arrivare; la protezione dura finché l'assenza dura.",
+   "yūgen": "la non-visibilità dell'uovo non ne riduce la presenza, la rende non verificabile e attiva.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "l'oggetto mancante resta parte stabile del campo urbano: la città continua a comportarsi come se ci fosse."
+   },
+   "textual_anchor_it": "custodito in una gabbia di ferro nascosta all'interno del castello, affidandogli la protezione del castello e di Napoli",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma"
+   ]
+  },
+  {
+   "id": "silence-02",
+   "label": "sapere_notturno_janara",
+   "label_en": "janaras_night_knowledge",
+   "type": "structural",
+   "intensity": 0.85,
+   "perceptual_weight": 0.84,
+   "basho": "il sapere della janara abita la notte e non trova posto alla luce del giorno, che le è fatale; resta una zona della città che non passa in chiaro.",
+   "kokyu": "la figura riattraversa i secoli senza mai consegnare del tutto ciò che sa.",
+   "yūgen": "ciò che la curatrice conosce non viene detto, e proprio per questo continua a circolare.",
+   "affects": {
+    "silence-04": "il sapere che non passa al giorno alimenta la voce che dice di essere tutto e niente"
+   },
+   "textual_anchor_it": "spesso sono curatrici che conoscono i segreti della natura",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "silence-03",
+   "label": "attesa_del_segno",
+   "label_en": "waiting_for_the_sign",
+   "type": "productive",
+   "intensity": 0.9,
+   "perceptual_weight": 0.9,
+   "basho": "il Duomo tiene la città in una sospensione: della figura del santo si sa poco, eppure lo spazio si organizza attorno all'attesa.",
+   "kokyu": "il silenzio precede il segno e si riapre a ogni ricorrenza, senza mai diventare certezza.",
+   "yūgen": "il poco che si sa non chiude la devozione, la tiene aperta.",
+   "non_integrable_residue": {
+    "status": true,
+    "description": "l'assenza di prova non si risolve: la città interpreta il segno senza verificarlo."
+   },
+   "textual_anchor_it": "Sulla figura di Gennaro si sa poco",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "silence-04",
+   "label": "voce_di_partenope",
+   "label_en": "partenopes_voice",
+   "type": "recursive",
+   "intensity": 0.9,
+   "perceptual_weight": 0.95,
+   "basho": "la voce che narra non occupa un luogo: dice di essere tutto e niente, e insieme la città intera.",
+   "kokyu": "la voce viene da prima della fondazione e non si consegna a un tempo definito.",
+   "yūgen": "chi racconta Napoli non si lascia identificare, e questo tiene ogni altro silenzio senza chiusura.",
+   "affects": {
+    "silence-01": "la voce non identificabile lascia aperto anche il campo dell'oggetto assente",
+    "silence-03": "la voce che non si chiude tiene l'attesa del segno senza risoluzione"
+   },
+   "textual_anchor_it": "sono tutto questo e niente, ma soprattutto Napoli.",
+   "anchor_type": "direct_quote",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  }
+ ],
+ "system_note": {
+  "silence_count": 4,
+  "dominant_field": "silence-01",
+  "recursive_nodes": [
+   "silence-04"
+  ],
+  "urban_model": "Napoli come sistema di presenze non verificabili che reggono il comportamento collettivo",
+  "stability": "high",
+  "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeRitual v4.1"
+ }
+}
