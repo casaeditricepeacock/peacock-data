@@ -1,0 +1,152 @@
+{
+ "type": "NarrativeScene",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "editorial_principle": "La scena non rappresenta un luogo. È una configurazione percettiva che a Napoli tiene insieme sacro e profano sullo stesso suolo, e che può degradarsi o collassare quando il campo dello scambio incontra quello della condanna.",
+ "scene_types": {
+  "field_node": "configurazione stabile ma interferibile",
+  "threshold_field": "configurazione che si attiva solo nell'attraversamento",
+  "historical_echo": "campo che riattiva temporalità incompatibili",
+  "urban_degradation": "campo che perde densità durante l'attraversamento",
+  "collapse_field": "configurazione che si disintegra mentre viene percepita"
+ },
+ "scenes": [
+  {
+   "id": "scene-01",
+   "label": "campo_partenope_origine",
+   "type": "historical_echo",
+   "basho": "lo spazio della fondazione non si distingue dal corpo della sirena: il mare restituisce Partenope e su quel punto sorge la città. Castel dell'Ovo tiene ancora il centro di quel campo.",
+   "kokyu": "la voce che narra viene da prima della città e continua a parlare nel presente, senza passare a un altro tempo.",
+   "yūgen": "chi racconta Napoli dice di essere tutto questo e niente, e questo tiene la città dentro una voce che non si mostra.",
+   "affects": {
+    "scene-02": "la voce che è insieme sirena e città prepara il campo dove sacro e profano coincidono",
+    "scene-05": "l'origine leggendaria della città prepara il campo dove la leggenda regge la devozione"
+   },
+   "textual_anchor_it": "posso dirvi che sono tutto questo e niente, ma soprattutto Napoli.",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "scene-02",
+   "label": "campo_sacro_profano",
+   "type": "field_node",
+   "basho": "il campo non separa la chiesa dal vicolo: sacro e profano occupano la stessa strada, e il presepe accoglie il taverniere accanto alla Natività.",
+   "kokyu": "il tempo mescola gli strati senza ordinarli; un santo e una canzone popolare stanno sullo stesso piano.",
+   "yūgen": "ciò che tiene insieme la città non è spiegabile e viene chiamato, dal libro stesso, magia.",
+   "affects": {
+    "scene-06": "la coincidenza di sacro e profano prepara il campo domestico degli spiriti",
+    "scene-03": "la stessa città che unisce gli opposti li nasconde anche sottoterra"
+   },
+   "textual_anchor_it": "la sua bellezza è insita in un mix di sacro e profano che la rende una città unica al mondo.",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "scene-03",
+   "label": "campo_sottosuolo",
+   "type": "threshold_field",
+   "basho": "il campo si attiva sotto la superficie: gli scavi della metropolitana riportano alla luce la città greco-romana, e Port'Alba nasce da uno scavo fatto di nascosto prima del permesso.",
+   "kokyu": "il sottosuolo conserva un tempo che la superficie ha dimenticato e lo restituisce quando la città scava.",
+   "yūgen": "ciò che sta sotto resta più antico e più vero di ciò che lo copre.",
+   "affects": {
+    "scene-01": "la città sotterranea riporta alla luce l'origine che la voce di Partenope tiene viva",
+    "scene-05": "lo strato nascosto prepara la logica dell'oggetto sacro custodito e non mostrato"
+   },
+   "textual_anchor_it": "altri sono stati rinvenuti durante gli scavi della metropolitana.",
+   "glossary_link": [
+    "ma",
+    "basho"
+   ]
+  },
+  {
+   "id": "scene-04",
+   "label": "campo_attraversamento_rituale",
+   "type": "threshold_field",
+   "basho": "piazza Plebiscito diventa campo solo quando il corpo la percorre bendato tra le due statue equestri; lo spazio aperto si trasforma in una prova.",
+   "kokyu": "il campo si accende nel gesto e si spegne appena concluso; fuori dall'attraversamento la piazza torna neutra.",
+   "yūgen": "l'esito incerto della prova è ciò che tiene in vita l'usanza.",
+   "affects": {
+    "scene-05": "il corpo che accetta la prova rituale è già disposto ad attendere il segno del sangue"
+   },
+   "textual_anchor_it": "non dimenticate di provare ad attraversare bendati le due statue equestri",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "scene-05",
+   "label": "campo_sangue",
+   "type": "historical_echo",
+   "dominant": true,
+   "basho": "il Duomo organizza lo spazio attorno a un'ampolla; la cappella custodisce un tesoro e un evento che la città attende insieme.",
+   "kokyu": "il tempo torna a scadenza fissa alla stessa domanda, se il sangue si scioglierà, e riapre ogni volta l'attesa senza chiuderla.",
+   "yūgen": "la storia del santo si racconta senza pretesa di veridicità e regge comunque la devozione di una città intera.",
+   "affects": {
+    "scene-07": "l'attesa collettiva del segno prepara il campo dove la città si raduna anche per la condanna",
+    "scene-02": "il sangue che si scioglie è il punto in cui sacro e profano coincidono nel gesto pubblico"
+   },
+   "textual_anchor_it": "Sulla figura di Gennaro si sa poco... così com'è raccontata da Matilde Serao, senza alcuna pretesa di veridicità.",
+   "glossary_link": [
+    "yūgen",
+    "ma"
+   ]
+  },
+  {
+   "id": "scene-06",
+   "label": "campo_spettrale_domestico",
+   "type": "urban_degradation",
+   "basho": "il campo si sposta dalla strada alla casa: la Bella 'Mbriana resta e si prende cura dello spazio domestico, la janara agisce nella notte fuori dalla luce.",
+   "kokyu": "il tempo degli spiriti non è quello del giorno; la presenza si avverte nel comportamento della casa più che in un'apparizione.",
+   "yūgen": "ciò che la casa custodisce non passa alla luce, che alle janare è fatale.",
+   "affects": {
+    "scene-02": "il campo domestico riporta il sacro dentro le mura di casa, lontano dalla piazza"
+   },
+   "textual_anchor_it": "la Signora che resta e si prende cura dello spazio domestico",
+   "glossary_link": [
+    "ma",
+    "yūgen"
+   ]
+  },
+  {
+   "id": "scene-07",
+   "label": "campo_mercato_condanna",
+   "type": "collapse_field",
+   "basho": "piazza Mercato tiene sullo stesso suolo lo scambio e la condanna: nasce come Campo Muricino, mercato addossato alle mura, e diventa fino all'Ottocento il luogo delle decapitazioni.",
+   "kokyu": "il tempo del commercio e quello dell'esecuzione non si alternano ma si sovrappongono, e la piazza porta entrambi.",
+   "yūgen": "il luogo dove si compra e quello dove si muore non si separano, e la memoria di Corradino resta addosso alla piazza.",
+   "collapse_event": {
+    "description": "nel campo di piazza Mercato la funzione commerciale e quella capitale occupano lo stesso suolo senza risolversi; la percezione non separa più lo scambio dalla condanna",
+    "status": "irreversible"
+   },
+   "affects": {
+    "scene-05": "la piazza della condanna raccoglie la stessa città che si raduna per il segno del sangue"
+   },
+   "textual_anchor_it": "almeno fino all'Ottocento, la piazza è stata anche teatro di molte decapitazioni.",
+   "glossary_link": [
+    "basho",
+    "yūgen"
+   ]
+  }
+ ],
+ "system_note": {
+  "scene_count": 7,
+  "dominant_field": "scene-05",
+  "collapse_point": "scene-07",
+  "system_state": "instabile ma coerente",
+  "urban_model": "Napoli come rete di campi in cui sacro e profano condividono il suolo e la leggenda regge il comportamento collettivo",
+  "degradation_present": true,
+  "retroactive_causality": true
+ }
+}
