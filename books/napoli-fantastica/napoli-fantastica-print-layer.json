@@ -1,0 +1,99 @@
+{
+ "type": "NarrativePrintLayer",
+ "version": "4.1",
+ "date": "2026-08",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "book": {
+  "title": "Napoli Fantastica",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron"
+ },
+ "editorial_purpose": {
+  "function": "trasformare un sistema percettivo urbano in sequenza leggibile senza collasso semantico",
+  "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione"
+ },
+ "reading_principle": {
+  "rule_01": "ogni scena deve essere leggibile indipendentemente",
+  "rule_02": "la relazione tra scene non è esplicita ma residua",
+  "rule_03": "Napoli non viene mai nominata come totalità coerente",
+  "rule_04": "il sacro non viene mai contrapposto al profano ma tenuto sulla stessa pagina, per densità percettiva"
+ },
+ "linear_structure": [
+  {
+   "order": 1,
+   "scene_ref": "scene-01",
+   "print_function": "origin_anchor",
+   "note": "stabilisce il campo d'origine: la voce di Partenope e il castello sul mare"
+  },
+  {
+   "order": 2,
+   "scene_ref": "scene-02",
+   "print_function": "field_establishment",
+   "note": "fissa la regola primaria del libro, sacro e profano sullo stesso suolo"
+  },
+  {
+   "order": 3,
+   "scene_ref": "scene-03",
+   "print_function": "subterranean_interference",
+   "note": "il sottosuolo entra come strato parallelo che non compare in superficie"
+  },
+  {
+   "order": 4,
+   "scene_ref": "scene-04",
+   "print_function": "ritual_activation",
+   "note": "il corpo attraversa bendato la piazza e accetta una prova a esito incerto"
+  },
+  {
+   "order": 5,
+   "scene_ref": "scene-05",
+   "print_function": "threshold_activation",
+   "note": "massima densità: l'attesa del sangue riattiva a ritroso tutte le soglie precedenti"
+  },
+  {
+   "order": 6,
+   "scene_ref": "scene-06",
+   "print_function": "domestic_compression",
+   "note": "il campo si contrae dentro casa, tra janare e spiriti domestici"
+  },
+  {
+   "order": 7,
+   "scene_ref": "scene-07",
+   "print_function": "collapse_and_drift",
+   "note": "collasso sullo stesso suolo: a piazza Mercato lo scambio e la condanna non si separano"
+  }
+ ],
+ "printing_logic": {
+  "basho": {
+   "rule": "ogni scena conserva il proprio spazio percettivo anche nella sequenza",
+   "constraint": "nessuna scena dipende semanticamente dalla precedente"
+  },
+  "kokyu": {
+   "rule": "il ritmo di lettura segue la densità delle scene e non resta uniforme",
+   "effect": "il lettore alterna l'attraversamento urbano e la sospensione senza istruzione esplicita"
+  },
+  "yūgen": {
+   "rule": "la totalità di Napoli non è mai visibile nel testo lineare",
+   "effect": "emerge come campo retroattivo dopo che la voce di Partenope ha attraversato tutti i capitoli"
+  }
+ },
+ "non_rendered_layer": {
+  "definition": "ciò che il sistema non esplicita nel testo ma mantiene attivo come struttura percettiva",
+  "contains": [
+   "Napoli come campo dove sacro e profano condividono lo stesso suolo",
+   "la voce di Partenope come densità relazionale mai localizzata in sequenza",
+   "il Vesuvio come minaccia latente mai risolta nel testo"
+  ]
+ },
+ "reader_effect": {
+  "state_after_reading": "ricostruzione involontaria del campo urbano senza memoria lineare delle scene",
+  "perceptual_residue": "persistenza dell'attesa del sangue come soglia mentale attiva",
+  "temporal_effect": "la sequenza non finisce quando finisce il libro"
+ },
+ "meta_layer": {
+  "system_note": "versione in cui il sistema percettivo di Napoli viene vincolato alla forma libro senza perdere comportamento di campo",
+  "stability": "high",
+  "risk": "basso",
+  "obsolescence": "non strutturale, solo editoriale"
+ }
+}
