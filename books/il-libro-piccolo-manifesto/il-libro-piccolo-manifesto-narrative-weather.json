@@ -1,0 +1,47 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "editorial_principle": "Il libro non ha meteo narrativo. Genera regimi atmosferici della lettura: il calore dell'oggetto, la freddezza del medium elettronico, l'aria sospesa dei libri non letti. Ogni regime è una condizione percettiva, non un evento climatico.",
+  "weather_fields": [
+    {
+      "id": "weather-00",
+      "label": "zona_neutra",
+      "intensity": 0.0,
+      "basho": "assenza di regime atmosferico: il contenuto puro senza corpo",
+      "kokyu": "tempo non inizializzato",
+      "yūgen": "nessuna percezione emergente"
+    },
+    {
+      "id": "weather-01",
+      "label": "calore_del_libro",
+      "intensity": 1.0,
+      "basho": "il libro emana un calore che corrisponde alle misure umane. È il regime dominante: la temperatura dell'oggetto contro la neutralità del medium",
+      "kokyu": "tempo caldo: la materia trattiene e restituisce",
+      "yūgen": "il calore è misura di prossimità, non di temperatura"
+    },
+    {
+      "id": "weather-02",
+      "label": "freddezza_del_medium",
+      "intensity": 0.3,
+      "basho": "l'e-reader non emana calore: mette al centro l'intelligenza analitica per condizione, non per scelta. Il regime è freddo perché privo di materia",
+      "kokyu": "tempo neutro: nessuna oscillazione termica",
+      "yūgen": "la mancanza di calore è ciò che rende visibile il calore altrove"
+    },
+    {
+      "id": "weather-03",
+      "label": "aria_sospesa_dei_non_letti",
+      "intensity": 0.6,
+      "basho": "le montagne di libri non letti creano un'aria di attesa. Più si sale meno libri ci sono: il regime si rarefà con l'altitudine",
+      "kokyu": "tempo rarefatto: l'attesa si dirada senza sciogliersi",
+      "yūgen": "sapere che non finiscono mai riempie di spirito o di rassegnazione"
+    }
+  ]
+}
