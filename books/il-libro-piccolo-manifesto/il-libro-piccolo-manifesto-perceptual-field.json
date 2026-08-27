@@ -1,0 +1,67 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Each field is a perceptual rule-set for reading. In this manifesto it keeps the physical book and its pure content as non-equivalent conditions on the same page. A field does not describe reading; it sets the conditions under which the book becomes a body and not only a text.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_materia",
+      "label_en": "matter_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "the field where paper, ink and weight make the book a body; scent, thickness and fibre operate before any content is read",
+      "kokyu": "tactile rhythm set by the kind of paper: each stock imposes its own reading speed",
+      "yūgen": "the material announces the publisher's ambition without stating the content"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_voce",
+      "label_en": "voice_field",
+      "intensity": 0.8,
+      "basho": "the field where the reader's voice becomes an instrument, the abdomen its resonating chamber; intonation carries meaning silent reading cannot reach",
+      "kokyu": "prosodic rhythm: a change of tone alters the concept of the sentence",
+      "yūgen": "the spoken voice discovers a residue beyond the words on the page"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_medium",
+      "label_en": "medium_field",
+      "intensity": 0.3,
+      "basho": "the field of the carrier without a body; the e-reader stores content and subtracts the physical dimension of emotional intelligence",
+      "kokyu": "neutral rhythm: no warmth, no friction, no page sound",
+      "yūgen": "what the medium cannot store defines, by absence, what the book is"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_alleanza",
+      "label_en": "alliance_field",
+      "intensity": 0.9,
+      "basho": "the field where a non-human reader enters: the artificial intelligence that feeds on books shares the reading ground as a silent companion",
+      "kokyu": "rhythm of conversion: the unknown black box becomes a silent presence rather than a threat",
+      "yūgen": "the companion remains partly unknowable and reads alongside without speaking"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "subjective_voice_states",
+      "unstable_definition_blocks",
+      "free_text_yugen"
+    ],
+    "system_behavior": "fields operate as persistent perceptual operators over reading conditions"
+  }
+}
