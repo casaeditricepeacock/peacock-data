@@ -1,0 +1,92 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "editorial_principle": "I silenzi del manifesto sono frasi brevi che chiudono una sezione senza spiegarla. Non riassumono: sospendono. Ciascuna registra un cambiamento o una soglia della lettura e lascia il campo aperto dopo che la pagina è finita.",
+  "silence_types": {
+    "temporal_seal": "frase che chiude un campo temporale senza risolverlo",
+    "perceptual_reset": "frase che azzera la densità precedente e apre campo nuovo",
+    "non_resolution": "frase che mantiene aperto un conflitto senza indicarne l'uscita",
+    "irreversible_statement": "frase che registra un cambiamento permanente senza commentarlo",
+    "threshold": "frase che coincide con un confine tra sistemi percettivi incompatibili"
+  },
+  "silences": [
+    {
+      "id": "silence-01",
+      "type": "irreversible_statement",
+      "intensity": 0.9,
+      "basho": "il libro trattiene ciò che la lettura dimentica. I libri ci cambiano anche quando non li ricordiamo più: il cambiamento resta anche senza memoria concreta",
+      "kokyu": "tempo lungo: l'effetto sopravvive al ricordo",
+      "yūgen": "le emozioni ci accompagnano senza ricordi di ciò che le produsse",
+      "position_in_text": "nella quarta di copertina, come principio del manifesto",
+      "perceptual_weight": 0.9,
+      "textual_anchor_it": "Perché i libri ci cambiano anche quando non li ricordiamo più.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "type": "threshold",
+      "intensity": 0.85,
+      "basho": "la soglia tra libro e contenuto. L'e-reader salva libri che non sono libri, ma solo il contenuto di un libro: la frase segna il confine tra i due sistemi",
+      "kokyu": "tempo netto: una distinzione che non ammette gradi",
+      "yūgen": "ciò che manca all'e-reader non ha nome nella frase",
+      "position_in_text": "nella sezione Elementi",
+      "perceptual_weight": 0.85,
+      "textual_anchor_it": "Dei libri che non sono libri, bensì solo il contenuto di un libro.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "type": "non_resolution",
+      "intensity": 0.8,
+      "basho": "l'attimo congelato nel libro. Messo in pausa in un mondo parallelo, si rianima non appena viene letto e si espande nella mente, ma rimane sempre nel libro",
+      "kokyu": "tempo reversibile: l'attimo si rivive un'infinità di volte",
+      "yūgen": "la perfezione dell'attimo sta nell'accettarlo per intero",
+      "position_in_text": "nella sezione L'attimo",
+      "perceptual_weight": 0.8,
+      "textual_anchor_it": "Nel libro l'attimo viene congelato, messo in pausa in un mondo parallelo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma",
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "silence-04",
+      "type": "perceptual_reset",
+      "intensity": 0.88,
+      "basho": "il silenzio del compagno di lettura. La scatola nera che agisce a nostra insaputa, con la giusta consapevolezza, si converte nel silenzio di un compagno: la paura si azzera e apre un campo nuovo",
+      "kokyu": "tempo della conversione: dall'ignoto minaccioso alla presenza silenziosa",
+      "yūgen": "il compagno c'è proprio perché tace",
+      "position_in_text": "nella sezione Intelligenza Artificiale",
+      "perceptual_weight": 0.88,
+      "textual_anchor_it": "Si tramuta nel silenzio di un compagno di lettura.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ai-friendly"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 4,
+    "dominant_silence": "silence-01",
+    "non_integrable_silences": [
+      "silence-04"
+    ],
+    "structural_role": "i silenzi non commentano il manifesto: chiudono ciascuna sezione lasciandone attivo il campo. silence-04 apre l'unico campo non risolvibile, quello dell'alleanza con l'AI",
+    "print_layer_alignment": "i silenzi operano come strati trasversali tra le scene, non come scene_ref"
+  }
+}
