@@ -1,0 +1,90 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "compressed": "rituale ridotto alla sola struttura funzionale",
+    "degraded": "sequenza che perde componenti ma mantiene campo",
+    "interfered": "rituale attraversato da evento esterno non controllato",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente"
+  },
+  "editorial_principle": "Il rituale della lettura non è un metodo ma un gesto che perde la funzione pratica e conserva la forma percettiva. Sfogliare, collezionare, leggere a voce alta: azioni che diventano rito quando smettono di servire e iniziano a significare.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "sfogliare_le_pagine",
+      "type": "involuntary",
+      "intensity": 0.85,
+      "basho": "lo sfregare di una pagina sull'altra crea un suono che accompagna ogni movimento. Il gesto non serve a cercare: fa esistere il libro come corpo sonoro",
+      "kokyu": "ritmo del fruscio: ogni pagina voltata scandisce un tempo che il contenuto non ha",
+      "yūgen": "il suono dice che il libro è vivo",
+      "affects": {
+        "ritual-03": "il gesto fisico prepara la lettura ad alta voce"
+      },
+      "textual_anchor_it": "Il suono che crea qualsiasi movimento, lo sfregare di una pagina su un'altra.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "collezionare_i_non_letti",
+      "type": "involuntary",
+      "intensity": 0.8,
+      "basho": "i libri non ancora letti si collezionano e si accatastano, fingendo che facciano già parte di noi, nella speranza di un momento in cui li andremo a ripescare",
+      "kokyu": "tempo differito: l'accumulo rimanda la lettura senza cancellarla",
+      "yūgen": "i mondi restano conservati tra le pagine chiuse",
+      "affects": {
+        "ritual-01": "il libro accatastato attende il gesto che lo aprirà"
+      },
+      "textual_anchor_it": "Allora li collezioniamo, li accatastiamo, fingendo che facciano già parte di noi.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mottainai"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "leggere_ad_alta_voce",
+      "type": "codified",
+      "intensity": 0.82,
+      "basho": "pronunciare il testo trasforma la voce in strumento. L'addome diventa cassa di risonanza e l'intonazione porta un significato che la lettura silenziosa non raggiunge",
+      "kokyu": "ritmo prosodico: il tono modula il senso frase per frase",
+      "yūgen": "la voce rivela ciò che le parole da sole non dicono",
+      "affects": {
+        "ritual-01": "la voce completa il corpo sonoro iniziato dallo sfogliare"
+      },
+      "textual_anchor_it": "La propria voce diventa uno strumento che dona un tono, dove l'addome è la cassa di risonanza.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "riprendere_in_mano",
+      "type": "involuntary",
+      "intensity": 0.76,
+      "basho": "solo riprendendo il libro in mano per rievocare la trama ci si accorge di come i ricordi si sono confusi, mescolando i contenuti e creando storie nuove a nostra insaputa",
+      "kokyu": "tempo del ritorno: la rilettura non ripete, riscrive",
+      "yūgen": "l'atto creativo che estende le singole letture avviene senza che ce ne accorgiamo",
+      "affects": {
+        "ritual-02": "il ritorno riattiva ciò che l'accumulo aveva sospeso"
+      },
+      "textual_anchor_it": "Solo quando approfondiamo il rapporto con il libro, riprendendolo in mano per rievocare la trama, ce ne accorgeremo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    }
+  ]
+}
