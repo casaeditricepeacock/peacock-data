@@ -1,0 +1,139 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "system_principle": "Il libro non è un insieme di sezioni ma una rete in cui la materia dell'oggetto e la sua lettura si tengono senza risolversi. Il campo dominante è la materia del libro; ogni nodo, dall'ascolto alla voce al medium all'AI, modifica il modo in cui la materia viene percepita, senza chiudere il sistema.",
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05",
+      "scene-06",
+      "scene-07"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04"
+    ]
+  },
+  "topology": {
+    "core_field": "scene-02",
+    "primary_loops": [
+      {
+        "loop": "materia_del_libro",
+        "nodes": [
+          "scene-02",
+          "object-01",
+          "field-01"
+        ],
+        "type": "recursive_stability"
+      },
+      {
+        "loop": "oggetto_contro_medium",
+        "nodes": [
+          "object-01",
+          "object-05",
+          "silence-02"
+        ],
+        "type": "comparative_tension"
+      },
+      {
+        "loop": "lettore_e_voce",
+        "nodes": [
+          "scene-04",
+          "scene-05",
+          "ritual-03"
+        ],
+        "type": "sensorial_return"
+      },
+      {
+        "loop": "alleanza_ai",
+        "nodes": [
+          "scene-06",
+          "silence-04",
+          "transition-03"
+        ],
+        "type": "unresolved_opening"
+      },
+      {
+        "loop": "memoria_alterata",
+        "nodes": [
+          "ritual-04",
+          "transition-04",
+          "silence-01"
+        ],
+        "type": "recursive_rewrite"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-01",
+      "to": "object-05",
+      "effect": "il calore del libro fisico rende percepibile per contrasto la freddezza del medium elettronico",
+      "propagation_mode": "comparative",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "scene-02",
+      "to": "scene-03",
+      "effect": "il campo materia ancora il volo immaginativo della sezione Elementi al peso dell'oggetto",
+      "propagation_mode": "directional",
+      "stability_impact": "stabilizing"
+    },
+    {
+      "from": "scene-06",
+      "to": "scene-04",
+      "effect": "l'ingresso dell'AI raddoppia la figura del lettore senza sostituire quello umano",
+      "propagation_mode": "additive",
+      "stability_impact": "destabilizing"
+    },
+    {
+      "from": "silence-04",
+      "to": "transition-03",
+      "effect": "il silenzio del compagno di lettura mantiene aperto il lato oscuro dell'AI invece di risolverlo",
+      "propagation_mode": "recursive",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "transition-04",
+      "to": "ritual-04",
+      "effect": "la rilettura riscrive retroattivamente i libri già letti, confondendo i contenuti",
+      "propagation_mode": "recursive",
+      "stability_impact": "reinforcing"
+    }
+  ],
+  "global_state": {
+    "dominant_field": "material_warmth",
+    "stability": "metastable",
+    "closure": false,
+    "book_behavior": "Il manifesto opera come rete dove la materia del libro e il suo contenuto restano non equivalenti; l'AI entra come secondo lettore che apre il sistema invece di chiuderlo",
+    "readability": "high_local_low_global"
+  }
+}
