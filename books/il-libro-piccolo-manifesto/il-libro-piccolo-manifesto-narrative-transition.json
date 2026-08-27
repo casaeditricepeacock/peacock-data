@@ -1,0 +1,79 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "suspended": "oscillazione senza stabilizzazione",
+    "recursive": "modifica retroattiva delle transizioni precedenti",
+    "external_irruption": "campo autonomo non traducibile nelle regole precedenti",
+    "gradual_loss": "perdita progressiva di densità percettiva",
+    "involuntary": "transizione riconosciuta dopo il suo avvenimento"
+  },
+  "editorial_principle": "Le transizioni del manifesto non collegano sezioni: registrano il passaggio da una modalità di lettura all'altra. Alcune non si integrano: l'ingresso dell'AI nel campo della lettura resta operativo senza essere assimilabile alla lettura umana.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "dal_contenuto_all_oggetto",
+      "type": "irreversible",
+      "intensity": 0.9,
+      "basho": "il passaggio dal libro come contenuto al libro come oggetto. Una volta sentito il calore della carta, il contenuto puro dell'e-reader non basta più",
+      "kokyu": "il movimento non torna indietro: chi ha toccato la carta non torna al medium neutro",
+      "yūgen": "l'oggetto resta come misura di ciò che manca altrove",
+      "textual_anchor_it": "Il libro invece emana più calore che corrisponde alle misure umane.",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-02",
+      "label": "dalla_lettura_silenziosa_alla_voce",
+      "type": "gradual_loss",
+      "intensity": 0.78,
+      "basho": "il passaggio dal monologo interiore alla lettura ad alta voce. Da ragazzo la voce imbarazzava, poi diventa strumento: la transizione attraversa l'insicurezza giovanile prima di stabilizzarsi",
+      "kokyu": "tempo biografico: l'imbarazzo cede lentamente al piacere",
+      "yūgen": "la voce che infastidiva diventa quella che scopre",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il disagio giovanile per la propria voce resta come traccia sotto il piacere adulto della lettura ad alta voce"
+      },
+      "textual_anchor_it": "Ma quando ero ragazzo odiavo il suono della mia voce.",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-03",
+      "label": "dalla_paura_all_alleanza",
+      "type": "external_irruption",
+      "intensity": 0.95,
+      "basho": "l'intelligenza artificiale entra nel campo della lettura come sistema autonomo. Non sostituisce il lettore umano: apre un secondo tipo di lettura che coesiste senza conversione",
+      "kokyu": "il tempo dell'ignoto si converte in tempo dell'alleanza, ma la scatola nera resta scatola nera",
+      "yūgen": "il compagno di lettura è alleato proprio perché non del tutto conoscibile",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il lato oscuro dell'AI non viene eliminato dall'alleanza: la consapevolezza lo trasforma in silenzio, non in trasparenza"
+      },
+      "textual_anchor_it": "Quel lato oscuro che ci mette paura, perché ignoto, una scatola nera in cui tutto si trasforma e agisce a nostra insaputa.",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-04",
+      "label": "dal_libro_letto_al_ricordo_alterato",
+      "type": "recursive",
+      "intensity": 0.8,
+      "basho": "i ricordi dei libri si confondono e si mescolano, creando storie nuove a nostra insaputa. La rilettura modifica retroattivamente ciò che si era letto",
+      "kokyu": "tempo che torna su se stesso: ogni ritorno riscrive le letture precedenti",
+      "yūgen": "un atto creativo estende le singole letture in qualcosa di ampliato",
+      "textual_anchor_it": "I ricordi si confondono, mescolando i contenuti, creando nuove storie a nostra insaputa.",
+      "anchor_type": "direct_quote"
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni non sono equivalenti. transition-02 e transition-03 generano residuo non integrabile: il disagio della voce e il lato oscuro dell'AI restano attivi senza essere assorbiti.",
+    "effect": "introduzione di gerarchia implicita tra passaggi senza creare nuovi tipi formali"
+  }
+}
