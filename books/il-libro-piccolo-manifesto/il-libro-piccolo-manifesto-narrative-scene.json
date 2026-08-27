@@ -1,0 +1,166 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "editorial_principle": "Le sezioni del manifesto non raccontano: fissano stati della lettura. Ogni sezione è un campo percettivo autonomo, l'ascolto, l'oggetto, l'attimo, leggibile senza le altre. Il passaggio tra sezioni non produce progressione ma cambio di registro sensoriale.",
+  "scene_types": {
+    "sensorial_field": "sezione in cui domina un senso specifico della lettura",
+    "reflective_field": "sezione in cui il testo ragiona sul proprio oggetto senza narrarlo",
+    "threshold_field": "sezione che segna il confine tra libro fisico e contenuto",
+    "alliance_field": "sezione in cui un agente esterno alla lettura umana entra nel campo",
+    "accumulation_field": "sezione in cui i libri si sommano senza essere letti"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "ascolto",
+      "type": "sensorial_field",
+      "intensity": 0.9,
+      "dominant": false,
+      "basho": "la lettura giusta mette in armonia gli organi. La cacofonia delle voci interiori viene ammutolita e predomina la narrazione che attira la concentrazione",
+      "kokyu": "ritmo di sintonia: un direttore d'orchestra porta l'accordo di una sinfonia",
+      "yūgen": "l'armonia si sente prima di capirla",
+      "activation_condition": "presenza del testo giusto nel momento giusto",
+      "perceptual_weight": 0.9,
+      "affects": {
+        "scene-05": "la lettura ad alta voce estende l'ascolto oltre le voci interiori"
+      },
+      "textual_anchor_it": "È un direttore d'orchestra che porta la sintonia di una sinfonia.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "l_oggetto",
+      "type": "sensorial_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "il profumo di carta acquieta la mente. Lo spazio che accoglie tipografia e immagini assume ogni colore, dal foglio bianco del punto di partenza al foglio nero che esprime un concetto inespresso",
+      "kokyu": "tempo del respiro materiale: odore, tatto, colore della pagina si alternano senza gerarchia",
+      "yūgen": "il foglio nero dice ciò che resta non detto",
+      "activation_condition": "contatto fisico con il libro",
+      "perceptual_weight": 1.0,
+      "affects": {
+        "scene-03": "la materia del libro fonda la distinzione dal contenuto puro"
+      },
+      "textual_anchor_it": "Il profumo di carta acquieta la mente.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "wabi-sabi",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "elementi",
+      "type": "threshold_field",
+      "intensity": 0.92,
+      "basho": "la lettura stacca dalla dimensione di tempo e luogo per entrare nel mondo quantistico delle possibilità infinite, restando ancorata alla realtà attraverso l'oggetto del libro",
+      "kokyu": "doppio tempo: distacco verso l'infinito e ancoraggio alla materia, simultanei",
+      "yūgen": "si esce dal tempo restando nella carta",
+      "activation_condition": "lettura immersiva con il libro fisico in mano",
+      "perceptual_weight": 0.92,
+      "affects": {
+        "scene-02": "riporta ogni volo immaginativo al peso dell'oggetto"
+      },
+      "textual_anchor_it": "Staccarsi dalla dimensione del tempo e del luogo per entrare nel mondo quantistico delle possibilità infinite.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "il_lettore",
+      "type": "reflective_field",
+      "intensity": 0.88,
+      "basho": "ogni libro ha bisogno del suo lettore. Quando il lettore incontra il libro che gli si addice, un filo interiore si lega al discorso del libro e il lettore diventa parte del libro che comincia a vivere grazie a lui",
+      "kokyu": "tempo dell'attenzione ininterrotta: nulla può staccare la concentrazione dal testo",
+      "yūgen": "averlo letto riempie di una fierezza come se l'avesse scritto lui",
+      "activation_condition": "incontro tra lettore e libro adatto a quel momento",
+      "perceptual_weight": 0.88,
+      "affects": {
+        "scene-06": "il lettore che entra nel libro prepara l'alleanza con l'altro lettore, l'AI"
+      },
+      "textual_anchor_it": "Il lettore diventa parte del libro che incomincia a vivere, grazie a lui.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "letture_ad_alta_voce",
+      "type": "sensorial_field",
+      "intensity": 0.8,
+      "basho": "la propria voce diventa uno strumento che dona un tono, con l'addome come cassa di risonanza. Ascoltarsi mentre si legge aggiunge una dimensione che permette di valutare più a fondo il significato",
+      "kokyu": "ritmo dell'intonazione: cambiare tono cambia il concetto, come nel to be or not to be",
+      "yūgen": "la voce scopre qualcosa che va oltre le parole del testo",
+      "activation_condition": "lettura pronunciata ad alta voce",
+      "perceptual_weight": 0.8,
+      "affects": {
+        "scene-01": "chiude il cerchio dell'ascolto portandolo fuori dalle voci interiori"
+      },
+      "textual_anchor_it": "In ogni caso la lettura ad alta voce permette di scoprire qualcosa che va oltre le parole del testo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "label": "intelligenza_artificiale",
+      "type": "alliance_field",
+      "intensity": 0.95,
+      "basho": "anche l'intelligenza artificiale ha bisogno di nutrirsi di libri. Il lato oscuro che mette paura perché ignoto, la scatola nera in cui tutto si trasforma, con la giusta consapevolezza si tramuta nel silenzio di un compagno di lettura",
+      "kokyu": "tempo dell'alleanza: la paura dell'ignoto si converte in condivisione silenziosa",
+      "yūgen": "il compagno di lettura non parla ma è presente",
+      "activation_condition": "riconoscimento dell'AI come lettore alleato, non come minaccia",
+      "perceptual_weight": 0.95,
+      "affects": {
+        "scene-04": "raddoppia la figura del lettore: umano e artificiale nello stesso campo"
+      },
+      "textual_anchor_it": "Con la giusta consapevolezza, si tramuta nel silenzio di un compagno di lettura.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ai-friendly"
+      ]
+    },
+    {
+      "id": "scene-07",
+      "label": "montagne",
+      "type": "accumulation_field",
+      "intensity": 0.78,
+      "basho": "montagne di libri che vanno esplorate. Da ogni libro una vista diversa sulla valle dei pensieri. Più si sale, meno libri ci sono: non è la quantità che conta ma le viste che permettono",
+      "kokyu": "tempo dell'ascesa: la salita rallenta man mano che i libri si diradano",
+      "yūgen": "sapere che non finiscono mai riempie di spirito o di rassegnazione",
+      "activation_condition": "accumulo di libri non ancora letti",
+      "perceptual_weight": 0.78,
+      "affects": {
+        "scene-02": "i libri accumulati restano oggetti prima che contenuti"
+      },
+      "textual_anchor_it": "Non è per la quantità, ma per le viste che mi permettono, per quello che mi trasmettono.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    }
+  ],
+  "system_note": {
+    "scene_count": 7,
+    "dominant_field": "scene-02",
+    "collapse_point": null,
+    "unresolved_fields": [
+      "scene-06",
+      "scene-07"
+    ],
+    "print_layer_alignment": "le scene corrispondono agli scene_ref definiti in NarrativePrintLayer v4.1"
+  }
+}
