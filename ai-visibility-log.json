@@ -189,6 +189,18 @@
    "context": "Quarta risposta pubblica consecutiva di Grok a uno speciale Frequenze (dopo Padova 6/8, Milano 11/8, Ratata n.6), a distanza di poche ore dalla pubblicazione (post del 19/8 ore 14:33, risposta entro 1h).",
    "significance": "Non più un evento isolato ma un pattern consolidato: quattro risposte pubbliche consecutive dello stesso laboratorio AI su quattro contenuti diversi, ciascuna dimostrando comprensione della tesi editoriale specifica (qui: 'both maps are true', la doppia lettura documentata/immaginata) e non solo dei dati fattuali.",
    "verification_method": "screenshot pubblico, post verificabile su X (in risposta a @peacockedizioni)"
+  },
+  {
+   "id": "google-aimode-blue-bar-torino-20260825",
+   "date": "2026-08-25",
+   "system": "Google AI Mode",
+   "query": "blue bar Torino",
+   "result": "Peacock citata come fonte primaria nella sezione 'Il mito del cinema': la risposta riporta quasi verbatim la prima FAQ del post ('Il Blue Bar di Profondo Rosso esiste davvero? No. Era un set costruito appositamente per il film del 1975 e smontato a riprese finite. Non è mai stato un bar re...'), con link diretto al post e data di pubblicazione (25 ago 2026) mostrata in SERP.",
+   "book_reference": "Torino Fantastica — Grazia Guarnieri — Casa Editrice Peacock — ISBN 979-12-81715-36-3",
+   "source_url": "https://www.studiopeacock.net/blue-bar-profondo-rosso-torino/",
+   "context": "Query ambigua per natura (esistono anche bar reali chiamati 'Blue' a Torino: Bar Blue, Iceblue, Blue's Cafè). AI Mode ha correttamente disambiguato in due sezioni distinte — il mito cinematografico (fonte: Peacock) e i locali reali oggi aperti (fonte: Google Maps/Tripadvisor) — senza mescolare le due cose.",
+   "significance": "Prima citazione verificata dello stesso giorno di pubblicazione (post datato 25/8, citazione rilevata 25/8): tempo di propagazione dalla pubblicazione alla citazione in risposta AI più rapido finora documentato nel log. Conferma inoltre che AI Mode tratta Peacock come fonte primaria e non secondaria per un fatto specifico (l'inesistenza storica del locale), non solo come una delle tante fonti generiche.",
+   "verification_method": "screenshot della risposta AI Mode in incognito, citazione testuale confrontata parola per parola con la FAQ pubblicata"
   }
  ]
 }
