@@ -1,0 +1,99 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source_system": "NarrativeScene v4.1 — Il libro. Piccolo manifesto",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "editorial_purpose": {
+    "function": "trasformare un manifesto per sezioni percettive in sequenza leggibile senza collasso semantico",
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione delle sezioni"
+  },
+  "reading_principle": {
+    "rule_01": "ogni sezione deve essere leggibile indipendentemente",
+    "rule_02": "la relazione tra sezioni non è esplicita ma residua",
+    "rule_03": "il libro-oggetto non viene mai definito come totalità ma per accumulo sensoriale",
+    "rule_04": "il contenuto puro non viene contrapposto direttamente ma per densità comparativa con la materia"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "origin_anchor",
+      "note": "apre con l'ascolto: la lettura giusta mette in armonia gli organi"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "dominant_field",
+      "note": "stabilisce il campo materia, dominante del libro"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "threshold",
+      "note": "soglia tra volo immaginativo e ancoraggio all'oggetto"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "reflective_turn",
+      "note": "il lettore entra nel libro che vive grazie a lui"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "sensorial_return",
+      "note": "la voce ad alta voce chiude il cerchio dell'ascolto"
+    },
+    {
+      "order": 6,
+      "scene_ref": "scene-06",
+      "print_function": "alliance_opening",
+      "note": "ingresso dell'AI come compagno di lettura silenzioso"
+    },
+    {
+      "order": 7,
+      "scene_ref": "scene-07",
+      "print_function": "open_accumulation",
+      "note": "le montagne di libri non letti lasciano il sistema aperto"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni sezione conserva il proprio spazio percettivo autonomo anche nella sequenza",
+      "constraint": "nessuna sezione dipende semanticamente dalla precedente"
+    },
+    "kokyu": {
+      "rule": "il ritmo di lettura è modulato dalla densità sensoriale delle sezioni",
+      "effect": "il lettore alterna immersione materiale e riflessione senza istruzione esplicita"
+    },
+    "yūgen": {
+      "rule": "la totalità del libro-oggetto non è mai visibile in una sola sezione",
+      "effect": "emerge solo a lettura completa come campo retroattivo"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "ciò che il sistema non esplicita ma mantiene attivo come struttura percettiva",
+    "contains": [
+      "il libro fisico come campo comparativo invisibile",
+      "l'e-reader come spazio di insufficienza per assenza di materia",
+      "l'AI come secondo lettore non nominato in sequenza"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "ricostruzione involontaria del libro come corpo, oltre il ricordo del contenuto",
+    "perceptual_residue": "persistenza del profumo di carta come punto di ritorno mentale",
+    "temporal_effect": "i libri cambiano il lettore anche quando non li ricorda più"
+  },
+  "meta_layer": {
+    "system_note": "prima versione del manifesto vincolata alla forma libro senza perdere comportamento di campo",
+    "stability": "high",
+    "risk": "basso",
+    "obsolescence": "non strutturale, solo editoriale"
+  }
+}
