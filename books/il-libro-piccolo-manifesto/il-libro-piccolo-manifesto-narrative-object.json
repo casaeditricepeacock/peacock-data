@@ -1,0 +1,111 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-08",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone"
+  },
+  "editorial_principle": "Gli oggetti del libro non illustrano la lettura: ne fissano le condizioni fisiche. Ogni oggetto è un punto in cui l'esperienza smette di essere contenuto e torna a essere materia: carta, inchiostro, peso, suono. Il valore dell'oggetto sta in ciò che il contenuto da solo non trasmette.",
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "il libro come oggetto",
+      "label_en": "the book as object",
+      "intensity": 1.0,
+      "basho": "il libro non occupa uno spazio, ne crea uno alla misura delle mani. La sua presenza fisica stabilisce il campo entro cui la lettura diventa esperienza e non solo trasferimento di informazione",
+      "kokyu": "ritmo del calore: il libro emana una temperatura che corrisponde alle misure umane, contro la freddezza del medium elettronico",
+      "yūgen": "contiene mondi non ancora aperti senza prometterli",
+      "affects": {
+        "object-05": "l'e-reader eredita per contrasto la definizione di ciò che un libro non è"
+      },
+      "textual_anchor_it": "Il libro invece emana più calore che corrisponde alle misure umane.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mottainai"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "la carta",
+      "label_en": "the paper",
+      "intensity": 0.9,
+      "basho": "la struttura della carta è una soglia: non rivela il contenuto ma lascia presagire le ambizioni dell'editore. Lo spessore, la fibra, la lavorazione sono già un messaggio prima delle parole",
+      "kokyu": "tempo del tatto: ogni tipo di carta impone una velocità diversa alle dita",
+      "yūgen": "la superficie annuncia senza dire",
+      "affects": {
+        "object-03": "la carta porta l'inchiostro che le dà spessore culturale"
+      },
+      "textual_anchor_it": "La struttura della carta non rivela i contenuti, ma talvolta fa presagire le ambizioni dell'editore.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "l'inchiostro",
+      "label_en": "the ink",
+      "intensity": 0.82,
+      "basho": "l'inchiostro non è segno ma sedimento: il suo sentore trasmette spessori culturali che precedono la lettura del testo",
+      "kokyu": "tempo lungo: l'odore d'inchiostro porta con sé una stratificazione che non appartiene al presente della lettura",
+      "yūgen": "trasmette una profondità che il lettore non sa nominare",
+      "affects": {
+        "object-01": "insieme alla carta costruisce il corpo caldo del libro"
+      },
+      "textual_anchor_it": "Il sentore d'inchiostro trasmette spessori culturali.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-04",
+      "label": "la copertina",
+      "label_en": "the cover",
+      "intensity": 0.85,
+      "basho": "la copertina è il primo contatto e la prima soglia: rigida promette solidità e persistenza, flessibile promette leggerezza. La forma distingue, non il contenuto",
+      "kokyu": "tempo dell'impressione: un istante decide se il libro attira o allontana",
+      "yūgen": "promette una durata che il contenuto non garantisce",
+      "affects": {
+        "object-01": "definisce il primo campo percettivo dell'oggetto-libro"
+      },
+      "textual_anchor_it": "La copertina rigida promette solidità, persistenza nel tempo. Quella flessibile, leggerezza.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-05",
+      "label": "il lettore elettronico",
+      "label_en": "the e-reader",
+      "intensity": 0.7,
+      "basho": "l'e-reader non è un libro ma un portatore: uno spazio che trattiene il contenuto e sottrae la dimensione fisica. Il campo che genera è limitato per condizione, non per scelta",
+      "kokyu": "tempo neutro: nessun calore, nessun attrito, nessun suono di pagina",
+      "yūgen": "conserva tutto tranne ciò che non si può salvare",
+      "affects": {
+        "object-01": "per differenza, rende visibile il calore del libro fisico"
+      },
+      "textual_anchor_it": "Il lettore elettronico, infatti, non è un libro, è solo un portatore, un medium.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-06",
+      "label": "il manoscritto Voynich",
+      "label_en": "the Voynich manuscript",
+      "intensity": 0.75,
+      "basho": "il libro indecifrabile è uno spazio dove il messaggio esiste ma resta chiuso: una lingua sconosciuta che ci somiglia nelle nostre paure e nei nostri misteri",
+      "kokyu": "tempo sospeso: il senso non arriva mai, l'attesa non si scioglie",
+      "yūgen": "l'ignoto trova spazio nella fantasia fino a diventare realtà",
+      "affects": {
+        "object-01": "porta all'estremo la promessa di mondi non aperti contenuta in ogni libro"
+      },
+      "textual_anchor_it": "L'indecifrabile libro di Voynich, manoscritto misterioso con un messaggio ignoto in una lingua sconosciuta.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "yūgen"
+      ]
+    }
+  ]
+}
