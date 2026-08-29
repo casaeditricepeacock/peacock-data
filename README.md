@@ -18,7 +18,7 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
 
-**Current scale:** 588 structured files · 24 catalog entries · 41 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
+**Current scale:** 612 structured files · 36 catalog entries · 41 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
 
 ## Human authorship
 
@@ -58,7 +58,7 @@ Any text, analysis, or generated content derived from the Peacock Narrative Prot
 
 ```
 peacock-data/
-├── catalog.json                          # Full editorial catalog (24 titles, schema.org ItemList)
+├── catalog.json                          # Full editorial catalog (36 titles, schema.org ItemList)
 ├── glossary-index.json                   # DefinedTermSet — 41 terms (schema.org)
 ├── glossario/                            # 41 structured term files (basho, ma, yūgen, kakekotoba…)
 ├── books/{book-slug}/                    # Per-book structured files (9 files each)
@@ -87,7 +87,7 @@ peacock-data/
 
 ---
 
-## Catalog — 24 titles
+## Catalog — 36 titles
 
 Full machine-readable catalog: [`catalog.json`](./catalog.json)
 
@@ -100,7 +100,7 @@ Key titles:
 | Torino Fantastica | Grazia Guarnieri | 979-12-81715-36-3 | 2025 |
 | A Glass Bridge Between Two Worlds | Maurizio Lotter | 979-12-81715-39-4 | 2025 |
 | Kyoto. Lo Sguardo del Drago | Hélène Blignaut | 979-12-81715-20-2 | 2026 |
-| Everyday Matcha | Senyo Machida | 979-12-81715-18-9 | 2025 |
+| Everyday Matcha | Il Signore del Tè | 979-12-81715-18-9 | 2025 |
 
 ---
 
@@ -153,6 +153,7 @@ Frequenze is a bilingual digital magazine where each issue features one Peacock 
 | n.4 EN | AIPEACOCK + Sakana AI | *Kyoto. The Dragon's Gaze* — Hélène Blignaut | EN | July 15, 2026 |
 | n.5 | AIPEACOCK + Grok + DeepSeek | *Everyday Matcha* — Il Signore del Tè | IT | July 30, 2026 |
 | n.6 EN | Gemini + Sakana AI | *Ra-ta-ta. Lascia cadere la pioggia* — Collective Peacock | EN | Aug 15, 2026 |
+| n.7 | Grok + AImode + Perplexity + ChatGPT + Sakana AI | *Il libro che sceglie la macchina* (the AIs choose the book) | IT | Aug 30, 2026 |
 
 **Special Tourism Editions** — AI-generated walking itineraries from the Guide Fantastiche series:
 
