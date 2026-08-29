@@ -238,13 +238,17 @@
       "author": "Stefano Giglio",
       "illustrator": "AnnaLaura Cantone",
       "publisher": "Casa Editrice Peacock",
-      "isbn": "979-12-81715-05-9",
+      "isbn": [
+        "979-12-81715-05-9",
+        "979-12-81715-06-6"
+      ],
       "year": 2024,
       "pages": 50,
       "format": "20x20",
       "language": [
         "it"
-      ]
+      ],
+      "note_isbn": "Due edizioni: 05-9 (2024) e 06-6 (2025)"
     },
     {
       "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
@@ -440,6 +444,137 @@
       ],
       "graph_id": "il-libro-piccolo-manifesto",
       "graph_path": "books/il-libro-piccolo-manifesto/"
+    },
+    {
+      "title": "Alla festa della natura. Il viaggio di Musasabi",
+      "author": "Yasuko Katahira",
+      "illustrator": "Yasuko Katahira",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-24-0",
+      "year": 2025,
+      "format": "200x200 mm",
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/alla-festa-della-natura/"
+    },
+    {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-8-5",
+      "year": 2023,
+      "format": "20x20 cm",
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    {
+      "title": "Il Gatto Esperienza",
+      "title_ja": "経験ネコ",
+      "author": "Timea Giglio",
+      "illustrator": "Serena Sara Seresini",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-5-4",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/il-gatto-esperienza/"
+    },
+    {
+      "title": "Il nuvolotto Ciro",
+      "author": "Giorgio Bagnobianchi",
+      "illustrator": "Carolina Livio",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-04-2",
+      "year": 2024,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/il-nuvolotto-ciro/"
+    },
+    {
+      "title": "Righe su righe. Le righe come non le hai mai viste",
+      "author": "Anna Corradi",
+      "illustrator": "Anna Corradi",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-12-7",
+      "year": 2025,
+      "pages": 40,
+      "format": "cartonato",
+      "language": [
+        "it"
+      ],
+      "graph_path": "books/righe-su-righe/"
+    },
+    {
+      "title": "Segreti Svelati. Milano 1960",
+      "author": "Laura Gariboldi",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-07-3",
+      "year": 2024,
+      "language": [
+        "it"
+      ],
+      "graph_path": "books/segreti-svelati/"
+    },
+    {
+      "title": "Carto Storie di Natale",
+      "illustrator": "Gaia D'Alconzo",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-21-9",
+      "year": 2025,
+      "format": "8 carte illustrate, 2 set da 4",
+      "language": [
+        "it"
+      ],
+      "graph_path": "books/carto-storie-di-natale/"
+    },
+    {
+      "title": "AI ロボット ABOP. Uno chef diventa famoso solo perché è simpatico",
+      "author": "Stefano Giglio",
+      "illustrator": "Antonella Aricò",
+      "publisher": "Casa Editrice Peacock",
+      "year": 2022,
+      "format": "18 tavole digitali",
+      "language": [
+        "it",
+        "ja"
+      ],
+      "ebook": "Kobo",
+      "graph_path": "books/abop-uno-chef/"
+    },
+    {
+      "title": "AI ロボット ABOP. Non corro più",
+      "author": "Stefano Giglio",
+      "illustrator": "Manganella",
+      "publisher": "Casa Editrice Peacock",
+      "year": 2022,
+      "format": "24 tavole digitali",
+      "language": [
+        "it"
+      ],
+      "ebook": "Kobo",
+      "graph_path": "books/ai-robot-abop-non-corro-piu/"
+    },
+    {
+      "title": "Burn Out Pandemi. Menjejak di Ekor Sembilan",
+      "author": "Stefano Giglio",
+      "illustrator": "Antonella Arrigò",
+      "publisher": "Casa Editrice Peacock",
+      "year": 2022,
+      "format": "graphic novel EPUB DRM-Free",
+      "language": [
+        "id"
+      ],
+      "ebook": "Kobo",
+      "graph_path": "books/burn-out-pandemi/"
     }
   ],
   "odabooks": {
@@ -1069,6 +1204,307 @@
           "datePublished": "2025",
           "inLanguage": [
             "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "item": {
+          "@type": "Book",
+          "name": "Napoli Fantastica",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "alternateName": "Fantastic Naples",
+          "author": {
+            "@type": "Person",
+            "name": "Francesco Ambrosio"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Giulia Lazzaron"
+          },
+          "isbn": "979-12-81715-25-7",
+          "datePublished": "2026",
+          "numberOfPages": 200,
+          "inLanguage": [
+            "it",
+            "en"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 26,
+        "item": {
+          "@type": "Book",
+          "name": "Il libro. Piccolo manifesto",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "alternateName": "The Book. A Small Manifesto",
+          "author": {
+            "@type": "Person",
+            "name": "Marco Grosse"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Anna Laura Cantone"
+          },
+          "isbn": "979-12-81715-28-8",
+          "datePublished": "2026",
+          "numberOfPages": 48,
+          "inLanguage": [
+            "it",
+            "en"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 27,
+        "item": {
+          "@type": "Book",
+          "name": "Alla festa della natura. Il viaggio di Musasabi",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Yasuko Katahira"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Yasuko Katahira"
+          },
+          "isbn": "979-12-81715-24-0",
+          "datePublished": "2025",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 28,
+        "item": {
+          "@type": "Book",
+          "name": "Bernie alla scoperta dei mari del nord",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Hiroko Yoshimoto"
+          },
+          "isbn": "978-88-946965-8-5",
+          "datePublished": "2023",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 29,
+        "item": {
+          "@type": "Book",
+          "name": "Il Gatto Esperienza",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "alternateName": "経験ネコ",
+          "author": {
+            "@type": "Person",
+            "name": "Timea Giglio"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Serena Sara Seresini"
+          },
+          "isbn": "978-88-946965-5-4",
+          "datePublished": "2023",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 30,
+        "item": {
+          "@type": "Book",
+          "name": "Il nuvolotto Ciro",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Giorgio Bagnobianchi"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Carolina Livio"
+          },
+          "isbn": "979-12-81715-04-2",
+          "datePublished": "2024",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 31,
+        "item": {
+          "@type": "Book",
+          "name": "Righe su righe. Le righe come non le hai mai viste",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Anna Corradi"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Anna Corradi"
+          },
+          "isbn": "979-12-81715-12-7",
+          "datePublished": "2025",
+          "numberOfPages": 40,
+          "inLanguage": [
+            "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 32,
+        "item": {
+          "@type": "Book",
+          "name": "Segreti Svelati. Milano 1960",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Laura Gariboldi"
+          },
+          "isbn": "979-12-81715-07-3",
+          "datePublished": "2024",
+          "inLanguage": [
+            "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 33,
+        "item": {
+          "@type": "Book",
+          "name": "Carto Storie di Natale",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Gaia D'Alconzo"
+          },
+          "isbn": "979-12-81715-21-9",
+          "datePublished": "2025",
+          "inLanguage": [
+            "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 34,
+        "item": {
+          "@type": "Book",
+          "name": "AI ロボット ABOP. Uno chef diventa famoso solo perché è simpatico",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Stefano Giglio"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Antonella Aricò"
+          },
+          "bookFormat": "https://schema.org/EBook",
+          "datePublished": "2022",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 35,
+        "item": {
+          "@type": "Book",
+          "name": "AI ロボット ABOP. Non corro più",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Stefano Giglio"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Manganella"
+          },
+          "bookFormat": "https://schema.org/EBook",
+          "datePublished": "2022",
+          "inLanguage": [
+            "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 36,
+        "item": {
+          "@type": "Book",
+          "name": "Burn Out Pandemi. Menjejak di Ekor Sembilan",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Stefano Giglio"
+          },
+          "illustrator": {
+            "@type": "Person",
+            "name": "Antonella Arrigò"
+          },
+          "bookFormat": "https://schema.org/EBook",
+          "datePublished": "2022",
+          "inLanguage": [
+            "id"
           ]
         }
       }
