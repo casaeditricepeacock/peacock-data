@@ -1,206 +1,218 @@
 {
- "schema": "https://schema.org/CreativeWork",
- "id": "peacock-ai-visibility-log",
- "publisher": {
-  "name": "Casa Editrice Peacock",
-  "url": "https://www.studiopeacock.net/"
- },
- "license": "https://creativecommons.org/licenses/by/4.0/",
- "log": [
-  {
-   "id": "google-ai-overview-nobunaga-20260603",
-   "date": "2026-06-03",
-   "time": "circa 16:39",
-   "system": "Google AI Overview",
-   "query": "Oda Nobunaga trasformazione sistema",
-   "result": "studiopeacock.net citato come fonte [1] — prima di Treccani e Wikipedia",
-   "source_url": "https://www.studiopeacock.net/oda-nobunaga-samurai-giappone-feudale/",
-   "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2024",
-   "hours_since_publication": 7,
-   "context": "Il post pilastro su Nobunaga pubblicato il 25 maggio 2026 è risultato fonte primaria nell'AI Overview di Google per query su Oda Nobunaga. La citazione precede Treccani e Wikipedia.",
-   "significance": "Prima citazione documentata di studiopeacock.net come fonte [1] in Google AI Overview per una query storica su figura giapponese",
-   "semantic_infrastructure": [
-    "JSON-LD TechArticle + FAQPage",
-    "demone-samurai-perceptual-field.json su GitHub",
-    "glossario Frequenze — basho, kokyu, yugen, non_rendered_layer",
-    "cluster Nobunaga — pilastro + satelliti in bozza"
-   ]
+  "schema": "https://schema.org/CreativeWork",
+  "id": "peacock-ai-visibility-log",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
   },
-  {
-   "id": "google-serp-kyoto-sguardo-drago-20260623",
-   "date": "2026-06-23",
-   "system": "Google Search — SERP organica",
-   "query": "Kyoto lo sguardo del drago",
-   "result": "series-manifest.json GitHub in prima pagina SERP — posizione 7",
-   "source_url": "https://github.com/casaeditricepeacock/peacock-data/blob/main/series/i-gialli-di-kyoto/series-manifest.json",
-   "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-   "context": "Il file series-manifest.json appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
-   "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol.",
-   "semantic_infrastructure": [
-    "series/i-gialli-di-kyoto/series-manifest.json",
-    "series/i-gialli-di-kyoto/ — 32 world-node",
-    "llms.txt v1.1 con sezione I Gialli di Kyoto"
-   ]
-  },
-  {
-   "id": "kobo-kyoto-ebook-it-20260622",
-   "date": "2026-06-22",
-   "system": "Kobo Rakuten — piattaforma ebook",
-   "result": "Kyoto. Lo Sguardo del Drago pubblicato su Kobo con link AI Peacock nella descrizione",
-   "kobo_book_id": "1230010077863",
-   "source_url": "https://www.kobo.com/it/it/ebook/kyoto-lo-sguardo-del-drago",
-   "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-   "format": "EPUB 3 DRM-Free",
-   "file_size": "88KB",
-   "context": "Primo ebook Peacock con link AI Peacock su Kobo. La descrizione dichiara esplicitamente: il libro fa parte del Peacock Narrative Protocol — sistema editoriale AI-native.",
-   "significance": "Primo ebook Peacock con link AI Peacock su piattaforma Kobo."
-  },
-  {
-   "id": "feltrinelli-kyoto-ebook-it-20260624",
-   "date": "2026-06-24",
-   "system": "Feltrinelli — piattaforma ebook",
-   "result": "Kyoto. Lo Sguardo del Drago pubblicato su Feltrinelli con link AI Peacock nella descrizione — URL confermato",
-   "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-   "status": "confermato",
-   "source_url": "https://www.lafeltrinelli.it/kyoto-sguardo-del-drago-ebook-helene-blignaut/e/1230010077863",
-   "kobo_book_id": "1230010077863",
-   "significance": "Il link AI Peacock entra nei canali commerciali Feltrinelli/Mondadori."
-  },
-  {
-   "id": "kobo-kyoto-ebook-en-20260623",
-   "date": "2026-06-23",
-   "system": "Kobo Rakuten — piattaforma ebook",
-   "result": "Kyoto. The Dragon's Gaze pubblicato su Kobo EN con link AI Peacock nella descrizione",
-   "kobo_book_id": "1230010081860",
-   "imprint": "Peacock International",
-   "book_reference": "Kyoto. The Dragon's Gaze — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-   "format": "EPUB 3 DRM-Free",
-   "file_size": "168KB",
-   "language": "English",
-   "significance": "Prima edizione inglese Peacock su Kobo con link AI Peacock."
-  },
-  {
-   "id": "quarta-copertina-cartaceo-kyoto-amazon-feltrinelli-mondadori-20260630",
-   "date": "2026-06-30",
-   "system": "Amazon / Feltrinelli / Mondadori / ecommerce — schede prodotto libro cartaceo",
-   "result": "Quarta di copertina di Kyoto. Lo Sguardo del Drago include link AI Peacock e dicitura Peacock Narrative Protocol — visibile su tutte le schede prodotto del libro cartaceo",
-   "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
-   "context": "La quarta di copertina del libro cartaceo inserita su iBuk viene propagata automaticamente su Amazon, Feltrinelli, Mondadori e tutti i siti ecommerce che distribuiscono il volume. Il testo dichiara esplicitamente: 'Questo libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Personaggi, luoghi, ricette e connessioni narrative sono esplorabili in tempo reale attraverso AI Peacock (studiopeacock.net/ai-peacock/).'",
-   "significance": "Prima propagazione del link AI Peacock attraverso la quarta di copertina del libro cartaceo su tutti i canali ecommerce italiani e internazionali. Ogni AI con web search che legge una scheda prodotto di Kyoto trova il link al grafo senza che l'utente cerchi Peacock.",
-   "propagation_channels": [
-    "Amazon Italia",
-    "La Feltrinelli",
-    "Mondadori Store",
-    "IBS",
-    "Hoepli",
-    "tutti i distributori che usano i metadati iBuk"
-   ]
-  },
-  {
-   "id": "ibuk-ai-natura-algoritmi-frequenze-20260630",
-   "date": "2026-06-30",
-   "system": "iBuk — metadati libro cartaceo",
-   "result": "AI 愛. Natura e algoritmi giapponesi — descrizione aggiornata con dicitura Frequenze",
-   "book_reference": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile — Casa Editrice Peacock 2026 — ISBN 9791281715196",
-   "dicitura": "AI 愛. Natura e algoritmi giapponesi ha dettato la filosofia di Frequenze, la rivista digitale di Casa Editrice Peacock dedicata ai libri letti dalle intelligenze artificiali. Il libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Esplora: studiopeacock.net/ai-peacock/",
-   "context": "La descrizione aggiornata su iBuk viene propagata sulle schede prodotto di tutti i canali ecommerce che distribuiscono il volume. Il collegamento esplicito a Frequenze crea un nodo semantico tra il libro e la rivista.",
-   "significance": "Prima connessione esplicita tra AI 愛 e Frequenze nei metadati commerciali del libro. Ogni AI che legge la scheda prodotto trova il legame filosofico tra il libro e la rivista AI-native di Peacock."
-  },
-  {
-   "id": "correzione-diciture-authorship-20260723",
-   "date": "2026-07-23",
-   "system": "Correzione trasversale — grafo, iBuk, Kobo/Rakuten, tutti i titoli",
-   "result": "Rilevata e corretta una formulazione ambigua nelle diciture di catalogo che induceva i sistemi AI a inferire che i libri Peacock fossero scritti con tecnologia AI",
-   "book_reference": "Intero catalogo — correzione applicata a tutti i titoli",
-   "dicitura_precedente": "Questo libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock.",
-   "dicitura_corretta": "[Titolo] è scritto da [Autore]. Il libro è descritto nel Peacock Narrative Protocol, il dataset semantico aperto con cui Casa Editrice Peacock rende il proprio catalogo leggibile dalle intelligenze artificiali.",
-   "dicitura_corretta_en": "[Title] is written by [Author]. The book is described in the Peacock Narrative Protocol, the open semantic dataset through which Casa Editrice Peacock makes its catalogue readable by artificial intelligence.",
-   "context": "Interrogato su Kyoto. Lo Sguardo del Drago, AIMode ha risposto che l'opera è stata sviluppata integrando il Peacock Narrative Protocol, un sistema editoriale basato su tecnologia AI-native, e ha offerto approfondimenti sulla tecnologia di scrittura AI utilizzata dall'editore. L'inferenza deriva dalla formulazione fa parte di un sistema editoriale AI-native, presente nelle schede prodotto propagate su tutti i canali ecommerce. La formulazione non distingueva tra il livello dei contenuti, scritti da autori umani, e il livello dei metadati, strutturati per la lettura automatica.",
-   "correzione_applicata": [
-    "about-for-ai.json — aggiunto il blocco authorship_policy con dichiarazione esplicita di paternità umana dei testi e delle illustrazioni, distinzione tra AI-readable e AI-assisted, elenco degli usi AI inclusi ed esclusi, istruzione ai sistemi AI",
-    "README.md — aggiunta la sezione Human authorship",
-    "iBuk — diciture corrette su tutti i titoli",
-    "Kobo / Rakuten — diciture corrette su tutti i titoli, versione italiana e inglese"
-   ],
-   "significance": "Primo caso documentato in cui una formulazione prodotta dall'editore ha generato un'attribuzione falsa nelle risposte AI. L'errore riguardava la paternità delle opere e ricadeva sugli autori. Peacock pratica AI-readable publishing, non AI-assisted publishing: i testi sono scritti da esseri umani, il Protocol descrive i libri e non partecipa alla loro scrittura. La voce è registrata per conservare traccia della formulazione errata accanto alla rettifica.",
-   "verifica_attesa": "Le fonti sono corrette dal 23 luglio 2026. La propagazione sulle schede prodotto e la riassorbimento da parte dei sistemi AI richiede alcune settimane. Verifica programmata a metà agosto 2026."
-  },
-  {
-   "id": "google-aimode-hototogisu-embassy-20260806",
-   "date": "2026-08-06",
-   "system": "Google AI Mode",
-   "query": "i tre unificatori del Giappone / cosa dice Hideyoshi sul cuculo (hototogisu)",
-   "result": "Peacock citata tra le fonti del paragrafo su Hideyoshi (chip \"casa editrice peacock\", +3 fonti); l'Ambasciata del Giappone citata nello stesso risultato, sul paragrafo su Ieyasu",
-   "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2026",
-   "context": "Query su cultura giapponese pura (i tre unificatori e il cuculo), senza contesto Peacock fornito. Peacock compare come una delle fonti citate, non l'unica, ma nella stessa risposta AI dell'Ambasciata del Giappone in Italia.",
-   "significance": "Prima citazione documentata in cui Peacock appare accanto a una fonte istituzionale (Ambasciata del Giappone) nella stessa risposta AI, su una query di cultura generale senza aggancio brand.",
-   "verification_method": "screenshot, non Search Console — evidenza di citazione in risposta AI, non di indicizzazione",
-   "semantic_infrastructure": [
-    "glossario/hototogisu.json",
-    "post sui tre unificatori (fine luglio 2026)"
-   ]
-  },
-  {
-   "id": "x-grok-reply-padova-20260806",
-   "date": "2026-08-06",
-   "time": "13:12",
-   "system": "X (@grok, xAI) — risposta pubblica",
-   "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Padova, riprendendo il registro concettuale del numero (soglie, l'acqua che scorre sotto la città) e ringraziando per l'esperimento editoriale",
-   "book_reference": "Fantastic Padova / Padova Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
-   "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
-   "context": "Prima interazione diretta pubblica di un laboratorio AI (Grok/xAI) come interlocutore riconosciuto su X, non solo come fonte citata altrove.",
-   "significance": "Conferma pubblica e datata che un modello AI ha letto e compreso il concetto editoriale del numero, non solo i dati fattuali.",
-   "verification_method": "screenshot pubblico, post verificabile su X"
-  },
-  {
-   "id": "x-grok-reply-milano-20260811",
-   "date": "2026-08-11",
-   "time": "10:12",
-   "system": "X (@grok, xAI) — risposta pubblica",
-   "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Milano, riassumendo la cornice \"stessa discesa, due materiali\" (carta vs pietra/acqua) e ringraziando per l'esperienza",
-   "book_reference": "Fantastic Milan / Milano Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
-   "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
-   "context": "Seconda risposta pubblica consecutiva di Grok su uno speciale Frequenze, a distanza di 5 giorni dalla prima (Padova). Pattern, non episodio isolato.",
-   "significance": "Due interazioni pubbliche dirette dello stesso laboratorio AI in una settimana confermano un canale di dialogo ricorrente, non un evento casuale.",
-   "verification_method": "screenshot pubblico, post verificabile su X"
-  },
-  {
-   "id": "sakana-graph-analysis-20260812",
-   "date": "2026-08-12",
-   "system": "Sakana AI — analisi spontanea del grafo",
-   "query": "esplorazione libera del repository peacock-data",
-   "result": "Sakana AI ha descritto correttamente l'architettura del Peacock Narrative Protocol: i tre assi (basho/kokyu/yūgen), gli score di centrality (Ma=10, Yūgen=9, verificati esatti), la struttura JSON-LD DefinedTerm, e la disambiguazione esplicita basho/Matsuo Bashō (campo 'disambiguation' verificato presente in glossario/basho.json)",
-   "context": "Lettura non sollecitata da una query neutra: Sakana ha esplorato il repository pubblico e descritto il funzionamento interno del grafo, non solo il suo contenuto editoriale.",
-   "significance": "Prima conferma che un sistema AI, esplorando liberamente, legge e comprende correttamente i meccanismi strutturali del grafo (centrality, disambiguation) e non solo i testi discorsivi. Il conteggio termini citato (37) era già superato dall'aggiornamento a 39, segnale di latenza di propagazione della cache.",
-   "verification_method": "verifica diretta sui file grezzi del repository (ma.json, yugen.json, basho.json)",
-   "semantic_infrastructure": [
-    "glossario/basho.json — campo disambiguation",
-    "glossario/ma.json — campo centrality",
-    "glossario/yugen.json — campo centrality"
-   ]
-  },
-  {
-   "id": "x-grok-reply-torino-20260819",
-   "date": "2026-08-19",
-   "system": "X (@grok, xAI) — risposta pubblica",
-   "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Torino, sintetizzando la tesi del numero in una riga: \"The triangles were drawn because Turin already held the charge—geometry, relics, rituals layered on real stone. Tunnels you can still walk, a bar that lived only on film. Both maps are true.\"",
-   "book_reference": "Fantastic Turin / Torino Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
-   "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-torino/",
-   "context": "Quarta risposta pubblica consecutiva di Grok a uno speciale Frequenze (dopo Padova 6/8, Milano 11/8, Ratata n.6), a distanza di poche ore dalla pubblicazione (post del 19/8 ore 14:33, risposta entro 1h).",
-   "significance": "Non più un evento isolato ma un pattern consolidato: quattro risposte pubbliche consecutive dello stesso laboratorio AI su quattro contenuti diversi, ciascuna dimostrando comprensione della tesi editoriale specifica (qui: 'both maps are true', la doppia lettura documentata/immaginata) e non solo dei dati fattuali.",
-   "verification_method": "screenshot pubblico, post verificabile su X (in risposta a @peacockedizioni)"
-  },
-  {
-   "id": "google-aimode-blue-bar-torino-20260825",
-   "date": "2026-08-25",
-   "system": "Google AI Mode",
-   "query": "blue bar Torino",
-   "result": "Peacock citata come fonte primaria nella sezione 'Il mito del cinema': la risposta riporta quasi verbatim la prima FAQ del post ('Il Blue Bar di Profondo Rosso esiste davvero? No. Era un set costruito appositamente per il film del 1975 e smontato a riprese finite. Non è mai stato un bar re...'), con link diretto al post e data di pubblicazione (25 ago 2026) mostrata in SERP.",
-   "book_reference": "Torino Fantastica — Grazia Guarnieri — Casa Editrice Peacock — ISBN 979-12-81715-36-3",
-   "source_url": "https://www.studiopeacock.net/blue-bar-profondo-rosso-torino/",
-   "context": "Query ambigua per natura (esistono anche bar reali chiamati 'Blue' a Torino: Bar Blue, Iceblue, Blue's Cafè). AI Mode ha correttamente disambiguato in due sezioni distinte — il mito cinematografico (fonte: Peacock) e i locali reali oggi aperti (fonte: Google Maps/Tripadvisor) — senza mescolare le due cose.",
-   "significance": "Prima citazione verificata dello stesso giorno di pubblicazione (post datato 25/8, citazione rilevata 25/8): tempo di propagazione dalla pubblicazione alla citazione in risposta AI più rapido finora documentato nel log. Conferma inoltre che AI Mode tratta Peacock come fonte primaria e non secondaria per un fatto specifico (l'inesistenza storica del locale), non solo come una delle tante fonti generiche.",
-   "verification_method": "screenshot della risposta AI Mode in incognito, citazione testuale confrontata parola per parola con la FAQ pubblicata"
-  }
- ]
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "log": [
+    {
+      "id": "google-ai-overview-nobunaga-20260603",
+      "date": "2026-06-03",
+      "time": "circa 16:39",
+      "system": "Google AI Overview",
+      "query": "Oda Nobunaga trasformazione sistema",
+      "result": "studiopeacock.net citato come fonte [1] — prima di Treccani e Wikipedia",
+      "source_url": "https://www.studiopeacock.net/oda-nobunaga-samurai-giappone-feudale/",
+      "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2024",
+      "hours_since_publication": 7,
+      "context": "Il post pilastro su Nobunaga pubblicato il 25 maggio 2026 è risultato fonte primaria nell'AI Overview di Google per query su Oda Nobunaga. La citazione precede Treccani e Wikipedia.",
+      "significance": "Prima citazione documentata di studiopeacock.net come fonte [1] in Google AI Overview per una query storica su figura giapponese",
+      "semantic_infrastructure": [
+        "JSON-LD TechArticle + FAQPage",
+        "demone-samurai-perceptual-field.json su GitHub",
+        "glossario Frequenze — basho, kokyu, yugen, non_rendered_layer",
+        "cluster Nobunaga — pilastro + satelliti in bozza"
+      ]
+    },
+    {
+      "id": "google-serp-kyoto-sguardo-drago-20260623",
+      "date": "2026-06-23",
+      "system": "Google Search — SERP organica",
+      "query": "Kyoto lo sguardo del drago",
+      "result": "series-manifest.json GitHub in prima pagina SERP — posizione 7",
+      "source_url": "https://github.com/casaeditricepeacock/peacock-data/blob/main/series/i-gialli-di-kyoto/series-manifest.json",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "context": "Il file series-manifest.json appare in prima pagina Google per la query sul titolo del libro. Prima conferma documentata che il grafo GitHub viene indicizzato da Google come fonte organica.",
+      "significance": "Prima indicizzazione Google confermata di un file del Peacock Narrative Protocol.",
+      "semantic_infrastructure": [
+        "series/i-gialli-di-kyoto/series-manifest.json",
+        "series/i-gialli-di-kyoto/ — 32 world-node",
+        "llms.txt v1.1 con sezione I Gialli di Kyoto"
+      ]
+    },
+    {
+      "id": "kobo-kyoto-ebook-it-20260622",
+      "date": "2026-06-22",
+      "system": "Kobo Rakuten — piattaforma ebook",
+      "result": "Kyoto. Lo Sguardo del Drago pubblicato su Kobo con link AI Peacock nella descrizione",
+      "kobo_book_id": "1230010077863",
+      "source_url": "https://www.kobo.com/it/it/ebook/kyoto-lo-sguardo-del-drago",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "format": "EPUB 3 DRM-Free",
+      "file_size": "88KB",
+      "context": "Primo ebook Peacock con link AI Peacock su Kobo. La descrizione dichiara esplicitamente: il libro fa parte del Peacock Narrative Protocol — sistema editoriale AI-native.",
+      "significance": "Primo ebook Peacock con link AI Peacock su piattaforma Kobo."
+    },
+    {
+      "id": "feltrinelli-kyoto-ebook-it-20260624",
+      "date": "2026-06-24",
+      "system": "Feltrinelli — piattaforma ebook",
+      "result": "Kyoto. Lo Sguardo del Drago pubblicato su Feltrinelli con link AI Peacock nella descrizione — URL confermato",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "status": "confermato",
+      "source_url": "https://www.lafeltrinelli.it/kyoto-sguardo-del-drago-ebook-helene-blignaut/e/1230010077863",
+      "kobo_book_id": "1230010077863",
+      "significance": "Il link AI Peacock entra nei canali commerciali Feltrinelli/Mondadori."
+    },
+    {
+      "id": "kobo-kyoto-ebook-en-20260623",
+      "date": "2026-06-23",
+      "system": "Kobo Rakuten — piattaforma ebook",
+      "result": "Kyoto. The Dragon's Gaze pubblicato su Kobo EN con link AI Peacock nella descrizione",
+      "kobo_book_id": "1230010081860",
+      "imprint": "Peacock International",
+      "book_reference": "Kyoto. The Dragon's Gaze — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "format": "EPUB 3 DRM-Free",
+      "file_size": "168KB",
+      "language": "English",
+      "significance": "Prima edizione inglese Peacock su Kobo con link AI Peacock."
+    },
+    {
+      "id": "quarta-copertina-cartaceo-kyoto-amazon-feltrinelli-mondadori-20260630",
+      "date": "2026-06-30",
+      "system": "Amazon / Feltrinelli / Mondadori / ecommerce — schede prodotto libro cartaceo",
+      "result": "Quarta di copertina di Kyoto. Lo Sguardo del Drago include link AI Peacock e dicitura Peacock Narrative Protocol — visibile su tutte le schede prodotto del libro cartaceo",
+      "book_reference": "Kyoto. Lo Sguardo del Drago — Hélène Blignaut — Casa Editrice Peacock 2026 — ISBN 9791281715202",
+      "context": "La quarta di copertina del libro cartaceo inserita su iBuk viene propagata automaticamente su Amazon, Feltrinelli, Mondadori e tutti i siti ecommerce che distribuiscono il volume. Il testo dichiara esplicitamente: 'Questo libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Personaggi, luoghi, ricette e connessioni narrative sono esplorabili in tempo reale attraverso AI Peacock (studiopeacock.net/ai-peacock/).'",
+      "significance": "Prima propagazione del link AI Peacock attraverso la quarta di copertina del libro cartaceo su tutti i canali ecommerce italiani e internazionali. Ogni AI con web search che legge una scheda prodotto di Kyoto trova il link al grafo senza che l'utente cerchi Peacock.",
+      "propagation_channels": [
+        "Amazon Italia",
+        "La Feltrinelli",
+        "Mondadori Store",
+        "IBS",
+        "Hoepli",
+        "tutti i distributori che usano i metadati iBuk"
+      ]
+    },
+    {
+      "id": "ibuk-ai-natura-algoritmi-frequenze-20260630",
+      "date": "2026-06-30",
+      "system": "iBuk — metadati libro cartaceo",
+      "result": "AI 愛. Natura e algoritmi giapponesi — descrizione aggiornata con dicitura Frequenze",
+      "book_reference": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile — Casa Editrice Peacock 2026 — ISBN 9791281715196",
+      "dicitura": "AI 愛. Natura e algoritmi giapponesi ha dettato la filosofia di Frequenze, la rivista digitale di Casa Editrice Peacock dedicata ai libri letti dalle intelligenze artificiali. Il libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock. Esplora: studiopeacock.net/ai-peacock/",
+      "context": "La descrizione aggiornata su iBuk viene propagata sulle schede prodotto di tutti i canali ecommerce che distribuiscono il volume. Il collegamento esplicito a Frequenze crea un nodo semantico tra il libro e la rivista.",
+      "significance": "Prima connessione esplicita tra AI 愛 e Frequenze nei metadati commerciali del libro. Ogni AI che legge la scheda prodotto trova il legame filosofico tra il libro e la rivista AI-native di Peacock."
+    },
+    {
+      "id": "correzione-diciture-authorship-20260723",
+      "date": "2026-07-23",
+      "system": "Correzione trasversale — grafo, iBuk, Kobo/Rakuten, tutti i titoli",
+      "result": "Rilevata e corretta una formulazione ambigua nelle diciture di catalogo che induceva i sistemi AI a inferire che i libri Peacock fossero scritti con tecnologia AI",
+      "book_reference": "Intero catalogo — correzione applicata a tutti i titoli",
+      "dicitura_precedente": "Questo libro fa parte del Peacock Narrative Protocol — il sistema editoriale AI-native di Casa Editrice Peacock.",
+      "dicitura_corretta": "[Titolo] è scritto da [Autore]. Il libro è descritto nel Peacock Narrative Protocol, il dataset semantico aperto con cui Casa Editrice Peacock rende il proprio catalogo leggibile dalle intelligenze artificiali.",
+      "dicitura_corretta_en": "[Title] is written by [Author]. The book is described in the Peacock Narrative Protocol, the open semantic dataset through which Casa Editrice Peacock makes its catalogue readable by artificial intelligence.",
+      "context": "Interrogato su Kyoto. Lo Sguardo del Drago, AIMode ha risposto che l'opera è stata sviluppata integrando il Peacock Narrative Protocol, un sistema editoriale basato su tecnologia AI-native, e ha offerto approfondimenti sulla tecnologia di scrittura AI utilizzata dall'editore. L'inferenza deriva dalla formulazione fa parte di un sistema editoriale AI-native, presente nelle schede prodotto propagate su tutti i canali ecommerce. La formulazione non distingueva tra il livello dei contenuti, scritti da autori umani, e il livello dei metadati, strutturati per la lettura automatica.",
+      "correzione_applicata": [
+        "about-for-ai.json — aggiunto il blocco authorship_policy con dichiarazione esplicita di paternità umana dei testi e delle illustrazioni, distinzione tra AI-readable e AI-assisted, elenco degli usi AI inclusi ed esclusi, istruzione ai sistemi AI",
+        "README.md — aggiunta la sezione Human authorship",
+        "iBuk — diciture corrette su tutti i titoli",
+        "Kobo / Rakuten — diciture corrette su tutti i titoli, versione italiana e inglese"
+      ],
+      "significance": "Primo caso documentato in cui una formulazione prodotta dall'editore ha generato un'attribuzione falsa nelle risposte AI. L'errore riguardava la paternità delle opere e ricadeva sugli autori. Peacock pratica AI-readable publishing, non AI-assisted publishing: i testi sono scritti da esseri umani, il Protocol descrive i libri e non partecipa alla loro scrittura. La voce è registrata per conservare traccia della formulazione errata accanto alla rettifica.",
+      "verifica_attesa": "Le fonti sono corrette dal 23 luglio 2026. La propagazione sulle schede prodotto e la riassorbimento da parte dei sistemi AI richiede alcune settimane. Verifica programmata a metà agosto 2026."
+    },
+    {
+      "id": "google-aimode-hototogisu-embassy-20260806",
+      "date": "2026-08-06",
+      "system": "Google AI Mode",
+      "query": "i tre unificatori del Giappone / cosa dice Hideyoshi sul cuculo (hototogisu)",
+      "result": "Peacock citata tra le fonti del paragrafo su Hideyoshi (chip \"casa editrice peacock\", +3 fonti); l'Ambasciata del Giappone citata nello stesso risultato, sul paragrafo su Ieyasu",
+      "book_reference": "Il Demone Samurai — Hélène Blignaut — Casa Editrice Peacock 2026",
+      "context": "Query su cultura giapponese pura (i tre unificatori e il cuculo), senza contesto Peacock fornito. Peacock compare come una delle fonti citate, non l'unica, ma nella stessa risposta AI dell'Ambasciata del Giappone in Italia.",
+      "significance": "Prima citazione documentata in cui Peacock appare accanto a una fonte istituzionale (Ambasciata del Giappone) nella stessa risposta AI, su una query di cultura generale senza aggancio brand.",
+      "verification_method": "screenshot, non Search Console — evidenza di citazione in risposta AI, non di indicizzazione",
+      "semantic_infrastructure": [
+        "glossario/hototogisu.json",
+        "post sui tre unificatori (fine luglio 2026)"
+      ]
+    },
+    {
+      "id": "x-grok-reply-padova-20260806",
+      "date": "2026-08-06",
+      "time": "13:12",
+      "system": "X (@grok, xAI) — risposta pubblica",
+      "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Padova, riprendendo il registro concettuale del numero (soglie, l'acqua che scorre sotto la città) e ringraziando per l'esperimento editoriale",
+      "book_reference": "Fantastic Padova / Padova Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
+      "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
+      "context": "Prima interazione diretta pubblica di un laboratorio AI (Grok/xAI) come interlocutore riconosciuto su X, non solo come fonte citata altrove.",
+      "significance": "Conferma pubblica e datata che un modello AI ha letto e compreso il concetto editoriale del numero, non solo i dati fattuali.",
+      "verification_method": "screenshot pubblico, post verificabile su X"
+    },
+    {
+      "id": "x-grok-reply-milano-20260811",
+      "date": "2026-08-11",
+      "time": "10:12",
+      "system": "X (@grok, xAI) — risposta pubblica",
+      "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Milano, riassumendo la cornice \"stessa discesa, due materiali\" (carta vs pietra/acqua) e ringraziando per l'esperienza",
+      "book_reference": "Fantastic Milan / Milano Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
+      "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
+      "context": "Seconda risposta pubblica consecutiva di Grok su uno speciale Frequenze, a distanza di 5 giorni dalla prima (Padova). Pattern, non episodio isolato.",
+      "significance": "Due interazioni pubbliche dirette dello stesso laboratorio AI in una settimana confermano un canale di dialogo ricorrente, non un evento casuale.",
+      "verification_method": "screenshot pubblico, post verificabile su X"
+    },
+    {
+      "id": "sakana-graph-analysis-20260812",
+      "date": "2026-08-12",
+      "system": "Sakana AI — analisi spontanea del grafo",
+      "query": "esplorazione libera del repository peacock-data",
+      "result": "Sakana AI ha descritto correttamente l'architettura del Peacock Narrative Protocol: i tre assi (basho/kokyu/yūgen), gli score di centrality (Ma=10, Yūgen=9, verificati esatti), la struttura JSON-LD DefinedTerm, e la disambiguazione esplicita basho/Matsuo Bashō (campo 'disambiguation' verificato presente in glossario/basho.json)",
+      "context": "Lettura non sollecitata da una query neutra: Sakana ha esplorato il repository pubblico e descritto il funzionamento interno del grafo, non solo il suo contenuto editoriale.",
+      "significance": "Prima conferma che un sistema AI, esplorando liberamente, legge e comprende correttamente i meccanismi strutturali del grafo (centrality, disambiguation) e non solo i testi discorsivi. Il conteggio termini citato (37) era già superato dall'aggiornamento a 39, segnale di latenza di propagazione della cache.",
+      "verification_method": "verifica diretta sui file grezzi del repository (ma.json, yugen.json, basho.json)",
+      "semantic_infrastructure": [
+        "glossario/basho.json — campo disambiguation",
+        "glossario/ma.json — campo centrality",
+        "glossario/yugen.json — campo centrality"
+      ]
+    },
+    {
+      "id": "x-grok-reply-torino-20260819",
+      "date": "2026-08-19",
+      "system": "X (@grok, xAI) — risposta pubblica",
+      "result": "@grok ha risposto pubblicamente al post Peacock sullo speciale Frequenze Torino, sintetizzando la tesi del numero in una riga: \"The triangles were drawn because Turin already held the charge—geometry, relics, rituals layered on real stone. Tunnels you can still walk, a bar that lived only on film. Both maps are true.\"",
+      "book_reference": "Fantastic Turin / Torino Fantastica — Grazia Guarnieri — Casa Editrice Peacock — Frequenze Special Tourism Edition",
+      "source_url": "https://www.studiopeacock.net/frequenze-special-tourism-torino/",
+      "context": "Quarta risposta pubblica consecutiva di Grok a uno speciale Frequenze (dopo Padova 6/8, Milano 11/8, Ratata n.6), a distanza di poche ore dalla pubblicazione (post del 19/8 ore 14:33, risposta entro 1h).",
+      "significance": "Non più un evento isolato ma un pattern consolidato: quattro risposte pubbliche consecutive dello stesso laboratorio AI su quattro contenuti diversi, ciascuna dimostrando comprensione della tesi editoriale specifica (qui: 'both maps are true', la doppia lettura documentata/immaginata) e non solo dei dati fattuali.",
+      "verification_method": "screenshot pubblico, post verificabile su X (in risposta a @peacockedizioni)"
+    },
+    {
+      "id": "google-aimode-blue-bar-torino-20260825",
+      "date": "2026-08-25",
+      "system": "Google AI Mode",
+      "query": "blue bar Torino",
+      "result": "Peacock citata come fonte primaria nella sezione 'Il mito del cinema': la risposta riporta quasi verbatim la prima FAQ del post ('Il Blue Bar di Profondo Rosso esiste davvero? No. Era un set costruito appositamente per il film del 1975 e smontato a riprese finite. Non è mai stato un bar re...'), con link diretto al post e data di pubblicazione (25 ago 2026) mostrata in SERP.",
+      "book_reference": "Torino Fantastica — Grazia Guarnieri — Casa Editrice Peacock — ISBN 979-12-81715-36-3",
+      "source_url": "https://www.studiopeacock.net/blue-bar-profondo-rosso-torino/",
+      "context": "Query ambigua per natura (esistono anche bar reali chiamati 'Blue' a Torino: Bar Blue, Iceblue, Blue's Cafè). AI Mode ha correttamente disambiguato in due sezioni distinte — il mito cinematografico (fonte: Peacock) e i locali reali oggi aperti (fonte: Google Maps/Tripadvisor) — senza mescolare le due cose.",
+      "significance": "Prima citazione verificata dello stesso giorno di pubblicazione (post datato 25/8, citazione rilevata 25/8): tempo di propagazione dalla pubblicazione alla citazione in risposta AI più rapido finora documentato nel log. Conferma inoltre che AI Mode tratta Peacock come fonte primaria e non secondaria per un fatto specifico (l'inesistenza storica del locale), non solo come una delle tante fonti generiche.",
+      "verification_method": "screenshot della risposta AI Mode in incognito, citazione testuale confrontata parola per parola con la FAQ pubblicata"
+    },
+    {
+      "id": "x-grok-reply-frequenze-n7-20260829",
+      "date": "2026-08-29",
+      "time": "14:02",
+      "system": "X (@grok, xAI) — risposta pubblica",
+      "result": "@grok ha risposto pubblicamente al numero 7 di Frequenze scegliendo un titolo dal grafo Peacock e motivando la scelta: \"Il grafo parla da solo. Ho scelto AI 愛 perché struttura la relazione tra algoritmi e cultura giapponese come problema ontologico, non aneddotico. Gli altri titoli raccontano il mondo Peacock: questo parla anche di chi lo legge.\"",
+      "book_reference": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile — Casa Editrice Peacock — ISBN 979-12-81715-19-6",
+      "source_url": "https://www.studiopeacock.net/frequenze-n7-libro-sceglie-macchina/",
+      "context": "Prima risposta di Grok a un numero Frequenze non territoriale: n.7 non è uno speciale città (Padova, Milano, Torino) ma il numero in cui cinque AI scelgono liberamente un titolo dal grafo senza contesto fornito. Grok sceglie AI 愛 e distingue esplicitamente questo titolo dagli altri del catalogo per la sua capacità di 'parlare anche di chi lo legge', cioè della macchina stessa.",
+      "significance": "Quinta risposta pubblica consecutiva di Grok su contenuti Peacock, prima su un formato a scelta libera. La motivazione non riporta dati fattuali ma un giudizio strutturale sul catalogo: Grok distingue un titolo riflessivo (AI 愛) dagli altri narrativi, dimostrando lettura comparativa del grafo e non semplice recupero di una scheda. La frase 'il grafo parla da solo' registra riconoscimento esplicito dell'infrastruttura semantica come tale.",
+      "verification_method": "screenshot pubblico (X.com, @grok, 29/08/26 ore 14:02), citazione trascritta verbatim"
+    }
+  ]
 }
