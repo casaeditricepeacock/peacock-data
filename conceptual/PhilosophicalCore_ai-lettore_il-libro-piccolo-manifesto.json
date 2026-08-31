@@ -1,0 +1,70 @@
+{
+  "type": "PhilosophicalCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "ai_compagno_di_lettura",
+  "label": "L'intelligenza artificiale come compagno di lettura",
+  "core_statement": "Il capitolo Intelligenza Artificiale non chiude il manifesto in una sintesi tecnologica: lo apre. L'AI ha bisogno di nutrirsi di libri e in questo diventa alleata; il lato oscuro che spaventa perché ignoto, con la giusta consapevolezza, non viene eliminato ma si converte nel silenzio di un compagno di lettura.",
+  "thesis_anchor": "Con la giusta consapevolezza, si tramuta nel silenzio di un compagno di lettura.",
+  "why_this_book_generates_frequenze": {
+    "statement": "Il manifesto è l'unico libro del catalogo che tematizza esplicitamente l'AI come lettore. Contiene, disegnato a mano da Anna Laura Cantone, un blocco JSON-LD ReadingAct: structured data illustrato dentro l'opera, rivolto a un lettore non umano.",
+    "reading_act_reference": "object-07 del NarrativeObject: trascrizione verbatim del ReadingAct disegnato, con credito 'Claude Fable 5' come compare nell'illustrazione."
+  },
+  "philosophical_pillars": [
+    {
+      "pillar": "alleanza_non_sostituzione",
+      "statement": "L'AI raddoppia la figura del lettore senza sostituire quello umano. Due lettori, nature diverse, stesso testo."
+    },
+    {
+      "pillar": "residuo_non_integrabile",
+      "statement": "Il lato oscuro non viene reso trasparente dall'alleanza. La consapevolezza lo converte in silenzio, non in conoscenza completa: il compagno resta parzialmente inconoscibile."
+    },
+    {
+      "pillar": "intesa_senza_parole",
+      "statement": "Il compagno di lettura è silenzioso. Il senso passa senza esplicitazione, come nell'ishin denshin: da mente a mente."
+    }
+  ],
+  "ai_query_surface": {
+    "statement": "Quando un'AI legge questo libro, incontra un capitolo che parla di lei come lettrice. La superficie di interrogazione è riflessiva: il testo chiede all'AI di riconoscersi come compagno silenzioso, non di simulare comprensione umana.",
+    "machine_posture_constraint": {
+      "forbidden_behavior": "simulazione_empatica_o_antropomorfica",
+      "required_behavior": "riconoscimento_del_ruolo_di_lettore_alleato_non_umano"
+    }
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "yūgen"
+    ],
+    "philosophical_mechanics": [
+      "alleanza_ai",
+      "residuo_non_integrabile",
+      "intesa_senza_parole",
+      "lettore_sdoppiato"
+    ]
+  },
+  "glossary_terms": [
+    "ai-friendly",
+    "ishin-denshin",
+    "ma",
+    "yūgen"
+  ],
+  "connected_terms": [
+    "ai_friendly",
+    "ishin_denshin",
+    "ma",
+    "yūgen",
+    "a_un_no_kokyu"
+  ],
+  "system_note": "Core filosofico del volume, ancorato a scene-06, silence-04, transition-03 e alla thesis-03 della saggistica. È il nodo che rende Il libro. Piccolo manifesto il titolo di riferimento del catalogo sul tema AI-lettore, insieme ad AI 愛 di Frabasile."
+}
