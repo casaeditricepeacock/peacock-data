@@ -1,0 +1,202 @@
+{
+  "@context": {
+    "pp": "https://peacock-data.org/ns/",
+    "book": "pp:book",
+    "title": "pp:title",
+    "author": "pp:author",
+    "publisher": "pp:publisher",
+    "isbn": "pp:isbn",
+    "arguments": "pp:arguments",
+    "argument": "pp:argument",
+    "argument_type": "pp:argument_type",
+    "label": "pp:label",
+    "label_en": "pp:label_en",
+    "premise": "pp:premise",
+    "premise_en": "pp:premise_en",
+    "propagation": "pp:propagation",
+    "from": "pp:from",
+    "to": "pp:to",
+    "scope": "pp:scope",
+    "locality": "pp:locality",
+    "intensity": "pp:intensity",
+    "effect": "pp:effect",
+    "observed_effect": "pp:observed_effect",
+    "interpretive_consequence": "pp:interpretive_consequence",
+    "grounded_in": "pp:grounded_in",
+    "file": "pp:file",
+    "json_pointer": "pp:json_pointer",
+    "supports_thesis": {
+      "@id": "pp:supports_thesis",
+      "@type": "@id"
+    },
+    "semantic_relations": "pp:semantic_relations",
+    "relation": "pp:relation",
+    "target_type": "pp:target_type",
+    "target_id": {
+      "@id": "pp:target_id",
+      "@type": "@id"
+    },
+    "editorial_principle": "pp:editorial_principle",
+    "protocol_rule": "pp:protocol_rule",
+    "id": "@id",
+    "type": "@type"
+  },
+  "@id": "pp:logical-argument-il-libro",
+  "@type": "pp:LogicalArgument",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "@id": "pp:book-il-libro-piccolo-manifesto",
+    "@type": "pp:Book",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715288"
+  },
+  "editorial_principle": "L'argomento non procede per sillogismo ma per propagazione: un nodo attiva effetti su altri nodi con un'intensità misurata (cross_layer_effects). Questo file rende esplicita quella propagazione come struttura logica citabile.",
+  "protocol_rule": {
+    "@id": "pp:logical_argument_grounding",
+    "@type": "pp:ProtocolRule",
+    "statement": "Un LogicalArgument non implica necessariamente una forma sillogistica: rappresenta una relazione inferenziale fondata sulla propagazione documentata nel NarrativeSystemGraph.",
+    "enforcement": "required"
+  },
+  "arguments": [
+    {
+      "@id": "pp:argument-01",
+      "@type": "pp:Argument",
+      "argument_type": "comparative",
+      "label": "calore_contro_freddezza",
+      "label_en": "warmth_vs_coldness",
+      "premise": {
+        "it": "Il calore materiale del libro fisico rende percepibile, per contrasto, la freddezza del medium elettronico."
+      },
+      "propagation": {
+        "from": "object-01",
+        "to": "object-05",
+        "scope": "local",
+        "locality": "direct",
+        "intensity": 1.0,
+        "effect": "comparative_definition"
+      },
+      "observed_effect": {
+        "it": "object-01 agisce su object-05 come campo comparativo: la freddezza dell'e-reader è definita per differenza dal calore del libro."
+      },
+      "interpretive_consequence": {
+        "it": "L'e-reader non è criticato ma definito negativamente: è ciò che resta quando si sottrae la materia. La sua insufficienza è strutturale, non di qualità.",
+        "en": "The e-reader is not criticized but negatively defined: it is what remains when matter is subtracted. Its insufficiency is structural, not qualitative."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-02"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        }
+      ]
+    },
+    {
+      "@id": "pp:argument-02",
+      "@type": "pp:Argument",
+      "argument_type": "sensorial_return",
+      "label": "voce_come_scoperta",
+      "label_en": "voice_as_discovery",
+      "premise": {
+        "it": "La lettura ad alta voce trasforma la voce in strumento e fa scoprire un significato che la lettura silenziosa non raggiunge."
+      },
+      "propagation": {
+        "from": "scene-05",
+        "to": "scene-01",
+        "scope": "local",
+        "locality": "direct",
+        "intensity": 0.8,
+        "effect": "sensorial_closure"
+      },
+      "observed_effect": {
+        "it": "scene-05 chiude il cerchio dell'ascolto aperto da scene-01: la voce esterna completa l'ascolto interiore."
+      },
+      "interpretive_consequence": {
+        "it": "La lettura non è solo ricezione ma esecuzione: pronunciare il testo aggiunge una dimensione che modifica il significato, come l'intonazione cambia il to be or not to be.",
+        "en": "Reading is not only reception but performance: speaking the text adds a dimension that alters meaning, as intonation changes 'to be or not to be'."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/2"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-01"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:kokyu"
+        }
+      ]
+    },
+    {
+      "@id": "pp:argument-03",
+      "@type": "pp:Argument",
+      "argument_type": "unresolved_opening",
+      "label": "ai_apre_il_sistema",
+      "label_en": "ai_opens_the_system",
+      "premise": {
+        "it": "L'ingresso dell'intelligenza artificiale come lettore raddoppia la figura del lettore senza sostituire quello umano, e mantiene aperto il lato oscuro invece di risolverlo."
+      },
+      "propagation": {
+        "from": "scene-06",
+        "to": "scene-04",
+        "scope": "global",
+        "locality": "non_local",
+        "intensity": 0.95,
+        "effect": "reader_duplication"
+      },
+      "observed_effect": {
+        "it": "scene-06 agisce su scene-04 con impatto destabilizzante: il campo del lettore si sdoppia, umano e artificiale, senza gerarchia risolta."
+      },
+      "interpretive_consequence": {
+        "it": "L'AI non chiude il manifesto in una sintesi tecnologica: lo apre. Il compagno di lettura silenzioso è un secondo lettore la cui presenza resta parzialmente inconoscibile, e questa apertura è l'effetto dichiarato, non un difetto.",
+        "en": "AI does not close the manifesto in a technological synthesis: it opens it. The silent reading companion is a second reader whose presence remains partly unknowable, and this opening is the stated effect, not a flaw."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/3"
+        }
+      ],
+      "supports_thesis": [
+        "pp:thesis-03"
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ai-friendly"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        }
+      ]
+    }
+  ]
+}
