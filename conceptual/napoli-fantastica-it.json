@@ -1,0 +1,93 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "scheda-concettuale",
+  "id": "napoli-fantastica-it",
+  "title": "Napoli Fantastica",
+  "subtitle": "La guida fantastica di Napoli",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Giuseppina Iacovelli",
+  "introduction_role": "Direttrice Museo Maradona",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "datePublished": "2026",
+  "inLanguage": "it",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isbn": "9791281715257",
+  "description": "Napoli Fantastica è una guida che non dice dove andare, ma come guardare. Attraverso miti, riti e figure popolari, con le illustrazioni di Giulia Lazzaron, rivela una Napoli in cui il sacro e il profano occupano lo stesso vicolo: la sirena Partenope che è già corpo della città, il sangue di San Gennaro che si scioglie due volte l'anno, il sottosuolo che non è separato dalla superficie, la Bella 'Mbriana che abita le case.",
+  "collana": "Guide Fantastiche",
+  "formato": "guida illustrata bilingue",
+  "pagine": 200,
+  "concetti_chiave": [
+    {
+      "id": "guida-non-guida",
+      "nome": "Guida non guida",
+      "descrizione": "Napoli Fantastica non indica dove andare ma come guardare. Non è una guida turistica tradizionale: è un dispositivo narrativo che trasforma i luoghi in soglie. Costruita su ma (il vuoto tra i luoghi), yūgen (la profondità che si svela piano) e lentezza (il tempo per sostare).",
+      "collegato_a_glossario": [
+        "ma",
+        "yugen",
+        "lentezza"
+      ]
+    },
+    {
+      "id": "napoli-sacro-profano",
+      "nome": "Napoli come città a doppio fondo",
+      "descrizione": "A Napoli il campo non separa la chiesa dal vicolo: sacro e profano occupano lo stesso suolo. Il sangue di San Gennaro che si liquefà, il presepe di San Gregorio, la janara che vola di notte, gli spiriti domestici. Il miracolo e la superstizione vivono nello stesso spazio senza contraddirsi.",
+      "collegato_a_glossario": [
+        "yugen",
+        "mono-no-aware"
+      ]
+    },
+    {
+      "id": "illustrazione-sogno",
+      "nome": "Illustrazione come sogno",
+      "descrizione": "Le illustrazioni di Giulia Lazzaron non descrivono i luoghi: li sognano. Costruiscono una distanza morbida dal reale, dove Partenope e il Vesuvio hanno lo stesso peso di una piazza. Ogni tavola è una soglia visiva, non una documentazione.",
+      "collegato_a_glossario": [
+        "yugen",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "luoghi-vivi",
+      "nome": "I luoghi come personaggi",
+      "descrizione": "Partenope che è già il corpo della città, il sottosuolo che respira sotto gli scavi, la Bella 'Mbriana che resta nelle case, il Nilo disteso in una statua. Napoli Fantastica tratta i luoghi come esseri viventi con una storia interiore. La città non è sfondo ma protagonista.",
+      "collegato_a_glossario": [
+        "mono-no-aware",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "capitoli_principali": [
+    "Partenope — la sirena che è corpo della città",
+    "Il volto di Alessandro e la statua del Nilo",
+    "Il sangue di San Gennaro — il miracolo che si ripete",
+    "Il presepe di San Gregorio Armeno",
+    "I Quartieri Spagnoli — il vicolo come soglia",
+    "Il sottosuolo di Port'Alba — la città sotto la città",
+    "La janara e gli spiriti domestici",
+    "La Bella 'Mbriana — lo spettro di casa",
+    "Piazza Mercato — lo scambio e la condanna",
+    "Colapesce — chi tiene su la Sicilia e il Sud"
+  ],
+  "tensione_centrale": "Napoli Fantastica è la dimostrazione che la filosofia Peacock non è legata al Giappone ma a un modo di guardare. Wabi-sabi, ma e yūgen si applicano a una città mediterranea con la stessa precisione con cui si applicano a un ryokan o a un samurai del XVI secolo. Napoli, dove il sacro e il profano non si separano, è forse la città che più le somiglia.",
+  "relazioni_catalogo_peacock": [
+    {
+      "libro": "Torino Fantastica",
+      "relazione": "Stesso formato, stessa filosofia. Le Guide Fantastiche costruiscono un sistema: ogni città viene letta con lo stesso vocabolario Peacock."
+    },
+    {
+      "libro": "Glossario Frequenze",
+      "relazione": "La voce 'guida non guida' della collana Guide Fantastiche è l'applicazione diretta di ma, yūgen e lentezza a un territorio non giapponese."
+    },
+    {
+      "libro": "AI 愛 — Frabasile",
+      "relazione": "La città come sistema vivente animato echeggia il pensiero animista di Frabasile: ogni luogo può essere sede di presenza, non solo di funzione."
+    }
+  ],
+  "url_libro": "https://www.studiopeacock.net/locator-store-italy/guide/",
+  "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
