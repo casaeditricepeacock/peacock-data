@@ -1,0 +1,124 @@
+{
+  "type": "ConceptualThesis",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715288"
+  },
+  "editorial_principle": "La tesi di un saggio non è un'opinione da riassumere ma un campo cognitivo che il testo attraversa senza chiuderlo. Questo nodo rende esplicita, e citabile singolarmente, l'architettura concettuale che nel manifesto è portata dalle sezioni.",
+  "protocol_rule": {
+    "id": "conceptual_thesis_grounding",
+    "statement": "Una ConceptualThesis non può introdurre una tesi priva di grounding strutturale nel NarrativeSystemGraph, nei dati del libro o in un'altra fonte dichiarata.",
+    "enforcement": "required"
+  },
+  "theses": [
+    {
+      "id": "thesis-01",
+      "label": "libro_come_corpo",
+      "label_en": "book_as_body",
+      "statement_it": "Il libro non è il suo contenuto ma il corpo materiale che lo trattiene: carta, inchiostro, calore, peso. Ciò che il contenuto puro non trasmette è esattamente il valore dell'oggetto.",
+      "statement_en": "The book is not its content but the material body that holds it: paper, ink, warmth, weight. What pure content cannot transmit is precisely the value of the object.",
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/core_field"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/global_state/dominant_field"
+        }
+      ],
+      "resolution_status": {
+        "status": "stabile",
+        "closure": false,
+        "closure_type": "material_persistence"
+      },
+      "textual_anchor_it": "Il libro invece emana più calore che corrisponde alle misure umane.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "mottainai"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "wabi-sabi"
+        }
+      ]
+    },
+    {
+      "id": "thesis-02",
+      "label": "oggetto_contro_medium",
+      "label_en": "object_vs_medium",
+      "statement_it": "Il lettore elettronico non è un libro ma un portatore: conserva il contenuto e sottrae la dimensione fisica. La differenza tra i due non è di grado ma di natura.",
+      "statement_en": "The e-reader is not a book but a carrier: it stores content and subtracts the physical dimension. The difference between the two is not of degree but of kind.",
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        }
+      ],
+      "resolution_status": {
+        "status": "aperta",
+        "closure": false,
+        "closure_type": "comparative_tension"
+      },
+      "textual_anchor_it": "Il lettore elettronico, infatti, non è un libro, è solo un portatore, un medium.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    },
+    {
+      "id": "thesis-03",
+      "label": "ai_come_lettore",
+      "label_en": "ai_as_reader",
+      "statement_it": "Anche l'intelligenza artificiale ha bisogno di nutrirsi di libri. Il lato oscuro che spaventa perché ignoto, con la giusta consapevolezza, non viene eliminato ma si converte nel silenzio di un compagno di lettura: un secondo lettore che coesiste con quello umano senza sostituirlo.",
+      "statement_en": "Artificial intelligence too needs to feed on books. The dark side that frightens because unknown is not eliminated but, with the right awareness, converts into the silence of a reading companion: a second reader that coexists with the human one without replacing it.",
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/3"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/global_state/closure"
+        }
+      ],
+      "resolution_status": {
+        "status": "aperta",
+        "closure": false,
+        "closure_type": "unresolved_opening"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il lato oscuro dell'AI non viene reso trasparente dall'alleanza: la consapevolezza lo trasforma in silenzio, non in conoscenza completa. L'AI resta un compagno di lettura parzialmente inconoscibile."
+      },
+      "textual_anchor_it": "Con la giusta consapevolezza, si tramuta nel silenzio di un compagno di lettura.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ai-friendly"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
+    }
+  ]
+}
