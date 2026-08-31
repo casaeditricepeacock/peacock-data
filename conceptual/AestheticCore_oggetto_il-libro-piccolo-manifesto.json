@@ -1,0 +1,58 @@
+{
+  "type": "AestheticCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "estetica_oggetto_libro",
+  "label": "L'estetica dell'oggetto — carta, inchiostro, tipografia, copertina",
+  "classification": "nucleo estetico-materiale",
+  "core_statement": "Il capitolo L'oggetto costruisce un'estetica sensoriale del libro fisico. Il profumo di carta acquieta la mente; il sentore d'inchiostro trasmette spessori culturali. La struttura della carta non rivela i contenuti ma fa presagire le ambizioni dell'editore. Ogni elemento materiale è già significato, prima delle parole.",
+  "aesthetic_matrix": {
+    "olfactory": "il profumo di carta acquieta la mente; il sentore d'inchiostro trasmette spessori culturali",
+    "tactile": "i fogli morbidi e pieghevoli, le sensazioni al tatto dei diversi tipi di carta, lo spessore, la consistenza delle fibre, il processo di lavorazione",
+    "chromatic": "lo spazio che accoglie tipografia e immagini può assumere ogni colore: dal foglio bianco che ricorda il punto di partenza al foglio nero che esprime un concetto inespresso",
+    "typographic": "la tipografia è un mondo a parte: ogni tipologia di scrittura trova grafiche idonee a creare atmosfere visive",
+    "cover": "la copertina è il primo contatto: rigida promette solidità e persistenza, flessibile promette leggerezza. Si distinguono per la forma, non per il contenuto"
+  },
+  "wabi_sabi_model": {
+    "statement": "L'imperfezione e la traccia materiale del libro sono valore, non difetto. Il foglio nero che esprime un concetto inespresso è il vuoto attivo: ciò che non si dice conta quanto ciò che si stampa.",
+    "principle": "la materia annuncia senza dichiarare"
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "wabi_sabi",
+      "ma",
+      "yūgen"
+    ],
+    "material_mechanics": [
+      "profumo_carta",
+      "sentore_inchiostro",
+      "foglio_bianco_nero",
+      "tipografia_atmosfera",
+      "copertina_soglia"
+    ]
+  },
+  "glossary_terms": [
+    "wabi_sabi",
+    "ma",
+    "yūgen",
+    "lentezza"
+  ],
+  "connected_terms": [
+    "wabi_sabi",
+    "ma",
+    "yūgen",
+    "lentezza",
+    "mottainai"
+  ],
+  "system_note": "Core estetico del volume, ancorato al capitolo L'oggetto e agli object-02 (carta), object-03 (inchiostro), object-04 (copertina) del NarrativeObject. L'estetica materiale è la faccia sensoriale della tesi libro-corpo."
+}
