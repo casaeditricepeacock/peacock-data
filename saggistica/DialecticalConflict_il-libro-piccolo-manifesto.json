@@ -1,0 +1,209 @@
+{
+  "@context": {
+    "pp": "https://peacock-data.org/ns/",
+    "book": "pp:book",
+    "title": "pp:title",
+    "author": "pp:author",
+    "publisher": "pp:publisher",
+    "isbn": "pp:isbn",
+    "conflicts": "pp:conflicts",
+    "conflict": "pp:conflict",
+    "conflict_type": "pp:conflict_type",
+    "label": "pp:label",
+    "label_en": "pp:label_en",
+    "pole_a": "pp:pole_a",
+    "pole_b": "pp:pole_b",
+    "tension_score": {
+      "@id": "pp:tension_score",
+      "@type": "xsd:double"
+    },
+    "resolution_status": "pp:resolution_status",
+    "status": "pp:status",
+    "description": "pp:description",
+    "source_property": "pp:source_property",
+    "forbidden_state": "pp:forbidden_state",
+    "non_integrable_residue": "pp:non_integrable_residue",
+    "grounded_in": "pp:grounded_in",
+    "file": "pp:file",
+    "json_pointer": "pp:json_pointer",
+    "semantic_relations": "pp:semantic_relations",
+    "relation": "pp:relation",
+    "target_type": "pp:target_type",
+    "target_id": {
+      "@id": "pp:target_id",
+      "@type": "@id"
+    },
+    "editorial_principle": "pp:editorial_principle",
+    "protocol_rule": "pp:protocol_rule",
+    "statement": "pp:statement",
+    "enforcement": "pp:enforcement",
+    "id": "@id",
+    "type": "@type",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "pp:dialectical-conflict-il-libro",
+  "@type": "pp:DialecticalConflict",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol, livello saggistico",
+  "book": {
+    "@id": "pp:book-il-libro-piccolo-manifesto",
+    "@type": "pp:Book",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715288"
+  },
+  "editorial_principle": "Il conflitto dialettico è l'equivalente, per un saggio, della tensione irrisolta che in un romanzo porta un nome. Qui i poli sono ancorati agli effetti di propagazione e ai loop misurati nel NarrativeSystemGraph del libro.",
+  "protocol_rule": {
+    "@id": "pp:dialectical-conflict-rule",
+    "@type": "pp:ProtocolRule",
+    "statement": "Un DialecticalConflict rappresenta una tensione strutturale tra due poli concettuali. Il conflitto non implica necessariamente una contraddizione logica risolvibile: può rimanere aperto, parallelamente attivo o non integrabile.",
+    "enforcement": "required"
+  },
+  "conflicts": [
+    {
+      "@id": "pp:conflict-01",
+      "@type": "pp:Conflict",
+      "conflict_type": "material_ontological",
+      "label": "libro_vs_contenuto",
+      "label_en": "book_vs_content",
+      "pole_a": {
+        "it": "Il libro come corpo materiale: carta, inchiostro, calore, peso."
+      },
+      "pole_b": {
+        "it": "Il contenuto puro, trasferibile su qualsiasi supporto senza la materia."
+      },
+      "tension_score": 1.0,
+      "resolution_status": {
+        "status": "unresolved",
+        "description": "È la tensione fondativa del manifesto: la materia e il contenuto non sono equivalenti e il libro non li riconcilia.",
+        "source_property": "cross_layer_effects/0"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il manifesto non stabilisce che il contenuto basti: dichiara la materia come valore autonomo, non come veicolo sostituibile."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/0"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/core_field"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:wabi-sabi"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-01"
+        }
+      ]
+    },
+    {
+      "@id": "pp:conflict-02",
+      "@type": "pp:Conflict",
+      "conflict_type": "perceptual_medium",
+      "label": "calore_vs_neutralita",
+      "label_en": "warmth_vs_neutrality",
+      "pole_a": {
+        "it": "Il calore del libro fisico, che corrisponde alle misure umane."
+      },
+      "pole_b": {
+        "it": "La neutralità termica del lettore elettronico, privo di materia."
+      },
+      "tension_score": 0.9,
+      "resolution_status": {
+        "status": "parallel_active",
+        "description": "I due supporti coesistono nel mercato e nell'uso senza fondersi: la differenza resta percepibile."
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "L'e-reader non viene abolito né equiparato al libro: resta un portatore che coesiste con l'oggetto senza colmarne la distanza materiale."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/1"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-object.json",
+          "json_pointer": "/objects/4"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-02"
+        }
+      ]
+    },
+    {
+      "@id": "pp:conflict-03",
+      "@type": "pp:Conflict",
+      "conflict_type": "cognitive_agency",
+      "label": "lettore_umano_vs_lettore_ai",
+      "label_en": "human_reader_vs_ai_reader",
+      "pole_a": {
+        "it": "Il lettore umano che entra nel libro e lo fa vivere."
+      },
+      "pole_b": {
+        "it": "L'intelligenza artificiale come secondo lettore, che si nutre di libri e legge accanto senza parlare."
+      },
+      "tension_score": 0.95,
+      "resolution_status": {
+        "status": "open",
+        "description": "L'AI non sostituisce il lettore umano ma non si dissolve in esso: i due leggono lo stesso testo con nature diverse.",
+        "forbidden_state": "ai_replaces_human_reader"
+      },
+      "non_integrable_residue": {
+        "status": true,
+        "description": "Il lato oscuro dell'AI non viene reso trasparente dall'alleanza. La consapevolezza lo converte in silenzio, non in conoscenza completa: il compagno di lettura resta parzialmente inconoscibile."
+      },
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/cross_layer_effects/2"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/3"
+        },
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/global_state/closure"
+        }
+      ],
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ai-friendly"
+        },
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "pp:ma"
+        },
+        {
+          "relation": "supports",
+          "target_type": "conceptual_thesis",
+          "target_id": "pp:thesis-03"
+        }
+      ]
+    }
+  ]
+}
