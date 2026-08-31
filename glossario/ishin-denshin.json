@@ -1,0 +1,46 @@
+{
+ "type": "GlossaryTerm",
+ "id": "ishin-denshin",
+ "term": "Ishin denshin",
+ "kanji": "以心伝心",
+ "aliases": [
+  "Ishin denshin",
+  "ishin denshin",
+  "ishin_denshin",
+  "以心伝心"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La comprensione che passa da mente a mente, da cuore a cuore, senza mediazione verbale. Intesa che non ha bisogno di parole.",
+ "definition_short_en": "Understanding transmitted from mind to mind, heart to heart, without verbal mediation. A meeting of minds that needs no words.",
+ "peacock_principle": "Il senso passa al lettore attraverso la costruzione del libro, non attraverso la spiegazione.",
+ "connected_terms": [
+  "ma",
+  "yugen",
+  "mono_no_aware",
+  "kokyu"
+ ],
+ "books_applied": [
+  "il_libro_piccolo_manifesto"
+ ],
+ "books_applied_paths": [
+  "books/il-libro-piccolo-manifesto"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ishin denshin",
+  "description": "Understanding transmitted from mind to mind, heart to heart, without verbal mediation. A meeting of minds that needs no words.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ishin-denshin.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "以心伝心"
+ },
+ "protocol_axis": "asse della profondità nel Peacock Narrative Protocol"
+}
