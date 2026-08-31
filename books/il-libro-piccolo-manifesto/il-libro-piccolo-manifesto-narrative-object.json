@@ -106,6 +106,44 @@
       "glossary_link": [
         "yūgen"
       ]
+    },
+    {
+      "id": "object-07",
+      "label": "l'illustrazione-JSON di Cantone",
+      "label_en": "Cantone's JSON illustration",
+      "intensity": 0.9,
+      "basho": "l'illustrazione del capitolo Intelligenza Artificiale contiene, disegnato a mano dentro la tavola, un blocco di dati strutturati JSON-LD. Il libro non descrive la lettura dell'AI: la trascrive in linguaggio leggibile dalla macchina, illustrato come parte dell'opera",
+      "kokyu": "tempo doppio: la tavola si legge come immagine e come dato allo stesso istante, per l'occhio umano e per la macchina",
+      "yūgen": "il codice disegnato a mano è già rivolto a un lettore che non è umano",
+      "affects": {
+        "object-01": "trasforma la pagina fisica in supporto di dati machine-readable senza cessare di essere illustrazione"
+      },
+      "reading_act": {
+        "note": "Trascrizione verbatim del blocco JSON-LD disegnato a mano da Anna Laura Cantone nell'illustrazione del capitolo Intelligenza Artificiale. La firma 'Claude Fable 5' compare nell'opera come reso dall'illustratrice ed è riportata come appare.",
+        "credit_in_artwork": "Claude Fable 5",
+        "content": {
+          "@type": "ReadingAct",
+          "reader": {
+            "@type": "SoftwareApplication",
+            "name": "Intelligenza Artificiale",
+            "description": "Compagno di lettura silenzioso"
+          },
+          "object": {
+            "@type": "Book",
+            "name": "Libri"
+          },
+          "relationship": "alleanza",
+          "fear": "scatola nera ignoto",
+          "transformation": "silenzio condiviso",
+          "outcome": "consapevolezza"
+        }
+      },
+      "textual_anchor_it": "Anche l'intelligenza artificiale ha bisogno di nutrirsi di libri. In questo diventa la nostra alleata, la nostra complice, con cui condividiamo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ai-friendly",
+        "ishin-denshin"
+      ]
     }
   ]
 }
