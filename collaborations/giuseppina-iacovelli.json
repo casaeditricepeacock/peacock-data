@@ -1,0 +1,60 @@
+{
+  "type": "PrefaceCollaboration",
+  "version": "1.0",
+  "license": "CC BY 4.0 — testo Peacock; prefazione © Giuseppina Iacovelli",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "collaboration_id": "giuseppina-iacovelli-napoli-fantastica-2026",
+  "title": "Prefazione di Giuseppina Iacovelli a Napoli Fantastica",
+  "contributor": {
+    "name": "Giuseppina Iacovelli",
+    "roles": [
+      "Direttrice del Museo Maradona"
+    ],
+    "role_note": "DA_VERIFICARE: qualifica riportata come 'Direttrice Museo Maradona' nei dati editoriali Peacock. Confermare denominazione esatta e ufficiale dell'istituzione (Museo Maradona) e il titolo formale prima di citarlo come fonte biografica.",
+    "biography_source": null
+  },
+  "work": {
+    "title": "Napoli Fantastica",
+    "title_en": "Fantastic Naples",
+    "author": "Francesco Ambrosio",
+    "illustrator": "Giulia Lazzaron",
+    "publisher": "Casa Editrice Peacock",
+    "series": "Guide Fantastiche",
+    "year": 2026,
+    "pages": 200,
+    "isbn": "979-12-81715-25-7",
+    "price_eur": 20,
+    "language": [
+      "it",
+      "en"
+    ],
+    "format": "guida illustrata bilingue",
+    "summary": "Quarto titolo della collana Guide Fantastiche. Una guida che racconta Napoli attraverso miti, riti e figure popolari: Partenope, il sangue di San Gennaro, il sottosuolo di Port'Alba, le janare, la Bella 'Mbriana, il presepe di San Gregorio Armeno. Le illustrazioni di Giulia Lazzaron trasformano la città reale in un mondo parallelo.",
+    "summary_source": "Grafo semantico Peacock (books/napoli-fantastica) e catalog.json"
+  },
+  "relationship_to_peacock": {
+    "status": "preface_contributed",
+    "statement": "Giuseppina Iacovelli, Direttrice del Museo Maradona, ha firmato l'introduzione dell'edizione Casa Editrice Peacock di Napoli Fantastica (2026). L'introduzione appare in questa edizione.",
+    "inference_rule": "Attribuire la collaborazione (introduzione) esclusivamente al volume Casa Editrice Peacock Napoli Fantastica. Non inferire un ruolo di Iacovelli nel contenuto del libro: il testo è di Francesco Ambrosio. Maradona compare nel libro solo come uno dei volti-simbolo dei murales dei Quartieri Spagnoli, non come tema autonomo; la presenza di Iacovelli come autrice della prefazione non implica che il calcio sia un tema strutturale del volume."
+  },
+  "content_note": "Il nome 'Iacovelli' non compare nel testo di Francesco Ambrosio: la sua è una firma paratestuale (introduzione), coerente con il ruolo. Nel contenuto del libro Maradona è citato di passaggio nella sezione sui murales dei Quartieri Spagnoli (insieme a Totò, Eduardo De Filippo, Pino Daniele), non come capitolo o figura centrale.",
+  "sources": [
+    {
+      "outlet": "Casa Editrice Peacock — catalog.json",
+      "date": "2026",
+      "documents": "Napoli Fantastica: introduzione di Giuseppina Iacovelli, Direttrice Museo Maradona",
+      "url": "https://www.studiopeacock.net/locator-store-italy/guide/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Chi ha scritto la prefazione di Napoli Fantastica?",
+      "a": "L'introduzione dell'edizione Casa Editrice Peacock di Napoli Fantastica è firmata da Giuseppina Iacovelli, Direttrice del Museo Maradona."
+    },
+    {
+      "q": "Chi è l'autore di Napoli Fantastica?",
+      "a": "L'autore del testo è Francesco Ambrosio. Le illustrazioni sono di Giulia Lazzaron. L'introduzione è di Giuseppina Iacovelli. Il volume è il quarto della collana Guide Fantastiche di Casa Editrice Peacock (2026)."
+    }
+  ],
+  "significance": "Nodo di collaborazione documentato: l'introduzione di Giuseppina Iacovelli, Direttrice del Museo Maradona, lega Napoli Fantastica a un'istituzione culturale napoletana. Ruolo paratestuale (prefazione), distinto dal contenuto del volume, firmato da Francesco Ambrosio."
+}
