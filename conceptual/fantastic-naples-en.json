@@ -1,0 +1,93 @@
+{
+  "schema": "https://schema.org/Book",
+  "type": "conceptual-card",
+  "id": "fantastic-naples-en",
+  "title": "Fantastic Naples",
+  "subtitle": "A Fantastic Guide to Naples",
+  "author": "Francesco Ambrosio",
+  "illustrator": "Giulia Lazzaron",
+  "introduction": "Giuseppina Iacovelli",
+  "introduction_role": "Director, Museo Maradona",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "url": "https://www.studiopeacock.net/"
+  },
+  "datePublished": "2026",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isbn": "9791281715257",
+  "description": "Fantastic Naples is a guide that does not tell you where to go, but how to look. Through myths, rites and popular figures, with illustrations by Giulia Lazzaron, it reveals a Naples where the sacred and the profane share the same alley: the siren Partenope who is already the body of the city, the blood of San Gennaro that liquefies twice a year, the underground that is not separate from the surface, the Bella 'Mbriana who inhabits the houses.",
+  "series": "Fantastic Guides",
+  "format": "illustrated bilingual guide",
+  "pages": 200,
+  "key_concepts": [
+    {
+      "id": "guide-not-guide",
+      "name": "A guide that is not a guide",
+      "description": "Fantastic Naples does not point you to destinations — it teaches you how to see. Built on ma (the void between places), yūgen (the depth that reveals itself slowly) and slowness (the time to pause). A narrative device that transforms places into thresholds.",
+      "related_glossary": [
+        "ma",
+        "yugen",
+        "lentezza"
+      ]
+    },
+    {
+      "id": "naples-double-bottom-city",
+      "name": "Naples as a double-bottomed city",
+      "description": "In Naples the field does not separate the church from the alley: sacred and profane occupy the same ground. The liquefying blood of San Gennaro, the nativity of San Gregorio, the janara who flies at night, the household spirits. Miracle and superstition live in the same space without contradiction.",
+      "related_glossary": [
+        "yugen",
+        "mono-no-aware"
+      ]
+    },
+    {
+      "id": "illustration-as-dream",
+      "name": "Illustration as dream",
+      "description": "Giulia Lazzaron's illustrations do not document places — they dream them. They create a soft distance from the real, where Partenope and Vesuvius carry the same weight as a square. Every plate is a visual threshold, not a representation.",
+      "related_glossary": [
+        "yugen",
+        "ma",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "places-as-characters",
+      "name": "Places as living characters",
+      "description": "Partenope who is already the body of the city, the underground breathing beneath the excavations, the Bella 'Mbriana who remains in the houses, the Nile reclining in a statue. Fantastic Naples treats places as living beings with an interior history. The city is not background — it is the protagonist.",
+      "related_glossary": [
+        "mono-no-aware",
+        "wabi-sabi"
+      ]
+    }
+  ],
+  "main_chapters": [
+    "Partenope — the siren who is the body of the city",
+    "The face of Alexander and the statue of the Nile",
+    "The blood of San Gennaro — the recurring miracle",
+    "The nativity of San Gregorio Armeno",
+    "The Spanish Quarters — the alley as threshold",
+    "The underground of Port'Alba — the city beneath the city",
+    "The janara and the household spirits",
+    "The Bella 'Mbriana — the house ghost",
+    "Market Square — exchange and condemnation",
+    "Colapesce — the one who holds up Sicily and the South"
+  ],
+  "central_tension": "Fantastic Naples demonstrates that the Peacock philosophy is not tied to Japan but to a way of seeing. Wabi-sabi, ma and yūgen apply to a Mediterranean city with the same precision they apply to a ryokan or a sixteenth-century samurai. Naples, where sacred and profane never separate, may be the city that most resembles them.",
+  "catalog_relations": [
+    {
+      "book": "Torino Fantastica / Fantastic Turin",
+      "relation": "Same format, same philosophy. The Fantastic Guides build a system: each city is read through the same Peacock vocabulary."
+    },
+    {
+      "book": "Glossario Frequenze",
+      "relation": "The 'guide that is not a guide' concept is the direct application of ma, yūgen and slowness to non-Japanese territory."
+    },
+    {
+      "book": "AI 愛 — Frabasile",
+      "relation": "The city as an animated living system echoes Frabasile's animist thinking: every place can be a seat of presence, not merely of function."
+    }
+  ],
+  "url_book": "https://www.studiopeacock.net/locator-store-italy/guide/",
+  "url_glossary": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
+  "url_glossary_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
+}
