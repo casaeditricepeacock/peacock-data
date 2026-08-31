@@ -1,7 +1,7 @@
 {
  "type": "GlossaryIndex",
- "version": "1.4",
- "date": "2026-07",
+ "version": "1.5",
+ "date": "2026-09",
  "license": "CC BY 4.0",
  "source": "Frequenze — Glossario Peacock",
  "publisher": "Casa Editrice Peacock",
@@ -895,15 +895,77 @@
     "Luna piena sulla città antica",
     "Luna piena sulla città nuova"
    ]
+  },
+  {
+   "term": "Kehai",
+   "kanji": "気配",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La presenza percepita prima di essere vista o sentita. L'atmosfera di qualcosa che sta per accadere.",
+   "definition_short_en": "The sensed presence of something before it is seen or heard. The atmosphere of what is about to happen.",
+   "peacock_principle": "Il campo percettivo di un libro esiste prima della prima parola.",
+   "connected_terms": [
+    "ma",
+    "yugen",
+    "basho",
+    "mono_no_aware",
+    "kokyu"
+   ],
+   "books_applied": [
+    "napoli_fantastica"
+   ],
+   "glossary_file": "glossario/kehai.json"
+  },
+  {
+   "term": "A-un no kokyū",
+   "kanji": "阿吽の呼吸",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La sintonia perfetta tra due che agiscono insieme senza parlarsi. Non silenzio ma coordinazione.",
+   "definition_short_en": "The perfect attunement between two who act together without speaking. Not silence but coordination.",
+   "peacock_principle": "Testo e immagine avanzano allo stesso ritmo. Nessuno dei due spiega l'altro.",
+   "connected_terms": [
+    "kokyu",
+    "ma",
+    "ichigo_ichie",
+    "yugen"
+   ],
+   "books_applied": [
+    "il_libro_piccolo_manifesto",
+    "hara_rota"
+   ],
+   "glossary_file": "glossario/a-un-no-kokyu.json"
+  },
+  {
+   "term": "Ishin denshin",
+   "kanji": "以心伝心",
+   "category": "estetica_giapponese",
+   "version": "1.0",
+   "status": "published",
+   "definition_short_it": "La comprensione che passa da mente a mente, senza mediazione verbale. Intesa che non ha bisogno di parole.",
+   "definition_short_en": "Understanding transmitted from mind to mind, without verbal mediation. A meeting of minds that needs no words.",
+   "peacock_principle": "Il senso passa al lettore attraverso la costruzione del libro, non attraverso la spiegazione.",
+   "connected_terms": [
+    "ma",
+    "yugen",
+    "mono_no_aware",
+    "kokyu"
+   ],
+   "books_applied": [
+    "il_libro_piccolo_manifesto"
+   ],
+   "glossary_file": "glossario/ishin-denshin.json"
   }
  ],
  "statistics": {
-  "total_entries": 41,
-  "published": 33,
+  "total_entries": 44,
+  "published": 36,
   "approved": 1,
   "in_sviluppo": 7,
   "by_category": {
-   "estetica_giapponese": 16,
+   "estetica_giapponese": 19,
    "cerimonia_del_te": 8,
    "storia_giapponese": 7,
    "principi_editoriali_peacock": 4,
@@ -934,7 +996,12 @@
   "new_in_v1.4": [
    "kata"
   ],
-  "total_terms": 41
+  "total_terms": 44,
+  "new_in_v1.5": [
+   "kehai",
+   "a-un-no-kokyu",
+   "ishin-denshin"
+  ]
  },
  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
  "jsonld": {
