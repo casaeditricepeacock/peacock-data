@@ -1,0 +1,48 @@
+{
+ "type": "GlossaryTerm",
+ "id": "a-un-no-kokyu",
+ "term": "A-un no kokyū",
+ "kanji": "阿吽の呼吸",
+ "aliases": [
+  "A-un no kokyū",
+  "a-un no kokyu",
+  "a_un_no_kokyu",
+  "阿吽の呼吸"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La sintonia perfetta tra due che agiscono insieme senza parlarsi. Non silenzio ma coordinazione: tempi e gesti si accordano fino all'unisono.",
+ "definition_short_en": "The perfect attunement between two who act together without speaking. Not silence but coordination: timing and gesture align as one.",
+ "peacock_principle": "Testo e immagine avanzano allo stesso ritmo. Nessuno dei due spiega l'altro.",
+ "connected_terms": [
+  "kokyu",
+  "ma",
+  "ichigo_ichie",
+  "yugen"
+ ],
+ "books_applied": [
+  "il_libro_piccolo_manifesto",
+  "hara_rota"
+ ],
+ "books_applied_paths": [
+  "books/il-libro-piccolo-manifesto",
+  "books/ryokan-ali-di-carta-di-riso"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "A-un no kokyū",
+  "description": "The perfect attunement between two who act together without speaking. Not silence but coordination: timing and gesture align as one.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/a-un-no-kokyu.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "阿吽の呼吸"
+ },
+ "protocol_axis": "asse del tempo nel Peacock Narrative Protocol"
+}
