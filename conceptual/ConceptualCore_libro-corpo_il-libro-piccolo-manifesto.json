@@ -1,0 +1,55 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "libro_corpo_contro_contenuto",
+  "label": "Il libro come corpo — contro il contenuto puro",
+  "core_question": "Cosa distingue un libro dal suo contenuto?",
+  "core_statement": "Il nucleo del manifesto è una distinzione di natura, non di grado: il libro è il corpo materiale che trattiene il contenuto, non il contenuto stesso. Il lettore elettronico conserva le parole e sottrae la materia; il libro invece emana un calore che corrisponde alle misure umane. Ciò che il contenuto puro non trasmette è esattamente il valore dell'oggetto.",
+  "thesis_anchor": "Il libro invece emana più calore che corrisponde alle misure umane.",
+  "opposition": {
+    "pole_object": "il libro fisico: carta, inchiostro, calore, peso, suono delle pagine",
+    "pole_medium": "il lettore elettronico: portatore del solo contenuto, privo di materia, freddo per condizione",
+    "statement": "Il lettore elettronico non è un libro, è solo un portatore, un medium. L'esperienza di lettura resta limitata, perde una dimensione che appartiene all'emozione, mettendo al centro l'intelligenza analitica non per scelta ma per condizioni presupposte."
+  },
+  "what_remains": {
+    "statement": "I libri ci cambiano anche quando non li ricordiamo più. Le emozioni che un libro ha lasciato possono accompagnarci senza ricordi concreti di ciò che le produsse.",
+    "mechanism": "la rilettura confonde e mescola i contenuti, creando nuove storie a nostra insaputa: un atto creativo che estende le singole letture in qualcosa di ampliato."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "wabi_sabi",
+      "ma",
+      "mono_no_aware"
+    ],
+    "conceptual_mechanics": [
+      "materia_vs_contenuto",
+      "calore_come_misura_umana",
+      "memoria_alterata"
+    ]
+  },
+  "glossary_terms": [
+    "wabi_sabi",
+    "ma",
+    "mono_no_aware",
+    "mottainai"
+  ],
+  "connected_terms": [
+    "wabi_sabi",
+    "ma",
+    "mono_no_aware",
+    "mottainai",
+    "lentezza"
+  ],
+  "system_note": "Nucleo concettuale del manifesto. Il libro-corpo è il core_field del NarrativeSystemGraph (scene-02, field-01). Ogni altro Core del volume ruota attorno a questa distinzione fondativa tra materia e contenuto."
+}
