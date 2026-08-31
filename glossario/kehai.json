@@ -1,0 +1,46 @@
+{
+ "type": "GlossaryTerm",
+ "id": "kehai",
+ "term": "Kehai",
+ "kanji": "気配",
+ "aliases": [
+  "Kehai",
+  "kehai",
+  "気配"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.0",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La presenza percepita prima di essere vista o sentita. L'atmosfera di qualcosa che sta per accadere.",
+ "definition_short_en": "The sensed presence of something before it is seen or heard. The atmosphere of what is about to happen.",
+ "peacock_principle": "Il campo percettivo di un libro esiste prima della prima parola. Il lettore avverte la presenza dell'opera prima di leggerla.",
+ "connected_terms": [
+  "ma",
+  "yugen",
+  "basho",
+  "mono_no_aware",
+  "kokyu"
+ ],
+ "books_applied": [
+  "napoli_fantastica"
+ ],
+ "books_applied_paths": [
+  "books/napoli-fantastica"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kehai",
+  "description": "The sensed presence of something before it is seen or heard. The atmosphere of what is about to happen.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kehai.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "気配"
+ },
+ "protocol_axis": "asse dello spazio nel Peacock Narrative Protocol"
+}
