@@ -1,0 +1,60 @@
+{
+  "type": "EmotionalRegisterCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "voce_alta_e_fierezza",
+  "label": "La voce ad alta voce — dall'imbarazzo alla fierezza",
+  "classification": "nucleo del registro emotivo",
+  "core_statement": "Il registro emotivo del manifesto passa dalla lettura ad alta voce. La voce diventa uno strumento che dona un tono, con l'addome come cassa di risonanza. Ma è un registro che attraversa il disagio prima del piacere: da ragazzo l'autore odiava il suono della propria voce, un atto troppo personale, terreno fertile nell'insicurezza giovanile.",
+  "register_function": "trasformare un gesto tecnico (leggere a voce) in una soglia emotiva biografica: l'imbarazzo giovanile che diventa, da adulto, piacere e scoperta.",
+  "emotional_arc": {
+    "start": "da ragazzo odiavo il suono della mia voce: mi metteva in imbarazzo un atto così personale, come se associare la voce al testo fosse una menzogna",
+    "obstacle": "il timbro a cui non ero abituato, lontano dal monologo interiore; l'insicurezza giovanile come terreno fertile del disagio",
+    "resolution": "ora mi piace leggere ad alta voce: la lettura ad alta voce permette di scoprire qualcosa che va oltre le parole del testo",
+    "non_integrable_residue": "il disagio giovanile resta come traccia sotto il piacere adulto: la conquista non cancella l'imbarazzo, lo attraversa"
+  },
+  "reader_pride": {
+    "statement": "Il lettore diventa parte del libro che comincia a vivere grazie a lui. Averlo letto lo riempie di una certa fierezza, come se l'avesse scritto lui.",
+    "mechanism": "un filo interiore si lega al discorso del libro: leggere è appropriarsi, non ricevere"
+  },
+  "kokyu_model": {
+    "statement": "La voce ad alta voce è respiro reso strumento: l'intonazione modula il significato frase per frase, come nel to be or not to be dove il cambio di tono cambia il concetto.",
+    "principle": "il ritmo prosodico è già interpretazione"
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "kokyu",
+      "ma",
+      "mono_no_aware"
+    ],
+    "emotional_mechanics": [
+      "imbarazzo_giovanile",
+      "voce_come_strumento",
+      "fierezza_del_lettore",
+      "residuo_del_disagio"
+    ]
+  },
+  "glossary_terms": [
+    "kokyu",
+    "ma",
+    "mono_no_aware"
+  ],
+  "connected_terms": [
+    "kokyu",
+    "ma",
+    "mono_no_aware",
+    "a_un_no_kokyu",
+    "ichigo_ichie"
+  ],
+  "system_note": "Core del registro emotivo, ancorato ai capitoli Letture ad alta voce e Il lettore, e a scene-05, ritual-03, transition-02 del grafo. È l'unico Core biografico del volume: la voce dell'autore entra in prima persona."
+}
