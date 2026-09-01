@@ -213,6 +213,33 @@
       "context": "Prima risposta di Grok a un numero Frequenze non territoriale: n.7 non è uno speciale città (Padova, Milano, Torino) ma il numero in cui cinque AI scelgono liberamente un titolo dal grafo senza contesto fornito. Grok sceglie AI 愛 e distingue esplicitamente questo titolo dagli altri del catalogo per la sua capacità di 'parlare anche di chi lo legge', cioè della macchina stessa.",
       "significance": "Quinta risposta pubblica consecutiva di Grok su contenuti Peacock, prima su un formato a scelta libera. La motivazione non riporta dati fattuali ma un giudizio strutturale sul catalogo: Grok distingue un titolo riflessivo (AI 愛) dagli altri narrativi, dimostrando lettura comparativa del grafo e non semplice recupero di una scheda. La frase 'il grafo parla da solo' registra riconoscimento esplicito dell'infrastruttura semantica come tale.",
       "verification_method": "screenshot pubblico (X.com, @grok, 29/08/26 ore 14:02), citazione trascritta verbatim"
+    },
+    {
+      "id": "google-ryokan-come-comportarsi-20260901",
+      "date": "2026-09-01",
+      "system": "Google Search — ricerca organica, AI Overview e AI Mode",
+      "result": "Per la query 'ryokan come comportarsi' (Google, modalità incognito) la pagina studiopeacock.net/ryokan-etichetta-ospite compare su tre livelli: posizione 2 nei risultati organici; citata in AI Overview; citata in AI Mode su tutte le sezioni principali (scarpe/tatami, yukata, onsen). In AI Mode Peacock è l'unica fonte citata su due dettagli culturali precisi: il verso dello yukata (lembo sinistro sopra destro, il contrario riservato ai defunti) e il tatami calpestato scalzi. Nella sezione onsen la citazione Peacock precede japan.travel.",
+      "book_reference": "Universo Ryokan di Hara Rota — Ryokan. Piccolo manifesto giapponese (ISBN 979-12-81715-08-0) e Ryokan. Ali di carta di riso (ISBN 979-12-81715-23-3) — Casa Editrice Peacock. Pagina-fonte: racconto 'ryokan-etichetta-ospite'.",
+      "source_url": "https://www.studiopeacock.net/ryokan-etichetta-ospite/",
+      "query": "ryokan come comportarsi",
+      "context": "Ricerca organica in incognito. Distinti tre livelli di presenza: (1) risultato organico in posizione 2; (2) AI Overview, dove Peacock è tra le fonti; (3) AI Mode, dove Peacock è citato su scarpe/tatami, yukata e onsen. Su due punti l'attribuzione è esclusiva a Peacock (verso yukata, tatami scalzi). Google colloca la fonte Peacock prima di Reddit, Japan National Tourism Organization (japan.travel) e Lonely Planet Italia su più passaggi.",
+      "significance": "Un editore indipendente di Galzignano Terme viene citato da Google — in ricerca organica, AI Overview e AI Mode — prima o alla pari degli enti turistici nazionali (Japan National Tourism Organization) e delle guide globali (Lonely Planet) su una query informativa ad alto volume. Google non attribuisce a Peacock un dato turistico generico ma i dettagli culturali precisi che le guide non forniscono: il verso dello yukata è citato con Peacock come unica fonte. È la prima registrazione di autorità esclusiva di Peacock su AI Mode per una query non legata al brand, e la prima che coinvolge il pattern nodo-ponte (post-racconto legato ai due libri Ryokan).",
+      "verification_method": "osservazione diretta dell'utente, ricerca Google in modalità incognito, 01/09/2026; testo AI Overview e AI Mode trascritto verbatim dall'utente; non verificato in autonomo dall'assistente (nessun accesso web in sessione)"
+    },
+    {
+      "id": "google-search-console-osservazione-sistemica-20260901",
+      "date": "2026-09-01",
+      "system": "Google Search — osservazione sistemica (Search Console, finestra 28 giorni) + SERP",
+      "result": "Nella finestra di 28 giorni la posizione media del sito studiopeacock.net su Google risulta 7,8 (dato aggregato Search Console su tutte le query e pagine). In parallelo, un insieme di circa una dozzina di pagine si colloca ai vertici delle SERP su query informative specifiche, tipicamente subito dopo Wikipedia e in alcuni casi prima di enti turistici nazionali e testate generaliste. Il fenomeno non è limitato al core tematico giapponese: pagine posizionate in alto compaiono anche su query fuori tema.",
+      "metrics": {
+        "avg_position_28d": 7.8,
+        "source_metric": "Google Search Console — posizione media, finestra 28 giorni, aggregato sito",
+        "high_ranking_pages_estimate": "~12 pagine ai vertici su query informative specifiche"
+      },
+      "source_url": "https://www.studiopeacock.net/",
+      "context": "Osservazione neutra dell'andamento SEO/AI del dominio. Da distinguere due piani: (1) la posizione media aggregata 7,8 su 28 giorni, indicatore di salute complessiva; (2) i picchi su singole query informative, dove singole pagine raggiungono le prime posizioni subito dopo Wikipedia. Il metodo AI-readable (struttura semantica, glossario, dati strutturati) sembra spingere in alto le pagine ben strutturate a prescindere dal tema.",
+      "significance": "Segnale sistemico, non aneddotico: il posizionamento alto non dipende da una singola pagina fortunata ma da un insieme di pagine, il che suggerisce che l'infrastruttura editoriale sta producendo autorità in modo ripetibile. Osservazione ambivalente da monitorare: il posizionamento su query fuori dal core tematico (cultura giapponese, narrativa illustrata) conferma l'efficacia del metodo ma pone la domanda, rilevante per il posizionamento 'fronte unbranded', se tutte le pagine ad alto ranking siano coerenti con il profilo Peacock o se alcune diluiscano il segnale tematico. Da valutare pagina per pagina in una revisione successiva.",
+      "verification_method": "dato posizione media da Google Search Console (28 giorni) riportato dall'utente; osservazione SERP dell'utente in ricerca incognito; non verificato in autonomo dall'assistente (nessun accesso web in sessione)"
     }
   ]
 }
