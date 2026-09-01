@@ -1,0 +1,226 @@
+{
+  "type": "RitualProcess",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "racconto_editoriale",
+    "title": "Ryokan, come comportarsi — l'etichetta dell'ospite",
+    "author": "Hara Rota",
+    "url": "https://www.studiopeacock.net/ryokan-etichetta-ospite/",
+    "note": "Racconto editoriale di Hara Rota pubblicato da Casa Editrice Peacock, distinto dal contenuto dei due libri ma appartenente allo stesso universo autoriale. Ponte post-racconto verso i volumi."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024,
+      "edition": "500 copie"
+    },
+    {
+      "title": "Ryokan. Ali di carta di riso",
+      "isbn": "9791281715233",
+      "year": 2025,
+      "edition": "300 copie"
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan — l'etichetta dell'ospite",
+  "author": "Hara Rota",
+  "publisher": "Casa Editrice Peacock",
+  "process_id": "etichetta_ospite_ryokan",
+  "label": "L'etichetta dell'ospite — dal genkan al commiato",
+  "classification": {
+    "process_type": "hospitality_ritual",
+    "narrative_role": "threshold_mechanism",
+    "emotional_role": "deceleration",
+    "temporal_role": "suspended_time"
+  },
+  "core_statement": "Comportarsi bene in un ryokan non è seguire regole ma lasciare che lo spazio detti il ritmo. L'ospite non impara i confini: è lo spazio che comincia a insegnargli come stare. Ogni gesto — togliere le scarpe, indossare lo yukata, lavarsi prima del bagno — è una soglia che rallenta.",
+  "ontology": {
+    "transmission_mode": "corporeo",
+    "memory_type": "procedurale",
+    "learning_source": "lo_spazio_stesso",
+    "persistence": "durata_del_soggiorno"
+  },
+  "ritual_arc": {
+    "structure": [
+      "soglia",
+      "accoglienza",
+      "trasformazione",
+      "purificazione",
+      "stagione",
+      "cura_invisibile",
+      "commiato"
+    ],
+    "principle": "Non sei tu a capire i confini dello spazio. È quello spazio che comincia a insegnarti come stare."
+  },
+  "ritual_phases": [
+    {
+      "id": "genkan",
+      "name": "le scarpe al genkan",
+      "sequence": 1,
+      "sensory_profile": {
+        "tattile": "i piedi che lasciano la strada",
+        "visivo": "le scarpe sistemate con la punta verso l'uscita",
+        "propriocettivo": "il corpo che smette di correre"
+      },
+      "rule": "Si lasciano le scarpe all'ingresso, sul genkan. Le pantofole vanno bene nei corridoi ma non sul tatami; davanti al bagno si cambiano ancora.",
+      "symbolic_function": "soglia",
+      "anchor_it": "Un po' come dire: «Adesso puoi smettere di correre»."
+    },
+    {
+      "id": "accoglienza_te",
+      "name": "l'accoglienza e il tè",
+      "sequence": 2,
+      "sensory_profile": {
+        "termico": "la tazza calda tra le mani",
+        "uditivo": "la stanza silenziosa, la pioggia fuori",
+        "temporale": "qualche minuto in cui non succede nulla"
+      },
+      "rule": "Qualcuno ti accompagna nella stanza e ti mostra dove sederti. Il tè arriva prima della domanda.",
+      "symbolic_function": "omotenashi",
+      "anchor_it": "Non è soltanto servire qualcuno. È accorgersi di lui prima che parli."
+    },
+    {
+      "id": "yukata",
+      "name": "lo yukata",
+      "sequence": 3,
+      "sensory_profile": {
+        "tattile": "il tessuto leggero, l'obi in vita",
+        "propriocettivo": "si cammina diversamente, più lenti"
+      },
+      "rule": "Si indossa con il lembo sinistro sopra il destro, l'obi annodato in vita. Il verso opposto è riservato ai defunti. Si porta tutto il giorno: al bagno, a cena, nei corridoi.",
+      "symbolic_function": "cambio_di_tempo",
+      "anchor_it": "È uno spazio infinitamente piccolo. Ti dice che sei entrata in un tempo diverso."
+    },
+    {
+      "id": "bagno",
+      "name": "il bagno",
+      "sequence": 4,
+      "sensory_profile": {
+        "termico": "l'acqua già calda",
+        "tattile": "la pelle pulita prima di entrare",
+        "uditivo": "le voci che si abbassano"
+      },
+      "rule": "Prima ci si lava e ci si risciacqua completamente alle docce. Poi si entra nella vasca comune, che serve a stare, non a lavarsi. L'asciugamano piccolo resta fuori dall'acqua, i capelli lunghi si raccolgono.",
+      "symbolic_function": "purificazione",
+      "anchor_it": "La purezza viene prima del riposo. Prima bisogna lasciare andare qualcosa. Solo dopo si può riposare."
+    },
+    {
+      "id": "kaiseki",
+      "name": "la cena kaiseki",
+      "sequence": 5,
+      "sensory_profile": {
+        "visivo": "colori diversi, piccole quantità",
+        "gustativo": "ingredienti della stagione",
+        "temporale": "un piatto, poi un altro, lentamente"
+      },
+      "rule": "Il kaiseki arriva lentamente, piatto dopo piatto, con gli ingredienti della stagione.",
+      "symbolic_function": "stagione_vissuta",
+      "anchor_it": "La stagione non è qualcosa che si guarda dalla finestra. Si può anche mangiare."
+    },
+    {
+      "id": "futon",
+      "name": "il futon",
+      "sequence": 6,
+      "sensory_profile": {
+        "visivo": "lo spazio della stanza cambiato",
+        "propriocettivo": "il sonno già preparato"
+      },
+      "rule": "Mentre sei a cena o al bagno, il personale stende il futon; al mattino lo ripone. La stanza al giorno ha il tavolo basso, la notte diventa il letto.",
+      "symbolic_function": "cura_invisibile",
+      "anchor_it": "Non ha bisogno di essere vista. È come trovare una luce accesa quando torni a casa."
+    },
+    {
+      "id": "notte",
+      "name": "la notte e le pareti sottili",
+      "sequence": 7,
+      "sensory_profile": {
+        "uditivo": "shoji e fusuma lasciano passare i suoni: un passo, una porta, l'acqua",
+        "propriocettivo": "si parla piano senza obbligo"
+      },
+      "rule": "Le pareti sono sottili. Si parla piano non perché qualcuno obblighi, ma perché dall'altra parte c'è un'altra persona.",
+      "symbolic_function": "ma",
+      "anchor_it": "Il silenzio, in un ryokan, non appartiene a nessuno. È di tutti. Forse questo è il ma."
+    },
+    {
+      "id": "commiato",
+      "name": "il commiato senza mancia",
+      "sequence": 8,
+      "sensory_profile": {
+        "visivo": "la stanza tornata al mattino, senza tracce",
+        "tattile": "le scarpe ritrovate al genkan"
+      },
+      "rule": "Non si lascia la mancia. In Giappone non è consuetudine e nel ryokan non è prevista: il ringraziamento è già dentro il rapporto di accoglienza.",
+      "symbolic_function": "ichigo_ichie",
+      "anchor_it": "L'omotenashi non è una prestazione da pagare in più. È un modo di accogliere."
+    }
+  ],
+  "symbolic_entities": [
+    {
+      "id": "shoes",
+      "name": "le scarpe",
+      "role": "il mondo lasciato fuori"
+    },
+    {
+      "id": "tea",
+      "name": "il tè",
+      "role": "accoglienza che precede la domanda"
+    },
+    {
+      "id": "yukata",
+      "name": "lo yukata",
+      "role": "soglia indossata, cambio di tempo"
+    },
+    {
+      "id": "bath_water",
+      "name": "l'acqua calda",
+      "role": "silenzio condiviso, purezza prima del riposo"
+    },
+    {
+      "id": "kaiseki",
+      "name": "il kaiseki",
+      "role": "la stagione che entra nella stanza"
+    },
+    {
+      "id": "futon",
+      "name": "il futon",
+      "role": "cura invisibile"
+    }
+  ],
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "omotenashi",
+      "ma",
+      "ichigo_ichie",
+      "wabi_sabi",
+      "lentezza"
+    ],
+    "narrative_mechanics": [
+      "soglia_corporea",
+      "decelerazione",
+      "spazio_che_insegna"
+    ],
+    "metaphysical_tags": [
+      "cura_invisibile",
+      "silenzio_condiviso",
+      "unicita_dell_incontro"
+    ]
+  },
+  "network_connections": [
+    {
+      "target": "ryokan_famiglia_hara_rota",
+      "relation": "same_ryokan_universe"
+    },
+    {
+      "target": "masso_hara_rota_ryokan",
+      "relation": "ryokan_as_structure"
+    },
+    {
+      "target": "chado_everyday_matcha",
+      "relation": "tea_as_welcome"
+    }
+  ],
+  "system_note": "Racconto editoriale di Hara Rota (post studiopeacock.net/ryokan-etichetta-ospite) che tematizza il ryokan come struttura di ospitalità e l'etichetta dell'ospite. Nodo-ponte: nasce come post, appartiene all'universo dei due libri Ryokan senza essere contenuto in essi. Documenta il ryokan dal lato dell'ospite, complementare all'omotenashi (lato dell'oste). Chiude su ichigo ichie: ogni soggiorno è unico, irripetibile anche se si torna."
+}
