@@ -229,17 +229,37 @@
     {
       "id": "google-search-console-osservazione-sistemica-20260901",
       "date": "2026-09-01",
-      "system": "Google Search — osservazione sistemica (Search Console, finestra 28 giorni) + SERP",
-      "result": "Nella finestra di 28 giorni la posizione media del sito studiopeacock.net su Google risulta 7,8 (dato aggregato Search Console su tutte le query e pagine). In parallelo, un insieme di circa una dozzina di pagine si colloca ai vertici delle SERP su query informative specifiche, tipicamente subito dopo Wikipedia e in alcuni casi prima di enti turistici nazionali e testate generaliste. Il fenomeno non è limitato al core tematico giapponese: pagine posizionate in alto compaiono anche su query fuori tema.",
+      "system": "Google Search — funzionalità AI generativa (Search Console, finestra 28 giorni)",
+      "result": "Nella finestra di 28 giorni (2026-08-02 / 2026-08-29) le pagine studiopeacock.net hanno totalizzato 1.044 impressioni all'interno della funzionalità AI generativa di Google (AI Overview / AI Mode). La media giornaliera passa da 37,6 impressioni nella prima settimana a 57,0 nell'ultima: crescita di circa il 50% nell'arco del periodo. Le pagine più pescate dal layer generativo sono contenuti del catalogo Peacock: Torino Fantastica (torino-sotterranea-triangolo-magia-nera, 142+39 impressioni su due varianti URL), Milano Fantastica (case-igloo-maggiolina-milano, 138), quindi mono no aware (106).",
       "metrics": {
-        "avg_position_28d": 7.8,
-        "source_metric": "Google Search Console — posizione media, finestra 28 giorni, aggregato sito",
-        "high_ranking_pages_estimate": "~12 pagine ai vertici su query informative specifiche"
+        "ai_generative_impressions_28d": 1044,
+        "daily_avg_first_week": 37.6,
+        "daily_avg_last_week": 57.0,
+        "trend": "+50% prima settimana -> ultima settimana",
+        "source_metric": "Google Search Console — funzionalità AI generativa, impressioni, finestra 28 giorni",
+        "top_pages": [
+          {
+            "page": "torino-sotterranea-triangolo-magia-nera-segreti",
+            "impressions": 181,
+            "note": "Torino Fantastica (Guide Fantastiche); 142+39 su due varianti URL con/senza slash finale"
+          },
+          {
+            "page": "case-igloo-maggiolina-milano-forma-necessita",
+            "impressions": 138,
+            "note": "Milano Fantastica (Guide Fantastiche)"
+          },
+          {
+            "page": "mono-no-aware-sensibilita-cose-che-passano",
+            "impressions": 106,
+            "note": "linea estetica giapponese"
+          }
+        ]
       },
       "source_url": "https://www.studiopeacock.net/",
-      "context": "Osservazione neutra dell'andamento SEO/AI del dominio. Da distinguere due piani: (1) la posizione media aggregata 7,8 su 28 giorni, indicatore di salute complessiva; (2) i picchi su singole query informative, dove singole pagine raggiungono le prime posizioni subito dopo Wikipedia. Il metodo AI-readable (struttura semantica, glossario, dati strutturati) sembra spingere in alto le pagine ben strutturate a prescindere dal tema.",
-      "significance": "Segnale sistemico, non aneddotico: il posizionamento alto non dipende da una singola pagina fortunata ma da un insieme di pagine, il che suggerisce che l'infrastruttura editoriale sta producendo autorità in modo ripetibile. Osservazione ambivalente da monitorare: il posizionamento su query fuori dal core tematico (cultura giapponese, narrativa illustrata) conferma l'efficacia del metodo ma pone la domanda, rilevante per il posizionamento 'fronte unbranded', se tutte le pagine ad alto ranking siano coerenti con il profilo Peacock o se alcune diluiscano il segnale tematico. Da valutare pagina per pagina in una revisione successiva.",
-      "verification_method": "dato posizione media da Google Search Console (28 giorni) riportato dall'utente; osservazione SERP dell'utente in ricerca incognito; non verificato in autonomo dall'assistente (nessun accesso web in sessione)"
+      "context": "Osservazione della presenza Peacock nel layer AI generativo di Google. Le pagine ai vertici appartengono all'area definita del catalogo: le Guide Fantastiche (Torino, Milano) e la linea estetica giapponese (mono no aware). I titoli delle sezioni-guida (es. 'triangolo magia nera' di Torino Fantastica) non sono query fuori tema ma contenuti editoriali reali del catalogo. Le città delle Guide dispongono nel grafo di dataset cities/, conceptual e sensation dedicati.",
+      "significance": "Segnale sistemico e in crescita: la presenza nel layer generativo aumenta del ~50% in 28 giorni e non dipende da una singola pagina. Le Guide Fantastiche risultano attualmente il contenuto più pescato dalle risposte AI di Google, davanti alla linea estetica giapponese (mono no aware terzo). Dato neutro da monitorare come serie: alla prossima rilevazione si confronta il totale (1.044) e la ripartizione per pagina, per verificare se il trend prosegue e se la linea giapponese recupera terreno sulle guide-città.",
+      "technical_note": "La pagina Torino risulta indicizzata in due varianti (con e senza slash finale), che dividono le impressioni (142+39). Problema di canonical su Jimdo già noto: consolidare in un solo URL canonico rafforzerebbe il segnale.",
+      "verification_method": "export Google Search Console (funzionalità AI generativa, 28 giorni, file Grafico/Pagine/Filtri) fornito dall'utente; dati letti e aggregati dall'assistente dai CSV; SERP non verificate in autonomo (nessun accesso web in sessione)"
     }
   ]
 }
