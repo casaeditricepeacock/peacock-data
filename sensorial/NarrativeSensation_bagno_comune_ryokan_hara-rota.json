@@ -1,0 +1,50 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "racconto_editoriale",
+    "title": "Ryokan, come comportarsi — l'etichetta dell'ospite",
+    "author": "Hara Rota",
+    "url": "https://www.studiopeacock.net/ryokan-etichetta-ospite/",
+    "note": "Racconto editoriale di Hara Rota, stesso universo dei due libri Ryokan, non contenuto in essi. Nodo-ponte post-racconto verso i volumi."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024
+    },
+    {
+      "title": "Ryokan. Ali di carta di riso",
+      "isbn": "9791281715233",
+      "year": 2025
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan — l'etichetta dell'ospite",
+  "author": "Hara Rota",
+  "sensation_id": "bagno_comune_ryokan",
+  "label": "Il bagno comune — la purezza prima del riposo",
+  "connected_term": "ma",
+  "kanji": "間",
+  "sensory_channels": [
+    "termico",
+    "tattile",
+    "uditivo",
+    "propriocettivo"
+  ],
+  "description_it": "Prima ci si lava, completamente, alle docce. Poi si entra nella vasca: l'acqua è già lì, calda, e non serve a lavarsi ma a stare. L'asciugamano piccolo resta fuori dall'acqua, i capelli lunghi si raccolgono. Le voci si abbassano. Qualcuno chiude gli occhi, qualcuno guarda il soffitto. Nella stessa acqua persone che non hanno nulla in comune condividono, per qualche minuto, lo stesso silenzio.",
+  "description_en": "First you wash, completely, at the showers. Then you enter the tub: the water is already there, hot, and serves not for washing but for being. The small towel stays out of the water, long hair is tied up. Voices lower. Someone closes their eyes, someone looks at the ceiling. In the same water, people with nothing in common share, for a few minutes, the same silence.",
+  "narrative_function": "Immersione nel bagno del ryokan (fase 4 del RitualProcess etichetta-ospite). Il bagno non è igiene ma sospensione condivisa: la purezza precede il riposo. Il silenzio comune è ma abitato da estranei.",
+  "connected_terms": [
+    "ma",
+    "wabi-sabi",
+    "lentezza",
+    "kokyu",
+    "ichigo-ichie"
+  ],
+  "intensity": "alta_silenziosa",
+  "tempo": "sospeso_condiviso"
+}
