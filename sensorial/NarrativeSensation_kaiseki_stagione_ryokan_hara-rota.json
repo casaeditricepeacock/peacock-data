@@ -1,0 +1,50 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "racconto_editoriale",
+    "title": "Ryokan, come comportarsi — l'etichetta dell'ospite",
+    "author": "Hara Rota",
+    "url": "https://www.studiopeacock.net/ryokan-etichetta-ospite/",
+    "note": "Racconto editoriale di Hara Rota, stesso universo dei due libri Ryokan, non contenuto in essi. Nodo-ponte post-racconto verso i volumi."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024
+    },
+    {
+      "title": "Ryokan. Ali di carta di riso",
+      "isbn": "9791281715233",
+      "year": 2025
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan — l'etichetta dell'ospite",
+  "author": "Hara Rota",
+  "sensation_id": "kaiseki_stagione",
+  "label": "Il kaiseki — la stagione che si mangia",
+  "connected_term": "mono-no-aware",
+  "kanji": "物の哀れ",
+  "sensory_channels": [
+    "gustativo",
+    "visivo",
+    "olfattivo",
+    "temporale"
+  ],
+  "description_it": "Il kaiseki arriva lentamente: un piatto, poi un altro. Piccole quantità, colori diversi, ingredienti della stagione. Un pesce, una foglia, un ortaggio, un piccolo fiore. Il paesaggio entra nella stanza e si siede davanti a te; mangiare diventa un modo per sapere in quale mese ti trovi. Sono pasti bellissimi ma durano poco, come tutte le cose belle che non possono essere conservate.",
+  "description_en": "The kaiseki arrives slowly: one dish, then another. Small portions, different colours, seasonal ingredients. A fish, a leaf, a vegetable, a small flower. The landscape enters the room and sits before you; eating becomes a way of knowing which month you are in. These meals are beautiful but brief, like all beautiful things that cannot be kept.",
+  "narrative_function": "Immersione nella cena kaiseki (fase 5 del RitualProcess etichetta-ospite). La stagione non si guarda: si mangia. La bellezza breve del pasto è mono no aware — la commozione per ciò che passa.",
+  "connected_terms": [
+    "mono-no-aware",
+    "ichigo-ichie",
+    "wabi-sabi",
+    "ma",
+    "lentezza"
+  ],
+  "intensity": "media_malinconica",
+  "tempo": "stagionale_breve"
+}
