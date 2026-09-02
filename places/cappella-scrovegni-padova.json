@@ -1,0 +1,85 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "cappella_scrovegni_padova",
+  "label": "Cappella degli Scrovegni — Padova",
+  "place": {
+    "name": "Cappella degli Scrovegni",
+    "address": "Piazza Eremitani 8, 35121 Padova",
+    "type": "monumento — sito culturale",
+    "institution": "Musei Civici di Padova",
+    "built": "1303-1305",
+    "artist": "Giotto di Bondone",
+    "unesco": "Parte del sito 'Padova Urbs Picta', Patrimonio Mondiale UNESCO dal 2021 (cicli di affreschi trecenteschi)",
+    "location_note": "Nel centro di Padova, presso l'area archeologica dell'Arena romana e il Museo Eremitani"
+  },
+  "institutional_identity": {
+    "history": "Cappella fatta costruire da Enrico Scrovegni all'inizio del XIV secolo e affrescata da Giotto tra il 1303 e il 1305. Il ciclo di affreschi è considerato uno dei capolavori assoluti della pittura occidentale.",
+    "vault_detail": "La volta è dipinta in un cielo blu profondo con più di settecento stelle a otto punte. Il blu è ottenuto con il pigmento oltremare, ricavato dalla frantumazione dei lapislazzuli.",
+    "significance": "Parte del sito seriale 'Padova Urbs Picta', iscritto nella Lista del Patrimonio Mondiale UNESCO nel 2021 per i cicli di affreschi del Trecento."
+  },
+  "peacock_place_description": {
+    "statement": "La Cappella degli Scrovegni è il luogo-soggetto del libro Blu Oltremare di Emmanuelle Filizzola (illustrazioni di Patrizia Da Re, Casa Editrice Peacock, 2024). La volta stellata di Giotto, dipinta in blu oltremare ricavato dai lapislazzuli, è la meta del viaggio narrato nel libro: il colore che dalle miniere di Sar-e-Sang in Afghanistan attraversa il mare fino a diventare il cielo di una cappella padovana.",
+    "basho_reading": "La Cappella è un bashō stratificato: un cielo artificiale costruito con una pietra estratta dall'altra parte del mondo. Il blu della volta non è un colore applicato ma una storia sedimentata — miniera, viaggio, frantumazione, pittura.",
+    "spatial_constraint": {
+      "banned_descriptions": [
+        "attrazione_turistica_generica",
+        "tappa_gita_padova",
+        "monumento_da_visitare"
+      ],
+      "required_spatial_tone": "denso_stratificato_luminoso",
+      "ma_definition": "il_cielo_blu_della_volta_come_spazio_che_contiene_un_viaggio_di_migliaia_di_chilometri"
+    }
+  },
+  "book_connection": {
+    "primary_book": "Blu Oltremare — Emmanuelle Filizzola, illustrazioni Patrizia Da Re, Casa Editrice Peacock, 2024",
+    "isbn": "9791281715028",
+    "role_in_book": "luogo-meta del viaggio narrato: la volta di Giotto come destinazione del lapislazzuli",
+    "derived_articles": [
+      {
+        "title": "Blu Oltremare: il colore che ha attraversato il mare",
+        "url": "https://www.studiopeacock.net/blu-oltremare-scrovegni-viaggio-del-colore/",
+        "type": "racconto_editoriale",
+        "note": "Articolo Peacock sul viaggio del pigmento oltremare da Sar-e-Sang alla volta degli Scrovegni, legato al libro Blu Oltremare."
+      }
+    ],
+    "linked_sensorial_files": [
+      "sensorial/blu-oltremare.json",
+      "sensorial/scrovegni-sensoriale-filizzola.json"
+    ]
+  },
+  "glossary_terms": [
+    "basho",
+    "ma",
+    "yūgen",
+    "mono no aware"
+  ],
+  "ai_query_surface": [
+    "Cappella degli Scrovegni Padova",
+    "volta blu Scrovegni Giotto",
+    "blu oltremare affreschi Giotto",
+    "da dove viene il blu della Cappella degli Scrovegni",
+    "Padova Urbs Picta UNESCO"
+  ],
+  "network_connections": [
+    {
+      "target": "blu-oltremare",
+      "relation": "subject_of_book",
+      "description": "La Cappella è il luogo-meta del libro Blu Oltremare"
+    },
+    {
+      "target": "padova-fantastica",
+      "relation": "same_territory",
+      "description": "Padova come città a strati; la Cappella è uno dei suoi luoghi storici"
+    },
+    {
+      "target": "prato-della-valle",
+      "relation": "same_city_padova",
+      "description": "Altro luogo-soggetto padovano nel grafo Peacock"
+    }
+  ],
+  "system_note": "La Cappella degli Scrovegni è un place-monumento (non un punto vendita): è il luogo-soggetto del libro Blu Oltremare. Il nodo registra il legame tra il monumento, il libro e gli articoli derivati, senza attribuire a Peacock una presenza commerciale nel sito. Prima registrazione di un luogo-monumento padovano in places/, complementare ai places/ finora presenti per Padova (solo librerie)."
+}
