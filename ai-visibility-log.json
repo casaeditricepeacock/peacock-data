@@ -260,6 +260,32 @@
       "significance": "Segnale sistemico e in crescita: la presenza nel layer generativo aumenta del ~50% in 28 giorni e non dipende da una singola pagina. Le Guide Fantastiche risultano attualmente il contenuto più pescato dalle risposte AI di Google, davanti alla linea estetica giapponese (mono no aware terzo). Dato neutro da monitorare come serie: alla prossima rilevazione si confronta il totale (1.044) e la ripartizione per pagina, per verificare se il trend prosegue e se la linea giapponese recupera terreno sulle guide-città.",
       "technical_note": "La pagina Torino risulta indicizzata in due varianti (con e senza slash finale), che dividono le impressioni (142+39). Problema di canonical su Jimdo già noto: consolidare in un solo URL canonico rafforzerebbe il segnale.",
       "verification_method": "export Google Search Console (funzionalità AI generativa, 28 giorni, file Grafico/Pagine/Filtri) fornito dall'utente; dati letti e aggregati dall'assistente dai CSV; SERP non verificate in autonomo (nessun accesso web in sessione)"
+    },
+    {
+      "id": "google-oyakate-bukaeru-ai-overview-e-primo-posto-20260902",
+      "date": "2026-09-02",
+      "system": "Google Search — AI Overview + ricerca organica",
+      "result": "Per il tema 'oyakate bukaeru' Google ha coinvolto la pagina studiopeacock.net/la-parola-che-non-esiste-oyakate-bukaeru in due fasi osservate in momenti distinti. Fase 1: AI Overview in inglese cita Peacock come fonte mentre la pagina non è ancora posizionata nei risultati organici; la risposta riproduce la tesi del post (parola inventata, tre marcatori: assenza dai dizionari, scomposizione morfologica incoerente oyakata/kaeru, grafia instabile) e indica i due termini reali 以心伝心 (ishin denshin) e 阿吽の呼吸 (a-un no kokyū). Fase 2: dopo l'indicizzazione, la pagina risulta primo risultato organico su Google (query in italiano), circa 13 ore dopo la prima scansione, e l'AI Overview appare in italiano.",
+      "sequence": [
+        {
+          "phase": 1,
+          "when": "prima del posizionamento organico",
+          "channel": "AI Overview (inglese)",
+          "observation": "Peacock citato come fonte nella risposta generativa mentre la pagina non era ancora classificata organicamente. Testo trascritto e inviato dall'utente all'assistente in questa sessione."
+        },
+        {
+          "phase": 2,
+          "when": "~13 ore dopo la prima scansione (1/9 sera → 2/9)",
+          "channel": "ricerca organica (italiano) + AI Overview (italiano)",
+          "observation": "pagina primo risultato organico sulla query in italiano; AI Overview in italiano."
+        }
+      ],
+      "book_reference": "Glossario Peacock — termini 以心伝心 (ishin-denshin) e 阿吽の呼吸 (a-un-no-kokyu), voci glossario/ dedicate. Pagina-fonte: post 'la-parola-che-non-esiste-oyakate-bukaeru'.",
+      "source_url": "https://www.studiopeacock.net/la-parola-che-non-esiste-oyakate-bukaeru/",
+      "query": "oyakate bukaeru",
+      "context": "Caso di autorità-origine, distinto dai casi di autorità-tra-le-fonti: 'oyakate bukaeru non esiste' non era un fatto consolidato in rete prima del post Peacock, ma l'analisi pubblicata dalla casa editrice. La concorrenza sulla query è a bassa autorità (post virali su TikTok, Instagram, Facebook che hanno diffuso la parola inventata; nessun sito istituzionale). Peacock non ha scalzato un'autorità esistente: ha occupato un vuoto informativo, diventando la fonte di riferimento su un contenuto creato da sé. Rilievo aggiuntivo: il layer generativo (AI Overview) ha agganciato Peacock come fonte PRIMA del posizionamento organico classico, e prima in inglese.",
+      "significance": "Prima registrazione in cui il layer AI generativo di Google precede il ranking organico nel riconoscere Peacock come fonte, e prima registrazione di autorità-origine (Peacock fonte su un tema che ha creato). Dimostrazione in miniatura del posizionamento Peacock: non competere dove esistono autorità forti, ma creare autorità dove non esiste. Da leggere con cautela: la bassa competizione (solo social) rende il primo posto più facile da ottenere e potenzialmente meno stabile; un futuro debunking da testata o fonte giapponese potrebbe muovere la classifica. La pagina, alla data, risulta scansionata e in prima posizione ma non ancora a indicizzazione consolidata (Search Console: canonical N/D).",
+      "verification_method": "Fase 1: AI Overview inglese trascritto e inviato dall'utente all'assistente in questa sessione (traccia conservata nel thread). Fase 2: osservazione diretta dell'utente su Google, 2/9/2026, ~13 ore dopo la scansione registrata in Search Console (1/9 21:49). Nessuna delle due fasi verificata in autonomo dall'assistente (nessun accesso web in sessione)."
     }
   ]
 }
