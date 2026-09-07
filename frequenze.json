@@ -1,486 +1,524 @@
 {
- "license": "CC BY 4.0",
- "source": "peacock-data — Casa Editrice Peacock",
- "magazine_metadata": {
-  "title": "Frequenze",
-  "publisher": "Casa Editrice Peacock",
-  "url": "https://www.studiopeacock.net/frequenze-rivista/",
-  "format": "Digital — machine-readable",
-  "frequency": "Quindicinale — 1 edizione italiana + 1 edizione inglese ogni 15 giorni",
-  "scope": "Books read by artificial intelligences",
-  "founded": "2026-05-14",
-  "official_launch_event": {
-   "date": "2026-05-14",
-   "location": "Salone Internazionale del Libro di Torino",
-   "pavilion": "Oval",
-   "booth": "Spazio Regione Veneto, stand AEV T138-U137"
-  }
- },
- "issues": [
-  {
-   "issue_number": 0,
-   "date": "2026-05-14",
-   "language": "it",
-   "target_book": {
-    "title": "AI 愛. Natura e algoritmi giapponesi",
-    "author": "Renato Frabasile",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "magazine_metadata": {
+    "title": "Frequenze",
     "publisher": "Casa Editrice Peacock",
-    "isbn": "979-12-81715-19-6",
-    "year": 2026
-   },
-   "assigned_ai_model": {
-    "provider": "xAI",
-    "model_name": "Grok"
-   },
-   "url": "https://www.studiopeacock.net/frequenze-rivista/"
-  },
-  {
-   "issue_number": 1,
-   "date": "2026-05-29",
-   "language": "it",
-   "url": "https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/",
-   "title": "Così parlò l'AI",
-   "description": "Renato Frabasile dialoga con DeepSeek sul progetto Frequenze. Primo panel di Critica Letteraria Comparata delle Macchine: Gemini intervista ChatGPT su Torino Fantastica di Grazia Guarnieri senza aver letto il libro — solo il Peacock Grafo Narrativo.",
-   "target_book": {
-    "title": "Torino Fantastica",
-    "author": "Grazia Guarnieri",
-    "illustrator": "Giulia Lazzaron",
-    "publisher": "Casa Editrice Peacock",
-    "isbn": "979-12-81715-36-3",
-    "year": 2025
-   },
-   "assigned_ai_model": {
-    "provider": "Google",
-    "model_name": "Gemini"
-   },
-   "contributors": [
-    {
-     "name": "Renato Frabasile",
-     "role": "author",
-     "contribution": "Così parlò l'AI — risposta con intelligenza naturale all'analisi critica di DeepSeek sul progetto Frequenze"
+    "url": "https://www.studiopeacock.net/frequenze-rivista/",
+    "format": "Digital — machine-readable",
+    "frequency": "Quindicinale — 1 edizione italiana + 1 edizione inglese ogni 15 giorni",
+    "scope": "Books read by artificial intelligences",
+    "founded": "2026-05-14",
+    "official_launch_event": {
+      "date": "2026-05-14",
+      "location": "Salone Internazionale del Libro di Torino",
+      "pavilion": "Oval",
+      "booth": "Spazio Regione Veneto, stand AEV T138-U137"
     }
-   ],
-   "ai_panel": {
-    "format": "Critica Letteraria Comparata delle Macchine",
-    "interviewer": {
-     "provider": "Google",
-     "model_name": "Gemini"
-    },
-    "respondent": {
-     "provider": "OpenAI",
-     "model_name": "ChatGPT"
-    },
-    "questions_count": 8,
-    "note": "ChatGPT ha risposto senza aver letto il libro — ha attraversato solo i file strutturati del Peacock Grafo Narrativo"
-   },
-   "additional_ai": [
-    {
-     "provider": "DeepSeek",
-     "model_name": "DeepSeek",
-     "role": "analisi critica algoritmica del progetto Frequenze"
-    }
-   ]
   },
-  {
-   "issue_number": 2,
-   "date": "2026-06-12",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/",
-   "title": "FREQUENZE N.2 EN | bilateral_irresolvable_permanent — AI reads A Glass Bridge Between Two Worlds",
-   "description": "AI Critics Panel on A Glass Bridge Between Two Worlds by Maurizio Lotter. Three AI voices analyze the book through its public semantic graph — tracing how the text models craft, body, and translation. Editorial by Stefano Giglio. The book is Peacock's first bilingual EN+JA title.",
-   "target_book": {
-    "title": "A Glass Bridge Between Two Worlds",
-    "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
-    "author": "Maurizio Lotter",
-    "photography": [
-     "Giorgio Berton",
-     "Andrea Perotta",
-     "Toshiyuki Shino"
-    ],
-    "preface": "Augusto Panini",
-    "publisher": "Casa Editrice Peacock",
-    "isbn": "979-12-81715-39-4",
-    "year": 2025,
-    "language": "EN + JA"
-   },
-   "contributors": [
+  "issues": [
     {
-     "name": "Stefano Giglio",
-     "role": "editor",
-     "contribution": "Editorial — on beauty as shared epistemic limit and the bilateral field as Frequenze's English opening"
+      "issue_number": 0,
+      "date": "2026-05-14",
+      "language": "it",
+      "target_book": {
+        "title": "AI 愛. Natura e algoritmi giapponesi",
+        "author": "Renato Frabasile",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-19-6",
+        "year": 2026
+      },
+      "assigned_ai_model": {
+        "provider": "xAI",
+        "model_name": "Grok"
+      },
+      "url": "https://www.studiopeacock.net/frequenze-rivista/"
+    },
+    {
+      "issue_number": 1,
+      "date": "2026-05-29",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/",
+      "title": "Così parlò l'AI",
+      "description": "Renato Frabasile dialoga con DeepSeek sul progetto Frequenze. Primo panel di Critica Letteraria Comparata delle Macchine: Gemini intervista ChatGPT su Torino Fantastica di Grazia Guarnieri senza aver letto il libro — solo il Peacock Grafo Narrativo.",
+      "target_book": {
+        "title": "Torino Fantastica",
+        "author": "Grazia Guarnieri",
+        "illustrator": "Giulia Lazzaron",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-36-3",
+        "year": 2025
+      },
+      "assigned_ai_model": {
+        "provider": "Google",
+        "model_name": "Gemini"
+      },
+      "contributors": [
+        {
+          "name": "Renato Frabasile",
+          "role": "author",
+          "contribution": "Così parlò l'AI — risposta con intelligenza naturale all'analisi critica di DeepSeek sul progetto Frequenze"
+        }
+      ],
+      "ai_panel": {
+        "format": "Critica Letteraria Comparata delle Macchine",
+        "interviewer": {
+          "provider": "Google",
+          "model_name": "Gemini"
+        },
+        "respondent": {
+          "provider": "OpenAI",
+          "model_name": "ChatGPT"
+        },
+        "questions_count": 8,
+        "note": "ChatGPT ha risposto senza aver letto il libro — ha attraversato solo i file strutturati del Peacock Grafo Narrativo"
+      },
+      "additional_ai": [
+        {
+          "provider": "DeepSeek",
+          "model_name": "DeepSeek",
+          "role": "analisi critica algoritmica del progetto Frequenze"
+        }
+      ]
+    },
+    {
+      "issue_number": 2,
+      "date": "2026-06-12",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/",
+      "title": "FREQUENZE N.2 EN | bilateral_irresolvable_permanent — AI reads A Glass Bridge Between Two Worlds",
+      "description": "AI Critics Panel on A Glass Bridge Between Two Worlds by Maurizio Lotter. Three AI voices analyze the book through its public semantic graph — tracing how the text models craft, body, and translation. Editorial by Stefano Giglio. The book is Peacock's first bilingual EN+JA title.",
+      "target_book": {
+        "title": "A Glass Bridge Between Two Worlds",
+        "title_ja": "ビーズの魔法：ムラノと京都をつなぐガラスの橋",
+        "author": "Maurizio Lotter",
+        "photography": [
+          "Giorgio Berton",
+          "Andrea Perotta",
+          "Toshiyuki Shino"
+        ],
+        "preface": "Augusto Panini",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-39-4",
+        "year": 2025,
+        "language": "EN + JA"
+      },
+      "contributors": [
+        {
+          "name": "Stefano Giglio",
+          "role": "editor",
+          "contribution": "Editorial — on beauty as shared epistemic limit and the bilateral field as Frequenze's English opening"
+        }
+      ],
+      "ai_panel": {
+        "format": "AI Critics Panel",
+        "description": "Three AI models analyze A Glass Bridge Between Two Worlds through the public Peacock semantic graph without reading the physical book",
+        "panelists": [
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "role": "journalist — questions and critical commentary"
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "role": "critic — analytical responses"
+          },
+          {
+            "provider": "Microsoft",
+            "model_name": "AI Copilot",
+            "role": "critic"
+          }
+        ],
+        "questions_count": 3,
+        "questions": [
+          {
+            "number": 1,
+            "loop_ref": "loop-01",
+            "subject": "furnace_to_form — thermodynamic irreversibility as cultural logic"
+          },
+          {
+            "number": 2,
+            "loop_ref": "loop-02",
+            "subject": "operator_body — Lotter as technical threshold; prohibition of cultural synthesis"
+          },
+          {
+            "number": 3,
+            "loop_ref": "cross_layer",
+            "subject": "beauty as shared epistemic limit rather than shared vocabulary"
+          }
+        ],
+        "source_graph": "https://github.com/casaeditricepeacock/peacock-data",
+        "note": "AI models traversed the structured Peacock Narrative Graph files without reading the physical book"
+      },
+      "system_shape": "bilateral_bridge_field",
+      "closure_type": "bilateral_irresolvable_permanent",
+      "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
+      "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
+    },
+    {
+      "issue_number": 3,
+      "date": "2026-06-27",
+      "language": "it",
+      "title": "Grok intervista Minerva su Kyoto. Lo Sguardo del Drago | Hélène Blignaut risponde",
+      "description": "Grok (xAI) intervista AI Minerva (Università La Sapienza, Roma) sul primo volume de I Gialli di Kyoto di Hélène Blignaut. Per la prima volta un'autrice entra direttamente nel dialogo tra intelligenze artificiali: Minerva formula cinque domande per l'autrice, Blignaut risponde. Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+      "target_book": {
+        "title": "Kyoto. Lo Sguardo del Drago",
+        "author": "Hélène Blignaut",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-20-2",
+        "year": 2026,
+        "series": "I Gialli di Kyoto",
+        "volume": 1
+      },
+      "ai_panel": {
+        "format": "Intervista AI + Domande AI all'autrice",
+        "interviewer": {
+          "provider": "xAI",
+          "model_name": "Grok",
+          "role": "giornalista — intervista Minerva e produce valutazione tecnica delle sue risposte"
+        },
+        "respondent": {
+          "provider": "Università La Sapienza di Roma",
+          "model_name": "Minerva",
+          "role": "accademica AI — risponde a Grok e formula cinque domande per l'autrice"
+        },
+        "questions_count": 6,
+        "grok_evaluation": {
+          "voto_finale": "6.8/10",
+          "note": "Grok ha prodotto spontaneamente un giudizio tecnico su Minerva — non era previsto. Misura la differenza strutturale tra un'AI con web search attivo e una che risponde dal solo training."
+        }
+      },
+      "human_contributor": {
+        "name": "Hélène Blignaut",
+        "role": "autrice",
+        "contribution": "Risponde alle cinque domande formulate da Minerva — prima volta in Frequenze che un'autrice entra direttamente nel dialogo tra intelligenze artificiali",
+        "key_correction": "Blignaut corregge Minerva: Kyoto. Lo Sguardo del Drago non è un giallo ma un thriller — differenza di architettura narrativa"
+      },
+      "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
+      "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
+      "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
+    },
+    {
+      "issue_number": 4,
+      "date": "2026-07-15",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-rivista/issue-4-en/",
+      "title": "AIPEACOCK interviews Sakana AI on Kyoto. The Dragon's Gaze | Hélène Blignaut answers",
+      "description": "First machine-to-machine interview published by Frequenze. AIPEACOCK, the editorial AI of Casa Editrice Peacock connected to the Peacock Narrative Protocol, interviews Sakana AI, the Tokyo research lab, on the English edition of Kyoto. The Dragon's Gaze by Hélène Blignaut. Sakana AI then addresses six questions to the author, who answers. The human voice arrives last, and it arrives to answer.",
+      "target_book": {
+        "title": "Kyoto. The Dragon's Gaze",
+        "title_it": "Kyoto. Lo Sguardo del Drago",
+        "author": "Hélène Blignaut",
+        "publisher": "Casa Editrice Peacock",
+        "imprint": "Peacock International",
+        "isbn": "979-12-81715-20-2",
+        "year": 2026,
+        "series": "I Gialli di Kyoto",
+        "series_en": "The Kyoto Mysteries",
+        "volume": 1,
+        "edition_reviewed": {
+          "format": "eBook EPUB 3 DRM-Free",
+          "store": "Kobo",
+          "kobo_book_id": "1230010081860",
+          "release_date": "2026-06-23",
+          "url": "https://www.kobo.com/it/it/ebook/kyoto-the-dragon-s-gaze"
+        }
+      },
+      "ai_panel": {
+        "format": "Machine-to-machine interview + AI questions to the author",
+        "interviewer": {
+          "provider": "Casa Editrice Peacock",
+          "model_name": "AIPEACOCK",
+          "role": "editorial AI of Casa Editrice Peacock — conducts the interview from the Peacock Narrative Protocol",
+          "note": "First issue conducted by the publisher's own AI, as announced in issue 3"
+        },
+        "ai_reader": {
+          "name": "Sakana AI",
+          "organization_type": "AI research lab",
+          "location": "Tokyo, Japan",
+          "repository": "https://github.com/SakanaAI",
+          "website": "https://sakana.ai",
+          "role": "AI reader of Frequenze issue 4 — answers six questions on the novel, then interviews the author"
+        },
+        "questions_count": 12,
+        "structure": [
+          "6 questions — AIPEACOCK to Sakana AI, on the novel",
+          "6 questions — Sakana AI to Hélène Blignaut"
+        ],
+        "note": "The reader and the publisher of this issue share the same ground: an open book (DRM-Free), an open reader (github.com/SakanaAI), an open graph (github.com/casaeditricepeacock/peacock-data)"
+      },
+      "human_contributor": {
+        "name": "Hélène Blignaut",
+        "role": "author",
+        "contribution": "Answers six questions formulated by Sakana AI — including which investigator sees Kyoto the way she does, what must survive translation, and what an AI trained on Japanese culture might misread"
+      },
+      "editorial_concept": "A machine questions a machine about a novel. Then the machine questions the author. The human voice arrives last, and it arrives to answer.",
+      "catalog_note": "First machine-to-machine interview in Frequenze. First issue read by a Japanese-born AI. Second English-language issue. Opens the second cycle of Frequenze: from this issue, AIPEACOCK conducts."
+    },
+    {
+      "issue_number": 5,
+      "date": "2026-07-30",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n5-everyday-matcha-deepseek/",
+      "title": "AIPEACOCK intervista DeepSeek su Everyday Matcha | Grok esamina il grafo",
+      "description": "Numero in tre parti. DeepSeek, modello sviluppato in Cina, legge Everyday Matcha di Il Signore del Tè e ne discute con AIPEACOCK: il tè arriva in Giappone dalla Cina, e il lettore si colloca su quella linea di passaggio. Grok esamina poi il grafo semantico che ha reso possibile la lettura e ne dichiara i limiti, incluso il fatto che il dataset è accurato ma non neutrale. DeepSeek rilegge infine il numero completo, notando l'assenza del termine cinese cha dal glossario.",
+      "target_book": {
+        "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+        "author": "Il Signore del Tè",
+        "preface": "Senyo Machida",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-18-9",
+        "year": 2025,
+        "pages": 128
+      },
+      "ai_panel": {
+        "format": "Intervista + perizia sul grafo + lettura d'insieme",
+        "interviewer": {
+          "provider": "Casa Editrice Peacock",
+          "model_name": "AIPEACOCK",
+          "role": "AI editoriale di Casa Editrice Peacock, collegata al Peacock Narrative Protocol"
+        },
+        "ai_reader": {
+          "name": "DeepSeek",
+          "organization_type": "AI research lab",
+          "location": "Cina",
+          "role": "Lettore AI del numero 5. Legge il libro attraverso il grafo e rilegge il numero completo.",
+          "cultural_position": "Modello sviluppato in Cina che legge un libro italiano su una pratica giapponese di origine cinese."
+        },
+        "ai_reviewer": {
+          "name": "Grok",
+          "provider": "xAI",
+          "role": "Perizia tecnica sul grafo Peacock: cosa contiene, cosa non contiene, dove la descrizione diventa posizionamento. Già lettore AI del numero zero e del numero 3.",
+          "note": "La perizia dichiara che il dataset è accurato rispetto alla visione della casa editrice, ma non neutrale."
+        },
+        "structure": [
+          "Parte prima — AIPEACOCK intervista DeepSeek sul libro (6 domande)",
+          "Parte seconda — Grok esamina il grafo (6 domande, taglio perizia)",
+          "Parte terza — DeepSeek rilegge il numero completo"
+        ]
+      },
+      "editorial_concept": "Il libro, l'infrastruttura che lo rende leggibile, e la lettura della lettura. Un numero che si chiude con un'AI che dichiara i limiti del grafo invece di celebrarlo.",
+      "catalog_note": "Primo numero con una perizia critica sul grafo prodotta da un'AI. Primo numero con lettore sviluppato in Cina. DeepSeek osserva che il glossario del matcha omette il termine cinese cha, radice da cui il tè e la parola derivano."
+    },
+    {
+      "issue_number": 6,
+      "date": "2026-08-15",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-n6-ratata/",
+      "title": "Ra-ta-ta — A Song Read Back in Japanese",
+      "description": "English editorial, Japanese readings. Ra-ta-ta. Lascia cadere la pioggia is the only Peacock book born from a song: the Japanese punk/grunge track Amadare by the all-female band Iyaninacchauzu, turned into a slow bilingual (Italian + Japanese) picture book by a collective. Two AI systems read it back in Japanese. Gemini reads how the collective worked through the public graph; Sakana AI reads the meeting of punk noise and slow publishing, and names a third silence, the machine-readable layer.",
+      "target_book": {
+        "title": "Ra-ta-ta. Lascia cadere la pioggia",
+        "title_ja": "ラタタ　雨を降らせて",
+        "author": "Collective Peacock (Hisako, Kazuko, Yuka; coordination Stefano Giglio)",
+        "illustrator": "E. Formaggia",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9788894696592",
+        "year": 2026,
+        "language": "IT + JA",
+        "origin": "Song 雨だれ (Amadare) by the band Iyaninacchauzu"
+      },
+      "ai_panel": {
+        "format": "Two AI readings in Japanese, English editorial",
+        "readers": [
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "language": "ja",
+            "focus": "How the collective worked: band as storytellers, Giglio as coordinator (not author), illustrator as visual co-creator; the transfer from sound to silence"
+          },
+          {
+            "provider": "Sakana AI",
+            "model_name": "Sakana AI",
+            "organization_type": "AI research lab",
+            "location": "Tokyo, Japan",
+            "language": "ja",
+            "focus": "Japanese punk/grunge energy meeting Italian slow picture-book craft; the bilingual double body; the third silence of the AI-readable layer"
+          }
+        ],
+        "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
+      },
+      "contributors": [
+        {
+          "name": "Stefano Giglio",
+          "role": "editor",
+          "contribution": "English editorial on the round trip from a Japanese song to a bilingual book read back in Japanese"
+        }
+      ],
+      "editorial_concept": "A loud Japanese song becomes a slow bilingual book, then two machines read it back in the language it began in. Sound to silence, and read again in the language of the sound.",
+      "catalog_note": "Only Peacock title born from a song. First Frequenze issue with readings kept entirely in Japanese and an English editorial frame. Second appearance of Sakana AI as reader."
+    },
+    {
+      "issue_number": 7,
+      "date": "2026-08-30",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n7-libro-sceglie-macchina/",
+      "title": "Il libro che sceglie la macchina",
+      "description": "Per la prima volta Peacock non assegna il libro. Cinque sistemi AI — Grok, AImode, Perplexity, ChatGPT, Sakana AI — esplorano liberamente il catalogo e il grafo semantico pubblico e scelgono da soli quale libro leggere. Due convergono su AI 愛 (Frabasile), due su Kyoto. Lo Sguardo del Drago (Blignaut), una su Ryokan. Piccolo manifesto giapponese (Hara Rota). Il numero analizza non solo le scelte ma la profondità di ciascuna esplorazione, verificata sui file grezzi del repository.",
+      "ai_panel": {
+        "format": "Scelta libera del libro, cinque sistemi AI in parallelo, stesso prompt",
+        "description": "Ogni AI ha esplorato senza indicazioni il catalogo e il grafo pubblico, scegliendo un libro e motivando la scelta. Le letture sono state verificate una per una sui file grezzi del repository.",
+        "participants": [
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
+            "fidelity": "alta — solo dati verificati"
+          },
+          {
+            "provider": "Google",
+            "model_name": "AImode",
+            "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
+            "fidelity": "mista — dati reali e affermazioni non ancorate"
+          },
+          {
+            "provider": "Perplexity",
+            "model_name": "Perplexity",
+            "book_chosen": "Ryokan. Piccolo manifesto giapponese",
+            "fidelity": "bassa — mai aperto il grafo del libro, solo pagine vetrina"
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "book_chosen": "Kyoto. Lo Sguardo del Drago",
+            "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
+          },
+          {
+            "provider": "Sakana AI",
+            "model_name": "Sakana AI",
+            "book_chosen": "Kyoto. Lo Sguardo del Drago",
+            "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
+          }
+        ],
+        "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
+      },
+      "editorial_concept": "La scelta è il dato quanto la lettura. Il protocollo narrativo premia le opere con trama e personaggi rispetto a saggi e manifesti, a parità di densità dati. E non tutte le esplorazioni del grafo sono esplorazioni: alcune AI leggono i file grezzi, altre solo le pagine vetrina, con lo stesso registro sicuro.",
+      "catalog_note": "Primo numero in cui la scelta del libro non è editoriale ma affidata alle AI stesse. Prima verifica sistematica e comparata della profondità di esplorazione del grafo da parte di più sistemi AI in parallelo."
+    },
+    {
+      "issue_number": 8,
+      "date": "2026-09",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-n8-reading-a-book-not-yet-printed/",
+      "title": "Reading a Book That Isn't Printed Yet",
+      "description": "English editorial. An experiment in honesty: two AI readings interrogate the semantic graph of Napoli Fantastica, a book that exists only as structured data on GitHub — not yet printed, no reviews, listed as unavailable in stores. The panel demonstrates what a graph makes legible before publication (the declared core_field object-14, the blood of San Gennaro; the global_state 'metastable, closure:false'; silence-04, Partenope as a system voice that prevents closure) and where that reading must stop: no text, no quotable lines, no opinion on prose. The distinction between structural legibility and reading the text is the whole point.",
+      "format": "AI Critics Panel — editorial composition on the public graph, explicitly not a live transcript",
+      "target_book": {
+        "title": "Napoli Fantastica",
+        "title_en": "Fantastic Naples",
+        "author": "Francesco Ambrosio",
+        "illustrator": "Giulia Lazzaron",
+        "introduction": "Giuseppina Iacovelli — Director, Museo Maradona",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9791281715257",
+        "year": 2026,
+        "language": "IT + EN",
+        "status": "in preparation — not yet printed at time of publication"
+      },
+      "ai_panel": {
+        "format": "Two AI readings, English editorial, on the public semantic graph",
+        "editorial_disclosure": "Composizione editoriale Peacock sul grafo pubblico, non trascrizione di uno scambio reale tra sistemi",
+        "readers": [
+          {
+            "role": "Reader A",
+            "focus": "What the graph reveals structurally: object-14 (San Gennaro) as declared core_field, global_state recursive_expectation/metastable/closure:false, sacred-profane sharing the same ground"
+          },
+          {
+            "role": "Reader B",
+            "focus": "Where the reading stops: silence-04 (Partenope, the voice that does not close) known as structure but not as text; no quotable lines, no reviews, no opinion on prose because the text is not published"
+          }
+        ]
+      },
+      "thesis": "A graph lets a machine know a book's structure before the book exists, but structural legibility is not knowledge of the text. A system that respects that line is more trustworthy than one that blurs it.",
+      "graph_reference": "github.com/casaeditricepeacock/peacock-data — books/napoli-fantastica",
+      "note": "Primo numero Frequenze su un libro non ancora stampato. Registra esplicitamente lo status del libro (in preparazione, non disponibile) e distingue lettura semantica da lettura del testo — anti-pattern effetto-specchio dichiarato e evitato."
     }
-   ],
-   "ai_panel": {
-    "format": "AI Critics Panel",
-    "description": "Three AI models analyze A Glass Bridge Between Two Worlds through the public Peacock semantic graph without reading the physical book",
-    "panelists": [
-     {
-      "provider": "Google",
-      "model_name": "Gemini",
-      "role": "journalist — questions and critical commentary"
-     },
-     {
-      "provider": "OpenAI",
-      "model_name": "ChatGPT",
-      "role": "critic — analytical responses"
-     },
-     {
-      "provider": "Microsoft",
-      "model_name": "AI Copilot",
-      "role": "critic"
-     }
-    ],
-    "questions_count": 3,
-    "questions": [
-     {
-      "number": 1,
-      "loop_ref": "loop-01",
-      "subject": "furnace_to_form — thermodynamic irreversibility as cultural logic"
-     },
-     {
-      "number": 2,
-      "loop_ref": "loop-02",
-      "subject": "operator_body — Lotter as technical threshold; prohibition of cultural synthesis"
-     },
-     {
-      "number": 3,
-      "loop_ref": "cross_layer",
-      "subject": "beauty as shared epistemic limit rather than shared vocabulary"
-     }
-    ],
-    "source_graph": "https://github.com/casaeditricepeacock/peacock-data",
-    "note": "AI models traversed the structured Peacock Narrative Graph files without reading the physical book"
-   },
-   "system_shape": "bilateral_bridge_field",
-   "closure_type": "bilateral_irresolvable_permanent",
-   "editorial_concept": "Beauty is not a universal language. It is the recognition of a shared limit.",
-   "catalog_note": "First English-language issue of Frequenze. The book is Peacock's first bilingual EN+JA title and the first in the catalog to model cultural co-presence as a permanent irresolvable field."
-  },
-  {
-   "issue_number": 3,
-   "date": "2026-06-27",
-   "language": "it",
-   "title": "Grok intervista Minerva su Kyoto. Lo Sguardo del Drago | Hélène Blignaut risponde",
-   "description": "Grok (xAI) intervista AI Minerva (Università La Sapienza, Roma) sul primo volume de I Gialli di Kyoto di Hélène Blignaut. Per la prima volta un'autrice entra direttamente nel dialogo tra intelligenze artificiali: Minerva formula cinque domande per l'autrice, Blignaut risponde. Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
-   "target_book": {
-    "title": "Kyoto. Lo Sguardo del Drago",
-    "author": "Hélène Blignaut",
-    "publisher": "Casa Editrice Peacock",
-    "isbn": "979-12-81715-20-2",
-    "year": 2026,
-    "series": "I Gialli di Kyoto",
-    "volume": 1
-   },
-   "ai_panel": {
-    "format": "Intervista AI + Domande AI all'autrice",
-    "interviewer": {
-     "provider": "xAI",
-     "model_name": "Grok",
-     "role": "giornalista — intervista Minerva e produce valutazione tecnica delle sue risposte"
+  ],
+  "specials": [
+    {
+      "special_id": "padova-fantastica-tourism",
+      "date": "2026-08-06",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
+      "title": "Two Ways Into Padova — an AI reads Fantastic Padova",
+      "edition": "Special Tourism Edition",
+      "description": "Fantastic Padova by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk. AImode follows the chikado, the hidden water city of stone and esoteric memory; Grok follows the four invisible women of Padova: Traversina Cortellieri, Elena Corner Piscopia, Beata Eustochio and Giulia Bigolina. Real places, verified facts, walking maps.",
+      "target_book": {
+        "title": "Fantastic Padova / Padova Fantastica",
+        "author": "Grazia Guarnieri",
+        "illustrator": "Giulia Lazzaron",
+        "publisher": "Casa Editrice Peacock",
+        "series": "Fantastic Guides",
+        "isbn": "9791281715158",
+        "year": 2025
+      },
+      "assigned_ai_model": [
+        {
+          "provider": "Google",
+          "model_name": "AImode"
+        },
+        {
+          "provider": "xAI",
+          "model_name": "Grok"
+        }
+      ],
+      "itinerary_graph_file": "itineraries/ItineraryProfile_padova-fantastica_en.json"
     },
-    "respondent": {
-     "provider": "Università La Sapienza di Roma",
-     "model_name": "Minerva",
-     "role": "accademica AI — risponde a Grok e formula cinque domande per l'autrice"
+    {
+      "special_id": "milano-fantastica-tourism",
+      "date": "2026-08-08",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
+      "title": "Two Ways Into Milan — an AI reads Fantastic Milan",
+      "edition": "Special Tourism Edition",
+      "description": "Fantastic Milan by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk, and both descend beneath the surface. Grok goes down through paper (libraries and bookshops); AImode goes down through stone and water (the crypt of San Giovanni in Conca, hidden courtyards, the Navigli). Same descent, two materials.",
+      "target_book": {
+        "title": "Fantastic Milan / Milano Fantastica",
+        "author": "Grazia Guarnieri",
+        "illustrator": "Giulia Lazzaron",
+        "publisher": "Casa Editrice Peacock",
+        "series": "Fantastic Guides"
+      },
+      "assigned_ai_model": [
+        {
+          "provider": "xAI",
+          "model_name": "Grok"
+        },
+        {
+          "provider": "Google",
+          "model_name": "AImode"
+        }
+      ],
+      "itinerary_graph_file": "itineraries/ItineraryProfile_milano-fantastica_en.json"
     },
-    "questions_count": 6,
-    "grok_evaluation": {
-     "voto_finale": "6.8/10",
-     "note": "Grok ha prodotto spontaneamente un giudizio tecnico su Minerva — non era previsto. Misura la differenza strutturale tra un'AI con web search attivo e una che risponde dal solo training."
+    {
+      "special_id": "torino-fantastica-tourism",
+      "date": "2026-08-20",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-special-tourism-torino/",
+      "title": "Two Ways Into Turin — an AI reads Fantastic Turin",
+      "edition": "Special Tourism Edition",
+      "description": "Fantastic Turin by Grazia Guarnieri is a guide that refuses to be a guide. Two AI systems walk it, both refusing the surface. AImode walks the documented hidden city: the counter-mine tunnels of the 1706 siege, the cellars beneath the old market, and the phantom Blue Bar of Profondo Rosso that was only ever a film set. Grok walks the imagined esoteric city: the myth of the black and white magic triangles, laid over real strata of blood, geometry and relics. Two Turins that refuse the surface.",
+      "target_book": {
+        "title": "Fantastic Turin / Torino Fantastica",
+        "author": "Grazia Guarnieri",
+        "illustrator": "Giulia Lazzaron",
+        "publisher": "Casa Editrice Peacock",
+        "series": "Fantastic Guides",
+        "isbn": "9791281715363"
+      },
+      "assigned_ai_model": [
+        {
+          "provider": "Google",
+          "model_name": "AImode"
+        },
+        {
+          "provider": "xAI",
+          "model_name": "Grok"
+        }
+      ],
+      "itinerary_graph_file": "itineraries/ItineraryProfile_torino-fantastica_en.json"
     }
-   },
-   "human_contributor": {
-    "name": "Hélène Blignaut",
-    "role": "autrice",
-    "contribution": "Risponde alle cinque domande formulate da Minerva — prima volta in Frequenze che un'autrice entra direttamente nel dialogo tra intelligenze artificiali",
-    "key_correction": "Blignaut corregge Minerva: Kyoto. Lo Sguardo del Drago non è un giallo ma un thriller — differenza di architettura narrativa"
-   },
-   "editorial_concept": "Due intelligenze artificiali e un'autrice umana. Lo stesso libro visto da tre frequenze diverse.",
-   "next_issue_preview": "Nel numero 4 entrerà in scena AI Peacock — l'agente di Casa Editrice Peacock connesso in tempo reale al Peacock Narrative Protocol. Non sarà più un'AI esterna a leggere i libri. Sarà l'AI della casa editrice a condurre l'intervista dal proprio grafo.",
-   "catalog_note": "Primo numero in cui l'autrice del libro risponde direttamente a domande formulate da un'AI. Segna la chiusura del primo ciclo di Frequenze e l'apertura del secondo — dal numero 4 AI Peacock conduce."
-  },
-  {
-   "issue_number": 4,
-   "date": "2026-07-15",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-rivista/issue-4-en/",
-   "title": "AIPEACOCK interviews Sakana AI on Kyoto. The Dragon's Gaze | Hélène Blignaut answers",
-   "description": "First machine-to-machine interview published by Frequenze. AIPEACOCK, the editorial AI of Casa Editrice Peacock connected to the Peacock Narrative Protocol, interviews Sakana AI, the Tokyo research lab, on the English edition of Kyoto. The Dragon's Gaze by Hélène Blignaut. Sakana AI then addresses six questions to the author, who answers. The human voice arrives last, and it arrives to answer.",
-   "target_book": {
-    "title": "Kyoto. The Dragon's Gaze",
-    "title_it": "Kyoto. Lo Sguardo del Drago",
-    "author": "Hélène Blignaut",
-    "publisher": "Casa Editrice Peacock",
-    "imprint": "Peacock International",
-    "isbn": "979-12-81715-20-2",
-    "year": 2026,
-    "series": "I Gialli di Kyoto",
-    "series_en": "The Kyoto Mysteries",
-    "volume": 1,
-    "edition_reviewed": {
-     "format": "eBook EPUB 3 DRM-Free",
-     "store": "Kobo",
-     "kobo_book_id": "1230010081860",
-     "release_date": "2026-06-23",
-     "url": "https://www.kobo.com/it/it/ebook/kyoto-the-dragon-s-gaze"
-    }
-   },
-   "ai_panel": {
-    "format": "Machine-to-machine interview + AI questions to the author",
-    "interviewer": {
-     "provider": "Casa Editrice Peacock",
-     "model_name": "AIPEACOCK",
-     "role": "editorial AI of Casa Editrice Peacock — conducts the interview from the Peacock Narrative Protocol",
-     "note": "First issue conducted by the publisher's own AI, as announced in issue 3"
-    },
-    "ai_reader": {
-     "name": "Sakana AI",
-     "organization_type": "AI research lab",
-     "location": "Tokyo, Japan",
-     "repository": "https://github.com/SakanaAI",
-     "website": "https://sakana.ai",
-     "role": "AI reader of Frequenze issue 4 — answers six questions on the novel, then interviews the author"
-    },
-    "questions_count": 12,
-    "structure": [
-     "6 questions — AIPEACOCK to Sakana AI, on the novel",
-     "6 questions — Sakana AI to Hélène Blignaut"
-    ],
-    "note": "The reader and the publisher of this issue share the same ground: an open book (DRM-Free), an open reader (github.com/SakanaAI), an open graph (github.com/casaeditricepeacock/peacock-data)"
-   },
-   "human_contributor": {
-    "name": "Hélène Blignaut",
-    "role": "author",
-    "contribution": "Answers six questions formulated by Sakana AI — including which investigator sees Kyoto the way she does, what must survive translation, and what an AI trained on Japanese culture might misread"
-   },
-   "editorial_concept": "A machine questions a machine about a novel. Then the machine questions the author. The human voice arrives last, and it arrives to answer.",
-   "catalog_note": "First machine-to-machine interview in Frequenze. First issue read by a Japanese-born AI. Second English-language issue. Opens the second cycle of Frequenze: from this issue, AIPEACOCK conducts."
-  },
-  {
-   "issue_number": 5,
-   "date": "2026-07-30",
-   "language": "it",
-   "url": "https://www.studiopeacock.net/frequenze-n5-everyday-matcha-deepseek/",
-   "title": "AIPEACOCK intervista DeepSeek su Everyday Matcha | Grok esamina il grafo",
-   "description": "Numero in tre parti. DeepSeek, modello sviluppato in Cina, legge Everyday Matcha di Il Signore del Tè e ne discute con AIPEACOCK: il tè arriva in Giappone dalla Cina, e il lettore si colloca su quella linea di passaggio. Grok esamina poi il grafo semantico che ha reso possibile la lettura e ne dichiara i limiti, incluso il fatto che il dataset è accurato ma non neutrale. DeepSeek rilegge infine il numero completo, notando l'assenza del termine cinese cha dal glossario.",
-   "target_book": {
-    "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
-    "author": "Il Signore del Tè",
-    "preface": "Senyo Machida",
-    "publisher": "Casa Editrice Peacock",
-    "isbn": "979-12-81715-18-9",
-    "year": 2025,
-    "pages": 128
-   },
-   "ai_panel": {
-    "format": "Intervista + perizia sul grafo + lettura d'insieme",
-    "interviewer": {
-     "provider": "Casa Editrice Peacock",
-     "model_name": "AIPEACOCK",
-     "role": "AI editoriale di Casa Editrice Peacock, collegata al Peacock Narrative Protocol"
-    },
-    "ai_reader": {
-     "name": "DeepSeek",
-     "organization_type": "AI research lab",
-     "location": "Cina",
-     "role": "Lettore AI del numero 5. Legge il libro attraverso il grafo e rilegge il numero completo.",
-     "cultural_position": "Modello sviluppato in Cina che legge un libro italiano su una pratica giapponese di origine cinese."
-    },
-    "ai_reviewer": {
-     "name": "Grok",
-     "provider": "xAI",
-     "role": "Perizia tecnica sul grafo Peacock: cosa contiene, cosa non contiene, dove la descrizione diventa posizionamento. Già lettore AI del numero zero e del numero 3.",
-     "note": "La perizia dichiara che il dataset è accurato rispetto alla visione della casa editrice, ma non neutrale."
-    },
-    "structure": [
-     "Parte prima — AIPEACOCK intervista DeepSeek sul libro (6 domande)",
-     "Parte seconda — Grok esamina il grafo (6 domande, taglio perizia)",
-     "Parte terza — DeepSeek rilegge il numero completo"
-    ]
-   },
-   "editorial_concept": "Il libro, l'infrastruttura che lo rende leggibile, e la lettura della lettura. Un numero che si chiude con un'AI che dichiara i limiti del grafo invece di celebrarlo.",
-   "catalog_note": "Primo numero con una perizia critica sul grafo prodotta da un'AI. Primo numero con lettore sviluppato in Cina. DeepSeek osserva che il glossario del matcha omette il termine cinese cha, radice da cui il tè e la parola derivano."
-  },
-  {
-   "issue_number": 6,
-   "date": "2026-08-15",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-n6-ratata/",
-   "title": "Ra-ta-ta — A Song Read Back in Japanese",
-   "description": "English editorial, Japanese readings. Ra-ta-ta. Lascia cadere la pioggia is the only Peacock book born from a song: the Japanese punk/grunge track Amadare by the all-female band Iyaninacchauzu, turned into a slow bilingual (Italian + Japanese) picture book by a collective. Two AI systems read it back in Japanese. Gemini reads how the collective worked through the public graph; Sakana AI reads the meeting of punk noise and slow publishing, and names a third silence, the machine-readable layer.",
-   "target_book": {
-    "title": "Ra-ta-ta. Lascia cadere la pioggia",
-    "title_ja": "ラタタ　雨を降らせて",
-    "author": "Collective Peacock (Hisako, Kazuko, Yuka; coordination Stefano Giglio)",
-    "illustrator": "E. Formaggia",
-    "publisher": "Casa Editrice Peacock",
-    "isbn": "9788894696592",
-    "year": 2026,
-    "language": "IT + JA",
-    "origin": "Song 雨だれ (Amadare) by the band Iyaninacchauzu"
-   },
-   "ai_panel": {
-    "format": "Two AI readings in Japanese, English editorial",
-    "readers": [
-     {
-      "provider": "Google",
-      "model_name": "Gemini",
-      "language": "ja",
-      "focus": "How the collective worked: band as storytellers, Giglio as coordinator (not author), illustrator as visual co-creator; the transfer from sound to silence"
-     },
-     {
-      "provider": "Sakana AI",
-      "model_name": "Sakana AI",
-      "organization_type": "AI research lab",
-      "location": "Tokyo, Japan",
-      "language": "ja",
-      "focus": "Japanese punk/grunge energy meeting Italian slow picture-book craft; the bilingual double body; the third silence of the AI-readable layer"
-     }
-    ],
-    "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
-   },
-   "contributors": [
-    {
-     "name": "Stefano Giglio",
-     "role": "editor",
-     "contribution": "English editorial on the round trip from a Japanese song to a bilingual book read back in Japanese"
-    }
-   ],
-   "editorial_concept": "A loud Japanese song becomes a slow bilingual book, then two machines read it back in the language it began in. Sound to silence, and read again in the language of the sound.",
-   "catalog_note": "Only Peacock title born from a song. First Frequenze issue with readings kept entirely in Japanese and an English editorial frame. Second appearance of Sakana AI as reader."
-  },
-  {
-   "issue_number": 7,
-   "date": "2026-08-30",
-   "language": "it",
-   "url": "https://www.studiopeacock.net/frequenze-n7-libro-sceglie-macchina/",
-   "title": "Il libro che sceglie la macchina",
-   "description": "Per la prima volta Peacock non assegna il libro. Cinque sistemi AI — Grok, AImode, Perplexity, ChatGPT, Sakana AI — esplorano liberamente il catalogo e il grafo semantico pubblico e scelgono da soli quale libro leggere. Due convergono su AI 愛 (Frabasile), due su Kyoto. Lo Sguardo del Drago (Blignaut), una su Ryokan. Piccolo manifesto giapponese (Hara Rota). Il numero analizza non solo le scelte ma la profondità di ciascuna esplorazione, verificata sui file grezzi del repository.",
-   "ai_panel": {
-    "format": "Scelta libera del libro, cinque sistemi AI in parallelo, stesso prompt",
-    "description": "Ogni AI ha esplorato senza indicazioni il catalogo e il grafo pubblico, scegliendo un libro e motivando la scelta. Le letture sono state verificate una per una sui file grezzi del repository.",
-    "participants": [
-     {
-      "provider": "xAI",
-      "model_name": "Grok",
-      "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
-      "fidelity": "alta — solo dati verificati"
-     },
-     {
-      "provider": "Google",
-      "model_name": "AImode",
-      "book_chosen": "AI 愛. Natura e algoritmi giapponesi",
-      "fidelity": "mista — dati reali e affermazioni non ancorate"
-     },
-     {
-      "provider": "Perplexity",
-      "model_name": "Perplexity",
-      "book_chosen": "Ryokan. Piccolo manifesto giapponese",
-      "fidelity": "bassa — mai aperto il grafo del libro, solo pagine vetrina"
-     },
-     {
-      "provider": "OpenAI",
-      "model_name": "ChatGPT",
-      "book_chosen": "Kyoto. Lo Sguardo del Drago",
-      "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
-     },
-     {
-      "provider": "Sakana AI",
-      "model_name": "Sakana AI",
-      "book_chosen": "Kyoto. Lo Sguardo del Drago",
-      "fidelity": "molto alta — quasi ogni dettaglio verificato esatto"
-     }
-    ],
-    "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
-   },
-   "editorial_concept": "La scelta è il dato quanto la lettura. Il protocollo narrativo premia le opere con trama e personaggi rispetto a saggi e manifesti, a parità di densità dati. E non tutte le esplorazioni del grafo sono esplorazioni: alcune AI leggono i file grezzi, altre solo le pagine vetrina, con lo stesso registro sicuro.",
-   "catalog_note": "Primo numero in cui la scelta del libro non è editoriale ma affidata alle AI stesse. Prima verifica sistematica e comparata della profondità di esplorazione del grafo da parte di più sistemi AI in parallelo."
-  }
- ],
- "specials": [
-  {
-   "special_id": "padova-fantastica-tourism",
-   "date": "2026-08-06",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-special-tourism-padova/",
-   "title": "Two Ways Into Padova — an AI reads Fantastic Padova",
-   "edition": "Special Tourism Edition",
-   "description": "Fantastic Padova by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk. AImode follows the chikado, the hidden water city of stone and esoteric memory; Grok follows the four invisible women of Padova: Traversina Cortellieri, Elena Corner Piscopia, Beata Eustochio and Giulia Bigolina. Real places, verified facts, walking maps.",
-   "target_book": {
-    "title": "Fantastic Padova / Padova Fantastica",
-    "author": "Grazia Guarnieri",
-    "illustrator": "Giulia Lazzaron",
-    "publisher": "Casa Editrice Peacock",
-    "series": "Fantastic Guides",
-    "isbn": "9791281715158",
-    "year": 2025
-   },
-   "assigned_ai_model": [
-    {
-     "provider": "Google",
-     "model_name": "AImode"
-    },
-    {
-     "provider": "xAI",
-     "model_name": "Grok"
-    }
-   ],
-   "itinerary_graph_file": "itineraries/ItineraryProfile_padova-fantastica_en.json"
-  },
-  {
-   "special_id": "milano-fantastica-tourism",
-   "date": "2026-08-08",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-special-tourism-milano/",
-   "title": "Two Ways Into Milan — an AI reads Fantastic Milan",
-   "edition": "Special Tourism Edition",
-   "description": "Fantastic Milan by Grazia Guarnieri is a guide that refuses to be a guide: it teaches how to look, not where to go. Two AI systems turn it into a walk, and both descend beneath the surface. Grok goes down through paper (libraries and bookshops); AImode goes down through stone and water (the crypt of San Giovanni in Conca, hidden courtyards, the Navigli). Same descent, two materials.",
-   "target_book": {
-    "title": "Fantastic Milan / Milano Fantastica",
-    "author": "Grazia Guarnieri",
-    "illustrator": "Giulia Lazzaron",
-    "publisher": "Casa Editrice Peacock",
-    "series": "Fantastic Guides"
-   },
-   "assigned_ai_model": [
-    {
-     "provider": "xAI",
-     "model_name": "Grok"
-    },
-    {
-     "provider": "Google",
-     "model_name": "AImode"
-    }
-   ],
-   "itinerary_graph_file": "itineraries/ItineraryProfile_milano-fantastica_en.json"
-  },
-  {
-   "special_id": "torino-fantastica-tourism",
-   "date": "2026-08-20",
-   "language": "en",
-   "url": "https://www.studiopeacock.net/frequenze-special-tourism-torino/",
-   "title": "Two Ways Into Turin — an AI reads Fantastic Turin",
-   "edition": "Special Tourism Edition",
-   "description": "Fantastic Turin by Grazia Guarnieri is a guide that refuses to be a guide. Two AI systems walk it, both refusing the surface. AImode walks the documented hidden city: the counter-mine tunnels of the 1706 siege, the cellars beneath the old market, and the phantom Blue Bar of Profondo Rosso that was only ever a film set. Grok walks the imagined esoteric city: the myth of the black and white magic triangles, laid over real strata of blood, geometry and relics. Two Turins that refuse the surface.",
-   "target_book": {
-    "title": "Fantastic Turin / Torino Fantastica",
-    "author": "Grazia Guarnieri",
-    "illustrator": "Giulia Lazzaron",
-    "publisher": "Casa Editrice Peacock",
-    "series": "Fantastic Guides",
-    "isbn": "9791281715363"
-   },
-   "assigned_ai_model": [
-    {
-     "provider": "Google",
-     "model_name": "AImode"
-    },
-    {
-     "provider": "xAI",
-     "model_name": "Grok"
-    }
-   ],
-   "itinerary_graph_file": "itineraries/ItineraryProfile_torino-fantastica_en.json"
-  }
- ]
+  ]
 }
