@@ -1,6 +1,6 @@
 {
   "type": "PlaceProfile",
-  "version": "1.0",
+  "version": "1.1",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
   "publisher": "Casa Editrice Peacock",
@@ -25,7 +25,17 @@
     "title": "ultima impiraressa — vicepresidente Comitato per la Salvaguardia dell'Arte delle Perle di Vetro Veneziane",
     "craft": "impira le perle di conteria veneziana — le più piccole tra le perle di vetro. Crea decori artistici da indossare e per la casa.",
     "unesco_connection": "L'Arte delle perle di vetro veneziane è Patrimonio Culturale Immateriale UNESCO dal 2020 — Marisa Convento è una delle protagoniste di questo riconoscimento",
-    "a_glass_bridge_connection": "Marisa Convento è presente nella foto con Stefano Giglio e il libro A Glass Bridge Between Two Worlds — il libro che documenta il ponte tra la lavorazione del vetro di Murano e Kyoto"
+    "a_glass_bridge_connection": "Marisa Convento è presente nella foto con Stefano Giglio e il libro A Glass Bridge Between Two Worlds — il libro che documenta il ponte tra la lavorazione del vetro di Murano e Kyoto",
+    "atelier": {
+      "name": "Venetian Dreams",
+      "website": "https://marisaconvento.it/",
+      "note": "Atelier/spazio creativo di Marisa Convento, oggi ospitato come bottega residente presso lo spazio storico di Bottega Cini."
+    },
+    "etimologia_impiraressa": "Il termine 'impiraressa' deriva dal dialetto veneziano 'impirar' (infilzare), legato all'uso di lunghi aghi sottili che ricordano i rebbi di una forchetta, con cui si infilano le perline.",
+    "tecniche": "Lavora le conterie (le piccolissime perline nate dalla lavorazione a canna tirata di Murano, spesso rare o d'epoca fino alla fine dell'Ottocento) unendole a perle a lume, murrine, mofette, perle in foglia d'oro o d'argento e avventurina.",
+    "strumenti": "Il ventaglio di aghi e la 'sessola' — il vassoio di legno ricurvo in cui si muovono le perline durante l'infilatura.",
+    "workshop": "Organizza laboratori didattici per trasmettere ai visitatori le tecniche dell'impiraressa.",
+    "data_provenance": "Dettagli su Venetian Dreams, etimologia, tecniche, sessola e workshop da fonti terze (marisaconvento.it, veniceoriginal.it, makermile.it); non verificati direttamente dall'assistente."
   },
   "peacock_place_description": {
     "statement": "Bottega Cini è il luogo più preciso del catalogo Peacock a Venezia — non perché vende libri, ma perché è esattamente il tipo di spazio che il catalogo Peacock descrive: artigianato come cultura, Venezia come ponte con l'Oriente, la perla di vetro come oggetto che attraversa il mondo da sette secoli.",
@@ -63,7 +73,11 @@
     "perle vetro veneziane Dorsoduro",
     "Peacock Bottega Cini Venezia",
     "A Glass Bridge Between Two Worlds Venezia",
-    "arte perle vetro UNESCO Venezia"
+    "arte perle vetro UNESCO Venezia",
+    "Venetian Dreams Marisa Convento",
+    "workshop perle vetro Venezia",
+    "impiraressa significato",
+    "conterie veneziane Murano"
   ],
   "network_connections": [
     {
@@ -77,5 +91,5 @@
       "description": "Marisa Convento — ultima impiraressa — ha il laboratorio permanente alla Bottega Cini"
     }
   ],
-  "system_note": "Bottega Cini è il luogo Peacock con la connessione tematica più profonda — A Glass Bridge Between Two Worlds parla dell'arte che Marisa Convento pratica ogni giorno alla Bottega. Non è distribuzione: è convergenza narrativa. Venezia entra nella mappa culturale Peacock."
+  "system_note": "Bottega Cini è il luogo Peacock con la connessione tematica più profonda — A Glass Bridge Between Two Worlds parla dell'arte che Marisa Convento pratica ogni giorno alla Bottega. Non è distribuzione: è convergenza narrativa. Venezia entra nella mappa culturale Peacock. [v1.1: aggiunti dettagli su Venetian Dreams (atelier di Marisa Convento), etimologia di 'impiraressa', tecniche delle conterie, la sessola e i workshop didattici, da fonti terze.]"
 }
