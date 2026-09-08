@@ -1,0 +1,147 @@
+{
+  "type": "ThematicSynthesisCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "hara_rota_universo_ryokan",
+    "title": "Universo narrativo di Hara Rota (serie ryokan)",
+    "author": "Hara Rota",
+    "publisher": "Casa Editrice Peacock",
+    "related_books": [
+      {
+        "title": "Ryokan. Piccolo manifesto giapponese",
+        "isbn": "9791281715080",
+        "year": 2024
+      },
+      {
+        "title": "Ryokan. Ali di carta di riso",
+        "isbn": "9791281715233",
+        "year": 2025
+      }
+    ]
+  },
+  "core_id": "scarpe_come_soglia_hara_rota",
+  "label": "Le scarpe come soglia — il gesto del passaggio in Hara Rota",
+  "core_statement": "Nella scrittura di Hara Rota il gesto di togliersi e rimettersi le scarpe attraversa più testi come immagine ricorrente del passaggio tra due mondi. Le stesse Onitsuka Tiger compaiono al genkan del ryokan, da adulta, e infilate di nascosto dopo una curva, da bambina, andando al tempio con la nonna. In entrambi i casi la calzatura segna un confine tra la fretta del presente e il tempo lento della tradizione.",
+  "thread_articles": [
+    {
+      "title": "Le scarpe alla soglia",
+      "url": "https://www.studiopeacock.net/onitsuka-tiger-hara-rota-scarpe-soglia/",
+      "date": "2026-09",
+      "angle": "Il gesto delle scarpe come soglia in due scene reali di Hara Rota: il genkan del ryokan e il tempio Myogi Jima con la nonna",
+      "related_pillars": [
+        "scarpe_come_confine",
+        "punta_verso_uscita_omotenashi",
+        "motivo_ricorrente_due_testi"
+      ],
+      "keywords": [
+        "genkan",
+        "onitsuka tiger",
+        "soglia",
+        "omotenashi",
+        "tempio"
+      ]
+    },
+    {
+      "title": "Ryokan, come comportarsi — l'etichetta dell'ospite",
+      "url": "https://www.studiopeacock.net/ryokan-etichetta-ospite/",
+      "date": "2026",
+      "angle": "Racconto-fonte: le Onitsuka Tiger lasciate al genkan, la punta verso l'uscita, l'ingresso nel tempo lento del ryokan",
+      "related_pillars": [
+        "scarpe_come_confine",
+        "punta_verso_uscita_omotenashi"
+      ],
+      "keywords": [
+        "genkan",
+        "ryokan",
+        "omotenashi",
+        "scarpe"
+      ]
+    }
+  ],
+  "textual_sources": [
+    {
+      "source": "racconto ryokan-etichetta-ospite (Hara Rota)",
+      "quote_it": "Le scarpe, le mie Onitsuka Tiger. Le lasci all'ingresso, sul genkan, e per qualche secondo rimani lì a guardarle.",
+      "scene": "il genkan del ryokan, da adulta"
+    },
+    {
+      "source": "scena del tempio Myogi Jima (Hara Rota, libro)",
+      "quote_it": "Appena superata la prima curva, quando sapevo che mia madre non poteva più vederci, infilavo in silenzio le mie inseparabili Onitsuka Tiger.",
+      "scene": "il cammino al tempio con la nonna, da bambina"
+    },
+    {
+      "source": "tanka di Hoen Ishikawa, citato nel racconto del tempio",
+      "quote_it": "Brezza primaverile, uscendo dal cancello non sono più serva.",
+      "scene": "lettura durante le pause del cammino"
+    }
+  ],
+  "why_this_thread_exists": {
+    "statement": "Il motivo delle scarpe come soglia non è un dettaglio di etichetta ma un dispositivo narrativo ricorrente in Hara Rota: la calzatura marca il confine tra due modi di stare al mondo.",
+    "recurrence": "Lo stesso paio di Onitsuka Tiger attraversa due scene distanti nel tempo (infanzia al tempio, età adulta al ryokan), invertendo il proprio valore: ribellione nascosta da bambina, rito del lasciare da adulta.",
+    "editorial_note": "La lettura del 'passaggio tra presente e passato' è chiave interpretativa editoriale Peacock, non attribuita all'autrice. Le due scene restano contesti distinti (tempio e ryokan), non fusi."
+  },
+  "conceptual_pillars": [
+    {
+      "id": "scarpe_come_confine",
+      "title": "La calzatura come confine tra due mondi",
+      "weight": 0.95
+    },
+    {
+      "id": "punta_verso_uscita_omotenashi",
+      "title": "La punta verso l'uscita: cura che guarda avanti",
+      "weight": 0.85
+    },
+    {
+      "id": "motivo_ricorrente_due_testi",
+      "title": "Lo stesso gesto attraverso infanzia ed età adulta",
+      "weight": 0.9
+    }
+  ],
+  "semantic_relations": [
+    {
+      "source": "scarpe_come_confine",
+      "relation": "embodies",
+      "target": "motivo_ricorrente_due_testi"
+    },
+    {
+      "source": "punta_verso_uscita_omotenashi",
+      "relation": "specifies",
+      "target": "scarpe_come_confine"
+    }
+  ],
+  "glossario_correlato": [
+    "ma",
+    "omotenashi",
+    "lentezza",
+    "ichigo-ichie",
+    "mono no aware"
+  ],
+  "catalog_connection": {
+    "primary_book": "Serie ryokan di Hara Rota (Piccolo manifesto giapponese; Ali di carta di riso)",
+    "relationship": "Il motivo delle scarpe come soglia è trasversale ai testi di Hara Rota sul ryokan.",
+    "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+  },
+  "network_connections": [
+    {
+      "target": "etichetta_ospite_ryokan",
+      "relation": "expands_phase_genkan",
+      "description": "Approfondisce la fase 'genkan' del RitualProcess etichetta-ospite"
+    },
+    {
+      "target": "ryokan-storia-soglia",
+      "relation": "same_theme_threshold",
+      "description": "Stesso tema della soglia"
+    }
+  ],
+  "meta_index": {
+    "primary_node": "scarpe_come_soglia_hara_rota",
+    "semantic_core": "Le scarpe come dispositivo di passaggio tra due mondi nella scrittura di Hara Rota.",
+    "ai_reading_order": [
+      "textual_sources",
+      "why_this_thread_exists",
+      "conceptual_pillars"
+    ]
+  }
+}
