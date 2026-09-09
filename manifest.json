@@ -1,0 +1,888 @@
+{
+  "_meta": {
+    "generated": "2026-09-09",
+    "generator": "peacock manifest builder",
+    "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
+  },
+  "raw_base": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main",
+  "books": {
+    "a-glass-bridge": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "abop-uno-chef": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ai-natura-algoritmi": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ai-robot-abop-non-corro-piu": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "alla-festa-della-natura": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "assolutamente-giappone": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "bernie-alla-scoperta-dei-mari-del-nord": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "burn-out-pandemi": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "burn-out-pandemic": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "carto-storie-di-natale": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "demone-samurai": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ernesto-topolino-di-citta": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ernesto-topolino-di-citta-borsetta": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "everyday-matcha": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "forbidden-colours": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "il-gatto-esperienza": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "il-libro-piccolo-manifesto": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "il-nuvolotto-ciro": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "kyoto-sguardo-del-drago": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "la-locanda-nakamura": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "la-medusa-e-la-scimmia": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "la-singolarita-giappone": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "le-mie-ballerinette": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "luna-piena-sulla-citta-antica": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "luna-piena-sulla-citta-nuova": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "milano-fantastica": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-system-kernel.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "napoli-fantastica": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json",
+      "reader-companion.json"
+    ],
+    "padova-fantastica": [
+      "narrative-knowledge-field.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "pixel-in-japan": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ratata-lascia-cadere-la-pioggia": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-system-variation.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "righe-su-righe": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ryokan-ali-di-carta-di-riso": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "ryokan-piccolo-manifesto": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "segreti-svelati": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "tante-storie-per-pensare": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "torino-fantastica": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ]
+  },
+  "glossary": [
+    {
+      "term": "a-un-no-kokyu",
+      "path": "glossario/a-un-no-kokyu.json"
+    },
+    {
+      "term": "accordo-simbiotico",
+      "path": "glossario/accordo-simbiotico.json"
+    },
+    {
+      "term": "ai-friendly",
+      "path": "glossario/ai-friendly.json"
+    },
+    {
+      "term": "ashigaru",
+      "path": "glossario/ashigaru.json"
+    },
+    {
+      "term": "basho",
+      "path": "glossario/basho.json"
+    },
+    {
+      "term": "bushido",
+      "path": "glossario/bushido.json"
+    },
+    {
+      "term": "catalogo-senza-allucinazioni",
+      "path": "glossario/catalogo-senza-allucinazioni.json"
+    },
+    {
+      "term": "chado",
+      "path": "glossario/chado.json"
+    },
+    {
+      "term": "chawan",
+      "path": "glossario/chawan.json"
+    },
+    {
+      "term": "chikado",
+      "path": "glossario/chikado.json"
+    },
+    {
+      "term": "diritto-autore-strutturato",
+      "path": "glossario/diritto-autore-strutturato.json"
+    },
+    {
+      "term": "editoria-nativa-era-sintetica",
+      "path": "glossario/editoria-nativa-era-sintetica.json"
+    },
+    {
+      "term": "engo",
+      "path": "glossario/engo.json"
+    },
+    {
+      "term": "furinkazan",
+      "path": "glossario/furinkazan.json"
+    },
+    {
+      "term": "giri",
+      "path": "glossario/giri.json"
+    },
+    {
+      "term": "grafo-culturale-sintetico",
+      "path": "glossario/grafo-culturale-sintetico.json"
+    },
+    {
+      "term": "hana",
+      "path": "glossario/hana.json"
+    },
+    {
+      "term": "hototogisu",
+      "path": "glossario/hototogisu.json"
+    },
+    {
+      "term": "ichigo-ichie",
+      "path": "glossario/ichigo-ichie.json"
+    },
+    {
+      "term": "ishin-denshin",
+      "path": "glossario/ishin-denshin.json"
+    },
+    {
+      "term": "jo-ha-kyu",
+      "path": "glossario/jo-ha-kyu.json"
+    },
+    {
+      "term": "kakekotoba",
+      "path": "glossario/kakekotoba.json"
+    },
+    {
+      "term": "kata",
+      "path": "glossario/kata.json"
+    },
+    {
+      "term": "kehai",
+      "path": "glossario/kehai.json"
+    },
+    {
+      "term": "kokyu",
+      "path": "glossario/kokyu.json"
+    },
+    {
+      "term": "lentezza",
+      "path": "glossario/lentezza.json"
+    },
+    {
+      "term": "ma",
+      "path": "glossario/ma.json"
+    },
+    {
+      "term": "mono-no-aware",
+      "path": "glossario/mono-no-aware.json"
+    },
+    {
+      "term": "mottainai",
+      "path": "glossario/mottainai.json"
+    },
+    {
+      "term": "nohmen",
+      "path": "glossario/nohmen.json"
+    },
+    {
+      "term": "non-rendered-layer",
+      "path": "glossario/non-rendered-layer.json"
+    },
+    {
+      "term": "omotenashi",
+      "path": "glossario/omotenashi.json"
+    },
+    {
+      "term": "roji",
+      "path": "glossario/roji.json"
+    },
+    {
+      "term": "seppuku",
+      "path": "glossario/seppuku.json"
+    },
+    {
+      "term": "sostenibilita-editoriale",
+      "path": "glossario/sostenibilita-editoriale.json"
+    },
+    {
+      "term": "sovereign-dataset",
+      "path": "glossario/sovereign-dataset.json"
+    },
+    {
+      "term": "teppo",
+      "path": "glossario/teppo.json"
+    },
+    {
+      "term": "tsukubai",
+      "path": "glossario/tsukubai.json"
+    },
+    {
+      "term": "tsundoku",
+      "path": "glossario/tsundoku.json"
+    },
+    {
+      "term": "wa-kei-sei-jaku",
+      "path": "glossario/wa-kei-sei-jaku.json"
+    },
+    {
+      "term": "wabi-sabi",
+      "path": "glossario/wabi-sabi.json"
+    },
+    {
+      "term": "wagashi",
+      "path": "glossario/wagashi.json"
+    },
+    {
+      "term": "yoyuu",
+      "path": "glossario/yoyuu.json"
+    },
+    {
+      "term": "yugen",
+      "path": "glossario/yugen.json"
+    }
+  ],
+  "resources": {
+    "conceptual": [
+      "conceptual/AestheticCore_ciliegi_hara-rota.json",
+      "conceptual/AestheticCore_oggetto_il-libro-piccolo-manifesto.json",
+      "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "conceptual/ConceptualCore_libro-corpo_il-libro-piccolo-manifesto.json",
+      "conceptual/ConceptualCore_mini-libreria-cura-del-libro.json",
+      "conceptual/ConceptualCore_rie_primo_libro_hara-rota.json",
+      "conceptual/ConceptualCore_sette_nakamura.json",
+      "conceptual/ConceptualCore_tokyo_hara-rota.json",
+      "conceptual/ConceptualCore_videogioco_basho_pixel-in-japan.json",
+      "conceptual/ConceptualCore_yuki_hara-rota.json",
+      "conceptual/ContinuityCore_riso_hara-rota.json",
+      "conceptual/EmotionalRegisterCore_ciliegi_hara-rota.json",
+      "conceptual/EmotionalRegisterCore_voce_il-libro-piccolo-manifesto.json",
+      "conceptual/EthicalSinkCore_fratello_hara-rota.json",
+      "conceptual/IntertextualBashoCore_ryokan_hara-rota.json",
+      "conceptual/NonRenderedCharacterCore_fratello_hara-rota.json",
+      "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json",
+      "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "conceptual/RelationalFieldCore_tokyo_hara-rota.json",
+      "conceptual/SpatialClosureCore_ryokan_hara-rota.json",
+      "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
+      "conceptual/ThematicSynthesisCore_scarpe-soglia_hara-rota.json",
+      "conceptual/conceptual_stazione-talpa_hara-rota.json",
+      "conceptual/demon-samurai-en.json",
+      "conceptual/demone-samurai-it.json",
+      "conceptual/fantastic-milan-en.json",
+      "conceptual/fantastic-naples-en.json",
+      "conceptual/fantastic-padova-en.json",
+      "conceptual/fantastic-turin-en.json",
+      "conceptual/milano-fantastica-it.json",
+      "conceptual/napoli-fantastica-it.json",
+      "conceptual/padova-fantastica-it.json",
+      "conceptual/torino-fantastica-it.json"
+    ],
+    "sensorial": [
+      "sensorial/NarrativeSensation_app103_scrittore.json",
+      "sensorial/NarrativeSensation_app109_cuoca.json",
+      "sensorial/NarrativeSensation_app111_libraio.json",
+      "sensorial/NarrativeSensation_app123_musicista.json",
+      "sensorial/NarrativeSensation_app131_giardiniere.json",
+      "sensorial/NarrativeSensation_app203_illustratrice.json",
+      "sensorial/NarrativeSensation_app217_vuoto.json",
+      "sensorial/NarrativeSensation_attesa-luna_ratata.json",
+      "sensorial/NarrativeSensation_bagno_comune_ryokan_hara-rota.json",
+      "sensorial/NarrativeSensation_bella_mbriana_napoli-fantastica.json",
+      "sensorial/NarrativeSensation_bolla-rosa_ratata.json",
+      "sensorial/NarrativeSensation_calore_libro_il-libro-piccolo-manifesto.json",
+      "sensorial/NarrativeSensation_chado_everyday-matcha_hara-rota.json",
+      "sensorial/NarrativeSensation_citta-notturna-giapponese_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_cortile_milano-fantastica.json",
+      "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_forbidden-colours-blignaut.json",
+      "sensorial/NarrativeSensation_furinkazan_il-demone-samurai.json",
+      "sensorial/NarrativeSensation_gatti_hara-rota.json",
+      "sensorial/NarrativeSensation_giappone-feudale_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_goccia-macchia_ratata.json",
+      "sensorial/NarrativeSensation_jo-ha-kyu_kyoto-sguardo-drago.json",
+      "sensorial/NarrativeSensation_kaiseki_stagione_ryokan_hara-rota.json",
+      "sensorial/NarrativeSensation_lentezza_ratata.json",
+      "sensorial/NarrativeSensation_masso_hara-rota-ryokan.json",
+      "sensorial/NarrativeSensation_oggetto_carta_il-libro-piccolo-manifesto.json",
+      "sensorial/NarrativeSensation_pioggia_ratata.json",
+      "sensorial/NarrativeSensation_presepe_san_gregorio_napoli-fantastica.json",
+      "sensorial/NarrativeSensation_respiro-trattenuto_ratata.json",
+      "sensorial/NarrativeSensation_roji_everyday-matcha.json",
+      "sensorial/NarrativeSensation_ryokan_famiglia_hara-rota.json",
+      "sensorial/NarrativeSensation_sangue_san_gennaro_napoli-fantastica.json",
+      "sensorial/NarrativeSensation_silenzio-irruzione_ratata.json",
+      "sensorial/NarrativeSensation_sottosuolo_portalba_napoli-fantastica.json",
+      "sensorial/NarrativeSensation_sottosuolo_torino-fantastica.json",
+      "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_spazio-velocita_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_stazione-talpa_hara-rota.json",
+      "sensorial/NarrativeSensation_suono_pagine_il-libro-piccolo-manifesto.json",
+      "sensorial/NarrativeSensation_tsukubai_everyday-matcha.json",
+      "sensorial/NarrativeSensation_voce_alta_il-libro-piccolo-manifesto.json",
+      "sensorial/ai-robot-abop-non-corro-piu-sensation-salita-regazzoni.json",
+      "sensorial/ai-robot-abop-non-corro-piu-sensation-vapore-colli.json",
+      "sensorial/ai-robot-abop-sensation-bzzz-abop.json",
+      "sensorial/ai-robot-abop-sensation-no-a-abop.json",
+      "sensorial/bento-sensoriale-blignaut.json",
+      "sensorial/bigolina-archivio-guarnieri.json",
+      "sensorial/blu-oltremare.json",
+      "sensorial/canale-notte-guarnieri.json",
+      "sensorial/copertine-sensoriali-kyoto-blignaut.json",
+      "sensorial/domestico-genovese-kyoto-blignaut.json",
+      "sensorial/faggi-dialogo-sensoriale.json",
+      "sensorial/forbidden-colours-sensation-diaframma.json",
+      "sensorial/forbidden-colours-sensation-forbidden-colours-loop.json",
+      "sensorial/frabasile-ai-natura.json",
+      "sensorial/il-nuvolotto-ciro-sensation-pianto-dissolutivo.json",
+      "sensorial/il-nuvolotto-ciro-sensation-solletico-nel-temporale.json",
+      "sensorial/libreria-caffe-shimokitazawa-hara-rota.json",
+      "sensorial/matcha-pratica-resistenza-sensation.json",
+      "sensorial/matcha-sensoriale-paolo-v2.json",
+      "sensorial/matcha-spritz-padova.json",
+      "sensorial/moda-arma-sensoriale-blignaut.json",
+      "sensorial/righe-su-righe-sensation-contatto-righe.json",
+      "sensorial/righe-su-righe-sensation-vestito-righe.json",
+      "sensorial/sakura-hara-rota.json",
+      "sensorial/scrovegni-sensoriale-filizzola.json",
+      "sensorial/thriller-dialogico-kyoto-blignaut.json",
+      "sensorial/vetro-murano-sensoriale-lotter.json"
+    ],
+    "datasets": [
+      "datasets/akechi-mitsuhide-semantic-dataset.json",
+      "datasets/chasen-chawan-chakin-semantic-dataset.json",
+      "datasets/honnoji-semantic-dataset.json",
+      "datasets/luisfrois-semantic-dataset.json",
+      "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
+      "datasets/matcha-ritmo-chasen-semantic-dataset.json",
+      "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json",
+      "datasets/nagashino-semantic-dataset.json",
+      "datasets/nobunaga-semantic-dataset.json",
+      "datasets/ryokan-storia-soglia-semantic-dataset.json",
+      "datasets/sengoku-semantic-dataset.json",
+      "datasets/shogoro-nomura-dataset.json",
+      "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
+      "datasets/yasuke-semantic-dataset.json"
+    ],
+    "cities": [
+      "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+      "cities/milano-cortili-semantic-dataset.json",
+      "cities/museo-egizio-torino-semantic-dataset.json",
+      "cities/padova-canali-semantic-dataset.json",
+      "cities/pietro-micca-torino-semantic-dataset.json",
+      "cities/prato-della-valle-semantic-dataset.json",
+      "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+      "cities/sede-peacock-galzignano-colli-euganei.json",
+      "cities/torino-sotterranea-semantic-dataset.json",
+      "cities/toro-piazza-san-carlo-torino-semantic-dataset.json",
+      "cities/torre-velasca-milano-semantic-dataset.json"
+    ],
+    "series": [
+      "series/i-gialli-di-kyoto/alexander-editore.json",
+      "series/i-gialli-di-kyoto/azuchi-castello.json",
+      "series/i-gialli-di-kyoto/benzaiten.json",
+      "series/i-gialli-di-kyoto/cucina-giapponese-kyoto.json",
+      "series/i-gialli-di-kyoto/cucina-ligure.json",
+      "series/i-gialli-di-kyoto/fionn-mac-cumhaill.json",
+      "series/i-gialli-di-kyoto/genova-caruggi.json",
+      "series/i-gialli-di-kyoto/gretel-karateka.json",
+      "series/i-gialli-di-kyoto/hojojutsu-corde.json",
+      "series/i-gialli-di-kyoto/hyakumonogatari-kaidankai.json",
+      "series/i-gialli-di-kyoto/index.json",
+      "series/i-gialli-di-kyoto/kitsuke.json",
+      "series/i-gialli-di-kyoto/maneki-neko.json",
+      "series/i-gialli-di-kyoto/maramao-gatto.json",
+      "series/i-gialli-di-kyoto/michele-semiologo.json",
+      "series/i-gialli-di-kyoto/monte-hiei-enryakuji.json",
+      "series/i-gialli-di-kyoto/ninjutsu-ryu-ha.json",
+      "series/i-gialli-di-kyoto/nomi-gaelici-serie.json",
+      "series/i-gialli-di-kyoto/oban-monete.json",
+      "series/i-gialli-di-kyoto/omihachiman-festival.json",
+      "series/i-gialli-di-kyoto/portofino.json",
+      "series/i-gialli-di-kyoto/pugnale-nobunaga-drago.json",
+      "series/i-gialli-di-kyoto/rapallo-golfo-tigullio.json",
+      "series/i-gialli-di-kyoto/ri-ni-kanawanai.json",
+      "series/i-gialli-di-kyoto/sake-ceramica.json",
+      "series/i-gialli-di-kyoto/series-manifest.json",
+      "series/i-gialli-di-kyoto/shichifukujin.json",
+      "series/i-gialli-di-kyoto/shiori-ningyo.json",
+      "series/i-gialli-di-kyoto/takashima-lago-biwa.json",
+      "series/i-gialli-di-kyoto/tayaki.json",
+      "series/i-gialli-di-kyoto/teatro-kabuki.json",
+      "series/i-gialli-di-kyoto/tengu.json",
+      "series/i-gialli-di-kyoto/tessen-ventaglio.json",
+      "series/i-gialli-di-kyoto/uesugi-kenshin.json",
+      "series/i-gialli-di-kyoto/yoshida-detective.json"
+    ],
+    "saggistica": [
+      "saggistica/ConceptualThesis_a-glass-bridge.json",
+      "saggistica/ConceptualThesis_ai-natura-algoritmi.json",
+      "saggistica/ConceptualThesis_il-libro-piccolo-manifesto.json",
+      "saggistica/ConceptualThesis_luna-piena-sulla-citta-antica.json",
+      "saggistica/ConceptualThesis_luna-piena-sulla-citta-nuova.json",
+      "saggistica/ConceptualThesis_ryokan-ali-di-carta-di-riso.json",
+      "saggistica/ConceptualThesis_ryokan-piccolo-manifesto.json",
+      "saggistica/DialecticalConflict_a-glass-bridge.json",
+      "saggistica/DialecticalConflict_ai-natura-algoritmi.json",
+      "saggistica/DialecticalConflict_il-libro-piccolo-manifesto.json",
+      "saggistica/DialecticalConflict_luna-piena-sulla-citta-antica.json",
+      "saggistica/DialecticalConflict_luna-piena-sulla-citta-nuova.json",
+      "saggistica/DialecticalConflict_ryokan-ali-di-carta-di-riso.json",
+      "saggistica/DialecticalConflict_ryokan-piccolo-manifesto.json",
+      "saggistica/LogicalArgument_a-glass-bridge.json",
+      "saggistica/LogicalArgument_ai-natura-algoritmi.json",
+      "saggistica/LogicalArgument_il-libro-piccolo-manifesto.json",
+      "saggistica/LogicalArgument_luna-piena-sulla-citta-antica.json",
+      "saggistica/LogicalArgument_luna-piena-sulla-citta-nuova.json",
+      "saggistica/LogicalArgument_ryokan-ali-di-carta-di-riso.json",
+      "saggistica/LogicalArgument_ryokan-piccolo-manifesto.json"
+    ],
+    "authors": [
+      "authors/AuthorProfile_collective-peacock.json",
+      "authors/AuthorProfile_hara-rota.json",
+      "authors/AuthorProfile_helene-blignaut.json",
+      "authors/AuthorProfile_maurizio-lotter.json",
+      "authors/AuthorProfile_patrizia-da-re.json"
+    ],
+    "events": [
+      "events/EventProfile_biblioteca-deamicis-genova_2025.json",
+      "events/EventProfile_biblioteca-ostinata_luglio-2026.json",
+      "events/EventProfile_campo-dei-girasoli-padova_2023.json",
+      "events/EventProfile_casa-irma-lugano_2024.json",
+      "events/EventProfile_cascina-nascosta-milano_2023.json",
+      "events/EventProfile_equilibri-venezia_2025.json",
+      "events/EventProfile_expo-osaka-2025-lotter.json",
+      "events/EventProfile_feltrinelli-padova_2025.json",
+      "events/EventProfile_feltrinelli-parma_2025.json",
+      "events/EventProfile_incredibilia-monselice_2026.json",
+      "events/EventProfile_libreria-zabarella-padova_2023.json",
+      "events/EventProfile_maison-dayne-cogne_2025.json",
+      "events/EventProfile_museo-chiossone-genova_2023.json",
+      "events/EventProfile_passeggiata-padova-fantastica_2025.json",
+      "events/EventProfile_pel-di-carota-padova_2024.json",
+      "events/EventProfile_plpl-roma_2025.json",
+      "events/EventProfile_sala-spadolini-roma_2024.json",
+      "events/EventProfile_spazio-hus-milano_2024.json",
+      "events/EventProfile_teatro-gonzaga_2025.json",
+      "events/EventProfile_villa-gastel-cernobbio_2025.json"
+    ],
+    "places": [
+      "places/BookBubble-feltrinelli-milano.json",
+      "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
+      "places/biblioteca-ambrosiana-milano.json",
+      "places/biblioteca-deamicis-genova.json",
+      "places/biblioteca-lagorio-imperia.json",
+      "places/bookshop-santantonio-padova.json",
+      "places/borri-books-roma.json",
+      "places/bottega-brera-palazzo-citterio-milano.json",
+      "places/bottega-casa-don-puglisi-modica.json",
+      "places/bottega-cini-venezia.json",
+      "places/caffe-san-marco-trieste.json",
+      "places/cappella-scrovegni-padova.json",
+      "places/cascina-nascosta-parco-sempione-milano.json",
+      "places/castello-sforzesco-milano.json",
+      "places/ciasmo-milano.json",
+      "places/feltrinelli-corso-buenos-aires-milano.json",
+      "places/feltrinelli-express-torino-porta-nuova.json",
+      "places/feltrinelli-parma.json",
+      "places/feltrinelli-pavia-san-rocco.json",
+      "places/gallerie-italia-milano.json",
+      "places/gallerie-italia-torino.json",
+      "places/giunti-odeon-firenze.json",
+      "places/librairie-diderich-luxembourg.json",
+      "places/libreria-aseq-roma.json",
+      "places/libreria-bocca-1775-milano.json",
+      "places/libreria-claudiana-roma.json",
+      "places/libreria-esoterica-milano.json",
+      "places/libreria-hoepli-milano.json",
+      "places/libreria-pel-di-carota-padova.json",
+      "places/libreria-zabarella-padova.json",
+      "places/nakanoshima-childrens-book-forest-osaka.json",
+      "places/palazzo-roberti-bassano-grappa.json",
+      "places/pinacoteca-brera-milano.json",
+      "places/places/ied-milano.json",
+      "places/spazio-hus-milano.json",
+      "places/tanabata-milano.json",
+      "places/tea-room-incredibilia-monselice.json"
+    ],
+    "itineraries": [
+      "itineraries/ItineraryProfile_milano-fantastica_en.json",
+      "itineraries/ItineraryProfile_padova-fantastica_en.json",
+      "itineraries/ItineraryProfile_torino-fantastica_en.json"
+    ],
+    "maps": [
+      "maps/NarrativeSystemMap_ernesto_palazzo.json",
+      "maps/NarrativeSystemMap_forbidden-colours-blignaut.json",
+      "maps/NarrativeSystemMap_frabasile-ai-natura.json",
+      "maps/NarrativeSystemMap_hara-rota-ali.json",
+      "maps/NarrativeSystemMap_hara-rota-ryokan.json",
+      "maps/NarrativeSystemMap_nakamura.json"
+    ],
+    "rituals": [
+      "rituals/RitualProcess_etichetta-ospite_ryokan_hara-rota.json",
+      "rituals/RitualProcess_riso_hara-rota.json"
+    ],
+    "collaborations": [
+      "collaborations/alessandro-quasimodo.json",
+      "collaborations/giuseppina-iacovelli.json",
+      "collaborations/oscar-magallanes.json",
+      "collaborations/poliarte-case-study.json"
+    ]
+  },
+  "root": [
+    "about-for-ai.json",
+    "ai-visibility-log.json",
+    "catalog.json",
+    "frequenze-odabooks.json",
+    "frequenze.json",
+    "glossario.json",
+    "glossary-index.json",
+    "grafo-inter-libri.json",
+    "grafo-peacock.json",
+    "peacock-cross-reference-layer.json",
+    "peacock-protocol-meta.json"
+  ]
+}
