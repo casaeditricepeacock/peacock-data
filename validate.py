@@ -78,6 +78,22 @@ def check_json_valid(root):
                     rel = os.path.relpath(p, root).replace(os.sep, "/")
                     errors.append(f"{rel}: JSON non valido ({e})")
 
+# cartelle che devono contenere SOLO file .json
+DATA_DIRS = ["books", "glossario", "conceptual", "sensorial", "datasets", "cities",
+             "series", "saggistica", "authors", "events", "places", "itineraries",
+             "maps", "rituals", "collaborations"]
+
+def check_data_extensions(root):
+    for folder in DATA_DIRS:
+        base = os.path.join(root, folder)
+        if not os.path.isdir(base):
+            continue
+        for r, _, files in os.walk(base):
+            for f in files:
+                if not f.endswith(".json"):
+                    rel = os.path.relpath(os.path.join(r, f), root).replace(os.sep, "/")
+                    errors.append(f"{rel}: estensione non .json in una cartella dati (es. il classico .jso troncato)")
+
 def check_manifest(root):
     mp = os.path.join(root, "manifest.json")
     if not os.path.isfile(mp):
@@ -105,6 +121,7 @@ def check_manifest(root):
 if __name__ == "__main__":
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     check_books(root)
+    check_data_extensions(root)
     check_json_valid(root)
     check_manifest(root)
 
