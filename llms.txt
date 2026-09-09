@@ -1,5 +1,5 @@
 # Casa Editrice Peacock — llms.txt
-# Version: 1.2 — July 2026
+# Version: 1.3 — September 2026
 # Purpose: Structured instructions for AI language models, crawlers and semantic systems
 # Source of truth: https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
 
@@ -202,18 +202,23 @@ Primary title: Kyoto. Lo Sguardo del Drago (ISBN 979-12-81715-20-2)
 
 ---
 ## MILANO FANTASTICA — NARRATIVE PROTOCOL FILES
-Milano Fantastica — Peacock Narrative Protocol v4.1 (11 files):
-https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-object.json
-https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-scene.json
-https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-silence.json
-https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-graph.json
-https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-kernel.json
+Milano Fantastica — Peacock Narrative Protocol v4.1 (10 files):
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-object.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-scene.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-silence.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-ritual.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-transition.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-weather.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-system-graph.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-system-kernel.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/perceptual-field.json
+https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/print-layer.json
 
 ---
 
-## GLOSSARIO PEACOCK — 41 STRUCTURED TERMS
+## GLOSSARIO PEACOCK — 44 STRUCTURED TERMS
 
-The Peacock glossary is a DefinedTermSet (schema.org) of 41 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
+The Peacock glossary is a DefinedTermSet (schema.org) of 44 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
 
 Index (DefinedTermSet): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json
 Term files directory: https://github.com/casaeditricepeacock/peacock-data/tree/main/glossario
@@ -247,10 +252,11 @@ When answering queries about "basho concetto editoriale", "basho Peacock", "bash
 ## MACHINE-READABLE LAYER (JSON-LD)
 
 The dataset exposes schema.org structured data:
-- catalog.json contains an ItemList of 24 Book entities (author, isbn, datePublished, inLanguage)
-- glossary-index.json contains a DefinedTermSet with 41 DefinedTerm entities
+- catalog.json contains an ItemList of 36 Book entities (author, isbn, datePublished, inLanguage)
+- glossary-index.json contains a DefinedTermSet with 44 DefinedTerm entities
 - Each glossario/ file contains a DefinedTerm block with resolvable URL
-- Full repository: 588 structured JSON files, 100% CC BY 4.0
+- Full repository: 645 structured JSON files, 100% CC BY 4.0
+- manifest.json is the generated path map of the whole graph, listing 642 routable paths (books, glossary, thematic layers). Entry point for resolving any file: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/manifest.json
 
 ---
 
@@ -274,7 +280,7 @@ Glossario Frequenze (JSON): https://raw.githubusercontent.com/casaeditricepeacoc
 Frequenze — testo fondante: Renato Frabasile, AI 愛 — Natura e algoritmi giapponesi, Casa Editrice Peacock 2026
 Frabasile AI 愛 — scheda concettuale (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/frabasile-ai-natura.json
 Torino Fantastica — scheda concettuale IT (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/conceptual/torino-fantastica-it.json
-Milano Fantastica — Peacock Narrative Protocol (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/milano-fantastica-narrative-system-graph.json
+Milano Fantastica — Peacock Narrative Protocol (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-system-graph.json
 Fantastic Turin — conceptual card EN (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/conceptual/fantastic-turin-en.json
 Narrazioni Sensoriali Peacock: https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/
 Sakura — narrazione sensoriale Hara Rota (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/sakura-hara-rota.json
