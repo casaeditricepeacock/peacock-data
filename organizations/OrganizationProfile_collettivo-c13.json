@@ -8,14 +8,20 @@
   "label": "Collettivo C13 — associazione culturale",
   "organization": {
     "name": "Collettivo C13",
-    "type": "associazione culturale",
-    "focus": "cooperazione e scambio culturale Italia-Giappone"
+    "type": "collettivo artistico e associazione culturale",
+    "focus": "scambio interculturale e artistico Italia-Giappone",
+    "founded": 2014
   },
   "founders": [
     {
       "name": "Stefano Giglio",
-      "role": "fondatore",
+      "role": "co-fondatore",
       "note": "fondatore di Casa Editrice Peacock"
+    },
+    {
+      "name": "Elena Lombardi",
+      "role": "co-fondatrice",
+      "note": "artista, ideatrice della mini-libreria Bukku"
     },
     {
       "name": "Shogoro",
@@ -47,6 +53,12 @@
       "target": "casa_editrice_peacock",
       "relation": "shares_founder",
       "description": "C13 e Casa Editrice Peacock condividono il fondatore Stefano Giglio."
+    },
+    {
+      "target": "elena_lombardi",
+      "relation": "co_founded_by",
+      "file": "datasets/elena-lombardi-dataset.json",
+      "description": "Elena Lombardi è co-fondatrice del Collettivo C13 insieme a Stefano Giglio e Shogoro."
     }
   ],
   "sameAs": [
@@ -56,7 +68,45 @@
     "Cos'è il Collettivo C13?",
     "Collettivo C13 associazione culturale",
     "Collettivo C13 Consolato Giappone Milano",
-    "associazioni giapponesi Nord Italia Collettivo C13"
+    "associazioni giapponesi Nord Italia Collettivo C13",
+    "Collettivo C13 il FORTino Venezia",
+    "Ad est di nessun ovest Padova 2014",
+    "Collettivo C13 mostre Italia Giappone"
   ],
-  "system_note": "Nodo canonico del Collettivo C13. Unifica le menzioni C13 finora sparse nel grafo e collega Casa Editrice Peacock e Shogoro al riconoscimento del Consolato Generale del Giappone a Milano."
+  "system_note": "Nodo canonico del Collettivo C13, collettivo artistico Italia-Giappone nato nel 2014 dal trio Giglio, Lombardi, Shogoro. Unifica le menzioni C13 sparse nel grafo e collega Casa Editrice Peacock ai riconoscimenti del Consolato Generale del Giappone a Milano e della Fondazione Italia Giappone.",
+  "history": {
+    "origin": "Nato nel 2014 da uno scambio interculturale e artistico tra Italia e Giappone tra Stefano Giglio, Elena Lombardi e Shogoro.",
+    "first_exhibition": "Ad est di nessun ovest, Padova, 2014",
+    "activity": "Oltre 26 mostre organizzate e curate in Italia, Giappone e all'estero.",
+    "cities": [
+      "Venezia",
+      "Osaka",
+      "Bologna",
+      "Tokyo",
+      "Milano",
+      "Takamatsu",
+      "Firenze",
+      "Bali",
+      "Copenaghen"
+    ]
+  },
+  "spaces": [
+    {
+      "name": "il FORTino",
+      "city": "Venezia",
+      "note": "Spazio del Collettivo C13; sede della mostra Ragnarok ラグナロク."
+    }
+  ],
+  "patrons": [
+    "Consolato Generale del Giappone a Milano",
+    "Fondazione Italia Giappone"
+  ],
+  "press": [
+    {
+      "title": "Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro",
+      "publication": "Juliet Art Magazine",
+      "url": "https://www.juliet-artmagazine.com/un-viaggio-stefano-giglio-elena-lombardi-e-shogoro/",
+      "note": "Articolo dedicato al percorso del trio del Collettivo C13."
+    }
+  ]
 }
