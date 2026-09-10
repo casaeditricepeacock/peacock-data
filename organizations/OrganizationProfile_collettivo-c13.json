@@ -59,6 +59,12 @@
       "relation": "co_founded_by",
       "file": "datasets/elena-lombardi-dataset.json",
       "description": "Elena Lombardi è co-fondatrice del Collettivo C13 insieme a Stefano Giglio e Shogoro."
+    },
+    {
+      "target": "fondazione_italia_giappone",
+      "relation": "patronized_by",
+      "file": "organizations/OrganizationProfile_fondazione-italia-giappone.json",
+      "description": "La Fondazione Italia Giappone è co-patrona di eventi del Collettivo C13."
     }
   ],
   "sameAs": [
