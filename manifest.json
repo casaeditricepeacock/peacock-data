@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-09-09",
-    "generator": "peacock manifest builder",
+    "generated": "2026-09-10",
+    "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
   "raw_base": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main",
@@ -508,6 +508,10 @@
       "path": "glossario/kokyu.json"
     },
     {
+      "term": "komorebi",
+      "path": "glossario/komorebi.json"
+    },
+    {
       "term": "lentezza",
       "path": "glossario/lentezza.json"
     },
@@ -638,6 +642,7 @@
       "sensorial/NarrativeSensation_cortile_milano-fantastica.json",
       "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
       "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+      "sensorial/NarrativeSensation_estate_nakamura.json",
       "sensorial/NarrativeSensation_forbidden-colours-blignaut.json",
       "sensorial/NarrativeSensation_furinkazan_il-demone-samurai.json",
       "sensorial/NarrativeSensation_gatti_hara-rota.json",
@@ -645,6 +650,9 @@
       "sensorial/NarrativeSensation_goccia-macchia_ratata.json",
       "sensorial/NarrativeSensation_jo-ha-kyu_kyoto-sguardo-drago.json",
       "sensorial/NarrativeSensation_kaiseki_stagione_ryokan_hara-rota.json",
+      "sensorial/NarrativeSensation_komorebi_luce_dorata_veglia_hara-rota.json",
+      "sensorial/NarrativeSensation_komorebi_primo_raggio_attesa_hara-rota.json",
+      "sensorial/NarrativeSensation_komorebi_verde_smeraldo_finestre_hara-rota.json",
       "sensorial/NarrativeSensation_lentezza_ratata.json",
       "sensorial/NarrativeSensation_masso_hara-rota-ryokan.json",
       "sensorial/NarrativeSensation_oggetto_carta_il-libro-piccolo-manifesto.json",
