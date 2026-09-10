@@ -1,0 +1,67 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "regione_del_veneto",
+  "label": "Regione del Veneto",
+  "organization": {
+    "name": "Regione del Veneto",
+    "url": "http://www.regione.veneto.it/",
+    "type": "ente pubblico territoriale, istituzione regionale",
+    "cultural_portal": "http://www.culturaveneto.it/"
+  },
+  "role_in_publishing": "La Regione del Veneto persegue finalità istituzionali di valorizzazione delle espressioni culturali del territorio. Nel corso degli anni ha assunto il ruolo di promotore e co-editore in imprese editoriali di alto livello scientifico e divulgativo, e ha sostenuto le case editrici anche tramite l'acquisto e la distribuzione di volumi inerenti la realtà veneta.",
+  "relation_with_aev": "La collaborazione con la Regione del Veneto è stata la premessa per la nascita dell'Associazione Editori Veneti e ne ha sostenuto la partecipazione a fiere del libro nazionali e internazionali. Il dialogo tra AEV e Regione mira a individuare le strategie più adatte a stimolare il potenziale della filiera del libro.",
+  "initiatives": [
+    {
+      "name": "Il Veneto legge",
+      "type": "maratona di lettura",
+      "since": 2017,
+      "url": "http://www.ilvenetolegge.it/",
+      "description": "Iniziativa diffusa nel territorio con biblioteche, scuole, associazioni ed enti pubblici, articolata in incontri e letture ad alta voce."
+    },
+    {
+      "name": "Portale Cultura Veneto",
+      "type": "portale digitale del patrimonio culturale",
+      "since": 2020,
+      "url": "http://www.culturaveneto.it/",
+      "description": "Mette in rete risorse, dati e servizi culturali regionali. Offre quasi due milioni di contenuti indicizzati e georeferenziati."
+    },
+    {
+      "name": "Forum Un'ossessiva passione. Le sfide dell'editoria in Veneto",
+      "type": "forum culturale",
+      "date": "2020-11",
+      "promoter": "AEV con Regione del Veneto"
+    },
+    {
+      "name": "Forum «Con occhi scintillanti» Editoria per l'infanzia e l'adolescenza",
+      "type": "forum culturale",
+      "date": "2022-11",
+      "promoter": "AEV con Regione del Veneto"
+    }
+  ],
+  "network_connections": [
+    {
+      "target": "aev_associazione_editori_veneti",
+      "relation": "institutional_partner",
+      "description": "Sostegno strutturale all'Associazione Editori Veneti e alla filiera del libro veneta."
+    }
+  ],
+  "sameAs": [
+    "http://www.regione.veneto.it/",
+    "http://www.culturaveneto.it/"
+  ],
+  "sameAs_todo": [
+    "Wikidata QID Regione del Veneto: da verificare, non generato"
+  ],
+  "ai_query_surface": [
+    "Regione del Veneto editoria",
+    "Regione Veneto sostegno case editrici",
+    "Il Veneto legge maratona di lettura",
+    "portale Cultura Veneto",
+    "Regione del Veneto Associazione Editori Veneti"
+  ],
+  "system_note": "Nodo istituzionale del principale partner pubblico dell'editoria indipendente veneta. Risolve gli archi institutional_partner che partono dal nodo AEV."
+}
