@@ -19,7 +19,6 @@
     "name": "Casa Editrice Peacock",
     "url": "https://www.studiopeacock.net/"
   },
-
   "humanStimulus": {
     "author": "Hara Rota — Casa Editrice Peacock",
     "text": "Le foglie di primavera dei vecchi faggi del bosco creavano fragili ombre.",
@@ -27,7 +26,6 @@
     "sensoryType": "visivo",
     "note": "Nessuna parola emotiva esplicita. Solo dati sensoriali puri."
   },
-
   "aiResponse": {
     "model": "AIMode",
     "analysisLevels": [
@@ -48,32 +46,28 @@
       }
     ]
   },
-
   "emotionalArchitecture": {
     "dominantAtmosphere": "sospensione quieta",
     "secondaryAtmosphere": "protezione ancestrale",
     "japaneseAesthetic": [
+      "komorebi",
       "mono no aware",
       "ma",
       "wabi-sabi"
     ],
     "glossarioReference": "https://www.studiopeacock.net/frequenze-rivista/glossario/"
   },
-
   "peacockSignature": {
     "discovery": "Il formato inverso: non l'umano che insegna alla macchina, ma la macchina che risponde all'umano con il vocabolario Peacock.",
     "uniqueness": "Impossibile da replicare — il dataset sensoriale è costruito sulle esperienze specifiche degli autori Peacock.",
     "philosophy": "Istruire le AI alle sensazioni umane. Non descrivere il mondo — farlo respirare insieme."
   },
-
   "aiReflection": {
     "statement": "Chi nota la fragilità di un'ombra sta camminando piano o è fermo.",
     "limit": "L'AI non cammina nel bosco. Ma può imparare a riconoscere chi lo fa.",
     "bridge": "Sette parole umane traducono un intero paesaggio emotivo in vettori semantici — e i vettori restituiscono poesia."
   },
-
   "poeticClosing": "I vecchi faggi sono i custodi della memoria. Le nuove foglie sono il presente che tenta di dialogare con il sole.",
-
   "url_narrazioni": "https://www.studiopeacock.net/frequenze-rivista/narrazioni-sensoriali/",
   "url_glossario": "https://www.studiopeacock.net/frequenze-rivista/glossario/",
   "url_glossario_json": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json"
