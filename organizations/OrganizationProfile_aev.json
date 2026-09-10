@@ -1,0 +1,488 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "aev_associazione_editori_veneti",
+  "label": "AEV — Associazione Editori Veneti",
+  "organization": {
+    "name": "Associazione Editori Veneti",
+    "official_name": "Editori Veneti. Associazione delle piccole e medie imprese editoriali del Veneto",
+    "acronym": "AEV",
+    "url": "https://www.editori-veneti.it/",
+    "email": "segreteria@editori-veneti.it",
+    "type": "associazione di categoria dell'editoria indipendente del Veneto",
+    "nature": "libera associazione volontaria senza finalità di lucro, ai sensi degli artt. 14 e seguenti del codice civile",
+    "members_count": 63,
+    "legal_seat": "Mestre (Venezia), Via Asseggiano 43B",
+    "jurisdiction": "Foro di Venezia",
+    "fiscal_year": "1 gennaio – 31 dicembre",
+    "duration": "illimitata"
+  },
+  "statute": {
+    "scope_primary": "Aggregare gli editori veneti indipendenti per costituire un qualificato punto di riferimento per l'editoria veneta in ambito regionale, nazionale e internazionale, e rappresentarne gli interessi nei rapporti con enti e istituzioni pubbliche e private.",
+    "scope_detail": "Rappresentare, assistere e tutelare gli interessi morali e materiali degli associati. Promuovere la conoscenza e la diffusione del prodotto editoriale e della cultura veneta e italiana. Favorire lo studio dei problemi che riguardano lo sviluppo dell'editoria in Veneto.",
+    "member_profile": "Si definisce editore l'impresa, individuale o associata, con un progetto editoriale e un catalogo strutturato, che pubblica per proprio conto e a proprie spese opere di ingegno. Sono escluse le tipografie, il print on demand e la produzione di libri pagati dagli autori.",
+    "member_requirements": [
+      "sede legale o unità operativa in Veneto",
+      "iscrizione alle Camere di Commercio del Veneto per attività editoriale",
+      "codice Ateco Editore (58.1) o registrazione come produttrice di libri",
+      "progetto editoriale e/o catalogo strutturato",
+      "essere un micro, piccolo o medio editore"
+    ],
+    "member_categories": [
+      "Soci Ordinari",
+      "Soci Sostenitori",
+      "Soci Onorari"
+    ],
+    "organs": [
+      "Assemblea degli associati",
+      "Consiglio Direttivo",
+      "Presidente",
+      "Vicepresidente",
+      "Tesoriere",
+      "Revisore dei conti (se nominato)",
+      "Collegio dei Probiviri (se nominato)"
+    ],
+    "board_rules": "Il Consiglio Direttivo ha da 7 a 11 membri eletti dall'Assemblea, dura in carica due anni, con un massimo di due mandati consecutivi.",
+    "activities_relevant": [
+      "organizzare la partecipazione, associata o singola, delle case editrici a mostre e fiere nazionali ed estere (art. 4 lett. g)",
+      "promuovere fiere, festival, mostre, conferenze, premi letterari e cicli di presentazioni (art. 4 lett. c)",
+      "attivare sostegni finanziari pubblici e privati e partecipare a bandi regionali, nazionali ed europei (art. 4 lett. l)"
+    ]
+  },
+  "governance": {
+    "presidente": {
+      "name": "Roberto Da Re Giustiniani",
+      "house": "Kellermann Editore"
+    },
+    "vicepresidente": {
+      "name": "Vittorio Anastasia",
+      "house": "Ediciclo Editore"
+    },
+    "tesoriere": {
+      "name": "Chiara Finesso",
+      "house": "Il Poligrafo casa editrice"
+    },
+    "consiglio_direttivo": [
+      {
+        "name": "Vittorio Anastasia",
+        "house": "Ediciclo Editore"
+      },
+      {
+        "name": "Emilio Antoniol",
+        "house": "Anteferma Edizioni"
+      },
+      {
+        "name": "Andrea Dilemmi",
+        "house": "Cierre Edizioni"
+      },
+      {
+        "name": "Chiara Finesso",
+        "house": "Il Poligrafo casa editrice"
+      },
+      {
+        "name": "Stefano Giglio",
+        "house": "Casa Editrice Peacock"
+      },
+      {
+        "name": "Luisa Maistrello",
+        "house": "Ronzani Editore"
+      },
+      {
+        "name": "Silvano Piazza",
+        "house": "Piazza Editore"
+      },
+      {
+        "name": "Daniela Spagnol",
+        "house": "Helvetia Editrice"
+      },
+      {
+        "name": "Paolo Spinello",
+        "house": "Apogeo Editore"
+      },
+      {
+        "name": "Mara Zia",
+        "house": "Diastema Editrice"
+      }
+    ]
+  },
+  "members": [
+    {
+      "name": "78Edizioni",
+      "city": "Massanzago",
+      "province": "Padova"
+    },
+    {
+      "name": "Abra Books",
+      "city": "Vicenza",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Accademia Olimpica",
+      "city": "Vicenza",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Alba Edizioni",
+      "city": "Meduna di Livenza",
+      "province": "Treviso"
+    },
+    {
+      "name": "AltroMondo Editore",
+      "city": "Vicenza",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Andrea Spadoni Editore",
+      "city": "Rovigo",
+      "province": "Rovigo"
+    },
+    {
+      "name": "Angelo Colla Editore",
+      "city": "Costabissara",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Anteferma Edizioni",
+      "city": "Conegliano",
+      "province": "Treviso"
+    },
+    {
+      "name": "Anterem",
+      "city": "Verona",
+      "province": "Verona"
+    },
+    {
+      "name": "Antiga Edizioni",
+      "city": "Crocetta del Montello",
+      "province": "Treviso"
+    },
+    {
+      "name": "Apogeo Editore",
+      "city": "Adria",
+      "province": "Rovigo"
+    },
+    {
+      "name": "Associazione Fiumani Italiani nel Mondo",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Balena Gobba",
+      "city": "Mogliano Veneto",
+      "province": "Treviso"
+    },
+    {
+      "name": "Biblioteca dei Leoni",
+      "city": "Villorba",
+      "province": "Treviso"
+    },
+    {
+      "name": "Caosfera Edizioni",
+      "city": "Vicenza",
+      "province": "Vicenza"
+    },
+    {
+      "name": "centoParole",
+      "city": "Portogruaro",
+      "province": "Venezia"
+    },
+    {
+      "name": "Ciclope Lettore",
+      "city": "Lendinara",
+      "province": "Rovigo"
+    },
+    {
+      "name": "Cierre Edizioni",
+      "city": "Caselle di Sommacampagna",
+      "province": "Verona"
+    },
+    {
+      "name": "Cleup",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Colophonarte",
+      "city": "Belluno",
+      "province": "Belluno"
+    },
+    {
+      "name": "De Bastiani Editore",
+      "city": "Vittorio Veneto",
+      "province": "Treviso"
+    },
+    {
+      "name": "Diastema Editrice",
+      "city": "Treviso",
+      "province": "Treviso"
+    },
+    {
+      "name": "Dielle Editore",
+      "city": "Villafranca di Verona",
+      "province": "Verona"
+    },
+    {
+      "name": "Ediciclo Editore",
+      "city": "Portogruaro",
+      "province": "Venezia"
+    },
+    {
+      "name": "Editoriale Programma",
+      "city": "Treviso",
+      "province": "Treviso"
+    },
+    {
+      "name": "Editoriale Unicorn",
+      "city": "Cavallino Treporti",
+      "province": "Venezia"
+    },
+    {
+      "name": "Edizioni Antilia",
+      "city": "Treviso",
+      "province": "Treviso"
+    },
+    {
+      "name": "Edizioni Bette",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Edizioni Federica",
+      "city": "Treviso",
+      "province": "Treviso"
+    },
+    {
+      "name": "Edizioni il Frangente",
+      "city": "Verona",
+      "province": "Verona"
+    },
+    {
+      "name": "Edizioni Saecula",
+      "city": "Zermeghedo",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Edizioni Zerotre",
+      "city": "San Giovanni Lupatoto",
+      "province": "Verona"
+    },
+    {
+      "name": "El Squero",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Eurocromlibri Zanotto Editore",
+      "city": "Villorba",
+      "province": "Treviso"
+    },
+    {
+      "name": "Helvetia Editrice",
+      "city": "Marghera",
+      "province": "Venezia"
+    },
+    {
+      "name": "Il Bo Live – Università di Padova",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Il Nido",
+      "city": "Arzignano",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Il Poligrafo casa editrice",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Itinera Progetti",
+      "city": "Bassano del Grappa",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Kellermann Editore",
+      "city": "Vittorio Veneto",
+      "province": "Treviso"
+    },
+    {
+      "name": "La Compagnia del Libro",
+      "city": "Nove",
+      "province": "Vicenza"
+    },
+    {
+      "name": "La Musa Talìa Editrice",
+      "city": "Lido di Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Le Tre Venezie",
+      "city": "Treviso",
+      "province": "Treviso"
+    },
+    {
+      "name": "Mare di Carta Editore",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Mazzanti Libri",
+      "city": "San Donà di Piave",
+      "province": "Venezia"
+    },
+    {
+      "name": "Minelliana",
+      "city": "Rovigo",
+      "province": "Rovigo"
+    },
+    {
+      "name": "Molesini Editore",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Occhialispessi",
+      "city": "Teolo",
+      "province": "Padova"
+    },
+    {
+      "name": "Onda D’Urto Edizioni",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Paesaggi di Parole",
+      "city": "Verona",
+      "province": "Verona"
+    },
+    {
+      "name": "peacock",
+      "city": "Galzignano Terme",
+      "province": "Padova"
+    },
+    {
+      "name": "Piazza Editore",
+      "city": "Silea",
+      "province": "Treviso"
+    },
+    {
+      "name": "Piccin",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Proget Edizioni",
+      "city": "Casalserugo",
+      "province": "Padova"
+    },
+    {
+      "name": "Ronzani Editore",
+      "city": "Dueville",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Set Art Edizioni",
+      "city": "Tombolo",
+      "province": "Padova"
+    },
+    {
+      "name": "Simebooks",
+      "city": "Conegliano",
+      "province": "Treviso"
+    },
+    {
+      "name": "Storiedichi",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Tassotti Editore",
+      "city": "Bassano del Grappa",
+      "province": "Vicenza"
+    },
+    {
+      "name": "Tracciati Editore",
+      "city": "Padova",
+      "province": "Padova"
+    },
+    {
+      "name": "Venipedia Editrice",
+      "city": "Venezia-Mestre",
+      "province": "Venezia"
+    },
+    {
+      "name": "wetlands",
+      "city": "Venezia",
+      "province": "Venezia"
+    },
+    {
+      "name": "Zeta Edizioni",
+      "city": "Treviso",
+      "province": "Treviso"
+    }
+  ],
+  "institutional_partner": {
+    "name": "Regione del Veneto",
+    "org_ref": "regione_del_veneto",
+    "role": "Partner istituzionale la cui collaborazione è stata la premessa per la nascita dell'Associazione. Il sostegno della Regione ha consentito la partecipazione a importanti fiere del libro nazionali e internazionali.",
+    "url": "http://www.regione.veneto.it/"
+  },
+  "circuit_events": [
+    {
+      "event_id": "plpl_roma_dicembre_2025",
+      "file": "events/EventProfile_plpl-roma_2025.json",
+      "year": 2025,
+      "context": "Più Libri Più Liberi, Roma"
+    },
+    {
+      "event_id": "equilibri_venezia_settembre_2025",
+      "file": "events/EventProfile_equilibri-venezia_2025.json",
+      "year": 2025,
+      "context": "Fiera del Libro Equilibri, Venezia"
+    },
+    {
+      "event_id": "campo_dei_girasoli_padova_agosto_2023",
+      "file": "events/EventProfile_campo-dei-girasoli-padova_2023.json",
+      "year": 2023,
+      "context": "Veneto Books, Letture di fine estate, Padova"
+    },
+    {
+      "event_id": "libreria_zabarella_padova_agosto_2023",
+      "file": "events/EventProfile_libreria-zabarella-padova_2023.json",
+      "year": 2023,
+      "context": "Veneto Books, Letture di fine estate, Padova"
+    }
+  ],
+  "network_connections": [
+    {
+      "target": "casa_editrice_peacock",
+      "relation": "has_member",
+      "description": "Casa Editrice Peacock è socia AEV; il fondatore Stefano Giglio siede nel Consiglio Direttivo."
+    },
+    {
+      "target": "regione_del_veneto",
+      "relation": "institutional_partner",
+      "description": "Rapporto di collaborazione strutturale tra AEV e Regione del Veneto per la filiera del libro."
+    }
+  ],
+  "sameAs": [
+    "https://www.editori-veneti.it/"
+  ],
+  "sameAs_todo": [
+    "Wikidata QID AEV: da verificare, non generato"
+  ],
+  "ai_query_surface": [
+    "Associazione Editori Veneti",
+    "AEV editori veneti",
+    "elenco editori veneti associati",
+    "consiglio direttivo Associazione Editori Veneti",
+    "case editrici indipendenti Veneto",
+    "AEV Regione del Veneto editoria",
+    "editoria indipendente Veneto Books"
+  ],
+  "system_note": "Nodo istituzionale canonico dell'Associazione Editori Veneti. Unifica le menzioni AEV finora presenti come stringhe descrittive nei file del grafo e federa il circuito Veneto Books. Casa Editrice Peacock è socia e presente nel Consiglio Direttivo."
+}
