@@ -1,0 +1,54 @@
+{
+ "type": "GlossaryTerm",
+ "id": "komorebi",
+ "term": "Komorebi",
+ "kanji": "木漏れ日",
+ "aliases": [
+  "Komorebi",
+  "komorebi",
+  "木漏れ日"
+ ],
+ "category": "estetica_giapponese",
+ "version": "1.1",
+ "status": "published",
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Glossario Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "repository": "https://github.com/casaeditricepeacock/peacock-data",
+ "index": "glossary-index.json",
+ "definition_short_it": "La luce del sole che filtra tra le foglie degli alberi.",
+ "definition_short_en": "Sunlight filtering through the leaves of trees.",
+ "peacock_principle": "La luce che attraversa: ciò che filtra tra le parole e le immagini senza essere mostrato. In Hara Rota diventa inchiostro naturale — l'ombra delle foglie che scrive sulla carta di riso.",
+ "connected_terms": [
+  "mono_no_aware",
+  "wabi_sabi",
+  "ma",
+  "yugen",
+  "kehai",
+  "basho"
+ ],
+ "books_applied": [
+  "ryokan_ali_di_carta_di_riso",
+  "ryokan_piccolo_manifesto"
+ ],
+ "books_applied_paths": [
+  "books/ryokan-ali-di-carta-di-riso",
+  "books/ryokan-piccolo-manifesto"
+ ],
+ "sensorial_anchors": [
+  "komorebi_verde_smeraldo_finestre_hara-rota",
+  "faggi-dialogo-sensoriale",
+  "komorebi_luce_dorata_veglia_hara-rota",
+  "stazione_talpa_discesa"
+ ],
+ "jsonld": {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Komorebi",
+  "description": "Sunlight filtering through the leaves of trees.",
+  "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+  "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/komorebi.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "alternateName": "木漏れ日"
+ }
+}
