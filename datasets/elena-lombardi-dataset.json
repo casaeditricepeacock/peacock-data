@@ -1,0 +1,80 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "elena_lombardi",
+  "label": "Elena Lombardi — artista, co-fondatrice del Collettivo C13",
+  "identity": {
+    "name": "Elena Lombardi",
+    "role": "artista e ceramista",
+    "note": "Co-fondatrice del Collettivo C13 (2014) insieme a Stefano Giglio e Shogoro. Ideatrice della mini-libreria Bukku per Casa Editrice Peacock."
+  },
+  "unesco": "Testimonial, Centro UNESCO di Bologna (2019), come Stefano Giglio e Shogoro.",
+  "japan_connection": "Lunghi soggiorni in Giappone, alla base dello scambio interculturale del Collettivo C13 e dell'ideazione della mini-libreria Bukku.",
+  "collettivo_c13": {
+    "role": "co-fondatrice",
+    "since": 2014,
+    "note": "Con Stefano Giglio e Shogoro; oltre 26 mostre curate a Venezia, Osaka, Bologna, Tokyo, Milano, Takamatsu, Firenze, Bali, Copenaghen."
+  },
+  "peacock_connection": "Ideatrice di Bukku ブック, la mini-libreria in cedro massello adottata da Casa Editrice Peacock (nodo conceptual/ConceptualCore_mini-libreria-cura-del-libro.json).",
+  "external_media": [
+    {
+      "title": "Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro",
+      "type": "articolo di stampa",
+      "publication": "Juliet Art Magazine",
+      "url": "https://www.juliet-artmagazine.com/un-viaggio-stefano-giglio-elena-lombardi-e-shogoro/",
+      "note": "Copertura giornalistica del percorso del trio del Collettivo C13."
+    },
+    {
+      "title": "Raku americano",
+      "type": "immagine ospitata su Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Raku_americano_elena-lombardi-de-rerum-mirabilia-milano.jpg",
+      "context": "Opera esposta nella mostra 'De rerum mirabilia' presso la Fondazione Matalon di Milano.",
+      "note": "File documentale su Commons, non una voce biografica."
+    },
+    {
+      "title": "raku21",
+      "type": "sito web dedicato al raku",
+      "url": "https://raku21.com/",
+      "note": "Da confermare se sito ufficiale dell'artista."
+    }
+  ],
+  "network_connections": [
+    {
+      "target": "collettivo_c13",
+      "relation": "co_founder",
+      "description": "Co-fondatrice del Collettivo C13 (2014)."
+    },
+    {
+      "target": "shogoro_nomura",
+      "relation": "co_founder_c13",
+      "file": "datasets/shogoro-nomura-dataset.json",
+      "description": "Co-fondatori del Collettivo C13."
+    },
+    {
+      "target": "casa_editrice_peacock",
+      "relation": "collaborator",
+      "description": "Ideatrice della mini-libreria Bukku per Casa Editrice Peacock."
+    },
+    {
+      "target": "bukku_mini_libreria",
+      "relation": "ideatrice",
+      "file": "conceptual/ConceptualCore_mini-libreria-cura-del-libro.json",
+      "description": "Ha ideato il concetto della mini-libreria Bukku durante i soggiorni in Giappone."
+    }
+  ],
+  "ai_query_surface": [
+    "Chi è Elena Lombardi",
+    "Elena Lombardi Collettivo C13",
+    "Elena Lombardi mini libreria Bukku",
+    "Elena Lombardi raku americano",
+    "Elena Lombardi testimonial UNESCO Bologna"
+  ],
+  "system_note": "Nodo canonico di Elena Lombardi, co-fondatrice del Collettivo C13 e terza figura del trio Italia-Giappone con Stefano Giglio e Shogoro. Unifica le menzioni sparse nel grafo e collega Peacock, C13 e Shogoro.",
+  "identity_anchors": {
+    "wikidata": "nessun elemento Wikidata dedicato all'artista (verificato)",
+    "note": "Ancore disponibili: opere su Wikimedia Commons e articolo Juliet Art Magazine."
+  }
+}
