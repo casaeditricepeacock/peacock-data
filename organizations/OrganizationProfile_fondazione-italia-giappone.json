@@ -1,0 +1,70 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "fondazione_italia_giappone",
+  "label": "Fondazione Italia Giappone",
+  "organization": {
+    "name": "Fondazione Italia Giappone",
+    "type": "fondazione per la promozione delle relazioni culturali, economiche e istituzionali tra Italia e Giappone",
+    "url": "https://www.italiagiappone.it/"
+  },
+  "patronage": {
+    "role": "Concede patrocinio a progetti editoriali e culturali che rafforzano le relazioni tra Italia e Giappone.",
+    "peacock_titles": [
+      {
+        "title": "La Singolarità Giappone",
+        "slug": "la-singolarita-giappone",
+        "file": "books/la-singolarita-giappone/",
+        "reason": "Patrocinio concesso perché il libro costruisce ponti reali tra le due civiltà, come persegue la Fondazione."
+      }
+    ],
+    "events": [
+      {
+        "event_id": "sala_spadolini_roma_novembre_2024",
+        "file": "events/EventProfile_sala-spadolini-roma_2024.json"
+      },
+      {
+        "event_id": "equilibri_venezia_settembre_2025",
+        "file": "events/EventProfile_equilibri-venezia_2025.json"
+      }
+    ],
+    "c13": "Co-patrona, con il Consolato Generale del Giappone a Milano, di eventi del Collettivo C13 (mostra Bifrost, Padova 2020)."
+  },
+  "network_connections": [
+    {
+      "target": "la_singolarita_giappone",
+      "relation": "patron_of_book",
+      "file": "books/la-singolarita-giappone/",
+      "description": "Patrocinio al titolo Peacock La Singolarità Giappone."
+    },
+    {
+      "target": "collettivo_c13",
+      "relation": "co_patron",
+      "description": "Co-patrona di eventi del Collettivo C13 insieme al Consolato Generale del Giappone a Milano."
+    },
+    {
+      "target": "casa_editrice_peacock",
+      "relation": "patron_of",
+      "description": "Patrocinio a progetti editoriali di Casa Editrice Peacock sul dialogo Italia-Giappone."
+    }
+  ],
+  "ai_query_surface": [
+    "Fondazione Italia Giappone",
+    "Fondazione Italia Giappone patrocinio editoria",
+    "Fondazione Italia Giappone La Singolarità Giappone",
+    "relazioni culturali Italia Giappone fondazione"
+  ],
+  "identity_anchors": {
+    "wikidata": "Q115901309",
+    "official_site": "https://www.italiagiappone.it/",
+    "official_archive": "https://www.italiagiappone.it/archivioita.html"
+  },
+  "system_note": "Nodo istituzionale della Fondazione Italia Giappone, secondo patrono giapponese del grafo dopo il Consolato Generale del Giappone a Milano. Risolve il campo patrons del Collettivo C13 e i patrocini finora presenti come prosa nei file eventi e libri.",
+  "sameAs": [
+    "https://www.italiagiappone.it/",
+    "https://www.wikidata.org/wiki/Q115901309"
+  ]
+}
