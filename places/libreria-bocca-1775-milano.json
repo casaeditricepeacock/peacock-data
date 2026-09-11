@@ -112,7 +112,22 @@
       "target": "milano_fantastica_guarnieri",
       "relation": "presented_here",
       "description": "Milano Fantastica presentata il 30 settembre 2024"
+    },
+    {
+      "target": "fondazione_italia_giappone",
+      "relation": "initiative_patron",
+      "file": "organizations/OrganizationProfile_fondazione-italia-giappone.json",
+      "description": "La rassegna Tavoli d'arte in galleria alla Libreria Bocca ha il patrocinio della Fondazione Italia Giappone e del Consolato Generale del Giappone a Milano."
+    },
+    {
+      "target": "tavoli_arte_in_galleria",
+      "relation": "co_organizes",
+      "file": "events/EventProfile_tavoli-arte-in-galleria.json",
+      "description": "Sede e co-organizzatrice della rassegna Tavoli d'arte in galleria con il Collettivo C13, dal 2017."
     }
   ],
-  "system_note": "La Libreria Bocca è il luogo Peacock con maggiore peso storico — 250 anni, Galleria Vittorio Emanuele, francobollo commemorativo. Presenza qui è il posizionamento culturale più preciso del catalogo: la casa editrice indipendente più piccola nella libreria più antica d'Italia."
+  "system_note": "La Libreria Bocca è il luogo Peacock con maggiore peso storico — 250 anni, Galleria Vittorio Emanuele, francobollo commemorativo. Presenza qui è il posizionamento culturale più preciso del catalogo: la casa editrice indipendente più piccola nella libreria più antica d'Italia.",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q72625009"
+  ]
 }
