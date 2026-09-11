@@ -65,6 +65,12 @@
       "relation": "patronized_by",
       "file": "organizations/OrganizationProfile_fondazione-italia-giappone.json",
       "description": "La Fondazione Italia Giappone è co-patrona di eventi del Collettivo C13."
+    },
+    {
+      "target": "tavoli_arte_in_galleria",
+      "relation": "organizes",
+      "file": "events/EventProfile_tavoli-arte-in-galleria.json",
+      "description": "Organizza, con la Libreria Bocca, la rassegna Tavoli d'arte in galleria (dal 2017); direzione artistica di Stefano Giglio."
     }
   ],
   "sameAs": [
