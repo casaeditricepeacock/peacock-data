@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-09-10",
+    "generated": "2026-09-11",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -815,6 +815,7 @@
       "events/EventProfile_plpl-roma_2025.json",
       "events/EventProfile_sala-spadolini-roma_2024.json",
       "events/EventProfile_spazio-hus-milano_2024.json",
+      "events/EventProfile_tavoli-arte-in-galleria.json",
       "events/EventProfile_teatro-gonzaga_2025.json",
       "events/EventProfile_villa-gastel-cernobbio_2025.json"
     ],
