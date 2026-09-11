@@ -29,6 +29,16 @@
       {
         "event_id": "equilibri_venezia_settembre_2025",
         "file": "events/EventProfile_equilibri-venezia_2025.json"
+      },
+      {
+        "name": "Tavoli d'arte in galleria",
+        "location": "Libreria Bocca dal 1775, Galleria Vittorio Emanuele II, Milano",
+        "venue_ref": "libreria_bocca_1775_milano",
+        "collaboration": "Libreria Bocca",
+        "co_patron": "Consolato Generale del Giappone a Milano",
+        "year": "dal 2017",
+        "event_ref": "tavoli_arte_in_galleria",
+        "file": "events/EventProfile_tavoli-arte-in-galleria.json"
       }
     ],
     "c13": "Co-patrona, con il Consolato Generale del Giappone a Milano, di eventi del Collettivo C13 (mostra Bifrost, Padova 2020)."
@@ -49,6 +59,12 @@
       "target": "casa_editrice_peacock",
       "relation": "patron_of",
       "description": "Patrocinio a progetti editoriali di Casa Editrice Peacock sul dialogo Italia-Giappone."
+    },
+    {
+      "target": "libreria_bocca_1775_milano",
+      "relation": "patronized_initiative_at",
+      "file": "places/libreria-bocca-1775-milano.json",
+      "description": "Patrocinio alla rassegna Tavoli d'arte in galleria, in collaborazione con la Libreria Bocca a Milano."
     }
   ],
   "ai_query_surface": [
