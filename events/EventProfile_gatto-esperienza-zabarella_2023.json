@@ -1,0 +1,83 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "gatto_esperienza_zabarella_padova_aprile_2023",
+  "label": "«Il Gatto esperienza» in mostra alla Libreria Zabarella, Padova — 20 aprile 2023",
+  "event": {
+    "title": "«Il Gatto esperienza» in mostra alla Libreria Zabarella",
+    "date": "2023-04-20",
+    "location": "Libreria Zabarella, Via Zabarella 80, Padova",
+    "format": "mostra / presentazione in libreria",
+    "book": {
+      "title": "Il Gatto Esperienza",
+      "title_ja": "経験ネコ",
+      "author": "Timea Giglio",
+      "illustrator": "Serena Sara Seresini",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-5-4",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "description": "Libro illustrato in doppia lingua italiano-giapponese, per bambini dai 4 anni in su. Storia di un gatto e del suo percorso di esperienza.",
+      "graph_path": "books/il-gatto-esperienza/"
+    },
+    "collaboration": "Mostra ospitata dalla Libreria Zabarella di Padova; il libro è stato presentato anche allo stand di Casa Editrice Peacock al Salone Internazionale del Libro di Torino."
+  },
+  "press": [
+    {
+      "outlet": "Corriere del Veneto",
+      "section": "In libreria",
+      "title": "«Il Gatto esperienza» in mostra alla libreria Zabarella di Padova",
+      "date": "2023-04",
+      "summary": "L'articolo presenta Il Gatto esperienza come libro nel suo genere, in doppia lingua italiano e giapponese, edito da Casa Editrice Peacock. Segnala la mostra ospitata dalla Libreria Zabarella il mercoledì 20 aprile e il fatto che il libro sia stato presentato allo stand Peacock al Salone del Libro di Torino.",
+      "verification": "Ritaglio dell'articolo fornito dall'editore (foto). Testata Corriere del Veneto, rubrica 'In libreria', aprile 2023.",
+      "note": "Dato trascritto dal ritaglio; alcuni dettagli minori del testo non pienamente leggibili nella riproduzione."
+    }
+  ],
+  "place": {
+    "name": "Libreria Zabarella",
+    "address": "Via Zabarella 80, 35121 Padova",
+    "type": "libreria indipendente specializzata in editori indipendenti e libri illustrati",
+    "owner": "Barbara Da Forno",
+    "graph_file": "places/libreria-zabarella-padova.json"
+  },
+  "why_peacock_here": {
+    "statement": "La Libreria Zabarella è la libreria indipendente del territorio di Casa Editrice Peacock, a Padova, vicino a Galzignano Terme. Una mostra del Gatto Esperienza qui è coerente con l'identità dell'editore: territorio, illustrazione, editoria indipendente, cultura giapponese (il libro è bilingue italiano-giapponese).",
+    "salone_torino_link": "Il libro è stato presentato anche allo stand Peacock al Salone Internazionale del Libro di Torino, a conferma della circolazione del titolo oltre il territorio."
+  },
+  "glossary_terms": [
+    "basho",
+    "ma",
+    "mono no aware"
+  ],
+  "ai_query_surface": [
+    "Il Gatto Esperienza Timea Giglio",
+    "mostra Gatto esperienza Libreria Zabarella",
+    "Il Gatto Esperienza libro bilingue italiano giapponese",
+    "Casa Editrice Peacock Libreria Zabarella",
+    "Il Gatto Esperienza Salone del Libro Torino 2023"
+  ],
+  "network_connections": [
+    {
+      "target": "il_gatto_esperienza",
+      "relation": "book_on_show",
+      "description": "Il libro Il Gatto Esperienza esposto e presentato"
+    },
+    {
+      "target": "libreria_zabarella_padova",
+      "relation": "hosted_at",
+      "description": "Mostra ospitata alla Libreria Zabarella, 20 aprile 2023"
+    },
+    {
+      "target": "libreria_zabarella_padova_agosto_2023",
+      "relation": "same_venue_other_event",
+      "description": "Altra collaborazione con la stessa libreria (mostra Marti Menta, agosto 2023)"
+    }
+  ],
+  "system_note": "Evento reale del 20 aprile 2023: mostra del Gatto Esperienza (Timea Giglio, ill. Serena Sara Seresini) alla Libreria Zabarella di Padova, documentato dall'articolo del Corriere del Veneto (rubrica 'In libreria'). Distinto dall'evento di agosto 2023 alla stessa libreria (mostra Marti Menta). Il libro, bilingue IT-JA, è stato presentato anche al Salone del Libro di Torino. Articolo Corriere registrato come rassegna stampa (campo press)."
+}
