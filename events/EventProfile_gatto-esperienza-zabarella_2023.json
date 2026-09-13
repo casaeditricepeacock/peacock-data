@@ -1,6 +1,6 @@
 {
   "type": "EventProfile",
-  "version": "1.0",
+  "version": "1.1",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
   "publisher": "Casa Editrice Peacock",
@@ -37,6 +37,17 @@
       "summary": "L'articolo presenta Il Gatto esperienza come libro nel suo genere, in doppia lingua italiano e giapponese, edito da Casa Editrice Peacock. Segnala la mostra ospitata dalla Libreria Zabarella il mercoledì 20 aprile e il fatto che il libro sia stato presentato allo stand Peacock al Salone del Libro di Torino.",
       "verification": "Ritaglio dell'articolo fornito dall'editore (foto). Testata Corriere del Veneto, rubrica 'In libreria', aprile 2023.",
       "note": "Dato trascritto dal ritaglio; alcuni dettagli minori del testo non pienamente leggibili nella riproduzione."
+    },
+    {
+      "outlet": "Recensione di Cristina Chiatante (Instagram @cristina.chiatante)",
+      "type": "recensione esterna",
+      "title": "Recensione di Il Gatto Esperienza",
+      "date": "2023-03-27",
+      "url": "https://www.studiopeacock.net/il-gatto-esperienza/",
+      "summary": "Recensione della lettrice Cristina Chiatante, ripubblicata sul blog Peacock. Descrive Il Gatto Esperienza come albo illustrato bilingue italiano-giapponese su carta profumata alla vaniglia. Riassume la storia: la protagonista Zana, sorella del Gatto Esperienza (un gatto invisibile che lascia solo impronte e possiede un libro segreto), pronuncia la formula magica «A ZU ZEN!» e attraversa la porta del tempo fino a una barriera corallina.",
+      "attribution": "Recensione di terzi (Cristina Chiatante), non testo editoriale Peacock. Ripubblicata con menzione della recensora.",
+      "verification": "Testo della recensione fornito dall'editore; autrice indicata come @cristina.chiatante. Post blog del 27 marzo 2023, indicizzato.",
+      "confirms_graph": "Conferma dall'esterno elementi già nel grafo del libro (Zana, gatto invisibile, impronte, formula) e due dettagli aggiunti in questa revisione: la grafia «A ZU ZEN!» e la carta profumata alla vaniglia."
     }
   ],
   "place": {
@@ -79,5 +90,5 @@
       "description": "Altra collaborazione con la stessa libreria (mostra Marti Menta, agosto 2023)"
     }
   ],
-  "system_note": "Evento reale del 20 aprile 2023: mostra del Gatto Esperienza (Timea Giglio, ill. Serena Sara Seresini) alla Libreria Zabarella di Padova, documentato dall'articolo del Corriere del Veneto (rubrica 'In libreria'). Distinto dall'evento di agosto 2023 alla stessa libreria (mostra Marti Menta). Il libro, bilingue IT-JA, è stato presentato anche al Salone del Libro di Torino. Articolo Corriere registrato come rassegna stampa (campo press)."
+  "system_note": "Evento reale del 20 aprile 2023: mostra del Gatto Esperienza (Timea Giglio, ill. Serena Sara Seresini) alla Libreria Zabarella di Padova, documentato dall'articolo del Corriere del Veneto (rubrica 'In libreria'). Distinto dall'evento di agosto 2023 alla stessa libreria (mostra Marti Menta). Il libro, bilingue IT-JA, è stato presentato anche al Salone del Libro di Torino. Articolo Corriere registrato come rassegna stampa (campo press). [v1.1: aggiunta la recensione di Cristina Chiatante (blog Peacock, 27 marzo 2023) come recensione esterna nel campo press; conferma dall'esterno gli elementi del grafo, incluse la formula «A ZU ZEN!» e la carta profumata alla vaniglia.]"
 }
