@@ -56,7 +56,7 @@
       "type": "operative_formula",
       "intensity": 0.98,
       "perceptual_weight": 0.97,
-      "basho": "la formula 'azu… zen' viene dal libro segreto del corallo; Zana la ricorda senza sapere cosa significhi; agisce nello spazio tra suono e effetto, senza passare per il senso",
+      "basho": "la formula 'A ZU ZEN!' viene dal libro segreto del corallo; Zana la ricorda senza sapere cosa significhi; agisce nello spazio tra suono e effetto, senza passare per il senso",
       "kokyu": "il ritmo della formula è quello della ripetizione audace: la prima volta con curiosità, la seconda con esitazione, poi con abbandono; ogni pronuncia produce un effetto diverso e inatteso",
       "yūgen": "la formula funziona perché viene pronunciata, non perché viene compresa; il significato è la parte mancante che non serve",
       "non_integrable_residue": {
@@ -67,11 +67,12 @@
         "object-04": "la formula apre le soglie: ogni pronuncia genera un nuovo passaggio verso un campo diverso",
         "object-05": "l'uso ripetuto della formula prepara la sua dissoluzione nell'esperienza finale"
       },
-      "textual_anchor_it": "Dalla formula ricordava solo 'azu… zen'. Una formula potentissima. Peccato non sapere cosa significasse.",
+      "textual_anchor_it": "Sfogliando il libro segreto, Zana legge una formula magica: «A ZU ZEN!». Una formula potentissima, di cui non conosce il significato.",
       "glossary_link": [
         "yūgen",
         "kokyu"
-      ]
+      ],
+      "anchor_type": "direct_quote"
     },
     {
       "id": "object-03",
@@ -134,6 +135,26 @@
         "mono no aware",
         "yūgen",
         "ma"
+      ]
+    },
+    {
+      "id": "object-06",
+      "label": "carta_profumata_vaniglia",
+      "label_en": "vanilla_scented_paper",
+      "type": "sensory_material_object",
+      "intensity": 0.8,
+      "perceptual_weight": 0.85,
+      "basho": "il libro è stampato su carta profumata alla vaniglia: il profumo non è nel racconto ma nell'oggetto-libro, e raggiunge il lettore prima delle parole. La materia stessa del volume è parte dell'esperienza",
+      "kokyu": "il profumo agisce per presenza continua, non per evento: accompagna tutta la lettura come una nota di fondo",
+      "yūgen": "l'odore di vaniglia lega il libro al corpo di chi legge: si ricorderà il profumo anche quando la trama si sarà confusa",
+      "affects": {
+        "object-05": "il profumo contribuisce alla dissoluzione dell'esperienza: resta come traccia sensoriale oltre il racconto"
+      },
+      "textual_anchor_it": "Realizzato con carta profumata giapponese alla vaniglia.",
+      "anchor_type": "elided_quote",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu"
       ]
     }
   ],
