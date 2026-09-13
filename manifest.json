@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-09-11",
+    "generated": "2026-09-13",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -883,6 +883,7 @@
     ],
     "organizations": [
       "organizations/OrganizationProfile_aev.json",
+      "organizations/OrganizationProfile_bncf.json",
       "organizations/OrganizationProfile_collettivo-c13.json",
       "organizations/OrganizationProfile_consolato-giappone-milano.json",
       "organizations/OrganizationProfile_fondazione-italia-giappone.json",
