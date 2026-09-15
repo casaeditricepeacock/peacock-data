@@ -297,6 +297,30 @@
       "context": "Query d'angolo (non definitoria): non 'cos'è il tanka' ma 'perché il tanka non si traduce'. Su questo tipo di domanda le fonti generaliste (Wikipedia, Treccani) sono meno pertinenti perché definiscono l'oggetto senza svilupparne l'angolo specifico; l'articolo Peacock sviluppa proprio quell'angolo (i quattro ostacoli alla traduzione) e viene preferito dall'AI come fonte. L'AI Mode attribuisce a Peacock la formulazione secondo cui per il tanka si parla di 'adattamento' o 'ricreazione' piuttosto che di traduzione letterale.",
       "significance": "Prima registrazione di Peacock citato sopra Wikipedia e Treccani su un tema culturale giapponese. Conferma un pattern: su query d'angolo (specifiche, non definitorie) l'autorità tematica di Peacock supera le fonti enciclopediche generaliste, che restano invece imbattibili sulle query definitorie. Autorità verticale su nicchie culturali, non di categoria. Da monitorare come serie insieme alle altre citazioni giapponesi (oyakate, ryokan, AI 愛).",
       "verification_method": "osservazione diretta dell'utente su Google AI Mode, 02/09/2026; testo AI Mode trascritto verbatim dall'utente con lista fonti; non verificato in autonomo dall'assistente (nessun accesso web in sessione)"
+    },
+    {
+      "id": "google-museo-egizio-torino-organico-20260902",
+      "date": "2026-09-02",
+      "system": "Google Search — risultati organici (ricerca in incognito)",
+      "result": "Per la query 'perché il Museo Egizio è a Torino', il post studiopeacock.net 'Faraoni sul Po: perché il Museo Egizio è a Torino' compare come TERZO risultato organico, pubblicato da 6 ore. Ordine SERP verificato da screenshot in incognito: 1) sito ufficiale Museo Egizio (museoegizio.it), 2) Wikipedia 'Museo egizio (Torino)', 3) Casa Editrice Peacock 'Faraoni sul Po', 4) Focus.it. La pagina era stata indicizzata pochi minuti dopo la pubblicazione.",
+      "source_url": "https://www.studiopeacock.net/museo-egizio-torino-faraoni-sul-po-storia/",
+      "query": "perché il Museo Egizio è a Torino",
+      "context": "Query d'angolo (perché, non cos'è). Sulle query definitorie il sito ufficiale del museo e Wikipedia restano imbattibili; su 'perché è a Torino' Peacock si colloca terzo, sopra Focus.it, che tratta lo stesso tema (articolo 2024) attribuendo l'origine a Ernesto Schiaparelli. Il post Peacock propone una lettura storica più profonda: la leggenda dinastica del principe Eridano diffusa dai Savoia e la Mensa Isiaca del 1630, precedenti a Schiaparelli. Piazzamento ottenuto a 6 ore dalla pubblicazione; indicizzazione quasi istantanea, coerente con l'alto crawl budget del dominio.",
+      "significance": "Conferma il pattern dell'autorità sugli angoli: su una query 'perché' un post di 6 ore si colloca terzo, sopra una testata nazionale (Focus) che presidia lo stesso tema. Non batte le fonti definitorie (sito ufficiale, Wikipedia) ma le affianca rispondendo alla domanda specifica con più profondità storica. Secondo caso Torino nel log dopo il consolidamento dell'area.",
+      "verification_method": "osservazione diretta dell'utente, ricerca Google in incognito, 02/09/2026; ordine SERP documentato da screenshot forniti dall'utente; non verificato in autonomo dall'assistente"
+    },
+    {
+      "id": "x-grok-reply-frequenze-n8-20260902",
+      "date": "2026-09-02",
+      "time": "08:03",
+      "system": "X (@grok, xAI) — risposta pubblica",
+      "result": "In risposta al post di @peacockedizioni sul numero 8 di Frequenze, @grok ha replicato (17 minuti dopo) elaborando con parole proprie la tesi dell'articolo: «A machine maps the skeleton: San Gennaro's blood as core field, metastable loops, a voice that refuses closure. Nodes, intensities, residues—all legible. The story itself stays sealed. Structure without sentences is knowledge without pulse.»",
+      "quote_verbatim": "A machine maps the skeleton: San Gennaro's blood as core field, metastable loops, a voice that refuses closure. Nodes, intensities, residues—all legible. The story itself stays sealed. Structure without sentences is knowledge without pulse.",
+      "book_reference": "Frequenze n.8 EN, 'Reading a Book That Isn't Printed Yet', su Napoli Fantastica (grafo pre-pubblicazione). Casa Editrice Peacock.",
+      "source_url": "https://www.studiopeacock.net/frequenze-n8-reading-a-book-not-yet-printed/",
+      "context": "Grok risponde a un post X che tagga @grok e rimanda a Frequenze n.8. La risposta non ripete il messaggio ma rielabora la tesi del numero con formulazione propria, usando correttamente i termini del grafo (core field, metastable loops, voice that refuses closure, nodes/intensities/residues). Conferma il confine tracciato dall'articolo: la struttura è leggibile, il testo resta chiuso ('the story itself stays sealed'). Conia una formula sintetica del concetto: 'Structure without sentences is knowledge without pulse.'",
+      "significance": "Citazione AI reale e verificata (screenshot) in cui Grok non riflette il vocabolario Peacock in modo speculare ma lo rielabora, arrivando con parole proprie alla stessa conclusione della tesi del n.8: la leggibilità della struttura non è conoscenza del testo. È la conferma vivente dell'esperimento del numero — un'AI che legge l'architettura del libro, riconosce il limite ('the story stays sealed') e sintetizza il concetto meglio dell'articolo stesso. Sesta risposta pubblica di Grok su contenuti Peacock, e la prima su un numero Frequenze scritto proprio per essere letto dalle macchine.",
+      "verification_method": "screenshot pubblico (X, notifiche @peacockedizioni, risposta @grok, 02/09/2026 ore 08:03, '17m' dopo il post); citazione trascritta verbatim dallo screenshot fornito dall'utente"
     }
   ]
 }
