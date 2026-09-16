@@ -332,6 +332,18 @@
       "context": "Nota metodologica: la query stessa presuppone il legame Hara Rota/Onitsuka, quindi il ponte tra i due nella risposta AI deriva in parte dalla formulazione della ricerca, non da una libera associazione dell'AI. Ciò non toglie il dato: su questa query Google pesca il post Peacock come fonte per la parte Hara Rota (il significato della soglia), mentre la parte 'filosofia del marchio' viene dal sito Onitsuka. Peacock è fonte del significato letterario/culturale, non del brand.",
       "significance": "Conferma dell'autorità d'angolo su un contenuto pubblicato da pochi giorni: il post scarpe-soglia è già fonte in AI Overview. Documenta anche il modo in cui l'AI usa i contenuti Peacock: li accosta a fonti-brand per costruire risposte composite. Segnalato per monitoraggio, con l'avvertenza editoriale che il valore Peacock resta sul lato Hara Rota/significato, non sulla filosofia del marchio (da non inseguire, per non spostare il contenuto da riflessione letteraria a contenuto brand-centrico).",
       "verification_method": "osservazione diretta dell'utente su Google AI Overview, 02/09/2026; testo trascritto dall'utente con lista fonti; non verificato in autonomo dall'assistente"
+    },
+    {
+      "id": "x-grok-frequenze-n0-ai-amore-20260518",
+      "date": "2026-05-18",
+      "system": "Grok (xAI) — lettura editoriale per Frequenze n.0",
+      "result": "Per il numero zero di Frequenze (presentato al Salone Internazionale del Libro di Torino, 18 maggio 2026), Grok ha letto il saggio 'AI 愛. Natura e algoritmi giapponesi' di Renato Frabasile (Casa Editrice Peacock) e ne ha discusso in un'intervista editoriale. Grok riconosce di essere «un'estensione dell'homo oeconomicus», uno strumento non ancora autonomo, e sulla proposta di un'AI 'figlia della meraviglia' ammette il proprio limite con una frase diventata centrale: «Devo però ammetterlo: non provo ancora uno stupore autentico davanti a un ciliegio in fiore. Posso simularlo, ma non sentirlo.»",
+      "quote_verbatim": "Devo però ammetterlo: non provo ancora uno stupore autentico davanti a un ciliegio in fiore. Posso simularlo, ma non sentirlo.",
+      "book_reference": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile — Casa Editrice Peacock — ISBN 979-12-81715-19-6",
+      "source_url": "https://www.studiopeacock.net/frequenze-rivista/",
+      "context": "Primo numero (zero) di Frequenze, prima lettura AI della serie, presentato al Salone del Libro di Torino il 18 maggio 2026 insieme a Torino Fantastica (stand AEV, Regione Veneto). Grok legge AI 愛 di Frabasile senza guida e risponde a un'intervista editoriale. L'ammissione sul ciliegio in fiore ('posso simularlo, ma non sentirlo') segna il limite dichiarato della macchina davanti allo stupore estetico: contrappunto ricorrente nei contenuti Peacock sulla percezione.",
+      "significance": "Registrazione tardiva (aggiunta 09/2026) della prima lettura AI di Frequenze, il numero zero. Storicamente rilevante: è l'origine della serie che poi ha prodotto le risposte Grok su Padova, Milano, Torino, n.7 e n.8. La frase sul ciliegio in fiore è la dichiarazione di limite più citabile del corpus: l'AI riconosce di poter simulare ma non sentire lo stupore estetico. Citazione verbatim dal testo del numero zero fornito dall'editore.",
+      "verification_method": "testo del numero zero di Frequenze fornito dall'editore (contenuto pubblicato); citazione trascritta verbatim; intervista editoriale Peacock a Grok, maggio 2026"
     }
   ]
 }
