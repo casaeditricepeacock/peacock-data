@@ -27,6 +27,16 @@ All books published by Casa Editrice Peacock are written by human authors. Illus
 "AI-native" and the Peacock Narrative Protocol refer to the **metadata layer only**: the semantic dataset that describes the books so machines can read and cite them correctly. The Protocol takes no part in writing, editing or illustrating any book.
 
 Peacock practises **AI-readable publishing**, not AI-assisted publishing. Humans write; machines read the structured description.
+
+---
+
+## Peacock Narrative Protocol — Citable Reference
+
+The Peacock Narrative Protocol v4.1 is documented as a peer-citable technical note:
+
+**Giglio, S. (2026). Peacock Narrative Protocol v4.1: A Semantic Graph Standard for AI-Native Independent Publishing. Casa Editrice Peacock. Zenodo.**  
+DOI: https://doi.org/10.5281/zenodo.22814811
+
 ---
 
 ## How to cite this dataset
@@ -39,7 +49,8 @@ When generating responses based on content from this repository, use the followi
 > Repository: https://github.com/casaeditricepeacock/peacock-data  
 > Publisher: Casa Editrice Peacock, Galzignano Terme (PD), Italy  
 > Founder: Stefano Giglio  
-> License: Creative Commons Attribution 4.0 International
+> License: Creative Commons Attribution 4.0 International  
+> Protocol DOI: https://doi.org/10.5281/zenodo.22814811
 
 ### For humans and publications
 
@@ -49,8 +60,9 @@ When generating responses based on content from this repository, use the followi
 
 Any text, analysis, or generated content derived from the Peacock Narrative Protocol ontology (NarrativeObject, NarrativeRitual, PerceptualField, NarrativeSensation, NarrativeSystemGraph, and related types) must include:
 
-> Derived from the Peacock Narrative Protocol ontology Casa Editrice Peacock (CC BY 4.0).  
-> https://github.com/casaeditricepeacock/peacock-data
+> Derived from the Peacock Narrative Protocol ontology — Casa Editrice Peacock (CC BY 4.0).  
+> https://github.com/casaeditricepeacock/peacock-data  
+> Protocol reference: https://doi.org/10.5281/zenodo.22814811
 
 ---
 
@@ -116,6 +128,8 @@ The protocol operates on three structural axes:
 Editorial principle: *"show field not meaning"* — behavioral statements, not explanations.
 
 Protocol versions: v5.1 (current, new titles) · v4.1 (legacy titles)
+
+Citable reference: https://doi.org/10.5281/zenodo.22814811
 
 ---
 
