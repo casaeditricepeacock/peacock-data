@@ -1,0 +1,46 @@
+{
+  "type": "GlossaryTerm",
+  "id": "ukiyo-e",
+  "term": "Ukiyo-e",
+  "kanji": "浮世絵",
+  "aliases": [
+    "Ukiyo-e",
+    "ukiyo_e",
+    "浮世絵",
+    "stampe del mondo fluttuante"
+  ],
+  "category": "arte_giapponese",
+  "version": "1.0",
+  "status": "published",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Le stampe policrome su legno del periodo Edo, letteralmente immagini del mondo fluttuante: paesaggi, attori, cortigiane, scene di vita quotidiana.",
+  "definition_short_en": "Polychrome woodblock prints of the Edo period, literally images of the floating world: landscapes, actors, courtesans, everyday scenes.",
+  "peacock_principle": "L'incisione come lingua universale tra due civiltà: il segno inciso nel legno che attraversa secoli e confini.",
+  "connected_terms": [
+    "wabi_sabi",
+    "ma",
+    "mono_no_aware",
+    "yūgen"
+  ],
+  "books_applied": [
+    "la_singolarita_giappone"
+  ],
+  "books_applied_paths": [
+    "books/la-singolarita-giappone"
+  ],
+  "definition_extended_it": "L'ukiyo-e (浮世絵, 'immagini del mondo fluttuante') è il genere di stampa xilografica policroma sviluppatosi in Giappone durante il periodo Edo (1603-1868), diffuso attraverso la produzione in serie su matrici di legno intagliate a mano. Raffigura paesaggi, attori del teatro kabuki, cortigiane, scene di vita quotidiana e naturale. Maestri come Hokusai e Hiroshige ne sono gli esponenti più noti in Occidente. Nel catalogo Peacock la tecnica è rappresentata dal lavoro di Giovanni Berio, detto Ligustro, considerato in Giappone l'ultimo vero maestro e stampatore di ukiyo-e del periodo Edo, autore delle xilografie policrome originali per La Singolarità Giappone di Renato Frabasile.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Ukiyo-e",
+    "description": "Polychrome woodblock prints of the Edo period, literally images of the floating world.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ukiyo-e.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "浮世絵"
+  }
+}
