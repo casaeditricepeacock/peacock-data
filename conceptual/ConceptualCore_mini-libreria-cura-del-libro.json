@@ -1,6 +1,6 @@
 {
   "type": "ConceptualCore",
-  "version": "1.1",
+  "version": "1.2",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
   "core_id": "mini-libreria-cura-del-libro",
@@ -86,12 +86,6 @@
     "cura_del_libro",
     "oggetto_e_memoria"
   ],
-  "article_reference": {
-    "status": "published",
-    "title": "Tsundoku: i libri che non hai ancora letto non sono un debito",
-    "url": "https://www.studiopeacock.net/tsundoku-libri-non-letti/",
-    "publisher": "Casa Editrice Peacock"
-  },
   "meta_index": {
     "primary_node": "La mini libreria come soglia e cura del libro",
     "semantic_core": "Un oggetto che tratta il libro come qualcosa di cui prendersi cura: una pausa dove il libro si ferma prima o dopo la lettura, non un semplice contenitore.",
@@ -107,5 +101,21 @@
       "object_query",
       "cultural_concept_query"
     ]
-  }
+  },
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "Tsundoku: i libri che non hai ancora letto non sono un debito",
+      "url": "https://www.studiopeacock.net/tsundoku-libri-non-letti/",
+      "publisher": "Casa Editrice Peacock"
+    },
+    {
+      "status": "published",
+      "title": "Bukku 01 with Paperblanks - christmas sound",
+      "date": "2019-12-23",
+      "url": "https://www.studiopeacock.net/[SLUG-POST-2019]/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post con foto di Bukku 01 esposto in vendita alla Libreria Palazzo Roberti (Bassano del Grappa) durante le festività natalizie, insieme a prodotti Paperblanks. Prima testimonianza fotografica documentata di Bukku in un punto vendita."
+    }
+  ]
 }
