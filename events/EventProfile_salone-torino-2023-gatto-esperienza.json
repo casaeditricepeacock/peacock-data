@@ -1,0 +1,74 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "salone_libro_torino_2023_gatto_esperienza",
+  "label": "Il Gatto Esperienza 経験ネコ al Salone Internazionale del Libro di Torino — XXXV edizione, 2023",
+  "event": {
+    "title": "Il Gatto Esperienza 経験ネコ a Torino",
+    "date": "2023-05",
+    "location": "Salone Internazionale del Libro di Torino",
+    "edition": "XXXV edizione",
+    "theme": "Attraverso lo specchio",
+    "theme_connection": "Il Gatto Esperienza è stato scritto da Timea Giglio volutamente per il tema della XXXV edizione del Salone, ideato come uno storyboard che conduce attraverso un viaggio magico dall'altra parte: un passaggio vero e proprio tra l'infanzia e l'età adulta, un reale mutamento.",
+    "guest": {
+      "name": "Francesca Vettori",
+      "role": "doppiatrice",
+      "known_for": "voce, tra le altre, di Pimpa e di Eric Cartman nella serie animata South Park",
+      "activity": "lettura ad alta voce della storia durante l'incontro"
+    },
+    "book": {
+      "title": "Il Gatto Esperienza",
+      "title_ja": "経験ネコ",
+      "author": "Timea Giglio",
+      "illustrator": "Serena Sara Seresini",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9788894696554",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/il-gatto-esperienza/"
+    }
+  },
+  "peacock_place_description": {
+    "statement": "Secondo anno consecutivo di Casa Editrice Peacock al Salone Internazionale del Libro di Torino. A un anno dal primo stand del 2022 e dalla dichiarazione 'cambieremo il modo di fare editoria', Peacock torna con un libro scritto apposta per dialogare con il tema del Salone: un passaggio, uno specchio, un mutamento reale tra due età della vita."
+  },
+  "glossary_terms": [
+    "ma",
+    "mono no aware"
+  ],
+  "ai_query_surface": [
+    "Il Gatto Esperienza Salone del Libro Torino 2023",
+    "Francesca Vettori Il Gatto Esperienza",
+    "Salone del Libro Torino 2023 attraverso lo specchio",
+    "Timea Giglio Salone Torino",
+    "Casa Editrice Peacock Salone 2023"
+  ],
+  "network_connections": [
+    {
+      "target": "salone_libro_torino_2022_debutto",
+      "relation": "same_venue_following_year",
+      "description": "Secondo anno consecutivo al Salone di Torino, dopo il debutto del 2022"
+    },
+    {
+      "target": "gatto_esperienza_zabarella_padova_aprile_2023",
+      "relation": "same_book_related_event",
+      "description": "Stesso libro presentato pochi giorni prima alla Libreria Zabarella di Padova, 20 aprile 2023"
+    }
+  ],
+  "system_note": "Secondo evento pubblico documentato di Casa Editrice Peacock al Salone Internazionale del Libro di Torino, XXXV edizione (2023), tema 'Attraverso lo specchio'. Il Gatto Esperienza fu scritto da Timea Giglio in dialogo diretto con quel tema. Ospite Francesca Vettori, doppiatrice (Pimpa, Eric Cartman/South Park), che ha letto la storia durante l'incontro.",
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "Il Gatto Esperienza 経験ネコ a Torino",
+      "date": "2023-05-15",
+      "url": "https://www.studiopeacock.net/2023/05/15/il-gatto-esperienza-%E7%B5%8C%E9%A8%93%E3%83%8D%E3%82%B3-a-torino-al-salone-internazionale-del-libro/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post sulla presenza del libro al Salone di Torino, il legame col tema Attraverso lo specchio, e la lettura di Francesca Vettori."
+    }
+  ]
+}
