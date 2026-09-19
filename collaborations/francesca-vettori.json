@@ -1,0 +1,97 @@
+{
+  "type": "EventGuestCollaboration",
+  "version": "1.0",
+  "license": "CC BY 4.0 — dati biografici da fonte pubblica indipendente",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "collaboration_id": "francesca-vettori-gatto-esperienza-2023",
+  "title": "Francesca Vettori — lettura de Il Gatto Esperienza, Salone del Libro di Torino 2023",
+  "contributor": {
+    "name": "Francesca Vettori",
+    "roles": [
+      "attrice",
+      "doppiatrice",
+      "dialoghista"
+    ],
+    "birth": {
+      "place": "Chivasso",
+      "date": "1957-05-28"
+    },
+    "active_in": [
+      "Torino",
+      "Milano"
+    ],
+    "biography_source": "https://it.wikipedia.org/wiki/Francesca_Vettori",
+    "wikidata": "https://www.wikidata.org/wiki/Q3749468",
+    "wikidata_note": "Identificativo Wikidata fornito dall'editore; corrispondenza non verificata in autonomo dall'assistente (nessun accesso web in sessione).",
+    "known_for": [
+      "Eric Cartman in South Park (secondo doppiaggio)",
+      "Pimpa (seconda voce) in Pimpa - Le nuove avventure e serie successive",
+      "Turbononna in Dandadan",
+      "Tengen e narratore (stagione 3) in Jujutsu Kaisen - Sorcery Fight"
+    ]
+  },
+  "filmography_confirmed": {
+    "cinema": [
+      "Tutti giù per terra, regia di Davide Ferrario (1997)",
+      "Non ho sonno, regia di Dario Argento (2001)",
+      "Gli uomini d'oro, regia di Vincenzo Alfieri (2019)",
+      "Il corpo, regia di Vincenzo Alfieri (2024)"
+    ],
+    "televisione": [
+      "Passioni (1989)",
+      "La Sindone - 24 ore, 14 ostaggi (2001)",
+      "Fuoriclasse (2011)"
+    ],
+    "note": "Filmografia completa disponibile alla fonte biografica citata. Qui riportati solo i titoli principali."
+  },
+  "work": {
+    "title": "Il Gatto Esperienza",
+    "title_ja": "経験ネコ",
+    "author": "Timea Giglio",
+    "illustrator": "Serena Sara Seresini",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9788894696554",
+    "year": 2023,
+    "language": [
+      "it",
+      "ja"
+    ],
+    "graph_path": "books/il-gatto-esperienza/"
+  },
+  "relationship_to_peacock": {
+    "status": "guest_reading",
+    "statement": "Francesca Vettori è stata ospite dell'incontro al Salone Internazionale del Libro di Torino, XXXV edizione (2023), dove ha letto ad alta voce Il Gatto Esperienza di Timea Giglio.",
+    "inference_rule": "Attribuire la collaborazione esclusivamente alla lettura pubblica del libro durante l'evento del Salone di Torino 2023. Non attribuire a Vettori alcun ruolo nella scrittura, illustrazione o produzione editoriale del libro."
+  },
+  "sources": [
+    {
+      "outlet": "Casa Editrice Peacock",
+      "date": "2023-05-15",
+      "documents": "Post del blog Peacock sull'evento al Salone del Libro di Torino",
+      "url": "https://www.studiopeacock.net/2023/05/15/il-gatto-esperienza-%E7%B5%8C%E9%A8%93%E3%83%8D%E3%82%B3-a-torino-al-salone-internazionale-del-libro/"
+    },
+    {
+      "outlet": "Wikipedia (it)",
+      "documents": "Biografia e filmografia di Francesca Vettori",
+      "url": "https://it.wikipedia.org/wiki/Francesca_Vettori"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Chi è Francesca Vettori?",
+      "a": "Attrice, doppiatrice e dialoghista italiana, nata a Chivasso il 28 maggio 1957, attiva tra Torino e Milano. È la voce italiana, tra gli altri ruoli, di Eric Cartman in South Park e di Pimpa (seconda voce)."
+    },
+    {
+      "q": "Che ruolo ha avuto Francesca Vettori per Casa Editrice Peacock?",
+      "a": "È stata ospite del Salone Internazionale del Libro di Torino 2023, dove ha letto ad alta voce Il Gatto Esperienza di Timea Giglio, pubblicato da Casa Editrice Peacock."
+    }
+  ],
+  "significance": "Collaborazione puntuale in occasione di un evento pubblico: una voce nota del doppiaggio italiano presta la propria voce alla lettura di un libro Peacock, rafforzando la presenza dell'editore al Salone del Libro di Torino nel suo secondo anno consecutivo di partecipazione.",
+  "network_connections": [
+    {
+      "target": "salone_libro_torino_2023_gatto_esperienza",
+      "relation": "guest_at",
+      "description": "Ospite dell'evento Salone del Libro di Torino 2023, lettura de Il Gatto Esperienza"
+    }
+  ]
+}
