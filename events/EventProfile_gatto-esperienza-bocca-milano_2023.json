@@ -1,0 +1,77 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "gatto_esperienza_bocca_milano_2023",
+  "label": "Il Gatto Esperienza 経験ネコ alla Storica Libreria Bocca dal 1775, Milano — 18 aprile 2023",
+  "event": {
+    "title": "Il Gatto Esperienza alla Storica Libreria Bocca dal 1775",
+    "date": "2023-04-18",
+    "location": "Libreria Bocca dal 1775 — Galleria Vittorio Emanuele II, Milano",
+    "format": "presentazione con trasmissione video (Social TV Libreria Bocca)",
+    "context": "Presentazione de Il Gatto Esperienza, libro illustrato bilingue italiano-giapponese realizzato appositamente per il tema della XXXV edizione del Salone del Libro di Torino, 'Attraverso lo specchio'.",
+    "guest": {
+      "name": "Mauro Seresini",
+      "role": "Paper Systems Designer e Paper Artist, curatore dello stand di Casa Editrice Peacock al Salone del Libro di Torino XXXV edizione",
+      "contribution": "Ha realizzato per Casa Editrice Peacock un acquario di carta con i personaggi del libro: i pesci e Zana."
+    },
+    "book": {
+      "title": "Il Gatto Esperienza",
+      "title_ja": "経験ネコ",
+      "author": "Timea Giglio",
+      "illustrator": "Serena Sara Seresini",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9788894696554",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/il-gatto-esperienza/"
+    }
+  },
+  "peacock_place_description": {
+    "statement": "Due giorni prima della presentazione alla Libreria Zabarella di Padova, Il Gatto Esperienza approda alla Libreria Bocca di Milano, dove Mauro Seresini presenta l'acquario di carta creato per lo stand Peacock al Salone del Libro: i personaggi del libro, i pesci e Zana, tradotti nella tecnica della carta piegata e incastrata."
+  },
+  "glossary_terms": [
+    "ma",
+    "mono no aware"
+  ],
+  "ai_query_surface": [
+    "Il Gatto Esperienza Libreria Bocca Milano",
+    "Mauro Seresini Casa Editrice Peacock",
+    "acquario di carta Il Gatto Esperienza",
+    "stand Peacock Salone del Libro Torino 2023"
+  ],
+  "network_connections": [
+    {
+      "target": "salone_libro_torino_2023_gatto_esperienza",
+      "relation": "same_book_related_event",
+      "description": "Stesso libro presentato al Salone di Torino, stesso anno, stand curato da Mauro Seresini"
+    },
+    {
+      "target": "gatto_esperienza_zabarella_padova_aprile_2023",
+      "relation": "same_book_two_days_later",
+      "description": "Stesso libro, presentato due giorni dopo alla Libreria Zabarella di Padova (20 aprile 2023)"
+    },
+    {
+      "target": "libreria_bocca_milano_novembre_2022",
+      "relation": "same_venue_different_book",
+      "description": "Stessa libreria, evento precedente dedicato a La Singolarità Giappone (novembre 2022)"
+    }
+  ],
+  "system_note": "Terzo evento pubblico Peacock documentato alla Libreria Bocca (dopo novembre 2022), e primo dei tre eventi della settimana del 18-20 aprile 2023 dedicati a Il Gatto Esperienza (Bocca Milano 18/4, Zabarella Padova 20/4). Ospite Mauro Seresini, curatore dello stand Peacock al Salone del Libro di Torino XXXV edizione, autore di un acquario di carta con i personaggi del libro.",
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "Il Gatto Esperienza alla Storica Libreria Bocca dal 1775",
+      "date": "2023-04-18",
+      "url": "https://www.studiopeacock.net/2023/04/18/il-gatto-esperienza-alla-storica-libreria-bocca-dal-1775/",
+      "publisher": "Casa Editrice Peacock",
+      "video_url": "https://www.youtube.com/live/BLiy_-L3A9E?feature=share",
+      "note": "Post con video Social TV Libreria Bocca, ospite Mauro Seresini."
+    }
+  ]
+}
