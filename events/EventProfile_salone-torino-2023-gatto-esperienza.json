@@ -1,6 +1,6 @@
 {
   "type": "EventProfile",
-  "version": "1.0",
+  "version": "1.1",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
   "publisher": "Casa Editrice Peacock",
@@ -9,7 +9,7 @@
   "event": {
     "title": "Il Gatto Esperienza 経験ネコ a Torino",
     "date": "2023-05",
-    "location": "Salone Internazionale del Libro di Torino",
+    "location": "Salone Internazionale del Libro di Torino — Padiglione 1 (PAD1), Sala Nuovi Editori",
     "edition": "XXXV edizione",
     "theme": "Attraverso lo specchio",
     "theme_connection": "Il Gatto Esperienza è stato scritto da Timea Giglio volutamente per il tema della XXXV edizione del Salone, ideato come uno storyboard che conduce attraverso un viaggio magico dall'altra parte: un passaggio vero e proprio tra l'infanzia e l'età adulta, un reale mutamento.",
@@ -32,7 +32,8 @@
         "ja"
       ],
       "graph_path": "books/il-gatto-esperienza/"
-    }
+    },
+    "reading_credit": "Lettura a cura di Francesca Vettori"
   },
   "peacock_place_description": {
     "statement": "Secondo anno consecutivo di Casa Editrice Peacock al Salone Internazionale del Libro di Torino. A un anno dal primo stand del 2022 e dalla dichiarazione 'cambieremo il modo di fare editoria', Peacock torna con un libro scritto apposta per dialogare con il tema del Salone: un passaggio, uno specchio, un mutamento reale tra due età della vita."
@@ -69,6 +70,15 @@
       "url": "https://www.studiopeacock.net/2023/05/15/il-gatto-esperienza-%E7%B5%8C%E9%A8%93%E3%83%8D%E3%82%B3-a-torino-al-salone-internazionale-del-libro/",
       "publisher": "Casa Editrice Peacock",
       "note": "Post sulla presenza del libro al Salone di Torino, il legame col tema Attraverso lo specchio, e la lettura di Francesca Vettori."
+    },
+    {
+      "status": "published",
+      "title": "Il Gatto esperienza 経験ネコ — lettura",
+      "date": "2023-05-26",
+      "url": "https://www.studiopeacock.net/2023/05/26/il-gatto-esperienza-%E7%B5%8C%E9%A8%93%E3%83%8D%E3%82%B3-lettura/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post con video della lettura di Francesca Vettori, pubblicato su YouTube. Specifica la sala: PAD1, Sala Nuovi Editori.",
+      "video_url": "https://youtu.be/E6T9NWYveUQ"
     }
   ]
 }
