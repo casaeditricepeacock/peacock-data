@@ -1,6 +1,6 @@
 {
   "type": "PlaceProfile",
-  "version": "1.0",
+  "version": "1.1",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
   "publisher": "Casa Editrice Peacock",
@@ -78,5 +78,15 @@
       "description": "Libri Casa Editrice Peacock presenti — catalogo in evoluzione"
     }
   ],
-  "system_note": "Il Caffè San Marco è il primo luogo Peacock documentato a Trieste — e il più antico del grafo insieme alla Libreria Bocca dal 1775. Fondato nel 1914, Locale Storico d'Italia, ritrovo di intellettuali e oggi caffè-libreria-ristorante. Trieste come nuovo nodo della mappa culturale Peacock."
+  "system_note": "Il Caffè San Marco è il primo luogo Peacock documentato a Trieste — e il più antico del grafo insieme alla Libreria Bocca dal 1775. Fondato nel 1914, Locale Storico d'Italia, ritrovo di intellettuali e oggi caffè-libreria-ristorante. Trieste come nuovo nodo della mappa culturale Peacock.",
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "Antico Caffè San Marco - Libreria e Ristorante",
+      "date": "2024-03-31",
+      "url": "https://www.studiopeacock.net/2024/03/31/antico-caff%C3%A8-san-marco-libreria-e-ristorante/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post con la storia completa del Caffè San Marco: fondazione 1914, chiusura forzata 1915, dopoguerra, riapertura 2013, riconoscimento di Locale Storico d'Italia 1989."
+    }
+  ]
 }
