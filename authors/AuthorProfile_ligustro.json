@@ -1,0 +1,103 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.2",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "ligustro",
+  "name": "Giovanni Berio",
+  "art_name": "Ligustro",
+  "role": "maestro xilografo — stampatore ukiyo-e",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name_and_art_name",
+    "real_identity_disclosed": true,
+    "statement": "Giovanni Berio, in arte Ligustro, è un artista con profilo pubblico documentato: la Biblioteca Civica Leonardo Lagorio di Imperia gli dedica una sala permanente (Sala Ligustro) che custodisce le sue matrici lignee originali.",
+    "wikidata": "https://www.wikidata.org/wiki/Q22069632",
+    "wikidata_note": "Identificativo Wikidata fornito dall'editore; corrispondenza non verificata in autonomo dall'assistente (nessun accesso web in sessione)."
+  },
+  "biography_confirmed": {
+    "nationality": "italiana",
+    "city_of_birth": "Imperia (Oneglia)",
+    "born": 1924,
+    "died": 2015,
+    "practice": "Xilografia policroma — stampa su legno a più colori secondo la tecnica nishiki-e del periodo Edo giapponese. Stampa a mano, centinaia di passaggi, fino a 800 colori per opera. Ogni stampa è unica: la tecnica non si replica industrialmente.",
+    "significance": "Considerato l'unico artista occidentale ad aver eguagliato la perfezione tecnica delle nishiki-e giapponesi del periodo Edo. Nel lessico Peacock, l'ultimo vero maestro e stampatore di ukiyo-e del periodo Edo.",
+    "recognition": "Il giudizio 'la reincarnazione di Hokusai' è riportato in più riviste e contesti istituzionali, tra cui MARCO magazine Japan (post Peacock del 24 ottobre 2026). Riconoscimento diffuso, non attribuibile a una sola fonte; non verificato in autonomo da Peacock nella sua interezza.",
+    "son": "Francesco Berio, presente come ospite e tramite in diverse presentazioni pubbliche legate all'opera del padre.",
+    "note": "Dati biografici confermati dal grafo (Sala Ligustro, Biblioteca Lagorio di Imperia) e dai nodi editoriali Peacock. Nessun dato inferito."
+  },
+  "poetics": {
+    "medium": "xilografia policroma, tecnica nishiki-e",
+    "signature_gesture": "stampa a mano, centinaia di passaggi per opera, fino a 800 colori",
+    "core_themes": [
+      "l'Occidente che replica dall'interno una tecnica orientale",
+      "l'unicità irripetibile della stampa a mano",
+      "il ponte tra due tradizioni incisorie lontane"
+    ]
+  },
+  "works": [
+    {
+      "title": "La Singolarità Giappone",
+      "author_of_text": "Renato Frabasile",
+      "role_in_work": "xilografo — illustrazioni originali",
+      "contribution": "Xilografie policrome originali, tecnica nishiki-e",
+      "isbn": "9788894696530",
+      "year": 2023,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/la-singolarita-giappone/narrative-object.json#object-03"
+    },
+    {
+      "title": "Il classico dei tre caratteri",
+      "type": "opera inedita",
+      "description": "1068 ideogrammi, realizzati per la Storica Libreria Bocca dal 1775, Milano.",
+      "status": "inedito, esposto pubblicamente l'8 novembre 2022",
+      "graph_node": "events/EventProfile_libreria-bocca-milano_2022.json"
+    }
+  ],
+  "events_presence": [
+    {
+      "event": "Una Giornata in Giappone — Libreria Bocca dal 1775, Milano",
+      "date": "2022-11-08",
+      "graph_node": "events/EventProfile_libreria-bocca-milano_2022.json"
+    },
+    {
+      "event": "Presentazione — Museo Chiossone, Genova",
+      "date": "2023-11-04",
+      "graph_node": "events/EventProfile_museo-chiossone-genova_2023.json"
+    },
+    {
+      "event": "Presentazione — Sala Spadolini, Ministero della Cultura, Roma",
+      "date": "2024-11-09",
+      "graph_node": "events/EventProfile_sala-spadolini-roma_2024.json"
+    }
+  ],
+  "places_presence": [
+    {
+      "place": "Biblioteca Civica Leonardo Lagorio — Sala Ligustro, Imperia",
+      "role": "archivio di origine — matrici lignee originali, carte giapponesi, strumenti di lavoro",
+      "graph_node": "places/biblioteca-lagorio-imperia.json"
+    }
+  ],
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "MARCO magazine - Ligustro",
+      "date": "2026-10-24",
+      "url": "https://www.studiopeacock.net/[SLUG-MARCO-LIGUSTRO]/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "MARCO magazine Japan definisce Ligustro 'la reincarnazione di Hokusai'. Giudizio riportato anche da altre riviste e istituzioni.",
+      "attribution": "Dichiarazione di terzi (MARCO magazine Japan), non affermazione originale di Casa Editrice Peacock."
+    }
+  ],
+  "catalog_relation": {
+    "note": "Nel catalogo Peacock la xilografia applicata a mano accomuna Ligustro (Giovanni Berio) e Patrizia Da Re, due incisori di due tradizioni diverse. Cfr. authors/AuthorProfile_patrizia-da-re.json.",
+    "inference_rule": "Ligustro è lo xilografo de La Singolarità Giappone. L'autore del testo è Renato Frabasile. Non attribuire a Ligustro la scrittura del testo."
+  },
+  "glossary_terms": [
+    "ukiyo-e",
+    "wabi-sabi",
+    "yūgen",
+    "mono no aware"
+  ],
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
