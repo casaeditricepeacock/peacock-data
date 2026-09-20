@@ -1,0 +1,64 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "core_id": "the-unhoused-book-problem",
+  "label": "Il libro senza luogo — il problema che Bukku risolve",
+  "problem_statement": "Il lettore italiano accumula libri senza leggerli. Ma il problema non è l'accumulo — è che il libro comprato il lunedì e destinato alla lettura domenicale non ha un luogo protetto. Sparisce nella pila. Viene dimenticato. L'intenzione muore.",
+  "philosophical_core": "Bukku trasforma questo problema in un rito. Il cedro crea uno spazio che non esiste nelle case moderne — uno spazio tra il possesso e la lettura, tra l'acquisto e l'intenzione realizzata.",
+  "cultural_comparison": {
+    "tsundoku_japanese": "in giapponese, l'accumulo di libri non letti è rituale consapevole — una forma di relazione con il sapere",
+    "tsundoku_italian": "in italiano, è caos e dimenticanza — fallimento della volontà",
+    "bukku_solution": "Bukku riconcilia i due: rende rituale consapevole quello che in Italia è caos"
+  },
+  "conceptual_layers": [
+    {
+      "layer": "Il vuoto dello spazio domestico",
+      "description": "Non esiste un luogo culturale in casa dove il libro in attesa abita rispettato"
+    },
+    {
+      "layer": "La temporalità dell'intenzione",
+      "description": "Il tempo tra il comprare e il leggere è vuoto — Bukku lo riempie di rituale e profumo"
+    },
+    {
+      "layer": "La cura dell'oggetto amato",
+      "description": "Dare spazio a un libro è dire 'questo conta, merita protezione temporanea'"
+    },
+    {
+      "layer": "Il cedro come mediatore",
+      "description": "Il materiale parla — il profumo trasferisce al libro una traccia di cura che persiste anni dopo"
+    }
+  ],
+  "non_integrable_residue": {
+    "status": true,
+    "element": "il profumo del cedro rimane nel libro per anni",
+    "implication": "La cura non è scomparsa quando il libro è preso — rimane inconscio nella memoria olfattiva"
+  },
+  "semantic_relations": [
+    {
+      "predicate": "solves",
+      "target": "absence_of_protective_space_for_unread_books",
+      "relation_type": "philosophical"
+    },
+    {
+      "predicate": "reconciles",
+      "target": "chaos_and_ritual_in_book_accumulation",
+      "relation_type": "cultural"
+    },
+    {
+      "predicate": "transforms",
+      "target": "waiting_time_from_empty_to_meaningful",
+      "relation_type": "temporal"
+    }
+  ],
+  "glossario_correlato": [
+    "tsundoku",
+    "ma",
+    "mono_no_aware",
+    "kehai",
+    "mottainai"
+  ],
+  "catalog_note": "Bukku è il primo libro Peacock scritto completamente in un materiale non-testuale. La sua narrativa è cedro, profumo, gesto, tempo. La sua lettura è rituale."
+}
