@@ -1,0 +1,41 @@
+{
+  "type": "NarrativeRitual",
+  "protocol_version": "4.1",
+
+  "object_id": "bukku-01",
+  "ritual_name": "il rito del libro in attesa",
+
+  "phases": [
+    {
+      "phase": 1,
+      "title": "avvicinarsi",
+      "field": "prima del libro, il legno — il cedro si sente prima di essere visto",
+      "concept": "kehai"
+    },
+    {
+      "phase": 2,
+      "title": "regolare",
+      "field": "i listelli si sollevano — la posizione non è fissa, risponde al libro e al momento",
+      "concept": "ma"
+    },
+    {
+      "phase": 3,
+      "title": "lasciare",
+      "field": "il libro entra in Bukku — non è riposto, è collocato",
+      "concept": "tsundoku"
+    },
+    {
+      "phase": 4,
+      "title": "il passaggio",
+      "field": "quando il libro viene preso, lascia Bukku — l'oggetto non trattiene",
+      "concept": "mono_no_aware"
+    }
+  ],
+
+  "related_objects": ["bukku-object", "bukku-perceptual-field"],
+
+  "frequenze_note": {
+    "issue": "in preparazione",
+    "subject": "primo numero di Frequenze dedicato a un oggetto fisico, non a un libro"
+  }
+}
