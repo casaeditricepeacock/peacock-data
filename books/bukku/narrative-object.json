@@ -1,0 +1,87 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2019,
+    "language": ["it", "en", "ja"],
+    "type": "Narrative Object / Book-as-Ritual",
+    "core_field": "The ritual of the unhoused book — the road a book travels between purchase and reading"
+  },
+  "editorial_principle": "Bukku is not a library. It is a book. Its narrative is the journey of every book written in cedar and gesture instead of words. Its protagonist is the generic book awaiting reading. Its antagonist is the space that doesn't exist. Its resolution is the threshold the cedar creates.",
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "il cedro massello",
+      "label_en": "the solid cedar",
+      "intensity": 1.0,
+      "basho": "Il cedro è il corpo del libro. Non contiene parole, ma contiene tempo. Quando il libro vi entra, il cedro non si muove: il libro si riposa in attesa di essere preso. Lo spazio che il cedro crea è la sola protezione che esiste tra il comprare e il leggere.",
+      "kokyu": "respiro sensoriale: il cedro respira resina naturale prima ancora che il libro sia posato. Il profumo arriva alla prossimità, non alla vista.",
+      "yūgen": "il cedro conserva una profondità che il lettore sente ma non sa dire — il profumo di pazienza",
+      "affects": {
+        "object-02": "il profumo del cedro trasferisce parzialmente ai libri che vi sostano",
+        "object-03": "i listelli definiscono lo spazio vuoto come spazio intenzionale"
+      },
+      "textual_anchor_it": "cedro massello profumato, 20 cm x 1.5 cm, 11 listelli sollevabili singolarmente",
+      "anchor_type": "direct_specification",
+      "glossary_link": ["ma", "wabi-sabi", "tsundoku"]
+    },
+    {
+      "id": "object-02",
+      "label": "il profumo del cedro",
+      "label_en": "cedar fragrance as temporal marker",
+      "intensity": 0.95,
+      "basho": "Il profumo non è aggiunto — è la cellula del cedro che respira. Quando il libro sta in Bukku per tre giorni, assorbe il profumo. Quando il lettore apre il libro anni dopo, il cedro è ancora là, inconscio. Questo è il non-integrabile: non è controllabile, non è misurabile, non è artificiale.",
+      "kokyu": "tempo olfattivo: il profumo rimane nel libro per anni, riattivandosi ogni volta che le pagine si riscaldano tra le mani",
+      "yūgen": "la memoria non è nella parola — è nella molecola",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il profumo del cedro trasferisce parzialmente ai libri e rimane inconscio nel ricordo della lettura"
+      },
+      "affects": {
+        "object-01": "è emesso dal cedro stesso, non è applicato",
+        "reading-act": "trasforma il libro in un archivio sensoriale della attesa"
+      },
+      "textual_anchor_it": "il cedro rilascia una resina naturale prima ancora che il libro venga posato",
+      "anchor_type": "direct_observation",
+      "glossary_link": ["kehai", "mono_no_aware"]
+    },
+    {
+      "id": "object-03",
+      "label": "i listelli sollevabili",
+      "label_en": "the eleven moveable slats",
+      "intensity": 0.87,
+      "basho": "undici listelli che non sono fissi. Quando il libro entra, i listelli accolgono il volume senza determinare dove deve stare — il gesto di posare il libro è ludico, non funzionale. Ogni volta che tocchi il libro che aspetta, riscopri il gesto, il cedro, il profumo.",
+      "kokyu": "tempo tattile: il gesto non è rapido — è una pausa attiva dove il tempo rallenta",
+      "yūgen": "la mobilità dei listelli dice che l'oggetto non possiede il libro — lo protegge temporaneamente",
+      "affects": {
+        "object-01": "la loro sollevabilità crea lo spazio vuoto intenzionale che è Bukku",
+        "ritual-phase-2": "il gesto di regolare i listelli è l'unica interazione che il lettore ha con Bukku"
+      },
+      "textual_anchor_it": "i listelli si sollevano — la posizione non è fissa, risponde al libro e al momento",
+      "anchor_type": "direct_observation",
+      "glossary_link": ["ma"]
+    },
+    {
+      "id": "object-04",
+      "label": "il libro generico in attesa",
+      "label_en": "the generic book awaiting reading",
+      "intensity": 1.0,
+      "basho": "Non è un libro specifico — è il libro che compri il lunedì e vuoi leggere il weekend. Ha perso il suo luogo. La pila lo inghiotte. Viene dimenticato. Bukku lo restituisce alla visibilità senza trattenerlo.",
+      "kokyu": "tempo della intenzione: il libro che non è ancora letto è una promessa che non deve diventare colpa",
+      "yūgen": "contiene tutti i mondi non ancora aperti che il cedro protegge temporaneamente",
+      "affects": {
+        "object-01": "il libro è il solo contenuto di Bukku — senza libro, Bukku è solo legno",
+        "ritual-phase-3": "il libro vi entra e lascia una traccia di profumo"
+      },
+      "textual_anchor_it": "il libro entra in Bukku — non è riposto, è collocato",
+      "anchor_type": "direct_narrative",
+      "glossary_link": ["tsundoku", "mottainai"]
+    }
+  ]
+}
