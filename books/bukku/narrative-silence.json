@@ -1,0 +1,34 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "silence": "Bukku è silenzio. Il cedro non parla. Il libro non parla. Il lettore non parla. Quello che accade accade nel corpo — nel naso che sente il profumo, nelle dita che toccano i listelli, negli occhi che vedono il libro aspettare, nella mente che sente il tempo proteggere l'intenzione.",
+  "non_spoken_moments": [
+    {
+      "moment": "Il primo istante di profumo",
+      "silence_type": "sensoriale",
+      "what_is_not_said": "il profumo non dichiara nulla — semplicemente arriva"
+    },
+    {
+      "moment": "Il gesto di regolare i listelli",
+      "silence_type": "comunicativo",
+      "what_is_not_said": "il lettore non dice 'adesso sei protetto' — lo fa"
+    },
+    {
+      "moment": "I giorni in cui il libro aspetta",
+      "silence_type": "temporale",
+      "what_is_not_said": "il libro non chiede 'quando mi leggerai?' — semplicemente aspetta"
+    },
+    {
+      "moment": "Il distacco finale",
+      "silence_type": "relazionale",
+      "what_is_not_said": "il cedro non dice 'arrivederci' — il profumo rimane nelle pagine"
+    }
+  ]
+}
