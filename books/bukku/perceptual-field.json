@@ -1,0 +1,81 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "ontology": "strict_perceptual_4_1",
+  "dissolution_rule": "il campo si attiva al contatto fisico con l'oggetto cedro, non alla visione. La lettura è ristretta ai gesti e alle sensazioni che il cedro comunica al corpo del lettore.",
+  "sensorial_layers": [
+    {
+      "sense": "olfatto",
+      "sense_en": "smell",
+      "field": "il cedro rilascia una resina naturale prima ancora che il libro venga posato",
+      "field_en": "the cedar releases natural resin before the book is even placed",
+      "concept": "kehai",
+      "concept_en": "presencing through proximity",
+      "activation_condition": "prossimità fisica — il profumo arriva a una distanza di circa 50 cm anche senza toccare l'oggetto",
+      "intensity": 0.8,
+      "sensation_quality": "dolce, leggermente balsamico, naturale (non sintetico)",
+      "temporal_arc": "il profumo è costante, non diminuisce nel tempo se il cedro rimane al riparo dall'umidità",
+      "psychological_effect": "il lettore riconosce il cedro prima di riconoscere il libro — il profumo arriva alla consapevolezza come annuncio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il profumo trasferisce alle pagine del libro — questo trasferimento non è misurabile, non è controllabile, non è sintetico, ma è permanente"
+      },
+      "glossary_link": ["kehai", "mono_no_aware"]
+    },
+    {
+      "sense": "tatto",
+      "sense_en": "touch",
+      "field": "undici listelli sollevabili singolarmente — il gesto non è funzionale, è ludico",
+      "field_en": "eleven slats that lift individually — the gesture is not functional, it is playful",
+      "concept": "ma",
+      "concept_en": "meaningful empty space",
+      "activation_condition": "manipolazione diretta dei listelli — il gesto di sollevare e abbassare",
+      "intensity": 0.9,
+      "sensation_quality": "legno liscio, caldo al tatto, con una leggera imperfezione nella grana che ricorda la manualità",
+      "temporal_arc": "il gesto si ripete ogni volta che il lettore tocca Bukku — non stancarsi mai di questo gesto perché non è obbligo, è invito",
+      "psychological_effect": "il gesto di regolare i listelli è una conversazione silenziosa con l'oggetto — il lettore scopre che lo spazio intorno al libro può rispondere",
+      "spatial_implication": "i listelli non sono in una posizione fissa — il loro movimento crea uno spazio che non è mai statico",
+      "glossary_link": ["ma"]
+    },
+    {
+      "sense": "spazio",
+      "sense_en": "spatial awareness",
+      "field": "il libro entra, aspetta, poi passa — l'oggetto è una soglia, non una destinazione",
+      "field_en": "the book enters, waits, then passes — the object is a threshold, not a destination",
+      "concept": "tsundoku",
+      "concept_en": "the unread book as presence, not accumulation",
+      "activation_condition": "collocazione consapevole del libro dentro Bukku — ogni giorno che il libro vi rimane",
+      "intensity": 0.85,
+      "spatial_quality": "lo spazio intorno a Bukku diventa lo spazio del libro in attesa — non un ripostiglio, un luogo pubblico e visibile",
+      "temporal_arc": "il libro passa giorni dentro Bukku — ogni giorno il profumo si intensifica, ogni giorno la visibilità si rinforza",
+      "psychological_effect": "il lettore sa dove trovare il libro perché lo vede ogni giorno — l'intenzione non si disperde",
+      "relational_aspect": "Bukku non possiede il libro — lo accoglie temporaneamente, creando uno spazio di attesa consapevole",
+      "glossary_link": ["tsundoku", "ma"]
+    },
+    {
+      "sense": "tempo",
+      "sense_en": "temporal experience",
+      "field": "il tempo tra il comprare e il leggere non è vuoto — è una forma di attenzione",
+      "field_en": "the time between purchase and reading is not empty — it is a form of attention",
+      "concept": "mono_no_aware",
+      "concept_en": "the pathos of transient things",
+      "activation_condition": "presenza del libro non ancora letto dentro Bukku — ogni passaggio davanti all'oggetto rinnova la consapevolezza",
+      "intensity": 1.0,
+      "temporal_quality": "il tempo non è accelerato (leggi il libro subito) né frammentato (perdi il libro nella pila) — è un tempo protetto",
+      "temporal_arc": "il libro entra giovedì, esce domenica — quattro giorni in cui l'intenzione rimane viva",
+      "psychological_effect": "il lettore non si sente colpevole di non aver letto il libro — Bukku trasforma il caos in rituale",
+      "final_moment": "quando il libro viene preso e la lettura inizia, il cedro rimane con profumo nelle pagine — il tempo di attesa non scompare, si trasforma in memoria olfattiva",
+      "glossary_link": ["mono_no_aware", "mottainai"]
+    }
+  ],
+  "integrated_perception": "Bukku non è un singolo senso — è la sovrapposizione di quattro campi percettivi che si rinforzano a vicenda. L'olfatto annuncia, il tatto dialoga, lo spazio accoglie, il tempo protegge. Insieme, questi quattro sensi raccontano la storia della strada che il libro compie dall'acquisto alla lettura.",
+  "reading_act_formation": "Leggere Bukku significa toccare il cedro, annusare la resina, scoprire che il libro ha un luogo, accorgersi che il tempo passa nel modo giusto. La lettura non è un atto cognitivo — è un atto sensoriale e rituale.",
+  "dissolution_note": "Il campo si dissolve quando il libro viene preso e inizia la lettura. Bukku rimane vuoto, pronto per il prossimo libro, il prossimo rito, il prossimo profumo."
+}
