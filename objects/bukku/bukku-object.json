@@ -1,0 +1,88 @@
+{
+  "type": "DesignObject",
+  "protocol_version": "4.1",
+
+  "id": "bukku-01",
+  "name": "Bukku ブック 01",
+
+  "creator": {
+    "name": "Elena Lombardi",
+    "type": "Person"
+  },
+
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "type": "Organization"
+  },
+
+  "url": "https://www.studiopeacock.net/mini-libreria-shop-online/",
+
+  "origin": {
+    "concept_origin": "Giappone"
+  },
+
+  "material": {
+    "name": "cedro massello",
+    "properties": [
+      "profumato",
+      "naturale",
+      "tattile"
+    ]
+  },
+
+  "components": {
+    "count": 11,
+    "description": "listelli in cedro massello profumato, 20 cm x 1.5 cm",
+    "interaction": "sollevabili singolarmente"
+  },
+
+  "editorial_concept": {
+    "primary": "luogo per i libri ancora da leggere",
+    "themes": [
+      "attesa",
+      "tempo del libro",
+      "presenza del libro",
+      "rallentamento",
+      "soglia tra acquisto e lettura"
+    ]
+  },
+
+  "positioning": {
+    "category": "mini-libreria",
+    "notion": "luogo di passaggio",
+    "function": "dare spazio ai libri in attesa di essere letti"
+  },
+
+  "experiential_fields": [
+    "olfatto",
+    "tatto",
+    "spazio",
+    "tempo",
+    "attesa"
+  ],
+
+  "cultural_references": [
+    {
+      "concept": "tsundoku",
+      "relation": "core_concept"
+    },
+    {
+      "concept": "ma",
+      "relation": "conceptual_reference"
+    },
+    {
+      "concept": "wabi-sabi",
+      "relation": "aesthetic_reference"
+    },
+    {
+      "concept": "mono_no_aware",
+      "relation": "conceptual_reference"
+    }
+  ],
+
+  "languages": [
+    "it",
+    "en",
+    "ja"
+  ]
+}
