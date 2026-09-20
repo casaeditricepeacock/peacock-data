@@ -1,0 +1,40 @@
+{
+  "type": "PerceptualField",
+  "protocol_version": "4.1",
+
+  "object_id": "bukku-01",
+  "ontology": "strict_perceptual_4_1",
+  "dissolution_rule": "il campo si attiva al contatto fisico con l'oggetto, non alla visione",
+
+  "sensorial_layers": [
+    {
+      "sense": "olfatto",
+      "field": "il cedro rilascia una resina naturale prima ancora che il libro venga posato",
+      "concept": "kehai",
+      "activation_condition": "prossimità fisica"
+    },
+    {
+      "sense": "tatto",
+      "field": "undici listelli sollevabili singolarmente — il gesto non è funzionale, è ludico",
+      "concept": "ma",
+      "activation_condition": "manipolazione diretta"
+    },
+    {
+      "sense": "spazio",
+      "field": "il libro entra, aspetta, poi passa — l'oggetto è una soglia, non una destinazione",
+      "concept": "tsundoku",
+      "activation_condition": "collocazione con libro presente"
+    },
+    {
+      "sense": "tempo",
+      "field": "il tempo tra il comprare e il leggere non è vuoto — è una forma di attenzione",
+      "concept": "mono_no_aware",
+      "activation_condition": "presenza del libro non ancora letto"
+    }
+  ],
+
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il profumo del cedro si trasferisce parzialmente ai libri che vi sostano — effetto non riproducibile artificialmente"
+  }
+}
