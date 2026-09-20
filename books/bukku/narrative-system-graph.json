@@ -1,0 +1,20 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "system_description": "Bukku è un nodo della strada che ogni libro compie in una casa. Ogni libro Peacock in catalogo, quando viene acquistato e non letto subito, passa per Bukku. Bukku racconta quello che nessun libro dice direttamente: il tempo tra il comprare e il leggere.",
+  "integrations": [
+    {
+      "connects_to": "Qualsiasi libro del catalogo Peacock",
+      "connection_type": "la strada del libro in attesa",
+      "mechanism": "Quando un lettore compra un libro e lo mette in Bukku, quel libro dialoga con il cedro prima di dialogare con il lettore"
+    }
+  ],
+  "meta_function": "Bukku mapifica ciò che i libri non contengono: il prima della lettura."
+}
