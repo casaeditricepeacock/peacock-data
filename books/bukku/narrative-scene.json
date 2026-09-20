@@ -1,0 +1,45 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "note": "Bukku ha una struttura rituale che non richiede scene discrete. La narrativa progredisce attraverso le quattro fasi rituali (narrative-ritual.json) e i quattro campi percettivi (perceptual-field.json). Non ci sono scene nel senso tradizionale — ci è il gesto continuo del lettore che si relaziona con l'oggetto.",
+  "implicit_scenes": [
+    {
+      "implied_scene": 1,
+      "title": "L'arrivo a casa con il libro",
+      "description": "Il lettore ritorna da una libreria, ha il libro in borsa. Entra in casa e decide dove metterlo.",
+      "perceptual_entry": "ancora nessun profumo — il libro è nascosto nella borsa"
+    },
+    {
+      "implied_scene": 2,
+      "title": "Il primo approccio a Bukku",
+      "description": "Il lettore si avvicina a Bukku. Sente il profumo del cedro prima di vederlo chiaramente.",
+      "perceptual_entry": "kehai — il profumo annuncia"
+    },
+    {
+      "implied_scene": 3,
+      "title": "Il posizionamento",
+      "description": "Il lettore solleva i listelli, posiziona il libro, li riposiziona. Il gesto non è rapido.",
+      "perceptual_entry": "ma — il tatto regola lo spazio"
+    },
+    {
+      "implied_scene": 4,
+      "title": "I giorni dell'attesa",
+      "description": "Il libro rimane dentro Bukku. Il lettore passa davanti ogni giorno. Il profumo si intensifica.",
+      "perceptual_entry": "tsundoku — la visibilità protegge l'intenzione"
+    },
+    {
+      "implied_scene": 5,
+      "title": "Il momento della lettura",
+      "description": "Il lettore decide di leggere. Prende il libro da Bukku. Il cedro rimane nel profumo del libro.",
+      "perceptual_entry": "mono no aware — il distacco consapevole"
+    }
+  ],
+  "temporal_structure": "Le scene non hanno ordine cronologico fisso. Ogni libro che entra in Bukku segue questa sequenza, ma il tempo tra le scene varia. Ciò che rimane costante è la progressione percettiva: profumo → tatto → spazio → tempo."
+}
