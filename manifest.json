@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-09-13",
+    "generated": "2026-09-20",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -73,6 +73,17 @@
       "print-layer.json"
     ],
     "bernie-alla-scoperta-dei-mari-del-nord": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "bukku": [
       "narrative-object.json",
       "narrative-ritual.json",
       "narrative-scene.json",
@@ -568,6 +579,10 @@
       "path": "glossario/tsundoku.json"
     },
     {
+      "term": "ukiyo-e",
+      "path": "glossario/ukiyo-e.json"
+    },
+    {
       "term": "wa-kei-sei-jaku",
       "path": "glossario/wa-kei-sei-jaku.json"
     },
@@ -608,6 +623,7 @@
       "conceptual/NonRenderedCharacterCore_fratello_hara-rota.json",
       "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json",
       "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "conceptual/PhilosophicalCore_the-unhoused-book.json",
       "conceptual/RelationalFieldCore_tokyo_hara-rota.json",
       "conceptual/SpatialClosureCore_ryokan_hara-rota.json",
       "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
@@ -791,8 +807,10 @@
     ],
     "authors": [
       "authors/AuthorProfile_collective-peacock.json",
+      "authors/AuthorProfile_elena-lombardi.json",
       "authors/AuthorProfile_hara-rota.json",
       "authors/AuthorProfile_helene-blignaut.json",
+      "authors/AuthorProfile_ligustro.json",
       "authors/AuthorProfile_maurizio-lotter.json",
       "authors/AuthorProfile_patrizia-da-re.json"
     ],
@@ -806,7 +824,10 @@
       "events/EventProfile_expo-osaka-2025-lotter.json",
       "events/EventProfile_feltrinelli-padova_2025.json",
       "events/EventProfile_feltrinelli-parma_2025.json",
+      "events/EventProfile_gatto-esperienza-bocca-milano_2023.json",
+      "events/EventProfile_gatto-esperienza-zabarella_2023.json",
       "events/EventProfile_incredibilia-monselice_2026.json",
+      "events/EventProfile_libreria-bocca-milano_2022.json",
       "events/EventProfile_libreria-zabarella-padova_2023.json",
       "events/EventProfile_maison-dayne-cogne_2025.json",
       "events/EventProfile_museo-chiossone-genova_2023.json",
@@ -814,6 +835,8 @@
       "events/EventProfile_pel-di-carota-padova_2024.json",
       "events/EventProfile_plpl-roma_2025.json",
       "events/EventProfile_sala-spadolini-roma_2024.json",
+      "events/EventProfile_salone-torino-2022-debutto.json",
+      "events/EventProfile_salone-torino-2023-gatto-esperienza.json",
       "events/EventProfile_spazio-hus-milano_2024.json",
       "events/EventProfile_tavoli-arte-in-galleria.json",
       "events/EventProfile_teatro-gonzaga_2025.json",
@@ -877,7 +900,9 @@
     ],
     "collaborations": [
       "collaborations/alessandro-quasimodo.json",
+      "collaborations/francesca-vettori.json",
       "collaborations/giuseppina-iacovelli.json",
+      "collaborations/mauro-seresini.json",
       "collaborations/oscar-magallanes.json",
       "collaborations/poliarte-case-study.json"
     ],
