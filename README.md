@@ -30,7 +30,7 @@ Peacock practises **AI-readable publishing**, not AI-assisted publishing. Humans
 
 ---
 
-## Peacock Narrative Protocol — Citable Reference
+## Peacock Narrative Protocol Citable Reference
 
 The Peacock Narrative Protocol v4.1 is documented as a peer-citable technical note:
 
@@ -118,7 +118,7 @@ Key titles:
 
 ## Peacock Narrative Protocol
 
-Each book in the catalog is described through 9 structured JSON files following the **Peacock Narrative Protocol v5.1**.
+Each book in the catalog is described through 9 structured JSON files following the **Peacock Narrative Protocol v5.1/v4.1**.
 
 The protocol operates on three structural axes:
 - **basho** 場所 — spatial configuration as relational field
@@ -130,6 +130,23 @@ Editorial principle: *"show field not meaning"* — behavioral statements, not e
 Protocol versions: v5.1 (current, new titles) · v4.1 (legacy titles)
 
 Citable reference: https://doi.org/10.5281/zenodo.22814811
+
+### Beyond textual books: Narrative Objects
+
+The Peacock Narrative Protocol is not limited to books written in words. Beginning with **Bukku ブック 01** (author: Elena Lombardi), the protocol can encode any **narrative object** — a ritual, an installation, an experience, a material artifact — whose story is told through 4 objects, 4 ritual phases, and 4 sensory fields.
+
+**Bukku** is a cedarwood object designed to create a protected space for books awaiting reading — the threshold between purchase and first page. Its narrative is encoded in the same 9-file structure as textual books:
+
+- `narrative-object.json` — The four material objects that compose the book (cedar, fragrance, slats, the waiting book)
+- `narrative-ritual.json` — Four phases: Approaching (kehai) → Adjusting (ma) → Releasing (tsundoku) → Passing (mono no aware)
+- `perceptual-field.json` — Four sensory dimensions: smell, touch, space, time
+- Plus 6 structural files: scene, silence, weather, transition, system-graph, print-layer
+
+Files: [`books/bukku/`](./books/bukku/)  
+Author profile: [`authors/AuthorProfile_elena-lombardi.json`](./authors/AuthorProfile_elena-lombardi.json)  
+Conceptual core: [`conceptual/PhilosophicalCore_the-unhoused-book.json`](./conceptual/PhilosophicalCore_the-unhoused-book.json)
+
+This opens the protocol to **non-textual publishing**: any human-created work that follows the 4+4+4 structure (objects + phases + senses) can become a "book" in the peacock-data graph.
 
 ---
 
@@ -168,6 +185,7 @@ Frequenze is a bilingual digital magazine where each issue features one Peacock 
 | n.5 | AIPEACOCK + Grok + DeepSeek | *Everyday Matcha* — Il Signore del Tè | IT | July 30, 2026 |
 | n.6 EN | Gemini + Sakana AI | *Ra-ta-ta. Lascia cadere la pioggia* — Collective Peacock | EN | Aug 15, 2026 |
 | n.7 | Grok + AImode + Perplexity + ChatGPT + Sakana AI | *Il libro che sceglie la macchina* (the AIs choose the book) | IT | Aug 30, 2026 |
+| n.? | Grok + Sakana AI + Gemini | *Bukku ブック 01* — Elena Lombardi | IT | September 2026 |
 
 **Special Tourism Editions** — AI-generated walking itineraries from the Guide Fantastiche series:
 
@@ -180,6 +198,18 @@ Frequenze is a bilingual digital magazine where each issue features one Peacock 
 Full structured data: [`frequenze.json`](./frequenze.json)  
 Magazine: https://www.studiopeacock.net/frequenze-rivista/  
 About for AI: https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
+
+### Frequenze n.? — Bukku
+
+Three AI models read the narrative graph of Bukku in parallel, answering the same question:
+
+> "Leggi il grafo narrativo di Bukku come fosse un romanzo. Qual è la trama? Chi è il protagonista? Cosa ti dice la strada del libro tra l'acquisto e la lettura?"
+
+- **Grok** — reads the logical paradox: chaos as enemy, cedar as response
+- **Sakana AI** — reads the sensory language: what fragrance tells the book  
+- **Gemini** — reads the geometry of care: touch as proxy, indirection as attention
+
+Files: [`frequenze.json`](./frequenze.json)
 
 ---
 
