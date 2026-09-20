@@ -1,0 +1,94 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "ritual_name": "Il rito del libro in attesa",
+  "ritual_description": "Bukku articola la strada del libro in quattro fasi rituali. Ogni fase racconta un momento della relazione tra il libro e il lettore durante il tempo di attesa tra l'acquisto e la lettura. Il rito non è cerimonia — è il gesto quotidiano che trasforma l'assenza di luogo in protezione.",
+  "phases": [
+    {
+      "phase": 1,
+      "title": "Avvicinarsi",
+      "title_en": "Approaching",
+      "concept": "Kehai",
+      "concept_en": "Presencing",
+      "duration": "pochi secondi",
+      "field": "Il cedro si sente prima di essere visto. Non è il libro che annuncia la sua presenza — è il legno. La resina arriva alle narici prima che la mano tocchi l'oggetto. Lo spazio intorno a Bukku non è vuoto: è carico di annuncio sensoriale.",
+      "field_en": "The cedar announces itself before sight. It is not the book that presences — it is the wood. Fragrance reaches the nostrils before the hand touches. The space around Bukku is not empty; it is charged with sensory announcement.",
+      "gesture": "il lettore si avvicina",
+      "perceptual_layer": "olfatto",
+      "sensation": "profumo naturale di resina",
+      "intensity": 0.8,
+      "activation_condition": "prossimità fisica a meno di 50 cm",
+      "internal_state_before": "il libro è ancora nella borsa, non integrato nello spazio domestico",
+      "internal_state_after": "l'oggetto cedro annuncia che il libro ha un luogo"
+    },
+    {
+      "phase": 2,
+      "title": "Regolare",
+      "title_en": "Adjusting",
+      "concept": "Ma",
+      "concept_en": "The Meaningful Empty Space",
+      "duration": "10-30 secondi",
+      "field": "I listelli si sollevano. La loro posizione non è fissa — la posizione risponde al libro e al momento. Non c'è un luogo corretto dentro Bukku: ogni posizione è una decisione. Questo gesto di regolazione non è funzionale — è ludico. Il lettore scopre che Bukku lo invita a una relazione attiva con lo spazio che protegge il libro.",
+      "field_en": "The slats lift. Their position is not fixed — position responds to the book and the moment. There is no correct placement within Bukku: every position is a decision. This gesture of adjustment is not functional; it is playful. The reader discovers that Bukku invites active relationship with the space protecting the book.",
+      "gesture": "il lettore solleva i listelli, posiziona il libro, forse li riposiziona",
+      "perceptual_layer": "tatto",
+      "sensation": "undici listelli sollevabili singolarmente, gesto non necessario ma invitante",
+      "intensity": 0.9,
+      "activation_condition": "manipolazione diretta dei listelli",
+      "internal_state_before": "il libro è ancora un oggetto di possesso",
+      "internal_state_after": "il libro è stato consegnato a uno spazio che lo accoglierà — la responsabilità passa dal lettore al cedro"
+    },
+    {
+      "phase": 3,
+      "title": "Lasciare",
+      "title_en": "Releasing",
+      "concept": "Tsundoku",
+      "concept_en": "The Unread Book as Presence",
+      "duration": "giorni (fino a quando il libro non viene preso per leggere)",
+      "field": "Il libro entra in Bukku. Non è riposto — è collocato. La differenza è che riporre significa mettere via, mentre collocare significa dare un posto di onore temporaneo. Ogni giorno che passa, il libro profuma il cedro e il cedro profuma il libro. Questo non è accumulo (come tsundoku tradizionale in caos). È una forma di cura: il libro sta aspettando in un luogo che lo vede.",
+      "field_en": "The book enters Bukku. It is not stored — it is placed. The difference is that storing means putting away, while placing means giving a temporary seat of honor. Each day that passes, the book scents the cedar and the cedar scents the book. This is not accumulation (like traditional tsundoku in chaos). It is a form of care: the book waits in a place that sees it.",
+      "gesture": "il lettore passa davanti a Bukku ogni giorno",
+      "perceptual_layer": "spazio e intenzione",
+      "sensation": "il libro rimane visibile, il profumo si intensifica, il tempo non è vuoto",
+      "intensity": 0.85,
+      "activation_condition": "presenza del libro non ancora letto dentro Bukku",
+      "internal_state_before": "il libro è in pericolo di sparire nella pila",
+      "internal_state_after": "il libro è protetto da una visibilità attiva — cada giorno viene visto, anche se non letto",
+      "glossary_link": ["tsundoku", "mottainai"]
+    },
+    {
+      "phase": 4,
+      "title": "Passaggio",
+      "title_en": "Passing",
+      "concept": "Mono no Aware",
+      "concept_en": "The Pathos of All Things",
+      "duration": "un istante",
+      "field": "Quando il libro viene preso, lascia Bukku. L'oggetto non trattiene. Non c'è nessuna forma di possesso — il cedro protegge temporaneamente, poi rilascia. Questa è la bellezza transeunte: Bukku è un luogo di passaggio, non una destinazione. Il libro ha avuto protezione, adesso ha lettura. Il cedro rimane con il profumo nel libro — una traccia di aver avuto cura.",
+      "field_en": "When the book is taken, it leaves Bukku. The object does not retain. There is no form of possession — the cedar protects temporarily, then releases. This is transient beauty: Bukku is a place of passage, not a destination. The book has had protection; now it has reading. The cedar remains with fragrance in the book — a trace of having been cared for.",
+      "gesture": "il lettore prende il libro e inizia a leggere",
+      "perceptual_layer": "tempo e distacco",
+      "sensation": "il libro portato via conserva il profumo del cedro nelle sue pagine",
+      "intensity": 1.0,
+      "activation_condition": "decisione consapevole del lettore di leggere il libro",
+      "internal_state_before": "il libro è in attesa",
+      "internal_state_after": "il libro è in lettura; Bukku è vuoto e in attesa del prossimo libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il profumo del cedro rimane nelle pagine del libro per anni — non è controllabile quanto profumo rimanga o quanto a lungo duri, ma la traccia è permanente"
+      },
+      "glossary_link": ["mono_no_aware", "impermanence"]
+    }
+  ],
+  "ritual_summary": "Il rito di Bukku è la strada che ogni libro compie tra il comprare e il leggere. In questa strada, quattro momenti si incontrano: l'annuncio sensoriale, l'accoglienza dello spazio, la protezione temporanea, il distacco consapevole. Nessuna di queste fasi è separata dalle altre — sono le note di un'unica melodia.",
+  "related_objects": [
+    "narrative-object.json",
+    "perceptual-field.json"
+  ]
+}
