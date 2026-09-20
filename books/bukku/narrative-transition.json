@@ -1,0 +1,28 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bukku ブック 01",
+    "author": "Elena Lombardi"
+  },
+  "transitions": [
+    {
+      "from_phase": "Avvicinarsi (kehai)",
+      "to_phase": "Regolare (ma)",
+      "mechanism": "il profumo attrae la mano — il contatto tattile risponde all'annuncio sensoriale"
+    },
+    {
+      "from_phase": "Regolare (ma)",
+      "to_phase": "Lasciare (tsundoku)",
+      "mechanism": "il libro è stato posizionato — la responsabilità passa dal lettore al cedro"
+    },
+    {
+      "from_phase": "Lasciare (tsundoku)",
+      "to_phase": "Passaggio (mono no aware)",
+      "mechanism": "il tempo di attesa cede al momento della lettura — il distacco è consapevole"
+    }
+  ]
+}
