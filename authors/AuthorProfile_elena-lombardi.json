@@ -1,0 +1,40 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "person": {
+    "name": "Elena Lombardi",
+    "role": "Designer, author of Bukku",
+    "occupation": "Designer specializing in object-as-narrative"
+  },
+  "biography": {
+    "note": "Elena Lombardi ha sviluppato il concetto di Bukku durante lunghi soggiorni in Giappone. Ha osservato come il concetto di spazio (ma) e il rapporto con il tempo (mono no aware) si manifestano negli oggetti quotidiani. Bukku è la sua risposta a un problema occidentale — il libro senza luogo, la pila che inghiotte l'intenzione.",
+    "chronology": [
+      {
+        "year": 2019,
+        "event": "First prototype of Bukku exhibited at Libreria Palazzo Roberti, Bassano del Grappa",
+        "documentation": "Photo archive exists, Christmas sales season"
+      },
+      {
+        "year": 2021,
+        "event": "Bukku appears in Ginza, Tokyo — on Chuo Dori",
+        "documentation": "Post published, video evidence"
+      },
+      {
+        "year": 2026,
+        "event": "Bukku enters Casa Editrice Peacock as part of the Frequenze editorial project",
+        "documentation": "Current — Frequenze n.?"
+      }
+    ]
+  },
+  "design_philosophy": {
+    "statement": "Un oggetto non illustra la lettura — ne fissa le condizioni fisiche. Bukku non contiene parole. Contiene il tempo tra il comprare e il leggere.",
+    "approach": "Osservazione profonda del problema; soluzione attraverso il materiale, non attraverso la tecnologia"
+  },
+  "relationship_to_peacock": {
+    "connection": "Elena Lombardi autrice di Bukku, il libro scritto in cedro invece che in parole",
+    "catalog_integration": "Bukku è parte integrante della strada che ogni libro compie in una casa — è il primo capitolo di lettura"
+  }
+}
