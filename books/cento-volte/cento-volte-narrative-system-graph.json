@@ -1,0 +1,285 @@
+{
+  "type": "narrative_system_graph",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "metadata": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea (pen name: Locanda Nakamura for visual art)",
+    "language": "Italian",
+    "genre": "coming-of-age narrative",
+    "protagonist": "Miyazaki Kairi",
+    "protagonist_age_range": "12-15, subject to final chronological verification",
+    "setting_primary": "Hirosaki, Aomori Prefecture, Tohoku, Japan",
+    "temporal_span": "1999-2001, subject to final timeline verification",
+    "narrative_mode": "fragmentary prose; POV/person specification to be verified against final text",
+    "dialogue_percentage": "approximately 12-15%, if confirmed by textual measurement",
+    "tone": "contemplative, sensory-precise, melancholic with resilience",
+    "protocol_alignment": "Peacock Protocol v4.1"
+  },
+  "core_graph_structure": {
+    "nodes_count": 47,
+    "edges_count": 156,
+    "graph_density": 0.14,
+    "graph_statistics_status": "verify against generated graph before commit",
+    "central_hub": "Kairi",
+    "secondary_hubs": [
+      "Atsuo",
+      "Yuki",
+      "Anna",
+      "Monte Iwaki",
+      "Hirosaki"
+    ],
+    "node_types": {
+      "character_nodes": 10,
+      "location_nodes": 8,
+      "object_nodes": 9,
+      "concept_nodes": 12,
+      "temporal_nodes": 8
+    }
+  },
+  "character_node_network": {
+    "Kairi": {
+      "role": "protagonist, perceptual anchor",
+      "relationships": [
+        "Atsuo (father) — loyalty, care, emotional anchor",
+        "Anna (friend) — reciprocal attachment and non-sexual intimacy",
+        "Reira (mother) — rupture, abandonment, unresolved separation",
+        "Yuki (maternal friend) — acceptance, creative transmission",
+        "Ryuji (romantic interest) — epistolary attraction and distance",
+        "Monte Iwaki (mountain) — perceived spiritual teacher and non-human mentor",
+        "Kissaten Miyazaki (space) — identity origin and paternal sanctuary"
+      ],
+      "psychological_arc": "autonomy emerging through loss and changing relationships",
+      "growth_vector": "isolation → affiliation → increasing self-reliance"
+    },
+    "Atsuo": {
+      "role": "father, major emotional anchor",
+      "character_significance": "betrayed partner and devoted parent",
+      "narrative_function": "provides care, protection, and a model of paternal presence",
+      "key_scenes": [
+        "mountain ascent",
+        "parental separation",
+        "post-separation adaptation"
+      ]
+    },
+    "Anna": {
+      "role": "best friend, mirror-self, central relational anchor",
+      "hāfu_identity": "hāfu character with Italian-Japanese family background",
+      "narrative_function": "friendship provides recognition, belonging, and a shared experience of difference",
+      "key_scenes": [
+        "first meeting",
+        "sugar cube pact",
+        "friendship crisis and reconciliation"
+      ]
+    },
+    "Yuki": {
+      "role": "maternal friend, creative mentor",
+      "narrative_function": "provides an alternative form of maternal care and creative transmission",
+      "cultural_bridge": "transmits origami practice and embodied knowledge",
+      "key_scenes": [
+        "origami lessons",
+        "everyday care",
+        "maternal-without-biological-kinship"
+      ]
+    },
+    "Reira": {
+      "role": "absent parental figure, catalyst for family rupture",
+      "narrative_treatment": "presented as a complex adult whose choices have consequences without reducing her to a single moral category",
+      "consequence": "her disappearance contributes to Kairi's increasing self-reliance",
+      "ontological_status": "absent, unresolved, and largely inaccessible to Kairi"
+    },
+    "Ryuji": {
+      "role": "romantic awakening, epistolary other",
+      "narrative_significance": "embodied adolescent attraction mediated by distance",
+      "connection_mode": "primarily letters rather than sustained direct interaction",
+      "key_moment": "brief hand contact in ocean water"
+    }
+  },
+  "location_node_network": {
+    "Hirosaki": {
+      "ontological_weight": "primary setting with strong character-like narrative presence",
+      "characteristics": [
+        "quiet",
+        "snow-heavy",
+        "small-town intimacy",
+        "northern isolation"
+      ],
+      "emotional_resonance": "constancy, familiarity, and environmental containment",
+      "relationship_to_kairi": "experienced as protective and enclosing"
+    },
+    "Monte Iwaki": {
+      "ontological_weight": "perceived spiritual teacher and non-human mentor",
+      "characteristics": [
+        "volcanic cone",
+        "snow-capped",
+        "protective presence",
+        "distant visual anchor"
+      ],
+      "narrative_function": "models perspective, permanence, and wisdom through silence",
+      "ascent_significance": "recurring perspective-reset ritual"
+    },
+    "Kissaten Miyazaki": {
+      "ontological_weight": "paternal domain, sanctuary, identity-origin",
+      "characteristics": [
+        "warm",
+        "coffee-scented",
+        "Italian-Japanese culinary hybrid",
+        "daily return point"
+      ],
+      "narrative_function": "embodies Atsuo's practices of hospitality, attention, and care"
+    },
+    "Ajigasawa": {
+      "ontological_weight": "escape-space, romantic threshold, family-linked coastal space",
+      "characteristics": [
+        "coastal",
+        "oceanic",
+        "summer setting",
+        "relative freedom from ordinary routines"
+      ],
+      "narrative_function": "displacement creates conditions for adolescent emotional and romantic change"
+    }
+  },
+  "concept_node_network": {
+    "Repetition (Cento volte)": {
+      "semantic_scope": "recurring events and environments return with altered emotional meaning",
+      "instances": [
+        "seasons return",
+        "rituals repeat with variation",
+        "relationships persist, change, or disappear"
+      ],
+      "interpretive_framework": [
+        "impermanence",
+        "cyclical return",
+        "change through repetition"
+      ]
+    },
+    "Silence": {
+      "semantic_scope": "non-speech as communication, processing space, environmental condition, and resistance",
+      "instances": [
+        "geographic quiet",
+        "communicative silence",
+        "rupture silence",
+        "seasonal hush"
+      ],
+      "narrative_function": "directs attention toward omission, gesture, and what remains unspoken"
+    },
+    "Chosen Family": {
+      "semantic_scope": "affiliative bonds that supplement or replace disrupted family structures",
+      "instances": [
+        "Kairi-Atsuo household after separation",
+        "Yuki's maternal presence",
+        "Anna as central friendship bond"
+      ],
+      "narrative_function": "explores how care and belonging can emerge through relationships of affinity"
+    },
+    "Autonomy": {
+      "semantic_scope": "self-governance emerging through changing family circumstances",
+      "instances": [
+        "household management after separation",
+        "economic contribution through kissaten work",
+        "identity differentiation from Reira"
+      ],
+      "growth_arc": "from dependence toward increasing participation in household and personal decisions"
+    },
+    "Hybridity": {
+      "semantic_scope": "intersections among cultures, languages, foodways, and aesthetic systems",
+      "instances": [
+        "Italian-Japanese family and culinary references",
+        "apple pie as a recurring cultural object",
+        "hāfu identity"
+      ],
+      "cultural_significance": "difference is represented as a lived condition rather than a simple deficit"
+    }
+  },
+  "temporal_node_network": {
+    "Year 1": {
+      "period": "1999-2000",
+      "key_events": [
+        "Anna's arrival",
+        "sugar cube pact",
+        "New Year's temple visit",
+        "first winter cycle"
+      ],
+      "emotional_register": "wonder, belonging, early identity formation"
+    },
+    "Year 2": {
+      "period": "2000",
+      "key_events": [
+        "photograph discovery",
+        "parental separation",
+        "Ajigasawa summer",
+        "Ryuji encounter"
+      ],
+      "emotional_register": "rupture, loss, awakening, adaptation"
+    },
+    "Year 3": {
+      "period": "2001",
+      "key_events": [
+        "post-separation adaptation",
+        "household autonomy",
+        "later seasonal cycle"
+      ],
+      "emotional_register": "integration, acceptance, increasing self-reliance"
+    },
+    "timeline_status": "chronology must be reconciled with scene-level temporal placements before commit"
+  },
+  "narrative_layers": {
+    "layer_1_surface": "daily life, school, family routines, places, and recurring activities",
+    "layer_2_emotional": "internal states, sensory processing, attachment, loss, and changing relationships",
+    "layer_3_mythic": "mountain and seasons as perceived symbolic or quasi-mythic structures",
+    "layer_4_philosophical": "impermanence, autonomy, affiliation, repetition, and gratitude",
+    "layer_5_metanarrative": "the role of narrative and reader interpretation in constructing meaning"
+  },
+  "interconnection_examples": [
+    {
+      "connection": "Anna-Kairi friendship ↔ sugar cube ritual ↔ Kissaten Miyazaki ↔ Atsuo's witnessing",
+      "significance": "friendship becomes anchored in place, ritual, taste-memory, and paternal recognition"
+    },
+    {
+      "connection": "seasonal cycles ↔ repetition motif ↔ Kairi's changing perception",
+      "significance": "recurring environments acquire different meanings as Kairi changes"
+    },
+    {
+      "connection": "Reira's absence ↔ Yuki's presence ↔ affiliative family formation",
+      "significance": "family rupture creates new relational configurations"
+    },
+    {
+      "connection": "Monte Iwaki ↔ Atsuo ↔ mountain ascents ↔ perspective transmission",
+      "significance": "shared landscape functions as a medium for non-verbal teaching"
+    }
+  ],
+  "graph_query_interface": {
+    "reader_questions_enabled": true,
+    "example_queries": [
+      "Who is Anna? (returns: character node + relationships + scenes)",
+      "What does Monte Iwaki symbolize? (returns: location node + perceptual significance + ascent rituals)",
+      "Why did Kairi's parents separate? (returns: transition node + documented causality chain + emotional impact)",
+      "What is the repetition motif? (returns: concept node + narrative instances + interpretive framework)"
+    ],
+    "response_mode": "multi-layered, integrating all validated narrative JSON structures"
+  },
+  "peacock_protocol_alignment": {
+    "v4_1_compliance": "to be validated against repository schema",
+    "show_not_tell": "sensory and scene-level evidence is prioritized over exposition",
+    "silence_as_language": "silence and non-verbal communication are represented as recurring narrative structures",
+    "perceptual_field_centered": "Kairi's sensory processing functions as a major organizing layer",
+    "no_ornamental_description": "descriptive details are linked to perceptual, relational, or narrative functions",
+    "reader_as_meaning_maker": "silences and gaps permit interpretive participation",
+    "em_dash_prohibition": "editorial constraint, if required by Protocol v4.1"
+  },
+  "book_node_status": "draft; ready for final cross-file validation before GitHub integration",
+  "file_count_generated": "TBD; verify against repository",
+  "integration_checklist": [
+    "☐ Validate all narrative JSON files against Protocol v4.1 schema",
+    "☐ Reconcile scene, transition, ritual, weather, silence, object, and perceptual timelines",
+    "☐ Verify graph node and edge counts from generated data",
+    "☐ Push validated JSON files to GitHub repo",
+    "☐ Update catalog.json with the Cento volte entry and current catalog count",
+    "☐ Update glossary-index.json with validated Japanese terms",
+    "☐ Create cross-book connection edges where documented",
+    "☐ Deploy interactive query interface after graph validation",
+    "☐ Generate QR code for back cover only after destination URL is finalized",
+    "☐ Publish landing page after author, editorial, and metadata fields are finalized"
+  ]
+}
