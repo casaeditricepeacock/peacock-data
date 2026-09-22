@@ -1,0 +1,121 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Gli oggetti di Cento volte sono soglie tra due tempi: quello dell'infanzia a Hirosaki e quello adulto che la scopre alterata. Ogni oggetto porta dentro di sé sia la sua funzione originaria sia il segno di un ritorno che non è mai identico.",
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "il Monte Iwaki",
+      "label_en": "mount_iwaki",
+      "intensity": 0.95,
+      "basho": "il vulcano solitario che sovrasta Hirosaki, cono perfetto e innevato, è il dio a cui Kairi bambina rivolge le proprie urgenze invece che al Dio convenzionale",
+      "kokyu": "tempo dell'invocazione: solo nei momenti importanti, mai per cose da poco",
+      "yūgen": "la montagna emana un'energia magnetica che la bambina non sa spiegare ma sente",
+      "affects": {
+        "object-02": "la protezione percepita dal monte si riflette nel calore del kissaten paterno"
+      },
+      "textual_anchor_it": "Invece che nel Dio convenzionale, credevo nel Dio delle montagne per la presenza del Monte Iwaki, un vulcano solitario e maestoso dal cono perfetto e innevato.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "il kissaten del padre",
+      "label_en": "fathers_kissaten",
+      "intensity": 0.9,
+      "basho": "il locale di Atsuo in centro a Hirosaki, rinomato per l'Apple pie, è lo spazio dove Kairi bambina si sente vista e ascoltata",
+      "kokyu": "tempo del pomeriggio: la fetta di torta, il tè caldo, le gambe che dondolano dallo sgabello",
+      "yūgen": "nel kissaten l'ascolto del padre crea, secondo la voce narrante, un miracolo silenzioso",
+      "affects": {
+        "object-01": "lo stesso calore che il monte promette da lontano, il padre lo offre da vicino"
+      },
+      "textual_anchor_it": "Papà mi ascoltava. E un genitore che ascolta veramente le parole del figlio, lo legge in fondo al cuore e annuisce, crea un miracolo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "la neve dell'infanzia",
+      "label_en": "childhood_snow",
+      "intensity": 1.0,
+      "basho": "la neve di Hirosaki, bianca e compatta, coincide per Kairi con l'infanzia stessa; calpestata e diventata grigia, è un insulto alla bellezza",
+      "kokyu": "doppio tempo: la caduta candida e la macchia grigia che segue il passaggio",
+      "yūgen": "la neve dona innocenza ai luoghi e alle persone finché resta intatta",
+      "affects": {
+        "object-01": "la stessa neve che veste il cono del Monte Iwaki scende anche sulla città"
+      },
+      "textual_anchor_it": "L'infanzia, per me, corrisponde alla neve. Ah, quanta ne cadeva. Era così bianca, lucente, compatta, un tappeto lattescente che donava innocenza a luoghi e persone.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware",
+        "wabi-sabi"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "la zolletta di zucchero",
+      "label_en": "sugar_cube",
+      "intensity": 0.92,
+      "basho": "la zolletta morsa insieme da Kairi e Anna sigilla un patto di amicizia, un rito privato inventato dalle due bambine",
+      "kokyu": "tempo dell'istante condiviso: due morsi simultanei, due sguardi che si incrociano",
+      "yūgen": "il gesto vale più delle parole della promessa che lo precede",
+      "affects": {
+        "object-05": "lo stesso gesto di cura si ritroverà, anni dopo, negli origami di Yuki"
+      },
+      "textual_anchor_it": "Bene Anna, ora mordiamo una zolletta, fa parte del rito. E sgranocchiammo divertite guardandoci con occhi luccicanti di gioia.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "gli origami di Yuki",
+      "label_en": "yukis_origami",
+      "intensity": 0.85,
+      "basho": "almeno cento origami pendono dal soffitto della camera di Anna, opera di sua madre Yuki: un'arte che Kairi chiede di imparare",
+      "kokyu": "tempo del pomeriggio dedicato, ripetuto: Kairi torna a lezione da Yuki",
+      "yūgen": "dietro la richiesta di imparare c'è il desiderio silenzioso di alleviare la solitudine di Yuki",
+      "affects": {
+        "object-04": "il gesto di cura tra Kairi e Anna si estende ora a Yuki"
+      },
+      "textual_anchor_it": "In cameretta tua ci sono un sacco di origami che pendono dal soffitto, dissi, almeno cento. È mia madre. È la sua passione. Quando li fa sorride sempre.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "object-06",
+      "label": "la fotografia Cerbiatta",
+      "label_en": "cerbiatta_photograph",
+      "intensity": 1.0,
+      "basho": "una fotografia di Reira in un bosco, ritrovata da Atsuo, porta sul retro una scritta non sua: Cerbiatta, un nome che apre un mondo parallelo alla madre che Kairi conosce",
+      "kokyu": "tempo della scoperta: un istante che divide il prima e il dopo della famiglia",
+      "yūgen": "la stessa donna, due nomi, due mondi che non si parlano tra loro",
+      "affects": {
+        "object-02": "il calore del kissaten viene incrinato dal freddo di questa scoperta"
+      },
+      "textual_anchor_it": "Girò la stampa e lesse Cerbiatta. Non riconobbe la sua grafia e infilzò mia madre con lo sguardo. Non ti ho scattato io queste foto.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    }
+  ]
+}
