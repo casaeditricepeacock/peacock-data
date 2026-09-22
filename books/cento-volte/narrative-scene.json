@@ -1,0 +1,171 @@
+{
+  "type": "narrative_scene",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "canonical_scenes": [
+    {
+      "scene_id": "001_anna_arrival",
+      "title": "Anna at the Window (First Meeting)",
+      "temporal_placement": "Year 1, early autumn 1999",
+      "setting": "Romano house garden, adjacent to Miyazaki residence",
+      "key_participants": ["Kairi", "Anna", "Yuki (in background)"],
+      "scene_objective": "establish Kairi-Anna dyad, introduce hāfu difference, signal narrative pivot",
+      "perceptual_dominance": "sight, including Kairi's attention to Anna's hāfu appearance and facial features; touch through hand-holding initiation",
+      "dialogue_minimal": true,
+      "emotional_valence": "recognition + wonder + instant belonging",
+      "lasting_consequence": "Anna becomes a life-defining emotional anchor; subsequent scenes reference or develop this relationship"
+    },
+    {
+      "scene_id": "002_kissaten_oath",
+      "title": "Sugar Cube Pact at Miyazaki Kissaten",
+      "temporal_placement": "Year 1, late autumn 1999",
+      "setting": "Kissaten Miyazaki interior, father's domain, afternoon light",
+      "key_participants": ["Kairi", "Anna", "Atsuo (observing)"],
+      "ritual_component": true,
+      "scene_objective": "ritualize friendship, embed loyalty in taste-memory, establish kissaten as sanctuary",
+      "key_dialogue": [
+        "Kairi: 'Giuriamo insieme'",
+        "Anna: 'Con cosa?'",
+        "Kairi: 'Con lo zucchero. Niente è più dolce di questa amicizia'"
+      ],
+      "performative_sequence": "both bite sugar cube simultaneously, eyes locked",
+      "emotional_anchor": "non-reversible covenant",
+      "visual_proof": "Atsuo's smile as paternal recognition of the friendship"
+    },
+    {
+      "scene_id": "003_winter_igloo",
+      "title": "Igloo Construction — Collective Labor",
+      "temporal_placement": "Years 1-3, recurring January-February",
+      "setting": "field margins at Hirosaki edge, snow-covered",
+      "key_participants": ["Kairi", "Anna", "friend group", "snowfall"],
+      "scene_objective": "anchor friendship in physical collaboration, show resilience through play",
+      "sensory_register": [
+        "touch: cold snow compacting in hands, ice texture",
+        "sight: white dome emerging from white field",
+        "sound: footsteps crunching, children's laughter",
+        "smell: cold pre-snow air and wind-carried forest scents"
+      ],
+      "recurrence_significance": "repeated across three winters; the activity returns while participants and emotional context change"
+    },
+    {
+      "scene_id": "004_atsuo_mountain_ascent",
+      "title": "Father & Daughter Pilgrimage to Monte Iwaki",
+      "temporal_placement": "Years 1-3, recurring spring/autumn",
+      "setting": "foothills of Monte Iwaki, elevation gain, silence-heavy",
+      "key_participants": ["Kairi", "Atsuo"],
+      "scene_objective": "process emerging paternal strain, anchor Kairi in mountain-wisdom, establish non-verbal bonding",
+      "dialogue_minimal": true,
+      "key_moment": "Atsuo points toward Hirosaki below and says: 'Bisogna prendere le cose alla giusta distanza'",
+      "perceptual_anchor": "silence + vista + shared breath",
+      "emotional_valence": "melancholy + wisdom + acceptance"
+    },
+    {
+      "scene_id": "005_photograph_discovery",
+      "title": "Reira's Drawer — The 'Cerbiatta' Photograph",
+      "temporal_placement": "Year 2, late summer 2000",
+      "setting": "Miyazaki family bedroom, afternoon, Kairi searching for sewing supplies",
+      "key_participants": ["Kairi", "photograph", "Reira (absent)"],
+      "scene_objective": "rupture childhood trust, reveal maternal secret, trigger family dissolution cascade",
+      "perceptual_dominance": "sight (photograph detail), smell (perfume associated with envelope), emotion (shock-rage)",
+      "photograph_detail": "Reira in forest, nude or semi-nude, face radiant rather than presented through maternal domestic identity, signed 'Cerbiatta' in lover's handwriting",
+      "psychological_aftermath": "Kairi's realization: 'Non sono come mia madre'",
+      "consequence_cascade": "leads to confrontation, separation, Atsuo's departure, and Reira's disappearance"
+    },
+    {
+      "scene_id": "006_parental_confrontation",
+      "title": "Atsuo Learns the Truth — Family Rupture",
+      "temporal_placement": "Year 2, late summer 2000",
+      "setting": "Miyazaki home, evening, atmosphere tense",
+      "key_participants": ["Kairi", "Atsuo", "Reira"],
+      "scene_objective": "collapse nuclear family, establish Kairi-Atsuo household, set Reira as absent force",
+      "confrontation_sequence": [
+        "Kairi shows photograph to Atsuo",
+        "Atsuo reacts with shock, recognition, and anger",
+        "Atsuo: 'So this is who you've become'",
+        "Reira returns unexpectedly, sees photograph, and understands",
+        "Reira reacts with anger and grabs Kairi's arm",
+        "Atsuo intervenes: 'Non toccare mia figlia!'",
+        "Physical separation; Atsuo takes Kairi's hand and they leave"
+      ],
+      "dialogue_sparse_but_explosive": true,
+      "emotional_aftermath": "relief + abandonment confusion; Reira disappears overnight"
+    },
+    {
+      "scene_id": "007_ajigasawa_summer",
+      "title": "Vacation at Grandparents' House — Ryuji Encounter",
+      "temporal_placement": "Year 2, summer 2000 (post-separation)",
+      "setting": "Ajigasawa, coastal village, ocean-side grandparent home",
+      "key_participants": ["Kairi", "Atsuo", "grandparents", "Ryuji"],
+      "scene_objective": "adolescent romantic awakening, oceanic symbolism, freedom in displacement",
+      "sensory_register": [
+        "taste: salt spray, fresh seaweed soup",
+        "sight: Monte Iwaki haze-distant, ocean vastness",
+        "touch: cold ocean water, Ryuji's hand-contact in water",
+        "smell: Japan Sea salt, summer humidity"
+      ],
+      "key_moment": "Kairi and Ryuji swim together; their hands briefly touch underwater without words",
+      "emotional_trigger": "first embodied attraction",
+      "consequence": "letter-writing correspondence begins; relationship remains primarily epistolary"
+    },
+    {
+      "scene_id": "008_yuki_origami_lesson",
+      "title": "Yuki Teaching Origami — Maternal Transmission",
+      "temporal_placement": "Years 2-3, recurring afternoon sessions",
+      "setting": "Romano living room, north light",
+      "key_participants": ["Yuki", "Kairi", "Anna (sometimes)"],
+      "scene_objective": "establish Yuki as an alternative maternal figure, anchor Kairi in creative discipline",
+      "ritual_elements": [
+        "Yuki demonstrates hand positions",
+        "Kairi struggles with paper crease angles",
+        "Yuki does not criticize and offers comfort: 'You can sit like me'",
+        "Kairi's first successful objects: cat and dog, imperfect but celebrated"
+      ],
+      "dialogue_minimal": true,
+      "emotional_valence": "belonging through creative practice, non-verbal transmission",
+      "significance": "Yuki's hands communicate what words cannot"
+    },
+    {
+      "scene_id": "009_temple_nye_2000",
+      "title": "New Year's Eve at Temple — Y2K Crossing",
+      "temporal_placement": "31 December 1999 → 1 January 2000",
+      "setting": "Japanese temple, both families present",
+      "key_participants": ["Kairi", "Anna", "Atsuo", "Yuki", "Nanami", "temple clergy"],
+      "scene_objective": "mark century threshold, reinforce friendship ritual, embed Kairi in a communal spiritual practice",
+      "ritual_components": [
+        "108 bell chimes associated with the 108 bonnō",
+        "silent prayer during tolling",
+        "amazake consumption",
+        "purchase of matching amulets"
+      ],
+      "dialogue": "minimal, mostly internal reflection",
+      "sensory_anchor": "sound (bell-toll), taste (amazake), sight (amulet exchange)",
+      "significance": "Y2K crossing functions as a temporal threshold between childhood and adolescence"
+    }
+  ],
+  "scene_distribution": {
+    "year_1": [
+      "001_anna_arrival",
+      "002_kissaten_oath",
+      "003_winter_igloo",
+      "004_atsuo_mountain_ascent",
+      "009_temple_nye_2000"
+    ],
+    "year_2": [
+      "003_winter_igloo",
+      "004_atsuo_mountain_ascent",
+      "005_photograph_discovery",
+      "006_parental_confrontation",
+      "007_ajigasawa_summer",
+      "008_yuki_origami_lesson"
+    ],
+    "year_3": [
+      "003_winter_igloo",
+      "004_atsuo_mountain_ascent",
+      "008_yuki_origami_lesson"
+    ],
+    "total_canonical_scenes": 9,
+    "note": "Recurring scenes may belong to multiple years; distribution counts scene-year occurrences rather than unique scenes."
+  },
+  "scene_function_in_protocol": "Each canonical scene functions as a graph node; reader interrogation of a scene can trigger related perceptual-field, ritual, transition, object, and weather data"
+}
