@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Il clima di Cento volte alterna due regimi netti: l'inverno di Hirosaki, bianco e protettivo, e l'estate al mare, dove nascono i primi turbamenti. Il romanzo respira tra questi due poli stagionali.",
+  "weather_fields": [
+    {
+      "id": "weather-00",
+      "label": "zona_neutra",
+      "intensity": 0.0,
+      "basho": "assenza di regime atmosferico dominante",
+      "kokyu": "tempo non inizializzato",
+      "yūgen": "nessuna percezione emergente"
+    },
+    {
+      "id": "weather-01",
+      "label": "inverno_di_hirosaki",
+      "intensity": 1.0,
+      "basho": "la neve compatta e candida che ricopre Hirosaki, il Monte Iwaki innevato, i corvi neri contro il cielo bianco",
+      "kokyu": "tempo lento e protetto, scandito dal gioco e dal calore del kissaten",
+      "yūgen": "l'inverno coincide con l'infanzia stessa, prima che qualcosa la incrini"
+    },
+    {
+      "id": "weather-02",
+      "label": "estate_al_mare",
+      "intensity": 0.75,
+      "basho": "le vacanze estive in famiglia, il ritrovo con Ryuji, un caldo diverso da quello domestico del kissaten",
+      "kokyu": "tempo dilatato delle vacanze, più fisico e meno protetto dell'inverno",
+      "yūgen": "nell'estate nasce un turbamento che l'inverno non conosceva"
+    },
+    {
+      "id": "weather-03",
+      "label": "gelo_della_scoperta",
+      "intensity": 0.9,
+      "basho": "il momento in cui la fotografia Cerbiatta viene letta introduce un freddo diverso da quello della neve: un gelo emotivo, interno alla casa",
+      "kokyu": "tempo che si arresta nell'istante della lettura del nome sconosciuto",
+      "yūgen": "il gelo non viene mai sciolto nel racconto, resta sospeso"
+    }
+  ]
+}
