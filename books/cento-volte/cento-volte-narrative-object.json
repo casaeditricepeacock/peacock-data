@@ -1,0 +1,90 @@
+{
+  "type": "narrative_object",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "title": "Cento volte",
+  "author": "Aika Avonlea",
+  "publisher": "Casa Editrice Peacock",
+  "publication_year": 2026,
+  "setting": {
+    "place": "Hirosaki",
+    "prefecture": "Aomori",
+    "region": "Tohoku",
+    "country": "Japan",
+    "period": "1999-2001"
+  },
+  "objects": [
+    {
+      "name": "Monte Iwaki",
+      "type": "place",
+      "subtype": "mountain",
+      "significance": "protective presence, spiritual anchor, non-verbal mentor",
+      "cultural_resonance": "solitary volcanic mountain with a symmetrical snow-covered cone",
+      "ontological_weight": "deity-equivalent presence within Kairi's cosmology"
+    },
+    {
+      "name": "Kissaten Miyazaki",
+      "type": "place",
+      "subtype": "interior",
+      "significance": "father's domain, refuge, identity formation space",
+      "cultural_resonance": "Japanese traditional coffee house; apple pie as recurring signature",
+      "temporal_anchor": "daily return point"
+    },
+    {
+      "name": "Snow",
+      "japanese_name": "Yuki",
+      "type": "element",
+      "significance": "infancy marker, purification cycle, innocence envelope",
+      "cultural_resonance": "white lattice texture, lactescent blanket",
+      "recurrence": "annual winter cycle"
+    },
+    {
+      "name": "Zolletta di zucchero",
+      "english_name": "Sugar cube",
+      "type": "object",
+      "subtype": "ritual_object",
+      "significance": "friendship oath vessel, taste-memory anchor",
+      "cultural_resonance": "sweetness as binding gesture",
+      "ontological_function": "seals the Kairi-Anna pact"
+    },
+    {
+      "name": "Pesce rosso in ampolla",
+      "english_name": "Goldfish in glass container",
+      "type": "symbol",
+      "significance": "confinement, beauty within constraint, vulnerability",
+      "cultural_resonance": "life contained within a transparent vessel",
+      "visual_anchor": "cover image candidate"
+    },
+    {
+      "name": "Apple pie",
+      "type": "food",
+      "significance": "paternal inheritance, regional identity, economic anchor",
+      "cultural_resonance": "Italian-Japanese culinary hybrid",
+      "recurrence": "kissaten signature, emotional comfort"
+    },
+    {
+      "name": "Origami",
+      "type": "practice",
+      "subtype": "craft",
+      "significance": "Yuki's maternal language, creative discipline",
+      "cultural_resonance": "paper folding as contemplative practice",
+      "pedagogical_function": "intergenerational knowledge transmission"
+    },
+    {
+      "name": "Rossetto rosso",
+      "english_name": "Red lipstick",
+      "type": "object",
+      "subtype": "adornment",
+      "significance": "adolescent autonomy, maternal mystery, forbidden boundary",
+      "cultural_resonance": "adult femininity signal",
+      "threshold_function": "marks passage into womanhood"
+    }
+  ],
+  "anchor_type": "narrative_reference",
+  "activation_condition": "object-space interrogation: when the reader asks about places, objects, symbols, or recurring material elements",
+  "non_integrable_residue": {
+    "status": false,
+    "notes": null
+  }
+}
