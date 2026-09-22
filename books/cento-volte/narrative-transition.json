@@ -1,0 +1,87 @@
+{
+  "type": "narrative_transition",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "major_transitions": [
+    {
+      "name": "Anna's Arrival (First Year of Middle School)",
+      "from_state": "Kairi alone, no female friend",
+      "to_state": "Kairi-Anna dyad, primary emotional anchor",
+      "trigger": "Romano family moves into adjacent house",
+      "marker_event": "Anna at window ('stoccafisso' — fixed stare behind glass)",
+      "perceptual_shift": "recognition of hāfu difference → acceptance → celebration",
+      "duration": "instantaneous to weeks",
+      "irreversibility": "permanent; friendship becomes life-defining"
+    },
+    {
+      "name": "Discovery of Maternal Secret (Photo in Drawer)",
+      "from_state": "Childhood trust in parental stability",
+      "to_state": "Adolescent recognition of adult secrecy and contradiction",
+      "trigger": "Kairi searches drawer for sewing supplies and finds an envelope",
+      "photograph": "Reira in forest, signed 'Cerbiatta' (Fawn), dated 3 years prior",
+      "emotional_sequence": [
+        "Shock at discovering a non-maternal dimension of her mother",
+        "Rage at perceived betrayal of father",
+        "Realization: 'non sono come mia madre'",
+        "Protective instinct toward younger-self identity"
+      ],
+      "temporal_anchor": "end of first year, middle of narrative"
+    },
+    {
+      "name": "Confrontation & Parental Separation",
+      "from_state": "Intact nuclear family (dysfunctional)",
+      "to_state": "Single-parent household, Kairi-Atsuo coalition",
+      "trigger_sequence": [
+        "Kairi reveals photos to father",
+        "Atsuo confirms: 'Cerbiatta' is identity, not me",
+        "Reira's rage: 'Non ti azzardare più a mettere le mani nei miei cassetti'",
+        "Physical grab; Atsuo intervenes: 'Non toccare mia figlia!'",
+        "Ultimatum: Atsuo leaves to stay with aunt",
+        "Kairi packs bag and joins father"
+      ],
+      "dissolution_marker": "Reira leaves the following day without a forwarding address",
+      "emotional_residue": "relief + abandonment confusion"
+    },
+    {
+      "name": "Kairi's Adolescent Autonomy Assertion",
+      "from_state": "Dependent on parental structures",
+      "to_state": "Co-household manager, economic contributor",
+      "activating_moments": [
+        "Learning to use washing machine with Anna's help",
+        "Cooking simple meals",
+        "After-school work at father's kissaten",
+        "Earning small wage or allowance",
+        "Self-managed school uniforms and tidying"
+      ],
+      "perceptual_shift": "from perceived wildness and shame toward capability and self-worth",
+      "linguistic_marker": "'io mi voglio bene. Mi voglio tenere stretta.'"
+    },
+    {
+      "name": "Romantic Awakening (Ryuji by the Sea)",
+      "from_state": "Indifference to attraction",
+      "to_state": "First embodied crush, experienced non-verbally",
+      "setting": "Ajigasawa summer vacation, ocean margins",
+      "moment": "Ryuji's neck and collarbone detail registered",
+      "sensory_anchor": "hand touch while entering water; 'peccato che le vacanze siano così corte'",
+      "consequence": "epistolary correspondence begins through the seasons",
+      "significance": "adolescent desire emerges alongside an increasing sense of autonomy"
+    },
+    {
+      "name": "Friendship Crisis & Reconciliation (Yuki Jealousy)",
+      "from_state": "Kairi-Anna inseparable dyad",
+      "to_state": "Temporary rupture followed by reconciliation",
+      "trigger": "Anna overhears Yuki telling Kairi she is more mature than Nanami",
+      "Anna's fear": "mother prefers Kairi and may be 'stolen'",
+      "resolution_vector": "Kairi's grandmother's perspective: Nanami is human and has varied feelings like everyone else",
+      "repair": "Kairi bakes dorayaki; Anna bakes pastafrolla; reconciliation through food",
+      "lesson_encoded": "love requires ongoing choice rather than assumption"
+    }
+  ],
+  "cross_layer_effects": {
+    "weather_correlation": "major transitions align with seasonal thresholds, including winter → spring and autumn → new year",
+    "propagation_mode": "each transition reframes earlier scenes and opens new narrative possibilities forward",
+    "stability_impact": "transitions establish persistent changes in character relationships and narrative configuration"
+  },
+  "temporal_scope": "ages 12-15, 1999-2001"
+}
