@@ -1,0 +1,135 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "system_principle": "Cento volte tiene insieme due poli che non si risolvono l'uno nell'altro: il calore protetto dell'infanzia a Hirosaki e la scoperta che gli adulti custodiscono un mondo parallelo. Il campo dominante è l'amicizia tra Kairi e Anna; il campo che non si chiude è la frattura familiare aperta dalla fotografia Cerbiatta.",
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03"
+    ]
+  },
+  "topology": {
+    "core_field": "scene-02",
+    "primary_loops": [
+      {
+        "loop": "amicizia_kairi_anna",
+        "nodes": [
+          "scene-02",
+          "object-04",
+          "ritual-01"
+        ],
+        "type": "recursive_stability"
+      },
+      {
+        "loop": "famiglia_e_frattura",
+        "nodes": [
+          "scene-05",
+          "object-06",
+          "silence-02"
+        ],
+        "type": "unresolved_opening"
+      },
+      {
+        "loop": "neve_come_infanzia",
+        "nodes": [
+          "object-03",
+          "weather-01",
+          "transition-01"
+        ],
+        "type": "gradual_loss"
+      },
+      {
+        "loop": "scoperta_del_sentimento",
+        "nodes": [
+          "scene-04",
+          "silence-03",
+          "transition-02"
+        ],
+        "type": "emergent_threshold"
+      },
+      {
+        "loop": "cura_verso_yuki",
+        "nodes": [
+          "object-05",
+          "ritual-03"
+        ],
+        "type": "expanding_dedication"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-04",
+      "to": "ritual-01",
+      "effect": "la zolletta di zucchero diventa il gesto fisico che struttura il rito del giuramento",
+      "propagation_mode": "directional",
+      "stability_impact": "stabilizing"
+    },
+    {
+      "from": "object-03",
+      "to": "transition-01",
+      "effect": "la neve candida che diventa grigia sotto i passi fonda la transizione dalla purezza percepita alla sua perdita graduale",
+      "propagation_mode": "directional",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "scene-04",
+      "to": "silence-03",
+      "effect": "il turbamento provato davanti a Ryuji resta innominato fino a quando Anna non lo nomina dall'esterno",
+      "propagation_mode": "delayed",
+      "stability_impact": "destabilizing"
+    },
+    {
+      "from": "object-06",
+      "to": "transition-03",
+      "effect": "la fotografia Cerbiatta genera la frattura irreversibile che nessuna scena successiva richiude",
+      "propagation_mode": "recursive",
+      "stability_impact": "destabilizing"
+    },
+    {
+      "from": "ritual-03",
+      "to": "object-05",
+      "effect": "le lezioni di origami richieste da Kairi rafforzano il legame con Yuki oltre la funzione pratica dell'insegnamento",
+      "propagation_mode": "comparative",
+      "stability_impact": "reinforcing"
+    }
+  ],
+  "global_state": {
+    "dominant_field": "childhood_warmth",
+    "stability": "metastable",
+    "closure": false,
+    "book_behavior": "Cento volte opera come rete dove il calore dell'infanzia e la frattura familiare restano non equivalenti: il libro non risolve la seconda nel primo, la lascia aperta oltre la fine del racconto",
+    "readability": "high_local_low_global"
+  }
+}
