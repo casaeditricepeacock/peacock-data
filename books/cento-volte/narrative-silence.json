@@ -1,0 +1,76 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "I silenzi di Cento volte sono le cose che Kairi bambina non capisce e non le vengono spiegate: la tensione tra i genitori, il nome sconosciuto sul retro di una foto, la paura muta della madre.",
+  "silence_types": {
+    "non_resolution": "un dubbio che resta aperto senza spiegazione",
+    "threshold": "un confine percepito ma non attraversato",
+    "irreversible_statement": "una scoperta che non si può disfare"
+  },
+  "silences": [
+    {
+      "id": "silence-01",
+      "type": "non_resolution",
+      "intensity": 0.85,
+      "basho": "Kairi non comprende la paura della madre di non essere più amata, e la osserva senza poterla nominare",
+      "kokyu": "il tempo dell'incomprensione infantile, sospeso tra le parole del padre e il pianto della madre",
+      "yūgen": "la bambina intuisce una verità adulta che nessuno le traduce",
+      "position_in_text": "dopo la lite tra i genitori",
+      "perceptual_weight": 0.85,
+      "textual_anchor_it": "Mamma ha paura che non la ami più e reagisce così. Non lo capivo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-02",
+      "type": "irreversible_statement",
+      "intensity": 1.0,
+      "basho": "il nome Cerbiatta scritto sul retro di una fotografia della madre apre un'ipotesi che nessuno pronuncia ad alta voce",
+      "kokyu": "tempo che non torna indietro: una volta letto il nome, la famiglia non è più la stessa",
+      "yūgen": "la stessa persona porta due identità, e nessuna delle due viene mai spiegata a Kairi",
+      "position_in_text": "scoperta della fotografia",
+      "perceptual_weight": 1.0,
+      "textual_anchor_it": "Cerbiatta. Così veniva indicata sul retro. Da qualcuno. Estraneo a noi. Reira in questo mondo. Cerbiatta in uno parallelo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "silence-03",
+      "type": "threshold",
+      "intensity": 0.7,
+      "basho": "Anna nomina per Kairi un sentimento che lei stessa non aveva ancora tradotto, la prima cotta per Ryuji",
+      "kokyu": "tempo del ritorno da Hirosaki, quando l'estate viene rielaborata a distanza",
+      "yūgen": "il sentimento esiste prima di avere un nome, e il nome arriva da fuori, non da dentro",
+      "position_in_text": "dopo il ritorno dalle vacanze estive",
+      "perceptual_weight": 0.7,
+      "textual_anchor_it": "Anna mi disse che era la mia prima cotta e io la presi male. Non voglio avere una cotta per nessuno. In realtà non avevo tradotto molto bene ciò che provavo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "yūgen"
+      ]
+    }
+  ],
+  "system_note": {
+    "silence_count": 3,
+    "dominant_silence": "silence-02",
+    "non_integrable_silences": [
+      "silence-02"
+    ],
+    "structural_role": "i silenzi non spiegano la frattura familiare: la registrano dal punto di vista di chi non ne ha ancora gli strumenti per comprenderla",
+    "print_layer_alignment": "i silenzi operano come strati trasversali, non come scene_ref"
+  }
+}
