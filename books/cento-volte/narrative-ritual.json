@@ -1,0 +1,90 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "ritual_types": {
+    "codified": "sequenza esplicita e riconoscibile",
+    "involuntary": "gesto ripetuto che diventa rituale solo retroattivamente",
+    "interfered": "rituale attraversato da un evento esterno non controllato"
+  },
+  "editorial_principle": "I riti di Cento volte nascono spontanei tra bambine e si sedimentano in gesti che tornano. Il titolo del romanzo è già una dichiarazione rituale: la ripetizione che non produce mai la stessa cosa due volte.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "il giuramento della zolletta",
+      "type": "codified",
+      "intensity": 0.95,
+      "basho": "Kairi e Anna si scambiano una promessa di amicizia e la sigillano mordendo insieme una zolletta di zucchero",
+      "kokyu": "il rito si compie in un solo gesto sincrono, poi si scioglie in domande e risposte",
+      "yūgen": "il rito privato inventato da due bambine vale quanto un rito codificato",
+      "affects": {
+        "ritual-03": "lo stesso spirito di dedizione tornerà nelle lezioni di origami"
+      },
+      "textual_anchor_it": "Io, Romano Nanami, Anna, prometto a te Miyazaki Kairi, di essere una buona amica. Bene Anna, ora mordiamo una zolletta, fa parte del rito.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "ritual-02",
+      "label": "la costruzione dell'igloo",
+      "type": "involuntary",
+      "intensity": 0.8,
+      "basho": "Kairi, Anna e gli amici scavano igloo nella neve ai lati della strada, un gioco collettivo che nasce senza organizzazione",
+      "kokyu": "tempo del pomeriggio invernale, dilatato dal gioco condiviso",
+      "yūgen": "il gioco costruisce comunità senza che nessuno lo dichiari",
+      "affects": {
+        "ritual-01": "lo stesso gruppo di amicizie che ha visto nascere il giuramento della zolletta"
+      },
+      "textual_anchor_it": "Costruiscono un igloo ricavandolo dalla neve compatta ai lati della strada, è facile. In breve, ci dividemmo in due gruppetti e scavammo gli igloo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "ritual-03",
+      "label": "le lezioni di origami",
+      "type": "codified",
+      "intensity": 0.85,
+      "basho": "Kairi chiede a Yuki, madre di Anna, di insegnarle a piegare la carta: un gesto che nasce come cura per la solitudine di Yuki",
+      "kokyu": "tempo ripetuto del pomeriggio, scandito dalla presenza del marito di Yuki assente al lavoro",
+      "yūgen": "dietro la richiesta di imparare un'arte c'è un dono nascosto, quello dell'attenzione",
+      "affects": {
+        "ritual-01": "la stessa dedizione mostrata nel giuramento della zolletta si rivolge ora a un'adulta"
+      },
+      "textual_anchor_it": "Romano-san, lei sa piegare gli origami, vero? Sì, certo! Se non è un disturbo, potrebbe insegnarmi? Il suo volto si illuminò.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "ritual-04",
+      "label": "la visita al tempio di fine anno",
+      "type": "interfered",
+      "intensity": 0.75,
+      "basho": "le famiglie Miyazaki e Romano si preparano a recarsi insieme al tempio per l'ultimo dell'anno, tra biscotti e caffè, in attesa del duemila",
+      "kokyu": "tempo dell'attesa collettiva, sospeso tra l'anno che finisce e quello che comincia",
+      "yūgen": "l'armonia delle due famiglie riunite convive con l'inquietudine non detta di Reira",
+      "affects": {
+        "ritual-01": "il cerchio di amicizia tra le due famiglie si allarga oltre le due bambine"
+      },
+      "textual_anchor_it": "Le famiglie Miyazaki e Romano sono invitate ad andare al tempio insieme, annunciai il pomeriggio del trentuno mentre eravamo riuniti a casa nostra per un tè.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    }
+  ]
+}
