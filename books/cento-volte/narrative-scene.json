@@ -1,0 +1,128 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Le scene di Cento volte alternano il calore dell'infanzia a Hirosaki e l'incrinarsi della famiglia visto con occhi di figlia. Ogni scena è un campo percettivo autonomo, leggibile anche isolata dal resto.",
+  "scene_types": {
+    "sensorial_field": "scena dominata da un senso preciso dell'infanzia",
+    "reflective_field": "scena in cui la voce narrante riflette sul proprio mondo",
+    "rupture_field": "scena in cui l'armonia familiare si incrina"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "la neve e i corvi di Hirosaki",
+      "type": "sensorial_field",
+      "intensity": 0.9,
+      "basho": "il cielo di Hirosaki attraversato da corvi neri, il gracchiare, le impronte a forma di freccia nella neve",
+      "kokyu": "il tempo dello sguardo che segue una traiettoria nel cielo",
+      "yūgen": "le impronte di volpi e gatti restano come tracce di un mondo che Kairi osserva senza possederlo",
+      "activation_condition": "cammino quotidiano da scuola a casa",
+      "perceptual_weight": 0.9,
+      "affects": {
+        "scene-02": "lo stesso sguardo curioso verso il mondo esterno la porta a origliare le case vicine"
+      },
+      "textual_anchor_it": "A Hirosaki il cielo era attraversato da grandi corvi neri e dal loro gracchiare; mi piaceva seguire con lo sguardo la traiettoria dei loro voli, le loro impronte a forma di freccia.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "label": "il giuramento della zolletta",
+      "type": "sensorial_field",
+      "intensity": 0.95,
+      "dominant": true,
+      "basho": "Kairi e Anna, sedute vicine, si scambiano una promessa di amicizia e la suggellano con un morso condiviso",
+      "kokyu": "il tempo si comprime in un gesto sincrono, poi si dilata nelle domande curiose di Anna",
+      "yūgen": "il rito privato tra due bambine porta il peso di un patto vero",
+      "activation_condition": "primo incontro significativo tra Kairi e Anna",
+      "perceptual_weight": 0.95,
+      "affects": {
+        "scene-03": "l'amicizia sigillata qui si allarga presto al gruppo e agli igloo"
+      },
+      "textual_anchor_it": "Bene Anna, ora mordiamo una zolletta, fa parte del rito. E sgranocchiammo divertite guardandoci con occhi luccicanti di gioia.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "la costruzione degli igloo",
+      "type": "sensorial_field",
+      "intensity": 0.8,
+      "basho": "un gruppo di bambini scava igloo dalla neve ai lati della strada, poco trafficata, mentre chiacchierano di baseball e del Capodanno in arrivo",
+      "kokyu": "tempo collettivo del gioco invernale, punteggiato da grida e risate",
+      "yūgen": "la costruzione condivisa crea legame senza che nessuno lo dichiari",
+      "activation_condition": "pomeriggio di neve con gli amici del quartiere",
+      "perceptual_weight": 0.8,
+      "affects": {
+        "scene-02": "lo stesso gruppo di amicizia nato dal giuramento si allarga qui"
+      },
+      "textual_anchor_it": "In breve, ci dividemmo in due gruppetti e scavammo gli igloo mentre chiacchierammo dei compiti, del baseball, del Capodanno prossimo.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "Ryuji al mare",
+      "type": "reflective_field",
+      "intensity": 0.75,
+      "basho": "durante una vacanza estiva Kairi osserva Ryuji, amico di famiglia conosciuto ogni estate, e sente per la prima volta un turbamento nuovo",
+      "kokyu": "tempo dell'estate, diverso da quello della neve: più lento, più fisico",
+      "yūgen": "un sentimento che Kairi non sa ancora nominare, e che Anna nominerà per lei al ritorno",
+      "activation_condition": "vacanza estiva con la famiglia allargata",
+      "perceptual_weight": 0.75,
+      "affects": {
+        "scene-01": "lo stesso sguardo che seguiva i corvi ora si posa su una persona"
+      },
+      "textual_anchor_it": "Mi fissai a guardare Ryuji. Ci ero cresciuta insieme, lo vedevo ogni estate, ma stavolta la linea del suo collo unita alla collanina di caucciù, mi fece battere il cuore.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "la fotografia Cerbiatta",
+      "type": "rupture_field",
+      "intensity": 1.0,
+      "basho": "Kairi porta ai genitori delle vecchie fotografie; sul retro di una, il padre legge un nome che non riconosce come scritto dalla madre",
+      "kokyu": "il tempo si ferma nell'istante in cui la grafia sconosciuta rivela un segreto",
+      "yūgen": "la stessa donna porta due nomi, e Kairi intuisce un mondo che i genitori non le mostrano",
+      "activation_condition": "richiesta paterna di recuperare vecchie fotografie",
+      "perceptual_weight": 1.0,
+      "affects": {
+        "scene-02": "il calore del primo giuramento d'infanzia si contrappone al gelo di questa scoperta"
+      },
+      "textual_anchor_it": "Girò la stampa e lesse Cerbiatta. Non riconobbe la sua grafia e infilzò mia madre con lo sguardo. Non ti ho scattato io queste foto. Ne sono sicuro.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-02",
+    "collapse_point": "scene-05",
+    "unresolved_fields": [
+      "scene-04",
+      "scene-05"
+    ],
+    "print_layer_alignment": "le scene corrispondono agli scene_ref definiti in NarrativePrintLayer v4.1"
+  }
+}
