@@ -1,0 +1,63 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "transition_types": {
+    "irreversible": "modifica permanente del campo",
+    "gradual_loss": "perdita progressiva di innocenza percettiva",
+    "external_irruption": "un evento esterno che rompe l'equilibrio senza preavviso"
+  },
+  "editorial_principle": "Le transizioni di Cento volte segnano il passaggio dall'infanzia protetta di Hirosaki alla scoperta che gli adulti custodiscono segreti. Il titolo stesso è una transizione: la ripetizione che ogni volta cambia leggermente.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "dalla neve candida alla neve calpestata",
+      "type": "gradual_loss",
+      "intensity": 0.8,
+      "basho": "la neve bianca e compatta dell'infanzia diventa, calpestata, grigia: un piccolo insulto ripetuto alla bellezza originaria",
+      "kokyu": "il tempo del passaggio è lento, quasi impercettibile, eppure costante",
+      "yūgen": "la perdita di purezza avviene senza un evento preciso, solo per il passaggio ripetuto",
+      "textual_anchor_it": "Mi dispiaceva quando veniva calpestata e diventava grigia, un insulto alla beltà.",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-02",
+      "label": "dal gioco al sentimento",
+      "type": "gradual_loss",
+      "intensity": 0.7,
+      "basho": "Kairi passa dal considerare i ragazzi solo compagni di gioco al provare, davanti a Ryuji, un turbamento nuovo che non sa nominare",
+      "kokyu": "il tempo della scoperta emotiva precede quello del linguaggio che la definisce",
+      "yūgen": "il sentimento esiste prima della parola che Anna gli darà al ritorno",
+      "textual_anchor_it": "A me non piaceva nessuno, ma io ero il loro amore segreto. In realtà non avevo tradotto molto bene ciò che provavo.",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-03",
+      "label": "dalla famiglia intatta alla famiglia incrinata",
+      "type": "external_irruption",
+      "intensity": 1.0,
+      "basho": "una fotografia ritrovata per caso, con un nome sconosciuto sul retro, incrina in un solo istante l'armonia che Kairi credeva stabile",
+      "kokyu": "il tempo prima e il tempo dopo la lettura del nome Cerbiatta non sono più lo stesso tempo",
+      "yūgen": "nessuno spiega a Kairi cosa significhi davvero quella scoperta: resta sospesa, irrisolta",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il nome Cerbiatta e ciò che rappresenta non vengono mai completamente chiariti a Kairi: la frattura resta aperta oltre la scena stessa"
+      },
+      "textual_anchor_it": "Girò la stampa e lesse Cerbiatta. Non riconobbe la sua grafia e infilzò mia madre con lo sguardo.",
+      "anchor_type": "direct_quote"
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni non sono equivalenti. transition-03 genera un residuo non integrabile: la scoperta della fotografia non si risolve narrativamente, resta come frattura aperta.",
+    "effect": "introduzione di gerarchia implicita tra passaggi senza creare nuovi tipi formali"
+  }
+}
