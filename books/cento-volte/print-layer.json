@@ -1,0 +1,88 @@
+{
+  "type": "NarrativePrintLayer",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source_system": "NarrativeScene v4.1 — Cento volte",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_purpose": {
+    "function": "trasformare la memoria d'infanzia di Kairi in una sequenza leggibile senza perdere la tensione tra calore e frattura",
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione delle scene"
+  },
+  "reading_principle": {
+    "rule_01": "ogni scena deve essere leggibile indipendentemente",
+    "rule_02": "la relazione tra scene resta implicita, mai dichiarata nel testo",
+    "rule_03": "la frattura familiare non viene mai definita per intero, solo accennata attraverso indizi"
+  },
+  "linear_structure": [
+    {
+      "order": 1,
+      "scene_ref": "scene-01",
+      "print_function": "origin_anchor",
+      "note": "apre con la neve e i corvi, il campo sensoriale fondativo di Hirosaki"
+    },
+    {
+      "order": 2,
+      "scene_ref": "scene-02",
+      "print_function": "dominant_field",
+      "note": "il giuramento della zolletta, campo dominante dell'amicizia"
+    },
+    {
+      "order": 3,
+      "scene_ref": "scene-03",
+      "print_function": "sensorial_expansion",
+      "note": "la costruzione degli igloo allarga il cerchio dell'amicizia"
+    },
+    {
+      "order": 4,
+      "scene_ref": "scene-04",
+      "print_function": "threshold",
+      "note": "l'estate al mare introduce un sentimento nuovo, non ancora nominato"
+    },
+    {
+      "order": 5,
+      "scene_ref": "scene-05",
+      "print_function": "collapse_point",
+      "note": "la fotografia Cerbiatta incrina l'armonia familiare, punto di non ritorno percettivo"
+    }
+  ],
+  "printing_logic": {
+    "basho": {
+      "rule": "ogni scena conserva il proprio spazio percettivo autonomo anche nella sequenza",
+      "constraint": "nessuna scena dipende semanticamente dalla precedente"
+    },
+    "kokyu": {
+      "rule": "il ritmo di lettura alterna la lentezza invernale e l'accelerazione emotiva della scoperta",
+      "effect": "il lettore vive lo stesso spaesamento di Kairi, senza anticipazioni"
+    },
+    "yūgen": {
+      "rule": "la frattura familiare non è mai resa esplicita per intero",
+      "effect": "resta un campo percettivo aperto oltre la fine del libro"
+    }
+  },
+  "non_rendered_layer": {
+    "definition": "ciò che il sistema non esplicita ma mantiene attivo come struttura percettiva",
+    "contains": [
+      "il significato completo del nome Cerbiatta, mai chiarito a Kairi",
+      "la reazione definitiva di Atsuo alla scoperta",
+      "il destino della relazione tra Reira e Atsuo dopo la scena della fotografia"
+    ]
+  },
+  "reader_effect": {
+    "state_after_reading": "ricostruzione involontaria dell'infanzia come luogo caldo che nasconde, senza saperlo, una frattura già in corso",
+    "perceptual_residue": "persistenza dell'immagine della neve calpestata come metafora della perdita",
+    "temporal_effect": "il titolo stesso, Cento volte, si carica di significato solo a lettura conclusa: la ripetizione che non è mai identica"
+  },
+  "meta_layer": {
+    "system_note": "prima versione del grafo per Cento volte, costruita sul manoscritto reale fornito dall'editore",
+    "stability": "high",
+    "risk": "basso",
+    "obsolescence": "non strutturale, solo editoriale"
+  }
+}
