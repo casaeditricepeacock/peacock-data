@@ -1,0 +1,69 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "preface": "Hara Rota",
+    "isbn": "9791281715349",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Ogni campo è un insieme di regole percettive per la lettura. In Cento volte i campi tengono in tensione il calore materiale dell'infanzia e il gelo della scoperta adulta, senza risolverli l'uno nell'altro.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_neve",
+      "label_en": "snow_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "il campo dove la neve bianca e compatta rende l'infanzia percepibile come stato fisico, prima che diventi grigia sotto i passi",
+      "kokyu": "ritmo lento della caduta continua, alternato al ritmo veloce del gioco tra i cumuli",
+      "yūgen": "la neve dona innocenza a luoghi e persone, e la sua sparizione toglie qualcosa che non si nomina mai apertamente"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_kissaten",
+      "label_en": "kissaten_field",
+      "intensity": 0.85,
+      "basho": "il campo del locale paterno, dove il tè caldo, la fetta di torta e lo sguardo paziente del padre costruiscono un senso di essere vista",
+      "kokyu": "ritmo del pomeriggio dedicato, ricorrente e prevedibile",
+      "yūgen": "nell'ascolto silenzioso del padre si annida un miracolo che il testo nomina esplicitamente"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_estate",
+      "label_en": "summer_field",
+      "intensity": 0.75,
+      "basho": "il campo delle vacanze al mare, dove il corpo di Kairi comincia a percepire qualcosa che l'inverno di Hirosaki non conosceva",
+      "kokyu": "ritmo fisico e dilatato, diverso da quello scolastico e invernale",
+      "yūgen": "un turbamento nuovo emerge senza che il testo lo dichiari con un nome"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_frattura",
+      "label_en": "rupture_field",
+      "intensity": 0.95,
+      "basho": "il campo aperto dalla fotografia Cerbiatta, dove la casa familiare smette per un istante di essere un luogo sicuro",
+      "kokyu": "ritmo interrotto: un solo istante che altera la percezione di tutto ciò che viene dopo",
+      "yūgen": "il campo non si richiude mai completamente nel corso del racconto"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "subjective_voice_states",
+      "unstable_definition_blocks",
+      "free_text_yugen"
+    ],
+    "system_behavior": "i campi operano come operatori percettivi persistenti sulle condizioni di lettura"
+  }
+}
