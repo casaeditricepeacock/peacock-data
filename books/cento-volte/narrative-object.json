@@ -1,0 +1,108 @@
+{
+  "type": "narrative_ritual",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "rituals": [
+    {
+      "name": "Friendship Oath at Kissaten",
+      "participants": ["Kairi", "Anna"],
+      "setting": "Miyazaki Kissaten, Apple pie service",
+      "temporal_marker": "Year 1, autumn 1999",
+      "objects_involved": ["zolletta di zucchero", "Apple pie", "tea"],
+      "performative_sequence": [
+        "Promise sworn before sugar cube",
+        "Both bite sugar cube simultaneously",
+        "Eyes locked in joy-recognition",
+        "Unspoken pact of loyalty and transparency"
+      ],
+      "perceptual_anchor_primary": "taste (sugar sweetness) + sight (eye contact)",
+      "cultural_encoding": "Shinto-like oath structure without words",
+      "emotional_valence": "binding, non-reversible",
+      "significance": "seals Kairi-Anna dyad; foundational to narrative"
+    },
+    {
+      "name": "Winter Temple Visit — Ōmisoka / New Year",
+      "participants": ["Kairi", "Anna", "both families"],
+      "setting": "Japanese temple, 31 December 1999 → 1 January 2000",
+      "temporal_marker": "Century threshold, Y2K crossing",
+      "ritual_components": [
+        "108 bell chimes associated with the 108 bonnō (human desires/sufferings)",
+        "Silent prayer during tolling",
+        "Amazake consumption (sweet rice sake, New Year tradition)",
+        "Matching amulets purchased as symbolic fusion"
+      ],
+      "perceptual_anchor_primary": "sound (bell toll) + taste (amazake) + touch (amulet exchange)",
+      "cultural_resonance": "Buddhist-Shinto ritual environment at century threshold",
+      "temporal_significance": "Y2K crossing, childhood-adolescence boundary",
+      "significance": "marks passage into new millennium; reinforces spiritual grounding"
+    },
+    {
+      "name": "Daily Kissaten Kitchen Routine",
+      "participants": ["Kairi", "Atsuo (father)"],
+      "setting": "Miyazaki Kissaten counter",
+      "frequency": "after-school daily until family dissolution",
+      "ritual_elements": [
+        "Apple pie and hot tea offering",
+        "Father's attentive listening to Kairi's words",
+        "Acceptance of Kairi's wildness without demanding conformity",
+        "Listening without judgment"
+      ],
+      "perceptual_anchor_primary": "taste (apple pie, tea) + smell (coffee) + touch (warm cup)",
+      "function": "paternal validation, safety-through-presence",
+      "significance": "primary emotional anchor; models unconditional care",
+      "dissolution_marker": "continues sporadically post-separation, transformed"
+    },
+    {
+      "name": "Origami Lessons — Yuki-Kairi",
+      "participants": ["Yuki (Romano mother)", "Kairi"],
+      "setting": "Romano living room, afternoon light",
+      "frequency": "recurring, seasonal",
+      "practice_structure": [
+        "Yuki demonstrates pliable hand movements",
+        "Kairi struggles with dexterity and impatience",
+        "Yuki offers seated comfort: 'you can sit like me'",
+        "First successful objects: cat and dog, imperfect but celebrated"
+      ],
+      "perceptual_anchor_primary": "touch (hand guidance) + sight (paper folding) + emotional warmth",
+      "transmission_mode": "tactile, non-verbal maternal language",
+      "emotional_outcome": "belonging through creative practice",
+      "significance": "establishes Yuki as surrogate mother; Japanese cultural transmission"
+    },
+    {
+      "name": "Snow Igloo Construction — Winter Collective",
+      "participants": ["Kairi", "Anna", "friend group"],
+      "setting": "Field at Hirosaki margin, snow walls",
+      "temporal_marker": "January-March recurring across Years 1-3",
+      "components": [
+        "Excavation of compacted snow blocks",
+        "Dome assembly through collaborative labor",
+        "Snowman construction with sticks for arms and nose",
+        "Snowball warfare and collective laughter"
+      ],
+      "perceptual_anchor_primary": "touch (cold snow, hand-contact) + sight (white dome) + sound (laughter, crunch)",
+      "seasonal_anchor": "January-March, recurring winter cycle",
+      "social_function": "identity formation through play-labor",
+      "significance": "collective resilience; 'cento volte' thesis embodied (same ritual, different each year)"
+    },
+    {
+      "name": "Mountain Pilgrimage Ascent",
+      "participants": ["Kairi", "Atsuo"],
+      "setting": "foothills of Monte Iwaki, seasonal",
+      "frequency": "spring/autumn cyclical",
+      "ritual_structure": [
+        "Packed lunch and thermos tea",
+        "Silent walking together",
+        "Vista overlook: Hirosaki below, diminished in perspective",
+        "Paternal wisdom-fragment: 'bisogna prendere le cose alla giusta distanza' (must take things at proper distance)"
+      ],
+      "perceptual_anchor_primary": "sight (elevation gain, vista) + smell (mountain air) + silence + taste (tea)",
+      "function": "perspective reset, loss-processing, non-verbal bonding",
+      "significance": "models wisdom through mountain presence; Iwaki as spiritual teacher",
+      "dissolution_marker": "continues post-separation as Kairi's solitary practice"
+    }
+  ],
+  "ontology": "strict_perceptual_4_1",
+  "dissolution_rule": "Ritual patterns persist after family dissolution through repetition, memory, or solitary practice; relational rituals may change participants while retaining their symbolic function. Atsuo-Kairi rituals survive intact post-separation; Atsuo-family rituals transform but don't vanish.",
+  "protocol_alignment": "Perceptual anchors connect to narrative-perceptual-field.json; temporal markers align with narrative-system-graph.json cycles; significance bridges to narrative-scene.json canonical moments."
+}
