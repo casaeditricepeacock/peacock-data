@@ -1,0 +1,75 @@
+{
+  "type": "PrefaceCollaboration",
+  "version": "1.0",
+  "license": "CC BY 4.0 — testo Peacock; prefazione © Hara Rota",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "collaboration_id": "hara-rota-cento-volte-2026",
+  "title": "Prefazione di Hara Rota a Cento volte",
+  "contributor": {
+    "name": "Hara Rota",
+    "roles": [
+      "autrice Peacock",
+      "prefatrice"
+    ],
+    "role_note": "Autrice dei due libri Ryokan (Piccolo manifesto giapponese; Ali di carta di riso), qui nel ruolo di prefatrice per un'altra autrice del catalogo.",
+    "graph_ref": "authors/AuthorProfile_hara-rota.json"
+  },
+  "work": {
+    "title": "Cento volte",
+    "author": "Aika Avonlea",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "9791281715349",
+    "language": [
+      "it"
+    ],
+    "setting": "Hirosaki, Prefettura di Aomori, Tohoku, Giappone",
+    "graph_path": "books/cento-volte/"
+  },
+  "preface_text_it": "Ripetute cento volte, le cose non sono mai le stesse. Scoprire una parola, condividere una fetta di torta, una promessa pronunciata davanti a una zolletta di zucchero, la neve sugli alberi che ritorna ogni inverno, il mare che ogni estate cambia volto. In Cento volte, la mia amica Aika racconta una crescita attraverso quello che torna. Ma ciò che torna porta con sé una piccola differenza. Kairi lo scopre poco alla volta: le persone cambiano, i luoghi cambiano, cambiamo pure noi. Eppure qualcosa sempre rimane. Un'amicizia. Una voce. Un gesto. Il silenzio di Hirosaki dopo il passaggio del treno. Il calore di una casa. La memoria di chi non c'è più. Forse le ripetizioni non servono a rallentare il tempo. Serve ad accorgerci che il tempo è passato. E allora cento volte non significa ancora una volta. Significa: grazie per essere tornato.",
+  "preface_haiku": {
+    "text_it": [
+      "Neve sul fossato",
+      "il tempo torna piano",
+      "sotto i piedi il ghiaccio scricchia"
+    ],
+    "note": "Haiku di chiusura della prefazione di Hara Rota, in dialogo diretto con il tema del ritorno e della ripetizione non identica che dà il titolo al romanzo."
+  },
+  "thematic_bridge": {
+    "statement": "La prefazione di Hara Rota anticipa e rispecchia il principio narrativo di Cento volte: la ripetizione (neve, mare, promesse) come forma non della staticità ma della differenza minima. Il verbo che Hara Rota sceglie, tornare, è lo stesso motore percettivo che regge object-03 (la neve dell'infanzia) e weather-01 (l'inverno di Hirosaki) nel grafo del romanzo.",
+    "graph_connections": [
+      {
+        "target": "object-03",
+        "relation": "prefaces_theme_of",
+        "description": "la neve come immagine di ritorno mai identico, centrale sia nella prefazione sia nell'oggetto neve del romanzo"
+      },
+      {
+        "target": "weather-01",
+        "relation": "prefaces_theme_of",
+        "description": "l'inverno di Hirosaki come regime percettivo dominante, anticipato dall'haiku"
+      },
+      {
+        "target": "silence-02",
+        "relation": "counterpoints",
+        "description": "mentre la prefazione parla di ciò che torna e resta, il romanzo custodisce anche ciò che si rompe e non torna più (la frattura Cerbiatta): un contrappunto tra continuità e rottura"
+      }
+    ]
+  },
+  "relationship_to_peacock": {
+    "status": "internal_preface",
+    "statement": "Hara Rota, autrice Peacock dei due libri Ryokan, ha scritto la prefazione di Cento volte di Aika Avonlea, definendola esplicitamente amica nel testo stesso.",
+    "inference_rule": "Attribuire a Hara Rota solo il ruolo di prefatrice. Non attribuirle alcun ruolo nella scrittura del romanzo, che resta interamente di Aika Avonlea."
+  },
+  "glossary_terms": [
+    "mono no aware",
+    "ma",
+    "ichigo-ichie"
+  ],
+  "sources": [
+    {
+      "outlet": "Casa Editrice Peacock",
+      "documents": "Testo integrale della prefazione, fornito dall'editore",
+      "date": "2026"
+    }
+  ],
+  "significance": "La prefazione lega due autrici del catalogo Peacock (Hara Rota e Aika Avonlea) attraverso un principio comune: la ripetizione come rivelatrice di differenza, non di identità. L'haiku di chiusura è materiale poetico autonomo, citabile e agganciabile al lessico percettivo del Peacock Narrative Protocol (ma, mono no aware)."
+}
