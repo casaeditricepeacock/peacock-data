@@ -1,0 +1,86 @@
+{
+  "type": "narrative_silence",
+  "version": "4.1",
+  "isbn": "9791281715349",
+  "book_slug": "cento-volte",
+  "silence_as_primary_form": true,
+  "narrative_silence_types": [
+    {
+      "silence_type": "Geographic Silence",
+      "definition": "Hirosaki's recurring quiet, intensified by snowfall and the relative absence of urban noise",
+      "perceptual_markers": [
+        "After-snow world: sound-muffled, light diffused",
+        "Train arrival interrupts the quiet and functions as a return marker for Atsuo",
+        "Train departure leaves an intensified sense of absence and quiet"
+      ],
+      "psychological_function": "External quiet becomes a container for internal emotion; environmental and interpersonal silence overlap",
+      "example": "After Atsuo leaves, the kissaten feels acoustically and emotionally altered rather than simply quieter"
+    },
+    {
+      "silence_type": "Communicative Silence",
+      "definition": "Non-verbal understanding between characters; meaning conveyed through gesture, presence, shared activity, and what remains unsaid",
+      "key_relationships": [
+        "Atsuo-Kairi: mountain walks and shared attention with little dialogue",
+        "Yuki-Kairi: origami lessons in which hand movements carry relational meaning",
+        "Anna-Kairi: sugar cube pact in which the central gesture carries more meaning than speech"
+      ],
+      "linguistic_economy": "When dialogue appears, it functions as a concentrated carrier of relational or narrative meaning",
+      "example": "Atsuo shows Kairi the mountain vista; the shared perspective becomes a non-verbal form of consolation"
+    },
+    {
+      "silence_type": "Rupture Silence",
+      "definition": "Reduction or absence of speech following major emotional disruption; silence functions as a space for processing",
+      "key_moments": [
+        "After Reira's disappearance, Kairi enters a period of withdrawal",
+        "After the parental confrontation, ordinary domestic conversation is disrupted",
+        "After Ryuji's correspondence changes or stops, the following autumn is marked by heightened anticipation and absence"
+      ],
+      "recovery_pattern": "Silence is gradually interrupted by action rather than explicit emotional explanation: Kairi cooks, cleans, works, and reorganizes daily life",
+      "function": "Silence allows adolescent experience to be processed without requiring immediate verbal articulation"
+    },
+    {
+      "silence_type": "Resistance Silence",
+      "definition": "Kairi's refusal to explain or justify aspects of her autonomy and family experience",
+      "manifestation": "When questioned about her choices or family circumstances, she may withhold explanation rather than provide a complete verbal account",
+      "implication": "Silence functions as a boundary against unwanted interpretation or forced disclosure",
+      "example": "Questions from others about Reira's absence receive limited verbal response"
+    },
+    {
+      "silence_type": "Seasonal Silence",
+      "definition": "Winter's recurring quiet, intensified by snowfall and the absorption of ambient sound",
+      "perceptual_anchor": "Snow compacting underfoot becomes one of the few sharply defined sounds within an otherwise muffled environment",
+      "metaphor": "Winter silence functions as a recurring narrative environment in which judgment is suspended and attention becomes inward",
+      "recurrence": "Each winter restores the same environmental condition while the characters and their circumstances have changed"
+    },
+    {
+      "silence_type": "Transgenerational Silence",
+      "definition": "Information about family history that remains undisclosed or only partially transmitted to Kairi",
+      "function": "Silence can operate as protection, omission, or an unresolved gap in the transmission of family knowledge",
+      "consequence": "Kairi uses imagination and inference to fill some of the gaps left by incomplete information",
+      "example": "The identity of Reira's lover remains unresolved; 'Cerbiatta' is the surviving trace associated with the hidden relationship"
+    }
+  ],
+  "silence_as_ontological": {
+    "protocol_alignment": "Silence is treated as a narratively active condition rather than simple absence",
+    "reader_experience": "The reader is repeatedly directed toward what is omitted, withheld, or conveyed without explicit speech",
+    "interpretive_consequence": "Silences remain open to multiple readings rather than receiving a single explicit explanation"
+  },
+  "dialogue_scarcity": {
+    "dialogue_percentage": "approximately 12-15% of the text",
+    "consequence": "Spoken exchanges are concentrated at moments of relational or narrative significance",
+    "example_dialogue_scene": [
+      "Kairi: 'Giuriamo insieme'",
+      "Anna: 'Con cosa?'",
+      "Kairi: 'Con lo zucchero. Niente è più dolce di questa amicizia'"
+    ],
+    "dialogue_impact": "Brief exchanges can establish or transform the meaning of an entire relationship arc"
+  },
+  "silence_technical_implementation": {
+    "whitespace_on_page": "Visual silence may be produced through paragraph breaks and controlled blank space",
+    "sentence_fragments": "Incomplete thoughts can reproduce non-verbal or partially articulated processing",
+    "ellipsis_use": "Ellipses may mark thought trailing into non-articulation",
+    "dialogue_tags_minimal": "Dialogue attribution is kept economical where contextual identification is sufficient"
+  },
+  "reader_ontological_shift": "By the novel's end, recurring patterns of omission, silence, gesture, and environmental quiet have trained the reader to treat absence of speech as a meaningful narrative signal",
+  "peacock_protocol_compliance": "Narrative silence supports the Protocol v4.1 principle that meaning may be constructed through perceptual and narrative residue rather than explicit explanation"
+}
