@@ -54,6 +54,41 @@
    "type": "character",
    "name": "Satō Yumi",
    "description": "madre di Anna, maestra elementare di Kamakura"
+  },
+  {
+   "id": "rossetto-rosso",
+   "file": "rossetto-rosso.json",
+   "type": "object",
+   "name": "Il rossetto rosso",
+   "description": "simbolo di femminilità repressa, scomparso dopo l'abbandono di Reira"
+  },
+  {
+   "id": "torta-di-mele-kissaten",
+   "file": "torta-di-mele-kissaten.json",
+   "type": "object",
+   "name": "Torta di mele del kissaten",
+   "description": "Apple pie, specialità del padre di Kairi, gesto di accoglienza per Anna"
+  },
+  {
+   "id": "cd-aikawa-nanase",
+   "file": "cd-aikawa-nanase.json",
+   "type": "object",
+   "name": "CD di Aikawa Nanase",
+   "description": "disco autografato, sfogo emotivo di Kairi, eco della passione segreta di Reira"
+  },
+  {
+   "id": "amuleto-portafortuna",
+   "file": "amuleto-portafortuna.json",
+   "type": "object",
+   "name": "Amuleto portafortuna",
+   "description": "omamori comprato con Anna al Capodanno, simbolo di amicizia"
+  },
+  {
+   "id": "fotografie-cerbiatta",
+   "file": "fotografie-cerbiatta.json",
+   "type": "object",
+   "name": "Le fotografie di Cerbiatta",
+   "description": "prova della relazione di Reira, causa diretta della sua scomparsa da casa"
   }
  ]
 }
