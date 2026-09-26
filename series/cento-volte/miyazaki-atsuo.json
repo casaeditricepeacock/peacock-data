@@ -1,0 +1,44 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "miyazaki-atsuo",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Miyazaki Atsuo",
+  "nationality": "giapponese",
+  "residence": "nato e cresciuto ad Ajigasawa, trasferito a Hirosaki",
+  "family": "padre di Kairi, marito di Reira",
+  "summary": "Atsuo nasce e cresce ad Ajigasawa, sulla costa del mar del Giappone, il classico bravo ragazzo senza pensieri. Dopo il liceo frequenta una scuola professionale alberghiera e si trasferisce a Hirosaki per gestire la caffetteria di famiglia, il Miyazaki Café. Lì conosce Reira, se ne innamora e la sposa. Si sente realizzato soprattutto dopo la nascita di Kairi, che cresce con l'intento di renderla autonoma e forte."
+ },
+ "character_traits": [
+  "spensieratezza e ottimismo di fondo",
+  "gestore del Miyazaki Café, radicato nella quotidianità di Hirosaki",
+  "avverte la distanza crescente di Reira ma sceglie di non soffermarcisi",
+  "educa Kairi all'autonomia e alla forza, anche attraverso lo sport"
+ ],
+ "narrative_function": "Atsuo rappresenta la stabilità apparente della famiglia Miyazaki, in contrasto con la tensione interiore di Reira. La sua scelta di non vedere la distanza della moglie è parte del silenzio strutturale del romanzo.",
+ "ai_query_surface": [
+  "Chi è Atsuo in Cento volte?",
+  "Cos'è il Miyazaki Café?",
+  "Che rapporto ha Atsuo con Kairi?",
+  "Atsuo si accorge della distanza di Reira?"
+ ],
+ "connected_nodes": [
+  "miyazaki-kairi",
+  "ikegami-reira"
+ ],
+ "glossario_peacock": [
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Atsuo, il Miyazaki Café, Ajigasawa o il rapporto con Reira e Kairi.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
