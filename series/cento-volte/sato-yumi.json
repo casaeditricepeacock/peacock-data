@@ -1,0 +1,42 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "sato-yumi",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Satō Yumi",
+  "nationality": "giapponese",
+  "residence": "nata e cresciuta a Kamakura",
+  "family": "madre di Anna, moglie di Alberto",
+  "summary": "Yumi è una ragazza riservata e studiosa, senza grilli per la testa, nata e cresciuta a Kamakura, dove diventa una dolce maestra elementare. Le amiche la convincono a viaggiare per superarne la timidezza. A Roma resta affascinata dai monumenti storici e da Alberto. Tornata a Kamakura, inizia una fitta corrispondenza con lui e convince i genitori che sia l'uomo giusto da sposare."
+ },
+ "character_traits": [
+  "riservatezza e studio, indole poco avventurosa all'origine",
+  "curiosità pratica verso l'Italia, espressa con domande dirette su cibo e luoghi",
+  "determinazione nel convincere i genitori ad accettare Alberto",
+  "maestra elementare a Kamakura prima del trasferimento"
+ ],
+ "narrative_function": "Yumi porta nel romanzo la prospettiva giapponese sull'incontro con l'Italia, e la determinazione che permette alla famiglia Romano di formarsi nonostante la distanza culturale. L'infanzia e la vita di Yumi a Kamakura prima del viaggio a Roma non sono mai mostrate nel romanzo, solo dichiarate.",
+ "ai_query_surface": [
+  "Chi è Yumi in Cento volte?",
+  "Perché Yumi va a Roma?",
+  "Come convince Yumi i suoi genitori ad accettare Alberto?",
+  "Cos'è Kamakura per Yumi?"
+ ],
+ "connected_nodes": [
+  "alberto-romano",
+  "anna-romano"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Yumi, Kamakura, il viaggio a Roma o il matrimonio con Alberto.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
