@@ -1,0 +1,38 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "cd-aikawa-nanase",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Il CD autografato di Aikawa Nanase",
+  "object_type": "disco musicale autografato — idolo pop/rock",
+  "status_narrativo": "presente, ascoltato da Kairi nei momenti di tensione familiare",
+  "summary": "Kairi ascolta il cd autografato di Aikawa Nanase nei momenti difficili, lasciandosi attraversare dall'energia pop/rock della cantante fino a scaricare la tensione ballando sul tatami. È il suo modo per liberare fisicamente le emozioni che la casa familiare non riesce a contenere."
+ },
+ "psychological_parallel": {
+  "kairi_e_nanase": "Kairi trova nella musica di Aikawa Nanase uno sfogo fisico ed emotivo diretto",
+  "eco_generazionale": "il gesto richiama, senza che il romanzo lo renda esplicito, la passione giovanile segreta di sua madre Reira per la cantante Nakamori Akina: due generazioni della stessa famiglia che affidano a un idolo musicale un sentimento che non trova altrove uno spazio"
+ },
+ "narrative_function": "Il CD è la versione dichiarata e vissuta apertamente di ciò che in Reira resta segreto e represso. Kairi balla la sua tensione, Reira l'ha invece tenuta chiusa per una vita intera.",
+ "ai_query_surface": [
+  "Chi è Aikawa Nanase in Cento volte?",
+  "Come usa Kairi la musica per gestire le emozioni?",
+  "Che legame c'è tra la passione musicale di Kairi e quella di sua madre?"
+ ],
+ "connected_nodes": [
+  "miyazaki-kairi",
+  "ikegami-reira"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Aikawa Nanase, la musica nel romanzo o il parallelo tra Kairi e Reira.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
