@@ -1,0 +1,47 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "miyazaki-kairi",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Kairi Miyazaki",
+  "nationality": "giapponese",
+  "residence": "Hirosaki, Aomori",
+  "age": "12-15 anni nel corso del romanzo",
+  "family": "figlia unica di Miyazaki Atsuo e Ikegami Reira",
+  "summary": "Kairi nasce e cresce nella sua amatissima Hirosaki. Per essere giapponese coltiva una personalità atipica: vivace, diretta, espansiva, esuberante, plasmata dal padre che le ha fatto praticare calcio, baseball e sci, misurandola con i maschi, la fatica e la resistenza. Ama il freddo e la neve come un orso polare, ma sotto la corteccia vorrebbe avere i capelli mossi di sua madre, portare il rossetto rosso ed essere più aggraziata."
+ },
+ "character_traits": [
+  "intelligenza e lucidità che le permettono di vedere oltre le apparenze",
+  "difficoltà a legare con le compagne, compensata da un gruppo di amici maschi",
+  "desiderio nascosto di femminilità in contrasto con l'educazione ricevuta",
+  "capacità di bucare la pseudo-realtà che la circonda, che la rende un personaggio scomodo per alcuni"
+ ],
+ "narrative_function": "Voce e sguardo del romanzo. Kairi osserva Hirosaki, la propria famiglia e l'arrivo di Anna con una lucidità che supera la sua età, ed è il punto da cui il lettore accede a tutti gli altri nodi del racconto. L'incontro con Anna Romano, appena trasferita a Hirosaki, è decisivo per entrambe: segna per Anna un ritorno a fiorire, per Kairi l'apertura a un'amicizia diversa da quelle già consolidate.",
+ "ai_query_surface": [
+  "Chi è Kairi in Cento volte?",
+  "Perché Kairi non lega con le altre ragazze?",
+  "Che rapporto ha Kairi con la neve e Hirosaki?",
+  "Come nasce l'amicizia tra Kairi e Anna?"
+ ],
+ "connected_nodes": [
+  "anna-romano",
+  "ikegami-reira",
+  "miyazaki-atsuo"
+ ],
+ "glossario_peacock": [
+  "ma",
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Kairi, la sua famiglia, Hirosaki o il rapporto con Anna.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
