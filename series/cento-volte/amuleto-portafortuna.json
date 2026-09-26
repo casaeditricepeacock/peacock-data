@@ -1,0 +1,40 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "amuleto-portafortuna",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "L'amuleto portafortuna di Capodanno",
+  "object_type": "omamori — amuleto portafortuna da tempio",
+  "status_narrativo": "presente, acquistato in coppia durante il rito di Capodanno",
+  "summary": "Durante i 108 rintocchi di campana di Capodanno, Kairi e Anna, vestite con kimono foderati, acquistano insieme due amuleti portafortuna identici dopo aver bevuto amazake. Avere qualcosa di uguale è per Kairi un momento di fusione totale con l'amica."
+ },
+ "ritual_context": {
+  "evento": "i 108 rintocchi di campana di Capodanno, momento di silenzio assoluto e preghiere intime",
+  "gesto_condiviso": "l'acquisto di due amuleti identici, subito dopo aver bevuto amazake insieme"
+ },
+ "narrative_function": "L'amuleto identico è il simbolo più diretto dell'amicizia tra Kairi e Anna: un oggetto scelto apposta per essere uguale, in un romanzo dove le due ragazze si riconoscono proprio nella loro diversità.",
+ "ai_query_surface": [
+  "Cos'è l'amuleto portafortuna che comprano Kairi e Anna?",
+  "Come si festeggia il Capodanno in Cento volte?",
+  "Cosa rappresenta l'amicizia tra Kairi e Anna nel romanzo?"
+ ],
+ "connected_nodes": [
+  "miyazaki-kairi",
+  "anna-romano"
+ ],
+ "glossario_peacock": [
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga l'amuleto, il rito di Capodanno o l'amicizia tra Kairi e Anna.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
