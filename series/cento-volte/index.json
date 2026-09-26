@@ -1,0 +1,59 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "index_id": "cento-volte",
+ "index_type": "series-index",
+ "series": "Cento volte",
+ "author": "Aika Avonlea",
+ "publisher": "Casa Editrice Peacock",
+ "base_url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/series/cento-volte/",
+ "nodes": [
+  {
+   "id": "series-manifest",
+   "file": "series-manifest.json",
+   "type": "manifest"
+  },
+  {
+   "id": "miyazaki-kairi",
+   "file": "miyazaki-kairi.json",
+   "type": "character",
+   "name": "Kairi Miyazaki",
+   "description": "protagonista, ragazzina di Hirosaki, 12-15 anni, vivace e diretta"
+  },
+  {
+   "id": "anna-romano",
+   "file": "anna-romano.json",
+   "type": "character",
+   "name": "Anna Romano",
+   "description": "hāfu italo-giapponese, amica di Kairi, trasferita da Tokyo a Hirosaki"
+  },
+  {
+   "id": "ikegami-reira",
+   "file": "ikegami-reira.json",
+   "type": "character",
+   "name": "Ikegami Reira",
+   "description": "madre di Kairi, desiderio sedato, ammiratrice segreta di Nakamori Akina"
+  },
+  {
+   "id": "miyazaki-atsuo",
+   "file": "miyazaki-atsuo.json",
+   "type": "character",
+   "name": "Miyazaki Atsuo",
+   "description": "padre di Kairi, gestore del Miyazaki Café ad Hirosaki"
+  },
+  {
+   "id": "alberto-romano",
+   "file": "alberto-romano.json",
+   "type": "character",
+   "name": "Alberto Romano",
+   "description": "padre di Anna, bassista romano trasferito in Giappone per amore"
+  },
+  {
+   "id": "sato-yumi",
+   "file": "sato-yumi.json",
+   "type": "character",
+   "name": "Satō Yumi",
+   "description": "madre di Anna, maestra elementare di Kamakura"
+  }
+ ]
+}
