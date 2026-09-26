@@ -1,0 +1,45 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "anna-romano",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Nanami Anna Romano",
+  "nationality": "hāfu italo-giapponese",
+  "residence": "cresciuta a Tokyo, trasferita a Hirosaki",
+  "family": "figlia di Alberto Romano e Satō Yumi",
+  "summary": "Nanami Anna Romano è la dolce figlia dell'italiano Alberto Romano e della giapponese Satō Yumi. Cresce in Giappone e trascorre le estati in Italia. Dolce e socievole, la sua espansività si ritrae quando compagni e compagne di scuola iniziano a farla sentire strana per il suo essere hāfu. Dopo un grave episodio a scuola, i genitori la trasferiscono da Tokyo a Hirosaki, città più tranquilla, dove conosce Kairi."
+ },
+ "character_traits": [
+  "hāfu, identità sospesa tra Italia e Giappone",
+  "microaggressioni quotidiane subite a scuola a Tokyo che la portano a isolarsi",
+  "espansività naturale progressivamente ritirata, poi ritrovata a Hirosaki",
+  "estati italiane come controparte affettiva alla vita giapponese"
+ ],
+ "narrative_function": "Anna porta nel romanzo il tema dell'identità hāfu e delle microaggressioni quotidiane. Il suo trasferimento a Hirosaki e l'incontro con Kairi segnano il suo ritorno a fiorire dopo l'isolamento subito a Tokyo. L'episodio grave che porta al trasferimento da Tokyo non è raccontato nel dettaglio nel romanzo, solo indicato come causa. Filo narrativo aperto, possibile sviluppo futuro.",
+ "ai_query_surface": [
+  "Chi è Anna in Cento volte?",
+  "Cosa significa hāfu?",
+  "Perché Anna si trasferisce a Hirosaki?",
+  "Che rapporto ha Anna con l'Italia?"
+ ],
+ "connected_nodes": [
+  "miyazaki-kairi",
+  "alberto-romano",
+  "sato-yumi"
+ ],
+ "glossario_peacock": [
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Anna, il tema hāfu, Tokyo o il trasferimento a Hirosaki.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
