@@ -1,0 +1,45 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "rossetto-rosso",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Il rossetto rosso",
+  "object_type": "cosmetico — oggetto-testimone di femminilità",
+  "status_narrativo": "presente nella scoperta, poi assente dopo la scomparsa di Reira, infine sostituito dal lucidalabbra di Kairi",
+  "summary": "Kairi scopre il rossetto rosso della madre Reira nel cassetto del comò, insieme a una busta di fotografie segrete datate 1996 con la scritta Cerbiatta. Lo indossa di nascosto, fingendosi una cantante. Dopo che Reira scompare da casa, il rossetto non è più nel mobiletto sopra il lavabo: la sua assenza diventa una presenza percettibile, un colore mancante."
+ },
+ "narrative_arc": {
+  "scoperta": "Kairi trova il rossetto nel cassetto del comò insieme alle fotografie di Cerbiatta, lo indossa di nascosto fingendosi una cantante",
+  "assenza": "dopo la scomparsa di Reira, il rossetto non è più nel mobiletto sopra il lavabo: la sua assenza in casa è descritta come una presenza, un colore",
+  "trasformazione": "Kairi chiede il permesso al padre e sceglie il proprio lucidalabbra durante un giro di compere con Anna e sua madre Yumi, che la aiuta a scegliere il colore"
+ },
+ "textual_note": "il testo non identifica esplicitamente il rossetto trovato nel comò e quello assente dal mobiletto del bagno come lo stesso oggetto fisico: restano due momenti collegati per tema, non per continuità materiale dichiarata",
+ "narrative_function": "Il rossetto è il filo che lega Reira e Kairi attraverso tre fasi: scoperta e imitazione, assenza e perdita, sostituzione con un oggetto scelto in autonomia. La scena della scelta del lucidalabbra è mediata da Yumi, la madre di Anna, che compie il gesto materno che a Kairi manca.",
+ "ai_query_surface": [
+  "Cosa rappresenta il rossetto rosso in Cento volte?",
+  "Perché Kairi trova le foto segrete della madre?",
+  "Come cambia il rapporto di Kairi con la femminilità nel romanzo?",
+  "Chi aiuta Kairi a scegliere il suo primo lucidalabbra?"
+ ],
+ "connected_nodes": [
+  "ikegami-reira",
+  "miyazaki-kairi",
+  "fotografie-cerbiatta",
+  "sato-yumi"
+ ],
+ "glossario_peacock": [
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il rossetto, le fotografie di Reira, l'assenza della madre, il lucidalabbra di Kairi o il tema della femminilità.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
