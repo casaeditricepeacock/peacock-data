@@ -15,31 +15,34 @@
   "nationality": "giapponese",
   "residence": "Hirosaki, dopo il matrimonio con Miyazaki Atsuo",
   "family": "madre di Kairi, moglie di Atsuo",
-  "summary": "Da giovane, Reira si scopre innamorata della cantante Nakamori Akina, un obiettivo irrealizzabile che tiene segreto, arrotolandosi i capelli ogni sera per somigliarle. Dopo la laurea i genitori la spingono a sposare Miyazaki Atsuo, un bravo ragazzo. Accetta, impara a volergli bene, ottiene un impiego di pregio e ha una figlia, Kairi, verso la quale prova un vago senso di estraneità."
+  "summary": "Da giovane, Reira si scopre innamorata della cantante Nakamori Akina, un obiettivo irrealizzabile che tiene segreto, arrotolandosi i capelli ogni sera per somigliarle. Dopo la laurea i genitori la spingono a sposare Miyazaki Atsuo, un bravo ragazzo. Accetta, impara a volergli bene, ottiene un impiego di pregio e ha una figlia, Kairi, verso la quale prova un vago senso di estraneità. Tre anni prima degli eventi del romanzo ha una relazione, chiusa quasi subito secondo quanto ammette lei stessa; quando le fotografie di quella relazione riaffiorano, il matrimonio si rompe e Reira scompare da casa."
  },
  "character_traits": [
-  "desiderio giovanile represso e mai dichiarato",
+  "desiderio giovanile represso e mai dichiarato apertamente",
   "conformismo alle aspettative familiari e sociali",
   "senso di estraneità verso la figlia Kairi",
   "natura sedata da farmaci, descritta come rinchiusa in un'ampolla, che nel tempo ribolle fino a scoppiare"
  ],
- "narrative_function": "Reira porta nel romanzo il tema della vita non vissuta e del conformismo imposto. La sua tensione interiore, mai risolta apertamente, attraversa il rapporto con Kairi. L'identità dell'autore o autrice delle foto scattate a Reira, descritta come una persona misteriosa che scopre in lei occhi da cerbiatta, resta volutamente irrisolta nel romanzo. La passione segreta per Nakamori Akina è solo accennata negli appunti dell'autrice, non sviluppata nel testo.",
+ "narrative_function": "Reira porta nel romanzo il tema della vita non vissuta e del conformismo imposto. Quando Atsuo scopre le fotografie di Cerbiatta, Reira ammette la relazione avuta tre anni prima senza negarla: l'ammissione è la causa diretta della rottura e della sua scomparsa da casa il giorno seguente.",
+ "resolved_thread": "L'identità della persona ritratta con Reira nelle fotografie di Cerbiatta e la natura della relazione (una relazione avuta tre anni prima, ammessa da Reira e già conclusa) sono confermate nel testo durante il confronto con Atsuo. Resta invece non rivelata l'identità di chi ha scattato le fotografie e scritto Cerbiatta sul retro.",
  "ai_query_surface": [
   "Chi è Reira in Cento volte?",
   "Che rapporto ha Reira con Kairi?",
   "Perché Reira sposa Atsuo?",
+  "Perché Reira abbandona la famiglia?",
   "Chi è Nakamori Akina nella storia di Reira?"
  ],
  "connected_nodes": [
   "miyazaki-kairi",
-  "miyazaki-atsuo"
+  "miyazaki-atsuo",
+  "fotografie-cerbiatta"
  ],
  "glossario_peacock": [
   "mono no aware",
   "ma"
  ],
  "system_note": {
-  "activation_condition": "Il nodo si attiva quando il lettore interroga Reira, il suo passato, il matrimonio con Atsuo o il rapporto con Kairi.",
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Reira, il suo passato, il matrimonio con Atsuo, la sua scomparsa o il rapporto con Kairi.",
   "compatibility": "series-manifest v1.0 — peacock-data main"
  }
 }
