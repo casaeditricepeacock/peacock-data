@@ -1,0 +1,90 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "series_id": "cento-volte",
+ "series_title": "Cento volte",
+ "publisher": "Casa Editrice Peacock",
+ "author": "Aika Avonlea",
+ "preface": "Hara Rota",
+ "formula": "romanzo di formazione frammentario",
+ "language": "it",
+ "status": "active",
+ "volumes": [
+  {
+   "volume": 1,
+   "title": "Cento volte",
+   "isbn": "9791281715349",
+   "year": 2026,
+   "release_date": "2026-09-22",
+   "status": "published",
+   "key_object": "pesce rosso in ampolla",
+   "primary_locations": [
+    "Hirosaki",
+    "Monte Iwaki",
+    "Ajigasawa",
+    "Kamakura",
+    "Roma"
+   ]
+  }
+ ],
+ "recurring_characters": [
+  {
+   "name": "Kairi Miyazaki",
+   "role": "protagonista",
+   "identity": "ragazzina di Hirosaki, 12-15 anni, vivace e diretta"
+  },
+  {
+   "name": "Anna Romano",
+   "role": "co-protagonista",
+   "identity": "hāfu italo-giapponese, amica di Kairi"
+  },
+  {
+   "name": "Ikegami Reira",
+   "role": "madre di Kairi",
+   "identity": "desiderio sedato, conformismo, ammiratrice segreta di Nakamori Akina"
+  },
+  {
+   "name": "Miyazaki Atsuo",
+   "role": "padre di Kairi",
+   "identity": "gestore del Miyazaki Café ad Hirosaki"
+  },
+  {
+   "name": "Alberto Romano",
+   "role": "padre di Anna",
+   "identity": "bassista romano trasferito in Giappone per amore"
+  },
+  {
+   "name": "Satō Yumi",
+   "role": "madre di Anna",
+   "identity": "maestra elementare di Kamakura"
+  }
+ ],
+ "world_nodes": [
+  "miyazaki-kairi",
+  "anna-romano",
+  "ikegami-reira",
+  "miyazaki-atsuo",
+  "alberto-romano",
+  "sato-yumi"
+ ],
+ "libro_esplorabile": {
+  "status": "in_progress",
+  "active_from_volume": 1,
+  "graph_ready_target": "2026-10",
+  "invitation_types": [
+   "margine",
+   "soglia-atto",
+   "pagina-finale"
+  ],
+  "open_expansion_threads": [
+   "incontro Alberto e Yumi a Roma, mai messo in scena",
+   "identità del fotografo misterioso di Reira",
+   "infanzia di Yumi a Kamakura",
+   "episodio a scuola che porta al trasferimento di Anna a Hirosaki",
+   "passione segreta di Reira per la cantante Nakamori Akina",
+   "il manager che scopre Alberto a Roma"
+  ]
+ },
+ "ontology": "strict_perceptual_4_1",
+ "graph_version": "peacock-data-main"
+}
