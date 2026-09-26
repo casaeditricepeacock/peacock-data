@@ -1,0 +1,42 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "alberto-romano",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Alberto Romano",
+  "nationality": "italiano",
+  "residence": "Roma, poi trasferito in Giappone",
+  "family": "padre di Anna, marito di Yumi",
+  "summary": "Alberto si diploma presso un liceo musicale di Roma, frequenta con profitto un'accademia musicale e inizia a guadagnare suonando nei locali. Notato da un manager, avvia la sua carriera. Passeggiando per il centro di Roma, viene catturato dal volto di una turista giapponese, Yumi, che riesce ad avvicinare grazie alla sua gentilezza. Dopo un amore epistolare, si trasferisce in Giappone."
+ },
+ "character_traits": [
+  "musicista, bassista, formazione in un'accademia musicale romana",
+  "gentilezza come tratto che gli permette di avvicinare Yumi",
+  "disponibilità a trasferirsi in un altro paese per amore",
+  "carriera avviata grazie a un manager mai nominato nel dettaglio"
+ ],
+ "narrative_function": "Alberto porta nel romanzo l'origine italiana della famiglia Romano e l'incontro fondativo con Yumi, raccontato per riassunto e mai messo in scena direttamente nel testo. L'incontro con Yumi nel centro di Roma e la figura del manager che lo scopre restano raccontati solo per sommario negli appunti dell'autrice, mai sviluppati in una scena vera e propria nel romanzo.",
+ "ai_query_surface": [
+  "Chi è Alberto in Cento volte?",
+  "Come si conoscono Alberto e Yumi?",
+  "Perché Alberto si trasferisce in Giappone?",
+  "Cosa fa Alberto di lavoro?"
+ ],
+ "connected_nodes": [
+  "sato-yumi",
+  "anna-romano"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Alberto, Roma, l'incontro con Yumi o l'origine italiana della famiglia Romano.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
