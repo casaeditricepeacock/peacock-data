@@ -1,0 +1,38 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "torta-di-mele-kissaten",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "La torta di mele del kissaten",
+  "object_type": "dolce — specialità del locale di famiglia",
+  "status_narrativo": "presente in tutto il romanzo, elemento fisso della quotidianità",
+  "summary": "Miyazaki Atsuo gestisce un kissaten in centro a Hirosaki, rinomato per l'Apple pie farcita con le mele locali. Hirosaki è conosciuta come il regno delle mele, e la torta del padre di Kairi diventa il modo con cui la famiglia accoglie chiunque arrivi, incluso il primo incontro con Anna e la sua famiglia."
+ },
+ "sensory_layer": {
+  "gesto_quotidiano": "Kairi fa merenda al kissaten con una fetta di torta di mele e un tè caldo, osservando il padre lavorare",
+  "gesto_di_accoglienza": "la famiglia porta una Apple pie come regalo di benvenuto quando Anna si trasferisce nella casa accanto"
+ },
+ "narrative_function": "La torta di mele è l'oggetto che rappresenta la gentilezza stabile di Atsuo e la cultura locale di Hirosaki. È anche il primo gesto di accoglienza verso Anna, punto di partenza dell'amicizia con Kairi.",
+ "ai_query_surface": [
+  "Cos'è il kissaten della famiglia Miyazaki?",
+  "Perché Hirosaki è famosa per le mele?",
+  "Come si conoscono le famiglie di Kairi e Anna?"
+ ],
+ "connected_nodes": [
+  "miyazaki-atsuo",
+  "anna-romano"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il kissaten, la torta di mele, Hirosaki o il primo incontro tra le famiglie Miyazaki e Romano.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
