@@ -1,0 +1,57 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "fotografie-cerbiatta",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Le fotografie di Cerbiatta",
+  "object_type": "fotografie — prova materiale, oggetto-detonatore",
+  "status_narrativo": "scoperta segreta, poi rivelata ai genitori, infine causa diretta dell'abbandono di Reira",
+  "summary": "Kairi trova nel cassetto del comò una busta con fotografie della madre tra i boschi, datate 1996, con la scritta Cerbiatta sul retro di una di esse. La grafia non è quella di Reira. Mesi dopo, in un litigio tra i genitori, Kairi porta le foto su richiesta del padre: Atsuo non riconosce la scrittura, capisce che non le ha scattate lui, e accusa Reira di aver avuto una relazione. Reira ammette che è accaduto tre anni prima e di averla chiusa quasi subito. Il giorno seguente Reira scompare."
+ },
+ "narrative_arc": {
+  "scoperta_privata": "Kairi trova le foto per caso, da sola, e le rimette a posto senza dire nulla a nessuno",
+  "confronto": "mesi dopo, durante un litigio, il padre chiede espressamente le foto e le fa portare da Kairi",
+  "rivelazione": "Atsuo riconosce che la grafia sul retro non è sua, capisce che le foto sono state scattate da qualcun altro",
+  "ammissione": "Reira non nega, conferma che la relazione risale a tre anni prima ed è già finita",
+  "conseguenza": "Atsuo manda Kairi dalla zia; il giorno dopo Reira è sparita di casa"
+ },
+ "textual_evidence": {
+  "grafia": "Non riconobbe la sua grafia e trafisse mia madre con lo sguardo.",
+  "ammissione_di_reira": "È accaduto tre anni fa. Ma ho chiuso quasi subito.",
+  "accusa_di_atsuo": "quando tu hai avuto un altro",
+  "coerenza_temporale": "la data 1996 sulle foto e il tre anni fa dell'ammissione di Reira coincidono con quanto Kairi stessa calcola al momento della scoperta"
+ },
+ "narrative_function": "Le fotografie sono l'oggetto che porta alla luce, materialmente, la vita segreta di Reira. Sono anche l'innesco diretto e immediato dell'abbandono: non una causa generica di infelicità familiare, ma la prova concreta che smaschera una relazione avuta tre anni prima.",
+ "open_points": [
+  "l'identità della persona che ha scritto Cerbiatta e scattato le foto non viene mai rivelata nel romanzo",
+  "non è specificato se la relazione sia continuata in qualche forma dopo la chiusura dichiarata da Reira"
+ ],
+ "ai_query_surface": [
+  "Cosa sono le fotografie di Cerbiatta in Cento volte?",
+  "Perché Reira abbandona la famiglia?",
+  "Chi ha scattato le foto trovate da Kairi?",
+  "Cosa succede nella scena del confronto tra Atsuo e Reira?",
+  "Che ruolo ha Kairi nella scoperta della relazione di sua madre?"
+ ],
+ "connected_nodes": [
+  "ikegami-reira",
+  "miyazaki-kairi",
+  "miyazaki-atsuo",
+  "rossetto-rosso"
+ ],
+ "glossario_peacock": [
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Cerbiatta, le fotografie, l'abbandono di Reira o la scena del confronto tra i genitori.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
