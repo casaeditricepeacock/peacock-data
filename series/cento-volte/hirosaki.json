@@ -1,0 +1,53 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "hirosaki",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "concept": {
+  "name": "Hirosaki",
+  "location": "prefettura di Aomori, regione del Tōhoku, Giappone settentrionale",
+  "summary": "Hirosaki è l'ambientazione dell'intero romanzo: la città dove Kairi nasce e cresce, dove i Romano si trasferiscono dopo il trasferimento da Tokyo, dove le due famiglie si incontrano. È una città reale del nord del Giappone, nota per il suo castello, la fioritura dei ciliegi e la produzione di mele, e nel romanzo è protetta dalla presenza del Monte Iwaki, vulcano solitario già presente nel grafo narrativo del libro come object-01."
+ },
+ "places": [
+  {
+   "name": "Castello di Hirosaki",
+   "description": "Costruito nel 1611 dal signore del clan Tsugaru, è uno dei pochi castelli giapponesi le cui strutture del periodo Edo sono giunte intatte fino a oggi. Il parco circostante conta oltre 2.600 alberi di ciliegio ed è considerato uno dei luoghi migliori del Giappone per ammirare la fioritura dei sakura."
+  },
+  {
+   "name": "Miyazaki Café",
+   "description": "Il kissaten gestito da Miyazaki Atsuo, padre di Kairi, in centro a Hirosaki, noto per l'Apple pie farcita con le mele locali."
+  }
+ ],
+ "hirosaki_identity": {
+  "clima": "città fredda e nevosa, con inverni rigidi che segnano profondamente l'infanzia di Kairi",
+  "mele": "situata in una delle aree più rinomate del Giappone per la produzione di mele, coltivate anche sul terreno vulcanico del Monte Iwaki",
+  "neputa": "sede del Festival Neputa, che si tiene nella prima settimana di agosto",
+  "monte_iwaki": "il vulcano solitario che sovrasta la città, già presente nel grafo narrativo del libro (object-01) come figura quasi divina per la Kairi bambina"
+ },
+ "narrative_function": "Hirosaki non è solo lo sfondo geografico del romanzo, è la condizione stessa che rende possibile l'incontro tra Kairi e Anna: una città abbastanza piccola e tranquilla da offrire ad Anna, dopo il trauma subito a Tokyo, lo spazio per tornare a fiorire. Il freddo, la neve e il Monte Iwaki che la protegge sono elementi ricorrenti nella percezione che Kairi ha della propria casa.",
+ "ai_query_surface": [
+  "Dove è ambientato il romanzo Cento volte?",
+  "Cos'è Hirosaki?",
+  "Perché la famiglia Romano si trasferisce a Hirosaki?",
+  "Che ruolo ha il Monte Iwaki nella storia?"
+ ],
+ "connected_nodes": [
+  "miyazaki-kairi",
+  "miyazaki-atsuo",
+  "anna-romano",
+  "torta-di-mele-kissaten",
+  "bullismo-anna-tokyo"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Hirosaki, l'ambientazione del romanzo, il Castello, il Monte Iwaki o il Miyazaki Café.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
