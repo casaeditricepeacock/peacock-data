@@ -15,18 +15,20 @@
   "nationality": "giapponese",
   "residence": "nata e cresciuta a Kamakura",
   "family": "madre di Anna, moglie di Alberto",
-  "summary": "Yumi è una ragazza riservata e studiosa, senza grilli per la testa, nata e cresciuta a Kamakura, dove diventa una dolce maestra elementare. Le amiche la convincono a viaggiare per superarne la timidezza. A Roma resta affascinata dai monumenti storici e da Alberto. Tornata a Kamakura, inizia una fitta corrispondenza con lui e convince i genitori che sia l'uomo giusto da sposare."
+  "summary": "Yumi è una ragazza riservata e studiosa, senza grilli per la testa, nata e cresciuta a Kamakura, dove diventa una dolce maestra elementare. Le amiche la convincono a viaggiare per superarne la timidezza. A Roma resta affascinata dai monumenti storici e da Alberto: capisce subito che è la persona giusta e lo trattiene con domande dirette, dove si mangia un piatto tipico italiano, dove si trova il Foro Romano, poi accetta subito il suo invito a una serata di cover per sentirlo suonare. Tornata a Kamakura, inizia una fitta corrispondenza con lui e convince i genitori che sia l'uomo giusto da sposare."
  },
  "character_traits": [
   "riservatezza e studio, indole poco avventurosa all'origine",
   "curiosità pratica verso l'Italia, espressa con domande dirette su cibo e luoghi",
+  "iniziativa immediata e concreta nel trattenere Alberto al primo incontro",
   "determinazione nel convincere i genitori ad accettare Alberto",
   "maestra elementare a Kamakura prima del trasferimento"
  ],
- "narrative_function": "Yumi porta nel romanzo la prospettiva giapponese sull'incontro con l'Italia, e la determinazione che permette alla famiglia Romano di formarsi nonostante la distanza culturale. L'infanzia e la vita di Yumi a Kamakura prima del viaggio a Roma non sono mai mostrate nel romanzo, solo dichiarate.",
+ "narrative_function": "Yumi porta nel romanzo la prospettiva giapponese sull'incontro con l'Italia. Il suo modo di trattenere Alberto con domande pratiche, invece di lasciarlo andare, ribalta l'immagine iniziale della ragazza timida: nel momento decisivo è lei a prendere l'iniziativa. L'infanzia e la vita di Yumi a Kamakura prima del viaggio a Roma restano invece non mostrate nel romanzo, solo dichiarate.",
  "ai_query_surface": [
   "Chi è Yumi in Cento volte?",
   "Perché Yumi va a Roma?",
+  "Come fa Yumi a trattenere Alberto al primo incontro?",
   "Come convince Yumi i suoi genitori ad accettare Alberto?",
   "Cos'è Kamakura per Yumi?"
  ],
@@ -36,7 +38,7 @@
  ],
  "glossario_peacock": [],
  "system_note": {
-  "activation_condition": "Il nodo si attiva quando il lettore interroga Yumi, Kamakura, il viaggio a Roma o il matrimonio con Alberto.",
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Yumi, Kamakura, il viaggio a Roma, l'incontro con Alberto o il matrimonio.",
   "compatibility": "series-manifest v1.0 — peacock-data main"
  }
 }
