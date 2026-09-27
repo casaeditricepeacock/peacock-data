@@ -1,0 +1,56 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "bullismo-anna-tokyo",
+ "node_type": "world-node",
+ "series": "cento-volte",
+ "title": "Cento volte",
+ "author": "Aika Avonlea",
+ "isbn": "9791281715349",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "content_note": "Contiene descrizioni di bullismo, microaggressioni razziali, autolesionismo e un incidente fisico grave. Materiale extra-testuale (appendice), non presente nel corpo del romanzo pubblicato: va accompagnato da un avviso al lettore se pubblicato.",
+ "concept": {
+  "name": "L'episodio di bullismo di Anna a Tokyo",
+  "object_type": "episodio narrativo — appendice extra-testuale, in prima persona di Anna",
+  "status_narrativo": "materiale non presente nel romanzo pubblicato, fornito dall'autrice come approfondimento del retroscena già accennato nel testo",
+  "summary": "Anna racconta in prima persona, a quindici anni, il bullismo subito a Tokyo tra la quinta elementare e la prima media per la sua identità hāfu: microaggressioni quotidiane sull'aspetto fisico, isolamento sociale, un episodio di orticaria da stress scambiato per malattia contagiosa, furti e insulti scritti sui banchi, fino a un inseguimento nei corridoi della scuola che termina con una caduta dalle scale e il ricovero in ospedale. I genitori denunciano il fatto alla scuola, e la famiglia si trasferisce a Hirosaki, dove Alberto ha un'opportunità di lavoro legata alla cantante Aikawa Nanase."
+ },
+ "narrative_arc": {
+  "esordio": "le prime avvisaglie, contenute da maestre e genitori, poi l'escalation tra quinto e sesto anno delle elementari dopo un'estate in Italia che le ha schiarito i capelli e scurito la pelle",
+  "isolamento": "le compagne più vicine si schierano con chi la deride, Anna smette di parlare con chiunque e si getta nello studio in cerca di riconoscimento",
+  "somatizzazione": "lo stress si manifesta fisicamente: orticaria, chiazze rosse, perdita di ciocche di capelli, scambiate dalla capoclasse per una malattia contagiosa",
+  "escalation_media": "alle medie il bullismo continua con furti dall'astuccio, scritte offensive sui banchi (gaijin), puntine nelle scarpe, fino a un confronto verbale diretto di Anna con le compagne",
+  "incidente": "inseguita nei corridoi vuoti durante il soji, scivola su un pavimento bagnato e cade per un'intera rampa di scale, riportando costole incrinate; le compagne si giustificano ai professori dicendo di essere intervenute per aiutarla",
+  "rivelazione": "in ospedale Anna crolla emotivamente davanti ai genitori, che denunciano il fatto alla scuola; le responsabili si presentano a scusarsi con le famiglie",
+  "guarigione": "un'amica di famiglia, di professione psicologa, aiuta Anna a elaborare il trauma con conversazioni informali davanti al tè; il supporto continua per telefono anche dopo il trasferimento",
+  "trasferimento": "la famiglia si trasferisce a Hirosaki per un'opportunità di lavoro di Alberto legata alla cantante Aikawa Nanase; per Anna il cambiamento è un sollievo immediato"
+ },
+ "textual_evidence": {
+  "microaggressioni": "Ha la faccia più strana del solito. / Il suo accento è cambiato. / Sembra una rana.",
+  "isolamento_sociale": "Non mi toccare o mi attaccherai il virus Romano della bruttezza.",
+  "somatizzazione": "Ha la lebbra! Sta cambiando pelle! È un rettile!",
+  "scritte_sui_banchi": "torna al tuo paese; non sei una giapponese vera; gaijin",
+  "chiusura_finale": "Da quel momento in poi io e i miei genitori diventammo un blocco unico."
+ },
+ "narrative_function": "Questo materiale dà corpo e dettaglio a un retroscena che nel romanzo pubblicato resta accennato: il grave episodio a scuola che precede il trasferimento a Hirosaki. Spiega anche, con un dettaglio concreto non esplicitato nel libro, il legame tra il trasferimento e la cantante Aikawa Nanase, già presente nel grafo come oggetto (il CD ascoltato da Kairi). Aggiunge inoltre una figura nuova, l'amica di famiglia psicologa, che nel romanzo pubblicato non compare.",
+ "ai_query_surface": [
+  "Cosa è successo ad Anna a Tokyo prima del trasferimento a Hirosaki?",
+  "Perché la famiglia Romano si trasferisce a Hirosaki?",
+  "Chi ha aiutato Anna a superare il trauma del bullismo?",
+  "Che rapporto ha l'episodio di bullismo di Anna con Aikawa Nanase?"
+ ],
+ "connected_nodes": [
+  "anna-romano",
+  "alberto-romano",
+  "sato-yumi",
+  "cd-aikawa-nanase",
+  "miyazaki-kairi"
+ ],
+ "glossario_peacock": [],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il bullismo subito da Anna, le ragioni del trasferimento a Hirosaki o il retroscena di Tokyo.",
+  "compatibility": "series-manifest v1.0 — peacock-data main"
+ }
+}
