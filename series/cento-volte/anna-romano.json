@@ -23,7 +23,7 @@
   "espansività naturale progressivamente ritirata, poi ritrovata a Hirosaki",
   "estati italiane come controparte affettiva alla vita giapponese"
  ],
- "narrative_function": "Anna porta nel romanzo il tema dell'identità hāfu e delle microaggressioni quotidiane. Il suo trasferimento a Hirosaki e l'incontro con Kairi segnano il suo ritorno a fiorire dopo l'isolamento subito a Tokyo. L'episodio grave che porta al trasferimento da Tokyo non è raccontato nel dettaglio nel romanzo, solo indicato come causa. Filo narrativo aperto, possibile sviluppo futuro.",
+ "narrative_function": "Anna porta nel romanzo il tema dell'identità hāfu e delle microaggressioni quotidiane. Il suo trasferimento a Hirosaki e l'incontro con Kairi segnano il suo ritorno a fiorire dopo l'isolamento subito a Tokyo. Il bullismo subito a Tokyo, il grave episodio che precede il trasferimento e il legame con la cantante Aikawa Nanase sono raccontati in dettaglio nel nodo bullismo-anna-tokyo.",
  "ai_query_surface": [
   "Chi è Anna in Cento volte?",
   "Cosa significa hāfu?",
@@ -33,7 +33,8 @@
  "connected_nodes": [
   "miyazaki-kairi",
   "alberto-romano",
-  "sato-yumi"
+  "sato-yumi",
+  "bullismo-anna-tokyo"
  ],
  "glossario_peacock": [
   "mono no aware"
