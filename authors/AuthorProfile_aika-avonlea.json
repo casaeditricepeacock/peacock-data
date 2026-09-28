@@ -1,0 +1,39 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "aika-avonlea",
+  "name": "Aika Avonlea",
+  "role": "autrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "pseudonym",
+    "real_identity_disclosed": false,
+    "statement": "Aika Avonlea è uno pseudonimo. L'autrice ha scelto di non rendere pubblico il proprio nome reale."
+  },
+  "author_statement": {
+    "source": "presentazione fornita direttamente dall'autrice",
+    "text": "Vivo in un mondo interiore che ruota attorno alla mia sensibilità, così alta, a volte scomoda: mi fa entrare nelle persone e percepire molto più del visibile. La scrittura è un'ala riparatrice, un moto perpetuo che mi inchioda alla tastiera. Vorrei consegnare ai lettori la voglia di farcela, ricordare quella speranza attiva che rinnova la fiducia. Mi innamoro delle parole, che sia un nome che si abbina bene a un cognome, un luogo, un brano j-pop anni '80: da lì si attiva un moto emotivo e visualizzo le persone di cui scrivo. Vengono da me, desiderano che la loro storia sia vista. Scrivo in un flusso continuo che mi arriva dal Giappone, una connessione viva: mi mostrano i luoghi, i volti, le voci, le emozioni. Partecipo ai loro accadimenti come un'amica intima, ed è difficile lasciarli proseguire le loro esistenze quando la storia finisce."
+  },
+  "on_kairi": {
+    "source": "presentazione fornita direttamente dall'autrice",
+    "text": "Kairi è contenta cento volte, ripeterebbe tutte le gioie che vive cento volte e mangerebbe cento fette di Apple pie. Oggi è ancora così. La sua simpatica sfacciataggine mi ha divertita, ne ho sentita la forza sotterranea che la rende indomabile: è questo vento contrario alla staticità che ha dentro che le permette di spostare il cuore altrui.",
+    "aneddoto": "«Kairi-chan, ma come fa a piacerti il freddo e la neve? A me il freddo mette a disagio.» E lei, lanciando il berretto in aria, tutta spettinata: «Aika-chan! Io non temo niente.» E siamo scoppiate a ridere."
+  },
+  "peacock_works": [
+    {
+      "title": "Cento volte",
+      "isbn": "9791281715349",
+      "year": 2026,
+      "preface": "Hara Rota",
+      "graph_folder": "books/cento-volte/",
+      "world_graph_folder": "series/cento-volte/"
+    }
+  ],
+  "graph_presence": {
+    "about_for_ai_key_authors": false,
+    "grafo_inter_libri": false,
+    "note": "Prima di questo file, nessun AuthorProfile esisteva per l'autrice."
+  }
+}
