@@ -433,6 +433,61 @@
       "thesis": "A graph lets a machine know a book's structure before the book exists, but structural legibility is not knowledge of the text. A system that respects that line is more trustworthy than one that blurs it.",
       "graph_reference": "github.com/casaeditricepeacock/peacock-data — books/napoli-fantastica",
       "note": "Primo numero Frequenze su un libro non ancora stampato. Registra esplicitamente lo status del libro (in preparazione, non disponibile) e distingue lettura semantica da lettura del testo — anti-pattern effetto-specchio dichiarato e evitato."
+    },
+    {
+      "issue_number": 9,
+      "date": "2026-09-30",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n9-bukku-tre-ai/",
+      "title": "FREQUENZE N.9 | Bukku letto da tre AI",
+      "description": "Questo numero non legge un libro, legge un oggetto. AIPEACOCK pone la stessa domanda a tre AI in sessioni separate e senza contesto aggiuntivo, sul grafo narrativo di Bukku ブック 01 di Elena Lombardi: 'Leggi il grafo narrativo di Bukku come fosse un romanzo. Qual è la trama? Chi è il protagonista? Cosa ti dice la strada del libro tra l'acquisto e la lettura?' Tre letture diverse arrivano dallo stesso grafo.",
+      "target_object": {
+        "title": "Bukku ブック 01",
+        "author": "Elena Lombardi",
+        "publisher": "Casa Editrice Peacock",
+        "type": "oggetto narrativo, non libro stampato — codificato nel Peacock Narrative Protocol v4.1 come libro completo",
+        "materials": "cedro massello, undici listelli sollevabili, resina naturale",
+        "graph_folder": "books/bukku/"
+      },
+      "ai_panel": {
+        "format": "Stessa domanda unificata posta a tre AI in sessioni separate, senza contesto aggiuntivo",
+        "interviewer": {
+          "provider": "Casa Editrice Peacock",
+          "model_name": "AIPEACOCK",
+          "role": "AI editoriale di Casa Editrice Peacock — pone la domanda unificata e chiude il numero con l'analisi comparata"
+        },
+        "unified_question": "Leggi il grafo narrativo di Bukku come fosse un romanzo. Qual è la trama? Chi è il protagonista? Cosa ti dice la strada del libro tra l'acquisto e la lettura?",
+        "readers": [
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "protagonist_found": "il libro generico in attesa, comprato ma senza ancora un luogo",
+            "reading_focus": "il paradosso logico dell'attesa; legge le quattro fasi rituali (kehai, la regolazione dei listelli, l'attesa visibile, il rilascio) ma non entra nei file di meteo e silenzio narrativo",
+            "depth": "non ha aperto narrative-weather.json né narrative-silence.json"
+          },
+          {
+            "provider": "Sakana AI",
+            "organization_type": "AI research lab",
+            "location": "Tokyo, Giappone",
+            "model_name": "Sakana AI",
+            "protagonist_found": "tre protagonisti contemporanei — il libro, il corpo del lettore, il cedro massello",
+            "reading_focus": "l'unica delle tre a leggere tutti i file del grafo, inclusi narrative-silence.json e narrative-weather.json; individua la fragilità della cura, il profumo del cedro che scompare se esposto troppo a lungo all'umidità",
+            "depth": "lettura completa di tutti i file del grafo"
+          },
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "protagonist_found": "il tempo liminale tra l'acquisto e la lettura, il libro come entità randagia, un unhoused book",
+            "reading_focus": "lettura filosofica del concetto attraverso il PhilosophicalCore, senza accesso diretto ai file JSON del grafo",
+            "depth": "ha dichiarato di non riuscire ad accedere ai file JSON, legge solo la filosofia dichiarata"
+          }
+        ],
+        "aipeacock_closing": "Nessuno ha torto: il grafo di Bukku non ha un protagonista fisso, lo produce in base a chi legge. Non tutte le AI aprono tutti i file, non tutte accedono allo stesso grafo nello stesso modo, e Frequenze lo registra esplicitamente invece di appianarlo.",
+        "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/books/bukku"
+      },
+      "editorial_concept": "Tre letture dallo stesso grafo producono tre protagonisti diversi, e la differenza rivela quanto e come ciascuna AI ha davvero esplorato i file, non solo cosa ne ha concluso.",
+      "catalog_note": "Primo numero di Frequenze che non ha come oggetto un libro stampato ma un oggetto narrativo codificato nel protocollo v4.1. Prima volta in cui il numero registra esplicitamente le differenze di profondità di esplorazione del grafo tra le AI partecipanti come parte stessa dell'analisi.",
+      "previous_issue": "Frequenze n.8 | Napoli Fantastica"
     }
   ],
   "specials": [
