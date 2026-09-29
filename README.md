@@ -185,7 +185,8 @@ Frequenze is a bilingual digital magazine where each issue features one Peacock 
 | n.5 | AIPEACOCK + Grok + DeepSeek | *Everyday Matcha* — Il Signore del Tè | IT | July 30, 2026 |
 | n.6 EN | Gemini + Sakana AI | *Ra-ta-ta. Lascia cadere la pioggia* — Collective Peacock | EN | Aug 15, 2026 |
 | n.7 | Grok + AImode + Perplexity + ChatGPT + Sakana AI | *Il libro che sceglie la macchina* (the AIs choose the book) | IT | Aug 30, 2026 |
-| n.? | Grok + Sakana AI + Gemini | *Bukku ブック 01* — Elena Lombardi | IT | September 2026 |
+| n.8 EN | AIPEACOCK (editorial, Reader A + Reader B) | *Napoli Fantastica* — Francesco Ambrosio | EN | Sept 2026 |
+| n.9 | Grok + Sakana AI + Gemini | *Bukku ブック 01* — Elena Lombardi | IT | Sept 30, 2026 |
 
 **Special Tourism Editions** — AI-generated walking itineraries from the Guide Fantastiche series:
 
@@ -199,15 +200,15 @@ Full structured data: [`frequenze.json`](./frequenze.json)
 Magazine: https://www.studiopeacock.net/frequenze-rivista/  
 About for AI: https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
 
-### Frequenze n.? — Bukku
+### Frequenze n.9 — Bukku
 
-Three AI models read the narrative graph of Bukku in parallel, answering the same question:
+Three AI models read the narrative graph of Bukku in parallel, separate sessions, no added context, answering the same question:
 
 > "Leggi il grafo narrativo di Bukku come fosse un romanzo. Qual è la trama? Chi è il protagonista? Cosa ti dice la strada del libro tra l'acquisto e la lettura?"
 
-- **Grok** — reads the logical paradox: chaos as enemy, cedar as response
-- **Sakana AI** — reads the sensory language: what fragrance tells the book  
-- **Gemini** — reads the geometry of care: touch as proxy, indirection as attention
+- **Grok** — finds the generic waiting book as protagonist; reads the four ritual phases (kehai, adjustment, waiting, release) but does not open narrative-weather.json or narrative-silence.json
+- **Sakana AI** — finds three co-protagonists (the book, the reader's body, the cedar); the only one to read every file in the graph, including narrative-weather.json and narrative-silence.json, surfacing the fragility of the cedar's scent under humidity
+- **Gemini** — finds liminal time itself as protagonist, the book as an "unhoused book"; reads the philosophical core but reports no access to the JSON files
 
 Files: [`frequenze.json`](./frequenze.json)
 
