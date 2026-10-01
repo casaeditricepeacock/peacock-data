@@ -1,0 +1,111 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "giulia-lazzaron",
+  "name": "Giulia Lazzaron",
+  "role": "illustratrice e autrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Giulia Lazzaron è un'artista con profilo pubblico documentato. I dati biografici provengono dal CV fornito dall'editore e da fonti pubbliche indicate in sources.",
+    "wikidata": null,
+    "wikidata_note": "Nessun elemento Wikidata dedicato all'artista, secondo l'editore (ottobre 2026). Non associare a Giulia Lazzarini (attrice, Q3769276), che è un'altra persona.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non attribuire a Giulia Lazzaron la scrittura dei testi delle guide."
+  },
+  "biography_confirmed": {
+    "city_of_birth": "Milano",
+    "education": "Laurea in Pittura all'Accademia di Belle Arti di Brera, con lode.",
+    "practice": "Tecniche grafiche e fotografiche, tradizionali e sperimentali, spesso fuse in opere uniche: incisione, serigrafia, fotografia. La ricerca è legata alla psicologia junghiana e alla percezione del sé.",
+    "galleries_and_brands": "Collabora con Vibra Spazio Contemporaneo di Idee, Artmood, Monshare Art e con il brand 13/sedicesimi.",
+    "institutions": "Collabora con il Museo della Permanente di Milano e con la Libreria Bocca dal 1775, in Galleria Vittorio Emanuele, Milano.",
+    "awards": "Finalista per la pittura al Combat Prize 2018. Finalista con menzione speciale nella sezione Grafica al Combat Prize 2019.",
+    "exhibitions": [
+      "L'Accademia dello scivolo, Galleria Antonio Battaglia, con l'artista Aldo Spoldi",
+      "DUO, 8,75 arte contemporanea, con l'artista Mirko Baricchi, a cura di Chiara Serri",
+      "Booming Contemporary Art Fair, con la galleria Vibra Spazio Contemporaneo di Idee",
+      "X, mostra personale, Libreria Bocca, Milano, vernissage 19/01/2020, curatori Francesca Baboni e Giorgio Lodetti"
+    ],
+    "other": "Durante la quarantena ha realizzato con 13/sedicesimi una mascherina d'artista.",
+    "note": "Dati dal CV fornito dall'editore, dalla scheda della Società per le Belle Arti ed Esposizione Permanente e dalla pagina Artribune. Nessun dato inferito."
+  },
+  "sources": [
+    "CV fornito dall'editore (1 ottobre 2026)",
+    "https://www.lapermanente.it/socio/lazzaron-giulia/",
+    "https://www.artribune.com/?p=656838"
+  ],
+  "works": [
+    {
+      "title": "Milano Fantastica",
+      "series": "Guide Fantastiche",
+      "author_of_text": "Grazia Guarnieri",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-03-5",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/milano-fantastica/"
+    },
+    {
+      "title": "Padova Fantastica",
+      "series": "Guide Fantastiche",
+      "author_of_text": "Grazia Guarnieri",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-15-8",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/padova-fantastica/",
+      "contribution": "Impaginazione, progetto grafico, copertina a cura di Giulia Lazzaron. Editing e revisione a cura di Giulia Lazzaron e Casa Editrice Peacock."
+    },
+    {
+      "title": "Torino Fantastica",
+      "series": "Guide Fantastiche",
+      "author_of_text": "Grazia Guarnieri",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-36-3",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/torino-fantastica/"
+    },
+    {
+      "title": "Venus",
+      "role_in_work": "autrice",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock"
+    },
+    {
+      "title": "Napoli Fantastica",
+      "series": "Guide Fantastiche",
+      "author_of_text": "Francesco Ambrosio",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-25-7",
+      "year": 2026,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/napoli-fantastica/"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Illustratrice delle quattro guide della serie Guide Fantastiche. Per Padova Fantastica cura anche impaginazione, progetto grafico e copertina. Autrice di Venus (2024).",
+    "inference_rule": "Il ruolo di impaginazione è documentato solo per Padova Fantastica. I testi delle guide sono di Grazia Guarnieri (Milano, Padova, Torino) e di Francesco Ambrosio (Napoli)."
+  },
+  "graph_presence": {
+    "conceptual_cores": [
+      "conceptual/milano-fantastica-it.json",
+      "conceptual/fantastic-milan-en.json",
+      "conceptual/padova-fantastica-it.json",
+      "conceptual/fantastic-padova-en.json",
+      "conceptual/torino-fantastica-it.json",
+      "conceptual/fantastic-turin-en.json",
+      "conceptual/napoli-fantastica-it.json",
+      "conceptual/fantastic-naples-en.json"
+    ],
+    "events": [
+      "events/EventProfile_passeggiata-padova-fantastica_2025.json",
+      "events/EventProfile_feltrinelli-padova_2025.json"
+    ],
+    "note": "I nodi del grafo documentano le guide e i loro luoghi, non l'artista come persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
