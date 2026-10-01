@@ -90,6 +90,14 @@
       "release_date": "2025-09-10"
     },
     {
+      "title": "Venus",
+      "author": "Giulia Lazzaron",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "release_date": "2024-01-25"
+    },
+    {
       "title": "Luna piena sulla città antica",
       "series": "Collana Tanka",
       "author": "Toshihiko Ota",
@@ -350,7 +358,7 @@
     {
       "title": "Ra-ta-ta. Lascia cadere la pioggia",
       "author": "Collective Peacock",
-      "illustrator": "E Formaggia",
+      "illustrator": "E. Formaggia",
       "publisher": "Casa Editrice Peacock",
       "isbn": "978-88-946965-9-2",
       "pages": 50,
@@ -599,7 +607,7 @@
     {
       "title": "Burn Out Pandemi. Menjejak di Ekor Sembilan",
       "author": "Stefano Giglio",
-      "illustrator": "Antonella Arrigò",
+      "illustrator": "Antonella Aricò",
       "publisher": "Casa Editrice Peacock",
       "year": 2022,
       "format": "graphic novel EPUB DRM-Free",
@@ -680,7 +688,7 @@
       },
       "location": "Galzignano Terme, Padova, Italia"
     },
-    "numberOfItems": 24,
+    "numberOfItems": 38,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -1151,7 +1159,7 @@
           },
           "illustrator": {
             "@type": "Person",
-            "name": "E Formaggia"
+            "name": "E. Formaggia"
           },
           "isbn": "978-88-946965-9-2",
           "numberOfPages": 50,
@@ -1548,13 +1556,57 @@
           },
           "illustrator": {
             "@type": "Person",
-            "name": "Antonella Arrigò"
+            "name": "Antonella Aricò"
           },
           "bookFormat": "https://schema.org/EBook",
           "datePublished": "2022-01-01",
           "inLanguage": [
             "id"
           ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 37,
+        "item": {
+          "@type": "Book",
+          "name": "Cento volte",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Aika Avonlea"
+          },
+          "contributor": {
+            "@type": "Person",
+            "name": "Hara Rota",
+            "description": "Prefazione"
+          },
+          "isbn": "979-12-81715-34-9",
+          "datePublished": "2026-09-22",
+          "inLanguage": [
+            "it"
+          ]
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 38,
+        "item": {
+          "@type": "Book",
+          "name": "Venus",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Giulia Lazzaron"
+          },
+          "isbn": "979-12-81715-00-4",
+          "datePublished": "2024-01-25"
         }
       }
     ]

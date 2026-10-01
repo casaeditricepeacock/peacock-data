@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-09-20",
+    "generated": "2026-10-01",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -117,6 +117,17 @@
       "print-layer.json"
     ],
     "carto-storie-di-natale": [
+      "narrative-object.json",
+      "narrative-ritual.json",
+      "narrative-scene.json",
+      "narrative-silence.json",
+      "narrative-system-graph.json",
+      "narrative-transition.json",
+      "narrative-weather.json",
+      "perceptual-field.json",
+      "print-layer.json"
+    ],
+    "cento-volte": [
       "narrative-object.json",
       "narrative-ritual.json",
       "narrative-scene.json",
@@ -406,17 +417,6 @@
       "print-layer.json"
     ],
     "torino-fantastica": [
-      "narrative-object.json",
-      "narrative-ritual.json",
-      "narrative-scene.json",
-      "narrative-silence.json",
-      "narrative-system-graph.json",
-      "narrative-transition.json",
-      "narrative-weather.json",
-      "perceptual-field.json",
-      "print-layer.json"
-    ],
-    "cento-volte": [
       "narrative-object.json",
       "narrative-ritual.json",
       "narrative-scene.json",
@@ -736,7 +736,10 @@
       "datasets/matcha-ritmo-chasen-semantic-dataset.json",
       "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json",
       "datasets/nagashino-semantic-dataset.json",
+      "datasets/naviglio-san-marco-theobroma-semantic-dataset.json",
       "datasets/nobunaga-semantic-dataset.json",
+      "datasets/orin-campane-buddiste-toyama-semantic-dataset.json",
+      "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
       "datasets/ryokan-storia-soglia-semantic-dataset.json",
       "datasets/sengoku-semantic-dataset.json",
       "datasets/shogoro-nomura-dataset.json",
@@ -757,6 +760,21 @@
       "cities/torre-velasca-milano-semantic-dataset.json"
     ],
     "series": [
+      "series/cento-volte/alberto-romano.json",
+      "series/cento-volte/amuleto-portafortuna.json",
+      "series/cento-volte/anna-romano.json",
+      "series/cento-volte/bullismo-anna-tokyo.json",
+      "series/cento-volte/cd-aikawa-nanase.json",
+      "series/cento-volte/fotografie-cerbiatta.json",
+      "series/cento-volte/hirosaki.json",
+      "series/cento-volte/ikegami-reira.json",
+      "series/cento-volte/index.json",
+      "series/cento-volte/miyazaki-atsuo.json",
+      "series/cento-volte/miyazaki-kairi.json",
+      "series/cento-volte/rossetto-rosso.json",
+      "series/cento-volte/sato-yumi.json",
+      "series/cento-volte/series-manifest.json",
+      "series/cento-volte/torta-di-mele-kissaten.json",
       "series/i-gialli-di-kyoto/alexander-editore.json",
       "series/i-gialli-di-kyoto/azuchi-castello.json",
       "series/i-gialli-di-kyoto/benzaiten.json",
@@ -817,8 +835,10 @@
       "saggistica/LogicalArgument_ryokan-piccolo-manifesto.json"
     ],
     "authors": [
+      "authors/AuthorProfile_aika-avonlea.json",
       "authors/AuthorProfile_collective-peacock.json",
       "authors/AuthorProfile_elena-lombardi.json",
+      "authors/AuthorProfile_giulia-lazzaron.json",
       "authors/AuthorProfile_hara-rota.json",
       "authors/AuthorProfile_helene-blignaut.json",
       "authors/AuthorProfile_ligustro.json",
@@ -910,6 +930,7 @@
       "rituals/RitualProcess_riso_hara-rota.json"
     ],
     "collaborations": [
+      "collaborations/PrefaceCollaboration_hara-rota_cento-volte.json",
       "collaborations/alessandro-quasimodo.json",
       "collaborations/francesca-vettori.json",
       "collaborations/giuseppina-iacovelli.json",
