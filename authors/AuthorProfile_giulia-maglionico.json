@@ -1,0 +1,49 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "giulia-maglionico",
+  "name": "Giulia Maglionico",
+  "role": "artista contemporanea",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Giulia Maglionico è un'artista con profilo pubblico documentato. I dati provengono dalla prefazione e dai ringraziamenti di Venus.",
+    "wikidata": null,
+    "wikidata_note": "Nessun identificativo Wikidata fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non confonderla con Giulia Lazzaron."
+  },
+  "biography_confirmed": {
+    "practice": "Artista contemporanea italiana. Nel suo lavoro la Venere è citata per denunciare la violenza sulle donne. Anima digitalmente opere dipinte a mano e usa gli NFT per certificarne l'unicità.",
+    "works_cited": "Serie VENERE #You Too (2023): animazione digitale da opera dipinta, NFT su blockchain SOL, courtesy Futura Art Gallery.",
+    "note": "Dati dalla prefazione di Massimo Ruotolo e dai ringraziamenti di Venus. Non ha una biografia nel volume. Nessun dato inferito."
+  },
+  "sources": [
+    "Venus, Casa Editrice Peacock, 2024 (prefazione di Massimo Ruotolo, pp. 8-9, e ringraziamenti)"
+  ],
+  "works": [
+    {
+      "title": "Venus",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/venus/",
+      "role_in_work": "artista citata e riprodotta nella prefazione",
+      "contribution": "Opera VENERE #You Too, 2023, riprodotta nella prefazione"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Artista citata e riprodotta nella prefazione di Venus e ringraziata dall'artista.",
+    "inference_rule": "Non è autrice di testi del volume. Il ruolo è documentato solo per Venus."
+  },
+  "graph_presence": {
+    "related_people": [
+      "authors/AuthorProfile_massimo-ruotolo.json",
+      "authors/AuthorProfile_giulia-lazzaron.json"
+    ],
+    "note": "I nodi del grafo documentano il libro, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
