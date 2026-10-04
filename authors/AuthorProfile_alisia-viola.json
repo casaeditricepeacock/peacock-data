@@ -1,0 +1,51 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "alisia-viola",
+  "name": "Alisia Viola",
+  "role": "curatrice d'arte contemporanea, critica d'arte e project manager culturale",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Alisia Viola è una curatrice con profilo pubblico documentato. I dati biografici provengono dalla biografia pubblicata in Venus.",
+    "wikidata": null,
+    "wikidata_note": "Nessun identificativo Wikidata fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "city_of_birth": "Milano",
+    "born": 1995,
+    "practice": "Curatrice d'arte contemporanea, critica d'arte e project manager culturale. Cura testi editoriali, mostre e cataloghi, e collabora con gallerie, enti pubblici e privati e artisti italiani e internazionali. Scrive per testate di settore.",
+    "teaching": "Docente presso l'Italian Design Institute (alla data di Venus, gennaio 2024).",
+    "current_work": "Lavora con realtà e artisti phygital, su progetti d'arte tra fisico e digitale (alla data di Venus).",
+    "note": "Dati dalla biografia pubblicata in Venus. Nei ringraziamenti dell'artista è citata per aver dato origine con lei al progetto Venere. Nessun dato inferito."
+  },
+  "sources": [
+    "Venus, Casa Editrice Peacock, 2024 (sezione Biografie, pp. 114-115)"
+  ],
+  "works": [
+    {
+      "title": "Venus",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/venus/",
+      "role_in_work": "autrice di due saggi",
+      "contribution": "La figura della Venus nella storia dell'arte; Venere"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autrice di due saggi in Venus.",
+    "inference_rule": "Il ruolo è documentato solo per Venus."
+  },
+  "graph_presence": {
+    "related_people": [
+      "authors/AuthorProfile_giulia-lazzaron.json"
+    ],
+    "note": "I nodi del grafo documentano il libro, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
