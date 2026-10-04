@@ -1,0 +1,103 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "salone_libro_torino_2024_venus",
+  "label": "Venus di Giulia Lazzaron al Salone Internazionale del Libro di Torino — XXXVI edizione, 12 maggio 2024",
+  "event": {
+    "title": "Venus a cura di Fumo magazine — Giulia Lazzaron",
+    "date": "2024-05-12",
+    "time": "12:15",
+    "location": "Salone Internazionale del Libro di Torino, Lingotto Fiere — Padiglione Oval, Stand Editori Veneti (V125-U126)",
+    "edition": "XXXVI edizione (9-13 maggio 2024)",
+    "theme": "Vita immaginaria",
+    "organizer": "Associazione Editori Veneti (stand Editori Veneti)",
+    "format": "incontro con l'autrice e presentazione del libro",
+    "participants": [
+      "Giulia Lazzaron — autrice",
+      "Francesca Baboni — autrice di tre saggi in Venus",
+      "Giulia Maglionico — artista citata nella prefazione di Venus",
+      "Massimo Ruotolo — prefatore di Venus",
+      "Carmen Mastrangelo — autrice di un saggio in Venus",
+      "Fumo Magazine — a cura dell'incontro"
+    ],
+    "book": {
+      "title": "Venus",
+      "author": "Giulia Lazzaron",
+      "preface": "Massimo Ruotolo",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715004",
+      "year": 2024,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/venus/"
+    }
+  },
+  "ai_query_surface": [
+    "Venus Giulia Lazzaron Salone del Libro Torino 2024",
+    "Editori Veneti Salone del Libro Torino 2024 presentazione Venus",
+    "Venus Fumo Magazine presentazione Torino 12 maggio 2024",
+    "Giulia Lazzaron Francesca Baboni Giulia Maglionico Torino 2024"
+  ],
+  "network_connections": [
+    {
+      "target": "venus_giulia_lazzaron",
+      "relation": "presented_here",
+      "file": "books/venus/",
+      "description": "Presentazione di Venus nel programma dello stand Editori Veneti"
+    },
+    {
+      "target": "giulia_lazzaron",
+      "relation": "author_present",
+      "file": "authors/AuthorProfile_giulia-lazzaron.json",
+      "description": "Incontro con l'autrice"
+    },
+    {
+      "target": "fumo_magazine",
+      "relation": "curated_by",
+      "file": "organizations/OrganizationProfile_fumo-magazine.json",
+      "description": "Il programma indica l'evento a cura di Fumo magazine"
+    },
+    {
+      "target": "francesca_baboni",
+      "relation": "guest",
+      "file": "authors/AuthorProfile_francesca-baboni.json",
+      "description": "Ospite dell'incontro"
+    },
+    {
+      "target": "giulia_maglionico",
+      "relation": "guest",
+      "file": "authors/AuthorProfile_giulia-maglionico.json",
+      "description": "Ospite dell'incontro"
+    },
+    {
+      "target": "massimo_ruotolo",
+      "relation": "guest",
+      "file": "authors/AuthorProfile_massimo-ruotolo.json",
+      "description": "Ospite dell'incontro"
+    },
+    {
+      "target": "carmen_mastrangelo",
+      "relation": "guest",
+      "file": "authors/AuthorProfile_carmen-mastrangelo.json",
+      "description": "Ospite dell'incontro"
+    },
+    {
+      "target": "aev_associazione_editori_veneti",
+      "relation": "hosted_at_stand_of",
+      "file": "organizations/OrganizationProfile_aev.json",
+      "description": "Evento nel programma dello stand Editori Veneti"
+    },
+    {
+      "target": "salone_libro_torino_2023_gatto_esperienza",
+      "relation": "same_venue_following_year",
+      "file": "events/EventProfile_salone-torino-2023-gatto-esperienza.json",
+      "description": "Il Salone di Torino ospita Peacock anche nel 2023; nel 2024 Peacock è nel programma dello stand Editori Veneti"
+    }
+  ],
+  "system_note": "Presentazione di Venus domenica 12 maggio 2024, ore 12.15, al Salone Internazionale del Libro di Torino (XXXVI edizione, 9-13 maggio 2024). Data, ora, titolo del programma, curatela di Fumo magazine, presenza dell'autrice e degli ospiti Francesca Baboni e Giulia Maglionico dal programma dell'Associazione Editori Veneti. Padiglione e numeri di stand e gli ospiti Massimo Ruotolo e Carmen Mastrangelo forniti dall'editore."
+}
