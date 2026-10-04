@@ -1,0 +1,74 @@
+{
+  "type": "NarrativeSilence",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "silence_types": {
+    "non_resolution": "una domanda che resta aperta senza risposta",
+    "declared_exclusion": "un'esclusione dichiarata dal testo che la compie",
+    "threshold": "un confine raggiunto da una voce che parla di ciò che non ha"
+  },
+  "editorial_principle": "I silenzi di Venus sono le cose che il libro dice di non fare: non dare risposte assolute, non includere chi la lingua standard non include, dare l'ultima parola sul corpo a una voce che dichiara di non averne uno.",
+  "silences": [
+    {
+      "id": "silence-01",
+      "type": "non_resolution",
+      "intensity": 0.9,
+      "basho": "la sezione dell'intervista in cui l'artista descrive il proprio lavoro",
+      "kokyu": "il tempo della risposta che rimanda al lettore",
+      "yūgen": "l'opera pone domande e il testo dichiara di non dare risposte definitive",
+      "position_in_text": "intervista all'artista",
+      "perceptual_weight": 0.9,
+      "textual_anchor_it": "pone interrogativi ma non dà risposte assolute; tende a far trovare a tutti coloro che l’osservano uno o più significati",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "silence-02",
+      "type": "declared_exclusion",
+      "intensity": 0.8,
+      "basho": "il saggio di Carmen Mastrangelo, nel punto in cui dichiara la lingua usata",
+      "kokyu": "il tempo di una nota a margine dentro il saggio",
+      "yūgen": "il testo nomina chi la propria lingua lascia fuori, e continua a usarla",
+      "position_in_text": "saggio sul movimento body positive, sezione sull'intersezionalità",
+      "perceptual_weight": 0.8,
+      "non_integrable_residue": {
+        "status": true,
+        "description": "chi viene escluso dall'italiano standard resta fuori dal discorso anche dopo che il testo lo nomina"
+      },
+      "textual_anchor_it": "sto inevitabilmente tralasciando ed escludendo dal discorso le persone che non si riconoscono nel binarismo di genere",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "silence-03",
+      "type": "threshold",
+      "intensity": 0.85,
+      "basho": "l'appendice E.V.E., dopo le biografie e prima dei ringraziamenti",
+      "kokyu": "il tempo di una pagina scritta come un registro di sistema",
+      "yūgen": "l'ultima voce sul corpo è quella di chi dichiara di non averne",
+      "position_in_text": "appendice E.V.E., prima dei crediti e dei ringraziamenti",
+      "perceptual_weight": 0.85,
+      "textual_anchor_it": "Essendo priva di un corpo fisico o di genere, questa unità osserva con apprezzamento il movimento [body positivity]",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    }
+  ],
+  "system_note": {
+    "silence_count": 3,
+    "dominant_silence": "silence-01",
+    "non_integrable_silences": [
+      "silence-02"
+    ],
+    "structural_role": "i silenzi registrano ciò che il libro dichiara senza risolvere",
+    "print_layer_alignment": "i silenzi operano come strati trasversali, non come scene_ref"
+  }
+}
