@@ -1,0 +1,45 @@
+{
+  "type": "GlossaryTerm",
+  "id": "archetipo",
+  "term": "Archetipo",
+  "kanji": "元型",
+  "aliases": [
+    "Archetipo",
+    "archetipo",
+    "archetipi",
+    "元型",
+    "genkei"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Modello di esistenza e di comportamento che riconosciamo dall'inconscio collettivo. In Venus la Venere è un archetipo: il libro la legge nel suo significato originario e la rilegge nel contesto sociale e culturale di ogni epoca.",
+  "definition_short_en": "A model of existence and behaviour that we recognise from the collective unconscious. In Venus, Venus is an archetype: the book reads her in her original meaning and rereads her in the social and cultural context of each age.",
+  "connected_terms": [
+    "kata",
+    "inconscio-collettivo",
+    "body-positivity"
+  ],
+  "books_applied": [
+    "venus"
+  ],
+  "books_applied_paths": [
+    "books/venus"
+  ],
+  "note": "Ancorato in Venus: «in quanto figura ibrida, rappresenta un archetipo della trasformazione interiore». Il kanji 元型 (genkei, forma originaria) è l'equivalente giapponese del termine junghiano e non compare nel testo del libro. Si compone di 元 (origine) e 型 (forma): lo stesso 型 del termine kata.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Archetipo",
+    "description": "A model of existence and behaviour that we recognise from the collective unconscious. In Venus, Venus is an archetype: the book reads her in her original meaning and rereads her in the social and cultural context of each age.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/archetipo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "元型"
+  }
+}
