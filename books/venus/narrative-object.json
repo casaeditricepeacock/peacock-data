@@ -11,7 +11,7 @@
     "isbn": "9791281715004",
     "publisher": "Casa Editrice Peacock"
   },
-  "editorial_principle": "Gli oggetti di Venus sono opere e figure che il libro descrive: una creatura ibrida, un autoritratto, un animale usato come abito, una lastra, un predatore inciso, un personaggio che compare solo in appendice. Ogni oggetto è letto da una voce diversa del volume.",
+  "editorial_principle": "Gli oggetti di Venus sono opere e figure che il libro descrive: una creatura ibrida, un autoritratto, un animale usato come abito, una lastra, un predatore inciso, una dea che vive in ogni donna, un personaggio che compare solo in appendice. Ogni oggetto è letto da una voce diversa del volume.",
   "objects": [
     {
       "id": "object-01",
@@ -21,9 +21,11 @@
       "basho": "la figura ibrida al centro di un paesaggio nebbioso: forma umana con le gambe di polpo, al centro di un arcobaleno",
       "kokyu": "tempo della lettura lenta, creatura per creatura, ciascuna con una simbologia propria",
       "yūgen": "l'opera mostra chi è una Venere dei nostri giorni senza darle un volto unico: le versioni di Iskra nel libro sono più d'una",
-      "textual_anchor_it": "La protagonista dell’opera è una creatura ibrida; se da una parte si denota una conformazione umana, dall’altra, le gambe sono sostituite dai tentacoli di un polipo",
+      "textual_anchor_it": "La protagonista dell’opera è una creatura ibrida; se da una parte si denota una conformazione umana, dall’altra, le gambe sono sostituite dai tentacoli di un polipo; in quanto figura ibrida, rappresenta un archetipo della trasformazione interiore",
       "anchor_type": "direct_quote",
-      "glossary_link": []
+      "glossary_link": [
+        "archetipo"
+      ]
     },
     {
       "id": "object-02",
@@ -98,6 +100,24 @@
       "textual_anchor_it": "E.V.E. è una IA che vive nel metaverso. Il suo compito è evolvere e comprendere gli umani",
       "anchor_type": "direct_quote",
       "glossary_link": []
+    },
+    {
+      "id": "object-07",
+      "label": "Afrodite in ogni donna",
+      "label_en": "aphrodite_in_every_woman",
+      "intensity": 0.85,
+      "basho": "il saggio Venere di Alisia Viola: più dee dentro una donna, e una sola presente in tutte, Afrodite",
+      "kokyu": "tempo del mito riletto in chiave psicologica: le dee come modelli di esistenza e di comportamento",
+      "yūgen": "il testo dice che tutte sono Veneri e non spiega come si passi dal modello alla persona",
+      "affects": {
+        "object-01": "la figura ibrida di Venere Iskra è presentata come archetipo della trasformazione interiore"
+      },
+      "textual_anchor_it": "Le dee ci sono familiari anche perché sono archetipi, ossia rappresentano modelli di esistenza e di comportamento che riconosciamo dall’inconscio collettivo di cui siamo tutti partecipi",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "archetipo",
+        "inconscio-collettivo"
+      ]
     }
   ]
 }
