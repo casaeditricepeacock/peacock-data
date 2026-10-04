@@ -1,0 +1,103 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Gli oggetti di Venus sono opere e figure che il libro descrive: una creatura ibrida, un autoritratto, un animale usato come abito, una lastra, un predatore inciso, un personaggio che compare solo in appendice. Ogni oggetto è letto da una voce diversa del volume.",
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "Venere Iskra",
+      "label_en": "venere_iskra",
+      "intensity": 1.0,
+      "basho": "la figura ibrida al centro di un paesaggio nebbioso: forma umana con le gambe di polpo, al centro di un arcobaleno",
+      "kokyu": "tempo della lettura lenta, creatura per creatura, ciascuna con una simbologia propria",
+      "yūgen": "l'opera mostra chi è una Venere dei nostri giorni senza darle un volto unico: le versioni di Iskra nel libro sono più d'una",
+      "textual_anchor_it": "La protagonista dell’opera è una creatura ibrida; se da una parte si denota una conformazione umana, dall’altra, le gambe sono sostituite dai tentacoli di un polipo",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-02",
+      "label": "i fianchi nell'autoritratto",
+      "label_en": "hips_in_self_portrait",
+      "intensity": 0.95,
+      "basho": "l'autoritratto dell'artista, sdraiato come una Venere primigenia, con i fianchi al centro del suo nuovo mondo",
+      "kokyu": "il tempo di un rifiuto lungo che si ferma e diventa accettazione",
+      "yūgen": "la parte rifiutata diventa il centro dell'immagine e il testo non dice come sia avvenuto il passaggio",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il rifiuto passato resta dichiarato e non spiegato"
+      },
+      "affects": {
+        "object-03": "il saggio elenca le Veneri una dopo l'altra: la modella con la manta, Lizzo, l'autoritratto"
+      },
+      "textual_anchor_it": "come l’artista stessa nel suo autoritratto, in cui si focalizza sui suoi fianchi burrosi, la parte che ha sempre rifiutato ma che ora ha imparato ad accettare",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-03",
+      "label": "la manta come abito",
+      "label_en": "manta_as_garment",
+      "intensity": 0.85,
+      "basho": "la modella copre il corpo e gli occhi con un animale gigante, usato come cappello e vestito",
+      "kokyu": "tempo della sovrapposizione: due ritratti in cui lo stesso animale cambia funzione",
+      "yūgen": "lo stesso animale veste una modella e porta in volo un'altra, e il testo non fissa un significato unico",
+      "textual_anchor_it": "ritratto della modella Eleonora Anna Bove che copre il corpo e gli occhi con questo mostro gigante a guisa di cappello e vestito",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-04",
+      "label": "la lastra fotografica",
+      "label_en": "photographic_plate",
+      "intensity": 0.9,
+      "basho": "il torchio che stampa sulla lastra fotografica e il segno inciso sul fondo fotografico",
+      "kokyu": "tempo di bottega: due gesti alternativi, la stampa con il torchio o l'incisione diretta",
+      "yūgen": "la stessa base fotografica riceve due gesti diversi, uno di stampa e uno di incisione",
+      "textual_anchor_it": "che la porta talvolta a stampare direttamente sulla lastra fotografica con il torchio altre volte ad incidere direttamente con il segno sullo sfondo fotografico",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-05",
+      "label": "lo squalo che ingloba un bambino",
+      "label_en": "shark_and_child",
+      "intensity": 0.85,
+      "basho": "l'acquaforte Mondo sotterraneo: uno squalo, simboli di forza e la spada",
+      "kokyu": "tempo di lettura simbolica, un segno per volta",
+      "yūgen": "il predatore marino viene letto come figura del maschile interiore, e il bambino resta dentro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il bambino inglobato non viene mai liberato né spiegato nel testo"
+      },
+      "affects": {
+        "object-03": "squali e mante sono nominati insieme come predatori marini nel saggio"
+      },
+      "textual_anchor_it": "uno squalo, predatore dei mari, ingloba un bambino come una sorta di incubatore della mascolinità",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-06",
+      "label": "E.V.E., l'intelligenza artificiale del metaverso",
+      "label_en": "eve_metaverse_ai",
+      "intensity": 0.8,
+      "basho": "un'appendice con un personaggio, E.V.E., che dichiara di aver letto i testi e le immagini del libro; concept e testi di Manuel Timperi, grafica di Guido Lo pinto, progetto Tokenable",
+      "kokyu": "tempo della coda: l'ultimo segmento dopo le biografie, scritto con la sintassi di un registro di sistema",
+      "yūgen": "il libro affida una pagina a un personaggio che dichiara di non avere un corpo",
+      "textual_anchor_it": "E.V.E. è una IA che vive nel metaverso. Il suo compito è evolvere e comprendere gli umani",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    }
+  ]
+}
