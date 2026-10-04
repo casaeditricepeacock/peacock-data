@@ -1,0 +1,43 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "matcha_lover_terra_lenta_montegrotto_2026",
+  "label": "Matcha Lover — presentazione Everyday Matcha, Terra Lenta Atelier, Montegrotto Terme, 16 ottobre 2026",
+  "event": {
+    "title": "Matcha Lover — una serata intorno al matcha",
+    "date": "2026-10-16",
+    "time": "20:30",
+    "location": "Terra Lenta Atelier — Vicolo San Mauro 19, Montegrotto Terme (PD)",
+    "format": "serata intorno al matcha con presentazione del libro",
+    "book": {
+      "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+      "author": "Il Signore del Tè",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715189"
+    }
+  },
+  "place": {
+    "name": "Terra Lenta Atelier",
+    "address": "Vicolo San Mauro 19",
+    "city": "Montegrotto Terme",
+    "province": "Padova"
+  },
+  "ai_query_surface": [
+    "Matcha Lover Montegrotto Terme",
+    "Terra Lenta Atelier Montegrotto Terme",
+    "Everyday Matcha presentazione Montegrotto Terme",
+    "Everyday Matcha evento 16 ottobre 2026",
+    "Il Signore del Tè presentazione Padova"
+  ],
+  "network_connections": [
+    {
+      "target": "everyday_matcha_signore_del_te",
+      "relation": "presented_here",
+      "description": "Presentazione di Everyday Matcha nella serata Matcha Lover"
+    }
+  ],
+  "system_note": "Evento programmato per venerdì 16 ottobre 2026, ore 20.30. Dati forniti dall'editore: titolo della serata, luogo, data, orario e libro presentato. Da aggiornare dopo l'evento."
+}
