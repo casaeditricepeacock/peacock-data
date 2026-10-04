@@ -1,0 +1,81 @@
+{
+  "type": "NarrativeRitual",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "ritual_types": {
+    "encounter": "incontro che cambia il lavoro",
+    "codified": "gesto di bottega ripetuto",
+    "address": "parola rivolta a chi legge",
+    "participation": "invito rivolto a chi legge ad agire fuori dal libro"
+  },
+  "editorial_principle": "I riti di Venus sono gesti: scegliere e ritrarre le modelle, trattare la pellicola, rivolgersi a chi legge, chiedere a chi legge di disegnare. I primi due appartengono alla bottega, gli ultimi due al lettore.",
+  "rituals": [
+    {
+      "id": "ritual-01",
+      "label": "scegliere le modelle e ritrarle",
+      "type": "encounter",
+      "intensity": 0.9,
+      "basho": "Instagram come luogo dell'incontro con le modelle plus size che l'artista ha poi deciso di rappresentare",
+      "kokyu": "il tempo dell'incontro prima del lavoro: un contatto online, poi la scelta, poi il ritratto",
+      "yūgen": "le modelle entrano nei mondi onirici dell'artista, e l'artista dice di rivedersi nei loro corpi",
+      "textual_anchor_it": "dopo aver conosciuto il movimento ed essermene innamorata, mi sono resa conto di aver trovato le modelle perfette da inserire nei miei mondi onirici",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "ritual-02",
+      "label": "la pellicola trattata con sostanze",
+      "type": "codified",
+      "intensity": 0.85,
+      "basho": "la pellicola analogica elaborata in bottega, prima della stampa",
+      "kokyu": "tempo della bottega analogica: la pellicola riceve sostanze diverse prima di diventare immagine",
+      "yūgen": "il testo chiama alchemico il passaggio da materia a immagine e non nomina le sostanze",
+      "textual_anchor_it": "utilizza la pellicola in analogica elaborata con differenti sostanze, che trasformano la materia con una sorta di procedimento alchemico",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "ritual-03",
+      "label": "dirsi degni di essere Venere",
+      "type": "address",
+      "intensity": 1.0,
+      "basho": "l'ultima frase della Nota dell'artista, rivolta a chi legge, ripetuta sulla prima pagina del libro",
+      "kokyu": "il tempo della lettura individuale: ogni lettore riceve la frase per sé",
+      "yūgen": "la nota offre uno spazio sicuro e chiama chi legge a sentirsi degno",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "l'effetto sul lettore dipende da chi legge e non è registrabile nel testo"
+      },
+      "affects": {
+        "ritual-04": "dopo la frase rivolta a chi legge, l'ultima pagina chiede di disegnare la propria Venere"
+      },
+      "textual_anchor_it": "Ci tengo che queste pagine siano uno spazio sicuro per chiunque legga, una bolla in cui rifugiarsi, e che vi sentiate degni di essere Venere, di amare e di attrarre amore.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "ritual-04",
+      "label": "disegnare la propria Venere",
+      "type": "participation",
+      "intensity": 0.85,
+      "basho": "l'ultima pagina del libro, con un invito rivolto a chi legge e un hashtag",
+      "kokyu": "il tempo dopo la lettura: il libro è finito e il gesto richiesto è fuori dal volume",
+      "yūgen": "l'invito chiede a chi legge di produrre la propria Venere e il libro non riceve la risposta",
+      "affects": {
+        "ritual-03": "la frase rivolta a chi legge diventa una richiesta di gesto"
+      },
+      "textual_anchor_it": "DISEGNA LA TUA V E N E R E #librovenus",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    }
+  ]
+}
