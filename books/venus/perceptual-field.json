@@ -1,0 +1,73 @@
+{
+  "type": "PerceptualField",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "protocol_axes": {
+    "basho": "spatial_configuration",
+    "kokyu": "temporal_activation_rhythm",
+    "yūgen": "perceptual_incompleteness_degree"
+  },
+  "editorial_principle": "Ogni campo è un insieme di regole percettive per la lettura. In Venus i campi tengono insieme il corpo ritratto, il canone che lo misura, i simboli che lo leggono e la tecnologia che lo ospita, senza ridurli a un solo discorso.",
+  "fields": [
+    {
+      "id": "field-01",
+      "label": "campo_corpo_ritratto",
+      "label_en": "portrayed_body_field",
+      "intensity": 1.0,
+      "dominant": true,
+      "basho": "il campo dei corpi non conformi che il libro mette al centro dell'immagine: modelle plus size, l'artista stessa, Lizzo, Iskra",
+      "kokyu": "ritmo alterno fra opera e commento: l'immagine, poi il testo che la legge",
+      "yūgen": "il corpo ritratto resta aperto a più letture, e il libro dichiara di non offrirne una assoluta",
+      "dissolution_rule": "non si dissolve: il corpo ritratto resta al centro anche nelle sezioni dedicate al movimento"
+    },
+    {
+      "id": "field-02",
+      "label": "campo_canone",
+      "label_en": "canon_field",
+      "intensity": 0.85,
+      "basho": "il campo storico del canone di bellezza, dalla Venere di Willendorf ai social network",
+      "kokyu": "ritmo di oscillazione: una forma prosperosa, poi una magra, poi di nuovo",
+      "yūgen": "il canone viene mostrato nel suo muoversi e il libro non indica quale sia l'ultimo",
+      "dissolution_rule": "si indebolisce alla fine del saggio storico, ma ritorna nei testi sul movimento"
+    },
+    {
+      "id": "field-03",
+      "label": "campo_archetipo",
+      "label_en": "archetype_field",
+      "intensity": 0.85,
+      "basho": "il campo dei simboli junghiani: animus, predatori marini, serpenti, la Venere guerriera",
+      "kokyu": "ritmo di commento simbolico, un animale per volta",
+      "yūgen": "ogni animale porta un significato che il commento propone e non chiude",
+      "dissolution_rule": "non si dissolve: gli animali tornano nei saggi di Baboni, di Taddei e di Viola"
+    },
+    {
+      "id": "field-04",
+      "label": "campo_soglia_tecnologica",
+      "label_en": "technology_threshold_field",
+      "intensity": 0.75,
+      "basho": "il campo di NFT, blockchain e dell'appendice E.V.E., ai bordi del libro",
+      "kokyu": "ritmo da margine: prima nella prefazione, di nuovo nell'ultima pagina di testo",
+      "yūgen": "la tecnologia viene nominata come strumento e come personaggio, e non viene giudicata",
+      "dissolution_rule": "si chiude con l'appendice: dopo E.V.E. il campo non riappare"
+    }
+  ],
+  "system_note": {
+    "field_count": 4,
+    "ontology": "strict_perceptual_4_1",
+    "invalidated_elements": [
+      "subjective_voice_states",
+      "unstable_definition_blocks",
+      "free_text_yugen"
+    ],
+    "system_behavior": "i campi operano come operatori percettivi persistenti sulle condizioni di lettura"
+  }
+}
