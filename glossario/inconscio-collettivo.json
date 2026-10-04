@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "inconscio-collettivo",
+  "term": "Inconscio collettivo",
+  "kanji": "集合的無意識",
+  "aliases": [
+    "Inconscio collettivo",
+    "inconscio collettivo",
+    "集合的無意識",
+    "shūgōteki muishiki"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Lo strato della psiche condiviso da tutti, secondo la psicologia junghiana. In Venus è il luogo da cui riconosciamo gli archetipi e da cui, secondo il saggio di Francesca Baboni, ha origine la spinta creativa.",
+  "definition_short_en": "The layer of the psyche shared by everyone, according to Jungian psychology. In Venus it is the place from which we recognise archetypes and, according to Francesca Baboni's essay, from which the creative drive originates.",
+  "connected_terms": [
+    "archetipo"
+  ],
+  "books_applied": [
+    "venus"
+  ],
+  "books_applied_paths": [
+    "books/venus"
+  ],
+  "note": "Ancorato in Venus, in due punti: «che riconosciamo dall’inconscio collettivo di cui siamo tutti partecipi» (saggio Venere di Alisia Viola) e «la spinta creativa ha origine dall’inconscio collettivo» (saggio Il fattore X di Francesca Baboni). Il kanji 集合的無意識 (shūgōteki muishiki) è l'equivalente giapponese del termine e non compare nel testo del libro.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Inconscio collettivo",
+    "description": "The layer of the psyche shared by everyone, according to Jungian psychology. In Venus it is the place from which we recognise archetypes and, according to Francesca Baboni's essay, from which the creative drive originates.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/inconscio-collettivo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "集合的無意識"
+  }
+}
