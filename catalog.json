@@ -92,10 +92,16 @@
     {
       "title": "Venus",
       "author": "Giulia Lazzaron",
+      "preface": "Massimo Ruotolo",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-00-4",
       "year": 2024,
-      "release_date": "2024-01-25"
+      "language": [
+        "it",
+        "ja"
+      ],
+      "release_date": "2024-01-25",
+      "graph_path": "books/venus/"
     },
     {
       "title": "Luna piena sulla città antica",
@@ -1605,8 +1611,17 @@
             "@type": "Person",
             "name": "Giulia Lazzaron"
           },
+          "contributor": {
+            "@type": "Person",
+            "name": "Massimo Ruotolo",
+            "description": "Prefazione"
+          },
           "isbn": "979-12-81715-00-4",
-          "datePublished": "2024-01-25"
+          "datePublished": "2024-01-25",
+          "inLanguage": [
+            "it",
+            "ja"
+          ]
         }
       }
     ]
