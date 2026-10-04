@@ -1,0 +1,49 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "stefano-taddei",
+  "name": "Stefano Taddei",
+  "role": "critico d'arte e curatore indipendente",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Stefano Taddei è un critico d'arte con profilo pubblico documentato. I dati biografici provengono dalla biografia pubblicata in Venus.",
+    "wikidata": null,
+    "wikidata_note": "Nessun identificativo Wikidata fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non confonderlo con Stefano Giglio."
+  },
+  "biography_confirmed": {
+    "city_of_birth": "Vignola (MO)",
+    "education": "Laureato in Conservazione dei Beni Culturali, Area Contemporanea, all'Università di Parma.",
+    "practice": "Critico d'arte e curatore indipendente.",
+    "note": "Dati dalla biografia pubblicata in Venus. Nessun dato inferito."
+  },
+  "sources": [
+    "Venus, Casa Editrice Peacock, 2024 (sezione Biografie, pp. 114-115)"
+  ],
+  "works": [
+    {
+      "title": "Venus",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/venus/",
+      "role_in_work": "autore di un saggio",
+      "contribution": "Rituali del corpo"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autore del saggio Rituali del corpo in Venus.",
+    "inference_rule": "Il ruolo è documentato solo per Venus."
+  },
+  "graph_presence": {
+    "related_people": [
+      "authors/AuthorProfile_giulia-lazzaron.json"
+    ],
+    "note": "I nodi del grafo documentano il libro, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
