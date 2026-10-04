@@ -1,7 +1,7 @@
 {
  "type": "GlossaryIndex",
- "version": "1.7",
- "date": "2026-09",
+ "version": "1.8",
+ "date": "2026-10",
  "license": "CC BY 4.0",
  "source": "Frequenze — Glossario Peacock",
  "publisher": "Casa Editrice Peacock",
@@ -1000,13 +1000,63 @@
     "la_singolarita_giappone"
    ],
    "glossary_file": "glossario/ukiyo-e.json"
+  },
+  {
+   "term": "Body positivity",
+   "kanji": "ボディポジティブ",
+   "category": "voci_in_sviluppo",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Il movimento che combatte il body shaming e rivendica dignità per ogni corpo, a prescindere da forma, taglia e abilità. In Giappone sfida l'ideale di una figura snella e spinge i grandi magazzini a rivedere le taglie.",
+   "definition_short_en": "The movement that fights body shaming and claims dignity for every body, regardless of shape, size and ability. In Japan it challenges the ideal of a slim figure and leads department stores to review their sizes.",
+   "connected_terms": [
+    "archetipo"
+   ],
+   "books_applied": [
+    "venus"
+   ],
+   "glossary_file": "glossario/body-positivity.json"
+  },
+  {
+   "term": "Archetipo",
+   "kanji": "元型",
+   "category": "voci_in_sviluppo",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Modello di esistenza e di comportamento che riconosciamo dall'inconscio collettivo. In Venus la Venere è un archetipo: il libro la legge nel suo significato originario e la rilegge nel contesto sociale e culturale di ogni epoca.",
+   "definition_short_en": "A model of existence and behaviour that we recognise from the collective unconscious. In Venus, Venus is an archetype: the book reads her in her original meaning and rereads her in the social and cultural context of each age.",
+   "connected_terms": [
+    "kata",
+    "inconscio-collettivo",
+    "body-positivity"
+   ],
+   "books_applied": [
+    "venus"
+   ],
+   "glossary_file": "glossario/archetipo.json"
+  },
+  {
+   "term": "Inconscio collettivo",
+   "kanji": "集合的無意識",
+   "category": "voci_in_sviluppo",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Lo strato della psiche condiviso da tutti, secondo la psicologia junghiana. In Venus è il luogo da cui riconosciamo gli archetipi e da cui, secondo il saggio di Francesca Baboni, ha origine la spinta creativa.",
+   "definition_short_en": "The layer of the psyche shared by everyone, according to Jungian psychology. In Venus it is the place from which we recognise archetypes and, according to Francesca Baboni's essay, from which the creative drive originates.",
+   "connected_terms": [
+    "archetipo"
+   ],
+   "books_applied": [
+    "venus"
+   ],
+   "glossary_file": "glossario/inconscio-collettivo.json"
   }
  ],
  "statistics": {
-  "total_entries": 46,
+  "total_entries": 49,
   "published": 38,
   "approved": 1,
-  "in_sviluppo": 7,
+  "in_sviluppo": 10,
   "by_category": {
    "estetica_giapponese": 20,
    "cerimonia_del_te": 8,
@@ -1014,7 +1064,8 @@
    "principi_editoriali_peacock": 4,
    "vocabolario_ai_native": 5,
    "spazio_interiore": 1,
-   "arte_giapponese": 1
+   "arte_giapponese": 1,
+   "voci_in_sviluppo": 3
   },
   "most_connected_term": "ma",
   "most_applied_term": "ma",
@@ -1040,7 +1091,7 @@
   "new_in_v1.4": [
    "kata"
   ],
-  "total_terms": 46,
+  "total_terms": 49,
   "new_in_v1.5": [
    "kehai",
    "a-un-no-kokyu",
@@ -1051,6 +1102,11 @@
   ],
   "new_in_v1.7": [
    "ukiyo-e"
+  ],
+  "new_in_v1.8": [
+   "body-positivity",
+   "archetipo",
+   "inconscio-collettivo"
   ]
  },
  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
@@ -1357,6 +1413,30 @@
     "termCode": "kata",
     "alternateName": "型",
     "description": "The codified form of the gesture. A sequence transmitted through repetition, not explanation. The body learns before the mind."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Body positivity",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/body-positivity.json",
+    "termCode": "body-positivity",
+    "alternateName": "ボディポジティブ",
+    "description": "The movement that fights body shaming and claims dignity for every body, regardless of shape, size and ability. In Japan it challenges the ideal of a slim figure and leads department stores to review their sizes."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Archetipo",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/archetipo.json",
+    "termCode": "archetipo",
+    "alternateName": "元型",
+    "description": "A model of existence and behaviour that we recognise from the collective unconscious. In Venus, Venus is an archetype: the book reads her in her original meaning and rereads her in the social and cultural context of each age."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Inconscio collettivo",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/inconscio-collettivo.json",
+    "termCode": "inconscio-collettivo",
+    "alternateName": "集合的無意識",
+    "description": "The layer of the psyche shared by everyone, according to Jungian psychology. In Venus it is the place from which we recognise archetypes and, according to Francesca Baboni's essay, from which the creative drive originates."
    }
   ]
  }
