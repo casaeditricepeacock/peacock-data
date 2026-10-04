@@ -1,0 +1,49 @@
+{
+  "type": "NarrativeWeather",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Il clima di Venus è fatto di luce e di acqua. Nebbia e toni freddi in un'opera, arcobaleno e prisma in un'altra, acqua e creature marine quasi ovunque. Il libro non assegna un clima ai saggi: lo ricava dalle opere.",
+  "weather_fields": [
+    {
+      "id": "weather-00",
+      "label": "zona_neutra",
+      "intensity": 0.0,
+      "basho": "assenza di regime atmosferico dominante",
+      "kokyu": "tempo non inizializzato",
+      "yūgen": "nessuna percezione emergente"
+    },
+    {
+      "id": "weather-01",
+      "label": "nebbia e toni freddi",
+      "intensity": 0.8,
+      "basho": "il paesaggio nebbioso di Venere Iskra, fatto di colori miti e toni freddi",
+      "kokyu": "atmosfera ferma, in cui le creature restano da decifrare una alla volta",
+      "yūgen": "la nebbia non nasconde la figura centrale: ritarda la lettura dei dettagli"
+    },
+    {
+      "id": "weather-02",
+      "label": "arcobaleno e prisma",
+      "intensity": 0.85,
+      "basho": "la base fotografica giocata sugli arcobaleni e sul prisma cromatico della serie olografica",
+      "kokyu": "luce che cambia con lo sguardo di chi osserva",
+      "yūgen": "l'arcobaleno è citato come segno naturale legato alla psicologia junghiana e resta senza chiusura"
+    },
+    {
+      "id": "weather-03",
+      "label": "acqua e creature marine",
+      "intensity": 0.9,
+      "basho": "mante, squali, meduse, un lago da cui affiora una figura: il mare e l'acqua come ambiente di molte opere",
+      "kokyu": "movimento lento di corpi che galleggiano e orbitano",
+      "yūgen": "l'acqua ricorda l'origine della dea nata dalla spuma del mare, e il libro non spiega di più"
+    }
+  ]
+}
