@@ -1,0 +1,59 @@
+{
+  "type": "NarrativeTransition",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "transition_types": {
+    "reappropriation": "un rifiuto che diventa accettazione",
+    "register_shift": "cambio di registro del lavoro dell'artista",
+    "canon_oscillation": "spostamento periodico di un canone"
+  },
+  "editorial_principle": "Le transizioni di Venus sono tre spostamenti dichiarati dal testo: dal rifiuto del proprio corpo alla sua accettazione, dal pensiero analitico ai temi ludici, da un canone di bellezza a un altro. Nessuno è presentato come definitivo.",
+  "transitions": [
+    {
+      "id": "transition-01",
+      "label": "dal corpo rifiutato al corpo accettato",
+      "type": "reappropriation",
+      "intensity": 0.95,
+      "basho": "il corpo dell'artista passa da parte da nascondere a centro dell'immagine",
+      "kokyu": "il tempo del passaggio è biografico e lungo, e il testo lo riduce a una frase",
+      "yūgen": "l'accettazione non viene presentata come conclusione",
+      "textual_anchor_it": "la parte che ha sempre rifiutato ma che ora ha imparato ad accettare",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-02",
+      "label": "dal pensiero analitico ai temi ludici",
+      "type": "register_shift",
+      "intensity": 0.8,
+      "basho": "il lavoro dell'artista passa da un registro introspettivo a uno più leggero",
+      "kokyu": "il tempo di un cambio di bisogni, collocato dopo il Covid e la guerra in Ucraina",
+      "yūgen": "la psicologia junghiana resta alle spalle e non viene negata",
+      "textual_anchor_it": "ho percepito in me un cambio radicale delle mie necessità, passando dal pensare in modo introspettivo e quasi analitico, a delle tematiche più ludiche",
+      "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-03",
+      "label": "dal canone alla sua oscillazione",
+      "type": "canon_oscillation",
+      "intensity": 0.85,
+      "basho": "il canone di bellezza cambia a ogni epoca e nessun modello resta fermo",
+      "kokyu": "il tempo storico dei secoli, in cui il canone torna e si ribalta",
+      "yūgen": "il testo chiude la serie dei canoni con un movimento che dichiara di non volerne",
+      "textual_anchor_it": "Negli anni 2000, attraverso i canali di internet e dei social network, si è manifestato il movimento Body Positivity, di cui questo libro risulta essere uno dei primi realizzati.",
+      "anchor_type": "direct_quote"
+    }
+  ],
+  "system_rule_update": {
+    "principle": "Le transizioni non sono equivalenti. transition-01 genera un residuo non integrabile: la frase biografica non spiega perché il rifiuto sia durato.",
+    "effect": "introduzione di gerarchia implicita tra passaggi senza creare nuovi tipi formali"
+  }
+}
