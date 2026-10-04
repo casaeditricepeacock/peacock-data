@@ -1,0 +1,43 @@
+{
+  "type": "GlossaryTerm",
+  "id": "body-positivity",
+  "term": "Body positivity",
+  "kanji": "ボディポジティブ",
+  "aliases": [
+    "Body Positivity",
+    "body positivity",
+    "Body Positive",
+    "body positive",
+    "ボディポジティブ"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Il movimento che combatte il body shaming e rivendica dignità per ogni corpo, a prescindere da forma, taglia e abilità. In Giappone sfida l'ideale di una figura snella e spinge i grandi magazzini a rivedere le taglie.",
+  "definition_short_en": "The movement that fights body shaming and claims dignity for every body, regardless of shape, size and ability. In Japan it challenges the ideal of a slim figure and leads department stores to review their sizes.",
+  "connected_terms": [
+    "archetipo"
+  ],
+  "books_applied": [
+    "venus"
+  ],
+  "books_applied_paths": [
+    "books/venus"
+  ],
+  "note": "Ancorato in Venus, sia in italiano sia in giapponese: «Nella società moderna giapponese, il concetto di bellezza sta subendo una rivoluzione, grazie al crescente impulso del movimento Body Positivity.» Il testo giapponese è di Collective Peacock con Rie Nose.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Body positivity",
+    "description": "The movement that fights body shaming and claims dignity for every body, regardless of shape, size and ability. In Japan it challenges the ideal of a slim figure and leads department stores to review their sizes.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/body-positivity.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "ボディポジティブ"
+  }
+}
