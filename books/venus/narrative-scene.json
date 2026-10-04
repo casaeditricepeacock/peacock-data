@@ -1,0 +1,116 @@
+{
+  "type": "NarrativeScene",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "editorial_principle": "Le scene di Venus corrispondono alle sezioni del libro. Ogni sezione affida lo stesso corpus di opere a una voce diversa: la prefazione, l'artista, la critica, la storia, il movimento. Nessuna voce chiude le altre.",
+  "scene_types": {
+    "opening_field": "sezione che apre il volume con domande",
+    "first_person_field": "sezione in prima persona dell'artista",
+    "critical_field": "sezione di commento critico alle opere",
+    "historical_field": "sezione che colloca le opere in una storia",
+    "movement_field": "sezione dedicata al movimento body positivity"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "label": "la prefazione e la domanda sul bello",
+      "type": "opening_field",
+      "intensity": 0.9,
+      "basho": "le prime pagine del libro, aperte da una citazione e da due domande",
+      "kokyu": "il tempo di una prefazione che pone interrogativi all'apertura del volume",
+      "yūgen": "le domande restano aperte per tutta la sezione, mentre il testo passa agli NFT e alla blockchain",
+      "activation_condition": "apertura del volume, prima di ogni immagine",
+      "perceptual_weight": 0.85,
+      "affects": {
+        "scene-05": "la prefazione nomina la body positivity prima dei testi finali sul movimento"
+      },
+      "textual_anchor_it": "Cosa definiamo bello ? Cosa definiamo autentico ?",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "scene-02",
+      "label": "la voce dell'artista",
+      "type": "first_person_field",
+      "intensity": 1.0,
+      "basho": "la nota e l'intervista: la prima persona di Giulia Lazzaron, rivolta a chi legge",
+      "kokyu": "il tempo breve della nota, poi quello lungo della domanda e risposta",
+      "yūgen": "l'artista parla del proprio corpo e del proprio percorso senza chiudere il discorso sulle opere",
+      "activation_condition": "lettura della Nota dell'artista e dell'Intervista",
+      "perceptual_weight": 1.0,
+      "affects": {
+        "scene-03": "Jung compare nell'intervista e nei saggi di Baboni",
+        "scene-05": "l'artista dice di essere entrata in contatto con il movimento body positive grazie a Instagram"
+      },
+      "textual_anchor_it": "Ho ideato questo progetto anche con il fine di conoscermi, vivermi e imparare ad accettarmi",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "scene-03",
+      "label": "gli istinti archetipici",
+      "type": "critical_field",
+      "intensity": 0.85,
+      "basho": "i saggi di Francesca Baboni sulla serie dei predatori marini e sulle Veneri",
+      "kokyu": "tempo di commento: ogni opera è letta in rapporto a un'altra",
+      "yūgen": "gli animali portano un significato che il commento propone ma non esaurisce",
+      "activation_condition": "lettura dei saggi critici di Baboni e Taddei",
+      "perceptual_weight": 0.8,
+      "affects": {
+        "scene-04": "gli archetipi dei saggi di Baboni tornano nel saggio di Viola"
+      },
+      "textual_anchor_it": "Come anticipatori di una Venere non sempre dolce e amorevole ma anche capace di essere ribelle e guerriera",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "scene-04",
+      "label": "la storia dei canoni",
+      "type": "historical_field",
+      "intensity": 0.8,
+      "basho": "il saggio di Alisia Viola dalla Venere di Willendorf al contemporaneo",
+      "kokyu": "tempo lungo, da secoli a decenni, con inversioni a ogni epoca",
+      "yūgen": "il canone non si stabilizza: oscilla, e il testo registra l'oscillazione senza tentare di fermarla",
+      "activation_condition": "lettura del saggio di Viola",
+      "perceptual_weight": 0.8,
+      "affects": {
+        "scene-05": "l'oscillazione del canone porta al movimento body positivity"
+      },
+      "textual_anchor_it": "fu con loro che iniziò il caratteristico movimento oscillatorio che ancora oggi sposta periodicamente l’ideale di bellezza femminile tra curve prosperose e magrezza",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "scene-05",
+      "label": "il movimento body positivity",
+      "type": "movement_field",
+      "intensity": 0.9,
+      "basho": "i testi di Collective Peacock con Rie Nose, in italiano e in giapponese, e il saggio di Carmen Mastrangelo",
+      "kokyu": "tempo di dossier: definizione, storia, critica, e la parola sul presente",
+      "yūgen": "il movimento viene descritto insieme come liberazione e come cosa che i media riducono",
+      "activation_condition": "lettura dei testi finali sul movimento",
+      "perceptual_weight": 0.9,
+      "textual_anchor_it": "Nella società moderna giapponese, il concetto di bellezza sta subendo una rivoluzione, grazie al crescente impulso del movimento Body Positivity.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    }
+  ],
+  "system_note": {
+    "scene_count": 5,
+    "dominant_field": "scene-02",
+    "unresolved_fields": [
+      "scene-01",
+      "scene-05"
+    ],
+    "print_layer_alignment": "le scene corrispondono agli scene_ref definiti in NarrativePrintLayer v4.1"
+  }
+}
