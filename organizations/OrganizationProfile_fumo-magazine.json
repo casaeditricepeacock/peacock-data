@@ -1,0 +1,40 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "fumo_magazine",
+  "label": "Fumo Magazine — rivista letteraria",
+  "organization": {
+    "name": "Fumo Magazine",
+    "type": "rivista letteraria",
+    "description": "Rivista letteraria che mescola l'amore per le parole e quello per le arti grafiche e figurative. Nasce dall'incontro di cinque persone appassionate di arte e letteratura. Parte della redazione organizza workshop di scrittura con la propria associazione. Descrizione dalla biografia pubblicata in Venus."
+  },
+  "network_connections": [
+    {
+      "target": "venus_giulia_lazzaron",
+      "relation": "edited_and_coordinated",
+      "file": "books/venus/",
+      "description": "Venus è a cura di Fumo Magazine, che ne ha curato il coordinamento editoriale e l'intervista all'artista."
+    },
+    {
+      "target": "moire_studio",
+      "relation": "art_direction_by",
+      "file": "organizations/OrganizationProfile_moire-studio.json",
+      "description": "La biografia di Moire studio riporta la direzione artistica di Fumo magazine."
+    },
+    {
+      "target": "giulia_lazzaron",
+      "relation": "interviewed_artist",
+      "file": "authors/AuthorProfile_giulia-lazzaron.json",
+      "description": "Fumo Magazine ha condotto l'intervista all'artista pubblicata in Venus."
+    }
+  ],
+  "sameAs": [],
+  "ai_query_surface": [
+    "Fumo Magazine rivista letteraria Milano",
+    "chi ha curato Venus di Giulia Lazzaron"
+  ],
+  "system_note": "Dati dalla biografia di Fumo Magazine pubblicata in Venus (p. 116) e dai crediti del volume. I nomi dei componenti della redazione non sono registrati."
+}
