@@ -1,0 +1,148 @@
+{
+  "type": "NarrativeSystemGraph",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Venus",
+    "author": "Giulia Lazzaron",
+    "preface": "Massimo Ruotolo",
+    "isbn": "9791281715004",
+    "publisher": "Casa Editrice Peacock"
+  },
+  "system_principle": "Venus tiene insieme un corpus di opere e cinque voci che lo leggono. Il campo dominante è la voce dell'artista; il campo che non si chiude è il canone, che il libro registra in movimento fino all'ultima pagina di testo.",
+  "layers": {
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04"
+    ],
+    "weather_fields": [
+      "weather-00",
+      "weather-01",
+      "weather-02",
+      "weather-03"
+    ]
+  },
+  "topology": {
+    "core_field": "scene-02",
+    "primary_loops": [
+      {
+        "loop": "corpo_rifiutato_e_accettato",
+        "nodes": [
+          "scene-02",
+          "object-02",
+          "transition-01"
+        ],
+        "type": "recursive_stability"
+      },
+      {
+        "loop": "canone_che_oscilla",
+        "nodes": [
+          "scene-04",
+          "transition-03",
+          "scene-05"
+        ],
+        "type": "gradual_loss"
+      },
+      {
+        "loop": "lettura_archetipica",
+        "nodes": [
+          "scene-03",
+          "object-05",
+          "object-03"
+        ],
+        "type": "expanding_dedication"
+      },
+      {
+        "loop": "spazio_sicuro_e_invito",
+        "nodes": [
+          "ritual-03",
+          "ritual-04",
+          "scene-02"
+        ],
+        "type": "unresolved_opening"
+      },
+      {
+        "loop": "soglia_tecnologica",
+        "nodes": [
+          "object-06",
+          "silence-03",
+          "scene-01"
+        ],
+        "type": "emergent_threshold"
+      }
+    ]
+  },
+  "cross_layer_effects": [
+    {
+      "from": "object-02",
+      "to": "transition-01",
+      "effect": "l'autoritratto dei fianchi dà corpo alla transizione dal rifiuto all'accettazione",
+      "propagation_mode": "directional",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "object-04",
+      "to": "ritual-02",
+      "effect": "la lastra fotografica e la pellicola trattata condividono lo stesso gesto di bottega",
+      "propagation_mode": "parallel",
+      "stability_impact": "stabilizing"
+    },
+    {
+      "from": "scene-04",
+      "to": "transition-03",
+      "effect": "il saggio storico fonda lo spostamento periodico del canone",
+      "propagation_mode": "directional",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "silence-02",
+      "to": "scene-05",
+      "effect": "l'esclusione dichiarata nel saggio di Mastrangelo resta aperta dentro la sezione sul movimento",
+      "propagation_mode": "delayed",
+      "stability_impact": "destabilizing"
+    },
+    {
+      "from": "object-06",
+      "to": "scene-01",
+      "effect": "l'appendice E.V.E. risponde al quesito che la prefazione aveva annunciato",
+      "propagation_mode": "recursive",
+      "stability_impact": "destabilizing"
+    }
+  ],
+  "global_state": {
+    "dominant_field": "artist_voice",
+    "stability": "metastable",
+    "closure": false,
+    "book_behavior": "Venus opera come rete dove le voci non si sostituiscono: il corpo ritratto viene letto cinque volte e nessuna lettura chiude le altre",
+    "readability": "high_local_medium_global"
+  }
+}
