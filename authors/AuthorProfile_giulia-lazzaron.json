@@ -17,7 +17,8 @@
   },
   "biography_confirmed": {
     "city_of_birth": "Milano",
-    "education": "Laurea in Pittura all'Accademia di Belle Arti di Brera, con lode.",
+    "born": 1992,
+    "education": "Laurea in Pittura all'Accademia di Belle Arti di Brera nel 2017, con lode.",
     "practice": "Tecniche grafiche e fotografiche, tradizionali e sperimentali, spesso fuse in opere uniche: incisione, serigrafia, fotografia. La ricerca è legata alla psicologia junghiana e alla percezione del sé.",
     "galleries_and_brands": "Collabora con Vibra Spazio Contemporaneo di Idee, Artmood, Monshare Art e con il brand 13/sedicesimi.",
     "institutions": "Collabora con il Museo della Permanente di Milano e con la Libreria Bocca dal 1775, in Galleria Vittorio Emanuele, Milano.",
@@ -29,12 +30,13 @@
       "X, mostra personale, Libreria Bocca, Milano, vernissage 19/01/2020, curatori Francesca Baboni e Giorgio Lodetti"
     ],
     "other": "Durante la quarantena ha realizzato con 13/sedicesimi una mascherina d'artista.",
-    "note": "Dati dal CV fornito dall'editore, dalla scheda della Società per le Belle Arti ed Esposizione Permanente e dalla pagina Artribune. Nessun dato inferito."
+    "note": "Dati dal CV fornito dall'editore, dalla scheda della Società per le Belle Arti ed Esposizione Permanente, dalla pagina Artribune e dalla biografia pubblicata in Venus (p. 110). Anno di laurea confermato dall'artista. Nessun dato inferito."
   },
   "sources": [
     "CV fornito dall'editore (1 ottobre 2026)",
     "https://www.lapermanente.it/socio/lazzaron-giulia/",
-    "https://www.artribune.com/?p=656838"
+    "https://www.artribune.com/?p=656838",
+    "Venus, Casa Editrice Peacock, 2024 (biografia dell'artista, p. 110)"
   ],
   "works": [
     {
@@ -70,10 +72,13 @@
     },
     {
       "title": "Venus",
+      "preface": "Massimo Ruotolo",
       "role_in_work": "autrice",
       "isbn": "979-12-81715-00-4",
       "year": 2024,
-      "publisher": "Casa Editrice Peacock"
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/venus/",
+      "contribution": "A cura di Fumo Magazine. Progetto grafico, copertina, editing e impaginazione di Moire studio."
     },
     {
       "title": "Napoli Fantastica",
