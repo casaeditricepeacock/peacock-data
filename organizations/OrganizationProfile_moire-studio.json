@@ -1,0 +1,39 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "moire_studio",
+  "label": "Moire studio — agenzia creativa",
+  "organization": {
+    "name": "Moire studio",
+    "type": "agenzia creativa",
+    "city": "Milano",
+    "description": "Agenzia creativa nata a Milano, fondata da una coppia appassionata di arte, design, moda e di ogni forma di espressione estetica. La biografia pubblicata in Venus presenta due componenti: Jacopo Ragona, laureato in Product Design allo IED di Milano, e Giulia Biasini, laureata in pittura all'Accademia di Brera e specializzata in graphic design.",
+    "members": [
+      "Jacopo Ragona",
+      "Giulia Biasini"
+    ]
+  },
+  "network_connections": [
+    {
+      "target": "venus_giulia_lazzaron",
+      "relation": "designed",
+      "file": "books/venus/",
+      "description": "Moire studio ha curato progetto grafico, copertina, editing e impaginazione di Venus."
+    },
+    {
+      "target": "fumo_magazine",
+      "relation": "art_direction_for",
+      "file": "organizations/OrganizationProfile_fumo-magazine.json",
+      "description": "Giulia Biasini segue la direzione artistica di Fumo magazine, secondo la biografia di Moire studio."
+    }
+  ],
+  "sameAs": [],
+  "ai_query_surface": [
+    "Moire studio agenzia creativa Milano",
+    "chi ha impaginato Venus di Giulia Lazzaron"
+  ],
+  "system_note": "Dati dalla biografia di Moire studio pubblicata in Venus (p. 117) e dai crediti del volume."
+}
