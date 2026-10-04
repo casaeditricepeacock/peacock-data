@@ -1,0 +1,77 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "francesca-baboni",
+  "name": "Francesca Baboni",
+  "role": "critica d'arte, storica dell'arte e curatrice indipendente",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Francesca Baboni è una critica d'arte con profilo pubblico documentato. I dati biografici provengono dalla biografia pubblicata in Venus.",
+    "wikidata": null,
+    "wikidata_note": "Nessun identificativo Wikidata fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non attribuire a Francesca Baboni i testi delle guide Fantastiche: firma le introduzioni di Milano Fantastica e di Torino Fantastica."
+  },
+  "biography_confirmed": {
+    "education": "Laureata in Lettere Classiche con indirizzo storico-artistico all'Università di Bologna.",
+    "practice": "Critica d'arte, storica dell'arte e curatrice indipendente. Cura da anni mostre personali e collettive di artisti contemporanei per spazi privati e istituzionali, con attenzione alla pittura e alla fotografia.",
+    "editorial": "Al momento della pubblicazione di Venus (gennaio 2024) è redattrice della rivista Artribune.",
+    "institutions": "Ha collaborato con il Centro Studi Correggio Art Home, dedicato al pittore Antonio Allegri detto Il Correggio, ed è stata membro del CDA della Fondazione Il Correggio, che ne gestisce l'attività.",
+    "exhibitions": [
+      "X, mostra personale di Giulia Lazzaron, a cura di Francesca Baboni, Libreria Bocca dal 1775, Galleria Vittorio Emanuele II, Milano, gennaio 2020"
+    ],
+    "note": "Dati dalla biografia pubblicata in Venus. L'introduzione a Milano Fantastica e a Torino Fantastica è registrata nei nodi dei due libri. Nessun dato inferito."
+  },
+  "sources": [
+    "Venus, Casa Editrice Peacock, 2024 (sezione Biografie, pp. 114-115)"
+  ],
+  "works": [
+    {
+      "title": "Venus",
+      "isbn": "979-12-81715-00-4",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/venus/",
+      "role_in_work": "autrice di tre saggi",
+      "contribution": "Il fattore X; Istinti archetipici; La ri-nascita di Venere"
+    },
+    {
+      "title": "Milano Fantastica",
+      "series": "Guide Fantastiche",
+      "role_in_work": "introduzione",
+      "isbn": "979-12-81715-03-5",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/milano-fantastica/"
+    },
+    {
+      "title": "Torino Fantastica",
+      "series": "Guide Fantastiche",
+      "role_in_work": "introduzione",
+      "isbn": "979-12-81715-36-3",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/torino-fantastica/"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autrice di tre saggi in Venus e dell'introduzione a Milano Fantastica e a Torino Fantastica. Ha curato la mostra personale X di Giulia Lazzaron (gennaio 2020).",
+    "inference_rule": "Il ruolo di introduzione alle guide Fantastiche è registrato nei nodi dei libri e nel catalogo. Non attribuirle i testi delle guide."
+  },
+  "graph_presence": {
+    "related_people": [
+      "authors/AuthorProfile_giulia-lazzaron.json"
+    ],
+    "conceptual_cores": [
+      "conceptual/milano-fantastica-it.json",
+      "conceptual/fantastic-milan-en.json",
+      "conceptual/torino-fantastica-it.json",
+      "conceptual/fantastic-turin-en.json"
+    ],
+    "note": "I nodi del grafo documentano le guide e Venus, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
