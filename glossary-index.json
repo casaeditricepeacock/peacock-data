@@ -1445,6 +1445,70 @@
     "termCode": "tsundoku",
     "alternateName": "積ん読",
     "description": "The habit of acquiring books and letting them pile up unread, and also the name for the piles themselves. Coined in the Meiji era and documented in print from 1879 as a pun: from tsunde-oku (to pile up and leave) with oku replaced by doku (to read), literally a reading pile. It carries no pejorative sense."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Wa-kei-sei-jaku",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/wa-kei-sei-jaku.json",
+    "termCode": "wa-kei-sei-jaku",
+    "alternateName": "和敬清寂",
+    "description": "The four principles that govern the way of tea, codified in the tradition of Sen no Rikyū. Wa (和) harmony, Kei (敬) respect, Sei (清) purity, Jaku (寂) tranquility. Not four separate qualities, but four conditions of the same encounter."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Kakekotoba",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kakekotoba.json",
+    "termCode": "kakekotoba",
+    "alternateName": "掛詞",
+    "description": "A rhetorical device in waka and tanka poetry in which a single word, exploiting homophony, carries two distinct meanings simultaneously. Classic example: matsu can mean both \"pine tree\" and \"to wait\". The line remains one, but the sense splits in two."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Engo",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/engo.json",
+    "termCode": "engo",
+    "alternateName": "縁語",
+    "description": "A rhetorical device in waka and tanka poetry that weaves phonetically or semantically associated words through a poem, often paired with kakekotoba, building a web of resonance activated only for a reader versed in the poetic tradition."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Kehai",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kehai.json",
+    "termCode": "kehai",
+    "alternateName": "気配",
+    "description": "The sensed presence of something before it is seen or heard. The atmosphere of what is about to happen."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "A-un no kokyū",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/a-un-no-kokyu.json",
+    "termCode": "a-un-no-kokyu",
+    "alternateName": "阿吽の呼吸",
+    "description": "The perfect attunement between two who act together without speaking. Not silence but coordination: timing and gesture align as one."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Ishin denshin",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ishin-denshin.json",
+    "termCode": "ishin-denshin",
+    "alternateName": "以心伝心",
+    "description": "Understanding transmitted from mind to mind, heart to heart, without verbal mediation. A meeting of minds that needs no words."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Komorebi",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/komorebi.json",
+    "termCode": "komorebi",
+    "alternateName": "木漏れ日",
+    "description": "Sunlight filtering through the leaves of trees."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Ukiyo-e",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/ukiyo-e.json",
+    "termCode": "ukiyo-e",
+    "alternateName": "浮世絵",
+    "description": "Polychrome woodblock prints of the Edo period, literally images of the floating world: landscapes, actors, courtesans, everyday scenes."
    }
   ]
  }
