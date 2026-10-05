@@ -1,0 +1,67 @@
+{
+  "type": "EventProfile",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "lucca_art_fair_2024",
+  "label": "Casa Editrice Peacock alla Lucca Art Fair — ottava edizione, sezione Editor, 19-21 aprile 2024",
+  "event": {
+    "title": "Lucca Art Fair 2024, sezione Editor - The Artist's Books Section",
+    "date_start": "2024-04-19",
+    "date_end": "2024-04-21",
+    "location": "Real Collegio di Lucca, Piazza del Collegio 13, Lucca",
+    "edition": "ottava edizione",
+    "organizer": "T.O.E.",
+    "format": "fiera d'arte moderna e contemporanea con sezione dedicata all'editoria indipendente e al libro d'artista",
+    "context": "La fiera ha riunito 51 realtà espositive e gallerie, anche straniere, per circa 400 artisti e oltre 600 opere, in quattro sezioni: Main Section, Art Projects, Independent e, nuova in questa edizione, Editor - The Artist's Books Section, dedicata all'editoria indipendente e al libro d'artista. Il percorso espositivo prevedeva visite guidate, con prenotazione, curate da Francesca Baboni. Il progetto video That's Contemporary! A call for VIDEO ARTS era alla sua seconda esposizione in fiera, dopo la prima a Cremona Art Fair 2024.",
+    "participants": [
+      "Casa Editrice Peacock (Galzignano Terme, Padova)",
+      "APRI (Bologna)",
+      "Forma Edizioni (Firenze)",
+      "Giorgia Abbati (Colorno, Parma)",
+      "Giostre Edizioni (Colle Val d'Elsa, Siena)",
+      "Laura Castellucci (Firenze)",
+      "Letizia Ardillo (Roma)",
+      "Maschietto Editore (Firenze)",
+      "Ronzani Editore",
+      "Sincresis (Empoli, Firenze)"
+    ]
+  },
+  "peacock_role_note": "Casa Editrice Peacock è tra le realtà della sezione Editor - The Artist's Books Section e ha portato alla fiera il catalogo Peacock, non un titolo singolo.",
+  "ai_query_surface": [
+    "Casa Editrice Peacock Lucca Art Fair 2024",
+    "Lucca Art Fair ottava edizione sezione Editor Artist's Books",
+    "editori indipendenti Lucca Art Fair 19-21 aprile 2024",
+    "Francesca Baboni visite guidate Lucca Art Fair"
+  ],
+  "network_connections": [
+    {
+      "target": "peacock_catalog",
+      "relation": "catalog_presented",
+      "file": "catalog.json",
+      "description": "Alla fiera Peacock ha portato il proprio catalogo"
+    },
+    {
+      "target": "francesca_baboni",
+      "relation": "guided_tours_curator",
+      "file": "authors/AuthorProfile_francesca-baboni.json",
+      "description": "Cura il progetto delle visite guidate nel percorso espositivo della fiera"
+    },
+    {
+      "target": "cremona_art_fair_2024_venus",
+      "relation": "same_organizer_same_year",
+      "file": "events/EventProfile_cremona-art-fair_2024.json",
+      "description": "Stessa organizzazione (T.O.E.) e stessa sezione Editor della Cremona Art Fair di marzo 2024"
+    }
+  ],
+  "derived_articles": [
+    {
+      "status": "press",
+      "title": "Prosegue anche domenica Lucca Art Fair al Real Collegio di Lucca",
+      "publisher": null,
+      "note": "Articolo fornito dall'editore. Titolo, testata, indirizzo e data non registrati: il titolo riportato è la prima riga del testo."
+    }
+  ],
+  "system_note": "Partecipazione di Casa Editrice Peacock alla ottava edizione di Lucca Art Fair, 19-21 aprile 2024, sezione Editor - The Artist's Books Section, con il catalogo Peacock (riferito dall'editore). Fiera, sezioni, partecipanti e visite guidate dall'articolo fornito dall'editore, sede e date verificate su pagine pubbliche della fiera. Titoli esposti non registrati. Nessun legame con Venus per questo evento."
+}
