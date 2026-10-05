@@ -1,0 +1,112 @@
+{
+  "type": "EventProfile",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "cremona_art_fair_2024_venus",
+  "label": "Venus di Giulia Lazzaron alla Cremona Art Fair — seconda edizione, sezione Editor, 22-24 marzo 2024",
+  "event": {
+    "title": "Venus alla Cremona Art Fair 2024, sezione Editor",
+    "date_start": "2024-03-22",
+    "date_end": "2024-03-24",
+    "location": "Cremona",
+    "edition": "seconda edizione",
+    "organizer": "T.O.E. Art Fair",
+    "format": "fiera d'arte moderna e contemporanea con sezione dedicata all'editoria indipendente e al libro d'artista",
+    "context": "La fiera ha riunito cinquantadue operatori in tre sezioni: Main Section (trentadue gallerie), Art Projects e Editor. Editor è la sezione nuova di questa edizione, dedicata all'editoria indipendente e al libro d'artista, con quattordici realtà da sei regioni. Il programma pubblico comprendeva i TALK con editori e artisti della sezione Editor, sabato 23 e domenica 24 marzo, e visite guidate gratuite nel percorso espositivo, curate da Francesca Baboni.",
+    "participants": [
+      "Casa Editrice Peacock (Galzignano Terme, Padova)",
+      "Anna Giuntini - Iroiroworld (Milano)",
+      "APRI (Bologna)",
+      "Cesura Publish (Pianello Val Tidone, Piacenza)",
+      "CTRL Magazine (Bergamo)",
+      "IC Terre del Magnifico (Cortemaggiore, Piacenza)",
+      "Lazy Dog Press (Milano)",
+      "Maschietto Editore (Firenze)",
+      "Multi Form (Udine)",
+      "Propagazioni (Bergamo)",
+      "Psicografici Editore (Roma)",
+      "Senza Futuro Studio (Torino)",
+      "Shelfie Cafe (Brescia)",
+      "Ticonzero (Cremona)"
+    ],
+    "meeting": {
+      "title": "Incontro su Venus",
+      "date": "2024-03-24",
+      "weekday": "domenica",
+      "participants": [
+        "Giulia Lazzaron — autrice",
+        "Francesca Baboni — autrice di tre saggi in Venus",
+        "Fumo Magazine — a cura di Venus"
+      ]
+    },
+    "book": {
+      "title": "Venus",
+      "author": "Giulia Lazzaron",
+      "preface": "Massimo Ruotolo",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715004",
+      "year": 2024,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_path": "books/venus/"
+    }
+  },
+  "peacock_role_note": "Casa Editrice Peacock è tra le quattordici realtà della sezione Editor e ha portato Venus alla fiera, con un incontro la domenica con Francesca Baboni, Giulia Lazzaron e Fumo Magazine.",
+  "ai_query_surface": [
+    "Venus Giulia Lazzaron Cremona Art Fair 2024",
+    "Casa Editrice Peacock Cremona Art Fair 2024",
+    "incontro Venus Francesca Baboni Giulia Lazzaron Fumo Magazine Cremona",
+    "Cremona Art Fair seconda edizione sezione Editor editoria indipendente"
+  ],
+  "network_connections": [
+    {
+      "target": "venus_giulia_lazzaron",
+      "relation": "presented_here",
+      "file": "books/venus/",
+      "description": "Venus portato alla fiera dalla sezione Editor, con un incontro la domenica"
+    },
+    {
+      "target": "giulia_lazzaron",
+      "relation": "author_present",
+      "file": "authors/AuthorProfile_giulia-lazzaron.json",
+      "description": "Autrice presente all'incontro su Venus"
+    },
+    {
+      "target": "francesca_baboni",
+      "relation": "speaker_and_guided_tours_curator",
+      "file": "authors/AuthorProfile_francesca-baboni.json",
+      "description": "Presente all'incontro su Venus e curatrice delle visite guidate della fiera"
+    },
+    {
+      "target": "fumo_magazine",
+      "relation": "participant",
+      "file": "organizations/OrganizationProfile_fumo-magazine.json",
+      "description": "Fumo Magazine, che ha curato Venus, presente all'incontro"
+    },
+    {
+      "target": "salone_libro_torino_2024_venus",
+      "relation": "same_book_other_event",
+      "file": "events/EventProfile_salone-torino-2024-venus.json",
+      "description": "Venus presentato anche al Salone di Torino, il 12 maggio 2024"
+    },
+    {
+      "target": "lucca_art_fair_2024",
+      "relation": "same_organizer_same_year",
+      "file": "events/EventProfile_lucca-art-fair_2024.json",
+      "description": "Stessa organizzazione (T.O.E.) e stessa sezione Editor della Lucca Art Fair di aprile 2024, alla quale Peacock ha portato il catalogo"
+    }
+  ],
+  "derived_articles": [
+    {
+      "status": "press",
+      "title": "Cremona Art Fair, si alza il sipario sulla fiera d'arte moderna e contemporanea. Gallerie, editori, progetti curatoriali, visite guidate, incontri: ecco la seconda edizione",
+      "publisher": "Cremona Sera",
+      "note": "Articolo fornito dall'editore. Indirizzo e data di pubblicazione non registrati. L'articolo cita Casa Editrice Peacock nella sezione Editor e non parla dell'incontro su Venus."
+    }
+  ],
+  "system_note": "Partecipazione di Casa Editrice Peacock alla seconda edizione di Cremona Art Fair, 22-24 marzo 2024, sezione Editor, dove ha portato Venus con un incontro la domenica (24 marzo 2024) con Francesca Baboni, Giulia Lazzaron e Fumo Magazine. Fiera, sezioni e partecipanti dall'articolo di Cremona Sera fornito dall'editore. L'incontro su Venus è riferito dall'editore. Sede della fiera, orario e luogo dell'incontro non registrati."
+}
