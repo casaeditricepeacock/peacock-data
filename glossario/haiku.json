@@ -1,0 +1,39 @@
+{
+  "type": "GlossaryTerm",
+  "id": "haiku",
+  "term": "Haiku",
+  "kanji": "俳句",
+  "aliases": [
+    "Haiku",
+    "haiku",
+    "俳句"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Breve componimento poetico giapponese. In La Medusa e la Scimmia un haiku di Kobayashi Issa apre il volume e, secondo la postfazione di Francesco Verni, racconta la morale della fiaba: le difficoltà affrontate rendono ogni persona unica e speciale.",
+  "definition_short_en": "A short Japanese poem. In La Medusa e la Scimmia a haiku by Kobayashi Issa opens the book and, according to Francesco Verni's afterword, tells the moral of the tale: the difficulties we face make each person unique and special.",
+  "connected_terms": [],
+  "books_applied": [
+    "la_medusa_e_la_scimmia"
+  ],
+  "books_applied_paths": [
+    "books/la-medusa-e-la-scimmia"
+  ],
+  "note": "Ancorato in La Medusa e la Scimmia: «Una raffica di vento lo trasforma nel salice perfetto» (Kobayashi Issa), che apre il volume, e nella postfazione di Francesco Verni: «ben raccontata nello haiku che apre il volume». Il kanji 俳句 è l'equivalente giapponese del termine e non compare nel testo italiano del libro.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Haiku",
+    "description": "A short Japanese poem. In La Medusa e la Scimmia a haiku by Kobayashi Issa opens the book and, according to Francesco Verni's afterword, tells the moral of the tale: the difficulties we face make each person unique and special.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/haiku.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "俳句"
+  }
+}
