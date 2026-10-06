@@ -38,7 +38,8 @@
       "affects": {
         "weather-02": "la pressione genera il bisogno di fuga verso la superficie"
       },
-      "textual_anchor_it": "C'era una volta un regno nel fondo dei mari.",
+      "textual_anchor_it": "C’era una volta un regno nel fondo dei mari",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "ma"]
     },
     {
@@ -54,7 +55,8 @@
       "affects": {
         "weather-03": "la superficie attiva la necessità di una luce diversa"
       },
-      "textual_anchor_it": "Fatti pochi passi sulla spiaggia, incontrò una graziosa Scimmia.",
+      "textual_anchor_it": "Fatti pochi passi sulla spiaggia, incontrò una graziosa Scimmia",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "mono no aware"]
     },
     {
@@ -70,7 +72,8 @@
       "affects": {
         "weather-04": "la luce rende possibile la trasformazione del linguaggio in evento"
       },
-      "textual_anchor_it": "fotografare i disegni per restituire quell'aspetto 'vintage' e genuino delle pubblicazioni degli anni Ottanta e Novanta.",
+      "textual_anchor_it": "fotografare i disegni per restituire quell’aspetto “vintage” e genuino delle pubblicazioni degli anni Ottanta e Novanta.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["wabi-sabi", "mono no aware"]
     },
     {
@@ -83,7 +86,8 @@
       "basho": "il sistema inizia con una instabilità climatica minima",
       "kokyu": "il vento non descrive il salice: lo riscrive",
       "yūgen": "ogni trasformazione è già contenuta nel primo verso",
-      "textual_anchor_it": "Una raffica di vento / lo trasforma nel salice / perfetto — Kobayashi Issa",
+      "textual_anchor_it": "Una raffica di vento lo trasforma nel salice perfetto",
+      "anchor_type": "direct_quote",
       "glossary_link": ["yūgen", "mono no aware"]
     }
   ],
