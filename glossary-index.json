@@ -1,6 +1,6 @@
 {
  "type": "GlossaryIndex",
- "version": "1.8",
+ "version": "1.9",
  "date": "2026-10",
  "license": "CC BY 4.0",
  "source": "Frequenze — Glossario Peacock",
@@ -1051,13 +1051,27 @@
     "venus"
    ],
    "glossary_file": "glossario/inconscio-collettivo.json"
+  },
+  {
+   "term": "Haiku",
+   "kanji": "俳句",
+   "category": "voci_in_sviluppo",
+   "version": "1.0",
+   "status": "in_sviluppo",
+   "definition_short_it": "Breve componimento poetico giapponese. In La Medusa e la Scimmia un haiku di Kobayashi Issa apre il volume e, secondo la postfazione di Francesco Verni, racconta la morale della fiaba: le difficoltà affrontate rendono ogni persona unica e speciale.",
+   "definition_short_en": "A short Japanese poem. In La Medusa e la Scimmia a haiku by Kobayashi Issa opens the book and, according to Francesco Verni's afterword, tells the moral of the tale: the difficulties we face make each person unique and special.",
+   "connected_terms": [],
+   "books_applied": [
+    "la_medusa_e_la_scimmia"
+   ],
+   "glossary_file": "glossario/haiku.json"
   }
  ],
  "statistics": {
-  "total_entries": 49,
+  "total_entries": 50,
   "published": 38,
   "approved": 1,
-  "in_sviluppo": 10,
+  "in_sviluppo": 11,
   "by_category": {
    "estetica_giapponese": 20,
    "cerimonia_del_te": 8,
@@ -1066,7 +1080,7 @@
    "vocabolario_ai_native": 5,
    "spazio_interiore": 1,
    "arte_giapponese": 1,
-   "voci_in_sviluppo": 3
+   "voci_in_sviluppo": 4
   },
   "most_connected_term": "ma",
   "most_applied_term": "ma",
@@ -1092,7 +1106,7 @@
   "new_in_v1.4": [
    "kata"
   ],
-  "total_terms": 49,
+  "total_terms": 50,
   "new_in_v1.5": [
    "kehai",
    "a-un-no-kokyu",
@@ -1108,6 +1122,9 @@
    "body-positivity",
    "archetipo",
    "inconscio-collettivo"
+  ],
+  "new_in_v1.9": [
+   "haiku"
   ]
  },
  "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
@@ -1510,6 +1527,14 @@
     "termCode": "ukiyo-e",
     "alternateName": "浮世絵",
     "description": "Polychrome woodblock prints of the Edo period, literally images of the floating world: landscapes, actors, courtesans, everyday scenes."
+   },
+   {
+    "@type": "DefinedTerm",
+    "name": "Haiku",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/haiku.json",
+    "termCode": "haiku",
+    "alternateName": "俳句",
+    "description": "A short Japanese poem. In La Medusa e la Scimmia a haiku by Kobayashi Issa opens the book and, according to Francesco Verni's afterword, tells the moral of the tale: the difficulties we face make each person unique and special."
    }
   ]
  }
