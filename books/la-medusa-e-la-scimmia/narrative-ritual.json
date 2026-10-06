@@ -36,6 +36,7 @@
         "ritual-02": "il consiglio produce la missione impossibile come unica opzione disponibile"
       },
       "textual_anchor_it": "Re Drago riunì un consiglio con tutta la Corte per le consultazioni. Si cercavano dei volontari.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "kokyu"]
     },
     {
@@ -52,6 +53,7 @@
         "ritual-03": "il viaggio produce incontri casuali che costruiscono la struttura della missione"
       },
       "textual_anchor_it": "la Corte insistette così tanto che alla fine la Medusa si persuase con le buone e con le cattive a mettersi in viaggio.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["kokyu", "mono no aware"]
     },
     {
@@ -72,6 +74,7 @@
         "ritual-04": "gli incontri portano la medusa all'isola delle scimmie e all'amicizia involontaria"
       },
       "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "ma"]
     },
     {
@@ -87,7 +90,8 @@
       "affects": {
         "ritual-05": "il fallimento della missione produce la punizione che genera la metamorfosi"
       },
-      "textual_anchor_it": "nel più profondo del suo animo gentile, era sollevata per la sorte della Scimmia, di cui si era fatta amica durante il viaggio.",
+      "textual_anchor_it": "nel più profondo del suo animo gentile, era sollevata per la sorte della Scimmia, di cui si era fatta amica durante il viaggio",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "kokyu"]
     },
     {
@@ -104,7 +108,8 @@
         "status": true,
         "description": "la punizione è irreversibile ma produce un campo estetico superiore: il sistema non può recuperare il risultato intenzionato"
       },
-      "textual_anchor_it": "la povera Medusa, malmenata, si ritrovò senza più ossa, ed è così che rimase per sempre.",
+      "textual_anchor_it": "si ritrovò senza più ossa, ed è così che rimase per sempre.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "wabi-sabi"]
     }
   ],
