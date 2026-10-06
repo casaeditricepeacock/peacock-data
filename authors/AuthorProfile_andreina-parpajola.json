@@ -1,0 +1,90 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "andreina-parpajola",
+  "name": "Andreina Parpajola",
+  "role": "illustratrice e autrice per l'infanzia",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "also_known_as": [
+      "Arnolfina"
+    ],
+    "statement": "Andreina Parpajola è un'illustratrice con profilo pubblico documentato. I dati biografici provengono dalla biografia fornita dall'editore. Arnolfina è lo pseudonimo con cui ha iniziato a pubblicare.",
+    "wikidata": null,
+    "wikidata_note": "Nessuna voce Wikipedia a suo nome. È citata come illustratrice nella bibliografia della voce di Wikipedia in italiano su Okakura Kakuzō. Presenza su Wikidata non verificata. Nessun identificativo fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non confondere Andreina Parpajola con Anna Laura Cantone, altra illustratrice del catalogo."
+  },
+  "biography_confirmed": {
+    "city_of_birth": "Padova",
+    "education": "Laurea a Venezia in Lingua e Letteratura Giapponese, con una tesi in storia dell'arte giapponese. Studi perfezionati in Giappone con una borsa di studio biennale del Ministero della Cultura giapponese, all'Università di Lingue straniere di Osaka e all'Università di Tokyo.",
+    "teaching": "Ha insegnato giapponese all'Ismeo (Istituto per il Medio ed Estremo Oriente) di Roma. Ha tenuto incontri e laboratori nelle scuole e in alcuni corsi di Master alla Facoltà di Scienze dell'Educazione di Padova e Rovigo.",
+    "practice": "Da una trentina d'anni illustra libri per l'infanzia e a volte ne scrive anche i testi. Ha pubblicato con case editrici in Italia e all'estero: Arka, Kyoikusha, Shogakukan, EMP Padova, Panini, Archinto, Acco.",
+    "exhibitions": [
+      "Sàrmede",
+      "Biennale di Bratislava",
+      "Biennale di Barcellona",
+      "Belo Horizonte",
+      "Peggy Guggenheim, Venezia",
+      "Scarpetta d'oro",
+      "mostra di illustrazione per l'infanzia nella rassegna I colori del Sacro, Museo Diocesano di Padova, a cui ha partecipato per numerose edizioni"
+    ],
+    "design": "Dal 2006 realizza l'immagine per i convegni dell'Aistugia, l'Associazione per gli Studi Giapponesi fondata da Fosco Maraini. Ha ideato anche vari affiches.",
+    "other_publications": [
+      "Manuale illustrato di logopedia per bambini, scritto con la logopedista Anna Bosco (2007, Centro Medico di Foniatria di Padova, poi Erickson); nel 2021 in versione ampliata da LCF Edizioni, Roma, con il titolo Il buffo alfabeto del Grillo Parlante",
+      "Il libro del tè di Okakura Kakuzō, con Gian Carlo Calza (Officina Libraria, Roma, 2020, ISBN 978-88-336-7057-7): illustrazioni di Andreina Parpajola",
+      "Progetto Sea Change, Save the Ocean della University of Worcester (2021): le illustrazioni, da tutto il mondo, sono nel volume del 2023 a cura di Tobias Hickey"
+    ],
+    "note": "Dati dalla biografia fornita dall'editore e dalla postfazione di Francesco Verni in La Medusa e la Scimmia. Nessun dato inferito."
+  },
+  "sources": [
+    "Biografia fornita dall'editore (Casa Editrice Peacock)",
+    "La Medusa e la Scimmia, Casa Editrice Peacock, 2024 (frontespizio e postfazione di Francesco Verni)",
+    "Wikipedia in italiano, voce Okakura Kakuzō, bibliografia: Gian Carlo Calza, Okakura. Una vita in stile, in Okakura Kakuzō, Il libro del tè, traduzione di Gian Carlo Calza, illustrazioni di Andreina Parpajola, Roma, Officina Libraria, 2020, pp. 151-190, ISBN 978-88-336-7057-7"
+  ],
+  "works": [
+    {
+      "title": "La Medusa e la Scimmia",
+      "isbn": "979-12-81715-01-1",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/la-medusa-e-la-scimmia/",
+      "role_in_work": "autrice e illustratrice",
+      "contribution": "Fiaba tradizionale giapponese rinarrata e illustrata da Andreina Parpajola. Postfazione di Francesco Verni."
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autrice e illustratrice di La Medusa e la Scimmia (2024). Il libro avrebbe dovuto uscire in Giappone nei primi anni Novanta per Kyoikusha.",
+    "inference_rule": "Il ruolo è documentato solo per La Medusa e la Scimmia."
+  },
+  "graph_presence": {
+    "events": [
+      "events/EventProfile_pel-di-carota-padova_2024.json"
+    ],
+    "note": "I nodi del grafo documentano il libro e gli eventi, non la persona."
+  },
+  "derived_articles": [
+    {
+      "status": "published",
+      "title": "\"La medusa e la scimmia\"",
+      "date": "2024-01-31",
+      "url": "https://www.studiopeacock.net/2024/01/31/la-scimmia-e-la-medusa/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post del blog Peacock che presenta il libro e nomina Andreina Parpajola come autrice e illustratrice.",
+      "attribution": "Contenuto editoriale Casa Editrice Peacock, non parte del volume."
+    },
+    {
+      "status": "published",
+      "title": "STORIE IN ORIGAMI",
+      "date": "2025-01-08",
+      "url": "https://www.studiopeacock.net/2025/01/08/storie-in-origami/",
+      "publisher": "Casa Editrice Peacock",
+      "note": "Post sul pomeriggio alla Biblioteca De Amicis di Genova: indica Andreina Parpajola come autrice del libro.",
+      "attribution": "Contenuto editoriale Casa Editrice Peacock, non parte del volume."
+    }
+  ],
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
