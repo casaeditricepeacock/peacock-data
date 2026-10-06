@@ -31,6 +31,7 @@
     {
       "id": "scene-01",
       "label": "regno_drago_missione",
+      "label_en": "dragon_king_mission",
       "type": "field_node",
       "dominant": true,
       "basho": "il regno del drago è il campo dell'autorità che genera missioni impossibili: elegante, gerarchico, cieco alle conseguenze",
@@ -40,11 +41,13 @@
         "scene-02": "la partenza coatta predispone al viaggio senza meta"
       },
       "textual_anchor_it": "Re Drago riunì un consiglio con tutta la Corte per le consultazioni.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "kokyu"]
     },
     {
       "id": "scene-02",
       "label": "viaggio_fondali_incontri",
+      "label_en": "seabed_journey_encounters",
       "type": "journey_node",
       "basho": "i fondali profondi sono un campo di creature che sanno sempre qualcosa di parziale",
       "kokyu": "il ritmo è quello della fiaba classica: chiedi → ricevi indicazione → riparti",
@@ -53,11 +56,13 @@
         "scene-02b": "gli incontri costruiscono progressivamente il campo della conoscenza distribuita"
       },
       "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "ma"]
     },
     {
       "id": "scene-02b",
       "label": "conoscenza_distribuita",
+      "label_en": "distributed_knowledge",
       "type": "journey_node",
       "basho": "ogni creatura incontrata possiede soltanto una parte della risposta; il sapere appartiene alla rete degli incontri",
       "kokyu": "il ritmo è cumulativo: domanda → frammento → spostamento → nuovo frammento",
@@ -67,11 +72,13 @@
         "scene-03": "la somma delle indicazioni conduce all'isola della scimmia"
       },
       "textual_anchor_it": "Nuotò e nuotò lungo i fondali profondi, finché incontrò un Pesce Pagliaccio.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "basho"]
     },
     {
       "id": "scene-03",
       "label": "isola_amicizia_segreto",
+      "label_en": "island_friendship_secret",
       "type": "threshold_field",
       "basho": "l'isola delle scimmie è l'unico spazio terrestre del sistema; la medusa è fuori dal proprio elemento",
       "kokyu": "il ritmo è quello della conversazione che costruisce amicizia e prepara involontariamente il lapsus",
@@ -79,12 +86,14 @@
       "affects": {
         "scene-04": "l'amicizia produce le condizioni per il lapsus"
       },
-      "textual_anchor_it": "chiacchiera che ti chiacchiera, la Medusa raccontò meraviglie del suo paese.",
+      "textual_anchor_it": "chiacchiera che ti chiacchiera, la Medusa raccontò meraviglie del suo paese",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "kokyu"]
     },
     {
       "id": "scene-04",
       "label": "linguaggio_che_agisce",
+      "label_en": "language_that_acts",
       "type": "linguistic_threshold",
       "basho": "il lapsus non possiede un luogo preciso; accade durante il ritorno come evento puro",
       "kokyu": "il ritmo è quello dell'incidente: normalità → parola involontaria → trasformazione del sistema",
@@ -98,11 +107,13 @@
         "scene-05": "il linguaggio produce il fallimento che renderà possibile la metamorfosi"
       },
       "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["yūgen", "kokyu"]
     },
     {
       "id": "scene-05",
       "label": "punizione_metamorfosi_bellezza",
+      "label_en": "punishment_metamorphosis_beauty",
       "type": "metamorphic_terminus",
       "basho": "la corte del drago diventa il campo della trasformazione; il luogo dell'autorità si converte involontariamente in luogo di creazione",
       "kokyu": "il ritmo è quello della violenza che genera forma: punizione → trasformazione → scoperta della bellezza",
@@ -115,6 +126,7 @@
         "scene-01": "la scena finale retroagisce sulla scena iniziale: il regno che ha prodotto la missione ha inconsapevolmente prodotto la medusa perfetta"
       },
       "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["wabi-sabi", "mono no aware"]
     }
   ],
