@@ -23,6 +23,7 @@
     {
       "id": "field-01",
       "label": "campo_della_missione_impossibile",
+      "label_en": "impossible_mission_field",
       "type": "temporal_field",
       "basho": "the mission is structurally impossible from the beginning: the jellyfish does not know where to find a monkey, the liver is never present, the objective is unreachable by design",
       "kokyu": "the rhythm is that of iteration: the same structure repeats (swim → ask → receive partial answer → continue) without approaching the goal linearly",
@@ -31,11 +32,13 @@
       "persistence_rule": "field persists through the entire journey as structural impossibility",
       "dissolution_rule": "field dissolves only when the real result (metamorphosis) replaces the declared goal",
       "field_logic": "declared_goal_as_structural_decoy",
-      "textual_anchor_it": "Solo che, la povera Medusa non aveva la minima idea di dove trovare una scimmia."
+      "textual_anchor_it": "Solo che, la povera Medusa non aveva la minima idea di dove trovare una scimmia.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-02",
       "label": "campo_del_lapsus",
+      "label_en": "slip_of_the_tongue_field",
       "type": "linguistic_field",
       "basho": "the verbal slip has no spatial location: it occurs in the middle of a conversation and changes everything retroactively",
       "kokyu": "the rhythm is that of the accident: normal flow interrupted by a single word that cannot be taken back",
@@ -48,11 +51,13 @@
         "field-01": "the slip collapses the mission field permanently",
         "field-03": "the slip produces the metamorphosis field as indirect consequence"
       },
-      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa."
+      "textual_anchor_it": "O magari senza fegato... si lasciò sfuggire la Medusa.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-03",
       "label": "campo_della_metamorfosi_involontaria",
+      "label_en": "involuntary_metamorphosis_field",
       "type": "transformation_field",
       "basho": "the metamorphosis is not located in a dramatic space: it happens in the mundane space of the court, during collective anger",
       "kokyu": "the rhythm is that of violence that becomes art: rapid destruction → permanent new form → unexpected beauty",
@@ -61,11 +66,13 @@
       "persistence_rule": "permanent: the jellyfish without bones is the definitive state",
       "dissolution_rule": "non-dissolvable: the transformation is the system's final state",
       "field_logic": "punishment_as_unintended_creation",
-      "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima."
+      "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-04",
       "label": "campo_temporale_doppio",
+      "label_en": "double_time_field",
       "type": "temporal_field",
       "basho": "the illustrations exist in two simultaneous times: Japan 1980s and Italy 2024; the analogue photography maintains both fields active without choosing between them",
       "kokyu": "the rhythm is that of recovery: thirty years of silence then sudden publication; the wait amplifies the field",
@@ -74,7 +81,8 @@
       "persistence_rule": "field persists as long as the analogue technique remains visible in the image",
       "dissolution_rule": "field collapses if digital processing erases the analogue texture",
       "field_logic": "temporal_coexistence_as_aesthetic_condition",
-      "textual_anchor_it": "L'anno in cui impostare il punto di arrivo della specialissima macchina è il 1993."
+      "textual_anchor_it": "L’anno in cui impostare il punto di arrivo della specialissima macchina è il 1993",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-05",
@@ -95,6 +103,7 @@
         "field-04": "trasforma il ritardo editoriale in valore aggiunto"
       },
       "textual_anchor_it": "dovreste vederla ora come nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima.",
+      "anchor_type": "direct_quote",
       "glossary_link": [
         "yūgen",
         "mono no aware"
