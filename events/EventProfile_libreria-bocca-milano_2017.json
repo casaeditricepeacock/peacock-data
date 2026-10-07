@@ -1,0 +1,73 @@
+{
+ "type": "EventProfile",
+ "version": "1.0",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "event_id": "libreria_bocca_milano_novembre_2017_haiku_jazz",
+ "label": "Haiku Jazz — Libreria Bocca dal 1775, Milano, 21 novembre 2017",
+ "event": {
+  "title": "Haiku Jazz",
+  "date": "2017-11-21",
+  "location": "Libreria Bocca dal 1775 — Galleria Vittorio Emanuele II, Milano",
+  "description": "Presentazione del progetto Haiku Jazz della cantante Nicoletta Castracane, che musica in chiave jazz alcuni haiku del poeta Toshihiko Ota, in occasione dell'uscita di un libro di haiku dello stesso poeta. Il progetto è stato concepito da Castracane insieme al contrabbassista Luigi Blasioli.",
+  "patronage": [
+   "Consolato Generale del Giappone di Milano",
+   "Associazione Italiana Maggiordomi"
+  ],
+  "participants": [
+   "Nicoletta Castracane — cantante",
+   "Luigi Blasioli — contrabbassista",
+   "Toshihiko Ota — poeta",
+   "Stefano Giglio — artista",
+   "Elena Lombardi — artista",
+   "Shogoro Nomura — artista",
+   "Hitomi Iwasaki — artista",
+   "Antonio Ciccone — artista"
+  ],
+  "note_ota": "Nella fonte l'evento è collegato all'uscita di un libro di haiku di Toshihiko Ota. Il volume non è a catalogo Casa Editrice Peacock e non coincide con Luna piena sulla città antica (tanka, 2023).",
+  "note_participants": "L'elenco dei partecipanti riprende l'intervista a Nicoletta Castracane: Ota è citato come poeta di cui si musicano gli haiku, la sua presenza fisica non è dichiarata nella fonte. Il ruolo 'artista' è quello usato nella fonte."
+ },
+ "place": {
+  "name": "Libreria Bocca dal 1775",
+  "address": "Galleria Vittorio Emanuele II, 20121 Milano",
+  "founded": 1775,
+  "graph_file": "places/libreria-bocca-1775-milano.json"
+ },
+ "patronage_layer": {
+  "consolato_ref": "organizations/OrganizationProfile_consolato-giappone-milano.json"
+ },
+ "source_documents": [
+  {
+   "title": "BOUN SYUNJU 暮雲春樹 # 02 – INTERVIEW – JAZZ.IT",
+   "publisher": "Boun Syunju 暮雲春樹, rivista virtuale fondata nel 2017 da Stefano Giglio e Shogoro Nomura (pagina firmata Collettivo C13, testo originario: intervista a Nicoletta Castracane, Jazzit)",
+   "date": "2017-11-28",
+   "url": "https://studiopeacock.wordpress.com/2017/11/28/boun-syunju-%e6%9a%ae%e9%9b%b2%e6%98%a5%e6%a8%b9-02-interview-jazz-it/",
+   "quote_it": "La cantante Nicoletta Castracane ci racconta il progetto «Haiku Jazz», presentato lo scorso 21 novembre presso la Libreria Bocca dal 1775 di Milano"
+  }
+ ],
+ "network_connections": [
+  {
+   "target": "libreria_bocca_1775_milano",
+   "relation": "hosted_at",
+   "description": "Evento ospitato nella Libreria Bocca dal 1775"
+  },
+  {
+   "target": "libreria_bocca_milano_novembre_2022",
+   "relation": "same_place_later_event",
+   "description": "La Libreria Bocca ospita nel 2022 la presentazione de La Singolarità Giappone"
+  },
+  {
+   "target": "toshihiko-ota",
+   "relation": "poet_of_the_haiku",
+   "description": "Gli haiku musicati sono di Toshihiko Ota"
+  },
+  {
+   "target": "libreria_bocca_milano_maggio_2017_boun_syunju",
+   "relation": "same_year_earlier_event",
+   "file": "events/EventProfile_libreria-bocca-milano_2017-05.json",
+   "description": "Preceduto dall'incontro Boun Syunju alla Libreria Bocca del 2 maggio 2017."
+  }
+ ],
+ "system_note": "Evento del 2017, precedente alla fondazione della casa editrice. Documentato da Boun Syunju, rivista virtuale fondata nel 2017 da Stefano Giglio e Shogoro Nomura, precursore concettuale di Frequenze. Anno dedotto dalla data di pubblicazione dell'articolo, 28 novembre 2017."
+}
