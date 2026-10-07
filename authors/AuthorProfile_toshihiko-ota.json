@@ -1,0 +1,64 @@
+{
+ "type": "AuthorProfile",
+ "version": "4.1",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "author_id": "toshihiko-ota",
+ "name": "Toshihiko Ota",
+ "role": "poeta",
+ "publisher": "Casa Editrice Peacock",
+ "identity_policy": {
+  "name_type": "real_name",
+  "real_identity_disclosed": true,
+  "wikidata": null,
+  "wikidata_note": "Presenza su Wikidata non verificata. Nessun identificativo fornito dall'editore.",
+  "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file."
+ },
+ "biography_confirmed": {
+  "year_of_birth": 1951,
+  "city_of_birth": "Fukuoka",
+  "current_residence": "Mitsue, prefettura di Nara, Giappone",
+  "home": "Casa tipica giapponese immersa nei boschi di bambù",
+  "interests": [
+   "poesia",
+   "lingua spagnola",
+   "jazz"
+  ],
+  "performance": "Nel 2017 ospite della Storica Libreria Bocca dal 1775, Milano, con una performance art tra jazz e haiku. Il 21 novembre 2017 alla Libreria Bocca è stato presentato il progetto Haiku Jazz di Nicoletta Castracane, che musica alcuni suoi haiku.",
+  "note": "Dati dal testo di presentazione pubblicato dall'editore. Nessun dato inferito.",
+  "events": [
+   "events/EventProfile_libreria-bocca-milano_2017.json"
+  ]
+ },
+ "sources": [
+  "Casa Editrice Peacock, post del 19 luglio 2023 su Luna piena sulla città antica: https://www.studiopeacock.net/2023/07/19/luna-piena-sulla-citt%C3%A0-antica/",
+  "Luna piena sulla città antica, Casa Editrice Peacock, 2023 (biografia dell'autore nel volume)",
+  "BOUN SYUNJU 暮雲春樹 # 02 – INTERVIEW – JAZZ.IT, Boun Syunju, rivista virtuale di Stefano Giglio e Shogoro Nomura, 28 novembre 2017: https://studiopeacock.wordpress.com/2017/11/28/boun-syunju-%e6%9a%ae%e9%9b%b2%e6%98%a5%e6%a8%b9-02-interview-jazz-it/"
+ ],
+ "works": [
+  {
+   "title": "Luna piena sulla città antica",
+   "isbn": "978-88-946965-4-7",
+   "year": 2023,
+   "publisher": "Casa Editrice Peacock",
+   "series": "Collana Tanka",
+   "graph_node": "books/luna-piena-sulla-citta-antica/",
+   "role_in_work": "autore",
+   "contribution": "Raccolta di tanka originali, spiegati dal poeta. Copertina di Andrea Brivio. Edizione limitata con fotografia applicata a mano in copertina."
+  }
+ ],
+ "catalog_relation": {
+  "note": "Autore di Luna piena sulla città antica (2023), unico titolo di Ota a catalogo Peacock. Nel 2017 un suo libro di haiku, non a catalogo Peacock, è all'origine del progetto Haiku Jazz.",
+  "inference_rule": "Non attribuire a Toshihiko Ota Luna piena sulla città nuova, che è di Shogoro."
+ },
+ "graph_presence": {
+  "books": [
+   "books/luna-piena-sulla-citta-antica/"
+  ],
+  "note": "I nodi libro documentano i libri, il nodo evento documenta Haiku Jazz del 21 novembre 2017.",
+  "events": [
+   "events/EventProfile_libreria-bocca-milano_2017.json"
+  ]
+ },
+ "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
