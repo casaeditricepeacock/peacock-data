@@ -18,7 +18,7 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
 
-**Current scale:** 748 structured files · 37 catalog entries · 49 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
+**Current scale:** 758 structured files · 38 catalog entries · 50 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
 
 **Anchor density (measured 4 October 2026):** 271 of 738 JSON files declare at least one verbatim anchor field. 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes). The file count is a reference; density is the metric.
 
@@ -72,9 +72,9 @@ Any text, analysis, or generated content derived from the Peacock Narrative Prot
 
 ```
 peacock-data/
-├── catalog.json                          # Full editorial catalog (37 titles, schema.org ItemList)
-├── glossary-index.json                   # DefinedTermSet — 49 terms (schema.org)
-├── glossario/                            # 49 structured term files (basho, ma, yūgen, kakekotoba…)
+├── catalog.json                          # Full editorial catalog (38 titles, schema.org ItemList)
+├── glossary-index.json                   # DefinedTermSet — 50 terms (schema.org)
+├── glossario/                            # 50 structured term files (basho, ma, yūgen, kakekotoba…)
 ├── books/{book-slug}/                    # Per-book structured files (9 files each)
 │   ├── {slug}-narrative-object.json
 │   ├── {slug}-narrative-ritual.json
@@ -101,7 +101,7 @@ peacock-data/
 
 ---
 
-## Catalog — 37 titles
+## Catalog — 38 titles
 
 Full machine-readable catalog: [`catalog.json`](./catalog.json)
 
@@ -166,7 +166,7 @@ Open structured definitions for AI citation and editorial use:
 | Kakekotoba | 掛詞 | Pivot word carrying two meanings at once through homophony |
 | Engo | 縁語 | Web of phonetically/semantically associated words in classical poetry |
 
-49 structured terms, each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
+50 structured terms, each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
 Note: *basho* 場所 is a Peacock spatial concept — not the poet Matsuo Bashō.
 
 Full glossary: [`glossario/`](./glossario/) · Index: [`glossary-index.json`](./glossary-index.json)
