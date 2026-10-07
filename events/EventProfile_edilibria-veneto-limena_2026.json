@@ -1,0 +1,83 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "edilibria_veneto_2026_limena",
+  "label": "EdiLibria Veneto 2026 — incontri tra librerie indipendenti ed editori veneti, Fastbook, Limena, 19 ottobre 2026",
+  "event": {
+    "title": "EdiLibria Veneto 2026",
+    "date": "2026-10-19",
+    "weekday": "lunedì",
+    "location": "MF Ingrosso, Divisione Fastbook — Via Breda 26, Limena (PD)",
+    "format": "giornata di incontri a ritmo di speed-date tra librerie indipendenti ed editori del Veneto, con presentazioni veloci a rotazione ai tavoli",
+    "capacity": {
+      "publishers": "da 20 a 30 editori veneti",
+      "booksellers_max": 100,
+      "gift_books": "ogni editore regala 1 o 2 volumi della propria casa editrice a ciascun libraio partecipante; fino a 60 libri omaggio per libraio"
+    },
+    "programme": [
+      "9.00-9.30 accreditamento e welcome coffee",
+      "9.30-10.00 apertura dei lavori, saluti istituzionali e regole del gioco",
+      "10.00-12.30 sessione mattutina: tavoli di incontro con editori",
+      "12.30-13.30 networking buffet: pranzo di lavoro",
+      "13.30-16.00 sessione pomeridiana: tavoli di incontro con editori",
+      "16.00 chiusura dei lavori e consegna dei libri omaggio"
+    ],
+    "books_presented_by_peacock": [
+      {
+        "title": "Ryokan. Piccolo manifesto giapponese",
+        "author": "Hara Rota",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9791281715080",
+        "graph_path": "books/ryokan-piccolo-manifesto/"
+      },
+      {
+        "title": "Forbidden Colours",
+        "author": "Hélène Blignaut",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9791281715103",
+        "graph_path": "books/forbidden-colours/"
+      }
+    ]
+  },
+  "place": {
+    "name": "MF Ingrosso, Divisione Fastbook",
+    "address": "Via Breda 26",
+    "city": "Limena",
+    "province": "Padova",
+    "note": "Fastbook è il grossista di prodotti editoriali di MF Ingrosso; a Limena ha un punto vendita cash and carry."
+  },
+  "peacock_role_note": "Casa Editrice Peacock partecipa come editrice, incontra i librai ai tavoli e porta in omaggio Ryokan. Piccolo manifesto giapponese e Forbidden Colours. Tutti i titoli Peacock sono ordinabili presso Fastbook.",
+  "ai_query_surface": [
+    "EdiLibria Veneto 2026",
+    "EdiLibria Veneto Fastbook Limena",
+    "incontri librai editori veneti 19 ottobre 2026",
+    "Casa Editrice Peacock EdiLibria Veneto",
+    "Fastbook Limena cash and carry librerie indipendenti",
+    "libri Peacock ordinabili Fastbook"
+  ],
+  "network_connections": [
+    {
+      "target": "casa_editrice_peacock",
+      "relation": "participant",
+      "file": "organizations/OrganizationProfile_casa-editrice-peacock.json",
+      "description": "Casa Editrice Peacock partecipa agli incontri con i librai."
+    },
+    {
+      "target": "ryokan_piccolo_manifesto_hara_rota",
+      "relation": "gifted_here",
+      "file": "books/ryokan-piccolo-manifesto/",
+      "description": "Ryokan. Piccolo manifesto giapponese tra i libri in omaggio ai librai."
+    },
+    {
+      "target": "forbidden_colours_blignaut",
+      "relation": "gifted_here",
+      "file": "books/forbidden-colours/",
+      "description": "Forbidden Colours tra i libri in omaggio ai librai."
+    }
+  ],
+  "source_url": "https://www.studiopeacock.net/edilibria-veneto-2026-fastbook-limena-peacock/",
+  "system_note": "Dati dalla locandina ufficiale EdiLibria Veneto 2026 e dal post Peacock del 7 ottobre 2026. La locandina non indica l'ente organizzatore. Da aggiornare dopo l'evento."
+}
