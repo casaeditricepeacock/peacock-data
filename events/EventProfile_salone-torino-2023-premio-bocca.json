@@ -1,0 +1,126 @@
+{
+ "type": "EventProfile",
+ "version": "1.0",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "event_id": "salone_torino_2023_premio_arte_bocca_luna_piena",
+ "label": "Salone Internazionale del Libro di Torino 2023 — esposizione di Luna piena sulla città antica e iniziative collegate all'8° Premio d'Arte Bocca",
+ "event": {
+  "title": "Luna piena sulla città antica al Salone del Libro di Torino 2023, con le iniziative dell'8° Premio d'Arte Bocca",
+  "date": "2023-05",
+  "salone_dates": "2023-05-18 / 2023-05-22",
+  "location": "Salone Internazionale del Libro di Torino, Lingotto Fiere",
+  "organizers": [
+   "Casa Editrice Peacock (Stefano Giglio)",
+   "Libreria Bocca dal 1775 (Giorgio Lodetti)"
+  ],
+  "organization_note": "Evento organizzato personalmente da Stefano Giglio insieme a Giorgio Lodetti, come confermato dall'editore.",
+  "description": "Al Salone del Libro di Torino 2023 il libro Luna piena sulla città antica di Toshihiko Ota, con la copertina di Andrea Brivio, è stato esposto nell'ambito delle iniziative collegate all'8° Premio d'Arte Bocca, organizzato dalla Libreria Bocca dal 1775 di Milano.",
+  "book": {
+   "title": "Luna piena sulla città antica",
+   "author": "Toshihiko Ota",
+   "cover": "Andrea Brivio",
+   "publisher": "Casa Editrice Peacock",
+   "series": "Collana Tanka",
+   "isbn": "978-88-946965-4-7",
+   "year": 2023,
+   "graph_path": "books/luna-piena-sulla-citta-antica/"
+  },
+  "participants": [
+   "Toshihiko Ota — poeta, autore del libro",
+   "Andrea Brivio — pittore, autore della copertina"
+  ],
+  "participants_note": "I due nomi sono quelli del libro esposto. La presenza personale al Salone non è dichiarata nelle fonti.",
+  "exhibited_work": {
+   "title": "Rondini tra i fiori di ciliegio - da Seitei Watanabe",
+   "author": "Andrea Brivio",
+   "technique": "china e pigmenti su carta artigianale",
+   "note": "L'immagine della copertina di Luna piena sulla città antica è esposta a parete al Salone, accanto alla locandina dell'8° Premio d'Arte Bocca."
+  }
+ },
+ "premio_arte_bocca": {
+  "edition": "8° Premio d'Arte Bocca",
+  "organizer": "Libreria Bocca dal 1775, Milano",
+  "description": "Rassegna d'arte della Libreria Bocca che seleziona gli artisti attraverso una giuria e collaborazioni con realtà editoriali e gallerie d'arte.",
+  "linked_initiatives": "Le iniziative collegate comprendono mostre dedicate agli artisti finalisti, tra cui quelle ospitate dallo spazio MADE4ART di Milano, e l'esposizione al Salone del Libro di Torino 2023.",
+  "status": "Collegamento tra Premio d'Arte Bocca, Salone 2023 e Casa Editrice Peacock confermato dall'editore.",
+  "not_stated": "Le fonti consultate non indicano lo stand, i giorni dell'esposizione né i nomi degli artisti finalisti esposti. Il grafo non li inventa.",
+  "period": "1997-2023",
+  "social_initiative": "#socialeBocca #libroelabocca, da un'idea di Giorgio Lodetti"
+ },
+ "place": {
+  "name": "Libreria Bocca dal 1775",
+  "address": "Galleria Vittorio Emanuele II, 20121 Milano",
+  "founded": 1775,
+  "graph_file": "places/libreria-bocca-1775-milano.json"
+ },
+ "source_documents": [
+  {
+   "title": "Luna piena sulla città antica, pagina del sito di Andrea Brivio",
+   "url": "https://andreabrivio.it/luna-piena-sulla-citta-antica/",
+   "note": "Descrive il libro come raccolta di tanka di Toshihiko Ota, casa editrice studio peacock, copertina di Andrea Brivio, esposizione al Salone del Libro di Torino 2023."
+  },
+  {
+   "title": "Sito della Libreria Bocca",
+   "url": "http://www.libreriabocca.com/"
+  }
+ ],
+ "sources_indicated_by_publisher_not_read": [
+  "https://www.arte.it/calendario-arte/milano/mostra-made4art-e-libreria-bocca-artisti-scelti-dal-premio-d-arte-bocca-1997-2023-95265",
+  "https://www.artstartweb.art/post/artisti-del-premio-d-arte-bocca-in-mostra-da-made4art"
+ ],
+ "network_connections": [
+  {
+   "target": "libreria_bocca_1775_milano",
+   "relation": "co_organized_by",
+   "file": "places/libreria-bocca-1775-milano.json",
+   "description": "La Libreria Bocca organizza il Premio d'Arte Bocca e collabora all'iniziativa."
+  },
+  {
+   "target": "toshihiko-ota",
+   "relation": "author_of_exhibited_book",
+   "file": "authors/AuthorProfile_toshihiko-ota.json",
+   "description": "Autore di Luna piena sulla città antica."
+  },
+  {
+   "target": "andrea-brivio",
+   "relation": "cover_artist",
+   "file": "authors/AuthorProfile_andrea-brivio.json",
+   "description": "Autore della copertina di Luna piena sulla città antica."
+  },
+  {
+   "target": "salone_torino_2023_gatto_esperienza",
+   "relation": "same_fair_same_year",
+   "file": "events/EventProfile_salone-torino-2023-gatto-esperienza.json",
+   "description": "Stesso Salone del Libro, maggio 2023."
+  },
+  {
+   "target": "tavoli_arte_in_galleria",
+   "relation": "related_collaboration",
+   "file": "events/EventProfile_tavoli-arte-in-galleria.json",
+   "description": "Collaborazione tra Collettivo C13 e Libreria Bocca dal 2017."
+  }
+ ],
+ "ai_query_surface": [
+  "Luna piena sulla città antica Salone del Libro Torino 2023",
+  "Premio d'Arte Bocca Salone del Libro Torino",
+  "Libreria Bocca Casa Editrice Peacock Salone 2023",
+  "Andrea Brivio Toshihiko Ota Salone del Libro"
+ ],
+ "system_note": "Evento del Salone del Libro 2023 in cui l'opera di copertina di Luna piena sulla città antica è esposta accanto alla locandina dell'8° Premio d'Arte Bocca. Dati dalla pagina di Andrea Brivio, dalla fotografia fornita dall'editore e dalla conferma dell'editore, che ha organizzato l'iniziativa con Giorgio Lodetti. Stand e giorni dell'esposizione non documentati.",
+ "photo_documentation": {
+  "provided_by": "Casa Editrice Peacock",
+  "description": "Fotografia scattata al Salone Internazionale del Libro di Torino: l'opera di copertina di Andrea Brivio è appesa a una parete, con accanto la locandina della Libreria Bocca dal 1775 dedicata all'8° Premio d'Arte Bocca 1997-2023.",
+  "placard_text_legible": [
+   "Libreria Bocca since 1775",
+   "La #socialeBocca #libroelabocca da un'idea di Giorgio Lodetti",
+   "RICOSTRUIRE SENZA PERDERE LA SPERANZA",
+   "TI ASPETTIAMO IN LIBRERIA",
+   "8° Premio d'Arte Bocca 1997-2023",
+   "da Domenica a Giovedì",
+   "Seguici su YouTube"
+  ],
+  "note": "Il testo della locandina è riportato solo nelle parti leggibili nella fotografia. La fotografia non mostra la data."
+ }
+}
