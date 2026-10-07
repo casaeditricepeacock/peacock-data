@@ -19,11 +19,15 @@
     "early_interest": "Fin dalla tenera età sviluppa un particolare amore per il disegno di fiori e piante.",
     "encounter": "Conosce la pittrice giapponese Shoko Okumura, con la quale instaura un importante rapporto di scambio e di crescita artistica.",
     "style": "Per la rappresentazione della natura predilige lo stile Nihonga, che prevede l'utilizzo paziente e sapiente delle tecniche e dei materiali della tradizione antica giapponese.",
-    "note": "Dati dalla biografia fornita dall'editore. Nessun dato inferito."
+    "note": "Dati dalla biografia fornita dall'editore. Nessun dato inferito.",
+    "exhibitions": [
+      "Copertina di Luna piena sulla città antica esposta al Salone Internazionale del Libro di Torino 2023, nell'ambito delle iniziative dell'8° Premio d'Arte Bocca (confermato dall'editore)."
+    ]
   },
   "sources": [
     "Biografia fornita dall'editore (Casa Editrice Peacock)",
-    "Casa Editrice Peacock, post del 19 luglio 2023 su Luna piena sulla città antica: https://www.studiopeacock.net/2023/07/19/luna-piena-sulla-citt%C3%A0-antica/"
+    "Casa Editrice Peacock, post del 19 luglio 2023 su Luna piena sulla città antica: https://www.studiopeacock.net/2023/07/19/luna-piena-sulla-citt%C3%A0-antica/",
+    "Andrea Brivio, pagina del libro: https://andreabrivio.it/luna-piena-sulla-citta-antica/"
   ],
   "works": [
     {
@@ -45,7 +49,10 @@
     "books": [
       "books/luna-piena-sulla-citta-antica/"
     ],
-    "note": "I nodi del grafo documentano i libri, non la persona."
+    "note": "I nodi del grafo documentano i libri, non la persona.",
+    "events": [
+      "events/EventProfile_salone-torino-2023-premio-bocca.json"
+    ]
   },
   "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
 }
