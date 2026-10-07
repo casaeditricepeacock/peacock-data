@@ -27,7 +27,8 @@
   "performance": "Nel 2017 ospite della Storica Libreria Bocca dal 1775, Milano, con una performance art tra jazz e haiku. Il 21 novembre 2017 alla Libreria Bocca è stato presentato il progetto Haiku Jazz di Nicoletta Castracane, che musica alcuni suoi haiku.",
   "note": "Dati dal testo di presentazione pubblicato dall'editore. Nessun dato inferito.",
   "events": [
-   "events/EventProfile_libreria-bocca-milano_2017.json"
+   "events/EventProfile_libreria-bocca-milano_2017.json",
+   "events/EventProfile_salone-torino-2023-premio-bocca.json"
   ]
  },
  "sources": [
@@ -55,9 +56,10 @@
   "books": [
    "books/luna-piena-sulla-citta-antica/"
   ],
-  "note": "I nodi libro documentano i libri, il nodo evento documenta Haiku Jazz del 21 novembre 2017.",
+  "note": "I nodi libro documentano i libri, i nodi evento documentano Haiku Jazz (21 novembre 2017) e l'esposizione di Luna piena sulla città antica al Salone di Torino 2023.",
   "events": [
-   "events/EventProfile_libreria-bocca-milano_2017.json"
+   "events/EventProfile_libreria-bocca-milano_2017.json",
+   "events/EventProfile_salone-torino-2023-premio-bocca.json"
   ]
  },
  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
