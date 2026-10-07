@@ -5,9 +5,9 @@
  "source": "peacock-data — Casa Editrice Peacock",
  "publisher": "Casa Editrice Peacock",
  "event_id": "libreria_bocca_milano_maggio_2017_boun_syunju",
- "label": "Boun Syunju 暮雲春樹 — incontro alla Libreria Bocca dal 1775, Milano, 2 maggio 2017",
+ "label": "Boun Syunju 暮蕓春樹 — incontro alla Libreria Bocca dal 1775, Milano, 2 maggio 2017",
  "event": {
-  "title": "BOUN SYUNJU 暮雲春樹",
+  "title": "BOUN SYUNJU 暮蕓春樹",
   "date": "2017-05-02",
   "time": "ore 18:00",
   "location": "Libreria Bocca dal 1775 — Galleria Vittorio Emanuele II, Milano",
@@ -22,8 +22,12 @@
    "name": "MHway",
    "contribution": "sponsor tecnico, realizzazione di borse Limited Edition dedicate all'evento"
   },
-  "listing": "Evento segnalato nella pagina Eventi 2017 del Consolato Generale del Giappone a Milano.",
-  "note_participants": "I nomi sono quelli del dialogo descritto nel testo di presentazione: la fonte non contiene un elenco di relatori."
+  "listing": "Evento segnalato anche nella pagina Eventi 2017 del Consolato Generale del Giappone a Milano.",
+  "note_participants": "I nomi sono quelli del dialogo descritto nel testo di presentazione: la fonte non contiene un elenco di relatori.",
+  "patronage": [
+   "Consolato Generale del Giappone a Milano",
+   "Fondazione Italia Giappone"
+  ]
  },
  "place": {
   "name": "Libreria Bocca dal 1775",
@@ -34,7 +38,7 @@
  "source_documents": [
   {
    "title": "在ミラノ日本国総領事館 ( 2017年の行事) Consolato Generale del Giappone Milano – Eventi 2017",
-   "publisher": "Boun Syunju 暮雲春樹, rivista virtuale fondata nel 2017 da Stefano Giglio e Shogoro Nomura",
+   "publisher": "Boun Syunju 暮蕓春樹, rivista virtuale fondata nel 2017 da Stefano Giglio e Shogoro Nomura",
    "date": "2017-04-24",
    "url": "https://studiopeacock.wordpress.com/2017/04/24/%e5%9c%a8%e3%83%9f%e3%83%a9%e3%83%8e%e6%97%a5%e6%9c%ac%e5%9b%bd%e7%b7%8f%e9%a0%98%e4%ba%8b%e9%a4%a8-2017%e5%b9%b4%e3%81%ae%e8%a1%8c%e4%ba%8b%ef%bc%89consolato-generale-del-giappone-milano-eve/"
   }
@@ -54,16 +58,26 @@
   },
   {
    "target": "consolato_giappone_milano",
-   "relation": "listed_by",
+   "relation": "patronized_by",
    "file": "organizations/OrganizationProfile_consolato-giappone-milano.json",
-   "description": "Evento segnalato tra gli Eventi 2017 del Consolato Generale del Giappone a Milano."
+   "description": "Patrocinio del Consolato Generale del Giappone a Milano."
   },
   {
    "target": "libreria_bocca_milano_novembre_2017_haiku_jazz",
    "relation": "same_year_later_event",
    "file": "events/EventProfile_libreria-bocca-milano_2017.json",
    "description": "Seguito da Haiku Jazz, 21 novembre 2017, nella stessa libreria."
+  },
+  {
+   "target": "fondazione_italia_giappone",
+   "relation": "patronized_by",
+   "file": "organizations/OrganizationProfile_fondazione-italia-giappone.json",
+   "description": "Patrocinio della Fondazione Italia Giappone."
   }
  ],
- "system_note": "Evento del 2017, precedente alla fondazione della casa editrice. Primo evento documentato di Boun Syunju alla Libreria Bocca. Dati dal post del 24 aprile 2017. Il post scrive il titolo con 蕓; il grafo adotta 暮雲春樹, vedi organizations/OrganizationProfile_boun-syunju.json."
+ "system_note": "Evento del 2017, precedente alla fondazione della casa editrice. Primo evento documentato di Boun Syunju alla Libreria Bocca, con il patrocinio del Consolato Generale del Giappone a Milano e della Fondazione Italia Giappone. Dati dal post del 24 aprile 2017 e dalle informazioni dell'editore.",
+ "patronage_layer": {
+  "consolato_ref": "organizations/OrganizationProfile_consolato-giappone-milano.json",
+  "fondazione_ref": "organizations/OrganizationProfile_fondazione-italia-giappone.json"
+ }
 }
