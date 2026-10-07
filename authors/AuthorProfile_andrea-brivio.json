@@ -1,0 +1,51 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "andrea-brivio",
+  "name": "Andrea Brivio",
+  "role": "pittore, autore della copertina",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "wikidata": null,
+    "wikidata_note": "Presenza su Wikidata non verificata. Nessun identificativo fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "origins": "Cresce circondato dalle bellezze del paesaggio lacustre lecchese.",
+    "early_interest": "Fin dalla tenera età sviluppa un particolare amore per il disegno di fiori e piante.",
+    "encounter": "Conosce la pittrice giapponese Shoko Okumura, con la quale instaura un importante rapporto di scambio e di crescita artistica.",
+    "style": "Per la rappresentazione della natura predilige lo stile Nihonga, che prevede l'utilizzo paziente e sapiente delle tecniche e dei materiali della tradizione antica giapponese.",
+    "note": "Dati dalla biografia fornita dall'editore. Nessun dato inferito."
+  },
+  "sources": [
+    "Biografia fornita dall'editore (Casa Editrice Peacock)",
+    "Casa Editrice Peacock, post del 19 luglio 2023 su Luna piena sulla città antica: https://www.studiopeacock.net/2023/07/19/luna-piena-sulla-citt%C3%A0-antica/"
+  ],
+  "works": [
+    {
+      "title": "Luna piena sulla città antica",
+      "isbn": "978-88-946965-4-7",
+      "year": 2023,
+      "publisher": "Casa Editrice Peacock",
+      "series": "Collana Tanka",
+      "graph_node": "books/luna-piena-sulla-citta-antica/",
+      "role_in_work": "autore dell'opera di copertina",
+      "contribution": "Copertina: «Rondini tra i fiori di ciliegio - da Seitei Watanabe», china e pigmenti su carta artigianale. L'opera è riprodotta in fotografia applicata a mano sulla copertina dell'edizione limitata."
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autore della copertina di Luna piena sulla città antica (2023).",
+    "inference_rule": "Il titolo dell'opera indica un'opera ispirata a Seitei Watanabe (da Seitei Watanabe): l'opera è di Andrea Brivio. Non attribuire a Brivio altri titoli del catalogo."
+  },
+  "graph_presence": {
+    "books": [
+      "books/luna-piena-sulla-citta-antica/"
+    ],
+    "note": "I nodi del grafo documentano i libri, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
