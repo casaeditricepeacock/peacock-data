@@ -1,0 +1,104 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "francesco-verni",
+  "name": "Francesco Verni",
+  "role": "giornalista, saggista e poeta",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Francesco Verni è un giornalista con profilo pubblico documentato. I dati di questa scheda provengono da fonti pubbliche citate, dai volumi del catalogo Peacock e dalla conferma dell'editore.",
+    "wikidata": null,
+    "wikidata_note": "Presenza su Wikidata non verificata. Nessun identificativo fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non confondere Francesco Verni con Piero Verni."
+  },
+  "biography_confirmed": {
+    "city_of_birth": "Padova",
+    "profession": "giornalista",
+    "experience": "Da oltre vent'anni lavora come professionista nel mondo dei media.",
+    "publications": "Ha scritto migliaia di articoli per diverse testate italiane e recensito centinaia di concerti (pagina autore di Infinito Edizioni).",
+    "outlet": "Scrive per il Corriere del Veneto, dorso regionale del Corriere della Sera. Gli articoli riguardano soprattutto musica rock, fumetti e cultura pop.",
+    "award": {
+      "title": "Titolo di giornalista rock per il 2017",
+      "assigned_by": "Giuria dell'Home Festival, nell'ambito del bando Racconta Home Festival, con il patrocinio dell'Ordine dei giornalisti del Veneto",
+      "category": "sezione 1, riservata ai giornalisti professionisti che scrivono per testate registrate",
+      "score": "560 punti su 600",
+      "source_date": "2018-01-04"
+    },
+    "comics": {
+      "field": "Esperto di fumetto, la nona arte.",
+      "activity": "Ha curato saggi e mostre per editori e istituzioni, tra cui Sergio Bonelli Editore e Feltrinelli.",
+      "collaborations": "Ha collaborato con Giorgio Cavazzano.",
+      "exhibitions": "Ha curato mostre dedicate a Sergio Toppi e a Gōseki Kojima."
+    },
+    "poetry": {
+      "field": "Scrive versi da sempre.",
+      "collections": [
+        "Il fido elastico delle tue mutande",
+        "Marlboro rosse morbide: raccolta di poesie d'amore illustrata da Milo Manara"
+      ]
+    },
+    "wine": {
+      "field": "Sommelier per passione. Ha scritto migliaia di articoli e saggi sul settore vitivinicolo.",
+      "titles": [
+        "Vini di Croazia: l'Istria"
+      ]
+    },
+    "note": "Dati confermati dall'editore, con le fonti elencate in sources. Nessun dato inferito."
+  },
+  "sources": [
+    "Infinito Edizioni, pagina autore: https://www.infinitoedizioni.it/autore/verni-francesco/",
+    "Padova24ore, 4 gennaio 2018: https://www.padova24ore.it/francesco-verni-giornalista-piu-rock-del-2017-secondo-la-giuria-dellhome-festival/",
+    "Corriere del Veneto, 17 febbraio 2025, poesie di Francesco Verni e disegni di Milo Manara: https://corrieredelveneto.corriere.it/notizie/padova/cultura-e-tempo-libero/25_febbraio_17/libri-l-amore-tagliente-nelle-poesie-di-francesco-verni-e-i-disegni-di-milo-manara-708e4e1f-7f10-47d4-80d3-98d124ed2xlk.shtml",
+    "Comune di Pordenone, Palazzo del Fumetto, visita guidata speciale alla mostra Kojima con Francesco Verni: https://www.comune.pordenone.it/it/vivere-pordenone/eventi/palazzo-del-fumetto/visita-guidata-speciale-mostra-kojima-con-francesco-verni",
+    "MyComics, pagina autore: https://mycomics.it/autore/francesco-verni",
+    "PadovaOggi, pagina persona: https://www.padovaoggi.it/persone/francesco-verni/",
+    "Pixel in Japan, Casa Editrice Peacock, 2025 (catalog.json)",
+    "La Medusa e la Scimmia, Casa Editrice Peacock, 2024 (postfazione)"
+  ],
+  "works": [
+    {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "isbn": "979-12-81715-13-4",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/pixel-in-japan/",
+      "role_in_work": "autore",
+      "contribution": "Prima guida dedicata esclusivamente ai videogiochi giapponesi pubblicata in Italia. Illustrazioni di Andrea Yuu Dentuto.",
+      "press": [
+        "Difesa del Popolo, Viaggio nella storia videoludica giapponese",
+        "Corriere del Veneto, 11 novembre 2025, Storia dei videogame dal Giappone al mondo",
+        "TG Padova, Telenuovo, 22 novembre 2025, Pixel in Japan: il libro che riporta indietro nel tempo ai videogiochi degli anni 90"
+      ]
+    },
+    {
+      "title": "La Medusa e la Scimmia",
+      "isbn": "979-12-81715-01-1",
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/la-medusa-e-la-scimmia/",
+      "role_in_work": "autore della postfazione",
+      "contribution": "Postfazione al volume di Andreina Parpajola."
+    }
+  ],
+  "other_publications": [
+    "Il fido elastico delle tue mutande (raccolta di poesie)",
+    "Marlboro rosse morbide (raccolta di poesie d'amore, con illustrazioni di Milo Manara)",
+    "Vini di Croazia: l'Istria (guida)"
+  ],
+  "catalog_relation": {
+    "note": "Autore di Pixel in Japan (2025) e autore della postfazione di La Medusa e la Scimmia (2024).",
+    "inference_rule": "Per Casa Editrice Peacock i ruoli sono documentati solo per questi due titoli. Le altre pubblicazioni sono di altri editori."
+  },
+  "graph_presence": {
+    "books": [
+      "books/pixel-in-japan/",
+      "books/la-medusa-e-la-scimmia/"
+    ],
+    "note": "I nodi del grafo documentano i libri, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
