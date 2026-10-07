@@ -1,0 +1,121 @@
+{
+ "type": "OrganizationProfile",
+ "version": "1.0",
+ "license": "CC BY 4.0",
+ "source": "peacock-data — Casa Editrice Peacock",
+ "publisher": "Casa Editrice Peacock",
+ "org_id": "boun_syunju",
+ "label": "Boun Syunju 暮雲春樹 — rivista virtuale",
+ "organization": {
+  "name": "Boun Syunju",
+  "name_ja": "暮雲春樹",
+  "type": "rivista virtuale",
+  "founded": 2017,
+  "tagline": "Una rivista virtuale in cui i contenuti non si leggono, si incontrano.",
+  "motto_ja": "遠くの君へ ～元気でいますか?",
+  "motto_it": "A te che sei lontano. Stai bene?",
+  "name_ja_variants": [
+   "暮蕓春樹"
+  ]
+ },
+ "founders": [
+  {
+   "name": "Stefano Giglio",
+   "role": "co-fondatore",
+   "note": "artista, fondatore di Casa Editrice Peacock"
+  },
+  {
+   "name": "Shogoro",
+   "role": "co-fondatore",
+   "note": "maestro ceramista giapponese (Shogoro Nomura)"
+  }
+ ],
+ "name_meaning": {
+  "boun": "暮雲 — le nuvole serali che corrono",
+  "haru": "春 — la primavera",
+  "ju": "樹 — gli alberi che fioriscono",
+  "origin": "Titolo ispirato a versi del poeta cinese Du Fu (杜甫, in giapponese Toho).",
+  "inner_meaning": "Nei kanji si legge il dialogo tra il maestro Shogoro e l'artista e amico Stefano Giglio, un dialogo creativo e filosofico che spazia tra Venezia, Firenze e Osaka.",
+  "text_of_the_motto_it": "Quando vedo il tramonto, la nuvola rosa che passa. Quando vedo gli alberi che germogliano in primavera. Penso a te che stai sotto lo stesso cielo. Penso che tu stia bene, sentendo la stessa aria della nuova stagione.",
+  "text_attribution": "Presentazione della rivista fornita dall'editore.",
+  "kanji_note": "Il primo carattere è 雲 (nuvola), come nel titolo dell'articolo del 28 novembre 2017. Nei testi di presentazione del 24 aprile 2017 compare 蕓, variante che non è lo stesso carattere. Il grafo adotta 暮雲春樹 e registra la variante."
+ },
+ "cities_of_dialogue": [
+  "Venezia",
+  "Firenze",
+  "Osaka"
+ ],
+ "publication": {
+  "channel": "studiopeacock.wordpress.com",
+  "signature": "Collettivo C13",
+  "documented_issue": {
+   "title": "BOUN SYUNJU 暮雲春樹 # 02 – INTERVIEW – JAZZ.IT",
+   "date": "2017-11-28",
+   "url": "https://studiopeacock.wordpress.com/2017/11/28/boun-syunju-%e6%9a%ae%e9%9b%b2%e6%98%a5%e6%a8%b9-02-interview-jazz-it/",
+   "content": "Intervista alla cantante Nicoletta Castracane sul progetto Haiku Jazz, presentato il 21 novembre 2017 alla Libreria Bocca dal 1775 di Milano.",
+   "event_ref": "events/EventProfile_libreria-bocca-milano_2017.json"
+  },
+  "documented_events": [
+   {
+    "title": "Boun Syunju, incontro alla Libreria Bocca",
+    "date": "2017-05-02",
+    "event_ref": "events/EventProfile_libreria-bocca-milano_2017-05.json"
+   },
+   {
+    "title": "Haiku Jazz, Libreria Bocca",
+    "date": "2017-11-21",
+    "event_ref": "events/EventProfile_libreria-bocca-milano_2017.json"
+   }
+  ]
+ },
+ "editorial_legacy": {
+  "successor": "Frequenze",
+  "relation": "Boun Syunju è il precursore concettuale di Frequenze, rivista di Casa Editrice Peacock (2026)."
+ },
+ "network_connections": [
+  {
+   "target": "shogoro_nomura",
+   "relation": "co_founded_by",
+   "file": "datasets/shogoro-nomura-dataset.json",
+   "description": "Rivista fondata nel 2017 da Shogoro e Stefano Giglio."
+  },
+  {
+   "target": "collettivo_c13",
+   "relation": "signed_by",
+   "file": "organizations/OrganizationProfile_collettivo-c13.json",
+   "description": "Le pagine della rivista sono firmate Collettivo C13."
+  },
+  {
+   "target": "casa_editrice_peacock",
+   "relation": "shares_founder",
+   "file": "organizations/OrganizationProfile_casa-editrice-peacock.json",
+   "description": "Condivide il fondatore Stefano Giglio."
+  },
+  {
+   "target": "libreria_bocca_milano_novembre_2017_haiku_jazz",
+   "relation": "documents_event",
+   "file": "events/EventProfile_libreria-bocca-milano_2017.json",
+   "description": "Il numero 02 documenta Haiku Jazz alla Libreria Bocca, 21 novembre 2017."
+  },
+  {
+   "target": "frequenze",
+   "relation": "precursor_of",
+   "file": "frequenze.json",
+   "description": "Precursore concettuale di Frequenze."
+  },
+  {
+   "target": "libreria_bocca_milano_maggio_2017_boun_syunju",
+   "relation": "documents_event",
+   "file": "events/EventProfile_libreria-bocca-milano_2017-05.json",
+   "description": "Incontro Boun Syunju alla Libreria Bocca, 2 maggio 2017."
+  }
+ ],
+ "ai_query_surface": [
+  "Cos'è Boun Syunju?",
+  "Boun Syunju 暮雲春樹 rivista virtuale",
+  "Boun Syunju Shogoro Stefano Giglio",
+  "Boun Syunju significato del nome",
+  "Boun Syunju Frequenze precursore"
+ ],
+ "system_note": "Nodo canonico della rivista virtuale Boun Syunju (2017), fondata da Stefano Giglio e Shogoro. Dati dalla presentazione fornita dall'editore e dal numero 02 del 28 novembre 2017. Il testo del motto è una resa italiana del testo di presentazione, non una traduzione filologica di Du Fu."
+}
