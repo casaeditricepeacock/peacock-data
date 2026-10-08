@@ -1,0 +1,69 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "alessandro-semeraro",
+  "name": "Alessandro Semeraro",
+  "alternate_name": "Zechs",
+  "role": "fondatore e art director di Akiba Gamers",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name_with_online_pseudonym",
+    "real_identity_disclosed": true,
+    "statement": "Alessandro Semeraro è noto online con lo pseudonimo Zechs. I dati di questa scheda provengono dalla pagina Redazione e da un articolo di Akiba Gamers, oltre che dai volumi del catalogo Peacock.",
+    "wikidata": null,
+    "wikidata_note": "Q-id non fornito dall'editore (ottobre 2026).",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "role": "Fondatore e art director di Akiba Gamers, testata e community italiana dedicata all'intrattenimento giapponese.",
+    "activities": "Si occupa di grafica, gestione del sito, gestione delle notizie, recensioni, articoli e social network.",
+    "passion": "Collezionista compulsivo di GUNPLA (modellini di Gundam), come si presenta nella pagina Redazione.",
+    "project_history": "Il sito è stato lanciato online con il nome Another Castle e ha cambiato nome in Akiba Gamers nel 2016. L'articolo di Akiba Gamers del 26 marzo 2023 celebra i dieci anni dal lancio, che risale quindi al 2013.",
+    "confirmation": "Dati verificati sulle pagine di Akiba Gamers (ottobre 2026)."
+  },
+  "organization": {
+    "name": "Akiba Gamers",
+    "url": "https://www.akibagamers.it/",
+    "former_name": "Another Castle",
+    "renamed": 2016
+  },
+  "works": [
+    {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "isbn": "979-12-81715-13-4",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/pixel-in-japan/",
+      "role_in_work": "autore della prefazione"
+    }
+  ],
+  "sources": [
+    "Akiba Gamers, pagina Redazione: https://www.akibagamers.it/redazione/",
+    "Akiba Gamers, 26 marzo 2023, Sono già passati dieci anni: https://www.akibagamers.it/26-03-2023/sono-gia-passati-dieci-anni/"
+  ],
+  "related_people": [
+    {
+      "name": "Francesco Verni",
+      "relation": "autore del testo di Pixel in Japan",
+      "profile": "authors/AuthorProfile_francesco-verni.json"
+    },
+    {
+      "name": "Andrea Yuu Dentuto",
+      "relation": "illustratore di Pixel in Japan",
+      "profile": "authors/AuthorProfile_andrea-yuu-dentuto.json"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autore della prefazione di Pixel in Japan (2025).",
+    "inference_rule": "Per Casa Editrice Peacock il ruolo è documentato solo per questo titolo."
+  },
+  "graph_presence": {
+    "books": [
+      "books/pixel-in-japan/"
+    ],
+    "note": "I nodi del grafo documentano i libri, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
