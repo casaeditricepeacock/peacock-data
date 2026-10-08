@@ -1,0 +1,2450 @@
+{
+  "type": "VideogameCreditsDataset",
+  "dataset_id": "pixel-in-japan-crediti",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data - Casa Editrice Peacock",
+  "book": {
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "isbn": "979-12-81715-13-4",
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+  },
+  "games_dataset": "datasets/pixel-in-japan-games-dataset.json",
+  "scope": "Persone e aziende che le schede del libro citano per i singoli videogiochi, con il ruolo indicato dalla scheda. Quando la scheda non specifica un ruolo, il ruolo non e inventato.",
+  "method_note": "Ogni credito e stato verificato automaticamente sulla scheda indicata in evidence_scheda_id. Le frasi originali non sono riprodotte. Le aziende developer_of e publisher_of vengono dai campi della scheda; text_mentions dal testo.",
+  "role_keys": {
+    "creator": "ideatore o creatore",
+    "direction": "regia",
+    "production": "produzione",
+    "music": "musica",
+    "character_design": "character design",
+    "game_design": "game design",
+    "art_design": "art design",
+    "art": "grafica o disegno",
+    "writing": "scrittura o sceneggiatura",
+    "source_author": "autore dell'opera originale",
+    "team_member": "membro del team",
+    "development": "sviluppo",
+    "engineering": "ingegneria",
+    "company_president": "presidente di azienda",
+    "credited_role_unspecified": "citato, ruolo non specificato"
+  },
+  "people": [
+    {
+      "person_id": "genyo-takeda",
+      "name": "Genyo Takeda",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sheriff-1979",
+          "role_it": "game design",
+          "role_keys": [
+            "game_design"
+          ],
+          "evidence_scheda_id": "sheriff-1979"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "shigeru-miyamoto",
+      "name": "Shigeru Miyamoto",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sheriff-1979",
+          "role_it": "art design",
+          "role_keys": [
+            "art_design"
+          ],
+          "evidence_scheda_id": "sheriff-1979"
+        },
+        {
+          "game_id": "donkey-kong-1981",
+          "role_it": "designer / progetto assegnato da Yamauchi",
+          "role_keys": [
+            "development",
+            "game_design"
+          ],
+          "evidence_scheda_id": "donkey-kong-1981"
+        },
+        {
+          "game_id": "super-mario-bros-1985",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "super-mario-bros-1985"
+        },
+        {
+          "game_id": "the-legend-of-zelda-1986",
+          "role_it": "ideatore e regista",
+          "role_keys": [
+            "creator",
+            "direction"
+          ],
+          "evidence_scheda_id": "the-legend-of-zelda-1986"
+        },
+        {
+          "game_id": "super-mario-bros-3-1988",
+          "role_it": "rifinitura del gioco",
+          "role_keys": [
+            "development"
+          ],
+          "evidence_scheda_id": "super-mario-bros-3-1988"
+        },
+        {
+          "game_id": "mother-1989",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "mother-1989"
+        },
+        {
+          "game_id": "super-mario-world-super-mario-bros-4-1990",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "super-mario-world-super-mario-bros-4-1990"
+        },
+        {
+          "game_id": "f-zero-1990",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "f-zero-1990"
+        },
+        {
+          "game_id": "super-mario-kart-1992",
+          "role_it": "sviluppo (la scheda lo cita nella trasformazione del progetto)",
+          "role_keys": [
+            "development"
+          ],
+          "evidence_scheda_id": "super-mario-kart-1992"
+        }
+      ],
+      "note_it": "Non confondere con Masafumi Miyamoto (produttore di Final Fantasy).",
+      "games_count": 9
+    },
+    {
+      "person_id": "hiroshi-yamauchi",
+      "name": "Hiroshi Yamauchi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "donkey-kong-1981",
+          "role_it": "presidente Nintendo, assegna Donkey Kong",
+          "role_keys": [
+            "company_president"
+          ],
+          "evidence_scheda_id": "donkey-kong-1981"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "gunpei-yokoi",
+      "name": "Gunpei Yokoi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "donkey-kong-1981",
+          "role_it": "ingegnere capo, citato accanto a Miyamoto",
+          "role_keys": [
+            "engineering"
+          ],
+          "evidence_scheda_id": "donkey-kong-1981"
+        },
+        {
+          "game_id": "fire-emblem-monsho-no-nazo-1994",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "fire-emblem-monsho-no-nazo-1994"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "takashi-nishiyama",
+      "name": "Takashi Nishiyama",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "kung-fu-master-spartan-x-1984",
+          "role_it": "disegno del gioco",
+          "role_keys": [
+            "credited_role_unspecified"
+          ],
+          "evidence_scheda_id": "kung-fu-master-spartan-x-1984"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yoshio-kiya",
+      "name": "Yoshio Kiya",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "dragon-slayer-1984",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "dragon-slayer-1984"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "tokuro-fujiwara",
+      "name": "Tokuro Fujiwara",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ghosts-n-goblins-1985",
+          "role_it": "disegno del gioco",
+          "role_keys": [
+            "credited_role_unspecified"
+          ],
+          "evidence_scheda_id": "ghosts-n-goblins-1985"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "koji-kondo",
+      "name": "Kōji Kondō",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "the-legend-of-zelda-1986",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "the-legend-of-zelda-1986"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yuji-horii",
+      "name": "Yūji Horii",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "dragon-quest-1986",
+          "role_it": "ideatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "dragon-quest-1986"
+        },
+        {
+          "game_id": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987",
+          "role_it": "sceneggiatura",
+          "role_keys": [
+            "writing"
+          ],
+          "evidence_scheda_id": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "nel team di sviluppo, indicato come regista di Dragon Quest",
+          "role_keys": [
+            "development"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        }
+      ],
+      "games_count": 3
+    },
+    {
+      "person_id": "akira-toriyama",
+      "name": "Akira Toriyama",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "dragon-quest-1986",
+          "role_it": "grafica",
+          "role_keys": [
+            "art"
+          ],
+          "evidence_scheda_id": "dragon-quest-1986"
+        },
+        {
+          "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+          "role_it": "disegni",
+          "role_keys": [
+            "art"
+          ],
+          "evidence_scheda_id": "torneko-s-great-adventure-mystery-dungeon-1993"
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "character design",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        }
+      ],
+      "games_count": 3
+    },
+    {
+      "person_id": "koichi-sugiyama",
+      "name": "Kōichi Sugiyama",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "dragon-quest-1986",
+          "role_it": "colonna sonora",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "dragon-quest-1986"
+        },
+        {
+          "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+          "role_it": "colonna sonora",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "torneko-s-great-adventure-mystery-dungeon-1993"
+        }
+      ],
+      "note_it": "Le schede scrivono anche Koichi Sugiyama.",
+      "aliases": [
+        "Koichi Sugiyama"
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "yoshitaka-amano",
+      "name": "Yoshitaka Amano",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "disegni / character design",
+          "role_keys": [
+            "art",
+            "character_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        },
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "role_it": "character design fino a FFVII (sostituito)",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-vii-1997"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "hironobu-sakaguchi",
+      "name": "Hironobu Sakaguchi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "sviluppo",
+          "role_keys": [
+            "development"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        },
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "final-fantasy-vii-1997"
+        },
+        {
+          "game_id": "parasite-eve-1998",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "parasite-eve-1998"
+        }
+      ],
+      "games_count": 4
+    },
+    {
+      "person_id": "masafumi-miyamoto",
+      "name": "Masafumi Miyamoto",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        }
+      ],
+      "note_it": "Persona diversa da Shigeru Miyamoto.",
+      "games_count": 1
+    },
+    {
+      "person_id": "hiromichi-tanaka",
+      "name": "Hiromichi Tanaka",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "designer",
+          "role_keys": [
+            "game_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        }
+      ],
+      "note_it": "Persona diversa da Hirokazu Tanaka (Tetris).",
+      "games_count": 1
+    },
+    {
+      "person_id": "akitoshi-kawazu",
+      "name": "Akitoshi Kawazu",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "designer",
+          "role_keys": [
+            "game_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        },
+        {
+          "game_id": "romancing-saga-1992",
+          "role_it": "creatore di Romancing SaGa",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "romancing-saga-1992"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "koichi-ishii",
+      "name": "Koichi Ishii",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-1987",
+          "role_it": "designer",
+          "role_keys": [
+            "game_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-1987"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yuzo-koshiro",
+      "name": "Yuzo Koshiro",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ys-i-ancient-ys-vanished-1987",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "ys-i-ancient-ys-vanished-1987"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "mieko-ishikawa",
+      "name": "Mieko Ishikawa",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ys-i-ancient-ys-vanished-1987",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "ys-i-ancient-ys-vanished-1987"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hideya-nagata",
+      "name": "Hideya Nagata",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ys-i-ancient-ys-vanished-1987",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "ys-i-ancient-ys-vanished-1987"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "alexey-pajitnov",
+      "name": "Alexey Pajitnov",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tetris-1989",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "tetris-1989"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "satoru-okada",
+      "name": "Satoru Okada",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tetris-1989",
+          "role_it": "regia versione Game Boy",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "tetris-1989"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hirokazu-tanaka",
+      "name": "Hirokazu Tanaka",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tetris-1989",
+          "role_it": "musiche",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tetris-1989"
+        }
+      ],
+      "note_it": "Persona diversa da Hiromichi Tanaka (Final Fantasy).",
+      "games_count": 1
+    },
+    {
+      "person_id": "shigesato-itoi",
+      "name": "Shigesato Itoi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "mother-1989",
+          "role_it": "ideatore e regista",
+          "role_keys": [
+            "creator",
+            "direction"
+          ],
+          "evidence_scheda_id": "mother-1989"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hisao-oguchi",
+      "name": "Hisao Oguchi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "super-monaco-gp-1989",
+          "role_it": "ideatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "super-monaco-gp-1989"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "takashi-tezuka",
+      "name": "Takashi Tezuka",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "super-mario-world-super-mario-bros-4-1990",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "super-mario-world-super-mario-bros-4-1990"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "shigefumi-hino",
+      "name": "Shigefumi Hino",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "super-mario-world-super-mario-bros-4-1990",
+          "role_it": "graphic designer",
+          "role_keys": [
+            "art"
+          ],
+          "evidence_scheda_id": "super-mario-world-super-mario-bros-4-1990"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yoshiki-okamoto",
+      "name": "Yoshiki Okamoto",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fight-1990",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "final-fight-1990"
+        },
+        {
+          "game_id": "street-fighter-ii-the-world-warrior-1991",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "street-fighter-ii-the-world-warrior-1991"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "akira-yasuda",
+      "name": "Akira Yasuda",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fight-1990",
+          "role_it": "grafica",
+          "role_keys": [
+            "art"
+          ],
+          "evidence_scheda_id": "final-fight-1990"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "aya-nishitani",
+      "name": "Aya Nishitani",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "digital-devil-story-megami-tensei-ii-1990",
+          "role_it": "autrice dei romanzi originali",
+          "role_keys": [
+            "source_author"
+          ],
+          "evidence_scheda_id": "digital-devil-story-megami-tensei-ii-1990"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "kazuma-kaneko",
+      "name": "Kazuma Kaneko",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "digital-devil-story-megami-tensei-ii-1990",
+          "role_it": "disegno dei demoni",
+          "role_keys": [
+            "art"
+          ],
+          "evidence_scheda_id": "digital-devil-story-megami-tensei-ii-1990"
+        },
+        {
+          "game_id": "shin-megami-tensei-1992",
+          "role_it": "character design",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "shin-megami-tensei-1992"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "hirokazu-yasuhara",
+      "name": "Hirokazu Yasuhara",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yuji-naka",
+      "name": "Yūji Naka",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "naoto-oshima",
+      "name": "Naoto Ōshima",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "jina-ishiwatari",
+      "name": "Jina Ishiwatari",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "rieko-kodama",
+      "name": "Rieko Kodama",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "masato-nakamura",
+      "name": "Masato Nakamura",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "role_it": "membro del Sonic Team (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "team_member"
+          ],
+          "evidence_scheda_id": "sonic-the-hedgehog-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "masamitsu-niitani",
+      "name": "Masamitsu Niitani",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "puyo-puyo-1991",
+          "role_it": "ideatore, fondatore di Compile",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "puyo-puyo-1991"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "oji-hiroi",
+      "name": "Oji Hiroi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tengai-makyo-ii-manji-maru-1992",
+          "role_it": "citato come autore (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "credited_role_unspecified"
+          ],
+          "evidence_scheda_id": "tengai-makyo-ii-manji-maru-1992"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yasuhiko-fukuda",
+      "name": "Yasuhiko Fukuda",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tengai-makyo-ii-manji-maru-1992",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tengai-makyo-ii-manji-maru-1992"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "joe-hisaishi",
+      "name": "Joe Hisaishi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tengai-makyo-ii-manji-maru-1992",
+          "role_it": "musica",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tengai-makyo-ii-manji-maru-1992"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yasumi-matsuno",
+      "name": "Yasumi Matsuno",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ogre-battle-the-march-of-the-black-queen-1993",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "ogre-battle-the-march-of-the-black-queen-1993"
+        },
+        {
+          "game_id": "tactics-ogre-let-us-cling-together-1995",
+          "role_it": "scrittura, regia e disegno",
+          "role_keys": [
+            "art",
+            "direction",
+            "writing"
+          ],
+          "evidence_scheda_id": "tactics-ogre-let-us-cling-together-1995"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "akihiko-yoshida",
+      "name": "Akihiko Yoshida",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "ogre-battle-the-march-of-the-black-queen-1993",
+          "role_it": "citato per il disegno (ruolo non specificato dalla scheda)",
+          "role_keys": [
+            "credited_role_unspecified"
+          ],
+          "evidence_scheda_id": "ogre-battle-the-march-of-the-black-queen-1993"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hiroki-kikuta",
+      "name": "Hiroki Kikuta",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "secret-of-mana-1993",
+          "role_it": "colonna sonora (prima opera videoludica)",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "secret-of-mana-1993"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yu-suzuki",
+      "name": "Yu Suzuki",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "virtua-fighter-1993",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "virtua-fighter-1993"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "shouzou-kaga",
+      "name": "Shouzou Kaga",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "fire-emblem-monsho-no-nazo-1994",
+          "role_it": "scrittura e progetto",
+          "role_keys": [
+            "development",
+            "writing"
+          ],
+          "evidence_scheda_id": "fire-emblem-monsho-no-nazo-1994"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "keisuke-terasaki",
+      "name": "Keisuke Terasaki",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "fire-emblem-monsho-no-nazo-1994",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "fire-emblem-monsho-no-nazo-1994"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "katsuyoshi-koya",
+      "name": "Katsuyoshi Koya",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "fire-emblem-monsho-no-nazo-1994",
+          "role_it": "character design",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "fire-emblem-monsho-no-nazo-1994"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "kazuhiko-aoki",
+      "name": "Kazuhiko Aoki",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "produttore",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "nobuo-uematsu",
+      "name": "Nobuo Uematsu",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "musiche",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yasunori-mitsuda",
+      "name": "Yasunori Mitsuda",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "chrono-trigger-1995",
+          "role_it": "musiche (subentrato)",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "chrono-trigger-1995"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "satoshi-tajiri",
+      "name": "Satoshi Tajiri",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "pokemon-red-and-blue-1996",
+          "role_it": "game designer",
+          "role_keys": [
+            "game_design"
+          ],
+          "evidence_scheda_id": "pokemon-red-and-blue-1996"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "kosuke-fujishima",
+      "name": "Kōsuke Fujishima",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "sakura-taisen-1996",
+          "role_it": "character design",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "sakura-taisen-1996"
+        },
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "character artist",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "noriyuki-iwadare",
+      "name": "Noriyuki Iwadare",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "grandia-1997",
+          "role_it": "musiche",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "grandia-1997"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yoshinori-kitase",
+      "name": "Yoshinori Kitase",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "final-fantasy-vii-1997"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "kazushige-nojima",
+      "name": "Kazushige Nojima",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "role_it": "sceneggiatura",
+          "role_keys": [
+            "writing"
+          ],
+          "evidence_scheda_id": "final-fantasy-vii-1997"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "tetsuya-nomura",
+      "name": "Tetsuya Nomura",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "role_it": "character design (subentra ad Amano)",
+          "role_keys": [
+            "character_design"
+          ],
+          "evidence_scheda_id": "final-fantasy-vii-1997"
+        },
+        {
+          "game_id": "kingdom-hearts-2002",
+          "role_it": "direzione dell'intero sviluppo",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "kingdom-hearts-2002"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "person_id": "tetsuya-takahashi",
+      "name": "Tetsuya Takahashi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "xenogears-1998",
+          "role_it": "creatore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "xenogears-1998"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hideo-kojima",
+      "name": "Hideo Kojima",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "metal-gear-solid-1998",
+          "role_it": "autore",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "metal-gear-solid-1998"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "hideaki-sena",
+      "name": "Hideaki Sena",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "parasite-eve-1998",
+          "role_it": "autore del romanzo",
+          "role_keys": [
+            "source_author"
+          ],
+          "evidence_scheda_id": "parasite-eve-1998"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "takashi-tokita",
+      "name": "Takashi Tokita",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "parasite-eve-1998",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "parasite-eve-1998"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yoko-shimomura",
+      "name": "Yoko Shimomura",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "parasite-eve-1998",
+          "role_it": "colonna sonora",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "parasite-eve-1998"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yoshito-higuchi",
+      "name": "Yoshito Higuchi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "makoto-yoshizumi",
+      "name": "Makoto Yoshizumi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "produzione",
+          "role_keys": [
+            "production"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "motoi-sakuraba",
+      "name": "Motoi Sakuraba",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "musiche",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "shinji-tamura",
+      "name": "Shinji Tamura",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "musiche",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "bump-of-chicken",
+      "name": "Bump of Chicken",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "group",
+      "credits": [
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "role_it": "sigla di apertura",
+          "role_keys": [
+            "music"
+          ],
+          "evidence_scheda_id": "tales-of-the-abyss-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "toshihiro-nagoshi",
+      "name": "Toshihiro Nagoshi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "yakuza-2005",
+          "role_it": "autore della serie",
+          "role_keys": [
+            "creator"
+          ],
+          "evidence_scheda_id": "yakuza-2005"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "koichiro-ito",
+      "name": "Koichiro Ito",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "the-centennial-case-a-shijima-story-2022",
+          "role_it": "regia",
+          "role_keys": [
+            "direction"
+          ],
+          "evidence_scheda_id": "the-centennial-case-a-shijima-story-2022"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "person_id": "yasuhito-tachibana",
+      "name": "Yasuhito Tachibana",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "type": "person",
+      "credits": [
+        {
+          "game_id": "the-centennial-case-a-shijima-story-2022",
+          "role_it": "sceneggiatura",
+          "role_keys": [
+            "writing"
+          ],
+          "evidence_scheda_id": "the-centennial-case-a-shijima-story-2022"
+        }
+      ],
+      "games_count": 1
+    }
+  ],
+  "organizations": [
+    {
+      "org_id": "nintendo",
+      "name": "Nintendo",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "sheriff-1979",
+        "donkey-kong-1981",
+        "super-mario-bros-1985",
+        "the-legend-of-zelda-1986",
+        "super-mario-bros-3-1988",
+        "tetris-1989",
+        "super-mario-world-super-mario-bros-4-1990",
+        "f-zero-1990",
+        "super-mario-kart-1992"
+      ],
+      "publisher_of": [
+        "sheriff-1979",
+        "donkey-kong-1981",
+        "super-mario-bros-1985",
+        "the-legend-of-zelda-1986",
+        "super-mario-bros-3-1988",
+        "tetris-1989",
+        "mother-1989",
+        "super-mario-world-super-mario-bros-4-1990",
+        "f-zero-1990",
+        "super-mario-kart-1992",
+        "fire-emblem-monsho-no-nazo-1994",
+        "pokemon-red-and-blue-1996",
+        "animal-crossing-2001",
+        "sushi-striker-the-way-of-sushido-2018",
+        "animal-crossing-new-horizons-2020"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "donkey-kong-1981",
+          "note_it": "presidente Hiroshi Yamauchi / produttore"
+        },
+        {
+          "game_id": "tetris-1989",
+          "note_it": "successo del Game Boy Tetris"
+        }
+      ],
+      "games_count": 15
+    },
+    {
+      "org_id": "irem",
+      "name": "Irem",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "kung-fu-master-spartan-x-1984"
+      ],
+      "publisher_of": [
+        "kung-fu-master-spartan-x-1984"
+      ],
+      "text_mentions": [],
+      "games_count": 1,
+      "aliases": [
+        "Irem Corporation"
+      ]
+    },
+    {
+      "org_id": "nihon-falcom",
+      "name": "Nihon Falcom",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "dragon-slayer-1984",
+        "ys-i-ancient-ys-vanished-1987"
+      ],
+      "publisher_of": [
+        "dragon-slayer-1984",
+        "ys-i-ancient-ys-vanished-1987"
+      ],
+      "text_mentions": [],
+      "games_count": 2,
+      "aliases": [
+        "Nihon Falcom Corporation"
+      ]
+    },
+    {
+      "org_id": "capcom",
+      "name": "Capcom",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "ghosts-n-goblins-1985",
+        "final-fight-1990",
+        "street-fighter-ii-the-world-warrior-1991",
+        "resident-evil-1996",
+        "onimusha-warlords-2001"
+      ],
+      "publisher_of": [
+        "ghosts-n-goblins-1985",
+        "final-fight-1990",
+        "street-fighter-ii-the-world-warrior-1991",
+        "resident-evil-1996",
+        "onimusha-warlords-2001"
+      ],
+      "text_mentions": [],
+      "games_count": 5
+    },
+    {
+      "org_id": "konami",
+      "name": "Konami",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "gradius-1985",
+        "tokimeki-memorial-forever-with-you-1994",
+        "metal-gear-solid-1998",
+        "silent-hill-1999"
+      ],
+      "publisher_of": [
+        "gradius-1985",
+        "tokimeki-memorial-forever-with-you-1994",
+        "metal-gear-solid-1998",
+        "silent-hill-1999"
+      ],
+      "text_mentions": [],
+      "games_count": 4
+    },
+    {
+      "org_id": "taito",
+      "name": "Taito",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "bubble-bobble-1986"
+      ],
+      "publisher_of": [
+        "bubble-bobble-1986"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "chunsoft",
+      "name": "Chunsoft",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "dragon-quest-1986",
+        "torneko-s-great-adventure-mystery-dungeon-1993",
+        "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+        "machi-1998"
+      ],
+      "publisher_of": [
+        "torneko-s-great-adventure-mystery-dungeon-1993",
+        "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+        "machi-1998"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+          "note_it": "tesoro di titoli (Kamaitachi no Yoru)"
+        }
+      ],
+      "games_count": 4
+    },
+    {
+      "org_id": "enix",
+      "name": "Enix",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "dragon-quest-1986",
+        "valkyrie-profile-1999"
+      ],
+      "text_mentions": [],
+      "games_count": 2,
+      "aliases": [
+        "ENIX"
+      ]
+    },
+    {
+      "org_id": "namco",
+      "name": "Namco",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "pro-baseball-family-stadium-1986",
+        "tekken-1994"
+      ],
+      "publisher_of": [
+        "pro-baseball-family-stadium-1986",
+        "digital-devil-story-megami-tensei-ii-1990",
+        "tekken-1994",
+        "tales-of-destiny-1997",
+        "tales-of-eternia-2000",
+        "tales-of-rebirth-2004",
+        "tales-of-the-abyss-2005"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "tekken-1994",
+          "note_it": "Tekken"
+        }
+      ],
+      "games_count": 7
+    },
+    {
+      "org_id": "square",
+      "name": "Square",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "final-fantasy-1987",
+        "the-final-fantasy-legend-1989",
+        "romancing-saga-1992",
+        "secret-of-mana-1993",
+        "chrono-trigger-1995",
+        "final-fantasy-vii-1997",
+        "parasite-eve-1998",
+        "kingdom-hearts-2002"
+      ],
+      "publisher_of": [
+        "final-fantasy-1987",
+        "the-final-fantasy-legend-1989",
+        "romancing-saga-1992",
+        "secret-of-mana-1993",
+        "chrono-trigger-1995",
+        "final-fantasy-vii-1997",
+        "xenogears-1998",
+        "parasite-eve-1998",
+        "kingdom-hearts-2002"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "final-fantasy-1987",
+          "note_it": "azienda in difficoltà prima di Final Fantasy"
+        },
+        {
+          "game_id": "kingdom-hearts-2002",
+          "note_it": "collaborazione"
+        }
+      ],
+      "games_count": 9,
+      "aliases": [
+        "SquareSoft",
+        "Squaresoft"
+      ],
+      "note_it": "Il libro usa Square e SquareSoft; qui unificati come stessa azienda (SquareSoft era il nome usato per le edizioni occidentali)."
+    },
+    {
+      "org_id": "login-soft",
+      "name": "Login Soft",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "ascii-corporation",
+      "name": "ASCII Corporation",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "ascii-entertainment",
+      "name": "ASCII Entertainment",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "best-play-pro-yakyuu-1988"
+      ],
+      "publisher_of": [
+        "best-play-pro-yakyuu-1988"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "ape-inc",
+      "name": "Ape Inc.",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "mother-1989"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "sega",
+      "name": "Sega",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "super-monaco-gp-1989",
+        "virtua-fighter-1993",
+        "yakuza-2005"
+      ],
+      "publisher_of": [
+        "super-monaco-gp-1989",
+        "sonic-the-hedgehog-1991",
+        "virtua-fighter-1993",
+        "sakura-taisen-1996",
+        "yakuza-2005"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "note_it": "mascotte (Sonic) per rivaleggiare con Nintendo"
+        },
+        {
+          "game_id": "super-monaco-gp-1989",
+          "note_it": "Super Monaco GP tra i titoli più importanti"
+        }
+      ],
+      "games_count": 5
+    },
+    {
+      "org_id": "atlus",
+      "name": "Atlus",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "digital-devil-story-megami-tensei-ii-1990",
+        "shin-megami-tensei-1992"
+      ],
+      "publisher_of": [
+        "shin-megami-tensei-1992"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "shin-megami-tensei-1992",
+          "note_it": "lanciata come sviluppatore ed editore da Shin Megami Tensei"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "org_id": "sonic-team",
+      "name": "Sonic Team",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "sonic-the-hedgehog-1991"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "compile",
+      "name": "Compile",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "puyo-puyo-1991"
+      ],
+      "publisher_of": [
+        "puyo-puyo-1991"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "puyo-puyo-1991",
+          "note_it": "fondata da Masamitsu Niitani"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "red-company",
+      "name": "Red Company",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "tengai-makyo-ii-manji-maru-1992",
+        "sakura-taisen-1996"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 2
+    },
+    {
+      "org_id": "hudson-soft",
+      "name": "Hudson Soft",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "tengai-makyo-ii-manji-maru-1992"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "quest",
+      "name": "Quest",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "ogre-battle-the-march-of-the-black-queen-1993",
+        "tactics-ogre-let-us-cling-together-1995"
+      ],
+      "publisher_of": [
+        "ogre-battle-the-march-of-the-black-queen-1993",
+        "tactics-ogre-let-us-cling-together-1995"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "tactics-ogre-let-us-cling-together-1995",
+          "note_it": "sviluppatore"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "org_id": "intelligent-systems",
+      "name": "Intelligent Systems",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "fire-emblem-monsho-no-nazo-1994"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "game-freak",
+      "name": "Game Freak",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "pokemon-red-and-blue-1996"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "game-arts",
+      "name": "Game Arts",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "grandia-1997"
+      ],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "grandia-1997",
+          "note_it": "compositore Iwadare già con Game Arts per Lunar"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "jp-entertainment-software-publishing",
+      "name": "JP Entertainment Software Publishing",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "grandia-1997"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "polyphony-digital",
+      "name": "Polyphony Digital",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "gran-turismo-the-real-driving-simulator-1997"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "sony-computer-entertainment",
+      "name": "Sony Computer Entertainment",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "gran-turismo-the-real-driving-simulator-1997"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "leaf",
+      "name": "Leaf",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "to-heart-1997"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "aquaplus",
+      "name": "Aquaplus",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "to-heart-1997"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "tecmo",
+      "name": "Tecmo",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "monster-rancher-1997",
+        "project-zero-2001"
+      ],
+      "publisher_of": [
+        "monster-rancher-1997",
+        "project-zero-2001"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "monster-rancher-1997",
+          "note_it": "Monster Rancher (rimando a Tecmo's Deception)"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "org_id": "wolf-team",
+      "name": "Wolf Team",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "tales-of-destiny-1997",
+        "tales-of-eternia-2000"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 2
+    },
+    {
+      "org_id": "omega-force",
+      "name": "Omega Force",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "dynasty-warriors-1997"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "koei",
+      "name": "Koei",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "samurai-warriors-2004"
+      ],
+      "publisher_of": [
+        "dynasty-warriors-1997",
+        "samurai-warriors-2004"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "dynasty-warriors-1997",
+          "note_it": "Dynasty Warriors"
+        }
+      ],
+      "games_count": 2
+    },
+    {
+      "org_id": "square-product-development-division-3",
+      "name": "Square Product Development Division 3",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "xenogears-1998"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1,
+      "note_it": "Come riportato nella scheda di Xenogears; non e stata verificata la relazione con Square."
+    },
+    {
+      "org_id": "acquire",
+      "name": "Acquire",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "tenchu-stealth-assassins-1998",
+        "way-of-the-samurai-2002",
+        "monster-hunter-2004",
+        "akiba-s-trip-2011"
+      ],
+      "publisher_of": [
+        "akiba-s-trip-2011"
+      ],
+      "text_mentions": [],
+      "games_count": 4
+    },
+    {
+      "org_id": "smej",
+      "name": "SMEJ",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "tenchu-stealth-assassins-1998"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "tri-ace",
+      "name": "tri-Ace",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "valkyrie-profile-1999"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "banpresto",
+      "name": "Banpresto",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "super-robot-wars-alpha-2000"
+      ],
+      "publisher_of": [
+        "super-robot-wars-alpha-2000"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "nintendo-ead",
+      "name": "Nintendo EAD",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "animal-crossing-2001"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "spike",
+      "name": "Spike",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "way-of-the-samurai-2002",
+        "monster-hunter-2004"
+      ],
+      "text_mentions": [],
+      "games_count": 2
+    },
+    {
+      "org_id": "namco-tales-studio",
+      "name": "Namco Tales Studio",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "tales-of-rebirth-2004",
+        "tales-of-the-abyss-2005"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 2
+    },
+    {
+      "org_id": "square-enix",
+      "name": "Square Enix",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "the-world-ends-with-you-2007"
+      ],
+      "publisher_of": [
+        "the-world-ends-with-you-2007",
+        "the-centennial-case-a-shijima-story-2022",
+        "paranormasight-the-seven-mysteries-of-honjo-2023"
+      ],
+      "text_mentions": [],
+      "games_count": 3
+    },
+    {
+      "org_id": "level-5",
+      "name": "Level-5",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "yo-kai-watch-2013"
+      ],
+      "publisher_of": [
+        "yo-kai-watch-2013"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "yo-kai-watch-2013",
+          "note_it": "Yo-kai Watch"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "nippon-ichi-software",
+      "name": "Nippon Ichi Software",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "yomawari-night-alone-2015"
+      ],
+      "publisher_of": [
+        "yomawari-night-alone-2015"
+      ],
+      "text_mentions": [
+        {
+          "game_id": "yomawari-night-alone-2015",
+          "note_it": "Yomawari"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "cherrymochi",
+      "name": "Cherrymochi",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "tokyo-dark-2017"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "square-enix-collective",
+      "name": "Square Enix Collective",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "tokyo-dark-2017"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "indieszero",
+      "name": "indieszero",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "sushi-striker-the-way-of-sushido-2018"
+      ],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "sushi-striker-the-way-of-sushido-2018",
+          "note_it": "Sushi Striker"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "nintendo-epd",
+      "name": "Nintendo EPD",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "animal-crossing-new-horizons-2020"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "h-a-n-d-inc",
+      "name": "h.a.n.d. Inc.",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "the-centennial-case-a-shijima-story-2022"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "xeen",
+      "name": "Xeen",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "paranormasight-the-seven-mysteries-of-honjo-2023"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "team-ninja",
+      "name": "Team Ninja",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [
+        "rise-of-the-ronin-2024"
+      ],
+      "publisher_of": [],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "sony-interactive-entertainment",
+      "name": "Sony Interactive Entertainment",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [
+        "rise-of-the-ronin-2024"
+      ],
+      "text_mentions": [],
+      "games_count": 1
+    },
+    {
+      "org_id": "the-walt-disney-company",
+      "name": "The Walt Disney Company",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "kingdom-hearts-2002",
+          "note_it": "collaborazione"
+        },
+        {
+          "game_id": "kingdom-hearts-2002",
+          "note_it": "partner di Kingdom Hearts"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "sony",
+      "name": "Sony",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+          "note_it": "pubblicazione della colonna sonora di Torneko (1993)"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "production-i-g",
+      "name": "Production I.G",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "tales-of-destiny-1997",
+          "note_it": "intro animata di Tales of Destiny"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "tokyo-broadcasting-system",
+      "name": "Tokyo Broadcasting System",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "monster-rancher-1997",
+          "note_it": "cartoon di Monster Rancher"
+        }
+      ],
+      "games_count": 1
+    },
+    {
+      "org_id": "major-league-baseball-players-association",
+      "name": "Major League Baseball Players Association",
+      "wikidata": null,
+      "wikidata_note": "Q-id non verificato",
+      "developer_of": [],
+      "publisher_of": [],
+      "text_mentions": [
+        {
+          "game_id": "pro-baseball-family-stadium-1986",
+          "note_it": "licenza per Family Stadium"
+        }
+      ],
+      "games_count": 1
+    }
+  ],
+  "ai_query_surface": [
+    "chi ha creato Super Mario Bros.",
+    "chi ha composto la musica di Final Fantasy",
+    "Shigeru Miyamoto videogiochi",
+    "chi e Yasumi Matsuno",
+    "Akira Toriyama videogiochi",
+    "aziende giapponesi di videogiochi anni 90",
+    "Square Enix Chunsoft Atlus giochi"
+  ],
+  "meta_index": {
+    "people": 70,
+    "organizations": 57,
+    "credits": 94
+  }
+}
