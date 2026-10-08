@@ -39,18 +39,24 @@
     },
     {
       "order": 3,
+      "scene_ref": "scene-06",
+      "print_function": "sixteen_bit_rivalry_field",
+      "note": "1991–1993: i 16 bit e la rivalità Sega–Nintendo — il gioco si fa a due, in sala e a casa (Sonic, Street Fighter II, Super Mario Kart, Virtua Fighter)"
+    },
+    {
+      "order": 4,
       "scene_ref": "scene-03",
       "print_function": "playstation_maturity_field",
       "note": "1994–2000: PlayStation e rivoluzione 3D — il videogioco diventa spazio abitabile e psicologico (Silent Hill, Metal Gear Solid)"
     },
     {
-      "order": 4,
+      "order": 5,
       "scene_ref": "scene-04",
       "print_function": "global_cultural_expansion",
       "note": "1996–2005: globalizzazione del videogioco giapponese — i franchise diventano infrastrutture culturali condivise (Pokémon, Kingdom Hearts)"
     },
     {
-      "order": 5,
+      "order": 6,
       "scene_ref": "scene-05",
       "print_function": "artistic_maturation_field",
       "note": "2007–2024: maturazione artistica del medium — il videogioco giapponese diventa forma riflessiva e autoriflessiva"
@@ -95,5 +101,6 @@
       "la_singolarita_giappone": "stesso asse culturale Giappone — declinazione filosofica vs videoludica",
       "odabooks": "ecosistema editoriale della cultura giapponese in Italia — interoperabilità concettuale"
     }
-  }
+  },
+  "revision_note_it": "2026-10: aggiunta una sesta scena (scene-06, 1991-1993) per coprire i giochi dei 16 bit; le altre scene non sono cambiate. L'ordine delle scene successive è stato rinumerato."
 }
