@@ -1,0 +1,167 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "bivio_finali_multipli",
+  "label": "Il bivio come spazio — Zelda, Romancing SaGa, Tengai Makyō II, Ogre Battle, Paranormasight",
+  "intensity": "lenta_e_ramificata",
+  "tempo": "a_scelte",
+  "sensory_channels": [
+    "visivo",
+    "narrativo",
+    "propriocettivo"
+  ],
+  "core_statement": "In questi giochi la mappa non e un percorso ma un campo di possibilita. Il giocatore non segue la storia: la costruisce scegliendo dove andare, chi aiutare, quale missione chiudere. Il finale e il nome di una scelta fatta molte ore prima.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "zelda_1986",
+      "dataset_id": "the-legend-of-zelda-1986",
+      "title": "The Legend of Zelda",
+      "year": 1986,
+      "developer": "Nintendo",
+      "space_type": "regno_di_hyrule_non_lineare",
+      "scheda_facts_it": [
+        "Ideato e diretto da Shigeru Miyamoto nel 1986, capostipite di una serie di oltre venti titoli.",
+        "La novita e la non linearita: il giocatore costruisce la propria avventura compiendo scelte.",
+        "Primo gioco per NES a superare il milione di copie (6,5 milioni).",
+        "Musica di Kōji Kondō, gia autore delle musiche di Mario Bros."
+      ],
+      "basho": "Hyrule come territorio da aprire in un ordine proprio: la novita sta nel non essere in sequenza forzata.",
+      "sensory_breakdown": {
+        "visual": "un regno aperto, dove ogni direzione e plausibile",
+        "auditory": "la musica di Kōji Kondō come tema che il giocatore porta con se nel regno",
+        "proprioceptive": "spada e scudo: esplorare e combattere sono lo stesso gesto di attenzione"
+      },
+      "peacock_reading": "Zelda e il ma dell'avventura: lo spazio vuoto fra due mete, lasciato al giocatore perche lo riempia con la propria strada."
+    },
+    {
+      "id": "romancing_saga_1992",
+      "dataset_id": "romancing-saga-1992",
+      "title": "Romancing SaGa",
+      "year": 1992,
+      "developer": "Square",
+      "space_type": "mondo_di_mardias_senza_guida",
+      "scheda_facts_it": [
+        "Il successo si deve alla liberta che Akitoshi Kawazu ha voluto lasciare al giocatore.",
+        "Otto personaggi giocabili, ciascuno con una narrazione alle spalle, devono ritrovare le Fatestones.",
+        "Piu volte rieditato per le console successive."
+      ],
+      "basho": "Un mondo vasto senza indicazioni strette: la liberta come principio di design.",
+      "sensory_breakdown": {
+        "visual": "un mondo fantasy esplorabile senza una direzione obbligata",
+        "narrative": "otto storie di partenza, otto modi di entrare nello stesso mondo"
+      },
+      "peacock_reading": "Romancing SaGa e un mappamondo con otto porte. Non c'e un inizio giusto, c'e quello che scegli."
+    },
+    {
+      "id": "tengai_makyo_ii_1992",
+      "dataset_id": "tengai-makyo-ii-manji-maru-1992",
+      "title": "Tengai Makyō II: Manji Maru",
+      "year": 1992,
+      "developer": "Red Company",
+      "space_type": "jipang_giappone_feudale_immaginario",
+      "scheda_facts_it": [
+        "Oji Hiroi voleva oltre cinquanta finali diversi, ma la tecnologia dell'epoca non lo permise.",
+        "Ambientato a Jipang, un Giappone feudale ipotetico, con lo scontro tra i clan dei Fire e dei Roots.",
+        "La colonna sonora e firmata da Yasuhiko Fukuda con Joe Hisaishi."
+      ],
+      "basho": "Un Giappone feudale immaginario, Jipang, dove lo scontro tra clan diventa un viaggio da compiere con gli amici.",
+      "sensory_breakdown": {
+        "narrative": "un ideale di cinquanta finali, ridotto dalla tecnica ma rimasto come orizzonte",
+        "auditory": "la presenza di Joe Hisaishi porta nel gioco il suono del cinema giapponese"
+      },
+      "peacock_reading": "Tengai Makyō II e un'intenzione piu grande del suo mezzo. L'ideale delle cinquanta strade resta come una promessa lasciata a meta, un wabi-sabi della progettazione."
+    },
+    {
+      "id": "ogre_battle_1993",
+      "dataset_id": "ogre-battle-the-march-of-the-black-queen-1993",
+      "title": "Ogre Battle: The March of the Black Queen",
+      "year": 1993,
+      "developer": "Quest",
+      "space_type": "mappa_tattica_giorno_e_notte",
+      "scheda_facts_it": [
+        "Diretto da Yasumi Matsuno, che lo ha disegnato con Akihiko Yoshida.",
+        "Unisce sviluppo dei personaggi e combattimenti da gioco di ruolo a elementi tattici in tempo reale.",
+        "Giorno e notte contano: i vampiri sono una minaccia solo di notte.",
+        "Circa 16 finali diversi in base alle missioni completate."
+      ],
+      "basho": "La mappa come tempo che passa: giorno e notte, veglia e riposo. Una rivoluzione si conduce sul filo delle ore.",
+      "sensory_breakdown": {
+        "visual": "la mappa su cui si conquistano templi e citta, con il giorno e la notte che si alternano",
+        "narrative": "sedici finali, uno per ogni modo di aver condotto la rivolta"
+      },
+      "peacock_reading": "Ogre Battle misura la scelta in ore: ogni missione lasciata aperta e un finale che scompare."
+    },
+    {
+      "id": "paranormasight_2023",
+      "dataset_id": "paranormasight-the-seven-mysteries-of-honjo-2023",
+      "title": "Paranormasight: The Seven Mysteries of Honjo",
+      "year": 2023,
+      "developer": "Xeen",
+      "space_type": "diagramma_di_flusso_di_honjo",
+      "scheda_facts_it": [
+        "Visual novel pensata per smartphone, ambientata negli anni '80 a Sumida, Tokyo.",
+        "Sulle leggende urbane dei sette misteri di Honjo; maledizioni mortali.",
+        "Un diagramma di flusso permette di passare da una sottotrama all'altra.",
+        "I personaggi possono morire: bisogna tornare indietro e fare deduzioni diverse."
+      ],
+      "basho": "Il diagramma di flusso come mappa del bivio: il giocatore vede i rami e decide quale seguire.",
+      "sensory_breakdown": {
+        "visual": "un diagramma di rami: la storia diventa visibile come mappa",
+        "narrative": "la morte non chiude, rimanda al bivio"
+      },
+      "peacock_reading": "Paranormasight rende esplicito cio che gli altri lasciano implicito: la storia e un albero, e morire e solo tornare al punto in cui si poteva scegliere altrimenti."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "La liberta narrativa e il filo comune: la mappa, il numero di personaggi, il numero di finali sono modi diversi di dire che la storia non e una.",
+    "ma_principle": "Il bivio e uno spazio vuoto fra due decisioni; il design dei giochi lo protegge invece di riempirlo.",
+    "unfinished": "Tengai Makyō II ricorda che il numero di finali era un ideale piu grande dei mezzi tecnici."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "wabi_sabi",
+      "kokyu",
+      "basho"
+    ],
+    "narrative_mechanics": [
+      "scelta_come_trama",
+      "finali_multipli",
+      "mappa_come_possibilita"
+    ],
+    "cultural_tags": [
+      "rpg",
+      "tattico",
+      "visual_novel",
+      "finali_multipli",
+      "Miyamoto",
+      "Matsuno"
+    ]
+  },
+  "connected_terms": [
+    "ma",
+    "wabi_sabi",
+    "kokyu",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "giochi giapponesi con finali multipli",
+    "Zelda non linearita",
+    "Romancing SaGa liberta",
+    "Tengai Makyō II cinquanta finali",
+    "Ogre Battle sedici finali",
+    "Paranormasight diagramma di flusso"
+  ],
+  "system_note": "Il cluster raccoglie i giochi in cui la struttura a bivi e il tema: collega la scena JRPG, quella dei 16 bit e quella contemporanea."
+}
