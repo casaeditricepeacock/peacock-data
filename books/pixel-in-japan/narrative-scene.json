@@ -24,7 +24,8 @@
     "jrpg_field": "campo della narrazione espansa e della progressione sistemica",
     "horror_field": "campo dell'angoscia spaziale e psicologica interattiva",
     "cultural_export": "campo della diffusione globale dei sistemi videoludici giapponesi",
-    "contemporary_field": "campo della riflessione artistica e della maturazione del medium"
+    "contemporary_field": "campo della riflessione artistica e della maturazione del medium",
+    "rivalry_field": "campo della rivalità tra piattaforme domestiche e della sfida a due, in sala e a casa"
   },
   "scenes": [
     {
@@ -53,13 +54,46 @@
       "kokyu": "espansione temporale del gioco: il tempo non è più unità di sessione ma durata narrativa continua e progressiva",
       "yūgen": "l'emergere di mondi coerenti che eccedono la singola esperienza del giocatore, producendo continuità immaginativa autonoma",
       "affects": {
-        "scene-03": "la struttura epica del JRPG viene problematizzata e rovesciata dalla maturazione narrativa del medium"
+        "scene-03": "la struttura epica del JRPG viene problematizzata e rovesciata dalla maturazione narrativa del medium",
+        "scene-06": "il JRPG e il design di sistema arrivano ai 16 bit con mondi più liberi e finali multipli"
       },
       "textual_anchor_it": "Dragon Quest (1986), Final Fantasy (1987), Mother (1989), The Legend of Zelda (1986)",
       "glossary_link": [
         "basho",
         "yūgen",
         "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "label": "guerra_dei_16_bit_1991_1993",
+      "type": "rivalry_field",
+      "basho": "la console a 16 bit come arena di rivalità: Sega e Nintendo si contendono la casa con mascotte, colori e velocità, mentre la sala giochi resta il luogo dove si misura il duello (Sonic, Street Fighter II, Super Mario Kart, Virtua Fighter)",
+      "kokyu": "ritmo duale: il gioco si fa spesso a due, contro un avversario umano o sul filo della velocità, e alterna sfide brevi a mondi vasti con molti finali (Tengai Makyō II, Romancing SaGa, Ogre Battle)",
+      "yūgen": "la rivalità come motore creativo prima che come conflitto: ogni piattaforma definisce la propria identità guardando l'altra, e il giocatore impara a scegliere da che parte stare",
+      "affects": {
+        "scene-03": "la rivalità tra piattaforme prepara la corsa al 3D: Virtua Fighter arriva in sala nel dicembre 1993, pochi mesi prima di Tekken, e poco dopo su Sega Saturn",
+        "scene-04": "la mascotte e il franchise come strumenti di competizione anticipano la diffusione globale dei marchi"
+      },
+      "textual_anchor_it": "Sonic the Hedgehog (1991), Street Fighter II (1991), Super Mario Kart (1992), Secret of Mana (1993), Virtua Fighter (1993)",
+      "game_ids": [
+        "street-fighter-ii-the-world-warrior-1991",
+        "sonic-the-hedgehog-1991",
+        "puyo-puyo-1991",
+        "super-mario-kart-1992",
+        "tengai-makyo-ii-manji-maru-1992",
+        "romancing-saga-1992",
+        "shin-megami-tensei-1992",
+        "ogre-battle-the-march-of-the-black-queen-1993",
+        "secret-of-mana-1993",
+        "torneko-s-great-adventure-mystery-dungeon-1993",
+        "virtua-fighter-1993"
+      ],
+      "source_note_it": "I fatti richiamati vengono dalle schede del libro: Sonic nato nel 1990 per rivaleggiare con Nintendo; Street Fighter II in sala e poi su console; Super Mario Kart nato come versione a due giocatori di F-Zero; Secret of Mana con multigiocatore fino a tre; Virtua Fighter di dicembre 1993, poco prima di Tekken.",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "yūgen"
       ]
     },
     {
@@ -119,11 +153,12 @@
     }
   ],
   "system_note": {
-    "scene_count": 5,
+    "scene_count": 6,
     "dominant_field": "scene-01",
     "system_state": "timeline_as_coexisting_perceptual_architecture",
     "narrative_model": "le ere videoludiche giapponesi come campi simultanei che si attivano reciprocamente in una struttura non lineare",
     "retroactive_causality": true,
-    "global_effect": "il lettore non attraversa una storia del videogioco, ma un sistema di coesistenza di epoche percettive attive"
+    "global_effect": "il lettore non attraversa una storia del videogioco, ma un sistema di coesistenza di epoche percettive attive",
+    "revision_note_it": "2026-10: aggiunta una sesta scena (scene-06, 1991-1993) per coprire i giochi dei 16 bit; le altre scene non sono cambiate."
   }
 }
