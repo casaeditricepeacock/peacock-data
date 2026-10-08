@@ -27,6 +27,7 @@
     "scenes": [
       "scene-01",
       "scene-02",
+      "scene-06",
       "scene-03",
       "scene-04",
       "scene-05"
@@ -47,6 +48,7 @@
     "transitions": [
       "transition-01",
       "transition-02",
+      "transition-06",
       "transition-03",
       "transition-04",
       "transition-05"
@@ -138,6 +140,20 @@
         "stability": "recursive",
         "propagation_logic": "nostalgia functions as an active structural layer rather than emotional residue",
         "description": "Earlier eras remain operational within contemporary play as embedded perceptual strata."
+      },
+      {
+        "id": "loop-06",
+        "label": "platform_rivalry_loop",
+        "nodes": [
+          "object-02",
+          "scene-06",
+          "transition-06",
+          "ritual-02"
+        ],
+        "type": "competitive_identity_loop",
+        "stability": "stable",
+        "propagation_logic": "la rivalità tra piattaforme fa dell'appartenenza a un marchio e della padronanza di un genere (picchiaduro, corse) un'identità condivisa",
+        "description": "Nei 16 bit la competizione tra Sega e Nintendo, con mascotte e franchise, rende visibile la scelta di campo del giocatore."
       }
     ]
   },
@@ -173,6 +189,14 @@
       "propagation_mode": "systemic",
       "intensity": 0.93,
       "stability_impact": "narrative_complexity_enables_global_cultural_diffusion"
+    },
+    {
+      "from": "scene-06",
+      "to": "scene-03",
+      "effect": "platform_rivalry_drives_3d_race",
+      "propagation_mode": "systemic",
+      "intensity": 0.85,
+      "stability_impact": "competition_between_consoles_accelerates_the_shift_to_3d"
     }
   ],
   "field_dynamics": {
@@ -204,5 +228,6 @@
       "la_singolarita_giappone": "parallel philosophical encoding of Japanese cultural fields",
       "assolutamente_giappone": "adjacent cultural mapping of Japan across media systems"
     }
-  }
+  },
+  "revision_note_it": "2026-10: aggiunta una sesta scena (scene-06, 1991-1993) per coprire i giochi dei 16 bit; le altre scene non sono cambiate. Aggiunti transition-06, loop-06 e un effetto tra livelli."
 }
