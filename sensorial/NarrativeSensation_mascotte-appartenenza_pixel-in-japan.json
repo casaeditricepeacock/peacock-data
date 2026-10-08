@@ -1,0 +1,169 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "mascotte_appartenenza",
+  "label": "La mascotte come appartenenza — Donkey Kong, Super Mario Bros., Sonic, Super Mario Kart, Pokémon",
+  "intensity": "vivace_e_condivisa",
+  "tempo": "ripetuto_e_collezionato",
+  "sensory_channels": [
+    "visivo",
+    "sociale",
+    "propriocettivo"
+  ],
+  "core_statement": "Una mascotte non e un personaggio: e il volto di un marchio e il segno di appartenenza di un giocatore. Dal Jumpman di Donkey Kong ai 150 Pokémon, il personaggio diventa una bandiera, un oggetto da collezionare, qualcosa da scambiare con un altro giocatore.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "donkey_kong_1981",
+      "dataset_id": "donkey-kong-1981",
+      "title": "Donkey Kong",
+      "year": 1981,
+      "developer": "Nintendo",
+      "space_type": "cantiere_con_scale",
+      "scheda_facts_it": [
+        "Forse il gioco arcade piu famoso di sempre: Jumpman, cioe Mario prima del nome, sale un cantiere per salvare Pauline.",
+        "Prima apparizione assoluta di Mario e primo gioco della serie Donkey Kong.",
+        "Affidato da Hiroshi Yamauchi a Shigeru Miyamoto, con Gunpei Yokoi accanto.",
+        "Ispirato al cinema degli anni Trenta (King Kong) e ai fumetti come Braccio di Ferro."
+      ],
+      "basho": "Un cantiere di piattaforme e scale: il primo palcoscenico di un personaggio che non ha ancora il nome.",
+      "sensory_breakdown": {
+        "visual": "un uomo piccolo contro un gorilla gigante: la sagoma del personaggio precede il nome",
+        "proprioceptive": "correre, saltare, arrampicarsi: i tre gesti di tutta la serie a venire"
+      },
+      "peacock_reading": "Donkey Kong e il momento in cui un personaggio nasce senza saperlo. Jumpman e un volto in attesa del suo nome."
+    },
+    {
+      "id": "super_mario_bros_1985",
+      "dataset_id": "super-mario-bros-1985",
+      "title": "Super Mario Bros.",
+      "year": 1985,
+      "developer": "Nintendo",
+      "space_type": "regno_dei_funghi_a_scorrimento",
+      "scheda_facts_it": [
+        "Creatura di Shigeru Miyamoto, capostipite della serie dei Super Mario.",
+        "Il videogame piu venduto di sempre (circa 40 milioni di copie per NES).",
+        "Mario e Luigi, idraulici italoamericani, salvano la principessa Peach da Bowser.",
+        "Power up come super mushroom, fire flower e starman; ne seguiranno altri 23 capitoli."
+      ],
+      "basho": "Il mondo orizzontale da percorrere verso destra: tubi, mattoni, piattaforme. Il paesaggio di un'infanzia condivisa.",
+      "sensory_breakdown": {
+        "visual": "un mondo colorato fatto di mattoni, tubi e funghi: ogni elemento e subito leggibile",
+        "proprioceptive": "il salto come gesto universale: la stessa pressione, per milioni di persone"
+      },
+      "peacock_reading": "Super Mario Bros. e la mascotte come lingua comune: una generazione intera ha imparato a saltare con lo stesso gesto."
+    },
+    {
+      "id": "sonic_1991",
+      "dataset_id": "sonic-the-hedgehog-1991",
+      "title": "Sonic the Hedgehog",
+      "year": 1991,
+      "developer": "Sonic Team",
+      "space_type": "livelli_di_velocita",
+      "scheda_facts_it": [
+        "Nato quando la Sega, nel 1990, cercava una mascotte per rivaleggiare con la Nintendo.",
+        "Un riccio blu velocissimo; il Sonic Team ha costruito il gioco sulla velocita.",
+        "Anelli come energia, sei Smeraldi del Caos, il dottor Ivo Robotnik come antagonista.",
+        "Circa 15 milioni di copie; il franchise e arrivato a Hollywood."
+      ],
+      "basho": "Il livello come pista: anelli da raccogliere correndo, rotolando, senza fermarsi.",
+      "sensory_breakdown": {
+        "visual": "un riccio blu che e quasi una scia: il colore come velocita",
+        "proprioceptive": "correre e rotolare: la velocita come stato continuo, con gli anelli come scudo"
+      },
+      "peacock_reading": "Sonic e una mascotte nata per una guerra: il suo scopo dichiarato e stare di fronte a Mario. Il tratto piu giapponese sta nell'averla fatta di velocita pura."
+    },
+    {
+      "id": "super_mario_kart_1992",
+      "dataset_id": "super-mario-kart-1992",
+      "title": "Super Mario Kart",
+      "year": 1992,
+      "developer": "Nintendo",
+      "space_type": "circuiti_di_mario",
+      "scheda_facts_it": [
+        "Nato come versione per due giocatori di F-Zero, poi nelle mani di Miyamoto e diventato titolo di Mario.",
+        "Tra i personaggi i fratelli idraulici, la principessa Peach, Yoshi, Donkey Kong Jr., Toad, Bowser e Koopa.",
+        "Gusci di tartaruga, bucce di banana, super stelle, fulmini che rimpiccioliscono.",
+        "Venti piste divise in quattro coppe da cinque circuiti."
+      ],
+      "basho": "I circuiti del regno di Mario: la mascotte esce dal gioco di piattaforme e si siede alla guida.",
+      "sensory_breakdown": {
+        "visual": "i personaggi di sempre su piste a colori, come in un gioco da tavola veloce",
+        "social": "due giocatori sullo stesso schermo: la sfida e fra chi sta accanto"
+      },
+      "peacock_reading": "Super Mario Kart fa fare alla mascotte il giro della propria casa. Ogni personaggio e una porta di ingresso diversa nello stesso gioco."
+    },
+    {
+      "id": "pokemon_rosso_blu_1996",
+      "dataset_id": "pokemon-red-and-blue-1996",
+      "title": "Pokémon Red and Blue",
+      "year": 1996,
+      "developer": "Game Freak",
+      "space_type": "erba_alta_e_pokedex",
+      "scheda_facts_it": [
+        "I primi due titoli della serie, per Game Boy, sviluppati dal game designer Satoshi Tajiri.",
+        "Unisce gioco di ruolo e collezionismo: 150 creature piu Mew, ottenibile solo con un glitch.",
+        "Per completare il Pokédex servono entrambi i giochi e lo scambio tra due giocatori con il cavo Game Link.",
+        "In Giappone uscirono come Pocket Monsters Aka (rosso) e Midori (verde), poi Ao (blu)."
+      ],
+      "basho": "L'erba alta come soglia: dietro ogni passo c'e una creatura da catturare e un'enciclopedia da completare.",
+      "sensory_breakdown": {
+        "visual": "creature piccole, tante, tutte diverse: un lessico da riconoscere",
+        "social": "il cavo Game Link fra due console: per avere tutto bisogna incontrare qualcuno",
+        "proprioceptive": "catturare e scambiare: il gesto di raccogliere e quello di dare"
+      },
+      "peacock_reading": "Pokémon e la mascotte moltiplicata per 150. Nessuno puo completarlo da solo: l'appartenenza qui e uno scambio."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Da Jumpman a Pikachu il personaggio-bandiera passa dall'essere un volto a essere un'appartenenza: si sceglie, si porta con se, si scambia.",
+    "rivalry": "Sonic nasce per fronteggiare Mario: la mascotte e un'arma di marchio prima che un personaggio.",
+    "exchange": "Pokémon richiede lo scambio: l'appartenenza si compie incontrando un altro giocatore."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "basho",
+      "kokyu",
+      "ichigo_ichie",
+      "kehai"
+    ],
+    "narrative_mechanics": [
+      "personaggio_come_marchio",
+      "collezione_come_lessico",
+      "scambio_come_incontro"
+    ],
+    "cultural_tags": [
+      "mascotte",
+      "Nintendo",
+      "Sega",
+      "platform",
+      "kart",
+      "collezionismo",
+      "Game_Boy"
+    ]
+  },
+  "connected_terms": [
+    "basho",
+    "kokyu",
+    "ichigo_ichie",
+    "kehai"
+  ],
+  "ai_query_surface": [
+    "mascotte videogiochi giapponesi",
+    "Donkey Kong prima apparizione Mario",
+    "Sonic mascotte Sega contro Nintendo",
+    "Super Mario Kart nato da F-Zero",
+    "Pokémon 150 creature Game Link"
+  ],
+  "system_note": "Il cluster collega la scena arcade, quella dei 16 bit e l'espansione globale: la mascotte come filo che attraversa le tre."
+}
