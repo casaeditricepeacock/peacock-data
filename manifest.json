@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-07",
+    "generated": "2026-10-08",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -774,6 +774,7 @@
       "datasets/naviglio-san-marco-theobroma-semantic-dataset.json",
       "datasets/nobunaga-semantic-dataset.json",
       "datasets/orin-campane-buddiste-toyama-semantic-dataset.json",
+      "datasets/pixel-in-japan-games-dataset.json",
       "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
       "datasets/ryokan-storia-soglia-semantic-dataset.json",
       "datasets/sengoku-semantic-dataset.json",
@@ -871,8 +872,10 @@
     ],
     "authors": [
       "authors/AuthorProfile_aika-avonlea.json",
+      "authors/AuthorProfile_alessandro-semeraro.json",
       "authors/AuthorProfile_alisia-viola.json",
       "authors/AuthorProfile_andrea-brivio.json",
+      "authors/AuthorProfile_andrea-yuu-dentuto.json",
       "authors/AuthorProfile_andreina-parpajola.json",
       "authors/AuthorProfile_carmen-mastrangelo.json",
       "authors/AuthorProfile_collective-peacock.json",
