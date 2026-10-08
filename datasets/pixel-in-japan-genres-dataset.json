@@ -1,0 +1,471 @@
+{
+  "type": "VideogameGenresDataset",
+  "dataset_id": "pixel-in-japan-generi",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data - Casa Editrice Peacock",
+  "book": {
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "isbn": "979-12-81715-13-4",
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+  },
+  "games_dataset": "datasets/pixel-in-japan-games-dataset.json",
+  "scope": "Cinque generi videoludici trattati nel libro, con i giochi che il dataset assegna a ciascuno e cio che le schede dicono del genere. Le definizioni sono quelle del libro, non enciclopediche.",
+  "method_note": "Ogni affermazione e ricavata dalle schede del libro e rimanda alla scheda di origine. Le frasi originali non sono riprodotte. Dove la classificazione del dataset differisce dall'etichetta della scheda, e segnalato in classification_note_it.",
+  "genres": [
+    {
+      "genre_id": "jrpg",
+      "name": "JRPG",
+      "name_it": "J-RPG, videogioco di ruolo giapponese",
+      "dataset_genre": "JRPG",
+      "definition_it": "Nel libro, J-RPG indica i videogiochi di ruolo di origine giapponese, nati con Dragon Quest e Final Fantasy e poi declinati in molte forme: narrative, tattiche, in tempo reale, con collezionismo.",
+      "book_statements": [
+        {
+          "statement_it": "Dragon Quest e indicato come capostipite dei videogiochi di ruolo (RPG): ha introdotto schemi e meccaniche diventati canonici, ispirati ai giochi di ruolo cartacei come Dungeons & Dragons.",
+          "evidence_scheda_ids": [
+            "dragon-quest-1986"
+          ]
+        },
+        {
+          "statement_it": "Final Fantasy e presentato come capostipite di una serie di japanese role-playing game che supera i 30 titoli contando spin-off e reboot.",
+          "evidence_scheda_ids": [
+            "final-fantasy-1987"
+          ]
+        },
+        {
+          "statement_it": "Mother e presentato come J-RPG senza ambientazione fantasy, con trama divertente e fuori dagli schemi.",
+          "evidence_scheda_ids": [
+            "mother-1989"
+          ]
+        },
+        {
+          "statement_it": "Grandia e presentato come J-RPG fantasy notevole per estetica e ambientazione.",
+          "evidence_scheda_ids": [
+            "grandia-1997"
+          ]
+        },
+        {
+          "statement_it": "Ys I mette la narrazione al centro e rende i combattimenti automatici.",
+          "evidence_scheda_ids": [
+            "ys-i-ancient-ys-vanished-1987"
+          ]
+        },
+        {
+          "statement_it": "Ogre Battle unisce lo sviluppo dei personaggi e i combattimenti da gioco di ruolo a elementi di videogioco tattico in tempo reale; Tactics Ogre sposta l'attenzione sulle tattiche.",
+          "evidence_scheda_ids": [
+            "ogre-battle-the-march-of-the-black-queen-1993",
+            "tactics-ogre-let-us-cling-together-1995"
+          ]
+        },
+        {
+          "statement_it": "Nei Tales of le battaglie si svolgono in tempo reale su un piano 2D.",
+          "evidence_scheda_ids": [
+            "tales-of-destiny-1997"
+          ]
+        },
+        {
+          "statement_it": "Pokemon unisce un videogioco di ruolo al collezionismo.",
+          "evidence_scheda_ids": [
+            "pokemon-red-and-blue-1996"
+          ]
+        },
+        {
+          "statement_it": "Valkyrie Profile e presentato come videogioco di ruolo con un sistema di combattimento a turni diverso dal solito.",
+          "evidence_scheda_ids": [
+            "valkyrie-profile-1999"
+          ]
+        }
+      ],
+      "classification_note_it": "Il dataset assegna il genere JRPG anche a titoli che le schede descrivono con altre etichette (per esempio Pokemon e Yo-kai Watch, che le schede chiamano videogiochi di ruolo, e Super Robot Wars Alpha, che la scheda chiama RPG). I giochi che il dataset classifica come Action RPG restano a parte.",
+      "related_genres": [
+        "action-rpg"
+      ],
+      "games": [
+        {
+          "game_id": "dragon-quest-1986",
+          "title": "Dragon Quest",
+          "year": 1986
+        },
+        {
+          "game_id": "final-fantasy-1987",
+          "title": "Final Fantasy",
+          "year": 1987
+        },
+        {
+          "game_id": "ys-i-ancient-ys-vanished-1987",
+          "title": "Ys I: Ancient Ys Vanished",
+          "year": 1987
+        },
+        {
+          "game_id": "the-final-fantasy-legend-1989",
+          "title": "The Final Fantasy Legend",
+          "year": 1989
+        },
+        {
+          "game_id": "mother-1989",
+          "title": "Mother",
+          "year": 1989
+        },
+        {
+          "game_id": "digital-devil-story-megami-tensei-ii-1990",
+          "title": "Digital Devil Story: Megami Tensei II",
+          "year": 1990
+        },
+        {
+          "game_id": "tengai-makyo-ii-manji-maru-1992",
+          "title": "Tengai Makyō II: Manji Maru",
+          "year": 1992
+        },
+        {
+          "game_id": "romancing-saga-1992",
+          "title": "Romancing SaGa",
+          "year": 1992
+        },
+        {
+          "game_id": "shin-megami-tensei-1992",
+          "title": "Shin Megami Tensei",
+          "year": 1992
+        },
+        {
+          "game_id": "ogre-battle-the-march-of-the-black-queen-1993",
+          "title": "Ogre Battle: The March of the Black Queen",
+          "year": 1993
+        },
+        {
+          "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+          "title": "Torneko's Great Adventure: Mystery Dungeon",
+          "year": 1993
+        },
+        {
+          "game_id": "fire-emblem-monsho-no-nazo-1994",
+          "title": "Fire Emblem: Monshō no Nazo",
+          "year": 1994
+        },
+        {
+          "game_id": "tactics-ogre-let-us-cling-together-1995",
+          "title": "Tactics Ogre: Let Us Cling Together",
+          "year": 1995
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "title": "Chrono Trigger",
+          "year": 1995
+        },
+        {
+          "game_id": "pokemon-red-and-blue-1996",
+          "title": "Pokémon Red and Blue",
+          "year": 1996
+        },
+        {
+          "game_id": "grandia-1997",
+          "title": "Grandia",
+          "year": 1997
+        },
+        {
+          "game_id": "tales-of-destiny-1997",
+          "title": "Tales of Destiny",
+          "year": 1997
+        },
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "title": "Final Fantasy VII",
+          "year": 1997
+        },
+        {
+          "game_id": "xenogears-1998",
+          "title": "Xenogears",
+          "year": 1998
+        },
+        {
+          "game_id": "valkyrie-profile-1999",
+          "title": "Valkyrie Profile",
+          "year": 1999
+        },
+        {
+          "game_id": "super-robot-wars-alpha-2000",
+          "title": "Super Robot Wars Alpha",
+          "year": 2000
+        },
+        {
+          "game_id": "tales-of-eternia-2000",
+          "title": "Tales of Eternia",
+          "year": 2000
+        },
+        {
+          "game_id": "tales-of-rebirth-2004",
+          "title": "Tales of Rebirth",
+          "year": 2004
+        },
+        {
+          "game_id": "tales-of-the-abyss-2005",
+          "title": "Tales of the Abyss",
+          "year": 2005
+        },
+        {
+          "game_id": "yo-kai-watch-2013",
+          "title": "Yo-kai Watch",
+          "year": 2013
+        }
+      ],
+      "games_count": 25,
+      "first_in_book": "dragon-quest-1986"
+    },
+    {
+      "genre_id": "visual-novel",
+      "name": "Visual novel",
+      "name_it": "romanzo visivo",
+      "dataset_genre": "Visual novel",
+      "definition_it": "Nel libro, la visual novel e un videogioco il cui centro e la storia: il giocatore legge, e le scelte portano a finali diversi.",
+      "book_statements": [
+        {
+          "statement_it": "Kamaitachi no Yoru, giallo di Chunsoft, costringe le aziende concorrenti a investire nel genere delle visual novel.",
+          "evidence_scheda_ids": [
+            "banshee-s-last-cry-kamaitachi-no-yoru-1994"
+          ]
+        },
+        {
+          "statement_it": "Sakura Wars unisce visual novel, gioco di ruolo tattico e simulazione di appuntamenti, ed e descritto come riduttivo da chiamare solo visual novel.",
+          "evidence_scheda_ids": [
+            "sakura-taisen-1996"
+          ]
+        },
+        {
+          "statement_it": "To Heart e presentato come visual novel romantica e simulatore di appuntamenti: la storia e la parte centrale, con pochi punti decisionali.",
+          "evidence_scheda_ids": [
+            "to-heart-1997"
+          ]
+        },
+        {
+          "statement_it": "Machi e una visual novel incentrata sulla narrazione, descritta dai creatori come romanzo sonoro, con piu finali.",
+          "evidence_scheda_ids": [
+            "machi-1998"
+          ]
+        },
+        {
+          "statement_it": "Paranormasight e presentato come visual novel per smartphone, centrata sulla trama, con scelte che possono portare alla morte dei personaggi.",
+          "evidence_scheda_ids": [
+            "paranormasight-the-seven-mysteries-of-honjo-2023"
+          ]
+        }
+      ],
+      "classification_note_it": "To Heart nel dataset e classificato come Dating sim, ma la scheda lo chiama anche visual novel. The Centennial Case e classificato come Visual novel dal dataset; la scheda lo descrive come gioco cinematografico e narrativo senza usare quell'etichetta.",
+      "also_described_as": [
+        {
+          "game_id": "to-heart-1997",
+          "dataset_genre": "Dating sim"
+        }
+      ],
+      "related_genres": [
+        "dating-sim"
+      ],
+      "games": [
+        {
+          "game_id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+          "title": "Banshee's Last Cry (Kamaitachi No Yoru)",
+          "year": 1994
+        },
+        {
+          "game_id": "sakura-taisen-1996",
+          "title": "Sakura taisen",
+          "year": 1996
+        },
+        {
+          "game_id": "machi-1998",
+          "title": "Machi",
+          "year": 1998
+        },
+        {
+          "game_id": "the-centennial-case-a-shijima-story-2022",
+          "title": "The Centennial Case: A Shijima Story",
+          "year": 2022
+        },
+        {
+          "game_id": "paranormasight-the-seven-mysteries-of-honjo-2023",
+          "title": "Paranormasight: The Seven Mysteries of Honjo",
+          "year": 2023
+        }
+      ],
+      "games_count": 5,
+      "first_in_book": "banshee-s-last-cry-kamaitachi-no-yoru-1994"
+    },
+    {
+      "genre_id": "dating-sim",
+      "name": "Dating sim",
+      "name_it": "simulatore di appuntamenti",
+      "dataset_genre": "Dating sim",
+      "definition_it": "Nel libro, il simulatore di appuntamenti e un videogioco in cui il protagonista costruisce relazioni sentimentali con altri personaggi attraverso le scelte e l'impegno nelle attività quotidiane.",
+      "book_statements": [
+        {
+          "statement_it": "Tokimeki Memorial e indicato come il videogioco piu famoso dell'epoca del genere dei simulatori di appuntamenti: uno studente delle superiori deve trovare l'amore nei tre anni di scuola, migliorando le proprie caratteristiche.",
+          "evidence_scheda_ids": [
+            "tokimeki-memorial-forever-with-you-1994"
+          ]
+        },
+        {
+          "statement_it": "Tokimeki Memorial punta sul romanticismo e non vira mai sull'erotico.",
+          "evidence_scheda_ids": [
+            "tokimeki-memorial-forever-with-you-1994"
+          ]
+        },
+        {
+          "statement_it": "To Heart e un simulatore di appuntamenti in cui la storia pesa piu delle scelte: nel 90 per cento dei casi il protagonista finisce per innamorarsi della stessa ragazza.",
+          "evidence_scheda_ids": [
+            "to-heart-1997"
+          ]
+        },
+        {
+          "statement_it": "Sakura Wars include elementi di simulazione di appuntamenti accanto al gioco di ruolo tattico e alla visual novel.",
+          "evidence_scheda_ids": [
+            "sakura-taisen-1996"
+          ]
+        }
+      ],
+      "also_described_as": [
+        {
+          "game_id": "to-heart-1997",
+          "dataset_genre": "Visual novel (nella scheda)"
+        }
+      ],
+      "related_genres": [
+        "visual-novel"
+      ],
+      "games": [
+        {
+          "game_id": "tokimeki-memorial-forever-with-you-1994",
+          "title": "Tokimeki Memorial: Forever With You",
+          "year": 1994
+        },
+        {
+          "game_id": "to-heart-1997",
+          "title": "To Heart",
+          "year": 1997
+        }
+      ],
+      "games_count": 2,
+      "first_in_book": "tokimeki-memorial-forever-with-you-1994"
+    },
+    {
+      "genre_id": "survival-horror",
+      "name": "Survival horror",
+      "name_it": "survival horror",
+      "dataset_genre": "Survival horror",
+      "definition_it": "Nel libro, il survival horror e il genere dei videogiochi horror in cui il giocatore sopravvive in atmosfere cupe e inquietanti.",
+      "book_statements": [
+        {
+          "statement_it": "Resident Evil e indicato come antesignano del survival horror: qualcosa di simile esisteva prima, ma con questo titolo nasce ufficialmente il nome del genere.",
+          "evidence_scheda_ids": [
+            "resident-evil-1996"
+          ]
+        },
+        {
+          "statement_it": "Onimusha e descritto come un po' action e un po' survival horror, con combattimenti centrali che lo allontanano dalla modalita principale del genere.",
+          "evidence_scheda_ids": [
+            "onimusha-warlords-2001"
+          ]
+        },
+        {
+          "statement_it": "Yomawari e descritto come survival horror in cui i mostri, almeno all'inizio, non si possono uccidere e bisogna nascondersi.",
+          "evidence_scheda_ids": [
+            "yomawari-night-alone-2015"
+          ]
+        },
+        {
+          "statement_it": "Silent Hill e descritto come horror psicologico che non punta tutto su splatter e mostri; nella scheda non compare l'etichetta survival horror.",
+          "evidence_scheda_ids": [
+            "silent-hill-1999"
+          ]
+        }
+      ],
+      "classification_note_it": "Project Zero e Silent Hill sono classificati Survival horror dal dataset; le loro schede parlano di paura e di horror ma non usano l'etichetta. Onimusha e classificato Action adventure.",
+      "related_genres": [
+        "action-adventure"
+      ],
+      "games": [
+        {
+          "game_id": "resident-evil-1996",
+          "title": "Resident Evil",
+          "year": 1996
+        },
+        {
+          "game_id": "silent-hill-1999",
+          "title": "Silent Hill",
+          "year": 1999
+        },
+        {
+          "game_id": "project-zero-2001",
+          "title": "Project Zero",
+          "year": 2001
+        },
+        {
+          "game_id": "yomawari-night-alone-2015",
+          "title": "Yomawari: Night Alone",
+          "year": 2015
+        }
+      ],
+      "games_count": 4,
+      "first_in_book": "resident-evil-1996"
+    },
+    {
+      "genre_id": "beat-em-up",
+      "name": "Beat 'em up",
+      "name_it": "picchiaduro a scorrimento",
+      "dataset_genre": "Beat 'em up",
+      "definition_it": "Nel libro, il picchiaduro a scorrimento e un videogioco in cui il personaggio avanza scorrendo lo schermo e affronta nemici a colpi di pugni e calci.",
+      "book_statements": [
+        {
+          "statement_it": "Kung-Fu Master e indicato come antesignano dei picchiaduro a scorrimento.",
+          "evidence_scheda_ids": [
+            "kung-fu-master-spartan-x-1984"
+          ]
+        },
+        {
+          "statement_it": "Final Fight e indicato come uno dei picchiaduro a scorrimento piu famosi: la sua novita e la semplificazione, con un tasto per saltare e uno per colpire.",
+          "evidence_scheda_ids": [
+            "final-fight-1990"
+          ]
+        },
+        {
+          "statement_it": "Yakuza e descritto come un misto tra picchiaduro a scorrimento e videogioco d'azione.",
+          "evidence_scheda_ids": [
+            "yakuza-2005"
+          ]
+        }
+      ],
+      "classification_note_it": "Yakuza e classificato Action dal dataset. I picchiaduro a incontri (Street Fighter II, Virtua Fighter, Tekken) sono un genere distinto, Fighting.",
+      "related_genres": [
+        "fighting"
+      ],
+      "games": [
+        {
+          "game_id": "kung-fu-master-spartan-x-1984",
+          "title": "Kung-Fu Master (Spartan X)",
+          "year": 1984
+        },
+        {
+          "game_id": "final-fight-1990",
+          "title": "Final Fight",
+          "year": 1990
+        }
+      ],
+      "games_count": 2,
+      "first_in_book": "kung-fu-master-spartan-x-1984"
+    }
+  ],
+  "ai_query_surface": [
+    "cos'e un JRPG",
+    "visual novel giapponesi anni 90",
+    "survival horror giapponesi",
+    "simulatori di appuntamenti giapponesi",
+    "picchiaduro a scorrimento giapponesi",
+    "origine del survival horror",
+    "Dragon Quest capostipite dei videogiochi di ruolo"
+  ],
+  "meta_index": {
+    "genres": 5,
+    "games_covered": 38
+  }
+}
