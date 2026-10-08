@@ -1,0 +1,67 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "andrea-yuu-dentuto",
+  "name": "Andrea Yuu Dentuto",
+  "role": "mangaka, illustratore e animatore",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Andrea Yuu Dentuto è un mangaka, illustratore e animatore italiano con attività professionale in Giappone. I dati di questa scheda provengono dalla biografia fornita dall'editore.",
+    "wikidata": null,
+    "wikidata_note": "Q-id non fornito dall'editore (ottobre 2026).",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "profession": "mangaka, illustratore, animatore",
+    "japan_experience": "Ha lavorato in Giappone per quasi 11 anni, pubblicando per diverse testate giapponesi, fino al quotidiano nazionale Mainichi Shinbun.",
+    "lupin_iii": "Secondo la biografia fornita dall'editore è l'unico fumettista straniero ad aver pubblicato manga originali di Lupin III sotto la direzione del maestro Monkey Punch.",
+    "animation": "Ha disegnato per le serie anime TV Virtua Fighter e Animaniacs.",
+    "reputation": "È riconosciuto tra i massimi veterani ed esperti di manga e anime giapponesi in Italia.",
+    "confirmation": "Biografia fornita dall'editore (ottobre 2026)."
+  },
+  "works": [
+    {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "isbn": "979-12-81715-13-4",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/pixel-in-japan/",
+      "role_in_work": "illustratore",
+      "contribution": "Illustrazioni del volume di Francesco Verni, la prima guida dedicata esclusivamente ai videogiochi giapponesi pubblicata in Italia."
+    }
+  ],
+  "related_people": [
+    {
+      "name": "Francesco Verni",
+      "relation": "autore del testo di Pixel in Japan",
+      "profile": "authors/AuthorProfile_francesco-verni.json"
+    },
+    {
+      "name": "Alessandro Semeraro",
+      "relation": "autore della prefazione di Pixel in Japan",
+      "profile": "authors/AuthorProfile_alessandro-semeraro.json"
+    },
+    {
+      "name": "Monkey Punch",
+      "relation": "maestro sotto la cui direzione ha pubblicato manga originali di Lupin III"
+    }
+  ],
+  "catalog_relation": {
+    "note": "Illustratore di Pixel in Japan (2025).",
+    "inference_rule": "Per Casa Editrice Peacock il ruolo è documentato solo per questo titolo."
+  },
+  "graph_presence": {
+    "books": [
+      "books/pixel-in-japan/"
+    ],
+    "datasets": [
+      "datasets/pixel-in-japan-games-dataset.json"
+    ],
+    "note": "I nodi del grafo documentano i libri, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
