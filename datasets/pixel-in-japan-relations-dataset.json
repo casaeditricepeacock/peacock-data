@@ -1,0 +1,1514 @@
+{
+  "type": "VideogameRelationsDataset",
+  "dataset_id": "pixel-in-japan-relazioni",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data - Casa Editrice Peacock",
+  "book": {
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "isbn": "979-12-81715-13-4",
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+  },
+  "games_dataset": "datasets/pixel-in-japan-games-dataset.json",
+  "scope": "Relazioni tra i videogiochi del libro, e tra questi e altre opere, che le schede del libro dichiarano in modo esplicito. Nessuna relazione e dedotta da fonti esterne.",
+  "method_note": "Ogni voce e stata ricavata dal testo delle schede e verificata automaticamente sulla scheda indicata in evidence_scheda_ids. Le frasi originali non sono riprodotte. Le voci con declared_by_book 'implicita' sono segnalate come tali.",
+  "relation_types": {
+    "sequel_of": "seguito di",
+    "spin_off_of": "spin-off di",
+    "series_origin": "origine di una serie",
+    "series_entry": "capitolo di una serie",
+    "derived_from": "nato come versione di",
+    "improved_version_of": "versione migliorata di",
+    "console_version_of": "versione per console di",
+    "influenced": "ha influenzato",
+    "owes_to": "debitore di",
+    "rival_of": "rivale di",
+    "released_before": "uscito prima di",
+    "compared_to_not_copy": "confrontato con, non copia",
+    "not_related_to": "non correlato a",
+    "proposed_not_realized": "ipotesi proposta e non realizzata",
+    "shared_creator": "autore in comune",
+    "shared_creators": "autori in comune",
+    "shared_technology": "tecnologia in comune",
+    "shared_historical_figure": "stessa figura storica",
+    "licensed_adaptation_of": "adattamento su licenza di",
+    "inspired_by": "ispirato a",
+    "based_on": "tratto da",
+    "homage_to": "omaggio a",
+    "adapted_into_film": "ha generato un film",
+    "subject_of_film": "raccontato in un film",
+    "adapted_into_anime": "ha generato anime, cartoon o manga",
+    "reference_to": "riferimento a",
+    "animation_by": "animazione di",
+    "includes_licensed_works": "include opere su licenza",
+    "collaboration_with": "collaborazione con",
+    "music_by": "musica di",
+    "licensed_by": "licenza di",
+    "has_sequels": "ha generato sequel",
+    "same_series_implicit": "stessa serie (implicita)",
+    "genre_influence": "influenza sul genere",
+    "genre_named_after": "genere che prende il nome da",
+    "introduces_character": "introduce un personaggio",
+    "character_from": "personaggio tratto da"
+  },
+  "relations": [
+    {
+      "id": "rel-01",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "external": "Mario Bros.",
+        "type": "videogioco_fuori_libro"
+      },
+      "relation": "spin_off_of",
+      "relation_it": "spin-off di",
+      "object": {
+        "game_ids": [
+          "donkey-kong-1981"
+        ],
+        "label": "Donkey Kong (1981)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-bros-1985"
+      ]
+    },
+    {
+      "id": "rel-02",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "super-mario-bros-1985"
+        ],
+        "label": "Super Mario Bros. (1985)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito di",
+      "object": {
+        "external": "Mario Bros.",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-bros-1985"
+      ]
+    },
+    {
+      "id": "rel-03",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "super-mario-bros-1985"
+        ],
+        "label": "Super Mario Bros. (1985)"
+      },
+      "relation": "series_origin",
+      "relation_it": "capostipite di serie",
+      "object": {
+        "external": "serie Super Mario",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-bros-1985"
+      ]
+    },
+    {
+      "id": "rel-04",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "donkey-kong-1981"
+        ],
+        "label": "Donkey Kong (1981)"
+      },
+      "relation": "series_origin",
+      "relation_it": "primo della serie / prima apparizione",
+      "object": {
+        "external": "serie Donkey Kong e personaggio Mario",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "donkey-kong-1981"
+      ]
+    },
+    {
+      "id": "rel-05",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "super-mario-bros-3-1988"
+        ],
+        "label": "Super Mario Bros. 3 (1988)"
+      },
+      "relation": "series_entry",
+      "relation_it": "terzo capitolo di serie",
+      "object": {
+        "external": "serie Super Mario",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-bros-3-1988"
+      ]
+    },
+    {
+      "id": "rel-06",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "super-mario-world-super-mario-bros-4-1990"
+        ],
+        "label": "Super Mario World (1990)"
+      },
+      "relation": "introduces_character",
+      "relation_it": "introduce un personaggio",
+      "object": {
+        "external": "Yoshi",
+        "type": "personaggio"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-world-super-mario-bros-4-1990"
+      ]
+    },
+    {
+      "id": "rel-07",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "super-mario-kart-1992"
+        ],
+        "label": "Super Mario Kart (1992)"
+      },
+      "relation": "derived_from",
+      "relation_it": "nato come versione di",
+      "object": {
+        "game_ids": [
+          "f-zero-1990"
+        ],
+        "label": "F-Zero (1990)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-mario-kart-1992"
+      ]
+    },
+    {
+      "id": "rel-08",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "dragon-slayer-1984"
+        ],
+        "label": "Dragon Slayer (1984)"
+      },
+      "relation": "influenced",
+      "relation_it": "ha influenzato (secondo la scheda)",
+      "object": {
+        "game_ids": [
+          "the-legend-of-zelda-1986"
+        ],
+        "label": "The Legend of Zelda (1986)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "dragon-slayer-1984"
+      ],
+      "editorial_note_it": "Affermazione della scheda del libro, non verificata altrove."
+    },
+    {
+      "id": "rel-09",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "torneko-s-great-adventure-mystery-dungeon-1993"
+        ],
+        "label": "Torneko's Great Adventure (1993)"
+      },
+      "relation": "spin_off_of",
+      "relation_it": "spin-off di",
+      "object": {
+        "game_ids": [
+          "dragon-quest-1986"
+        ],
+        "label": "Dragon Quest (serie)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "torneko-s-great-adventure-mystery-dungeon-1993"
+      ]
+    },
+    {
+      "id": "rel-10",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "torneko-s-great-adventure-mystery-dungeon-1993"
+        ],
+        "label": "Torneko's Great Adventure (1993)"
+      },
+      "relation": "character_from",
+      "relation_it": "personaggio tratto da",
+      "object": {
+        "external": "Dragon Quest IV",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "torneko-s-great-adventure-mystery-dungeon-1993"
+      ]
+    },
+    {
+      "id": "rel-11",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "torneko-s-great-adventure-mystery-dungeon-1993"
+        ],
+        "label": "Torneko's Great Adventure (1993)"
+      },
+      "relation": "series_origin",
+      "relation_it": "primo capitolo di serie",
+      "object": {
+        "external": "serie Mystery Dungeon",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "torneko-s-great-adventure-mystery-dungeon-1993"
+      ]
+    },
+    {
+      "id": "rel-12",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "external": "Pokémon Mystery Dungeon",
+        "type": "videogioco_fuori_libro"
+      },
+      "relation": "spin_off_of",
+      "relation_it": "spin-off di",
+      "object": {
+        "game_ids": [
+          "torneko-s-great-adventure-mystery-dungeon-1993",
+          "pokemon-red-and-blue-1996"
+        ],
+        "label": "serie Mystery Dungeon (da Torneko) e Pokémon (1996)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "torneko-s-great-adventure-mystery-dungeon-1993"
+      ]
+    },
+    {
+      "id": "rel-13",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "external": "genere roguelike",
+        "type": "genere"
+      },
+      "relation": "genre_named_after",
+      "relation_it": "genere preso dal nome di",
+      "object": {
+        "external": "Rogue",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "torneko-s-great-adventure-mystery-dungeon-1993"
+      ]
+    },
+    {
+      "id": "rel-14",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "the-final-fantasy-legend-1989"
+        ],
+        "label": "The Final Fantasy Legend (1989)"
+      },
+      "relation": "not_related_to",
+      "relation_it": "NON correlato a",
+      "object": {
+        "game_ids": [
+          "final-fantasy-1987"
+        ],
+        "label": "Final Fantasy (1987)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "the-final-fantasy-legend-1989"
+      ],
+      "note_for_ai_it": "Non collegare The Final Fantasy Legend (SaGa) alla serie Final Fantasy: il titolo occidentale e un'etichetta commerciale."
+    },
+    {
+      "id": "rel-15",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "external": "Ys II",
+        "type": "videogioco_fuori_libro"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito di",
+      "object": {
+        "game_ids": [
+          "ys-i-ancient-ys-vanished-1987"
+        ],
+        "label": "Ys I (1987)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "ys-i-ancient-ys-vanished-1987"
+      ]
+    },
+    {
+      "id": "rel-16",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "fire-emblem-monsho-no-nazo-1994"
+        ],
+        "label": "Fire Emblem: Monshō no Nazo, Book 1 (1994)"
+      },
+      "relation": "improved_version_of",
+      "relation_it": "versione migliorata del",
+      "object": {
+        "external": "primo Fire Emblem",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "fire-emblem-monsho-no-nazo-1994"
+      ]
+    },
+    {
+      "id": "rel-17",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "fire-emblem-monsho-no-nazo-1994"
+        ],
+        "label": "Fire Emblem: Monshō no Nazo, Book 2 (1994)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito (Book 2)",
+      "object": {
+        "external": "primo Fire Emblem (1990)",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "fire-emblem-monsho-no-nazo-1994"
+      ]
+    },
+    {
+      "id": "rel-18",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+        ],
+        "label": "Hokkaidō Rensa Satsujin NES (1987)"
+      },
+      "relation": "console_version_of",
+      "relation_it": "versione per console di",
+      "object": {
+        "external": "Hokkaidō Rensa Satsujin, versione PC (1984)",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+      ]
+    },
+    {
+      "id": "rel-19",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "street-fighter-ii-the-world-warrior-1991"
+        ],
+        "label": "Street Fighter II (1991)"
+      },
+      "relation": "series_entry",
+      "relation_it": "secondo capitolo di saga",
+      "object": {
+        "external": "Street Fighter",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "street-fighter-ii-the-world-warrior-1991"
+      ]
+    },
+    {
+      "id": "rel-20",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "digital-devil-story-megami-tensei-ii-1990"
+        ],
+        "label": "Digital Devil Story: Megami Tensei II (1990)"
+      },
+      "relation": "series_entry",
+      "relation_it": "secondo capitolo di serie",
+      "object": {
+        "external": "Megami Tensei",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "digital-devil-story-megami-tensei-ii-1990"
+      ]
+    },
+    {
+      "id": "rel-21",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "shin-megami-tensei-1992"
+        ],
+        "label": "Shin Megami Tensei (1992)"
+      },
+      "relation": "same_series_implicit",
+      "relation_it": "stessa serie (implicita)",
+      "object": {
+        "game_ids": [
+          "digital-devil-story-megami-tensei-ii-1990"
+        ],
+        "label": "Megami Tensei II (1990)"
+      },
+      "declared_by_book": "implicita",
+      "evidence_scheda_ids": [
+        "digital-devil-story-megami-tensei-ii-1990",
+        "shin-megami-tensei-1992"
+      ],
+      "editorial_note_it": "Relazione implicita: le due schede usano la stessa formula ('demoni e programmatori'), ma non dichiarano la serie in modo esplicito."
+    },
+    {
+      "id": "rel-22",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "tactics-ogre-let-us-cling-together-1995"
+        ],
+        "label": "Tactics Ogre (1995)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito di",
+      "object": {
+        "game_ids": [
+          "ogre-battle-the-march-of-the-black-queen-1993"
+        ],
+        "label": "Ogre Battle: The March of the Black Queen (1993)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tactics-ogre-let-us-cling-together-1995"
+      ]
+    },
+    {
+      "id": "rel-23",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "secret-of-mana-1993"
+        ],
+        "label": "Secret of Mana (1993)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito di",
+      "object": {
+        "external": "Mystic Quest",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "secret-of-mana-1993"
+      ],
+      "editorial_note_it": "Il titolo e riportato come nella scheda; non confondere con Final Fantasy: Mystic Quest."
+    },
+    {
+      "id": "rel-24",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "tales-of-destiny-1997"
+        ],
+        "label": "Tales of Destiny (1997)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "seguito di",
+      "object": {
+        "external": "Tales of Phantasia",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-destiny-1997"
+      ]
+    },
+    {
+      "id": "rel-25",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "tales-of-eternia-2000"
+        ],
+        "label": "Tales of Eternia (2000)"
+      },
+      "relation": "series_entry",
+      "relation_it": "terzo capitolo di serie",
+      "object": {
+        "external": "serie Tales",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-eternia-2000"
+      ]
+    },
+    {
+      "id": "rel-26",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "tales-of-rebirth-2004"
+        ],
+        "label": "Tales of Rebirth (2004)"
+      },
+      "relation": "series_entry",
+      "relation_it": "sesto capitolo principale",
+      "object": {
+        "external": "serie Tales",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-rebirth-2004"
+      ]
+    },
+    {
+      "id": "rel-27",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "tales-of-the-abyss-2005"
+        ],
+        "label": "Tales of the Abyss (2005)"
+      },
+      "relation": "series_entry",
+      "relation_it": "ottavo titolo di serie",
+      "object": {
+        "external": "serie Tales",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-the-abyss-2005"
+      ]
+    },
+    {
+      "id": "rel-28",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "samurai-warriors-2004"
+        ],
+        "label": "Samurai Warriors (2004)"
+      },
+      "relation": "spin_off_of",
+      "relation_it": "spin-off di",
+      "object": {
+        "game_ids": [
+          "dynasty-warriors-1997"
+        ],
+        "label": "Dynasty Warriors (1997)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "samurai-warriors-2004"
+      ]
+    },
+    {
+      "id": "rel-29",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "animal-crossing-new-horizons-2020"
+        ],
+        "label": "Animal Crossing: New Horizons (2020)"
+      },
+      "relation": "series_entry",
+      "relation_it": "quinto titolo di serie",
+      "object": {
+        "game_ids": [
+          "animal-crossing-2001"
+        ],
+        "label": "serie Animal Crossing (Animal Crossing 2001)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "animal-crossing-new-horizons-2020"
+      ],
+      "editorial_note_it": "Il legame e di serie: New Horizons non e collegato alla lettura sensoriale del primo Animal Crossing (2001)."
+    },
+    {
+      "id": "rel-30",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "metal-gear-solid-1998"
+        ],
+        "label": "Metal Gear Solid (1998)"
+      },
+      "relation": "sequel_of",
+      "relation_it": "terzo titolo di Kojima",
+      "object": {
+        "external": "Metal Gear e Metal Gear 2: Solid Snake",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "metal-gear-solid-1998"
+      ]
+    },
+    {
+      "id": "rel-31",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "final-fantasy-vii-1997"
+        ],
+        "label": "Final Fantasy VII (1997)"
+      },
+      "relation": "series_entry",
+      "relation_it": "settimo capitolo",
+      "object": {
+        "game_ids": [
+          "final-fantasy-1987"
+        ],
+        "label": "Final Fantasy (1987)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "final-fantasy-1987",
+        "final-fantasy-vii-1997"
+      ],
+      "editorial_note_it": "Il numero VII e nel titolo."
+    },
+    {
+      "id": "rel-32",
+      "category": "serie_seguiti_versioni",
+      "subject": {
+        "game_ids": [
+          "yomawari-night-alone-2015"
+        ],
+        "label": "Yomawari: Night Alone (2015)"
+      },
+      "relation": "has_sequels",
+      "relation_it": "ha generato due sequel",
+      "object": {
+        "external": "sequel di Yomawari non specificati",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "yomawari-night-alone-2015"
+      ],
+      "editorial_note_it": "Tokyo Dark (2017) non e uno dei due sequel di Yomawari citati dalla scheda."
+    },
+    {
+      "id": "rel-33",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "puyo-puyo-1991"
+        ],
+        "label": "Puyo Puyo (1991)"
+      },
+      "relation": "owes_to",
+      "relation_it": "deve parecchio a",
+      "object": {
+        "game_ids": [
+          "tetris-1989"
+        ],
+        "label": "Tetris (1989)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "puyo-puyo-1991"
+      ]
+    },
+    {
+      "id": "rel-34",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "yo-kai-watch-2013"
+        ],
+        "label": "Yo-kai Watch (2013)"
+      },
+      "relation": "compared_to_not_copy",
+      "relation_it": "confronto con (NON copia)",
+      "object": {
+        "game_ids": [
+          "pokemon-red-and-blue-1996"
+        ],
+        "label": "Pokémon (1996)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "yo-kai-watch-2013"
+      ],
+      "note_for_ai_it": "La scheda nega che sia una copia o un plagio: confronto, non derivazione."
+    },
+    {
+      "id": "rel-35",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "virtua-fighter-1993"
+        ],
+        "label": "Virtua Fighter (1993)"
+      },
+      "relation": "rival_of",
+      "relation_it": "rivale di",
+      "object": {
+        "game_ids": [
+          "tekken-1994"
+        ],
+        "label": "Tekken (1994)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "virtua-fighter-1993",
+        "tekken-1994"
+      ]
+    },
+    {
+      "id": "rel-36",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "virtua-fighter-1993"
+        ],
+        "label": "Virtua Fighter (dic. 1993)"
+      },
+      "relation": "released_before",
+      "relation_it": "uscito prima di",
+      "object": {
+        "game_ids": [
+          "tekken-1994"
+        ],
+        "label": "Tekken (1994)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "virtua-fighter-1993"
+      ]
+    },
+    {
+      "id": "rel-37",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "sonic-the-hedgehog-1991"
+        ],
+        "label": "Sonic the Hedgehog (1991)"
+      },
+      "relation": "rival_of",
+      "relation_it": "rivale di",
+      "object": {
+        "game_ids": [
+          "super-mario-bros-1985"
+        ],
+        "label": "Mario Bros. / Nintendo"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "sonic-the-hedgehog-1991"
+      ]
+    },
+    {
+      "id": "rel-38",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "tetris-1989"
+        ],
+        "label": "Tetris (1989)"
+      },
+      "relation": "shared_technology",
+      "relation_it": "tecnologia condivisa (Game Link)",
+      "object": {
+        "game_ids": [
+          "pokemon-red-and-blue-1996"
+        ],
+        "label": "Pokémon Rosso e Blu (1996)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tetris-1989",
+        "pokemon-red-and-blue-1996"
+      ]
+    },
+    {
+      "id": "rel-39",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "xenogears-1998"
+        ],
+        "label": "Xenogears (1998)"
+      },
+      "relation": "proposed_not_realized",
+      "relation_it": "ipotesi non realizzata",
+      "object": {
+        "game_ids": [
+          "final-fantasy-vii-1997"
+        ],
+        "label": "Final Fantasy VII (1997)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "xenogears-1998"
+      ],
+      "note_for_ai_it": "Proposta poi scartata: non e un seguito ne una trama realizzata."
+    },
+    {
+      "id": "rel-40",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "xenogears-1998"
+        ],
+        "label": "Xenogears (1998)"
+      },
+      "relation": "proposed_not_realized",
+      "relation_it": "ipotesi non realizzata",
+      "object": {
+        "game_ids": [
+          "chrono-trigger-1995"
+        ],
+        "label": "Chrono Trigger (1995)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "xenogears-1998"
+      ],
+      "note_for_ai_it": "Proposta poi scartata: non e un seguito ne una trama realizzata."
+    },
+    {
+      "id": "rel-41",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "xenogears-1998"
+        ],
+        "label": "Xenogears (1998)"
+      },
+      "relation": "series_origin",
+      "relation_it": "gioco autonomo, origine della serie",
+      "object": {
+        "external": "serie Xeno",
+        "type": "serie"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "xenogears-1998"
+      ]
+    },
+    {
+      "id": "rel-42",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "kingdom-hearts-2002"
+        ],
+        "label": "Kingdom Hearts (2002)"
+      },
+      "relation": "shared_creator",
+      "relation_it": "ponte tramite Tetsuya Nomura",
+      "object": {
+        "game_ids": [
+          "final-fantasy-vii-1997"
+        ],
+        "label": "Final Fantasy VII (1997)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "final-fantasy-vii-1997",
+        "kingdom-hearts-2002"
+      ]
+    },
+    {
+      "id": "rel-43",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "chrono-trigger-1995"
+        ],
+        "label": "Chrono Trigger (1995)"
+      },
+      "relation": "shared_creators",
+      "relation_it": "team con autori di altre serie",
+      "object": {
+        "game_ids": [
+          "final-fantasy-1987",
+          "dragon-quest-1986"
+        ],
+        "label": "Final Fantasy (1987) e Dragon Quest (1986)"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "chrono-trigger-1995"
+      ]
+    },
+    {
+      "id": "rel-44",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "banshee-s-last-cry-kamaitachi-no-yoru-1994"
+        ],
+        "label": "Kamaitachi no Yoru (1994)"
+      },
+      "relation": "genre_influence",
+      "relation_it": "ha inaugurato un genere (secondo la scheda)",
+      "object": {
+        "external": "genere visual novel",
+        "type": "genere"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "banshee-s-last-cry-kamaitachi-no-yoru-1994"
+      ]
+    },
+    {
+      "id": "rel-45",
+      "category": "influenze_confronti_rivalita",
+      "subject": {
+        "game_ids": [
+          "dynasty-warriors-1997",
+          "onimusha-warlords-2001",
+          "samurai-warriors-2004"
+        ],
+        "label": "Dynasty Warriors (1997) / Onimusha (2001) / Samurai Warriors (2004)"
+      },
+      "relation": "shared_historical_figure",
+      "relation_it": "stesso personaggio storico",
+      "object": {
+        "external": "Nobunaga Oda",
+        "type": "figura_storica"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "dynasty-warriors-1997",
+        "onimusha-warlords-2001",
+        "samurai-warriors-2004"
+      ],
+      "cross_graph_links": {
+        "entity_in_games": "Nobunaga Oda",
+        "entity_in_graph": "Oda Nobunaga",
+        "dataset": "datasets/nobunaga-semantic-dataset.json",
+        "book": "books/demone-samurai/narrative-system-graph.json",
+        "book_title": "Il Demone Samurai. Moda e misteri",
+        "book_author": "Hélène Blignaut",
+        "note_it": "Nobunaga Oda compare come nemico o personaggio giocabile in Dynasty Warriors, Onimusha e Samurai Warriors; Il Demone Samurai e l'opera teatrale Peacock dedicata alla stessa figura storica."
+      }
+    },
+    {
+      "id": "rel-46",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "kung-fu-master-spartan-x-1984"
+        ],
+        "label": "Kung-Fu Master (1984)"
+      },
+      "relation": "licensed_adaptation_of",
+      "relation_it": "adattamento su licenza di",
+      "object": {
+        "external": "film Il mistero del Conte Lobos",
+        "type": "film",
+        "note_it": "Regia di Sammo Hung, con Jackie Chan tra i protagonisti (secondo la scheda)."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "kung-fu-master-spartan-x-1984"
+      ]
+    },
+    {
+      "id": "rel-47",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "dragon-quest-1986"
+        ],
+        "label": "Dragon Quest (1986)"
+      },
+      "relation": "inspired_by",
+      "relation_it": "ispirato a",
+      "object": {
+        "external": "giochi di ruolo cartacei, tra cui Dungeons & Dragons",
+        "type": "gioco_da_tavolo"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "dragon-quest-1986"
+      ]
+    },
+    {
+      "id": "rel-48",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "digital-devil-story-megami-tensei-ii-1990"
+        ],
+        "label": "Megami Tensei II (1990)"
+      },
+      "relation": "based_on",
+      "relation_it": "tratto da",
+      "object": {
+        "external": "romanzi fantasy della serie di Aya Nishitani",
+        "type": "romanzo"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "digital-devil-story-megami-tensei-ii-1990"
+      ]
+    },
+    {
+      "id": "rel-49",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "mother-1989"
+        ],
+        "label": "Mother (1989)"
+      },
+      "relation": "homage_to",
+      "relation_it": "omaggio nel titolo a",
+      "object": {
+        "external": "canzone Mother",
+        "type": "canzone"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "mother-1989"
+      ]
+    },
+    {
+      "id": "rel-50",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "street-fighter-ii-the-world-warrior-1991"
+        ],
+        "label": "Street Fighter II (1991)"
+      },
+      "relation": "adapted_into_film",
+      "relation_it": "ha dato origine a film",
+      "object": {
+        "external": "film Street Fighter - Sfida Finale (1994)",
+        "type": "film",
+        "note_it": "Con Jean-Claude Van Damme, Raul Julia e Kylie Minogue (secondo la scheda)."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "street-fighter-ii-the-world-warrior-1991"
+      ]
+    },
+    {
+      "id": "rel-51",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "tetris-1989"
+        ],
+        "label": "Tetris (1989)"
+      },
+      "relation": "subject_of_film",
+      "relation_it": "raccontato in film",
+      "object": {
+        "external": "film Tetris (2023)",
+        "type": "film"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tetris-1989"
+      ]
+    },
+    {
+      "id": "rel-52",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "sakura-taisen-1996"
+        ],
+        "label": "Sakura Wars (1996)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha ispirato anime e concerti",
+      "object": {
+        "external": "serie anime e concerti",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "sakura-taisen-1996"
+      ]
+    },
+    {
+      "id": "rel-53",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "to-heart-1997"
+        ],
+        "label": "To Heart (1997)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha avuto adattamenti",
+      "object": {
+        "external": "due serie animate e due manga",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "to-heart-1997"
+      ]
+    },
+    {
+      "id": "rel-54",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "monster-rancher-1997"
+        ],
+        "label": "Monster Rancher (1997)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha ispirato un cartoon",
+      "object": {
+        "external": "cartoon di 73 episodi (1999-2000)",
+        "type": "anime_manga",
+        "note_it": "Trasmesso da Tokyo Broadcasting System, secondo la scheda."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "monster-rancher-1997"
+      ]
+    },
+    {
+      "id": "rel-55",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "monster-rancher-1997"
+        ],
+        "label": "Monster Rancher (1997)"
+      },
+      "relation": "reference_to",
+      "relation_it": "riferimento a",
+      "object": {
+        "external": "Tecmo's Deception: Invitation to Darkness",
+        "type": "videogioco_fuori_libro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "monster-rancher-1997"
+      ]
+    },
+    {
+      "id": "rel-56",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "tales-of-destiny-1997"
+        ],
+        "label": "Tales of Destiny (1997)"
+      },
+      "relation": "animation_by",
+      "relation_it": "intro animata di",
+      "object": {
+        "external": "Production I.G",
+        "type": "azienda_o_ente",
+        "note_it": "Lo studio di Ghost in the Shell, secondo la scheda."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-destiny-1997"
+      ]
+    },
+    {
+      "id": "rel-57",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "tales-of-eternia-2000"
+        ],
+        "label": "Tales of Eternia (2000)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha ispirato un anime",
+      "object": {
+        "external": "serie anime di 13 episodi",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tales-of-eternia-2000"
+      ]
+    },
+    {
+      "id": "rel-58",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "parasite-eve-1998"
+        ],
+        "label": "Parasite Eve (1998)"
+      },
+      "relation": "based_on",
+      "relation_it": "ispirato dal romanzo",
+      "object": {
+        "external": "romanzo Parasite Eve",
+        "type": "romanzo"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "parasite-eve-1998"
+      ]
+    },
+    {
+      "id": "rel-59",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "super-robot-wars-alpha-2000"
+        ],
+        "label": "Super Robot Wars Alpha (2000)"
+      },
+      "relation": "includes_licensed_works",
+      "relation_it": "include opere anime/manga",
+      "object": {
+        "external": "Getter Robot, Mazinga Z, Mobile Suit Gundam, Neon Genesis Evangelion, Macross, Giant Robot",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "super-robot-wars-alpha-2000"
+      ]
+    },
+    {
+      "id": "rel-60",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "animal-crossing-2001"
+        ],
+        "label": "Animal Crossing (2001)"
+      },
+      "relation": "reference_to",
+      "relation_it": "riferimento a",
+      "object": {
+        "external": "film Pom Poko",
+        "type": "film",
+        "note_it": "Tom Nook e un gioco di parole sul tanuki, a cui Isao Takahata ha dedicato il film (secondo la scheda)."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "animal-crossing-2001"
+      ]
+    },
+    {
+      "id": "rel-61",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "yakuza-2005"
+        ],
+        "label": "Yakuza (2005)"
+      },
+      "relation": "adapted_into_film",
+      "relation_it": "film tratto da",
+      "object": {
+        "external": "film Like a Dragon (2007)",
+        "type": "film",
+        "note_it": "Regia di Takashi Miike; interpreti Kazuki Kitamura e Shō Aikawa (secondo la scheda)."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "yakuza-2005"
+      ]
+    },
+    {
+      "id": "rel-62",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "kingdom-hearts-2002"
+        ],
+        "label": "Kingdom Hearts (2002)"
+      },
+      "relation": "collaboration_with",
+      "relation_it": "collaborazione con",
+      "object": {
+        "external": "The Walt Disney Company",
+        "type": "azienda_o_ente"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "kingdom-hearts-2002"
+      ]
+    },
+    {
+      "id": "rel-63",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "akiba-s-trip-2011"
+        ],
+        "label": "Akiba's Trip (2011)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha avuto serie anime",
+      "object": {
+        "external": "serie anime",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "akiba-s-trip-2011"
+      ]
+    },
+    {
+      "id": "rel-64",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "yo-kai-watch-2013"
+        ],
+        "label": "Yo-kai Watch (2013)"
+      },
+      "relation": "adapted_into_anime",
+      "relation_it": "ha generato franchising",
+      "object": {
+        "external": "manga, sequel, anime",
+        "type": "anime_manga"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "yo-kai-watch-2013"
+      ]
+    },
+    {
+      "id": "rel-65",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "sonic-the-hedgehog-1991"
+        ],
+        "label": "Sonic the Hedgehog (1991)"
+      },
+      "relation": "adapted_into_film",
+      "relation_it": "ha generato film",
+      "object": {
+        "external": "serie di film",
+        "type": "film"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "sonic-the-hedgehog-1991"
+      ]
+    },
+    {
+      "id": "rel-66",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "silent-hill-1999"
+        ],
+        "label": "Silent Hill (1999)"
+      },
+      "relation": "adapted_into_film",
+      "relation_it": "ha generato fumetto e cinema",
+      "object": {
+        "external": "fumetto e cinema",
+        "type": "altro"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "silent-hill-1999"
+      ]
+    },
+    {
+      "id": "rel-67",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "tengai-makyo-ii-manji-maru-1992"
+        ],
+        "label": "Tengai Makyō II (1992)"
+      },
+      "relation": "music_by",
+      "relation_it": "colonna sonora di",
+      "object": {
+        "external": "Joe Hisaishi",
+        "type": "persona",
+        "note_it": "Secondo la scheda e noto per le musiche dei film di Hayao Miyazaki e Takeshi Kitano."
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "tengai-makyo-ii-manji-maru-1992"
+      ]
+    },
+    {
+      "id": "rel-68",
+      "category": "opere_collegate_non_videoludiche",
+      "subject": {
+        "game_ids": [
+          "pro-baseball-family-stadium-1986"
+        ],
+        "label": "Pro Baseball: Family Stadium (1986)"
+      },
+      "relation": "licensed_by",
+      "relation_it": "licenza ufficiale",
+      "object": {
+        "external": "Major League Baseball Players Association",
+        "type": "azienda_o_ente"
+      },
+      "declared_by_book": true,
+      "evidence_scheda_ids": [
+        "pro-baseball-family-stadium-1986"
+      ]
+    }
+  ],
+  "ai_query_surface": [
+    "seguiti e spin-off dei videogiochi giapponesi",
+    "Xenogears e Final Fantasy VII",
+    "Final Fantasy Legend e Final Fantasy",
+    "Super Mario Kart e F-Zero",
+    "Virtua Fighter e Tekken",
+    "videogiochi giapponesi con Nobunaga Oda",
+    "film e anime tratti da videogiochi giapponesi"
+  ],
+  "meta_index": {
+    "count": 68,
+    "categories": [
+      "influenze_confronti_rivalita",
+      "opere_collegate_non_videoludiche",
+      "serie_seguiti_versioni"
+    ],
+    "cross_graph": [
+      "books/demone-samurai/narrative-system-graph.json",
+      "datasets/nobunaga-semantic-dataset.json"
+    ]
+  }
+}
