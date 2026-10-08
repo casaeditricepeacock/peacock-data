@@ -18,7 +18,8 @@
     "genre_birth": "emersione di un genere come condensazione stabile di pratiche ludiche e aspettative culturali",
     "domestic_shift": "traslazione del dispositivo videoludico dalla sfera pubblica arcade alla sfera privata domestica",
     "global_expansion": "diffusione transnazionale del linguaggio videoludico giapponese come infrastruttura culturale condivisa",
-    "medium_maturation": "stabilizzazione del videogioco come forma narrativa complessa e riflessiva"
+    "medium_maturation": "stabilizzazione del videogioco come forma narrativa complessa e riflessiva",
+    "platform_rivalry": "rivalità tra piattaforme domestiche come motore di identità, mascotte e innovazione"
   },
   "editorial_principle": "Le transizioni in Pixel in Japan non sono progressioni lineari ma discontinuità strutturali: ogni salto tecnico o culturale ricostruisce il campo di esperienza del videogioco. La storia del medium è una sequenza di rotture che si sedimentano come nuove normatività percettive.",
   "transitions": [
@@ -57,13 +58,34 @@
       "kokyu": "espansione temporale dell'esperienza: il gioco non è più sessione ma durata, sequenza prolungata di trasformazioni del personaggio",
       "yūgen": "il successo massivo di Dragon Quest come segnale di un nuovo immaginario collettivo basato su esplorazione e crescita sistemica",
       "affects": {
-        "transition-03": "la complessificazione narrativa del JRPG prepara il terreno per la drammatizzazione adulta del videogioco"
+        "transition-03": "la complessificazione narrativa del JRPG prepara il terreno per la drammatizzazione adulta del videogioco",
+        "transition-06": "la struttura narrativa estesa del JRPG convive con la stagione della sfida tra piattaforme"
       },
       "textual_anchor_it": "Dragon Quest (1986) come matrice del JRPG moderno",
       "glossary_link": [
         "basho",
         "yūgen",
         "mono no aware"
+      ]
+    },
+    {
+      "id": "transition-06",
+      "label": "guerra_delle_console",
+      "label_en": "console_war",
+      "type": "platform_rivalry",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "con i 16 bit la competizione tra Sega e Nintendo diventa un campo culturale: la mascotte (Sonic contro Mario) e il franchise affiancano la potenza tecnica come ragione di scelta",
+      "kokyu": "la scelta della piattaforma entra nel ritmo quotidiano del gioco: appartenere a un marchio diventa parte dell'esperienza",
+      "yūgen": "Sonic nasce nel 1990 perché la Sega cercava una mascotte per l'azienda: il personaggio come strumento di rivalità culturale",
+      "affects": {
+        "transition-03": "la rivalità spinge verso la novità tecnica: il 3D di Virtua Fighter apre la stagione successiva"
+      },
+      "textual_anchor_it": "Sonic the Hedgehog (1991) e Super Mario Kart (1992)",
+      "glossary_link": [
+        "basho",
+        "kokyu",
+        "yūgen"
       ]
     },
     {
@@ -133,11 +155,12 @@
     "effect": "la storia del videogioco giapponese viene letta come infrastruttura narrativa della modernità culturale giapponese"
   },
   "system_note": {
-    "transition_count": 5,
+    "transition_count": 6,
     "dominant_field": "transition-03",
-    "narrative_model": "cinque discontinuità strutturali che sedimentano nuove normatività percettive nel campo videoludico giapponese",
+    "narrative_model": "sei discontinuità strutturali che sedimentano nuove normatività percettive nel campo videoludico giapponese",
     "stability": "high_metastable",
     "closure": "open_historical_timeline",
-    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1"
+    "compatibility": "NarrativeObject v4.1 / NarrativeRitual v4.1 / NarrativeSystemGraph v4.1",
+    "revision_note_it": "2026-10: aggiunta una sesta transizione (transition-06) legata a scene-06; le altre transizioni non sono cambiate."
   }
 }
