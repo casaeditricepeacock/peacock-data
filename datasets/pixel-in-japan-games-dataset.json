@@ -1,7 +1,7 @@
 {
   "type": "VideogameDataset",
   "dataset_id": "pixel-in-japan-80-videogiochi",
-  "version": "1.0",
+  "version": "1.1",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -237,7 +237,7 @@
       "genre": "Puzzle",
       "genre_it": "Puzzle",
       "platform": "Game Boy",
-      "developer": "Nintendo",
+      "developer": "Alexey Pajitnov (ideazione); Nintendo (versione Game Boy)",
       "publisher": "Nintendo",
       "summary_it": "Puzzle di blocchi che scendono dall'alto, creato dal programmatore russo Alexey Pajitnov. Il successo si deve alla versione Game Boy di Nintendo, diretta da Satoru Okada con musiche di Hirokazu Tanaka."
     },
@@ -1101,5 +1101,9 @@
       "Survival horror",
       "Visual novel"
     ]
-  }
+  },
+  "related_datasets": [
+    "datasets/pixel-in-japan-relations-dataset.json",
+    "datasets/pixel-in-japan-credits-dataset.json"
+  ]
 }
