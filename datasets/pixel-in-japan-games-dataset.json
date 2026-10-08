@@ -1,7 +1,7 @@
 {
   "type": "VideogameDataset",
   "dataset_id": "pixel-in-japan-80-videogiochi",
-  "version": "1.2",
+  "version": "1.3",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -40,7 +40,11 @@
       "platform": "Arcade",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Platform arcade in cui Jumpman, il futuro Mario, sale su un cantiere per salvare Pauline dal gorilla Donkey Kong. È la prima apparizione di Mario."
+      "summary_it": "Platform arcade in cui Jumpman, il futuro Mario, sale su un cantiere per salvare Pauline dal gorilla Donkey Kong. È la prima apparizione di Mario.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
+        "game_id": "donkey_kong_1981"
+      }
     },
     {
       "id": "kung-fu-master-spartan-x-1984",
@@ -52,7 +56,11 @@
       "platform": "Arcade (later ported)",
       "developer": "Irem Corporation",
       "publisher": "Irem Corporation",
-      "summary_it": "Antesignano dei picchiaduro a scorrimento, realizzato su licenza del film Il mistero del Conte Lobos. Thomas sale i cinque piani di una pagoda per salvare Sylvia dal boss X."
+      "summary_it": "Antesignano dei picchiaduro a scorrimento, realizzato su licenza del film Il mistero del Conte Lobos. Thomas sale i cinque piani di una pagoda per salvare Sylvia dal boss X.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_duello-sala-giochi_pixel-in-japan.json",
+        "game_id": "kung_fu_master_1984"
+      }
     },
     {
       "id": "dragon-slayer-1984",
@@ -92,7 +100,11 @@
       "platform": "Nintendo Entertainment System",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Capostipite della serie Super Mario e, secondo il libro, il videogioco più venduto di sempre. Mario e Luigi salvano la principessa Peach rapita da Bowser."
+      "summary_it": "Capostipite della serie Super Mario e, secondo il libro, il videogioco più venduto di sempre. Mario e Luigi salvano la principessa Peach rapita da Bowser.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
+        "game_id": "super_mario_bros_1985"
+      }
     },
     {
       "id": "gradius-1985",
@@ -132,7 +144,11 @@
       "platform": "Famicom",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Ideato e diretto da Shigeru Miyamoto, capostipite di una lunga serie. Link cerca i frammenti di Triforza nel regno di Hyrule per salvare la principessa Zelda da Ganon. La novità è la non linearità."
+      "summary_it": "Ideato e diretto da Shigeru Miyamoto, capostipite di una lunga serie. Link cerca i frammenti di Triforza nel regno di Hyrule per salvare la principessa Zelda da Ganon. La novità è la non linearità.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_bivio-finali-multipli_pixel-in-japan.json",
+        "game_id": "zelda_1986"
+      }
     },
     {
       "id": "dragon-quest-1986",
@@ -322,7 +338,11 @@
       "platform": "Arcade",
       "developer": "Capcom",
       "publisher": "Capcom",
-      "summary_it": "Picchiaduro a scorrimento semplificato in due tasti: saltare e colpire. Produttore Yoshiki Okamoto, grafica di Akira Yasuda, tre personaggi tra cui scegliere."
+      "summary_it": "Picchiaduro a scorrimento semplificato in due tasti: saltare e colpire. Produttore Yoshiki Okamoto, grafica di Akira Yasuda, tre personaggi tra cui scegliere.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_duello-sala-giochi_pixel-in-japan.json",
+        "game_id": "final_fight_1990"
+      }
     },
     {
       "id": "digital-devil-story-megami-tensei-ii-1990",
@@ -349,7 +369,11 @@
       "platform": "Arcade",
       "developer": "Capcom",
       "publisher": "Capcom",
-      "summary_it": "Il secondo capitolo che ha consacrato la saga a livello globale. Personaggi diventati leggenda, da Ryu a Chun-Li, in un torneo mondiale di arti marziali indetto da M. Bison."
+      "summary_it": "Il secondo capitolo che ha consacrato la saga a livello globale. Personaggi diventati leggenda, da Ryu a Chun-Li, in un torneo mondiale di arti marziali indetto da M. Bison.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_duello-sala-giochi_pixel-in-japan.json",
+        "game_id": "street_fighter_ii_1991"
+      }
     },
     {
       "id": "sonic-the-hedgehog-1991",
@@ -361,7 +385,11 @@
       "platform": "Sega Mega Drive",
       "developer": "Sonic Team",
       "publisher": "Sega",
-      "summary_it": "Il riccio blu con cui Sega cercava una mascotte per rivaleggiare con Mario. Platform a scorrimento laterale basato sulla velocità, realizzato dal Sonic Team."
+      "summary_it": "Il riccio blu con cui Sega cercava una mascotte per rivaleggiare con Mario. Platform a scorrimento laterale basato sulla velocità, realizzato dal Sonic Team.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
+        "game_id": "sonic_1991"
+      }
     },
     {
       "id": "puyo-puyo-1991",
@@ -385,7 +413,11 @@
       "platform": "SNES",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Nato come versione a due giocatori di F-Zero, poi passato nelle mani di Miyamoto nell'universo di Mario. Si corre con i gusci di tartaruga e le bucce di banana, ad esempio sulla pista Pianura Ciambella."
+      "summary_it": "Nato come versione a due giocatori di F-Zero, poi passato nelle mani di Miyamoto nell'universo di Mario. Si corre con i gusci di tartaruga e le bucce di banana, ad esempio sulla pista Pianura Ciambella.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
+        "game_id": "super_mario_kart_1992"
+      }
     },
     {
       "id": "tengai-makyo-ii-manji-maru-1992",
@@ -397,7 +429,11 @@
       "platform": "Cd-Rom",
       "developer": "Red Company",
       "publisher": "Hudson Soft",
-      "summary_it": "Oji Hiroi voleva oltre cinquanta finali diversi. Ambientato in un Giappone feudale ipotetico chiamato Jipang, è un punto di riferimento per i giochi di ruolo per PC."
+      "summary_it": "Oji Hiroi voleva oltre cinquanta finali diversi. Ambientato in un Giappone feudale ipotetico chiamato Jipang, è un punto di riferimento per i giochi di ruolo per PC.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_bivio-finali-multipli_pixel-in-japan.json",
+        "game_id": "tengai_makyo_ii_1992"
+      }
     },
     {
       "id": "romancing-saga-1992",
@@ -409,7 +445,11 @@
       "platform": "SNES",
       "developer": "Square",
       "publisher": "Square",
-      "summary_it": "Il successo è dovuto alla libertà di esplorazione voluta da Akitoshi Kawazu. Fantasy nel mondo di Mardias, dove mille anni prima tre divinità malvagie combatterono contro Elore."
+      "summary_it": "Il successo è dovuto alla libertà di esplorazione voluta da Akitoshi Kawazu. Fantasy nel mondo di Mardias, dove mille anni prima tre divinità malvagie combatterono contro Elore.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_bivio-finali-multipli_pixel-in-japan.json",
+        "game_id": "romancing_saga_1992"
+      }
     },
     {
       "id": "shin-megami-tensei-1992",
@@ -437,7 +477,11 @@
       "platform": "SNES",
       "developer": "Quest",
       "publisher": "Quest",
-      "summary_it": "Fantasy diretto da Yasumi Matsuno con Akihiko Yoshida: ribelli guidano una rivoluzione contro un impero corrotto. Unisce sviluppo dei personaggi e tattica in tempo reale."
+      "summary_it": "Fantasy diretto da Yasumi Matsuno con Akihiko Yoshida: ribelli guidano una rivoluzione contro un impero corrotto. Unisce sviluppo dei personaggi e tattica in tempo reale.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_bivio-finali-multipli_pixel-in-japan.json",
+        "game_id": "ogre_battle_1993"
+      }
     },
     {
       "id": "secret-of-mana-1993",
@@ -472,7 +516,11 @@
       "platform": "Arcade",
       "developer": "Sega",
       "publisher": "Sega",
-      "summary_it": "Dicembre 1993, creato da Yu Suzuki. Primo picchiaduro con grafica completamente in 3D, anche se i movimenti restano in 2D. Capostipite di una serie con oltre venti titoli."
+      "summary_it": "Dicembre 1993, creato da Yu Suzuki. Primo picchiaduro con grafica completamente in 3D, anche se i movimenti restano in 2D. Capostipite di una serie con oltre venti titoli.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_duello-sala-giochi_pixel-in-japan.json",
+        "game_id": "virtua_fighter_1993"
+      }
     },
     {
       "id": "tokimeki-memorial-forever-with-you-1994",
@@ -511,7 +559,11 @@
       "platform": "Arcade",
       "developer": "Namco",
       "publisher": "Namco",
-      "summary_it": "Picchiaduro Namco del 1994 in 3D con movimenti fluidi. Torneo King of Iron Fist organizzato dalla Mishima Conglomerate, diventato un evergreen per PlayStation."
+      "summary_it": "Picchiaduro Namco del 1994 in 3D con movimenti fluidi. Torneo King of Iron Fist organizzato dalla Mishima Conglomerate, diventato un evergreen per PlayStation.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_duello-sala-giochi_pixel-in-japan.json",
+        "game_id": "tekken_1994"
+      }
     },
     {
       "id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
@@ -547,7 +599,11 @@
       "platform": "SNES",
       "developer": "Square",
       "publisher": "Square",
-      "summary_it": "Nel libro è un gioiello nato da un dream team che comprende Hironobu Sakaguchi, creatore di Final Fantasy, e Yūji Horii, regista di Dragon Quest."
+      "summary_it": "Nel libro è un gioiello nato da un dream team che comprende Hironobu Sakaguchi, creatore di Final Fantasy, e Yūji Horii, regista di Dragon Quest.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_tempo-a-scale-diverse_pixel-in-japan.json",
+        "game_id": "chrono_trigger_1995"
+      }
     },
     {
       "id": "pokemon-red-and-blue-1996",
@@ -559,7 +615,11 @@
       "platform": "Game Boy",
       "developer": "Game Freak",
       "publisher": "Nintendo",
-      "summary_it": "I primi due titoli della serie Pokémon, usciti in Giappone come Pocket Monsters Aka e Midori. Hanno dato avvio a una lunga serie di videogiochi e di collezionismo."
+      "summary_it": "I primi due titoli della serie Pokémon, usciti in Giappone come Pocket Monsters Aka e Midori. Hanno dato avvio a una lunga serie di videogiochi e di collezionismo.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
+        "game_id": "pokemon_rosso_blu_1996"
+      }
     },
     {
       "id": "sakura-taisen-1996",
@@ -687,7 +747,11 @@
       "platform": "Sega Saturn",
       "developer": "Chunsoft",
       "publisher": "Chunsoft",
-      "summary_it": "Visual novel descritta dai creatori come romanzo sonoro, con otto protagonisti a Shibuya: un detective, un attore, un gangster e uno sceneggiatore tra loro."
+      "summary_it": "Visual novel descritta dai creatori come romanzo sonoro, con otto protagonisti a Shibuya: un detective, un attore, un gangster e uno sceneggiatore tra loro.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_quartieri-tokyo_pixel-in-japan.json",
+        "game_id": "machi_1998"
+      }
     },
     {
       "id": "xenogears-1998",
@@ -827,7 +891,11 @@
       "platform": "PlayStation 2",
       "developer": "Tecmo",
       "publisher": "Tecmo",
-      "summary_it": "Paura vera nella Himuro Mansion, casa maledetta vicino a Tokyo. Nel 1986 la studentessa sensitiva Miku Hinasaki entra per ritrovare il fratello Mafuyu."
+      "summary_it": "Paura vera nella Himuro Mansion, casa maledetta vicino a Tokyo. Nel 1986 la studentessa sensitiva Miku Hinasaki entra per ritrovare il fratello Mafuyu.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_tempo-a-scale-diverse_pixel-in-japan.json",
+        "game_id": "project_zero_2001"
+      }
     },
     {
       "id": "animal-crossing-2001",
@@ -931,7 +999,11 @@
       "platform": "PlayStation 2",
       "developer": "Sega",
       "publisher": "Sega",
-      "summary_it": "Il gioco sulla criminalità organizzata giapponese, primo capitolo di una serie di successo firmata da Toshihiro Nagoshi. Kazuma Kiryu esce di prigione dopo dieci anni da innocente."
+      "summary_it": "Il gioco sulla criminalità organizzata giapponese, primo capitolo di una serie di successo firmata da Toshihiro Nagoshi. Kazuma Kiryu esce di prigione dopo dieci anni da innocente.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_quartieri-tokyo_pixel-in-japan.json",
+        "game_id": "yakuza_2005"
+      }
     },
     {
       "id": "the-world-ends-with-you-2007",
@@ -943,7 +1015,11 @@
       "platform": "Nintendo DS",
       "developer": "Square Enix",
       "publisher": "Square Enix",
-      "summary_it": "RPG originale: chi muore si ritrova all'incrocio di Shibuya, a Tokyo, e deve tornare in vita. Tra i più originali del decennio."
+      "summary_it": "RPG originale: chi muore si ritrova all'incrocio di Shibuya, a Tokyo, e deve tornare in vita. Tra i più originali del decennio.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_quartieri-tokyo_pixel-in-japan.json",
+        "game_id": "twewy_2007"
+      }
     },
     {
       "id": "akiba-s-trip-2011",
@@ -954,7 +1030,11 @@
       "platform": "PlayStation Portable",
       "developer": "Acquire",
       "publisher": "Acquire",
-      "summary_it": "Ambientato ad Akihabara, quartiere di otaku e anime, con grafica ispirata all'anime. Un gruppo di ragazzi deve fermare un'invasione aliena di Bugatta."
+      "summary_it": "Ambientato ad Akihabara, quartiere di otaku e anime, con grafica ispirata all'anime. Un gruppo di ragazzi deve fermare un'invasione aliena di Bugatta.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_quartieri-tokyo_pixel-in-japan.json",
+        "game_id": "akibas_trip_2011"
+      }
     },
     {
       "id": "yo-kai-watch-2013",
@@ -1035,7 +1115,11 @@
       "platform": "PlayStation 5",
       "developer": "h.a.n.d. Inc.",
       "publisher": "Square Enix",
-      "summary_it": "Visual novel cinematografica e complessa nella narrazione, con lunghi filmati e descrizioni accurate. Secondo il libro, tra i titoli più interessanti degli ultimi anni."
+      "summary_it": "Visual novel cinematografica e complessa nella narrazione, con lunghi filmati e descrizioni accurate. Secondo il libro, tra i titoli più interessanti degli ultimi anni.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_tempo-a-scale-diverse_pixel-in-japan.json",
+        "game_id": "centennial_case_2022"
+      }
     },
     {
       "id": "paranormasight-the-seven-mysteries-of-honjo-2023",
@@ -1046,7 +1130,11 @@
       "platform": "iOS e Android",
       "developer": "Xeen",
       "publisher": "Square Enix",
-      "summary_it": "Visual novel pensata per smartphone, ambientata negli anni Ottanta a Sumida, Tokyo. Ruota attorno alle leggende urbane dei sette misteri di Honjo."
+      "summary_it": "Visual novel pensata per smartphone, ambientata negli anni Ottanta a Sumida, Tokyo. Ruota attorno alle leggende urbane dei sette misteri di Honjo.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_bivio-finali-multipli_pixel-in-japan.json",
+        "game_id": "paranormasight_2023"
+      }
     },
     {
       "id": "rise-of-the-ronin-2024",
