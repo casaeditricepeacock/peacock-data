@@ -1,7 +1,7 @@
 {
   "type": "VideogameDataset",
   "dataset_id": "pixel-in-japan-80-videogiochi",
-  "version": "1.1",
+  "version": "1.2",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -258,8 +258,8 @@
       "title": "Mother",
       "title_ja": "マザー",
       "year": 1989,
-      "genre": "RPG",
-      "genre_it": "Videogioco di ruolo",
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
       "platform": "NES",
       "developer": "Ape Inc.",
       "publisher": "Nintendo",
@@ -1094,7 +1094,6 @@
       "Platformer",
       "Point-and-click adventure",
       "Puzzle",
-      "RPG",
       "Racing",
       "Scrolling shooter",
       "Stealth",
@@ -1104,6 +1103,7 @@
   },
   "related_datasets": [
     "datasets/pixel-in-japan-relations-dataset.json",
-    "datasets/pixel-in-japan-credits-dataset.json"
+    "datasets/pixel-in-japan-credits-dataset.json",
+    "datasets/pixel-in-japan-genres-dataset.json"
   ]
 }
