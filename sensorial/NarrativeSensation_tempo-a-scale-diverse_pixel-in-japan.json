@@ -1,0 +1,125 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "tempo_a_scale_diverse",
+  "label": "Il tempo come contenitore — Chrono Trigger, Project Zero, The Centennial Case",
+  "intensity": "lenta_e_stratificata",
+  "tempo": "a_epoche_settimane_secoli",
+  "sensory_channels": [
+    "visivo",
+    "narrativo"
+  ],
+  "core_statement": "Questi giochi misurano il tempo con unita diverse dalla sessione: un'era, un anno, un secolo. Il giocatore non vive un'ora di gioco ma un tempo piu grande, che puo attraversare, ritrovare o sciogliere.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "chrono_trigger_1995",
+      "dataset_id": "chrono-trigger-1995",
+      "title": "Chrono Trigger",
+      "year": 1995,
+      "developer": "Square",
+      "space_type": "uovo_del_tempo_e_tre_ere",
+      "scheda_facts_it": [
+        "Uno 'dream team': sviluppo di Hironobu Sakaguchi, Yūji Horii, character design di Akira Toriyama, produttore Kazuhiko Aoki.",
+        "Musiche di Nobuo Uematsu, poi di Yasunori Mitsuda.",
+        "L'Uovo del Tempo permette di spostarsi tra le ere per evitare la rovina del mondo.",
+        "Oltre due milioni di copie vendute."
+      ],
+      "basho": "L'Uovo del Tempo come porta: preistoria, medioevo, futuro, tre luoghi con lo stesso destino da salvare.",
+      "sensory_breakdown": {
+        "visual": "tre ere dallo stile diverso, riconoscibili come tre stagioni del mondo",
+        "auditory": "le musiche di due compositori come due epoche sonore"
+      },
+      "peacock_reading": "Chrono Trigger e il mono no aware reso giocabile: sapere che il mondo finira e poter tornare a cambiarlo."
+    },
+    {
+      "id": "project_zero_2001",
+      "dataset_id": "project-zero-2001",
+      "title": "Project Zero",
+      "year": 2001,
+      "developer": "Tecmo",
+      "space_type": "himuro_mansion_1986",
+      "scheda_facts_it": [
+        "Ambientato alla Himuro Mansion, casa maledetta nei dintorni di Tokyo, nel 1986.",
+        "Miku Hinasaki cerca il fratello Mafuyu, scomparso dopo essere entrato nella casa.",
+        "Si combatte solo con una macchina fotografica speciale che individua ed esorcizza gli spettri."
+      ],
+      "basho": "Una casa maledetta fissata in un anno preciso, il 1986: il passato non passa, resta nelle stanze.",
+      "sensory_breakdown": {
+        "visual": "stanze di una casa dove ogni fantasma e un'immagine da inquadrare",
+        "proprioceptive": "inquadrare e attendere: il gesto del fotografo, non quello del combattente"
+      },
+      "peacock_reading": "Project Zero fissa il tempo in una casa. La macchina fotografica e lo strumento giusto: fermare un attimo per liberare chi vi era rimasto."
+    },
+    {
+      "id": "centennial_case_2022",
+      "dataset_id": "the-centennial-case-a-shijima-story-2022",
+      "title": "The Centennial Case: A Shijima Story",
+      "year": 2022,
+      "developer": "h.a.n.d. Inc.",
+      "space_type": "un_secolo_di_famiglia_shijima",
+      "scheda_facts_it": [
+        "Diretto da Koichiro Ito e sceneggiato da Yasuhito Tachibana.",
+        "Cinematografico e complesso nella narrazione, con lunghi filmati.",
+        "La scrittrice di gialli Haruka Kagami indaga su quattro morti avvenute nel corso del secolo.",
+        "Tre fasi: Caso, Deduzione, Risoluzione."
+      ],
+      "basho": "Cent'anni di storia di una famiglia, letti attraverso tre morti: 1922, 1972, 2022.",
+      "sensory_breakdown": {
+        "visual": "filmati lunghi e curati: il tempo del cinema dentro un gioco",
+        "narrative": "tre fasi che scandiscono il lavoro dell'investigatrice"
+      },
+      "peacock_reading": "The Centennial Case e il tempo come eredita: una morte ogni cinquant'anni, e un secolo che si chiude solo quando qualcuno lo racconta."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Era, anno, secolo: il tempo dei giochi del cluster non e la durata dell'esperienza ma lo spazio narrativo in cui accade.",
+    "mono_no_aware": "In ognuno il tempo passa e lascia un residuo: un mondo da salvare, una casa da liberare, una famiglia da capire.",
+    "crossing": "Il giocatore attraversa il tempo ma non lo ferma: cambia solo cio che puo ancora cambiare."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "mono_no_aware",
+      "ma",
+      "yugen",
+      "ichigo_ichie"
+    ],
+    "narrative_mechanics": [
+      "tempo_come_luogo",
+      "passato_che_resta",
+      "indagine_come_rilettura"
+    ],
+    "cultural_tags": [
+      "viaggio_nel_tempo",
+      "horror",
+      "giallo",
+      "rpg",
+      "Square",
+      "Tecmo"
+    ]
+  },
+  "connected_terms": [
+    "mono_no_aware",
+    "ma",
+    "yugen",
+    "ichigo_ichie"
+  ],
+  "ai_query_surface": [
+    "Chrono Trigger Uovo del Tempo",
+    "Project Zero Himuro Mansion 1986",
+    "The Centennial Case Shijima secolo",
+    "giochi giapponesi sul tempo",
+    "videogiochi giapponesi con viaggi nel tempo"
+  ],
+  "system_note": "Il cluster collega la scena JRPG, quella PlayStation e quella contemporanea attraverso la scala del tempo."
+}
