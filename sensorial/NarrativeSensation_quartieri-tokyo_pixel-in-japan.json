@@ -1,0 +1,147 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "quartieri_tokyo",
+  "label": "Il quartiere come personaggio — Machi, The World Ends with You, Akiba's Trip, Yakuza",
+  "intensity": "notturna_e_affollata",
+  "tempo": "di_strada",
+  "sensory_channels": [
+    "visivo",
+    "sociale",
+    "uditivo"
+  ],
+  "core_statement": "In questi giochi un quartiere di Tokyo non e una scenografia: e il protagonista. Shibuya, Akihabara, Kamurochō-Kabukichō hanno strade, folle e abitanti che il giocatore impara a riconoscere come si impara una citta vera.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "machi_1998",
+      "dataset_id": "machi-1998",
+      "title": "Machi",
+      "year": 1998,
+      "developer": "Chunsoft",
+      "space_type": "shibuya_otto_protagonisti",
+      "scheda_facts_it": [
+        "Visual novel incentrata sulla narrazione, definita dai creatori 'romanzo sonoro'.",
+        "Otto protagonisti e le loro avventure e conflitti a Shibuya, cuore di Tokyo.",
+        "Tra i personaggi un detective, un attore, un gangster, uno sceneggiatore, un'operaia part-time, un'idol.",
+        "Le decisioni del giocatore portano a finali positivi e negativi."
+      ],
+      "basho": "Shibuya come luogo di incroci: otto protagonisti, ognuno con la propria storia, che si sfiorano nella stessa area.",
+      "sensory_breakdown": {
+        "visual": "una citta vista da otto punti di vista diversi",
+        "auditory": "il romanzo sonoro: il quartiere come ambiente che si ascolta"
+      },
+      "peacock_reading": "Machi e Shibuya vista da otto persone. Il quartiere non e sullo sfondo, e il filo che le tiene insieme."
+    },
+    {
+      "id": "twewy_2007",
+      "dataset_id": "the-world-ends-with-you-2007",
+      "title": "The World Ends with You",
+      "year": 2007,
+      "developer": "Square Enix",
+      "space_type": "incrocio_di_shibuya_e_hachiko",
+      "scheda_facts_it": [
+        "Chi muore si ritrova all'incrocio di Shibuya e deve sopravvivere una settimana per tornare in vita.",
+        "Neku Sakuraba e i suoi alleati combattono contro Rumori (Noise) e Mietitori (Reaper).",
+        "Usa le caratteristiche del Nintendo DS: due schermi, touchscreen, microfono."
+      ],
+      "basho": "L'incrocio pedonale di Shibuya e la statua di Hachiko come soglia fra vita e morte.",
+      "sensory_breakdown": {
+        "visual": "il quartiere della moda come altare dell'aldila",
+        "proprioceptive": "due schermi e il tocco: il quartiere si attraversa con le mani"
+      },
+      "peacock_reading": "The World Ends with You usa Shibuya come mondo dei morti: la folla dell'incrocio e gia un rito di passaggio."
+    },
+    {
+      "id": "akibas_trip_2011",
+      "dataset_id": "akiba-s-trip-2011",
+      "title": "Akiba's Trip",
+      "year": 2011,
+      "developer": "Acquire",
+      "space_type": "akihabara_otaku",
+      "scheda_facts_it": [
+        "Ambientato ad Akihabara, Tokyo, quartiere di otaku, anime e tecnologia.",
+        "Un gruppo di ragazzi deve salvare il mondo da un'invasione aliena di Bugatta.",
+        "Grafica ispirata agli anime; hanno avuto piu successo i sequel e la serie anime."
+      ],
+      "basho": "Akihabara, quartiere di otaku, anime e tecnologia: folle e negozi come ambiente da difendere.",
+      "sensory_breakdown": {
+        "visual": "un quartiere in grafica anime, colorato, pieno di insegne",
+        "social": "una comunita di appassionati come abitanti"
+      },
+      "peacock_reading": "Akiba's Trip e un atto d'amore verso un quartiere: Akihabara e il luogo in cui le passioni degli otaku diventano insegne e strade."
+    },
+    {
+      "id": "yakuza_2005",
+      "dataset_id": "yakuza-2005",
+      "title": "Yakuza",
+      "year": 2005,
+      "developer": "Sega",
+      "space_type": "kamurocho_kabukicho",
+      "scheda_facts_it": [
+        "Primo capitolo di una serie bestseller firmata da Toshihiro Nagoshi.",
+        "Kazuma Kiryu, yakuza uscito di prigione dopo dieci anni da innocente.",
+        "Tutto si svolge a Kamurochō, ricostruzione realistica di Kabukichō a Shinjuku, Tokyo.",
+        "Nel 2007 Takashi Miike ha diretto un film tratto dal videogioco."
+      ],
+      "basho": "Kamurochō, ricostruzione realistica del quartiere a luci rosse di Kabukichō a Shinjuku.",
+      "sensory_breakdown": {
+        "visual": "un quartiere a luci rosse ricostruito con realismo",
+        "social": "una citta dove criminalita organizzata e vita di strada si sovrappongono"
+      },
+      "peacock_reading": "Yakuza prende un quartiere vero e lo trasforma in un personaggio: Kamurochō ha una voce, e il giocatore ne impara le strade come un abitante."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il quartiere come protagonista: la narrazione nasce dal luogo, non da una trama che lo attraversa.",
+    "tokyo_as_field": "Shibuya, Akihabara, Kabukichō sono tre campi diversi di Tokyo: la moda e l'incrocio, la tecnologia e gli otaku, la notte e la malavita.",
+    "reader_effect": "Giocare in questi quartieri significa imparare a leggerli come si legge una citta vera."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "basho",
+      "kehai",
+      "yugen",
+      "mono_no_aware"
+    ],
+    "narrative_mechanics": [
+      "luogo_come_protagonista",
+      "folla_come_ambiente",
+      "citta_come_soglia"
+    ],
+    "cultural_tags": [
+      "Tokyo",
+      "Shibuya",
+      "Akihabara",
+      "Shinjuku",
+      "Kabukicho",
+      "visual_novel",
+      "action"
+    ]
+  },
+  "connected_terms": [
+    "basho",
+    "kehai",
+    "yugen",
+    "mono_no_aware"
+  ],
+  "ai_query_surface": [
+    "videogiochi giapponesi ambientati a Shibuya",
+    "videogiochi giapponesi ambientati ad Akihabara",
+    "Yakuza Kamurochō Kabukichō",
+    "Machi Shibuya romanzo sonoro",
+    "The World Ends with You incrocio di Shibuya",
+    "videogiochi ambientati a Tokyo"
+  ],
+  "system_note": "Il cluster collega la scena PlayStation e quella contemporanea: i quartieri di Tokyo come campo di gioco."
+}
