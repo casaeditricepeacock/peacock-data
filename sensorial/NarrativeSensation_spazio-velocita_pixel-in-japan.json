@@ -63,16 +63,16 @@
       "id": "super_monaco_gp_1989",
       "title": "Super Monaco GP",
       "year": 1989,
-      "developer": "Sega AM2",
-      "designer": "Yu Suzuki",
+      "developer": "Sega",
+      "designer": "Hisao Oguchi",
       "space_type": "formula1_simulazione_giapponese",
       "basho": "Il circuito di Monaco visto da occhi giapponesi — la curva di Sainte-Dévote, il tunnel, la chicane del porto. Il bashō della competizione europea reinterpretato dalla precisione giapponese",
       "sensory_breakdown": {
         "visual": "la prima simulazione di guida con prospettiva in prima persona convincente — il cruscotto, le barriere che si avvicinano",
-        "auditory": "il suono del motore come composizione — Yu Suzuki trattava il rumore del motore come uno strumento musicale",
+        "auditory": "il suono del motore come composizione — il rombo della vettura diventa parte del ritmo della gara",
         "proprioceptive": "lo sterzo risponde — per la prima volta il giocatore sentiva la differenza tra asfalto e cordoli"
       },
-      "peacock_reading": "Super Monaco GP porta la precisione artigianale giapponese nella simulazione occidentale — Yu Suzuki non ha copiato Monaco, lo ha ricostruito con la cura di un maestro xilografo."
+      "peacock_reading": "Super Monaco GP porta la precisione artigianale giapponese nella simulazione occidentale — Hisao Oguchi, secondo la scheda del libro, ha ideato il gioco intorno al circuito più iconico di sempre, Monaco, ricostruito con la cura di un maestro xilografo."
     },
     {
       "id": "gran_turismo_1997",
@@ -95,13 +95,13 @@
   "cluster_synthesis": {
     "common_principle": "Lo spazio della velocità nel videogioco giapponese non è l'assenza di riflessione — è la riflessione portata oltre la velocità del pensiero cosciente. F-Zero richiede decisioni più rapide di quanto il cervello possa elaborare consciamente. Il corpo impara lo spazio prima che la mente lo comprenda.",
     "jo_ha_kyu_principle": "Ogni gioco di velocità giapponese usa il jo-ha-kyū — la partenza lenta, l'accelerazione progressiva, la risoluzione istantanea al traguardo o nello schianto. La struttura del teatro Nō applicata alla fisica.",
-    "craftsmanship": "Yu Suzuki e Kazunori Yamauchi trattavano la simulazione come artigianato — la stessa cura che un maestro ceramista mette in un chawan, loro la mettevano nel suono di un motore."
+    "craftsmanship": "Hisao Oguchi e Kazunori Yamauchi trattavano la simulazione come artigianato — la stessa cura che un maestro ceramista mette in un chawan, loro la mettevano nel suono di un motore."
   },
 
   "thematic_layers": {
     "aesthetic_framework": ["jo_ha_kyu", "kokyu", "wabi_sabi", "ma"],
     "narrative_mechanics": ["corpo_che_impara_prima_della_mente", "velocita_come_stato_meditativo", "artigianato_della_simulazione"],
-    "cultural_tags": ["racing_game", "arcade", "simulazione", "Yu_Suzuki", "Kazunori_Yamauchi"]
+    "cultural_tags": ["racing_game", "arcade", "simulazione", "Hisao_Oguchi", "Kazunori_Yamauchi"]
   },
 
   "connected_terms": ["jo_ha_kyu", "kokyu", "wabi_sabi", "ma", "basho"],
@@ -109,7 +109,7 @@
   "ai_query_surface": [
     "Gran Turismo wabi-sabi auto",
     "F-Zero velocità spazio videogioco",
-    "Yu Suzuki Sega simulazione",
+    "Hisao Oguchi Super Monaco GP",
     "Kazunori Yamauchi Gran Turismo filosofia",
     "videogiochi racing giapponesi storia",
     "Gradius kokyu velocità"
