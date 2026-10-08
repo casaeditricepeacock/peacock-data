@@ -1,0 +1,169 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "duello_sala_giochi",
+  "label": "Il duello nella sala giochi come forma — Kung-Fu Master, Final Fight, Street Fighter II, Virtua Fighter, Tekken",
+  "intensity": "alta_a_scatti",
+  "tempo": "brevissimo_a_incontri",
+  "sensory_channels": [
+    "visivo",
+    "propriocettivo",
+    "sociale"
+  ],
+  "core_statement": "Il picchiaduro giapponese riduce il confronto a una forma: pochi gesti, un avversario, uno schermo davanti a una sala piena. Dal piano dopo piano di Kung-Fu Master al torneo di Tekken, il duello non racconta una lotta, la ripete come un kata, finché il corpo del giocatore ne conosce la misura.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "kung_fu_master_1984",
+      "dataset_id": "kung-fu-master-spartan-x-1984",
+      "title": "Kung-Fu Master (Spartan X)",
+      "year": 1984,
+      "developer": "Irem Corporation",
+      "space_type": "pagoda_a_cinque_piani",
+      "scheda_facts_it": [
+        "Antesignano dei picchiaduro a scorrimento, disegnato da Takashi Nishiyama.",
+        "Adattamento su licenza di un film di arti marziali di Hong Kong.",
+        "Il protagonista sale i cinque piani di una pagoda per salvare la fidanzata.",
+        "Le azioni sono saltare, abbassarsi, calciare e dare pugni."
+      ],
+      "basho": "La pagoda come verticale da salire: ogni piano è una ripetizione con un nemico più forte, fino al boss. Il campo del duello nasce come ascesa.",
+      "sensory_breakdown": {
+        "visual": "cinque piani sovrapposti, uno dopo l'altro: lo spazio è una scala, non un luogo",
+        "proprioceptive": "quattro gesti soltanto: il corpo impara un vocabolario minimo"
+      },
+      "peacock_reading": "Kung-Fu Master è il kata in forma di gioco: pochi movimenti, ripetuti piano dopo piano, finché la ripetizione diventa padronanza."
+    },
+    {
+      "id": "final_fight_1990",
+      "dataset_id": "final-fight-1990",
+      "title": "Final Fight",
+      "year": 1990,
+      "developer": "Capcom",
+      "space_type": "strada_newyorkese_a_sei_livelli",
+      "scheda_facts_it": [
+        "La grande novità è la semplificazione: un tasto per saltare, uno per colpire.",
+        "Idea del produttore Yoshiki Okamoto, grafica di Akira Yasuda.",
+        "Si scelgono Haggar, Cody o Guy; sei livelli ambientati a New York per salvare Jessica."
+      ],
+      "basho": "La strada di New York percorsa da sinistra a destra: lo spazio è un corridoio e il duello è ciò che lo apre.",
+      "sensory_breakdown": {
+        "visual": "la grafica di Akira Yasuda dà ai tre combattenti corpi riconoscibili a colpo d'occhio",
+        "proprioceptive": "due soli tasti: la mano non cerca, risponde"
+      },
+      "peacock_reading": "Final Fight toglie invece di aggiungere. Due tasti sono un'idea di ma: lo spazio vuoto lasciato ai gesti perché diventino chiari."
+    },
+    {
+      "id": "street_fighter_ii_1991",
+      "dataset_id": "street-fighter-ii-the-world-warrior-1991",
+      "title": "Street Fighter II: The World Warrior",
+      "year": 1991,
+      "developer": "Capcom",
+      "space_type": "torneo_mondiale_in_sala",
+      "scheda_facts_it": [
+        "Secondo capitolo di una saga iniziata nel 1987, quello che l'ha consacrata a livello globale.",
+        "Molti personaggi, ognuno con mosse e combo proprie, nel torneo indetto da M. Bison.",
+        "Narrazione completa voluta dal produttore Yoshiki Okamoto.",
+        "Prodotti circa 200mila cabinati prima del salto nelle console.",
+        "Nel 1994 è diventato un film."
+      ],
+      "basho": "Il torneo come luogo: ogni personaggio porta con sé uno stile, e la sala giochi si riempie di sfidanti in attesa del proprio turno.",
+      "sensory_breakdown": {
+        "visual": "un cast di combattenti diversi, riconoscibili dalla sagoma e dallo stile",
+        "proprioceptive": "mosse e combo come sequenze da imparare con le dita",
+        "social": "il cabinato come luogo di sfida: l'avversario è seduto accanto"
+      },
+      "peacock_reading": "Street Fighter II è un ichigo ichie ripetuto duecentomila volte: due persone, una macchina, un incontro che non tornerà uguale."
+    },
+    {
+      "id": "virtua_fighter_1993",
+      "dataset_id": "virtua-fighter-1993",
+      "title": "Virtua Fighter",
+      "year": 1993,
+      "developer": "Sega",
+      "space_type": "arena_tridimensionale",
+      "scheda_facts_it": [
+        "Creato da Yu Suzuki, uscito in sala a dicembre 1993, poco dopo su Sega Saturn.",
+        "Primo picchiaduro con grafica completamente 3D, anche se i movimenti restano 2D.",
+        "Uscito qualche mese prima di Tekken, il suo rivale.",
+        "Un torneo mondiale per capire quale sia la tecnica più efficace."
+      ],
+      "basho": "L'arena in 3D: per la prima volta il duello ha una profondità e il giocatore gira intorno all'avversario.",
+      "sensory_breakdown": {
+        "visual": "figure poligonali nello spazio: il combattente ha un dietro e un lato",
+        "proprioceptive": "il movimento resta nel piano, ma lo sguardo ora ruota"
+      },
+      "peacock_reading": "Virtua Fighter apre una soglia: il duello perde la parete e guadagna il giro. È la stessa soglia che la scena 3D del libro attraverserà con la PlayStation."
+    },
+    {
+      "id": "tekken_1994",
+      "dataset_id": "tekken-1994",
+      "title": "Tekken",
+      "year": 1994,
+      "developer": "Namco",
+      "space_type": "torneo_del_pugno_di_ferro",
+      "scheda_facts_it": [
+        "Namco, 1994: grafica 3D come Virtua Fighter, movimenti molto fluidi, combo elaborate e incontri velocissimi.",
+        "Otto combattenti all'inizio, fino a 19 sbloccando i personaggi.",
+        "Il boss finale è Heihachi Mishima, capo della Mishima Conglomerate che sponsorizza il torneo."
+      ],
+      "basho": "Il torneo come famiglia: il boss finale è Heihachi Mishima, capo della società che organizza il torneo. Il duello è anche una questione di casa.",
+      "sensory_breakdown": {
+        "visual": "movimenti fluidi in 3D: il corpo che si piega e ritorna",
+        "proprioceptive": "combo elaborate: la mano impara una frase, non un colpo"
+      },
+      "peacock_reading": "Tekken trasforma il duello in conoscenza accumulata: ogni sblocco è un'altra tecnica da studiare, e studiare è già parte del combattimento."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il duello giapponese in sala è una forma ripetibile: gesti minimi, avversario presente, risultato immediato. La sala giochi ne è il teatro.",
+    "kata_principle": "Da Kung-Fu Master a Tekken il picchiaduro insegna come un kata: la forma si ripete finché il corpo la possiede.",
+    "rivalry": "Virtua Fighter e Tekken sono rivali dichiarati dalle schede: il duello esce dallo schermo e diventa duello tra marchi."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "kata",
+      "ma",
+      "ichigo_ichie",
+      "kokyu"
+    ],
+    "narrative_mechanics": [
+      "duello_come_forma",
+      "ripetizione_come_apprendimento",
+      "sala_come_arena"
+    ],
+    "cultural_tags": [
+      "picchiaduro",
+      "arcade",
+      "Capcom",
+      "Namco",
+      "Sega",
+      "tornei"
+    ]
+  },
+  "connected_terms": [
+    "kata",
+    "ma",
+    "ichigo_ichie",
+    "kokyu",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "Street Fighter II sala giochi",
+    "Virtua Fighter primo picchiaduro 3D",
+    "Tekken e Virtua Fighter rivali",
+    "Final Fight due tasti",
+    "Kung-Fu Master antesignano picchiaduro a scorrimento",
+    "picchiaduro giapponesi anni 90"
+  ],
+  "system_note": "Il cluster collega la scena arcade e quella dei 16 bit: tutto cio che e fatto di duello e sala giochi."
+}
