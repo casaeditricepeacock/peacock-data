@@ -1,0 +1,1105 @@
+{
+  "type": "VideogameDataset",
+  "dataset_id": "pixel-in-japan-80-videogiochi",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data - Casa Editrice Peacock",
+  "book": {
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-13-4",
+    "year": 2025,
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+  },
+  "summary_note": "summary_it e una sintesi redatta dall'editore a partire dalle schede del libro; non riproduce il testo originale.",
+  "scope": "I 80 videogiochi giapponesi trattati nel libro (1979-2024). Dati strutturali tratti dalle schede del libro; le letture culturali approfondite sono nei file sensorial/ collegati tramite graph_ref.",
+  "games": [
+    {
+      "id": "sheriff-1979",
+      "title": "Sheriff",
+      "title_ja": "シェリフ",
+      "year": 1979,
+      "genre": "Fixed-screen shooter",
+      "genre_it": "Sparatutto a schermata fissa",
+      "platform": "Arcade",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Cabinato Nintendo ambientato nel Far West: lo sceriffo si difende dai banditi sparando e usa le carovane come riparo. Art design di Shigeru Miyamoto."
+    },
+    {
+      "id": "donkey-kong-1981",
+      "title": "Donkey Kong",
+      "title_ja": "ドンキーコング",
+      "year": 1981,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Arcade",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Platform arcade in cui Jumpman, il futuro Mario, sale su un cantiere per salvare Pauline dal gorilla Donkey Kong. È la prima apparizione di Mario."
+    },
+    {
+      "id": "kung-fu-master-spartan-x-1984",
+      "title": "Kung-Fu Master (Spartan X)",
+      "title_ja": "スパルタンX",
+      "year": 1984,
+      "genre": "Beat 'em up",
+      "genre_it": "Picchiaduro a scorrimento",
+      "platform": "Arcade (later ported)",
+      "developer": "Irem Corporation",
+      "publisher": "Irem Corporation",
+      "summary_it": "Antesignano dei picchiaduro a scorrimento, realizzato su licenza del film Il mistero del Conte Lobos. Thomas sale i cinque piani di una pagoda per salvare Sylvia dal boss X."
+    },
+    {
+      "id": "dragon-slayer-1984",
+      "title": "Dragon Slayer",
+      "title_ja": "ドラゴンスレイヤ",
+      "year": 1984,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "NEC PC-8000",
+      "developer": "Nihon Falcom",
+      "publisher": "Nihon Falcom",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+        "game_id": "dragon_slayer_1984"
+      },
+      "summary_it": "Action RPG fantasy di Yoshio Kiya: un guerriero attraversa labirinti pieni di mostri per recuperare tesori. Il libro lo indica come fondamentale per giochi come The Legend of Zelda."
+    },
+    {
+      "id": "ghosts-n-goblins-1985",
+      "title": "Ghosts 'n Goblins",
+      "title_ja": "魔界村",
+      "year": 1985,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Arcade",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "summary_it": "Platform fantasy-horror a scorrimento, famoso per la difficoltà estrema. Sir Arthur deve salvare la fidanzata rapita da un demone e sconfiggere Astaroth in sette livelli."
+    },
+    {
+      "id": "super-mario-bros-1985",
+      "title": "Super Mario Bros.",
+      "title_ja": "スーパーマリオブラザーズ",
+      "year": 1985,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Nintendo Entertainment System",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Capostipite della serie Super Mario e, secondo il libro, il videogioco più venduto di sempre. Mario e Luigi salvano la principessa Peach rapita da Bowser."
+    },
+    {
+      "id": "gradius-1985",
+      "title": "Gradius",
+      "title_ja": "グラディウス",
+      "year": 1985,
+      "genre": "Scrolling shooter",
+      "genre_it": "Sparatutto a scorrimento",
+      "platform": "Arcade",
+      "developer": "Konami",
+      "publisher": "Konami",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-velocita_pixel-in-japan.json",
+        "game_id": "gradius_1985"
+      },
+      "summary_it": "Sparatutto a scorrimento orizzontale con la navicella Vic Viper contro i Bacterion. Innova i power-up, che si accumulano e si attivano quando si vuole, e introduce il pod."
+    },
+    {
+      "id": "bubble-bobble-1986",
+      "title": "Bubble Bobble",
+      "title_ja": "バブルボブル",
+      "year": 1986,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Arcade",
+      "developer": "Taito",
+      "publisher": "Taito",
+      "summary_it": "Platform per due giocatori con 100 schemi: i draghetti Bub e Bob catturano i nemici con le bolle. Se si indugia compare la balena bianca."
+    },
+    {
+      "id": "the-legend-of-zelda-1986",
+      "title": "The Legend of Zelda",
+      "title_ja": "ゼルダの伝説",
+      "year": 1986,
+      "genre": "Adventure",
+      "genre_it": "Avventura",
+      "platform": "Famicom",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Ideato e diretto da Shigeru Miyamoto, capostipite di una lunga serie. Link cerca i frammenti di Triforza nel regno di Hyrule per salvare la principessa Zelda da Ganon. La novità è la non linearità."
+    },
+    {
+      "id": "dragon-quest-1986",
+      "title": "Dragon Quest",
+      "title_ja": "ドラゴンクエスト",
+      "year": 1986,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "NES",
+      "developer": "Chunsoft",
+      "publisher": "ENIX",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+        "game_id": "dragon_quest_1986"
+      },
+      "summary_it": "Capostipite sacro dei videogiochi di ruolo, ideato da Yūji Horii con la grafica di Akira Toriyama. Fantasy nel regno di Alefgard, ispirato ai giochi di ruolo cartacei."
+    },
+    {
+      "id": "pro-baseball-family-stadium-1986",
+      "title": "Pro Baseball: Family Stadium",
+      "title_ja": "プロ野球ファミリースタジアム",
+      "year": 1986,
+      "genre": "Baseball",
+      "genre_it": "Baseball",
+      "platform": "NES",
+      "developer": "Namco",
+      "publisher": "Namco",
+      "summary_it": "Apre la serie Family Stadium. Baseball, sport più seguito in Giappone: oltre 2 milioni di copie nella versione giapponese. Primo con licenza della Major League Baseball Players Association."
+    },
+    {
+      "id": "final-fantasy-1987",
+      "title": "Final Fantasy",
+      "title_ja": "ファイナルファンタジー",
+      "year": 1987,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "NES",
+      "developer": "Square",
+      "publisher": "Square",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+        "game_id": "final_fantasy_1987"
+      },
+      "summary_it": "Nel 1987 una mappa che sembrava infinita e una grafica che segnò un prima e un dopo. Fu una scommessa per Square e diede inizio alla serie JRPG."
+    },
+    {
+      "id": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987",
+      "title": "Hokkaidō Rensa Satsujin: Ohōtsuku ni Kiyu",
+      "title_ja": "北海道連鎖殺人オホーツクに消ゆ",
+      "year": 1987,
+      "genre": "Adventure",
+      "genre_it": "Avventura",
+      "platform": "NES",
+      "developer": "Login Soft",
+      "publisher": "ASCII Corporation",
+      "summary_it": "Mistery d'avventura sceneggiato da Yūji Horii. Pubblicato per PC nel 1984, divenne un successo con la versione NES del 1987. L'ispettore Tetsuji Nitta indaga a partire da un cadavere trovato nella baia di Tokyo."
+    },
+    {
+      "id": "ys-i-ancient-ys-vanished-1987",
+      "title": "Ys I: Ancient Ys Vanished",
+      "title_ja": "イースI",
+      "year": 1987,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PC-8801",
+      "developer": "Nihon Falcom Corporation",
+      "publisher": "Nihon Falcom Corporation",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_dungeon-medievale-giapponese_pixel-in-japan.json",
+        "game_id": "ys_1_2_1987"
+      },
+      "summary_it": "Videogioco di ruolo che mette la narrazione al centro, con combattimenti automatici. Adol Christin arriva a Minea, nella terra di Esteria."
+    },
+    {
+      "id": "super-mario-bros-3-1988",
+      "title": "Super Mario Bros. 3",
+      "title_ja": "スーパーマリオブラザーズ3",
+      "year": 1988,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "NES",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Terzo capitolo della serie, curato da Shigeru Miyamoto, con otto mondi e nuove azioni come scivolare lungo i pendii. A fine corsa ha venduto circa 18 milioni di copie."
+    },
+    {
+      "id": "best-play-pro-yakyuu-1988",
+      "title": "Best Play Pro Yakyuu",
+      "title_ja": "ベストプレープロ野球",
+      "year": 1988,
+      "genre": "Baseball",
+      "genre_it": "Baseball",
+      "platform": "NES",
+      "developer": "ASCII Entertainment",
+      "publisher": "ASCII Entertainment",
+      "summary_it": "Primo gioco della serie Best Play Pro Baseball. Il centro è la gestione della squadra e dei giocatori. Non uscì dal Giappone, dove fu un grande successo."
+    },
+    {
+      "id": "tetris-1989",
+      "title": "Tetris",
+      "year": 1989,
+      "genre": "Puzzle",
+      "genre_it": "Puzzle",
+      "platform": "Game Boy",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Puzzle di blocchi che scendono dall'alto, creato dal programmatore russo Alexey Pajitnov. Il successo si deve alla versione Game Boy di Nintendo, diretta da Satoru Okada con musiche di Hirokazu Tanaka."
+    },
+    {
+      "id": "the-final-fantasy-legend-1989",
+      "title": "The Final Fantasy Legend",
+      "title_ja": "魔界塔士 Sa・Ga",
+      "year": 1989,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "Game Boy",
+      "developer": "Square",
+      "publisher": "Square",
+      "summary_it": "Il nome originale era SaGa. Quattro eroi scalano un'enorme torre. Fu venduto in Occidente con il nome di un titolo popolare, pur avendo poco a che fare con Final Fantasy."
+    },
+    {
+      "id": "mother-1989",
+      "title": "Mother",
+      "title_ja": "マザー",
+      "year": 1989,
+      "genre": "RPG",
+      "genre_it": "Videogioco di ruolo",
+      "platform": "NES",
+      "developer": "Ape Inc.",
+      "publisher": "Nintendo",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json",
+        "game_id": "mother_1989"
+      },
+      "summary_it": "JRPG senza ambientazione fantasy, ideato e diretto da Shigesato Itoi e prodotto da Miyamoto. Il dodicenne Ninten vive in una città americana ipotetica. Il titolo omaggia la canzone di John Lennon."
+    },
+    {
+      "id": "super-monaco-gp-1989",
+      "title": "Super Monaco GP",
+      "title_ja": "スーパーモナコGP",
+      "year": 1989,
+      "genre": "Racing",
+      "genre_it": "Simulatore di guida",
+      "platform": "Arcade",
+      "developer": "Sega",
+      "publisher": "Sega",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-velocita_pixel-in-japan.json",
+        "game_id": "super_monaco_gp_1989"
+      },
+      "summary_it": "Arcade Sega ideato da Hisao Oguchi, con un vero volante, acceleratore e freno, e una Formula 1 in soggettiva. Le versioni per console arrivarono pochi mesi dopo."
+    },
+    {
+      "id": "super-mario-world-super-mario-bros-4-1990",
+      "title": "Super Mario World (Super Mario Bros. 4)",
+      "year": 1990,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Primo gioco per Super Nintendo, introduce Yoshi. I fratelli Mario e Luigi si mettono in viaggio perché Bowser ha rapito molti dinosauri. Diretto da Takashi Tezuka."
+    },
+    {
+      "id": "f-zero-1990",
+      "title": "F-Zero",
+      "title_ja": "エフゼロ",
+      "year": 1990,
+      "genre": "Racing",
+      "genre_it": "Simulatore di guida",
+      "platform": "SNES",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-velocita_pixel-in-japan.json",
+        "game_id": "f_zero_1990"
+      },
+      "summary_it": "Simulatore di guida in pseudo 3D ambientato nel 2560, con corse di veicoli antigravitazionali. Quattro personaggi tra cui Captain Falcon. Prodotto da Miyamoto."
+    },
+    {
+      "id": "final-fight-1990",
+      "title": "Final Fight",
+      "title_ja": "ファイナルファイト",
+      "year": 1990,
+      "genre": "Beat 'em up",
+      "genre_it": "Picchiaduro a scorrimento",
+      "platform": "Arcade",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "summary_it": "Picchiaduro a scorrimento semplificato in due tasti: saltare e colpire. Produttore Yoshiki Okamoto, grafica di Akira Yasuda, tre personaggi tra cui scegliere."
+    },
+    {
+      "id": "digital-devil-story-megami-tensei-ii-1990",
+      "title": "Digital Devil Story: Megami Tensei II",
+      "year": 1990,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Atlus",
+      "publisher": "Namco",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
+        "game_id": "digital_devil_story_1990"
+      },
+      "summary_it": "Tratto dai romanzi di Aya Nishitani: in una Tokyo post-apocalittica il protagonista recluta demoni disegnati da Kazuma Kaneko. Megami Tensei è la terza serie di ruolo più amata in Giappone."
+    },
+    {
+      "id": "street-fighter-ii-the-world-warrior-1991",
+      "title": "Street Fighter II: The World Warrior",
+      "title_ja": "ストリートファイターII",
+      "year": 1991,
+      "genre": "Fighting",
+      "genre_it": "Picchiaduro a incontri",
+      "platform": "Arcade",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "summary_it": "Il secondo capitolo che ha consacrato la saga a livello globale. Personaggi diventati leggenda, da Ryu a Chun-Li, in un torneo mondiale di arti marziali indetto da M. Bison."
+    },
+    {
+      "id": "sonic-the-hedgehog-1991",
+      "title": "Sonic the Hedgehog",
+      "title_ja": "ソニック・ザ・ヘッジホッグ",
+      "year": 1991,
+      "genre": "Platformer",
+      "genre_it": "Platform",
+      "platform": "Sega Mega Drive",
+      "developer": "Sonic Team",
+      "publisher": "Sega",
+      "summary_it": "Il riccio blu con cui Sega cercava una mascotte per rivaleggiare con Mario. Platform a scorrimento laterale basato sulla velocità, realizzato dal Sonic Team."
+    },
+    {
+      "id": "puyo-puyo-1991",
+      "title": "Puyo Puyo",
+      "title_ja": "ぷよぷよ",
+      "year": 1991,
+      "genre": "Puzzle",
+      "genre_it": "Rompicapo",
+      "platform": "MSX2",
+      "developer": "Compile",
+      "publisher": "Compile",
+      "summary_it": "Puzzle game di Masamitsu Niitani, fondatore di Compile. La maghetta Arle Nadja forma gruppi di almeno quattro puyo colorati per eliminarli."
+    },
+    {
+      "id": "super-mario-kart-1992",
+      "title": "Super Mario Kart",
+      "title_ja": "スーパーマリオカート",
+      "year": 1992,
+      "genre": "Racing",
+      "genre_it": "Simulatore di guida",
+      "platform": "SNES",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "summary_it": "Nato come versione a due giocatori di F-Zero, poi passato nelle mani di Miyamoto nell'universo di Mario. Si corre con i gusci di tartaruga e le bucce di banana, ad esempio sulla pista Pianura Ciambella."
+    },
+    {
+      "id": "tengai-makyo-ii-manji-maru-1992",
+      "title": "Tengai Makyō II: Manji Maru",
+      "title_ja": "天外魔境II卍丸",
+      "year": 1992,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "Cd-Rom",
+      "developer": "Red Company",
+      "publisher": "Hudson Soft",
+      "summary_it": "Oji Hiroi voleva oltre cinquanta finali diversi. Ambientato in un Giappone feudale ipotetico chiamato Jipang, è un punto di riferimento per i giochi di ruolo per PC."
+    },
+    {
+      "id": "romancing-saga-1992",
+      "title": "Romancing SaGa",
+      "title_ja": "ロマンシングサ・ガ",
+      "year": 1992,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Square",
+      "publisher": "Square",
+      "summary_it": "Il successo è dovuto alla libertà di esplorazione voluta da Akitoshi Kawazu. Fantasy nel mondo di Mardias, dove mille anni prima tre divinità malvagie combatterono contro Elore."
+    },
+    {
+      "id": "shin-megami-tensei-1992",
+      "title": "Shin Megami Tensei",
+      "title_ja": "真・女神転生",
+      "year": 1992,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Atlus",
+      "publisher": "Atlus",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
+        "game_id": "shin_megami_tensei_1992"
+      },
+      "summary_it": "Tokyo in un futuro prossimo: uno scienziato apre per errore un portale per il regno dei demoni. Lancia Atlus come sviluppatore ed editore e rende di culto la serie."
+    },
+    {
+      "id": "ogre-battle-the-march-of-the-black-queen-1993",
+      "title": "Ogre Battle: The March of the Black Queen",
+      "title_ja": "伝説のオウガバトル",
+      "year": 1993,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Quest",
+      "publisher": "Quest",
+      "summary_it": "Fantasy diretto da Yasumi Matsuno con Akihiko Yoshida: ribelli guidano una rivoluzione contro un impero corrotto. Unisce sviluppo dei personaggi e tattica in tempo reale."
+    },
+    {
+      "id": "secret-of-mana-1993",
+      "title": "Secret of Mana",
+      "title_ja": "聖剣伝説2",
+      "year": 1993,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "SNES",
+      "developer": "Square",
+      "publisher": "Square",
+      "summary_it": "Seguito di Mystic Quest, introduce il multigiocatore fino a tre persone con il multitap. Si distingue per colori vivaci a 16 bit, trama complessa e battaglie in tempo reale."
+    },
+    {
+      "id": "torneko-s-great-adventure-mystery-dungeon-1993",
+      "title": "Torneko's Great Adventure: Mystery Dungeon",
+      "year": 1993,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Chunsoft",
+      "publisher": "Chunsoft",
+      "summary_it": "Primo capitolo di Mystery Dungeon, spin-off di Dragon Quest con i disegni di Akira Toriyama. Il mercante Torneko esplora dungeon per raccogliere oggetti e poi li vende o li equipaggia."
+    },
+    {
+      "id": "virtua-fighter-1993",
+      "title": "Virtua Fighter",
+      "title_ja": "バーチャファイター",
+      "year": 1993,
+      "genre": "Fighting",
+      "genre_it": "Picchiaduro a incontri",
+      "platform": "Arcade",
+      "developer": "Sega",
+      "publisher": "Sega",
+      "summary_it": "Dicembre 1993, creato da Yu Suzuki. Primo picchiaduro con grafica completamente in 3D, anche se i movimenti restano in 2D. Capostipite di una serie con oltre venti titoli."
+    },
+    {
+      "id": "tokimeki-memorial-forever-with-you-1994",
+      "title": "Tokimeki Memorial: Forever With You",
+      "year": 1994,
+      "genre": "Dating sim",
+      "genre_it": "Simulatore di appuntamenti",
+      "platform": "PC Engine",
+      "developer": "Konami",
+      "publisher": "Konami",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json",
+        "game_id": "tokimeki_memorial_1994"
+      },
+      "summary_it": "Il più famoso simulatore di appuntamenti dell'epoca. Uno studente delle superiori giapponesi cerca l'amore tra la routine di studio, sport e altre attività."
+    },
+    {
+      "id": "fire-emblem-monsho-no-nazo-1994",
+      "title": "Fire Emblem: Monshō no Nazo",
+      "title_ja": "ファイアーエムブレム紋章の謎",
+      "year": 1994,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Intelligent Systems",
+      "publisher": "Nintendo",
+      "summary_it": "Secondo titolo della saga e il più innovativo secondo la critica. Uscito solo in Giappone, diviso in due libri, nel continente di Archanea."
+    },
+    {
+      "id": "tekken-1994",
+      "title": "Tekken",
+      "title_ja": "鉄拳",
+      "year": 1994,
+      "genre": "Fighting",
+      "genre_it": "Picchiaduro a incontri",
+      "platform": "Arcade",
+      "developer": "Namco",
+      "publisher": "Namco",
+      "summary_it": "Picchiaduro Namco del 1994 in 3D con movimenti fluidi. Torneo King of Iron Fist organizzato dalla Mishima Conglomerate, diventato un evergreen per PlayStation."
+    },
+    {
+      "id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+      "title": "Banshee's Last Cry (Kamaitachi No Yoru)",
+      "title_ja": "かまいたちの夜",
+      "year": 1994,
+      "genre": "Visual novel",
+      "genre_it": "Visual novel",
+      "platform": "SNES",
+      "developer": "Chunsoft",
+      "publisher": "Chunsoft",
+      "summary_it": "Giallo in stile Agatha Christie con un pizzico di soprannaturale, della Chunsoft. Una tempesta di neve blocca gli ospiti di un rifugio in montagna. Spinge le concorrenti a investire nel genere visual novel."
+    },
+    {
+      "id": "tactics-ogre-let-us-cling-together-1995",
+      "title": "Tactics Ogre: Let Us Cling Together",
+      "title_ja": "タクティクスオウガ",
+      "year": 1995,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Quest",
+      "publisher": "Quest",
+      "summary_it": "Scritto, diretto e disegnato da Yasumi Matsuno. L'attenzione passa alla tattica: Denim Powell fa parte della resistenza che vuole riconquistare il regno di Valeria."
+    },
+    {
+      "id": "chrono-trigger-1995",
+      "title": "Chrono Trigger",
+      "title_ja": "クロノ・トリガー",
+      "year": 1995,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "SNES",
+      "developer": "Square",
+      "publisher": "Square",
+      "summary_it": "Nel libro è un gioiello nato da un dream team che comprende Hironobu Sakaguchi, creatore di Final Fantasy, e Yūji Horii, regista di Dragon Quest."
+    },
+    {
+      "id": "pokemon-red-and-blue-1996",
+      "title": "Pokémon Red and Blue",
+      "title_ja": "ポケットモンスター 赤・青",
+      "year": 1996,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "Game Boy",
+      "developer": "Game Freak",
+      "publisher": "Nintendo",
+      "summary_it": "I primi due titoli della serie Pokémon, usciti in Giappone come Pocket Monsters Aka e Midori. Hanno dato avvio a una lunga serie di videogiochi e di collezionismo."
+    },
+    {
+      "id": "sakura-taisen-1996",
+      "title": "Sakura taisen",
+      "title_ja": "サクラ大戦",
+      "year": 1996,
+      "genre": "Visual novel",
+      "genre_it": "Visual novel",
+      "platform": "Sega Saturn",
+      "developer": "Red Company",
+      "publisher": "Sega",
+      "summary_it": "Multigenere che unisce RPG tattico, dating sim e visual novel. Siamo nel 1926, epoca Taishō, con il guardiamarina Ichiro Ogami."
+    },
+    {
+      "id": "resident-evil-1996",
+      "title": "Resident Evil",
+      "title_ja": "バイオハザード",
+      "year": 1996,
+      "genre": "Survival horror",
+      "genre_it": "Survival horror",
+      "platform": "PlayStation",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "summary_it": "Con questo titolo nasce ufficialmente il nome del genere survival horror. Raccoon City è colpita da un'epidemia di zombie e la squadra Alpha guidata da Jill Valentine indaga."
+    },
+    {
+      "id": "grandia-1997",
+      "title": "Grandia",
+      "title_ja": "グランディア",
+      "year": 1997,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "Sega Saturn",
+      "developer": "Game Arts",
+      "publisher": "JP Entertainment Software Publishing",
+      "summary_it": "JRPG fantasy valorizzato dall'estetica e dall'ambientazione. Justin, 14 anni, eredita dal padre una pietra magica che lo porta a scoprire il mistero della civiltà perduta di Angelou."
+    },
+    {
+      "id": "gran-turismo-the-real-driving-simulator-1997",
+      "title": "Gran Turismo: The Real Driving Simulator",
+      "title_ja": "グランツーリスモ",
+      "year": 1997,
+      "genre": "Racing",
+      "genre_it": "Simulatore di guida",
+      "platform": "PlayStation",
+      "developer": "Polyphony Digital",
+      "publisher": "Sony Computer Entertainment",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-velocita_pixel-in-japan.json",
+        "game_id": "gran_turismo_1997"
+      },
+      "summary_it": "Il gioco più venduto per PlayStation, con oltre 11 milioni di copie. Come simulatore di guida, per vicinanza alla realtà non ha rivali."
+    },
+    {
+      "id": "to-heart-1997",
+      "title": "To Heart",
+      "title_ja": "トゥハート",
+      "year": 1997,
+      "genre": "Dating sim",
+      "genre_it": "Simulatore di appuntamenti",
+      "platform": "PC",
+      "developer": "Leaf",
+      "publisher": "Aquaplus",
+      "summary_it": "Visual novel romantica e simulatore di appuntamenti. Il timido Hiroyuki Fujita, amico d'infanzia di Akari Kamigishi, può conquistare una delle otto ragazze. La versione PlayStation è doppiata."
+    },
+    {
+      "id": "monster-rancher-1997",
+      "title": "Monster Rancher",
+      "title_ja": "モンスターファーム",
+      "year": 1997,
+      "genre": "Life sim",
+      "genre_it": "Simulatore di vita",
+      "platform": "PlayStation",
+      "developer": "Tecmo",
+      "publisher": "Tecmo",
+      "summary_it": "Una fattoria che alleva mostri invece di galline: l'allevatore li fa crescere e partecipare ai tornei. I mostri si generano inserendo CD nella PlayStation."
+    },
+    {
+      "id": "tales-of-destiny-1997",
+      "title": "Tales of Destiny",
+      "title_ja": "テイルズオブデスティニー",
+      "year": 1997,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "Wolf Team",
+      "publisher": "Namco",
+      "summary_it": "Secondo della serie Tales, il più venduto della saga con oltre un milione di copie. Stahn incontra la spada senziente Dymlos."
+    },
+    {
+      "id": "dynasty-warriors-1997",
+      "title": "Dynasty Warriors",
+      "title_ja": "三國無双",
+      "year": 1997,
+      "genre": "Fighting",
+      "genre_it": "Picchiaduro a incontri",
+      "platform": "PlayStation",
+      "developer": "Omega Force",
+      "publisher": "Koei",
+      "summary_it": "Il picchiaduro più famoso di Koei, nella Cina del 200 divisa in tre regni: Wu, Wei e Shu."
+    },
+    {
+      "id": "final-fantasy-vii-1997",
+      "title": "Final Fantasy VII",
+      "title_ja": "ファイナルファンタジーVII",
+      "year": 1997,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "Square",
+      "publisher": "Square",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
+        "game_id": "final_fantasy_vii_1997"
+      },
+      "summary_it": "Primo della serie con full motion video e computer grafica 3D su sfondi pre-renderizzati in 2D. Protagonista è il mercenario Cloud Strife."
+    },
+    {
+      "id": "machi-1998",
+      "title": "Machi",
+      "title_ja": "街",
+      "year": 1998,
+      "genre": "Visual novel",
+      "genre_it": "Visual novel",
+      "platform": "Sega Saturn",
+      "developer": "Chunsoft",
+      "publisher": "Chunsoft",
+      "summary_it": "Visual novel descritta dai creatori come romanzo sonoro, con otto protagonisti a Shibuya: un detective, un attore, un gangster e uno sceneggiatore tra loro."
+    },
+    {
+      "id": "xenogears-1998",
+      "title": "Xenogears",
+      "title_ja": "ゼノギアス",
+      "year": 1998,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "Square Product Development Division 3",
+      "publisher": "SquareSoft",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cyberpunk-spiritualita_pixel-in-japan.json",
+        "game_id": "xenogears_1998"
+      },
+      "summary_it": "Creato da Tetsuya Takahashi: era stato proposto come trama di Final Fantasy VII e come sequel di Chrono Trigger. Fei Fong Wong in un mondo alieno in guerra tra imperi."
+    },
+    {
+      "id": "tenchu-stealth-assassins-1998",
+      "title": "Tenchu: Stealth Assassins",
+      "title_ja": "立体忍者活劇天誅",
+      "year": 1998,
+      "genre": "Stealth",
+      "genre_it": "Stealth",
+      "platform": "PlayStation",
+      "developer": "Acquire",
+      "publisher": "SMEJ",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giappone-feudale_pixel-in-japan.json",
+        "game_id": "tenchu_1998"
+      },
+      "summary_it": "Primo capitolo della saga Tenchu. Oltre agli scontri, approfondisce la via del ninjutsu attraverso dieci livelli di compiti da portare a termine."
+    },
+    {
+      "id": "metal-gear-solid-1998",
+      "title": "Metal Gear Solid",
+      "title_ja": "メタルギアソリッド",
+      "year": 1998,
+      "genre": "Stealth",
+      "genre_it": "Stealth",
+      "platform": "PlayStation",
+      "developer": "Konami",
+      "publisher": "Konami",
+      "summary_it": "Opera di Hideo Kojima, ambientata nel 2005 in un futuro ucronico in cui la Guerra Fredda non è finita. Solid Snake si infiltra in un impianto di armi nucleari."
+    },
+    {
+      "id": "parasite-eve-1998",
+      "title": "Parasite Eve",
+      "title_ja": "パラサイト・イヴ",
+      "year": 1998,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "PlayStation",
+      "developer": "Squaresoft",
+      "publisher": "Squaresoft",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_citta-notturna-giapponese_pixel-in-japan.json",
+        "game_id": "parasite_eve_1998"
+      },
+      "summary_it": "Vigilia di Natale del 1997: durante uno spettacolo alla Carnegie Hall tutti i presenti prendono fuoco tranne Aya Brea, recluta della polizia di New York, e l'attrice Melissa Pearce."
+    },
+    {
+      "id": "silent-hill-1999",
+      "title": "Silent Hill",
+      "title_ja": "サイレントヒル",
+      "year": 1999,
+      "genre": "Survival horror",
+      "genre_it": "Survival horror",
+      "platform": "PlayStation",
+      "developer": "Konami",
+      "publisher": "Konami",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_citta-notturna-giapponese_pixel-in-japan.json",
+        "game_id": "silent_hill_1999"
+      },
+      "summary_it": "Horror che scava nella psicologia con atmosfere inquietanti e una trama non convenzionale. Ambientato nella cittadina di Silent Hill, avvolta dalla nebbia."
+    },
+    {
+      "id": "valkyrie-profile-1999",
+      "title": "Valkyrie Profile",
+      "title_ja": "ヴァルキリープロファイル",
+      "year": 1999,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "tri-Ace",
+      "publisher": "Enix",
+      "summary_it": "Fantasy che usa la mitologia norrena. La protagonista Lenneth, serva di Odino, recluta guerrieri tra 24 personaggi giocabili."
+    },
+    {
+      "id": "super-robot-wars-alpha-2000",
+      "title": "Super Robot Wars Alpha",
+      "title_ja": "スーパーロボット大戦α",
+      "year": 2000,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "Banpresto",
+      "publisher": "Banpresto",
+      "summary_it": "RPG non fantasy in cui i protagonisti sono i robot dei manga e degli anime più amati, tra cui Evangelion. Pensato per la generazione Goldrake."
+    },
+    {
+      "id": "tales-of-eternia-2000",
+      "title": "Tales of Eternia",
+      "title_ja": "テイルズオブエターニア",
+      "year": 2000,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation",
+      "developer": "Wolf Team",
+      "publisher": "Namco",
+      "summary_it": "Terzo capitolo della serie Tales, con grafica vicina agli anime e filmato introduttivo animato. Nel mondo di Inferia, il cacciatore Reid Hershel incontra la misteriosa Meredy."
+    },
+    {
+      "id": "onimusha-warlords-2001",
+      "title": "Onimusha: Warlords",
+      "title_ja": "鬼武者",
+      "year": 2001,
+      "genre": "Action adventure",
+      "genre_it": "Avventura dinamica",
+      "platform": "PlayStation 2",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giappone-feudale_pixel-in-japan.json",
+        "game_id": "onimusha_2001"
+      },
+      "summary_it": "Mix di action e survival horror nel periodo Sengoku, tra storia e fantasia. Capostipite di una serie lunghissima: per il 2026 è annunciato Onimusha: Way of the Sword."
+    },
+    {
+      "id": "project-zero-2001",
+      "title": "Project Zero",
+      "title_ja": "零〜zero〜",
+      "year": 2001,
+      "genre": "Survival horror",
+      "genre_it": "Survival horror",
+      "platform": "PlayStation 2",
+      "developer": "Tecmo",
+      "publisher": "Tecmo",
+      "summary_it": "Paura vera nella Himuro Mansion, casa maledetta vicino a Tokyo. Nel 1986 la studentessa sensitiva Miku Hinasaki entra per ritrovare il fratello Mafuyu."
+    },
+    {
+      "id": "animal-crossing-2001",
+      "title": "Animal Crossing",
+      "title_ja": "どうぶつの森",
+      "year": 2001,
+      "genre": "Life sim",
+      "genre_it": "Simulatore di vita",
+      "platform": "Nintendo 64",
+      "developer": "Nintendo EAD",
+      "publisher": "Nintendo",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json",
+        "game_id": "animal_crossing_2001"
+      },
+      "summary_it": "Simulatore di vita senza fine, in una città di animali antropomorfi molto kawaii. Si inizia arrivando in treno e incontrando il gattino Girolamo."
+    },
+    {
+      "id": "kingdom-hearts-2002",
+      "title": "Kingdom Hearts",
+      "title_ja": "キングダムハーツ",
+      "year": 2002,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "PlayStation 2",
+      "developer": "Square",
+      "publisher": "Square",
+      "summary_it": "Collaborazione tra Square e Disney: Pippo e Paperino in un videogioco di ruolo giapponese. Il protagonista è Sora."
+    },
+    {
+      "id": "way-of-the-samurai-2002",
+      "title": "Way of the Samurai",
+      "title_ja": "侍",
+      "year": 2002,
+      "genre": "Action",
+      "genre_it": "Action game",
+      "platform": "PlayStation 2",
+      "developer": "Acquire",
+      "publisher": "Spike",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giappone-feudale_pixel-in-japan.json",
+        "game_id": "way_of_the_samurai_2002"
+      },
+      "summary_it": "Mette i rōnin al centro della narrazione, nel 1878, dopo la caduta dello shogunato Tokugawa e all'inizio del periodo Meiji, durante la ribellione di Satsuma."
+    },
+    {
+      "id": "monster-hunter-2004",
+      "title": "Monster Hunter",
+      "title_ja": "モンスターハンタ",
+      "year": 2004,
+      "genre": "Action",
+      "genre_it": "Action game",
+      "platform": "PlayStation 2",
+      "developer": "Acquire",
+      "publisher": "Spike",
+      "summary_it": "Caccia ai mostri con armature, armi e oggetti creati sfruttando le prede. Il centro del gioco è la modalità online, con missioni e amici cacciatori."
+    },
+    {
+      "id": "tales-of-rebirth-2004",
+      "title": "Tales of Rebirth",
+      "title_ja": "テイルズオブリバース",
+      "year": 2004,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation 2",
+      "developer": "Namco Tales Studio",
+      "publisher": "Namco",
+      "summary_it": "Sesto capitolo principale della saga Tales. Umani (Huma) e bestie (Gajuma) coesistono; la storia parte dalla morte del re di Calegia, avvelenato da Zilva Madigan."
+    },
+    {
+      "id": "samurai-warriors-2004",
+      "title": "Samurai Warriors",
+      "title_ja": "戦国無双",
+      "year": 2004,
+      "genre": "Hack and slash",
+      "genre_it": "Hack and slash",
+      "platform": "PlayStation 2",
+      "developer": "Koei",
+      "publisher": "Koei",
+      "summary_it": "Spin-off di Dynasty Warriors che sposta l'azione nel Giappone feudale contro Nobunaga Oda. Quindici personaggi giocabili basati su figure storiche."
+    },
+    {
+      "id": "tales-of-the-abyss-2005",
+      "title": "Tales of the Abyss",
+      "title_ja": "テイルズオブジアビス",
+      "year": 2005,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "PlayStation 2",
+      "developer": "Namco Tales Studio",
+      "publisher": "Namco",
+      "summary_it": "Ottavo titolo della serie Tales, con la regia di Yoshito Higuchi e i personaggi di Kōsuke Fujishima. Musiche di Motoi Sakuraba e Shinji Tamura."
+    },
+    {
+      "id": "yakuza-2005",
+      "title": "Yakuza",
+      "title_ja": "龍が如く",
+      "year": 2005,
+      "genre": "Action",
+      "genre_it": "Action",
+      "platform": "PlayStation 2",
+      "developer": "Sega",
+      "publisher": "Sega",
+      "summary_it": "Il gioco sulla criminalità organizzata giapponese, primo capitolo di una serie di successo firmata da Toshihiro Nagoshi. Kazuma Kiryu esce di prigione dopo dieci anni da innocente."
+    },
+    {
+      "id": "the-world-ends-with-you-2007",
+      "title": "The World Ends with You",
+      "title_ja": "すばらしきこのせかい",
+      "year": 2007,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "Nintendo DS",
+      "developer": "Square Enix",
+      "publisher": "Square Enix",
+      "summary_it": "RPG originale: chi muore si ritrova all'incrocio di Shibuya, a Tokyo, e deve tornare in vita. Tra i più originali del decennio."
+    },
+    {
+      "id": "akiba-s-trip-2011",
+      "title": "Akiba's Trip",
+      "year": 2011,
+      "genre": "Action adventure",
+      "genre_it": "Avventura dinamica",
+      "platform": "PlayStation Portable",
+      "developer": "Acquire",
+      "publisher": "Acquire",
+      "summary_it": "Ambientato ad Akihabara, quartiere di otaku e anime, con grafica ispirata all'anime. Un gruppo di ragazzi deve fermare un'invasione aliena di Bugatta."
+    },
+    {
+      "id": "yo-kai-watch-2013",
+      "title": "Yo-kai Watch",
+      "title_ja": "妖怪ウォッチ",
+      "year": 2013,
+      "genre": "JRPG",
+      "genre_it": "J-RPG",
+      "platform": "Nintendo 3DS",
+      "developer": "Level-5",
+      "publisher": "Level-5",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json",
+        "game_id": "yo_kai_watch_2013"
+      },
+      "summary_it": "Un gioco di ruolo basato sugli yōkai del folklore giapponese, creato da Level-5. Ha generato un vasto franchising tra manga, sequel e anime."
+    },
+    {
+      "id": "yomawari-night-alone-2015",
+      "title": "Yomawari: Night Alone",
+      "title_ja": "深夜廻",
+      "year": 2015,
+      "genre": "Survival horror",
+      "genre_it": "Survival horror",
+      "platform": "PlayStation Vita",
+      "developer": "Nippon Ichi Software",
+      "publisher": "Nippon Ichi Software",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_citta-notturna-giapponese_pixel-in-japan.json",
+        "game_id": "yomawari_night_alone_2015"
+      },
+      "summary_it": "Survival horror di Nippon Ichi Software con due sequel: una bambina esce di notte a cercare il cane Poro, scomparso dopo un incidente."
+    },
+    {
+      "id": "tokyo-dark-2017",
+      "title": "Tokyo Dark",
+      "year": 2017,
+      "genre": "Point-and-click adventure",
+      "genre_it": "Point-and-click adventure game",
+      "platform": "Microsoft Windows",
+      "developer": "Cherrymochi",
+      "publisher": "Square Enix Collective",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_citta-notturna-giapponese_pixel-in-japan.json",
+        "game_id": "tokyo_dark_2017"
+      },
+      "summary_it": "Gioco indipendente nato da un crowdfunding. La detective Itō Ayami cerca il collega Kazuki Tanaka, scomparso mentre seguiva un caso."
+    },
+    {
+      "id": "sushi-striker-the-way-of-sushido-2018",
+      "title": "Sushi Striker: The Way of Sushido",
+      "year": 2018,
+      "genre": "Puzzle",
+      "genre_it": "Rompicapo",
+      "platform": "Nintendo 3DS",
+      "developer": "indieszero",
+      "publisher": "Nintendo",
+      "summary_it": "Puzzle game di indieszero in un mondo dove l'impero ha proibito il sushi. Musashi lotta contro il divieto con il Fronte di Liberazione del Sushi."
+    },
+    {
+      "id": "animal-crossing-new-horizons-2020",
+      "title": "Animal Crossing: New Horizons",
+      "title_ja": "あつまれ どうぶつの森",
+      "year": 2020,
+      "genre": "Life sim",
+      "genre_it": "Simulatore di vita",
+      "platform": "Nintendo Switch",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo",
+      "summary_it": "Quinto titolo della serie, ha tenuto compagnia a milioni di persone durante le restrizioni della pandemia, con quasi 48 milioni di copie vendute."
+    },
+    {
+      "id": "the-centennial-case-a-shijima-story-2022",
+      "title": "The Centennial Case: A Shijima Story",
+      "year": 2022,
+      "genre": "Visual novel",
+      "genre_it": "Visual novel",
+      "platform": "PlayStation 5",
+      "developer": "h.a.n.d. Inc.",
+      "publisher": "Square Enix",
+      "summary_it": "Visual novel cinematografica e complessa nella narrazione, con lunghi filmati e descrizioni accurate. Secondo il libro, tra i titoli più interessanti degli ultimi anni."
+    },
+    {
+      "id": "paranormasight-the-seven-mysteries-of-honjo-2023",
+      "title": "Paranormasight: The Seven Mysteries of Honjo",
+      "year": 2023,
+      "genre": "Visual novel",
+      "genre_it": "Visual novel",
+      "platform": "iOS e Android",
+      "developer": "Xeen",
+      "publisher": "Square Enix",
+      "summary_it": "Visual novel pensata per smartphone, ambientata negli anni Ottanta a Sumida, Tokyo. Ruota attorno alle leggende urbane dei sette misteri di Honjo."
+    },
+    {
+      "id": "rise-of-the-ronin-2024",
+      "title": "Rise of the Rōnin",
+      "title_ja": "ライズオブザローニン",
+      "year": 2024,
+      "genre": "Action RPG",
+      "genre_it": "Action RPG",
+      "platform": "PlayStation 5",
+      "developer": "Team Ninja",
+      "publisher": "Sony Interactive Entertainment",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giappone-feudale_pixel-in-japan.json",
+        "game_id": "rise_of_the_ronin_2024"
+      },
+      "summary_it": "RPG storico a Yokohama, negli ultimi anni del periodo Edo, alla vigilia della guerra Boshin. I protagonisti sono i Blade Twins."
+    }
+  ],
+  "ai_query_surface": [
+    "videogiochi giapponesi anni 80",
+    "videogiochi giapponesi anni 90",
+    "JRPG giapponesi classici",
+    "quale videogioco giapponese giocare",
+    "survival horror giapponesi",
+    "picchiaduro giapponesi anni 90",
+    "Pixel in Japan elenco giochi"
+  ],
+  "meta_index": {
+    "count": 80,
+    "year_min": 1979,
+    "year_max": 2024,
+    "genres": [
+      "Action",
+      "Action RPG",
+      "Action adventure",
+      "Adventure",
+      "Baseball",
+      "Beat 'em up",
+      "Dating sim",
+      "Fighting",
+      "Fixed-screen shooter",
+      "Hack and slash",
+      "JRPG",
+      "Life sim",
+      "Platformer",
+      "Point-and-click adventure",
+      "Puzzle",
+      "RPG",
+      "Racing",
+      "Scrolling shooter",
+      "Stealth",
+      "Survival horror",
+      "Visual novel"
+    ]
+  }
+}
