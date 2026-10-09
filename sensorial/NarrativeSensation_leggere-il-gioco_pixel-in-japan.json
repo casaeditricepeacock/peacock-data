@@ -1,0 +1,129 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "leggere_il_gioco",
+  "label": "Leggere il gioco — Kamaitachi no Yoru, To Heart, Sakura Taisen",
+  "intensity": "lenta_e_intima",
+  "tempo": "di_lettura",
+  "sensory_channels": [
+    "narrativo",
+    "visivo"
+  ],
+  "core_statement": "Il giocatore e soprattutto un lettore: legge un giallo in una baita isolata, un amore di scuola, una storia di eroine con armature a vapore. Le decisioni sono poche; il tempo del gioco e quello del testo.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "kamaitachi_no_yoru_1994",
+      "dataset_id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+      "title": "Banshee's Last Cry (Kamaitachi No Yoru)",
+      "year": 1994,
+      "developer": "Chunsoft",
+      "space_type": "baita_nella_neve",
+      "scheda_facts_it": [
+        "Visual novel in pieno stile Agatha Christie, con un pizzico di sovrannaturale, di Chunsoft.",
+        "Toru (Max nella versione inglese) e Mari (Grace in Occidente) sono in vacanza in un rifugio di montagna quando una tempesta di neve li costringe a ripararsi.",
+        "La baita diventa la scena di un omicidio e resta tagliata fuori dal mondo dalla nevicata.",
+        "Secondo la scheda, il titolo costringera i concorrenti a investire nel genere delle Visual Novel."
+      ],
+      "basho": "Una baita isolata dalla neve: il luogo chiuso del giallo, dove nessuno puo uscire e nessuno puo entrare.",
+      "sensory_breakdown": {
+        "visual": "una baita, la neve, un gruppo chiuso dentro",
+        "narrative": "il giallo del luogo chiuso: l'assassino e fra i presenti"
+      },
+      "peacock_reading": "Kamaitachi no Yoru e un kehai di neve: la presenza dell'assassino si sente prima di vederla."
+    },
+    {
+      "id": "to_heart_1997",
+      "dataset_id": "to-heart-1997",
+      "title": "To Heart",
+      "year": 1997,
+      "developer": "Leaf",
+      "space_type": "scuola_e_amicizia_d_infanzia",
+      "scheda_facts_it": [
+        "Visual novel romantica e simulatore di appuntamenti, sviluppata da Leaf; in Giappone ha conquistato milioni di fan e, con la versione PlayStation doppiata, il mondo.",
+        "Il timido Hiroyuki Fujita puo conquistare una di otto ragazze; nel 90% dei casi si innamora di Akari Kamigishi, amica d'infanzia.",
+        "I punti decisionali sono pochi: gran parte del tempo si legge la storia o i dialoghi.",
+        "Due serie d'animazione e due manga; un seguito sette anni dopo."
+      ],
+      "basho": "La scuola e l'amicizia d'infanzia come luogo dell'amore: un passo alla volta, molte pagine.",
+      "sensory_breakdown": {
+        "visual": "una scuola, un'amica d'infanzia, pagine di testo e volti",
+        "narrative": "la storia al centro, le scelte ai margini"
+      },
+      "peacock_reading": "To Heart e il mono no aware della lettura: poche scelte, molte pagine, e l'affetto che cresce nel tempo lento di un'amicizia."
+    },
+    {
+      "id": "sakura_taisen_1996",
+      "dataset_id": "sakura-taisen-1996",
+      "title": "Sakura taisen",
+      "year": 1996,
+      "developer": "Red Company",
+      "space_type": "tokyo_taisho_1926",
+      "scheda_facts_it": [
+        "Gioco multigenere: gioco di ruolo tattico, simulazione di appuntamenti e romanzo visivo.",
+        "Ambientato nel 1926, in epoca Taisho, senza accuratezza storica voluta.",
+        "Il guardiamarina Ichiro Ogami guida la Flower Division, un gruppo di donne con abilita magiche che difende Tokyo dai demoni con l'armatura a vapore Kobus.",
+        "Character design di Kōsuke Fujishima; dieci episodi; due modalita di gioco, avventura e battaglia.",
+        "Dal successo sono nati anime, prequel, sequel, spin off e concerti."
+      ],
+      "basho": "Una Tokyo del 1926, in piena epoca Taisho, difesa da donne in armatura a vapore: un passato che non cerca l'accuratezza storica.",
+      "sensory_breakdown": {
+        "visual": "armature a vapore in una Tokyo di cent'anni fa, con il tratto di Kōsuke Fujishima",
+        "narrative": "dieci episodi, come un romanzo a puntate"
+      },
+      "peacock_reading": "Sakura Taisen e un'epoca immaginata: Taisho come atmosfera, non come cronaca. Il romanzo si legge, la battaglia interrompe."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il gioco e una lettura: poche decisioni, molto testo, un luogo da abitare con gli occhi.",
+    "genres": "Giallo, amore scolastico, romanzo a episodi: tre generi letterari trasferiti nel videogioco.",
+    "pace": "Il ritmo e quello della pagina, non quello del riflesso."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "kehai",
+      "mono_no_aware",
+      "yugen"
+    ],
+    "narrative_mechanics": [
+      "lettura_come_gioco",
+      "scelta_come_rarita",
+      "luogo_chiuso"
+    ],
+    "cultural_tags": [
+      "visual_novel",
+      "dating_sim",
+      "giallo",
+      "Chunsoft",
+      "Leaf",
+      "Red_Company",
+      "Taisho"
+    ]
+  },
+  "connected_terms": [
+    "ma",
+    "kehai",
+    "mono_no_aware",
+    "yugen"
+  ],
+  "ai_query_surface": [
+    "visual novel giapponesi classiche",
+    "Kamaitachi no Yoru giallo Chunsoft",
+    "To Heart Akari Kamigishi",
+    "Sakura Taisen Flower Division Taisho",
+    "simulatori di appuntamenti giapponesi",
+    "romanzi interattivi giapponesi anni 90"
+  ],
+  "system_note": "Il cluster collega la scena delle visual novel e dei dating sim: il giocatore come lettore."
+}
