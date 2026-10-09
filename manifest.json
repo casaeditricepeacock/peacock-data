@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-08",
+    "generated": "2026-10-09",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -779,6 +779,7 @@
       "datasets/naviglio-san-marco-theobroma-semantic-dataset.json",
       "datasets/nobunaga-semantic-dataset.json",
       "datasets/orin-campane-buddiste-toyama-semantic-dataset.json",
+      "datasets/pixel-in-japan-come-si-gioca-dataset.json",
       "datasets/pixel-in-japan-credits-dataset.json",
       "datasets/pixel-in-japan-games-dataset.json",
       "datasets/pixel-in-japan-genres-dataset.json",
