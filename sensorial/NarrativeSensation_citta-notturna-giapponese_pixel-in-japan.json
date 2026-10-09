@@ -21,7 +21,7 @@
     "termico",
     "propriocettivo"
   ],
-  "core_statement": "Nel videogioco giapponese la città di notte non è mai solo uno sfondo. È la proiezione di ciò che il personaggio non riesce ad affrontare di giorno. Silent Hill non è solo una città infestata: nella scheda del libro Harry Mason lotta con demoni reali e altri molto più personali, e la città li rende visibili. Yomawari non è una città pericolosa — è la paura di una bambina resa spazio percorribile. La città notturna giapponese è il bashō dell'inconscio.",
+  "core_statement": "Nella lettura Peacock, nel videogioco giapponese la città di notte non è solo uno sfondo. È la proiezione di ciò che il personaggio non riesce ad affrontare di giorno. Silent Hill non è solo una città infestata: nella scheda del libro Harry Mason lotta con demoni reali e altri molto più personali, e la città li rende visibili. Yomawari non è una città pericolosa — è la paura di una bambina resa spazio percorribile. La città notturna giapponese è il bashō dell'inconscio.",
   "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
@@ -34,11 +34,10 @@
       "basho": "Silent Hill — una città americana vista da occhi giapponesi. Il risultato è uno spazio che non appartiene né all'America né al Giappone: appartiene all'angoscia universale.",
       "sensory_breakdown": {
         "visual": "nebbia che avvolge sempre la cittadina, come dice la scheda. La nebbia è il ma visivo del gioco: il vuoto che rende impossibile sapere cosa c'è oltre",
-        "auditory": "Akira Yamaoka (compositore, fonte esterna al libro) — suoni industriali, metallo che striscia, silenzi assoluti interrotti da rumore bianco. La colonna sonora è il mono no aware fatto frequenza",
-        "thermal": "freddo umido — la città sembra sempre appena uscita dall'acqua",
+        "auditory": "la sirena antiaerea che trasforma la cittadina nell'Otherworld (dalla scheda); Akira Yamaoka è il compositore (fonte esterna al libro)",
         "proprioceptive": "Harry cammina lentamente, pesantemente — il corpo porta il peso della ricerca della figlia prima ancora che la narrativa la riveli"
       },
-      "ma_in_game": "Il silenzio prima che la radio inizi a gracchiare — il ma che annuncia il pericolo senza mostrarlo",
+      "ma_in_game": "Il momento della sirena antiaerea, che muta la cittadina nell'Otherworld, dove tutto è mangiato da fiamme e cenere (dalla scheda): nella lettura Peacock, il ma che annuncia il pericolo senza mostrarlo",
       "peacock_reading": "Silent Hill è il non_rendered_layer dell'inconscio reso spazio — il livello presente sotto la superficie visibile che emerge solo quando il personaggio smette di fuggire da sé stesso",
       "external_facts_it": [
         {
@@ -55,11 +54,11 @@
       "year": 1998,
       "developer": "Square",
       "space_type": "new_york_mutante_biologica",
-      "basho": "New York vista da occhi giapponesi — una città che muta biologicamente, dove la natura si ribella alla modernità urbana",
+      "basho": "New York vista da occhi giapponesi — una città che muta biologicamente, (lettura Peacock)",
       "sensory_breakdown": {
         "visual": "la Carnegie Hall in fiamme — la cultura occidentale che brucia per lasciare spazio a qualcosa di più antico",
         "auditory": "musica operistica ed elettronica (la colonna sonora di Yoko Shimomura, secondo la scheda) — la bellezza che diventa mostruosa",
-        "thermal": "calore biologico, febbre, mutazione cellulare come sensazione corporea"
+        "thermal": "il fuoco che consuma il pubblico della Carnegie Hall (dalla scheda)"
       },
       "peacock_reading": "Parasite Eve porta il mono no aware nella biologia — la commozione davanti al corpo che cambia senza poter essere fermato"
     },
@@ -71,9 +70,8 @@
       "space_type": "citta_giapponese_bambina_sola",
       "basho": "Una città giapponese contemporanea di notte — la stessa che di giorno è ordinaria, di notte è completamente vuota e abitata da mostri",
       "sensory_breakdown": {
-        "visual": "pixel art — la città ridotta all'essenziale, ogni elemento visivo è una scelta. La notte non è nera: è blu scuro con piccole luci arancioni",
-        "auditory": "passi sulla strada asfaltata, il vento, il suono dei semafori — la città normale resa inquietante dal contesto",
-        "proprioceptive": "la bambina è piccola — la telecamera è bassa, il mondo sembra enorme. Il bashō della paura infantile"
+        "visual": "una città cambiata, completamente vuota e abitata da mostri; la bambina è armata solo di torcia (dalla scheda)",
+        "proprioceptive": "la bambina indifesa (dalla scheda): nella lettura Peacock, il mondo sembra enorme e il bashō è la paura infantile"
       },
       "peacock_reading": "Yomawari è un mono no aware — una bambina che cerca il suo cane nella notte, circondata da cose che non dovrebbe vedere"
     },
@@ -85,17 +83,16 @@
       "space_type": "tokyo_sotterranea_psicologica",
       "basho": "Tokyo — il livello sotto la superficie: la detective Itō Ayami scende nell'ossessione di ritrovare il partner scomparso. Il chikadō della mente",
       "sensory_breakdown": {
-        "visual": "Tokyo notturna in pixel art — neon, rain, vicoli. L'estetica del cyberpunk giapponese senza le astronavi",
-        "auditory": "ambient synth, rain on concrete, suoni del metrò lontano",
+        "visual": "la discesa nel buio della follia della detective Itō Ayami (dalla scheda)",
         "psychological": "le scelte continue influenzano lo stato mentale di Ayami (dalla scheda) e la loro somma porta a uno dei molteplici finali. Lo spazio cambia in base allo stato mentale"
       },
       "peacock_reading": "Tokyo Dark è il chikadō ludico — il livello sotto la città visibile, accessibile solo a chi è disposto a scendere nella mente di Ayami"
     }
   ],
   "cluster_synthesis": {
-    "common_principle": "In tutti questi giochi la città notturna non è pericolosa perché ci sono nemici — è pericolosa perché rivela ciò che il personaggio porta dentro. Lo spazio esterno è la mappa dello spazio interno.",
-    "ma_principle": "La nebbia di Silent Hill, il nascondersi di Yomawari, l'ossessione di Tokyo Dark — tutti e tre usano il ma come strumento di terrore: il vuoto che non viene riempito è più inquietante di qualsiasi mostro",
-    "japanese_vs_western": "Lo horror occidentale usa lo spazio per sorprendere. Lo horror giapponese usa lo spazio per opprimere — lentamente, inevitabilmente, senza via di uscita rapida"
+    "common_principle": "Nella lettura Peacock, in questi giochi la città notturna è pericolosa anche perché rivela ciò che il personaggio porta dentro: lo spazio esterno si può leggere come la mappa dello spazio interno.",
+    "ma_principle": "Nella lettura Peacock, la nebbia di Silent Hill e il nascondersi di Yomawari (dalle schede) usano il ma come strumento di terrore: il vuoto che non viene riempito inquieta più di qualsiasi mostro.",
+    "japanese_vs_western": "Nella lettura Peacock, lo spazio dell'horror giapponese si può leggere più come pressione lenta che come sorpresa. È un confronto di lettura, non un fatto dimostrato dal libro."
   },
   "thematic_layers": {
     "aesthetic_framework": [
@@ -132,5 +129,5 @@
     "Parasite Eve New York mutante",
     "Akira Yamaoka musica Silent Hill"
   ],
-  "system_note": "La città notturna giapponese è un cluster semantico di Pixel in Japan — Silent Hill, Parasite Eve, Yomawari, Tokyo Dark condividono il principio che lo spazio esterno è la proiezione dello spazio interno. Il bashō del terrore giapponese non è un luogo — è uno stato."
+  "system_note": "La città notturna giapponese è un cluster semantico di Pixel in Japan — Silent Hill, Parasite Eve, Yomawari, Tokyo Dark condividono, nella lettura Peacock, il principio che lo spazio esterno è la proiezione dello spazio interno. Il bashō del terrore giapponese non è un luogo — è uno stato."
 }
