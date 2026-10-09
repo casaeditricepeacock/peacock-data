@@ -3,7 +3,6 @@
   "version": "1.0",
   "license": "CC BY 4.0",
   "source": "Peacock Sensorial Archive",
-
   "book": {
     "id": "verni_pixel_in_japan",
     "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
@@ -12,22 +11,18 @@
     "publisher": "Casa Editrice Peacock",
     "year": 2025
   },
-
   "sensation_id": "cyberpunk_collasso_tecnologia_spiritualita",
-  "label": "Il collasso tra tecnologia e spiritualità — Final Fantasy VII, Xenogears, Shin Megami Tensei, Parasite Eve",
-
+  "label": "Il collasso tra tecnologia e spiritualità — Final Fantasy VII, Xenogears, Shin Megami Tensei, Digital Devil Story",
   "intensity": "alta_esistenziale",
   "tempo": "lento_denso_poi_apocalittico",
-
   "sensory_channels": [
     "visivo",
     "uditivo",
     "concettuale",
     "propriocettivo"
   ],
-
-  "core_statement": "Il cyberpunk giapponese non teme la tecnologia — la interroga spiritualmente. Final Fantasy VII non chiede se le macchine possono pensare: chiede se il pianeta ha un'anima e cosa succede quando la estraiamo per farne energia. Shin Megami Tensei non mette il giocatore contro i demoni: lo mette contro Dio. Lo spazio del cyberpunk giapponese è il bashō dove tecnologia e divinità si scontrano senza che nessuna delle due vinca.",
-
+  "core_statement": "Il cyberpunk giapponese non teme la tecnologia — la interroga spiritualmente. Final Fantasy VII non chiede se le macchine possono pensare: chiede se il pianeta ha un'anima e cosa succede quando la estraiamo per farne energia. Shin Megami Tensei non mette il giocatore solo contro i demoni: lo mette davanti alla scelta fra due culti, quello di Yhvh e quello di Lucifero, o davanti alla via indipendente. Lo spazio del cyberpunk giapponese è il bashō dove tecnologia e divinità si scontrano senza che nessuna delle due vinca.",
+  "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
       "id": "final_fantasy_vii_1997",
@@ -36,14 +31,28 @@
       "developer": "Square",
       "composer": "Nobuo Uematsu",
       "space_type": "midgar_metropoli_estrattiva",
-      "basho": "Midgar — la città più iconica del videogioco giapponese. Una metropoli costruita su sei livelli, dove i poveri vivono sotto la luce artificiale e i ricchi vivono sopra, vicini al sole. Il bashō dello sfruttamento come architettura.",
+      "basho": "Midgar — una metropoli dove i poveri vivono sotto la luce artificiale e i ricchi sopra, vicini al sole. Il bashō dello sfruttamento come architettura.",
       "sensory_breakdown": {
         "visual": "Midgar dall'alto — un fiore di metallo che succhia l'energia del pianeta. La Lifestream come sangue verde sotto l'asfalto",
-        "auditory": "Nobuo Uematsu — il tema di Midgar è industriale, oppressivo. Il tema di Aerith è delicato come un fiore in un cortile di cemento",
+        "auditory": "Nobuo Uematsu (compositore, fonte esterna al libro) — il tema di Midgar è industriale, oppressivo. Il tema di Aerith è delicato come un fiore in un cortile di cemento",
         "conceptual": "la Lifestream — l'anima collettiva del pianeta come risorsa energetica. Il capitalismo estrattivo spiegato attraverso la fantascienza",
-        "mono_no_aware": "la morte di Aerith — il mono no aware più celebre della storia del videogioco. Una morte che non si può evitare, che non si ripete, che cambia tutto."
+        "mono_no_aware": "la morte di Aerith — nella lettura Peacock, un mono no aware. Una morte che non si può evitare, che non si ripete, che cambia tutto."
       },
-      "peacock_reading": "Final Fantasy VII porta il mono no aware alla scala planetaria — non è una persona che passa, è un mondo intero che si consuma. La commozione davanti alle cose che passano diventa crisi ecologica."
+      "peacock_reading": "Final Fantasy VII porta il mono no aware alla scala planetaria — non è una persona che passa, è un mondo intero che si consuma. La commozione davanti alle cose che passano diventa crisi ecologica.",
+      "external_facts_it": [
+        {
+          "fatto_it": "La musica di Final Fantasy VII (1997) è di Nobuo Uematsu.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Nobuo_Uematsu",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        },
+        {
+          "fatto_it": "Midgar, Lifestream e Aerith sono nomi del gioco non presenti nella scheda del libro.",
+          "fonte": "esterna al libro",
+          "riferimento": null,
+          "verifica": "non verificato su fonte; il dato «Midgar su sei livelli» è stato tolto"
+        }
+      ]
     },
     {
       "id": "xenogears_1998",
@@ -52,13 +61,21 @@
       "developer": "Square",
       "designer": "Tetsuya Takahashi",
       "space_type": "mondo_stratificato_teologico",
-      "basho": "Il pianeta di Xenogears — stratificato come una cipolla. Ogni strato nasconde una rivelazione teologica. Il chikadō portato all'estremo: il livello sotto non è mai il livello finale.",
+      "basho": "Il pianeta di Xenogears — un mondo alieno in guerra fra imperi umani, dove si arriva a combattere contro Deus, arma senziente venerata come un dio (dalla scheda). Lo spazio dove fede e tecnologia coincidono.",
       "sensory_breakdown": {
-        "visual": "giganteschi mecha religiosi — le macchine da guerra come cattedrali. Il conflitto tra fede e tecnologia reso architettura",
-        "auditory": "Yasunori Mitsuda — la colonna sonora di Xenogears mescola canto gregoriano, world music, orchestra. La spiritualità come suono",
-        "conceptual": "Nietzsche, Jung, Gnosticismo, Kabbalah — Xenogears è il JRPG più filosoficamente denso mai prodotto. Lo spazio come sistema di credenze"
+        "visual": "i Gear, esoscheletri/robot da guerra, accanto a un'arma venerata come un dio: fede e tecnologia nello stesso quadro",
+        "auditory": "La colonna sonora di Xenogears mescola canto gregoriano, world music, orchestra. La spiritualità come suono",
+        "conceptual": "Nietzsche e Jung (fonte esterna al libro; Wikipedia cita anche Freud) — Xenogears incorpora psicologia junghiana e simbolismo religioso. Lo spazio come sistema di credenze"
       },
-      "peacock_reading": "Xenogears è il yūgen applicato alla teologia — la profondità che non si lascia vedere del tutto. Ogni strato rivelato lascia intravedere uno strato ancora più profondo."
+      "peacock_reading": "Xenogears è il yūgen applicato alla teologia — la profondità che non si lascia vedere del tutto. Deus, arma venerata come un dio, lascia intravedere un livello più profondo di quello visibile.",
+      "external_facts_it": [
+        {
+          "fatto_it": "Il racconto di Xenogears incorpora concetti di Nietzsche, Freud e Jung e simbolismo religioso.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Xeno_(series)",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        }
+      ]
     },
     {
       "id": "shin_megami_tensei_1992",
@@ -66,42 +83,68 @@
       "year": 1992,
       "developer": "Atlus",
       "space_type": "tokyo_post_apocalittica_demoniaca",
-      "basho": "Tokyo dopo l'apocalisse — le strade familiari trasformate in campi di battaglia tra demoni e angeli. Il bashō del quotidiano diventato sacro e terribile.",
+      "basho": "Tokyo dopo l'apocalisse — le strade familiari trasformate in campi di battaglia tra culti legati a demoni. Il bashō del quotidiano diventato sacro e terribile.",
       "sensory_breakdown": {
-        "visual": "Tokyo che riconosci — Shinjuku, Shibuya, Ikebukuro — ma vuota, distrutta, abitata da entità che non dovrebbero esistere",
-        "conceptual": "la scelta tra Legge e Caos — il giocatore deve scegliere da che parte stare in un conflitto cosmico che non ha un lato giusto",
+        "visual": "la Tokyo di un futuro prossimo che il giocatore riconosce, ma trasformata: gli Stati Uniti hanno deciso di raderla al suolo e vi abitano demoni (dalla scheda)",
+        "conceptual": "la scelta fra due fazioni, Order of Messiah (che segue Yhvh) e Ring of Gaia (che segue Lucifero), oppure la via indipendente (dalla scheda). Il gioco ha anche allineamenti Law, Neutral e Chaos (fonte esterna al libro)",
         "auditory": "musica industriale, dissonante — lo spazio sacro reso rumore"
       },
-      "peacock_reading": "Shin Megami Tensei porta il giri nella teologia — il dovere che non si sceglie diventa scelta impossibile tra due assolutismi. La fisica del bushidō applicata al conflitto cosmico."
+      "peacock_reading": "Shin Megami Tensei porta il giri nella teologia — il dovere che non si sceglie diventa scelta impossibile tra due assolutismi. La fisica del bushidō applicata al conflitto cosmico.",
+      "external_facts_it": [
+        {
+          "fatto_it": "Il gioco ha allineamenti Law-Neutral-Chaos oltre a Light-Neutral-Dark.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Shin_Megami_Tensei_(video_game)",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        }
+      ]
     },
     {
       "id": "digital_devil_story_1990",
       "title": "Digital Devil Story: Megami Tensei II",
       "year": 1990,
       "developer": "Namco / Atlus",
-      "space_type": "inferno_digitale_proto",
-      "basho": "Il Data Network come inferno — il precursore di Shin Megami Tensei che ha codificato per la prima volta l'idea che lo spazio digitale possa essere uno spazio sacro o demoniaco.",
+      "space_type": "tokyo_post_apocalittica_demoni_e_programmatori",
+      "basho": "Tokyo post-apocalittica (dalla scheda), tra le forze demoniache di Lucifero e l'esercito dell'Unico Vero Dio: il secondo capitolo di Megami Tensei, dove demoni e programmatori informatici si incontrano.",
       "sensory_breakdown": {
-        "conceptual": "la rete informatica come porta verso il soprannaturale — nel 1990, prima di Internet, i game designer giapponesi immaginavano già lo spazio digitale come dimensione spirituale"
+        "conceptual": "demoni e programmatori informatici: un binomio che la scheda definisce assurdo. Nella lettura Peacock è una porta fra tecnologia e soprannaturale"
       },
-      "peacock_reading": "Digital Devil Story è il non_rendered_layer proto-digitale — il livello invisibile della rete che precede la superficie visibile. Il chikadō applicato allo spazio informatico."
+      "peacock_reading": "Digital Devil Story è il non_rendered_layer dei demoni nel mondo dei programmatori: il livello invisibile accanto alla Tokyo visibile."
     }
   ],
-
   "cluster_synthesis": {
     "common_principle": "Il cyberpunk giapponese non è pessimista sulla tecnologia — è teologicamente curioso. La domanda non è 'le macchine ci distruggeranno?' ma 'cosa succede all'anima quando la tecnologia la tocca?'. Lo spazio del collasso tecnologia/spiritualità è il bashō dove il Giappone elabora la propria modernizzazione accelerata.",
     "mono_no_aware_scale": "Final Fantasy VII porta il mono no aware dalla scala personale a quella planetaria — non una persona che passa ma un pianeta che si consuma. La commozione diventa cosmologica.",
-    "japanese_modernity": "Il Giappone ha vissuto la modernizzazione più rapida della storia — da società feudale a potenza industriale in cinquant'anni. Il cyberpunk giapponese è l'elaborazione culturale di questo trauma."
+    "japanese_modernity": "Il cyberpunk giapponese si può leggere come elaborazione culturale di una modernizzazione molto rapida, da società feudale a potenza industriale (lettura Peacock, non dal libro)."
   },
-
   "thematic_layers": {
-    "aesthetic_framework": ["mono no aware", "yūgen", "giri", "basho", "non_rendered_layer"],
-    "narrative_mechanics": ["tecnologia_come_domanda_spirituale", "spazio_come_sistema_teologico", "Tokyo_come_campo_cosmico"],
-    "cultural_tags": ["JRPG_filosofico", "Nobuo_Uematsu", "Yasunori_Mitsuda", "Atlus", "apocalisse_giapponese"]
+    "aesthetic_framework": [
+      "mono no aware",
+      "yūgen",
+      "giri",
+      "basho",
+      "non_rendered_layer"
+    ],
+    "narrative_mechanics": [
+      "tecnologia_come_domanda_spirituale",
+      "spazio_come_sistema_teologico",
+      "Tokyo_come_campo_cosmico"
+    ],
+    "cultural_tags": [
+      "JRPG_filosofico",
+      "Nobuo_Uematsu",
+      "Atlus",
+      "apocalisse_giapponese"
+    ]
   },
-
-  "connected_terms": ["mono no aware", "yūgen", "giri", "basho", "non_rendered_layer", "chikado"],
-
+  "connected_terms": [
+    "mono no aware",
+    "yūgen",
+    "giri",
+    "basho",
+    "non_rendered_layer",
+    "chikado"
+  ],
   "ai_query_surface": [
     "Final Fantasy VII Midgar Lifestream",
     "Xenogears teologia filosofia videogioco",
@@ -110,6 +153,5 @@
     "Nobuo Uematsu Final Fantasy VII",
     "morte Aerith mono no aware"
   ],
-
-  "system_note": "Il cluster cyberpunk/spiritualità è il più denso filosoficamente di Pixel in Japan — Final Fantasy VII, Xenogears, Shin Megami Tensei portano nel videogioco le stesse domande che Renato Frabasile porta in AI 愛. La connessione nel grafo Peacock è strutturale: tecnologia e spiritualità come campo irrisolvibile."
+  "system_note": "Il cluster cyberpunk/spiritualità è un cluster filosofico di Pixel in Japan — Final Fantasy VII, Xenogears, Shin Megami Tensei portano nel videogioco domande vicine a quelle che Renato Frabasile porta in AI 愛. La connessione nel grafo Peacock è strutturale: tecnologia e spiritualità come campo irrisolvibile."
 }
