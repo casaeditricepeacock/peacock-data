@@ -1,7 +1,7 @@
 {
   "type": "VideogamePlayGuideDataset",
   "dataset_id": "pixel-in-japan-come-si-gioca",
-  "version": "1.0",
+  "version": "1.2",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -17,25 +17,25 @@
   "scope": "Come si gioca ciascun videogioco del libro, in sintesi, e per chi puo essere adatto. Serve a scegliere a cosa giocare.",
   "method_note": "I campi objective_it, how_it_plays_it, key_rule_it, structure_it, difficulty_it e players_it riportano in sintesi cio che la scheda del libro dice del gioco; se la scheda non lo dice, il campo e vuoto. for_whom_it e una valutazione editoriale Peacock, segnalata con editorial true. related_games viene dalle relazioni gia dichiarate in datasets/pixel-in-japan-relations-dataset.json. Comandi, elenco dei livelli e durata non sono nel libro e non sono riportati.",
   "coverage": {
-    "games_done": 21,
+    "games_done": 80,
     "games_total": 80,
-    "batch": "gruppo 1 di 4"
+    "batch": "completo, 80 di 80"
   },
   "games": [
     {
-      "game_id": "ghosts-n-goblins-1985",
-      "title": "Ghosts 'n Goblins",
-      "year": 1985,
+      "game_id": "sheriff-1979",
+      "title": "Sheriff",
+      "year": 1979,
       "platform": "Arcade",
-      "genre_it": "Platform",
-      "objective_it": "Attraversare sette livelli come il cavaliere Sir Arthur, salvare la fidanzata rapita da un demone e sconfiggere il supercattivo Astaroth.",
+      "genre_it": "Sparatutto a schermata fissa",
+      "objective_it": "Difendersi dai banditi sparandogli, come sceriffo nel Far West.",
       "how_it_plays_it": [
-        "Scorrimento orizzontale fantasy-horror.",
-        "Si combatte con lance, torce, pugnali, asce e scudi contro zombie, pipistrelli, orchi e fantasmi."
+        "Cabinato ambientato nel Far West.",
+        "Le carovane si usano a proprio vantaggio o come riparo: e l'unica difesa."
       ],
-      "key_rule_it": "Il primo colpo fa saltare l'armatura, poi l'eroe viene ridotto a un mucchietto d'ossa: si gioca con un solo errore di margine.",
-      "structure_it": "Sette livelli, un boss finale.",
-      "difficulty_it": "La scheda lo colloca tra i giochi piu difficili da finire.",
+      "key_rule_it": "Per aumentare il punteggio conta il passaggio dell'avvoltoio, che se colpito offre bonus aggiuntivi.",
+      "structure_it": null,
+      "difficulty_it": null,
       "players_it": null,
       "not_covered_by_book_it": [
         "comandi",
@@ -43,12 +43,12 @@
         "durata"
       ],
       "for_whom_it": {
-        "text": "Chi cerca una sfida da sala giochi e non cerca una storia.",
+        "text": "Chi vuole provare uno dei primi cabinati prodotti da Nintendo.",
         "editorial": true
       },
       "related_games": [],
-      "cite_as_it": "Fonte: scheda di «Ghosts 'n Goblins» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
-      "scheda_basis": "ghosts-n-goblins-1985"
+      "cite_as_it": "Fonte: scheda di «Sheriff» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "sheriff-1979"
     },
     {
       "game_id": "donkey-kong-1981",
@@ -77,6 +77,100 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Donkey Kong» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "donkey-kong-1981"
+    },
+    {
+      "game_id": "kung-fu-master-spartan-x-1984",
+      "title": "Kung-Fu Master (Spartan X)",
+      "year": 1984,
+      "platform": "Arcade (later ported)",
+      "genre_it": "Picchiaduro a scorrimento",
+      "objective_it": "Trovare e salvare la fidanzata Sylvia, rapita dal cattivissimo X, sconfiggendo i figli del diavolo.",
+      "how_it_plays_it": [
+        "Si controlla Thomas.",
+        "Azioni possibili: saltare, abbassarsi, calciare e dare pugni.",
+        "Lo scopo e sconfiggere i boss finali di ogni livello, l'ultimo e X."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Cinque piani di una pagoda da salire.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole vedere l'antesignano dei picchiaduro a scorrimento.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Kung-Fu Master (Spartan X)» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "kung-fu-master-spartan-x-1984"
+    },
+    {
+      "game_id": "dragon-slayer-1984",
+      "title": "Dragon Slayer",
+      "year": 1984,
+      "platform": "NEC PC-8000",
+      "genre_it": "Action RPG",
+      "objective_it": "Recuperare tesori e trovare l'uscita dei labirinti.",
+      "how_it_plays_it": [
+        "Gioco fantasy in cui un guerriero si avventura in labirinti.",
+        "Bisogna guardarsi dall'incontrare scheletri e mostri."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole vedere uno dei giochi che, secondo la scheda, furono fondamentali per The Legend of Zelda.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "the-legend-of-zelda-1986",
+          "title": "The Legend of Zelda",
+          "relation": "influenced",
+          "relation_it": "ha influenzato (secondo la scheda)",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-08"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Dragon Slayer» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "dragon-slayer-1984"
+    },
+    {
+      "game_id": "ghosts-n-goblins-1985",
+      "title": "Ghosts 'n Goblins",
+      "year": 1985,
+      "platform": "Arcade",
+      "genre_it": "Platform",
+      "objective_it": "Attraversare sette livelli come il cavaliere Sir Arthur, salvare la fidanzata rapita da un demone e sconfiggere il supercattivo Astaroth.",
+      "how_it_plays_it": [
+        "Scorrimento orizzontale fantasy-horror.",
+        "Si combatte con lance, torce, pugnali, asce e scudi contro zombie, pipistrelli, orchi e fantasmi."
+      ],
+      "key_rule_it": "Il primo colpo fa saltare l'armatura, poi l'eroe viene ridotto a un mucchietto d'ossa: si gioca con un solo errore di margine.",
+      "structure_it": "Sette livelli, un boss finale.",
+      "difficulty_it": "La scheda lo colloca tra i giochi piu difficili da finire.",
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una sfida da sala giochi e non cerca una storia.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Ghosts 'n Goblins» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "ghosts-n-goblins-1985"
     },
     {
       "game_id": "super-mario-bros-1985",
@@ -115,6 +209,62 @@
       ],
       "cite_as_it": "Fonte: scheda di «Super Mario Bros.» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "super-mario-bros-1985"
+    },
+    {
+      "game_id": "gradius-1985",
+      "title": "Gradius",
+      "year": 1985,
+      "platform": "Arcade",
+      "genre_it": "Sparatutto a scorrimento",
+      "objective_it": "Pilotare la navicella Vic Viper e sconfiggere gli alieni cattivi Bacterion.",
+      "how_it_plays_it": [
+        "Sparatutto a scorrimento orizzontale.",
+        "Un «pod», aiutante che una volta attivato aumenta la forza di fuoco."
+      ],
+      "key_rule_it": "I power up non sono solo un bonus istantaneo: sono miglioramenti che si possono non usare subito e sommare agli altri per averne uno super.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole uno sparatutto in cui pianificare i potenziamenti.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Gradius» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "gradius-1985"
+    },
+    {
+      "game_id": "bubble-bobble-1986",
+      "title": "Bubble Bobble",
+      "year": 1986,
+      "platform": "Arcade",
+      "genre_it": "Platform",
+      "objective_it": "Salvare le rispettive fidanzate rapite dal cattivissimo Super Drunk, con i due draghetti Bub e Bob.",
+      "how_it_plays_it": [
+        "I draghetti sparano bolle con cui imprigionano gli avversari e li eliminano rompendo le sfere d'acqua.",
+        "Molti avversari e svariati power up."
+      ],
+      "key_rule_it": "La scritta «hurry up» invita a chiudere presto il livello: altrimenti compare la balena bianca dall'occhio rosso, che elimina i giocatori una volta raggiunti.",
+      "structure_it": "Cento schemi.",
+      "difficulty_it": null,
+      "players_it": "Si puo giocare in due in contemporanea.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un classico da giocare in due.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Bubble Bobble» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "bubble-bobble-1986"
     },
     {
       "game_id": "the-legend-of-zelda-1986",
@@ -199,6 +349,33 @@
       "scheda_basis": "dragon-quest-1986"
     },
     {
+      "game_id": "pro-baseball-family-stadium-1986",
+      "title": "Pro Baseball: Family Stadium",
+      "year": 1986,
+      "platform": "NES",
+      "genre_it": "Baseball",
+      "objective_it": "Scegliere una squadra e completare il campionato.",
+      "how_it_plays_it": [
+        "Baseball, con lanci in prima base, home run e palle veloci."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Otto squadre tra cui scegliere.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il baseball giapponese, sport molto seguito in Giappone.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Pro Baseball: Family Stadium» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "pro-baseball-family-stadium-1986"
+    },
+    {
       "game_id": "final-fantasy-1987",
       "title": "Final Fantasy",
       "year": 1987,
@@ -244,6 +421,34 @@
       "scheda_basis": "final-fantasy-1987"
     },
     {
+      "game_id": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987",
+      "title": "Hokkaidō Rensa Satsujin: Ohōtsuku ni Kiyu",
+      "year": 1987,
+      "platform": "NES",
+      "genre_it": "Avventura",
+      "objective_it": "Condurre l'indagine dell'ispettore di polizia Tetsuji Nitta, che parte da un cadavere trovato nella baia di Tokyo e lo porta sull'isola di Hokkaidō.",
+      "how_it_plays_it": [
+        "Mistery d'avventura.",
+        "Usa il sistema dei comandi a scelta multipla, al posto dei comandi da inserire nei PC."
+      ],
+      "key_rule_it": "E indicato come il primo gioco d'avventura a comandi a scelta multipla.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama le avventure investigative.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Hokkaidō Rensa Satsujin: Ohōtsuku ni Kiyu» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987"
+    },
+    {
       "game_id": "ys-i-ancient-ys-vanished-1987",
       "title": "Ys I: Ancient Ys Vanished",
       "year": 1987,
@@ -270,6 +475,61 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Ys I: Ancient Ys Vanished» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "ys-i-ancient-ys-vanished-1987"
+    },
+    {
+      "game_id": "super-mario-bros-3-1988",
+      "title": "Super Mario Bros. 3",
+      "year": 1988,
+      "platform": "NES",
+      "genre_it": "Platform",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Platform a scorrimento con Mario o Luigi.",
+        "Nuove azioni: scivolare lungo i pendii e distruggere i muri lanciando contro di essi i gusci delle tartarughe."
+      ],
+      "key_rule_it": "I power up trasformano il personaggio: Raccoon (procione volante), Nuvola, Tanooki (puo diventare statua di jizo e non essere colpito), Frog (rana, nuota molto bene) e Hammer (lancia martelli).",
+      "structure_it": "Otto mondi, ognuno con caratteristiche peculiari.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi conosce il primo Super Mario Bros. e vuole il capitolo con piu trasformazioni.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Super Mario Bros. 3» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-mario-bros-3-1988"
+    },
+    {
+      "game_id": "best-play-pro-yakyuu-1988",
+      "title": "Best Play Pro Yakyuu",
+      "year": 1988,
+      "platform": "NES",
+      "genre_it": "Baseball",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Baseball in cui il centro e la gestione di una squadra e dei singoli giocatori, piu che le abilita dei giocatori."
+      ],
+      "key_rule_it": "La preparazione della strategia della partita e fondamentale: contano le formazioni e quando schierare un giocatore, meno i lanci o le battute.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il baseball visto da allenatore.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Best Play Pro Yakyuu» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "best-play-pro-yakyuu-1988"
     },
     {
       "game_id": "tetris-1989",
@@ -316,6 +576,91 @@
       "scheda_basis": "tetris-1989"
     },
     {
+      "game_id": "the-final-fantasy-legend-1989",
+      "title": "The Final Fantasy Legend",
+      "year": 1989,
+      "platform": "Game Boy",
+      "genre_it": "J-RPG",
+      "objective_it": "Scalare un'enorme torre fino alla vetta per ottenere la vittoria.",
+      "how_it_plays_it": [
+        "Gioco di ruolo.",
+        "I quattro eroi si creano scegliendo tra tre razze e specifiche proprie; si possono scegliere perfino i mostri.",
+        "Ogni personaggio puo avere fino a otto abilita da scegliere tra magie, oggetti, equipaggiamento o tecniche."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Si passa di livello in livello fino alla vetta della torre.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole sapere che con la saga di Final Fantasy c'entra poco: il nome originale era SaGa.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «The Final Fantasy Legend» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "the-final-fantasy-legend-1989"
+    },
+    {
+      "game_id": "mother-1989",
+      "title": "Mother",
+      "year": 1989,
+      "platform": "NES",
+      "genre_it": "J-RPG",
+      "objective_it": "Salvare la razza umana: trovare le otto melodie che fanno cedere all'alieno Giygas il controllo delle menti umane.",
+      "how_it_plays_it": [
+        "Gioco di ruolo giapponese senza ambientazione fantasy, in una ipotetica citta americana.",
+        "Si e Ninten, dodicenne con poteri psicocinetici, insieme a tre amici."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Otto melodie da trovare.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un JRPG fuori dal fantasy, con trama divertente e pazzerella.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Mother» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "mother-1989"
+    },
+    {
+      "game_id": "super-monaco-gp-1989",
+      "title": "Super Monaco GP",
+      "year": 1989,
+      "platform": "Arcade",
+      "genre_it": "Simulatore di guida",
+      "objective_it": "Arrivare primi dopo tre giri del circuito di Monaco, contro 19 avversari.",
+      "how_it_plays_it": [
+        "Vettura di Formula 1 in soggettiva sul Gran Premio di Monaco.",
+        "Il cabinato aveva un vero volante, con acceleratore e freno."
+      ],
+      "key_rule_it": "Entrando nei primi tre si poteva gareggiare con la pioggia, che rendeva tutto piu difficile.",
+      "structure_it": "Prima un giro di prova cronometrato per definire lo schieramento, poi la gara.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole una corsa arcade Sega.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Super Monaco GP» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-monaco-gp-1989"
+    },
+    {
       "game_id": "super-mario-world-super-mario-bros-4-1990",
       "title": "Super Mario World (Super Mario Bros. 4)",
       "year": 1990,
@@ -342,6 +687,73 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Super Mario World (Super Mario Bros. 4)» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "super-mario-world-super-mario-bros-4-1990"
+    },
+    {
+      "game_id": "f-zero-1990",
+      "title": "F-Zero",
+      "year": 1990,
+      "platform": "SNES",
+      "genre_it": "Simulatore di guida",
+      "objective_it": "Vincere ogni circuito: servono cinque giri del percorso, arrivando al primo posto.",
+      "how_it_plays_it": [
+        "Corse ispirate alla Formula 1 nel 2560, con veicoli a lievitazione antigravitazionale.",
+        "Grafica pseudo 3D.",
+        "Si sceglie tra quattro personaggi: Captain Falcon, Dr. Stewart, Pico e Samurai Goroh."
+      ],
+      "key_rule_it": "Per vincere un circuito bisogna fare cinque giri e arrivare primi.",
+      "structure_it": "Quindici tracciati, divisi in tre leghe.",
+      "difficulty_it": "Le tre leghe dividono i tracciati in base alla difficolta selezionata o superata.",
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una corsa futuristica e vuole vedere il gioco che la scheda indica come punto di riferimento dei simulatori di guida.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "super-mario-kart-1992",
+          "title": "Super Mario Kart",
+          "relation": "derived_from",
+          "relation_it": "nato come versione di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-07"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «F-Zero» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "f-zero-1990"
+    },
+    {
+      "game_id": "final-fight-1990",
+      "title": "Final Fight",
+      "year": 1990,
+      "platform": "Arcade",
+      "genre_it": "Picchiaduro a scorrimento",
+      "objective_it": "Finire i sei livelli di ambientazione newyorkese e salvare Jessica, rapita da Damnd.",
+      "how_it_plays_it": [
+        "Picchiaduro a scorrimento con due soli tasti: uno per saltare, uno per colpire con calci e pugni.",
+        "In salto si danno ginocchiate e calci volanti.",
+        "Tre personaggi: il wrestler Haggar, Cody (kickboxing) e Guy (ninjitsu)."
+      ],
+      "key_rule_it": "La novita rispetto ai picchiaduro precedenti e la semplificazione: due tasti.",
+      "structure_it": "Sei livelli.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un picchiaduro a scorrimento facile da imparare.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Final Fight» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "final-fight-1990"
     },
     {
       "game_id": "digital-devil-story-megami-tensei-ii-1990",
@@ -378,6 +790,34 @@
       ],
       "cite_as_it": "Fonte: scheda di «Digital Devil Story: Megami Tensei II» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "digital-devil-story-megami-tensei-ii-1990"
+    },
+    {
+      "game_id": "street-fighter-ii-the-world-warrior-1991",
+      "title": "Street Fighter II: The World Warrior",
+      "year": 1991,
+      "platform": "Arcade",
+      "genre_it": "Picchiaduro a incontri",
+      "objective_it": "Primeggiare nel grande torneo mondiale di arti marziali Street Fighter Tournament II, indetto da M. Bison.",
+      "how_it_plays_it": [
+        "Si sceglie un personaggio (Ryu, Ken, Guile, Chun-Li, Dhalsim, Honda, Zangief, Blanka).",
+        "Giocabilita altissima, secondo la scheda."
+      ],
+      "key_rule_it": "Ogni personaggio ha le proprie mosse e combo.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole sfidare un avversario in un duello e imparare le mosse di un personaggio.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Street Fighter II: The World Warrior» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "street-fighter-ii-the-world-warrior-1991"
     },
     {
       "game_id": "sonic-the-hedgehog-1991",
@@ -417,17 +857,120 @@
       "scheda_basis": "sonic-the-hedgehog-1991"
     },
     {
-      "game_id": "street-fighter-ii-the-world-warrior-1991",
-      "title": "Street Fighter II: The World Warrior",
+      "game_id": "puyo-puyo-1991",
+      "title": "Puyo Puyo",
       "year": 1991,
-      "platform": "Arcade",
-      "genre_it": "Picchiaduro a incontri",
-      "objective_it": "Primeggiare nel grande torneo mondiale di arti marziali Street Fighter Tournament II, indetto da M. Bison.",
+      "platform": "MSX2",
+      "genre_it": "Rompicapo",
+      "objective_it": "Vincere vari livelli del gioco di abilita per sventare i piani del Principe Oscuro (Dark Prince), con la maghetta Arle Nadja.",
       "how_it_plays_it": [
-        "Si sceglie un personaggio (Ryu, Ken, Guile, Chun-Li, Dhalsim, Honda, Zangief, Blanka).",
-        "Giocabilita altissima, secondo la scheda."
+        "Puzzle game: i «puyo», creaturine multicolore, piovono dal cielo e vanno posizionati dal giocatore."
       ],
-      "key_rule_it": "Ogni personaggio ha le proprie mosse e combo.",
+      "key_rule_it": "Un gruppo di almeno quattro puyo viene eliminato: crea spazio e permette di continuare a giocare.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": "Si gioca contro la CPU o, in modalita due giocatori, contro un avversario umano.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama i rompicapo e conosce Tetris.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "tetris-1989",
+          "title": "Tetris",
+          "relation": "owes_to",
+          "relation_it": "deve parecchio a",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-33"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Puyo Puyo» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "puyo-puyo-1991"
+    },
+    {
+      "game_id": "super-mario-kart-1992",
+      "title": "Super Mario Kart",
+      "year": 1992,
+      "platform": "SNES",
+      "genre_it": "Simulatore di guida",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Si corre su kart che lanciano gusci di tartaruga, facendo attenzione a non scivolare sulle bucce di banana.",
+        "Tra gli oggetti: super stelle, fulmini che rimpiccioliscono, piume e fiori di fuoco.",
+        "Personaggi: i fratelli idraulici, la principessa Peach, Yoshi, Donkey Kong Jr., Toad e i «cattivi» Bowser e Koopa."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Venti piste, divise in quattro coppe da cinque circuiti ciascuna.",
+      "difficulty_it": null,
+      "players_it": "Nasce come versione di F-Zero pensata per far giocare due giocatori assieme.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una corsa con i personaggi Nintendo da fare in compagnia.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "f-zero-1990",
+          "title": "F-Zero",
+          "relation": "derived_from",
+          "relation_it": "nato come versione di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-07"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Super Mario Kart» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-mario-kart-1992"
+    },
+    {
+      "game_id": "tengai-makyo-ii-manji-maru-1992",
+      "title": "Tengai Makyō II: Manji Maru",
+      "year": 1992,
+      "platform": "Cd-Rom",
+      "genre_it": "J-RPG",
+      "objective_it": "Riportare il mondo alla pace con un lungo viaggio, come Manjimaru Sengoku, discendente dei Fire.",
+      "how_it_plays_it": [
+        "Gioco di ruolo per PC in un ipotetico Giappone feudale chiamato Jipang.",
+        "Scontro tra i clan dei Fire e dei Roots.",
+        "Al viaggio si uniscono Danjūrō Kabuki, Tarō Gokuraku e Kinu."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Oji Hiroi voleva oltre cinquanta finali diversi; la scheda dice che la tecnologia dell'epoca e stata un ostacolo.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama i giochi di ruolo con una trama vasta.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tengai Makyō II: Manji Maru» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tengai-makyo-ii-manji-maru-1992"
+    },
+    {
+      "game_id": "romancing-saga-1992",
+      "title": "Romancing SaGa",
+      "year": 1992,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Ritrovare le Fatestones, disperse nel mondo, per sconfiggere di nuovo Saruin.",
+      "how_it_plays_it": [
+        "Mondo fantasy di Mardias, da esplorare con liberta, senza condizionamenti e strette indicazioni da seguire.",
+        "Otto personaggi giocanti: Albert, Aisha, Jamil, Claudia, Hawk, Sif, Gray e Barbara, ciascuno con un'ampia narrazione alle spalle."
+      ],
+      "key_rule_it": "La liberta che Akitoshi Kawazu ha voluto lasciare al giocatore.",
       "structure_it": null,
       "difficulty_it": null,
       "players_it": null,
@@ -437,12 +980,150 @@
         "durata"
       ],
       "for_whom_it": {
-        "text": "Chi vuole sfidare un avversario in un duello e imparare le mosse di un personaggio.",
+        "text": "Chi vuole esplorare un grande mondo senza un percorso obbligato.",
         "editorial": true
       },
       "related_games": [],
-      "cite_as_it": "Fonte: scheda di «Street Fighter II: The World Warrior» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
-      "scheda_basis": "street-fighter-ii-the-world-warrior-1991"
+      "cite_as_it": "Fonte: scheda di «Romancing SaGa» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "romancing-saga-1992"
+    },
+    {
+      "game_id": "shin-megami-tensei-1992",
+      "title": "Shin Megami Tensei",
+      "year": 1992,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Ambientato a Tokyo in un futuro prossimo: il protagonista e trasportato trent'anni nel futuro, in mezzo alla guerra tra i culti dell'Order of Messiah (che seguono il demone Yhvh) e del Ring of Gaia (seguaci di Lucifero)."
+      ],
+      "key_rule_it": "Il giocatore sceglie se schierarsi con una delle due fazioni o agire da indipendente.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un gioco di ruolo con demoni e una scelta di fazione.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "digital-devil-story-megami-tensei-ii-1990",
+          "title": "Digital Devil Story: Megami Tensei II",
+          "relation": "same_series_implicit",
+          "relation_it": "stessa serie (implicita)",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-21"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Shin Megami Tensei» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "shin-megami-tensei-1992"
+    },
+    {
+      "game_id": "ogre-battle-the-march-of-the-black-queen-1993",
+      "title": "Ogre Battle: The March of the Black Queen",
+      "year": 1993,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Guidare una rivoluzione di ribelli contro un impero corrotto, governato da una malvagia imperatrice.",
+      "how_it_plays_it": [
+        "Sviluppo dei personaggi e combattimenti da gioco di ruolo uniti a elementi di videogioco tattico in tempo reale.",
+        "Gli eroi devono conquistare templi e citta."
+      ],
+      "key_rule_it": "Conta il tempo che passa sulla mappa: giorno e notte, veglia e riposo. Per esempio, i vampiri sono minacce solo di notte.",
+      "structure_it": "Sedici finali differenti, in base a quali missioni vengono completate.",
+      "difficulty_it": "La scheda lo descrive come molto vasto ed elaborato.",
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un fantasy tattico con molti finali.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "tactics-ogre-let-us-cling-together-1995",
+          "title": "Tactics Ogre: Let Us Cling Together",
+          "relation": "sequel_of",
+          "relation_it": "seguito di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-22"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Ogre Battle: The March of the Black Queen» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "ogre-battle-the-march-of-the-black-queen-1993"
+    },
+    {
+      "game_id": "secret-of-mana-1993",
+      "title": "Secret of Mana",
+      "year": 1993,
+      "platform": "SNES",
+      "genre_it": "Action RPG",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Battaglia in tempo reale e sistema di menu di comando.",
+        "Colori vivaci e trama complessa e vasta, in epoca di grafica a 16 bit."
+      ],
+      "key_rule_it": "Il sistema di battaglia in tempo reale e indicato come innovativo.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": "Multigiocatore: grazie al multitap si gioca fino a tre contemporaneamente, con tre personaggi diversi.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un'avventura da vivere in compagnia, fino a tre.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Secret of Mana» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "secret-of-mana-1993"
+    },
+    {
+      "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+      "title": "Torneko's Great Adventure: Mystery Dungeon",
+      "year": 1993,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Torneko, il mercante di Dragon Quest IV, vivere avventure nel Mystery Dungeon alla ricerca di oggetti preziosi e speciali.",
+      "how_it_plays_it": [
+        "Nei dungeon si esplora, si raccolgono oggetti e si combattono mostri.",
+        "Fuori dal dungeon si possono vendere gli oggetti scoperti o equipaggiarli."
+      ],
+      "key_rule_it": "Il gioco e un roguelike, concentrato sull'esplorazione di dungeon.",
+      "structure_it": "Primo capitolo della serie Mystery Dungeon, spin-off di Dragon Quest.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un'esplorazione di dungeon con un personaggio gia noto di Dragon Quest.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "dragon-quest-1986",
+          "title": "Dragon Quest",
+          "relation": "spin_off_of",
+          "relation_it": "spin-off di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-09"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Torneko's Great Adventure: Mystery Dungeon» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "torneko-s-great-adventure-mystery-dungeon-1993"
     },
     {
       "game_id": "virtua-fighter-1993",
@@ -490,18 +1171,19 @@
       "scheda_basis": "virtua-fighter-1993"
     },
     {
-      "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
-      "title": "Torneko's Great Adventure: Mystery Dungeon",
-      "year": 1993,
-      "platform": "SNES",
-      "genre_it": "J-RPG",
-      "objective_it": "Come Torneko, il mercante di Dragon Quest IV, vivere avventure nel Mystery Dungeon alla ricerca di oggetti preziosi e speciali.",
+      "game_id": "tokimeki-memorial-forever-with-you-1994",
+      "title": "Tokimeki Memorial: Forever With You",
+      "year": 1994,
+      "platform": "PC Engine",
+      "genre_it": "Simulatore di appuntamenti",
+      "objective_it": "Destreggiarsi nei tre anni del corso di studi e trovare l'amore.",
       "how_it_plays_it": [
-        "Nei dungeon si esplora, si raccolgono oggetti e si combattono mostri.",
-        "Fuori dal dungeon si possono vendere gli oggetti scoperti o equipaggiarli."
+        "Simulatore di appuntamenti: si veste uno studente delle scuole superiori giapponesi.",
+        "La routine quotidiana e fatta di studio, sport e altre attivita, che migliorano le caratteristiche del personaggio.",
+        "Grazie a queste caratteristiche si conoscono le studentesse dell'istituto con cui frequentarsi."
       ],
-      "key_rule_it": "Il gioco e un roguelike, concentrato sull'esplorazione di dungeon.",
-      "structure_it": "Primo capitolo della serie Mystery Dungeon, spin-off di Dragon Quest.",
+      "key_rule_it": "Senza esagerare con le attenzioni, altrimenti si viene friendzonati subito: se si gioca bene le proprie carte, alla fine una delle ragazze potrebbe dichiarare il proprio amore.",
+      "structure_it": "Tre anni di corso di studi.",
       "difficulty_it": null,
       "players_it": null,
       "not_covered_by_book_it": [
@@ -510,21 +1192,12 @@
         "durata"
       ],
       "for_whom_it": {
-        "text": "Chi vuole un'esplorazione di dungeon con un personaggio gia noto di Dragon Quest.",
+        "text": "Chi vuole un dating sim romantico: la scheda precisa che non vira mai sull'erotico.",
         "editorial": true
       },
-      "related_games": [
-        {
-          "game_id": "dragon-quest-1986",
-          "title": "Dragon Quest",
-          "relation": "spin_off_of",
-          "relation_it": "spin-off di",
-          "direction": "questo gioco -> altro",
-          "relation_id": "rel-09"
-        }
-      ],
-      "cite_as_it": "Fonte: scheda di «Torneko's Great Adventure: Mystery Dungeon» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
-      "scheda_basis": "torneko-s-great-adventure-mystery-dungeon-1993"
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tokimeki Memorial: Forever With You» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tokimeki-memorial-forever-with-you-1994"
     },
     {
       "game_id": "fire-emblem-monsho-no-nazo-1994",
@@ -552,6 +1225,118 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Fire Emblem: Monshō no Nazo» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "fire-emblem-monsho-no-nazo-1994"
+    },
+    {
+      "game_id": "tekken-1994",
+      "title": "Tekken",
+      "year": 1994,
+      "platform": "Arcade",
+      "genre_it": "Picchiaduro a incontri",
+      "objective_it": "Vincere il torneo di arti marziali «The King of Iron Fist Tournament», organizzato dalla Mishima Conglomerate, che mette in palio un premio in denaro.",
+      "how_it_plays_it": [
+        "Picchiaduro con grafica 3D, movimenti fluidi, combo elaborate e incontri velocissimi.",
+        "Si parte con otto guerrieri a scelta, che diventano fino a 19 (costume Devil Kazuya incluso)."
+      ],
+      "key_rule_it": "I guerrieri si sbloccano di volta in volta mentre si procede nel gioco.",
+      "structure_it": "Il boss finale e Heihachi Mishima, capo della Mishima Conglomerate.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un picchiaduro 3D con molti personaggi da sbloccare.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "virtua-fighter-1993",
+          "title": "Virtua Fighter",
+          "relation": "rival_of",
+          "relation_it": "rivale di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-35"
+        },
+        {
+          "game_id": "virtua-fighter-1993",
+          "title": "Virtua Fighter",
+          "relation": "released_before",
+          "relation_it": "uscito prima di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-36"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Tekken» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tekken-1994"
+    },
+    {
+      "game_id": "banshee-s-last-cry-kamaitachi-no-yoru-1994",
+      "title": "Banshee's Last Cry (Kamaitachi No Yoru)",
+      "year": 1994,
+      "platform": "SNES",
+      "genre_it": "Visual novel",
+      "objective_it": "Scoprire l'assassino stando attenti a non diventare vittime, con la baita tagliata fuori dal mondo dalla nevicata.",
+      "how_it_plays_it": [
+        "Visual novel in stile giallo alla Agatha Christie, con un pizzico di sovrannaturale.",
+        "I protagonisti sono Toru (Max nella versione inglese) e Mari (Grace in Occidente), in vacanza in un rifugio di montagna.",
+        "Una tempesta di neve li costringe a ripararsi e la baita diventa la scena di un omicidio."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama i gialli e vuole una visual novel.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Banshee's Last Cry (Kamaitachi No Yoru)» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "banshee-s-last-cry-kamaitachi-no-yoru-1994"
+    },
+    {
+      "game_id": "tactics-ogre-let-us-cling-together-1995",
+      "title": "Tactics Ogre: Let Us Cling Together",
+      "year": 1995,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Sopravvivere e riconquistare il regno di Valeria con una squadra di personaggi giocanti.",
+      "how_it_plays_it": [
+        "Il protagonista e Denim Powell, parte di una resistenza locale contro le potenze occupanti.",
+        "Le mappe si vedono dall'alto e si puo fare zoom sulle arene per studiare le tattiche di conquista.",
+        "Nelle battaglie si usano fino a 12 personaggi, tutti personalizzabili in ogni caratteristica."
+      ],
+      "key_rule_it": "L'attenzione del gioco si sposta sulle tattiche.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un gioco di ruolo in cui contano soprattutto le tattiche.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "ogre-battle-the-march-of-the-black-queen-1993",
+          "title": "Ogre Battle: The March of the Black Queen",
+          "relation": "sequel_of",
+          "relation_it": "seguito di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-22"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Tactics Ogre: Let Us Cling Together» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tactics-ogre-let-us-cling-together-1995"
     },
     {
       "game_id": "chrono-trigger-1995",
@@ -643,14 +1428,45 @@
       "scheda_basis": "pokemon-red-and-blue-1996"
     },
     {
-      "game_id": "parasite-eve-1998",
-      "title": "Parasite Eve",
-      "year": 1998,
-      "platform": "PlayStation",
-      "genre_it": "Action RPG",
-      "objective_it": "Come Aya Brea, recluta della polizia di New York, affrontare la minaccia di Eve nei sei giorni tra il 24 e il 29 dicembre 1997.",
+      "game_id": "sakura-taisen-1996",
+      "title": "Sakura taisen",
+      "year": 1996,
+      "platform": "Sega Saturn",
+      "genre_it": "Visual novel",
+      "objective_it": "Come guardiamarina Ichiro Ogami, capo della Flower Division, difendere Tokyo dagli attacchi dei demoni.",
       "how_it_plays_it": [
-        "Il gioco si svolge interamente a New York, in sei giorni."
+        "Gioco multigenere: gioco di ruolo tattico, simulazione di appuntamenti e romanzo visivo.",
+        "La Flower Division e un gruppo di donne con abilita magiche che usano un'armatura a vapore chiamata Kobus.",
+        "Ambientato nel 1926, in epoca Taishō, senza ricerca di accuratezza storica."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Dieci episodi, con due modalita di gioco: avventura e battaglia.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un gioco che unisce battaglie tattiche e romanzo visivo.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Sakura taisen» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "sakura-taisen-1996"
+    },
+    {
+      "game_id": "resident-evil-1996",
+      "title": "Resident Evil",
+      "year": 1996,
+      "platform": "PlayStation",
+      "genre_it": "Survival horror",
+      "objective_it": "Capire che fine abbia fatto la squadra Bravo delle forze speciali S.T.A.R.S., con la squadra Alpha inviata a Raccoon City, colpita da un'epidemia di zombie.",
+      "how_it_plays_it": [
+        "Due personaggi giocabili: Jill Valentine e Chris Redfield.",
+        "La squadra si ritrova chiusa in una villa, accesso al centro di ricerca della Umbrella Corporation, che ha creato il virus.",
+        "Atmosfere cupe, non morti e molte pallottole."
       ],
       "key_rule_it": null,
       "structure_it": null,
@@ -662,12 +1478,266 @@
         "durata"
       ],
       "for_whom_it": {
-        "text": "Chi cerca un'avventura inquietante ambientata nella New York del Natale 1997. La scheda non descrive le meccaniche.",
+        "text": "Chi cerca il gioco che la scheda indica come origine del nome «survival horror».",
         "editorial": true
       },
       "related_games": [],
-      "cite_as_it": "Fonte: scheda di «Parasite Eve» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
-      "scheda_basis": "parasite-eve-1998"
+      "cite_as_it": "Fonte: scheda di «Resident Evil» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "resident-evil-1996"
+    },
+    {
+      "game_id": "grandia-1997",
+      "title": "Grandia",
+      "year": 1997,
+      "platform": "Sega Saturn",
+      "genre_it": "J-RPG",
+      "objective_it": "Scoprire il mistero della civilta perduta di Angelou, con la pietra magica ereditata dal padre avventuriero.",
+      "how_it_plays_it": [
+        "J-RPG fantasy con connotazioni steampunk.",
+        "Il protagonista Justin, 14 anni, viaggia intorno al mondo.",
+        "Lungo la quest si uniscono altri avventurieri, attirando l'attenzione delle forze militari di Garlyle."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un J-RPG fantasy in cui contano estetica e ambientazione.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Grandia» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "grandia-1997"
+    },
+    {
+      "game_id": "gran-turismo-the-real-driving-simulator-1997",
+      "title": "Gran Turismo: The Real Driving Simulator",
+      "year": 1997,
+      "platform": "PlayStation",
+      "genre_it": "Simulatore di guida",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Simulatore di guida con controllo DualShock, che permette una guida a 360 gradi e vibrazioni realistiche sul controller.",
+        "Piu di duecento vetture fedeli alla realta, dalle sportive a quelle piu comuni, con infinite possibilita di elaborazione."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Due modalita: «Arcade», gare su una serie molto ampia di circuiti; «Gran Turismo», si inizia da piloti esordienti e si progredisce gara dopo gara, prova dopo prova.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un simulatore di guida, con anche una modalita arcade piu classica.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Gran Turismo: The Real Driving Simulator» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "gran-turismo-the-real-driving-simulator-1997"
+    },
+    {
+      "game_id": "to-heart-1997",
+      "title": "To Heart",
+      "year": 1997,
+      "platform": "PC",
+      "genre_it": "Simulatore di appuntamenti",
+      "objective_it": "Conquistare il cuore di una delle otto ragazze, con il timido Hiroyuki Fujita.",
+      "how_it_plays_it": [
+        "Visual novel e simulatore di appuntamenti.",
+        "Gran parte del tempo si legge la storia o i dialoghi tra i protagonisti.",
+        "Le decisioni, i «punti decisionali», sono poche."
+      ],
+      "key_rule_it": "Nel 90% dei casi Hiroyuki finisce per innamorarsi di Akari Kamigishi, amica d'infanzia.",
+      "structure_it": "Otto ragazze.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi preferisce leggere una storia che prendere molte decisioni.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «To Heart» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "to-heart-1997"
+    },
+    {
+      "game_id": "monster-rancher-1997",
+      "title": "Monster Rancher",
+      "year": 1997,
+      "platform": "PlayStation",
+      "genre_it": "Simulatore di vita",
+      "objective_it": "Allevare mostri e farli partecipare a vari tornei.",
+      "how_it_plays_it": [
+        "Si e un allevatore di mostri: bisogna crearli e farli crescere.",
+        "I mostri si generano mettendo vari CD nella PlayStation: ogni CD leggibile crea un mostro originale, con caratteristiche proprie, usando i metadati del supporto."
+      ],
+      "key_rule_it": "Alcuni CD danno mostri unici: il CD del gioco «Tecmo's Deception: Invitation to Darkness» genera Ardebaran, uno dei cattivi di quel gioco; gli album musicali natalizi danno un mostro di tipo «Santa».",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un gioco di allevamento in cui i propri CD diventano mostri.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Monster Rancher» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "monster-rancher-1997"
+    },
+    {
+      "game_id": "tales-of-destiny-1997",
+      "title": "Tales of Destiny",
+      "year": 1997,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": "Unire le forze con gli amici contro un nemico che cerca una reliquia di un'antica guerra.",
+      "how_it_plays_it": [
+        "RPG in un mondo fantasy.",
+        "Si impersona Stahn, che incontra la spada senziente Dymlos e altri spadaccini.",
+        "Le battaglie si svolgono su un piano 2D, dove personaggi e nemici agiscono in tempo reale."
+      ],
+      "key_rule_it": "Gli attacchi in mischia e a distanza avvengono in tempo reale; il lancio di incantesimi richiede tempo, tanto piu lungo quanto piu l'incantesimo e complesso.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un RPG con battaglie in tempo reale.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tales of Destiny» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tales-of-destiny-1997"
+    },
+    {
+      "game_id": "dynasty-warriors-1997",
+      "title": "Dynasty Warriors",
+      "year": 1997,
+      "platform": "PlayStation",
+      "genre_it": "Picchiaduro a incontri",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Picchiaduro Koei nell'antica Cina, intorno all'anno 200, con tre regni in lotta: Wu (Sun Jian), Wei (Cao Cao) e Shu (Liu Bei).",
+        "16 personaggi giocabili, sei da sbloccare, ispirati a figure storiche dei Tre Regni; ci sono anche Nobunaga e Toukichi, del periodo Sengoku giapponese."
+      ],
+      "key_rule_it": "Scontri naturali, senza troppe combo, con un uso realistico delle armi dell'epoca.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un picchiaduro storico con i Tre Regni.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "samurai-warriors-2004",
+          "title": "Samurai Warriors",
+          "relation": "spin_off_of",
+          "relation_it": "spin-off di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-28"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Dynasty Warriors» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "dynasty-warriors-1997"
+    },
+    {
+      "game_id": "final-fantasy-vii-1997",
+      "title": "Final Fantasy VII",
+      "year": 1997,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Si controlla il mercenario Cloud Strife, all'inizio membro degli ecoterroristi di Avalanche, che vogliono fermare la compagnia Shinra.",
+        "Con il tempo si affrontano altri nemici, come Sephiroth.",
+        "Modelli 3D dei personaggi sovrapposti a sfondi pre-renderizzati in 2D, con full motion video."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il Final Fantasy che per molti e il capolavoro della serie e un punto di svolta tecnico.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "final-fantasy-1987",
+          "title": "Final Fantasy",
+          "relation": "series_entry",
+          "relation_it": "settimo capitolo",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-31"
+        },
+        {
+          "game_id": "kingdom-hearts-2002",
+          "title": "Kingdom Hearts",
+          "relation": "shared_creator",
+          "relation_it": "ponte tramite Tetsuya Nomura",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-42"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Final Fantasy VII» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "final-fantasy-vii-1997"
+    },
+    {
+      "game_id": "machi-1998",
+      "title": "Machi",
+      "year": 1998,
+      "platform": "Sega Saturn",
+      "genre_it": "Visual novel",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Visual novel descritta dai creatori come «romanzo sonoro»: la narrazione e centrale.",
+        "Otto protagonisti, tra cui un detective, un attore, un gangster e uno sceneggiatore, con le loro avventure e conflitti a Shibuya."
+      ],
+      "key_rule_it": "A seconda delle decisioni del giocatore si raggiungono finali diversi, sia positivi che negativi.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una storia corale ambientata a Shibuya.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Machi» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "machi-1998"
     },
     {
       "game_id": "xenogears-1998",
@@ -696,6 +1766,298 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Xenogears» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "xenogears-1998"
+    },
+    {
+      "game_id": "tenchu-stealth-assassins-1998",
+      "title": "Tenchu: Stealth Assassins",
+      "year": 1998,
+      "platform": "PlayStation",
+      "genre_it": "Stealth",
+      "objective_it": "Portare a termine i compiti assegnati da Lord Gohda, come Rikimaru o Ayame del clan Azuma.",
+      "how_it_plays_it": [
+        "Gioco stealth nel Giappone feudale, che non si limita agli scontri a suon di ninjatō o shuriken.",
+        "Si sviluppano le caratteristiche del ninja: muoversi in silenzio senza essere visti, camuffarsi, scomparire in caso di necessita."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Dieci livelli di compiti da portare a termine.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole fare il ninja con furtivita invece di sola azione.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tenchu: Stealth Assassins» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tenchu-stealth-assassins-1998"
+    },
+    {
+      "game_id": "metal-gear-solid-1998",
+      "title": "Metal Gear Solid",
+      "year": 1998,
+      "platform": "PlayStation",
+      "genre_it": "Stealth",
+      "objective_it": "Infiltrarsi in un impianto di armi nucleari, liberare gli ostaggi e impedire ai terroristi dell'unita rinnegata Foxhound di lanciare un attacco nucleare.",
+      "how_it_plays_it": [
+        "Si controlla Solid Snake, super soldato.",
+        "Trama cinematografica, in un futuro ucronico in cui la Guerra Fredda non e mai terminata."
+      ],
+      "key_rule_it": "Il compito richiede di dosare circospezione, intelligenza e forza.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un'infiltrazione con una trama da film.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Metal Gear Solid» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "metal-gear-solid-1998"
+    },
+    {
+      "game_id": "parasite-eve-1998",
+      "title": "Parasite Eve",
+      "year": 1998,
+      "platform": "PlayStation",
+      "genre_it": "Action RPG",
+      "objective_it": "Come Aya Brea, recluta della polizia di New York, affrontare la minaccia di Eve nei sei giorni tra il 24 e il 29 dicembre 1997.",
+      "how_it_plays_it": [
+        "Il gioco si svolge interamente a New York, in sei giorni."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un'avventura inquietante ambientata nella New York del Natale 1997. La scheda non descrive le meccaniche.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Parasite Eve» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "parasite-eve-1998"
+    },
+    {
+      "game_id": "silent-hill-1999",
+      "title": "Silent Hill",
+      "year": 1999,
+      "platform": "PlayStation",
+      "genre_it": "Survival horror",
+      "objective_it": "Ritrovare la figlia adottiva Cheryl, scomparsa dopo un incidente.",
+      "how_it_plays_it": [
+        "Si controlla Harry Mason, scrittore rimasto vedovo.",
+        "La cittadina avvolta nella nebbia, al suono di una sirena antiaerea, muta nell'«Otherworld», dove tutto e mangiato da fiamme e cenere.",
+        "Si lotta con demoni reali e altri molto piu personali."
+      ],
+      "key_rule_it": "Non punta su splatter, spavento e mostri da uccidere, ma sulle paure interiori, con atmosfere inquietanti e una trama non convenzionale.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi preferisce un horror psicologico a uno splatter.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Silent Hill» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "silent-hill-1999"
+    },
+    {
+      "game_id": "valkyrie-profile-1999",
+      "title": "Valkyrie Profile",
+      "year": 1999,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Lenneth, reclutare gli einherjar per combattere con gli Æsir contro i Vanir e impedire la distruzione di Asgard nel Ragnarok.",
+      "how_it_plays_it": [
+        "RPG fantasy che usa la mitologia norrena.",
+        "24 personaggi giocabili; la protagonista e Lenneth, fanciulla guerriera serva di Odino.",
+        "Combattimento a turni: le due fazioni si alternano e l'intero gruppo puo attaccare simultaneamente."
+      ],
+      "key_rule_it": "Ogni membro della squadra e assegnato a uno dei pulsanti del controller; ogni nemico ha un proprio turno e non puo combinare gli attacchi.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un RPG con mitologia norrena e un combattimento a turni diverso dal solito.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Valkyrie Profile» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "valkyrie-profile-1999"
+    },
+    {
+      "game_id": "super-robot-wars-alpha-2000",
+      "title": "Super Robot Wars Alpha",
+      "year": 2000,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "RPG non fantasy in cui i protagonisti sono i robot dei manga e anime piu amati.",
+        "Tra le serie: Getter Robot, Mazinga Z, Mobile Suit Gundam, Neon Genesis Evangelion, The Super Dimension Fortress Macross e Giant Robot."
+      ],
+      "key_rule_it": "La trama diventa quasi secondaria: il punto di svolta e poter giocare con i propri miti.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole mettere insieme i robot degli anime.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Super Robot Wars Alpha» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-robot-wars-alpha-2000"
+    },
+    {
+      "game_id": "tales-of-eternia-2000",
+      "title": "Tales of Eternia",
+      "year": 2000,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": "Scoprire le origini di Meredy, misteriosa ragazza che parla una lingua sconosciuta.",
+      "how_it_plays_it": [
+        "Terzo capitolo della serie Tales, nel mondo fantastico di Inferia, con il giovane cacciatore Reid Hershel e gli amici Farah e Keele.",
+        "La ricerca li porta oltre un confine dimensionale, nel regno di Celestia, dentro un conflitto secolare tra i due mondi.",
+        "Grafica legata all'estetica anime, con un filmato introduttivo animato."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama i JRPG dall'estetica anime.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tales of Eternia» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tales-of-eternia-2000"
+    },
+    {
+      "game_id": "onimusha-warlords-2001",
+      "title": "Onimusha: Warlords",
+      "year": 2001,
+      "platform": "PlayStation 2",
+      "genre_it": "Avventura dinamica",
+      "objective_it": "Salvare la principessa Yuki dai demoni Genma, alleati delle forze di Nobunaga, dopo la morte di Nobunaga in battaglia.",
+      "how_it_plays_it": [
+        "Un po' action e un po' survival horror, nel Giappone del periodo Sengoku.",
+        "Si controllano insieme il samurai Samanosuke Akechi, con poteri sovrannaturali concessi dagli Oni, e la ninja Kaede."
+      ],
+      "key_rule_it": "I combattimenti sono centrali nel gameplay, a differenza della modalita principale dei survival horror.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un'azione con atmosfere da survival horror nel Giappone dei samurai.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Onimusha: Warlords» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "onimusha-warlords-2001"
+    },
+    {
+      "game_id": "project-zero-2001",
+      "title": "Project Zero",
+      "year": 2001,
+      "platform": "PlayStation 2",
+      "genre_it": "Survival horror",
+      "objective_it": "Ritrovare il fratello Mafuyu, scomparso dopo aver visitato la Himuro Mansion, come Miku Hinasaki.",
+      "how_it_plays_it": [
+        "Si e Miku Hinasaki, studentessa sensitiva, nel 1986, nella Himuro Mansion, casa maledetta nei dintorni di Tokyo.",
+        "Un rilevatore spettrale la allerta in caso di fantasmi vendicatori; i fantasmi meno ostili possono offrire indizi."
+      ],
+      "key_rule_it": "Si e armati solo di una macchina fotografica speciale che individua ed esorcizza gli spettri.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un horror in cui l'arma e una macchina fotografica.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Project Zero» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "project-zero-2001"
+    },
+    {
+      "game_id": "animal-crossing-2001",
+      "title": "Animal Crossing",
+      "year": 2001,
+      "platform": "Nintendo 64",
+      "genre_it": "Simulatore di vita",
+      "objective_it": "Vivere in una citta abitata da animaletti antropomorfi: il gioco non ha una fine.",
+      "how_it_plays_it": [
+        "Simulatore di vita: si arriva in treno e il gattino Girolamo aiuta a creare il personaggio.",
+        "Tom Nook accoglie in stazione, aiuta a scegliere la casa e offre un lavoro.",
+        "Si puo lavorare per migliorare la dimora, piantare fiori per migliorare la citta e aiutare i concittadini nei problemi quotidiani."
+      ],
+      "key_rule_it": "Non ha una fine: il senso del gioco e vivere e divertirsi.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un gioco senza obiettivi da raggiungere.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "animal-crossing-new-horizons-2020",
+          "title": "Animal Crossing: New Horizons",
+          "relation": "series_entry",
+          "relation_it": "quinto titolo di serie",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-29"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Animal Crossing» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "animal-crossing-2001"
     },
     {
       "game_id": "kingdom-hearts-2002",
@@ -735,6 +2097,131 @@
       "scheda_basis": "kingdom-hearts-2002"
     },
     {
+      "game_id": "way-of-the-samurai-2002",
+      "title": "Way of the Samurai",
+      "year": 2002,
+      "platform": "PlayStation 2",
+      "genre_it": "Action game",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Action game ambientato nel 1878, dopo la caduta dello shogunato Tokugawa, durante la ribellione di Satsuma.",
+        "Si e il ronin errante Kenji, che arriva all'avamposto di Rokkotsu Pass.",
+        "Il divertimento sta nei combattimenti e nel collezionare e usare katane e altre spade."
+      ],
+      "key_rule_it": "Ogni scelta del giocatore influisce pesantemente sulla storia.",
+      "structure_it": "Sei finali diversi. Si inizia con una sola lama e alla fine se ne possono avere usate 40 diverse, ognuna con caratteristiche proprie.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un'azione con spade e storia che cambia in base alle scelte.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Way of the Samurai» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "way-of-the-samurai-2002"
+    },
+    {
+      "game_id": "monster-hunter-2004",
+      "title": "Monster Hunter",
+      "year": 2004,
+      "platform": "PlayStation 2",
+      "genre_it": "Action game",
+      "objective_it": "Portare a termine le missioni da cacciatore emergente.",
+      "how_it_plays_it": [
+        "Si puo giocare offline, ma il nucleo e il gioco online, con piu mostri, piu missioni e amici cacciatori.",
+        "Armature, armi e oggetti si creano solo sfruttando corna, ossa o squame dei mostri uccisi.",
+        "Le missioni, assegnate dall'anziano del villaggio o dalla gilda, sono di quattro tipi: caccia, raccolta, cattura ed evento."
+      ],
+      "key_rule_it": "Caccia: trovare, inseguire e uccidere uno o piu mostri. Raccolta: trovare oggetti come erbe o parti di mostri. Cattura: catturare una preda con una trappola.",
+      "structure_it": null,
+      "difficulty_it": "La difficolta delle missioni e crescente.",
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole cacciare mostri, meglio in compagnia online.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Monster Hunter» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "monster-hunter-2004"
+    },
+    {
+      "game_id": "tales-of-rebirth-2004",
+      "title": "Tales of Rebirth",
+      "year": 2004,
+      "platform": "PlayStation 2",
+      "genre_it": "J-RPG",
+      "objective_it": "Salvare Claire Bennett, rapita dagli agenti di Agarte, erede al trono.",
+      "how_it_plays_it": [
+        "Sesto capitolo principale della saga, in un mondo in cui umani (Huma) e bestie (Gajuma) coesistono in relativa pace.",
+        "Si segue Veigue Lungberg, un Huma; con i suoi compagni resta coinvolto nel conflitto razziale.",
+        "Personaggi in grafica bidimensionale su sfondi tridimensionali; la telecamera segue da una visuale laterale-lunga, con zoom in avanti o indietro."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama la serie Tales e la trama sul conflitto tra razze.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tales of Rebirth» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tales-of-rebirth-2004"
+    },
+    {
+      "game_id": "samurai-warriors-2004",
+      "title": "Samurai Warriors",
+      "year": 2004,
+      "platform": "PlayStation 2",
+      "genre_it": "Hack and slash",
+      "objective_it": "Come singolo ufficiale in battaglia, respingere orde di soldati nemici e sconfiggere il comandante nemico.",
+      "how_it_plays_it": [
+        "Spin off di Dynasty Warriors, ambientato nel Giappone feudale contro Nobunaga Oda.",
+        "15 personaggi giocabili, alcuni da sbloccare procedendo nella trama, basati su figure storiche: Kenshin Uesugi, Shingen Takeda, Nobunaga Oda, Yukimura Sanada, Ranmaru Mori, Hattori Hanzō, oltre a Oichi e Noh.",
+        "Attacchi combo e mosse speciali, come far esplodere la folla, che si evolvono con la crescita del personaggio."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole battaglie di massa nel Giappone feudale.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "dynasty-warriors-1997",
+          "title": "Dynasty Warriors",
+          "relation": "spin_off_of",
+          "relation_it": "spin-off di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-28"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Samurai Warriors» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "samurai-warriors-2004"
+    },
+    {
       "game_id": "tales-of-the-abyss-2005",
       "title": "Tales of the Abyss",
       "year": 2005,
@@ -761,6 +2248,340 @@
       "related_games": [],
       "cite_as_it": "Fonte: scheda di «Tales of the Abyss» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
       "scheda_basis": "tales-of-the-abyss-2005"
+    },
+    {
+      "game_id": "yakuza-2005",
+      "title": "Yakuza",
+      "year": 2005,
+      "platform": "PlayStation 2",
+      "genre_it": "Action",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Mix tra picchiaduro a scorrimento e videogioco d'azione.",
+        "Si segue Kazuma Kiryu, uno yakuza che ha passato dieci anni in prigione da innocente.",
+        "Una volta uscito, scopre che la malavita cerca 10 miliardi di yen rubati al clan Tojo e che l'orfana Haruka, presa di mira dal clan, e la chiave per recuperarli.",
+        "Si svolge interamente a Kamurochō, ricostruzione realistica del quartiere a luci rosse di Kabukichō a Shinjuku, Tokyo."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca la criminalita organizzata giapponese in un quartiere ricostruito.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Yakuza» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "yakuza-2005"
+    },
+    {
+      "game_id": "the-world-ends-with-you-2007",
+      "title": "The World Ends with You",
+      "year": 2007,
+      "platform": "Nintendo DS",
+      "genre_it": "Action RPG",
+      "objective_it": "Sopravvivere una settimana all'incrocio di Shibuya per tornare in vita.",
+      "how_it_plays_it": [
+        "RPG in cui chi muore si ritrova all'incrocio di Shibuya e deve partecipare a un gioco che determina il suo destino.",
+        "Il protagonista Neku Sakuraba e i suoi alleati combattono contro i Rumori (Noise) e i Mietitori (Reaper), rischiando di essere cancellati per sempre."
+      ],
+      "key_rule_it": "Il combattimento usa le caratteristiche del Nintendo DS: scontri su entrambi gli schermi e attacchi eseguiti con movimenti sul touchscreen o con il microfono.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un RPG ambientato a Shibuya e pensato per il Nintendo DS.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «The World Ends with You» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "the-world-ends-with-you-2007"
+    },
+    {
+      "game_id": "akiba-s-trip-2011",
+      "title": "Akiba's Trip",
+      "year": 2011,
+      "platform": "PlayStation Portable",
+      "genre_it": "Avventura dinamica",
+      "objective_it": "Salvare il mondo da un'invasione aliena di Bugatta e difendere Akihabara dai cattivi.",
+      "how_it_plays_it": [
+        "Avventura dinamica ad Akihabara, quartiere di otaku, anime e tecnologia, in grafica «anime inspired».",
+        "Protagonista Matome Mayonaka, una Buggata rinnegata che combatte i suoi simili; con lei Tamotsu Denkigai, otaku umano trasformato in Buggata da Matome, la sorellina Niwaka e Arisa Ahokainen, otaku finlandese."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un gioco folle e colorato ambientato nel quartiere otaku di Tokyo.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Akiba's Trip» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "akiba-s-trip-2011"
+    },
+    {
+      "game_id": "yo-kai-watch-2013",
+      "title": "Yo-kai Watch",
+      "year": 2013,
+      "platform": "Nintendo 3DS",
+      "genre_it": "J-RPG",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "RPG basato sugli Yōkai del folklore giapponese.",
+        "Si gioca come Nathan «Nate» Adams o Katie Forester, a scelta del giocatore, che riceve lo Yo-kai Watch per vedere gli Yo-kai.",
+        "Si viaggia per la citta facendo amicizia con Yo-kai pacifici, combattendo quelli ostili e risolvendo i problemi causati da quelli dispettosi."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un RPG con i mostri del folklore giapponese, accessibile a un pubblico giovane.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "pokemon-red-and-blue-1996",
+          "title": "Pokémon Red and Blue",
+          "relation": "compared_to_not_copy",
+          "relation_it": "confronto con (NON copia)",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-34"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Yo-kai Watch» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "yo-kai-watch-2013"
+    },
+    {
+      "game_id": "yomawari-night-alone-2015",
+      "title": "Yomawari: Night Alone",
+      "year": 2015,
+      "platform": "PlayStation Vita",
+      "genre_it": "Survival horror",
+      "objective_it": "Ritrovare il cane Poro e la sorella maggiore, uscita a cercarlo e mai tornata.",
+      "how_it_plays_it": [
+        "Survival horror di Nippon Ichi Software: una bambina kawaii in un mondo oscuro e terrorizzante.",
+        "Armata solo di torcia, la protagonista esce di casa e trova la citta vuota e abitata da mostri.",
+        "I mostri non si possono uccidere, almeno all'inizio: bisogna nascondersi, basandosi sul battito del loro cuore come su un radar."
+      ],
+      "key_rule_it": "Ogni creatura malvagia puo essere elusa in un modo preciso che il giocatore deve scoprire.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un horror da affrontare senza combattere.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Yomawari: Night Alone» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "yomawari-night-alone-2015"
+    },
+    {
+      "game_id": "tokyo-dark-2017",
+      "title": "Tokyo Dark",
+      "year": 2017,
+      "platform": "Microsoft Windows",
+      "genre_it": "Point-and-click adventure game",
+      "objective_it": "Ritrovare il partner scomparso, il detective Kazuki Tanaka, come la detective Itō Ayami.",
+      "how_it_plays_it": [
+        "Gioco indipendente reso possibile da una campagna di crowdfunding.",
+        "Ayami e sempre piu ossessionata dal ritrovare il partner; dopo essere entrata in possesso di una strana maschera, si convince che sia la chiave per riportare a casa Tanaka."
+      ],
+      "key_rule_it": "Le scelte continue del giocatore influenzano lo stato mentale e i processi di pensiero di Ayami; la loro somma porta a uno dei molteplici finali.",
+      "structure_it": "Piu finali.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un mistero in cui le scelte cambiano il finale.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tokyo Dark» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tokyo-dark-2017"
+    },
+    {
+      "game_id": "sushi-striker-the-way-of-sushido-2018",
+      "title": "Sushi Striker: The Way of Sushido",
+      "year": 2018,
+      "platform": "Nintendo 3DS",
+      "genre_it": "Rompicapo",
+      "objective_it": "Far revocare il divieto del sushi imposto dall'impero, con il protagonista Musashi.",
+      "how_it_plays_it": [
+        "Puzzle game ambientato in un mondo in cui il sushi e proibito.",
+        "Si abbinano piatti di sushi dello stesso colore su una serie di nastri trasportatori per causare danni all'avversario."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": "Battaglie individuali con avversari controllati dalla CPU.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un puzzle game originale, con il sushi come tema.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Sushi Striker: The Way of Sushido» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "sushi-striker-the-way-of-sushido-2018"
+    },
+    {
+      "game_id": "animal-crossing-new-horizons-2020",
+      "title": "Animal Crossing: New Horizons",
+      "year": 2020,
+      "platform": "Nintendo Switch",
+      "genre_it": "Simulatore di vita",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Simulatore di vita: ogni giocatore ha un'isoletta tutta sua da customizzare, costruire e modificare.",
+        "Si puo invitare altri animaletti, raccogliere frutta e pesce, far crescere piante e fiori."
+      ],
+      "key_rule_it": "La grande novita e l'isola personale al posto del solito villaggio.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un gioco sereno, senza fretta.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "animal-crossing-2001",
+          "title": "Animal Crossing",
+          "relation": "series_entry",
+          "relation_it": "quinto titolo di serie",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-29"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Animal Crossing: New Horizons» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "animal-crossing-new-horizons-2020"
+    },
+    {
+      "game_id": "the-centennial-case-a-shijima-story-2022",
+      "title": "The Centennial Case: A Shijima Story",
+      "year": 2022,
+      "platform": "PlayStation 5",
+      "genre_it": "Visual novel",
+      "objective_it": "Svelare i misteri di un secolo di storia della famiglia Shijima, indagando su quattro morti che si riveleranno omicidi.",
+      "how_it_plays_it": [
+        "Gioco cinematografico e complesso nella narrazione, con lunghi filmati e descrizioni accurate.",
+        "Si e la scrittrice di gialli Haruka Kagami, in un'indagine non ufficiale.",
+        "Le morti sono avvenute nel 1922, nel 1972 e nel 2022."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Tre fasi: «Caso», «Deduzione» e «Risoluzione».",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama i gialli e le storie cinematografiche.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «The Centennial Case: A Shijima Story» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "the-centennial-case-a-shijima-story-2022"
+    },
+    {
+      "game_id": "paranormasight-the-seven-mysteries-of-honjo-2023",
+      "title": "Paranormasight: The Seven Mysteries of Honjo",
+      "year": 2023,
+      "platform": "iOS e Android",
+      "genre_it": "Visual novel",
+      "objective_it": null,
+      "how_it_plays_it": [
+        "Visual novel pensata principalmente per smartphone, ambientata negli anni '80 a Sumida, Tokyo.",
+        "La trama segue le leggende urbane dei sette misteri di Honjo: una notte diverse persone sono colpite da maledizioni mortali; al centro Yakko Sakazaki, Tetsuo Tsutsumi e Harue Shigima.",
+        "Il gameplay si concentra sulla trama, con brevi sezioni di indagini e quiz su cio che il giocatore ha appreso."
+      ],
+      "key_rule_it": "I personaggi possono morire: allora si torna sui propri passi e si compiono deduzioni e scelte diverse.",
+      "structure_it": "Un diagramma di flusso permette di passare da una sottotrama all'altra e di seguire un personaggio o un altro.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi ama le leggende urbane e le visual novel investigative.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Paranormasight: The Seven Mysteries of Honjo» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "paranormasight-the-seven-mysteries-of-honjo-2023"
+    },
+    {
+      "game_id": "rise-of-the-ronin-2024",
+      "title": "Rise of the Rōnin",
+      "year": 2024,
+      "platform": "PlayStation 5",
+      "genre_it": "Action RPG",
+      "objective_it": "Rovesciare lo shogunato, come i Blade Twins, feriti dall'omicidio della propria famiglia.",
+      "how_it_plays_it": [
+        "RPG storico a Yokohama, negli ultimi anni del periodo Edo, alla vigilia della guerra Boshin.",
+        "Il sesso dei Blade Twins si sceglie prima di iniziare.",
+        "Si incontra il samurai Ryōma Sakamoto, a capo del movimento anti-shogunato.",
+        "Scontri e battaglie realistici e possibilita di esplorare Yokohama, Kyoto ed Edo."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un RPG storico sul Giappone di fine Edo.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Rise of the Rōnin» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "rise-of-the-ronin-2024"
     }
   ],
   "ai_query_surface": [
