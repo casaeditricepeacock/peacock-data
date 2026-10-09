@@ -1,0 +1,212 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "squadra_formazione",
+  "label": "La squadra e la formazione — Fire Emblem, Tactics Ogre, Valkyrie Profile, Dynasty Warriors, Samurai Warriors, Best Play Pro Yakyuu, Family Stadium",
+  "intensity": "calcolata_e_corale",
+  "tempo": "a_turni_e_a_ondate",
+  "sensory_channels": [
+    "visivo",
+    "propriocettivo",
+    "sociale"
+  ],
+  "core_statement": "In questi giochi il giocatore non e un eroe solo: e chi dispone. Sceglie chi schierare, in che ordine, su quale terreno. Che sia una mappa vista dall'alto, un campo da baseball o una battaglia di massa, la decisione importante viene prima del gesto.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "fire_emblem_1994",
+      "dataset_id": "fire-emblem-monsho-no-nazo-1994",
+      "title": "Fire Emblem: Monshō no Nazo",
+      "year": 1994,
+      "developer": "Intelligent Systems",
+      "space_type": "continente_di_archanea",
+      "scheda_facts_it": [
+        "Secondo titolo della saga (13 episodi, quattro spin-off, tre remake), considerato dalla critica il piu innovativo.",
+        "Uscito solo in Giappone, diviso in Book 1 (il primo capitolo del 1990 migliorato) e Book 2 (continua la narrazione).",
+        "Marth, principe di Altea, e costretto all'esilio quando il regno di Gra attacca la sua patria; deve salvare la sorella rapita e riconquistare il reame.",
+        "Prodotto da Gunpei Yokoi, scritto e progettato da Shouzou Kaga."
+      ],
+      "basho": "Il continente di Archanea come scacchiera di un esilio: un principe lontano dalla patria deve percorrerla tutta per tornarvi.",
+      "sensory_breakdown": {
+        "visual": "un continente da attraversare, dall'esilio al ritorno",
+        "narrative": "un lungo percorso: la riconquista come somma di tappe"
+      },
+      "peacock_reading": "Fire Emblem e la formazione come cura: ogni pezzo conta perche il percorso e lungo e il reame va riconquistato un passo alla volta."
+    },
+    {
+      "id": "tactics_ogre_1995",
+      "dataset_id": "tactics-ogre-let-us-cling-together-1995",
+      "title": "Tactics Ogre: Let Us Cling Together",
+      "year": 1995,
+      "developer": "Quest",
+      "space_type": "valeria_vista_dall_alto",
+      "scheda_facts_it": [
+        "Yasumi Matsuno, creatore di Ogre Battle, lo scrive, lo dirige e lo disegna; sviluppato da Quest.",
+        "L'attenzione si sposta sulle tattiche della squadra, che deve sopravvivere e riconquistare il regno di Valeria.",
+        "Denim Powell fa parte di una resistenza locale contro le potenze occupanti.",
+        "Le mappe si vedono dall'alto e si puo fare zoom sulle arene per studiare le tattiche; fino a 12 personaggi, personalizzabili in ogni caratteristica."
+      ],
+      "basho": "La mappa di Valeria vista dall'alto, con zoom sulle arene: lo sguardo del comandante, non quello del soldato.",
+      "sensory_breakdown": {
+        "visual": "la mappa dall'alto con lo zoom: il campo come tavolo di studio",
+        "proprioceptive": "muovere un personaggio alla volta, dopo aver guardato il tutto"
+      },
+      "peacock_reading": "Tactics Ogre e il ma del comandante: lo spazio fra una mossa e l'altra e dove si decide la battaglia."
+    },
+    {
+      "id": "valkyrie_profile_1999",
+      "dataset_id": "valkyrie-profile-1999",
+      "title": "Valkyrie Profile",
+      "year": 1999,
+      "developer": "tri-Ace",
+      "space_type": "asgard_e_il_ragnarok",
+      "scheda_facts_it": [
+        "Usa a piene mani la mitologia norrena; la protagonista Lenneth, serva di Odino, recluta gli einherjar per la guerra degli Aesir contro i Vanir.",
+        "Ventiquattro personaggi giocabili.",
+        "Combattimento a turni: le due fazioni si alternano e l'intero gruppo puo attaccare simultaneamente.",
+        "Ogni membro della squadra e assegnato a uno dei pulsanti del controller."
+      ],
+      "basho": "Asgard minacciata dal Ragnarok, con le anime dei guerrieri caduti da reclutare una a una.",
+      "sensory_breakdown": {
+        "visual": "un gruppo di guerrieri che agisce insieme nello stesso turno",
+        "proprioceptive": "un pulsante per ogni membro: la squadra sotto le dita"
+      },
+      "peacock_reading": "In Valkyrie Profile la formazione diventa gesto: ogni compagno e un pulsante e il turno e una frase detta da tutti insieme."
+    },
+    {
+      "id": "dynasty_warriors_1997",
+      "dataset_id": "dynasty-warriors-1997",
+      "title": "Dynasty Warriors",
+      "year": 1997,
+      "developer": "Omega Force",
+      "space_type": "cina_dei_tre_regni",
+      "scheda_facts_it": [
+        "Il picchiaduro piu famoso di Koei, ambientato nell'antica Cina dei Tre Regni.",
+        "Wu di Sun Jian, Wei di Cao Cao, Shu di Liu Bei.",
+        "Sedici personaggi giocabili, sei da sbloccare; ci sono anche Nobunaga e Toukichi, del periodo Sengoku.",
+        "Ricerca di naturalezza negli scontri, senza troppe combo, con uso realistico delle armi dell'epoca.",
+        "Primo di nove titoli giocabili con la console."
+      ],
+      "basho": "La Cina intorno all'anno 200, divisa in tre regni che si contendono il primato.",
+      "sensory_breakdown": {
+        "visual": "tre regni, tre guide, un'ampia scelta di combattenti",
+        "proprioceptive": "scontri senza troppe combo: il gesto resta leggibile"
+      },
+      "peacock_reading": "Dynasty Warriors mette l'eroe dentro la storia di massa: un solo guerriero, tre regni che gli stanno intorno."
+    },
+    {
+      "id": "samurai_warriors_2004",
+      "dataset_id": "samurai-warriors-2004",
+      "title": "Samurai Warriors",
+      "year": 2004,
+      "developer": "Koei",
+      "space_type": "giappone_feudale_contro_nobunaga",
+      "scheda_facts_it": [
+        "Spin off di Dynasty Warriors, ambientato nel Giappone feudale contro Nobunaga Oda.",
+        "Quindici personaggi giocabili, alcuni da sbloccare, basati su figure storiche: Kenshin Uesugi, Shingen Takeda, Nobunaga Oda, Yukimura Sanada, Ranmaru Mori, Hattori Hanzō, Oichi e Noh.",
+        "Si veste un singolo ufficiale in battaglia, che respinge orde di soldati nemici e sconfigge il comandante nemico.",
+        "Attacchi combo e mosse speciali, come far esplodere la folla, che si evolvono con la crescita del personaggio."
+      ],
+      "basho": "Dai Tre Regni al Giappone feudale: lo stesso schema di battaglia, spostato in un'altra epoca.",
+      "sensory_breakdown": {
+        "visual": "orde di soldati davanti a un solo ufficiale",
+        "proprioceptive": "respingere e abbattere: il gesto che si ripete e cresce con il personaggio"
+      },
+      "peacock_reading": "Samurai Warriors e il kata della battaglia: la stessa forma, ripetuta contro l'orda, che cresce ogni volta."
+    },
+    {
+      "id": "best_play_pro_yakyuu_1988",
+      "dataset_id": "best-play-pro-yakyuu-1988",
+      "title": "Best Play Pro Yakyuu",
+      "year": 1988,
+      "developer": "ASCII Entertainment",
+      "space_type": "panchina_dell_allenatore",
+      "scheda_facts_it": [
+        "Primo gioco della serie Best Play Pro Baseball (in originale Best Play Pro Yakyuu).",
+        "Uscito solo in Giappone, dove fu un successo incredibile.",
+        "Il centro e la gestione di una squadra e dei singoli giocatori, piu che le abilita dei giocatori stessi.",
+        "La strategia della partita e fondamentale: formazioni e scelta di quando schierare un giocatore contano piu di lanci e battute."
+      ],
+      "basho": "La panchina al posto del campo: la partita si decide prima del lancio.",
+      "sensory_breakdown": {
+        "visual": "le formazioni come disegno sul foglio",
+        "social": "la squadra come insieme di persone da gestire"
+      },
+      "peacock_reading": "Best Play Pro Yakyuu e il baseball visto da chi non entra in campo: decidere chi va e quando e gia il gioco."
+    },
+    {
+      "id": "family_stadium_1986",
+      "dataset_id": "pro-baseball-family-stadium-1986",
+      "title": "Pro Baseball: Family Stadium",
+      "year": 1986,
+      "developer": "Namco",
+      "space_type": "stadio_di_baseball",
+      "scheda_facts_it": [
+        "Ha aperto la serie dei Family Stadium; il baseball e lo sport piu seguito in Giappone.",
+        "La versione giapponese vendette oltre 2 milioni di copie; quella statunitense ricevette il premio come miglior videogioco sportivo dell'anno.",
+        "Fu il primo a ottenere la licenza della Major League Baseball Players Association, usando i veri nomi dei giocatori.",
+        "Otto squadre tra cui scegliere e con cui completare il campionato."
+      ],
+      "basho": "Lo stadio del baseball, sport tra i piu seguiti in Giappone, riprodotto con i nomi veri dei giocatori.",
+      "sensory_breakdown": {
+        "visual": "lanci, home run e palle veloci sul campo",
+        "social": "un'abitudine nazionale portata sullo schermo"
+      },
+      "peacock_reading": "Family Stadium porta nello schermo un rito di quartiere: con i nomi veri, il baseball di tutti diventa quello di chi gioca."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il giocatore e chi dispone: sceglie chi schierare e quando. Il gesto viene dopo la formazione.",
+    "scale": "La scala cambia: una mappa tattica, un campo di baseball, un'orda di soldati. Cambia il numero delle pedine, resta la funzione di chi le muove.",
+    "ma_principle": "L'intervallo fra una mossa e l'altra e il luogo della decisione."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "kata",
+      "ma",
+      "ichigo_ichie",
+      "kehai"
+    ],
+    "narrative_mechanics": [
+      "formazione_come_decisione",
+      "squadra_come_unita",
+      "campo_come_scacchiera"
+    ],
+    "cultural_tags": [
+      "tattico",
+      "baseball",
+      "Tre_Regni",
+      "Sengoku",
+      "Koei",
+      "Quest",
+      "tri-Ace",
+      "Intelligent_Systems"
+    ]
+  },
+  "connected_terms": [
+    "kata",
+    "ma",
+    "ichigo_ichie",
+    "kehai"
+  ],
+  "ai_query_surface": [
+    "videogiochi giapponesi di strategia e tattica",
+    "Fire Emblem Monshō no Nazo Archanea",
+    "Tactics Ogre Valeria mappe dall'alto",
+    "Valkyrie Profile mitologia norrena combattimento a turni",
+    "Dynasty Warriors Tre Regni",
+    "Samurai Warriors Nobunaga",
+    "baseball videogiochi giapponesi Family Stadium"
+  ],
+  "system_note": "Il cluster collega la scena JRPG tattica, quella degli sport di squadra e quella dei giochi di battaglie di massa: il giocatore come chi dispone."
+}
