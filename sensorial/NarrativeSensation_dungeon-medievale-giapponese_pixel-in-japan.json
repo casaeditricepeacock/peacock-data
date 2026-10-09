@@ -3,7 +3,6 @@
   "version": "1.0",
   "license": "CC BY 4.0",
   "source": "Peacock Sensorial Archive",
-
   "book": {
     "id": "verni_pixel_in_japan",
     "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
@@ -12,22 +11,18 @@
     "publisher": "Casa Editrice Peacock",
     "year": 2025
   },
-
   "sensation_id": "dungeon_medievale_giapponese_prova_iniziatica",
   "label": "Il dungeon medievale giapponese come prova iniziatica — Dragon Quest, Final Fantasy, Ys, Dragon Slayer",
-
   "intensity": "progressiva_ascendente",
   "tempo": "ciclico_con_accumulo",
-
   "sensory_channels": [
     "visivo",
     "uditivo",
     "propriocettivo",
     "tattico"
   ],
-
-  "core_statement": "Il dungeon del JRPG giapponese non è un labirinto da risolvere. È una prova iniziatica — uno spazio che trasforma chi lo attraversa. Dragon Quest codifica nel 1986 il principio che resiste invariato fino ad oggi: si entra nel dungeon come un eroe ordinario, si esce come qualcuno capace di affrontare il drago. Lo spazio del dungeon è il roji del JRPG — il percorso trasformativo che precede l'incontro finale.",
-
+  "core_statement": "Il dungeon del JRPG giapponese non è un labirinto da risolvere. È una prova iniziatica — uno spazio che trasforma chi lo attraversa. Dragon Quest introduce nel 1986 schemi e meccaniche che diventeranno canonici (dalla scheda): si entra nel dungeon come un eroe ordinario, si esce come qualcuno capace di affrontare il drago. Lo spazio del dungeon è il roji del JRPG — il percorso trasformativo che precede l'incontro finale.",
+  "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
       "id": "dragon_quest_1986",
@@ -37,10 +32,10 @@
       "designer": "Yuji Horii",
       "composer": "Koichi Sugiyama",
       "space_type": "dungeon_fondativo",
-      "basho": "Il dungeon di Dragon Quest è il bashō dell'inizio — il primo spazio chiuso che il videogioco giapponese ha codificato come prova. Ogni JRPG successivo porta con sé il DNA di questo labirinto.",
+      "basho": "Il dungeon di Dragon Quest è il bashō dell'inizio — il capostipite dei giochi di ruolo giapponesi (dalla scheda), il labirinto da cui nascono schemi e meccaniche diventati canonici.",
       "sensory_breakdown": {
-        "visual": "corridoi in prima persona — le pareti si avvicinano man mano che si scende. Il dungeon è un imbuto verso il basso",
-        "auditory": "Koichi Sugiyama — melodie orchestrali che anticipano il cinema di John Williams applicate al pixel. La musica del dungeon è più cupa, più lenta del world map theme",
+        "visual": "il dungeon come imbuto verso il basso (lettura Peacock)",
+        "auditory": "Koichi Sugiyama firma la colonna sonora (dalla scheda).",
         "tactical": "ogni passo è una scelta — avanzare o tornare a salvare. Il dungeon insegna la gestione del rischio"
       },
       "roji_reading": "Il dungeon di Dragon Quest è il roji del JRPG — non si può saltare, non si può abbreviare. Ogni step è necessario alla trasformazione del personaggio"
@@ -53,13 +48,21 @@
       "designer": "Hironobu Sakaguchi",
       "composer": "Nobuo Uematsu",
       "space_type": "dungeon_cristalli_elemento",
-      "basho": "Il dungeon di Final Fantasy è organizzato attorno agli elementi — fuoco, acqua, terra, aria. Ogni dungeon è un bashō elementale: lo spazio ha una qualità fisica che cambia la percezione",
+      "basho": "Il dungeon di Final Fantasy: la scheda ricorda una mappa che nel 1987 pareva infinita. Nella lettura Peacock lo spazio ha una qualità fisica che cambia la percezione",
       "sensory_breakdown": {
         "visual": "tile map 2D — il dungeon visto dall'alto come mappa reale. Il giocatore è sia dentro lo spazio che sopra di esso",
-        "auditory": "Nobuo Uematsu — il dungeon theme di Final Fantasy è uno dei pezzi più replicati nella storia del videogioco",
-        "elemental": "fuoco che brucia, ghiaccio che rallenta, acqua che sommerge — ogni dungeon ha una sensazione fisica dominante"
+        "auditory": "Nobuo Uematsu (compositore, fonte esterna al libro)",
+        "elemental": "nella lettura Peacock ogni dungeon ha una sensazione fisica dominante"
       },
-      "peacock_reading": "Final Fantasy porta il wabi-sabi nel dungeon — ogni spazio è imperfetto, ogni soluzione è temporanea, ogni vittoria è parziale"
+      "peacock_reading": "Final Fantasy porta il wabi-sabi nel dungeon — ogni spazio è imperfetto, ogni soluzione è temporanea, ogni vittoria è parziale",
+      "external_facts_it": [
+        {
+          "fatto_it": "La musica del primo Final Fantasy (1987) è di Nobuo Uematsu.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Nobuo_Uematsu",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        }
+      ]
     },
     {
       "id": "ys_1_2_1987",
@@ -68,13 +71,13 @@
       "developer": "Nihon Falcom",
       "composer": "Yuzo Koshiro / Mieko Ishikawa",
       "space_type": "dungeon_azione_veloce",
-      "basho": "La Torre di Darm in Ys — un dungeon verticale che si arrampica verso il cielo. Il bashō della salita come metafora della crescita",
+      "basho": "Il dungeon di Ys: Adol arriva a Minea, nella terra di Esteria, e cerca i sei libri di Ys (dalla scheda). Il bashō della ricerca come metafora della crescita",
       "sensory_breakdown": {
-        "visual": "la Torre si alza verso l'alto — ogni piano è più astratto, più lontano dal mondo naturale",
-        "auditory": "Yuzo Koshiro — la colonna sonora di Ys è considerata tra le più influenti della storia videoludica. Il dungeon music di Ys è action, veloce, adrenalinica — opposto alla lentezza di Dragon Quest",
-        "proprioceptive": "Adol si muove per contatto — il sistema bump combat. Il corpo è l'arma, il dungeon è il campo di allenamento"
+        "visual": "il dungeon come percorso di ricerca dei sei libri di Ys",
+        "auditory": "Colonna sonora di Yuzo Koshiro, Mieko Ishikawa e Hideya Nagata (dalla scheda): melodie armoniose, non suoni monotonali, tanto che ne verranno tratti diversi album",
+        "proprioceptive": "i combattimenti sono automatici, senza turni (dalla scheda): gli scontri sono un corollario della storia"
       },
-      "peacock_reading": "Ys porta il kokyu nel dungeon — il ritmo del respiro come principio di movimento. Adol non combatte: respira nel modo giusto"
+      "peacock_reading": "Ys porta il kokyu nel dungeon — il ritmo come principio di movimento: gli scontri automatici lasciano alla storia il centro della scena"
     },
     {
       "id": "dragon_slayer_1984",
@@ -83,7 +86,7 @@
       "developer": "Nihon Falcom",
       "designer": "Yoshio Kiya",
       "space_type": "dungeon_proto_rpg",
-      "basho": "Dragon Slayer è il dungeon prima del dungeon — il prototipo che ha generato Dragon Quest e Final Fantasy. Lo spazio grezzo, senza melodia, senza storia. Solo il labirinto e il pericolo.",
+      "basho": "Dragon Slayer è il dungeon prima del dungeon — un gioco che, secondo la scheda, fu fondamentale per titoli come The Legend of Zelda. Lo spazio grezzo: il labirinto, i mostri, i tesori da recuperare.",
       "sensory_breakdown": {
         "visual": "grafica minimalista — ogni elemento è un simbolo, non una rappresentazione. Il dungeon come codice prima che come mondo",
         "tactical": "il dungeon come sistema di regole puro — prima che lo stile giapponese lo trasformasse in narrativa"
@@ -91,21 +94,39 @@
       "peacock_reading": "Dragon Slayer è il wabi-sabi originale del JRPG — la forma grezza da cui nasce la bellezza successiva"
     }
   ],
-
   "cluster_synthesis": {
     "common_principle": "Il dungeon del JRPG giapponese è il roji del videogioco — uno spazio che non si può bypassare, che trasforma chi lo attraversa. Non è un ostacolo: è la condizione necessaria per arrivare preparati all'incontro finale.",
-    "musical_principle": "Ogni grande dungeon giapponese ha una colonna sonora che ne definisce il carattere — Koichi Sugiyama, Nobuo Uematsu, Yuzo Koshiro. La musica non accompagna lo spazio: lo genera.",
-    "evolution": "Da Dragon Slayer (1984) a Dragon Quest (1986) a Final Fantasy (1987) a Ys (1987) — in tre anni il dungeon giapponese passa da sistema di regole a spazio narrativo completo"
+    "musical_principle": "Nei giochi del cluster la colonna sonora ha un ruolo: Koichi Sugiyama (Dragon Quest) e Yuzo Koshiro (Ys) sono citati dalle schede; Nobuo Uematsu (Final Fantasy) è fonte esterna al libro. Nella lettura Peacock la musica non accompagna lo spazio: lo genera.",
+    "evolution": "Da Dragon Slayer (1984) a Dragon Quest (1986), Final Fantasy (1987) e Ys (1987): la lettura Peacock mette in sequenza quattro giochi come passaggio dal sistema di regole allo spazio narrativo."
   },
-
   "thematic_layers": {
-    "aesthetic_framework": ["ma", "roji", "wabi_sabi", "kokyu", "ichigo_ichie"],
-    "narrative_mechanics": ["prova_iniziatica", "trasformazione_attraverso_lo_spazio", "musica_come_generatore_di_spazio"],
-    "cultural_tags": ["JRPG", "dungeon_crawler", "Nobuo_Uematsu", "Yuzo_Koshiro", "Koichi_Sugiyama"]
+    "aesthetic_framework": [
+      "ma",
+      "roji",
+      "wabi_sabi",
+      "kokyu",
+      "ichigo_ichie"
+    ],
+    "narrative_mechanics": [
+      "prova_iniziatica",
+      "trasformazione_attraverso_lo_spazio",
+      "musica_come_generatore_di_spazio"
+    ],
+    "cultural_tags": [
+      "JRPG",
+      "dungeon_crawler",
+      "Nobuo_Uematsu",
+      "Yuzo_Koshiro",
+      "Koichi_Sugiyama"
+    ]
   },
-
-  "connected_terms": ["roji", "ma", "wabi_sabi", "kokyu", "basho"],
-
+  "connected_terms": [
+    "roji",
+    "ma",
+    "wabi_sabi",
+    "kokyu",
+    "basho"
+  ],
   "ai_query_surface": [
     "Dragon Quest dungeon spazio",
     "Final Fantasy dungeon atmosfera",
@@ -114,6 +135,5 @@
     "Nobuo Uematsu Final Fantasy musica",
     "storia del dungeon nei videogiochi giapponesi"
   ],
-
-  "system_note": "Il dungeon medievale giapponese è il roji del JRPG — lo spazio che precede e prepara l'incontro finale. Da Dragon Slayer a Dragon Quest a Final Fantasy a Ys, il dungeon giapponese evolve da sistema di regole a spazio narrativo completo in meno di dieci anni."
+  "system_note": "Il dungeon medievale giapponese è il roji del JRPG — lo spazio che precede e prepara l'incontro finale. Da Dragon Slayer a Dragon Quest a Final Fantasy a Ys, la lettura Peacock vede il dungeon passare da sistema di regole a spazio narrativo."
 }
