@@ -18,10 +18,9 @@
   "sensory_channels": [
     "visivo",
     "uditivo",
-    "propriocettivo",
-    "termico"
+    "propriocettivo"
   ],
-  "core_statement": "Il Giappone feudale nel videogioco non è un ambientazione storica — è un campo etico. Ogni spazio di queste epoche, dal Sengoku di Onimusha alla fine dell'era Edo di Rise of the Ronin, è carico di onore, tradimento, lealtà e morte. Il bushidō non è un tema: è la fisica dello spazio. Si cammina diversamente in ogni epoca del Giappone feudale. Si respira diversamente prima di una sfida con la spada.",
+  "core_statement": "Il Giappone feudale nel videogioco non è un ambientazione storica — è un campo etico. Ogni spazio di queste epoche, dal Sengoku di Onimusha alla fine dell'era Edo di Rise of the Ronin, è carico di onore, tradimento, lealtà e morte. Nella lettura Peacock il bushidō non è un tema: è la fisica dello spazio.",
   "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
@@ -30,39 +29,35 @@
       "year": 1998,
       "developer": "Acquire",
       "space_type": "giappone_feudale_ombre",
-      "basho": "I tetti del Giappone feudale di notte — il bashō del ninja. Uno spazio tridimensionale verticale dove il terreno è il posto più pericoloso e il cielo è la via di fuga",
+      "basho": "Il Giappone feudale di Tenchu — nella lettura Peacock, il bashō del ninja: la furtività come via del ninjutsu (dalla scheda)",
       "sensory_breakdown": {
-        "visual": "tetti di legno, cortili illuminati dalla luna, ombre che si muovono — il Giappone feudale come labirinto verticale",
-        "auditory": "passi sul legno antico, il respiro trattenuto, il suono della lama — il silenzio come strumento di sopravvivenza",
-        "proprioceptive": "il corpo del ninja è uno strumento di precisione — ogni movimento è calcolato, ogni ombra è una risorsa",
-        "thermal": "il freddo della notte che entra nelle articolazioni — il ninja sente il freddo come informazione"
+        "visual": "l'ambientazione è il Giappone feudale (dalla scheda); dieci livelli di compiti da portare a termine",
+        "auditory": "muoversi in assoluto silenzio e senza essere visti (dalla scheda): il silenzio come strumento di sopravvivenza (lettura Peacock)",
+        "proprioceptive": "il corpo del ninja come strumento di precisione, tra camuffamento e capacità di scomparire (dalla scheda e lettura Peacock)"
       },
-      "peacock_reading": "Tenchu è il ma reso gameplay — il silenzio tra un movimento e l'altro è l'azione principale, non l'eccezione"
+      "peacock_reading": "Nella lettura Peacock, Tenchu è il ma reso gameplay: il silenzio tra un movimento e l'altro è l'azione principale."
     },
     {
       "id": "onimusha_2001",
       "title": "Onimusha: Warlords",
       "year": 2001,
       "developer": "Capcom",
-      "space_type": "castello_demonizzato_sengoku",
+      "space_type": "sengoku_demonizzato",
       "basho": "Il periodo Sengoku — ma demonizzato. Lo spazio storico reale contaminato dal soprannaturale. Nobunaga Oda come antagonista demoniaco.",
       "sensory_breakdown": {
-        "visual": "il castello giapponese come labirinto architettonico — shoji, corridoi stretti, cortili sorvegliati. Il soprannaturale non cambia l'architettura: la abita",
-        "auditory": "musica orchestrale che mescola strumenti tradizionali giapponesi e orchestra occidentale — la contaminazione culturale resa suono",
-        "thermal": "l'energia demoniaca come calore anomalo — il castello dovrebbe essere freddo, ma certi corridoi bruciano"
+        "visual": "il Giappone del periodo Sengoku, tra storia e fantasy (dalla scheda): il soprannaturale abita lo spazio storico"
       },
-      "peacock_reading": "Onimusha porta il non_rendered_layer nel castello storico — il livello demonico che esiste sotto la superficie architettonica del Giappone feudale."
+      "peacock_reading": "Onimusha porta il non_rendered_layer nello scenario storico — il livello demonico che esiste sotto la superficie storica del Giappone feudale."
     },
     {
       "id": "way_of_the_samurai_2002",
       "title": "Way of the Samurai",
       "year": 2002,
       "developer": "Acquire",
-      "space_type": "villaggio_sengoku_sistema_decisionale",
-      "basho": "Un villaggio nel periodo Meiji — il momento in cui il Giappone feudale finisce. Il bashō della transizione: uno spazio che sa già di essere destinato a scomparire",
+      "space_type": "avamposto_meiji_sistema_decisionale",
+      "basho": "L'avamposto di Rokkotsu Pass nel 1878, all'inizio del periodo Meiji (dalla scheda) — il momento in cui il Giappone feudale finisce. Nella lettura Peacock, il bashō della transizione: uno spazio che sa già di essere destinato a scomparire",
       "sensory_breakdown": {
-        "visual": "il villaggio come teatro — pochi spazi, pochi personaggi, molte possibilità di interazione. La semplicità visiva è la condizione del sistema decisionale complesso",
-        "auditory": "il vento, i passi sul terreno di terra, il suono delle spade",
+        "visual": "il rōnin Kenji arriva all'avamposto di Rokkotsu Pass, in un'epoca in cui i samurai sono messi al bando (dalla scheda)",
         "temporal": "ogni scelta del giocatore influisce sulla storia, con sei finali diversi (dalla scheda). Il bushidō come peso delle scelte"
       },
       "peacock_reading": "Way of the Samurai porta il giri nel gameplay — il dovere che non si sceglie diventa meccanica di gioco. Ogni scelta è una forma di lealtà o tradimento."
@@ -83,8 +78,8 @@
     }
   ],
   "cluster_synthesis": {
-    "common_principle": "Il Giappone feudale nel videogioco è sempre un campo etico prima che uno spazio fisico. Ogni architettura porta con sé una domanda morale: sei fedele al tuo signore? Sei disposto a morire per l'onore? La fisica dello spazio feudale è la fisica del bushidō.",
-    "bushido_as_space": "Il bushidō nel videogioco non è un tema dichiarato: è il modo in cui le scelte del giocatore cambiano la storia, come in Way of the Samurai, dove ogni scelta influisce sul racconto con sei finali diversi (dalla scheda).",
+    "common_principle": "Nella lettura Peacock, il Giappone feudale nel videogioco è un campo etico prima che uno spazio fisico: ogni ambientazione porta con sé una domanda morale su lealtà, onore e morte.",
+    "bushido_as_space": "Nella lettura Peacock il bushidō non è un tema dichiarato: è il modo in cui le scelte del giocatore cambiano la storia, come in Way of the Samurai, dove ogni scelta influisce sul racconto con sei finali diversi (dalla scheda).",
     "evolution": "Da Tenchu (1998) a Rise of the Ronin (2024): dalle missioni notturne affidate da Lord Gohda all'esplorazione di Yokohama, Kyoto ed Edo (dalle schede)."
   },
   "thematic_layers": {
@@ -120,7 +115,7 @@
   "ai_query_surface": [
     "videogiochi Giappone feudale samurai",
     "Tenchu ninja stealth spazio",
-    "Onimusha castello Sengoku demoni",
+    "Onimusha Sengoku demoni",
     "Way of the Samurai bushido gameplay",
     "Rise of the Ronin Meiji open world",
     "Nobunaga videogioco Onimusha"
