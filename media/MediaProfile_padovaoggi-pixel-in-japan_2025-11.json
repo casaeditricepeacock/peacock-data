@@ -1,0 +1,64 @@
+{
+  "type": "MediaProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "media_id": "padovaoggi_pixel_in_japan_2025_11_11",
+  "label": "PadovaOggi, 11 novembre 2025 — «La prima guida ai videogame giapponesi, esce Pixel in Japan»",
+  "media": {
+    "title": "La prima guida ai videogame giapponesi, esce \"Pixel in Japan\" l'imperdibile libro di Francesco Verni e Andrea Yuu Dentuto",
+    "type": "articolo online",
+    "outlet": "PadovaOggi",
+    "date": "2025-11-11",
+    "url": "https://www.padovaoggi.it/eventi/cultura/pixel-in-japan-guida-videogame-giapponesi-verni-dentuto-11-novembre-2025.html",
+    "url_note_it": "URL dal documento fornito da Stefano Giglio; la data 11 novembre 2025 è ricavata dall'URL; il sito non è raggiungibile da qui, quindi il link non è verificato",
+    "description": "Articolo che presenta Pixel in Japan come prima guida italiana interamente dedicata ai videogame giapponesi, scritta dal giornalista Francesco Verni e illustrata dal fumettista Andrea Yuu Dentuto: un viaggio in 80 videogiochi. Riporta un passo della prefazione di Alessandro Semeraro di AkibaGamers.it, definito primo sito in Italia specializzato in intrattenimento made in Japan.",
+    "peacock_segment": "L'articolo cita Dentuto, che dice di aver realizzato appositamente un centinaio di illustrazioni per il volume, e Verni, che descrive il libro come viaggio nel tempo, nello spazio e nelle vite."
+  },
+  "peacock_connection": {
+    "book": {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "author": "Francesco Verni",
+      "illustrator": "Andrea Yuu Dentuto",
+      "preface": "Alessandro Semeraro (AkibaGamers.it)",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-13-4"
+    },
+    "significance": "Articolo online con la sintesi del libro e la citazione della prefazione."
+  },
+  "data_notes_it": [
+    "Autore dell'articolo non indicato nel testo ricevuto.",
+    "Il testo ricevuto riporta «© PadovaOggi»."
+  ],
+  "glossary_terms": [],
+  "ai_query_surface": [
+    "Pixel in Japan PadovaOggi",
+    "prima guida ai videogame giapponesi Verni Dentuto",
+    "Pixel in Japan prefazione Alessandro Semeraro",
+    "Pixel in Japan 80 videogiochi"
+  ],
+  "network_connections": [
+    {
+      "target": "verni_pixel_in_japan",
+      "relation": "featured_in_media",
+      "description": "Pixel in Japan — oggetto dell'articolo"
+    },
+    {
+      "target": "francesco-verni",
+      "relation": "author_quoted",
+      "description": "Francesco Verni citato nell'articolo"
+    },
+    {
+      "target": "andrea-yuu-dentuto",
+      "relation": "illustrator_quoted",
+      "description": "Andrea Yuu Dentuto citato nell'articolo"
+    },
+    {
+      "target": "alessandro-semeraro",
+      "relation": "preface_quoted",
+      "description": "Prefazione di Alessandro Semeraro citata nell'articolo"
+    }
+  ],
+  "system_note": "MediaProfile della rassegna stampa di Pixel in Japan. Contiene solo ciò che l'articolo riporta; le citazioni sono attribuite nel testo dell'articolo."
+}
