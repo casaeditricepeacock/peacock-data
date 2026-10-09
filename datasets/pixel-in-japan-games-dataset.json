@@ -1,7 +1,7 @@
 {
   "type": "VideogameDataset",
   "dataset_id": "pixel-in-japan-80-videogiochi",
-  "version": "1.3",
+  "version": "1.4",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -28,7 +28,11 @@
       "platform": "Arcade",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Cabinato Nintendo ambientato nel Far West: lo sceriffo si difende dai banditi sparando e usa le carovane come riparo. Art design di Shigeru Miyamoto."
+      "summary_it": "Cabinato Nintendo ambientato nel Far West: lo sceriffo si difende dai banditi sparando e usa le carovane come riparo. Art design di Shigeru Miyamoto.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_soglie-di-genere_pixel-in-japan.json",
+        "game_id": "sheriff_1979"
+      }
     },
     {
       "id": "donkey-kong-1981",
@@ -88,7 +92,11 @@
       "platform": "Arcade",
       "developer": "Capcom",
       "publisher": "Capcom",
-      "summary_it": "Platform fantasy-horror a scorrimento, famoso per la difficoltà estrema. Sir Arthur deve salvare la fidanzata rapita da un demone e sconfiggere Astaroth in sette livelli."
+      "summary_it": "Platform fantasy-horror a scorrimento, famoso per la difficoltà estrema. Sir Arthur deve salvare la fidanzata rapita da un demone e sconfiggere Astaroth in sette livelli.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_corpo-che-cambia_pixel-in-japan.json",
+        "game_id": "ghosts_n_goblins_1985"
+      }
     },
     {
       "id": "super-mario-bros-1985",
@@ -132,7 +140,11 @@
       "platform": "Arcade",
       "developer": "Taito",
       "publisher": "Taito",
-      "summary_it": "Platform per due giocatori con 100 schemi: i draghetti Bub e Bob catturano i nemici con le bolle. Se si indugia compare la balena bianca."
+      "summary_it": "Platform per due giocatori con 100 schemi: i draghetti Bub e Bob catturano i nemici con le bolle. Se si indugia compare la balena bianca.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giocare-insieme_pixel-in-japan.json",
+        "game_id": "bubble_bobble_1986"
+      }
     },
     {
       "id": "the-legend-of-zelda-1986",
@@ -176,7 +188,11 @@
       "platform": "NES",
       "developer": "Namco",
       "publisher": "Namco",
-      "summary_it": "Apre la serie Family Stadium. Baseball, sport più seguito in Giappone: oltre 2 milioni di copie nella versione giapponese. Primo con licenza della Major League Baseball Players Association."
+      "summary_it": "Apre la serie Family Stadium. Baseball, sport più seguito in Giappone: oltre 2 milioni di copie nella versione giapponese. Primo con licenza della Major League Baseball Players Association.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "family_stadium_1986"
+      }
     },
     {
       "id": "final-fantasy-1987",
@@ -204,7 +220,11 @@
       "platform": "NES",
       "developer": "Login Soft",
       "publisher": "ASCII Corporation",
-      "summary_it": "Mistery d'avventura sceneggiato da Yūji Horii. Pubblicato per PC nel 1984, divenne un successo con la versione NES del 1987. L'ispettore Tetsuji Nitta indaga a partire da un cadavere trovato nella baia di Tokyo."
+      "summary_it": "Mistery d'avventura sceneggiato da Yūji Horii. Pubblicato per PC nel 1984, divenne un successo con la versione NES del 1987. L'ispettore Tetsuji Nitta indaga a partire da un cadavere trovato nella baia di Tokyo.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_soglie-di-genere_pixel-in-japan.json",
+        "game_id": "hokkaido_rensa_satsujin_1987"
+      }
     },
     {
       "id": "ys-i-ancient-ys-vanished-1987",
@@ -232,7 +252,11 @@
       "platform": "NES",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Terzo capitolo della serie, curato da Shigeru Miyamoto, con otto mondi e nuove azioni come scivolare lungo i pendii. A fine corsa ha venduto circa 18 milioni di copie."
+      "summary_it": "Terzo capitolo della serie, curato da Shigeru Miyamoto, con otto mondi e nuove azioni come scivolare lungo i pendii. A fine corsa ha venduto circa 18 milioni di copie.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_corpo-che-cambia_pixel-in-japan.json",
+        "game_id": "super_mario_bros_3_1988"
+      }
     },
     {
       "id": "best-play-pro-yakyuu-1988",
@@ -244,7 +268,11 @@
       "platform": "NES",
       "developer": "ASCII Entertainment",
       "publisher": "ASCII Entertainment",
-      "summary_it": "Primo gioco della serie Best Play Pro Baseball. Il centro è la gestione della squadra e dei giocatori. Non uscì dal Giappone, dove fu un grande successo."
+      "summary_it": "Primo gioco della serie Best Play Pro Baseball. Il centro è la gestione della squadra e dei giocatori. Non uscì dal Giappone, dove fu un grande successo.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "best_play_pro_yakyuu_1988"
+      }
     },
     {
       "id": "tetris-1989",
@@ -255,7 +283,11 @@
       "platform": "Game Boy",
       "developer": "Alexey Pajitnov (ideazione); Nintendo (versione Game Boy)",
       "publisher": "Nintendo",
-      "summary_it": "Puzzle di blocchi che scendono dall'alto, creato dal programmatore russo Alexey Pajitnov. Il successo si deve alla versione Game Boy di Nintendo, diretta da Satoru Okada con musiche di Hirokazu Tanaka."
+      "summary_it": "Puzzle di blocchi che scendono dall'alto, creato dal programmatore russo Alexey Pajitnov. Il successo si deve alla versione Game Boy di Nintendo, diretta da Satoru Okada con musiche di Hirokazu Tanaka.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cadute-incastri_pixel-in-japan.json",
+        "game_id": "tetris_1989"
+      }
     },
     {
       "id": "the-final-fantasy-legend-1989",
@@ -267,7 +299,11 @@
       "platform": "Game Boy",
       "developer": "Square",
       "publisher": "Square",
-      "summary_it": "Il nome originale era SaGa. Quattro eroi scalano un'enorme torre. Fu venduto in Occidente con il nome di un titolo popolare, pur avendo poco a che fare con Final Fantasy."
+      "summary_it": "Il nome originale era SaGa. Quattro eroi scalano un'enorme torre. Fu venduto in Occidente con il nome di un titolo popolare, pur avendo poco a che fare con Final Fantasy.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_prestito-incrocio_pixel-in-japan.json",
+        "game_id": "final_fantasy_legend_1989"
+      }
     },
     {
       "id": "mother-1989",
@@ -310,7 +346,11 @@
       "platform": "Super Nintendo Entertainment System (SNES)",
       "developer": "Nintendo",
       "publisher": "Nintendo",
-      "summary_it": "Primo gioco per Super Nintendo, introduce Yoshi. I fratelli Mario e Luigi si mettono in viaggio perché Bowser ha rapito molti dinosauri. Diretto da Takashi Tezuka."
+      "summary_it": "Primo gioco per Super Nintendo, introduce Yoshi. I fratelli Mario e Luigi si mettono in viaggio perché Bowser ha rapito molti dinosauri. Diretto da Takashi Tezuka.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_corpo-che-cambia_pixel-in-japan.json",
+        "game_id": "super_mario_world_1990"
+      }
     },
     {
       "id": "f-zero-1990",
@@ -401,7 +441,11 @@
       "platform": "MSX2",
       "developer": "Compile",
       "publisher": "Compile",
-      "summary_it": "Puzzle game di Masamitsu Niitani, fondatore di Compile. La maghetta Arle Nadja forma gruppi di almeno quattro puyo colorati per eliminarli."
+      "summary_it": "Puzzle game di Masamitsu Niitani, fondatore di Compile. La maghetta Arle Nadja forma gruppi di almeno quattro puyo colorati per eliminarli.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cadute-incastri_pixel-in-japan.json",
+        "game_id": "puyo_puyo_1991"
+      }
     },
     {
       "id": "super-mario-kart-1992",
@@ -493,7 +537,11 @@
       "platform": "SNES",
       "developer": "Square",
       "publisher": "Square",
-      "summary_it": "Seguito di Mystic Quest, introduce il multigiocatore fino a tre persone con il multitap. Si distingue per colori vivaci a 16 bit, trama complessa e battaglie in tempo reale."
+      "summary_it": "Seguito di Mystic Quest, introduce il multigiocatore fino a tre persone con il multitap. Si distingue per colori vivaci a 16 bit, trama complessa e battaglie in tempo reale.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giocare-insieme_pixel-in-japan.json",
+        "game_id": "secret_of_mana_1993"
+      }
     },
     {
       "id": "torneko-s-great-adventure-mystery-dungeon-1993",
@@ -504,7 +552,11 @@
       "platform": "SNES",
       "developer": "Chunsoft",
       "publisher": "Chunsoft",
-      "summary_it": "Primo capitolo di Mystery Dungeon, spin-off di Dragon Quest con i disegni di Akira Toriyama. Il mercante Torneko esplora dungeon per raccogliere oggetti e poi li vende o li equipaggia."
+      "summary_it": "Primo capitolo di Mystery Dungeon, spin-off di Dragon Quest con i disegni di Akira Toriyama. Il mercante Torneko esplora dungeon per raccogliere oggetti e poi li vende o li equipaggia.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_prestito-incrocio_pixel-in-japan.json",
+        "game_id": "torneko_1993"
+      }
     },
     {
       "id": "virtua-fighter-1993",
@@ -547,7 +599,11 @@
       "platform": "SNES",
       "developer": "Intelligent Systems",
       "publisher": "Nintendo",
-      "summary_it": "Secondo titolo della saga e il più innovativo secondo la critica. Uscito solo in Giappone, diviso in due libri, nel continente di Archanea."
+      "summary_it": "Secondo titolo della saga e il più innovativo secondo la critica. Uscito solo in Giappone, diviso in due libri, nel continente di Archanea.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "fire_emblem_1994"
+      }
     },
     {
       "id": "tekken-1994",
@@ -575,7 +631,11 @@
       "platform": "SNES",
       "developer": "Chunsoft",
       "publisher": "Chunsoft",
-      "summary_it": "Giallo in stile Agatha Christie con un pizzico di soprannaturale, della Chunsoft. Una tempesta di neve blocca gli ospiti di un rifugio in montagna. Spinge le concorrenti a investire nel genere visual novel."
+      "summary_it": "Giallo in stile Agatha Christie con un pizzico di soprannaturale, della Chunsoft. Una tempesta di neve blocca gli ospiti di un rifugio in montagna. Spinge le concorrenti a investire nel genere visual novel.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_leggere-il-gioco_pixel-in-japan.json",
+        "game_id": "kamaitachi_no_yoru_1994"
+      }
     },
     {
       "id": "tactics-ogre-let-us-cling-together-1995",
@@ -587,7 +647,11 @@
       "platform": "SNES",
       "developer": "Quest",
       "publisher": "Quest",
-      "summary_it": "Scritto, diretto e disegnato da Yasumi Matsuno. L'attenzione passa alla tattica: Denim Powell fa parte della resistenza che vuole riconquistare il regno di Valeria."
+      "summary_it": "Scritto, diretto e disegnato da Yasumi Matsuno. L'attenzione passa alla tattica: Denim Powell fa parte della resistenza che vuole riconquistare il regno di Valeria.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "tactics_ogre_1995"
+      }
     },
     {
       "id": "chrono-trigger-1995",
@@ -631,7 +695,11 @@
       "platform": "Sega Saturn",
       "developer": "Red Company",
       "publisher": "Sega",
-      "summary_it": "Multigenere che unisce RPG tattico, dating sim e visual novel. Siamo nel 1926, epoca Taishō, con il guardiamarina Ichiro Ogami."
+      "summary_it": "Multigenere che unisce RPG tattico, dating sim e visual novel. Siamo nel 1926, epoca Taishō, con il guardiamarina Ichiro Ogami.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_leggere-il-gioco_pixel-in-japan.json",
+        "game_id": "sakura_taisen_1996"
+      }
     },
     {
       "id": "resident-evil-1996",
@@ -643,7 +711,11 @@
       "platform": "PlayStation",
       "developer": "Capcom",
       "publisher": "Capcom",
-      "summary_it": "Con questo titolo nasce ufficialmente il nome del genere survival horror. Raccoon City è colpita da un'epidemia di zombie e la squadra Alpha guidata da Jill Valentine indaga."
+      "summary_it": "Con questo titolo nasce ufficialmente il nome del genere survival horror. Raccoon City è colpita da un'epidemia di zombie e la squadra Alpha guidata da Jill Valentine indaga.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_soglie-di-genere_pixel-in-japan.json",
+        "game_id": "resident_evil_1996"
+      }
     },
     {
       "id": "grandia-1997",
@@ -655,7 +727,11 @@
       "platform": "Sega Saturn",
       "developer": "Game Arts",
       "publisher": "JP Entertainment Software Publishing",
-      "summary_it": "JRPG fantasy valorizzato dall'estetica e dall'ambientazione. Justin, 14 anni, eredita dal padre una pietra magica che lo porta a scoprire il mistero della civiltà perduta di Angelou."
+      "summary_it": "JRPG fantasy valorizzato dall'estetica e dall'ambientazione. Justin, 14 anni, eredita dal padre una pietra magica che lo porta a scoprire il mistero della civiltà perduta di Angelou.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_compagnia-di-viaggio_pixel-in-japan.json",
+        "game_id": "grandia_1997"
+      }
     },
     {
       "id": "gran-turismo-the-real-driving-simulator-1997",
@@ -683,7 +759,11 @@
       "platform": "PC",
       "developer": "Leaf",
       "publisher": "Aquaplus",
-      "summary_it": "Visual novel romantica e simulatore di appuntamenti. Il timido Hiroyuki Fujita, amico d'infanzia di Akari Kamigishi, può conquistare una delle otto ragazze. La versione PlayStation è doppiata."
+      "summary_it": "Visual novel romantica e simulatore di appuntamenti. Il timido Hiroyuki Fujita, amico d'infanzia di Akari Kamigishi, può conquistare una delle otto ragazze. La versione PlayStation è doppiata.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_leggere-il-gioco_pixel-in-japan.json",
+        "game_id": "to_heart_1997"
+      }
     },
     {
       "id": "monster-rancher-1997",
@@ -695,7 +775,11 @@
       "platform": "PlayStation",
       "developer": "Tecmo",
       "publisher": "Tecmo",
-      "summary_it": "Una fattoria che alleva mostri invece di galline: l'allevatore li fa crescere e partecipare ai tornei. I mostri si generano inserendo CD nella PlayStation."
+      "summary_it": "Una fattoria che alleva mostri invece di galline: l'allevatore li fa crescere e partecipare ai tornei. I mostri si generano inserendo CD nella PlayStation.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_prestito-incrocio_pixel-in-japan.json",
+        "game_id": "monster_rancher_1997"
+      }
     },
     {
       "id": "tales-of-destiny-1997",
@@ -707,7 +791,11 @@
       "platform": "PlayStation",
       "developer": "Wolf Team",
       "publisher": "Namco",
-      "summary_it": "Secondo della serie Tales, il più venduto della saga con oltre un milione di copie. Stahn incontra la spada senziente Dymlos."
+      "summary_it": "Secondo della serie Tales, il più venduto della saga con oltre un milione di copie. Stahn incontra la spada senziente Dymlos.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_compagnia-di-viaggio_pixel-in-japan.json",
+        "game_id": "tales_of_destiny_1997"
+      }
     },
     {
       "id": "dynasty-warriors-1997",
@@ -719,7 +807,11 @@
       "platform": "PlayStation",
       "developer": "Omega Force",
       "publisher": "Koei",
-      "summary_it": "Il picchiaduro più famoso di Koei, nella Cina del 200 divisa in tre regni: Wu, Wei e Shu."
+      "summary_it": "Il picchiaduro più famoso di Koei, nella Cina del 200 divisa in tre regni: Wu, Wei e Shu.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "dynasty_warriors_1997"
+      }
     },
     {
       "id": "final-fantasy-vii-1997",
@@ -795,7 +887,11 @@
       "platform": "PlayStation",
       "developer": "Konami",
       "publisher": "Konami",
-      "summary_it": "Opera di Hideo Kojima, ambientata nel 2005 in un futuro ucronico in cui la Guerra Fredda non è finita. Solid Snake si infiltra in un impianto di armi nucleari."
+      "summary_it": "Opera di Hideo Kojima, ambientata nel 2005 in un futuro ucronico in cui la Guerra Fredda non è finita. Solid Snake si infiltra in un impianto di armi nucleari.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_soglie-di-genere_pixel-in-japan.json",
+        "game_id": "metal_gear_solid_1998"
+      }
     },
     {
       "id": "parasite-eve-1998",
@@ -839,7 +935,11 @@
       "platform": "PlayStation",
       "developer": "tri-Ace",
       "publisher": "Enix",
-      "summary_it": "Fantasy che usa la mitologia norrena. La protagonista Lenneth, serva di Odino, recluta guerrieri tra 24 personaggi giocabili."
+      "summary_it": "Fantasy che usa la mitologia norrena. La protagonista Lenneth, serva di Odino, recluta guerrieri tra 24 personaggi giocabili.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "valkyrie_profile_1999"
+      }
     },
     {
       "id": "super-robot-wars-alpha-2000",
@@ -851,7 +951,11 @@
       "platform": "PlayStation",
       "developer": "Banpresto",
       "publisher": "Banpresto",
-      "summary_it": "RPG non fantasy in cui i protagonisti sono i robot dei manga e degli anime più amati, tra cui Evangelion. Pensato per la generazione Goldrake."
+      "summary_it": "RPG non fantasy in cui i protagonisti sono i robot dei manga e degli anime più amati, tra cui Evangelion. Pensato per la generazione Goldrake.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_prestito-incrocio_pixel-in-japan.json",
+        "game_id": "super_robot_wars_alpha_2000"
+      }
     },
     {
       "id": "tales-of-eternia-2000",
@@ -863,7 +967,11 @@
       "platform": "PlayStation",
       "developer": "Wolf Team",
       "publisher": "Namco",
-      "summary_it": "Terzo capitolo della serie Tales, con grafica vicina agli anime e filmato introduttivo animato. Nel mondo di Inferia, il cacciatore Reid Hershel incontra la misteriosa Meredy."
+      "summary_it": "Terzo capitolo della serie Tales, con grafica vicina agli anime e filmato introduttivo animato. Nel mondo di Inferia, il cacciatore Reid Hershel incontra la misteriosa Meredy.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_compagnia-di-viaggio_pixel-in-japan.json",
+        "game_id": "tales_of_eternia_2000"
+      }
     },
     {
       "id": "onimusha-warlords-2001",
@@ -923,7 +1031,11 @@
       "platform": "PlayStation 2",
       "developer": "Square",
       "publisher": "Square",
-      "summary_it": "Collaborazione tra Square e Disney: Pippo e Paperino in un videogioco di ruolo giapponese. Il protagonista è Sora."
+      "summary_it": "Collaborazione tra Square e Disney: Pippo e Paperino in un videogioco di ruolo giapponese. Il protagonista è Sora.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_prestito-incrocio_pixel-in-japan.json",
+        "game_id": "kingdom_hearts_2002"
+      }
     },
     {
       "id": "way-of-the-samurai-2002",
@@ -951,7 +1063,11 @@
       "platform": "PlayStation 2",
       "developer": "Acquire",
       "publisher": "Spike",
-      "summary_it": "Caccia ai mostri con armature, armi e oggetti creati sfruttando le prede. Il centro del gioco è la modalità online, con missioni e amici cacciatori."
+      "summary_it": "Caccia ai mostri con armature, armi e oggetti creati sfruttando le prede. Il centro del gioco è la modalità online, con missioni e amici cacciatori.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giocare-insieme_pixel-in-japan.json",
+        "game_id": "monster_hunter_2004"
+      }
     },
     {
       "id": "tales-of-rebirth-2004",
@@ -963,7 +1079,11 @@
       "platform": "PlayStation 2",
       "developer": "Namco Tales Studio",
       "publisher": "Namco",
-      "summary_it": "Sesto capitolo principale della saga Tales. Umani (Huma) e bestie (Gajuma) coesistono; la storia parte dalla morte del re di Calegia, avvelenato da Zilva Madigan."
+      "summary_it": "Sesto capitolo principale della saga Tales. Umani (Huma) e bestie (Gajuma) coesistono; la storia parte dalla morte del re di Calegia, avvelenato da Zilva Madigan.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_compagnia-di-viaggio_pixel-in-japan.json",
+        "game_id": "tales_of_rebirth_2004"
+      }
     },
     {
       "id": "samurai-warriors-2004",
@@ -975,7 +1095,11 @@
       "platform": "PlayStation 2",
       "developer": "Koei",
       "publisher": "Koei",
-      "summary_it": "Spin-off di Dynasty Warriors che sposta l'azione nel Giappone feudale contro Nobunaga Oda. Quindici personaggi giocabili basati su figure storiche."
+      "summary_it": "Spin-off di Dynasty Warriors che sposta l'azione nel Giappone feudale contro Nobunaga Oda. Quindici personaggi giocabili basati su figure storiche.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_squadra-formazione_pixel-in-japan.json",
+        "game_id": "samurai_warriors_2004"
+      }
     },
     {
       "id": "tales-of-the-abyss-2005",
@@ -987,7 +1111,11 @@
       "platform": "PlayStation 2",
       "developer": "Namco Tales Studio",
       "publisher": "Namco",
-      "summary_it": "Ottavo titolo della serie Tales, con la regia di Yoshito Higuchi e i personaggi di Kōsuke Fujishima. Musiche di Motoi Sakuraba e Shinji Tamura."
+      "summary_it": "Ottavo titolo della serie Tales, con la regia di Yoshito Higuchi e i personaggi di Kōsuke Fujishima. Musiche di Motoi Sakuraba e Shinji Tamura.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_compagnia-di-viaggio_pixel-in-japan.json",
+        "game_id": "tales_of_the_abyss_2005"
+      }
     },
     {
       "id": "yakuza-2005",
@@ -1092,7 +1220,11 @@
       "platform": "Nintendo 3DS",
       "developer": "indieszero",
       "publisher": "Nintendo",
-      "summary_it": "Puzzle game di indieszero in un mondo dove l'impero ha proibito il sushi. Musashi lotta contro il divieto con il Fronte di Liberazione del Sushi."
+      "summary_it": "Puzzle game di indieszero in un mondo dove l'impero ha proibito il sushi. Musashi lotta contro il divieto con il Fronte di Liberazione del Sushi.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_cadute-incastri_pixel-in-japan.json",
+        "game_id": "sushi_striker_2018"
+      }
     },
     {
       "id": "animal-crossing-new-horizons-2020",
@@ -1104,7 +1236,11 @@
       "platform": "Nintendo Switch",
       "developer": "Nintendo EPD",
       "publisher": "Nintendo",
-      "summary_it": "Quinto titolo della serie, ha tenuto compagnia a milioni di persone durante le restrizioni della pandemia, con quasi 48 milioni di copie vendute."
+      "summary_it": "Quinto titolo della serie, ha tenuto compagnia a milioni di persone durante le restrizioni della pandemia, con quasi 48 milioni di copie vendute.",
+      "graph_ref": {
+        "file": "sensorial/NarrativeSensation_giocare-insieme_pixel-in-japan.json",
+        "game_id": "animal_crossing_nh_2020"
+      }
     },
     {
       "id": "the-centennial-case-a-shijima-story-2022",
