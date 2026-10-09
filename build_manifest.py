@@ -13,7 +13,7 @@ import os, json, datetime, sys
 
 RAW = "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main"
 THEMATIC = ["conceptual", "sensorial", "datasets", "cities", "series", "saggistica",
-            "authors", "events", "places", "itineraries", "maps", "rituals", "collaborations", "organizations"]
+            "authors", "events", "places", "itineraries", "maps", "rituals", "collaborations", "organizations", "media"]
 
 def build(root="."):
     m = {
