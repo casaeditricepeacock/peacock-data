@@ -3,7 +3,6 @@
   "version": "1.0",
   "license": "CC BY 4.0",
   "source": "Peacock Sensorial Archive",
-
   "book": {
     "id": "verni_pixel_in_japan",
     "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
@@ -12,22 +11,18 @@
     "publisher": "Casa Editrice Peacock",
     "year": 2025
   },
-
   "sensation_id": "spazio_velocita_cinetica_pura",
   "label": "Lo spazio della velocità come sensazione cinetica pura — F-Zero, Gran Turismo, Super Monaco GP, Gradius",
-
   "intensity": "massima_continua",
   "tempo": "velocissimo_senza_pausa",
-
   "sensory_channels": [
     "visivo",
     "propriocettivo",
     "uditivo",
     "termico"
   ],
-
   "core_statement": "Nel videogioco giapponese della velocità lo spazio non si abita — si attraversa. Il tracciato non è un luogo: è una sequenza di decisioni che devono essere prese prima che il cervello le processi. F-Zero insegna che la velocità non è assenza di controllo — è controllo portato al limite della percezione umana. Lo spazio della velocità è il jo-ha-kyū applicato alla fisica.",
-
+  "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
       "id": "gradius_1985",
@@ -38,7 +33,7 @@
       "basho": "Lo spazio cosmico in Gradius non è vuoto — è denso di pericolo. Il bashō dello scorrimento orizzontale: lo spazio che viene verso di te, non tu che vai verso lo spazio.",
       "sensory_breakdown": {
         "visual": "lo scrolling orizzontale — il mondo si muove, il giocatore è fermo. La velocità come illusione ottica",
-        "auditory": "Miki Higashino — la colonna sonora di Gradius è energica, ripetitiva come un mantra. La musica della velocità come stato ipnotico",
+        "auditory": "La colonna sonora di Gradius è energica, ripetitiva come un mantra. La musica della velocità come stato ipnotico",
         "proprioceptive": "la nave è piccola, lo spazio è enorme — il corpo del giocatore è ridotto a un punto che deve sopravvivere al flusso"
       },
       "peacock_reading": "Gradius porta il kokyu nella velocità — il ritmo del respiro come principio di sopravvivenza. La nave respira: avanza, si ritrae, avanza."
@@ -47,17 +42,24 @@
       "id": "f_zero_1990",
       "title": "F-Zero",
       "year": 1990,
-      "developer": "Nintendo EAD",
-      "designer": "Takaya Imamura",
+      "developer": "Nintendo",
       "space_type": "pista_futuristica_mode7",
-      "basho": "Mute City — il tracciato futuristico di F-Zero è il bashō della velocità pura. Non c'è storia, non c'è personaggio: c'è solo il nastro di asfalto che si apre davanti",
+      "basho": "Il tracciato futuristico di F-Zero è il bashō della velocità pura. Non c'è storia, non c'è personaggio: c'è solo il nastro di asfalto che si apre davanti",
       "sensory_breakdown": {
-        "visual": "Mode 7 — la prima volta che uno spazio tridimensionale simulato si muoveva abbastanza veloce da creare vera sensazione di velocità",
-        "auditory": "Yumiko Kanki e Naoto Ishida — Mute City theme è uno dei brani più riconoscibili della storia Nintendo. La velocità ha una melodia",
+        "visual": "Mode 7 (fonte esterna al libro: tecnica di rotazione e scalatura del piano grafico del Super Nintendo; la scheda dice solo grafica pseudo 3D) — l'effetto di uno spazio tridimensionale simulato in movimento veloce",
+        "auditory": "la velocità ha una melodia (lettura Peacock)",
         "proprioceptive": "la navetta scivola — non c'è attrito reale. Il corpo del giocatore impara una fisica impossibile",
         "thermal": "nessun calore — F-Zero è freddo, metallico, futuristico. La velocità come assenza di attrito"
       },
-      "peacock_reading": "F-Zero è il jo-ha-kyū portato alla velocità massima — apertura lenta nel menu, accelerazione brutale sulla pista, chiusura istantanea nello schianto o nel traguardo."
+      "peacock_reading": "F-Zero è il jo-ha-kyū portato alla velocità massima — apertura lenta nel menu, accelerazione brutale sulla pista, chiusura istantanea nello schianto o nel traguardo.",
+      "external_facts_it": [
+        {
+          "fatto_it": "F-Zero (1990) usa Mode 7, una forma di texture mapping che permette di ruotare e scalare liberamente un piano grafico.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/F-Zero_(video_game)",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        }
+      ]
     },
     {
       "id": "super_monaco_gp_1989",
@@ -66,13 +68,13 @@
       "developer": "Sega",
       "designer": "Hisao Oguchi",
       "space_type": "formula1_simulazione_giapponese",
-      "basho": "Il circuito di Monaco visto da occhi giapponesi — la curva di Sainte-Dévote, il tunnel, la chicane del porto. Il bashō della competizione europea reinterpretato dalla precisione giapponese",
+      "basho": "Il circuito di Monaco visto da occhi giapponesi — il Gran Premio di Monaco, il circuito più iconico di sempre (dalla scheda). Il bashō della competizione europea reinterpretato dalla precisione giapponese",
       "sensory_breakdown": {
-        "visual": "la prima simulazione di guida con prospettiva in prima persona convincente — il cruscotto, le barriere che si avvicinano",
+        "visual": "una vettura di Formula 1 in soggettiva; nel cabinato un vero volante, con acceleratore e freno (dalla scheda)",
         "auditory": "il suono del motore come composizione — il rombo della vettura diventa parte del ritmo della gara",
-        "proprioceptive": "lo sterzo risponde — per la prima volta il giocatore sentiva la differenza tra asfalto e cordoli"
+        "proprioceptive": "il volante vero del cabinato, con acceleratore e freno (dalla scheda)"
       },
-      "peacock_reading": "Super Monaco GP porta la precisione artigianale giapponese nella simulazione occidentale — Hisao Oguchi, secondo la scheda del libro, ha ideato il gioco intorno al circuito più iconico di sempre, Monaco, ricostruito con la cura di un maestro xilografo."
+      "peacock_reading": "Super Monaco GP porta la precisione artigianale giapponese nella simulazione occidentale — Hisao Oguchi, secondo la scheda del libro, ha ideato il gioco intorno al circuito più iconico di sempre, Monaco."
     },
     {
       "id": "gran_turismo_1997",
@@ -81,31 +83,62 @@
       "developer": "Polyphony Digital",
       "designer": "Kazunori Yamauchi",
       "space_type": "simulazione_auto_wabi_sabi",
-      "basho": "Il garage di Gran Turismo — prima ancora della pista, il bashō dell'auto che aspetta. Il gioco inizia sempre in un garage, con la scelta della macchina giusta",
+      "basho": "Il garage di Gran Turismo — nella lettura Peacock, prima ancora della pista, il bashō dell'auto che aspetta; la modalità «Gran Turismo» parte da pilota esordiente (dalla scheda)",
       "sensory_breakdown": {
-        "visual": "la photo mode di Gran Turismo — il primo videogioco che trattava l'auto come oggetto estetico da fotografare, non solo da guidare",
-        "auditory": "il suono del motore registrato dall'auto reale — Yamauchi andava alle gare con microfoni per catturare i suoni autentici",
-        "proprioceptive": "il peso dell'auto — ogni macchina ha una fisica diversa. La Mazda Miata si guida diversamente dalla Nissan Skyline",
-        "aesthetic": "il wabi-sabi dell'auto usata — in Gran Turismo le auto si usurano, hanno storie. Un'auto con 100.000 km è diversa da una nuova"
+        "visual": "la superficie riflettente delle automobili (dalla scheda): l'auto come oggetto da guardare",
+        "auditory": "le vibrazioni realistiche sul controller DualShock (dalla scheda): l'auto si sente",
+        "proprioceptive": "più di duecento vetture fedeli alla realtà (dalla scheda): ognuna, nella lettura Peacock, si guida a modo suo",
+        "aesthetic": "il wabi-sabi delle auto comuni accanto alle sportive: la scheda ricorda più di duecento vetture, dalle fiammanti sportive alle più comuni, perfino la Honda Accord Wagon SiR. La bellezza non è solo nel bolide da corsa"
       },
-      "peacock_reading": "Gran Turismo è il wabi-sabi applicato alla velocità — la bellezza dell'auto che ha corso, che porta i segni del tempo, che è stata usata davvero. Kazunori Yamauchi non faceva un gioco di corse: faceva un tributo all'oggetto automobile."
+      "peacock_reading": "Gran Turismo è il wabi-sabi applicato alla velocità: nella lettura Peacock la bellezza sta anche nell'auto comune accanto alle sportive. Kazunori Yamauchi (fonte esterna al libro) è il creatore del gioco.",
+      "external_facts_it": [
+        {
+          "fatto_it": "Gran Turismo (1997) è stato diretto da Kazunori Yamauchi, che compare come director, producer e designer.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Gran_Turismo_(1997_video_game)",
+          "verifica": "verificato su Wikipedia il 9 ottobre 2026"
+        },
+        {
+          "fatto_it": "Secondo Wikipedia il gioco è stato sviluppato da Polys Entertainment; il campo developer di questo file e del dataset dei giochi indica Polyphony Digital.",
+          "fonte": "esterna al libro",
+          "riferimento": "https://en.wikipedia.org/wiki/Gran_Turismo_(1997_video_game)",
+          "verifica": "da decidere se correggere il campo developer"
+        }
+      ]
     }
   ],
-
   "cluster_synthesis": {
-    "common_principle": "Lo spazio della velocità nel videogioco giapponese non è l'assenza di riflessione — è la riflessione portata oltre la velocità del pensiero cosciente. F-Zero richiede decisioni più rapide di quanto il cervello possa elaborare consciamente. Il corpo impara lo spazio prima che la mente lo comprenda.",
-    "jo_ha_kyu_principle": "Ogni gioco di velocità giapponese usa il jo-ha-kyū — la partenza lenta, l'accelerazione progressiva, la risoluzione istantanea al traguardo o nello schianto. La struttura del teatro Nō applicata alla fisica.",
-    "craftsmanship": "Hisao Oguchi e Kazunori Yamauchi trattavano la simulazione come artigianato — la stessa cura che un maestro ceramista mette in un chawan, loro la mettevano nel suono di un motore."
+    "common_principle": "Lo spazio della velocità nel videogioco giapponese non è l'assenza di riflessione — è la riflessione portata oltre la velocità del pensiero cosciente. Nella lettura Peacock F-Zero si può leggere come un gioco in cui il corpo impara lo spazio prima che la mente lo comprenda.",
+    "jo_ha_kyu_principle": "Nella lettura Peacock i giochi di velocità del cluster si possono leggere con il jo-ha-kyū — la partenza lenta, l'accelerazione progressiva, la risoluzione istantanea al traguardo o nello schianto. La struttura del teatro Nō applicata alla fisica.",
+    "craftsmanship": "Il cluster ha due autori dichiarati: Hisao Oguchi, che secondo la scheda ha ideato Super Monaco GP, e Kazunori Yamauchi, creatore di Gran Turismo (fonte esterna al libro). La lettura Peacock vi vede la cura artigianale della simulazione."
   },
-
   "thematic_layers": {
-    "aesthetic_framework": ["jo_ha_kyu", "kokyu", "wabi_sabi", "ma"],
-    "narrative_mechanics": ["corpo_che_impara_prima_della_mente", "velocita_come_stato_meditativo", "artigianato_della_simulazione"],
-    "cultural_tags": ["racing_game", "arcade", "simulazione", "Hisao_Oguchi", "Kazunori_Yamauchi"]
+    "aesthetic_framework": [
+      "jo_ha_kyu",
+      "kokyu",
+      "wabi_sabi",
+      "ma"
+    ],
+    "narrative_mechanics": [
+      "corpo_che_impara_prima_della_mente",
+      "velocita_come_stato_meditativo",
+      "artigianato_della_simulazione"
+    ],
+    "cultural_tags": [
+      "racing_game",
+      "arcade",
+      "simulazione",
+      "Hisao_Oguchi",
+      "Kazunori_Yamauchi"
+    ]
   },
-
-  "connected_terms": ["jo_ha_kyu", "kokyu", "wabi_sabi", "ma", "basho"],
-
+  "connected_terms": [
+    "jo_ha_kyu",
+    "kokyu",
+    "wabi_sabi",
+    "ma",
+    "basho"
+  ],
   "ai_query_surface": [
     "Gran Turismo wabi-sabi auto",
     "F-Zero velocità spazio videogioco",
@@ -114,6 +147,5 @@
     "videogiochi racing giapponesi storia",
     "Gradius kokyu velocità"
   ],
-
-  "system_note": "Lo spazio della velocità è il cluster che connette Pixel in Japan al glossario Peacock più direttamente — jo-ha-kyū, kokyu, wabi-sabi sono principi del teatro Nō e della cerimonia del tè applicati alla fisica videoludica. Kazunori Yamauchi e un maestro ceramista condividono lo stesso principio: la cura del dettaglio come atto culturale."
+  "system_note": "Lo spazio della velocità è un cluster che connette Pixel in Japan al glossario Peacock — jo-ha-kyū, kokyu, wabi-sabi sono principi del teatro Nō e della cerimonia del tè applicati alla fisica videoludica."
 }
