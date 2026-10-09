@@ -1,0 +1,169 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "prestito_incrocio",
+  "label": "Il prestito e l'incrocio — The Final Fantasy Legend, Super Robot Wars Alpha, Kingdom Hearts, Torneko, Monster Rancher",
+  "intensity": "giocosa_e_ibrida",
+  "tempo": "di_passaggio",
+  "sensory_channels": [
+    "visivo",
+    "sociale"
+  ],
+  "core_statement": "Un nome preso in prestito, robot di serie diverse nello stesso gioco, Pippo e Paperino in un JRPG, un mercante che esce dal suo gioco, un CD che diventa un mostro. Qui il gioco nasce da un incrocio: fra marchi, fra serie, fra mondi, fra supporti.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "final_fantasy_legend_1989",
+      "dataset_id": "the-final-fantasy-legend-1989",
+      "title": "The Final Fantasy Legend",
+      "year": 1989,
+      "developer": "Square",
+      "space_type": "torre_dei_demoni",
+      "scheda_facts_it": [
+        "Con la saga di Final Fantasy ha poco a che fare: il nome originale era SaGa: Guerriero della torre del regno dei demoni.",
+        "Per l'estero e sembrato piu opportuno inserirlo sotto l'etichetta di un titolo popolarissimo.",
+        "Al centro un'enorme torre che i quattro eroi devono scalare, di livello in livello, fino alla vetta.",
+        "Gli eroi si creano scegliendo tra tre razze (si possono scegliere perfino i mostri); ogni personaggio ha fino a otto abilita."
+      ],
+      "basho": "Una torre enorme da scalare, sotto un nome d'altro gioco.",
+      "sensory_breakdown": {
+        "visual": "una torre enorme e quattro eroi che la salgono",
+        "narrative": "un titolo popolare prestato a un gioco diverso"
+      },
+      "peacock_reading": "The Final Fantasy Legend e un nome ospite: sotto l'etichetta di un altro marchio c'e una torre che si sale a piano a piano."
+    },
+    {
+      "id": "super_robot_wars_alpha_2000",
+      "dataset_id": "super-robot-wars-alpha-2000",
+      "title": "Super Robot Wars Alpha",
+      "year": 2000,
+      "developer": "Banpresto",
+      "space_type": "incrocio_di_serie_di_robot",
+      "scheda_facts_it": [
+        "RPG non fantasy di Banpresto in cui i protagonisti sono i robot dei manga e anime piu amati.",
+        "Fra le serie: Getter Robot, Mazinga Z, Mobile Suit Gundam, Neon Genesis Evangelion (con l'EVA-01), The Super Dimension Fortress Macross, Giant Robot.",
+        "La trama e quasi secondaria; il punto di svolta e poter giocare con i propri miti.",
+        "Inserito nella «vecchia» serie Super Robot Wars, continua ancora oggi (Super Robot Wars Y e dell'agosto 2025)."
+      ],
+      "basho": "Uno schermo dove i robot di serie diverse si trovano sullo stesso campo.",
+      "sensory_breakdown": {
+        "visual": "robot di epoche diverse nello stesso scontro",
+        "social": "una comunita di appassionati che ritrova i propri miti"
+      },
+      "peacock_reading": "Super Robot Wars Alpha e un incrocio di generazioni: la 'generazione Goldrake' e i piu giovani si trovano nello stesso gioco."
+    },
+    {
+      "id": "kingdom_hearts_2002",
+      "dataset_id": "kingdom-hearts-2002",
+      "title": "Kingdom Hearts",
+      "year": 2002,
+      "developer": "Square",
+      "space_type": "mondi_disney_e_square",
+      "scheda_facts_it": [
+        "Collaborazione fra Square e The Walt Disney Company: Pippo e Paperino in un videogioco di ruolo giapponese.",
+        "Sora, 14 anni, usa il Keyblade e combatte le forze dell'oscurita, prima alla ricerca e poi insieme a Riku e Kairi, con alleati come Paperino, Pippo e altri personaggi Disney.",
+        "Il successo si deve anche a Tetsuya Nomura, character designer storico della Square (per Final Fantasy creo Cloud Strife), che diresse il progetto per tutto lo sviluppo."
+      ],
+      "basho": "Un universo dove personaggi Disney e personaggi Square si incontrano.",
+      "sensory_breakdown": {
+        "visual": "personaggi Disney dentro un JRPG",
+        "narrative": "un ragazzo di 14 anni con una chiave come arma"
+      },
+      "peacock_reading": "Kingdom Hearts e un incontro fra aziende e paesi diversi: Pippo e Paperino nella stessa avventura di un ragazzo con una chiave."
+    },
+    {
+      "id": "torneko_1993",
+      "dataset_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+      "title": "Torneko's Great Adventure: Mystery Dungeon",
+      "year": 1993,
+      "developer": "Chunsoft",
+      "space_type": "mystery_dungeon",
+      "scheda_facts_it": [
+        "Primo capitolo della serie Mystery Dungeon, spin-off di Dragon Quest, con i disegni di Akira Toriyama.",
+        "Protagonista Torneko, il mercante amato di Dragon Quest IV, che esplora i dungeon per raccogliere oggetti e combattere mostri.",
+        "Fuori dal dungeon vende gli oggetti trovati o li equipaggia.",
+        "Tecnicamente un roguelike, nome preso da Rogue del 1980 basato su Dungeons & Dragons.",
+        "La colonna sonora di Koichi Sugiyama e stata pubblicata da Sony nel 1993; la serie ha avuto fortuna anche con Pokémon Mystery Dungeon, «spin-off dello spin-off»."
+      ],
+      "basho": "Il Mystery Dungeon, dove un mercante cerca oggetti preziosi e speciali e fuori li vende.",
+      "sensory_breakdown": {
+        "visual": "disegni di Akira Toriyama in un dungeon",
+        "auditory": "la colonna sonora di Koichi Sugiyama pubblicata anche come album orchestrale"
+      },
+      "peacock_reading": "Torneko e un personaggio di passaggio: il mercante di un altro gioco diventa eroe di un dungeon tutto suo, e poi di un altro spin-off ancora."
+    },
+    {
+      "id": "monster_rancher_1997",
+      "dataset_id": "monster-rancher-1997",
+      "title": "Monster Rancher",
+      "year": 1997,
+      "developer": "Tecmo",
+      "space_type": "fattoria_di_mostri",
+      "scheda_facts_it": [
+        "Tecmo; il protagonista e un allevatore di mostri che li crea, li fa crescere e li iscrive ai tornei.",
+        "I mostri nascono mettendo vari CD nella PlayStation: ogni CD leggibile crea un mostro originale con caratteristiche proprie, usando i metadati del supporto.",
+        "Il CD di «Tecmo's Deception: Invitation to Darkness» genera Ardebaran; gli album musicali natalizi danno un mostro di tipo «Santa».",
+        "Ha ispirato una serie di cartoon di 73 episodi trasmessi fra il 1999 e il 2000 dal Tokyo Broadcasting System."
+      ],
+      "basho": "Una fattoria che alleva mostri invece di galline e conigli.",
+      "sensory_breakdown": {
+        "visual": "mostri nati da dischi che il giocatore ha in casa",
+        "social": "gli album di una collezione che diventano creature"
+      },
+      "peacock_reading": "Monster Rancher mette il mondo di casa dentro il gioco: ogni CD e un seme, e dal disco nasce un mostro."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il gioco nasce da un incrocio: un titolo famoso presta il nome, serie diverse si incontrano, il disco di casa diventa un mostro.",
+    "scale": "Dall'etichetta (Final Fantasy Legend) al crossover fra serie (Super Robot Wars) fino al crossover fra aziende (Kingdom Hearts) e tra giochi (Torneko) e supporti (Monster Rancher).",
+    "play": "L'incrocio e un modo di giocare con i propri miti: ritrovarli accanto a quelli degli altri."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "basho",
+      "ma",
+      "kata",
+      "ichigo_ichie"
+    ],
+    "narrative_mechanics": [
+      "crossover",
+      "spin_off",
+      "supporto_come_seme"
+    ],
+    "cultural_tags": [
+      "crossover",
+      "spin_off",
+      "Square",
+      "Disney",
+      "Banpresto",
+      "Chunsoft",
+      "Tecmo",
+      "Toriyama"
+    ]
+  },
+  "connected_terms": [
+    "basho",
+    "ma",
+    "kata",
+    "ichigo_ichie"
+  ],
+  "ai_query_surface": [
+    "The Final Fantasy Legend SaGa nome originale",
+    "Super Robot Wars Alpha robot di anime",
+    "Kingdom Hearts Disney Square",
+    "Torneko Mystery Dungeon Dragon Quest IV",
+    "Monster Rancher CD PlayStation mostri",
+    "crossover nei videogiochi giapponesi"
+  ],
+  "system_note": "Il cluster collega tre scene: i crossover dei JRPG, i marchi che si prestano il nome e il supporto fisico come materia di gioco."
+}
