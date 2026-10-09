@@ -1,0 +1,146 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "giocare_insieme",
+  "label": "Giocare insieme — Bubble Bobble, Secret of Mana, Monster Hunter, Animal Crossing: New Horizons",
+  "intensity": "calda_e_condivisa",
+  "tempo": "di_gruppo",
+  "sensory_channels": [
+    "sociale",
+    "visivo"
+  ],
+  "core_statement": "Da due draghetti sullo stesso schermo a un'isola in cui invitare altri animaletti, il gioco si apre al compagno. Giocare insieme non e un'opzione in piu: e il centro del gioco, e cambia cio che il giocatore prova.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "bubble_bobble_1986",
+      "dataset_id": "bubble-bobble-1986",
+      "title": "Bubble Bobble",
+      "year": 1986,
+      "developer": "Taito",
+      "space_type": "cento_schemi_di_bolle",
+      "scheda_facts_it": [
+        "Taito, meta degli anni Ottanta; ha fatto la gioia di milioni di bambini per giocabilita e varieta (100 schemi, molti avversari, svariati power up).",
+        "Bub e Bob devono salvare le fidanzate rapite da Super Drunk.",
+        "Le bolle imprigionano gli avversari, eliminati rompendo le sfere d'acqua.",
+        "Si puo giocare in due in contemporanea; la scritta «hurry up» invita a chiudere in fretta, altrimenti compare la balena bianca dall'occhio rosso."
+      ],
+      "basho": "Cento schemi pieni di bolle: uno schermo piccolo diviso fra due draghetti.",
+      "sensory_breakdown": {
+        "visual": "due draghetti molto kawai e tante bolle colorate",
+        "social": "due giocatori nello stesso schermo, con la fretta del tempo che si accorcia"
+      },
+      "peacock_reading": "Bubble Bobble e il kokyu a due: la bolla si gonfia, il tempo stringe, e si respira insieme all'altro giocatore."
+    },
+    {
+      "id": "secret_of_mana_1993",
+      "dataset_id": "secret-of-mana-1993",
+      "title": "Secret of Mana",
+      "year": 1993,
+      "developer": "Square",
+      "space_type": "mondo_a_16_bit_colorato",
+      "scheda_facts_it": [
+        "Seguito di Mystic Quest, con identita fortissima.",
+        "Per la prima volta in questo tipo di videogame introduce il multigiocatore: grazie al multitap, fino a tre giocatori con tre personaggi diversi.",
+        "Colori vivaci, trama complessa e vasta, sistema di menu di comando e battaglia in tempo reale.",
+        "Colonna sonora di Hiroki Kikuta, sua prima opera per videogame; amatissimo il personaggio di Primm, del Regno di Pandora."
+      ],
+      "basho": "Un mondo a 16 bit dai colori vivaci, percorribile fino a tre insieme.",
+      "sensory_breakdown": {
+        "visual": "colori vivaci nella grafica a 16 bit",
+        "auditory": "la colonna sonora di Hiroki Kikuta come prima prova",
+        "social": "tre giocatori, tre personaggi, una sola avventura"
+      },
+      "peacock_reading": "Secret of Mana trasforma l'avventura in un ichigo ichie a tre: l'incontro irripetibile fra tre persone e un mondo."
+    },
+    {
+      "id": "monster_hunter_2004",
+      "dataset_id": "monster-hunter-2004",
+      "title": "Monster Hunter",
+      "year": 2004,
+      "developer": "Acquire",
+      "space_type": "villaggio_e_gilda",
+      "scheda_facts_it": [
+        "Si puo giocare offline, ma il nucleo e il gioco online, con piu mostri, piu missioni e amici cacciatori a cui unirsi.",
+        "Armature, armi e oggetti si creano solo con corna, ossa o squame dei mostri uccisi.",
+        "Le missioni sono di quattro tipi: caccia, raccolta, cattura ed evento, con difficolta crescente."
+      ],
+      "basho": "Il villaggio e la gilda come punto di partenza di ogni caccia; il campo e dove si incontrano gli altri cacciatori.",
+      "sensory_breakdown": {
+        "visual": "cacciatori, mostri e materiali ricavati dalle prede",
+        "social": "la caccia online come impresa fatta insieme agli amici"
+      },
+      "peacock_reading": "In Monster Hunter la caccia e un lavoro di gruppo: quello che si indossa viene dalla preda, e la caccia online si fa con gli altri."
+    },
+    {
+      "id": "animal_crossing_nh_2020",
+      "dataset_id": "animal-crossing-new-horizons-2020",
+      "title": "Animal Crossing: New Horizons",
+      "year": 2020,
+      "developer": "Nintendo EPD",
+      "space_type": "isola_personale",
+      "scheda_facts_it": [
+        "Quinto titolo della serie (esclusi gli spin off); ha tenuto compagnia a milioni di persone durante le restrizioni della pandemia.",
+        "Quasi 48 milioni di copie vendute nel mondo.",
+        "In questo simulatore di vita si poteva compensare la mancanza di interazione sociale imposta dai lockdown.",
+        "I giocatori hanno un'isoletta da customizzare, costruire e modificare, dove invitare altri animaletti, raccogliere frutta e pesce, far crescere piante e fiori."
+      ],
+      "basho": "Un'isoletta tutta propria, da costruire e da aprire agli altri, in un tempo in cui le porte erano chiuse.",
+      "sensory_breakdown": {
+        "visual": "un'isola piccola che si cura giorno dopo giorno",
+        "social": "interagire e invitare altri animaletti come atto centrale"
+      },
+      "peacock_reading": "New Horizons mette una compagnia di animaletti al posto delle persone che i lockdown avevano allontanato: la presenza dell'altro si sente anche quando manca."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il compagno cambia il gioco: la fretta di Bubble Bobble, i tre di Secret of Mana, la caccia online, l'isola abitata da animaletti.",
+    "scale": "Da due giocatori sullo stesso schermo ai cacciatori online fino all'isola abitata da animaletti: la distanza cresce, il bisogno di compagnia resta.",
+    "ichigo_ichie": "Ogni sessione condivisa e irripetibile: dipende da chi c'era."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ichigo_ichie",
+      "kokyu",
+      "kehai",
+      "basho"
+    ],
+    "narrative_mechanics": [
+      "gioco_come_incontro",
+      "compagno_come_centro",
+      "isola_come_ospitalita"
+    ],
+    "cultural_tags": [
+      "multigiocatore",
+      "cooperativo",
+      "Taito",
+      "Square",
+      "Capcom",
+      "Nintendo"
+    ]
+  },
+  "connected_terms": [
+    "ichigo_ichie",
+    "kokyu",
+    "kehai",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "videogiochi giapponesi da giocare in due",
+    "Bubble Bobble hurry up balena bianca",
+    "Secret of Mana multitap tre giocatori",
+    "Monster Hunter gioco online",
+    "Animal Crossing New Horizons pandemia lockdown"
+  ],
+  "system_note": "Il cluster collega la scena arcade, quella dei 16 bit e quella contemporanea attraverso un tema solo: giocare con qualcuno."
+}
