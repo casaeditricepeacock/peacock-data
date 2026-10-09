@@ -1,0 +1,126 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "corpo_che_cambia",
+  "label": "Il corpo che cambia — Super Mario Bros. 3, Super Mario World, Ghosts 'n Goblins",
+  "intensity": "vivace_e_fragile",
+  "tempo": "a_scorrimento",
+  "sensory_channels": [
+    "visivo",
+    "propriocettivo"
+  ],
+  "core_statement": "In questi platform il corpo del personaggio non e una cosa sola: si trasforma, si cavalca, si perde. Un procione volante, un dinosauro da cavalcare, un'armatura che salta e lascia uno scheletro. Il corpo e la regola del gioco.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "super_mario_bros_3_1988",
+      "dataset_id": "super-mario-bros-3-1988",
+      "title": "Super Mario Bros. 3",
+      "year": 1988,
+      "developer": "Nintendo",
+      "space_type": "otto_mondi",
+      "scheda_facts_it": [
+        "Terzo capitolo della serie, curato da Shigeru Miyamoto; circa 18 milioni di copie vendute.",
+        "Mario e Luigi in otto mondi con caratteristiche peculiari; nuove azioni come scivolare lungo i pendii e distruggere muri lanciando i gusci delle tartarughe.",
+        "Mario o Luigi si trasformano in Raccoon (procione volante), Nuvola, Tanooki (statua di jizo, che non si fa colpire), Frog (rana nuotatrice) e Hammer.",
+        "Resta uno dei platform a scorrimento piu venduti della storia."
+      ],
+      "basho": "Otto mondi, ognuno con caratteristiche proprie: lo spazio del platform si allarga e cambia a ogni tappa.",
+      "sensory_breakdown": {
+        "visual": "otto mondi e un guardaroba di trasformazioni, dal procione alla rana",
+        "proprioceptive": "scivolare, volare, nuotare, lanciare: ogni costume e un modo di muoversi"
+      },
+      "peacock_reading": "Super Mario Bros. 3 e il corpo come costume: ogni power up e un mutamento di regola."
+    },
+    {
+      "id": "super_mario_world_1990",
+      "dataset_id": "super-mario-world-super-mario-bros-4-1990",
+      "title": "Super Mario World (Super Mario Bros. 4)",
+      "year": 1990,
+      "developer": "Nintendo",
+      "space_type": "terra_dei_dinosauri",
+      "scheda_facts_it": [
+        "Introduce Yoshi, il dinosauro amico di Mario, ed e il primo gioco a debuttare sul Super Nintendo.",
+        "Mario e Luigi, in vacanza nella terra dei dinosauri, vedono schiudersi l'uovo di Yoshi, che li informa del rapimento di molti suoi simili da parte di Bowser.",
+        "Diretto da Takashi Tezuka, prodotto da Shigeru Miyamoto, con il graphic designer Shigefumi Hino.",
+        "Mario puo cavalcare Yoshi, che cammina sulle trappole, mangia gli avversari e, ingoiando i gusci di Koopa, puo sputare fuoco."
+      ],
+      "basho": "La terra dei dinosauri, dove un uovo si schiude e un nuovo compagno si offre da cavalcare.",
+      "sensory_breakdown": {
+        "visual": "un dinosauro che si schiude e diventa cavalcatura",
+        "proprioceptive": "cavalcare, mangiare, sputare: un secondo corpo sotto il primo"
+      },
+      "peacock_reading": "Super Mario World aggiunge un altro corpo accanto a quello dell'eroe: Yoshi non e un costume, e un compagno."
+    },
+    {
+      "id": "ghosts_n_goblins_1985",
+      "dataset_id": "ghosts-n-goblins-1985",
+      "title": "Ghosts 'n Goblins",
+      "year": 1985,
+      "developer": "Capcom",
+      "space_type": "cimiteri_e_demoni",
+      "scheda_facts_it": [
+        "Disegnato da Tokuro Fujiwara; fantasy-horror a scorrimento orizzontale.",
+        "Tra i giochi piu difficili da finire.",
+        "Sir Arthur deve salvare la fidanzata rapita da un demone; i nemici fanno saltare prima l'armatura e poi riducono l'eroe a un mucchietto d'ossa.",
+        "Armi: lance, torce, pugnali, asce e scudi; sette livelli, il supercattivo Astaroth, sette sequel ufficiali."
+      ],
+      "basho": "Cimiteri, zombie e fantasmi in una corsa orizzontale: il corpo dell'eroe e l'unico margine.",
+      "sensory_breakdown": {
+        "visual": "un cavaliere che perde l'armatura e resta uno scheletro",
+        "proprioceptive": "un errore e l'armatura salta: il margine e l'armatura stessa"
+      },
+      "peacock_reading": "Ghosts 'n Goblins e il wabi-sabi del cavaliere: l'armatura si rompe, resta lo scheletro, e si va avanti lo stesso."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il corpo del personaggio e la regola: si trasforma, si cavalca, si perde. Cambiarlo significa cambiare il modo di giocare.",
+    "contrast": "Mario guadagna forme (Raccoon, Tanooki, Yoshi); Arthur le perde (armatura, poi ossa). Due direzioni, lo stesso principio.",
+    "fragility": "La fragilita e un punto di vista: una forma in piu e un colpo in piu da incassare."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "wabi_sabi",
+      "kokyu",
+      "basho",
+      "mono_no_aware"
+    ],
+    "narrative_mechanics": [
+      "corpo_come_regola",
+      "trasformazione_come_potere",
+      "perdita_come_margine"
+    ],
+    "cultural_tags": [
+      "platform",
+      "Nintendo",
+      "Capcom",
+      "Super_Nintendo",
+      "Miyamoto",
+      "Yoshi"
+    ]
+  },
+  "connected_terms": [
+    "wabi_sabi",
+    "kokyu",
+    "basho",
+    "mono_no_aware"
+  ],
+  "ai_query_surface": [
+    "Super Mario Bros 3 Tanooki Raccoon",
+    "Super Mario World Yoshi",
+    "Ghosts 'n Goblins armatura scheletro",
+    "platform giapponesi difficili",
+    "power up trasformazioni videogiochi"
+  ],
+  "system_note": "Il cluster collega la scena arcade e quella dei 16 bit: la forma del personaggio come regola."
+}
