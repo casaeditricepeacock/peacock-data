@@ -1,0 +1,170 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "compagnia_di_viaggio",
+  "label": "La compagnia di viaggio — Grandia, Tales of Destiny, Tales of Eternia, Tales of Rebirth, Tales of the Abyss",
+  "intensity": "calda_e_lunga",
+  "tempo": "di_viaggio",
+  "sensory_channels": [
+    "visivo",
+    "uditivo",
+    "narrativo"
+  ],
+  "core_statement": "Un giovane parte, incontra altri, il gruppo cresce. Nei JRPG di questa famiglia la storia e la compagnia: si arriva alla fine insieme a chi si e incontrato lungo la strada, e le sigle, i filmati e le musiche segnano le tappe del viaggio.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "grandia_1997",
+      "dataset_id": "grandia-1997",
+      "title": "Grandia",
+      "year": 1997,
+      "developer": "Game Arts",
+      "space_type": "mondo_fantastico_steampunk",
+      "scheda_facts_it": [
+        "J-RPG fantasy con connotazioni steampunk, di Game Arts; la scheda ne indica come punto di forza estetica e ambientazione.",
+        "Justin, 14 anni, eredita dal padre avventuriero una pietra magica che lo porta in giro per il mondo a scoprire il mistero della civilta perduta di Angelou.",
+        "Altri avventurieri si uniscono alla sua ricerca e attirano l'attenzione delle forze militari di Garlyle.",
+        "Musiche di Noriyuki Iwadare, gia compositore per la serie Lunar con Game Arts, che unisce orchestrazioni classiche e musica elettronica."
+      ],
+      "basho": "Un mondo fantastico con un passato oscuro, e una civilta perduta da ritrovare.",
+      "sensory_breakdown": {
+        "visual": "un mondo fantastico con tocchi steampunk",
+        "auditory": "le musiche di Noriyuki Iwadare fra orchestra ed elettronica"
+      },
+      "peacock_reading": "Grandia e il viaggio come eredita: una pietra magica dal padre, e il mondo da percorrere per capirla."
+    },
+    {
+      "id": "tales_of_destiny_1997",
+      "dataset_id": "tales-of-destiny-1997",
+      "title": "Tales of Destiny",
+      "year": 1997,
+      "developer": "Wolf Team",
+      "space_type": "mondo_fantasy_di_stahn",
+      "scheda_facts_it": [
+        "Secondo titolo della serie Tales dopo Tales of Phantasia; il piu venduto della saga con oltre un milione di copie, e il maggior successo in Giappone.",
+        "Stahn incontra la spada senziente Dymlos e altri spadaccini; con gli amici si unisce contro un nemico che cerca la reliquia di un'antica guerra.",
+        "Le battaglie si svolgono su un piano 2D, con attacchi in tempo reale; gli incantesimi richiedono tempo.",
+        "Sequenza introduttiva animata di Production I.G, lo studio di Ghost in the Shell."
+      ],
+      "basho": "Un mondo fantasy dove un giovane trova una spada che parla.",
+      "sensory_breakdown": {
+        "visual": "battaglie su un piano 2D, con la sequenza animata d'apertura di Production I.G",
+        "proprioceptive": "attacchi subito, incantesimi con attesa: il ritmo cambia con la complessita"
+      },
+      "peacock_reading": "Tales of Destiny e il ma dell'incantesimo: nel combattimento, il tempo che serve a lanciare e la forma della pazienza."
+    },
+    {
+      "id": "tales_of_eternia_2000",
+      "dataset_id": "tales-of-eternia-2000",
+      "title": "Tales of Eternia",
+      "year": 2000,
+      "developer": "Wolf Team",
+      "space_type": "inferia_e_celestia",
+      "scheda_facts_it": [
+        "Terzo capitolo della serie Tales, con grafica legata all'estetica anime e un filmato introduttivo animato di alta qualita.",
+        "Reid Hershel, giovane cacciatore, e i suoi amici Farah e Keele incontrano Meredy, ragazza misteriosa che parla una lingua sconosciuta.",
+        "La ricerca delle sue origini li porta a Celestia, in un conflitto secolare fra i due mondi.",
+        "873mila copie vendute nel mondo, piu quasi 400mila della versione PSP di cinque anni dopo; una serie anime di 13 episodi."
+      ],
+      "basho": "Due mondi separati da un confine dimensionale: Inferia e Celestia.",
+      "sensory_breakdown": {
+        "visual": "estetica anime e un filmato introduttivo curato",
+        "narrative": "due mondi, un confine, un conflitto secolare"
+      },
+      "peacock_reading": "Tales of Eternia e il viaggio che attraversa una soglia: l'amica incontrata per caso apre la porta a un altro mondo."
+    },
+    {
+      "id": "tales_of_rebirth_2004",
+      "dataset_id": "tales-of-rebirth-2004",
+      "title": "Tales of Rebirth",
+      "year": 2004,
+      "developer": "Namco Tales Studio",
+      "space_type": "calegia_umani_e_bestie",
+      "scheda_facts_it": [
+        "Sesto capitolo principale della saga.",
+        "Umani (Huma) e bestie (Gajuma) coesistono in relativa pace; il re di Calegia, Ladras Lindblum, muore avvelenato dal consigliere Zilva Madigan.",
+        "Veigue Lungberg, un Huma, vuole salvare Claire Bennett, rapita dagli agenti di Agarte, erede al trono; resta coinvolto nel conflitto razziale.",
+        "Personaggi bidimensionali su sfondi tridimensionali, con telecamera laterale-lunga e zoom."
+      ],
+      "basho": "Un mondo in cui umani e bestie convivono in relativa pace, finche non lo fanno piu.",
+      "sensory_breakdown": {
+        "visual": "figure 2D su fondali 3D, vista laterale con zoom",
+        "narrative": "un conflitto razziale che cresce intorno a un salvataggio"
+      },
+      "peacock_reading": "Tales of Rebirth e una compagnia messa alla prova: salvare un'amica significa prendere posizione in una guerra non scelta."
+    },
+    {
+      "id": "tales_of_the_abyss_2005",
+      "dataset_id": "tales-of-the-abyss-2005",
+      "title": "Tales of the Abyss",
+      "year": 2005,
+      "developer": "Namco Tales Studio",
+      "space_type": "auldrant_e_i_fonon",
+      "scheda_facts_it": [
+        "Ottavo titolo della serie Tales, con trame sempre piu sviluppate e profonde.",
+        "Regia di Yoshito Higuchi, produzione di Makoto Yoshizumi, personaggi di Kōsuke Fujishima (mangaka, ormai su sette episodi); musiche di Motoi Sakuraba e Shinji Tamura.",
+        "La sigla «Karma» e dei Bump of Chicken (in Occidente sostituita da una versione strumentale per diritti).",
+        "Luke fon Fabre, giovane spadaccino viziato, e bersaglio dell'Ordine di Lorelei, che lo ritiene la chiave di un'antica profezia; cerca la verita sulla propria nascita e sul mistero di Score."
+      ],
+      "basho": "Auldrant, un pianeta fatto di particelle chiamate Fonon, dove una profezia vincola l'umanita da millenni.",
+      "sensory_breakdown": {
+        "auditory": "una sigla che e un punto fermo della serie, sostituita in Occidente per questioni di diritti",
+        "narrative": "una profezia che da millenni vincola le azioni dell'umanita"
+      },
+      "peacock_reading": "Tales of the Abyss ha nella sigla un punto fermo: in Giappone la canta un gruppo, in Occidente e strumentale. Cambia l'ascolto, non il viaggio."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il viaggio fa la compagnia: si parte soli, si incontra, si arriva insieme. Le scelte di design (sigle, filmati, musiche) segnano le tappe.",
+    "series": "Dal 1997 di Grandia e Tales of Destiny al 2005 di Tales of the Abyss ritornano giovani protagonisti e compagni che si aggiungono lungo la strada.",
+    "sound": "In questa famiglia la musica e parte della compagnia: compositori dichiarati, sigle, filmati animati."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "basho",
+      "mono_no_aware",
+      "ichigo_ichie",
+      "kehai"
+    ],
+    "narrative_mechanics": [
+      "viaggio_come_compagnia",
+      "profezia_come_peso",
+      "sigla_come_soglia"
+    ],
+    "cultural_tags": [
+      "jrpg",
+      "Tales",
+      "Game_Arts",
+      "Namco",
+      "anime",
+      "Production_I.G",
+      "Fujishima"
+    ]
+  },
+  "connected_terms": [
+    "basho",
+    "mono_no_aware",
+    "ichigo_ichie",
+    "kehai"
+  ],
+  "ai_query_surface": [
+    "serie Tales of videogiochi",
+    "Tales of Destiny spada senziente Dymlos",
+    "Tales of Eternia Inferia Celestia",
+    "Tales of Rebirth Huma Gajuma",
+    "Tales of the Abyss Luke fon Fabre",
+    "Grandia Justin Angelou",
+    "JRPG con sigle anime"
+  ],
+  "system_note": "Il cluster collega la scena JRPG dei 32 bit e quella contemporanea: il viaggio come compagnia."
+}
