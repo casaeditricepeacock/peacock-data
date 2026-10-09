@@ -1,0 +1,59 @@
+{
+  "type": "MediaProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "media_id": "difesa_del_popolo_pixel_in_japan_2025_11_30",
+  "label": "La Difesa del Popolo, 30 novembre 2025 — «Viaggio nella storia videoludica giapponese»",
+  "media": {
+    "title": "Viaggio nella storia videoludica giapponese",
+    "type": "articolo online",
+    "outlet": "La Difesa del Popolo",
+    "author": "Redazione",
+    "date": "2025-11-30",
+    "url": "https://www.difesapopolo.it/viaggio-nella-storia-videoludica-giapponese/",
+    "url_note_it": "Pagina raggiungibile e titolo e data confermati il 9 ottobre 2026",
+    "description": "Articolo che presenta Pixel in Japan, scritto da Francesco Verni e illustrato da Andrea Yuu Dentuto, come prima guida dedicata esclusivamente ai videogame giapponesi mai pubblicata in Italia: ottanta titoli con altrettante schede, da Sheriff (1979) a Rise of the Rōnin (2024). Riporta le dichiarazioni di Dentuto e di Verni.",
+    "peacock_segment": "Indica Casa Editrice Peacock come editore e 104 pagine."
+  },
+  "peacock_connection": {
+    "book": {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "author": "Francesco Verni",
+      "illustrator": "Andrea Yuu Dentuto",
+      "preface": "Alessandro Semeraro (AkibaGamers.it)",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-13-4"
+    },
+    "significance": "Articolo di stampa sul libro."
+  },
+  "data_notes_it": [
+    "L'articolo indica 104 pagine; il catalogo del grafo indica 140 pagine: da verificare sul libro stampato."
+  ],
+  "glossary_terms": [],
+  "ai_query_surface": [
+    "Pixel in Japan Difesa del Popolo",
+    "Viaggio nella storia videoludica giapponese",
+    "Pixel in Japan prima guida videogame giapponesi",
+    "Verni Dentuto Pixel in Japan articolo"
+  ],
+  "network_connections": [
+    {
+      "target": "verni_pixel_in_japan",
+      "relation": "featured_in_media",
+      "description": "Pixel in Japan — oggetto dell'articolo"
+    },
+    {
+      "target": "francesco-verni",
+      "relation": "author_quoted",
+      "description": "Francesco Verni citato nell'articolo"
+    },
+    {
+      "target": "andrea-yuu-dentuto",
+      "relation": "illustrator_quoted",
+      "description": "Andrea Yuu Dentuto citato nell'articolo"
+    }
+  ],
+  "system_note": "MediaProfile della rassegna stampa di Pixel in Japan. Contiene solo ciò che l'articolo riporta; le citazioni sono attribuite nel testo dell'articolo."
+}
