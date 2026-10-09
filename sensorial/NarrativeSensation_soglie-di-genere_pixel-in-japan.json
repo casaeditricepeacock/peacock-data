@@ -1,0 +1,148 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "soglie_di_genere",
+  "label": "Le soglie di genere — Sheriff, Hokkaidō Rensa Satsujin, Resident Evil, Metal Gear Solid",
+  "intensity": "tesa_e_fondativa",
+  "tempo": "di_prima_volta",
+  "sensory_channels": [
+    "visivo",
+    "narrativo"
+  ],
+  "core_statement": "Giochi in cui una forma nuova prende nome o si afferma: uno dei primi cabinati di una casa, il primo giallo a comandi a scelta multipla, il titolo che da il nome al survival horror, quello che forma la generazione PlayStation. Sono soglie: prima e dopo non sono uguali.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "sheriff_1979",
+      "dataset_id": "sheriff-1979",
+      "title": "Sheriff",
+      "year": 1979,
+      "developer": "Nintendo",
+      "space_type": "far_west_da_cabinato",
+      "scheda_facts_it": [
+        "Uno dei primi cabinati prodotti da Nintendo, con grande successo mondiale nell'epoca dei coin-op.",
+        "Game design di Genyo Takeda (probabilmente con il supporto di Ikegami Tsushinki), art design di Shigeru Miyamoto.",
+        "Ambientato nel Far West: lo sceriffo si difende dai banditi sparandogli; le carovane servono come riparo o a proprio vantaggio.",
+        "Il passaggio dell'avvoltoio, se colpito, da bonus aggiuntivi."
+      ],
+      "basho": "Un Far West ridotto a cabinato: carovane come riparo, banditi che arrivano, un avvoltoio che passa.",
+      "sensory_breakdown": {
+        "visual": "un Far West a schermo fisso: carovane, banditi, un avvoltoio",
+        "proprioceptive": "sparare e ripararsi: due gesti in un solo luogo"
+      },
+      "peacock_reading": "Sheriff e una prima volta senza nome: il Far West di Shigeru Miyamoto, prima di Mario."
+    },
+    {
+      "id": "hokkaido_rensa_satsujin_1987",
+      "dataset_id": "hokkaido-rensa-satsujin-ohotsuku-ni-kiyu-1987",
+      "title": "Hokkaidō Rensa Satsujin: Ohōtsuku ni Kiyu",
+      "year": 1987,
+      "developer": "Login Soft",
+      "space_type": "da_tokyo_a_hokkaido",
+      "scheda_facts_it": [
+        "Originariamente per PC nel 1984; la versione per Nintendo Entertainment System del 1987, con correzioni e miglioramenti, divenne un successo imponente, soprattutto in Giappone.",
+        "Mistery d'avventura basato interamente sulla sceneggiatura di Yuji Horii, che aveva gia lavorato a titoli dello stesso genere.",
+        "Tutto comincia con un cadavere nella baia di Tokyo; l'ispettore Tetsuji Nitta si sposta presto a Hokkaido, dove si svolge la maggior parte della storia.",
+        "Primo gioco d'avventura a usare il sistema dei comandi a scelta multipla, per superare l'impasse dei comandi «morti» da inserire nei PC."
+      ],
+      "basho": "Un cadavere nella baia di Tokyo e un'indagine che sale verso l'isola di Hokkaido.",
+      "sensory_breakdown": {
+        "visual": "un viaggio dal mare di Tokyo all'isola del nord",
+        "narrative": "un'indagine che attraversa il Paese"
+      },
+      "peacock_reading": "Hokkaidō Rensa Satsujin e il giallo che impara a parlare con un menu: dalla tastiera ai comandi da scegliere."
+    },
+    {
+      "id": "resident_evil_1996",
+      "dataset_id": "resident-evil-1996",
+      "title": "Resident Evil",
+      "year": 1996,
+      "developer": "Capcom",
+      "space_type": "villa_di_raccoon_city",
+      "scheda_facts_it": [
+        "Antesignano dei survival horror: la scheda dice che qualcosa di simile c'era gia, ma con questo titolo e nato ufficialmente il nome del genere.",
+        "Raccoon City, sui monti Arklay, e colpita da un'epidemia di zombie.",
+        "La squadra Alpha, guidata da Jill Valentine e Chris Redfield (i due personaggi giocabili), indaga sulla squadra Bravo delle forze speciali S.T.A.R.S. e si ritrova chiusa in una villa.",
+        "La villa e l'accesso al centro di ricerca della Umbrella Corporation, che ha creato il virus."
+      ],
+      "basho": "Una villa che e l'ingresso a un centro di ricerca, nei monti Arklay.",
+      "sensory_breakdown": {
+        "visual": "una villa che si rivela una soglia",
+        "narrative": "una squadra chiusa dentro, il pericolo fuori e dentro"
+      },
+      "peacock_reading": "Resident Evil e la soglia di un genere: da qui un nome, e dopo il nome una tradizione."
+    },
+    {
+      "id": "metal_gear_solid_1998",
+      "dataset_id": "metal-gear-solid-1998",
+      "title": "Metal Gear Solid",
+      "year": 1998,
+      "developer": "Konami",
+      "space_type": "impianto_nucleare",
+      "scheda_facts_it": [
+        "Terzo titolo di Hideo Kojima, dopo Metal Gear e Metal Gear 2: Solid Snake; la scheda lo considera uno dei gioielli del gaming.",
+        "Solid Snake, super soldato, si infiltra in un impianto nucleare per fermare l'unita rinnegata Foxhound, liberare gli ostaggi e impedire un attacco nucleare.",
+        "Trama cinematografica che, secondo la scheda, fara scuola e formera la «PlayStation generation».",
+        "Circa sette milioni di copie vendute in tutto il mondo."
+      ],
+      "basho": "Un impianto di armi nucleari da infiltrare, nel mezzo di una Guerra Fredda mai finita.",
+      "sensory_breakdown": {
+        "visual": "un impianto da infiltrare, in silenzio",
+        "narrative": "una trama che si sente di cinema"
+      },
+      "peacock_reading": "Metal Gear Solid e la soglia fra gioco e cinema: la mano dell'autore si sente in ogni passaggio, dice la scheda."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Quattro prime volte: un cabinato, un comando a scelta, un nome di genere, una generazione.",
+    "scale": "Dal 1979 al 1998 la soglia cambia natura: una macchina da sala, un menu, un nome, un modo di raccontare.",
+    "reader_effect": "Giocarli oggi significa vedere dove una forma e cominciata."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "kehai",
+      "kata",
+      "basho"
+    ],
+    "narrative_mechanics": [
+      "prima_volta",
+      "genere_che_prende_nome",
+      "soglia_tecnica"
+    ],
+    "cultural_tags": [
+      "cabinato",
+      "avventura",
+      "survival_horror",
+      "stealth",
+      "Nintendo",
+      "Capcom",
+      "Konami",
+      "Kojima"
+    ]
+  },
+  "connected_terms": [
+    "ma",
+    "kehai",
+    "kata",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "primi giochi arcade Nintendo Sheriff",
+    "Hokkaidō Rensa Satsujin comandi a scelta multipla",
+    "Resident Evil nascita del survival horror",
+    "Metal Gear Solid Kojima PlayStation generation",
+    "giochi che hanno fondato un genere"
+  ],
+  "system_note": "Il cluster collega la scena arcade, quella 8 bit e quella PlayStation: giochi che segnano un punto di partenza."
+}
