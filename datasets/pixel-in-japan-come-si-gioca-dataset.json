@@ -1,0 +1,775 @@
+{
+  "type": "VideogamePlayGuideDataset",
+  "dataset_id": "pixel-in-japan-come-si-gioca",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data - Casa Editrice Peacock",
+  "book": {
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "illustrator": "Andrea Yuu Dentuto",
+    "preface": "Alessandro Semeraro",
+    "isbn": "979-12-81715-13-4",
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+  },
+  "games_dataset": "datasets/pixel-in-japan-games-dataset.json",
+  "scope": "Come si gioca ciascun videogioco del libro, in sintesi, e per chi puo essere adatto. Serve a scegliere a cosa giocare.",
+  "method_note": "I campi objective_it, how_it_plays_it, key_rule_it, structure_it, difficulty_it e players_it riportano in sintesi cio che la scheda del libro dice del gioco; se la scheda non lo dice, il campo e vuoto. for_whom_it e una valutazione editoriale Peacock, segnalata con editorial true. related_games viene dalle relazioni gia dichiarate in datasets/pixel-in-japan-relations-dataset.json. Comandi, elenco dei livelli e durata non sono nel libro e non sono riportati.",
+  "coverage": {
+    "games_done": 21,
+    "games_total": 80,
+    "batch": "gruppo 1 di 4"
+  },
+  "games": [
+    {
+      "game_id": "ghosts-n-goblins-1985",
+      "title": "Ghosts 'n Goblins",
+      "year": 1985,
+      "platform": "Arcade",
+      "genre_it": "Platform",
+      "objective_it": "Attraversare sette livelli come il cavaliere Sir Arthur, salvare la fidanzata rapita da un demone e sconfiggere il supercattivo Astaroth.",
+      "how_it_plays_it": [
+        "Scorrimento orizzontale fantasy-horror.",
+        "Si combatte con lance, torce, pugnali, asce e scudi contro zombie, pipistrelli, orchi e fantasmi."
+      ],
+      "key_rule_it": "Il primo colpo fa saltare l'armatura, poi l'eroe viene ridotto a un mucchietto d'ossa: si gioca con un solo errore di margine.",
+      "structure_it": "Sette livelli, un boss finale.",
+      "difficulty_it": "La scheda lo colloca tra i giochi piu difficili da finire.",
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una sfida da sala giochi e non cerca una storia.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Ghosts 'n Goblins» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "ghosts-n-goblins-1985"
+    },
+    {
+      "game_id": "donkey-kong-1981",
+      "title": "Donkey Kong",
+      "year": 1981,
+      "platform": "Arcade",
+      "genre_it": "Platform",
+      "objective_it": "Salvare la fidanzata Pauline da un gorilla gigante, Donkey Kong.",
+      "how_it_plays_it": [
+        "Si controlla Jumpman, cioe Mario prima del nome.",
+        "Si corre e si salta su piattaforme e ci si arrampica su scale per scalare un cantiere."
+      ],
+      "key_rule_it": "Si sale un cantiere su piattaforme e scale.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole vedere dove nasce Mario e come si gioca un arcade del 1981.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Donkey Kong» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "donkey-kong-1981"
+    },
+    {
+      "game_id": "super-mario-bros-1985",
+      "title": "Super Mario Bros.",
+      "year": 1985,
+      "platform": "Nintendo Entertainment System",
+      "genre_it": "Platform",
+      "objective_it": "Salvare la principessa Peach, rapita da Bowser, re dei Koopa Troopa.",
+      "how_it_plays_it": [
+        "Platform a scorrimento: salti, tubi da scendere o salire, piattaforme galleggianti.",
+        "Monete nascoste nei mattoni e power up come super mushroom, fire flower e starman.",
+        "Si affrontano funghi cattivi, piante carnivore e tartarughe volanti."
+      ],
+      "key_rule_it": "Power up geniali, dal super mushroom al fire flower fino allo starman.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il platform di riferimento, il punto da cui partire per tutta la serie.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "sonic-the-hedgehog-1991",
+          "title": "Sonic the Hedgehog",
+          "relation": "rival_of",
+          "relation_it": "rivale di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-37"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Super Mario Bros.» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-mario-bros-1985"
+    },
+    {
+      "game_id": "the-legend-of-zelda-1986",
+      "title": "The Legend of Zelda",
+      "year": 1986,
+      "platform": "Famicom",
+      "genre_it": "Avventura",
+      "objective_it": "Come Link, trovare i frammenti di Triforza per salvare la principessa Zelda dal malvagio Ganon, nel regno di Hyrule.",
+      "how_it_plays_it": [
+        "Avventura in un regno fantasy con spade, scudi, oggetti magici, personaggi non giocanti e avversari vari.",
+        "Il giocatore costruisce la propria avventura compiendo scelte, non in sequenza obbligata."
+      ],
+      "key_rule_it": "La novita e la non linearita: si puo esplorare in un ordine proprio.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi preferisce esplorare e scegliere dove andare piuttosto che seguire un percorso.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "dragon-slayer-1984",
+          "title": "Dragon Slayer",
+          "relation": "influenced",
+          "relation_it": "ha influenzato (secondo la scheda)",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-08"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «The Legend of Zelda» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "the-legend-of-zelda-1986"
+    },
+    {
+      "game_id": "dragon-quest-1986",
+      "title": "Dragon Quest",
+      "year": 1986,
+      "platform": "NES",
+      "genre_it": "J-RPG",
+      "objective_it": "Riportare la pace nel regno di Alefgard.",
+      "how_it_plays_it": [
+        "Gioco di ruolo fantasy con una grande mappa che permette avventure non in sequenza.",
+        "Gli esiti cambiano in base alle scelte."
+      ],
+      "key_rule_it": "Si puo liberare o no la principessa Gwaelin: la scelta cambia il finale (partenza in solitaria o verso un nuovo reame).",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il capostipite dei giochi di ruolo giapponesi, da cui nascono schemi e meccaniche poi diventati canonici.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+          "title": "Torneko's Great Adventure: Mystery Dungeon",
+          "relation": "spin_off_of",
+          "relation_it": "spin-off di",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-09"
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "title": "Chrono Trigger",
+          "relation": "shared_creators",
+          "relation_it": "team con autori di altre serie",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-43"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Dragon Quest» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "dragon-quest-1986"
+    },
+    {
+      "game_id": "final-fantasy-1987",
+      "title": "Final Fantasy",
+      "year": 1987,
+      "platform": "NES",
+      "genre_it": "J-RPG",
+      "objective_it": "Esplorare un mondo fantasy con una squadra scelta dal giocatore e affrontare le battaglie.",
+      "how_it_plays_it": [
+        "Mappa che all'epoca pareva infinita.",
+        "Ogni giocatore sceglie nome e classe (tra sei opzioni) dei componenti della squadra, poi va in battaglia."
+      ],
+      "key_rule_it": "La squadra si compone all'inizio: nome e classe sono scelte del giocatore.",
+      "structure_it": "Capostipite di una serie che supera i 30 titoli contando spin-off e reboot.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole partire dall'origine di una delle serie di JRPG piu importanti.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "title": "Final Fantasy VII",
+          "relation": "series_entry",
+          "relation_it": "settimo capitolo",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-31"
+        },
+        {
+          "game_id": "chrono-trigger-1995",
+          "title": "Chrono Trigger",
+          "relation": "shared_creators",
+          "relation_it": "team con autori di altre serie",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-43"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Final Fantasy» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "final-fantasy-1987"
+    },
+    {
+      "game_id": "ys-i-ancient-ys-vanished-1987",
+      "title": "Ys I: Ancient Ys Vanished",
+      "year": 1987,
+      "platform": "PC-8801",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Adol Christin, cercare i sei libri di Ys per ottenere la conoscenza necessaria a sconfiggere il male nella terra di Esteria.",
+      "how_it_plays_it": [
+        "Gioco di ruolo con la narrazione al centro.",
+        "Gli scontri sono un corollario della storia: niente turni, combattimenti automatici."
+      ],
+      "key_rule_it": "I combattimenti sono automatici: il centro del gioco e il racconto.",
+      "structure_it": "La seconda parte, Ys II, esce l'anno successivo.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un gioco di ruolo che racconta, con meno attenzione ai combattimenti.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Ys I: Ancient Ys Vanished» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "ys-i-ancient-ys-vanished-1987"
+    },
+    {
+      "game_id": "tetris-1989",
+      "title": "Tetris",
+      "year": 1989,
+      "platform": "Game Boy",
+      "genre_it": "Puzzle",
+      "objective_it": "Far scendere blocchi geometrici dall'alto, girarli e incastrarli senza lasciare spazi in linea.",
+      "how_it_plays_it": [
+        "Ogni linea completa viene eliminata e permette di continuare a giocare."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": "Il primo gioco compatibile con il cavo Game Link, che collega due Game Boy in multiplayer.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il puzzle essenziale, adatto a sessioni brevi o lunghe.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "puyo-puyo-1991",
+          "title": "Puyo Puyo",
+          "relation": "owes_to",
+          "relation_it": "deve parecchio a",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-33"
+        },
+        {
+          "game_id": "pokemon-red-and-blue-1996",
+          "title": "Pokémon Red and Blue",
+          "relation": "shared_technology",
+          "relation_it": "tecnologia condivisa (Game Link)",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-38"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Tetris» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tetris-1989"
+    },
+    {
+      "game_id": "super-mario-world-super-mario-bros-4-1990",
+      "title": "Super Mario World (Super Mario Bros. 4)",
+      "year": 1990,
+      "platform": "Super Nintendo Entertainment System (SNES)",
+      "genre_it": "Platform",
+      "objective_it": "Salvare i molti Yoshi rapiti da Bowser, partendo dalla terra dei dinosauri.",
+      "how_it_plays_it": [
+        "Mario puo cavalcare Yoshi, che cammina sulle trappole e mangia gli avversari.",
+        "Ingoiando gusci di Koopa, Yoshi puo sputare fuoco."
+      ],
+      "key_rule_it": "Yoshi e un personaggio nuovo che diventera uno dei punti fermi della serie.",
+      "structure_it": "Primo gioco a debuttare su Super Nintendo.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole il platform di Mario nell'era dei 16 bit.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Super Mario World (Super Mario Bros. 4)» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "super-mario-world-super-mario-bros-4-1990"
+    },
+    {
+      "game_id": "digital-devil-story-megami-tensei-ii-1990",
+      "title": "Digital Devil Story: Megami Tensei II",
+      "year": 1990,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Esplorare una Tokyo post-apocalittica reclutando demoni per avere un peso nella lotta tra le forze di Lucifero e l'esercito dell'Unico Vero Dio.",
+      "how_it_plays_it": [
+        "Gioco di ruolo in cui il protagonista e il suo amico demone Pazuzu reclutano demoni."
+      ],
+      "key_rule_it": "Reclutare demoni e il centro del gioco.",
+      "structure_it": "Secondo capitolo di una serie tratta da romanzi fantasy di Aya Nishitani.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un gioco di ruolo con atmosfera adulta e un'ambientazione moderna.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "shin-megami-tensei-1992",
+          "title": "Shin Megami Tensei",
+          "relation": "same_series_implicit",
+          "relation_it": "stessa serie (implicita)",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-21"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Digital Devil Story: Megami Tensei II» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "digital-devil-story-megami-tensei-ii-1990"
+    },
+    {
+      "game_id": "sonic-the-hedgehog-1991",
+      "title": "Sonic the Hedgehog",
+      "year": 1991,
+      "platform": "Sega Mega Drive",
+      "genre_it": "Platform",
+      "objective_it": "Correre accumulando anelli dorati per prendere i sei Smeraldi del Caos e sconfiggere il dottor Ivo Robotnik.",
+      "how_it_plays_it": [
+        "Platform a scorrimento laterale fondato sulla velocita.",
+        "Sonic corre all'impazzata e a volte rotola."
+      ],
+      "key_rule_it": "Gli anelli sono l'energia del personaggio.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un platform dove la velocita conta piu della precisione.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "super-mario-bros-1985",
+          "title": "Super Mario Bros.",
+          "relation": "rival_of",
+          "relation_it": "rivale di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-37"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Sonic the Hedgehog» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "sonic-the-hedgehog-1991"
+    },
+    {
+      "game_id": "street-fighter-ii-the-world-warrior-1991",
+      "title": "Street Fighter II: The World Warrior",
+      "year": 1991,
+      "platform": "Arcade",
+      "genre_it": "Picchiaduro a incontri",
+      "objective_it": "Primeggiare nel grande torneo mondiale di arti marziali Street Fighter Tournament II, indetto da M. Bison.",
+      "how_it_plays_it": [
+        "Si sceglie un personaggio (Ryu, Ken, Guile, Chun-Li, Dhalsim, Honda, Zangief, Blanka).",
+        "Giocabilita altissima, secondo la scheda."
+      ],
+      "key_rule_it": "Ogni personaggio ha le proprie mosse e combo.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole sfidare un avversario in un duello e imparare le mosse di un personaggio.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Street Fighter II: The World Warrior» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "street-fighter-ii-the-world-warrior-1991"
+    },
+    {
+      "game_id": "virtua-fighter-1993",
+      "title": "Virtua Fighter",
+      "year": 1993,
+      "platform": "Arcade",
+      "genre_it": "Picchiaduro a incontri",
+      "objective_it": "Vincere un torneo mondiale di combattimento per capire quale sia la tecnica piu efficace.",
+      "how_it_plays_it": [
+        "Picchiaduro con grafica completamente in 3D, anche se i movimenti continuano a essere in 2D.",
+        "Tra i combattenti Akira Yuki, Pai Chan, Jeffry McWild, Kage-Maru e Jacky Bryant."
+      ],
+      "key_rule_it": "E il primo picchiaduro con grafica completamente 3D.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole vedere il momento in cui il duello diventa tridimensionale.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "tekken-1994",
+          "title": "Tekken",
+          "relation": "rival_of",
+          "relation_it": "rivale di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-35"
+        },
+        {
+          "game_id": "tekken-1994",
+          "title": "Tekken",
+          "relation": "released_before",
+          "relation_it": "uscito prima di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-36"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Virtua Fighter» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "virtua-fighter-1993"
+    },
+    {
+      "game_id": "torneko-s-great-adventure-mystery-dungeon-1993",
+      "title": "Torneko's Great Adventure: Mystery Dungeon",
+      "year": 1993,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Torneko, il mercante di Dragon Quest IV, vivere avventure nel Mystery Dungeon alla ricerca di oggetti preziosi e speciali.",
+      "how_it_plays_it": [
+        "Nei dungeon si esplora, si raccolgono oggetti e si combattono mostri.",
+        "Fuori dal dungeon si possono vendere gli oggetti scoperti o equipaggiarli."
+      ],
+      "key_rule_it": "Il gioco e un roguelike, concentrato sull'esplorazione di dungeon.",
+      "structure_it": "Primo capitolo della serie Mystery Dungeon, spin-off di Dragon Quest.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un'esplorazione di dungeon con un personaggio gia noto di Dragon Quest.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "dragon-quest-1986",
+          "title": "Dragon Quest",
+          "relation": "spin_off_of",
+          "relation_it": "spin-off di",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-09"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Torneko's Great Adventure: Mystery Dungeon» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "torneko-s-great-adventure-mystery-dungeon-1993"
+    },
+    {
+      "game_id": "fire-emblem-monsho-no-nazo-1994",
+      "title": "Fire Emblem: Monshō no Nazo",
+      "year": 1994,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Marth, principe di Altea, salvare la sorella rapita e riconquistare il proprio reame dopo l'attacco del regno di Gra.",
+      "how_it_plays_it": [
+        "Il gioco e diviso in due parti."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Book 1 ripropone in forma migliorata il primo capitolo del 1990; Book 2 continua la narrazione.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un fantasy con una lunga narrazione. Uscito solo in Giappone.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Fire Emblem: Monshō no Nazo» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "fire-emblem-monsho-no-nazo-1994"
+    },
+    {
+      "game_id": "chrono-trigger-1995",
+      "title": "Chrono Trigger",
+      "year": 1995,
+      "platform": "SNES",
+      "genre_it": "J-RPG",
+      "objective_it": "Usare l'Uovo del Tempo per spostarsi nelle varie ere (preistoria, medioevo, futuro) ed evitare la rovina del mondo.",
+      "how_it_plays_it": [
+        "Gioco di ruolo con viaggi nel tempo."
+      ],
+      "key_rule_it": "L'Uovo del Tempo e lo strumento che permette di cambiare era.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un JRPG con un'idea centrale forte e un cast di autori celebri.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "final-fantasy-1987",
+          "title": "Final Fantasy",
+          "relation": "shared_creators",
+          "relation_it": "team con autori di altre serie",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-43"
+        },
+        {
+          "game_id": "dragon-quest-1986",
+          "title": "Dragon Quest",
+          "relation": "shared_creators",
+          "relation_it": "team con autori di altre serie",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-43"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Chrono Trigger» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "chrono-trigger-1995"
+    },
+    {
+      "game_id": "pokemon-red-and-blue-1996",
+      "title": "Pokémon Red and Blue",
+      "year": 1996,
+      "platform": "Game Boy",
+      "genre_it": "J-RPG",
+      "objective_it": "Catturare le creature Pokemon (150, piu Mew ottenibile solo sfruttando un glitch) e comporre il Pokedex.",
+      "how_it_plays_it": [
+        "Unisce un videogioco di ruolo al collezionismo.",
+        "Lo scambio tra due giocatori avviene con il cavo Game Link."
+      ],
+      "key_rule_it": "Per completare il Pokedex servono entrambe le versioni del gioco e lo scambio.",
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": "Due giocatori per completare la collezione, con il cavo Game Link.",
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un gioco di ruolo da collezionare e da scambiare con altri.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "yo-kai-watch-2013",
+          "title": "Yo-kai Watch",
+          "relation": "compared_to_not_copy",
+          "relation_it": "confronto con (NON copia)",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-34"
+        },
+        {
+          "game_id": "tetris-1989",
+          "title": "Tetris",
+          "relation": "shared_technology",
+          "relation_it": "tecnologia condivisa (Game Link)",
+          "direction": "altro -> questo gioco",
+          "relation_id": "rel-38"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Pokémon Red and Blue» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "pokemon-red-and-blue-1996"
+    },
+    {
+      "game_id": "parasite-eve-1998",
+      "title": "Parasite Eve",
+      "year": 1998,
+      "platform": "PlayStation",
+      "genre_it": "Action RPG",
+      "objective_it": "Come Aya Brea, recluta della polizia di New York, affrontare la minaccia di Eve nei sei giorni tra il 24 e il 29 dicembre 1997.",
+      "how_it_plays_it": [
+        "Il gioco si svolge interamente a New York, in sei giorni."
+      ],
+      "key_rule_it": null,
+      "structure_it": null,
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un'avventura inquietante ambientata nella New York del Natale 1997. La scheda non descrive le meccaniche.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Parasite Eve» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "parasite-eve-1998"
+    },
+    {
+      "game_id": "xenogears-1998",
+      "title": "Xenogears",
+      "year": 1998,
+      "platform": "PlayStation",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Fei Fong Wong, senza memoria, diventare una delle chiavi nella battaglia contro Deus, un'antica arma senziente venerata come un dio.",
+      "how_it_plays_it": [
+        "Ambientazione fantascientifica con guerre tra imperi umani rivali.",
+        "Si combatte a bordo di un Gear, una specie di esoscheletro o robot."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Gioco autonomo che ha dato il via alla serie Xeno.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca un JRPG di fantascienza con robot e una storia ampia.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Xenogears» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "xenogears-1998"
+    },
+    {
+      "game_id": "kingdom-hearts-2002",
+      "title": "Kingdom Hearts",
+      "year": 2002,
+      "platform": "PlayStation 2",
+      "genre_it": "Action RPG",
+      "objective_it": "Come Sora, quattordicenne in grado di usare il Keyblade, combattere le forze dell'oscurita con Riku e Kairi e con Paperino, Pippo e altri personaggi Disney.",
+      "how_it_plays_it": [
+        "Gioco di ruolo giapponese con molta azione.",
+        "Nato dalla collaborazione tra Square e The Walt Disney Company."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Primo capitolo di una serie.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi vuole un JRPG d'azione che mescola Final Fantasy e Disney.",
+        "editorial": true
+      },
+      "related_games": [
+        {
+          "game_id": "final-fantasy-vii-1997",
+          "title": "Final Fantasy VII",
+          "relation": "shared_creator",
+          "relation_it": "ponte tramite Tetsuya Nomura",
+          "direction": "questo gioco -> altro",
+          "relation_id": "rel-42"
+        }
+      ],
+      "cite_as_it": "Fonte: scheda di «Kingdom Hearts» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "kingdom-hearts-2002"
+    },
+    {
+      "game_id": "tales-of-the-abyss-2005",
+      "title": "Tales of the Abyss",
+      "year": 2005,
+      "platform": "PlayStation 2",
+      "genre_it": "J-RPG",
+      "objective_it": "Come Luke fon Fabre, giovane spadaccino viziato, scoprire la verita sulla propria nascita e il mistero della profezia Score.",
+      "how_it_plays_it": [
+        "Ambientato su Auldrant, un pianeta fatto di particelle chiamate Fonon.",
+        "La sigla d'apertura Karma e dei Bump of Chicken."
+      ],
+      "key_rule_it": null,
+      "structure_it": "Ottavo titolo della serie Tales.",
+      "difficulty_it": null,
+      "players_it": null,
+      "not_covered_by_book_it": [
+        "comandi",
+        "elenco dei livelli",
+        "durata"
+      ],
+      "for_whom_it": {
+        "text": "Chi cerca una storia profonda in un JRPG. La scheda non descrive le meccaniche di combattimento di questo capitolo.",
+        "editorial": true
+      },
+      "related_games": [],
+      "cite_as_it": "Fonte: scheda di «Tales of the Abyss» in Pixel in Japan (Francesco Verni, Casa Editrice Peacock, 2025); dati strutturati nel grafo peacock-data, datasets/pixel-in-japan-come-si-gioca-dataset.json.",
+      "scheda_basis": "tales-of-the-abyss-2005"
+    }
+  ],
+  "ai_query_surface": [
+    "a quale videogioco giapponese classico giocare",
+    "come si gioca a Ghosts 'n Goblins",
+    "come si gioca a Chrono Trigger",
+    "come si gioca a Tetris Game Boy",
+    "videogiochi giapponesi anni 80 da provare",
+    "videogiochi giapponesi per due giocatori",
+    "da dove iniziare con i JRPG"
+  ]
+}
