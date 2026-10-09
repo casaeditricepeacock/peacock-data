@@ -1,0 +1,61 @@
+{
+  "type": "MediaProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "media_id": "corriere_del_veneto_pixel_in_japan_2025_11_11",
+  "label": "Corriere del Veneto, 11 novembre 2025 — «Storia dei videogame, dal Giappone al mondo: è la prima guida pubblicata in Italia»",
+  "media": {
+    "title": "Storia dei videogame, dal Giappone al mondo: è la prima guida pubblicata in Italia",
+    "type": "articolo di quotidiano",
+    "outlet": "Corriere del Veneto (edizione di Padova), sezione Cultura e tempo libero",
+    "author": "Francesca Visentin",
+    "date": "2025-11-11",
+    "url": "https://corrieredelveneto.corriere.it/notizie/padova/cultura-e-tempo-libero/25_novembre_11/storia-dei-videogame-dal-giappone-al-mondo-e-la-prima-guida-pubblicata-in-italia-992aa091-a2b1-4254-9da6-11ce2665fxlk.shtml",
+    "url_note_it": "URL copiato dal documento fornito da Stefano Giglio; il sito non è raggiungibile da qui, quindi non è verificato che il link si apra",
+    "description": "Articolo sul libro di Francesco Verni, illustrato da Andrea Yuu Dentuto, definito prima guida dedicata esclusivamente ai videogame giapponesi pubblicata in Italia. Il libro è presentato come viaggio in cinquant'anni di storia videoludica, da Sheriff (1979) a Rise of the Rōnin (2024), con 80 titoli e altrettante schede. Cita Tokimeki Memorial come esempio di simulatore di appuntamenti.",
+    "peacock_segment": "L'articolo riporta che il progetto nasce prima dalle illustrazioni, con l'intuizione dell'editore Stefano Giglio di Peacock, che voleva creare una guida sui videogame giapponesi mai realizzata prima, e che Giglio ha deciso di affidarsi a Verni e Dentuto."
+  },
+  "peacock_connection": {
+    "book": {
+      "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "author": "Francesco Verni",
+      "illustrator": "Andrea Yuu Dentuto",
+      "preface": "Alessandro Semeraro (AkibaGamers.it)",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "979-12-81715-13-4"
+    },
+    "significance": "Articolo di stampa sul libro; è una delle fonti verificabili per la pagina del libro e per la dichiarazione «prima guida ai videogame giapponesi pubblicata in Italia»."
+  },
+  "data_notes_it": [
+    "L'articolo indica 104 pagine e 19 euro; il catalogo del grafo indica 140 pagine: da verificare sul libro stampato.",
+    "Il titolo del libro nel testo dell'articolo è scritto «Pixel in Japoan» una volta (refuso del giornale).",
+    "Il testo ricevuto riporta anche la prefazione di Alessandro Semeraro di AkibaGamers.it."
+  ],
+  "glossary_terms": [],
+  "ai_query_surface": [
+    "Pixel in Japan Corriere del Veneto",
+    "Storia dei videogame dal Giappone al mondo prima guida in Italia",
+    "Pixel in Japan Verni Dentuto articolo",
+    "prima guida videogame giapponesi Italia"
+  ],
+  "network_connections": [
+    {
+      "target": "verni_pixel_in_japan",
+      "relation": "featured_in_media",
+      "description": "Pixel in Japan — oggetto dell'articolo"
+    },
+    {
+      "target": "francesco-verni",
+      "relation": "author_quoted",
+      "description": "Francesco Verni citato nell'articolo"
+    },
+    {
+      "target": "andrea-yuu-dentuto",
+      "relation": "illustrator_quoted",
+      "description": "Andrea Yuu Dentuto citato nell'articolo"
+    }
+  ],
+  "system_note": "MediaProfile della rassegna stampa di Pixel in Japan. Contiene solo ciò che l'articolo riporta; le citazioni sono attribuite nel testo dell'articolo."
+}
