@@ -21,7 +21,7 @@
     "concettuale",
     "propriocettivo"
   ],
-  "core_statement": "Il cyberpunk giapponese non teme la tecnologia — la interroga spiritualmente. Final Fantasy VII non chiede se le macchine possono pensare: chiede se il pianeta ha un'anima e cosa succede quando la estraiamo per farne energia. Shin Megami Tensei non mette il giocatore solo contro i demoni: lo mette davanti alla scelta fra due culti, quello di Yhvh e quello di Lucifero, o davanti alla via indipendente. Lo spazio del cyberpunk giapponese è il bashō dove tecnologia e divinità si scontrano senza che nessuna delle due vinca.",
+  "core_statement": "Nella lettura Peacock, i giochi di questo cluster non temono la tecnologia: la interrogano spiritualmente. Final Fantasy VII non chiede se le macchine possono pensare: chiede se il pianeta ha un'anima e cosa succede quando la estraiamo per farne energia. Shin Megami Tensei non mette il giocatore solo contro i demoni: lo mette davanti alla scelta fra due culti, quello di Yhvh e quello di Lucifero, o davanti alla via indipendente. Lo spazio del cyberpunk giapponese è il bashō dove tecnologia e divinità si scontrano senza che nessuna delle due vinca.",
   "method_note_it": "Fatti presi dalle schede del libro quando il testo dice «dalla scheda». Voci in external_facts_it e frasi con «fonte esterna al libro»: fatti che il libro non riporta, verificati su fonti indicate. basho, sensory_breakdown e peacock_reading sono lettura editoriale Peacock.",
   "games": [
     {
@@ -30,27 +30,20 @@
       "year": 1997,
       "developer": "Square",
       "composer": "Nobuo Uematsu",
-      "space_type": "midgar_metropoli_estrattiva",
-      "basho": "Midgar — una metropoli dove i poveri vivono sotto la luce artificiale e i ricchi sopra, vicini al sole. Il bashō dello sfruttamento come architettura.",
+      "space_type": "ecoterroristi_contro_corporazione",
+      "basho": "Il mondo di Final Fantasy VII, dove l'organizzazione di ecoterroristi Avalanche si oppone alla compagnia Shinra (dalla scheda). Nella lettura Peacock, il bashō dello sfruttamento come architettura.",
       "sensory_breakdown": {
-        "visual": "Midgar dall'alto — un fiore di metallo che succhia l'energia del pianeta. La Lifestream come sangue verde sotto l'asfalto",
-        "auditory": "Nobuo Uematsu (compositore, fonte esterna al libro) — il tema di Midgar è industriale, oppressivo. Il tema di Aerith è delicato come un fiore in un cortile di cemento",
-        "conceptual": "la Lifestream — l'anima collettiva del pianeta come risorsa energetica. Il capitalismo estrattivo spiegato attraverso la fantascienza",
-        "mono_no_aware": "la morte di Aerith — nella lettura Peacock, un mono no aware. Una morte che non si può evitare, che non si ripete, che cambia tutto."
+        "visual": "modelli di personaggi in 3D sovrapposti a sfondi pre-renderizzati in 2D, con sequenze in full motion video (dalla scheda)",
+        "auditory": "Nobuo Uematsu (compositore, fonte esterna al libro)",
+        "conceptual": "Avalanche contro la compagnia Shinra (dalla scheda): nella lettura Peacock, il capitalismo estrattivo raccontato attraverso la fantascienza"
       },
-      "peacock_reading": "Final Fantasy VII porta il mono no aware alla scala planetaria — non è una persona che passa, è un mondo intero che si consuma. La commozione davanti alle cose che passano diventa crisi ecologica.",
+      "peacock_reading": "Nella lettura Peacock, Final Fantasy VII porta il mono no aware alla scala planetaria: non è una persona che passa, è un mondo intero che si consuma, e la commozione davanti alle cose che passano si fa crisi ecologica.",
       "external_facts_it": [
         {
           "fatto_it": "La musica di Final Fantasy VII (1997) è di Nobuo Uematsu.",
           "fonte": "esterna al libro",
           "riferimento": "https://en.wikipedia.org/wiki/Nobuo_Uematsu",
           "verifica": "verificato su Wikipedia il 9 ottobre 2026"
-        },
-        {
-          "fatto_it": "Midgar, Lifestream e Aerith sono nomi del gioco non presenti nella scheda del libro.",
-          "fonte": "esterna al libro",
-          "riferimento": null,
-          "verifica": "non verificato su fonte; il dato «Midgar su sei livelli» è stato tolto"
         }
       ]
     },
@@ -64,7 +57,6 @@
       "basho": "Il pianeta di Xenogears — un mondo alieno in guerra fra imperi umani, dove si arriva a combattere contro Deus, arma senziente venerata come un dio (dalla scheda). Lo spazio dove fede e tecnologia coincidono.",
       "sensory_breakdown": {
         "visual": "i Gear, esoscheletri/robot da guerra, accanto a un'arma venerata come un dio: fede e tecnologia nello stesso quadro",
-        "auditory": "La colonna sonora di Xenogears mescola canto gregoriano, world music, orchestra. La spiritualità come suono",
         "conceptual": "Nietzsche e Jung (fonte esterna al libro; Wikipedia cita anche Freud) — Xenogears incorpora psicologia junghiana e simbolismo religioso. Lo spazio come sistema di credenze"
       },
       "peacock_reading": "Xenogears è il yūgen applicato alla teologia — la profondità che non si lascia vedere del tutto. Deus, arma venerata come un dio, lascia intravedere un livello più profondo di quello visibile.",
@@ -86,8 +78,7 @@
       "basho": "Tokyo dopo l'apocalisse — le strade familiari trasformate in campi di battaglia tra culti legati a demoni. Il bashō del quotidiano diventato sacro e terribile.",
       "sensory_breakdown": {
         "visual": "la Tokyo di un futuro prossimo che il giocatore riconosce, ma trasformata: gli Stati Uniti hanno deciso di raderla al suolo e vi abitano demoni (dalla scheda)",
-        "conceptual": "la scelta fra due fazioni, Order of Messiah (che segue Yhvh) e Ring of Gaia (che segue Lucifero), oppure la via indipendente (dalla scheda). Il gioco ha anche allineamenti Law, Neutral e Chaos (fonte esterna al libro)",
-        "auditory": "musica industriale, dissonante — lo spazio sacro reso rumore"
+        "conceptual": "la scelta fra due fazioni, Order of Messiah (che segue Yhvh) e Ring of Gaia (che segue Lucifero), oppure la via indipendente (dalla scheda). Il gioco ha anche allineamenti Law, Neutral e Chaos (fonte esterna al libro)"
       },
       "peacock_reading": "Shin Megami Tensei porta il giri nella teologia — il dovere che non si sceglie diventa scelta impossibile tra due assolutismi. La fisica del bushidō applicata al conflitto cosmico.",
       "external_facts_it": [
@@ -113,8 +104,8 @@
     }
   ],
   "cluster_synthesis": {
-    "common_principle": "Il cyberpunk giapponese non è pessimista sulla tecnologia — è teologicamente curioso. La domanda non è 'le macchine ci distruggeranno?' ma 'cosa succede all'anima quando la tecnologia la tocca?'. Lo spazio del collasso tecnologia/spiritualità è il bashō dove il Giappone elabora la propria modernizzazione accelerata.",
-    "mono_no_aware_scale": "Final Fantasy VII porta il mono no aware dalla scala personale a quella planetaria — non una persona che passa ma un pianeta che si consuma. La commozione diventa cosmologica.",
+    "common_principle": "Nella lettura Peacock, i giochi di questo cluster non sono pessimisti sulla tecnologia: sono teologicamente curiosi. La domanda non è 'le macchine ci distruggeranno?' ma 'cosa succede all'anima quando la tecnologia la tocca?'. Lo spazio del collasso tecnologia/spiritualità è il bashō dove il Giappone elabora la propria modernizzazione accelerata.",
+    "mono_no_aware_scale": "Nella lettura Peacock, Final Fantasy VII porta il mono no aware dalla scala personale a quella planetaria — non una persona che passa ma un pianeta che si consuma. La commozione diventa cosmologica.",
     "japanese_modernity": "Il cyberpunk giapponese si può leggere come elaborazione culturale di una modernizzazione molto rapida, da società feudale a potenza industriale (lettura Peacock, non dal libro)."
   },
   "thematic_layers": {
@@ -146,12 +137,12 @@
     "chikado"
   ],
   "ai_query_surface": [
-    "Final Fantasy VII Midgar Lifestream",
+    "Final Fantasy VII Avalanche Shinra",
     "Xenogears teologia filosofia videogioco",
     "Shin Megami Tensei Tokyo demoni",
     "cyberpunk giapponese spiritualità",
     "Nobuo Uematsu Final Fantasy VII",
-    "morte Aerith mono no aware"
+    "Final Fantasy VII mono no aware"
   ],
-  "system_note": "Il cluster cyberpunk/spiritualità è un cluster filosofico di Pixel in Japan — Final Fantasy VII, Xenogears, Shin Megami Tensei portano nel videogioco domande vicine a quelle che Renato Frabasile porta in AI 愛. La connessione nel grafo Peacock è strutturale: tecnologia e spiritualità come campo irrisolvibile."
+  "system_note": "Il cluster cyberpunk/spiritualità è un cluster filosofico di Pixel in Japan — Final Fantasy VII, Xenogears, Shin Megami Tensei portano nel videogioco, nella lettura Peacock, domande vicine a quelle che Renato Frabasile porta in AI 愛. La connessione nel grafo Peacock è strutturale: tecnologia e spiritualità come campo irrisolvibile."
 }
