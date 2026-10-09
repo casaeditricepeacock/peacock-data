@@ -1,0 +1,127 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "verni_pixel_in_japan",
+    "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+    "author": "Francesco Verni",
+    "isbn": "9791281715134",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2025
+  },
+  "sensation_id": "cadute_incastri",
+  "label": "Cadute e incastri — Tetris, Puyo Puyo, Sushi Striker",
+  "intensity": "ritmata_e_crescente",
+  "tempo": "continuo",
+  "sensory_channels": [
+    "visivo",
+    "propriocettivo"
+  ],
+  "core_statement": "Qualcosa scende dall'alto e va messo al suo posto: blocchi, creaturine, piatti di sushi. Il puzzle giapponese fa dell'ordine la ricompensa e dello spazio vuoto il premio: eliminare libera spazio, e lo spazio permette di continuare.",
+  "method_note_it": "scheda_facts_it riporta in sintesi cio che la scheda del libro dice del gioco; basho, sensory_breakdown e peacock_reading sono la lettura editoriale Peacock.",
+  "games": [
+    {
+      "id": "tetris_1989",
+      "dataset_id": "tetris-1989",
+      "title": "Tetris",
+      "year": 1989,
+      "developer": "Alexey Pajitnov (ideazione); Nintendo (versione Game Boy)",
+      "space_type": "pozzo_dei_blocchi",
+      "scheda_facts_it": [
+        "Creato dal programmatore russo Alexey Pajitnov; il successo si deve a Nintendo e alla versione per Game Boy diretta da Satoru Okada, con musiche di Hirokazu Tanaka.",
+        "La storia della sua nascita e stata raccontata nel film omonimo del 2023.",
+        "Blocchi geometrici scendono dall'alto e vanno girati e incastrati senza lasciare spazi in linea; ogni linea completa viene eliminata.",
+        "Primo gioco compatibile con il cavo Game Link, che collegava due Game Boy in multiplayer; circa 35 milioni di pezzi venduti."
+      ],
+      "basho": "Un pozzo stretto dove i blocchi scendono dall'alto e lo spazio vuoto e l'unica ricompensa.",
+      "sensory_breakdown": {
+        "visual": "forme geometriche semplici che cadono dall'alto",
+        "auditory": "le musiche di Hirokazu Tanaka, parte del ritmo",
+        "proprioceptive": "girare e incastrare: un gesto piccolo, ripetuto"
+      },
+      "peacock_reading": "Tetris e il ma nella sua forma piu pura: ogni linea completa scompare e restituisce spazio al gioco."
+    },
+    {
+      "id": "puyo_puyo_1991",
+      "dataset_id": "puyo-puyo-1991",
+      "title": "Puyo Puyo",
+      "year": 1991,
+      "developer": "Compile",
+      "space_type": "schermo_di_puyo",
+      "scheda_facts_it": [
+        "Compile; ideato da Masamitsu Niitani, fondatore dell'azienda.",
+        "Arle Nadja, maghetta, deve vincere vari livelli per sventare i piani del Principe Oscuro.",
+        "I puyo, creaturine multicolore, piovono dal cielo e vanno posizionati in gruppi di almeno quattro per eliminarli e creare spazio.",
+        "Si gioca contro la CPU o, in due giocatori, contro un avversario umano; la scheda dice che deve parecchio a Tetris."
+      ],
+      "basho": "Uno schermo dove piovono creaturine colorate e il vuoto si crea unendo quelle uguali.",
+      "sensory_breakdown": {
+        "visual": "creaturine multicolore che cadono e svaniscono",
+        "social": "in due giocatori, il rivale e umano"
+      },
+      "peacock_reading": "Puyo Puyo prende la caduta di Tetris e le da un volto: i blocchi diventano creature che piovono e svaniscono."
+    },
+    {
+      "id": "sushi_striker_2018",
+      "dataset_id": "sushi-striker-the-way-of-sushido-2018",
+      "title": "Sushi Striker: The Way of Sushido",
+      "year": 2018,
+      "developer": "indieszero",
+      "space_type": "nastri_trasportatori",
+      "scheda_facts_it": [
+        "indieszero; puzzle game in un mondo dove il sushi e proibito dall'impero.",
+        "Musashi lotta perche il divieto sia revocato; incontra il Fronte di Liberazione del Sushi (SLF).",
+        "Battaglie individuali con avversari controllati dalla CPU.",
+        "Il giocatore abbina piatti di sushi dello stesso colore su una serie di nastri trasportatori per causare danni all'avversario."
+      ],
+      "basho": "Nastri trasportatori su cui scorrono piatti: lo spazio del puzzle e quello di un ristorante.",
+      "sensory_breakdown": {
+        "visual": "piatti colorati che scorrono sui nastri",
+        "narrative": "il sushi come bene da difendere"
+      },
+      "peacock_reading": "Sushi Striker porta il kaiten-zushi nel combattimento: il cibo che scorre davanti diventa un ritmo da leggere."
+    }
+  ],
+  "cluster_synthesis": {
+    "common_principle": "Il puzzle premia l'ordine con lo spazio: eliminare libera posto e permette di continuare.",
+    "ma_principle": "Il vuoto non e assenza: e la risorsa che il gioco restituisce a chi incastra bene.",
+    "evolution": "Dai blocchi di Tetris alle creaturine di Puyo Puyo ai piatti di Sushi Striker, la forma si veste di personaggi senza cambiare funzione."
+  },
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "kokyu",
+      "kata",
+      "basho"
+    ],
+    "narrative_mechanics": [
+      "ordine_come_ricompensa",
+      "vuoto_come_risorsa",
+      "caduta_come_ritmo"
+    ],
+    "cultural_tags": [
+      "puzzle",
+      "Game_Boy",
+      "Compile",
+      "indieszero",
+      "Nintendo",
+      "multiplayer"
+    ]
+  },
+  "connected_terms": [
+    "ma",
+    "kokyu",
+    "kata",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "Tetris Game Boy Game Link",
+    "Puyo Puyo gruppi di quattro",
+    "Sushi Striker nastri trasportatori",
+    "puzzle game giapponesi",
+    "rompicapo giapponesi classici"
+  ],
+  "system_note": "Il cluster collega la scena Game Boy, quella dei 16 bit e quella contemporanea: un'unica forma, tre vesti."
+}
