@@ -11,7 +11,13 @@
     "illustrator": "Andrea Yuu Dentuto",
     "preface": "Alessandro Semeraro",
     "isbn": "979-12-81715-13-4",
-    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json",
+    "year": 2025,
+    "release_date": "2025-08-20",
+    "pages": 140,
+    "format": "24x17",
+    "language": "it",
+    "first_guide_note": "First guide dedicated exclusively to Japanese video games published in Italy"
   },
   "games_dataset": "datasets/pixel-in-japan-games-dataset.json",
   "scope": "Cinque generi videoludici trattati nel libro, con i giochi che il dataset assegna a ciascuno e cio che le schede dicono del genere. Le definizioni sono quelle del libro, non enciclopediche.",
