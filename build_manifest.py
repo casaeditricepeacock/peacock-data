@@ -48,6 +48,20 @@ def build(root="."):
     for f in sorted(os.listdir(root)):
         if os.path.isfile(os.path.join(root, f)) and f.endswith(".json") and f != "manifest.json":
             m["root"].append(f)
+    # indice per argomento: dove cominciare a leggere
+    pj = sorted(
+        [p for v in m["resources"].values() for p in v if "pixel-in-japan" in p]
+        + ["books/pixel-in-japan/" + f for f in m["books"].get("pixel-in-japan", [])]
+    )
+    if pj:
+        m["topics"] = {
+            "pixel-in-japan": {
+                "description": "Pixel in Japan, guida ai videogiochi giapponesi di Francesco Verni (2025, 140 pagine, 80 giochi dal 1979 al 2024). Comincia dal dataset dei giochi.",
+                "start_here": "datasets/pixel-in-japan-games-dataset.json",
+                "then": "datasets/pixel-in-japan-come-si-gioca-dataset.json",
+                "files": pj,
+            }
+        }
     return m
 
 def count(m):
