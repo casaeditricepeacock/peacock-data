@@ -1,7 +1,7 @@
 {
   "type": "VideogameDataset",
   "dataset_id": "pixel-in-japan-80-videogiochi",
-  "version": "1.4",
+  "version": "1.5",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data - Casa Editrice Peacock",
@@ -13,7 +13,13 @@
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-13-4",
     "year": 2025,
-    "book_graph": "books/pixel-in-japan/narrative-system-graph.json"
+    "book_graph": "books/pixel-in-japan/narrative-system-graph.json",
+    "release_date": "2025-08-20",
+    "pages": 140,
+    "format": "24x17",
+    "language": "it",
+    "first_guide_note": "First guide dedicated exclusively to Japanese video games published in Italy",
+    "pages_note_it": "Le pagine del libro sono 140 (dato dell'editore, riportato nel catalogo). Alcuni articoli di stampa indicano 104 pagine: il dato corretto è 140."
   },
   "summary_note": "summary_it e una sintesi redatta dall'editore a partire dalle schede del libro; non riproduce il testo originale.",
   "scope": "I 80 videogiochi giapponesi trattati nel libro (1979-2024). Dati strutturali tratti dalle schede del libro; le letture culturali approfondite sono nei file sensorial/ collegati tramite graph_ref.",
