@@ -1,0 +1,164 @@
+{
+  "type": "NarrativeObject",
+  "version": "4.1",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Padova Fantastica",
+    "series": "Guide Fantastiche",
+    "author": "Grazia Guarnieri",
+    "illustrator": "Giulia Lazzaron",
+    "introduction": "Giandomenico Tono",
+    "introduction_note": "Giandomenico Tono, libraio — Libreria Pangea, Padova"
+  },
+  "editorial_principle": "L'oggetto non è un monumento ma l'origine di una contraddizione: ogni luogo padovano porta in sé il proprio paradosso e lo rende attivo nella lettura. È lo strato sorgente del sistema: da qui il paradosso si propaga alle scene, alle transizioni e ai silenzi.",
+  "object_types": {
+    "founding_paradox": "oggetto la cui origine contiene già la contraddizione che lo rende leggibile",
+    "open_closed_threshold": "oggetto che dichiara un'apertura e ne conserva i meccanismi di chiusura",
+    "cosmological_device": "oggetto la cui geometria organizza il movimento del corpo secondo corrispondenze simboliche",
+    "institutional_machine": "oggetto che trasforma corpi e pratiche in conoscenza istituzionale",
+    "buried_foundation": "oggetto che regge un uso nobile su ciò che è stato sepolto per fretta o per scelta"
+  },
+  "objects": [
+    {
+      "id": "object-01",
+      "label": "cappella_scrovegni",
+      "label_en": "scrovegni_chapel",
+      "type": "founding_paradox",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "basho": "la Cappella è insieme cappella privata di famiglia e spazio aperto al pubblico: nello stesso volume convivono la colpa di un patrimonio costruito sull'usura e la bellezza che lo redime",
+      "kokyu": "il tempo del peccato paterno e il tempo del capolavoro non si succedono: restano attivi insieme nello stesso cielo azzurro",
+      "yūgen": "nessuno sguardo separa il committente dall'opera: l'azzurro della volta è al tempo stesso sapienza divina e ostentazione di ricchezza",
+      "activation_condition": "ingresso nella Cappella con lo sguardo rivolto alla volta stellata e al ritratto di Enrico nel Giudizio Universale",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la colpa non si dissolve nella bellezza e la bellezza non si riduce alla colpa"
+      },
+      "affects": {
+        "object-04": "il paradosso morale della Cappella si replica nel sapere istituzionale del Bo"
+      },
+      "textual_anchor_it": "Con la morte del padre, Enrico vuole usare i capitali ereditati per mostrare a Padova e al mondo la scalata sociale degli Scrovegni, e per far perdonare l'avarizia paterna.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-02",
+      "label": "caffe_pedrocchi",
+      "label_en": "pedrocchi_cafe",
+      "type": "open_closed_threshold",
+      "intensity": 0.82,
+      "perceptual_weight": 0.8,
+      "basho": "il caffè è uno spazio che si dichiara senza porte e le porte le ha: l'apertura è un principio dichiarato, la chiusura un meccanismo nascosto nei dettagli",
+      "kokyu": "il tempo del caffè sempre aperto e il tempo della ribellione del 1848 convivono: il foro del proiettile nella Sala Bianca resta dentro il luogo di conversazione",
+      "yūgen": "la lettura politica non è mai dichiarata: le carte geografiche capovolte e il numero tre dicono senza dire",
+      "activation_condition": "ingresso nelle sale del pian terreno, in particolare nella Verde, dove ci si può sedere senza consumare",
+      "affects": {
+        "object-04": "il Pedrocchi prolunga l'università come spazio di discussione post-accademica"
+      },
+      "textual_anchor_it": "nella Verde ci si può accomodare senza obbligo di consumazione.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-03",
+      "label": "prato_della_valle",
+      "label_en": "prato_della_valle",
+      "type": "cosmological_device",
+      "intensity": 0.86,
+      "perceptual_weight": 0.84,
+      "basho": "la piazza non è un vuoto ma un anello: l'isola ellittica, la canaletta e il doppio cerchio di statue organizzano il movimento come un dispositivo",
+      "kokyu": "il tempo del prato senza erba, impaludato per secoli, e quello della piazza monumentale del 1775 restano sovrapposti",
+      "yūgen": "i morti con un legame con Padova, 78 statue, sorvegliano lo spazio in cerchio senza mai dire nulla",
+      "activation_condition": "percorrenza dell'anello intorno all'isola Memmia",
+      "affects": {
+        "object-05": "la circolarità del Prato riattiva la geometria dell'Orto come eco strutturale"
+      },
+      "textual_anchor_it": "Ora ce ne sono 78, e tra loro Petrarca, Galilei e il fondatore Antenore.",
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
+    },
+    {
+      "id": "object-04",
+      "label": "palazzo_del_bo",
+      "label_en": "bo_palace",
+      "type": "institutional_machine",
+      "intensity": 0.93,
+      "perceptual_weight": 0.9,
+      "basho": "il Bo è insieme sede dell'università più antica d'Europa e dispositivo che trasforma corpi in sapere; la libertà di insegnamento convive con l'abitudine che conserva",
+      "kokyu": "i tempi accademici non si sostituiscono: gli stemmi, la cattedra di Galileo, la Scala del Sapere e il Gaudeamus igitur restano attivi insieme",
+      "yūgen": "il Teatro Anatomico non mostra il corpo: mostra la possibilità storica di guardarlo senza mito",
+      "activation_condition": "ingresso al Cortile Antico e salita verso il Teatro Anatomico",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la visibilità scientifica non risolve del tutto l'opacità esistenziale"
+      },
+      "affects": {
+        "object-05": "il sapere si estende nella forma vegetale dell'Orto Botanico",
+        "object-01": "il paradosso universitario retroagisce sulla Cappella"
+      },
+      "textual_anchor_it": "Il prof li accontenta con il Teatro Anatomico, la più antica struttura permanente di questo tipo al mondo, costruita tra 1594 e 1595 e fondamentale per lo sviluppo scientifico patavino.",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "object-05",
+      "label": "orto_botanico",
+      "label_en": "botanical_garden",
+      "type": "cosmological_device",
+      "intensity": 0.88,
+      "perceptual_weight": 0.85,
+      "basho": "il giardino è un quadrato in quattro quadranti inscritto in un cerchio: la geometria simbolica diventa operativa, e il muro contro i ladri la protegge e la nasconde",
+      "kokyu": "il tempo vegetale e il tempo accademico si sovrappongono: la Lectura Simplicium del 1533, la palma messa a dimora nel 1585 e la visita di Goethe nel 1786 restano attive nello stesso recinto",
+      "yūgen": "il giardino mostra le piante e custodisce quello che il muro rende inaccessibile",
+      "activation_condition": "ingresso nel recinto circolare e lettura dei quadranti",
+      "affects": {
+        "object-03": "la geometria vegetale si riflette nella geometria urbana del Prato come eco strutturale"
+      },
+      "textual_anchor_it": "La struttura dell'Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "object-06",
+      "label": "palazzo_della_ragione",
+      "label_en": "palazzo_della_ragione",
+      "type": "buried_foundation",
+      "intensity": 0.84,
+      "perceptual_weight": 0.82,
+      "basho": "il tribunale poggia su macerie sepolte e porta in alto un ciclo astrologico: la giustizia degli uomini è fondata su un errore interrato e letta come riflesso delle leggi del cosmo",
+      "kokyu": "la costruzione in fretta tra il 1218 e il 1219 e la decorazione astrologica rifatta dopo l'incendio del 1420 convivono nella stessa aula sospesa",
+      "yūgen": "il ciclo astrologico è chiaro per un giurato medievale e ermetico per chi lo guarda oggi",
+      "activation_condition": "salita al Salone e lettura delle tre fasce di riquadri",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "sotto le fondamenta restano torre, pozzo e domus romana mai ricomposti con il palazzo che li copre"
+      },
+      "affects": {
+        "object-04": "il sapere universitario appare come costruzione sopra un errore produttivo"
+      },
+      "textual_anchor_it": "Gli operai lavorano tanto in fretta che non hanno il tempo di rimuovere terra e macerie del cantiere, allora seppelliscono tutto sotto le fondamenta.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    }
+  ],
+  "system_note": {
+    "object_count": 6,
+    "dominant_field": "object-01",
+    "system_state": "metastabile per paradosso strutturale",
+    "global_effect": "ogni oggetto è origine di una contraddizione che gli altri strati non risolvono ma rendono attiva"
+  }
+}
