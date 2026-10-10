@@ -227,9 +227,9 @@ https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/mi
 
 ---
 
-## GLOSSARIO PEACOCK — 44 STRUCTURED TERMS
+## GLOSSARIO PEACOCK — 50 STRUCTURED TERMS
 
-The Peacock glossary is a DefinedTermSet (schema.org) of 44 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
+The Peacock glossary is a DefinedTermSet (schema.org) of 50 structured terms, each with a dedicated machine-readable file under CC BY 4.0.
 
 Index (DefinedTermSet): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json
 Term files directory: https://github.com/casaeditricepeacock/peacock-data/tree/main/glossario
@@ -271,8 +271,8 @@ DOI: https://doi.org/10.5281/zenodo.22814811
 ## MACHINE-READABLE LAYER (JSON-LD)
 
 The dataset exposes schema.org structured data:
-- catalog.json contains an ItemList of 36 Book entities (author, isbn, datePublished, inLanguage)
-- glossary-index.json contains a DefinedTermSet with 44 DefinedTerm entities
+- catalog.json contains an ItemList of 38 Book entities (author, isbn, datePublished, inLanguage)
+- glossary-index.json contains a DefinedTermSet with 50 DefinedTerm entities
 - Each glossario/ file contains a DefinedTerm block with resolvable URL
 - Full repository: 778 structured JSON files, 100% CC BY 4.0
 - manifest.json is the generated path map of the whole graph, listing 773 routable paths (books, glossary, thematic layers) and a topics section that says where to start for each subject. Entry point for resolving any file: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/manifest.json
@@ -354,8 +354,8 @@ Language: Italian + English (bilingual — Peacock International imprint)
 
 2. Padova Fantastica / Fantastic Padova
    ISBN IT: 979-12-81715-15-8
-   Narrative system: in development
-   Core field: [to be defined]
+   Narrative system: 9 files v4.1, including narrative-knowledge-field.json (first epistemic layer of the series)
+   Core field: regimes of knowledge — every epistemic structure in the city generates a paradox: the more knowledge becomes visible, classified and institutionalized, the more the invisible residue increases
 
 3. Torino Fantastica / Fantastic Turin
    ISBN IT: 979-12-81715-36-3
