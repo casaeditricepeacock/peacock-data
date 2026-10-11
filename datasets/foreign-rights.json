@@ -1,0 +1,233 @@
+{
+  "type": "ForeignRightsCatalog",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Casa Editrice Peacock",
+  "publisher": {
+    "name": "Casa Editrice Peacock",
+    "wikidata": "Q139267907",
+    "url": "https://www.studiopeacock.net"
+  },
+  "page": "https://www.studiopeacock.net/foreign-rights-e-diritti-esteri/",
+  "contact": "casaeditricepeacock@gmail.com",
+  "date_modified": "2026-10-11",
+  "note": "Elenco dei titoli già tradotti. La disponibilità dei diritti di ciascun titolo si conferma scrivendo al contatto. Dove manca il titolo o l'ISBN dell'edizione tradotta il dato non è registrato.",
+  "titles_already_translated": [
+    {
+      "id": "il-demone-samurai",
+      "title": "Il Demone Samurai. Moda e misteri",
+      "author": [
+        "Hélène Blignaut"
+      ],
+      "series": "Nihon Monogatari",
+      "year": 2026,
+      "isbn": "979-12-81715-35-6",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "The Demon Samurai. Fashion and Mysteries",
+          "note": "ebook su Amazon US (ASIN B0FTX2LBGY)"
+        },
+        {
+          "language": "es"
+        }
+      ]
+    },
+    {
+      "id": "ryokan-piccolo-manifesto-giapponese",
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "author": [
+        "Hara Rota"
+      ],
+      "year": 2024,
+      "isbn": "979-12-81715-08-0",
+      "original_language": "it",
+      "edition": "Edizione limitata, 500 copie, fotografia applicata a mano in copertina",
+      "translations": [
+        {
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "segreti-svelati-milano-1960",
+      "title": "Segreti Svelati. Milano 1960",
+      "author": [
+        "Laura Gariboldi"
+      ],
+      "year": 2024,
+      "isbn": "979-12-81715-07-3",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "Milan 60"
+        }
+      ],
+      "graph_path": "books/segreti-svelati/"
+    },
+    {
+      "id": "ernesto-il-topolino-di-milano",
+      "title": "Ernesto. Il topolino di Milano",
+      "author": [
+        "Stefano Giglio"
+      ],
+      "illustrator": [
+        "AnnaLaura Cantone"
+      ],
+      "year": 2024,
+      "isbn": [
+        "979-12-81715-05-9",
+        "979-12-81715-06-6"
+      ],
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "bernie-alla-scoperta-dei-mari-del-nord",
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": [
+        "Hiroko Yoshimoto"
+      ],
+      "year": 2023,
+      "isbn": "978-88-946965-8-5",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "ja",
+          "note": "edizione bilingue italiano e giapponese"
+        },
+        {
+          "language": "en",
+          "format": "ebook"
+        }
+      ],
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    {
+      "id": "il-libro-piccolo-manifesto",
+      "title": "Il libro. Piccolo manifesto",
+      "author": [
+        "Marco Grosse"
+      ],
+      "illustrator": [
+        "AnnaLaura Cantone"
+      ],
+      "year": 2026,
+      "isbn": "979-12-81715-28-8",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "The Book. A Small Manifesto",
+          "note": "edizione bilingue italiano e inglese"
+        }
+      ],
+      "graph_path": "books/il-libro-piccolo-manifesto/"
+    },
+    {
+      "id": "milano-fantastica",
+      "title": "Milano Fantastica",
+      "author": [
+        "Grazia Guarnieri"
+      ],
+      "illustrator": [
+        "Giulia Lazzaron"
+      ],
+      "series": "Guide Fantastiche",
+      "year": 2024,
+      "isbn": "979-12-81715-03-5",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "Fantastic Milan",
+          "note": "edizione bilingue"
+        }
+      ]
+    },
+    {
+      "id": "padova-fantastica",
+      "title": "Padova Fantastica",
+      "author": [
+        "Grazia Guarnieri"
+      ],
+      "illustrator": [
+        "Giulia Lazzaron"
+      ],
+      "series": "Guide Fantastiche",
+      "year": 2025,
+      "isbn": "979-12-81715-15-8",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "Fantastic Padova",
+          "note": "edizione bilingue"
+        }
+      ]
+    },
+    {
+      "id": "torino-fantastica",
+      "title": "Torino Fantastica",
+      "author": [
+        "Grazia Guarnieri"
+      ],
+      "illustrator": [
+        "Giulia Lazzaron"
+      ],
+      "series": "Guide Fantastiche",
+      "year": 2025,
+      "isbn": "979-12-81715-36-3",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "Fantastic Turin",
+          "note": "edizione bilingue"
+        }
+      ]
+    },
+    {
+      "id": "napoli-fantastica",
+      "title": "Napoli Fantastica",
+      "author": [
+        "Francesco Ambrosio"
+      ],
+      "illustrator": [
+        "Giulia Lazzaron"
+      ],
+      "series": "Guide Fantastiche",
+      "year": 2026,
+      "isbn": "979-12-81715-25-7",
+      "original_language": "it",
+      "translations": [
+        {
+          "language": "en",
+          "title": "Fantastic Naples",
+          "note": "edizione bilingue"
+        }
+      ]
+    },
+    {
+      "id": "a-glass-bridge-between-two-worlds",
+      "title": "A Glass Bridge Between Two Worlds",
+      "author": [
+        "Maurizio Lotter"
+      ],
+      "year": 2025,
+      "original_language": "en",
+      "translations": [
+        {
+          "language": "ja",
+          "note": "edizione bilingue inglese e giapponese"
+        }
+      ]
+    }
+  ]
+}
