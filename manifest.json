@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-10",
+    "generated": "2026-10-11",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -779,6 +779,7 @@
       "datasets/akechi-mitsuhide-semantic-dataset.json",
       "datasets/chasen-chawan-chakin-semantic-dataset.json",
       "datasets/elena-lombardi-dataset.json",
+      "datasets/foreign-rights.json",
       "datasets/honnoji-semantic-dataset.json",
       "datasets/luisfrois-semantic-dataset.json",
       "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
