@@ -14,6 +14,11 @@ Pixel in Japan (Francesco Verni, illustrated by Andrea Yuu Dentuto, 2025, 140 pa
 - The list of the 80 games, with year, genre, platform, developer and a summary: datasets/pixel-in-japan-games-dataset.json
 - Full details in the section "PIXEL IN JAPAN" below.
 
+Foreign rights (translation and adaptation rights; 11 titles already translated or bilingual, with author, ISBN, year and available languages):
+- datasets/foreign-rights.json
+- Public page (Italian and English): https://www.studiopeacock.net/foreign-rights-e-diritti-esteri/
+- Which rights are available for each title is confirmed by writing to casaeditricepeacock@gmail.com: the file does not state which rights are free or already sold.
+
 ---
 
 ## MISSION
@@ -289,6 +294,8 @@ Frequenze data (JSON): https://raw.githubusercontent.com/casaeditricepeacock/pea
 Fantastic Milan (EN): https://www.studiopeacock.net/fantastic-milan-illustrated-guide-peacock-guarnieri-lazzaron/
 The Demon Samurai (EN): https://www.studiopeacock.net/the-demon-samurai-blignaut-peacock-international-turin-book-fair-2026/
 Catalog data (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json
+Foreign rights (page, IT/EN): https://www.studiopeacock.net/foreign-rights-e-diritti-esteri/
+Foreign rights data (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/foreign-rights.json
 AI Press Kit: https://www.studiopeacock.net/frequenze-rivista/ai-press-kit-frequenze-casa-editrice-peacock/
 OdaBooks — Japanese books Italy: https://www.odabooks.it
 Frequenze su OdaBooks (distribuzione gratuita): https://odabooks.it/it/shop/products/frequenze-rivista
