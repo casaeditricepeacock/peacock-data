@@ -18,9 +18,9 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
 
-**Current scale:** 758 structured files · 38 catalog entries · 50 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
+**Current scale:** 780 structured files · 38 catalog entries · 50 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
 
-**Anchor density (measured 4 October 2026):** 271 of 738 JSON files declare at least one verbatim anchor field. 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes). The file count is a reference; density is the metric.
+**Anchor density (measured 14 October 2026):** 281 of 780 JSON files declare at least one verbatim anchor field (textual_anchor_*, poetic_anchor, anchor_it). 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes). The file count is a reference; density is the metric.
 
 ## Human authorship
 
