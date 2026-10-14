@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "korozen",
+  "term": "Kōrozen",
+  "kanji": "黄櫨染",
+  "aliases": [
+    "Kōrozen",
+    "Korozen",
+    "黄櫨染",
+    "tinta di sommacco"
+  ],
+  "category": "storia_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Il colore marrone scuro ottenuto con il sommacco, riservato all'imperatore.",
+  "definition_short_en": "The dark brown colour dyed with sumac, reserved for the emperor.",
+  "connected_terms": [
+    "kinjiki"
+  ],
+  "books_applied": [
+    "assolutamente_giappone"
+  ],
+  "books_applied_paths": [
+    "books/assolutamente-giappone"
+  ],
+  "definition_extended_it": "Il kōrozen (黄櫨染) è un colore marrone scuro ottenuto con il sommacco. Tra i kinjiki è il più alto: nessuno tranne l'imperatore poteva indossarlo. Si usa ancora oggi per la veste imperiale della cerimonia di intronizzazione. Nel libro Assolutamente Giappone è descritto come tinta rovere giallastra.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Kōrozen",
+    "description": "The dark brown colour dyed with sumac, reserved for the emperor.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/korozen.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "黄櫨染"
+  }
+}
