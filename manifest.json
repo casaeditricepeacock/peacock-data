@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-11",
+    "generated": "2026-10-14",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -554,12 +554,20 @@
       "path": "glossario/kehai.json"
     },
     {
+      "term": "kinjiki",
+      "path": "glossario/kinjiki.json"
+    },
+    {
       "term": "kokyu",
       "path": "glossario/kokyu.json"
     },
     {
       "term": "komorebi",
       "path": "glossario/komorebi.json"
+    },
+    {
+      "term": "korozen",
+      "path": "glossario/korozen.json"
     },
     {
       "term": "lentezza",
@@ -778,6 +786,7 @@
     "datasets": [
       "datasets/akechi-mitsuhide-semantic-dataset.json",
       "datasets/chasen-chawan-chakin-semantic-dataset.json",
+      "datasets/colori-proibiti-giappone-semantic-dataset.json",
       "datasets/elena-lombardi-dataset.json",
       "datasets/foreign-rights.json",
       "datasets/honnoji-semantic-dataset.json",
