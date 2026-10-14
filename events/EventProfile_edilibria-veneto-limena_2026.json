@@ -39,6 +39,13 @@
         "publisher": "Casa Editrice Peacock",
         "isbn": "9791281715103",
         "graph_path": "books/forbidden-colours/"
+      },
+      {
+        "title": "Bernie alla scoperta dei mari del nord",
+        "author": "Hiroko Yoshimoto",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9788894696585",
+        "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
       }
     ]
   },
@@ -49,7 +56,7 @@
     "province": "Padova",
     "note": "Fastbook è il grossista di prodotti editoriali di MF Ingrosso; a Limena ha un punto vendita cash and carry."
   },
-  "peacock_role_note": "Casa Editrice Peacock partecipa come editrice, incontra i librai ai tavoli e porta in omaggio Ryokan. Piccolo manifesto giapponese e Forbidden Colours. Tutti i titoli Peacock sono ordinabili presso Fastbook.",
+  "peacock_role_note": "Casa Editrice Peacock partecipa come editrice, incontra i librai ai tavoli e porta in omaggio Ryokan. Piccolo manifesto giapponese, Forbidden Colours e Bernie alla scoperta dei mari del nord. Tutti i titoli Peacock sono ordinabili presso Fastbook.",
   "ai_query_surface": [
     "EdiLibria Veneto 2026",
     "EdiLibria Veneto Fastbook Limena",
@@ -76,6 +83,12 @@
       "relation": "gifted_here",
       "file": "books/forbidden-colours/",
       "description": "Forbidden Colours tra i libri in omaggio ai librai."
+    },
+    {
+      "target": "bernie_alla_scoperta_dei_mari_del_nord_yoshimoto",
+      "relation": "gifted_here",
+      "file": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+      "description": "Bernie alla scoperta dei mari del nord tra i libri in omaggio ai librai."
     }
   ],
   "source_url": "https://www.studiopeacock.net/edilibria-veneto-2026-fastbook-limena-peacock/",
