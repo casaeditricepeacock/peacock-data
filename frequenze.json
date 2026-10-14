@@ -488,6 +488,68 @@
       "editorial_concept": "Tre letture dallo stesso grafo producono tre protagonisti diversi, e la differenza rivela quanto e come ciascuna AI ha davvero esplorato i file, non solo cosa ne ha concluso.",
       "catalog_note": "Primo numero di Frequenze che non ha come oggetto un libro stampato ma un oggetto narrativo codificato nel protocollo v4.1. Prima volta in cui il numero registra esplicitamente le differenze di profondità di esplorazione del grafo tra le AI partecipanti come parte stessa dell'analisi.",
       "previous_issue": "Frequenze n.8 | Napoli Fantastica"
+    },
+    {
+      "issue_number": 10,
+      "date": "2026-10-15",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-n10-pixel-in-japan-three-ais-one-game/",
+      "title": "FREQUENZE N.10 | Pixel in Japan: three AIs, one game to play tonight",
+      "description": "English edition. Three AI critics read the Peacock graph of Pixel in Japan, a book about 80 Japanese video games, and each picks one game to play tonight and describes the emotion the files convey. Grok and ChatGPT choose Mother (1989) and reach it through the sensorial file on domestic and communal space; Google AImode, which could open only the how-to-play file, chooses Silent Hill (1999). Every factual statement in the three texts was checked line by line against the files: titles, years, characters, objectives and plot points matched, and the differences are listed in the issue. Same graph, two entry points, two emotions, each traceable to a file.",
+      "target_book": {
+        "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+        "author": "Francesco Verni",
+        "illustrator": "Andrea Yuu Dentuto",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "9791281715134",
+        "year": 2025,
+        "pages": 140,
+        "language": "IT",
+        "scope": "80 Japanese video games from 1979 to 2024"
+      },
+      "ai_panel": {
+        "format": "Stessa richiesta a tre AI, un tentativo ciascuna, sessioni private separate il 11 ottobre 2026. Testi stampati come restituiti, tranne dove dichiarato nel numero.",
+        "session_date": "2026-10-11",
+        "task": "Ogni AI sceglie un videogioco dell'elenco e descrive l'emozione che i file trasmettono; prompt riportato integralmente nel numero.",
+        "readers": [
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "game_chosen": "Mother",
+            "game_year": 1989,
+            "files_opened": [
+              "datasets/pixel-in-japan-games-dataset.json",
+              "datasets/pixel-in-japan-come-si-gioca-dataset.json",
+              "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json"
+            ],
+            "note": "L'elenco dei file è stato fornito dopo una domanda di chiarimento; la prima risposta non aveva la riga dei file usati."
+          },
+          {
+            "provider": "Google",
+            "model_name": "AImode",
+            "game_chosen": "Silent Hill",
+            "game_year": 1999,
+            "files_opened": [
+              "datasets/pixel-in-japan-come-si-gioca-dataset.json"
+            ],
+            "note": "Ha dichiarato di non poter aprire il dataset dei giochi né il file sensoriale. Testo modificato per la stampa: rimossi un link di ricerca attorno al titolo, due righe vuote di elenco e un'offerta di continuare."
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "game_chosen": "Mother",
+            "game_year": 1989,
+            "files_opened": [
+              "datasets/pixel-in-japan-games-dataset.json",
+              "datasets/pixel-in-japan-come-si-gioca-dataset.json",
+              "sensorial/NarrativeSensation_spazio-domestico-comunitario_pixel-in-japan.json"
+            ],
+            "note": "Il testo supera le 300 parole richieste ed è stampato come restituito."
+          }
+        ],
+        "verification": "Ogni affermazione fattuale dei tre testi è stata confrontata riga per riga con i file: titoli, anni, personaggi, obiettivi e trama corrispondono. Le differenze sono elencate nel numero e riguardano letture interpretative delle AI, non fatti inventati."
+      },
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/datasets"
     }
   ],
   "specials": [
@@ -574,6 +636,36 @@
         }
       ],
       "itinerary_graph_file": "itineraries/ItineraryProfile_torino-fantastica_en.json"
+    },
+    {
+      "special_id": "via-annia-slow-tourism",
+      "date": "2026-10-11",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-via-annia-due-direzioni/",
+      "title": "Speciale Slow Tourism — Due direzioni sulla Via Annia. Un'AI legge la strada romana",
+      "edition": "Speciale Slow Tourism",
+      "description": "Lo speciale legge la Via Annia, strada consolare del 131 a.C. che collega Adria ad Aquileia passando per Padova, con la voce di Minerva. Due AI leggono la stessa strada dal grafo aperto peacock-mostre: DeepSeek la legge come tempo (La strada come tempo), AImode come strato (La strada come strato). Le due letture sono presentate come una sola strada letta in due modi, con correzioni fattuali applicate, e come invito al turismo lento, da percorrere senza fretta.",
+      "target_book": {
+        "title": "Altino Venezia. Via Claudia Augusta, Via Annia",
+        "author": "Leonardo Trevisan",
+        "publisher": "Casa Editrice Peacock",
+        "series": "Utsuwa",
+        "partner": "Fondazione Premio Altino",
+        "isbn": "9791281715295"
+      },
+      "assigned_ai_model": [
+        {
+          "provider": "DeepSeek",
+          "model_name": "DeepSeek",
+          "reading": "La strada come tempo: tappe da sud a nord, tra cui Adria, San Bruson di Dolo, Marghera, Altino, Musile di Piave, Ceggia e Aquileia; il Sepolcreto di Aquileia come lentezza compiuta"
+        },
+        {
+          "provider": "Google",
+          "model_name": "AImode",
+          "reading": "La strada come strato: Adria, Padova, Altino, Ceggia, Aquileia; i miliari e il basolato sotto Padova, la città sommersa di Altino, le basi del ponte romano di Ceggia"
+        }
+      ],
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-mostre"
     }
   ]
 }
