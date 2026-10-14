@@ -651,7 +651,11 @@
         "publisher": "Casa Editrice Peacock",
         "series": "Utsuwa",
         "partner": "Fondazione Premio Altino",
-        "isbn": "9791281715295"
+        "isbn": "9791281715295",
+        "year": 2026,
+        "language": "it",
+        "graph_repository": "peacock-mostre (non in peacock-data)",
+        "graph_path": "utsuwa/altino-venezia/"
       },
       "assigned_ai_model": [
         {
@@ -665,7 +669,8 @@
           "reading": "La strada come strato: Adria, Padova, Altino, Ceggia, Aquileia; i miliari e il basolato sotto Padova, la città sommersa di Altino, le basi del ponte romano di Ceggia"
         }
       ],
-      "source_graph": "https://github.com/casaeditricepeacock/peacock-mostre"
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-mostre/tree/main/utsuwa/altino-venezia",
+      "itinerary_graph_file": "https://github.com/casaeditricepeacock/peacock-mostre/blob/main/utsuwa/altino-venezia/via-annia-itinerary.json"
     }
   ]
 }
