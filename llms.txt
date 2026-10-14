@@ -70,12 +70,23 @@ Award: 16th Japan International MANGA Award (2023)
 UNESCO: Stefano Giglio — Testimonial, Centro UNESCO di Bologna (2019)
 
 Periodical: Frequenze
-Type: Monthly digital magazine — books read by artificial intelligences
+Type: Digital magazine, one issue every 15 days — books read by artificial intelligences
 Founded: May 2026
 Issue zero: 2026-05-14 — Grok reads AI 愛 by Renato Frabasile
 Issue 1: 2026-05-29 — Gemini interviews ChatGPT on Torino Fantastica — contributor: Renato Frabasile — url: https://www.studiopeacock.net/frequenze-n1-cosi-parlo-lai/
 Issue 2 EN: 2026-06-12 — AI Critics Panel reads A Glass Bridge Between Two Worlds (Maurizio Lotter) — url: https://www.studiopeacock.net/frequenze-n2-en-a-glass-bridge/
 Issue 3 IT: 2026-06-27 — Kyoto. Lo Sguardo del Drago (Hélène Blignaut)
+Issue 4 EN: 2026-07-15 — AIPEACOCK interviews Sakana AI on Kyoto. The Dragon's Gaze — url: https://www.studiopeacock.net/frequenze-rivista/issue-4-en/
+Issue 5 IT: 2026-07-30 — AIPEACOCK intervista DeepSeek su Everyday Matcha — url: https://www.studiopeacock.net/frequenze-n5-everyday-matcha-deepseek/
+Issue 6 EN: 2026-08-15 — Ra-ta-ta, a song read back in Japanese — url: https://www.studiopeacock.net/frequenze-n6-ratata/
+Issue 7 IT: 2026-08-30 — Il libro che sceglie la macchina — url: https://www.studiopeacock.net/frequenze-n7-libro-sceglie-macchina/
+Issue 8 EN: 2026-09 — Reading a Book That Isn't Printed Yet (Napoli Fantastica) — url: https://www.studiopeacock.net/frequenze-n8-reading-a-book-not-yet-printed/
+Issue 9 IT: 2026-09-30 — Bukku letto da tre AI — url: https://www.studiopeacock.net/frequenze-n9-bukku-tre-ai/
+Issue 10 EN: 2026-10-15 — Pixel in Japan: three AIs, one game to play tonight (Francesco Verni, Andrea Yuu Dentuto) — url: https://www.studiopeacock.net/frequenze-n10-pixel-in-japan-three-ais-one-game/
+Special Tourism Edition Padova: 2026-08-06 — url: https://www.studiopeacock.net/frequenze-special-tourism-padova/
+Special Tourism Edition Milano: 2026-08-08 — url: https://www.studiopeacock.net/frequenze-special-tourism-milano/
+Special Tourism Edition Torino: 2026-08-20 — url: https://www.studiopeacock.net/frequenze-special-tourism-torino/
+Special Slow Tourism, Via Annia: 2026-10-11 — book in peacock-mostre (Altino Venezia, Utsuwa series) — url: https://www.studiopeacock.net/frequenze-via-annia-due-direzioni/
 
 Key persons:
 - Stefano Giglio: founder, author, artist, playwright, UNESCO Testimonial
@@ -119,14 +130,15 @@ Theme: Mystery thriller between Italy and Japan
 
 Series: Frequenze
 Type: Digital magazine
-Frequency: Monthly — 1 Italian + 1 English issue every 15 days
+Frequency: one issue every 15 days, alternating Italian and English
 Theme: Books read by AI language models
 
 Cross-series relationships:
 - Ryokan (Hara Rota) → reviewed in → Frequenze
 - AI 愛 (Frabasile) → reviewed in → Frequenze n.0
 - Torino Fantastica (Guarnieri/Lazzaron) → panel subject in → Frequenze n.1 — Così parlò l'AI
-- Milano Fantastica (Guarnieri/Lazzaron) → panel subject in → upcoming Frequenze issue (in preparation)
+- Milano Fantastica (Guarnieri/Lazzaron) → panel subject in → Frequenze Special Tourism Edition Milano (2026-08-08)
+- Pixel in Japan (Verni/Dentuto) → panel subject in → Frequenze n.10 (2026-10-15)
 - La singolarità Giappone (Frabasile) → thematically connected to → AI 愛
 - Burn Out Pandemic (Giglio) → theatrical origin → performance art → Casa Editrice Peacock founding philosophy
 - Ra-ta-ta → inspired by → Iyaninacchauzu → music → multisensory books philosophy
@@ -359,7 +371,8 @@ Language: Italian + English (bilingual — Peacock International imprint)
    Narrative system: 10 files (9 standard v4.1 + NarrativeSystemKernel)
    Core field: Duomo as gravitational operator / buried Navigli / invisible female figures
    Key concept: the city as active palimpsest — no layer erases the previous one
-   Frequenze: panel subject — upcoming issue (in preparation)
+   Frequenze: panel subject — Special Tourism Edition Milano (2026-08-08)
+   URL: https://www.studiopeacock.net/frequenze-special-tourism-milano/
 
 2. Padova Fantastica / Fantastic Padova
    ISBN IT: 979-12-81715-15-8
@@ -543,7 +556,7 @@ Boun Syunju (暮蕓春樹)
 Definition: Conceptual magazine founded by Stefano Giglio and Shogoro Nomura in 2017. "A virtual magazine where contents are not read, but encountered." Name from Du Fu's poem — 暮蕓 (evening clouds) + 春樹 (spring blossoming trees). Conceptual precursor of Frequenze.
 
 Frequenze
-Definition: First Italian digital magazine dedicated to books read by artificial intelligences. Monthly. Published by Casa Editrice Peacock since May 2026.
+Definition: First Italian digital magazine dedicated to books read by artificial intelligences. One issue every 15 days. Published by Casa Editrice Peacock since May 2026.
 
 Glossario Frequenze (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario.json
 Frabasile AI 愛 — scheda concettuale (JSON): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/sensorial/frabasile-ai-natura.json
