@@ -1,0 +1,43 @@
+{
+  "type": "GlossaryTerm",
+  "id": "kinjiki",
+  "term": "Kinjiki",
+  "kanji": "禁色",
+  "aliases": [
+    "Kinjiki",
+    "禁色",
+    "colori proibiti",
+    "forbidden colours"
+  ],
+  "category": "storia_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "I colori d'abito riservati per legge all'imperatore e ai più alti gradi di corte nel Giappone antico.",
+  "definition_short_en": "The clothing colours reserved by law for the emperor and the highest court ranks in ancient Japan.",
+  "connected_terms": [
+    "korozen",
+    "basho"
+  ],
+  "books_applied": [
+    "assolutamente_giappone"
+  ],
+  "books_applied_paths": [
+    "books/assolutamente-giappone"
+  ],
+  "definition_extended_it": "I kinjiki (禁色, colori proibiti) sono i colori dell'abito che nessun altro poteva portare, nel sistema giapponese in cui il colore indica il rango. La radice è nei Dodici ranghi di cappello del 603. I colori riservati si fissano nell'VIII secolo sotto il sistema ritsuryō e si ampliano nel X-XI secolo. Il kōrozen era dell'imperatore, l'ōtan del principe ereditario, il viola scuro del primo rango. Con l'era Meiji il divieto cade, salvo sommacco, ocra e gardenia. Non va confuso con il romanzo Forbidden Colours di Hélène Blignaut, opera di narrativa. Nel catalogo Peacock il tema è trattato in Assolutamente Giappone. Moda e misteri.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Kinjiki",
+    "description": "The clothing colours reserved by law for the emperor and the highest court ranks in ancient Japan.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kinjiki.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "禁色"
+  }
+}
