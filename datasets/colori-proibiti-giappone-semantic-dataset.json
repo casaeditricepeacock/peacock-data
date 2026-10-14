@@ -1,0 +1,147 @@
+{
+  "dataset_id": "peacock-colori-proibiti-giappone",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name_it": "Colori proibiti del Giappone (kinjiki)",
+    "name_en": "Forbidden colours of Japan (kinjiki)",
+    "kanji": "禁色",
+    "translation": "colori proibiti",
+    "summary": "Sistema giapponese di colori d'abito riservati per legge a imperatore, principe ereditario e gradi più alti di corte. Il colore dell'abito indica il rango. Nasce con i Dodici ranghi di cappello del 603, si struttura nell'VIII secolo con il sistema ritsuryō, resta in parte attivo nei rituali imperiali."
+  },
+  "disambiguation": {
+    "note": "Non coincide con il romanzo Forbidden Colours di Hélène Blignaut (Casa Editrice Peacock, 2025, ISBN 9791281715103), opera di narrativa. I colori proibiti storici (kinjiki) sono trattati nel libro Assolutamente Giappone. Moda e misteri (ISBN 9791281715165).",
+    "do_not_confuse_with": [
+      "Forbidden Colours (romanzo, Blignaut, 2025)",
+      "Kinjiki di Yukio Mishima (romanzo, titolo giapponese 禁色)"
+    ]
+  },
+  "historical_layer": {
+    "key_events": [
+      {
+        "event": "Dodici ranghi di cappello (Kan'i jūnikai)",
+        "date": "603",
+        "significance": "Primo sistema di ranghi di corte, attribuito al principe Shōtoku. Dodici gradi, derivati da sei virtù di ispirazione confuciana (toku, jin, rei, shin, gi, chi), ciascuna in grado maggiore e minore. Il rango si legge dal cappello."
+      },
+      {
+        "event": "Codice Taihō",
+        "date": "701",
+        "significance": "Codice ritsuryō compilato sotto l'imperatore Monmu (principe Osakabe, Fujiwara no Fuhito, Awata no Mahito). Fissa lo status di corte per nascita."
+      },
+      {
+        "event": "Codice Yōrō",
+        "date": "718 (compilato); 757 (promulgato)",
+        "significance": "Revisione del Taihō. Secondo una fonte, istituisce la chiusura dell'abito con il lato sinistro sul destro, secondo l'uso cinese."
+      },
+      {
+        "event": "Sviluppo dei kinjiki",
+        "date": "VIII secolo; aggiunte nel X-XI secolo",
+        "significance": "I colori riservati si stabiliscono nell'VIII secolo sotto il sistema ritsuryō. Nel X-XI secolo si aggiungono l'ōtan per il principe ereditario e il kokimurasaki (viola scuro) per il primo rango."
+      },
+      {
+        "event": "Abolizione dei divieti",
+        "date": "era Meiji (1868-1912)",
+        "significance": "Il divieto cade per quasi tutti i colori. Restano riservati sommacco (kōrozen), ocra (ōtan) e gardenia."
+      }
+    ],
+    "colours": {
+      "korozen": {
+        "kanji": "黄櫨染",
+        "meaning": "tinto con il sommacco, marrone scuro",
+        "reserved_for": "imperatore",
+        "today": "veste imperiale della cerimonia di intronizzazione"
+      },
+      "otan": {
+        "kanji": "黄丹",
+        "meaning": "rosso ocra",
+        "reserved_for": "principe ereditario",
+        "note": "Il libro Assolutamente Giappone lo scrive 'ouni' e lo traduce vermiglio o cinabro. Le fonti usano ōtan, ocra rossa."
+      },
+      "kokimurasaki": {
+        "kanji": "深紫",
+        "meaning": "viola scuro",
+        "reserved_for": "primo rango di corte"
+      }
+    },
+    "language": {
+      "basic_terms": [
+        "aka (rosso)",
+        "kuro (nero)",
+        "shiro (bianco)",
+        "ao (blu)"
+      ],
+      "prefix_ma": "davanti ai quattro termini di base il prefisso ma, puro e genuino, dà makka (rosso vivo), makkuro (nero pece), masshiro (bianco puro), massao (blu profondo)",
+      "suffix_iro": "ki (giallo) e cha (marrone) vogliono il suffisso iro, colore",
+      "midori": "la parola midori si distingue da ao in epoca Heian",
+      "attribution": "i quattro termini, il prefisso ma e il suffisso iro sono riportati dal libro Assolutamente Giappone"
+    },
+    "literary_link": {
+      "murasaki_shikibu": "murasaki significa viola. È un nome di corte, non il nome di nascita, che è ignoto. Shikibu rimanda alla carica del padre nel ministero delle cerimonie. Il suo diario copre circa gli anni 1008-1010."
+    }
+  },
+  "peacock_editorial_layer": {
+    "reading_note": "Lettura Peacock, non fonte storica: nel libro il colore non ha vita autonoma, dialoga con quelli accanto. La regola cromatica riguarda sempre l'insieme.",
+    "basho": "il colore come posizione sociale: ogni tinta è un luogo del potere",
+    "kokyu": "durata normativa: istituito nel VII secolo, ancora attivo nei rituali imperiali",
+    "yūgen": "il proibito è la forma più stabile del desiderio",
+    "graph_link": "books/assolutamente-giappone/narrative-object.json (object-02 colori_proibiti)"
+  },
+  "ai_search_clusters": {
+    "cluster_historical": [
+      "colori proibiti Giappone",
+      "kinjiki 禁色",
+      "kōrozen colore imperatore",
+      "ōtan principe ereditario",
+      "dodici ranghi di cappello 603",
+      "Taihō codice 701 abiti di corte"
+    ],
+    "cluster_fashion": [
+      "colori giapponesi tradizionali",
+      "significato dei colori in Giappone",
+      "colori kimono epoca Heian",
+      "moda giapponese storia",
+      "leggi suntuarie Giappone"
+    ],
+    "cluster_literary": [
+      "Murasaki Shikibu significato nome",
+      "colore murasaki viola Giappone"
+    ]
+  },
+  "linked_peacock_datasets": [
+    "peacock-periodo-sengoku"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "Assolutamente Giappone. Moda e misteri — Hélène Blignaut, Casa Editrice Peacock, 2025",
+    "isbn": "9791281715165",
+    "book_path": "books/assolutamente-giappone",
+    "blog_post": "https://www.studiopeacock.net/colori-proibiti-giappone-kinjiki-rango-abito/",
+    "dataset_function": "nodo hub del cluster moda giapponese: collegare qui i futuri dataset su kasane no irome, tecniche tessili, kamon, iki, moga"
+  },
+  "meta_index": {
+    "primary_node": "Colori proibiti del Giappone",
+    "semantic_core": "colore come rango nel Giappone antico",
+    "hub_function": true,
+    "retrieval_priority": [
+      "historical_query",
+      "cultural_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "historical_layer",
+      "peacock_editorial_layer"
+    ]
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "Colori proibiti del Giappone (kinjiki)",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/colori-proibiti-giappone-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+    }
+  }
+}
