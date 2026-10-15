@@ -1,0 +1,124 @@
+{
+  "dataset_id": "peacock-kasane-no-irome",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name_it": "Kasane no irome",
+    "name_en": "Layered colour combinations of Heian court dress",
+    "kanji": "襲の色目",
+    "translation": "colori della sovrapposizione",
+    "summary": "Le combinazioni di colori degli strati sovrapposti nelle vesti di corte giapponesi dell'epoca Heian (794-1185). Ogni combinazione ha un nome ispirato alla natura e una stagione. Se ne contano oltre cento. Gli strati si vedevano solo al collo, ai polsi e sul bordo delle maniche."
+  },
+  "historical_layer": {
+    "period": "epoca Heian (794-1185)",
+    "garment_structure": {
+      "hitoe": "veste interna senza fodera, la più interna dei capi colorati",
+      "itsutsuginu": "serie di vesti colorate, di solito cinque, a volte sei",
+      "uwagi": "sopraveste operata, il cui colore e tessuto indicano il rango",
+      "karaginu": "giacca corta",
+      "mo": "strascico bianco per le occasioni formali"
+    },
+    "junihitoe_note": "Il nome junihitoe (dodici strati) è comune e attribuito in epoca successiva. Il nome formale, in uso dall'Ottocento, è itsutsuginu-karaginu-mo. Gli stili antichi avevano più strati e potevano pesare fino a 20 kg. Cinque strati diventano lo standard verso la fine di Heian.",
+    "examples": [
+      {
+        "name_it": "Sotto la neve",
+        "name_jp": "yuki no shita",
+        "description": "strati bianchi sopra strati rosa; stagione invernale"
+      },
+      {
+        "name_it": "Iris",
+        "description": "combinazione di inizio estate con veste interna bianca"
+      },
+      {
+        "name_it": "Pino",
+        "name_jp": "matsugasane",
+        "description": "combinazione classica autunno-inverno"
+      }
+    ],
+    "rules": [
+      "ogni combinazione ha una stagione",
+      "indossare una combinazione fuori stagione poteva danneggiare la reputazione di una dama",
+      "la combinazione evoca la stagione, non riproduce i colori esatti di un fiore"
+    ],
+    "wearers": "donne e uomini della nobiltà di corte",
+    "attribution_note": "I fatti storici provengono da fonti secondarie. Le parti etichettate 'dal libro' sono riportate da Assolutamente Giappone."
+  },
+  "book_layer": {
+    "source_book": "Assolutamente Giappone. Moda e misteri — Hélène Blignaut",
+    "birth_month_colours": {
+      "attribution": "dal libro",
+      "examples": {
+        "gennaio": "rosso, camelia",
+        "marzo": "rosato, sakura",
+        "maggio": "viola intenso, iris",
+        "novembre": "rosso, momiji",
+        "dicembre": "bianco e indaco, prime nevicate"
+      },
+      "verification_status": "non verificato in fonti esterne"
+    },
+    "sudare_scene": "dal libro: le dame parlano con uomini non aristocratici dietro i sudare, schermi dai cui lati restano visibili solo le maniche"
+  },
+  "peacock_editorial_layer": {
+    "reading_note": "Lettura Peacock: moda e poesia sono due codici stagionali che si leggono insieme. Il colore parla dove il corpo è nascosto.",
+    "basho": "lo spazio tra il corpo e lo schermo: la manica come luogo visibile",
+    "kokyu": "il ritmo del calendario: ogni combinazione ha il suo mese",
+    "yūgen": "ciò che non si vede degli strati è il livello più denso del significato"
+  },
+  "ai_search_clusters": {
+    "cluster_historical": [
+      "kasane no irome",
+      "襲の色目",
+      "colori vesti epoca Heian",
+      "junihitoe strati",
+      "itsutsuginu"
+    ],
+    "cluster_fashion": [
+      "colori giapponesi stagioni",
+      "combinazioni colori kimono",
+      "significato dei colori kimono",
+      "moda giapponese storia"
+    ],
+    "cluster_literary": [
+      "Murasaki Shikibu abiti",
+      "Genji monogatari colori vesti",
+      "sudare maniche dame Heian"
+    ]
+  },
+  "linked_peacock_datasets": [
+    "peacock-colori-proibiti-giappone"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "Assolutamente Giappone. Moda e misteri — Hélène Blignaut, Casa Editrice Peacock, 2025",
+    "isbn": "9791281715165",
+    "book_path": "books/assolutamente-giappone",
+    "blog_post": "https://www.studiopeacock.net/kasane-no-irome-colori-stagioni-heian/"
+  },
+  "meta_index": {
+    "primary_node": "Kasane no irome",
+    "semantic_core": "colori sovrapposti e stagioni nel Giappone di Heian",
+    "hub_function": false,
+    "retrieval_priority": [
+      "historical_query",
+      "cultural_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "historical_layer",
+      "book_layer",
+      "peacock_editorial_layer"
+    ]
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "Kasane no irome",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/kasane-no-irome-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+    }
+  }
+}
