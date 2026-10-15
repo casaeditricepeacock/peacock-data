@@ -1,0 +1,44 @@
+{
+  "type": "GlossaryTerm",
+  "id": "junihitoe",
+  "term": "Jūnihitoe",
+  "kanji": "十二単",
+  "aliases": [
+    "Jūnihitoe",
+    "Junihitoe",
+    "十二単",
+    "itsutsuginu-karaginu-mo",
+    "dodici strati"
+  ],
+  "category": "storia_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "La veste di corte femminile a più strati di seta dell'epoca Heian, il cui nome formale è itsutsuginu-karaginu-mo.",
+  "definition_short_en": "The multi-layered silk court robe of Heian women, formally called itsutsuginu-karaginu-mo.",
+  "connected_terms": [
+    "kasane-no-irome",
+    "kinjiki"
+  ],
+  "books_applied": [
+    "assolutamente_giappone"
+  ],
+  "books_applied_paths": [
+    "books/assolutamente-giappone"
+  ],
+  "definition_extended_it": "Il jūnihitoe (十二単, dodici strati) è il nome comune, attribuito in epoca successiva, della veste di corte femminile a più strati di seta apparsa intorno al X secolo. Il nome formale, in uso dall'Ottocento, è itsutsuginu-karaginu-mo. Gli strati colorati (itsutsuginu) sono di solito cinque, a volte sei, e gli stili antichi potevano pesare fino a 20 kg. Oggi lo indossa la famiglia imperiale nelle grandi occasioni, come l'intronizzazione. I colori degli strati seguono i kasane no irome.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Jūnihitoe",
+    "description": "The multi-layered silk court robe of Heian women, formally called itsutsuginu-karaginu-mo.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/junihitoe.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "十二単"
+  }
+}
