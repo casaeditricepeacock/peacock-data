@@ -1,0 +1,43 @@
+{
+  "type": "GlossaryTerm",
+  "id": "yuzen",
+  "term": "Yūzen",
+  "kanji": "友禅",
+  "aliases": [
+    "Yūzen",
+    "Yuzen",
+    "友禅",
+    "Kyo-yuzen"
+  ],
+  "category": "arte_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Tecnica giapponese di pittura su seta con riserva di pasta di riso, nata nel XVII secolo.",
+  "definition_short_en": "A Japanese resist-dye painting technique on silk using rice paste, born in the 17th century.",
+  "connected_terms": [
+    "shibori",
+    "kasuri"
+  ],
+  "books_applied": [
+    "assolutamente_giappone"
+  ],
+  "books_applied_paths": [
+    "books/assolutamente-giappone"
+  ],
+  "definition_extended_it": "Lo yūzen (友禅) è una tecnica di tintura con riserva nata nel XVII secolo e legata al nome del pittore di ventagli Miyazaki Yūzen. Il disegno è tracciato a mano libera, i contorni sono arginati con una pasta a base di riso stesa con un cono, il colore è dipinto a pennello, fissato a vapore e la pasta è lavata via. Le fonti ricordano che si diffuse in parte come modo di aggirare le leggi suntuarie. Nel catalogo Peacock è trattato in Assolutamente Giappone. Moda e misteri, che distingue tre stili: Kyō, Kaga ed Edo.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Yūzen",
+    "description": "A Japanese resist-dye painting technique on silk using rice paste, born in the 17th century.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/yuzen.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "友禅"
+  }
+}
