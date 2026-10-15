@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.11",
+  "version": "1.12",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1132,13 +1132,64 @@
         "assolutamente_giappone"
       ],
       "glossary_file": "glossario/junihitoe.json"
+    },
+    {
+      "term": "Yūzen",
+      "kanji": "友禅",
+      "category": "arte_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Tecnica giapponese di pittura su seta con riserva di pasta di riso, nata nel XVII secolo.",
+      "definition_short_en": "A Japanese resist-dye painting technique on silk using rice paste, born in the 17th century.",
+      "connected_terms": [
+        "shibori",
+        "kasuri"
+      ],
+      "books_applied": [
+        "assolutamente_giappone"
+      ],
+      "glossary_file": "glossario/yuzen.json"
+    },
+    {
+      "term": "Shibori",
+      "kanji": "絞り",
+      "category": "arte_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Famiglia di tecniche giapponesi di tintura a riserva in cui il tessuto viene legato, piegato, cucito o pressato.",
+      "definition_short_en": "A family of Japanese resist-dyeing techniques in which cloth is bound, folded, stitched or pressed.",
+      "connected_terms": [
+        "yuzen",
+        "kasuri"
+      ],
+      "books_applied": [
+        "assolutamente_giappone"
+      ],
+      "glossary_file": "glossario/shibori.json"
+    },
+    {
+      "term": "Kasuri",
+      "kanji": "絣",
+      "category": "arte_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Tessuto giapponese i cui fili sono colorati prima della tessitura per formare il disegno.",
+      "definition_short_en": "Japanese fabric woven from threads dyed beforehand to form the pattern.",
+      "connected_terms": [
+        "yuzen",
+        "shibori"
+      ],
+      "books_applied": [
+        "assolutamente_giappone"
+      ],
+      "glossary_file": "glossario/kasuri.json"
     }
   ],
   "statistics": {
-    "total_entries": 54,
+    "total_entries": 57,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 15,
+    "in_sviluppo": 18,
     "by_category": {
       "estetica_giapponese": 20,
       "cerimonia_del_te": 8,
@@ -1146,7 +1197,7 @@
       "principi_editoriali_peacock": 4,
       "vocabolario_ai_native": 5,
       "spazio_interiore": 1,
-      "arte_giapponese": 1,
+      "arte_giapponese": 4,
       "voci_in_sviluppo": 4
     },
     "most_connected_term": "ma",
@@ -1173,7 +1224,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 54,
+    "total_terms": 57,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1200,6 +1251,11 @@
     "new_in_v1.11": [
       "kasane-no-irome",
       "junihitoe"
+    ],
+    "new_in_v1.12": [
+      "yuzen",
+      "shibori",
+      "kasuri"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
