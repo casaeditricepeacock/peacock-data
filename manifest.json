@@ -542,8 +542,16 @@
       "path": "glossario/jo-ha-kyu.json"
     },
     {
+      "term": "junihitoe",
+      "path": "glossario/junihitoe.json"
+    },
+    {
       "term": "kakekotoba",
       "path": "glossario/kakekotoba.json"
+    },
+    {
+      "term": "kasane-no-irome",
+      "path": "glossario/kasane-no-irome.json"
     },
     {
       "term": "kata",
@@ -790,6 +798,7 @@
       "datasets/elena-lombardi-dataset.json",
       "datasets/foreign-rights.json",
       "datasets/honnoji-semantic-dataset.json",
+      "datasets/kasane-no-irome-semantic-dataset.json",
       "datasets/luisfrois-semantic-dataset.json",
       "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
       "datasets/matcha-ritmo-chasen-semantic-dataset.json",
