@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-14",
+    "generated": "2026-10-15",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -554,6 +554,10 @@
       "path": "glossario/kasane-no-irome.json"
     },
     {
+      "term": "kasuri",
+      "path": "glossario/kasuri.json"
+    },
+    {
       "term": "kata",
       "path": "glossario/kata.json"
     },
@@ -614,6 +618,10 @@
       "path": "glossario/seppuku.json"
     },
     {
+      "term": "shibori",
+      "path": "glossario/shibori.json"
+    },
+    {
       "term": "sostenibilita-editoriale",
       "path": "glossario/sostenibilita-editoriale.json"
     },
@@ -656,6 +664,10 @@
     {
       "term": "yugen",
       "path": "glossario/yugen.json"
+    },
+    {
+      "term": "yuzen",
+      "path": "glossario/yuzen.json"
     }
   ],
   "resources": {
@@ -817,6 +829,7 @@
       "datasets/sengoku-semantic-dataset.json",
       "datasets/shogoro-nomura-dataset.json",
       "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
+      "datasets/tecniche-tessili-giapponesi-semantic-dataset.json",
       "datasets/yasuke-semantic-dataset.json"
     ],
     "cities": [
