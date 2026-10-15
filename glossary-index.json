@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.10",
+  "version": "1.11",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1098,17 +1098,51 @@
         "assolutamente_giappone"
       ],
       "glossary_file": "glossario/korozen.json"
+    },
+    {
+      "term": "Kasane no irome",
+      "kanji": "襲の色目",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Le combinazioni di colori degli strati sovrapposti delle vesti di corte nel Giappone di Heian, con nomi legati alla natura e alle stagioni.",
+      "definition_short_en": "The named colour combinations of layered court robes in Heian Japan, tied to nature and the seasons.",
+      "connected_terms": [
+        "junihitoe",
+        "kinjiki"
+      ],
+      "books_applied": [
+        "assolutamente_giappone"
+      ],
+      "glossary_file": "glossario/kasane-no-irome.json"
+    },
+    {
+      "term": "Jūnihitoe",
+      "kanji": "十二単",
+      "category": "storia_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "La veste di corte femminile a più strati di seta dell'epoca Heian, il cui nome formale è itsutsuginu-karaginu-mo.",
+      "definition_short_en": "The multi-layered silk court robe of Heian women, formally called itsutsuginu-karaginu-mo.",
+      "connected_terms": [
+        "kasane-no-irome",
+        "kinjiki"
+      ],
+      "books_applied": [
+        "assolutamente_giappone"
+      ],
+      "glossary_file": "glossario/junihitoe.json"
     }
   ],
   "statistics": {
-    "total_entries": 52,
+    "total_entries": 54,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 13,
+    "in_sviluppo": 15,
     "by_category": {
       "estetica_giapponese": 20,
       "cerimonia_del_te": 8,
-      "storia_giapponese": 9,
+      "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
       "vocabolario_ai_native": 5,
       "spazio_interiore": 1,
@@ -1139,7 +1173,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 52,
+    "total_terms": 54,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1162,6 +1196,10 @@
     "new_in_v1.10": [
       "kinjiki",
       "korozen"
+    ],
+    "new_in_v1.11": [
+      "kasane-no-irome",
+      "junihitoe"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
