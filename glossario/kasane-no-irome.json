@@ -1,0 +1,43 @@
+{
+  "type": "GlossaryTerm",
+  "id": "kasane-no-irome",
+  "term": "Kasane no irome",
+  "kanji": "襲の色目",
+  "aliases": [
+    "Kasane no irome",
+    "襲の色目",
+    "kasane",
+    "combinazioni di colori Heian"
+  ],
+  "category": "storia_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Le combinazioni di colori degli strati sovrapposti delle vesti di corte nel Giappone di Heian, con nomi legati alla natura e alle stagioni.",
+  "definition_short_en": "The named colour combinations of layered court robes in Heian Japan, tied to nature and the seasons.",
+  "connected_terms": [
+    "junihitoe",
+    "kinjiki"
+  ],
+  "books_applied": [
+    "assolutamente_giappone"
+  ],
+  "books_applied_paths": [
+    "books/assolutamente-giappone"
+  ],
+  "definition_extended_it": "I kasane no irome (襲の色目) sono le combinazioni di colori degli strati sovrapposti delle vesti di corte dell'epoca Heian (794-1185). Si contano oltre cento schemi, ciascuno con un nome ispirato alla natura e una stagione di riferimento. Gli strati si vedevano al collo, ai polsi e sul bordo delle maniche. La combinazione evoca la stagione senza riprodurre i colori esatti di un fiore. Era usata da donne e uomini della nobiltà. Nel catalogo Peacock il tema è trattato in Assolutamente Giappone. Moda e misteri.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Kasane no irome",
+    "description": "The named colour combinations of layered court robes in Heian Japan, tied to nature and the seasons.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kasane-no-irome.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "襲の色目"
+  }
+}
