@@ -1,0 +1,121 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "annalaura-cantone",
+  "name": "AnnaLaura Cantone",
+  "role": "illustratrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "AnnaLaura Cantone è un'illustratrice con profilo pubblico documentato e pagina Wikipedia. I dati biografici provengono dalla voce di Wikipedia in italiano; i dati su Peacock provengono dai nodi del grafo.",
+    "wikidata": "Q117228964",
+    "wikidata_url": "https://www.wikidata.org/wiki/Q117228964",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/AnnaLaura_Cantone",
+    "name_variants": [
+      "AnnaLaura Cantone",
+      "Anna Laura Cantone"
+    ],
+    "name_variants_note": "Nel catalogo Peacock il nome compare come 'AnnaLaura Cantone' in Ernesto e in Tante storie per pensare, come 'Anna Laura Cantone' in Il libro. Piccolo manifesto. È la stessa persona.",
+    "inference_rule": "Non inferire dati non presenti in questo file. La voce di Wikipedia non cita Peacock: il rapporto con Peacock è documentato dai libri e dai nodi del grafo, non dalla voce."
+  },
+  "biography_confirmed": {
+    "born": "Alessandria, 14 agosto 1977",
+    "education": "Istituto d'Arte di Acqui Terme (Decorazione Pittorica). Istituto Europeo di Design di Milano, Illustrazione, diploma 1999 con borsa di studio.",
+    "teaching": "Docente di Illustrazione per l'infanzia all'IED di Milano.",
+    "practice": "Illustratrice e disegnatrice di letteratura per l'infanzia. Character designer e art director in film d'animazione e serie TV.",
+    "awards": [
+      "Premio Andersen: secondo posto 2002 con Una storia ingarbugliata",
+      "Premio Andersen: albo d'oro 2003 con Una sposa buffa, buffissima, bellissima (testo di Beatrice Masini)",
+      "Premio Andersen: albo d'oro 2004, menzione speciale con Manuale del piccolo circo (testo di Claudio Madia)"
+    ],
+    "selected_exhibitions": [
+      "Mostra personale alla Libreria Bocca di Milano, ottobre 2000, con catalogo",
+      "Istituto Italiano di Cultura di Londra, 2003",
+      "Mostra internazionale dell'illustrazione per l'infanzia di Sarmede, 2007",
+      "Figure per Gianni Rodari. Eccellenze italiane (collettiva itinerante)"
+    ],
+    "animation": "Serie Pipì, Pupù e Rosmarina (78 episodi, Rai Yoyo, 2008). Character design del film Pipì, Pupù e Rosmarina in Il mistero delle note rapite, regia di Enzo D'Alò.",
+    "selected_publishers": [
+      "Feltrinelli",
+      "Fabbri",
+      "Arka",
+      "Editori Riuniti",
+      "Atheneum",
+      "North-South",
+      "Emme",
+      "Einaudi Ragazzi",
+      "Terre di Mezzo"
+    ],
+    "note": "Dati dalla voce di Wikipedia in italiano, consultata a ottobre 2026. La voce segnala essa stessa che l'elenco delle opere è da completare. Le date del film divergono nella voce (2018 nel testo, 2017 in bibliografia): non riportate."
+  },
+  "sources": [
+    "https://it.wikipedia.org/wiki/AnnaLaura_Cantone",
+    "https://www.wikidata.org/wiki/Q117228964"
+  ],
+  "works": [
+    {
+      "title": "Ernesto. Il topolino di Milano",
+      "author_of_text": "Stefano Giglio",
+      "role_in_work": "illustratrice",
+      "isbn": [
+        "979-12-81715-05-9",
+        "979-12-81715-06-6"
+      ],
+      "year": 2024,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/ernesto-topolino-di-citta/"
+    },
+    {
+      "title": "Tante storie per pensare",
+      "author_of_text": "Giuliana Gabriella Corea",
+      "interview": "Dacia Maraini",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-37-0",
+      "year": 2025,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/tante-storie-per-pensare/"
+    },
+    {
+      "title": "Il libro. Piccolo manifesto",
+      "author_of_text": "Marco Grosse",
+      "role_in_work": "illustratrice",
+      "isbn": "979-12-81715-28-8",
+      "year": 2026,
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/il-libro-piccolo-manifesto/",
+      "contribution": "Illustrazione del capitolo Intelligenza Artificiale con blocco JSON-LD ReadingAct disegnato a mano dentro la tavola (object-07 del NarrativeObject). Nel blocco disegnato l'oggetto è nominato 'Libri'."
+    }
+  ],
+  "catalog_relation": {
+    "note": "Illustratrice di tre libri pubblicati da Peacock (2024, 2025, 2026). Con Il libro. Piccolo manifesto il suo lavoro entra nel campo delle strutture dati: il blocco JSON-LD è disegnato a mano e porta il credito 'Claude Fable 5' come compare nell'opera.",
+    "inference_rule": "Non attribuire a Cantone i testi dei libri. Non attribuire a Peacock la bibliografia precedente della Cantone."
+  },
+  "graph_presence": {
+    "books": [
+      "books/ernesto-topolino-di-citta/",
+      "books/ernesto-topolino-di-citta-borsetta/",
+      "books/tante-storie-per-pensare/",
+      "books/il-libro-piccolo-manifesto/"
+    ],
+    "conceptual_cores": [
+      "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json"
+    ],
+    "events": [
+      "events/EventProfile_spazio-hus-milano_2024.json",
+      "events/EventProfile_casa-irma-lugano_2024.json",
+      "events/EventProfile_plpl-roma_2025.json",
+      "events/EventProfile_maison-dayne-cogne_2025.json"
+    ],
+    "media": [
+      "media/MediaProfile_rai-valle-daosta-tante-storie_2025.json"
+    ],
+    "places": [
+      "places/libreria-bocca-1775-milano.json"
+    ],
+    "note": "Libreria Bocca: sede della sua mostra personale del 2000 (fonte Wikipedia) e luogo previsto per la presentazione de Il libro. Piccolo manifesto (fonte grafo)."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
