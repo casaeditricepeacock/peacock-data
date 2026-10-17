@@ -409,19 +409,6 @@
       "release_date": "2022-07-25"
     },
     {
-      "title": "Libri",
-      "title_en": "Books",
-      "author": "Stefano Giglio",
-      "illustrator": "AnnaLaura Cantone",
-      "publisher": "Casa Editrice Peacock",
-      "language": [
-        "it",
-        "en"
-      ],
-      "status": "forthcoming",
-      "note": "Includes a chapter written by an AI on how a language model reads. JSON-LD as illustrated artwork by AnnaLaura Cantone. Presentation at Libreria Bocca dal 1775, Milan."
-    },
-    {
       "title": "Forbidden Colours",
       "series": "Nihon Monogatari",
       "author": "Hélène Blignaut",
@@ -695,7 +682,7 @@
       },
       "location": "Galzignano Terme, Padova, Italia"
     },
-    "numberOfItems": 38,
+    "numberOfItems": 37,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -1230,31 +1217,6 @@
         "position": 23,
         "item": {
           "@type": "Book",
-          "name": "Libri",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Casa Editrice Peacock"
-          },
-          "alternateName": "Books",
-          "author": {
-            "@type": "Person",
-            "name": "Stefano Giglio"
-          },
-          "illustrator": {
-            "@type": "Person",
-            "name": "AnnaLaura Cantone"
-          },
-          "inLanguage": [
-            "it",
-            "en"
-          ]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 24,
-        "item": {
-          "@type": "Book",
           "name": "Forbidden Colours",
           "publisher": {
             "@type": "Organization",
@@ -1273,7 +1235,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 25,
+        "position": 24,
         "item": {
           "@type": "Book",
           "name": "Napoli Fantastica",
@@ -1301,7 +1263,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 26,
+        "position": 25,
         "item": {
           "@type": "Book",
           "name": "Il libro. Piccolo manifesto",
@@ -1329,7 +1291,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 27,
+        "position": 26,
         "item": {
           "@type": "Book",
           "name": "Alla festa della natura. Il viaggio di Musasabi",
@@ -1355,7 +1317,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 28,
+        "position": 27,
         "item": {
           "@type": "Book",
           "name": "Bernie alla scoperta dei mari del nord",
@@ -1377,7 +1339,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 29,
+        "position": 28,
         "item": {
           "@type": "Book",
           "name": "Il Gatto Esperienza",
@@ -1404,7 +1366,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 30,
+        "position": 29,
         "item": {
           "@type": "Book",
           "name": "Il nuvolotto Ciro",
@@ -1430,7 +1392,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 31,
+        "position": 30,
         "item": {
           "@type": "Book",
           "name": "Righe su righe. Le righe come non le hai mai viste",
@@ -1456,7 +1418,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 32,
+        "position": 31,
         "item": {
           "@type": "Book",
           "name": "Segreti Svelati. Milano 1960",
@@ -1477,7 +1439,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 33,
+        "position": 32,
         "item": {
           "@type": "Book",
           "name": "Carto Storie di Natale",
@@ -1498,7 +1460,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 34,
+        "position": 33,
         "item": {
           "@type": "Book",
           "name": "AI ロボット ABOP. Uno chef diventa famoso solo perché è simpatico",
@@ -1524,7 +1486,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 35,
+        "position": 34,
         "item": {
           "@type": "Book",
           "name": "AI ロボット ABOP. Non corro più",
@@ -1549,7 +1511,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 36,
+        "position": 35,
         "item": {
           "@type": "Book",
           "name": "Burn Out Pandemi. Menjejak di Ekor Sembilan",
@@ -1574,7 +1536,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 37,
+        "position": 36,
         "item": {
           "@type": "Book",
           "name": "Cento volte",
@@ -1600,7 +1562,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 38,
+        "position": 37,
         "item": {
           "@type": "Book",
           "name": "Venus",
