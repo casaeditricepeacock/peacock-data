@@ -59,7 +59,7 @@
     "galleria_layer": "La Galleria Vittorio Emanuele II è il salotto buono di Milano — inaugurata nel 1867, è uno dei passaggi coperti più celebri del mondo. La Libreria Bocca al suo interno è il salotto del salotto: lo spazio più antico dentro il simbolo della modernità milanese.",
     "basho_reading": "La Galleria Vittorio Emanuele è un bashō milanese per definizione — uno spazio che concentra secoli di vita urbana, commercio, incontri, storia. La Libreria Bocca ne è il nodo più denso semanticamente: 250 anni di libri in 60 metri quadri.",
     "wunderkammer_connection": "La Libreria Bocca è una Wunderkammer — come il catalogo Peacock. Entrambi raccolgono oggetti che non si trovano altrove: libri che aprono mondi, culture che si incontrano, domande che non hanno risposta immediata.",
-    "libri_book_connection": "Il libro Libri di Stefano Giglio e AnnaLaura Cantone — con un capitolo scritto da un'AI — è previsto per la presentazione alla Libreria Bocca. Il luogo più antico della città per il libro più futuro del catalogo.",
+    "libri_book_connection": "Il libro Il libro. Piccolo manifesto, illustrato da Anna Laura Cantone e con un capitolo sull'intelligenza artificiale, è previsto per la presentazione alla Libreria Bocca. Il luogo più antico della città per il libro più futuro del catalogo.",
     "spatial_constraint": {
       "banned_descriptions": [
         "libreria_commerciale",
@@ -104,9 +104,9 @@
       "description": "Libri Casa Editrice Peacock presenti — sede di eventi Peacock"
     },
     {
-      "target": "libri_giglio_cantone",
+      "target": "il-libro-piccolo-manifesto",
       "relation": "planned_presentation",
-      "description": "Il libro Libri di Giglio/Cantone previsto per presentazione alla Libreria Bocca"
+      "description": "Il libro. Piccolo manifesto (illustrato da Anna Laura Cantone) previsto per presentazione alla Libreria Bocca"
     },
     {
       "target": "milano_fantastica_guarnieri",
