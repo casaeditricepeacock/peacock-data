@@ -522,6 +522,10 @@
       "path": "glossario/hana.json"
     },
     {
+      "term": "hannya",
+      "path": "glossario/hannya.json"
+    },
+    {
       "term": "hototogisu",
       "path": "glossario/hototogisu.json"
     },
@@ -590,6 +594,10 @@
       "path": "glossario/ma.json"
     },
     {
+      "term": "menpo",
+      "path": "glossario/menpo.json"
+    },
+    {
       "term": "mono-no-aware",
       "path": "glossario/mono-no-aware.json"
     },
@@ -608,6 +616,10 @@
     {
       "term": "omotenashi",
       "path": "glossario/omotenashi.json"
+    },
+    {
+      "term": "oni",
+      "path": "glossario/oni.json"
     },
     {
       "term": "roji",
@@ -823,6 +835,7 @@
       "datasets/nagashino-semantic-dataset.json",
       "datasets/naviglio-san-marco-theobroma-semantic-dataset.json",
       "datasets/nobunaga-semantic-dataset.json",
+      "datasets/oni-maschere-hannya-semantic-dataset.json",
       "datasets/orin-campane-buddiste-toyama-semantic-dataset.json",
       "datasets/pixel-in-japan-come-si-gioca-dataset.json",
       "datasets/pixel-in-japan-credits-dataset.json",
