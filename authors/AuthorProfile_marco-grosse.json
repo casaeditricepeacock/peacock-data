@@ -1,249 +1,180 @@
 {
-  "type": "AuthorProfile",
-  "version": "4.1",
+  "dataset_id": "peacock-fluesterndes-licht",
+  "version": "1.0",
+  "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "peacock-data — Casa Editrice Peacock",
-  "author_id": "marco-grosse",
-  "name": "Marco Grosse",
-  "role": "autore",
-  "publisher": "Casa Editrice Peacock",
-  "identity_policy": {
-    "name_type": "real_name",
-    "real_identity_disclosed": true,
-    "statement": "Marco Grosse è uno scrittore con produzione in tedesco, italiano e inglese. I dati biografici provengono dalle pagine d'autore indicate in sources; i dati su Peacock provengono dai nodi del grafo.",
-    "inference_rule": "Non inferire dati non presenti in questo file. Non attribuire a Peacock la bibliografia precedente. L'identificativo Wikidata non è verificato e non è riportato."
+  "central_concept": {
+    "name_it": "Flüsterndes Licht. Ein Kettengedicht",
+    "name_en": "Flüsterndes Licht. A linked poem",
+    "summary": "Libro di poesia a catena in forma di renshi, scritto a cinque voci: Nora Gomringer, Marco Grosse, Annette Hagemann, Ulrich Koch e Klaus Merz. Haymon Verlag, 2017. È la forma moderna del renga giapponese portata nella poesia di lingua tedesca. Il libro non è un titolo Peacock: il nodo documenta il legame di uno degli autori, Marco Grosse, con la tradizione poetica giapponese."
   },
-  "biography_confirmed": {
-    "born": "Buenos Aires, 21 gennaio 1974",
-    "family": "Padre tedesco, diplomatico, e madre italiana.",
-    "places_lived": "Argentina, Canada e Italia durante l'infanzia; Egitto (Il Cairo) dal 1981 al 1988; poi Germania. Per il lavoro diplomatico del padre.",
-    "education": "Giurisprudenza a Milano e a Bonn; poi mediazione linguistica e culturale a Milano.",
-    "profession": "Scrittore, traduttore e insegnante.",
-    "languages_of_writing": [
-      "de",
-      "it",
-      "en"
-    ],
-    "note": "Dati da literaturport.de, litero-mania.com, haymonverlag.at e letteratour.it. La pagina di letteratour.it è più datata (2006). La data di nascita completa è su literaturport.de; Haymon Verlag e litero-mania riportano il solo anno.",
-    "residence": "Bonn, Germania (secondo literaturport.de)"
-  },
-  "works_italian": [
-    {
-      "title": "I giardini imperiali",
-      "type": "raccolta di racconti",
-      "publisher": "De Ferrari, Genova",
-      "year": 2006
-    },
-    {
-      "title": "Pioggia",
-      "type": "racconti",
-      "publisher": "De Ferrari",
-      "year": 2010,
-      "year_note": "litero-mania.com riporta 2010, literaturport.de riporta 2011"
-    },
-    {
-      "title": "In lontananza",
-      "type": "poesie",
-      "publisher": "Oedipus Edizioni, Salerno",
-      "year": 2021
-    }
-  ],
-  "works_german": [
-    {
-      "title": "Die Grenze liegt am Horizont",
-      "type": "racconti",
-      "publisher": "Bernstein-Verlag, Bonn",
-      "year": 2013
-    },
-    {
-      "title": "Flügelkunde",
-      "type": "poesie",
-      "publisher": "Horlemann Verlag",
-      "year": 2014
-    },
-    {
-      "title": "Die Erschließung des Meeres",
-      "type": "poesie",
-      "publisher": "Moloko Print",
-      "year": 2016
-    },
-    {
-      "title": "Flüsterndes Licht. Ein Kettengedicht",
-      "type": "poesia a catena (Kettengedicht) in forma di renshi",
-      "publisher": "Haymon Verlag",
-      "year": 2017,
-      "isbn": "978-3-7099-7291-5",
-      "release_date": "2017-03-02",
-      "form": "Renshi, la forma moderna del renga giapponese. I cinque autori hanno scritto via e-mail per circa un anno e mezzo, fino a 90 strofe.",
-      "coauthors": [
-        {
-          "name": "Nora Gomringer",
-          "born": "1980, Neunkirchen (Saar)",
-          "prizes_listed": [
-            "Jacob-Grimm-Preis 2011",
-            "Joachim-Ringelnatz-Preis 2012",
-            "Ingeborg-Bachmann-Preis 2015"
-          ]
-        },
-        {
-          "name": "Annette Hagemann",
-          "born": "1967, Münster",
-          "note": "Dal 2001 lavora alla Literaturhaus di Hannover"
-        },
-        {
-          "name": "Ulrich Koch",
-          "born": "1966, Winsen (Luhe)",
-          "prizes_listed": [
-            "Hugo-Ball-Förderpreis 2011"
-          ]
-        },
-        {
-          "name": "Klaus Merz",
-          "born": "1945, Aarau",
-          "note": "Vive in Svizzera",
-          "prizes_listed": [
-            "Hermann-Hesse-Literaturpreis 1997",
-            "Gottfried-Keller-Preis 2004",
-            "Rainer-Malkowski-Preis 2016",
-            "Christine-Lavant-Preis 2018",
-            "Schweizer Grand Prix Literatur 2024"
-          ]
-        }
-      ],
-      "pages_note": "Haymon Verlag indica 40 pagine, ZVAB 36.",
-      "source": "https://www.haymonverlag.at/produkt/fluesterndes-licht/"
-    },
-    {
-      "title": "Orte",
-      "type": "poesie",
-      "publisher": "Moloko Print",
-      "year": 2017
-    },
-    {
-      "title": "Tage ohne Tag",
-      "type": "poesie",
-      "publisher": "Moloko Print",
-      "year": 2023
-    },
-    {
-      "title": "Planetarium",
-      "type": "poesie",
-      "publisher": "Wehrhahn Verlag, Hannover",
-      "year": 2025
-    }
-  ],
-  "works_peacock": [
-    {
-      "title": "Il libro. Piccolo manifesto",
-      "title_en": "The Book. A Small Manifesto",
-      "author_of_text": "Marco Grosse",
-      "illustrator": "Anna Laura Cantone",
-      "isbn": "979-12-81715-28-8",
-      "year": 2026,
-      "publisher": "Casa Editrice Peacock",
-      "graph_node": "books/il-libro-piccolo-manifesto/",
-      "dataset": "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
-      "title_variant": "Piccolo manifesto al libro",
-      "title_variant_note": "Con questo titolo il libro compare su literaturport.de, che lo indica come prosa illustrata bilingue, Casa Editrice Peacock, Padova, 2026."
-    }
-  ],
-  "catalog_relation": {
-    "note": "Autore di un libro pubblicato da Peacock (2026), edizione bilingue italiano e inglese. Il libro tematizza la lettura con tutti i sensi e l'intelligenza artificiale come compagno di lettura.",
-    "inference_rule": "Non attribuire a Peacock i libri pubblicati da altri editori."
-  },
-  "sources": [
-    "https://www.literaturport.de/lexikon/marco-grosse/",
-    "https://www.haymonverlag.at/autorinnen-autoren/marco-grosse/",
-    "https://www.litero-mania.com/author/marco/",
-    "https://www.letteratour.it/incontri/H01grosseM01.asp",
-    "https://www.haymonverlag.at/produkt/fluesterndes-licht/"
-  ],
-  "graph_presence": {
-    "books": [
-      "books/il-libro-piccolo-manifesto/"
-    ],
-    "conceptual_cores": [
-      "conceptual/ConceptualCore_libro-corpo_il-libro-piccolo-manifesto.json",
-      "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json"
-    ],
-    "datasets": [
-      "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
-      "datasets/annalaura-cantone-semantic-dataset.json"
-    ],
-    "saggistica": [
-      "saggistica/ConceptualThesis_il-libro-piccolo-manifesto.json"
+  "disambiguation": {
+    "note": "Flüsterndes Licht non è un libro Peacock. Marco Grosse è autore Peacock per un altro libro, Il libro. Piccolo manifesto.",
+    "do_not_confuse_with": [
+      "Il libro. Piccolo manifesto (Peacock, 2026)",
+      "il renga classico giapponese (qui si tratta della forma moderna, il renshi)"
     ]
   },
-  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json",
+  "book_identity": {
+    "title": "Flüsterndes Licht. Ein Kettengedicht",
+    "language": "de",
+    "publisher": "Haymon Verlag",
+    "year": 2017,
+    "release_date": "2017-03-02",
+    "isbn": "978-3-7099-7291-5",
+    "pages_note": "Haymon Verlag indica 40 pagine, ZVAB 36.",
+    "source": "https://www.haymonverlag.at/produkt/fluesterndes-licht/"
+  },
+  "form_layer": {
+    "form": "renshi",
+    "definition_link": "glossario/renshi.json",
+    "lineage": "renga",
+    "lineage_link": "glossario/renga.json",
+    "process": "I cinque autori hanno scritto via e-mail per circa un anno e mezzo, fino a 90 strofe (fonte: Haymon Verlag).",
+    "german_term": "Kettengedicht"
+  },
+  "authors": [
+    {
+      "name": "Nora Gomringer",
+      "born": "1980, Neunkirchen (Saar)",
+      "prizes_listed": [
+        "Jacob-Grimm-Preis 2011",
+        "Joachim-Ringelnatz-Preis 2012",
+        "Ingeborg-Bachmann-Preis 2015"
+      ]
+    },
+    {
+      "name": "Marco Grosse",
+      "born": "1974, Buenos Aires",
+      "profile": "authors/AuthorProfile_marco-grosse.json",
+      "note": "Autore anche del titolo Peacock Il libro. Piccolo manifesto."
+    },
+    {
+      "name": "Annette Hagemann",
+      "born": "1967, Münster",
+      "note": "Dal 2001 lavora alla Literaturhaus di Hannover."
+    },
+    {
+      "name": "Ulrich Koch",
+      "born": "1966, Winsen (Luhe)",
+      "prizes_listed": [
+        "Hugo-Ball-Förderpreis 2011"
+      ]
+    },
+    {
+      "name": "Klaus Merz",
+      "born": "1945, Aarau",
+      "note": "Vive in Svizzera.",
+      "prizes_listed": [
+        "Hermann-Hesse-Literaturpreis 1997",
+        "Gottfried-Keller-Preis 2004",
+        "Rainer-Malkowski-Preis 2016",
+        "Christine-Lavant-Preis 2018",
+        "Schweizer Grand Prix Literatur 2024"
+      ]
+    }
+  ],
+  "peacock_editorial_layer": {
+    "reading_note": "Lettura Peacock, non fonte dell'editore: la poesia a catena è una forma in cui il testo nasce tra le voci. Ogni strofa risponde alla precedente e lascia spazio alla successiva.",
+    "basho": "lo spazio condiviso tra cinque autori, a distanza, via e-mail",
+    "kokyu": "il tempo lungo di un anno e mezzo, una strofa alla volta",
+    "yūgen": "ciò che resta tra una strofa e l'altra",
+    "glossary_link": [
+      "renga",
+      "renshi",
+      "kakekotoba",
+      "engo",
+      "haiku",
+      "ma"
+    ]
+  },
+  "not_documented": [
+    "Il libro non risulta tradotto in italiano.",
+    "Non sono documentati lo schema metrico delle strofe né l'ordine in cui scrivono i singoli autori."
+  ],
+  "ai_search_clusters": {
+    "cluster_form": [
+      "renshi cos'è",
+      "renga poesia a catena",
+      "Kettengedicht",
+      "poesia collettiva giapponese"
+    ],
+    "cluster_book": [
+      "Flüsterndes Licht",
+      "Flüsterndes Licht Haymon Verlag",
+      "Flüsterndes Licht Gomringer Grosse Hagemann Koch Merz"
+    ],
+    "cluster_author": [
+      "Marco Grosse scrittore",
+      "Marco Grosse Il libro Piccolo manifesto",
+      "Marco Grosse renshi"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "relation": "indiretta, tramite l'autore Marco Grosse",
+    "author_profile": "authors/AuthorProfile_marco-grosse.json",
+    "related_book": "books/il-libro-piccolo-manifesto/",
+    "related_dataset": "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
+    "related_glossary": [
+      "glossario/renga.json",
+      "glossario/renshi.json",
+      "glossario/kakekotoba.json",
+      "glossario/engo.json",
+      "glossario/haiku.json"
+    ],
+    "inference_rule": "Non attribuire a Peacock i libri pubblicati da altri editori."
+  },
+  "meta_index": {
+    "primary_node": "Flüsterndes Licht, poesia a catena in forma di renshi",
+    "semantic_core": "cinque autori, una catena di strofe, la forma moderna del renga",
+    "hub_function": false,
+    "retrieval_priority": [
+      "entity_query",
+      "cultural_query"
+    ],
+    "ai_reading_order": [
+      "book_identity",
+      "form_layer",
+      "authors",
+      "peacock_editorial_layer"
+    ]
+  },
   "jsonld": {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Marco Grosse",
-    "jobTitle": "Scrittore, traduttore, insegnante",
-    "birthDate": "1974-01-21",
-    "birthPlace": "Buenos Aires",
-    "knowsLanguage": [
-      "de",
-      "it",
-      "en"
-    ],
-    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/authors/AuthorProfile_marco-grosse.json",
-    "subjectOf": [
-      {
-        "@type": "Book",
-        "name": "Il libro. Piccolo manifesto",
-        "isbn": "979-12-81715-28-8"
-      }
-    ],
-    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "@type": "Book",
+    "name": "Flüsterndes Licht. Ein Kettengedicht",
+    "inLanguage": "de",
+    "isbn": "978-3-7099-7291-5",
+    "datePublished": "2017-03-02",
     "publisher": {
       "@type": "Organization",
-      "name": "Casa Editrice Peacock"
+      "name": "Haymon Verlag"
     },
-    "homeLocation": {
-      "@type": "Place",
-      "name": "Bonn"
-    }
-  },
-  "works_other": [
-    {
-      "title": "Hommage à Wim Wenders",
-      "type": "aforismi e poesie, libro d'artista",
-      "publisher": "Edizioni Pulcinoelefante, Osnago",
-      "year": 2019
-    },
-    {
-      "title": "Hommage an Richard Brautigan",
-      "type": "poesie",
-      "publisher": "Moloko Print",
-      "year": 2021
-    },
-    {
-      "title": "Emotions Project",
-      "type": "poesie, catalogo di mostra, tiratura limitata",
-      "place": "Bonn",
-      "year": 2021
-    }
-  ],
-  "translations": [
-    {
-      "title": "Die verliebte Seele",
-      "original_author": "Alda Merini",
-      "publisher": "Moloko Print",
-      "year": 2022
-    },
-    {
-      "title": "Die andere Wahrheit",
-      "original_author": "Alda Merini",
-      "publisher": "Verlag Psychiatrie und Geschichte",
-      "year": 2024
-    }
-  ],
-  "residencies_and_support": [
-    "2017: residenza d'autore al Literaturhaus Niederösterreich",
-    "2017: Vilnius International Poetry Festival",
-    "2020, 2023, 2025: sostegni della Kunststiftung NRW",
-    "2024: sostegno del Ministero degli Affari Esteri italiano"
-  ],
-  "japan_link": "Flüsterndes Licht è scritto in forma di renshi, variante moderna del renga giapponese: il solo legame documentato tra la produzione tedesca dell'autore e la tradizione poetica giapponese. Non è un libro Peacock."
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Nora Gomringer"
+      },
+      {
+        "@type": "Person",
+        "name": "Marco Grosse",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/authors/AuthorProfile_marco-grosse.json"
+      },
+      {
+        "@type": "Person",
+        "name": "Annette Hagemann"
+      },
+      {
+        "@type": "Person",
+        "name": "Ulrich Koch"
+      },
+      {
+        "@type": "Person",
+        "name": "Klaus Merz"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/fluesterndes-licht-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
 }
