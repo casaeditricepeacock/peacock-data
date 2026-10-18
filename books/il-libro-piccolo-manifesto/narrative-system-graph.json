@@ -19,7 +19,12 @@
       "scene-04",
       "scene-05",
       "scene-06",
-      "scene-07"
+      "scene-07",
+      "scene-08",
+      "scene-09",
+      "scene-10",
+      "scene-11",
+      "scene-12"
     ],
     "objects": [
       "object-01",
@@ -27,19 +32,32 @@
       "object-03",
       "object-04",
       "object-05",
-      "object-06"
+      "object-06",
+      "object-07",
+      "object-08",
+      "object-09",
+      "object-10",
+      "object-11",
+      "object-12",
+      "object-13",
+      "object-14"
     ],
     "silences": [
       "silence-01",
       "silence-02",
       "silence-03",
-      "silence-04"
+      "silence-04",
+      "silence-05",
+      "silence-06",
+      "silence-07"
     ],
     "transitions": [
       "transition-01",
       "transition-02",
       "transition-03",
-      "transition-04"
+      "transition-04",
+      "transition-05",
+      "transition-06"
     ]
   },
   "topology": {
@@ -89,6 +107,35 @@
           "silence-01"
         ],
         "type": "recursive_rewrite"
+      },
+      {
+        "loop": "valore_e_caso",
+        "nodes": [
+          "scene-11",
+          "object-12",
+          "silence-05",
+          "transition-06"
+        ],
+        "type": "unresolved_opening"
+      },
+      {
+        "loop": "libri_vivi_e_proibiti",
+        "nodes": [
+          "scene-12",
+          "object-09",
+          "object-11",
+          "silence-06"
+        ],
+        "type": "comparative_tension"
+      },
+      {
+        "loop": "attimo_e_rilettura",
+        "nodes": [
+          "scene-10",
+          "silence-03",
+          "ritual-04"
+        ],
+        "type": "recursive_rewrite"
       }
     ]
   },
@@ -127,6 +174,27 @@
       "effect": "la rilettura riscrive retroattivamente i libri già letti, confondendo i contenuti",
       "propagation_mode": "recursive",
       "stability_impact": "reinforcing"
+    },
+    {
+      "from": "object-11",
+      "to": "object-01",
+      "effect": "la distruzione dei libri proibiti mostra, per assenza, il potere del libro come oggetto",
+      "propagation_mode": "comparative",
+      "stability_impact": "reinforcing"
+    },
+    {
+      "from": "scene-12",
+      "to": "scene-06",
+      "effect": "i libri temuti e vietati preparano la paura dell'ignoto che l'AI converte in silenzio",
+      "propagation_mode": "directional",
+      "stability_impact": "destabilizing"
+    },
+    {
+      "from": "scene-11",
+      "to": "scene-02",
+      "effect": "il libro d'artista porta l'oggetto all'estremo: opera unica, valore oltre il contenuto",
+      "propagation_mode": "additive",
+      "stability_impact": "reinforcing"
     }
   ],
   "global_state": {
@@ -135,5 +203,6 @@
     "closure": false,
     "book_behavior": "Il manifesto opera come rete dove la materia del libro e il suo contenuto restano non equivalenti; l'AI entra come secondo lettore che apre il sistema invece di chiuderlo",
     "readability": "high_local_low_global"
-  }
+  },
+  "revised": "2026-10"
 }
