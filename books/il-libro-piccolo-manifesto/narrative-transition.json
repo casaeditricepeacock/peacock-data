@@ -70,10 +70,35 @@
       "yūgen": "un atto creativo estende le singole letture in qualcosa di ampliato",
       "textual_anchor_it": "I ricordi si confondono, mescolando i contenuti, creando nuove storie a nostra insaputa.",
       "anchor_type": "direct_quote"
+    },
+    {
+      "id": "transition-05",
+      "label": "dalla_copertura_all_apertura",
+      "type": "suspended",
+      "intensity": 0.85,
+      "basho": "i libri coprono la mente come tegole e la aprono verso uno spazio illimitato. Il passaggio non avviene da uno stato all'altro: i due stati coesistono",
+      "kokyu": "oscillazione senza stabilizzazione: chiusura e apertura nello stesso oggetto",
+      "yūgen": "coprire e aprire sono lo stesso gesto",
+      "textual_anchor_it": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "transition-06",
+      "label": "dal_criterio_al_caso",
+      "type": "suspended",
+      "intensity": 0.7,
+      "basho": "dal valore misurato su un criterio al valore deciso dal caso. Il libro d'artista non ha un criterio definito: il caso combina gli elementi nel momento giusto",
+      "kokyu": "oscillazione tra unicità, fama e qualità, senza stabilizzarsi",
+      "yūgen": "il caso ha tante definizioni",
+      "textual_anchor_it": "Probabilmente non esiste un criterio definito, ma come spesso avviene, è il caso a determinare la scelta.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
     }
   ],
   "system_rule_update": {
     "principle": "Le transizioni non sono equivalenti. transition-02 e transition-03 generano residuo non integrabile: il disagio della voce e il lato oscuro dell'AI restano attivi senza essere assorbiti.",
     "effect": "introduzione di gerarchia implicita tra passaggi senza creare nuovi tipi formali"
-  }
+  },
+  "revised": "2026-10"
 }
