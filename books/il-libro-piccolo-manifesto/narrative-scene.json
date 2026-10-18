@@ -15,7 +15,8 @@
     "reflective_field": "sezione in cui il testo ragiona sul proprio oggetto senza narrarlo",
     "threshold_field": "sezione che segna il confine tra libro fisico e contenuto",
     "alliance_field": "sezione in cui un agente esterno alla lettura umana entra nel campo",
-    "accumulation_field": "sezione in cui i libri si sommano senza essere letti"
+    "accumulation_field": "sezione in cui i libri si sommano senza essere letti",
+    "intertextual_field": "sezione in cui altri libri, reali e immaginari, entrano nel campo come corpi vivi, pericolosi o indecifrabili"
   },
   "scenes": [
     {
@@ -151,16 +152,117 @@
       "textual_anchor_it": "Non è per la quantità, ma per le viste che mi permettono, per quello che mi trasmettono.",
       "anchor_type": "direct_quote",
       "glossary_link": []
+    },
+    {
+      "id": "scene-08",
+      "label": "cosa_rimane",
+      "type": "reflective_field",
+      "intensity": 0.85,
+      "basho": "di tutti i libri letti restano a volte frasi e trame, a volte solo le emozioni, senza ricordi concreti di ciò che le produsse. Talvolta i ricordi si confondono e mescolano i contenuti",
+      "kokyu": "tempo della dissolvenza: il ricordo si sfuma, l'emozione resta",
+      "yūgen": "un atto creativo avviene a nostra insaputa e si scopre solo riprendendo il libro in mano",
+      "activation_condition": "incontro con un libro già letto, riaperto per rievocare la trama",
+      "perceptual_weight": 0.85,
+      "affects": {
+        "scene-04": "ciò che resta del libro letto prepara la figura del lettore che il libro ha cambiato"
+      },
+      "textual_anchor_it": "Le emozioni che ci ha lasciato un libro possono accompagnarci tali quali, senza ricordi concreti di quello che le produsse.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-09",
+      "label": "libri_non_letti",
+      "type": "accumulation_field",
+      "intensity": 0.72,
+      "basho": "i libri non ancora letti sono mondi mai immaginati, scoperti sfogliando le pagine o leggendo la quarta di copertina. Si collezionano e si accatastano, fingendo che facciano già parte di noi",
+      "kokyu": "tempo differito: la lettura è rimandata, non cancellata",
+      "yūgen": "i mondi restano conservati tra le pagine chiuse",
+      "activation_condition": "scoperta di un libro nuovo e desiderio di non lasciarlo sfuggire",
+      "perceptual_weight": 0.72,
+      "affects": {
+        "scene-07": "l'accumulo dei non letti prepara le montagne di libri da esplorare"
+      },
+      "textual_anchor_it": "E ora che sono pensieri e possibilità di vita trovati non vogliamo farceli scappare, smarrire i mondi conservati fra le loro pagine.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "tsundoku",
+        "mottainai"
+      ]
+    },
+    {
+      "id": "scene-10",
+      "label": "l_attimo",
+      "type": "reflective_field",
+      "intensity": 0.8,
+      "basho": "la perfezione dell'attimo sta nell'accettarlo in tutto ciò che è, nel suo intero. Nel libro l'attimo viene congelato, messo in pausa in un mondo parallelo, e si rianima non appena viene letto",
+      "kokyu": "tempo reversibile: l'attimo si rivive un'infinità di volte",
+      "yūgen": "si espande nella mente del lettore ma rimane sempre nel libro",
+      "activation_condition": "atto di lettura che rianima il mondo parallelo del libro",
+      "perceptual_weight": 0.8,
+      "affects": {
+        "scene-04": "l'attimo congelato nel libro è ciò che il lettore, leggendo, rianima"
+      },
+      "textual_anchor_it": "La perfezione dell'attimo sta nell'accettare l'attimo in tutto quello che è, nel suo intero.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie",
+        "ma"
+      ]
+    },
+    {
+      "id": "scene-11",
+      "label": "libro_d_artista",
+      "type": "reflective_field",
+      "intensity": 0.7,
+      "basho": "il valore di un libro d'artista sta nella sua unicità, nella fama del suo creatore o nella sola qualità artistica che assegna un valore da scoprire nel tempo. Il testo non sceglie un criterio",
+      "kokyu": "tempo della scoperta: il valore si rivela nel tempo e nel momento giusto",
+      "yūgen": "il caso combina gli elementi che fanno avere al libro l'attenzione giusta, nel momento idoneo, della persona adatta",
+      "activation_condition": "domanda sul valore di un libro come opera unica",
+      "perceptual_weight": 0.7,
+      "affects": {
+        "scene-02": "porta all'estremo l'oggetto: il libro come opera unica, il cui valore non si misura sul contenuto"
+      },
+      "textual_anchor_it": "Probabilmente non esiste un criterio definito, ma come spesso avviene, è il caso a determinare la scelta.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "scene-12",
+      "label": "spazio",
+      "type": "intertextual_field",
+      "intensity": 0.86,
+      "basho": "altri libri entrano nel campo come corpi vivi, pericolosi o indecifrabili: la macchina da scrivere con i denti, i libri che mordono e vanno accarezzati, la storia infinita, i libri proibiti e distrutti, il manoscritto di Voynich. I libri coprono la mente come tegole e allo stesso tempo la aprono a uno spazio illimitato",
+      "kokyu": "tempo dei libri letti e dei libri temuti: lo spazio si apre quanto più il libro è vivo",
+      "yūgen": "l'ignoto trova spazio nella fantasia e nella trascrizione fino alla realtà",
+      "activation_condition": "incontro con libri letti, immaginati o vietati",
+      "perceptual_weight": 0.86,
+      "affects": {
+        "scene-06": "i libri temuti e vietati preparano l'ultimo campo: la paura dell'ignoto che l'AI converte in silenzio"
+      },
+      "textual_anchor_it": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
     }
   ],
   "system_note": {
-    "scene_count": 7,
+    "scene_count": 12,
     "dominant_field": "scene-02",
     "collapse_point": null,
     "unresolved_fields": [
       "scene-06",
-      "scene-07"
+      "scene-07",
+      "scene-11",
+      "scene-12"
     ],
-    "print_layer_alignment": "le scene corrispondono agli scene_ref definiti in NarrativePrintLayer v4.1"
-  }
+    "print_layer_alignment": "le dodici scene corrispondono alle dodici sezioni del libro, nell'ordine registrato in NarrativePrintLayer v4.1 (linear_structure)"
+  },
+  "revised": "2026-10"
 }
