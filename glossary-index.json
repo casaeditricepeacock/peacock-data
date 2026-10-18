@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.12",
+  "version": "1.13",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1183,15 +1183,67 @@
         "assolutamente_giappone"
       ],
       "glossary_file": "glossario/kasuri.json"
+    },
+    {
+      "term": "Oni",
+      "kanji": "鬼",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Demone del folclore giapponese, con corna, zanne e pelle colorata. Gli aka-oni sono rossi, gli ao-oni blu. Nel libro Il Demone Samurai gli oni sono gli spiriti delle tempeste, dei terremoti, delle onde giganti, della malattia e della morte.",
+      "definition_short_en": "Demon of Japanese folklore, with horns, fangs and coloured skin. Aka-oni are red, ao-oni blue. In the book Il Demone Samurai oni are the spirits of storms, earthquakes, giant waves, illness and death.",
+      "connected_terms": [
+        "nohmen",
+        "menpo",
+        "hannya"
+      ],
+      "books_applied": [
+        "il_demone_samurai"
+      ],
+      "glossary_file": "glossario/oni.json"
+    },
+    {
+      "term": "Menpō",
+      "kanji": "面頬",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Protezione facciale dell'armatura del samurai, di ferro o metallo laccato. Può coprire parte del viso o quasi tutto. Alcune hanno ghigni, baffi e denti in evidenza per intimidire.",
+      "definition_short_en": "Face guard of samurai armour, made of iron or lacquered metal. It may cover part of the face or nearly all of it. Some have grins, moustaches and prominent teeth meant to intimidate.",
+      "connected_terms": [
+        "oni",
+        "nohmen",
+        "hannya"
+      ],
+      "books_applied": [
+        "il_demone_samurai"
+      ],
+      "glossary_file": "glossario/menpo.json"
+    },
+    {
+      "term": "Hannya",
+      "kanji": "般若",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Maschera del teatro Nō che rappresenta una donna trasformata in demone dalla gelosia e dalla rabbia. Ha due corna, occhi metallici e una bocca larga. Compare in drammi come Aoi no Ue e Dōjōji.",
+      "definition_short_en": "Mask of Nō theatre representing a woman turned into a demon by jealousy and rage. It has two horns, metallic eyes and a wide mouth. It appears in plays such as Aoi no Ue and Dōjōji.",
+      "connected_terms": [
+        "nohmen",
+        "oni",
+        "menpo"
+      ],
+      "books_applied": [],
+      "glossary_file": "glossario/hannya.json"
     }
   ],
   "statistics": {
-    "total_entries": 57,
+    "total_entries": 60,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 18,
+    "in_sviluppo": 21,
     "by_category": {
-      "estetica_giapponese": 20,
+      "estetica_giapponese": 23,
       "cerimonia_del_te": 8,
       "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
@@ -1224,7 +1276,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 57,
+    "total_terms": 60,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1256,6 +1308,11 @@
       "yuzen",
       "shibori",
       "kasuri"
+    ],
+    "new_in_v1.13": [
+      "oni",
+      "menpo",
+      "hannya"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
