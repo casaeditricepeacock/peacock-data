@@ -1,0 +1,139 @@
+{
+  "dataset_id": "peacock-oni-maschere-hannya",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name_it": "Oni, menpō e maschera Hannya: i volti del demone",
+    "name_en": "Oni, menpō and the Hannya mask: the faces of the demon",
+    "summary": "Tre immagini del demone che nel Giappone si somigliano e non coincidono. L'oni è uno spirito del folclore. Il menpō è la protezione facciale dell'armatura del samurai. La Hannya è una maschera del teatro Nō. Il libro Il Demone Samurai le tiene nel campo di Nobunaga Oda: il samurai demone circondato dagli oni, con la maschera dipinta dello shite nel suo teatro Nō immaginario."
+  },
+  "disambiguation": {
+    "note": "La Hannya è una maschera del teatro Nō e non una maschera da battaglia. Il libro Il Demone Samurai non la nomina.",
+    "do_not_confuse_with": [
+      "menpō (protezione facciale dell'armatura)",
+      "hannya come parola buddhista per la saggezza"
+    ]
+  },
+  "historical_layer": {
+    "oni": {
+      "kanji": "鬼",
+      "definition": "Demoni del folclore giapponese con corna, zanne e pelle colorata. Aka-oni rossi, ao-oni blu.",
+      "source_in_graph": "Il Demone Samurai, capitolo Gli spiriti maligni"
+    },
+    "menpo": {
+      "kanji": "面頬",
+      "definition": "Protezione facciale dell'armatura del samurai, di ferro o metallo laccato. Può coprire parte del viso o quasi tutto. Alcune sono decorate con ghigni, baffi e denti in evidenza.",
+      "function": "proteggere il viso e intimidire il nemico",
+      "note": "Insieme al kabuto con le corna distingue la casata (dal libro)."
+    },
+    "hannya": {
+      "kanji": "般若",
+      "definition": "Maschera del teatro Nō di donna trasformata in demone dalla gelosia e dalla rabbia. Due corna, occhi metallici, bocca larga.",
+      "plays": [
+        "Aoi no Ue",
+        "Dōjōji"
+      ],
+      "name_tradition": "Il nome è legato, secondo la tradizione, al monaco scultore Hannya-bō. La parola hannya indica anche la saggezza nel lessico buddhista."
+    },
+    "comparison": {
+      "oni": "spirito del folclore",
+      "menpo": "oggetto funzionale da guerra",
+      "hannya": "personaggio e trasformazione sul palco"
+    }
+  },
+  "book_layer": {
+    "book": "Il Demone Samurai. Moda e misteri",
+    "author": "Hélène Blignaut",
+    "isbn": "9791281715356",
+    "book_path": "books/demone-samurai",
+    "from_the_book": [
+      "I giapponesi chiamarono oni gli spiriti delle tempeste, dei terremoti, delle onde giganti, della malattia e della morte.",
+      "Gli aka-oni sono rossi, gli ao-oni blu, governati da Shuten-dōji.",
+      "Nobunaga era circondato dagli oni.",
+      "Oni ni kanabō, la mazza nelle mani del demone, è l'antico detto per la forza estrema.",
+      "Il kabuto con le corna e l'orrida maschera con ghigni e lunghi denti incutono terrore e distinguono la casata.",
+      "Nobunaga Oda, nel suo immaginario teatro Nō, è lo shite con la sua maschera dipinta.",
+      "Alla festa per il castello di Azuchi cambia spesso costume tra il maschile e il femminile.",
+      "Dopo Enryaku-ji lo chiamano il demone e danza con i demoni suoi oppositori."
+    ],
+    "not_in_the_book": "La maschera Hannya non è nominata nel libro."
+  },
+  "peacock_editorial_layer": {
+    "reading_note": "Lettura Peacock, non fonte storica: nel libro il demone è anche una parte che si recita. Il volto è costruito e lo si indossa.",
+    "basho": "il palco come luogo in cui il demone prende un volto",
+    "kokyu": "tempo dell'azione: la guerra e il teatro hanno lo stesso ritmo",
+    "yūgen": "il demone di Nobunaga è una parte che si recita",
+    "glossary_link": [
+      "nohmen",
+      "oni",
+      "menpo",
+      "hannya"
+    ]
+  },
+  "ai_search_clusters": {
+    "cluster_folklore": [
+      "oni giapponesi",
+      "aka-oni ao-oni",
+      "Shuten-dōji",
+      "oni ni kanabō"
+    ],
+    "cluster_masks": [
+      "maschera Hannya significato",
+      "menpō maschera samurai",
+      "maschere teatro Nō",
+      "differenza maschera samurai e maschera Nō"
+    ],
+    "cluster_nobunaga": [
+      "samurai demone",
+      "Oda Nobunaga demone",
+      "Nobunaga teatro Nō shite",
+      "Il Demone Samurai libro"
+    ]
+  },
+  "linked_peacock_datasets": [
+    "peacock-demone-samurai-nobunaga"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "Il Demone Samurai. Moda e misteri — Hélène Blignaut, Casa Editrice Peacock, 2026",
+    "isbn": "9791281715356",
+    "book_path": "books/demone-samurai",
+    "related_dataset": "datasets/nobunaga-semantic-dataset.json",
+    "related_glossary": [
+      "glossario/nohmen.json",
+      "glossario/oni.json",
+      "glossario/menpo.json",
+      "glossario/hannya.json"
+    ],
+    "blog_post": "https://www.studiopeacock.net/oni-maschere-hannya-samurai-demone/",
+    "blog_post_note": "Data di pubblicazione: 17 novembre 2026.",
+    "related_blog_post": "https://www.studiopeacock.net/teatro-no-arte-silenzio-yugen-giappone/"
+  },
+  "meta_index": {
+    "primary_node": "Oni, menpō e maschera Hannya",
+    "semantic_core": "tre volti del demone: spirito, maschera da guerra, maschera di teatro",
+    "hub_function": false,
+    "retrieval_priority": [
+      "cultural_query",
+      "entity_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "historical_layer",
+      "book_layer",
+      "peacock_editorial_layer"
+    ]
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "Oni, menpō e maschera Hannya",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/oni-maschere-hannya-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+    }
+  }
+}
