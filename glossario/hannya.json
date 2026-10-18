@@ -1,0 +1,40 @@
+{
+  "type": "GlossaryTerm",
+  "id": "hannya",
+  "term": "Hannya",
+  "kanji": "般若",
+  "aliases": [
+    "Hannya",
+    "般若",
+    "maschera Hannya"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Maschera del teatro Nō che rappresenta una donna trasformata in demone dalla gelosia e dalla rabbia. Ha due corna, occhi metallici e una bocca larga. Compare in drammi come Aoi no Ue e Dōjōji.",
+  "definition_short_en": "Mask of Nō theatre representing a woman turned into a demon by jealousy and rage. It has two horns, metallic eyes and a wide mouth. It appears in plays such as Aoi no Ue and Dōjōji.",
+  "peacock_principle": "La Hannya è un demone di teatro: una maschera che trasforma chi la indossa in un altro.",
+  "connected_terms": [
+    "nohmen",
+    "oni",
+    "menpo"
+  ],
+  "books_applied": [],
+  "books_applied_paths": [],
+  "definition_extended_it": "Secondo la tradizione il nome è legato al monaco scultore Hannya-bō, a cui viene attribuita la maschera. La parola hannya appartiene anche al lessico buddhista e indica la saggezza. Il libro Il Demone Samurai non nomina la Hannya: parla della maschera dipinta dello shite nel teatro Nō di Nobunaga.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Hannya",
+    "description": "Mask of Nō theatre representing a woman turned into a demon by jealousy and rage. It has two horns, metallic eyes and a wide mouth. It appears in plays such as Aoi no Ue and Dōjōji.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/hannya.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "般若"
+  }
+}
