@@ -78,15 +78,61 @@
       "glossary_link": [
         "ai-friendly"
       ]
+    },
+    {
+      "id": "silence-05",
+      "type": "non_resolution",
+      "intensity": 0.78,
+      "basho": "la domanda sul valore del libro d'artista resta senza criterio. Il caso decide e il caso può avere tante definizioni",
+      "kokyu": "tempo aperto: nessuna risposta chiude la domanda",
+      "yūgen": "il caso non si definisce una volta per tutte",
+      "position_in_text": "nella sezione Libro d'artista",
+      "perceptual_weight": 0.78,
+      "textual_anchor_it": "Il caso, poi, può avere tante definizioni.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "silence-06",
+      "type": "threshold",
+      "intensity": 0.85,
+      "basho": "i libri tegole coprono la mente e insieme la aprono. La frase segna il confine tra protezione e apertura",
+      "kokyu": "tempo sospeso: il libro è chiusura e apertura insieme",
+      "yūgen": "coprire e aprire sono lo stesso gesto",
+      "position_in_text": "nella sezione Spazio",
+      "perceptual_weight": 0.85,
+      "textual_anchor_it": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "silence-07",
+      "type": "non_resolution",
+      "intensity": 0.8,
+      "basho": "le montagne di libri non finiscono mai. La conoscenza di questo fatto riempie di spirito oppure di rassegnazione, senza scegliere",
+      "kokyu": "tempo senza fine: la salita non conclude",
+      "yūgen": "spirito e rassegnazione restano compresenti",
+      "position_in_text": "nella sezione Montagne",
+      "perceptual_weight": 0.8,
+      "textual_anchor_it": "E sapere che non finiscono mai riempie di spirito oppure di fatidica rassegnazione.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "tsundoku"
+      ]
     }
   ],
   "system_note": {
-    "silence_count": 4,
+    "silence_count": 7,
     "dominant_silence": "silence-01",
     "non_integrable_silences": [
       "silence-04"
     ],
     "structural_role": "i silenzi non commentano il manifesto: chiudono ciascuna sezione lasciandone attivo il campo. silence-04 apre l'unico campo non risolvibile, quello dell'alleanza con l'AI",
     "print_layer_alignment": "i silenzi operano come strati trasversali tra le scene, non come scene_ref"
-  }
+  },
+  "revised": "2026-10"
 }
