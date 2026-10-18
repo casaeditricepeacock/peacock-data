@@ -85,6 +85,37 @@
       "glossary_link": [
         "mono no aware"
       ]
+    },
+    {
+      "id": "ritual-05",
+      "label": "battere_a_macchina",
+      "type": "codified",
+      "intensity": 0.74,
+      "basho": "battere a macchina e sentire il rumore dei denti del mostro: il gesto dello scrivere è un rito sonoro, come lo sfogliare per il leggere",
+      "kokyu": "ritmo del battito: ogni tasto è un tempo",
+      "yūgen": "la macchina è viva",
+      "affects": {
+        "ritual-01": "come il suono delle pagine, il rumore dei tasti fa esistere lo scritto come corpo sonoro"
+      },
+      "textual_anchor_it": "Battere a macchina e sentire il rumore dei denti del mostro di William Burroughs.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "ritual-06",
+      "label": "distruggere_i_libri",
+      "type": "interfered",
+      "intensity": 0.8,
+      "basho": "distruggere i libri considerati una minaccia al sistema per far scomparire i loro messaggi e pensieri. Il gesto della distruzione riconosce il potere del libro",
+      "kokyu": "tempo del rogo: un atto rapido contro un messaggio lungo",
+      "yūgen": "distruggere un libro conferma che dice qualcosa",
+      "affects": {
+        "ritual-02": "è il contrario dell'accumulo: sottrae i libri al lettore"
+      },
+      "textual_anchor_it": "Ma anche i libri che vengono considerati una minaccia al sistema e vengono distrutti per far scomparire i loro messaggi e pensieri.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
     }
-  ]
+  ],
+  "revised": "2026-10"
 }
