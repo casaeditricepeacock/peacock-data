@@ -119,6 +119,58 @@
           "target_id": "ma"
         }
       ]
+    },
+    {
+      "id": "thesis-04",
+      "label": "valore_e_caso",
+      "label_en": "value_and_chance",
+      "statement_it": "Il valore di un libro d'artista non ha un criterio definito: unicità, fama del creatore e qualità artistica concorrono, ma è il caso a combinare gli elementi che gli fanno avere l'attenzione giusta, nel momento idoneo, della persona adatta.",
+      "statement_en": "The value of an artist's book has no defined criterion: uniqueness, the creator's fame and artistic quality all play a part, but chance combines the elements that bring it the right attention, at the right moment, from the right person.",
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/5"
+        }
+      ],
+      "resolution_status": {
+        "status": "aperta",
+        "closure": false,
+        "closure_type": "unresolved_opening"
+      },
+      "textual_anchor_it": "Probabilmente non esiste un criterio definito, ma come spesso avviene, è il caso a determinare la scelta.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ichigo-ichie"
+        }
+      ]
+    },
+    {
+      "id": "thesis-05",
+      "label": "libri_vivi_e_proibiti",
+      "label_en": "living_and_forbidden_books",
+      "statement_it": "I libri sono corpi vivi e pericolosi: mordono, vanno accarezzati, vengono proibiti e distrutti. Coprono la mente come tegole e allo stesso tempo la aprono verso uno spazio illimitato.",
+      "statement_en": "Books are living, dangerous bodies: they bite, must be stroked, are banned and destroyed. They cover the mind like tiles and at the same time open it to boundless space.",
+      "grounded_in": [
+        {
+          "file": "books/il-libro-piccolo-manifesto/il-libro-piccolo-manifesto-narrative-system-graph.json",
+          "json_pointer": "/topology/primary_loops/6"
+        }
+      ],
+      "resolution_status": {
+        "status": "aperta",
+        "closure": false,
+        "closure_type": "comparative_tension"
+      },
+      "textual_anchor_it": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+      "semantic_relations": [
+        {
+          "relation": "invokes",
+          "target_type": "glossary_term",
+          "target_id": "ma"
+        }
+      ]
     }
   ]
 }
