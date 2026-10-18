@@ -144,6 +144,120 @@
         "ai-friendly",
         "ishin-denshin"
       ]
+    },
+    {
+      "id": "object-08",
+      "label": "la macchina da scrivere",
+      "label_en": "the typewriter",
+      "intensity": 0.78,
+      "basho": "battere a macchina fa sentire il rumore dei denti del mostro di William Burroughs. L'apparecchio è vivo: lo scrivere ha un corpo sonoro",
+      "kokyu": "tempo del battito: ogni tasto scandisce una pausa che la tastiera muta non ha",
+      "yūgen": "la macchina è viva come i libri",
+      "affects": {
+        "object-01": "come il libro, anche la macchina da scrivere è un corpo che fa rumore"
+      },
+      "textual_anchor_it": "Battere a macchina e sentire il rumore dei denti del mostro di William Burroughs.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-09",
+      "label": "il libro che morde",
+      "label_en": "the book that bites",
+      "intensity": 0.72,
+      "basho": "i libri di Harry Potter mordono e devono essere accarezzati, se si vuole aprirli. Il libro è un essere vivo con cui si ha a che fare",
+      "kokyu": "tempo della cautela: prima della lettura, il gesto",
+      "yūgen": "la lettura comincia con una carezza",
+      "affects": {
+        "object-01": "porta all'estremo l'idea del libro come corpo vivo"
+      },
+      "textual_anchor_it": "I libri di Harry Potter che mordono e devono essere accarezzati, se si vuole aprirli.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-10",
+      "label": "la storia infinita",
+      "label_en": "the neverending story",
+      "intensity": 0.74,
+      "basho": "la storia infinita rende partecipe chi la legge per salvare il mondo che vive dentro di essa. Il lettore entra nel libro e ne diventa parte",
+      "kokyu": "tempo senza fine: la storia continua finché c'è chi la legge",
+      "yūgen": "il lettore diventa parte del libro",
+      "affects": {
+        "object-01": "il libro contiene un mondo da salvare, oltre la sua materia"
+      },
+      "textual_anchor_it": "La storia infinita che rende partecipe chi la legge per salvare il mondo che vive dentro ad esso.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "object-11",
+      "label": "i libri proibiti e distrutti",
+      "label_en": "forbidden and destroyed books",
+      "intensity": 0.82,
+      "basho": "i libri proibiti sono pericolosi: un rischio per la mente e per il corpo. Quelli considerati una minaccia al sistema vengono distrutti per far scomparire i loro messaggi e pensieri",
+      "kokyu": "tempo della minaccia: il messaggio dura finché il libro esiste",
+      "yūgen": "un libro distrutto dice quanto contava",
+      "affects": {
+        "object-01": "mostra, per assenza, il potere del libro come oggetto"
+      },
+      "textual_anchor_it": "I libri proibiti, perché pericolosi - un rischio per la mente e per il corpo. Ma anche i libri che vengono considerati una minaccia al sistema e vengono distrutti per far scomparire i loro messaggi e pensieri.",
+      "anchor_type": "direct_quote",
+      "glossary_link": []
+    },
+    {
+      "id": "object-12",
+      "label": "il libro d'artista",
+      "label_en": "the artist's book",
+      "intensity": 0.76,
+      "basho": "il libro d'artista è un oggetto unico il cui valore sta nell'unicità, nella fama del suo creatore o nella qualità artistica da scoprire nel tempo",
+      "kokyu": "tempo della scoperta: il valore si rivela col tempo e con il caso",
+      "yūgen": "il caso può avere tante definizioni",
+      "affects": {
+        "object-01": "porta all'estremo l'oggetto: opera unica oltre il contenuto"
+      },
+      "textual_anchor_it": "In cosa consiste il valore di un libro d'artista?",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "id": "object-13",
+      "label": "i libri tegole",
+      "label_en": "book tiles",
+      "intensity": 0.7,
+      "basho": "i libri coprono le nostre menti come tegole, ma allo stesso tempo le aprono verso uno spazio illimitato. Protezione e apertura nello stesso oggetto",
+      "kokyu": "tempo sospeso: il libro che chiude è anche il libro che apre",
+      "yūgen": "coprono e aprono insieme",
+      "affects": {
+        "object-01": "la materia del libro si fa tetto e apertura insieme"
+      },
+      "textual_anchor_it": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "ma"
+      ]
+    },
+    {
+      "id": "object-14",
+      "label": "la tipografia",
+      "label_en": "typography",
+      "intensity": 0.72,
+      "basho": "la tipografia è un mondo a parte: ogni tipologia di scrittura trova una grafica idonea a creare atmosfere visive",
+      "kokyu": "tempo della forma: il carattere dà il ritmo prima del senso",
+      "yūgen": "la lettera annuncia l'atmosfera",
+      "affects": {
+        "object-02": "insieme alla carta fa dell'impaginato un messaggio"
+      },
+      "textual_anchor_it": "La tipografia è un mondo a parte.",
+      "anchor_type": "direct_quote",
+      "glossary_link": [
+        "wabi-sabi"
+      ]
     }
-  ]
+  ],
+  "revised": "2026-10"
 }
