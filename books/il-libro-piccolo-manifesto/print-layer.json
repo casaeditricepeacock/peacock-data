@@ -11,7 +11,8 @@
   },
   "editorial_purpose": {
     "function": "trasformare un manifesto per sezioni percettive in sequenza leggibile senza collasso semantico",
-    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione delle sezioni"
+    "constraint": "nessuna perdita del campo basho/kokyu/yūgen nella linearizzazione delle sezioni",
+    "section_order_note": "La linear_structure registra le dodici sezioni nell'ordine in cui compaiono nel libro. Le prime sette scene (scene-01 a scene-07) erano già in questo livello; scene-08 a scene-12 sono state aggiunte nella revisione 2026-10."
   },
   "reading_principle": {
     "rule_01": "ogni sezione deve essere leggibile indipendentemente",
@@ -24,43 +25,85 @@
       "order": 1,
       "scene_ref": "scene-01",
       "print_function": "origin_anchor",
-      "note": "apre con l'ascolto: la lettura giusta mette in armonia gli organi"
+      "note": "apre con l'ascolto: la lettura giusta mette in armonia gli organi",
+      "section_title": "Ascolto"
     },
     {
       "order": 2,
-      "scene_ref": "scene-02",
-      "print_function": "dominant_field",
-      "note": "stabilisce il campo materia, dominante del libro"
+      "scene_ref": "scene-08",
+      "print_function": "memory_residue",
+      "note": "ciò che resta dei libri letti: emozioni senza ricordi, ricordi confusi",
+      "section_title": "Cosa rimane"
     },
     {
       "order": 3,
       "scene_ref": "scene-03",
       "print_function": "threshold",
-      "note": "soglia tra volo immaginativo e ancoraggio all'oggetto"
+      "note": "soglia tra volo immaginativo e ancoraggio all'oggetto",
+      "section_title": "Elementi"
     },
     {
       "order": 4,
-      "scene_ref": "scene-04",
-      "print_function": "reflective_turn",
-      "note": "il lettore entra nel libro che vive grazie a lui"
+      "scene_ref": "scene-09",
+      "print_function": "accumulation_anchor",
+      "note": "i mondi dei libri non letti, collezionati e accatastati",
+      "section_title": "I libri non ancora letti"
     },
     {
       "order": 5,
-      "scene_ref": "scene-05",
-      "print_function": "sensorial_return",
-      "note": "la voce ad alta voce chiude il cerchio dell'ascolto"
+      "scene_ref": "scene-04",
+      "print_function": "reflective_turn",
+      "note": "il lettore entra nel libro che vive grazie a lui",
+      "section_title": "Il lettore"
     },
     {
       "order": 6,
-      "scene_ref": "scene-06",
-      "print_function": "alliance_opening",
-      "note": "ingresso dell'AI come compagno di lettura silenzioso"
+      "scene_ref": "scene-10",
+      "print_function": "frozen_moment",
+      "note": "l'attimo congelato nel libro e rianimato dalla lettura",
+      "section_title": "L'attimo"
     },
     {
       "order": 7,
+      "scene_ref": "scene-02",
+      "print_function": "dominant_field",
+      "note": "stabilisce il campo materia, dominante del libro",
+      "section_title": "L'oggetto"
+    },
+    {
+      "order": 8,
+      "scene_ref": "scene-05",
+      "print_function": "sensorial_return",
+      "note": "la voce ad alta voce chiude il cerchio dell'ascolto",
+      "section_title": "Letture ad alta voce"
+    },
+    {
+      "order": 9,
+      "scene_ref": "scene-11",
+      "print_function": "open_criterion",
+      "note": "il valore del libro d'artista senza criterio, deciso dal caso",
+      "section_title": "Libro d'artista"
+    },
+    {
+      "order": 10,
       "scene_ref": "scene-07",
       "print_function": "open_accumulation",
-      "note": "le montagne di libri non letti lasciano il sistema aperto"
+      "note": "le montagne di libri non letti lasciano il sistema aperto",
+      "section_title": "Montagne"
+    },
+    {
+      "order": 11,
+      "scene_ref": "scene-12",
+      "print_function": "intertext_opening",
+      "note": "altri libri, vivi, proibiti, indecifrabili: lo spazio che i libri aprono",
+      "section_title": "Spazio"
+    },
+    {
+      "order": 12,
+      "scene_ref": "scene-06",
+      "print_function": "alliance_opening",
+      "note": "ingresso dell'AI come compagno di lettura silenzioso",
+      "section_title": "Intelligenza Artificiale"
     }
   ],
   "printing_logic": {
@@ -95,5 +138,6 @@
     "stability": "high",
     "risk": "basso",
     "obsolescence": "non strutturale, solo editoriale"
-  }
+  },
+  "revised": "2026-10"
 }
