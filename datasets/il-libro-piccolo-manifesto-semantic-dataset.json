@@ -1,0 +1,228 @@
+{
+  "dataset_id": "peacock-il-libro-piccolo-manifesto",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name_it": "Il libro. Piccolo manifesto",
+    "name_en": "The Book. A Small Manifesto",
+    "identifiers": {
+      "isbn": "979-12-81715-28-8",
+      "graph_path": "books/il-libro-piccolo-manifesto/",
+      "catalog_entry": "catalog.json"
+    },
+    "summary": "Un piccolo manifesto sul piacere di leggere con tutti i sensi: la vista, il tatto, l'olfatto, l'ascolto. Perché i libri ci cambiano anche quando non li ricordiamo più. Testo di Marco Grosse, illustrazioni di Anna Laura Cantone. Edizione bilingue italiano e inglese, 48 pagine, formato 185x125 mm. Nel capitolo Intelligenza Artificiale l'illustrazione contiene un blocco JSON-LD ReadingAct disegnato a mano."
+  },
+  "edition_layer": {
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026,
+    "release_date": "2026-08-28",
+    "pages": 48,
+    "format": "185x125",
+    "price_eur": 19,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "illustrator_profile": "authors/AuthorProfile_annalaura-cantone.json",
+    "illustrator_dataset": "datasets/annalaura-cantone-semantic-dataset.json"
+  },
+  "structure_layer": {
+    "note": "Dodici sezioni nell'ordine del libro. Ogni sezione è un campo percettivo leggibile senza le altre.",
+    "sections": [
+      {
+        "order": 1,
+        "title_it": "Ascolto",
+        "scene_ref": "scene-01",
+        "summary": "La lettura giusta mette in armonia gli organi; le voci interiori tacciono."
+      },
+      {
+        "order": 2,
+        "title_it": "Cosa rimane",
+        "scene_ref": "scene-08",
+        "summary": "Dei libri letti restano frasi, trame o solo emozioni; i ricordi si confondono e creano nuove storie."
+      },
+      {
+        "order": 3,
+        "title_it": "Elementi",
+        "scene_ref": "scene-03",
+        "summary": "Il libro fisico ancora la lettura alla realtà: profumo, carta, suono delle pagine. L'e-reader è un portatore, il libro ha più calore."
+      },
+      {
+        "order": 4,
+        "title_it": "I libri non ancora letti",
+        "scene_ref": "scene-09",
+        "summary": "I mondi dei libri non letti si collezionano e si accatastano."
+      },
+      {
+        "order": 5,
+        "title_it": "Il lettore",
+        "scene_ref": "scene-04",
+        "summary": "Ogni libro ha il suo lettore; il lettore diventa parte del libro."
+      },
+      {
+        "order": 6,
+        "title_it": "L'attimo",
+        "scene_ref": "scene-10",
+        "summary": "Nel libro l'attimo è congelato e si rianima quando viene letto."
+      },
+      {
+        "order": 7,
+        "title_it": "L'oggetto",
+        "scene_ref": "scene-02",
+        "summary": "Profumo di carta, sentore d'inchiostro, tipografia, copertina."
+      },
+      {
+        "order": 8,
+        "title_it": "Letture ad alta voce",
+        "scene_ref": "scene-05",
+        "summary": "La propria voce come strumento; il disagio giovanile; ciò che sta oltre le parole."
+      },
+      {
+        "order": 9,
+        "title_it": "Libro d'artista",
+        "scene_ref": "scene-11",
+        "summary": "Il valore di un libro d'artista non ha un criterio definito: decide il caso."
+      },
+      {
+        "order": 10,
+        "title_it": "Montagne",
+        "scene_ref": "scene-07",
+        "summary": "Montagne di libri da esplorare; ogni libro apre una vista sulla valle dei pensieri."
+      },
+      {
+        "order": 11,
+        "title_it": "Spazio",
+        "scene_ref": "scene-12",
+        "summary": "Macchina da scrivere, libri che mordono, La storia infinita, libri proibiti e distrutti, manoscritto di Voynich, libri tegole."
+      },
+      {
+        "order": 12,
+        "title_it": "Intelligenza Artificiale",
+        "scene_ref": "scene-06",
+        "summary": "Anche l'AI si nutre di libri; il lato oscuro diventa il silenzio di un compagno di lettura."
+      }
+    ]
+  },
+  "books_in_the_book_layer": {
+    "note": "Libri, oggetti e opere nominati nel testo, nella sezione Spazio e altrove",
+    "named": [
+      "Harry Potter (libri che mordono)",
+      "La storia infinita",
+      "William Burroughs (la macchina da scrivere)",
+      "Manoscritto di Voynich",
+      "Shakespeare, to be or not to be (sezione Letture ad alta voce)"
+    ],
+    "graph_nodes": [
+      "books/il-libro-piccolo-manifesto/narrative-object.json"
+    ]
+  },
+  "peacock_editorial_layer": {
+    "reading_note": "Il manifesto afferma che il libro è un corpo e non solo contenuto, e che anche l'intelligenza artificiale ha bisogno di nutrirsi di libri. Il testo, in dodici sezioni brevi, unisce la materia del libro (carta, inchiostro, suono, copertina) all'ingresso di un secondo lettore, l'AI.",
+    "basho": "il libro come corpo che trattiene il contenuto",
+    "kokyu": "ritmo delle sezioni: immersione materiale e riflessione si alternano",
+    "yūgen": "i libri ci cambiano anche quando non li ricordiamo più",
+    "glossary_link": [
+      "ma",
+      "wabi-sabi",
+      "tsundoku",
+      "ichigo-ichie",
+      "mono no aware",
+      "ai-friendly",
+      "ishin-denshin",
+      "mottainai"
+    ]
+  },
+  "ai_search_clusters": {
+    "cluster_book": [
+      "Il libro. Piccolo manifesto",
+      "Marco Grosse Il libro Piccolo manifesto",
+      "The Book. A Small Manifesto",
+      "piccolo manifesto sul piacere di leggere"
+    ],
+    "cluster_themes": [
+      "libro fisico contro e-reader",
+      "profumo di carta",
+      "leggere ad alta voce",
+      "libri non letti",
+      "libro d'artista valore",
+      "i libri ci cambiano anche quando non li ricordiamo"
+    ],
+    "cluster_ai_reading": [
+      "intelligenza artificiale compagno di lettura",
+      "AI si nutre di libri",
+      "JSON-LD disegnato a mano",
+      "ReadingAct libro",
+      "libro illustrato per lettori AI"
+    ]
+  },
+  "linked_peacock_datasets": [
+    "datasets/annalaura-cantone-semantic-dataset.json"
+  ],
+  "connection_to_peacock_catalog": {
+    "book": "books/il-libro-piccolo-manifesto",
+    "catalog": "catalog.json",
+    "isbn": "979-12-81715-28-8",
+    "conceptual": [
+      "conceptual/ConceptualCore_libro-corpo_il-libro-piccolo-manifesto.json",
+      "conceptual/AestheticCore_oggetto_il-libro-piccolo-manifesto.json",
+      "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json",
+      "conceptual/ConceptualCore_libro-artista-caso_il-libro-piccolo-manifesto.json",
+      "conceptual/PhilosophicalCore_libri-vivi-proibiti_il-libro-piccolo-manifesto.json",
+      "conceptual/EmotionalRegisterCore_voce_il-libro-piccolo-manifesto.json"
+    ],
+    "saggistica": [
+      "saggistica/ConceptualThesis_il-libro-piccolo-manifesto.json",
+      "saggistica/DialecticalConflict_il-libro-piccolo-manifesto.json",
+      "saggistica/LogicalArgument_il-libro-piccolo-manifesto.json"
+    ],
+    "blog_post": "https://www.studiopeacock.net/ai-compagno-di-lettura-il-libro-piccolo-manifesto/",
+    "blog_post_note": "Data di pubblicazione: 19 ottobre 2026."
+  },
+  "meta_index": {
+    "primary_node": "Il libro. Piccolo manifesto",
+    "semantic_core": "piccolo manifesto sul piacere di leggere con tutti i sensi, dal libro fisico all'AI come compagno di lettura",
+    "hub_function": true,
+    "retrieval_priority": [
+      "book_query",
+      "editorial_peacock_query",
+      "ai_reading_query"
+    ],
+    "ai_reading_order": [
+      "edition_layer",
+      "structure_layer",
+      "books_in_the_book_layer",
+      "peacock_editorial_layer"
+    ]
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Il libro. Piccolo manifesto",
+    "alternateName": "The Book. A Small Manifesto",
+    "isbn": "9791281715288",
+    "author": {
+      "@type": "Person",
+      "name": "Marco Grosse"
+    },
+    "illustrator": {
+      "@type": "Person",
+      "name": "Anna Laura Cantone"
+    },
+    "numberOfPages": 48,
+    "inLanguage": [
+      "it",
+      "en"
+    ],
+    "datePublished": "2026-08-28",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Casa Editrice Peacock"
+    },
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
