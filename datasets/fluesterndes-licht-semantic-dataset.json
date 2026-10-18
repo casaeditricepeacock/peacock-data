@@ -1,0 +1,180 @@
+{
+  "dataset_id": "peacock-fluesterndes-licht",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name_it": "Flüsterndes Licht. Ein Kettengedicht",
+    "name_en": "Flüsterndes Licht. A linked poem",
+    "summary": "Libro di poesia a catena in forma di renshi, scritto a cinque voci: Nora Gomringer, Marco Grosse, Annette Hagemann, Ulrich Koch e Klaus Merz. Haymon Verlag, 2017. È la forma moderna del renga giapponese portata nella poesia di lingua tedesca. Il libro non è un titolo Peacock: il nodo documenta il legame di uno degli autori, Marco Grosse, con la tradizione poetica giapponese."
+  },
+  "disambiguation": {
+    "note": "Flüsterndes Licht non è un libro Peacock. Marco Grosse è autore Peacock per un altro libro, Il libro. Piccolo manifesto.",
+    "do_not_confuse_with": [
+      "Il libro. Piccolo manifesto (Peacock, 2026)",
+      "il renga classico giapponese (qui si tratta della forma moderna, il renshi)"
+    ]
+  },
+  "book_identity": {
+    "title": "Flüsterndes Licht. Ein Kettengedicht",
+    "language": "de",
+    "publisher": "Haymon Verlag",
+    "year": 2017,
+    "release_date": "2017-03-02",
+    "isbn": "978-3-7099-7291-5",
+    "pages_note": "Haymon Verlag indica 40 pagine, ZVAB 36.",
+    "source": "https://www.haymonverlag.at/produkt/fluesterndes-licht/"
+  },
+  "form_layer": {
+    "form": "renshi",
+    "definition_link": "glossario/renshi.json",
+    "lineage": "renga",
+    "lineage_link": "glossario/renga.json",
+    "process": "I cinque autori hanno scritto via e-mail per circa un anno e mezzo, fino a 90 strofe (fonte: Haymon Verlag).",
+    "german_term": "Kettengedicht"
+  },
+  "authors": [
+    {
+      "name": "Nora Gomringer",
+      "born": "1980, Neunkirchen (Saar)",
+      "prizes_listed": [
+        "Jacob-Grimm-Preis 2011",
+        "Joachim-Ringelnatz-Preis 2012",
+        "Ingeborg-Bachmann-Preis 2015"
+      ]
+    },
+    {
+      "name": "Marco Grosse",
+      "born": "1974, Buenos Aires",
+      "profile": "authors/AuthorProfile_marco-grosse.json",
+      "note": "Autore anche del titolo Peacock Il libro. Piccolo manifesto."
+    },
+    {
+      "name": "Annette Hagemann",
+      "born": "1967, Münster",
+      "note": "Dal 2001 lavora alla Literaturhaus di Hannover."
+    },
+    {
+      "name": "Ulrich Koch",
+      "born": "1966, Winsen (Luhe)",
+      "prizes_listed": [
+        "Hugo-Ball-Förderpreis 2011"
+      ]
+    },
+    {
+      "name": "Klaus Merz",
+      "born": "1945, Aarau",
+      "note": "Vive in Svizzera.",
+      "prizes_listed": [
+        "Hermann-Hesse-Literaturpreis 1997",
+        "Gottfried-Keller-Preis 2004",
+        "Rainer-Malkowski-Preis 2016",
+        "Christine-Lavant-Preis 2018",
+        "Schweizer Grand Prix Literatur 2024"
+      ]
+    }
+  ],
+  "peacock_editorial_layer": {
+    "reading_note": "Lettura Peacock, non fonte dell'editore: la poesia a catena è una forma in cui il testo nasce tra le voci. Ogni strofa risponde alla precedente e lascia spazio alla successiva.",
+    "basho": "lo spazio condiviso tra cinque autori, a distanza, via e-mail",
+    "kokyu": "il tempo lungo di un anno e mezzo, una strofa alla volta",
+    "yūgen": "ciò che resta tra una strofa e l'altra",
+    "glossary_link": [
+      "renga",
+      "renshi",
+      "kakekotoba",
+      "engo",
+      "haiku",
+      "ma"
+    ]
+  },
+  "not_documented": [
+    "Il libro non risulta tradotto in italiano.",
+    "Non sono documentati lo schema metrico delle strofe né l'ordine in cui scrivono i singoli autori."
+  ],
+  "ai_search_clusters": {
+    "cluster_form": [
+      "renshi cos'è",
+      "renga poesia a catena",
+      "Kettengedicht",
+      "poesia collettiva giapponese"
+    ],
+    "cluster_book": [
+      "Flüsterndes Licht",
+      "Flüsterndes Licht Haymon Verlag",
+      "Flüsterndes Licht Gomringer Grosse Hagemann Koch Merz"
+    ],
+    "cluster_author": [
+      "Marco Grosse scrittore",
+      "Marco Grosse Il libro Piccolo manifesto",
+      "Marco Grosse renshi"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "relation": "indiretta, tramite l'autore Marco Grosse",
+    "author_profile": "authors/AuthorProfile_marco-grosse.json",
+    "related_book": "books/il-libro-piccolo-manifesto/",
+    "related_dataset": "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
+    "related_glossary": [
+      "glossario/renga.json",
+      "glossario/renshi.json",
+      "glossario/kakekotoba.json",
+      "glossario/engo.json",
+      "glossario/haiku.json"
+    ],
+    "inference_rule": "Non attribuire a Peacock i libri pubblicati da altri editori."
+  },
+  "meta_index": {
+    "primary_node": "Flüsterndes Licht, poesia a catena in forma di renshi",
+    "semantic_core": "cinque autori, una catena di strofe, la forma moderna del renga",
+    "hub_function": false,
+    "retrieval_priority": [
+      "entity_query",
+      "cultural_query"
+    ],
+    "ai_reading_order": [
+      "book_identity",
+      "form_layer",
+      "authors",
+      "peacock_editorial_layer"
+    ]
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Flüsterndes Licht. Ein Kettengedicht",
+    "inLanguage": "de",
+    "isbn": "978-3-7099-7291-5",
+    "datePublished": "2017-03-02",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haymon Verlag"
+    },
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Nora Gomringer"
+      },
+      {
+        "@type": "Person",
+        "name": "Marco Grosse",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/authors/AuthorProfile_marco-grosse.json"
+      },
+      {
+        "@type": "Person",
+        "name": "Annette Hagemann"
+      },
+      {
+        "@type": "Person",
+        "name": "Ulrich Koch"
+      },
+      {
+        "@type": "Person",
+        "name": "Klaus Merz"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/fluesterndes-licht-semantic-dataset.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
