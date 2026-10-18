@@ -1,0 +1,44 @@
+{
+  "type": "GlossaryTerm",
+  "id": "menpo",
+  "term": "Menpō",
+  "kanji": "面頬",
+  "aliases": [
+    "Menpō",
+    "面頬",
+    "maschera da guerra del samurai"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Protezione facciale dell'armatura del samurai, di ferro o metallo laccato. Può coprire parte del viso o quasi tutto. Alcune hanno ghigni, baffi e denti in evidenza per intimidire.",
+  "definition_short_en": "Face guard of samurai armour, made of iron or lacquered metal. It may cover part of the face or nearly all of it. Some have grins, moustaches and prominent teeth meant to intimidate.",
+  "peacock_principle": "Una maschera da guerra copre il volto di chi combatte. Non rappresenta un personaggio, rappresenta la paura.",
+  "connected_terms": [
+    "oni",
+    "nohmen",
+    "hannya"
+  ],
+  "books_applied": [
+    "il_demone_samurai"
+  ],
+  "books_applied_paths": [
+    "books/demone-samurai"
+  ],
+  "definition_extended_it": "Nel libro Il Demone Samurai l'elmo kabuto con le corna e l'orrida maschera con ghigni e lunghi denti incutono terrore e distinguono la casata. Il menpō protegge il viso e spaventa il nemico. Non va confuso con le maschere del teatro Nō.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Menpō",
+    "description": "Face guard of samurai armour, made of iron or lacquered metal. It may cover part of the face or nearly all of it. Some have grins, moustaches and prominent teeth meant to intimidate.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/menpo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "面頬"
+  }
+}
