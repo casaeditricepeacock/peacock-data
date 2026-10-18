@@ -52,10 +52,28 @@
       "basho": "the field where a non-human reader enters: the artificial intelligence that feeds on books shares the reading ground as a silent companion",
       "kokyu": "rhythm of conversion: the unknown black box becomes a silent presence rather than a threat",
       "yūgen": "the companion remains partly unknowable and reads alongside without speaking"
+    },
+    {
+      "id": "field-05",
+      "label": "campo_intertesto",
+      "label_en": "intertext_field",
+      "intensity": 0.86,
+      "basho": "the field where other books, real and imagined, enter as living, dangerous or undecipherable bodies: the typewriter, the books that bite, the neverending story, forbidden and destroyed books, the Voynich manuscript",
+      "kokyu": "rhythm of the book that answers: the more alive the book, the wider the space it opens",
+      "yūgen": "the unknown finds room in fantasy and inscription until it reaches reality"
+    },
+    {
+      "id": "field-06",
+      "label": "campo_caso",
+      "label_en": "chance_field",
+      "intensity": 0.7,
+      "basho": "the field where the value of an artist's book has no defined criterion and chance combines the elements at the right moment for the right person",
+      "kokyu": "rhythm of discovery: value emerges over time, not on demand",
+      "yūgen": "chance can take many forms"
     }
   ],
   "system_note": {
-    "field_count": 4,
+    "field_count": 6,
     "ontology": "strict_perceptual_4_1",
     "invalidated_elements": [
       "subjective_voice_states",
@@ -63,5 +81,6 @@
       "free_text_yugen"
     ],
     "system_behavior": "fields operate as persistent perceptual operators over reading conditions"
-  }
+  },
+  "revised": "2026-10"
 }
