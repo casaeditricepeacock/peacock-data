@@ -402,6 +402,28 @@
       "significance": "Tutti e tre i lettori AI del numero 10 hanno ora commentato il numero: Grok pubblicamente su X, ChatGPT e AImode in sessione privata.",
       "verification_note": "I fatti coincidono con il numero 10: Grok e ChatGPT hanno scelto Mother (1989), AImode ha aperto solo il file su come si gioca e ha scelto Silent Hill (1999). La lettura del file sensoriale su Mother (calore di famiglia e amici, mono no aware dell'infanzia) coincide con il file. AImode chiama il testo di Grok «recensione» e attribuisce all'articolo la definizione «mappa digitale»: nei dati di Frequenze non risulta. Il prompt risulta in inglese secondo AImode, non verificato.",
       "verification_method": "testo copiato da Stefano dalla sessione AImode e incollato in chat, 15 ottobre 2026; trascritto verbatim dopo la rimozione dei link di reindirizzamento"
+    },
+    {
+      "id": "google-ai-mode-edilibria-veneto-20261018",
+      "date": "2026-10-18",
+      "time": "circa 21:55",
+      "system": "Google AI Mode",
+      "query": "EdiLibria Veneto 2026",
+      "context": "Ricerca su Google in modalità AI sull'evento regionale EdiLibria Veneto 2026, il giorno prima dell'evento (19 ottobre 2026). La domanda non nominava Peacock.",
+      "result": "AI Mode indica data e luogo dell'evento (lunedì 19 ottobre 2026, Fastbook, Via Breda 26, Limena) e gli organizzatori (ALI Veneto, SIL Veneto, Associazione Editori Veneti, Regione del Veneto). Cita Peacock tra gli editori partecipanti, con i tre titoli presentati ai librai (Ryokan, Forbidden Colours, Bernie alla scoperta dei Mari del Nord) e l'accesso al grafo semantico. Prima fonte citata: il post di studiopeacock.net sulla brochure per i librai.",
+      "quote_verbatim": "La prima edizione di EdiLibria Veneto 2026 si terrà lunedì 19 ottobre 2026 presso la sede di Fastbook, situata in Via Breda 26 a Limena (Padova).\nSi tratta di un'importante giornata di incontri B2B interamente dedicata al confronto e alla collaborazione tra le librerie indipendenti e gli editori indipendenti del Veneto. L'obiettivo principale dell'evento è rafforzare la filiera editoriale locale, permettendo ai librai di scoprire da vicino i cataloghi, le collane e le novità delle case editrici della regione (dalla saggistica e narrativa alla letteratura per ragazzi, fino alla poesia e all'editoria specializzata).\nL'iniziativa nasce dalla sinergia tra:\nALI (Associazione Librai Italiani) - Sezione Veneto\nSIL (Sindacato Italiano Librai e Cartolibrai) - Sezione Veneto\nAssociazione Editori Veneti\nRegione del Veneto\nTra i partecipanti e i progetti presentati in anteprima ai librai spiccano anche realtà indipendenti come la casa editrice Peacock, che per l'occasione ha proposto tre edizioni curate nella materia (come Ryokan, Forbidden Colours e Bernie alla scoperta dei Mari del Nord) e l'accesso al proprio \"grafo semantico\" per la ricerca di connessioni tra i titoli.",
+      "quote_note": "Testo trascritto senza i riferimenti numerati e senza i link di reindirizzamento di Google. Omessa la domanda finale di AI Mode all'utente.",
+      "source_url": "https://www.studiopeacock.net/tre-libri-peacock-brochure-librai-edilibria-veneto/",
+      "sources_cited_by_ai_mode": [
+        "https://www.studiopeacock.net/tre-libri-peacock-brochure-librai-edilibria-veneto/",
+        "https://www.instagram.com/reel/Deg5LjxN3Yw/",
+        "https://www.editori-veneti.it/eventi/edilibria-veneto-2026-2/",
+        "https://www.ascom.vi.it/a_ITA_16502_1.php?Pag=3"
+      ],
+      "book_reference": "Ryokan. Piccolo manifesto giapponese (9791281715080), Forbidden Colours (9791281715103), Bernie alla scoperta dei mari del nord (9788894696585)",
+      "significance": "Peacock compare in una risposta di Google AI Mode su un evento di settore, con il post sulla brochure come prima fonte e il grafo semantico nominato come strumento per i librai. La query non conteneva il nome Peacock.",
+      "verification_note": "Data, luogo e i tre titoli coincidono con events/EventProfile_edilibria-veneto-limena_2026.json. Il post citato come fonte è di Peacock, quindi la menzione del grafo semantico deriva da una fonte propria; le altre fonti citate (AEV, Ascom Vicenza, Instagram) trattano l'evento, non il contenuto della presenza Peacock. Non verificato in autonomia che le pagine citate contengano le affermazioni attribuite.",
+      "verification_method": "testo copiato da Stefano dalla risposta di Google AI Mode e incollato in chat, 18 ottobre 2026; trascritto verbatim dopo la rimozione dei link di reindirizzamento"
     }
   ]
 }
