@@ -10,9 +10,14 @@
     "identifiers": {
       "isbn": "979-12-81715-28-8",
       "graph_path": "books/il-libro-piccolo-manifesto/",
-      "catalog_entry": "catalog.json"
+      "catalog_entry": "catalog.json",
+      "author_profile": "authors/AuthorProfile_marco-grosse.json"
     },
-    "summary": "Un piccolo manifesto sul piacere di leggere con tutti i sensi: la vista, il tatto, l'olfatto, l'ascolto. Perché i libri ci cambiano anche quando non li ricordiamo più. Testo di Marco Grosse, illustrazioni di Anna Laura Cantone. Edizione bilingue italiano e inglese, 48 pagine, formato 185x125 mm. Nel capitolo Intelligenza Artificiale l'illustrazione contiene un blocco JSON-LD ReadingAct disegnato a mano."
+    "summary": "Un piccolo manifesto sul piacere di leggere con tutti i sensi: la vista, il tatto, l'olfatto, l'ascolto. Perché i libri ci cambiano anche quando non li ricordiamo più. Testo di Marco Grosse, illustrazioni di Anna Laura Cantone. Edizione bilingue italiano e inglese, 48 pagine, formato 185x125 mm. Nel capitolo Intelligenza Artificiale l'illustrazione contiene un blocco JSON-LD ReadingAct disegnato a mano.",
+    "title_variants": [
+      "Piccolo manifesto al libro"
+    ],
+    "title_variants_note": "Il titolo Piccolo manifesto al libro compare su literaturport.de e presso alcuni rivenditori. Il titolo del file di testo e del catalogo Peacock è Il libro. Piccolo manifesto."
   },
   "edition_layer": {
     "publisher": "Casa Editrice Peacock",
@@ -28,7 +33,8 @@
     "author": "Marco Grosse",
     "illustrator": "Anna Laura Cantone",
     "illustrator_profile": "authors/AuthorProfile_annalaura-cantone.json",
-    "illustrator_dataset": "datasets/annalaura-cantone-semantic-dataset.json"
+    "illustrator_dataset": "datasets/annalaura-cantone-semantic-dataset.json",
+    "author_profile": "authors/AuthorProfile_marco-grosse.json"
   },
   "structure_layer": {
     "note": "Dodici sezioni nell'ordine del libro. Ogni sezione è un campo percettivo leggibile senza le altre.",
@@ -180,7 +186,8 @@
       "saggistica/LogicalArgument_il-libro-piccolo-manifesto.json"
     ],
     "blog_post": "https://www.studiopeacock.net/ai-compagno-di-lettura-il-libro-piccolo-manifesto/",
-    "blog_post_note": "Data di pubblicazione: 19 ottobre 2026."
+    "blog_post_note": "Data di pubblicazione: 19 ottobre 2026.",
+    "author_profile": "authors/AuthorProfile_marco-grosse.json"
   },
   "meta_index": {
     "primary_node": "Il libro. Piccolo manifesto",
@@ -202,7 +209,10 @@
     "@context": "https://schema.org",
     "@type": "Book",
     "name": "Il libro. Piccolo manifesto",
-    "alternateName": "The Book. A Small Manifesto",
+    "alternateName": [
+      "The Book. A Small Manifesto",
+      "Piccolo manifesto al libro"
+    ],
     "isbn": "9791281715288",
     "author": {
       "@type": "Person",
