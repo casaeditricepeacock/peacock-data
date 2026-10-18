@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-17",
+    "generated": "2026-10-18",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -675,6 +675,7 @@
       "conceptual/AestheticCore_ciliegi_hara-rota.json",
       "conceptual/AestheticCore_oggetto_il-libro-piccolo-manifesto.json",
       "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "conceptual/ConceptualCore_libro-artista-caso_il-libro-piccolo-manifesto.json",
       "conceptual/ConceptualCore_libro-corpo_il-libro-piccolo-manifesto.json",
       "conceptual/ConceptualCore_mini-libreria-cura-del-libro.json",
       "conceptual/ConceptualCore_rie_primo_libro_hara-rota.json",
@@ -690,6 +691,7 @@
       "conceptual/NonRenderedCharacterCore_fratello_hara-rota.json",
       "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json",
       "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "conceptual/PhilosophicalCore_libri-vivi-proibiti_il-libro-piccolo-manifesto.json",
       "conceptual/PhilosophicalCore_the-unhoused-book.json",
       "conceptual/RelationalFieldCore_tokyo_hara-rota.json",
       "conceptual/SpatialClosureCore_ryokan_hara-rota.json",
@@ -748,6 +750,7 @@
       "sensorial/NarrativeSensation_lastra-torchio_venus.json",
       "sensorial/NarrativeSensation_leggere-il-gioco_pixel-in-japan.json",
       "sensorial/NarrativeSensation_lentezza_ratata.json",
+      "sensorial/NarrativeSensation_macchina_scrivere_il-libro-piccolo-manifesto.json",
       "sensorial/NarrativeSensation_mascotte-appartenenza_pixel-in-japan.json",
       "sensorial/NarrativeSensation_masso_hara-rota-ryokan.json",
       "sensorial/NarrativeSensation_medusa-senza-ossa_la-medusa-e-la-scimmia.json",
@@ -811,6 +814,7 @@
       "datasets/elena-lombardi-dataset.json",
       "datasets/foreign-rights.json",
       "datasets/honnoji-semantic-dataset.json",
+      "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
       "datasets/kasane-no-irome-semantic-dataset.json",
       "datasets/luisfrois-semantic-dataset.json",
       "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
