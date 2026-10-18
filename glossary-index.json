@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.13",
+  "version": "1.14",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1235,15 +1235,50 @@
       ],
       "books_applied": [],
       "glossary_file": "glossario/hannya.json"
+    },
+    {
+      "term": "Renga",
+      "kanji": "連歌",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Poesia a catena giapponese, composta da più poeti che si alternano. Le strofe seguono lo schema 5-7-5 e 7-7 e ognuna si lega alla precedente aprendo una scena nuova. La strofa d'apertura si chiama hokku. Da questa strofa nasce più tardi l'haiku.",
+      "definition_short_en": "Japanese linked verse, composed by several poets in turn. Stanzas follow the 5-7-5 and 7-7 pattern, and each one connects to the previous while opening a new scene. The opening stanza is called hokku. The haiku later grew out of this opening stanza.",
+      "connected_terms": [
+        "renshi",
+        "kakekotoba",
+        "engo",
+        "haiku",
+        "ma"
+      ],
+      "books_applied": [],
+      "glossary_file": "glossario/renga.json"
+    },
+    {
+      "term": "Renshi",
+      "kanji": "連詩",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Forma moderna di poesia a catena ispirata al renga giapponese. Più poeti compongono a turno un unico testo in versi liberi, ognuno rispondendo alla strofa precedente. Nel mondo tedesco il risultato si chiama anche Kettengedicht.",
+      "definition_short_en": "Modern form of linked poetry inspired by Japanese renga. Several poets compose a single text in free verse by turns, each answering the previous stanza. In the German-speaking world the result is also called a Kettengedicht.",
+      "connected_terms": [
+        "renga",
+        "kakekotoba",
+        "engo",
+        "haiku"
+      ],
+      "books_applied": [],
+      "glossary_file": "glossario/renshi.json"
     }
   ],
   "statistics": {
-    "total_entries": 60,
+    "total_entries": 62,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 21,
+    "in_sviluppo": 23,
     "by_category": {
-      "estetica_giapponese": 23,
+      "estetica_giapponese": 25,
       "cerimonia_del_te": 8,
       "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
@@ -1276,7 +1311,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 60,
+    "total_terms": 62,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1313,6 +1348,10 @@
       "oni",
       "menpo",
       "hannya"
+    ],
+    "new_in_v1.14": [
+      "renga",
+      "renshi"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
