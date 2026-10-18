@@ -1,0 +1,44 @@
+{
+  "type": "GlossaryTerm",
+  "id": "oni",
+  "term": "Oni",
+  "kanji": "鬼",
+  "aliases": [
+    "Oni",
+    "鬼",
+    "demone giapponese"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Demone del folclore giapponese, con corna, zanne e pelle colorata. Gli aka-oni sono rossi, gli ao-oni blu. Nel libro Il Demone Samurai gli oni sono gli spiriti delle tempeste, dei terremoti, delle onde giganti, della malattia e della morte.",
+  "definition_short_en": "Demon of Japanese folklore, with horns, fangs and coloured skin. Aka-oni are red, ao-oni blue. In the book Il Demone Samurai oni are the spirits of storms, earthquakes, giant waves, illness and death.",
+  "peacock_principle": "Nel sistema Peacock l'oni è un volto dato alla paura: ciò che non si può spiegare prende una forma che si può riconoscere.",
+  "connected_terms": [
+    "nohmen",
+    "menpo",
+    "hannya"
+  ],
+  "books_applied": [
+    "il_demone_samurai"
+  ],
+  "books_applied_paths": [
+    "books/demone-samurai"
+  ],
+  "definition_extended_it": "Nel libro Il Demone Samurai gli aka-oni sono rossi e gli ao-oni blu, governati da un capo supremo, Shuten-dōji. Vivono nelle montagne, nelle foreste e nei precipizi e sono richiamati dalle energie negative degli esseri umani. Il libro cita il detto oni ni kanabō, la mazza nelle mani del demone, per dire la forza estrema, e dice che Nobunaga era circondato dagli oni.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Oni",
+    "description": "Demon of Japanese folklore, with horns, fangs and coloured skin. Aka-oni are red, ao-oni blue. In the book Il Demone Samurai oni are the spirits of storms, earthquakes, giant waves, illness and death.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/oni.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "鬼"
+  }
+}
