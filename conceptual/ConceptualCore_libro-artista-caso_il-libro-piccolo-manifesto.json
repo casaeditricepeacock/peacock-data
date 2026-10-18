@@ -1,0 +1,42 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "libro_d_artista_e_caso",
+  "label": "Il libro d'artista — valore, unicità e caso",
+  "core_question": "In cosa consiste il valore di un libro d'artista?",
+  "core_statement": "La sezione Libro d'artista pone una domanda e non la chiude. Il valore può stare nell'unicità, nella fama e notorietà del creatore, o nella sola qualità artistica che assegna un valore da scoprire nel tempo. Probabilmente non esiste un criterio definito: è il caso a combinare gli elementi che fanno avere al libro l'attenzione giusta, nel momento idoneo, della persona adatta.",
+  "thesis_anchor": "Probabilmente non esiste un criterio definito, ma come spesso avviene, è il caso a determinare la scelta.",
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ichigo-ichie",
+      "wabi_sabi"
+    ],
+    "conceptual_mechanics": [
+      "unicità",
+      "fama_del_creatore",
+      "qualità_artistica",
+      "caso"
+    ]
+  },
+  "glossary_terms": [
+    "ichigo-ichie",
+    "wabi_sabi"
+  ],
+  "connected_terms": [
+    "ichigo-ichie",
+    "wabi_sabi",
+    "ma"
+  ],
+  "system_note": "Core ancorato a scene-11, object-12, silence-05, transition-06 e alla thesis-04 della saggistica. Porta all'estremo il campo materia: l'oggetto-libro come opera unica."
+}
