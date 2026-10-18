@@ -1,0 +1,54 @@
+{
+  "type": "PhilosophicalCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "grosse_il_libro_piccolo_manifesto",
+    "title": "Il libro. Piccolo manifesto",
+    "author": "Marco Grosse",
+    "illustrator": "Anna Laura Cantone",
+    "isbn": "9791281715288",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "libri_vivi_proibiti_spazio",
+  "label": "Spazio — i libri vivi, proibiti e indecifrabili",
+  "core_statement": "La sezione Spazio mette in campo altri libri, reali e immaginari: la macchina da scrivere di Burroughs con i suoi denti, i libri di Harry Potter che mordono e vanno accarezzati, La storia infinita, i libri proibiti e distrutti, il manoscritto di Voynich. Sono libri vivi, pericolosi o indecifrabili che somigliano a noi nelle paure, nelle speranze e nei misteri. Coprono la mente come tegole e allo stesso tempo la aprono verso uno spazio illimitato.",
+  "thesis_anchor": "Libri tegole che coprono le nostre menti, ma che le aprono allo stesso tempo verso uno spazio illimitato.",
+  "philosophical_pillars": [
+    {
+      "pillar": "libro_vivo",
+      "statement": "Il libro è un corpo che reagisce: morde, va accarezzato, chiede al lettore di salvare il mondo che contiene."
+    },
+    {
+      "pillar": "libro_pericoloso",
+      "statement": "Un libro può essere un rischio per la mente e per il corpo e una minaccia al sistema: per questo viene proibito e distrutto."
+    },
+    {
+      "pillar": "libro_indecifrabile",
+      "statement": "Il manoscritto di Voynich porta un messaggio ignoto in una lingua sconosciuta. L'ignoto trova spazio nella fantasia e nella trascrizione, fino alla realtà."
+    }
+  ],
+  "thematic_layers": {
+    "aesthetic_framework": [
+      "ma",
+      "yūgen"
+    ],
+    "philosophical_mechanics": [
+      "libro_vivo",
+      "libro_proibito",
+      "libro_indecifrabile",
+      "copertura_e_apertura"
+    ]
+  },
+  "glossary_terms": [
+    "ma",
+    "yūgen"
+  ],
+  "connected_terms": [
+    "ma",
+    "yūgen"
+  ],
+  "system_note": "Core ancorato a scene-12, object-08 a object-11 e object-13, silence-06, transition-05 e alla thesis-05 della saggistica. Prepara il campo successivo: l'ignoto che l'AI converte in silenzio."
+}
