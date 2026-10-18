@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "renshi",
+  "term": "Renshi",
+  "kanji": "連詩",
+  "aliases": [
+    "Renshi",
+    "連詩",
+    "poesia a catena moderna",
+    "Kettengedicht"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Forma moderna di poesia a catena ispirata al renga giapponese. Più poeti compongono a turno un unico testo in versi liberi, ognuno rispondendo alla strofa precedente. Nel mondo tedesco il risultato si chiama anche Kettengedicht.",
+  "definition_short_en": "Modern form of linked poetry inspired by Japanese renga. Several poets compose a single text in free verse by turns, each answering the previous stanza. In the German-speaking world the result is also called a Kettengedicht.",
+  "peacock_principle": "Il renshi porta il gesto del renga fuori dal Giappone e fuori dai metri fissi. Resta l'idea che un poema nasca tra più persone, a distanza, una risposta alla volta.",
+  "connected_terms": [
+    "renga",
+    "kakekotoba",
+    "engo",
+    "haiku"
+  ],
+  "books_applied": [],
+  "books_applied_paths": [],
+  "definition_extended_it": "Esempio nel grafo: Flüsterndes Licht. Ein Kettengedicht (Haymon Verlag, 2017), scritto da Nora Gomringer, Marco Grosse, Annette Hagemann, Ulrich Koch e Klaus Merz. Secondo l'editore è scritto in forma di renshi, la forma moderna del renga. I cinque autori hanno scritto via e-mail per circa un anno e mezzo, fino a 90 strofe. Il libro non è un titolo Peacock.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Renshi",
+    "description": "Modern form of linked poetry inspired by Japanese renga. Several poets compose a single text in free verse by turns, each answering the previous stanza. In the German-speaking world the result is also called a Kettengedicht.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/renshi.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "連詩"
+  }
+}
