@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-18",
+    "generated": "2026-10-20",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -999,7 +999,9 @@
       "events/EventProfile_museo-chiossone-genova_2023.json",
       "events/EventProfile_passeggiata-padova-fantastica_2025.json",
       "events/EventProfile_pel-di-carota-padova_2024.json",
+      "events/EventProfile_plpl-roma_2024.json",
       "events/EventProfile_plpl-roma_2025.json",
+      "events/EventProfile_plpl-roma_2026.json",
       "events/EventProfile_sala-spadolini-roma_2024.json",
       "events/EventProfile_salone-torino-2022-debutto.json",
       "events/EventProfile_salone-torino-2023-gatto-esperienza.json",
