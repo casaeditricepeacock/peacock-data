@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-21",
+    "generated": "2026-10-23",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json."
   },
@@ -976,6 +976,7 @@
       "authors/AuthorProfile_toshihiko-ota.json"
     ],
     "events": [
+      "events/EventProfile_bernie-edita-milano_2023.json",
       "events/EventProfile_biblioteca-deamicis-genova_2025.json",
       "events/EventProfile_biblioteca-ostinata_luglio-2026.json",
       "events/EventProfile_campo-dei-girasoli-padova_2023.json",
@@ -1072,6 +1073,7 @@
     "collaborations": [
       "collaborations/PrefaceCollaboration_hara-rota_cento-volte.json",
       "collaborations/alessandro-quasimodo.json",
+      "collaborations/caterina-paolinelli.json",
       "collaborations/francesca-vettori.json",
       "collaborations/giuseppina-iacovelli.json",
       "collaborations/mauro-seresini.json",
