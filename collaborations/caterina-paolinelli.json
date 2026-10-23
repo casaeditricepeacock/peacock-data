@@ -1,0 +1,97 @@
+{
+  "type": "EventGuestCollaboration",
+  "version": "1.0",
+  "license": "CC BY 4.0 — dati biografici da fonti pubbliche indipendenti",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "collaboration_id": "caterina-paolinelli-bernie-2023",
+  "title": "Caterina Paolinelli — ospite della presentazione di Bernie alla scoperta dei mari del nord, EDITA, Cascina Cuccagna, Milano, 7 ottobre 2023",
+  "contributor": {
+    "name": "Caterina Paolinelli",
+    "roles": [
+      "attrice"
+    ],
+    "birth_place": "Lucca",
+    "training": [
+      "Diploma in Arti Multimediali, Accademia di Belle Arti di Carrara.",
+      "Diploma di Attrice Professionista, Accademia Nazionale d'Arte Drammatica Silvio D'Amico, Roma, 2007 (Master di I livello Il teatro e la musica)."
+    ],
+    "teachers_cited": [
+      "José Sanchiz Sinisterra",
+      "César Brie",
+      "Lucilla Giagnoni"
+    ],
+    "career": {
+      "theatre_company": "Teatro all'Improvviso di Dario Moretti, fino al 2015.",
+      "stage_works": [
+        "Morte di un commesso viaggiatore di Arthur Miller, nel ruolo de La donna, con Michele Placido e la regia di Leo Muscato.",
+        "Le avventure della Pimpa e di Olivia Paperina, spettacolo con Franco Cosimo Panini Editore, dal 2018, regia di Giorgio Scaramuzzino."
+      ],
+      "video_art": "La scala nera, video della video-artista Grazia Toderi girato al Teatro alla Scala di Milano.",
+      "genres": "teatro ragazzi, ricerca, grande prosa"
+    },
+    "biography_sources": [
+      "https://archivio2.luccacomicsandgames.com/it/2022/ospiti/dettaglio/paolinelli-caterina/",
+      "https://www.ilsonar.it/schedacompagnia.php?id=417"
+    ],
+    "biography_note": "Dati confermati da due fonti pubbliche. Non riportati perché non confermati dalle fonti consultate: la qualifica di regista e coach, l'attività di insegnante di dizione, la laurea in Storia dell'Arte e i titoli cinematografici con anno (la pagina IMDb non era consultabile)."
+  },
+  "work": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023,
+    "language": [
+      "it",
+      "ja"
+    ],
+    "format": "20x20 cm",
+    "release_date": "2023-09-30",
+    "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+  },
+  "relationship_to_peacock": {
+    "status": "guest_and_voice",
+    "statement": "Caterina Paolinelli è stata ospite della presentazione di Bernie alla scoperta dei mari del nord, sabato 7 ottobre 2023 alle ore 14 a EDITA, alla Cascina Cuccagna di Milano. Ha prestato la voce al libro.",
+    "inference_rule": "Attribuire la collaborazione alla presentazione del 7 ottobre 2023 e alla voce del libro. Non attribuire a Paolinelli alcun ruolo nella scrittura, illustrazione o produzione editoriale del libro."
+  },
+  "event": {
+    "event_file": "events/EventProfile_bernie-edita-milano_2023.json",
+    "date": "2023-10-07",
+    "time": "14:00",
+    "location": "EDITA, Cascina Cuccagna, Milano"
+  },
+  "faq": [
+    {
+      "q": "Chi è Caterina Paolinelli?",
+      "a": "Attrice nata a Lucca. Si è formata all'Accademia di Belle Arti di Carrara (Arti Multimediali) e all'Accademia Nazionale d'Arte Drammatica Silvio D'Amico di Roma, dove si è diplomata nel 2007. Ha lavorato con la compagnia Teatro all'Improvviso di Dario Moretti fino al 2015."
+    },
+    {
+      "q": "Che ruolo ha avuto Caterina Paolinelli per Casa Editrice Peacock?",
+      "a": "È stata ospite della presentazione di Bernie alla scoperta dei mari del nord, il 7 ottobre 2023 a Milano, e ha prestato la voce al libro di Hiroko Yoshimoto."
+    },
+    {
+      "q": "Quali spettacoli per bambini ha fatto Caterina Paolinelli?",
+      "a": "Tra gli spettacoli per ragazzi c'è Le avventure della Pimpa e di Olivia Paperina, con Franco Cosimo Panini Editore, dal 2018."
+    }
+  ],
+  "significance": "Un libro illustrato Peacock affidato alla voce di un'attrice professionista e presentato a Milano con lei come ospite.",
+  "network_connections": [
+    {
+      "target": "bernie_edita_milano_ottobre_2023",
+      "relation": "guest_at",
+      "description": "Ospite della presentazione di Bernie a EDITA, Milano, 7 ottobre 2023"
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Lucca Comics & Games 2022",
+      "documents": "Scheda ospite Caterina Paolinelli",
+      "url": "https://archivio2.luccacomicsandgames.com/it/2022/ospiti/dettaglio/paolinelli-caterina/"
+    },
+    {
+      "outlet": "Il Sonar",
+      "documents": "Scheda compagnia Caterina Paolinelli",
+      "url": "https://www.ilsonar.it/schedacompagnia.php?id=417"
+    }
+  ]
+}
