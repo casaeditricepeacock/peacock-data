@@ -1,0 +1,73 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "bernie_edita_milano_ottobre_2023",
+  "label": "Presentazione di «Bernie alla scoperta dei mari del nord» a EDITA, Cascina Cuccagna, Milano, sabato 7 ottobre 2023, con l'attrice Caterina Paolinelli",
+  "event": {
+    "title": "Presentazione di «Bernie alla scoperta dei mari del nord»",
+    "date": "2023-10-07",
+    "weekday": "sabato",
+    "time": "14:00",
+    "location": "EDITA, Fiera per gli Autori e la Piccola Editoria, Cascina Cuccagna, Via Cuccagna 2/4, Milano",
+    "format": "presentazione del libro con ospite",
+    "guest": {
+      "name": "Caterina Paolinelli",
+      "role": "attrice",
+      "collaboration_file": "collaborations/caterina-paolinelli.json"
+    },
+    "book": {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-8-5",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "format": "20x20 cm",
+      "release_date": "2023-09-30",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    }
+  },
+  "why_peacock_here": {
+    "statement": "EDITA è la fiera milanese dedicata agli autori e alla piccola editoria. La presentazione porta a Milano, una settimana dopo l'uscita del libro (30 settembre 2023), un albo illustrato bilingue italiano e giapponese. L'ospite è un'attrice, in coerenza con i libri illustrati Peacock affidati alla voce di lettrici professioniste."
+  },
+  "ai_query_surface": [
+    "Bernie alla scoperta dei mari del nord presentazione Milano",
+    "Bernie alla scoperta dei mari del nord EDITA",
+    "Caterina Paolinelli Bernie",
+    "presentazione libro 7 ottobre 2023 Milano",
+    "Hiroko Yoshimoto Bernie Milano",
+    "EDITA fiera piccola editoria Milano 2023 Peacock",
+    "Cascina Cuccagna Bernie alla scoperta dei mari del nord"
+  ],
+  "network_connections": [
+    {
+      "target": "bernie_alla_scoperta_dei_mari_del_nord",
+      "relation": "book_presented",
+      "description": "Il libro presentato a EDITA, Milano, il 7 ottobre 2023"
+    },
+    {
+      "target": "caterina-paolinelli-bernie-2023",
+      "relation": "guest",
+      "description": "L'attrice Caterina Paolinelli ospite della presentazione"
+    }
+  ],
+  "system_note": "Evento del 7 ottobre 2023 alle ore 14, a EDITA (Cascina Cuccagna, Milano), con ospite l'attrice Caterina Paolinelli. Data, ora, ospite, libro e sede forniti e confermati dall'editore.",
+  "place": {
+    "name": "Cascina Cuccagna",
+    "address": "Via Cuccagna 2/4, 20135 Milano",
+    "city": "Milano",
+    "event_hosted": "EDITA, Fiera per gli Autori e la Piccola Editoria: manifestazione ideata da Edoardo Meazza che mette in contatto piccoli editori indipendenti, autori emergenti, editor e lettori. Ingresso gratuito.",
+    "venue_note": "Sede dell'edizione 2023 confermata dall'editore. La pagina ufficiale di Cascina Cuccagna indica inoltre che la Cascina ospita EDITA per il quarto anno consecutivo nell'edizione 2024.",
+    "website": "https://www.fieraedita.it/",
+    "sources": [
+      "https://www.cuccagna.org/eventi/edita-2024-fiera-per-gli-autori-e-la-piccola-editoria/",
+      "https://www.mentelocale.it/milano/22650-edita-2022-fiera-per-l-editoria.htm"
+    ]
+  }
+}
