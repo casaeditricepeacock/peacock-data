@@ -1,0 +1,104 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "index_id": "bernie-alla-scoperta-dei-mari-del-nord",
+ "index_type": "series-index",
+ "series": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "publisher": "Casa Editrice Peacock",
+ "base_url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/series/bernie-alla-scoperta-dei-mari-del-nord/",
+ "nodes": [
+  {
+   "id": "series-manifest",
+   "file": "series-manifest.json",
+   "type": "manifest"
+  },
+  {
+   "id": "bernie",
+   "file": "bernie.json",
+   "type": "character",
+   "name": "Bernie",
+   "description": "protagonista, gabbiano di Gallipoli che vola fino al villaggio di Babbo Natale e torna a casa per la Vigilia"
+  },
+  {
+   "id": "gedeone",
+   "file": "gedeone.json",
+   "type": "character",
+   "name": "Gedeone",
+   "description": "amico di Bernie, il gatto golosone che approva l'idea di partire"
+  },
+  {
+   "id": "signora-foca",
+   "file": "signora-foca.json",
+   "type": "character",
+   "name": "la signora foca",
+   "description": "prima incontrata in Norvegia, spiega a Bernie dove sono il Polo Nord e il Polo Sud"
+  },
+  {
+   "id": "balene",
+   "file": "balene.json",
+   "type": "character",
+   "name": "le balene",
+   "description": "incontrate in mare aperto, portano Bernie sulla schiena"
+  },
+  {
+   "id": "orso-bianco",
+   "file": "orso-bianco.json",
+   "type": "character",
+   "name": "il signor orso",
+   "description": "incontrato sui ghiacciai, spiega perché sembra bianco"
+  },
+  {
+   "id": "gufo-delle-nevi",
+   "file": "gufo-delle-nevi.json",
+   "type": "character",
+   "name": "il gufo delle nevi",
+   "description": "ospita Bernie per la notte sul suo pino"
+  },
+  {
+   "id": "elfi",
+   "file": "elfi.json",
+   "type": "character",
+   "name": "gli elfi",
+   "description": "abitanti del villaggio di Babbo Natale, accolgono Bernie e lo aiutano con i doni"
+  },
+  {
+   "id": "renne",
+   "file": "renne.json",
+   "type": "character",
+   "name": "le renne",
+   "description": "riportano Bernie a Gallipoli con la slitta di Babbo Natale"
+  },
+  {
+   "id": "babbo-natale",
+   "file": "babbo-natale.json",
+   "type": "character",
+   "name": "Babbo Natale",
+   "description": "incontrato nel suo villaggio, definisce lo spirito del Natale come affetto e altruismo"
+  },
+  {
+   "id": "genitori-di-bernie",
+   "file": "genitori-di-bernie.json",
+   "type": "character",
+   "name": "la mamma e il papà di Bernie",
+   "description": "aspettano Bernie a Gallipoli e lo accolgono per la Vigilia"
+  }
+ ],
+ "related": [
+  {
+   "type": "place",
+   "id": "gallipoli_puglia",
+   "path": "places/gallipoli-puglia.json"
+  },
+  {
+   "type": "place",
+   "id": "rovaniemi_lapponia",
+   "path": "places/rovaniemi-lapponia.json"
+  },
+  {
+   "type": "book",
+   "id": "bernie-alla-scoperta-dei-mari-del-nord",
+   "path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+  }
+ ]
+}
