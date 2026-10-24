@@ -1,0 +1,72 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "bernie",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "Bernie",
+ "character_type": "gabbiano",
+ "concept": {
+  "name": "Bernie",
+  "species": "gabbiano",
+  "summary": "Bernie è un gabbiano che vive a Gallipoli. Gli piace il pesce ma ama ancora di più la pasta. È felice, ma sente che gli manca qualcosa: vuole esplorare il mondo e fare l'esploratore. Ascolta i vecchi marinai, decide di partire con il consiglio dell'amico Gedeone e vola verso il Nord Europa. Incontra animali e infine Babbo Natale, da cui impara lo spirito del Natale, e torna a casa dai genitori."
+ },
+ "character_traits": [
+  "curioso e socievole: saluta e interroga ogni animale incontrato",
+  "felice ma attraversato dalla mancanza di qualcosa",
+  "si definisce esploratore",
+  "rimpiange casa e famiglia mentre è lontano"
+ ],
+ "narrative_function": "Bernie è il raccoglitore del campo: ogni incontro deposita in lui una conoscenza che porta a casa e racconta.",
+ "text_evidence_it": [
+  "mi chiamo Bernie e sono un gabbiano.",
+  "Da grande voglio fare l’esploratore.",
+  "Ho tante cose da raccontarvi"
+ ],
+ "scenes": [
+  "scene-01",
+  "scene-02",
+  "scene-03",
+  "scene-04",
+  "scene-05",
+  "scene-06",
+  "scene-07",
+  "scene-08",
+  "scene-09",
+  "scene-10",
+  "scene-11",
+  "scene-12",
+  "scene-13",
+  "scene-14",
+  "scene-15",
+  "scene-16"
+ ],
+ "ai_query_surface": [
+  "Chi è Bernie?",
+  "Bernie è un gabbiano?",
+  "Dove vive Bernie?",
+  "Cosa vuole fare Bernie da grande?",
+  "Dove va Bernie nel libro?",
+  "Bernie in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "gedeone",
+  "babbo-natale",
+  "genitori-di-bernie"
+ ],
+ "glossario_peacock": [
+  "mono no aware",
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Bernie o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
