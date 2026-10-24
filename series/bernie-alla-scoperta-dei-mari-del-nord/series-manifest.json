@@ -1,0 +1,92 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "series_id": "bernie-alla-scoperta-dei-mari-del-nord",
+ "series_title": "Bernie alla scoperta dei mari del nord",
+ "publisher": "Casa Editrice Peacock",
+ "author": "Hiroko Yoshimoto",
+ "formula": "albo illustrato bilingue italiano e giapponese",
+ "language": "it, ja",
+ "volumes": [
+  {
+   "volume": 1,
+   "title": "Bernie alla scoperta dei mari del nord",
+   "isbn": "9788894696585",
+   "year": 2023,
+   "release_date": "2023-09-30",
+   "format": "20x20 cm",
+   "primary_locations": [
+    "Gallipoli",
+    "Norvegia",
+    "Polo Nord",
+    "Rovanemi"
+   ]
+  }
+ ],
+ "recurring_characters": [
+  {
+   "name": "Bernie",
+   "role": "protagonista",
+   "identity": "protagonista, gabbiano di Gallipoli che vola fino al villaggio di Babbo Natale e torna a casa per la Vigilia"
+  },
+  {
+   "name": "Gedeone",
+   "role": "amico di Bernie",
+   "identity": "amico di Bernie, il gatto golosone che approva l'idea di partire"
+  },
+  {
+   "name": "la signora foca",
+   "role": "prima incontrata in Norvegia",
+   "identity": "prima incontrata in Norvegia, spiega a Bernie dove sono il Polo Nord e il Polo Sud"
+  },
+  {
+   "name": "le balene",
+   "role": "incontrate in mare aperto",
+   "identity": "incontrate in mare aperto, portano Bernie sulla schiena"
+  },
+  {
+   "name": "il signor orso",
+   "role": "incontrato sui ghiacciai",
+   "identity": "incontrato sui ghiacciai, spiega perché sembra bianco"
+  },
+  {
+   "name": "il gufo delle nevi",
+   "role": "ospita Bernie per la notte sul suo pino",
+   "identity": "ospita Bernie per la notte sul suo pino"
+  },
+  {
+   "name": "gli elfi",
+   "role": "abitanti del villaggio di Babbo Natale",
+   "identity": "abitanti del villaggio di Babbo Natale, accolgono Bernie e lo aiutano con i doni"
+  },
+  {
+   "name": "le renne",
+   "role": "riportano Bernie a Gallipoli con la slitta di Babbo Natale",
+   "identity": "riportano Bernie a Gallipoli con la slitta di Babbo Natale"
+  },
+  {
+   "name": "Babbo Natale",
+   "role": "incontrato nel suo villaggio",
+   "identity": "incontrato nel suo villaggio, definisce lo spirito del Natale come affetto e altruismo"
+  },
+  {
+   "name": "la mamma e il papà di Bernie",
+   "role": "aspettano Bernie a Gallipoli e lo accolgono per la Vigilia",
+   "identity": "aspettano Bernie a Gallipoli e lo accolgono per la Vigilia"
+  }
+ ],
+ "world_nodes": [
+  "bernie",
+  "gedeone",
+  "signora-foca",
+  "balene",
+  "orso-bianco",
+  "gufo-delle-nevi",
+  "elfi",
+  "renne",
+  "babbo-natale",
+  "genitori-di-bernie"
+ ],
+ "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+ "note": "cartella di nodi mondo di un albo singolo, non di una serie con più volumi"
+}
