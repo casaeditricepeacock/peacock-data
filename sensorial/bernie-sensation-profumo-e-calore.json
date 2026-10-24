@@ -1,0 +1,327 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Bernie alla scoperta dei mari del nord",
+    "author": "Hiroko Yoshimoto",
+    "illustrator": "Hiroko Yoshimoto",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "978-88-946965-8-5",
+    "year": 2023,
+    "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+    "text_basis": "testo del libro in italiano e giapponese fornito dall'editore, 24 ottobre 2026"
+  },
+  "sensory_theme": "profumo_e_calore_del_ritorno",
+  "experience_type": "passaggio_dal_freddo_al_calore",
+  "dominant_sense": "olfatto",
+  "secondary_senses": [
+    "tatto",
+    "vista",
+    "udito"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "door_opens_santa_village_cabin",
+      "door_opens_home_gallipoli"
+    ],
+    "material_conditions": [
+      "book_open",
+      "scented_paper_near_reader"
+    ],
+    "activation_logic": "narrative_event_or_material_condition",
+    "description": "L'esperienza può attivarsi attraverso le scene di apertura della porta oppure attraverso la vicinanza materiale della carta profumata durante la lettura. Le due modalità appartengono a livelli distinti."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "profumo_di_biscotti_e_carta_profumata",
+      "basho": {
+        "narrative_context": "La casetta di legno nel villaggio di Babbo Natale, illuminata da luci colorate e animata dal profumo di biscotti e dalle risate.",
+        "material_context": "La carta del volume è descritta come profumata alla cannella e all'arancio."
+      },
+      "kokyu": {
+        "narrative_dynamic": "Il profumo dei biscotti accompagna l'accoglienza di Bernie nella casetta.",
+        "material_dynamic": "Il profumo della carta può accompagnare le diverse pagine durante la lettura, se percepibile dal lettore."
+      },
+      "yūgen": {
+        "description": "Il testo nomina il profumo dei biscotti, ma non ne specifica la composizione aromatica. Cannella e arancio appartengono alla descrizione materiale della carta e non possono essere attribuiti ai biscotti senza ulteriori evidenze."
+      },
+      "japanese_echo": {
+        "concept": "omotenashi",
+        "description": "L'offerta di un biscotto ancora caldo viene interpretata come gesto di accoglienza spontanea, precedente a qualsiasi spiegazione da parte di Bernie.",
+        "relation_type": "cultural_interpretation"
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "quote": "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate.",
+          "supports": [
+            "narrative_scent",
+            "visual_atmosphere",
+            "auditory_atmosphere"
+          ],
+          "graph_scene": "scene-11"
+        },
+        {
+          "language": "it",
+          "quote": "Un elfo mi offre un altro biscotto gustoso e ancora caldo, che accetto con piacere.",
+          "supports": [
+            "food_warmth",
+            "hospitality",
+            "tactile_sensation"
+          ],
+          "graph_scene": "scene-12"
+        }
+      ],
+      "material_evidence": {
+        "property": "paper_scent",
+        "aromas": [
+          "cinnamon",
+          "orange"
+        ],
+        "source_description": "Dato editoriale fornito dall'editore il 24 ottobre 2026.",
+        "source_type": "publisher_statement",
+        "source_reference": null,
+        "verification_status": "reported_by_publisher"
+      },
+      "relations": [
+        {
+          "subject": "narrative_cookie_aroma",
+          "predicate": "co_occurs_with",
+          "object": "material_paper_scent"
+        }
+      ],
+      "non_equivalence": {
+        "status": true,
+        "description": "La compresenza del profumo narrativo e di quello materiale non dimostra una corrispondenza aromatica tra biscotti, cannella e arancio.",
+        "resolution_policy": "preserve_distinction"
+      }
+    },
+    {
+      "id": "sensation-02",
+      "label": "calore_dopo_il_freddo",
+      "basho": {
+        "description": "Il viaggio attraversa ambienti freddi e notti artiche. Le tappe di protezione e accoglienza sono rappresentate dall'ala del gufo, dalla casetta del villaggio e dall'abbraccio di Babbo Natale, fino al ritorno a casa."
+      },
+      "kokyu": {
+        "sequence": [
+          {
+            "order": 1,
+            "event": "arctic_cold",
+            "role": "environmental_context"
+          },
+          {
+            "order": 2,
+            "event": "owl_wing_protection",
+            "role": "shelter_and_warmth"
+          },
+          {
+            "order": 3,
+            "event": "santa_village_cabin",
+            "role": "hospitality_and_comfort"
+          },
+          {
+            "order": 4,
+            "event": "santa_claus_embrace",
+            "role": "affective_warmth"
+          },
+          {
+            "order": 5,
+            "event": "homecoming_gallipoli",
+            "role": "reunion_and_belonging"
+          }
+        ],
+        "description": "La progressione dal freddo al calore è un'interpretazione della sequenza narrativa. Le tappe rappresentano forme crescenti di protezione, accoglienza e appartenenza; non costituiscono una misurazione fisica della temperatura."
+      },
+      "yūgen": {
+        "description": "Il freddo è presentato come condizione del viaggio e non necessariamente come sofferenza. Il contrasto con il calore emerge dalla successione degli eventi e dai segnali di protezione."
+      },
+      "japanese_echo": {
+        "concept": "ma",
+        "description": "La pausa notturna sotto il pino può essere interpretata come intervallo narrativo tra l'esposizione al freddo e la successiva esperienza di protezione.",
+        "relation_type": "cultural_interpretation"
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "quote": "Iniziano a chiudersi gli occhi, mentre sono sotto l'ala del gufo, dove mi sento protetto e caldo.",
+          "supports": [
+            "tactile_sensation",
+            "shelter",
+            "perceived_warmth",
+            "safety"
+          ],
+          "graph_scene": "scene-09"
+        },
+        {
+          "language": "it",
+          "quote": "mi sento pervadere da un'immensa gioia e da un gradevole calore",
+          "supports": [
+            "affective_warmth",
+            "joy",
+            "emotional_response"
+          ],
+          "graph_scene": "scene-11"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "arctic_cold",
+          "predicate": "precedes",
+          "object": "owl_wing_protection",
+          "narrative_order": 1
+        },
+        {
+          "subject": "owl_wing_protection",
+          "predicate": "precedes",
+          "object": "santa_village_cabin",
+          "narrative_order": 2
+        },
+        {
+          "subject": "santa_village_cabin",
+          "predicate": "precedes",
+          "object": "santa_claus_embrace",
+          "narrative_order": 3
+        },
+        {
+          "subject": "santa_claus_embrace",
+          "predicate": "precedes",
+          "object": "homecoming_gallipoli",
+          "narrative_order": 4
+        }
+      ]
+    },
+    {
+      "id": "sensation-03",
+      "label": "tavola_di_casa_e_bentornato",
+      "basho": {
+        "description": "La casa di Gallipoli, la madre che canta e prepara la pasta, il padre che decora l'albero e il ricongiungimento affettivo con i genitori."
+      },
+      "kokyu": {
+        "sequence": [
+          {
+            "order": 1,
+            "event": "door_opens_home_gallipoli"
+          },
+          {
+            "order": 2,
+            "event": "mother_singing_and_cooking"
+          },
+          {
+            "order": 3,
+            "event": "recognition_of_family"
+          },
+          {
+            "order": 4,
+            "event": "embrace_with_parents"
+          }
+        ],
+        "description": "Il ritmo del ritorno è costruito attraverso l'apertura della porta, il riconoscimento degli elementi familiari e il ricongiungimento fisico."
+      },
+      "yūgen": {
+        "description": "L'odore della pasta non è esplicitamente nominato nelle citazioni disponibili. La preparazione del cibo può evocare un'esperienza olfattiva domestica, ma questa resta un'inferenza del lettore."
+      },
+      "japanese_echo": {
+        "concept": "okaeri",
+        "original_text": "おかえりなさい！",
+        "description": "Il saluto giapponese è associato al tema del ritorno a casa. Compare nel testo giapponese del libro fornito dall'editore, all'apertura della scena del ritorno.",
+        "relation_type": "cross_lingual_cultural_association",
+        "verification_status": "verified_in_supplied_text",
+        "source_reference": "testo giapponese del libro fornito dall'editore, 24 ottobre 2026"
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "quote": "Apro la porta: vedo subito la mia mamma che canta e prepara la pasta.",
+          "supports": [
+            "visual_recognition",
+            "auditory_cue",
+            "food_preparation",
+            "homecoming"
+          ],
+          "graph_scene": "scene-15"
+        },
+        {
+          "language": "it",
+          "quote": "Corro immediatamente verso di loro e li abbraccio con affetto.",
+          "supports": [
+            "tactile_contact",
+            "affection",
+            "family_reunion"
+          ],
+          "graph_scene": "scene-15"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "mother_singing_and_cooking",
+          "predicate": "evokes",
+          "object": "domestic_familiarity",
+          "evidence_type": "interpretation"
+        },
+        {
+          "subject": "embrace_with_parents",
+          "predicate": "evokes",
+          "object": "belonging",
+          "evidence_type": "interpretation"
+        }
+      ]
+    }
+  ],
+  "reader_effect": {
+    "target_context": "shared_reading_adult_child",
+    "description": "La lettura condivisa mette in relazione tre livelli sensoriali distinti: i profumi evocati dal racconto, la profumazione materiale della carta e i segnali domestici legati alla preparazione del cibo e al ritorno in famiglia.",
+    "material_sensory_association": "reader_dependent",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "Il calore narrativo si manifesta attraverso una sequenza di protezione, accoglienza, contatto affettivo e ritorno. La componente sensoriale nasce dall'interazione tra eventi narrati, percezione del lettore e caratteristiche materiali dell'edizione.",
+    "japanese_resonance": [
+      {
+        "concept": "omotenashi",
+        "associated_event": "elf_offers_warm_cookie",
+        "interpretation_status": "cultural_interpretation"
+      },
+      {
+        "concept": "okaeri",
+        "associated_event": "homecoming_gallipoli",
+        "interpretation_status": "cross_lingual_association"
+      },
+      {
+        "concept": "ma",
+        "associated_event": "night_under_pine",
+        "interpretation_status": "narrative_interpretation"
+      }
+    ],
+    "connected_glossary": [
+      "omotenashi",
+      "okaeri",
+      "spirito-del-natale",
+      "ma"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono collegate al testo fornito dall'editore e alla scena del grafo (graph_scene); il numero di pagina dell'edizione stampata non è documentato.",
+    "material_evidence": "Le proprietà fisiche del volume devono indicare la fonte, la data e il metodo di rilevazione o dichiarazione.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali devono essere distinte dalle evidenze esplicite.",
+    "cross_lingual_claims": "Le affermazioni sul testo giapponese rimandano al testo giapponese fornito dall'editore."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "cross_modal_non_equivalence",
+    "source_domain": "material_book",
+    "target_domain": "narrative_text",
+    "source_attribute": "cinnamon_orange_scent",
+    "target_attribute": "cookie_aroma",
+    "relation": "unverified_correspondence",
+    "description": "Il testo nomina il profumo dei biscotti, ma non specifica cannella o arancio. La corrispondenza tra la profumazione della carta e il profumo narrativo non è dichiarata dalle evidenze disponibili.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Quale profumo associ al momento in cui torni a casa?"
+  }
+}
