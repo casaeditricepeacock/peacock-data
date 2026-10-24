@@ -1,7 +1,7 @@
 {
   "type": "NarrativeObject",
   "version": "4.1",
-  "date": "2026-06",
+  "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
   "book": {
@@ -20,7 +20,8 @@
     "encounter_threshold": "ogni animale incontrato come soglia geografica e percettiva che amplia il campo di Bernie",
     "spirit_transmission": "la definizione dello spirito del Natale come trasmissione diretta di valore da Babbo Natale a Bernie",
     "return_object": "il ritorno a casa come oggetto narrativo distinto dal viaggio: non inversione ma compimento",
-    "narrative_gift": "il racconto portato a casa come dono ai genitori — equivalente strutturale dei pacchetti natalizi"
+    "narrative_gift": "il racconto portato a casa come dono ai genitori — equivalente strutturale dei pacchetti natalizi",
+    "sensory_material_object": "la materia del libro, qui la carta profumata, come oggetto percettivo che raggiunge il lettore prima delle parole"
   },
   "objects": [
     {
@@ -137,14 +138,36 @@
         "ma",
         "kokyu"
       ]
+    },
+    {
+      "id": "object-06",
+      "label": "carta_profumata_cannella_arancio",
+      "label_en": "cinnamon_orange_scented_paper",
+      "type": "sensory_material_object",
+      "intensity": 0.8,
+      "perceptual_weight": 0.85,
+      "basho": "il libro è stampato su carta profumata alla cannella e all'arancio: il profumo non è nel racconto ma nell'oggetto-libro e accompagna la lettura delle pagine",
+      "kokyu": "il profumo agisce per presenza continua, non per evento: resta come nota di fondo dall'inizio alla fine del volume",
+      "yūgen": "il profumo di cannella e arancio lega il libro al corpo di chi legge: si ricorderà anche quando il racconto sarà sfumato",
+      "affects": {
+        "object-03": "nella scena del villaggio il testo nomina il profumo di biscotti: il profumo della carta e quello del racconto sono due piani sensoriali diversi dello stesso libro",
+        "object-04": "il profumo accompagna anche il ritorno a casa e resta come traccia sensoriale dopo la chiusura del libro"
+      },
+      "textual_anchor_it": "carta profumata cannella arancio",
+      "anchor_type": "editor_statement",
+      "anchor_note": "dato fornito dall'editore il 24 ottobre 2026",
+      "glossary_link": [
+        "mono no aware",
+        "kokyu"
+      ]
     }
   ],
   "system_note": {
-    "object_count": 5,
+    "object_count": 6,
     "dominant_field": "object-02",
     "secondary_field": "object-05",
     "system_role": "geographic_exploration_return_field",
-    "narrative_model": "cinque operatori percettivi costruiscono un campo di viaggio-raccolta-trasmissione: il desiderio attiva la partenza, gli incontri raccolgono conoscenza, lo spirito del Natale la concentra in un valore, il ritorno la porta a casa, il racconto la trasmette",
+    "narrative_model": "cinque operatori percettivi costruiscono un campo di viaggio-raccolta-trasmissione: il desiderio attiva la partenza, gli incontri raccolgono conoscenza, lo spirito del Natale la concentra in un valore, il ritorno la porta a casa, il racconto la trasmette; a questi si aggiunge la materia profumata del volume, che accompagna tutta la lettura",
     "language_structure": "bilingue IT+JA: testo italiano e giapponese come due campi linguistici autonomi della stessa storia",
     "geographic_arc": "Gallipoli → Norvegia → oceano → Polo Nord → villaggio di Babbo Natale → Gallipoli",
     "closure_type": "return_as_narrative_transmission",
