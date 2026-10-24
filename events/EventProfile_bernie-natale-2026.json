@@ -1,0 +1,186 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "bernie_natale_2026",
+  "label": "Bernie alla scoperta dei mari del nord: campagna di Natale 2026, dal 15 novembre al 24 dicembre",
+  "event": {
+    "title": "Bernie arriva a casa per la Vigilia: campagna di lettura di Natale 2026",
+    "type": "campagna editoriale stagionale",
+    "date_start": "2026-11-15",
+    "date_end": "2026-12-24",
+    "duration_days": 40,
+    "format": "lettura a tappe del libro, un capitolo al giorno, sincronizzata con il viaggio di Bernie fino alla Vigilia di Natale",
+    "core_message": "Natale non è una meta lontana. È il calore che riconosci quando arrivi.",
+    "mechanic": {
+      "statement": "Leggi un capitolo al giorno. Arriva con Bernie il 24 dicembre.",
+      "description": "Il lettore sincronizza il proprio tempo con quello del libro: il viaggio si legge a tappe e si conclude con il ritorno a Gallipoli la sera della Vigilia."
+    },
+    "book": {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-8-5",
+      "year": 2023,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "format": "20x20 cm",
+      "paper": "carta profumata cannella e arancio",
+      "release_date": "2023-09-30",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    "reading_calendar": [
+      {
+        "from": "2026-11-15",
+        "to": "2026-11-22",
+        "chapters": "1-3",
+        "content": "introduzione e partenza"
+      },
+      {
+        "from": "2026-11-22",
+        "to": "2026-11-29",
+        "chapters": "4-6",
+        "content": "incontri con gli animali"
+      },
+      {
+        "from": "2026-11-29",
+        "to": "2026-12-06",
+        "chapters": "7-9",
+        "content": "il viaggio continua"
+      },
+      {
+        "from": "2026-12-06",
+        "to": "2026-12-13",
+        "chapters": "10-11",
+        "content": "arrivo da Babbo Natale"
+      },
+      {
+        "from": "2026-12-13",
+        "to": "2026-12-20",
+        "chapters": "12-14",
+        "content": "preparazione dei doni e partenza della slitta"
+      },
+      {
+        "from": "2026-12-20",
+        "to": "2026-12-24",
+        "chapters": "15-16",
+        "content": "ritorno a casa e finale"
+      }
+    ],
+    "reading_calendar_note": "i capitoli sono quelli del piano di campagna dell'editore"
+  },
+  "perceptual_pillars": [
+    {
+      "pillar": "sensory_homecoming",
+      "perceptual_field": "field-05",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/perceptual-field.json",
+      "message": "Natale profuma. Caldi. Risate che dicono bentornato.",
+      "sensations": [
+        "profumo di biscotti",
+        "calore dopo il freddo polare",
+        "luci colorate",
+        "risate"
+      ]
+    },
+    {
+      "pillar": "emotional_return",
+      "perceptual_field": "field-06",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/perceptual-field.json",
+      "message": "Il regalo più grande è essere a casa. Con chi ami.",
+      "sensations": [
+        "famiglia",
+        "abbraccio ai genitori",
+        "riconoscimento",
+        "ritorno a casa"
+      ]
+    },
+    {
+      "pillar": "festive_countdown",
+      "perceptual_field": "field-07",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/perceptual-field.json",
+      "message": "Leggi un capitolo al giorno. Arriva con Bernie il 24 dicembre.",
+      "sensations": [
+        "il tempo che passa",
+        "la Vigilia",
+        "il limite di mezzanotte"
+      ]
+    }
+  ],
+  "graph_connections": {
+    "sensorial": "sensorial/bernie-sensation-profumo-e-calore.json",
+    "places": [
+      "places/gallipoli-puglia.json",
+      "places/rovaniemi-lapponia.json"
+    ],
+    "characters": "series/bernie-alla-scoperta-dei-mari-del-nord/index.json",
+    "author": "authors/AuthorProfile_hiroko-yoshimoto.json",
+    "glossary": [
+      "glossario/spirito-del-natale.json",
+      "glossario/altruismo.json",
+      "glossario/okaeri.json"
+    ],
+    "previous_events": [
+      "events/EventProfile_bernie-edita-milano_2023.json",
+      "events/EventProfile_cascina-nascosta-milano_2023.json"
+    ]
+  },
+  "related_books": [
+    {
+      "title": "Bukku ブック 01",
+      "graph_path": "books/bukku/",
+      "relation": "Bukku è la soglia, Bernie è il libro del ritorno a casa",
+      "note": "collegamento concettuale indicato dall'editore"
+    }
+  ],
+  "why_peacock_here": {
+    "statement": "Bernie è il libro natalizio di Peacock: un albo illustrato bilingue italiano e giapponese in cui un gabbiano di Gallipoli vola fino al villaggio di Babbo Natale e torna a casa per la Vigilia. La campagna del 2026 lo ripropone come lettura a tappe da novembre a Natale."
+  },
+  "faq": [
+    {
+      "q": "Quando comincia la campagna di Natale di Bernie?",
+      "a": "Il 15 novembre 2026, quaranta giorni prima della Vigilia."
+    },
+    {
+      "q": "Come funziona la lettura a tappe di Bernie?",
+      "a": "Si legge un capitolo al giorno, in modo da arrivare con Bernie a Gallipoli il 24 dicembre."
+    },
+    {
+      "q": "Di che libro si tratta?",
+      "a": "Bernie alla scoperta dei mari del nord, albo illustrato bilingue italiano e giapponese di Hiroko Yoshimoto, Casa Editrice Peacock, 2023."
+    },
+    {
+      "q": "Su che carta è stampato Bernie?",
+      "a": "Su carta profumata alla cannella e all'arancio."
+    }
+  ],
+  "ai_query_surface": [
+    "Bernie alla scoperta dei mari del nord Natale 2026",
+    "libro di Natale bilingue italiano giapponese per bambini",
+    "libro da leggere a Natale un capitolo al giorno",
+    "libro di Natale con carta profumata",
+    "campagna Natale Casa Editrice Peacock",
+    "Bernie gabbiano Babbo Natale libro"
+  ],
+  "network_connections": [
+    {
+      "target": "bernie_alla_scoperta_dei_mari_del_nord",
+      "relation": "book_in_campaign",
+      "description": "Il libro al centro della campagna di Natale 2026"
+    },
+    {
+      "target": "rovaniemi_lapponia",
+      "relation": "journey_destination",
+      "description": "Il villaggio di Babbo Natale raggiunto da Bernie"
+    },
+    {
+      "target": "gallipoli_puglia",
+      "relation": "journey_origin_and_return",
+      "description": "Partenza e ritorno di Bernie"
+    }
+  ],
+  "system_note": "Campagna editoriale stagionale: date, messaggio, meccanica, calendario di lettura e pilastri forniti dall'editore. Le uscite di blog collegate verranno aggiunte come derived_articles dopo la pubblicazione."
+}
