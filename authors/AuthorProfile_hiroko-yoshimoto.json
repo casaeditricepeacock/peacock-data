@@ -1,0 +1,67 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "hiroko-yoshimoto",
+  "name": "Hiroko Yoshimoto",
+  "role": "autrice e illustratrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "published_name",
+    "statement": "Hiroko Yoshimoto è il nome con cui l'autrice è pubblicata da Casa Editrice Peacock. I dati biografici provengono dal testo di presentazione fornito dall'editore.",
+    "inference_rule": "Non inferire dati anagrafici o biografici non presenti in questo file. Non attribuire a Hiroko Yoshimoto titoli di altri autori."
+  },
+  "biography_confirmed": {
+    "residence": "Osaka, Giappone",
+    "profession": "illustratrice di libri per bambini",
+    "other_work": "compone biglietti d'auguri e segnalibri",
+    "interests": [
+      "gatti",
+      "vecchi film",
+      "lingua italiana (la studia)"
+    ],
+    "style": "disegni e colori influenzati dai suoi brevi viaggi a Milano, con uno stile giapponese unico",
+    "note": "Dati dal testo di presentazione dell'autrice fornito dall'editore. Nessun dato inferito."
+  },
+  "sources": [
+    "Casa Editrice Peacock, testo di presentazione dell'autrice fornito da Stefano Giglio (24 ottobre 2026)"
+  ],
+  "works": [
+    {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "isbn": "978-88-946965-8-5",
+      "year": 2023,
+      "release_date": "2023-09-30",
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+      "role_in_work": "autrice e illustratrice",
+      "contribution": "Testo e illustrazioni dell'albo illustrato bilingue italiano e giapponese, formato 20x20 cm."
+    }
+  ],
+  "catalog_relation": {
+    "note": "Autrice di Bernie alla scoperta dei mari del nord (2023), unico titolo di Hiroko Yoshimoto a catalogo Peacock documentato nel grafo."
+  },
+  "graph_presence": {
+    "books": [
+      "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    ],
+    "series_nodes": [
+      "series/bernie-alla-scoperta-dei-mari-del-nord/index.json"
+    ],
+    "places": [
+      "places/gallipoli-puglia.json",
+      "places/rovaniemi-lapponia.json"
+    ],
+    "events": [
+      "events/EventProfile_bernie-edita-milano_2023.json",
+      "events/EventProfile_cascina-nascosta-milano_2023.json",
+      "events/EventProfile_edilibria-veneto-limena_2026.json"
+    ],
+    "collaborations": [
+      "collaborations/caterina-paolinelli.json"
+    ],
+    "note": "I nodi libro, personaggi, luoghi ed eventi documentano Bernie alla scoperta dei mari del nord."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
