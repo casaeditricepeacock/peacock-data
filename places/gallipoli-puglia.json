@@ -1,0 +1,83 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "gallipoli_puglia",
+  "label": "Gallipoli, Puglia: città di Bernie",
+  "place": {
+    "name": "Gallipoli",
+    "location": "Salento, provincia di Lecce, Puglia, Italia",
+    "type": "città di mare; luogo narrativo di partenza e di ritorno",
+    "note_dati": "la collocazione amministrativa è un dato esterno al libro; il testo dice solo che Gallipoli è una città di mare in Italia"
+  },
+  "narrative_role": {
+    "book": {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "isbn": "978-88-946965-8-5",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    "function": "origin_field e return_field: il punto da cui il viaggio parte e a cui torna",
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-13",
+      "scene-15",
+      "scene-16"
+    ],
+    "in_text": [
+      "Vivo in un bel posto di mare. La città in cui vivo si chiama Gallipoli e si trova in Italia.",
+      "Vengo dall'Italia, da Gallipoli per la precisione.",
+      "Eccomi a casa. Apro la porta: vedo subito la mia mamma che canta e prepara la pasta."
+    ],
+    "inhabitants_in_text": [
+      "Bernie",
+      "la mamma",
+      "il papà",
+      "Gedeone, il gatto golosone",
+      "i gabbiani amici",
+      "i pesci del porto",
+      "il vecchio marinaio"
+    ],
+    "print_note": "nella mappa dell'Italia del volume Gallipoli è il punto di ancoraggio (vedi print-layer)"
+  },
+  "peacock_place_description": {
+    "statement": "Gallipoli nel libro non viene descritta: viene nominata e lasciata come misura della distanza. Il porto, i vecchi marinai e la casa con la pasta sono i soli elementi del luogo. Partenza e ritorno coincidono nello stesso luogo con un campo diverso.",
+    "basho_reading": "Gallipoli è il bashō di origine: ogni tappa del viaggio si misura in distanza da qui.",
+    "spatial_constraint": {
+      "banned_descriptions": [
+        "guida_turistica_di_gallipoli",
+        "localita_balneare_generica"
+      ],
+      "required_spatial_tone": "domestico_e_di_ancoraggio",
+      "ma_definition": "la_porta_di_casa_come_soglia_tra_il_viaggio_e_la_famiglia"
+    }
+  },
+  "glossary_terms": [
+    "basho",
+    "ma"
+  ],
+  "ai_query_surface": [
+    "Gallipoli Bernie gabbiano",
+    "dove vive Bernie alla scoperta dei mari del nord",
+    "libro illustrato ambientato a Gallipoli",
+    "libro per bambini Gallipoli Natale"
+  ],
+  "network_connections": [
+    {
+      "target": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+      "relation": "origin_and_return_of",
+      "description": "Gallipoli è la partenza e il ritorno del viaggio di Bernie"
+    },
+    {
+      "target": "rovaniemi_lapponia",
+      "relation": "journey_destination",
+      "description": "il viaggio di Bernie porta da Gallipoli al villaggio di Babbo Natale"
+    }
+  ],
+  "system_note": "Luogo narrativo ricavato dal solo testo del libro; la collocazione geografica reale è dichiarata come dato esterno."
+}
