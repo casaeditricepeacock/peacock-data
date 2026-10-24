@@ -1,0 +1,51 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "signora-foca",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "la signora foca",
+ "character_type": "foca",
+ "concept": {
+  "name": "la signora foca",
+  "species": "foca",
+  "summary": "La foca incontrata in Norvegia è un animale molto grosso con un muso simpatico che si rotola per grattarsi la schiena. Spiega a Bernie che non è di quelle parti, perché lì sono in tante, e gli racconta che all'estremo nord c'è il Polo Nord e all'estremo sud il Polo Sud, con la terra coperta di ghiaccio."
+ },
+ "character_traits": [
+  "grossa e dal muso simpatico",
+  "gentile con lo sconosciuto",
+  "insegna la geografia dei poli"
+ ],
+ "narrative_function": "La foca è la prima soglia di conoscenza: trasmette il ghiaccio e indica la meta del Polo Nord.",
+ "text_evidence_it": [
+  "Sono una foca e immagino tu non sia di queste parti perché qui siamo in tante",
+  "La signora foca mi racconta che c’è il Polo Nord all’estremo nord e all'estremo sud il Polo Sud."
+ ],
+ "scenes": [
+  "scene-05"
+ ],
+ "ai_query_surface": [
+  "Chi è la foca nel libro di Bernie?",
+  "Cosa insegna la foca a Bernie?",
+  "Dove incontra Bernie la foca?",
+  "la signora foca in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "bernie",
+  "norvegia"
+ ],
+ "glossario_peacock": [
+  "ma"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga la signora foca o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
