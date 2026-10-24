@@ -1,7 +1,7 @@
 {
   "type": "PerceptualField",
   "version": "4.1",
-  "date": "2026-06",
+  "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
   "book": {
@@ -30,7 +30,7 @@
       "persistence_rule": "cumulativo: ogni tappa si aggiunge alle precedenti come strato di distanza percepita; il campo geografico totale è la somma di tutte le tappe attraversate",
       "dissolution_rule": "si dissolve nel ritorno: quando la slitta atterra a Gallipoli il campo geografico progressivo si chiude e lascia posto al campo domestico",
       "field_logic": "geographic_expansion_as_knowledge_accumulation",
-      "textual_anchor_it": "Dopo alcuni giorni di volo arrivo in uno Stato chiamato Norvegia."
+      "textual_anchor_it": "Finalmente sono arrivato in uno stato chiamato Norvegia, dopo alcuni giorni di volo."
     },
     {
       "id": "field-02",
@@ -46,7 +46,7 @@
       "affects": {
         "field-03": "la sequenza degli incontri animali prepara la ricezione dello spirito del Natale: chi ha già ricevuto conoscenza da cinque specie diverse è pronto a ricevere una definizione valoriale"
       },
-      "textual_anchor_it": "Mi racconta che all'estremo nord la terra è ricoperta dal ghiaccio."
+      "textual_anchor_it": "La signora foca mi racconta che c’è il Polo Nord all’estremo nord e all'estremo sud il Polo Sud."
     },
     {
       "id": "field-03",
@@ -66,7 +66,7 @@
       "affects": {
         "field-04": "la ricezione dello spirito del Natale rende il ritorno un atto di trasmissione: Bernie torna per raccontare ciò che ha ricevuto"
       },
-      "textual_anchor_it": "Lo spirito del Natale è ricco di sentimenti buoni come l'affetto e l'altruismo. Dovremmo aiutarci gli uni gli altri tutto l'anno non solo a Natale."
+      "textual_anchor_it": "Dobbiamo abbracciare e baciare le persone che amiamo. Tutto questo però non dovrebbe succedere solo a Natale, ma in tutti i periodi dell’anno."
     },
     {
       "id": "field-04",
@@ -86,16 +86,69 @@
       "affects": {
         "field-01": "il campo del racconto trasmesso retroagisce sul campo geografico: ogni tappa era raccolta di materiale narrativo; il viaggio era sempre orientato verso questo campo"
       },
-      "textual_anchor_it": "Ho tante cose da raccontarvi."
+      "textual_anchor_it": "Ho tante cose da raccontarvi"
+    },
+    {
+      "id": "field-05",
+      "label": "campo_sensoriale_del_villaggio",
+      "type": "sensory_field",
+      "basho": "la casetta di legno del villaggio come campo sensoriale: luci colorate, profumo di biscotti ancora caldi, risate, calore dopo il freddo artico",
+      "kokyu": "il ritmo è quello dell'ingresso: la porta si apre e il calore arriva tutto insieme",
+      "yūgen_level": 0.9,
+      "activation_condition": "l'apertura della porta della casetta; massima attivazione nell'offerta del biscotto caldo",
+      "persistence_rule": "il calore del villaggio resta come contrasto con il freddo precedente e prepara il calore domestico del ritorno",
+      "dissolution_rule": "si trasferisce nel campo domestico di Gallipoli: la pasta, l'albero, il canto della mamma",
+      "field_logic": "sensory_warmth_as_arrival",
+      "affects": {
+        "field-06": "il calore del villaggio prepara il calore della casa"
+      },
+      "textual_anchor_it": "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate."
+    },
+    {
+      "id": "field-06",
+      "label": "campo_ritorno_a_casa",
+      "type": "relational_field",
+      "basho": "la casa di Gallipoli con la mamma che canta e prepara la pasta, il papà che decora l'albero, l'abbraccio",
+      "kokyu": "il ritmo è quello del ritorno atteso e non annunciato: la porta, lo sguardo, la corsa",
+      "yūgen_level": 0.97,
+      "activation_condition": "il cigolio della porta; massima attivazione nell'abbraccio ai genitori",
+      "persistence_rule": "permanente: il ritorno compie il viaggio e resta come misura di tutto ciò che Bernie ha raccolto",
+      "dissolution_rule": "non dissolvibile: la frase finale riafferma il valore dei legami",
+      "field_logic": "homecoming_as_completion",
+      "affects": {
+        "field-04": "l'abbraccio apre il racconto che il libro non contiene"
+      },
+      "textual_anchor_it": "Corro immediatamente verso di loro e li abbraccio con affetto."
+    },
+    {
+      "id": "field-07",
+      "label": "campo_tempo_della_vigilia",
+      "type": "temporal_field",
+      "basho": "il tempo del villaggio che passa in un lampo fino alla Vigilia di Natale e il termine fissato dalle renne: arrivare prima di mezzanotte",
+      "kokyu": "il ritmo accelera: le ore trascorrono, la Vigilia arriva, la slitta prende velocità",
+      "yūgen_level": 0.85,
+      "activation_condition": "la frase sulla Vigilia; massima attivazione nella promessa delle renne di arrivare prima di mezzanotte",
+      "persistence_rule": "il limite di mezzanotte resta attivo fino all'arrivo a casa",
+      "dissolution_rule": "si dissolve con l'ingresso in casa",
+      "field_logic": "deadline_as_homeward_pull",
+      "textual_anchor_it": "Il tempo è passato in un lampo e siamo già alla Vigilia di Natale."
     }
   ],
   "field_hierarchy": {
     "dominant": "field-03",
-    "secondary": ["field-04", "field-02"],
-    "support": ["field-01"]
+    "secondary": [
+      "field-04",
+      "field-02",
+      "field-06"
+    ],
+    "support": [
+      "field-01",
+      "field-05",
+      "field-07"
+    ]
   },
   "system_note": {
-    "field_count": 4,
+    "field_count": 7,
     "ontology": "strict_perceptual_4_1",
     "invalidated_elements": [
       "geographic_journey_as_end_in_itself",
