@@ -1,0 +1,45 @@
+{
+  "type": "GlossaryTerm",
+  "id": "okaeri",
+  "term": "Okaeri",
+  "kanji": "おかえりなさい",
+  "aliases": [
+    "Okaeri",
+    "okaeri nasai",
+    "お帰りなさい",
+    "おかえりなさい"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Formula giapponese con cui si accoglie chi torna a casa, «bentornato». Si risponde con tadaima, «sono tornato». Il saluto presuppone che la casa abbia aspettato chi era lontano.",
+  "definition_short_en": "Japanese phrase used to welcome someone who comes back home, 'welcome back'. The reply is tadaima, 'I'm home'. The greeting assumes that home has been waiting for the one who was away.",
+  "connected_terms": [
+    "spirito-del-natale",
+    "omotenashi",
+    "mono_no_aware",
+    "ma"
+  ],
+  "books_applied": [
+    "bernie_alla_scoperta_dei_mari_del_nord"
+  ],
+  "books_applied_paths": [
+    "books/bernie-alla-scoperta-dei-mari-del-nord"
+  ],
+  "note": "Ancorato nel testo giapponese di Bernie alla scoperta dei mari del nord: la scena del ritorno a Gallipoli si apre con おかえりなさい！ (nel testo italiano: «Eccomi a casa.»).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Okaeri",
+    "description": "Japanese phrase used to welcome someone who comes back home, 'welcome back'. The reply is tadaima, 'I'm home'. The greeting assumes that home has been waiting for the one who was away.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/okaeri.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "おかえりなさい"
+  }
+}
