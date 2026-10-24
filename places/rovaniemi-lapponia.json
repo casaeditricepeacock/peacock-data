@@ -1,0 +1,88 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "rovaniemi_lapponia",
+  "label": "Rovaniemi: il villaggio di Babbo Natale nel libro di Bernie",
+  "place": {
+    "name": "Rovaniemi",
+    "name_in_book": "Rovanemi (testo italiano); ロヴァニエミ (testo giapponese)",
+    "location": "Lapponia, Finlandia",
+    "type": "villaggio di Babbo Natale; luogo narrativo di trasmissione",
+    "note_dati": "la collocazione in Lapponia, Finlandia, è un dato esterno al libro; il testo dice solo che il viaggio è verso il Nord Europa e che il villaggio si chiama Rovanemi"
+  },
+  "narrative_role": {
+    "book": {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "isbn": "978-88-946965-8-5",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    "function": "transmission_field: il luogo in cui Bernie riceve la definizione dello spirito del Natale",
+    "scenes": [
+      "scene-08",
+      "scene-09",
+      "scene-10",
+      "scene-11",
+      "scene-12",
+      "scene-13",
+      "scene-14"
+    ],
+    "in_text": [
+      "Volo tutto contento verso il suo villaggio che si chiama Rovanemi!",
+      "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate.",
+      "Il tempo è passato in un lampo e siamo già alla Vigilia di Natale."
+    ],
+    "inhabitants_in_text": [
+      "Babbo Natale",
+      "gli elfi",
+      "le renne",
+      "il gufo delle nevi (sul pino fuori dal villaggio)"
+    ],
+    "elements_in_text": [
+      "casette di legno",
+      "luci colorate",
+      "profumo di biscotti",
+      "grande pino con pigne",
+      "slitta",
+      "polvere di stelle"
+    ]
+  },
+  "peacock_place_description": {
+    "statement": "Il villaggio è il campo sensorialmente più ricco del viaggio: luce, profumo e risate compaiono insieme alla porta della casetta. Il calore si oppone al freddo dei ghiacciai attraversati prima.",
+    "basho_reading": "Rovaniemi è il bashō della trasmissione: qui Bernie chiede e Babbo Natale risponde.",
+    "spatial_constraint": {
+      "banned_descriptions": [
+        "parco_a_tema",
+        "meta_turistica_di_rovaniemi"
+      ],
+      "required_spatial_tone": "caldo_e_accogliente",
+      "ma_definition": "la_notte_sotto_il_pino_come_pausa_prima_dell_ingresso_nel_villaggio"
+    }
+  },
+  "glossary_terms": [
+    "basho",
+    "ma"
+  ],
+  "ai_query_surface": [
+    "Rovaniemi Bernie gabbiano Babbo Natale",
+    "villaggio di Babbo Natale libro illustrato bilingue",
+    "libro di Natale per bambini italiano giapponese",
+    "Bernie alla scoperta dei mari del nord Natale"
+  ],
+  "network_connections": [
+    {
+      "target": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+      "relation": "transmission_field_of",
+      "description": "il villaggio dove Bernie impara lo spirito del Natale"
+    },
+    {
+      "target": "gallipoli_puglia",
+      "relation": "journey_origin",
+      "description": "da Gallipoli parte il viaggio che arriva al villaggio"
+    }
+  ],
+  "system_note": "Luogo narrativo ricavato dal solo testo del libro; la grafia Rovanemi è quella del testo italiano, la grafia corrente è Rovaniemi."
+}
