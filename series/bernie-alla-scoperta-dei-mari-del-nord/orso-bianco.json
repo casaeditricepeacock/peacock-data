@@ -1,0 +1,50 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "orso-bianco",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "il signor orso",
+ "character_type": "orso bianco",
+ "concept": {
+  "name": "il signor orso",
+  "species": "orso bianco",
+  "summary": "L'orso bianco si muove sui ghiacciai. Salutato da Bernie, spiega di non essere in realtà bianco: i peli del mantello sono trasparenti e sembrano bianchi perché tutto intorno è bianco. Bernie lo chiama signor orso e dice di aver fatto una scoperta."
+ },
+ "character_traits": [
+  "cordiale e disponibile",
+  "spiega un'apparenza",
+  "vive nel campo di massima distanza da Gallipoli"
+ ],
+ "narrative_function": "L'orso trasmette il freddo estremo e la lezione che l'apparenza dipende dal contesto.",
+ "text_evidence_it": [
+  "Buongiorno signor orso",
+  "i peli del mio mantello sono trasparenti. Siccome tutto intorno è bianco anche loro sembrano bianchi."
+ ],
+ "scenes": [
+  "scene-07"
+ ],
+ "ai_query_surface": [
+  "Perché l'orso è bianco nel libro di Bernie?",
+  "Cosa scopre Bernie dall'orso?",
+  "il signor orso in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "bernie",
+  "gufo-delle-nevi"
+ ],
+ "glossario_peacock": [
+  "yūgen"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il signor orso o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
