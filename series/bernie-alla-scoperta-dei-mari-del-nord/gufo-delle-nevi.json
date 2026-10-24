@@ -1,0 +1,51 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "gufo-delle-nevi",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "il gufo delle nevi",
+ "character_type": "gufo delle nevi",
+ "concept": {
+  "name": "il gufo delle nevi",
+  "species": "gufo delle nevi",
+  "summary": "Il gufo delle nevi è un gufo tutto bianco che reclama il suo ramo su un grande pino. Spiega di essere bianco perché è un gufo delle nevi e lascia che Bernie dorma con lui. Bernie dorme sotto l'ala del gufo, protetto e caldo."
+ },
+ "character_traits": [
+  "tutto bianco",
+  "ospita lo sconosciuto senza chiedere nulla",
+  "protettivo"
+ ],
+ "narrative_function": "Il gufo è la forma più silenziosa di cura del viaggio: una notte di protezione prima del villaggio.",
+ "text_evidence_it": [
+  "Io sono tutto bianco perché sono un gufo delle nevi, resta pure con me a dormire questa notte",
+  "Iniziano a chiudersi gli occhi, mentre sono sotto l'ala del gufo, dove mi sento protetto e caldo."
+ ],
+ "scenes": [
+  "scene-09"
+ ],
+ "ai_query_surface": [
+  "Chi è il gufo nel libro di Bernie?",
+  "Dove dorme Bernie al Polo Nord?",
+  "il gufo delle nevi in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "bernie",
+  "orso-bianco"
+ ],
+ "glossario_peacock": [
+  "ma",
+  "yūgen"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga il gufo delle nevi o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
