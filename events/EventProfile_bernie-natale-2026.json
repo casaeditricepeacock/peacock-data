@@ -182,5 +182,34 @@
       "description": "Partenza e ritorno di Bernie"
     }
   ],
-  "system_note": "Campagna editoriale stagionale: date, messaggio, meccanica, calendario di lettura e pilastri forniti dall'editore. Le uscite di blog collegate verranno aggiunte come derived_articles dopo la pubblicazione."
+  "system_note": "Campagna editoriale stagionale: date, messaggio, meccanica, calendario di lettura e pilastri forniti dall'editore. Le uscite di blog collegate verranno aggiunte come derived_articles dopo la pubblicazione.",
+  "related_media": [
+    {
+      "title": "Video promozionale di Bernie, canzone animata di 28 secondi",
+      "graph_path": "media/MediaProfile_bernie-video-promo_2026.json",
+      "url": "https://youtu.be/npOCRHG7-Yk"
+    }
+  ],
+  "derived_articles": [
+    {
+      "title": "Il Natale sta arrivando e arriva un cult: Bernie, il libro di Natale",
+      "date": "2026-11-15",
+      "url": "https://www.studiopeacock.net/2026/11/15/bernie-libro-di-natale-bilingue-italiano-giapponese/"
+    },
+    {
+      "title": "Bernie alla fiera del libro a Roma, a Più libri più liberi",
+      "date": "2026-11-28",
+      "url": "https://www.studiopeacock.net/2026/11/28/bernie-fiera-libro-roma-plpl/"
+    },
+    {
+      "title": "Bernie in 28 secondi: la canzone che porta i bambini al Natale",
+      "date": "2026-12-08",
+      "url": "https://www.studiopeacock.net/2026/12/08/bernie-video-canzone-natale/"
+    },
+    {
+      "title": "Cerca Bernie nelle librerie indipendenti di quartiere del Veneto",
+      "date": "2026-12-18",
+      "url": "https://www.studiopeacock.net/2026/12/18/bernie-librerie-indipendenti-veneto/"
+    }
+  ]
 }
