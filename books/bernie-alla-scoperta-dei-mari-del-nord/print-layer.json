@@ -36,7 +36,9 @@
       "glossary_link": [
         "basho",
         "ma"
-      ]
+      ],
+      "anchor_type": "colophon_volume_stampato",
+      "anchor_note": "dato dal colophon del volume stampato, non dal testo narrativo"
     },
     {
       "id": "print-02",
@@ -55,7 +57,7 @@
       "affects": {
         "print-03": "la mappa orienta il lettore prima delle illustrazioni: il campo geografico è stabilito visivamente prima che il viaggio inizi nel testo"
       },
-      "textual_anchor_it": "Vivo in un bel posto di mare, in una città che si chiama Gallipoli e si trova in Italia.",
+      "textual_anchor_it": "Vivo in un bel posto di mare. La città in cui vivo si chiama Gallipoli e si trova in Italia.",
       "glossary_link": [
         "basho",
         "kokyu"
@@ -74,7 +76,7 @@
       "affects": {
         "print-04": "la pagina degli oggetti prepara il campo delle illustrazioni geografiche: dopo gli strumenti astratti del navigatore arrivano i luoghi concreti del viaggio"
       },
-      "textual_anchor_it": "Da grande vorrei fare l'esploratore.",
+      "textual_anchor_it": "Sogno anche io di conoscere mari e paesi lontani. Da grande voglio fare l’esploratore.",
       "glossary_link": [
         "basho",
         "yūgen"
@@ -99,7 +101,9 @@
         "basho",
         "ma",
         "yūgen"
-      ]
+      ],
+      "anchor_type": "colophon_volume_stampato",
+      "anchor_note": "dato dal colophon del volume stampato, non dal testo narrativo"
     },
     {
       "id": "print-05",
@@ -111,7 +115,7 @@
       "basho": "il testo italiano e il testo giapponese abitano lo stesso libro su pagine proprie o in alternanza: due comunità linguistiche fanno lo stesso viaggio con Bernie su percorsi testuali paralleli",
       "kokyu": "il ritmo del bilingue è quello della coesistenza: le due lingue non si traducono a vicenda sulla stessa pagina; ciascuna ha il proprio spazio e il proprio ritmo di lettura",
       "yūgen": "un lettore italiano che incontra il giapponese e un lettore giapponese che incontra l'italiano: entrambi percepiscono la lingua dell'altro come campo visivo parallelo — come il Polo Nord visto dalla Norvegia",
-      "textual_anchor_it": "大人になったら、探検家になりたいです。",
+      "textual_anchor_it": "大人になったら探検家になりたいです。",
       "glossary_link": [
         "ma",
         "yūgen",
