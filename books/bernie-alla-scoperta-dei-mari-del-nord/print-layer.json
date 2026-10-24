@@ -1,7 +1,7 @@
 {
   "type": "NarrativePrintLayer",
   "version": "4.1",
-  "date": "2026-06",
+  "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
   "book": {
@@ -17,7 +17,8 @@
     "bilingual_alternation": "testo italiano e giapponese come due campi linguistici che si alternano o coesistono sulla stessa apertura",
     "full_page_illustration": "le illustrazioni a piena pagina come campi visivi autonomi che precedono o seguono il testo senza didascalia",
     "map_as_orientation": "la mappa dell'Italia con Gallipoli come campo geografico di ancoraggio: il lettore sa da dove parte prima di sapere dove arriva",
-    "explorer_objects": "la doppia pagina degli oggetti del navigatore come campo enciclopedico intermedio tra desiderio e partenza"
+    "explorer_objects": "la doppia pagina degli oggetti del navigatore come campo enciclopedico intermedio tra desiderio e partenza",
+    "scented_paper": "la carta profumata alla cannella e all'arancio come campo olfattivo che accompagna la lettura ad alta voce"
   },
   "editorial_principle": "L'oggetto-libro di Bernie è costruito per la lettura ad alta voce e per l'orientamento geografico. La mappa apre il viaggio. Le illustrazioni a piena pagina lo abitano. Il formato quadrato lo contiene senza gerarchie visive. Il bilingue IT+JA lo apre a due comunità linguistiche. Chi legge il libro in italiano e chi lo legge in giapponese fanno lo stesso viaggio su pagine diverse.",
   "print_layers": [
@@ -116,6 +117,24 @@
         "yūgen",
         "kokyu"
       ]
+    },
+    {
+      "id": "print-06",
+      "label": "carta_profumata_cannella_arancio",
+      "label_en": "cinnamon_orange_scented_paper",
+      "type": "scented_paper",
+      "intensity": 0.85,
+      "perceptual_weight": 0.85,
+      "basho": "la carta del volume porta un profumo di cannella e arancio: il campo olfattivo si aggiunge al campo visivo delle illustrazioni a piena pagina",
+      "kokyu": "il profumo accompagna la lettura per tutto il tempo in cui il libro è aperto e non cambia da una pagina all'altra",
+      "yūgen": "il lettore sente il profumo prima di leggere e lo associa al libro più che al racconto",
+      "textual_anchor_it": "carta profumata cannella arancio",
+      "anchor_type": "editor_statement",
+      "anchor_note": "dato fornito dall'editore il 24 ottobre 2026",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
     }
   ],
   "linear_structure": [
@@ -160,10 +179,10 @@
     ]
   },
   "system_note": {
-    "print_layer_count": 5,
+    "print_layer_count": 6,
     "dominant_field": "print-04",
     "secondary_field": "print-02",
-    "narrative_model": "cinque strati fisici che replicano la struttura del viaggio: formato neutro, mappa di ancoraggio, oggetti del navigatore, illustrazioni geografiche, bilingue parallelo",
+    "narrative_model": "cinque strati fisici che replicano la struttura del viaggio: formato neutro, mappa di ancoraggio, oggetti del navigatore, illustrazioni geografiche, bilingue parallelo; a questi si aggiunge la carta profumata alla cannella e all'arancio",
     "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
   }
 }
