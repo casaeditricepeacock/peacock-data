@@ -1,0 +1,43 @@
+{
+  "type": "GlossaryTerm",
+  "id": "spirito-del-natale",
+  "term": "Spirito del Natale",
+  "kanji": "クリスマスの精神",
+  "aliases": [
+    "Spirito del Natale",
+    "spirito natalizio",
+    "クリスマスの精神"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Nel libro Bernie alla scoperta dei mari del nord è definito da Babbo Natale come un insieme di sentimenti belli, l'affetto e l'altruismo, da vivere in tutti i periodi dell'anno e non solo a Natale.",
+  "definition_short_en": "In the book Bernie alla scoperta dei mari del nord Santa Claus defines it as a set of good feelings, affection and altruism, to be lived all year round and not only at Christmas.",
+  "connected_terms": [
+    "altruismo",
+    "okaeri",
+    "omotenashi"
+  ],
+  "books_applied": [
+    "bernie_alla_scoperta_dei_mari_del_nord"
+  ],
+  "books_applied_paths": [
+    "books/bernie-alla-scoperta-dei-mari-del-nord"
+  ],
+  "note": "Ancorato in Bernie alla scoperta dei mari del nord: Bernie dichiara di essere venuto per imparare lo spirito del Natale; la risposta di Babbo Natale lo lega a affetto e altruismo. Il kanji クリスマスの精神 compare nel testo giapponese del libro.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Spirito del Natale",
+    "description": "In the book Bernie alla scoperta dei mari del nord Santa Claus defines it as a set of good feelings, affection and altruism, to be lived all year round and not only at Christmas.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/spirito-del-natale.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "クリスマスの精神"
+  }
+}
