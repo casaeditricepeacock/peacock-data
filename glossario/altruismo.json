@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "altruismo",
+  "term": "Altruismo",
+  "kanji": "利他主義",
+  "aliases": [
+    "Altruismo",
+    "altruista",
+    "利他主義"
+  ],
+  "category": "voci_in_sviluppo",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Fare delle azioni per gli altri. In Bernie alla scoperta dei mari del nord Babbo Natale lo spiega con un esempio: porta i doni ai bambini perché gli fa piacere vederli felici.",
+  "definition_short_en": "Doing things for others. In Bernie alla scoperta dei mari del nord Santa Claus explains it with an example: he brings gifts to children because it makes him happy to see them happy.",
+  "connected_terms": [
+    "spirito-del-natale",
+    "omotenashi"
+  ],
+  "books_applied": [
+    "bernie_alla_scoperta_dei_mari_del_nord"
+  ],
+  "books_applied_paths": [
+    "books/bernie-alla-scoperta-dei-mari-del-nord"
+  ],
+  "note": "Ancorato in Bernie alla scoperta dei mari del nord: «Essere altruista vuol dire fare delle azioni per gli altri.» (Babbo Natale). Il kanji 利他主義 compare nel testo giapponese del libro.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Altruismo",
+    "description": "Doing things for others. In Bernie alla scoperta dei mari del nord Santa Claus explains it with an example: he brings gifts to children because it makes him happy to see them happy.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/altruismo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "利他主義"
+  }
+}
