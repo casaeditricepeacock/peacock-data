@@ -1,7 +1,7 @@
 {
   "type": "NarrativeScene",
   "version": "4.1",
-  "date": "2026-06",
+  "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Peacock Narrative Protocol",
   "book": {
@@ -27,16 +27,15 @@
   "scenes": [
     {
       "id": "scene-01",
-      "label": "gallipoli_partenza",
+      "label": "gallipoli_presentazione",
       "type": "origin_field",
-      "dominant": true,
-      "basho": "Gallipoli: città di mare, punto cardinale del sistema; tutto il viaggio si misura in distanza da qui; il campo originario non viene descritto in dettaglio — viene nominato e lasciato come ancoraggio",
-      "kokyu": "il ritmo della partenza è quello della decisione condivisa: la sera con Gedeone, la mattina il volo; tra decisione e partenza non c'è indugio",
-      "yūgen": "Gallipoli non viene mostrata prima del viaggio: il lettore la incontra nominata e poi lasciata; la città esiste come campo di assenza durante tutta la storia",
+      "basho": "Gallipoli nominata e collocata in Italia: Bernie si presenta come gabbiano di una città di mare e rivolge subito la domanda al lettore",
+      "kokyu": "il ritmo è quello del saluto: nome, specie, luogo, domanda; la presentazione apre un dialogo e non una descrizione",
+      "yūgen": "Gallipoli non viene mostrata ma nominata; esiste come ancoraggio, non come paesaggio",
       "affects": {
-        "scene-05": "Gallipoli di partenza e Gallipoli di ritorno sono lo stesso luogo con un campo diverso: la scena finale retroagisce sull'iniziale"
+        "scene-16": "la Gallipoli della presentazione e quella del ritorno sono lo stesso luogo con un campo diverso"
       },
-      "textual_anchor_it": "Mi chiamo Bernie e sono un gabbiano. Vivo in un bel posto di mare, in una città che si chiama Gallipoli.",
+      "textual_anchor_it": "Vivo in un bel posto di mare. La città in cui vivo si chiama Gallipoli e si trova in Italia. Tu dove vivi?",
       "glossary_link": [
         "basho",
         "ma"
@@ -44,19 +43,87 @@
     },
     {
       "id": "scene-02",
-      "label": "norvegia_foca_oceano_balene",
-      "type": "geographic_threshold",
-      "basho": "due tappe concatenate: la Norvegia con la signora foca che insegna il ghiaccio; l'oceano argentato con le balene su cui Bernie si appoggia e cavalca; il campo si espande verso nord per gradi",
-      "kokyu": "il ritmo è quello della progressione: ogni tappa è più lontana e più fredda della precedente; la velocità della balena introduce il ritmo accelerato che culminerà nelle renne",
-      "yūgen": "cavalcare una balena senza che questo venga trattato come evento straordinario: la meraviglia è nella sproporzione tra il gabbiano e la balena, non nel commento di Bernie",
+      "label": "tavola_e_pasta",
+      "type": "origin_field",
+      "basho": "la tavola di casa evocata attraverso il cibo: il pesce, la pasta, la mamma che cucina; il lettore è invitato a confrontare la propria tavola",
+      "kokyu": "ritmo domestico di domande brevi rivolte al lettore: cosa mangi, mangi tutto",
+      "yūgen": "la mamma compare solo come cuoca; la famiglia esiste come presenza di cura prima di essere persona",
+      "affects": {
+        "scene-16": "la pasta della mamma ritorna nella scena finale a Gallipoli"
+      },
+      "textual_anchor_it": "Mi piace mangiare il pesce, ma quello che amo ancora di più è la pasta!",
+      "glossary_link": [
+        "basho",
+        "omotenashi"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "label": "desiderio_di_esplorare",
+      "type": "origin_field",
+      "basho": "il porto e i vecchi marinai che raccontano mari e terre lontane; Bernie ascolta e sente che gli manca qualcosa",
+      "kokyu": "ritmo dell'attesa: felicità presente e mancanza insieme, prima di ogni decisione",
+      "yūgen": "la mancanza non viene nominata come infelicità: Bernie è felice e sente comunque di dover partire",
+      "affects": {
+        "scene-04": "il desiderio diventa decisione nel dialogo con l'amico"
+      },
+      "textual_anchor_it": "Sogno anche io di conoscere mari e paesi lontani. Da grande voglio fare l’esploratore.",
+      "glossary_link": [
+        "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "label": "gedeone_consiglio",
+      "type": "origin_field",
+      "basho": "la sera con Gedeone, il gatto golosone amico di Bernie, che adora le torte alla crema; la decisione nasce da una conversazione tra amici",
+      "kokyu": "ritmo della consultazione breve: una domanda, una risposta, la decisione immediata",
+      "yūgen": "il consiglio dell'amico basta: nessuna esitazione, nessun saluto ai genitori nel testo",
       "non_integrable_residue": {
         "status": true,
-        "description": "perché le balene accettino il peso di Bernie senza reagire: la disponibilità degli animali è strutturale al campo del viaggio e non viene motivata"
+        "description": "i genitori non vengono avvisati nel testo: la loro assenza durante il viaggio non è motivata"
       },
       "affects": {
-        "scene-03": "le tappe intermedie preparano il campo artico: ogni grado di freddo e distanza in più rende il Polo Nord raggiungibile come progressione naturale"
+        "scene-05": "la decisione apre il volo verso nord"
       },
-      "textual_anchor_it": "Da non credere: io, Bernie il gabbiano, mi trovo sulla schiena di una balena. Come va veloce!",
+      "textual_anchor_it": "Mi piacerebbe visitare il mondo, tu che cosa ne pensi?",
+      "glossary_link": [
+        "ma",
+        "omotenashi"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "label": "norvegia_foca_poli",
+      "type": "geographic_threshold",
+      "basho": "la Norvegia raggiunta dopo alcuni giorni di volo; la foca che si gratta la schiena insegna che all'estremo nord c'è il Polo Nord e all'estremo sud il Polo Sud",
+      "kokyu": "ritmo dell'incontro casuale: un rumore strano, una domanda gentile, una spiegazione",
+      "yūgen": "Bernie non conosce la foca e non finge di conoscerla: il non sapere è il motore della scena",
+      "affects": {
+        "scene-06": "il Polo Nord diventa meta dichiarata"
+      },
+      "textual_anchor_it": "Sono una foca e immagino tu non sia di queste parti perché qui siamo in tante",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "label": "balene_oceano",
+      "type": "geographic_threshold",
+      "basho": "il mare aperto con macchie grosse e scure che sono balene; Bernie si appoggia sulla schiena di una di loro",
+      "kokyu": "ritmo accelerato: la balena va veloce e il volo si fa trasporto",
+      "yūgen": "la sproporzione tra il gabbiano e la balena è la meraviglia; Bernie non la commenta oltre l'esclamazione",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "perché la balena accetti il peso di Bernie senza reagire non è detto: la disponibilità degli animali è strutturale al campo"
+      },
+      "affects": {
+        "scene-07": "la velocità dell'oceano porta ai ghiacciai"
+      },
+      "textual_anchor_it": "Da non credere: io, Bernie il gabbiano, mi trovo appoggiato sulla schiena di una balena. Come va veloce!",
       "glossary_link": [
         "basho",
         "kokyu",
@@ -64,70 +131,189 @@
       ]
     },
     {
-      "id": "scene-03",
-      "label": "polo_nord_orso_gufo",
+      "id": "scene-07",
+      "label": "ghiacciai_orso_bianco",
       "type": "arctic_field",
-      "basho": "il Polo Nord come campo di massima distanza: ghiaccio ovunque, orso polare sul banco di ghiaccio, gufo innevato su un grande pino; Bernie dorme sul pino protetto dal gufo",
-      "kokyu": "il ritmo diventa quello della quiete artica: dopo la velocità delle balene e delle renne il campo si ferma; Bernie dorme, il gufo veglia",
-      "yūgen": "il gufo che protegge Bernie nel sonno è la forma più silenziosa di cura del viaggio: nessun dialogo, nessuna spiegazione; il campo notturno artico è la scena più silenziosa del libro",
+      "basho": "i ghiacciai interamente bianchi; qualcosa di bianco si muove ed è un orso: il campo di massima distanza da Gallipoli",
+      "kokyu": "ritmo della scoperta: un movimento, l'avvicinamento, la domanda diretta, la spiegazione",
+      "yūgen": "il bianco che non è bianco: il pelo è trasparente e sembra bianco perché tutto intorno è bianco",
       "affects": {
-        "scene-04": "la quiete del Polo Nord prepara l'arrivo al villaggio di Babbo Natale come passaggio dal silenzio al calore"
+        "scene-08": "dal punto più lontano parte la risalita verso il villaggio"
       },
-      "textual_anchor_it": "Ringrazio il signor gufo e scendo a salutare gli elfi.",
+      "textual_anchor_it": "i peli del mio mantello sono trasparenti. Siccome tutto intorno è bianco anche loro sembrano bianchi.",
       "glossary_link": [
         "basho",
+        "yūgen"
+      ]
+    },
+    {
+      "id": "scene-08",
+      "label": "verso_il_villaggio_rovaniemi",
+      "type": "arctic_field",
+      "basho": "il lungo volo verso il villaggio di Babbo Natale in inverno, con la certezza che sia occupato a preparare i doni; il villaggio si chiama Rovanemi nel testo italiano",
+      "kokyu": "ritmo dell'attesa gioiosa: l'emozione dichiarata, il volo contento, l'arrivo",
+      "yūgen": "l'incontro più importante del viaggio è annunciato prima di avvenire e ancora rimandato alla mattina",
+      "affects": {
+        "scene-09": "la notte interrompe l'arrivo"
+      },
+      "textual_anchor_it": "Al villaggio di Babbo Natale. Poiché sto viaggiando in inverno sono certo che lui sarà occupato a preparare tutti i doni per i bambini.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "scene-09",
+      "label": "gufo_delle_nevi_notte",
+      "type": "arctic_field",
+      "basho": "un grande pino, un ramo che è del gufo, la notte che arriva; Bernie dorme sotto l'ala del gufo",
+      "kokyu": "ritmo del riposo: tutto rallenta e si ferma",
+      "yūgen": "il gufo ospita senza spiegazioni: protezione e calore sono la scena più silenziosa del libro",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "nessuna parola del gufo spiega perché accolga uno sconosciuto"
+      },
+      "affects": {
+        "scene-10": "dal silenzio della notte al risveglio tra gli elfi"
+      },
+      "textual_anchor_it": "Iniziano a chiudersi gli occhi, mentre sono sotto l'ala del gufo, dove mi sento protetto e caldo.",
+      "glossary_link": [
         "ma",
         "yūgen"
       ]
     },
     {
-      "id": "scene-04",
-      "label": "villaggio_di_babbo_natale",
+      "id": "scene-10",
+      "label": "elfi_al_mattino",
       "type": "transmission_field",
-      "basho": "casette di legno da favola, luci colorate, profumo di biscotti, calore: il villaggio è il campo sensorialmente più ricco del viaggio; Babbo Natale seduto a tavola fa cenno a Bernie di avvicinarsi",
-      "kokyu": "il ritmo si scalda e si rallenta insieme: il lavoro con gli elfi è allegro e veloce ma la conversazione con Babbo Natale è densa e diretta; i due ritmi coesistono nello stesso campo",
-      "yūgen": "lo spirito del Natale definito come pratica quotidiana e non come evento festivo: la risposta di Babbo Natale sposta il campo dalla magia alla responsabilità",
-      "non_integrable_residue": {
-        "status": true,
-        "description": "la definizione dello spirito del Natale viene trasmessa ma la sua pratica avviene fuori dal libro: il campo della trasmissione è compiuto, il campo della verifica è aperto"
-      },
+      "basho": "il mattino sotto il pino, gli elfi che raccolgono pigne; l'elfo riconosce un gabbiano e parla la sua lingua",
+      "kokyu": "ritmo del risveglio e dell'accoglienza: voci, sorpresa, presentazione, invito",
+      "yūgen": "la lingua degli animali conosciuta dagli elfi elimina ogni barriera senza spiegarla",
       "affects": {
-        "scene-05": "il valore ricevuto al villaggio trasforma il ritorno da evento geografico a evento valoriale: Bernie non torna solo a Gallipoli ma torna con lo spirito del Natale"
+        "scene-11": "l'invito degli elfi apre la porta del villaggio"
       },
-      "textual_anchor_it": "Lo spirito del Natale è ricco di sentimenti buoni come l'affetto e l'altruismo. Dovremmo aiutarci gli uni gli altri tutto l'anno non solo a Natale.",
+      "textual_anchor_it": "Certamente, Bernie. Noi elfi conosciamo tutte le lingue del mondo",
       "glossary_link": [
         "basho",
-        "mono no aware",
-        "kokyu"
+        "omotenashi"
       ]
     },
     {
-      "id": "scene-05",
-      "label": "gallipoli_ritorno",
-      "type": "return_field",
-      "basho": "la stessa porta di Gallipoli: la mamma canta e prepara la pasta, il papà decora l'albero; il campo familiare era in moto senza sapere del viaggio",
-      "kokyu": "il ritmo finale è quello dell'arrivo dopo la corsa: la slitta atterra, Bernie corre, abbraccia, annuncia; poi il libro si ferma",
-      "yūgen": "la famiglia che stava già festeggiando senza di lui: Bernie non era necessario alla preparazione del Natale; il suo ritorno aggiunge qualcosa che non mancava ma che ora è più ricco",
+      "id": "scene-11",
+      "label": "casa_di_babbo_natale",
+      "type": "transmission_field",
+      "basho": "la casetta di legno con luci colorate, profumo di biscotti, risate allegre; Babbo Natale seduto a tavola con il volto simpatico e felice",
+      "kokyu": "ritmo che si scalda: la porta si apre, il calore arriva insieme alla gioia",
+      "yūgen": "il campo sensorialmente più ricco del viaggio: luce, odore e suono compaiono insieme",
+      "affects": {
+        "scene-12": "l'accoglienza prepara la domanda sullo spirito del Natale"
+      },
+      "textual_anchor_it": "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate.",
+      "glossary_link": [
+        "basho",
+        "omotenashi",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-12",
+      "label": "spirito_del_natale",
+      "type": "transmission_field",
+      "dominant": true,
+      "basho": "il tavolo del villaggio come luogo della domanda: Bernie dichiara di essere venuto per imparare lo spirito del Natale; Babbo Natale risponde con affetto e altruismo",
+      "kokyu": "ritmo del dialogo diretto: una domanda, una definizione, un esempio semplice",
+      "yūgen": "lo spirito del Natale è definito come pratica di tutto l'anno e non come evento festivo",
       "non_integrable_residue": {
         "status": true,
-        "description": "il racconto che Bernie annuncia non è nel libro: l'ultima frase apre un campo narrativo che il testo non contiene"
+        "description": "la pratica dell'altruismo avviene fuori dal libro: la trasmissione è compiuta, la verifica è aperta"
       },
       "affects": {
-        "scene-01": "la scena del ritorno retroagisce sulla partenza: Gallipoli non è cambiata; è Bernie che porta il cambiamento dentro al campo immutato"
+        "scene-16": "il valore ricevuto trasforma il ritorno in trasmissione"
       },
-      "textual_anchor_it": "Ho tante cose da raccontarvi.",
+      "textual_anchor_it": "Tutto questo però non dovrebbe succedere solo a Natale, ma in tutti i periodi dell’anno.",
       "glossary_link": [
-        "mono no aware",
-        "ma",
+        "basho",
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-13",
+      "label": "lavoro_con_gli_elfi_vigilia",
+      "type": "transmission_field",
+      "basho": "i pacchetti natalizi preparati insieme agli elfi, tra canti, risate e biscotti; poi la Vigilia e la nostalgia di amici, famiglia e porto",
+      "kokyu": "ritmo che accelera: le ore passano in un lampo, poi il tempo si fa nostalgia",
+      "yūgen": "la mancanza di casa arriva nel momento di massima felicità",
+      "affects": {
+        "scene-14": "la nostalgia apre la partenza"
+      },
+      "textual_anchor_it": "Però sento che mi mancano i miei amici gabbiani, Gedeone, i pesci del porto, il vecchio marinaio e, ovviamente, mamma e papà.",
+      "glossary_link": [
+        "kokyu",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-14",
+      "label": "renne_e_slitta",
+      "type": "return_field",
+      "basho": "le renne che si voltano insieme, il loro capo che promette il viaggio verso sud; la slitta che prende il volo grazie alla magica polvere di stelle",
+      "kokyu": "ritmo di accelerazione: le renne si muovono, corrono, si sollevano da terra",
+      "yūgen": "le renne sono definite le migliori assistenti di viaggio; la promessa è arrivare prima di mezzanotte",
+      "affects": {
+        "scene-15": "il volo termina sopra Gallipoli"
+      },
+      "textual_anchor_it": "Scenderemo verso sud, come una delle nostre prime mete, così potrai abbracciare mamma e papà prima della mezzanotte",
+      "glossary_link": [
+        "kokyu",
         "basho"
+      ]
+    },
+    {
+      "id": "scene-15",
+      "label": "ritorno_a_gallipoli",
+      "type": "return_field",
+      "basho": "la porta di casa, la mamma che canta e prepara la pasta, il papà che finisce di decorare l'albero; l'abbraccio ai genitori",
+      "kokyu": "ritmo dell'arrivo: il cigolio della porta, i genitori che si voltano, la corsa all'abbraccio",
+      "yūgen": "la famiglia stava già festeggiando; Bernie aggiunge qualcosa che non mancava ma rende il campo più ricco",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il racconto annunciato ai genitori non è nel libro"
+      },
+      "affects": {
+        "scene-01": "la scena retroagisce sulla presentazione",
+        "scene-02": "la pasta ritorna"
+      },
+      "textual_anchor_it": "Corro immediatamente verso di loro e li abbraccio con affetto. “Ho tante cose da raccontarvi”.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "mono no aware"
+      ]
+    },
+    {
+      "id": "scene-16",
+      "label": "finestra_e_saluto",
+      "type": "return_field",
+      "basho": "la finestra da cui Bernie vede la slitta allontanarsi e Babbo Natale con gli elfi che salutano; poi la riflessione sul viaggio",
+      "kokyu": "ritmo del congedo: una corsa breve, un saluto, poi la quiete della frase finale",
+      "yūgen": "il viaggio è chiuso con un giudizio semplice: tornare a casa è ancora più piacevole dopo un'esperienza straordinaria",
+      "affects": {
+        "scene-01": "Gallipoli di partenza e di ritorno sono lo stesso luogo con un campo diverso"
+      },
+      "textual_anchor_it": "Devo ammettere che dopo una esperienza così straordinaria è ancora più piacevole tornare a casa, circondati da coloro che amiamo e che ci amano!",
+      "glossary_link": [
+        "ma",
+        "mono no aware"
       ]
     }
   ],
   "system_note": {
-    "scene_count": 5,
-    "dominant_field": "scene-04",
+    "scene_count": 16,
+    "dominant_field": "scene-12",
     "system_state": "arco_geografico_con_trasmissione_valoriale_centrale",
-    "narrative_model": "cinque scene come arco geografico completo: partenza — tappe intermedie — polo — trasmissione — ritorno; ogni scena deposita uno strato nel campo di Bernie",
+    "narrative_model": "sedici scene lungo la sequenza narrativa del testo: origine (1-4), tappe e polo (5-9), villaggio e trasmissione (10-13), ritorno (14-16); ogni scena deposita uno strato nel campo di Bernie",
+    "segmentation_note": "la suddivisione segue l'ordine del testo IT/JA e non necessariamente l'impaginazione del volume",
     "retroactive_causality": true,
     "global_effect": "il ritorno retroagisce su tutte le scene precedenti: il viaggio era raccolta di materiale per il racconto finale; la sua direzione era sempre verso casa"
   }
