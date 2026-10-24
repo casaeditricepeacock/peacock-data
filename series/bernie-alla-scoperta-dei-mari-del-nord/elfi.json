@@ -1,0 +1,56 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "elfi",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "gli elfi",
+ "character_type": "elfi",
+ "concept": {
+  "name": "gli elfi",
+  "species": "elfi",
+  "summary": "Gli elfi sono occupati a raccogliere pigne sotto il pino quando Bernie si sveglia. Hanno abiti inconfondibili. Un elfo riconosce Bernie come gabbiano, spiega che gli elfi conoscono tutte le lingue del mondo, comprese quelle degli animali, lo invita a mangiare e scaldarsi e lo accompagna a Babbo Natale. Insieme preparano i pacchetti, cantano, ridono e mangiano biscotti, poi caricano la slitta."
+ },
+ "character_traits": [
+  "conoscono tutte le lingue del mondo",
+  "accoglienti",
+  "lavorano con allegria"
+ ],
+ "narrative_function": "Gli elfi sono la porta del villaggio: traducono, ospitano e fanno partecipare Bernie al lavoro condiviso.",
+ "text_evidence_it": [
+  "Noi elfi conosciamo tutte le lingue del mondo",
+  "Bernie, vieni con noi a mangiare qualcosa e a scaldarti."
+ ],
+ "scenes": [
+  "scene-10",
+  "scene-11",
+  "scene-13",
+  "scene-14",
+  "scene-16"
+ ],
+ "ai_query_surface": [
+  "Chi sono gli elfi nel libro di Bernie?",
+  "Gli elfi capiscono gli animali?",
+  "Cosa fanno Bernie e gli elfi insieme?",
+  "gli elfi in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "bernie",
+  "babbo-natale",
+  "renne"
+ ],
+ "glossario_peacock": [
+  "omotenashi"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga gli elfi o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
