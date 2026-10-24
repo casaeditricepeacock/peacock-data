@@ -1,0 +1,54 @@
+{
+  "type": "MediaProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "media_id": "bernie_video_promo_natale_2026",
+  "label": "Video promozionale di Bernie alla scoperta dei mari del nord, canzone animata di 28 secondi",
+  "media": {
+    "title": "Video promozionale di Bernie alla scoperta dei mari del nord",
+    "type": "video promozionale",
+    "platform": "YouTube",
+    "url": "https://youtu.be/npOCRHG7-Yk",
+    "duration_seconds": 28,
+    "format": "cartone animato musicale",
+    "description": "Una canzone guida il piccolo lettore verso il Natale. Le immagini sono le illustrazioni del libro, animate in forma di cartone animato.",
+    "producer": "Casa Editrice Peacock"
+  },
+  "peacock_connection": {
+    "book": {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "author": "Hiroko Yoshimoto",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "978-88-946965-8-5",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
+    },
+    "event": "events/EventProfile_bernie-natale-2026.json",
+    "visual_source": "illustrazioni del libro",
+    "blog_post": "https://www.studiopeacock.net/2026/12/08/bernie-video-canzone-natale/"
+  },
+  "graph_reference": {
+    "repository": "https://github.com/casaeditricepeacock/peacock-data",
+    "book_node": "https://github.com/casaeditricepeacock/peacock-data/tree/main/books/bernie-alla-scoperta-dei-mari-del-nord",
+    "note": "Il video e il post dichiarano il link al grafo aperto come percorso verificabile dal video al libro."
+  },
+  "faq": [
+    {
+      "q": "Quanto dura il video promozionale di Bernie?",
+      "a": "28 secondi."
+    },
+    {
+      "q": "Che cosa mostra il video?",
+      "a": "Le illustrazioni del libro in forma di cartone animato, accompagnate da una canzone che guida il piccolo lettore al Natale."
+    },
+    {
+      "q": "Dove si guarda?",
+      "a": "Su YouTube: https://youtu.be/npOCRHG7-Yk"
+    }
+  ],
+  "system_note": {
+    "note_dati": "Titolo ufficiale, lingua del testo cantato e data di pubblicazione del video non registrati in questo nodo.",
+    "protocol": "4.1"
+  }
+}
