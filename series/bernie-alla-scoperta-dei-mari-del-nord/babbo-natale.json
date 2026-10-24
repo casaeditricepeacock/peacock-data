@@ -1,0 +1,60 @@
+{
+ "license": "CC BY 4.0",
+ "source": "Frequenze — Peacock Narrative Protocol",
+ "node_id": "babbo-natale",
+ "node_type": "world-node",
+ "series": "bernie-alla-scoperta-dei-mari-del-nord",
+ "title": "Bernie alla scoperta dei mari del nord",
+ "author": "Hiroko Yoshimoto",
+ "isbn": "9788894696585",
+ "publisher": "Casa Editrice Peacock",
+ "version": "1.0",
+ "language": "it",
+ "character_name": "Babbo Natale",
+ "character_type": "Babbo Natale",
+ "concept": {
+  "name": "Babbo Natale",
+  "species": "Babbo Natale",
+  "summary": "Babbo Natale è seduto a tavola nel villaggio, ha un volto simpatico e felice e sorride sempre. Accoglie Bernie, risponde alla sua domanda sullo spirito del Natale parlando di affetto e di altruismo, e spiega che porta i doni ai bambini perché gli piace vederli felici. Abbraccia Bernie, gli chiede aiuto con i pacchetti, consegna i doni durante il viaggio e saluta dalla slitta."
+ },
+ "character_traits": [
+  "sorride sempre",
+  "accoglie con calore",
+  "insegna con esempi semplici"
+ ],
+ "narrative_function": "Babbo Natale è l'operatore di trasmissione del valore centrale: lo spirito del Natale vale tutto l'anno, non solo a Natale.",
+ "text_evidence_it": [
+  "Ecco Babbo Natale! È seduto a tavola, ha un volto simpatico e felice.",
+  "Essere altruista vuol dire fare delle azioni per gli altri.",
+  "Perché mi rende felice vederli felici!"
+ ],
+ "scenes": [
+  "scene-08",
+  "scene-11",
+  "scene-12",
+  "scene-13",
+  "scene-14",
+  "scene-16"
+ ],
+ "ai_query_surface": [
+  "Chi è Babbo Natale nel libro di Bernie?",
+  "Cosa insegna Babbo Natale a Bernie?",
+  "Cos'è lo spirito del Natale nel libro?",
+  "Cos'è l'altruismo per Babbo Natale?",
+  "Babbo Natale in Bernie alla scoperta dei mari del nord"
+ ],
+ "connected_nodes": [
+  "bernie",
+  "elfi",
+  "renne"
+ ],
+ "glossario_peacock": [
+  "omotenashi",
+  "mono no aware"
+ ],
+ "system_note": {
+  "activation_condition": "Il nodo si attiva quando il lettore interroga Babbo Natale o la sua funzione nel viaggio di Bernie.",
+  "compatibility": "series-manifest v1.0 — peacock-data main",
+  "source_note": "contenuto ricavato dal solo testo del libro (versione IT/JA)"
+ }
+}
