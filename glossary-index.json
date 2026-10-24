@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.14",
+  "version": "1.15",
   "date": "2026-10",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1270,22 +1270,76 @@
       ],
       "books_applied": [],
       "glossary_file": "glossario/renshi.json"
+    },
+    {
+      "term": "Altruismo",
+      "kanji": "利他主義",
+      "category": "voci_in_sviluppo",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Fare delle azioni per gli altri. In Bernie alla scoperta dei mari del nord Babbo Natale lo spiega con un esempio: porta i doni ai bambini perché gli fa piacere vederli felici.",
+      "definition_short_en": "Doing things for others. In Bernie alla scoperta dei mari del nord Santa Claus explains it with an example: he brings gifts to children because it makes him happy to see them happy.",
+      "connected_terms": [
+        "spirito-del-natale",
+        "omotenashi"
+      ],
+      "books_applied": [
+        "bernie_alla_scoperta_dei_mari_del_nord"
+      ],
+      "glossary_file": "glossario/altruismo.json"
+    },
+    {
+      "term": "Spirito del Natale",
+      "kanji": "クリスマスの精神",
+      "category": "voci_in_sviluppo",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Nel libro Bernie alla scoperta dei mari del nord è definito da Babbo Natale come un insieme di sentimenti belli, l'affetto e l'altruismo, da vivere in tutti i periodi dell'anno e non solo a Natale.",
+      "definition_short_en": "In the book Bernie alla scoperta dei mari del nord Santa Claus defines it as a set of good feelings, affection and altruism, to be lived all year round and not only at Christmas.",
+      "connected_terms": [
+        "altruismo",
+        "okaeri",
+        "omotenashi"
+      ],
+      "books_applied": [
+        "bernie_alla_scoperta_dei_mari_del_nord"
+      ],
+      "glossary_file": "glossario/spirito-del-natale.json"
+    },
+    {
+      "term": "Okaeri",
+      "kanji": "おかえりなさい",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Formula giapponese con cui si accoglie chi torna a casa, «bentornato». Si risponde con tadaima, «sono tornato». Il saluto presuppone che la casa abbia aspettato chi era lontano.",
+      "definition_short_en": "Japanese phrase used to welcome someone who comes back home, 'welcome back'. The reply is tadaima, 'I'm home'. The greeting assumes that home has been waiting for the one who was away.",
+      "connected_terms": [
+        "spirito-del-natale",
+        "omotenashi",
+        "mono_no_aware",
+        "ma"
+      ],
+      "books_applied": [
+        "bernie_alla_scoperta_dei_mari_del_nord"
+      ],
+      "glossary_file": "glossario/okaeri.json"
     }
   ],
   "statistics": {
-    "total_entries": 62,
+    "total_entries": 65,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 23,
+    "in_sviluppo": 26,
     "by_category": {
-      "estetica_giapponese": 25,
+      "estetica_giapponese": 26,
       "cerimonia_del_te": 8,
       "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
       "vocabolario_ai_native": 5,
       "spazio_interiore": 1,
       "arte_giapponese": 4,
-      "voci_in_sviluppo": 4
+      "voci_in_sviluppo": 6
     },
     "most_connected_term": "ma",
     "most_applied_term": "ma",
@@ -1311,7 +1365,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 62,
+    "total_terms": 65,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1352,6 +1406,11 @@
     "new_in_v1.14": [
       "renga",
       "renshi"
+    ],
+    "new_in_v1.15": [
+      "altruismo",
+      "spirito-del-natale",
+      "okaeri"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
