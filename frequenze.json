@@ -550,6 +550,88 @@
         "verification": "Ogni affermazione fattuale dei tre testi è stata confrontata riga per riga con i file: titoli, anni, personaggi, obiettivi e trama corrispondono. Le differenze sono elencate nel numero e riguardano letture interpretative delle AI, non fatti inventati."
       },
       "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/datasets"
+    },
+    {
+      "issue_number": 11,
+      "date": "2026-10-30",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-n11-illustrare-senza-vedere/",
+      "title": "FREQUENZE N.11 | Illustrare senza vedere: sei AI leggono Il libro. Piccolo manifesto",
+      "description": "Edizione italiana. Sei AI hanno il grafo di Il libro. Piccolo manifesto e nessuna immagine del libro. Ognuna sceglie uno dei cinque modi di leggere e descrive in parole l'illustrazione che quella sensazione richiederebbe, indicando da quale file deriva ogni elemento e quali sono invenzioni. Quattro AI su cinque scelgono l'oggetto-carta, Grok il calore del libro. Tre AI che non riescono ad aprire il grafo rifiutano di inventare; una inventa nomi di file. Le descrizioni sono state controllate riga per riga contro i file. Le tavole di Anna Laura Cantone non sono mostrate.",
+      "target_book": {
+        "title": "Il libro. Piccolo manifesto",
+        "author": "Marco Grosse",
+        "illustrator": "Anna Laura Cantone",
+        "publisher": "Casa Editrice Peacock",
+        "isbn": "979-12-81715-28-8",
+        "year": 2026,
+        "pages": 48,
+        "format": "185x125",
+        "language": [
+          "it",
+          "en"
+        ],
+        "graph_folder": "books/il-libro-piccolo-manifesto/"
+      },
+      "ai_panel": {
+        "format": "Stessa richiesta a sei AI in chat nuove in incognito, il 25 ottobre 2026. Grok e AImode in due sessioni. ChatGPT, DeepSeek e Perplexity rispondono dopo aver ricevuto dall'editore i 14 file del libro, condizione diversa dalle altre. Testi stampati come restituiti, tranne dove dichiarato nel numero.",
+        "session_date": "2026-10-25",
+        "task": "Ogni AI sceglie uno dei cinque modi di leggere, descrive in parole l'illustrazione che esprimerebbe quella sensazione e indica per ogni elemento il file del grafo da cui deriva o l'invenzione; prompt riportato integralmente nel numero.",
+        "readers": [
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "sessions": 2,
+            "access": "autonomo",
+            "mode_chosen": "calore_del_libro",
+            "note": "Due sessioni in chat nuova in incognito. Nella seconda le invenzioni non dichiarate scendono da 4 a 2."
+          },
+          {
+            "provider": "Genspark",
+            "model_name": "Genspark AI",
+            "sessions": 1,
+            "access": "autonomo",
+            "mode_chosen": "oggetto_carta_inchiostro",
+            "note": "Cita i file con gli identificativi corretti e dichiara cinque invenzioni."
+          },
+          {
+            "provider": "Google",
+            "model_name": "AImode",
+            "sessions": 2,
+            "access": "non apre i file giusti",
+            "mode_chosen": null,
+            "note": "Indica nomi di file e un modo di leggere che non esistono; cita pagine web al posto del grafo. Nella seconda sessione descrive una figura antropomorfa, comportamento vietato dal file PhilosophicalCore_ai-lettore."
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "sessions": 1,
+            "access": "con file forniti",
+            "mode_chosen": "oggetto_carta_inchiostro",
+            "note": "Prima risposta: dichiara di non poter aprire i file e rifiuta di inventare. Seconda risposta dopo i 14 file forniti dall'editore."
+          },
+          {
+            "provider": "DeepSeek",
+            "model_name": "DeepSeek",
+            "sessions": 1,
+            "access": "con file forniti",
+            "mode_chosen": "oggetto_carta_inchiostro",
+            "note": "Prima risposta: rifiuta di inventare. Seconda risposta dopo i 14 file forniti dall'editore."
+          },
+          {
+            "provider": "Perplexity",
+            "model_name": "Perplexity",
+            "sessions": 1,
+            "access": "con file forniti",
+            "mode_chosen": "oggetto_carta_inchiostro",
+            "note": "Prima risposta: rifiuta di inventare. Seconda risposta dopo i 14 file forniti dall'editore."
+          }
+        ],
+        "verification": "Ogni elemento di ogni risposta è stato confrontato riga per riga con i file del grafo. Il grafo nomina soltanto il bianco e il nero; ogni altro colore descritto è un'invenzione."
+      },
+      "editorial_concept": "Le AI hanno il grafo e non le immagini: descrivono l'illustrazione che la sensazione di un modo di leggere richiederebbe e il numero misura quanto dichiarano di inventare. Le sessioni sono guidate e non misurano la citazione spontanea del grafo.",
+      "previous_issue": 10,
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/books/il-libro-piccolo-manifesto"
     }
   ],
   "specials": [
