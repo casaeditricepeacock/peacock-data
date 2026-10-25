@@ -13,13 +13,12 @@
   "tempo": "lento_in_discesa_sospeso_nel_café",
   "place_layers": {
     "real_world": {
-      "location": "Manseibashi Station — mAAch ecute Kanda Manseibashi",
-      "address": "Kanda River, Chiyoda-ku, Tokyo",
-      "status": "stazione ferroviaria chiusa nel 1943 e riconvertita nel 2013"
+      "declared": false,
+      "note": "Il testo non nomina nessun luogo reale e l'editore non lo conferma."
     },
     "narrative_space": {
       "name": "Stazione Talpa",
-      "definition": "Versione poetica e sotterranea del luogo reale.",
+      "definition": "Stazione ferroviaria abbandonata, perfettamente intatta, in fondo a 462 gradini, con un café al posto della vecchia biglietteria.",
       "role": "chikadō vivente del romanzo"
     }
   },
