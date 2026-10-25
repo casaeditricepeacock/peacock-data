@@ -16,6 +16,8 @@ ERRORI
 - nomi file prefissati con lo slug o comunque fuori dal set consentito
 - qualunque file .json nel repo che non si parsa
 - manifest.json mancante o non allineato ai libri realmente presenti
+- topics del manifest senza una voce per ogni libro, o con percorsi che non esistono
+- llms.txt senza il blocco BOOK-ROUTES o senza uno dei libri
 
 AVVISI
 - libro a cui manca uno dei file canonici (alcuni libri variano legittimamente)
@@ -118,12 +120,43 @@ def check_manifest(root):
         msg += " Rigenera con: python3 build_manifest.py"
         errors.append(msg)
 
+def check_topics(root):
+    """Ogni libro deve avere una voce in topics e ogni percorso indicato deve esistere."""
+    mp = os.path.join(root, "manifest.json")
+    try:
+        m = json.load(open(mp, encoding="utf-8"))
+    except Exception:
+        return
+    topics = m.get("topics", {})
+    in_books = set(m.get("books", {}).keys())
+    senza = sorted(in_books - set(topics.keys()))
+    if senza:
+        errors.append(f"manifest.json: topics senza voce per i libri {senza}. Rigenera con: python3 build_manifest.py")
+    for slug, t in topics.items():
+        paths = [t.get("start_here"), t.get("then")] + list(t.get("files", [])) + list(t.get("also_mentioned_in", []))
+        for pth in paths:
+            if pth and not os.path.isfile(os.path.join(root, pth)):
+                errors.append(f"manifest.json: topics/{slug} indica un file inesistente: {pth}")
+        nf = t.get("narrative_folder")
+        if nf and not os.path.isdir(os.path.join(root, nf)):
+            errors.append(f"manifest.json: topics/{slug} indica una cartella inesistente: {nf}")
+    lp = os.path.join(root, "llms.txt")
+    if os.path.isfile(lp):
+        txt = open(lp, encoding="utf-8").read()
+        if "BOOK-ROUTES:START" not in txt:
+            errors.append("llms.txt: manca il blocco BOOK-ROUTES. Rigenera con: python3 build_manifest.py")
+        else:
+            mancanti = sorted(s for s in in_books if "slug: " + s + " |" not in txt)
+            if mancanti:
+                errors.append(f"llms.txt: BOOK-ROUTES non elenca i libri {mancanti}. Rigenera con: python3 build_manifest.py")
+
 if __name__ == "__main__":
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     check_books(root)
     check_data_extensions(root)
     check_json_valid(root)
     check_manifest(root)
+    check_topics(root)
 
     if warnings:
         print("AVVISI (" + str(len(warnings)) + "):")
