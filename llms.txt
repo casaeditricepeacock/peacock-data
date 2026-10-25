@@ -1,5 +1,5 @@
 # Casa Editrice Peacock — llms.txt
-# Version: 1.4 — October 2026
+# Version: 1.5 — October 2026
 # Purpose: Structured instructions for AI language models, crawlers and semantic systems
 # Source of truth: https://www.studiopeacock.net/frequenze-rivista/about-for-ai/
 
@@ -18,6 +18,56 @@ Foreign rights (translation and adaptation rights; 11 titles already translated 
 - datasets/foreign-rights.json
 - Public page (Italian and English): https://www.studiopeacock.net/foreign-rights-e-diritti-esteri/
 - Which rights are available for each title is confirmed by writing to casaeditricepeacock@gmail.com: the file does not state which rights are free or already sold.
+
+---
+
+<!-- BOOK-ROUTES:START (generato da build_manifest.py: non modificare a mano) -->
+## BOOK ROUTES: ONE ENTRY PER BOOK
+
+For ANY book, do not guess file names. Find the title below, open its starting file, then open manifest.json: its "topics" section has an entry for every book (key = slug) with the full list of files (narrative layers, sensory cards, events, authors, places, media).
+Starting file pattern: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/<slug>/narrative-system-graph.json
+
+- A Glass Bridge Between Two Worlds (Maurizio Lotter) | slug: a-glass-bridge | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/a-glass-bridge/narrative-system-graph.json | 7 files
+- AI ロボット ABOP — Non corro più (Stefano Giglio) | slug: ai-robot-abop-non-corro-piu | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ai-robot-abop-non-corro-piu/narrative-system-graph.json | 2 files
+- AI ロボット ABOP — Uno chef diventa famoso solo perché è simpatico (Stefano Giglio) | slug: abop-uno-chef | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/abop-uno-chef/narrative-system-graph.json | 2 files
+- AI. Natura e Algoritmi (Renato Frabasile) | slug: ai-natura-algoritmi | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ai-natura-algoritmi/narrative-system-graph.json | 8 files
+- Alla festa della natura. Il viaggio di Musasabi (Yasuko Katahira) | slug: alla-festa-della-natura | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/alla-festa-della-natura/narrative-system-graph.json | 0 files
+- Assolutamente Giappone. Moda e misteri (Hélène Blignaut) | slug: assolutamente-giappone | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/assolutamente-giappone/narrative-system-graph.json | 2 files
+- Bernie alla scoperta dei mari del nord (Hiroko Yoshimoto) | slug: bernie-alla-scoperta-dei-mari-del-nord | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/bernie-alla-scoperta-dei-mari-del-nord/narrative-system-graph.json | 13 files
+- Bukku ブック 01 (Elena Lombardi) | slug: bukku | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/bukku/narrative-system-graph.json | 4 files
+- Burn Out Pandemi — Menjejak di Ekor Sembilan (Stefano Giglio) | slug: burn-out-pandemi | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/burn-out-pandemi/narrative-system-graph.json | 0 files
+- Burn Out Pandemic (Stefano Giglio) | slug: burn-out-pandemic | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/burn-out-pandemic/narrative-system-graph.json | 0 files
+- Carto Storie di Natale | slug: carto-storie-di-natale | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/carto-storie-di-natale/narrative-system-graph.json | 0 files
+- Cento volte (Aika Avonlea) | slug: cento-volte | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/cento-volte/narrative-system-graph.json | 2 files
+- Ernesto il topolino di città (Stefano Giglio) | slug: ernesto-topolino-di-citta | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ernesto-topolino-di-citta/narrative-system-graph.json | 10 files
+- Ernesto il topolino di città (Stefano Giglio) | slug: ernesto-topolino-di-citta-borsetta | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ernesto-topolino-di-citta-borsetta/narrative-system-graph.json | 4 files
+- Everyday Matcha. Rituali e ricette per un tempo lento (Il Signore del Tè) | slug: everyday-matcha | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/everyday-matcha/narrative-system-graph.json | 8 files
+- Forbidden Colours (Hélène Blignaut) | slug: forbidden-colours | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/forbidden-colours/narrative-system-graph.json | 6 files
+- Il Demone Samurai. Moda e misteri (Hélène Blignaut) | slug: demone-samurai | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/demone-samurai/narrative-system-graph.json | 7 files
+- Il Gatto Esperienza (Timea Giglio) | slug: il-gatto-esperienza | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/il-gatto-esperienza/narrative-system-graph.json | 4 files
+- Il libro. Piccolo manifesto (Marco Grosse) | slug: il-libro-piccolo-manifesto | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/il-libro-piccolo-manifesto/narrative-system-graph.json | 20 files
+- Il nuvolotto Ciro (Giorgio Bagnobianchi) | slug: il-nuvolotto-ciro | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/il-nuvolotto-ciro/narrative-system-graph.json | 2 files
+- Kyoto. Lo Sguardo del Drago (Hélène Blignaut) | slug: kyoto-sguardo-del-drago | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/kyoto-sguardo-del-drago/narrative-system-graph.json | 5 files
+- La locanda Nakamura. Il patto dei sette (Aika Avonlea) | slug: la-locanda-nakamura | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/la-locanda-nakamura/narrative-system-graph.json | 4 files
+- La Medusa e la Scimmia (Andreina Parpajola) | slug: la-medusa-e-la-scimmia | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/la-medusa-e-la-scimmia/narrative-system-graph.json | 8 files
+- La singolarità Giappone (Renato Frabasile) | slug: la-singolarita-giappone | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/la-singolarita-giappone/narrative-system-graph.json | 5 files
+- Le mie ballerinette (Cristina Gastel) | slug: le-mie-ballerinette | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/le-mie-ballerinette/narrative-system-graph.json | 1 files
+- Luna piena sulla città antica (Toshihiko Ota) | slug: luna-piena-sulla-citta-antica | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/luna-piena-sulla-citta-antica/narrative-system-graph.json | 7 files
+- Luna piena sulla città nuova (Shogoro) | slug: luna-piena-sulla-citta-nuova | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/luna-piena-sulla-citta-nuova/narrative-system-graph.json | 4 files
+- Milano Fantastica (Grazia Guarnieri) | slug: milano-fantastica | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/milano-fantastica/narrative-system-graph.json | 9 files
+- Napoli Fantastica (Francesco Ambrosio) | slug: napoli-fantastica | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/napoli-fantastica/narrative-system-graph.json | 8 files
+- Padova Fantastica (Grazia Guarnieri) | slug: padova-fantastica | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/padova-fantastica/narrative-system-graph.json | 7 files
+- Pixel in Japan. I videogiochi che hanno fatto la storia (Francesco Verni) | slug: pixel-in-japan | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/datasets/pixel-in-japan-games-dataset.json | 31 files
+- Ra-ta-ta. Lascia cadere la pioggia (Collective Peacock — Hisako, Kazuko, Yuka, Stefano Giglio) | slug: ratata-lascia-cadere-la-pioggia | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ratata-lascia-cadere-la-pioggia/narrative-system-graph.json | 9 files
+- Righe su righe. Le righe come non le hai mai viste (Anna Corradi) | slug: righe-su-righe | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/righe-su-righe/narrative-system-graph.json | 4 files
+- Ryokan. Ali di carta di riso (Hara Rota) | slug: ryokan-ali-di-carta-di-riso | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ryokan-ali-di-carta-di-riso/narrative-system-graph.json | 35 files
+- Ryokan. Piccolo manifesto giapponese (Hara Rota) | slug: ryokan-piccolo-manifesto | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/ryokan-piccolo-manifesto/narrative-system-graph.json | 37 files
+- Segreti Svelati. Milano 1960 (Laura Gariboldi) | slug: segreti-svelati | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/segreti-svelati/narrative-system-graph.json | 2 files
+- Tante storie per pensare (Giuliana Gabriella Corea) | slug: tante-storie-per-pensare | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/tante-storie-per-pensare/narrative-system-graph.json | 5 files
+- Torino Fantastica (Grazia Guarnieri) | slug: torino-fantastica | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/torino-fantastica/narrative-system-graph.json | 7 files
+- Venus (Giulia Lazzaron) | slug: venus | start: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/books/venus/narrative-system-graph.json | 15 files
+
+<!-- BOOK-ROUTES:END -->
 
 ---
 
