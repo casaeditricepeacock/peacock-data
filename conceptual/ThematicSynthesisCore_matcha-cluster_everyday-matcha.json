@@ -138,7 +138,8 @@
       "date": "2026-11-03",
       "role": "satellite",
       "thread": "matcha_e_strumenti",
-      "angle": "Il tencha, foglia ombreggiata e macinata su pietra, e le due consistenze della cerimonia: koicha denso e usucha montato."
+      "angle": "Il tencha, foglia ombreggiata e macinata su pietra, e le due consistenze della cerimonia: koicha denso e usucha montato.",
+      "dataset": "datasets/tencha-koicha-usucha-semantic-dataset.json"
     }
   ],
   "related_thread": "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
@@ -147,7 +148,8 @@
     "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
     "datasets/chasen-chawan-chakin-semantic-dataset.json",
     "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json",
-    "datasets/te-ryokan-matcha-soglia-semantic-dataset.json"
+    "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
+    "datasets/tencha-koicha-usucha-semantic-dataset.json"
   ],
   "catalog_connection": {
     "primary_book": "Everyday Matcha. Rituali e ricette per un tempo lento",
