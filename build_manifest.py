@@ -31,7 +31,7 @@ NAME_ALIASES = {
     "ai-natura-algoritmi": ["frabasile-ai-natura"],
     "everyday-matcha": ["matcha-sensoriale-paolo", "matcha-pratica-resistenza"],
 }
-BOOK_KEYS = ("book", "related_book", "target_book", "related_books", "books")
+BOOK_KEYS = ("book", "related_book", "target_book", "related_books", "books", "primary_book", "primary_books")
 
 def _titles_in(data):
     """Titoli di libri dichiarati in campi strutturati (book, related_book, ...) di un file."""
@@ -52,6 +52,11 @@ def _titles_in(data):
                 add(x)
     def walk(o):
         if isinstance(o, dict):
+            has_book = any(k in BOOK_KEYS for k in o)
+            if has_book and isinstance(o.get("isbn"), str):
+                digits = re.sub(r"\D", "", o["isbn"])
+                if len(digits) == 13:
+                    out.add("isbn:" + digits)
             for k, v in o.items():
                 if k in BOOK_KEYS:
                     add(v)
