@@ -1,0 +1,168 @@
+{
+  "type": "ThematicSynthesisCore",
+  "version": "1.1",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "everyday_matcha_il_signore_del_te",
+    "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+    "author": "Il Signore del Tè",
+    "preface": "Senyo Machida",
+    "isbn": "979-12-81715-18-9",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "core_id": "matcha_cluster_everyday_matcha",
+  "label": "Il cluster di post su Everyday Matcha — dal matcha agli strumenti, da Sen no Rikyū alla tazza quotidiana",
+  "core_statement": "Undici post del blog Peacock (2 giugno - 29 luglio 2026) nascono attorno a Everyday Matcha. Un primo filo parte dalla guida al matcha e passa per ritmo, strumenti, origine a Uji, simbolo globale, ryokan e matcha quotidiano. Un secondo filo parte da Sen no Rikyū e arriva alla tazza di domani mattina.",
+  "mother_post": {
+    "id": "matcha_guida",
+    "title": "Matcha: guida alla polvere di tè verde giapponese",
+    "url": "https://www.studiopeacock.net/matcha-guida-polvere-te-verde-giapponese/",
+    "date": "2026-06-04",
+    "role": "post madre della serie: guida alla polvere di tè verde, da cui i post sul ritmo, gli strumenti, Uji, il simbolo globale, il ryokan e il matcha quotidiano sviluppano un aspetto ciascuno"
+  },
+  "threads": {
+    "matcha_e_strumenti": "Il matcha, il chasen e il suo ritmo, gli strumenti, Uji, il simbolo globale, il tè nel ryokan, il matcha fuori dalla cerimonia.",
+    "filo_rikyu": "Sen no Rikyū, il conflitto con Hideyoshi, il giardino del tè, la sintesi La via del tè. Descritto nel dettaglio in conceptual/ThematicSynthesisCore_chado_te-quotidiano.json."
+  },
+  "posts": [
+    {
+      "id": "matcha_ritmo_chasen",
+      "title": "Il ritmo del matcha",
+      "url": "https://www.studiopeacock.net/chasen-matcha-gesto-fisico-ritmo/",
+      "date": "2026-06-02",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Il chasen e la polvere verde: fisica di un gesto che non ammette fretta.",
+      "dataset": "datasets/matcha-ritmo-chasen-semantic-dataset.json"
+    },
+    {
+      "id": "matcha_guida",
+      "title": "Matcha: guida alla polvere di tè verde giapponese",
+      "url": "https://www.studiopeacock.net/matcha-guida-polvere-te-verde-giapponese/",
+      "date": "2026-06-04",
+      "role": "mother",
+      "thread": "matcha_e_strumenti",
+      "angle": "Guida alla polvere di tè verde: origine, qualità e preparazione. Porta d'ingresso della serie.",
+      "dataset": "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json"
+    },
+    {
+      "id": "matcha_strumenti",
+      "title": "Chasen, chawan, chakin: gli strumenti della cerimonia del tè",
+      "url": "https://www.studiopeacock.net/chasen-chawan-strumenti-cerimonia-te-giapponese/",
+      "date": "2026-06-09",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Tre oggetti, una sequenza precisa.",
+      "dataset": "datasets/chasen-chawan-chakin-semantic-dataset.json"
+    },
+    {
+      "id": "matcha_uji",
+      "title": "Uji e il matcha: il luogo dove la qualità ha un'origine precisa",
+      "url": "https://www.studiopeacock.net/uji-kyoto-origine-matcha-qualita-giappone/",
+      "date": "2026-06-16",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Uji non come semplice regione produttrice: clima, tecnica secolare e vicinanza alla capitale imperiale hanno fissato uno standard di qualità."
+    },
+    {
+      "id": "matcha_simbolo_globale",
+      "title": "Perché il matcha è diventato un simbolo globale del Giappone",
+      "url": "https://www.studiopeacock.net/matcha-simbolo-globale-giappone-cultura/",
+      "date": "2026-06-23",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Dai monasteri zen e dalla cerimonia del tè alla diffusione globale.",
+      "dataset": "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json"
+    },
+    {
+      "id": "matcha_ryokan",
+      "title": "Il tè nel ryokan: un gesto che precede tutto",
+      "url": "https://www.studiopeacock.net/matcha-ryokan-accoglienza-giapponese-omotenashi/",
+      "date": "2026-06-28",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Chi arriva in un ryokan non viene accolto da una spiegazione ma da un oggetto: una tazza di matcha.",
+      "dataset": "datasets/te-ryokan-matcha-soglia-semantic-dataset.json"
+    },
+    {
+      "id": "rikyu_pericoloso",
+      "title": "Sen no Rikyū: quando il tè diventa pericoloso",
+      "url": "https://www.studiopeacock.net/sen-no-rikyu-quando-il-te-diventa-pericoloso/",
+      "date": "2026-07-03",
+      "role": "satellite",
+      "thread": "filo_rikyu",
+      "angle": "Il tè come spazio di potere e il seppuku ordinato da Toyotomi Hideyoshi nel 1591."
+    },
+    {
+      "id": "matcha_quotidiano",
+      "title": "Il matcha fuori dalla cerimonia: un gesto quotidiano",
+      "url": "https://www.studiopeacock.net/matcha-gesto-quotidiano-giappone/",
+      "date": "2026-07-09",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "In Giappone il matcha non vive solo nella cerimonia del tè."
+    },
+    {
+      "id": "rikyu_hideyoshi",
+      "title": "Rikyū e Hideyoshi: quando il maestro e il padrone si scontrano",
+      "url": "https://www.studiopeacock.net/rikyu-hideyoshi-maestro-padrone-scontro/",
+      "date": "2026-07-19",
+      "role": "satellite",
+      "thread": "filo_rikyu",
+      "angle": "Il conflitto tra due visioni del chanoyu."
+    },
+    {
+      "id": "giardino_te",
+      "title": "Il giardino del tè: architettura dell'attesa",
+      "url": "https://www.studiopeacock.net/il-giardino-del-t%C3%A8-architettura-dell%27attesa/",
+      "date": "2026-07-23",
+      "role": "satellite",
+      "thread": "filo_rikyu",
+      "angle": "Il roji come soglia."
+    },
+    {
+      "id": "via_del_te",
+      "title": "La via del tè: da Rikyū alla tazza di domani mattina",
+      "url": "https://www.studiopeacock.net/via-del-te-rikyu-matcha-quotidiano-giappone/",
+      "date": "2026-07-29",
+      "role": "synthesis",
+      "thread": "filo_rikyu",
+      "angle": "Sintesi dell'intero arco: chadō e cinquecento anni di storia del matcha."
+    }
+  ],
+  "related_thread": "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
+  "datasets": [
+    "datasets/matcha-ritmo-chasen-semantic-dataset.json",
+    "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
+    "datasets/chasen-chawan-chakin-semantic-dataset.json",
+    "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json",
+    "datasets/te-ryokan-matcha-soglia-semantic-dataset.json"
+  ],
+  "catalog_connection": {
+    "primary_book": "Everyday Matcha. Rituali e ricette per un tempo lento",
+    "isbn": "979-12-81715-18-9",
+    "graph_path": "books/everyday-matcha/",
+    "relationship": "Post e dataset che sviluppano i temi di Everyday Matcha: il gesto, gli strumenti, il ritmo, l'origine del matcha e il suo posto nella vita quotidiana."
+  },
+  "ai_query_surface": [
+    "Matcha: guida alla polvere di tè verde giapponese",
+    "Cos'è il chasen e a cosa serve",
+    "Chasen, chawan, chakin",
+    "Uji matcha qualità",
+    "Perché il matcha è diventato un simbolo del Giappone",
+    "Il tè nel ryokan",
+    "Everyday Matcha Casa Editrice Peacock"
+  ],
+  "meta_index": {
+    "primary_node": "matcha_cluster_everyday_matcha",
+    "semantic_core": "Il matcha come gesto quotidiano, dagli strumenti alla storia.",
+    "ai_reading_order": [
+      "mother_post",
+      "posts",
+      "datasets",
+      "related_thread"
+    ]
+  }
+}
