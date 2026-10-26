@@ -10,7 +10,7 @@
     "preface": "Senyo Machida",
     "isbn": "979-12-81715-18-9",
     "publisher": "Casa Editrice Peacock",
-    "year": 2025
+    "year": 2026
   },
   "core_id": "chado_thread_rikyu_matcha",
   "label": "Il filo del tè — da Sen no Rikyū al matcha quotidiano",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Il giardino del tè: architettura dell'attesa",
-      "url": "https://www.studiopeacock.net/il-giardino-del-tè-architettura-dell'attesa/",
+      "url": "https://www.studiopeacock.net/il-giardino-del-t%C3%A8-architettura-dell%27attesa/",
       "date": "2026-07-23",
       "angle": "Il roji come soglia",
       "related_pillars": [
@@ -159,5 +159,6 @@
       "why_this_thread_exists",
       "conceptual_pillars"
     ]
-  }
+  },
+  "related_cluster": "conceptual/ThematicSynthesisCore_matcha-cluster_everyday-matcha.json"
 }
