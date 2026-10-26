@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-25",
+    "generated": "2026-10-26",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1128,7 +1128,8 @@
       "media/MediaProfile_difesa-del-popolo-pixel-in-japan_2025-11.json",
       "media/MediaProfile_padovaoggi-pixel-in-japan_2025-11.json",
       "media/MediaProfile_rai-valle-daosta-tante-storie_2025.json",
-      "media/MediaProfile_sakurafm_ratata_iyaninacchauzu.json"
+      "media/MediaProfile_sakurafm_ratata_iyaninacchauzu.json",
+      "media/MediaProfile_tgr-veneto-edilibria-veneto_2026-10.json"
     ]
   },
   "root": [
