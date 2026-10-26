@@ -114,7 +114,7 @@ Key titles:
 | Torino Fantastica | Grazia Guarnieri | 979-12-81715-36-3 | 2025 |
 | A Glass Bridge Between Two Worlds | Maurizio Lotter | 979-12-81715-39-4 | 2025 |
 | Kyoto. Lo Sguardo del Drago | Hélène Blignaut | 979-12-81715-20-2 | 2026 |
-| Everyday Matcha | Il Signore del Tè | 979-12-81715-18-9 | 2025 |
+| Everyday Matcha | Il Signore del Tè | 979-12-81715-18-9 | 2026 |
 
 ---
 
