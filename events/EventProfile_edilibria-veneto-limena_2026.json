@@ -47,7 +47,9 @@
         "isbn": "9788894696585",
         "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/"
       }
-    ]
+    ],
+    "format_origin": "formato mutuato da Tribuk, evento nazionale che si svolge ogni anno a marzo ad Abano (PD)",
+    "attendance_reported": "circa sessanta librai e una trentina di case editrici indipendenti (TGR Veneto)"
   },
   "place": {
     "name": "MF Ingrosso, Divisione Fastbook",
@@ -89,8 +91,31 @@
       "relation": "gifted_here",
       "file": "books/bernie-alla-scoperta-dei-mari-del-nord/",
       "description": "Bernie alla scoperta dei mari del nord tra i libri in omaggio ai librai."
+    },
+    {
+      "target": "tgr_veneto_edilibria_veneto_2026",
+      "relation": "covered_by",
+      "file": "media/MediaProfile_tgr-veneto-edilibria-veneto_2026-10.json",
+      "description": "Servizio TGR Veneto del 23 ottobre 2026."
     }
   ],
   "source_url": "https://www.studiopeacock.net/edilibria-veneto-2026-fastbook-limena-peacock/",
-  "system_note": "Dati dalla locandina ufficiale EdiLibria Veneto 2026 e dal post Peacock del 7 ottobre 2026. La locandina non indica l'ente organizzatore. Da aggiornare dopo l'evento."
+  "system_note": "Dati dalla locandina ufficiale EdiLibria Veneto 2026, dal post Peacock del 7 ottobre 2026 e dal servizio TGR Veneto del 23 ottobre 2026, che indica i promotori (ALI-Confcommercio, Sindacato Librai e Cartolibrai) e il patrocinio della Regione.",
+  "organisers": {
+    "promoted_by": [
+      "ALI-Confcommercio",
+      "Sindacato Librai e Cartolibrai"
+    ],
+    "patronage": "Regione del Veneto",
+    "source": "servizio TGR Veneto del 23 ottobre 2026"
+  },
+  "media_coverage": [
+    {
+      "media_id": "tgr_veneto_edilibria_veneto_2026",
+      "file": "media/MediaProfile_tgr-veneto-edilibria-veneto_2026-10.json",
+      "url": "https://www.rainews.it/tgr/veneto/video/2026/10/padova-limena-prima-edizione-edilibria-veneto-9769d175-3341-4fbb-bab7-e63a76982eaa.html",
+      "date": "2026-10-23",
+      "note": "Servizio sull'evento e intervista al presidente dell'Associazione Editori Veneti. Non cita Peacock."
+    }
+  ]
 }
