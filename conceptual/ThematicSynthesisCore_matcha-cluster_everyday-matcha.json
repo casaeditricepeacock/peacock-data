@@ -14,7 +14,7 @@
   },
   "core_id": "matcha_cluster_everyday_matcha",
   "label": "Il cluster di post su Everyday Matcha — dal matcha agli strumenti, da Sen no Rikyū alla tazza quotidiana",
-  "core_statement": "Undici post del blog Peacock (2 giugno - 29 luglio 2026) nascono attorno a Everyday Matcha. Un primo filo parte dalla guida al matcha e passa per ritmo, strumenti, origine a Uji, simbolo globale, ryokan e matcha quotidiano. Un secondo filo parte da Sen no Rikyū e arriva alla tazza di domani mattina.",
+  "core_statement": "Dodici post del blog Peacock (2 giugno - 3 novembre 2026) nascono attorno a Everyday Matcha. Un primo filo parte dalla guida al matcha e passa per ritmo, strumenti, origine a Uji, simbolo globale, ryokan e matcha quotidiano. Un secondo filo parte da Sen no Rikyū e arriva alla tazza di domani mattina.",
   "mother_post": {
     "id": "matcha_guida",
     "title": "Matcha: guida alla polvere di tè verde giapponese",
@@ -130,6 +130,15 @@
       "role": "synthesis",
       "thread": "filo_rikyu",
       "angle": "Sintesi dell'intero arco: chadō e cinquecento anni di storia del matcha."
+    },
+    {
+      "id": "matcha_tencha_koicha_usucha",
+      "title": "Tencha, koicha, usucha: perché il matcha non è tè verde in polvere",
+      "url": "https://www.studiopeacock.net/tencha-koicha-usucha-matcha-differenza/",
+      "date": "2026-11-03",
+      "role": "satellite",
+      "thread": "matcha_e_strumenti",
+      "angle": "Il tencha, foglia ombreggiata e macinata su pietra, e le due consistenze della cerimonia: koicha denso e usucha montato."
     }
   ],
   "related_thread": "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
@@ -153,7 +162,10 @@
     "Uji matcha qualità",
     "Perché il matcha è diventato un simbolo del Giappone",
     "Il tè nel ryokan",
-    "Everyday Matcha Casa Editrice Peacock"
+    "Everyday Matcha Casa Editrice Peacock",
+    "Che cos'è il tencha",
+    "Differenza tra koicha e usucha",
+    "Il matcha è tè verde in polvere"
   ],
   "meta_index": {
     "primary_node": "matcha_cluster_everyday_matcha",
