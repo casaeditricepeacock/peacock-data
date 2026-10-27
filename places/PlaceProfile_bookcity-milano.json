@@ -1,0 +1,73 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "bookcity_milano_luogo_itinerante",
+  "label": "BookCity Milano — il luogo itinerante dei libri, 15a edizione, 23-29 novembre 2026",
+  "place": {
+    "name": "BookCity Milano",
+    "type": "festival diffuso, luogo itinerante",
+    "city": "Milano",
+    "extent": "Milano, i comuni della Città metropolitana e sette altre province lombarde: Como, Cremona, Lodi, Monza, Pavia, Sondrio e Varese",
+    "edition": {
+      "number": 15,
+      "dates": "dal 23 al 29 novembre 2026",
+      "theme": "Il senno sulla Luna, ispirato all'Orlando Furioso di Ariosto"
+    }
+  },
+  "identity": {
+    "description": "La manifestazione dedicata ai libri e alla lettura. Porta i libri dentro la vita quotidiana dei quartieri, delle biblioteche, delle scuole e degli spazi pubblici.",
+    "promoters": [
+      "Assessorato alla Cultura del Comune di Milano",
+      "Fondazione BookCity Milano, fondata da Fondazione Corriere della Sera, Fondazione Giangiacomo Feltrinelli, Fondazione Umberto e Elisabetta Mauri, Fondazione Arnoldo e Alberto Mondadori e AIE (Associazione Italiana Editori)"
+    ],
+    "venue_logic": "Gli eventi si svolgono in luoghi diversi della città e della regione, anche nella sede di chi li propone."
+  },
+  "itinerant_structure": {
+    "principle": "BookCity non ha una sede. È un luogo che si sposta insieme ai libri: ogni presentazione è una tappa e ogni sala che la ospita è, per un'ora, parte di BookCity.",
+    "stops_in_graph": [
+      {
+        "event": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+        "date": "2026-11-28",
+        "time": "10:00",
+        "venue": "MUDEC - Museo delle Culture, via Tortona 56, Milano",
+        "book": "AI 愛. Natura e algoritmi giapponesi",
+        "author": "Renato Frabasile",
+        "event_file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+        "place_file": "places/PlaceProfile_mudec-milano.json"
+      }
+    ],
+    "note": "Le tappe di Peacock in BookCity si aggiungono qui man mano che sono confermate."
+  },
+  "peacock_connection": {
+    "presence": "Casa Editrice Peacock partecipa all'edizione 2026 con la presentazione di AI 愛. Natura e algoritmi giapponesi di Renato Frabasile, al MUDEC il 28 novembre 2026, dentro la rassegna Scritti dalla Città Mondo.",
+    "book_file": "books/ai-natura-algoritmi/"
+  },
+  "peacock_place_description": "BookCity Milano non è un edificio ma un percorso: una settimana in cui i libri cambiano indirizzo e la città diventa la sala di lettura. Per Peacock è il luogo dove un libro sul Giappone arriva in un museo delle culture del mondo.",
+  "graph_relations": [
+    {
+      "subject": "BookCity Milano",
+      "predicate": "has_edition",
+      "object": "quindicesima edizione, 23-29 novembre 2026"
+    },
+    {
+      "subject": "BookCity Milano",
+      "predicate": "includes_event",
+      "object": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi"
+    },
+    {
+      "subject": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+      "predicate": "held_at",
+      "object": "MUDEC - Museo delle Culture"
+    },
+    {
+      "subject": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+      "predicate": "presents_book",
+      "object": "AI 愛. Natura e algoritmi giapponesi"
+    }
+  ],
+  "source_url": "https://www.bookcitymilano.it/storage/app/uploads/public/69e/8c8/a6d/69e8c8a6ddb06440184872.pdf",
+  "system_note": "Dati dal documento ufficiale di BookCity Milano 2026 (quindicesima edizione, 23-29 novembre, tema Il senno sulla Luna). Il documento non riporta l'anno di fondazione né il numero totale di eventi: non indicati."
+}
