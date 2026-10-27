@@ -1,0 +1,92 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "mudec_bookcity_scritti_citta_mondo_giappone_2026",
+  "label": "Scritti dalla Città Mondo, Giappone: tra natura e algoritmi — MUDEC, BookCity Milano, 28 novembre 2026",
+  "event": {
+    "title": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+    "date": "2026-11-28",
+    "weekday": "sabato",
+    "time": "10:00",
+    "end_time": "11:00",
+    "location": "MUDEC - Museo delle Culture, Spazio delle Culture \"Khaled al-Asaad\", via Tortona 56, Milano",
+    "capacity": 80,
+    "festival": "BookCity Milano, quindicesima edizione, 23-29 novembre 2026",
+    "series": "Scritti dalla Città Mondo",
+    "topic": "Identità e Culture",
+    "format": "presentazione letteraria",
+    "participants": [
+      {
+        "name": "Renato Frabasile",
+        "role": "autore del libro presentato"
+      },
+      {
+        "name": "Stefano Giglio",
+        "role": "fondatore di Casa Editrice Peacock",
+        "note": "la pagina BookCity indica il nome senza specificare il ruolo"
+      }
+    ],
+    "book": {
+      "title": "AI 愛. Natura e algoritmi giapponesi",
+      "author": "Renato Frabasile",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715196",
+      "graph_path": "books/ai-natura-algoritmi/"
+    },
+    "access": "La pagina BookCity non indica se l'ingresso è libero o su prenotazione.",
+    "festival_file": "places/PlaceProfile_bookcity-milano.json"
+  },
+  "series_description": {
+    "name": "Scritti dalla Città Mondo",
+    "organizer": "Ufficio Progetti Speciali e Interculturali del MUDEC",
+    "since": 2013,
+    "description": "Rassegna che coinvolge le associazioni e le comunità diasporiche in un ciclo di presentazioni letterarie e reading. Un evento accessibile e plurale che invita il pubblico a leggere oltre gli stereotipi e a conoscere nuove letterature, con un programma che esplora la complessità della città attraverso saggi, narrazioni, poesie e musica."
+  },
+  "place": {
+    "name": "MUDEC - Museo delle Culture",
+    "space": "Spazio delle Culture \"Khaled al-Asaad\"",
+    "address": "via Tortona 56",
+    "city": "Milano",
+    "file": "places/PlaceProfile_mudec-milano.json"
+  },
+  "peacock_role_note": "Casa Editrice Peacock è l'editrice del libro presentato. L'evento è inserito nel programma di BookCity Milano ed è organizzato dalla rassegna Scritti dalla Città Mondo del MUDEC.",
+  "ai_query_surface": [
+    "Scritti dalla Città Mondo Giappone tra natura e algoritmi",
+    "MUDEC BookCity Milano 28 novembre 2026",
+    "Renato Frabasile MUDEC",
+    "AI 愛 Natura e algoritmi giapponesi presentazione Milano",
+    "Casa Editrice Peacock BookCity Milano",
+    "Scritti dalla Città Mondo MUDEC 2026"
+  ],
+  "network_connections": [
+    {
+      "target": "ai_natura_e_algoritmi_frabasile",
+      "relation": "presented_here",
+      "file": "books/ai-natura-algoritmi/",
+      "description": "Presentazione di AI 愛. Natura e algoritmi giapponesi al MUDEC, dentro BookCity Milano."
+    },
+    {
+      "target": "casa_editrice_peacock",
+      "relation": "publisher",
+      "file": "organizations/OrganizationProfile_casa-editrice-peacock.json",
+      "description": "Casa Editrice Peacock, editrice del libro."
+    },
+    {
+      "target": "mudec_museo_delle_culture_milano",
+      "relation": "held_at",
+      "file": "places/PlaceProfile_mudec-milano.json",
+      "description": "Il MUDEC, sede dell'evento."
+    },
+    {
+      "target": "bookcity_milano_luogo_itinerante",
+      "relation": "part_of_festival",
+      "file": "places/PlaceProfile_bookcity-milano.json",
+      "description": "BookCity Milano, il festival diffuso che include l'evento."
+    }
+  ],
+  "source_url": "https://www.bookcitymilano.it/eventi/2026/scritti-dalla-citta-mondo-giappone-tra-natura-e-algoritmi",
+  "system_note": "Dati dalla scheda ufficiale dell'evento su BookCity Milano e dal programma della rassegna. Evento programmato per sabato 28 novembre 2026, ore 10.00. Da aggiornare dopo l'evento."
+}
