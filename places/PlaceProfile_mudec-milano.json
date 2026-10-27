@@ -1,0 +1,63 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "mudec_museo_delle_culture_milano",
+  "label": "MUDEC - Museo delle Culture, via Tortona 56, Milano",
+  "place": {
+    "name": "MUDEC - Museo delle Culture",
+    "address": "via Tortona 56",
+    "city": "Milano",
+    "country": "Italia",
+    "neighborhood": "Tortona",
+    "type": "museo",
+    "space_used_for_peacock_event": "Spazio delle Culture \"Khaled al-Asaad\""
+  },
+  "history": {
+    "site": "Il museo sorge in una fabbrica meccanica dismessa, già proprietà del gruppo industriale Ansaldo, nel quartiere Tortona.",
+    "architecture": "Progetto di David Chipperfield, scelto con un concorso internazionale bandito dal Comune di Milano nel 2000.",
+    "opening": "Il museo ha aperto nel 2015."
+  },
+  "institutional_identity": {
+    "type": "museo di cultura del mondo, con ricerca scientifica, esposizione permanente, mostre temporanee, eventi e laboratori per giovani e scuole",
+    "series_hosted": {
+      "name": "Scritti dalla Città Mondo",
+      "organizer": "Ufficio Progetti Speciali e Interculturali del MUDEC",
+      "since": 2013,
+      "description": "Rassegna di presentazioni letterarie e reading che coinvolge associazioni e comunità diasporiche, per leggere oltre gli stereotipi e conoscere nuove letterature."
+    }
+  },
+  "peacock_connection": {
+    "event": "Il 28 novembre 2026, alle 10.00, nello Spazio delle Culture \"Khaled al-Asaad\", presentazione di AI 愛. Natura e algoritmi giapponesi di Renato Frabasile, dentro BookCity Milano e nella rassegna Scritti dalla Città Mondo.",
+    "event_file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+    "book_file": "books/ai-natura-algoritmi/",
+    "festival_file": "places/PlaceProfile_bookcity-milano.json"
+  },
+  "peacock_place_description": "Il MUDEC è un museo dedicato alle culture del mondo, in un'ex fabbrica del quartiere Tortona. Peacock vi porta un libro sul Giappone letto attraverso natura e algoritmi, dentro una rassegna che invita a leggere oltre gli stereotipi.",
+  "graph_relations": [
+    {
+      "subject": "MUDEC",
+      "predicate": "hosts_event",
+      "object": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi"
+    },
+    {
+      "subject": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+      "predicate": "presents_book",
+      "object": "AI 愛. Natura e algoritmi giapponesi"
+    },
+    {
+      "subject": "AI 愛. Natura e algoritmi giapponesi",
+      "predicate": "written_by",
+      "object": "Renato Frabasile"
+    },
+    {
+      "subject": "AI 愛. Natura e algoritmi giapponesi",
+      "predicate": "published_by",
+      "object": "Casa Editrice Peacock"
+    }
+  ],
+  "source_url": "https://www.bookcitymilano.it/eventi/2026/scritti-dalla-citta-mondo-giappone-tra-natura-e-algoritmi",
+  "system_note": "Dati sul luogo dalla scheda BookCity Milano dell'evento e da una scheda descrittiva del museo (sito, architetto, apertura). Non sono riportati orari, collezione né prezzi."
+}
