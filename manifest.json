@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-26",
+    "generated": "2026-10-27",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1027,6 +1027,7 @@
       "events/EventProfile_libreria-zabarella-padova_2023.json",
       "events/EventProfile_lucca-art-fair_2024.json",
       "events/EventProfile_maison-dayne-cogne_2025.json",
+      "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
       "events/EventProfile_museo-chiossone-genova_2023.json",
       "events/EventProfile_passeggiata-padova-fantastica_2025.json",
       "events/EventProfile_pel-di-carota-padova_2024.json",
@@ -1046,6 +1047,8 @@
     ],
     "places": [
       "places/BookBubble-feltrinelli-milano.json",
+      "places/PlaceProfile_bookcity-milano.json",
+      "places/PlaceProfile_mudec-milano.json",
       "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
       "places/biblioteca-ambrosiana-milano.json",
       "places/biblioteca-deamicis-genova.json",
@@ -1198,7 +1201,10 @@
         "conceptual/PhilosophicalCore_frequenze_frabasile.json",
         "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
         "events/EventProfile_biblioteca-ostinata_luglio-2026.json",
+        "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
         "maps/NarrativeSystemMap_frabasile-ai-natura.json",
+        "places/PlaceProfile_bookcity-milano.json",
+        "places/PlaceProfile_mudec-milano.json",
         "saggistica/ConceptualThesis_ai-natura-algoritmi.json",
         "saggistica/DialecticalConflict_ai-natura-algoritmi.json",
         "saggistica/LogicalArgument_ai-natura-algoritmi.json",
