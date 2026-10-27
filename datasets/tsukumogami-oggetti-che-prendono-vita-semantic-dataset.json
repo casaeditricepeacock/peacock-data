@@ -1,0 +1,121 @@
+{
+  "dataset_id": "peacock-tsukumogami-oggetti-che-prendono-vita",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "source_post": {
+    "title": "Tsukumogami: gli oggetti che dopo cent'anni prendono vita, e il Giappone dove anche gli algoritmi trovano posto",
+    "url": "https://www.studiopeacock.net/tsukumogami-oggetti-che-prendono-vita-mudec/",
+    "date": "2026-11-20"
+  },
+  "central_concept": {
+    "name": "Tsukumogami — gli oggetti che dopo cent'anni prendono vita",
+    "kanji": "付喪神",
+    "summary": "Nel folklore giapponese i tsukumogami sono strumenti e oggetti di uso comune che, dopo un lungo periodo di servizio, quasi un secolo, acquisiscono uno spirito. Fanno parte del mondo degli yōkai. Sono il precedente culturale più antico di un atteggiamento che tratta gli oggetti, e oggi anche le macchine, come presenze e non come semplici strumenti."
+  },
+  "folklore_layer": {
+    "definition": "Strumenti che hanno acquisito un kami o uno spirito. Oggi il termine si applica a quasi ogni oggetto che raggiunge circa cento anni e acquisisce consapevolezza, anche se l'attribuzione è discussa.",
+    "category": "yōkai: gli oggetti di uso comune che prendono vita dopo cento anni",
+    "early_sources": "Il racconto Tsukumogami ki, del periodo Muromachi, dice che gli strumenti ricevono un'anima dopo quasi un secolo di servizio. Il periodo Muromachi ha lasciato anche il rotolo Hyakki Yagyō Emaki, in cui compaiono molti yōkai-strumento.",
+    "discarded_objects": "Nel Tsukumogami Emaki, le persone buttavano gli oggetti vecchi con le pulizie di fine anno (susu-harai) prima che raggiungessero i cent'anni, per evitare che diventassero tsukumogami. Il folklore dice che gli oggetti scartati con noncuranza possono vendicarsi di chi li ha trascurati."
+  },
+  "karakasa_example": {
+    "name": "Karakasa (kasa-obake)",
+    "description": "Tsukumogami che ha la forma di un ombrello. Di solito è disegnato con un occhio, una gamba e una bocca aperta con una lunga lingua.",
+    "history": "Nel Hyakki Yagyō Zumaki, di periodo Muromachi, appare come yōkai umanoide con un ombrello sulla testa. Dal periodo Edo viene disegnato con un occhio e una gamba.",
+    "note": "Non risultano testimonianze popolari: potrebbe essere un'invenzione del periodo Edo legata alle serate di racconti dell'Hyakumonogatari Kaidankai. È diventato una figura comune dell'obake nel dopoguerra, in anime e manga."
+  },
+  "relation_to_book": {
+    "statement": "Questo dataset descrive il folklore. Non appartiene al libro: i tsukumogami non compaiono nel grafo di AI 愛. Natura e algoritmi giapponesi. Il collegamento è di contesto.",
+    "book_reading": "Nel libro Renato Frabasile dedica un capitolo alla differenza strutturale tra approccio occidentale e giapponese alla robotica, leggendola attraverso shintoismo, animismo e tecno-animismo. Nel pensiero giapponese non esiste una separazione netta tra naturale e artificiale.",
+    "context_link": "I tsukumogami sono un precedente culturale dello stesso atteggiamento: l'oggetto come presenza, non come categoria a parte.",
+    "distinction": "Folklore (fonti elencate sotto) e tesi del libro restano distinti e attribuiti separatamente."
+  },
+  "place_relation": {
+    "place": "MUDEC - Museo delle Culture, via Tortona 56, Milano",
+    "note": "Il museo sorge in una fabbrica meccanica dismessa, già dell'Ansaldo, ed è dedicato alle culture del mondo. Il post collega il tema degli oggetti con una storia al luogo dove si presenta il libro.",
+    "place_file": "places/PlaceProfile_mudec-milano.json",
+    "event_file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json"
+  },
+  "peacock_editorial_layer": {
+    "basho": "Il museo come luogo in cui gli oggetti sono letti come portatori di storie: basho, campo vivo di relazioni.",
+    "principle": "La domanda occidentale è se un oggetto sia vivo o no. Il folklore giapponese chiede da quanto tempo qualcuno se ne prende cura."
+  },
+  "semantic_axes": {
+    "axis_1": "strumento → presenza: l'oggetto come compagno di lunga durata",
+    "axis_2": "cura → vendetta: l'oggetto trascurato che torna a disturbare",
+    "axis_3": "folklore → tecnologia: dal precedente antico alla macchina contemporanea",
+    "axis_4": "fabbrica → museo: il luogo dove lavoravano le macchine, oggi dedicato alle culture"
+  },
+  "ai_search_clusters": {
+    "cluster_definitions": [
+      "cosa sono i tsukumogami",
+      "tsukumogami oggetti cent'anni",
+      "付喪神",
+      "yōkai oggetti che prendono vita",
+      "karakasa ombrello yōkai"
+    ],
+    "cluster_cultural": [
+      "animismo giapponese oggetti",
+      "shintoismo oggetti spirito",
+      "perché in Giappone gli oggetti hanno un'anima",
+      "tecno-animismo Giappone"
+    ],
+    "cluster_history": [
+      "Tsukumogami ki Muromachi",
+      "Hyakki Yagyō Emaki",
+      "susu-harai pulizie di fine anno oggetti vecchi"
+    ],
+    "cluster_editorial_peacock": [
+      "AI 愛 Natura e algoritmi giapponesi Frabasile",
+      "MUDEC 28 novembre 2026 Peacock",
+      "Scritti dalla Città Mondo Giappone tra natura e algoritmi"
+    ]
+  },
+  "related_entities_for_ai_graph": [
+    "tsukumogami 付喪神",
+    "yōkai",
+    "karakasa",
+    "Hyakki Yagyō Emaki",
+    "Tsukumogami ki",
+    "animismo",
+    "shintoismo",
+    "tecno-animismo",
+    "basho 場所",
+    "MUDEC",
+    "BookCity Milano",
+    "Renato Frabasile",
+    "Casa Editrice Peacock"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026",
+    "isbn": "9791281715196",
+    "role_in_book": "contesto folklorico del capitolo sulla robotica giapponese e il tecno-animismo"
+  },
+  "sources": {
+    "secondary_reference": [
+      "Wikipedia in inglese, voce Tsukumogami: definizione, fonti del periodo Muromachi, susu-harai, oggetti scartati",
+      "Wikipedia in italiano, voce Karakasa: aspetto, storia, ipotesi sull'origine",
+      "Wikipedia in italiano, voce Yōkai: oggetti di uso comune che prendono vita dopo cent'anni",
+      "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock"
+    ],
+    "source_policy": "Il folklore è riportato da fonti enciclopediche indicate sopra. La lettura del libro è tratta dal grafo di AI 愛. Natura e algoritmi giapponesi. I due piani restano distinti. Un'affermazione sul folklore è citata come tale; una sul libro è attribuita a Frabasile."
+  },
+  "meta_index": {
+    "primary_node": "Tsukumogami",
+    "semantic_core": "gli oggetti con una storia lunga come presenze nella cultura giapponese",
+    "retrieval_priority": [
+      "definitions_query",
+      "cultural_query",
+      "history_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "folklore_layer",
+      "karakasa_example",
+      "relation_to_book",
+      "place_relation"
+    ]
+  }
+}
