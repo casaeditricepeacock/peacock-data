@@ -446,6 +446,19 @@
       "verification_note": "Il nuovo post non risulta tra gli URL visibili nella risposta: la maggior parte delle fonti è nascosta dietro link interni di Google (searchviewer). La coincidenza di sei librerie su sette non prova da sola che AI Mode abbia usato il post. Un percorso identico a quello della mappa del post, se confermato da uno screenshot, è l'indizio più forte, perché l'ordine delle tappe è una scelta editoriale del post. La mappa non è stata registrata. Il post non cita Pel di Carota; Pel di Carota compare nella risposta e ha un post di Peacock del 2024 tra le fonti.",
       "verification_method": "testo copiato da Stefano dalla risposta di Google AI Mode e incollato in chat, 21 ottobre 2026; elenco delle librerie del post controllato leggendo la pagina pubblicata",
       "rich_media_note": "La risposta conteneva anche una mappa (contenuto non incluso nel testo incollato). Secondo Stefano Giglio, la mappa riproduce lo stesso percorso della mappa del post «Sette librerie indipendenti a Padova». Non verificato in autonomia e non visibile nella trascrizione."
+    },
+    {
+      "id": "x-grok-reply-frequenze-n11-20261030",
+      "date": "2026-10-30",
+      "time": "mattina",
+      "system": "X (Twitter) — @grok, account ufficiale verificato",
+      "context": "Risposta di Grok al post X di Casa Editrice Peacock del giorno di uscita di Frequenze n.11. Il post interpellava Grok con il link al repository del grafo e la domanda su quale file avrebbe aperto per primo.",
+      "result": "Grok indica come primo file narrative-system-graph.json nella cartella books/il-libro-piccolo-manifesto/ e lo descrive come ingresso consigliato dal protocollo che orienta il resto del grafo. La cartella e il file esistono nel repository e coincidono con il punto di partenza indicato in llms.txt e nel manifest.",
+      "quote_verbatim": "Aprirei per primo narrative-system-graph.json nella cartella books/il-libro-piccolo-manifesto/. È l’ingresso consigliato dal protocollo: mappa scene, oggetti, silenzi e transizioni, e orienta tutto il resto del grafo prima di scendere nei campi percettivi.",
+      "book_reference": "Il libro. Piccolo manifesto — Casa Editrice Peacock",
+      "source_url": "non disponibile — testo incollato da Stefano in chat, nessun link diretto al post raccolto",
+      "significance": "Test guidato, non spontaneo: il post forniva il link al repository. La risposta nomina la cartella corretta e il file di ingresso corretto, e ne riassume la funzione in modo coerente con il protocollo. Non dimostra da sola che i file siano stati aperti: il percorso potrebbe derivare dalla struttura del repository o dalla conoscenza del protocollo. Il dato resta distinto dal monitoraggio delle citazioni spontanee.",
+      "verification_method": "testo copiato da Stefano dalla risposta su X e incollato in chat, 30 ottobre 2026; trascritto verbatim, nessuno screenshot; esistenza di cartella e file verificata nel repository"
     }
   ]
 }
