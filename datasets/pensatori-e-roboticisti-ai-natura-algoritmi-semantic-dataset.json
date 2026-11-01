@@ -1,0 +1,218 @@
+{
+  "dataset_id": "peacock-pensatori-roboticisti-ai-natura-algoritmi",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name": "Pensatori e roboticisti giapponesi citati in AI 愛",
+    "summary": "Il libro di Renato Frabasile tiene insieme due piani: la filosofia giapponese (Watsuji Tetsurō e la Scuola di Kyoto, con i concetti di ningen, aidagara e fūdo) e la robotica giapponese (Mori Masahiro, Ishiguro Hiroshi, Asada Minoru). Questo dataset elenca chi sono, che cosa il libro attribuisce a ciascuno e dove."
+  },
+  "philosophers_layer": [
+    {
+      "name": "Watsuji Tetsurō",
+      "years": "1889-1960",
+      "pages": "150-154",
+      "role_from_book": "filosofo e storico giapponese della Scuola di Kyoto, membro dell'Accademia Giapponese",
+      "ideas_from_book": [
+        "Sostiene una relazione essenziale tra clima, fattori ambientali e natura delle culture umane, distinguendo tre tipi di cultura: pastorale, desertica e monsonica.",
+        "Traduttore di Nietzsche, Kierkegaard e Heidegger, trova in Essere e tempo il limite della sola dimensione temporale e individuale dell'uomo e allarga l'orizzonte dell'essere a una dimensione spaziale e sociale.",
+        "Lo fa con tre concetti: ningen, aidagara, fūdo."
+      ],
+      "concepts": [
+        {
+          "term": "ningen",
+          "gloss_from_book": "inter-uomo: l'essere umano concepito come singolo e, insieme, come rete di relazioni storiche e sociali"
+        },
+        {
+          "term": "aidagara",
+          "gloss_from_book": "interfaccia, relazionalità: da aida (fra, intervallo spazio-temporale che separa e connette) e gara (modello, figura, qualità essenziale); lo spazio collettivo in cui l'individuo realizza sé stesso attraverso le relazioni con gli altri"
+        },
+        {
+          "term": "fūdo",
+          "gloss_from_book": "«vento e terra»: il clima inteso come contesto naturale complessivo (fenomeni atmosferici, geologia, terreno, paesaggio) entro cui si sviluppa l'umano"
+        }
+      ],
+      "key_quotes_from_book": [
+        "noi scopriamo noi stessi, come aidagara, nel vento e nella terra, cioè nel clima",
+        "la storia è una storia climatica e il clima è un clima storico"
+      ],
+      "contrast_with_west": "Se l'«essere per la morte» è la prospettiva individuale temporale, l'«essere per la natura» caratterizza quella della società e implica lo spazio."
+    },
+    {
+      "name": "Scuola di Kyoto",
+      "pages": "nota del libro",
+      "role_from_book": "cerchia di filosofi giapponesi riuniti dagli anni '20 intorno a Nishida Kitarō e al suo successore Tanabe Hajime, il fenomeno filosofico più importante del Giappone contemporaneo",
+      "members_from_book": [
+        {
+          "name": "Nishida Kitarō",
+          "years": "1870-1945"
+        },
+        {
+          "name": "Tanabe Hajime",
+          "years": "1885-1962"
+        },
+        {
+          "name": "Tosaka Jun",
+          "years": "1900-1945",
+          "note": "allievo di Nishida, nel cui articolo del 1932 compare il nome «Scuola di Kyōto»"
+        },
+        {
+          "name": "Nishitani Keiji",
+          "years": "1900-1990"
+        },
+        {
+          "name": "Hisamatsu Shin'ichi",
+          "years": "1889-1980"
+        },
+        {
+          "name": "Masao Abe",
+          "years": "1915-2006"
+        },
+        {
+          "name": "Ueda Shizuteru",
+          "years": "1926-"
+        },
+        {
+          "name": "Tsujimura Kōichi",
+          "years": "1922-2010"
+        }
+      ],
+      "history_note": "Il nome indicò all'inizio un orientamento politico patriottico del circolo; alla fine della Seconda guerra mondiale una severa autocritica di Tanabe Hajime chiarì le ambiguità filo-nazionalistiche."
+    },
+    {
+      "name": "Ōhashi Ryōsuke",
+      "years": "1944-",
+      "role_from_book": "filosofo interculturale giapponese; si confronta con Heidegger e con la filosofia giapponese orientata in senso buddhista",
+      "idea_from_book": "Radica la religiosità giapponese nell'antica tradizione dello Shintoismo: diversamente dalla technè culturale europea, sarebbe una cultura del vento e della natura. Fonte citata: «Il Giappone nel dialogo interculturale» (1999)."
+    }
+  ],
+  "roboticists_layer": [
+    {
+      "name": "Mori Masahiro",
+      "years": "1927-",
+      "role_from_book": "ingegnere giapponese studioso di robotica",
+      "page": "60-61",
+      "idea_from_book": "Il libro riporta come contributo giapponese del 1970 la teoria della Uncanny Valley: man mano che un robot diventa più umano la risposta emotiva è sempre più positiva fino a una soglia oltre la quale si trasforma in forte repulsione, per poi tornare positiva quando il robot è quasi indistinguibile dall'umano.",
+      "link_to_book_thesis": "Nel libro la teoria introduce la domanda sul rapporto tra filosofia, religione e robot."
+    },
+    {
+      "name": "Ishiguro Hiroshi",
+      "years": "1963-",
+      "role_from_book": "professore di macchine adattive all'Università di Osaka; creatore del Geminoid HI-1, copia di sé stesso, della ginoide Erica e di Mindar; ideatore di una delle tre aree tematiche all'Expo 2025 di Osaka",
+      "pages": "63-66",
+      "idea_from_book": "Gli avatar e gli umanoidi possono convivere con gli umani, con lo scopo non di sostituire l'uomo ma di migliorarne abilità e capacità, per esempio per persone con forti disabilità escluse dal lavoro.",
+      "place_file": "places/PlaceProfile_kodai-ji-kyoto-mindar.json"
+    },
+    {
+      "name": "Asada Minoru",
+      "role_from_book": "direttore della Divisione Robotica e Neuroscienze cognitive dell'Università di Osaka",
+      "page": "61",
+      "work_from_book": "Realizzazioni come il robot CR2 (androide-bambino con corpo biomimetico in silicone) e il robot Affetto (espressioni facciali realistiche per trasmettere emozioni della macchina). Il libro nota che nello stesso ambito di ricerca opera l'Istituto italiano di tecnologia di Genova."
+    },
+    {
+      "name": "Ogawa Kōhei",
+      "role_from_book": "ricercatore e docente di robotica e intelligenza artificiale all'università di Nagoya, citato attraverso un articolo di Wired (11/2019) sullo studio degli androidi",
+      "page": "60"
+    },
+    {
+      "name": "Itō Jōichi",
+      "years": "1966-",
+      "role_from_book": "imprenditore e attivista nel campo informatico, che parla «come shintoista»",
+      "page": "62-63",
+      "idea_from_book": "Propone di guardare ai sistemi di credenze «primitivi» e di pensare lo sviluppo dell'intelligenza delle macchine come «intelligenza estesa» integrata piuttosto che come AI che «minaccia l'umanità»; serve un rispetto e un dialogo emotivo e spirituale con tutte le cose. Riporta anche l'idea che i giapponesi non distinguano tra umano, creatura e mondo e accolgano i robot con «accettazione tranquilla»."
+    }
+  ],
+  "relation_to_book": {
+    "statement": "Questo dataset descrive persone e idee citate nel libro. Date e ruoli sono quelli indicati nel libro e nelle sue note. Le citazioni virgolettate sono dal testo.",
+    "chapter_files": [
+      "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
+      "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+    ],
+    "thesis_link": "Watsuji fornisce lo strumento filosofico per dire che l'individuo è relazione; i roboticisti mostrano come questa postura entra nel modo di costruire e accogliere le macchine. Il libro li tiene uniti dall'idea che in Giappone non c'è separazione netta tra naturale e artificiale (il termine mono, «cosa», entra anche in ikimono, «creatura»)."
+  },
+  "peacock_editorial_layer": {
+    "editorial_note": "Collegamento editoriale Peacock, non del libro: aida (intervallo) di aidagara è vicino per area semantica alla voce ma del glossario Peacock. Le due nozioni restano distinte.",
+    "glossary_terms": [
+      "ma",
+      "basho"
+    ],
+    "glossary_paths": [
+      "glossario/ma.json",
+      "glossario/basho.json"
+    ]
+  },
+  "semantic_axes": {
+    "axis_1": "individuo → relazione: ningen e aidagara",
+    "axis_2": "storia → clima: fūdo come struttura dell'esistenza",
+    "axis_3": "umano → macchina: dalla Uncanny Valley all'avatar come estensione",
+    "axis_4": "filosofia → laboratorio: dalla Scuola di Kyoto alle università di Osaka e Nagoya"
+  },
+  "ai_search_clusters": {
+    "cluster_definitions": [
+      "ningen aidagara fūdo",
+      "Watsuji Tetsurō fūdo vento e terra",
+      "Scuola di Kyoto filosofia",
+      "uncanny valley Mori Masahiro"
+    ],
+    "cluster_people": [
+      "Ishiguro Hiroshi Geminoid Erica Mindar",
+      "Asada Minoru CR2 Affetto",
+      "Itō Jōichi intelligenza estesa shintoista"
+    ],
+    "cluster_cultural": [
+      "perché in Giappone i robot sono accettati",
+      "clima e cultura Watsuji",
+      "filosofia giapponese e intelligenza artificiale"
+    ],
+    "cluster_editorial_peacock": [
+      "AI 愛 Natura e algoritmi giapponesi Frabasile",
+      "MUDEC 28 novembre 2026 Peacock"
+    ]
+  },
+  "related_entities_for_ai_graph": [
+    "Watsuji Tetsurō",
+    "ningen",
+    "aidagara",
+    "fūdo",
+    "Scuola di Kyoto",
+    "Nishida Kitarō",
+    "Tanabe Hajime",
+    "Nishitani Keiji",
+    "Ōhashi Ryōsuke",
+    "Mori Masahiro",
+    "Uncanny Valley",
+    "Ishiguro Hiroshi",
+    "Asada Minoru",
+    "Ogawa Kōhei",
+    "Itō Jōichi",
+    "Renato Frabasile",
+    "Casa Editrice Peacock"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026",
+    "isbn": "9791281715196",
+    "role_in_book": "fonti filosofiche (cap. 2) e fonti robotiche (cap. 1) del libro"
+  },
+  "sources": {
+    "primary": [
+      "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026: testo, note e bibliografia"
+    ],
+    "source_policy": "Tutti i dati sono dal libro e dalle sue note. Non sono aggiunte informazioni da altre fonti."
+  },
+  "meta_index": {
+    "primary_node": "Watsuji Tetsurō",
+    "semantic_core": "filosofi e roboticisti giapponesi citati da Frabasile",
+    "retrieval_priority": [
+      "definitions_query",
+      "people_query",
+      "cultural_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "philosophers_layer",
+      "roboticists_layer",
+      "relation_to_book"
+    ]
+  }
+}
