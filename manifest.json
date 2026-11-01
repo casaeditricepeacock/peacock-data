@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-10-27",
+    "generated": "2026-11-01",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -716,11 +716,14 @@
       "conceptual/ConceptualCore_tokyo_hara-rota.json",
       "conceptual/ConceptualCore_videogioco_basho_pixel-in-japan.json",
       "conceptual/ConceptualCore_yuki_hara-rota.json",
+      "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
       "conceptual/ContinuityCore_riso_hara-rota.json",
+      "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
       "conceptual/EmotionalRegisterCore_ciliegi_hara-rota.json",
       "conceptual/EmotionalRegisterCore_voce_il-libro-piccolo-manifesto.json",
       "conceptual/EthicalSinkCore_fratello_hara-rota.json",
       "conceptual/IntertextualBashoCore_ryokan_hara-rota.json",
+      "conceptual/IntertextualCore_appendice-chatgpt_frabasile.json",
       "conceptual/NonRenderedCharacterCore_fratello_hara-rota.json",
       "conceptual/PhilosophicalCore_ai-lettore_il-libro-piccolo-manifesto.json",
       "conceptual/PhilosophicalCore_frequenze_frabasile.json",
@@ -1199,6 +1202,9 @@
       "narrative_folder": "books/ai-natura-algoritmi/",
       "files": [
         "conceptual/ConceptualCore_ai_amore_frabasile.json",
+        "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
+        "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
+        "conceptual/IntertextualCore_appendice-chatgpt_frabasile.json",
         "conceptual/PhilosophicalCore_frequenze_frabasile.json",
         "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
         "datasets/tsukumogami-oggetti-che-prendono-vita-semantic-dataset.json",
