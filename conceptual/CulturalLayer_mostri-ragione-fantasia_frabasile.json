@@ -189,6 +189,11 @@
       "node": "mindar_kodai_ji",
       "file": "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
       "relation": "il luogo e la ginoide della copertina del libro"
+    },
+    {
+      "node": "pensatori_roboticisti",
+      "file": "datasets/pensatori-e-roboticisti-ai-natura-algoritmi-semantic-dataset.json",
+      "relation": "chi sono Mori, Ishiguro, Asada e i filosofi giapponesi citati"
     }
   ],
   "ai_query_surface": [
