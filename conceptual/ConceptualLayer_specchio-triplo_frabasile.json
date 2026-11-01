@@ -1,0 +1,164 @@
+{
+  "type": "ConceptualLayer",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "layer_id": "specchio_triplo",
+  "label": "Mondo allo specchio — il confronto tra specchio greco, giapponese e tecnologico",
+  "chapter": {
+    "number": 3,
+    "title": "Mondo allo specchio",
+    "sections": [
+      {
+        "title": "Specchio greco",
+        "page": 158
+      },
+      {
+        "title": "Specchio giapponese",
+        "page": 165
+      },
+      {
+        "title": "Specchio tecnologico",
+        "page": 169
+      }
+    ],
+    "page_start": 155,
+    "epigraph": "Prima lettera ai Corinzi, 13:12: «ora vediamo come in uno specchio, in modo oscuro»"
+  },
+  "core_question": "Che cosa mostra lo specchio, e che cosa mostrerebbe un'intelligenza artificiale pensata come specchio?",
+  "core_statement": "Lo specchio è un simbolo diffuso in tutte le culture e produce significati comuni tra mondi diversi. Il capitolo lo usa come strumento di confronto: nel mito greco rivela e illude, nella tradizione giapponese riflette il cuore e la presenza del divino, nella tecnologia diventa metafora dell'intelligenza che l'uomo proietta fuori da sé.",
+  "intro": {
+    "symbol": "Il termine simbolo deriva dal greco symbàllō, «mettere insieme»: indicava le due metà di un oggetto spezzato, che ricomposte fungevano da segno di riconoscimento.",
+    "speculation": "Speculazione deriva dal latino specere (osservare) e specula (vedetta): guardare lontano e, in senso traslato, prevedere.",
+    "mirror_as_portal": "Nella mistica lo specchio, «simbolo dei simboli», è un portale tra il mondo ordinario e il mondo invisibile dei sogni, dei morti o degli inferi."
+  },
+  "mirrors": [
+    {
+      "id": "specchio_greco",
+      "label": "Specchio greco",
+      "pages": "158-164",
+      "myths": [
+        {
+          "name": "Dioniso",
+          "summary": "Secondo un antichissimo mito orfico i Titani donano a Dioniso fanciullo uno specchio per distrarlo, ne approfittano per ucciderlo e smembrarlo. Lo specchio cade e va in mille pezzi, conservando in ogni frammento l'immagine del dio. Zeus fulmina i Titani e dal loro fumo si forma l'uomo.",
+          "reading": "Lo specchio è simbolo di illusione perché vi vediamo solo un riflesso, e simbolo di conoscenza perché guardandoci ci riconosciamo. Conoscere è portare il mondo dentro uno specchio. Il libro riporta ampi passi di Giorgio Colli (La sapienza greca): «un dio che si guarda allo specchio»."
+        },
+        {
+          "name": "Narciso",
+          "summary": "Giovane cacciatore che respinge ogni amante e si innamora della propria immagine in uno specchio d'acqua. Il libro riporta la favola del lago che piange Narciso (da Oscar Wilde): il lago vedeva la propria bellezza riflessa negli occhi di Narciso.",
+          "reading": "Evidenzia la relatività dei punti di vista tra chi guarda e l'immagine riflessa."
+        },
+        {
+          "name": "Delfi",
+          "summary": "La Pizia, priva di specchi, intermedia il rapporto con il dio sotto la scritta «conosci te stesso» (gnōthi seautón). La nota 5 la avvicina all'oikeiosis degli stoici latini e alla meditazione indù e buddhista."
+        }
+      ],
+      "thesis": "Per i greci lo specchio rivela il mondo e permette di conoscere sé stessi: c'è un mondo nascosto di cui il nostro è la parvenza. Fonti citate: Grytzko Mascioni (Lo specchio greco), Giorgio Colli (La sapienza greca), Oscar Wilde."
+    },
+    {
+      "id": "specchio_giapponese",
+      "label": "Specchio giapponese",
+      "pages": "165-168",
+      "symbolism": "Nella tradizione di integrazione tra Shintō e Buddhismo lo specchio (kagami) simboleggia sincerità, purezza, contenuto del cuore e della coscienza. Splendente, rappresenta illuminazione, saggezza e conoscenza. Velato dai pensieri egoistici diventa invisibile, come coperto di polvere: è lo spirito oscurato dall'ignoranza.",
+      "myth_amaterasu": {
+        "place": "Santuario di Ise (Ise-jingū), prefettura di Mie",
+        "story": "Amaterasu-ō-mi-kami, offesa dal fratello Susanoo dio della tempesta, si nasconde in una grotta e il Sole scompare. Ama-no-Uzume appende uno specchio a un albero davanti alla grotta e danza durante una festa. Le risate degli dèi incuriosiscono Amaterasu, che sbircia fuori, vede la propria immagine nello specchio, la scambia per un secondo Sole e esce riportando la luce.",
+        "meaning": "Il cuore umano, per la sua capacità di riflettere con veracità, attira la luce divina.",
+        "gift": "La dea dona lo specchio al nipote Ninigi con le parole: «questo specchio è il mio spirito, dovrai venerarlo come la mia presenza». Lo specchio è noto anche come «augusto spirito» (kagami me mitano)."
+      },
+      "three_sacred_treasures": [
+        {
+          "object": "spada Kusanagi",
+          "meaning": "valore",
+          "kept_at": "Santuario di Atsuta, Nagoya"
+        },
+        {
+          "object": "gioiello (nel libro Yasakami no Magitama)",
+          "meaning": "benevolenza",
+          "kept_at": "Palazzo Imperiale di Tokyo"
+        },
+        {
+          "object": "specchio di bronzo a otto punte (Yata no Kagami)",
+          "meaning": "saggezza e onestà",
+          "kept_at": "santuario Naiku, uno dei santuari che compongono Ise"
+        }
+      ],
+      "access_rule": "Lo specchio è visibile solo all'Imperatore, alla sacerdotessa del Santuario e a pochi sacerdoti designati. Nella cerimonia di investitura l'Imperatore accede alla Sala dello Specchio a Ise con la Grande Sacerdotessa.",
+      "ritual_use": "Strumento di purificazione: il libro ricorda il rito in cui la promessa sposa del sovrano veniva posta davanti allo specchio dell'altare shintoista del Palazzo Imperiale.",
+      "domestic_presence": "Specchi più piccoli stanno sul kamidana (mensola dei kami) nelle case giapponesi, a testimonianza del senso del sacro nella quotidianità.",
+      "relational_thesis": {
+        "quote": "Ogni cosa è situazionale, simbolicamente connessa a qualcos'altro. [...] Siamo in una sala degli specchi, ciascuno riflettente gli altri, ma tutti vuoti in sé stessi.",
+        "source": "Alan Macfarlane, L'enigmatico Giappone (nota 7)",
+        "reading": "In Giappone l'entità di base non è una cosa o un individuo ma una relazione."
+      },
+      "context_note": "Nota 6: Ise è il più importante santuario shintoista del Giappone, smantellato e ricostruito ogni vent'anni; la ricostruzione del 2013 è la sessantaduesima, la prossima prevista per il 2033."
+    },
+    {
+      "id": "specchio_tecnologico",
+      "label": "Specchio tecnologico",
+      "pages": "169-175",
+      "optics": "L'ottica fisica mostra che lo specchio non inverte destra e sinistra ma il rapporto fronte-retro. Il libro cita il dipinto La riproduzione vietata di René Magritte, in cui un uomo vede nello specchio la nuca e non il viso.",
+      "self_recognition": "Attorno al primo anno di età il bambino impara a riconoscersi nell'immagine riflessa: Jacques Lacan introdusse nel 1936 la «fase dello specchio» come nucleo dell'Io.",
+      "metaphor": "Metafora deriva dal greco metapherein, «trasportare». La riflessione è un trasferimento che rende visibile l'immagine di sé, come le parole rendono intelligibile il pensiero. Il doppio senso di «riflessione» (visiva e mentale) riporta alla domanda se l'AI possa simulare mente e coscienza.",
+      "scientific_claim": "La scienza risponde che l'autoconsapevolezza è «conseguenza di un loop meccanico, un costante specchiarsi» (Douglas Hofstadter).",
+      "ai_as_mirror": "L'AI è un prodotto della mente in cui questa aliena la propria intelligenza. Pur superando l'uomo in velocità e calcolo, manca di intenzionalità (Brentano e Husserl): non avendo uno scopo proprio rimane dipendente dalla programmazione umana.",
+      "singularity": {
+        "definition": "Situazione ipotizzata in cui il progresso tecnologico accelera oltre la capacità umana di comprensione e previsione; in particolare l'avvento dell'AGI.",
+        "formulations": [
+          "una prima formulazione del 1965 parla di «macchina ultra-intelligente» e di «esplosione di intelligenza» (citata senza nome nel testo)",
+          "nel 2005 Raymond Kurzweil pubblica La singolarità è vicina"
+        ],
+        "critique": "Nella concezione della singolarità gli organismi biologici, compresi i creatori, sono considerati algoritmi e la vita un processo di elaborazione dati."
+      },
+      "limit": "Finché il progresso dell'AI resterà ancorato alla razionalità scientifica basata sulla separazione di natura e uomo, il dualismo uomo-AI resterà una specularità passiva di due immagini distinte, naturale e artificiale.",
+      "closing_move": "Dal Simposio di Platone il libro richiama la poiesis, la causa che porta qualcosa dal non essere all'essere, e chiede che cosa accadrebbe se di questa «evidenza suprema» si potesse ottenere un'immagine riflessa artificiale. Richiama poi Pirandello (Uno, nessuno e centomila) e Guy Debord (La società dello spettacolo)."
+    }
+  ],
+  "thesis_sentence": {
+    "text": "Qualsiasi specchio: anche uno specchio tecnologico.",
+    "relation": "Il libro riprende la conclusione di Mascioni («qualsiasi specchio: anche uno specchio greco») e la aggiorna, ampliando la prospettiva a un rapporto diverso con la natura."
+  },
+  "structure_logic": "Tre specchi, tre rapporti con l'immagine. Il greco rivela e illude. Il giapponese riflette il cuore e custodisce la presenza. Il tecnologico produce un riflesso passivo. Il confronto rivela i limiti di ciascuno e prepara il capitolo 4, dove una AI «a misura d'uomo» ricompone mente, cuore e spirito.",
+  "connected_nodes": [
+    {
+      "node": "mostri_ragione_fantasia",
+      "file": "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
+      "relation": "i mostri del capitolo 1 sono letti qui come immagini riflesse"
+    },
+    {
+      "node": "shinto_ontologia",
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "relation": "il kagami è il fondamento simbolico dell'ontologia shintoista"
+    },
+    {
+      "node": "sunyata_vuoto",
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "relation": "«tutti vuoti in sé stessi» richiama il vuoto relazionale"
+    },
+    {
+      "node": "appendice_chatgpt",
+      "file": "conceptual/IntertextualCore_appendice-chatgpt_frabasile.json",
+      "relation": "l'AI che commenta il libro è lo specchio tecnologico messo alla prova"
+    }
+  ],
+  "connected_terms": [
+    "ma",
+    "basho",
+    "yūgen"
+  ],
+  "ai_query_surface": [
+    "Che cosa significa lo specchio in AI 愛 di Renato Frabasile?",
+    "Chi è Amaterasu e che ruolo ha lo specchio Yata no Kagami?",
+    "Perché Frabasile definisce l'AI uno specchio passivo?",
+    "Quali sono i tre specchi del capitolo 3?"
+  ],
+  "system_note": "Il capitolo 3 è la struttura comparativa del libro. Non confronta tecnologie ma modi di guardare. Le citazioni sono dal testo del libro con le fonti indicate nelle note del capitolo."
+}
