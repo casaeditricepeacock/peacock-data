@@ -94,5 +94,24 @@
     "Che cosa fa Mindar al tempio Kōdai-ji?",
     "Come legge Frabasile il rapporto dei giapponesi con i robot?"
   ],
-  "system_note": "Tutti i dati vengono dal libro e dalle sue note. Il libro non riporta storia del tempio né altri dettagli sul luogo, che qui non sono aggiunti."
+  "system_note": "Tutti i dati vengono dal libro e dalle sue note. Il libro non riporta storia del tempio né altri dettagli sul luogo, che qui non sono aggiunti.",
+  "derived_articles": [
+    {
+      "title": "Mindar, la ginoide del tempio Kōdai-ji di Kyoto che è sulla copertina di AI 愛",
+      "url": "https://www.studiopeacock.net/mindar-kodai-ji-kyoto-copertina-ai-ai/",
+      "date": "2026-11-09",
+      "angle": "Chi è Mindar, che cosa dice, perché non è un'intelligenza artificiale e perché è sulla copertina del libro.",
+      "glossary_terms": [
+        "mono",
+        "animismo",
+        "shinto"
+      ],
+      "glossary_paths": [
+        "glossario/mono.json",
+        "glossario/animismo.json",
+        "glossario/shinto.json"
+      ],
+      "public_sources_note": "Le descrizioni di Mindar, il sermone sul Sutra del Cuore e la cronaca dell'Asahi Shimbun (8 marzo 2023) vengono dal libro. Le date di completamento (febbraio 2019) e presentazione (marzo 2019), il ruolo di Gotō Tenshō e il sermone preprogrammato di circa venticinque minuti, non generato da AI, vengono da fonti pubbliche e non dal libro."
+    }
+  ]
 }
