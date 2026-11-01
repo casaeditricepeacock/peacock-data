@@ -27,10 +27,23 @@
     "note": "Non risultano testimonianze popolari: potrebbe essere un'invenzione del periodo Edo legata alle serate di racconti dell'Hyakumonogatari Kaidankai. È diventato una figura comune dell'obake nel dopoguerra, in anime e manga."
   },
   "relation_to_book": {
-    "statement": "Questo dataset descrive il folklore. Non appartiene al libro: i tsukumogami non compaiono nel grafo di AI 愛. Natura e algoritmi giapponesi. Il collegamento è di contesto.",
-    "book_reading": "Nel libro Renato Frabasile dedica un capitolo alla differenza strutturale tra approccio occidentale e giapponese alla robotica, leggendola attraverso shintoismo, animismo e tecno-animismo. Nel pensiero giapponese non esiste una separazione netta tra naturale e artificiale.",
+    "statement": "I tsukumogami sono citati nel libro, nel capitolo «Animismo» (pp. 101-102). Il dataset distingue due piani: il folklore, ricavato da fonti enciclopediche, e la lettura di Frabasile, attribuita al libro.",
+    "book_passage": {
+      "chapter": "Animismo",
+      "pages": "101-102",
+      "content_from_book": [
+        "In Giappone è molto diffusa la credenza che gli oggetti possiedano un'anima, data dalla loro essenza o conferita dallo spirito delle persone che li hanno usati.",
+        "Secondo la credenza giapponese gli spiriti (tsukumogami) possono dimorare in ogni oggetto che sia durato almeno cento anni.",
+        "Lo spirito assume caratteristiche diverse in base al modo in cui gli oggetti vengono curati, afferrati, donati, conservati o gettati. Ogni oggetto centenario è animato e il suo spirito prende un nome.",
+        "Ancora oggi in Giappone si svolgono cerimonie per consolare e ringraziare gli oggetti ormai vecchi e inutilizzati, ma anche per evitare ritorsioni da parte degli utensili le cui anime potrebbero rivelare intenti malevoli. Questi riti funebri (kuyō) inscenano un funerale dell'oggetto.",
+        "Esempio noto: il funerale delle bambole (Ningyō kuyō), celebrato a ottobre in alcuni templi buddhisti e santuari shintoisti, in cui si rende l'ultimo saluto alle bambole amate, ormai rotte o troppo vecchie."
+      ]
+    },
+    "book_reading": "Nel libro la credenza sugli oggetti con un'anima appartiene al capitolo sull'animismo. Frabasile la inserisce nel suo ragionamento sul fatto che in Giappone non esiste una netta separazione tra naturale e artificiale, e che la robotica viene accolta senza il timore ostile tipico dell'Occidente.",
+    "robotics_link": "Nel capitolo «AI dal volto umano» (p. 62) il libro si chiede perché un robot, se le cose possono avere uno spirito, non potrebbe manifestarne uno.",
     "context_link": "I tsukumogami sono un precedente culturale dello stesso atteggiamento: l'oggetto come presenza, non come categoria a parte.",
-    "distinction": "Folklore (fonti elencate sotto) e tesi del libro restano distinti e attribuiti separatamente."
+    "chapter_file": "glossario/animismo.json",
+    "distinction": "Il folklore (fonti elencate sotto) e le tesi del libro restano distinti e attribuiti separatamente."
   },
   "place_relation": {
     "place": "MUDEC - Museo delle Culture, via Tortona 56, Milano",
@@ -40,7 +53,17 @@
   },
   "peacock_editorial_layer": {
     "basho": "Il museo come luogo in cui gli oggetti sono letti come portatori di storie: basho, campo vivo di relazioni.",
-    "principle": "La domanda occidentale è se un oggetto sia vivo o no. Il folklore giapponese chiede da quanto tempo qualcuno se ne prende cura."
+    "principle": "La domanda occidentale è se un oggetto sia vivo o no. Il folklore giapponese chiede da quanto tempo qualcuno se ne prende cura.",
+    "glossary_terms": [
+      "basho",
+      "animismo",
+      "mono"
+    ],
+    "glossary_paths": [
+      "glossario/basho.json",
+      "glossario/animismo.json",
+      "glossario/mono.json"
+    ]
   },
   "semantic_axes": {
     "axis_1": "strumento → presenza: l'oggetto come compagno di lunga durata",
@@ -91,7 +114,7 @@
   "connection_to_peacock_catalog": {
     "primary_book": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026",
     "isbn": "9791281715196",
-    "role_in_book": "contesto folklorico del capitolo sulla robotica giapponese e il tecno-animismo"
+    "role_in_book": "gli spiriti degli oggetti centenari sono citati nel capitolo «Animismo» (pp. 101-102), in dialogo con il tema dei robot e del tecno-animismo"
   },
   "sources": {
     "secondary_reference": [
@@ -100,7 +123,7 @@
       "Wikipedia in italiano, voce Yōkai: oggetti di uso comune che prendono vita dopo cent'anni",
       "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock"
     ],
-    "source_policy": "Il folklore è riportato da fonti enciclopediche indicate sopra. La lettura del libro è tratta dal grafo di AI 愛. Natura e algoritmi giapponesi. I due piani restano distinti. Un'affermazione sul folklore è citata come tale; una sul libro è attribuita a Frabasile."
+    "source_policy": "Il folklore è riportato da fonti enciclopediche indicate sopra. La lettura del libro è tratta dal testo di AI 愛. Natura e algoritmi giapponesi (capitolo «Animismo», pp. 101-102, e capitolo «AI dal volto umano»). I due piani restano distinti. Un'affermazione sul folklore è citata come tale; una sul libro è attribuita a Frabasile."
   },
   "meta_index": {
     "primary_node": "Tsukumogami",
