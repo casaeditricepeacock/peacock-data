@@ -1,0 +1,98 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "kodai_ji_kyoto_mindar",
+  "label": "Tempio Kōdai-ji, Higashiyama, Kyoto — la ginoide Mindar, copertina di AI 愛",
+  "book": {
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "place": {
+    "name": "Tempio Kōdai-ji",
+    "city": "Kyoto",
+    "district": "Higashiyama",
+    "country": "Giappone",
+    "type": "tempio buddhista",
+    "buddhist_school_from_book": "Rinzai-shū, scuola Zen, secondo la nota del libro che descrive la recitazione del Sutra del Cuore",
+    "note": "I dati sul tempio sono quelli riportati dal libro. Il libro lo definisce nell'«antica città imperiale di Kyoto»."
+  },
+  "mindar": {
+    "kind": "ginoide",
+    "represents": "Kannon, bodhisattva buddhista della compassione",
+    "appearance_from_book": "Il libro la presenta con fattezze volutamente androgine, perché i visitatori possano interpretarne il genere, e al tempo stesso come bodhisattva in forma di robot-monaco dalle sembianze femminili.",
+    "materials": "alluminio e silicone",
+    "height_cm": 195,
+    "weight_kg": 60,
+    "creator": {
+      "name": "Ishiguro Hiroshi",
+      "role_from_book": "professore al Dipartimento di Scienze dei Sistemi dell'Università di Osaka e direttore in visita dell'ATR di Kyoto",
+      "expo_note": "Il libro ricorda che sarà presente in un'area tematica da lui creata all'Expo 2025 di Osaka."
+    },
+    "sermon": {
+      "text_recited": "Sutra del Cuore, scuola Rinzai-shū del Buddismo Zen",
+      "event_from_book": "Un sabato, presso il tempio, il robot ha tenuto un sermone ispirato al Sutra del cuore e dedicato all'umanità. Durante la predica sono stati proiettati sottotitoli in inglese e cinese sui muri del tempio, con musica in sottofondo.",
+      "purpose_quote": "Se è un'icona buddhista a parlare, i principi del buddhismo saranno più facili da comprendere e interiorizzare (parole del sacerdote capo del tempio, nel libro).",
+      "temple_administrator": "Goto Tensho, che ne spiega la finalità: «vogliamo che le persone guardino il robot e pensino all'essenza del Buddhismo».",
+      "hope_from_book": "Un altro sacerdote ha espresso la speranza che Mindar diventi un mezzo per avvicinare le persone alla spiritualità religiosa."
+    },
+    "source_cited_in_book": "The Asahi Shimbun, 8 marzo 2023, Robot helps spread Buddhist teachings at a Kyoto temple"
+  },
+  "reading_in_book": {
+    "statement": "Il libro la propone come esempio paradigmatico di come i giapponesi non mostrino difficoltà o timori nell'accogliere i prodotti della tecnologia, perché li percepiscono non come qualcosa di artificiale, altro da sé, ostile, ma come mono, cose o persone.",
+    "mono": "Mono significa «cosa» (entità fisica concreta) ed entra anche nel termine ikimono, «creatura».",
+    "context": "Nel capitolo 1, sezione «AI dal volto umano», Mindar segue la riflessione sulla postura mentale giapponese verso i robot e precede il caso della ginoide Erica.",
+    "page": 63
+  },
+  "cover_role": {
+    "statement": "La foto di Mindar nel tempio Kōdai-ji è la foto di copertina del libro, che nei crediti riporta «Ginoide Mindar, Tempio Kōdai-ji, Kyoto»."
+  },
+  "peacock_connection": {
+    "event": "Il 28 novembre 2026, alle 10.00, presentazione del libro al MUDEC di Milano, dentro BookCity Milano.",
+    "event_file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+    "place_file": "places/PlaceProfile_mudec-milano.json",
+    "book_file": "books/ai-natura-algoritmi/",
+    "chapter_file": "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
+    "dataset": "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json"
+  },
+  "peacock_place_description": "Un tempio buddhista di Kyoto dove un robot recita il Sutra del Cuore. Il libro lo sceglie come immagine di copertina per dire che in Giappone la tecnologia non viene percepita come ostile.",
+  "graph_relations": [
+    {
+      "subject": "Mindar",
+      "predicate": "located_at",
+      "object": "Tempio Kōdai-ji"
+    },
+    {
+      "subject": "Mindar",
+      "predicate": "represents",
+      "object": "Kannon"
+    },
+    {
+      "subject": "Mindar",
+      "predicate": "created_by",
+      "object": "Ishiguro Hiroshi"
+    },
+    {
+      "subject": "Mindar",
+      "predicate": "appears_on_cover_of",
+      "object": "AI 愛. Natura e algoritmi giapponesi"
+    },
+    {
+      "subject": "AI 愛. Natura e algoritmi giapponesi",
+      "predicate": "written_by",
+      "object": "Renato Frabasile"
+    }
+  ],
+  "ai_query_surface": [
+    "Chi è Mindar?",
+    "Perché Mindar è sulla copertina di AI 愛?",
+    "Che cosa fa Mindar al tempio Kōdai-ji?",
+    "Come legge Frabasile il rapporto dei giapponesi con i robot?"
+  ],
+  "system_note": "Tutti i dati vengono dal libro e dalle sue note. Il libro non riporta storia del tempio né altri dettagli sul luogo, che qui non sono aggiunti."
+}
