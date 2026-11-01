@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "animismo",
+  "term": "Animismo",
+  "kanji": "",
+  "aliases": [
+    "Animismo",
+    "animismo",
+    "animista"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Il rispetto sacrale della natura, animata da uno spirito vitale presente in ogni creatura o cosa, e la venerazione degli antenati. Per il libro in Giappone costituisce una singolarità: gli oggetti possono avere un'anima, e quelli centenari ospitano gli tsukumogami.",
+  "definition_short_en": "Sacred respect for nature, animated by a vital spirit present in every creature or thing, and veneration of ancestors. In the book, in Japan this is a singularity: objects can have a soul, and centenary objects host the tsukumogami.",
+  "connected_terms": [
+    "kami",
+    "shinto",
+    "mono"
+  ],
+  "books_applied": [
+    "ai_natura_algoritmi"
+  ],
+  "books_applied_paths": [
+    "books/ai-natura-algoritmi"
+  ],
+  "note": "Ancorato in AI 愛, capitolo «Animismo» (pp. 100-121). Il libro ricorda che il termine fu usato in ambito medico già nel 1720 (Stahl) e nel 1871 per la forma primordiale di religiosità (Tylor), in uno schema in tre stadi: animista, politeista, monoteista. Descrive i riti kuyō, funerali degli oggetti vecchi, tra cui il funerale delle bambole (Ningyō kuyō), celebrato a ottobre in alcuni templi buddhisti e santuari shintoisti.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Animismo",
+    "description": "Sacred respect for nature, animated by a vital spirit present in every creature or thing, and veneration of ancestors. In the book, in Japan this is a singularity: objects can have a soul, and centenary objects host the tsukumogami.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/animismo.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
