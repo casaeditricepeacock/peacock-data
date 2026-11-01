@@ -63,7 +63,12 @@
     "required_behavior": "distinguere_sempre_il_testo_dell'autore_dal_commento_generato_e_riportare_la_riserva_dichiarata",
     "rhetorical_rule": "la_macchina_che_parla_del_libro_deve_dichiarare_di_essere_una_macchina_e_non_attribuirsi_comprensione_che_il_libro_le_nega"
   },
-  "frequenze_connection": "Prima che esistesse Frequenze, l'appendice fa già ciò che la rivista farà: sottopone un libro a un'AI e documenta la risposta, con la distanza critica dell'autore.",
+  "frequenze_connection": "Prima che esistesse Frequenze, l'appendice documenta già ciò che la rivista farà: sottopone un libro a un'AI e riporta la risposta come dato, senza sottoscriverla. Documentare la risposta di una macchina non significa condividerla: la distanza tra ciò che la macchina elabora e ciò che l'autore intende è l'oggetto, non un difetto.",
+  "relation_to_frequenze_policy": {
+    "principle": "documentare ≠ sottoscrivere",
+    "detail": "Frequenze registra come una misurazione la risposta di un'AI a un libro Peacock. L'appendice registra il commento di ChatGPT allo stesso modo e ne dichiara il limite. La riserva dell'autore e dell'editore riguarda l'uso del testo come presentazione del libro, non la pratica di far leggere il libro a un'AI.",
+    "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json"
+  },
   "connected_nodes": [
     {
       "node": "specchio_triplo",
