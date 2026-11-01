@@ -1,0 +1,47 @@
+{
+  "type": "GlossaryTerm",
+  "id": "sunyata",
+  "term": "Sūnyatā",
+  "kanji": "空",
+  "aliases": [
+    "Sūnyatā",
+    "Śūnyatā",
+    "sunyata",
+    "ku",
+    "vacuità",
+    "vuoto buddhista",
+    "空"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Il vuoto buddhista (in giapponese ku), la «verità ultima». Non è nulla né assenza: è la condizione di possibilità di tutte le cose, che esistono non di per sé ma perché sono in relazione con altro. Il libro lo contrappone al vuoto come nulla dell'Occidente e lo accosta al vuoto quantistico.",
+  "definition_short_en": "Buddhist emptiness (Japanese ku), the «ultimate truth». Not nothingness or absence: it is the condition of possibility of all things, which exist not by themselves but because they are in relation with other things. The book contrasts it with the Western notion of emptiness as nothingness and compares it with the quantum vacuum.",
+  "connected_terms": [
+    "ma",
+    "basho",
+    "aidagara"
+  ],
+  "books_applied": [
+    "ai_natura_algoritmi"
+  ],
+  "books_applied_paths": [
+    "books/ai-natura-algoritmi"
+  ],
+  "note": "Ancorato in AI 愛, capitolo «Meditare non è pensare» (pp. 221-222 e 228-230). Immagini del libro: il cielo che «non è vuoto in senso negativo, contiene tutti noi»; il vaso che senza il vuoto interno sarebbe privo di utilità; il vuoto come «Grande Casa» da cui veniamo. Il libro afferma che la vacuità non si comprende per via razionale ma si fa esperienza per via meditativa, e che è «l'essenza della compassione».",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Sūnyatā",
+    "description": "Buddhist emptiness (Japanese ku), the «ultimate truth». Not nothingness or absence: it is the condition of possibility of all things, which exist not by themselves but because they are in relation with other things. The book contrasts it with the Western notion of emptiness as nothingness and compares it with the quantum vacuum.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/sunyata.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "空"
+  }
+}
