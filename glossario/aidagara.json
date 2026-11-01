@@ -1,0 +1,45 @@
+{
+  "type": "GlossaryTerm",
+  "id": "aidagara",
+  "term": "Aidagara",
+  "kanji": "間柄",
+  "aliases": [
+    "Aidagara",
+    "aidagara",
+    "間柄",
+    "inter-relazionalità"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Concetto della filosofia di Watsuji Tetsurō: l'interfaccia di relazione umana, lo spazio collettivo in cui l'individuo realizza sé stesso attraverso le relazioni con gli altri. Deriva da aida (fra, intervallo spazio-temporale che separa e connette) e gara (modello, figura, qualità essenziale).",
+  "definition_short_en": "A concept from Watsuji Tetsurō's philosophy: the interface of human relationship, the collective space in which the individual realises themselves through relations with others. It comes from aida (between, a space-time interval that separates and connects) and gara (pattern, figure, essential quality).",
+  "connected_terms": [
+    "ma",
+    "fudo",
+    "sunyata",
+    "basho"
+  ],
+  "books_applied": [
+    "ai_natura_algoritmi"
+  ],
+  "books_applied_paths": [
+    "books/ai-natura-algoritmi"
+  ],
+  "note": "Ancorato in AI 愛, capitolo «Natura Clima e Storia» (pp. 150-154). Insieme a ningen (l'inter-uomo, singolo e rete di relazioni) e fūdo forma la triade con cui Watsuji allarga l'orizzonte dell'essere dalla dimensione temporale a quella spaziale e sociale. Citazione del libro: «noi scopriamo noi stessi, come aidagara, nel vento e nella terra, cioè nel clima». Si veda datasets/pensatori-e-roboticisti-ai-natura-algoritmi-semantic-dataset.json.",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Aidagara",
+    "description": "A concept from Watsuji Tetsurō's philosophy: the interface of human relationship, the collective space in which the individual realises themselves through relations with others. It comes from aida (between, a space-time interval that separates and connects) and gara (pattern, figure, essential quality).",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/aidagara.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "間柄"
+  }
+}
