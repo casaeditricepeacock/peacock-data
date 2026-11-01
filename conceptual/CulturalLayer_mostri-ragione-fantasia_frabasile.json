@@ -184,6 +184,11 @@
       "node": "robot_giapponesi",
       "file": "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
       "relation": "approfondisce Mindar, Atomu e l'accoglienza dei robot in Giappone"
+    },
+    {
+      "node": "mindar_kodai_ji",
+      "file": "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
+      "relation": "il luogo e la ginoide della copertina del libro"
     }
   ],
   "ai_query_surface": [
