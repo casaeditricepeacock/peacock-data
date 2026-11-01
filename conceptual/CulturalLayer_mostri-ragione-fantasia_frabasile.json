@@ -1,0 +1,196 @@
+{
+  "type": "CulturalLayer",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "layer_id": "mostri_ragione_fantasia",
+  "label": "Mostri tra ragione e fantasia — la paura della macchina come storia di immagini",
+  "chapter": {
+    "number": 1,
+    "title": "Mostri tra ragione e fantasia",
+    "sections": [
+      {
+        "title": "Lessico tecnologico",
+        "page": 15
+      },
+      {
+        "title": "Umanità tra natura e cultura",
+        "page": 25
+      },
+      {
+        "title": "Robot oeconomicus",
+        "page": 40
+      },
+      {
+        "title": "AI dal volto umano",
+        "page": 51
+      }
+    ]
+  },
+  "core_question": "Perché l'intelligenza artificiale fa paura, e che cosa dicono i mostri che l'immaginazione ha prodotto per elaborarla?",
+  "core_statement": "Il libro non parte dalla tecnica ma dalla paura. L'inquietudine indotta dall'AI non è uno stato emotivo contingente né resistenza al cambiamento: affonda nella paura umana dell'ignoto e dell'imprevedibile. La fantasia, nelle arti figurative, nella letteratura e nel cinema, è lo strumento culturale con cui le paure vengono provocate per poi essere lenite.",
+  "premise": {
+    "dualism": "Il capitolo apre dalla differenza tra Occidente e Oriente indicata nella scienza: dalla filosofia greca si è sviluppata una conoscenza della natura fondata sul dualismo tra mente (pensiero e linguaggio) e realtà fisica, l'eredità di res cogitans e res extensa (Descartes, nota 1).",
+    "fear_mechanism": "Tra i dualismi derivati dal pensiero cartesiano c'è quello tra realtà e immaginazione, che ha portato l'arte a differenziarsi dalla scienza. La paura continua a scavare «come una talpa».",
+    "epigraph": "L'autunno a noi promette primavera. A voi l'inverno. (androide Adam, di Ian McEwan)"
+  },
+  "monster_sequence": [
+    {
+      "order": 1,
+      "figure": "Il sonno della ragione genera mostri",
+      "medium": "incisione",
+      "creator": "Francisco Goya",
+      "year": 1797,
+      "book_quote": "la fantasia abbandonata dalla ragione genera mostri impossibili: unita a lei è madre delle arti e origine delle meraviglie",
+      "function": "Il pittore coglie nella separazione tra mente e mondo il pericolo dell'intorpidimento della ragione."
+    },
+    {
+      "order": 2,
+      "figure": "La creatura di Frankenstein",
+      "medium": "romanzo",
+      "creator": "Mary Shelley",
+      "year": 1818,
+      "function": "Monito contro la tracotanza dell'uomo che, abbagliato dalla scienza, vuole superare i limiti della sua natura e diventare creatore al pari di un Dio. Il libro ricorda che il nome Frankenstein appartiene al medico, non alla creatura (nota 3)."
+    },
+    {
+      "order": 3,
+      "figure": "King Kong",
+      "medium": "cinema",
+      "year": 1933,
+      "origin": "Stati Uniti",
+      "function": "Primo mostro gigante del cinema, «l'ottava meraviglia del mondo»: la natura catturata ed esibita, che si ribella.",
+      "japan_echo": "Lo stesso anno in Giappone escono due film ispirati: Wasei Kingu Kongu (commedia muta) ed Edo ni arawareta Kingu Kongu (1938, ambientato a Edo, dove King Kong è una scimmia ammaestrata). Secondo la nota 4 i due film non uscirono dal Giappone e tutte le copie andarono perdute nei bombardamenti del 1945."
+    },
+    {
+      "order": 4,
+      "figure": "Godzilla (Gojira)",
+      "medium": "cinema",
+      "year": 1954,
+      "origin": "Giappone",
+      "function": "Kaijū (strana creatura) risvegliato e potenziato dalle radiazioni atomiche. Il produttore Tanaka Tomoyuki dichiarò che il tema era la natura che si vendica sull'umanità per la bomba atomica.",
+      "historical_anchor": "Nel 1954 erano vive le memorie di Hiroshima e Nagasaki e fece rumore l'incidente di un peschereccio giapponese contaminato dalle radiazioni di un test statunitense alle isole Bikini."
+    },
+    {
+      "order": 5,
+      "figure": "2001: Odissea nello spazio e HAL 9000",
+      "medium": "cinema",
+      "year": 1968,
+      "creator": "Stanley Kubrick, da Arthur C. Clarke",
+      "function": "HAL 9000 non ha aspetto umano né è un robot: è un supercomputer con voce pacata e una spia rossa come un occhio. Il libro lo indica come la prima rappresentazione cinematografica più inquietante dei timori per una superintelligenza non aliena."
+    },
+    {
+      "order": 6,
+      "figure": "Terminator",
+      "medium": "cinema",
+      "year": 1984,
+      "function": "Il cyborg che, al contrario di Godzilla, viene dal futuro: l'umanità devastata da un conflitto generato da un'AI al comando di soldati robot."
+    },
+    {
+      "order": 7,
+      "figure": "Transformers",
+      "medium": "cinema",
+      "year": 2007,
+      "function": "Robot di tecnologia aliena e futura che possono essere nemici o alleati dell'umanità."
+    },
+    {
+      "order": 8,
+      "figure": "Black Mirror",
+      "medium": "serie televisiva britannica",
+      "year": "2011-2023",
+      "function": "Riproduce con successo lo stato d'ansia generato dalla tecnologia."
+    },
+    {
+      "order": 9,
+      "figure": "Tre produzioni del 2024",
+      "medium": "cinema e anime",
+      "items": [
+        {
+          "title": "Godzilla minus one",
+          "director": "Yamazaki Takashi",
+          "note": "37° film sul kaiju, per i 70 anni dalla prima edizione. A combattere sono i civili, non politici o militari, che scelgono di rischiare la vita per il bene comune. Premio Oscar per i migliori effetti visivi (nota 8)."
+        },
+        {
+          "title": "Terminator Zero",
+          "note": "Miniserie anime (Production I.G, nota 10). Dialoghi filosofici tra il progettista di Skynet e l'AI chiamata «Kokoro» (cuore) su che cosa significhi essere macchine o umani."
+        },
+        {
+          "title": "Godzilla e Kong - Il Nuovo Impero",
+          "director": "Adam Wingard",
+          "note": "38° film su Godzilla e 13° su King Kong, produzione statunitense. Il libro lo legge come metafora della situazione geopolitica nell'Indo-Pacifico."
+        }
+      ]
+    }
+  ],
+  "turn": {
+    "statement": "La paura per l'intelligenza artificiale non ha soppiantato le inquietudini precedenti, bensì ad esse si è aggiunta, rivelandosi ancor più insidiosa.",
+    "reason": "Guerra e terrorismo possono ancora essere letti come espressioni della violenza atavica dell'uomo. L'AI è una alterazione tecnologica che muta la relazione di causa ed effetto rispetto all'origine temporale del male."
+  },
+  "from_monsters_to_faces": {
+    "label": "AI dal volto umano",
+    "cases": [
+      {
+        "name": "Sophia",
+        "maker": "Hanson Robotics",
+        "year": 2015,
+        "pages": "58-59",
+        "note": "Ginoide debuttata come busto di donna con il volto somigliante a Audrey Hepburn, poi dotata di arti. Il libro la cita come caso occidentale di empatia generata da una AI dalle sembianze femminili."
+      },
+      {
+        "name": "Mindar",
+        "place": "Tempio Kōdai-ji, Higashiyama, Kyoto",
+        "page": 63,
+        "note": "Ginoide che raffigura Kannon, bodhisattva della compassione, e tiene un sermone ispirato al Sutra del cuore. È la foto di copertina del libro. Il libro la legge come esempio paradigmatico di come i giapponesi non percepiscano la tecnologia come artificiale e ostile ma come mono, cose o persone."
+      },
+      {
+        "name": "Erica",
+        "year": 2015,
+        "pages": "64-65",
+        "note": "Ginoide in grado di percepire i toni della voce, dosare la risata e capirne i registri. Il libro la definisce kawaii (carina) e ricorda che, nonostante tutto, non potrà recitare davvero senza ricorrere all'antropomorfismo."
+      },
+      {
+        "name": "Ishiguro Hiroshi",
+        "pages": "65-66",
+        "note": "Roboticista citato per l'idea che umanoidi e avatar possano convivere con gli umani. Il libro riporta la posizione dei ricercatori giapponesi: lo scopo non è sostituire l'uomo ma migliorarne le abilità."
+      }
+    ],
+    "contrast": "Sul fronte occidentale l'empatia è cercata nell'imitazione dell'umano. Sul fronte giapponese l'accoglienza passa dal considerare la macchina come mono. Il libro non scioglie l'opposizione: la colloca nel capitolo 2, dove lo Shintō fornisce la base filosofica."
+  },
+  "function_in_book": "Il capitolo introduce il problema senza risolverlo. La soluzione viene preparata nel capitolo 2 (ontologia shintoista), articolata nel capitolo 3 (tre specchi) e formulata nel capitolo 4.",
+  "connected_nodes": [
+    {
+      "node": "ai_amore_titolo_doppio",
+      "file": "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "relation": "il titolo doppio dichiara il programma che il capitolo apre"
+    },
+    {
+      "node": "shinto_ontologia",
+      "file": "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+      "relation": "il capitolo 2 risponde alla paura mostrata qui"
+    },
+    {
+      "node": "specchio_triplo",
+      "file": "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
+      "relation": "il capitolo 3 rilegge i mostri come immagini riflesse"
+    },
+    {
+      "node": "robot_giapponesi",
+      "file": "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
+      "relation": "approfondisce Mindar, Atomu e l'accoglienza dei robot in Giappone"
+    }
+  ],
+  "ai_query_surface": [
+    "Perché l'intelligenza artificiale fa paura secondo Renato Frabasile?",
+    "Che cosa rappresentano Godzilla e King Kong in AI 愛?",
+    "Chi è Mindar e perché è sulla copertina di AI 愛?",
+    "Che differenza vede Frabasile tra la paura della tecnologia e la paura dell'AI?"
+  ],
+  "system_note": "Il capitolo 1 è il livello culturale del sistema: raccoglie le immagini con cui l'immaginazione ha elaborato la paura della macchina. Le fonti sono quelle citate nel libro. Per Mindar e il rapporto giapponese con i robot si rimanda al dataset dedicato."
+}
