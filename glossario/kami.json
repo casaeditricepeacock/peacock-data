@@ -1,0 +1,46 @@
+{
+  "type": "GlossaryTerm",
+  "id": "kami",
+  "term": "Kami",
+  "kanji": "神",
+  "aliases": [
+    "Kami",
+    "kami",
+    "神",
+    "Yaoyorozu no Kami",
+    "otto milioni di Kami"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Le divinità dello Shintō: la spiritualità vitale presente in ogni cosa, organica (uomo, esseri viventi) o inorganica (alberi, montagne, fiumi, pietre, oggetti, manufatti). Collettivamente sono gli Yaoyorozu no Kami, più di otto milioni. Nel pantheon shintoista non esiste una divinità assoluta creatrice e sovrana.",
+  "definition_short_en": "The deities of Shintō: the vital spirituality present in all things, organic (humans, living beings) or inorganic (trees, mountains, rivers, stones, objects, artefacts). Collectively the Yaoyorozu no Kami, more than eight million. In the Shintō pantheon there is no absolute creator and sovereign deity.",
+  "connected_terms": [
+    "shinto",
+    "animismo",
+    "mono",
+    "fudo"
+  ],
+  "books_applied": [
+    "ai_natura_algoritmi"
+  ],
+  "books_applied_paths": [
+    "books/ai-natura-algoritmi"
+  ],
+  "note": "Ancorato in AI 愛, capitolo «Shintō» (pp. 93-95). Il libro indica che kami è un titolo onorifico che esprime rispetto per spiriti nobili e sacri; i kami operano in armonia (wa) e cooperazione (renkei) e la funzione generatrice del mondo nasce dalla loro cooperazione. Cita Motoori Norinaga: «Tutto ciò che c'è di maestoso e solenne, che possiede le qualità dell'eccellenza e della virtù ed ispira un sentimento di meraviglia, è considerato Kami». Kami originari: Izanagi e Izanami. Il kami più venerato è Amaterasu-ō-mi-kami (si veda datasets/yata-no-kagami-specchio-sacro-ise-semantic-dataset.json).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Kami",
+    "description": "The deities of Shintō: the vital spirituality present in all things, organic (humans, living beings) or inorganic (trees, mountains, rivers, stones, objects, artefacts). Collectively the Yaoyorozu no Kami, more than eight million. In the Shintō pantheon there is no absolute creator and sovereign deity.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kami.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "神"
+  }
+}
