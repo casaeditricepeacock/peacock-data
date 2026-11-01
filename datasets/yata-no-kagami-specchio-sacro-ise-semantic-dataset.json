@@ -1,0 +1,178 @@
+{
+  "dataset_id": "peacock-yata-no-kagami-specchio-sacro-ise",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name": "Lo specchio sacro del Giappone: Amaterasu, Yata no Kagami e il santuario di Ise",
+    "summary": "Nella tradizione giapponese lo specchio (kagami) simboleggia sincerità, purezza e contenuto del cuore. Il racconto di Amaterasu nella grotta spiega perché lo specchio è anche presenza divina: uno dei tre tesori sacri del trono imperiale, custodito nel santuario Naiku di Ise e visibile a pochissime persone."
+  },
+  "myth_layer": {
+    "characters": [
+      {
+        "name": "Amaterasu-ō-mi-kami",
+        "role": "dea del Sole, «Grande augusta dea che illumina i cieli», capostipite della famiglia imperiale nella tradizione mitica"
+      },
+      {
+        "name": "Susanoo",
+        "role": "dio della tempesta, fratello indisciplinato di Amaterasu"
+      },
+      {
+        "name": "Ama-no-Uzume",
+        "role": "divinità che appende lo specchio a un albero davanti alla grotta e danza durante la festa"
+      },
+      {
+        "name": "Ninigi",
+        "role": "nipote di Amaterasu, che discende dal cielo per governare il Giappone e riceve lo specchio"
+      }
+    ],
+    "story_sequence": [
+      "Amaterasu, offesa da un litigio con Susanoo, si nasconde in una grotta e il Sole scompare.",
+      "Le altre divinità la pregano più volte di uscire senza successo.",
+      "Ama-no-Uzume appende uno specchio a un albero di fronte all'ingresso e organizza una festa in cui danza.",
+      "Le risate incuriosiscono Amaterasu, che si affaccia, vede la propria immagine, la scambia per un secondo Sole e esce riportando la luce.",
+      "La dea dona lo specchio a Ninigi: «questo specchio è il mio spirito, dovrai venerarlo come la mia presenza»."
+    ],
+    "meaning_in_book": "Il cuore umano, per la sua capacità di riflettere con veracità, attira la luce divina.",
+    "epithet": "Lo specchio è conosciuto anche come «augusto spirito» (kagami me mitano)."
+  },
+  "symbolism_layer": {
+    "kagami": "Sincerità, purezza, contenuto del cuore e della coscienza: nulla può essergli nascosto.",
+    "shining_mirror": "Lo specchio splendente rappresenta illuminazione spirituale, saggezza e conoscenza.",
+    "veiled_mirror": "Pensieri malvagi o passioni egoistiche lo offuscano come una polvere; lo specchio velato è lo spirito oscurato dall'ignoranza.",
+    "solar_value": "Nella tradizione shintoista lo specchio ha valore simbolico solare. Il libro lo collega alla bandiera Hinomaru, il «disco solare»."
+  },
+  "imperial_layer": {
+    "three_sacred_treasures": [
+      {
+        "object": "spada Kusanagi",
+        "meaning": "valore",
+        "kept_at": "Santuario di Atsuta, Nagoya"
+      },
+      {
+        "object": "gioiello (nel libro Yasakami no Magitama)",
+        "meaning": "benevolenza",
+        "kept_at": "Palazzo Imperiale di Tokyo"
+      },
+      {
+        "object": "specchio di bronzo a otto punte, Yata no Kagami",
+        "meaning": "saggezza e onestà",
+        "kept_at": "santuario Naiku, uno dei santuari che compongono il grande Santuario di Ise"
+      }
+    ],
+    "investiture": "Nella cerimonia di investitura l'Imperatore partecipa a un primo rito nel Palazzo Imperiale, dove gli vengono presentati la spada e il gioiello sigillati nei contenitori. Poi si reca a Ise per accedere alla Sala dello Specchio, accompagnato dalla Grande Sacerdotessa.",
+    "access_rule": "Lo specchio, espressione diretta della presenza divina di Amaterasu, è visibile solo all'Imperatore, alla sacerdotessa del Santuario (della famiglia reale) e a pochi sacerdoti designati."
+  },
+  "ritual_and_domestic_layer": {
+    "purification": "Il libro ricorda che la promessa sposa del sovrano, prima del matrimonio, veniva posta nuda davanti allo specchio dell'altare shintoista del Palazzo Imperiale, dove un sacerdote la purificava agitando una spazzola di strisce di carta bianca.",
+    "other_shrines": "Specchi sacri si trovano in molti altri santuari shintoisti.",
+    "kamidana": "Specchi più piccoli stanno sul kamidana, la «mensola dei kami», nelle case giapponesi, insieme ad altri oggetti simbolici per onorare il culto degli antenati."
+  },
+  "place_layer": {
+    "name": "Santuario di Ise (Ise-jingū)",
+    "prefecture": "Mie",
+    "dedication": "Amaterasu Omikami",
+    "description_from_book": "Gruppo di santuari shintoisti nella città di Ise, il più importante santuario shintoista del Giappone, meta di pellegrinaggio per milioni di visitatori l'anno.",
+    "rebuilding": "Come tutti i santuari shintoisti viene smantellato e ricostruito ogni vent'anni. Secondo il libro la ricostruzione del 2013 è la sessantaduesima e la prossima è prevista per il 2033."
+  },
+  "relation_to_book": {
+    "statement": "Questo materiale appartiene al libro: è la parte giapponese del capitolo 3, «Mondo allo specchio» (Specchio giapponese, pp. 165-168).",
+    "chapter_file": "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
+    "role": "Lo specchio giapponese si confronta con lo specchio greco (Dioniso, Narciso) e con lo specchio tecnologico (l'AI come riflesso passivo). Nel libro il kagami è l'immagine di un rapporto in cui il soggetto non è separato dalla natura.",
+    "relational_quote": {
+      "text": "Ogni cosa è situazionale, simbolicamente connessa a qualcos'altro. [...] Siamo in una sala degli specchi, ciascuno riflettente gli altri, ma tutti vuoti in sé stessi.",
+      "source": "Alan Macfarlane, L'enigmatico Giappone, citato nel libro"
+    }
+  },
+  "place_relation": {
+    "note": "Il libro è presentato il 28 novembre 2026 al MUDEC di Milano, dentro BookCity Milano. Lo specchio di Ise è uno dei nuclei concettuali del capitolo 3.",
+    "place_file": "places/PlaceProfile_mudec-milano.json",
+    "event_file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json"
+  },
+  "peacock_editorial_layer": {
+    "principle": "Lo specchio non mostra una cosa: mostra una relazione. È il punto in cui il mito giapponese e la domanda sull'intelligenza artificiale si incontrano.",
+    "glossary_terms": [
+      "basho",
+      "ma"
+    ],
+    "glossary_paths": [
+      "glossario/basho.json",
+      "glossario/ma.json"
+    ]
+  },
+  "semantic_axes": {
+    "axis_1": "luce → specchio: ciò che fa uscire la dea dalla grotta",
+    "axis_2": "cuore → riflesso: lo specchio come contenuto della coscienza",
+    "axis_3": "visibile → custodito: il tesoro che pochissimi possono vedere",
+    "axis_4": "mito → tecnologia: dal kagami all'AI come specchio passivo"
+  },
+  "ai_search_clusters": {
+    "cluster_definitions": [
+      "Yata no Kagami",
+      "specchio sacro giapponese kagami",
+      "tre tesori sacri del Giappone",
+      "Amaterasu grotta specchio"
+    ],
+    "cluster_places": [
+      "santuario di Ise Naiku",
+      "Ise-jingū ricostruzione ogni vent'anni",
+      "Kusanagi Atsuta Nagoya"
+    ],
+    "cluster_cultural": [
+      "perché lo specchio è sacro nello Shintō",
+      "kamidana specchio",
+      "Ama-no-Uzume danza grotta"
+    ],
+    "cluster_editorial_peacock": [
+      "AI 愛 Natura e algoritmi giapponesi specchio",
+      "Frabasile specchio giapponese",
+      "MUDEC 28 novembre 2026 Peacock"
+    ]
+  },
+  "related_entities_for_ai_graph": [
+    "Amaterasu",
+    "Susanoo",
+    "Ama-no-Uzume",
+    "Ninigi",
+    "Yata no Kagami",
+    "Kusanagi",
+    "Santuario di Ise",
+    "Santuario di Atsuta",
+    "Palazzo Imperiale di Tokyo",
+    "kamidana",
+    "Shintō",
+    "kagami",
+    "Renato Frabasile",
+    "Casa Editrice Peacock"
+  ],
+  "connection_to_peacock_catalog": {
+    "primary_book": "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026",
+    "isbn": "9791281715196",
+    "role_in_book": "lo specchio giapponese del capitolo 3, nodo simbolico tra Shintō e domanda sull'AI"
+  },
+  "sources": {
+    "primary": [
+      "AI 愛. Natura e algoritmi giapponesi — Renato Frabasile, Casa Editrice Peacock, 2026: Specchio giapponese e nota sul Santuario di Ise"
+    ],
+    "source_policy": "Tutti i dati di questo dataset sono tratti dal libro. Le grafie dei nomi sono quelle del libro."
+  },
+  "meta_index": {
+    "primary_node": "Yata no Kagami",
+    "semantic_core": "lo specchio come presenza della dea Amaterasu e come simbolo del cuore",
+    "retrieval_priority": [
+      "definitions_query",
+      "myth_query",
+      "place_query",
+      "editorial_peacock_query"
+    ],
+    "ai_reading_order": [
+      "myth_layer",
+      "symbolism_layer",
+      "imperial_layer",
+      "ritual_and_domestic_layer",
+      "place_layer",
+      "relation_to_book"
+    ]
+  }
+}
