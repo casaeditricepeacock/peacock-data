@@ -1,0 +1,45 @@
+{
+  "type": "GlossaryTerm",
+  "id": "mono",
+  "term": "Mono",
+  "kanji": "物",
+  "aliases": [
+    "Mono",
+    "mono",
+    "物",
+    "もの",
+    "cosa"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "In giapponese «cosa», entità fisica e concreta. Entra anche nel termine ikimono, «creatura». Per il libro spiega perché i giapponesi non percepiscono la tecnologia come qualcosa di artificiale, altro da sé e ostile, ma come mono, cose o persone.",
+  "definition_short_en": "In Japanese «thing», a physical, concrete entity. It also forms part of the word ikimono, «creature». In the book it explains why the Japanese do not perceive technology as something artificial, other than themselves and hostile, but as mono, things or persons.",
+  "connected_terms": [
+    "kami",
+    "animismo",
+    "shinto"
+  ],
+  "books_applied": [
+    "ai_natura_algoritmi"
+  ],
+  "books_applied_paths": [
+    "books/ai-natura-algoritmi"
+  ],
+  "note": "Ancorato in AI 愛, capitolo «AI dal volto umano» (pp. 61-63). Il libro lo usa per leggere il caso della ginoide Mindar al tempio Kōdai-ji (si veda places/PlaceProfile_kodai-ji-kyoto-mindar.json).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Mono",
+    "description": "In Japanese «thing», a physical, concrete entity. It also forms part of the word ikimono, «creature». In the book it explains why the Japanese do not perceive technology as something artificial, other than themselves and hostile, but as mono, things or persons.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mono.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "物"
+  }
+}
