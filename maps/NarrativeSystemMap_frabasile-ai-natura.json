@@ -38,7 +38,7 @@
       "function": "introduzione_del_problema",
       "description": "Robot, androidi, Godzilla, King Kong, Sophia, Boston Dynamics. La storia del rapporto tra umano e macchina — dalla paura alla fascinazione. Il lessico tecnologico come mitologia contemporanea.",
       "chapters": ["Lessico tecnologico", "Umanità tra natura e cultura", "Robot oeconomicus", "AI dal volto umano"],
-      "file": null
+      "file": "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json"
     },
     {
       "node_id": "shinto_ontologia",
@@ -59,7 +59,7 @@
       "function": "confronto_tra_civiltà",
       "description": "Tre specchi: greco (dualismo cartesiano, res cogitans e res extensa), giapponese (natura come soggetto, non oggetto), tecnologico (AI come specchio passivo dell'intelligenza umana). Il confronto tra i tre rivela i limiti di ciascuno.",
       "chapters": ["Specchio greco", "Specchio giapponese", "Specchio tecnologico"],
-      "file": null
+      "file": "conceptual/ConceptualLayer_specchio-triplo_frabasile.json"
     },
     {
       "node_id": "sunyata_vuoto",
@@ -110,7 +110,7 @@
       "function": "specchio_del_sistema",
       "description": "Frabasile sottopone l'intero testo a ChatGPT. ChatGPT risponde usando il vocabolario del libro per descrivere se stessa. Non è ironia — è dimostrazione. Lo specchio funziona quando il testo è abbastanza ricco da essere rispecchiato.",
       "implication": "L'appendice è il primo numero di Frequenze — prima che Frequenze esistesse come rivista.",
-      "file": null
+      "file": "conceptual/IntertextualCore_appendice-chatgpt_frabasile.json"
     }
   ],
 
