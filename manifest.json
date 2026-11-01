@@ -877,7 +877,8 @@
       "datasets/tecniche-tessili-giapponesi-semantic-dataset.json",
       "datasets/tencha-koicha-usucha-semantic-dataset.json",
       "datasets/tsukumogami-oggetti-che-prendono-vita-semantic-dataset.json",
-      "datasets/yasuke-semantic-dataset.json"
+      "datasets/yasuke-semantic-dataset.json",
+      "datasets/yata-no-kagami-specchio-sacro-ise-semantic-dataset.json"
     ],
     "cities": [
       "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
@@ -1052,6 +1053,7 @@
     "places": [
       "places/BookBubble-feltrinelli-milano.json",
       "places/PlaceProfile_bookcity-milano.json",
+      "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
       "places/PlaceProfile_mudec-milano.json",
       "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
       "places/biblioteca-ambrosiana-milano.json",
@@ -1208,10 +1210,12 @@
         "conceptual/PhilosophicalCore_frequenze_frabasile.json",
         "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
         "datasets/tsukumogami-oggetti-che-prendono-vita-semantic-dataset.json",
+        "datasets/yata-no-kagami-specchio-sacro-ise-semantic-dataset.json",
         "events/EventProfile_biblioteca-ostinata_luglio-2026.json",
         "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
         "maps/NarrativeSystemMap_frabasile-ai-natura.json",
         "places/PlaceProfile_bookcity-milano.json",
+        "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
         "places/PlaceProfile_mudec-milano.json",
         "saggistica/ConceptualThesis_ai-natura-algoritmi.json",
         "saggistica/DialecticalConflict_ai-natura-algoritmi.json",
