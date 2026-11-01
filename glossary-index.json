@@ -1,7 +1,7 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.15",
-  "date": "2026-10",
+  "version": "1.16",
+  "date": "2026-11",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
   "publisher": "Casa Editrice Peacock",
@@ -1324,15 +1324,145 @@
         "bernie_alla_scoperta_dei_mari_del_nord"
       ],
       "glossary_file": "glossario/okaeri.json"
+    },
+    {
+      "term": "Kami",
+      "kanji": "神",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Le divinità dello Shintō: la spiritualità vitale presente in ogni cosa, organica (uomo, esseri viventi) o inorganica (alberi, montagne, fiumi, pietre, oggetti, manufatti). Collettivamente sono gli Yaoyorozu no Kami, più di otto milioni. Nel pantheon shintoista non esiste una divinità assoluta creatrice e sovrana.",
+      "definition_short_en": "The deities of Shintō: the vital spirituality present in all things, organic (humans, living beings) or inorganic (trees, mountains, rivers, stones, objects, artefacts). Collectively the Yaoyorozu no Kami, more than eight million. In the Shintō pantheon there is no absolute creator and sovereign deity.",
+      "connected_terms": [
+        "shinto",
+        "animismo",
+        "mono",
+        "fudo"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/kami.json"
+    },
+    {
+      "term": "Shintō",
+      "kanji": "神道",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "La «via del divino». Non è una istituzione sorretta da fede e teologia ma una tradizione vivente, un'attività spirituale e comportamentale fondata sul culto dei kami e tramandata oralmente. Per il libro è un modo di percepire il mondo in cui niente è separato e ogni cosa è relativa, non assoluta.",
+      "definition_short_en": "The «way of the divine». Not an institution built on faith and theology but a living tradition, a spiritual and behavioural practice based on the cult of the kami and passed on orally. In the book it is a way of perceiving the world in which nothing is separate and everything is relative, not absolute.",
+      "connected_terms": [
+        "kami",
+        "animismo",
+        "fudo",
+        "aidagara"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/shinto.json"
+    },
+    {
+      "term": "Animismo",
+      "kanji": "",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Il rispetto sacrale della natura, animata da uno spirito vitale presente in ogni creatura o cosa, e la venerazione degli antenati. Per il libro in Giappone costituisce una singolarità: gli oggetti possono avere un'anima, e quelli centenari ospitano gli tsukumogami.",
+      "definition_short_en": "Sacred respect for nature, animated by a vital spirit present in every creature or thing, and veneration of ancestors. In the book, in Japan this is a singularity: objects can have a soul, and centenary objects host the tsukumogami.",
+      "connected_terms": [
+        "kami",
+        "shinto",
+        "mono"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/animismo.json"
+    },
+    {
+      "term": "Sūnyatā",
+      "kanji": "空",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Il vuoto buddhista (in giapponese ku), la «verità ultima». Non è nulla né assenza: è la condizione di possibilità di tutte le cose, che esistono non di per sé ma perché sono in relazione con altro. Il libro lo contrappone al vuoto come nulla dell'Occidente e lo accosta al vuoto quantistico.",
+      "definition_short_en": "Buddhist emptiness (Japanese ku), the «ultimate truth». Not nothingness or absence: it is the condition of possibility of all things, which exist not by themselves but because they are in relation with other things. The book contrasts it with the Western notion of emptiness as nothingness and compares it with the quantum vacuum.",
+      "connected_terms": [
+        "ma",
+        "basho",
+        "aidagara"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/sunyata.json"
+    },
+    {
+      "term": "Aidagara",
+      "kanji": "間柄",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Concetto della filosofia di Watsuji Tetsurō: l'interfaccia di relazione umana, lo spazio collettivo in cui l'individuo realizza sé stesso attraverso le relazioni con gli altri. Deriva da aida (fra, intervallo spazio-temporale che separa e connette) e gara (modello, figura, qualità essenziale).",
+      "definition_short_en": "A concept from Watsuji Tetsurō's philosophy: the interface of human relationship, the collective space in which the individual realises themselves through relations with others. It comes from aida (between, a space-time interval that separates and connects) and gara (pattern, figure, essential quality).",
+      "connected_terms": [
+        "ma",
+        "fudo",
+        "sunyata",
+        "basho"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/aidagara.json"
+    },
+    {
+      "term": "Fūdo",
+      "kanji": "風土",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "«Vento e terra»: il clima inteso come contesto naturale complessivo (fenomeni atmosferici, geologia, terreno, paesaggio) entro cui si muove e si sviluppa l'umano. In Watsuji Tetsurō non è una condizione esterna ma il modo in cui l'essere umano comprende sé stesso.",
+      "definition_short_en": "«Wind and earth»: climate understood as the whole natural context (atmospheric phenomena, geology, terrain, landscape) in which the human moves and develops. In Watsuji Tetsurō it is not an external condition but the way human beings understand themselves.",
+      "connected_terms": [
+        "aidagara",
+        "shinto",
+        "kami",
+        "basho"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/fudo.json"
+    },
+    {
+      "term": "Mono",
+      "kanji": "物",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "In giapponese «cosa», entità fisica e concreta. Entra anche nel termine ikimono, «creatura». Per il libro spiega perché i giapponesi non percepiscono la tecnologia come qualcosa di artificiale, altro da sé e ostile, ma come mono, cose o persone.",
+      "definition_short_en": "In Japanese «thing», a physical, concrete entity. It also forms part of the word ikimono, «creature». In the book it explains why the Japanese do not perceive technology as something artificial, other than themselves and hostile, but as mono, things or persons.",
+      "connected_terms": [
+        "kami",
+        "animismo",
+        "shinto"
+      ],
+      "books_applied": [
+        "ai_natura_algoritmi"
+      ],
+      "glossary_file": "glossario/mono.json"
     }
   ],
   "statistics": {
-    "total_entries": 65,
+    "total_entries": 72,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 26,
+    "in_sviluppo": 33,
     "by_category": {
-      "estetica_giapponese": 26,
+      "estetica_giapponese": 33,
       "cerimonia_del_te": 8,
       "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
@@ -1365,7 +1495,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 65,
+    "total_terms": 72,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1411,6 +1541,15 @@
       "altruismo",
       "spirito-del-natale",
       "okaeri"
+    ],
+    "new_in_v1.16": [
+      "kami",
+      "shinto",
+      "animismo",
+      "sunyata",
+      "aidagara",
+      "fudo",
+      "mono"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
@@ -1821,6 +1960,61 @@
         "termCode": "haiku",
         "alternateName": "俳句",
         "description": "A short Japanese poem. In La Medusa e la Scimmia a haiku by Kobayashi Issa opens the book and, according to Francesco Verni's afterword, tells the moral of the tale: the difficulties we face make each person unique and special."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Kami",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/kami.json",
+        "termCode": "kami",
+        "alternateName": "神",
+        "description": "The deities of Shintō: the vital spirituality present in all things, organic (humans, living beings) or inorganic (trees, mountains, rivers, stones, objects, artefacts). Collectively the Yaoyorozu no Kami, more than eight million. In the Shintō pantheon there is no absolute creator and sovereign deity."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Shintō",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/shinto.json",
+        "termCode": "shinto",
+        "alternateName": "神道",
+        "description": "The «way of the divine». Not an institution built on faith and theology but a living tradition, a spiritual and behavioural practice based on the cult of the kami and passed on orally. In the book it is a way of perceiving the world in which nothing is separate and everything is relative, not absolute."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Animismo",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/animismo.json",
+        "termCode": "animismo",
+        "description": "Sacred respect for nature, animated by a vital spirit present in every creature or thing, and veneration of ancestors. In the book, in Japan this is a singularity: objects can have a soul, and centenary objects host the tsukumogami."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Sūnyatā",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/sunyata.json",
+        "termCode": "sunyata",
+        "alternateName": "空",
+        "description": "Buddhist emptiness (Japanese ku), the «ultimate truth». Not nothingness or absence: it is the condition of possibility of all things, which exist not by themselves but because they are in relation with other things. The book contrasts it with the Western notion of emptiness as nothingness and compares it with the quantum vacuum."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Aidagara",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/aidagara.json",
+        "termCode": "aidagara",
+        "alternateName": "間柄",
+        "description": "A concept from Watsuji Tetsurō's philosophy: the interface of human relationship, the collective space in which the individual realises themselves through relations with others. It comes from aida (between, a space-time interval that separates and connects) and gara (pattern, figure, essential quality)."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Fūdo",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/fudo.json",
+        "termCode": "fudo",
+        "alternateName": "風土",
+        "description": "«Wind and earth»: climate understood as the whole natural context (atmospheric phenomena, geology, terrain, landscape) in which the human moves and develops. In Watsuji Tetsurō it is not an external condition but the way human beings understand themselves."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Mono",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/mono.json",
+        "termCode": "mono",
+        "alternateName": "物",
+        "description": "In Japanese «thing», a physical, concrete entity. It also forms part of the word ikimono, «creature». In the book it explains why the Japanese do not perceive technology as something artificial, other than themselves and hostile, but as mono, things or persons."
       }
     ]
   }
