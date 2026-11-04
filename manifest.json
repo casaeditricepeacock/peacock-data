@@ -503,6 +503,10 @@
       "path": "glossario/chikado.json"
     },
     {
+      "term": "dajare",
+      "path": "glossario/dajare.json"
+    },
+    {
       "term": "diritto-autore-strutturato",
       "path": "glossario/diritto-autore-strutturato.json"
     },
@@ -736,6 +740,7 @@
       "conceptual/AestheticCore_ciliegi_hara-rota.json",
       "conceptual/AestheticCore_oggetto_il-libro-piccolo-manifesto.json",
       "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "conceptual/ConceptualCore_come-la-medusa-perse-le-ossa_la-medusa-e-la-scimmia.json",
       "conceptual/ConceptualCore_gioco-di-parole-fegato_la-medusa-e-la-scimmia.json",
       "conceptual/ConceptualCore_libro-artista-caso_il-libro-piccolo-manifesto.json",
       "conceptual/ConceptualCore_libro-corpo_il-libro-piccolo-manifesto.json",
@@ -1692,6 +1697,7 @@
       "files": [
         "authors/AuthorProfile_andreina-parpajola.json",
         "authors/AuthorProfile_francesco-verni.json",
+        "conceptual/ConceptualCore_come-la-medusa-perse-le-ossa_la-medusa-e-la-scimmia.json",
         "conceptual/ConceptualCore_gioco-di-parole-fegato_la-medusa-e-la-scimmia.json",
         "datasets/la-medusa-e-la-scimmia-testo-bilingue-semantic-dataset.json",
         "events/EventProfile_biblioteca-deamicis-genova_2025.json",
