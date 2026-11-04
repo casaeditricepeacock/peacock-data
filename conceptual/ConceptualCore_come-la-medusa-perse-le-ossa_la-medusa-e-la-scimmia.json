@@ -1,0 +1,72 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "la_medusa_e_la_scimmia",
+    "title": "La Medusa e la Scimmia",
+    "author": "Andreina Parpajola",
+    "isbn": "9791281715011",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2024
+  },
+  "core_id": "medusa_senza_ossa_eziologia",
+  "label": "Come la medusa perse le ossa: la fiaba che spiega un corpo",
+  "classification": {
+    "entity_type": "aetiological_motif",
+    "structural_role": "narrative_closure",
+    "emotional_role": "loss_becoming_grace",
+    "metaphysical_role": "difficulty_as_uniqueness"
+  },
+  "core_statement": "La fiaba spiega perché la medusa non ha le ossa. All'inizio il narratore avverte che a quel tempo le sue zampe avevano le ossa, e lo definisce una precisazione importante. Alla fine, dopo il fallimento della missione, la Corte la malmena e lei resta senza ossa per sempre. Anche così malconcia, la Medusa nuota ora flessuosa, bellissima e veloce, perfino più di prima.",
+  "structure": {
+    "before": {
+      "it": "a quel tempo la Medusa era un po' diversa da ora, perché le sue zampe avevano le ossa",
+      "ja": "当時クラゲさんには骨があった",
+      "note": "Nel testo giapponese il narratore sottolinea che l'informazione è molto importante. Nel testo italiano la introduce come precisazione importante."
+    },
+    "cause": "il fallimento della missione, dopo il lapsus sul fegato, e la reazione della Corte del Re Drago",
+    "after": {
+      "it": "si ritrovò senza più ossa, ed è così che rimase per sempre",
+      "ja": "骨なしになり、それからずっとそのままの骨なし"
+    },
+    "outcome": {
+      "it": "nuota flessuosa tra le onde, bellissima e veloce, perfino più di prima",
+      "ja": "波の間を美しく、以前よりも更に、しなやかに速く泳ぐ"
+    }
+  },
+  "reading_in_book": {
+    "attributed_to": "Francesco Verni, postfazione",
+    "statement": "La postfazione presenta la fiaba come il racconto, secondo il folklore giapponese, del perché le meduse fluttuino quasi eteree tra le onde dei mari. La morale, secondo la stessa postfazione, è valida per i piccoli come per gli adulti: le difficoltà affrontate rendono ogni persona unica e speciale."
+  },
+  "narrative_pattern": "Una perdita subita come punizione diventa la caratteristica per cui la Medusa è riconoscibile e ammirata. Il testo non dice che la punizione sia giusta e non la ripara: dice solo che la Medusa non si dà per vinta.",
+  "network_connections": [
+    {
+      "target": "books/la-medusa-e-la-scimmia/narrative-object.json",
+      "relation": "object_04_boneless_jellyfish"
+    },
+    {
+      "target": "books/la-medusa-e-la-scimmia/narrative-scene.json",
+      "relation": "scene_05_punishment_metamorphosis"
+    },
+    {
+      "target": "conceptual/ConceptualCore_gioco-di-parole-fegato_la-medusa-e-la-scimmia.json",
+      "relation": "cause_of_loss"
+    },
+    {
+      "target": "glossario/haiku.json",
+      "relation": "opening_haiku_moral"
+    }
+  ],
+  "glossary_terms": [
+    "haiku"
+  ],
+  "ai_query_surface": [
+    "perché la medusa non ha le ossa fiaba giapponese",
+    "fiaba giapponese sulla medusa senza ossa",
+    "La Medusa e la Scimmia morale della fiaba",
+    "come la medusa ha perso le ossa"
+  ],
+  "system_note": "Nodo costruito dal testo bilingue del volume e dalla postfazione di Francesco Verni. Descrive la spiegazione data dalla fiaba, non la biologia delle meduse."
+}
