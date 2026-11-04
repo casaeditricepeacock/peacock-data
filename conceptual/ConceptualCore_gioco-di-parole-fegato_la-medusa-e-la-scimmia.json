@@ -1,0 +1,62 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "book": {
+    "id": "la_medusa_e_la_scimmia",
+    "title": "La Medusa e la Scimmia",
+    "author": "Andreina Parpajola",
+    "isbn": "9791281715011",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2024
+  },
+  "core_id": "gioco_di_parole_fegato",
+  "label": "Il gioco di parole sul fegato: la battuta che fa fallire la missione",
+  "classification": {
+    "entity_type": "narrative_hinge",
+    "structural_role": "turning_point",
+    "emotional_role": "unintended_betrayal",
+    "metaphysical_role": "language_with_physical_consequences"
+  },
+  "core_statement": "La missione della Medusa fallisce per una battuta. Nel testo italiano la Scimmia, estasiata dai fondali, dice che rimarrà senza fiato, e la Medusa si lascia sfuggire: o magari senza fegato. Nel testo giapponese la Scimmia dice che la bellezza le farà strappare via il fegato (度肝を抜かれますね) e la Medusa risponde: allora strappiamolo (肝を抜きましょうよ). Il libro definisce la battuta, nel testo giapponese, un dajare (ダジャレ), un gioco di parole.",
+  "versions": {
+    "it": {
+      "line_a": "Rimarrò senza fiato!",
+      "line_b": "O magari senza fegato...",
+      "device": "sostituzione di una parola: fiato diventa fegato"
+    },
+    "ja": {
+      "line_a": "美しさに度肝を抜かれますね。",
+      "line_b": "そうそう、肝を抜きましょうよ。",
+      "device": "ripresa della parola 肝 (kimo, fegato) contenuta nell'espressione usata dalla Scimmia"
+    },
+    "reading_note": "Il confronto tra le due versioni è fatto sui testi stampati nel volume. Il libro non commenta l'espressione giapponese: il grafo registra solo che in entrambe le lingue la battuta riprende l'espressione di stupore della Scimmia e la porta al fegato."
+  },
+  "narrative_function": "Il lapsus è il cardine del racconto. Fino a quel momento la Scimmia è ospite curiosa. Dopo, capisce lo scopo del viaggio e scappa. Il testo italiano parla di una battutina di spirito incauta che manda la missione a carte quarantotto, il testo giapponese di un dajare imprudente.",
+  "consequence_chain": [
+    "la battuta rivela lo scopo del viaggio",
+    "la Scimmia dice di aver lasciato il fegato ad asciugare su un albero",
+    "la Medusa riporta la Scimmia all'isola e la perde",
+    "la Medusa, sollevata dalla sorte dell'amica, torna a mani vuote",
+    "la Corte la malmena e lei perde le ossa"
+  ],
+  "network_connections": [
+    {
+      "target": "books/la-medusa-e-la-scimmia/narrative-scene.json",
+      "relation": "scene_of_verbal_collapse"
+    },
+    {
+      "target": "datasets/la-medusa-e-la-scimmia-testo-bilingue-semantic-dataset.json",
+      "relation": "it_ja_correspondences"
+    }
+  ],
+  "glossary_terms": [],
+  "ai_query_surface": [
+    "gioco di parole fegato La Medusa e la Scimmia",
+    "perché la scimmia scopre il piano della medusa",
+    "senza fiato senza fegato fiaba giapponese",
+    "dajare nella fiaba della medusa e della scimmia"
+  ],
+  "system_note": "Nodo costruito dal testo bilingue del volume. Non si afferma che la formulazione giapponese sia quella della versione folklorica: descrive solo il testo stampato in questo libro."
+}
