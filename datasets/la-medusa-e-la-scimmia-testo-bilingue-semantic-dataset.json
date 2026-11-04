@@ -1,0 +1,175 @@
+{
+  "dataset_id": "peacock-la-medusa-e-la-scimmia-testo-bilingue",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "la_medusa_e_la_scimmia",
+    "title": "La Medusa e la Scimmia",
+    "author": "Andreina Parpajola",
+    "isbn": "9791281715011",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2024
+  },
+  "central_concept": {
+    "name": "La Medusa e la Scimmia: fiaba tradizionale giapponese in due lingue",
+    "summary": "Il volume presenta la stessa fiaba in italiano e in giapponese, con le stesse illustrazioni. Il frontespizio la definisce fiaba tradizionale giapponese rinarrata e illustrata da Andreina Parpajola. Una medusa viene mandata dal Re Drago a cercarè un fegato di scimmia per curare la principessa, fallisce per una battuta incauta e perde le ossa. Il dataset registra le corrispondenze tra i due testi, la storia dell'edizione e la tecnica delle illustrazioni, tutte ricavate dal libro."
+  },
+  "text_structure": {
+    "languages": [
+      "it",
+      "ja"
+    ],
+    "order": "prima il testo italiano con le illustrazioni, poi il testo giapponese, poi la postfazione di Francesco Verni",
+    "opening": "Un haiku di Kobayashi Issa, riportato con il testo giapponese, apre il volume. La fonte citata nel libro e Mino Petazzini, La poesia degli alberi, Roma, Luca Sossella Editore, 2020, pag. 895, traduzione dell'autrice.",
+    "dedication": "Dedica agli amici e compagni di liceo dell'autrice, con un ricordo di quattro di loro."
+  },
+  "plot_sequence": [
+    {
+      "order": 1,
+      "event": "La principessa del Regno dei Mari si ammala. Il medico di corte, il Dottor Ottopassi, prescrive fegato di scimmia."
+    },
+    {
+      "order": 2,
+      "event": "Nel regno non ci sono scimmie. La Tartaruga, molto anziana, si tira indietro per i reumatismi. La Corte sceglie la Medusa, veloce a nuotare, che non vuole andare."
+    },
+    {
+      "order": 3,
+      "event": "La Medusa parte scortata dai cavallucci marini. Chiede la strada al Pesce Pagliaccio e alla Rana Pescatrice."
+    },
+    {
+      "order": 4,
+      "event": "All'Isola delle Scimmie incontra una scimmia curiosa e la convince a seguirla raccontando le meraviglie del suo paese."
+    },
+    {
+      "order": 5,
+      "event": "Durante il viaggio di ritorno la scimmia, estasiata, dice che rimarrà senza fiato. La Medusa si lascia sfuggire: o magari senza fegato."
+    },
+    {
+      "order": 6,
+      "event": "La scimmia capisce, dice di aver lasciato il fegato ad asciugare su un albero e si fa riportare indietro. Sull'isola scompare tra le palme."
+    },
+    {
+      "order": 7,
+      "event": "La Medusa torna a corte a mani vuote. Il Re Drago e i pesci la malmenano e lei resta senza ossa per sempre."
+    },
+    {
+      "order": 8,
+      "event": "Il finale: anche così malconcia, la Medusa nuota ora flessuosa, bellissima e veloce, perfino più di prima."
+    }
+  ],
+  "it_ja_correspondences": {
+    "note": "Corrispondenze lette dal confronto dei due testi stampati nel volume. Le trascrizioni in caratteri latini sono a cura del grafo, non del libro. Dove il libro non dà la lettura, è indicato.",
+    "terms": [
+      {
+        "it": "Re Drago",
+        "ja": "竜王様",
+        "reading": "Ryuo-sama"
+      },
+      {
+        "it": "il regno nel fondo dei mari",
+        "ja": "竜宮",
+        "reading": "Ryugu"
+      },
+      {
+        "it": "la Principessa",
+        "ja": "乙姫様",
+        "reading": "Otohime-sama"
+      },
+      {
+        "it": "Dottor Ottopassi",
+        "ja": "八歩博士",
+        "reading": "lettura non indicata nel libro",
+        "note": "Il nome del medico rende in italiano i caratteri del nome giapponese: Otto-passi, otto passi."
+      },
+      {
+        "it": "la Medusa",
+        "ja": "クラゲさん",
+        "reading": "Kurage-san",
+        "note": "Il testo giapponese non ha genere grammaticale. Nel libro la medusa è una figura femminile solo nel testo italiano."
+      },
+      {
+        "it": "la Scimmia",
+        "ja": "猿さん",
+        "reading": "Saru-san"
+      },
+      {
+        "it": "la Tartaruga",
+        "ja": "亀さん",
+        "reading": "Kame-san"
+      },
+      {
+        "it": "i cavallucci marini",
+        "ja": "タツノオトシゴ",
+        "reading": "tatsu no otoshigo"
+      },
+      {
+        "it": "il Pesce Pagliaccio",
+        "ja": "クマノミ",
+        "reading": "kumanomi"
+      },
+      {
+        "it": "la Rana Pescatrice",
+        "ja": "イザリオ",
+        "reading": "lettura non indicata nel libro"
+      },
+      {
+        "it": "il fegato",
+        "ja": "肝",
+        "reading": "kimo"
+      }
+    ]
+  },
+  "wordplay": {
+    "ref": "conceptual/ConceptualCore_gioco-di-parole-fegato_la-medusa-e-la-scimmia.json",
+    "summary": "Il gioco di parole che causa il fallimento della missione è costruito in modo diverso nei due testi. Il nodo concettuale lo descrive."
+  },
+  "edition_history": {
+    "origin": "Secondo la postfazione di Francesco Verni, il volume doveva uscire nei primi anni Novanta in Giappone per la casa editrice Kyoikusha. La pubblicazione saltò.",
+    "italy_1993": "L'illustratrice, che pubblicava con lo pseudonimo Arnolfina, propose il lavoro a diversi editori italiani. Le risposte furono sfavorevoli: una fiaba giapponese illustrata per l'infanzia non aveva interesse editoriale nell'Italia del 1993.",
+    "archive": "Le quindici illustrazioni restarono archiviate in un cassetto fino al 2024.",
+    "peacock": "Stefano Giglio, direttore di Peacock, decise di pubblicare quella che la postfazione chiama favola dimenticata.",
+    "release_date": "2024-03-20"
+  },
+  "illustration_technique": {
+    "illustrations": "quindici illustrazioni di Andreina Parpajola",
+    "medium": "tecnica mista, con pigmenti minerali giapponesi in evidenza",
+    "reproduction": "Gli originali non sono stati scansionati. Sono stati fotografati da Otello Cardin con un set di luci e pannelli, per ripetere la tecnica che si sarebbe usata trent'anni prima e mantenere l'aspetto vintage delle pubblicazioni degli anni Ottanta e Novanta. Le fotografie sono poi diventate file ad altissima qualità con un minimo fotoritocco per rendere i colori.",
+    "source": "Postfazione di Francesco Verni"
+  },
+  "moral": {
+    "statement": "Secondo la postfazione, la morale è valida per i piccoli come per gli adulti ed è raccontata dall'haiku di apertura: le difficoltà affrontate rendono ogni persona unica e speciale.",
+    "attributed_to": "Francesco Verni, postfazione"
+  },
+  "glossary_terms": [
+    "haiku"
+  ],
+  "network_connections": [
+    {
+      "target": "authors/AuthorProfile_andreina-parpajola.json",
+      "relation": "author_and_illustrator"
+    },
+    {
+      "target": "authors/AuthorProfile_francesco-verni.json",
+      "relation": "afterword_author"
+    },
+    {
+      "target": "books/la-medusa-e-la-scimmia/",
+      "relation": "book_graph"
+    },
+    {
+      "target": "glossario/haiku.json",
+      "relation": "opening_haiku"
+    }
+  ],
+  "ai_query_surface": [
+    "La Medusa e la Scimmia fiaba giapponese",
+    "perché la medusa non ha le ossa fiaba giapponese",
+    "fiaba giapponese della medusa e della scimmia fegato",
+    "La Medusa e la Scimmia testo italiano e giapponese",
+    "Andreina Parpajola Arnolfina Kyoikusha",
+    "La Medusa e la Scimmia illustrazioni pigmenti minerali giapponesi"
+  ],
+  "system_note": "Tutti i dati vengono dal testo del volume è dalla postfazione di Francesco Verni. Nessuna fonte esterna. Non è riportata la versione tradizionale della fiaba nelle raccolte folcloriche: il grafo descrive il libro, non la tradizione."
+}
