@@ -481,5 +481,15 @@
     "AEV Regione del Veneto editoria",
     "editoria indipendente Veneto Books"
   ],
+  "derived_articles": [
+    {
+      "title": "Un mondo da scoprire: gli editori indipendenti dell'Associazione Editori Veneti",
+      "url": "https://www.studiopeacock.net/2024/07/15/un-mondo-da-scoprire/",
+      "date": "2024-07-15",
+      "angle": "Che cos'è l'AEV, requisiti di iscrizione, Peacock socia e il fondatore nel Consiglio Direttivo, la rassegna Veneto Books del 2023.",
+      "data_as_of": "2024-07",
+      "dated_figures_note": "Il post riporta 55 soci, dato del luglio 2024. Questo nodo riporta l'elenco attuale, con 63 soci. I due valori non sono in contraddizione: sono due momenti diversi."
+    }
+  ],
   "system_note": "Nodo istituzionale canonico dell'Associazione Editori Veneti. Unifica le menzioni AEV finora presenti come stringhe descrittive nei file del grafo e federa il circuito Veneto Books. Casa Editrice Peacock è socia e presente nel Consiglio Direttivo."
 }
