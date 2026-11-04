@@ -40,6 +40,65 @@
       "required_spatial_tone": "culturale_e_indipendente"
     }
   },
+  "related_books": [
+    {
+      "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+      "isbn": "9791281715189",
+      "graph_path": "books/everyday-matcha/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 20
+    },
+    {
+      "title": "Bernie alla scoperta dei mari del nord",
+      "isbn": "9788894696585",
+      "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 20
+    },
+    {
+      "title": "Il libro. Piccolo manifesto",
+      "isbn": "9791281715288",
+      "graph_path": "books/il-libro-piccolo-manifesto/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 19
+    },
+    {
+      "title": "Cento volte",
+      "isbn": "9791281715349",
+      "graph_path": "books/cento-volte/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 20
+    },
+    {
+      "title": "Luna piena sulla città antica",
+      "isbn": "9788894696547",
+      "graph_path": "books/luna-piena-sulla-citta-antica/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 20
+    },
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "graph_path": "books/ryokan-piccolo-manifesto/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 19
+    },
+    {
+      "title": "Kyoto. Lo Sguardo del Drago",
+      "isbn": "9791281715202",
+      "graph_path": "books/kyoto-sguardo-del-drago/",
+      "copies_at_fair": 3,
+      "fair_price_eur": 20
+    },
+    {
+      "title": "Napoli Fantastica",
+      "isbn": "9791281715257",
+      "graph_path": "books/napoli-fantastica/",
+      "copies_at_fair": 5,
+      "fair_price_eur": 20
+    }
+  ],
+  "related_books_note": "Titoli portati da Peacock a PLPL 2026, con quantità e prezzo dal foglio vendite fiera compilato dall'editore. L'elenco può cambiare fino alla spedizione.",
   "why_peacock_here": {
     "statement": "PLPL è la fiera dell'editoria indipendente italiana, e Peacock la frequenta dal 2024. Lo Stand Editori Veneti la inserisce nel circuito degli editori veneti riuniti in AEV."
   },
