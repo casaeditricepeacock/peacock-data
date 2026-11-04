@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-01",
+    "generated": "2026-11-04",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1315,6 +1315,7 @@
         "events/EventProfile_bernie-natale-2026.json",
         "events/EventProfile_cascina-nascosta-milano_2023.json",
         "events/EventProfile_edilibria-veneto-limena_2026.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "media/MediaProfile_bernie-video-promo_2026.json",
         "places/gallipoli-puglia.json",
         "places/rovaniemi-lapponia.json",
@@ -1397,7 +1398,8 @@
       "narrative_folder": "books/cento-volte/",
       "files": [
         "authors/AuthorProfile_aika-avonlea.json",
-        "collaborations/PrefaceCollaboration_hara-rota_cento-volte.json"
+        "collaborations/PrefaceCollaboration_hara-rota_cento-volte.json",
+        "events/EventProfile_plpl-roma_2026.json"
       ],
       "also_mentioned_in": [
         "series/cento-volte/alberto-romano.json",
@@ -1506,6 +1508,7 @@
         "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
         "datasets/tencha-koicha-usucha-semantic-dataset.json",
         "events/EventProfile_incredibilia-monselice_2026.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "events/EventProfile_terra-lenta-atelier-montegrotto_2026.json",
         "sensorial/NarrativeSensation_chado_everyday-matcha_hara-rota.json",
         "sensorial/NarrativeSensation_roji_everyday-matcha.json",
@@ -1576,6 +1579,7 @@
         "datasets/fluesterndes-licht-semantic-dataset.json",
         "datasets/foreign-rights.json",
         "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "saggistica/ConceptualThesis_il-libro-piccolo-manifesto.json",
         "saggistica/DialecticalConflict_il-libro-piccolo-manifesto.json",
         "saggistica/LogicalArgument_il-libro-piccolo-manifesto.json",
@@ -1616,6 +1620,7 @@
       "narrative_folder": "books/kyoto-sguardo-del-drago/",
       "files": [
         "authors/AuthorProfile_helene-blignaut.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "sensorial/NarrativeSensation_jo-ha-kyu_kyoto-sguardo-drago.json",
         "sensorial/copertine-sensoriali-kyoto-blignaut.json",
         "sensorial/domestico-genovese-kyoto-blignaut.json",
@@ -1743,6 +1748,7 @@
       "files": [
         "authors/AuthorProfile_andrea-brivio.json",
         "authors/AuthorProfile_toshihiko-ota.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "events/EventProfile_salone-torino-2023-premio-bocca.json",
         "saggistica/ConceptualThesis_luna-piena-sulla-citta-antica.json",
         "saggistica/ConceptualThesis_luna-piena-sulla-citta-nuova.json",
@@ -1823,6 +1829,7 @@
         "cities/plebiscito-bendati-napoli-semantic-dataset.json",
         "cities/quartieri-spagnoli-napoli-semantic-dataset.json",
         "conceptual/napoli-fantastica-it.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "sensorial/NarrativeSensation_bella_mbriana_napoli-fantastica.json",
         "sensorial/NarrativeSensation_presepe_san_gregorio_napoli-fantastica.json",
         "sensorial/NarrativeSensation_sangue_san_gennaro_napoli-fantastica.json",
@@ -2021,6 +2028,7 @@
         "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
         "events/EventProfile_edilibria-veneto-limena_2026.json",
         "events/EventProfile_plpl-roma_2024.json",
+        "events/EventProfile_plpl-roma_2026.json",
         "maps/NarrativeSystemMap_hara-rota-ali.json",
         "maps/NarrativeSystemMap_hara-rota-ryokan.json",
         "rituals/RitualProcess_etichetta-ospite_ryokan_hara-rota.json",
