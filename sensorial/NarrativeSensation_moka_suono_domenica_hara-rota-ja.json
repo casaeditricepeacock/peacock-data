@@ -1,0 +1,39 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "edizione_ebook_giapponese",
+    "title": "温泉の香りとコーヒーの音",
+    "author": "Hara Rota",
+    "dataset": "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json",
+    "note": "Scheda ricavata dal testo giapponese dell'ebook Kobo. Non si afferma che il testo giapponese coincida con quello dell'edizione italiana."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan, edizione giapponese",
+  "author": "Hara Rota",
+  "sensation_id": "moka_suono_domenica",
+  "label": "Il suono della moka la domenica mattina",
+  "connected_term": "ma",
+  "kanji": "間",
+  "sensory_channels": [
+    "uditivo",
+    "olfattivo"
+  ],
+  "description_it": "La domenica mattina non serve la sveglia. Il rumore di Rie che mette la moka sul fuoco e il profumo del caffè che sale svegliano la narratrice con dolcezza. Il suono è quello del titolo: il caffè come qualcosa che si ascolta prima di berlo.",
+  "description_en": "On Sunday mornings no alarm clock is needed. The sound of Rie putting the moka pot on the flame and the scent of rising coffee wake the narrator gently. This is the sound of the title: coffee as something heard before it is drunk.",
+  "narrative_function": "Unisce i due elementi del titolo giapponese. Dopo il profumo del ryokan arriva il suono della casa di Tokyo, dove il caffè segna la presenza di Rie.",
+  "connected_terms": [
+    "ma"
+  ],
+  "intensity": "bassa_calda",
+  "tempo": "mattutino_ripetuto"
+}
