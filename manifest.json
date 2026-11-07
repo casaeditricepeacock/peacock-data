@@ -778,6 +778,7 @@
       "conceptual/RelationalFieldCore_tokyo_hara-rota.json",
       "conceptual/SpatialClosureCore_ryokan_hara-rota.json",
       "conceptual/ThematicSynthesisCore_chado_te-quotidiano.json",
+      "conceptual/ThematicSynthesisCore_citta-mondo_milano-tokyo.json",
       "conceptual/ThematicSynthesisCore_matcha-cluster_everyday-matcha.json",
       "conceptual/ThematicSynthesisCore_scarpe-soglia_hara-rota.json",
       "conceptual/conceptual_stazione-talpa_hara-rota.json",
@@ -1260,6 +1261,7 @@
         "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
         "conceptual/IntertextualCore_appendice-chatgpt_frabasile.json",
         "conceptual/PhilosophicalCore_frequenze_frabasile.json",
+        "conceptual/ThematicSynthesisCore_citta-mondo_milano-tokyo.json",
         "datasets/pensatori-e-roboticisti-ai-natura-algoritmi-semantic-dataset.json",
         "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
         "datasets/tsukumogami-oggetti-che-prendono-vita-semantic-dataset.json",
@@ -1829,6 +1831,7 @@
         "sensorial/NarrativeSensation_cortile_milano-fantastica.json"
       ],
       "also_mentioned_in": [
+        "conceptual/ThematicSynthesisCore_citta-mondo_milano-tokyo.json",
         "conceptual/torino-fantastica-it.json",
         "events/EventProfile_villa-gastel-cernobbio_2025.json",
         "places/biblioteca-ambrosiana-milano.json",
