@@ -178,6 +178,18 @@
     {
       "target": "glossario/okami.json",
       "relation": "character_role"
+    },
+    {
+      "target": "sensorial/NarrativeSensation_onsen_fiume_vapore_hara-rota-ja.json",
+      "relation": "sensory_node"
+    },
+    {
+      "target": "sensorial/NarrativeSensation_moka_cucina_padre_hara-rota-ja.json",
+      "relation": "sensory_node"
+    },
+    {
+      "target": "sensorial/NarrativeSensation_moka_suono_domenica_hara-rota-ja.json",
+      "relation": "sensory_node"
     }
   ],
   "ai_query_surface": [
