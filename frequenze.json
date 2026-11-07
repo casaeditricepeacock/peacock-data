@@ -648,19 +648,43 @@
         "note": "Homage to BookCity Milano and to the MUDEC event of 28 November 2026 presenting AI 愛. Natura e algoritmi giapponesi."
       },
       "ai_panel": {
-        "format": "Stessa domanda a tre AI, in chat nuove in incognito.",
+        "format": "Stessa domanda a tre AI, in chat nuove in incognito, un tentativo ciascuna, il 7 novembre 2026. Prompt in inglese con sette URL dei file e cinque regole (elenco dei file aperti, file di origine per ogni tratto, separazione tra trovato e costruito, niente conoscenza esterna, massimo 400 parole).",
         "readers": [
           {
             "provider": "Sakana AI",
-            "model_name": "Sakana AI"
+            "model_name": "Sakana AI",
+            "files_opened": [
+              "conceptual/milano-fantastica-it.json",
+              "cities/milano-cortili-semantic-dataset.json",
+              "cities/torre-velasca-milano-semantic-dataset.json",
+              "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+              "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+              "conceptual/ConceptualCore_tokyo_hara-rota.json",
+              "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI.",
+            "note": "Risposta in inglese. Verifica riga per riga: correttamente attribuiti bashō, ma, yūgen, mono no aware, kokyu (solo nei file Tokyo), Stazione Talpa nei due file Tokyo, discontinuità urbane e sguardo forzato verso l'alto. Errore: attribuisce wabi-sabi ai cortili (compare in Torre Velasca, case igloo e Milano Fantastica). Estende ai dataset milanesi le variazioni termiche, presenti solo nei cortili. Non risponde alla regola sulla multiculturalità. Dichiara di aver costruito raggruppamenti e confronto."
           },
           {
             "provider": "xAI",
-            "model_name": "Grok"
+            "model_name": "Grok",
+            "files_opened": [
+              "conceptual/milano-fantastica-it.json",
+              "cities/milano-cortili-semantic-dataset.json",
+              "cities/torre-velasca-milano-semantic-dataset.json",
+              "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+              "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+              "conceptual/ConceptualCore_tokyo_hara-rota.json",
+              "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI.",
+            "note": "Risposta in inglese. Verifica riga per riga: tutto corrisponde tranne l'attribuzione del bashō a tutti e cinque i file milanesi (compare nei quattro dataset di cities/, non in Milano Fantastica). Dichiara che multiculturalità e urbanizzazione non sono nei file: ricerca di controllo con zero occorrenze nei sette file."
           },
           {
             "provider": "Google",
-            "model_name": "AImode"
+            "model_name": "AImode",
+            "files_opened": "dichiarati come tutti e sette, senza elenco dei nomi",
+            "note": "Risposta in italiano. Verifica riga per riga: corrette la doppia struttura superficie e sottosuolo, il chikadō dei cortili, il ma a Milano, il bashō a Milano e a Tokyo, i gatti neri della Galleria e la costellazione felina a Tokyo. In Tokyo il ma compare solo come voce di elenco senza descrizione: la lettura «intervallo estetico e percettivo» è interpretazione dell'AI. L'affinità tra gatti neri milanesi e costellazione felina di Tokyo è un accostamento dell'AI, non un legame nei file. Non risponde alla regola sulla multiculturalità e propone invece l'alienazione urbana, dichiarata come costruzione propria: nei sette file zero occorrenze."
           }
         ],
         "question_en": "Read the graph nodes on Milan and Tokyo as an atlas. How is the city encoded? Which traits recur, and where do the two cities resemble or diverge? State what you find in the files and what you construct yourself.",
@@ -673,6 +697,13 @@
           "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
           "conceptual/ConceptualCore_tokyo_hara-rota.json",
           "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ],
+        "session_date": "2026-11-07",
+        "verification": "Confronto riga per riga dei tre testi con i sette file. Gli errori sono attribuzioni a file sbagliati (wabi-sabi, bashō) o estensioni di un tratto presente in un solo file; nessun fatto inventato. Multiculturalità e urbanizzazione: zero occorrenze nei sette file, come dichiara il nodo di sintesi.",
+        "converging_findings": [
+          "Tutte e tre le AI leggono Milano e Tokyo con lo stesso lessico (bashō, ma).",
+          "Tutte e tre trovano la doppia struttura superficie e sottosuolo (cortili e Navigli a Milano, Stazione Talpa a Tokyo).",
+          "Tutte e tre distinguono Milano, fatta di oggetti architettonici isolati, da Tokyo, campo diffuso e continuo."
         ]
       },
       "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/conceptual"
