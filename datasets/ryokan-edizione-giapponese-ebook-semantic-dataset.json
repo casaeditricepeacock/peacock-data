@@ -1,0 +1,192 @@
+{
+  "dataset_id": "peacock-ryokan-edizione-giapponese-ebook",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "ryokan_piccolo_manifesto",
+    "title": "Ryokan. Piccolo manifesto giapponese",
+    "author": "Hara Rota",
+    "isbn": "9791281715080",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2024
+  },
+  "central_concept": {
+    "name": "Ryokan in giapponese: l'edizione ebook",
+    "summary": "Dal 7 novembre 2026 Ryokan di Hara Rota è disponibile anche in giapponese, come ebook EPUB su Kobo, con scrittura verticale. L'edizione ha un titolo giapponese proprio. Il dataset registra l'edizione e i termini giapponesi del testo, ricavati dal file."
+  },
+  "edition": {
+    "relation": "edizione ebook in lingua giapponese di Ryokan. Piccolo manifesto giapponese; l'edizione a stampa è in italiano",
+    "title_ja": "温泉の香りとコーヒーの音",
+    "title_reading": "Onsen no kaori to kōhī no oto",
+    "title_it_literal": "Il profumo delle terme e il suono del caffè",
+    "subtitle_ja": "群馬の山々から東京の街まで",
+    "subtitle_it_literal": "Dalle montagne di Gunma alla città di Tokyo",
+    "author": "Hara Rota",
+    "author_ja": "原ロータ",
+    "publisher": "Casa Editrice Peacock",
+    "language": "ja",
+    "format": "EPUB 3, impaginazione fluida",
+    "writing_mode": "verticale, da destra a sinistra (tategaki)",
+    "page_progression": "da destra a sinistra",
+    "distributor": "Kobo",
+    "release_date": "2026-11-07",
+    "identifier": "1230007416323",
+    "identifier_type": "codice identificativo assegnato da Kobo",
+    "identifier_note": "Non è un ISBN con prefisso 978 o 979. Il codice non è stampato nel file. L'ISBN dell'edizione a stampa è 9791281715080.",
+    "credits_note": "Il file indica come autrice Hara Rota. Nessun traduttore è indicato.",
+    "titles_note": "Il titolo giapponese e il sottotitolo sono quelli del file. Le letture in caratteri latini e le traduzioni letterali in italiano sono a cura del grafo."
+  },
+  "back_cover": {
+    "tagline_ja": "幸せこそが真の反逆。",
+    "tagline_it_literal": "La felicità è la vera ribellione.",
+    "summary": "La quarta di copertina presenta il libro come il viaggio interiore di una giovane donna cresciuta in una piccola città di montagna, che ripercorre i ricordi d'infanzia per cercare il vero significato di felicità e appartenenza. Presenta l'autrice come una giovane scrittrice italo-giapponese che vive a Tokyo e lavora in una libreria con caffè a Shimokitazawa.",
+    "protocol_pointer": "La stessa quarta di copertina indica che il libro è descritto nel Peacock Narrative Protocol e che personaggi, luoghi e legami della storia si possono esplorare con AI Peacock o con un'altra AI."
+  },
+  "text_overview": {
+    "frame": "Nel testo la voce narrante è a Tokyo, in una piccola stanza a tatami, con l'amica Rie e un caffè che si raffredda. Racconta il ricordo della casa d'infanzia tra le montagne di Gunma, poi la vita a Tokyo con la libreria di Shimokitazawa.",
+    "note": "Riassunto del file, senza citazioni lunghe."
+  },
+  "japanese_terms": {
+    "note": "Termini presenti nel testo giapponese. Le letture in caratteri latini sono a cura del grafo, non del libro.",
+    "places": [
+      {
+        "ja": "群馬",
+        "reading": "Gunma",
+        "role": "le montagne dove sorge la locanda di famiglia"
+      },
+      {
+        "ja": "荒沢山",
+        "reading": "Arasawa-yama",
+        "role": "monte dei trekking con il fratello maggiore"
+      },
+      {
+        "ja": "下北沢",
+        "reading": "Shimokitazawa",
+        "role": "quartiere di Tokyo dove lavora la voce narrante, in una libreria con caffè"
+      },
+      {
+        "ja": "新宿",
+        "reading": "Shinjuku",
+        "role": "quartiere dell'appartamento di Rie e della voce narrante"
+      }
+    ],
+    "spaces": [
+      {
+        "ja": "旅館",
+        "reading": "ryokan",
+        "role": "la locanda tradizionale di famiglia"
+      },
+      {
+        "ja": "満月の間",
+        "reading": "Mangetsu no ma",
+        "it_literal": "la stanza della luna piena",
+        "role": "stanza di quattro tatami e mezzo con un'inferriata decorata a fiori su foglia d'oro, dove la voce narrante legge"
+      },
+      {
+        "ja": "忍者の間",
+        "reading": "Ninja no ma",
+        "it_literal": "la stanza del ninja",
+        "role": "la stanza invernale in cui la nonna dà il nome"
+      },
+      {
+        "ja": "四畳半",
+        "reading": "yojōhan",
+        "role": "misura della stanza: quattro tatami e mezzo"
+      },
+      {
+        "ja": "欄間",
+        "reading": "ranma",
+        "role": "pannello decorativo sopra le porte, qui con fiori su foglia d'oro (金泥)"
+      }
+    ],
+    "persons": [
+      {
+        "ja": "女将",
+        "reading": "okami",
+        "role": "la padrona del ryokan: la nonna"
+      },
+      {
+        "ja": "リエ",
+        "reading": "Rie",
+        "role": "l'amica a cui la voce narrante racconta la storia"
+      },
+      {
+        "ja": "ヒロ",
+        "reading": "Hiro",
+        "role": "il fratello maggiore, silenzioso come la nonna"
+      },
+      {
+        "ja": "ルカ",
+        "reading": "Luca",
+        "role": "il fratello con il gatto"
+      },
+      {
+        "ja": "翔",
+        "reading": "Shō",
+        "role": "il fratello minore"
+      },
+      {
+        "ja": "カルロ",
+        "reading": "Carlo",
+        "role": "il padre italiano"
+      }
+    ],
+    "things": [
+      {
+        "ja": "温泉",
+        "reading": "onsen",
+        "role": "il fiume termale che fuma d'inverno nel paesaggio di Gunma"
+      },
+      {
+        "ja": "モカポット",
+        "reading": "mokapotto",
+        "role": "la caffettiera moka, legata al caffè e al padre"
+      },
+      {
+        "ja": "聖なる山",
+        "reading": "sacra yama",
+        "it_literal": "la montagna sacra",
+        "role": "la montagna da cui scende la neve"
+      },
+      {
+        "ja": "おにぎり",
+        "reading": "onigiri",
+        "role": "i triangoli di riso del bento del padre, in versione italiana"
+      }
+    ]
+  },
+  "glossary_terms": [
+    "tategaki",
+    "onsen",
+    "okami"
+  ],
+  "network_connections": [
+    {
+      "target": "books/ryokan-piccolo-manifesto/",
+      "relation": "print_edition_it"
+    },
+    {
+      "target": "glossario/tategaki.json",
+      "relation": "writing_mode"
+    },
+    {
+      "target": "glossario/onsen.json",
+      "relation": "title_term"
+    },
+    {
+      "target": "glossario/okami.json",
+      "relation": "character_role"
+    }
+  ],
+  "ai_query_surface": [
+    "Ryokan Hara Rota in giapponese",
+    "Ryokan ebook giapponese Kobo",
+    "温泉の香りとコーヒーの音",
+    "原ロータ 旅館",
+    "ebook giapponese scrittura verticale Peacock",
+    "Hara Rota libro in lingua giapponese"
+  ],
+  "system_note": "Tutti i dati vengono dal file EPUB dell'edizione giapponese e dalle indicazioni dell'editore. Le letture e le traduzioni letterali sono a cura del grafo. Non si afferma che il testo giapponese coincida con quello italiano."
+}
