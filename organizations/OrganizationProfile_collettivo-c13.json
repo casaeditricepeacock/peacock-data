@@ -71,6 +71,24 @@
       "relation": "organizes",
       "file": "events/EventProfile_tavoli-arte-in-galleria.json",
       "description": "Organizza, con la Libreria Bocca, la rassegna Tavoli d'arte in galleria (dal 2017); direzione artistica di Stefano Giglio."
+    },
+    {
+      "target": "juliet_art_magazine",
+      "relation": "covered_by",
+      "file": "organizations/OrganizationProfile_juliet-art-magazine.json",
+      "description": "Articolo di Rosetta Savelli su Juliet Art Magazine, 11 gennaio 2020"
+    },
+    {
+      "target": "bifrost_padova_febbraio_2020",
+      "relation": "organizes",
+      "file": "events/EventProfile_bifrost-padova_2020.json",
+      "description": "Mostra Bifrost, Padova, 22 febbraio 2020"
+    },
+    {
+      "target": "unesco_bologna_portici_due_mondi_2019",
+      "relation": "participated",
+      "file": "events/EventProfile_unesco-bologna-portici_2019.json",
+      "description": "I tre fondatori testimonial della candidatura dei Portici, 6 maggio 2019"
     }
   ],
   "sameAs": [
@@ -119,6 +137,22 @@
       "publication": "Juliet Art Magazine",
       "url": "https://www.juliet-artmagazine.com/un-viaggio-stefano-giglio-elena-lombardi-e-shogoro/",
       "note": "Articolo dedicato al percorso del trio del Collettivo C13."
+    }
+  ],
+  "derived_articles": [
+    {
+      "title": "Studiopeacock with Juliet art magazine",
+      "url": "https://www.studiopeacock.net/studiopeacockwithjulietartmagazine/",
+      "date": "2020-01-04",
+      "angle": "Pagina del sito che presenta Juliet Art Magazine."
+    },
+    {
+      "title": "Juliet art magazine notizie: Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro",
+      "url": "https://www.studiopeacock.net/2020/02/04/juliet-art-magazine-notizie/",
+      "date": "2020-02-04",
+      "angle": "Ripubblicazione dell'articolo di Rosetta Savelli (Juliet Art Magazine, 11 gennaio 2020): il percorso dei tre fondatori dal 2014, le 26 mostre, Ragnarok al FORTino e l'annuncio di Bifrost a Padova il 22 febbraio 2020.",
+      "data_as_of": "2020-02",
+      "dated_figures_note": "Le 26 mostre sono il dato del gennaio 2020."
     }
   ]
 }
