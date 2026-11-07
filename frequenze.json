@@ -632,6 +632,50 @@
       "editorial_concept": "Le AI hanno il grafo e non le immagini: descrivono l'illustrazione che la sensazione di un modo di leggere richiederebbe e il numero misura quanto dichiarano di inventare. Le sessioni sono guidate e non misurano la citazione spontanea del grafo.",
       "previous_issue": 10,
       "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/books/il-libro-piccolo-manifesto"
+    },
+    {
+      "issue_number": 12,
+      "date": "2026-11-15",
+      "language": "en",
+      "description": "English edition, published in the week of BookCity Milano 2026 (23-29 November). Three AI readers receive one question about how the Peacock graph encodes the city, and read the nodes on Milan and Tokyo as an atlas. The issue reports what each AI finds in the files and what it constructs itself, including the multiculturalism and urbanisation themes that the graph does not encode.",
+      "target_node": {
+        "title": "Città mondo: come il grafo Peacock codifica Milano e Tokyo",
+        "path": "conceptual/ThematicSynthesisCore_citta-mondo_milano-tokyo.json",
+        "note": "Issue built on a graph synthesis node, not on a single book."
+      },
+      "occasion": {
+        "event": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+        "note": "Homage to BookCity Milano and to the MUDEC event of 28 November 2026 presenting AI 愛. Natura e algoritmi giapponesi."
+      },
+      "ai_panel": {
+        "format": "Stessa domanda a tre AI, in chat nuove in incognito.",
+        "readers": [
+          {
+            "provider": "Sakana AI",
+            "model_name": "Sakana AI"
+          },
+          {
+            "provider": "xAI",
+            "model_name": "Grok"
+          },
+          {
+            "provider": "Google",
+            "model_name": "AImode"
+          }
+        ],
+        "question_en": "Read the graph nodes on Milan and Tokyo as an atlas. How is the city encoded? Which traits recur, and where do the two cities resemble or diverge? State what you find in the files and what you construct yourself.",
+        "question_it": "Leggi i nodi del grafo su Milano e su Tokyo come un atlante. Come viene codificata la città? Quali tratti ricorrono e dove le due città si somigliano o divergono? Dichiara ciò che trovi nei file e ciò che costruisci tu.",
+        "entry_points": [
+          "conceptual/milano-fantastica-it.json",
+          "cities/milano-cortili-semantic-dataset.json",
+          "cities/torre-velasca-milano-semantic-dataset.json",
+          "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+          "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+          "conceptual/ConceptualCore_tokyo_hara-rota.json",
+          "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ]
+      },
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/conceptual"
     }
   ],
   "specials": [
