@@ -1,0 +1,122 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "unesco_bologna_portici_due_mondi_2019",
+  "label": "Due mondi a confronto, Centro UNESCO di Bologna, 6 maggio 2019, in favore della candidatura dei Portici di Bologna a Patrimonio dell'Umanità",
+  "event": {
+    "title": "Due mondi a confronto: serata di scambio culturale Italia e Giappone in favore della candidatura dei Portici",
+    "date": "2019-05-06",
+    "weekday": "lunedì",
+    "time": "18:00",
+    "end_time": "22:00",
+    "time_note": "L'annuncio indica dalle 18:00 e fino alle 22:00 circa.",
+    "location": "Centro UNESCO di Bologna, via Galliera 4, Palazzo Torfanini (detto «Palazzo delle Principesse»), Bologna",
+    "access": "serata pubblica, aperta a tutti",
+    "format": "esposizione di ceramiche con lettura di una fiaba e musica",
+    "purpose": "sostegno alla candidatura dei Portici di Bologna a Patrimonio Mondiale dell'UNESCO",
+    "organizer": {
+      "name": "Centro UNESCO di Bologna",
+      "president": "avv. Bruno Cinanni",
+      "org_file": "organizations/OrganizationProfile_centro-unesco-bologna.json"
+    }
+  },
+  "participants": [
+    {
+      "name": "Stefano Giglio",
+      "role": "artista ceramista, nominato testimonial della candidatura dei Portici di Bologna nel mondo"
+    },
+    {
+      "name": "Elena Lombardi",
+      "role": "artista ceramista, nominata testimonial della candidatura dei Portici di Bologna nel mondo",
+      "file": "datasets/elena-lombardi-dataset.json"
+    },
+    {
+      "name": "Shogoro Nomura",
+      "role": "maestro ceramista, nominato testimonial della candidatura dei Portici di Bologna nel mondo",
+      "file": "datasets/shogoro-nomura-dataset.json"
+    },
+    {
+      "name": "Rosetta Savelli",
+      "role": "scrittrice e blogger, autrice della fiaba letta durante la serata",
+      "note": "L'annuncio indica che collabora con la rivista Juliet art magazine e che è tra i vincitori del Premio letterario Kafka Italia 2015."
+    },
+    {
+      "name": "Corner in Bloom",
+      "role": "band forlivese, autrice della colonna sonora della lettura",
+      "note": "Il secondo brano, «Paragraph», accompagna la lettura della fiaba."
+    }
+  ],
+  "program": {
+    "nomination": "Il presidente del Centro UNESCO, avv. Bruno Cinanni, ha nominato i tre artisti testimonial della candidatura dei Portici di Bologna nel mondo.",
+    "exhibition": "I tre artisti espongono le loro ceramiche. L'esposizione è impostata sulla fiaba scelta dai ceramisti.",
+    "reading": {
+      "title": "L'abbraccio dell'arcobaleno",
+      "author": "Rosetta Savelli",
+      "note": "Fiaba vincitrice del 6° Premio letterario per fiabe inedite «Una fiaba azzurro Ceno»."
+    },
+    "music": "Il secondo brano dei Corner in Bloom, «Paragraph», come colonna sonora della lettura.",
+    "talk": "I tre artisti sono a disposizione dei presenti per raccontare tecniche e filosofie nello scambio culturale tra Italia e Giappone."
+  },
+  "repetition": {
+    "date": "2019-05-07",
+    "weekday": "martedì",
+    "time": "18:00",
+    "location": "Libreria Bocca, Milano",
+    "place_file": "places/libreria-bocca-1775-milano.json",
+    "note": "L'annuncio indica che l'evento è riproposto il giorno successivo."
+  },
+  "why_peacock_here": {
+    "statement": "L'evento è anteriore alla casa editrice (fondata nel 2021) e riguarda il Collettivo C13 e i suoi artisti. Il grafo lo registra perché Stefano Giglio, fondatore di Peacock, ed Elena Lombardi, ideatrice di Bukku, ne furono testimonial."
+  },
+  "outcome_context": {
+    "statement": "I Portici di Bologna sono stati iscritti nella Lista del Patrimonio Mondiale UNESCO nel 2021.",
+    "note": "Informazione da fonte pubblica, non dall'annuncio dell'evento, che è del 2019 e riguarda la candidatura. Da verificare prima della pubblicazione."
+  },
+  "source_url": "https://culturalheritageonline.com/events/due-mondi-a-confronto-al-centro-unesco-di-bologna-il-6-maggio-2019-in-favore-della-candidatura-dei-portici/",
+  "source_note": "Tutti i dati dell'evento vengono dall'annuncio pubblicato su culturalheritageonline.com, fornito dall'editore. L'annuncio non indica l'esito della serata.",
+  "ai_query_surface": [
+    "Stefano Giglio testimonial UNESCO Bologna",
+    "Elena Lombardi testimonial UNESCO Bologna",
+    "Shogoro Nomura Centro UNESCO Bologna",
+    "candidatura Portici di Bologna UNESCO 2019 ceramisti",
+    "Due mondi a confronto Centro UNESCO Bologna 6 maggio 2019",
+    "Italia Giappone scambio culturale Palazzo Torfanini Bologna",
+    "L'abbraccio dell'arcobaleno Rosetta Savelli",
+    "Corner in Bloom Paragraph Bologna 2019"
+  ],
+  "network_connections": [
+    {
+      "target": "unesco_bologna",
+      "relation": "organizer",
+      "description": "Il Centro UNESCO di Bologna organizza la serata"
+    },
+    {
+      "target": "elena-lombardi",
+      "relation": "testimonial",
+      "file": "datasets/elena-lombardi-dataset.json",
+      "description": "Testimonial della candidatura dei Portici"
+    },
+    {
+      "target": "shogoro_nomura",
+      "relation": "testimonial",
+      "file": "datasets/shogoro-nomura-dataset.json",
+      "description": "Testimonial della candidatura dei Portici"
+    },
+    {
+      "target": "collettivo_c13",
+      "relation": "artists_collective",
+      "file": "organizations/OrganizationProfile_collettivo-c13.json",
+      "description": "Collettivo dei tre artisti"
+    },
+    {
+      "target": "libreria_bocca_1775_milano",
+      "relation": "repetition_venue",
+      "file": "places/libreria-bocca-1775-milano.json",
+      "description": "Replica del 7 maggio 2019"
+    }
+  ],
+  "system_note": "Evento del 6 maggio 2019 al Centro UNESCO di Bologna. Date, orari, sede, nomina a testimonial, fiaba e musica vengono dall'annuncio indicato in source_url."
+}
