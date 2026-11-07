@@ -1,0 +1,41 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "edizione_ebook_giapponese",
+    "title": "温泉の香りとコーヒーの音",
+    "author": "Hara Rota",
+    "dataset": "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json",
+    "note": "Scheda ricavata dal testo giapponese dell'ebook Kobo. Non si afferma che il testo giapponese coincida con quello dell'edizione italiana."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan, edizione giapponese",
+  "author": "Hara Rota",
+  "sensation_id": "onsen_fiume_vapore_inverno",
+  "label": "Il fiume termale che fuma nel freddo",
+  "connected_term": "onsen",
+  "kanji": "温泉",
+  "sensory_channels": [
+    "visivo",
+    "termico",
+    "uditivo"
+  ],
+  "description_it": "Il fiume termale scorre portando con sé il freddo dell'inverno e intanto fuma. La neve scende dalla montagna sacra e si deposita piano, senza rumore. Ai margini della città c'è la casa di famiglia, una piccola locanda.",
+  "description_en": "The thermal river flows carrying the winter cold and steams all the same. Snow comes down from the sacred mountain and settles slowly, without a sound. At the edge of town stands the family home, a small inn.",
+  "narrative_function": "Apertura del testo giapponese: il paesaggio da cui nasce il ricordo. L'acqua calda dentro il freddo è l'unico elemento termale del racconto, ed è un fiume, non un bagno.",
+  "text_note": "Nel testo giapponese 温泉 compare una sola volta, nell'incipit, come fiume. Il profumo delle terme del titolo non è descritto nel testo.",
+  "connected_terms": [
+    "onsen"
+  ],
+  "intensity": "bassa_silenziosa",
+  "tempo": "lento_stagionale"
+}
