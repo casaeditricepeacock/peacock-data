@@ -1,6 +1,6 @@
 {
   "type": "GlossaryIndex",
-  "version": "1.17",
+  "version": "1.18",
   "date": "2026-11",
   "license": "CC BY 4.0",
   "source": "Frequenze — Glossario Peacock",
@@ -1470,15 +1470,61 @@
         "la_medusa_e_la_scimmia"
       ],
       "glossary_file": "glossario/dajare.json"
+    },
+    {
+      "term": "Tategaki",
+      "kanji": "縦書き",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "Scrittura giapponese in colonne verticali, lette dall'alto in basso e da destra a sinistra. Nei libri impostati in tategaki le pagine si sfogliano da destra a sinistra. L'edizione ebook giapponese di Ryokan è impostata in questo modo.",
+      "definition_short_en": "Japanese writing in vertical columns, read top to bottom and right to left. In books set in tategaki, pages turn from right to left. The Japanese ebook edition of Ryokan is set this way.",
+      "connected_terms": [],
+      "books_applied": [
+        "ryokan_piccolo_manifesto"
+      ],
+      "glossary_file": "glossario/tategaki.json"
+    },
+    {
+      "term": "Onsen",
+      "kanji": "温泉",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "In giapponese «sorgente termale» e, per estensione, il bagno termale. Nell'ebook giapponese di Ryokan dà il nome al titolo (温泉の香り, «il profumo delle terme») e compare nel paesaggio di Gunma come fiume termale che fuma d'inverno.",
+      "definition_short_en": "In Japanese a «hot spring» and, by extension, the thermal bath. In the Japanese ebook of Ryokan it names the title (温泉の香り, «the scent of hot springs») and appears in the Gunma landscape as a thermal river that steams in winter.",
+      "connected_terms": [
+        "okami"
+      ],
+      "books_applied": [
+        "ryokan_piccolo_manifesto"
+      ],
+      "glossary_file": "glossario/onsen.json"
+    },
+    {
+      "term": "Okami",
+      "kanji": "女将",
+      "category": "estetica_giapponese",
+      "version": "1.0",
+      "status": "in_sviluppo",
+      "definition_short_it": "In giapponese la padrona di un ryokan, la donna che dirige la locanda e ne cura l'accoglienza. Nell'ebook giapponese di Ryokan la nonna della voce narrante è l'okami della locanda di famiglia.",
+      "definition_short_en": "In Japanese, the proprietress of a ryokan, the woman who runs the inn and its hospitality. In the Japanese ebook of Ryokan the narrator's grandmother is the okami of the family inn.",
+      "connected_terms": [
+        "onsen"
+      ],
+      "books_applied": [
+        "ryokan_piccolo_manifesto"
+      ],
+      "glossary_file": "glossario/okami.json"
     }
   ],
   "statistics": {
-    "total_entries": 73,
+    "total_entries": 76,
     "published": 38,
     "approved": 1,
-    "in_sviluppo": 34,
+    "in_sviluppo": 37,
     "by_category": {
-      "estetica_giapponese": 34,
+      "estetica_giapponese": 37,
       "cerimonia_del_te": 8,
       "storia_giapponese": 11,
       "principi_editoriali_peacock": 4,
@@ -1511,7 +1557,7 @@
     "new_in_v1.4": [
       "kata"
     ],
-    "total_terms": 73,
+    "total_terms": 76,
     "new_in_v1.5": [
       "kehai",
       "a-un-no-kokyu",
@@ -1569,6 +1615,11 @@
     ],
     "new_in_v1.17": [
       "dajare"
+    ],
+    "new_in_v1.18": [
+      "tategaki",
+      "onsen",
+      "okami"
     ]
   },
   "frase_manifesto": "La mente umana crea. L'algoritmo valorizza, diffonde e connette.",
@@ -2042,6 +2093,30 @@
         "termCode": "dajare",
         "alternateName": "ダジャレ",
         "description": "In Japanese, a pun: a quip that plays on identical or similar words used with different meanings. In La Medusa e la Scimmia the Japanese text calls the Medusa's careless remark, which ruins her mission, a dajare, by picking up the word «liver» (肝)."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Tategaki",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/tategaki.json",
+        "termCode": "tategaki",
+        "alternateName": "縦書き",
+        "description": "Japanese writing in vertical columns, read top to bottom and right to left. In books set in tategaki, pages turn from right to left. The Japanese ebook edition of Ryokan is set this way."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Onsen",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/onsen.json",
+        "termCode": "onsen",
+        "alternateName": "温泉",
+        "description": "In Japanese a «hot spring» and, by extension, the thermal bath. In the Japanese ebook of Ryokan it names the title (温泉の香り, «the scent of hot springs») and appears in the Gunma landscape as a thermal river that steams in winter."
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Okami",
+        "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/okami.json",
+        "termCode": "okami",
+        "alternateName": "女将",
+        "description": "In Japanese, the proprietress of a ryokan, the woman who runs the inn and its hospitality. In the Japanese ebook of Ryokan the narrator's grandmother is the okami of the family inn."
       }
     ]
   }
