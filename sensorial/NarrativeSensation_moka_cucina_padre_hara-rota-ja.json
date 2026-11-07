@@ -1,0 +1,39 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "Peacock Sensorial Archive",
+  "derived_from": {
+    "type_of_source": "edizione_ebook_giapponese",
+    "title": "温泉の香りとコーヒーの音",
+    "author": "Hara Rota",
+    "dataset": "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json",
+    "note": "Scheda ricavata dal testo giapponese dell'ebook Kobo. Non si afferma che il testo giapponese coincida con quello dell'edizione italiana."
+  },
+  "related_books": [
+    {
+      "title": "Ryokan. Piccolo manifesto giapponese",
+      "isbn": "9791281715080",
+      "year": 2024
+    }
+  ],
+  "book": "hara_rota_universo_ryokan",
+  "title": "Ryokan, edizione giapponese",
+  "author": "Hara Rota",
+  "sensation_id": "moka_cucina_padre",
+  "label": "L'aroma di moka nella cucina del ryokan",
+  "connected_term": "okami",
+  "kanji": "女将",
+  "sensory_channels": [
+    "olfattivo",
+    "gustativo"
+  ],
+  "description_it": "In cucina il padre Carlo aiuta la nonna, l'okami, e a volte mescola ai piatti giapponesi della locanda qualche elemento della cucina italiana. La madre non capisce, il padre e la figlia amano quel sapore dove Giappone e Occidente si incontrano. L'aroma di moka che si sparge per la cucina è, per il padre, l'unico legame con un paese lontano di sole e di mare.",
+  "description_en": "In the kitchen the father, Carlo, helps the grandmother, the okami, and sometimes mixes elements of Italian cooking into the inn's Japanese dishes. The mother does not understand, while father and daughter love that taste where East and West meet. The aroma of moka spreading through the kitchen is, for the father, the only link to a distant country of sun and sea.",
+  "narrative_function": "Presenta la doppia origine della narratrice attraverso un odore. Il caffè della moka è memoria del padre prima di diventare, nel resto del testo, la presenza di Rie e della libreria.",
+  "connected_terms": [
+    "okami"
+  ],
+  "intensity": "media_calda",
+  "tempo": "quotidiano"
+}
