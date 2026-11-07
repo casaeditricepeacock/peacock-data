@@ -216,7 +216,22 @@
       ],
       "edition": "Limited — 500 copies, hand-applied photograph on cover",
       "press": "The Asahi Shimbun",
-      "release_date": "2024-03-06"
+      "release_date": "2024-03-06",
+      "editions": [
+        {
+          "format": "ebook EPUB",
+          "language": [
+            "ja"
+          ],
+          "title": "温泉の香りとコーヒーの音",
+          "distributor": "Kobo",
+          "identifier": "1230007416323",
+          "identifier_type": "codice identificativo assegnato da Kobo",
+          "writing_mode": "verticale (tategaki)",
+          "release_date": "2026-11-07",
+          "dataset": "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json"
+        }
+      ]
     },
     {
       "title": "Ryokan. Ali di carta di riso",
