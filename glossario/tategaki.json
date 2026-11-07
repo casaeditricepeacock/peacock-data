@@ -1,0 +1,40 @@
+{
+  "type": "GlossaryTerm",
+  "id": "tategaki",
+  "term": "Tategaki",
+  "kanji": "縦書き",
+  "aliases": [
+    "Tategaki",
+    "tategaki",
+    "縦書き",
+    "scrittura verticale"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "Scrittura giapponese in colonne verticali, lette dall'alto in basso e da destra a sinistra. Nei libri impostati in tategaki le pagine si sfogliano da destra a sinistra. L'edizione ebook giapponese di Ryokan è impostata in questo modo.",
+  "definition_short_en": "Japanese writing in vertical columns, read top to bottom and right to left. In books set in tategaki, pages turn from right to left. The Japanese ebook edition of Ryokan is set this way.",
+  "connected_terms": [],
+  "books_applied": [
+    "ryokan_piccolo_manifesto"
+  ],
+  "books_applied_paths": [
+    "books/ryokan-piccolo-manifesto"
+  ],
+  "note": "Ancorato nell'edizione ebook giapponese di Ryokan, il cui file dichiara scrittura verticale e pagine da destra a sinistra (si veda datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Tategaki",
+    "description": "Japanese writing in vertical columns, read top to bottom and right to left. In books set in tategaki, pages turn from right to left. The Japanese ebook edition of Ryokan is set this way.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/tategaki.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "縦書き"
+  }
+}
