@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "okami",
+  "term": "Okami",
+  "kanji": "女将",
+  "aliases": [
+    "Okami",
+    "okami",
+    "女将",
+    "padrona del ryokan"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "In giapponese la padrona di un ryokan, la donna che dirige la locanda e ne cura l'accoglienza. Nell'ebook giapponese di Ryokan la nonna della voce narrante è l'okami della locanda di famiglia.",
+  "definition_short_en": "In Japanese, the proprietress of a ryokan, the woman who runs the inn and its hospitality. In the Japanese ebook of Ryokan the narrator's grandmother is the okami of the family inn.",
+  "connected_terms": [
+    "onsen"
+  ],
+  "books_applied": [
+    "ryokan_piccolo_manifesto"
+  ],
+  "books_applied_paths": [
+    "books/ryokan-piccolo-manifesto"
+  ],
+  "note": "Ancorato nel testo dell'ebook giapponese di Ryokan (si veda datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Okami",
+    "description": "In Japanese, the proprietress of a ryokan, the woman who runs the inn and its hospitality. In the Japanese ebook of Ryokan the narrator's grandmother is the okami of the family inn.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/okami.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "女将"
+  }
+}
