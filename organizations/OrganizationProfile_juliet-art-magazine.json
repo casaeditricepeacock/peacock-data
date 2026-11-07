@@ -1,0 +1,75 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "juliet_art_magazine",
+  "label": "Juliet Art Magazine",
+  "organization": {
+    "name": "Juliet Art Magazine",
+    "type": "rivista di arte contemporanea",
+    "tagline": "Contemporary art magazine since 1980",
+    "director": "Roberto Vidali",
+    "first_issue": "dicembre 1980",
+    "topics": [
+      "arte",
+      "architettura",
+      "design",
+      "fotografia"
+    ],
+    "website": "https://www.juliet-artmagazine.com/"
+  },
+  "relation_to_peacock": {
+    "statement": "Rivista che ha pubblicato l'articolo «Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro» di Rosetta Savelli (11 gennaio 2020, categoria Notizie). Rosetta Savelli collabora con la rivista, secondo l'annuncio dell'evento UNESCO del 2019.",
+    "site_pages": [
+      {
+        "title": "Studiopeacock with Juliet art magazine",
+        "url": "https://www.studiopeacock.net/studiopeacockwithjulietartmagazine/",
+        "date": "2020-01-04",
+        "note": "Pagina del sito che presenta la rivista."
+      },
+      {
+        "title": "Juliet art magazine notizie: «Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro»",
+        "url": "https://www.studiopeacock.net/2020/02/04/juliet-art-magazine-notizie/",
+        "date": "2020-02-04",
+        "note": "Ripubblicazione sul sito dell'articolo apparso su Juliet Art Magazine l'11 gennaio 2020."
+      }
+    ],
+    "original_article": {
+      "title": "Un viaggio: Stefano Giglio, Elena Lombardi e Shogoro",
+      "url": "https://www.juliet-artmagazine.com/un-viaggio-stefano-giglio-elena-lombardi-e-shogoro/",
+      "date": "2020-01-11",
+      "author": "Rosetta Savelli"
+    }
+  },
+  "source_note": "Dati dalle due pagine del sito studiopeacock.net. Il grafo non descrive la rivista oltre quanto dichiarato in quelle pagine.",
+  "ai_query_surface": [
+    "Juliet Art Magazine",
+    "Juliet art magazine Roberto Vidali",
+    "Juliet Art Magazine Stefano Giglio",
+    "Juliet Art Magazine Elena Lombardi Shogoro",
+    "rivista arte contemporanea dal 1980 Juliet"
+  ],
+  "network_connections": [
+    {
+      "target": "collettivo_c13",
+      "relation": "covered",
+      "file": "organizations/OrganizationProfile_collettivo-c13.json",
+      "description": "Articolo sul percorso dei tre fondatori"
+    },
+    {
+      "target": "bifrost_padova_febbraio_2020",
+      "relation": "announced",
+      "file": "events/EventProfile_bifrost-padova_2020.json",
+      "description": "Articolo che annuncia la mostra Bifrost"
+    },
+    {
+      "target": "unesco_bologna_portici_due_mondi_2019",
+      "relation": "contributor_link",
+      "file": "events/EventProfile_unesco-bologna-portici_2019.json",
+      "description": "Rosetta Savelli, collaboratrice della rivista, è l'autrice della fiaba letta alla serata UNESCO"
+    }
+  ],
+  "system_note": "Scheda costruita da due pagine del sito."
+}
