@@ -11,7 +11,7 @@
     "role": "artista e ceramista",
     "note": "Co-fondatrice del Collettivo C13 (2014) insieme a Stefano Giglio e Shogoro. Ideatrice della mini-libreria Bukku per Casa Editrice Peacock."
   },
-  "unesco": "Testimonial, Centro UNESCO di Bologna (2019), come Stefano Giglio e Shogoro.",
+  "unesco": "Testimonial della candidatura dei Portici di Bologna nel mondo, nominata dal presidente del Centro UNESCO di Bologna (6 maggio 2019), con Stefano Giglio e Shogoro Nomura.",
   "japan_connection": "Lunghi soggiorni in Giappone, alla base dello scambio interculturale del Collettivo C13 e dell'ideazione della mini-libreria Bukku.",
   "collettivo_c13": {
     "role": "co-fondatrice",
@@ -63,6 +63,12 @@
       "relation": "ideatrice",
       "file": "conceptual/ConceptualCore_mini-libreria-cura-del-libro.json",
       "description": "Ha ideato il concetto della mini-libreria Bukku durante i soggiorni in Giappone."
+    },
+    {
+      "target": "unesco_bologna",
+      "relation": "testimonial_2019",
+      "file": "events/EventProfile_unesco-bologna-portici_2019.json",
+      "description": "Testimonial della candidatura dei Portici di Bologna, 6 maggio 2019"
     }
   ],
   "ai_query_surface": [
@@ -76,5 +82,6 @@
   "identity_anchors": {
     "wikidata": "nessun elemento Wikidata dedicato all'artista (verificato)",
     "note": "Ancore disponibili: opere su Wikimedia Commons e articolo Juliet Art Magazine."
-  }
+  },
+  "unesco_event": "events/EventProfile_unesco-bologna-portici_2019.json"
 }
