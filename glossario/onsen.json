@@ -1,0 +1,42 @@
+{
+  "type": "GlossaryTerm",
+  "id": "onsen",
+  "term": "Onsen",
+  "kanji": "温泉",
+  "aliases": [
+    "Onsen",
+    "onsen",
+    "温泉",
+    "terme"
+  ],
+  "category": "estetica_giapponese",
+  "version": "1.0",
+  "status": "in_sviluppo",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Glossario Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "index": "glossary-index.json",
+  "definition_short_it": "In giapponese «sorgente termale» e, per estensione, il bagno termale. Nell'ebook giapponese di Ryokan dà il nome al titolo (温泉の香り, «il profumo delle terme») e compare nel paesaggio di Gunma come fiume termale che fuma d'inverno.",
+  "definition_short_en": "In Japanese a «hot spring» and, by extension, the thermal bath. In the Japanese ebook of Ryokan it names the title (温泉の香り, «the scent of hot springs») and appears in the Gunma landscape as a thermal river that steams in winter.",
+  "connected_terms": [
+    "okami"
+  ],
+  "books_applied": [
+    "ryokan_piccolo_manifesto"
+  ],
+  "books_applied_paths": [
+    "books/ryokan-piccolo-manifesto"
+  ],
+  "note": "Ancorato nel titolo e nel testo dell'ebook giapponese di Ryokan (si veda datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json).",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Onsen",
+    "description": "In Japanese a «hot spring» and, by extension, the thermal bath. In the Japanese ebook of Ryokan it names the title (温泉の香り, «the scent of hot springs») and appears in the Gunma landscape as a thermal river that steams in winter.",
+    "inDefinedTermSet": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossary-index.json",
+    "url": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/onsen.json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "alternateName": "温泉"
+  }
+}
