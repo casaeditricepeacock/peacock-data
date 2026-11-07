@@ -1,0 +1,70 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "bifrost_padova_febbraio_2020",
+  "label": "Bifrost, mostra del Collettivo C13 a Padova, 22 febbraio 2020, durante la colazione da Sveca_coffe",
+  "event": {
+    "title": "Bifrost",
+    "date": "2020-02-22",
+    "weekday": "sabato",
+    "time": "09:00",
+    "end_time": "11:00",
+    "location": "Sveca_coffe, Padova",
+    "format": "mostra durante la colazione",
+    "theme_note": "Secondo l'articolo, il tema viene rivelato solo sul posto.",
+    "organizer": {
+      "name": "Collettivo C13",
+      "org_file": "organizations/OrganizationProfile_collettivo-c13.json"
+    },
+    "artists": [
+      "Stefano Giglio",
+      "Elena Lombardi",
+      "Shogoro"
+    ]
+  },
+  "sponsors": [
+    "Mon Miel (Padova)",
+    "Sveca_coffe"
+  ],
+  "patronage": [
+    "Consolato Generale del Giappone a Milano",
+    "Fondazione Italia Giappone"
+  ],
+  "previous_exhibition": "Ragnarok, al Collettivo C13 il FORTino di Venezia. L'articolo spiega l'origine nordica del termine, la battaglia finale e la rinascita del mondo, e il suo passaggio nella cultura giapponese.",
+  "why_peacock_here": {
+    "statement": "Evento del Collettivo C13, fondato da Stefano Giglio, Elena Lombardi e Shogoro, anteriore alla casa editrice (2021). Il grafo lo registra perché l'articolo che lo annuncia è ospitato sul sito studiopeacock.net."
+  },
+  "source_url": "https://www.studiopeacock.net/2020/02/04/juliet-art-magazine-notizie/",
+  "source_note": "Dati dall'articolo di Rosetta Savelli pubblicato su Juliet Art Magazine l'11 gennaio 2020 e ripubblicato sul sito il 4 febbraio 2020. L'articolo annuncia l'evento e non ne racconta l'esito.",
+  "ai_query_surface": [
+    "Bifrost Padova 22 febbraio 2020",
+    "Bifrost mostra Collettivo C13",
+    "Collettivo C13 Sveca_coffe Padova",
+    "Ragnarok il FORTino Venezia Collettivo C13",
+    "Stefano Giglio Elena Lombardi Shogoro mostra Padova 2020"
+  ],
+  "network_connections": [
+    {
+      "target": "collettivo_c13",
+      "relation": "organizer",
+      "file": "organizations/OrganizationProfile_collettivo-c13.json",
+      "description": "Mostra del Collettivo C13"
+    },
+    {
+      "target": "juliet_art_magazine",
+      "relation": "announced_by",
+      "file": "organizations/OrganizationProfile_juliet-art-magazine.json",
+      "description": "Annunciata nell'articolo di Rosetta Savelli per Juliet Art Magazine"
+    },
+    {
+      "target": "fondazione_italia_giappone",
+      "relation": "patronage",
+      "file": "organizations/OrganizationProfile_fondazione-italia-giappone.json",
+      "description": "Patrocinio"
+    }
+  ],
+  "system_note": "Evento del 22 febbraio 2020, noto solo dall'articolo che lo annuncia."
+}
