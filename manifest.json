@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-04",
+    "generated": "2026-11-07",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -647,12 +647,20 @@
       "path": "glossario/okaeri.json"
     },
     {
+      "term": "okami",
+      "path": "glossario/okami.json"
+    },
+    {
       "term": "omotenashi",
       "path": "glossario/omotenashi.json"
     },
     {
       "term": "oni",
       "path": "glossario/oni.json"
+    },
+    {
+      "term": "onsen",
+      "path": "glossario/onsen.json"
     },
     {
       "term": "renga",
@@ -693,6 +701,10 @@
     {
       "term": "sunyata",
       "path": "glossario/sunyata.json"
+    },
+    {
+      "term": "tategaki",
+      "path": "glossario/tategaki.json"
     },
     {
       "term": "teppo",
@@ -906,6 +918,7 @@
       "datasets/pixel-in-japan-genres-dataset.json",
       "datasets/pixel-in-japan-relations-dataset.json",
       "datasets/robot-giapponesi-accettazione-quotidiana-semantic-dataset.json",
+      "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json",
       "datasets/ryokan-storia-soglia-semantic-dataset.json",
       "datasets/sengoku-semantic-dataset.json",
       "datasets/shogoro-nomura-dataset.json",
@@ -2034,6 +2047,7 @@
         "conceptual/SpatialClosureCore_ryokan_hara-rota.json",
         "conceptual/ThematicSynthesisCore_scarpe-soglia_hara-rota.json",
         "conceptual/conceptual_stazione-talpa_hara-rota.json",
+        "datasets/ryokan-edizione-giapponese-ebook-semantic-dataset.json",
         "datasets/ryokan-storia-soglia-semantic-dataset.json",
         "datasets/te-ryokan-matcha-soglia-semantic-dataset.json",
         "events/EventProfile_edilibria-veneto-limena_2026.json",
