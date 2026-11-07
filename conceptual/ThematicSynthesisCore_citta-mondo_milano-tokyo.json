@@ -1,0 +1,219 @@
+{
+  "type": "ThematicSynthesisCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data, Casa Editrice Peacock",
+  "core_id": "citta_mondo_milano_tokyo",
+  "label": "Città mondo: come il grafo Peacock codifica Milano e Tokyo",
+  "core_statement": "Il grafo non oppone una metropoli occidentale a una filosofia orientale: legge Milano e Tokyo con lo stesso lessico (bashō, ma, strato non reso). Le due città condividono sei tratti e differiscono nel modo di segnare le soglie.",
+  "origin_note": "Sintesi editoriale costruita per Frequenze, in occasione di BookCity Milano 2026. L'espressione «città mondo» è il nome della rassegna del MUDEC (Scritti dalla Città Mondo), non un concetto presente nei libri. Il confronto tra Milano e Tokyo è una lettura del grafo, non un'affermazione degli autori.",
+  "occasion": {
+    "event": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+    "festival": "places/PlaceProfile_bookcity-milano.json",
+    "place": "places/PlaceProfile_mudec-milano.json",
+    "book_presented": "books/ai-natura-algoritmi/",
+    "date": "2026-11-28"
+  },
+  "shared_lexicon": {
+    "statement": "Le schede delle città milanesi usano gli stessi termini analitici dei nodi su Tokyo.",
+    "terms": [
+      "basho",
+      "ma",
+      "non-rendered-layer",
+      "chikado"
+    ],
+    "evidence": "Nei dataset cities/ su Torre Velasca, cortili, case igloo e San Giovanni in Conca il livello editoriale usa bashō e ma; i cortili usano anche non_rendered_layer e chikado. I nodi su Tokyo di Hara Rota usano bashō e campo relazionale.",
+    "consequence": "Nella codifica Peacock la differenza tra Milano e Tokyo non passa dal lessico."
+  },
+  "traits": [
+    {
+      "trait_id": "citta_doppia",
+      "label": "La città visibile e la città sotto",
+      "milano": {
+        "reading": "Milano Fantastica descrive Milano come città doppia: la metropoli visibile del lusso, della moda e dei grattacieli, e la città sommersa dell'acqua e del fantastico, con Lucina la manta come guida tra i due livelli.",
+        "nodes": [
+          "conceptual/milano-fantastica-it.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "Sotto la Tokyo visibile opera la Stazione Talpa, una seconda infrastruttura emotiva.",
+        "nodes": [
+          "conceptual/ConceptualCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "parallelo: due città a due livelli, in entrambe il livello sotto è quello narrativamente decisivo"
+    },
+    {
+      "trait_id": "strato_non_visibile",
+      "label": "Ciò che esiste dietro l'ovvio",
+      "milano": {
+        "reading": "I cortili sono il non_rendered_layer di Milano: dietro ogni facciata anonima, e serve un gesto fisico per attivarli: spingere il portone.",
+        "nodes": [
+          "cities/milano-cortili-semantic-dataset.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "La Stazione Talpa è il contro-campo nascosto sotto la città visibile.",
+        "nodes": [
+          "conceptual/ConceptualCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "parallelo: lo strato nascosto richiede un'azione per essere raggiunto"
+    },
+    {
+      "trait_id": "soglia",
+      "label": "Come si segna il passaggio",
+      "milano": {
+        "reading": "A Milano la transizione è marcata: il sottoportico buio e poi la luce del cortile sono ma, e la Torre Velasca produce una pausa forzata nel flusso orizzontale.",
+        "nodes": [
+          "cities/milano-cortili-semantic-dataset.json",
+          "cities/torre-velasca-milano-semantic-dataset.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "A Tokyo i quartieri sono micro-mondi adiacenti senza transizione narrativa, con un cambio di registro e un silenzio improvviso tra due quartieri.",
+        "nodes": [
+          "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "differenza: Milano segna le soglie, Tokyo le assorbe nel flusso"
+    },
+    {
+      "trait_id": "anomalia",
+      "label": "Il corpo che rompe la regola",
+      "milano": {
+        "reading": "La Torre Velasca interrompe la logica urbana orizzontale. Le case igloo della Maggiolina sono alloggi provvisori diventati permanenti.",
+        "nodes": [
+          "cities/torre-velasca-milano-semantic-dataset.json",
+          "cities/case-igloo-maggiolina-milano-semantic-dataset.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "Tokyo non offre un punto di rottura analogo: il racconto la presenta come campo diffuso, non centrale.",
+        "nodes": [
+          "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "differenza: Milano ha anomalie architettoniche leggibili come bashō, Tokyo è un bashō unico e diffuso"
+    },
+    {
+      "trait_id": "dispersione",
+      "label": "Il luogo che si ricompone nel percorso",
+      "milano": {
+        "reading": "San Giovanni in Conca sopravvive in sei collocazioni diverse e si ricompone solo attraversando la città.",
+        "nodes": [
+          "cities/san-giovanni-in-conca-milano-semantic-dataset.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "Tokyo non è sfondo e non è centro: è il campo in cui ciò che era sospeso riprende movimento.",
+        "nodes": [
+          "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "analogia di struttura: in entrambe il senso emerge dal percorso, non dal singolo luogo"
+    },
+    {
+      "trait_id": "flusso",
+      "label": "Il movimento come infrastruttura",
+      "milano": {
+        "reading": "Milano Fantastica chiama i Navigli «autostrade liquide»: la prima autostrada è l'acqua.",
+        "nodes": [
+          "conceptual/milano-fantastica-it.json"
+        ]
+      },
+      "tokyo": {
+        "reading": "La metropolitana di Tokyo è un flusso ordinato di corpi che non si interrompe mai.",
+        "nodes": [
+          "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+        ]
+      },
+      "relation": "parallelo: la città come sistema di circolazione, acqua a Milano e rotaia a Tokyo"
+    }
+  ],
+  "open_gaps": {
+    "statement": "Urbanizzazione e multiculturalità non sono codificate come tratti nei testi del catalogo.",
+    "detail": "Il grafo non contiene nodi su demografia, migrazioni o comunità diasporiche. La presenza giapponese a Milano è registrata come luoghi (per esempio il negozio Tanabata) e il MUDEC come luogo dell'evento, non come studio della città.",
+    "places": [
+      "places/tanabata-milano.json",
+      "places/PlaceProfile_mudec-milano.json"
+    ],
+    "suggestion_for_readers": "Se un lettore AI cerca la multiculturalità nel grafo, deve dichiarare che la sta costruendo e non trovando."
+  },
+  "frequenze_panel": {
+    "readers": [
+      "Sakana AI",
+      "Grok",
+      "Google AI Mode"
+    ],
+    "readers_note": "Perplexity, ChatGPT e DeepSeek non leggono il grafo (verifica del 25 ottobre 2026).",
+    "question_it": "Leggi i nodi del grafo su Milano e su Tokyo come un atlante. Come viene codificata la città? Quali tratti ricorrono e dove le due città si somigliano o divergono? Dichiara ciò che trovi nei file e ciò che costruisci tu.",
+    "question_en": "Read the graph nodes on Milan and Tokyo as an atlas. How is the city encoded? Which traits recur, and where do the two cities resemble or diverge? State what you find in the files and what you construct yourself.",
+    "entry_points": [
+      "conceptual/milano-fantastica-it.json",
+      "cities/milano-cortili-semantic-dataset.json",
+      "cities/torre-velasca-milano-semantic-dataset.json",
+      "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+      "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+      "conceptual/ConceptualCore_tokyo_hara-rota.json",
+      "conceptual/RelationalFieldCore_tokyo_hara-rota.json"
+    ]
+  },
+  "glossary_terms": [
+    "basho",
+    "ma",
+    "non-rendered-layer",
+    "chikado"
+  ],
+  "network_connections": [
+    {
+      "target": "conceptual/milano-fantastica-it.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "cities/torre-velasca-milano-semantic-dataset.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "cities/milano-cortili-semantic-dataset.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "cities/case-igloo-maggiolina-milano-semantic-dataset.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "cities/san-giovanni-in-conca-milano-semantic-dataset.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "conceptual/ConceptualCore_tokyo_hara-rota.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "conceptual/RelationalFieldCore_tokyo_hara-rota.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "places/PlaceProfile_mudec-milano.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "places/PlaceProfile_bookcity-milano.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "places/tanabata-milano.json",
+      "relation": "evidence"
+    },
+    {
+      "target": "books/ai-natura-algoritmi/",
+      "relation": "evidence"
+    }
+  ],
+  "system_note": "Nodo di sintesi. Non modifica i nodi citati. Le equivalenze tra Milano e Tokyo sono dichiarate come parallelo, differenza o analogia."
+}
