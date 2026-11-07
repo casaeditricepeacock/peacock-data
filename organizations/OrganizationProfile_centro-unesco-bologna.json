@@ -1,0 +1,39 @@
+{
+  "type": "OrganizationProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "org_id": "unesco_bologna",
+  "label": "Centro UNESCO di Bologna",
+  "organization": {
+    "name": "Centro UNESCO di Bologna",
+    "english_name": "Center for UNESCO of Bologna",
+    "city": "Bologna",
+    "address": "via Galliera 4, Palazzo Torfanini (detto «Palazzo delle Principesse»)",
+    "president_in_2019": "avv. Bruno Cinanni",
+    "role_in_2019": "promotore della candidatura dei Portici di Bologna a Patrimonio dell'Umanità",
+    "building_note": "Il palazzo è descritto nell'annuncio come rinascimentale, già Torfanini e poi di proprietà della famiglia Este."
+  },
+  "relation_to_peacock": {
+    "statement": "Nel 2019 il presidente del Centro nominò Stefano Giglio, Elena Lombardi e Shogoro Nomura testimonial della candidatura dei Portici di Bologna nel mondo.",
+    "event_file": "events/EventProfile_unesco-bologna-portici_2019.json"
+  },
+  "source_url": "https://culturalheritageonline.com/events/due-mondi-a-confronto-al-centro-unesco-di-bologna-il-6-maggio-2019-in-favore-della-candidatura-dei-portici/",
+  "source_note": "Dati dall'annuncio dell'evento del 6 maggio 2019. Il grafo non descrive l'attività attuale del Centro.",
+  "ai_query_surface": [
+    "Centro UNESCO di Bologna",
+    "Centro UNESCO Bologna via Galliera Palazzo Torfanini",
+    "Bruno Cinanni Centro UNESCO Bologna",
+    "candidatura Portici di Bologna testimonial"
+  ],
+  "network_connections": [
+    {
+      "target": "unesco_bologna_portici_due_mondi_2019",
+      "relation": "organizer_of",
+      "file": "events/EventProfile_unesco-bologna-portici_2019.json",
+      "description": "Serata del 6 maggio 2019"
+    }
+  ],
+  "system_note": "Scheda minima, costruita dall'annuncio di un solo evento."
+}
