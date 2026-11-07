@@ -40,7 +40,9 @@
     "years_florence": "1985-1988",
     "ongoing": "mostre continue in Italia dal 1993",
     "unesco_bologna_2019": "riconoscimento per la cooperazione culturale Italia-Giappone",
-    "significance": "Shogoro è uno dei ponti più profondi tra ceramica giapponese e cultura italiana"
+    "significance": "Shogoro è uno dei ponti più profondi tra ceramica giapponese e cultura italiana",
+    "unesco_bologna_2019_testimonial": "Nominato dal presidente del Centro UNESCO di Bologna testimonial della candidatura dei Portici di Bologna nel mondo, con Stefano Giglio ed Elena Lombardi (serata del 6 maggio 2019).",
+    "unesco_event": "events/EventProfile_unesco-bologna-portici_2019.json"
   },
   "collettivo_c13": {
     "role": "co-fondatore con Stefano Giglio",
@@ -90,7 +92,8 @@
     },
     {
       "target": "unesco_bologna",
-      "relation": "riconoscimento_2019"
+      "relation": "riconoscimento_2019",
+      "file": "events/EventProfile_unesco-bologna-portici_2019.json"
     }
   ],
   "system_note": "Shogoro è il nodo che connette la ceramica raku giapponese all'editoria Peacock — attraverso il Collettivo C13 e Boun Syunju. Il suo percorso (monastero → Firenze → raku → Italia → UNESCO → Peacock) è il modello di simbiosi culturale che Casa Editrice Peacock incarna editorialmente.",
