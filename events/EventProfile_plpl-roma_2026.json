@@ -117,7 +117,8 @@
     "Stand L25 Più Libri Più Liberi",
     "Peacock Più Libri Più Liberi 2026",
     "editori veneti Roma dicembre 2026",
-    "fiera piccola e media editoria Roma 2026"
+    "fiera piccola e media editoria Roma 2026",
+    "Casa Editrice Peacock Più libri più liberi 2026 stand L25"
   ],
   "network_connections": [
     {
@@ -129,6 +130,26 @@
       "target": "plpl_roma_dicembre_2025",
       "relation": "previous_edition",
       "description": "Peacock a PLPL dal 2024, poi nel 2025 con Tante storie per pensare"
+    },
+    {
+      "target": "plpl_scheda_espositore",
+      "relation": "official_listing",
+      "description": "Scheda espositore sul sito ufficiale di Più libri più liberi: https://plpl.it/news/espositore/casa-editrice-peacock/"
     }
-  ]
+  ],
+  "exhibitor_listing": {
+    "title": "casa editrice peacock, scheda espositore, Più libri più liberi 2026",
+    "publisher": "Più libri più liberi",
+    "url": "https://plpl.it/news/espositore/casa-editrice-peacock/",
+    "stand": "L25",
+    "dates": "2026-12-04/2026-12-08",
+    "venue": "La Nuvola, Roma",
+    "retrieved": "2026-11-08",
+    "content_summary": "La scheda presenta la casa editrice come indipendente sul Sol Levante (saggistica, storia, libri illustrati), cita Io sono Cultura 2026 per le edizioni artigianali e la carta profumata, dice che il grafo semantico aperto permette al lettore di interagire con il libro e rimanda ad AI Peacock.",
+    "links_in_listing": [
+      "https://www.studiopeacock.net",
+      "https://www.studiopeacock.net/ai-peacock/"
+    ],
+    "note": "La scheda non indica il padiglione. I campi tipologia e specializzazione sono vuoti."
+  }
 }
