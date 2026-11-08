@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-07",
+    "generated": "2026-11-08",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1071,6 +1071,7 @@
       "events/EventProfile_campo-dei-girasoli-padova_2023.json",
       "events/EventProfile_casa-irma-lugano_2024.json",
       "events/EventProfile_cascina-nascosta-milano_2023.json",
+      "events/EventProfile_cento-volte-ohana-roma_2026.json",
       "events/EventProfile_cremona-art-fair_2024.json",
       "events/EventProfile_edilibria-veneto-limena_2026.json",
       "events/EventProfile_equilibri-venezia_2025.json",
@@ -1110,6 +1111,7 @@
       "places/PlaceProfile_bookcity-milano.json",
       "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
       "places/PlaceProfile_mudec-milano.json",
+      "places/PlaceProfile_ohana-infernetto-roma.json",
       "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
       "places/biblioteca-ambrosiana-milano.json",
       "places/biblioteca-deamicis-genova.json",
@@ -1428,9 +1430,11 @@
       "files": [
         "authors/AuthorProfile_aika-avonlea.json",
         "collaborations/PrefaceCollaboration_hara-rota_cento-volte.json",
+        "events/EventProfile_cento-volte-ohana-roma_2026.json",
         "events/EventProfile_plpl-roma_2026.json"
       ],
       "also_mentioned_in": [
+        "places/PlaceProfile_ohana-infernetto-roma.json",
         "series/cento-volte/alberto-romano.json",
         "series/cento-volte/amuleto-portafortuna.json",
         "series/cento-volte/anna-romano.json",
