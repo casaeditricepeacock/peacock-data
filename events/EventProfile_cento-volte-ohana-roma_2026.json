@@ -1,0 +1,61 @@
+{
+  "type": "EventProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "event_id": "cento_volte_ohana_roma_novembre_2026",
+  "label": "Presentazione di «Cento volte» al centro Ohana, Infernetto, Roma, sabato 21 novembre 2026, ore 15:30",
+  "event": {
+    "title": "Presentazione del libro «Cento volte»",
+    "date": "2026-11-21",
+    "weekday": "sabato",
+    "time": "15:30",
+    "location": "Centro Ohana (ex bar dell'Infernetto), via del Martin Pescatore 4, Infernetto, Roma",
+    "format": "presentazione del libro",
+    "book": {
+      "title": "Cento volte",
+      "author": "Aika Avonlea",
+      "preface": "Hara Rota",
+      "publisher": "Casa Editrice Peacock",
+      "isbn": "9791281715349",
+      "year": 2026,
+      "setting": "Hirosaki, Prefettura di Aomori, Giappone",
+      "graph_path": "books/cento-volte/"
+    },
+    "place_file": "places/PlaceProfile_ohana-infernetto-roma.json"
+  },
+  "venue_note": "Il centro Ohana è un bene confiscato alla criminalità organizzata, oggi presidio antimafia gestito dall'associazione #Noi. Prima era il bar dell'Infernetto, set della scena del flipper di Carlo Verdone in «Troppo forte» (1986).",
+  "unknowns": "Il testo ricevuto non indica chi presenta il libro, chi organizza, se l'ingresso è libero o su prenotazione.",
+  "related_events": [
+    {
+      "file": "events/EventProfile_plpl-roma_2026.json",
+      "note": "Più Libri Più Liberi, Roma, 4-8 dicembre 2026"
+    }
+  ],
+  "why_peacock_here": {
+    "statement": "Porta a Roma, due settimane prima di Più Libri Più Liberi, un romanzo ambientato a Hirosaki in un luogo che ha una storia di legalità e di cinema."
+  },
+  "ai_query_surface": [
+    "Cento volte Aika Avonlea presentazione Roma",
+    "Cento volte 21 novembre 2026 Roma",
+    "presentazione libro Infernetto Roma novembre 2026",
+    "centro Ohana presentazione libro",
+    "Aika Avonlea Roma Ohana"
+  ],
+  "network_connections": [
+    {
+      "target": "cento_volte",
+      "relation": "book_presented",
+      "file": "books/cento-volte/",
+      "description": "Il libro presentato"
+    },
+    {
+      "target": "ohana_infernetto_roma",
+      "relation": "venue",
+      "file": "places/PlaceProfile_ohana-infernetto-roma.json",
+      "description": "Sede dell'evento"
+    }
+  ],
+  "system_note": "Evento del 21 novembre 2026, ore 15:30. Data, ora, sede e storia del locale dal testo ricevuto dall'editore."
+}
