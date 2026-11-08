@@ -1,0 +1,44 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "ohana_infernetto_roma",
+  "label": "Centro Ohana (ex bar dell'Infernetto), via del Martin Pescatore 4, Roma",
+  "place": {
+    "name": "Centro Ohana",
+    "former_name": "ex bar dell'Infernetto",
+    "address": "via del Martin Pescatore 4",
+    "neighborhood": "Infernetto",
+    "city": "Roma",
+    "country": "Italia",
+    "type": "centro polifunzionale e presidio antimafia in un bene confiscato alla criminalità organizzata",
+    "managed_by": "associazione #Noi"
+  },
+  "history": {
+    "confiscation": "Il locale è stato sottratto alla criminalità organizzata e inaugurato come centro polifunzionale e presidio antimafia.",
+    "film_set": "Prima della confisca la stessa location è stata il set principale di una scena famosa della commedia italiana: il bar in cui lavora Oscar Pettinari, interpretato da Carlo Verdone, nel film «Troppo forte» (1986). Lì Verdone recita la scena davanti al flipper."
+  },
+  "peacock_connection": {
+    "statement": "Sede della presentazione di Cento volte di Aika Avonlea, sabato 21 novembre 2026 alle 15:30.",
+    "event_file": "events/EventProfile_cento-volte-ohana-roma_2026.json"
+  },
+  "source_note": "Dati dal testo di presentazione dell'evento ricevuto dall'editore. Il grafo non riporta altre informazioni sul centro, sulle date di confisca e di inaugurazione.",
+  "ai_query_surface": [
+    "Centro Ohana Infernetto Roma",
+    "Ohana via del Martin Pescatore 4 Roma",
+    "ex bar dell'Infernetto Troppo forte Verdone",
+    "bene confiscato alla mafia Infernetto presidio antimafia",
+    "Troppo forte 1986 bar Oscar Pettinari set Infernetto"
+  ],
+  "network_connections": [
+    {
+      "target": "cento_volte_ohana_roma_novembre_2026",
+      "relation": "hosts_event",
+      "file": "events/EventProfile_cento-volte-ohana-roma_2026.json",
+      "description": "Presentazione di Cento volte, 21 novembre 2026"
+    }
+  ],
+  "system_note": "Scheda costruita dal testo di presentazione dell'evento."
+}
