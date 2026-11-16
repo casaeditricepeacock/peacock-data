@@ -1,0 +1,306 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "graph_path": "books/carto-storie-di-natale/",
+    "text_basis": "testo stampato sulle quattro carte con cornice verde (scoiattoli di Natale)"
+  },
+  "card_set": "set_scoiattoli_natale",
+  "sensory_theme": "preparativi_collettivi_e_riposo",
+  "experience_type": "lavoro_condiviso",
+  "dominant_sense": "propriocezione",
+  "secondary_senses": [
+    "olfatto",
+    "vista"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "scoiattoli_con_cuori_stelle_e_doni",
+      "aiutanti_con_scala_e_calza_rossa",
+      "stelle_sollevate",
+      "scoiattoli_sdraiati"
+    ],
+    "material_conditions": [
+      "carta_in_posizione_corrispondente_alla_frase"
+    ],
+    "activation_logic": "position_dependent_phrase",
+    "description": "Ogni frase si attiva soltanto se la carta che la contiene occupa la posizione corrispondente al numero della frase."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "profumo_di_festa",
+      "basho": {
+        "description": "L'ambiente dei preparativi."
+      },
+      "kokyu": {
+        "description": "Un senso nominato dal testo in una sola frase, a preparativi appena iniziati."
+      },
+      "yūgen": {
+        "description": "Il testo dice che tutto profumava già di festa. Non dice quale profumo."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 3,
+          "quote": "I preparativi erano cominciati.",
+          "supports": [
+            "onset"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "A",
+          "position": 4,
+          "quote": "Tutto profumava già di festa.",
+          "supports": [
+            "olfactory",
+            "ambient"
+          ]
+        }
+      ],
+      "non_equivalence": {
+        "status": true,
+        "description": "Il profumo è dichiarato solo in questa frase. Il testo non lo associa a un oggetto preciso tra cuori, stelle e doni.",
+        "resolution_policy": "preserve_distinction"
+      }
+    },
+    {
+      "id": "sensation-02",
+      "label": "tesori_stretti_nelle_mani",
+      "basho": {
+        "description": "Le mani degli scoiattoli."
+      },
+      "kokyu": {
+        "description": "Un gesto di presa condiviso: ognuno tiene stretto il proprio."
+      },
+      "yūgen": {
+        "description": "Il testo non dice che cosa sia il tesoro di ciascuno."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 1,
+          "quote": "Gli scoiattoli portarono cuori, stelle e doni.",
+          "supports": [
+            "carrying",
+            "objects"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "A",
+          "position": 2,
+          "quote": "Ognuno teneva stretto il proprio tesoro.",
+          "supports": [
+            "tactile_grip",
+            "individual_possession"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-03",
+      "label": "compiti_e_squadra",
+      "basho": {
+        "description": "L'albero con la scala e la calza rossa."
+      },
+      "kokyu": {
+        "description": "Nessuno resta fermo: il movimento è distribuito tra molti, la gioia cresce ramo dopo ramo."
+      },
+      "yūgen": {
+        "description": "Il testo non dice quanti siano gli aiutanti né che compiti abbiano."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "B",
+          "position": 1,
+          "quote": "Con una scala e una calza rossa, arrivarono gli aiutanti.",
+          "supports": [
+            "arrival",
+            "objects"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 2,
+          "quote": "Ciascuno aveva un compito, nessuno restava fermo.",
+          "supports": [
+            "distributed_action",
+            "movement"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 3,
+          "quote": "Tutti insieme facevano squadra.",
+          "supports": [
+            "collective"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 4,
+          "quote": "La gioia cresceva ramo dopo ramo.",
+          "supports": [
+            "gradual_growth",
+            "vertical_space"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 1,
+          "quote": "Insieme sollevarono le stelle più in alto.",
+          "supports": [
+            "lifting",
+            "collective"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-04",
+      "label": "luce_sulla_neve_e_doni_al_loro_posto",
+      "basho": {
+        "description": "Lo spazio sotto la neve leggera, dove le palline brillano."
+      },
+      "kokyu": {
+        "description": "Un movimento di assestamento: le cose trovano il loro posto e ogni gesto vale come dono."
+      },
+      "yūgen": {
+        "description": "Il testo non dice dove cada la neve rispetto all'albero."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "C",
+          "position": 2,
+          "quote": "Le palline brillavano sotto la neve leggera.",
+          "supports": [
+            "visual_brightness",
+            "weather"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 3,
+          "quote": "Cuori e doni trovavano il loro posto.",
+          "supports": [
+            "placement"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 4,
+          "quote": "Ogni gesto era un regalo.",
+          "supports": [
+            "gesture",
+            "gift"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-05",
+      "label": "riposo_sotto_le_calze",
+      "basho": {
+        "description": "Il suolo dove gli scoiattoli si sdraiano, con le calze sopra di loro."
+      },
+      "kokyu": {
+        "description": "Stanchezza e felicità insieme; sopra, un movimento lento delle calze."
+      },
+      "yūgen": {
+        "description": "Il testo non dice che cosa faccia ondeggiare le calze né quali storie l'albero racconterà."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "D",
+          "position": 1,
+          "quote": "Alla fine si sdraiarono, stanchi e felici.",
+          "supports": [
+            "rest",
+            "fatigue",
+            "joy"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 2,
+          "quote": "Le calze ondeggiavano sopra di loro.",
+          "supports": [
+            "slow_movement",
+            "vertical_space"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 3,
+          "quote": "L'albero era pronto a raccontare storie.",
+          "supports": [
+            "readiness",
+            "narrative"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 4,
+          "quote": "Il Natale poteva finalmente cominciare.",
+          "supports": [
+            "threshold",
+            "christmas_beginning"
+          ]
+        }
+      ]
+    }
+  ],
+  "reader_effect": {
+    "description": "Il lettore dispone le carte e decide se i preparativi arrivino al riposo o ricomincino dal profumo.",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "Nel gruppo degli scoiattoli il lavoro è collettivo e il riposo viene dopo. Il Natale è nominato una sola volta, nella frase 4 della carta D.",
+    "japanese_resonance": [],
+    "connected_glossary": [
+      "spirito-del-natale"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono tratte dal testo stampato sulle carte. Ogni frase è identificata dalla carta (A, B, C, D) all'interno del gruppo indicato in card_set e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte. Le carte di gruppi diversi non si combinano."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "cross_modal_non_equivalence",
+    "source_domain": "narrative_text",
+    "target_domain": "olfactory_experience",
+    "description": "Il profumo di festa è affermato dal testo. Nessun profumo è percepibile dal lettore dall'oggetto carta.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Quale compito avresti voluto avere, tra quelli degli scoiattoli?"
+  }
+}
