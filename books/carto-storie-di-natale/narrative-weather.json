@@ -38,6 +38,7 @@
     {
       "id": "weather-01",
       "name": "campo_dell_attesa",
+      "card_sets": ["set_pettirosso_luci"],
       "archetype": "winter_night",
       "hierarchy_rank": 1,
       "intensity": 1.0,
@@ -57,6 +58,7 @@
     {
       "id": "weather-02",
       "name": "campo_del_focolare",
+      "card_sets": ["set_scoiattoli_natale"],
       "archetype": "domestic_winter",
       "hierarchy_rank": 2,
       "intensity": 0.96,
@@ -69,6 +71,7 @@
     {
       "id": "weather-03",
       "name": "campo_della_luce",
+      "card_sets": ["set_pettirosso_luci", "set_ballerina_giocattoli"],
       "archetype": "illumination",
       "intensity": 0.98,
       "perceptual_weight": 0.96,
@@ -84,12 +87,24 @@
     {
       "id": "weather-04",
       "name": "campo_del_natale",
+      "card_sets": ["set_pettirosso_luci", "set_scoiattoli_natale", "set_ballerina_giocattoli"],
       "archetype": "collective_festival",
       "intensity": 0.97,
       "perceptual_weight": 0.95,
-      "basho": "l'intero ecosistema delle carte",
+      "basho": "l'insieme delle carte di ciascun gruppo",
       "kokyu": "accumulo e risonanza",
       "yūgen": "il Natale come atmosfera emergente"
+    },
+    {
+      "id": "weather-05",
+      "name": "campo_del_risveglio",
+      "card_sets": ["set_ballerina_giocattoli"],
+      "archetype": "awakening_light",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "l'albero come palco in cui un lampo risveglia i giocattoli appesi e i fili diventano scie di luce",
+      "kokyu": "attesa del segnale, lampo improvviso, scie di luce e danza",
+      "yūgen": "il lampo che risveglia i giocattoli non ha una fonte dichiarata"
     }
   ],
   "weather_graph": [
@@ -107,6 +122,11 @@
       "source": "weather-03",
       "target": "weather-04",
       "relation": "generates"
+    },
+    {
+      "source": "weather-05",
+      "target": "weather-04",
+      "relation": "generates"
     }
   ],
   "reader_effects": {
@@ -116,10 +136,10 @@
   },
   "epistemic_limit": {
     "status": true,
-    "description": "L'atmosfera natalizia non è contenuta nelle singole carte ma emerge dalla loro combinazione. Nessun modello può esaurirla completamente."
+    "description": "L'atmosfera natalizia non è contenuta nelle singole carte ma emerge dalla combinazione delle carte dello stesso gruppo. Nessun modello può esaurirla completamente."
   },
   "system_note": {
-    "weather_count": 4,
+    "weather_count": 5,
     "dominant_field": "weather-01",
     "secondary_field": "weather-03",
     "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
