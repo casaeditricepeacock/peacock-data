@@ -17,7 +17,7 @@
     "temporal_axis": "storia_generata_dal_gesto_del_lettore",
     "narrative_logic": "ogni scena esiste simultaneamente come possibilità; la composizione delle carte determina quale relazione si crea tra loro"
   },
-  "editorial_principle": "In Carto Storie di Natale non esiste una sequenza obbligata. Le scene non sono capitoli ma campi narrativi. Ogni carta può essere inizio, centro o conclusione. Il significato emerge dalla relazione tra le immagini e dalla posizione assegnata dal lettore.",
+  "editorial_principle": "In Carto Storie di Natale non esiste una sequenza obbligata. Le scene non sono capitoli ma campi narrativi. Ogni carta può essere inizio, centro o conclusione. Il significato emerge dalla relazione tra le immagini e dalla posizione assegnata dal lettore. Ogni gruppo di quattro carte racconta una storia a sé: le carte di gruppi diversi non si combinano.",
   "scene_types": {
     "invitation_field": "qualcosa chiama il personaggio verso l'avventura",
     "transformation_field": "la situazione cambia forma attraverso il gioco o l'errore",
@@ -30,6 +30,7 @@
       "id": "scene-01",
       "label": "richiamo_delle_luci",
       "label_en": "call_of_the_lights",
+      "card_set": "set_pettirosso_luci",
       "type": "invitation_field",
       "dominant": true,
       "basho": "un filo di luci compare nello spazio silenzioso della neve. Nessuno sa ancora a cosa servirà.",
@@ -37,7 +38,7 @@
       "yūgen": "l'oggetto sembra incompleto ma contiene già l'intera festa in forma invisibile.",
       "affects": {
         "scene-02": "attira il pettirosso verso l'esplorazione",
-        "scene-04": "prepara l'accensione futura dell'albero"
+        "scene-10": "prepara l'accensione futura dell'albero"
       },
       "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare.",
       "glossary_link": ["ma", "yūgen", "basho"]
@@ -46,13 +47,13 @@
       "id": "scene-02",
       "label": "gioco_del_pettirosso",
       "label_en": "robin_play",
+      "card_set": "set_pettirosso_luci",
       "type": "transformation_field",
       "basho": "il pettirosso prova le luci come un ornamento e trasforma un oggetto dimenticato in esperienza.",
       "kokyu": "il ritmo è leggero e curioso. Ogni movimento genera una possibilità inattesa.",
       "yūgen": "non esiste differenza netta tra errore e scoperta: ciò che sembra sbagliato diventa magia.",
       "affects": {
-        "scene-03": "può generare l'aggrovigliamento",
-        "scene-05": "può trasformarsi in decorazione collettiva"
+        "scene-03": "può generare l'aggrovigliamento"
       },
       "textual_anchor_it": "Un pettirosso curioso decise di provarle.",
       "glossary_link": ["mono no aware", "yūgen", "ma"]
@@ -61,6 +62,7 @@
       "id": "scene-03",
       "label": "aggrovigliamento_felice",
       "label_en": "joyful_entanglement",
+      "card_set": "set_pettirosso_luci",
       "type": "transformation_field",
       "basho": "il pettirosso rimane intrappolato nelle luci e diventa una figura luminosa nella notte.",
       "kokyu": "il ritmo accelera. Il disordine produce energia narrativa.",
@@ -70,8 +72,7 @@
         "description": "non è possibile stabilire se questa scena sia un problema o una soluzione; dipende dalla posizione assegnata dal lettore"
       },
       "affects": {
-        "scene-04": "trasforma l'errore in preparazione",
-        "scene-05": "anticipa la festa"
+        "scene-10": "trasforma l'errore in inizio della festa"
       },
       "textual_anchor_it": "Tra un salto e l'altro finì tutto aggrovigliato.",
       "glossary_link": ["yūgen", "ma", "mono no aware"]
@@ -80,6 +81,7 @@
       "id": "scene-04",
       "label": "costruzione_collettiva",
       "label_en": "collective_building",
+      "card_set": "set_scoiattoli_natale",
       "type": "gathering_field",
       "basho": "gli scoiattoli portano stelle, cuori, calze e doni. Ogni personaggio aggiunge qualcosa che da solo non sarebbe sufficiente.",
       "kokyu": "il ritmo è collaborativo. La scena cresce per accumulo di piccoli gesti.",
@@ -94,6 +96,7 @@
       "id": "scene-05",
       "label": "natale_potenziale",
       "label_en": "potential_christmas",
+      "card_set": "set_scoiattoli_natale",
       "type": "completion_field",
       "basho": "l'albero è pronto, gli animali riposano, il mondo sembra completo.",
       "kokyu": "il ritmo rallenta fino alla quiete.",
@@ -103,19 +106,103 @@
         "description": "la festa non appartiene alle carte ma all'immaginazione del lettore; ogni composizione produce un Natale diverso"
       },
       "affects": {
-        "scene-01": "può diventare un nuovo inizio quando la carta viene posta in posizione iniziale"
+        "scene-04": "se la carta viene posta in posizione iniziale, la conclusione diventa apertura e i preparativi la seguono"
       },
       "textual_anchor_it": "Il Natale poteva finalmente cominciare.",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "scene-06",
+      "label": "attesa_dei_giocattoli",
+      "label_en": "toys_waiting",
+      "card_set": "set_ballerina_giocattoli",
+      "type": "potential_field",
+      "basho": "la ballerina, l'orsetto, il cavallino e il soldatino sono appesi ai rami e attendono il segnale o il proprio turno.",
+      "kokyu": "il ritmo è quello dell'attesa: tutto sembra immobile.",
+      "yūgen": "il segnale che la ballerina attende non viene mai nominato.",
+      "affects": {
+        "scene-07": "prepara il lampo che risveglia i giocattoli"
+      },
+      "textual_anchor_it": "La ballerina attendeva il segnale per danzare.",
+      "glossary_link": ["ma", "kokyu", "basho"]
+    },
+    {
+      "id": "scene-07",
+      "label": "lampo_e_risveglio",
+      "label_en": "flash_and_awakening",
+      "card_set": "set_ballerina_giocattoli",
+      "type": "transformation_field",
+      "basho": "un lampo risveglia i giocattoli e i fili di luce si sciolgono in scie.",
+      "kokyu": "il ritmo è improvviso: bastava un lampo.",
+      "yūgen": "il lampo non ha una fonte dichiarata.",
+      "affects": {
+        "scene-08": "i giocattoli risvegliati passano alla danza"
+      },
+      "textual_anchor_it": "Bastava un lampo per risvegliarli.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+    {
+      "id": "scene-08",
+      "label": "danza_sui_rami",
+      "label_en": "dance_on_the_branches",
+      "card_set": "set_ballerina_giocattoli",
+      "type": "gathering_field",
+      "basho": "la ballerina e il soldatino danzano insieme e i rami diventano palco e scena.",
+      "kokyu": "il ritmo è quello della danza e della musica che sembra nascere dagli addobbi.",
+      "yūgen": "la musica non ha uno strumento dichiarato: nasce dagli addobbi.",
+      "affects": {
+        "scene-09": "la danza prepara la corsa dell'orsetto sul cavallo"
+      },
+      "textual_anchor_it": "La ballerina e il soldatino danzavano insieme.",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "scene-09",
+      "label": "magia_dei_fili",
+      "label_en": "magic_of_the_lights",
+      "card_set": "set_ballerina_giocattoli",
+      "type": "completion_field",
+      "basho": "l'orsetto corre sul cavallo oltre il ramo più alto e i fili diventano luce.",
+      "kokyu": "il ritmo è quello della corsa e della libertà.",
+      "yūgen": "il testo dice che tutto prende vita, non che cosa accada dopo il ramo più alto.",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "la corsa oltre il ramo più alto non ha una destinazione nel testo; ogni composizione la lascia aperta"
+      },
+      "affects": {
+        "scene-06": "se la carta viene posta in posizione iniziale, la magia precede l'attesa"
+      },
+      "textual_anchor_it": "Era la magia del Natale, quando i fili diventano luce.",
+      "glossary_link": ["ma", "yūgen", "kokyu"]
+    },
+    {
+      "id": "scene-10",
+      "label": "albero_acceso",
+      "label_en": "tree_lit",
+      "card_set": "set_pettirosso_luci",
+      "type": "completion_field",
+      "basho": "il grande albero nella notte si accende e la notte si illumina di calore.",
+      "kokyu": "il ritmo passa dal silenzio dell'albero in attesa al calore dell'accensione.",
+      "yūgen": "l'albero aspetta soltanto un segno di festa; il testo non dice chi lo accenda.",
+      "affects": {
+        "scene-01": "se la carta viene posta in posizione iniziale, l'accensione precede l'attesa del filo di luci"
+      },
+      "textual_anchor_it": "Quando si accese, la notte si illuminò di calore.",
+      "glossary_link": ["ma", "yūgen", "basho"]
     }
   ],
   "system_note": {
-    "scene_count": 5,
+    "scene_count": 10,
     "dominant_field": "scene-01",
     "secondary_field": "scene-05",
     "system_state": "all_scenes_exist_as_potential",
-    "narrative_model": "invito, gioco, trasformazione, costruzione, armonia — cinque stati che possono apparire in qualsiasi ordine",
+    "narrative_model": "tre storie indipendenti, una per gruppo di quattro carte; dentro ogni gruppo gli stati narrativi (invito, gioco, trasformazione, costruzione, attesa, armonia) possono apparire in qualsiasi ordine",
     "retroactive_causality": true,
-    "global_effect": "la conclusione può diventare l'inizio e l'inizio può diventare la conclusione; il lettore genera il tempo della storia"
+    "global_effect": "dentro ciascun gruppo la conclusione può diventare l'inizio e l'inizio può diventare la conclusione; il lettore genera il tempo della storia",
+    "story_groups": {
+      "set_pettirosso_luci": ["scene-01", "scene-02", "scene-03", "scene-10"],
+      "set_scoiattoli_natale": ["scene-04", "scene-05"],
+      "set_ballerina_giocattoli": ["scene-06", "scene-07", "scene-08", "scene-09"]
+    }
   }
 }
