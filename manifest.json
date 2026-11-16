@@ -874,6 +874,9 @@
       "sensorial/bigolina-archivio-guarnieri.json",
       "sensorial/blu-oltremare.json",
       "sensorial/canale-notte-guarnieri.json",
+      "sensorial/carto-storie-di-natale-sensation-attesa-e-risveglio.json",
+      "sensorial/carto-storie-di-natale-sensation-fili-di-luce.json",
+      "sensorial/carto-storie-di-natale-sensation-musica-sull-albero.json",
       "sensorial/copertine-sensoriali-kyoto-blignaut.json",
       "sensorial/domestico-genovese-kyoto-blignaut.json",
       "sensorial/faggi-dialogo-sensoriale.json",
@@ -1419,7 +1422,10 @@
       "then": "books/carto-storie-di-natale/narrative-scene.json",
       "narrative_folder": "books/carto-storie-di-natale/",
       "files": [
-        "authors/AuthorProfile_gaia-dalconzo.json"
+        "authors/AuthorProfile_gaia-dalconzo.json",
+        "sensorial/carto-storie-di-natale-sensation-attesa-e-risveglio.json",
+        "sensorial/carto-storie-di-natale-sensation-fili-di-luce.json",
+        "sensorial/carto-storie-di-natale-sensation-musica-sull-albero.json"
       ]
     },
     "cento-volte": {
