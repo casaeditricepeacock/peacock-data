@@ -17,7 +17,7 @@
   "print_types": {
     "card_format": "la carta come unità narrativa autonoma e manipolabile",
     "dual_face": "fronte illustrato e retro narrativo come doppio livello di significazione",
-    "two_set_system": "due famiglie cromatiche e narrative che possono operare separatamente o in combinazione",
+    "three_set_system": "tre famiglie cromatiche e narrative, ciascuna di quattro carte, che possono operare separatamente o in combinazione",
     "dalconzo_pastel_style": "linguaggio visivo fondato sul colore atmosferico, sul vuoto compositivo e sulla materia del segno",
     "position_based_storytelling": "il significato dipende dalla posizione occupata dalla carta all'interno della sequenza"
   },
@@ -60,15 +60,15 @@
     },
     {
       "id": "print-03",
-      "label": "due_set_cromatici",
-      "label_en": "two_chromatic_sets",
-      "type": "two_set_system",
+      "label": "tre_set_cromatici",
+      "label_en": "three_chromatic_sets",
+      "type": "three_set_system",
       "intensity": 0.96,
       "perceptual_weight": 0.94,
-      "basho": "il teal identifica il mondo del pettirosso; il verde identifica il mondo degli scoiattoli",
-      "kokyu": "i due sistemi possono procedere autonomamente oppure intrecciarsi in configurazioni ibride",
+      "basho": "la cornice arancione identifica le carte con il pettirosso, la verde quelle con gli scoiattoli, la rossa quelle con la ballerina e i giocattoli sull'albero",
+      "kokyu": "i tre sistemi possono procedere autonomamente oppure intrecciarsi in configurazioni ibride",
       "yūgen": "il colore della cornice diventa identità narrativa prima ancora della lettura",
-      "textual_anchor_it": "Otto carte divise in due set da quattro.",
+      "textual_anchor_it": "Mescolando e ricomponendo le carte, la storia cambia sempre.",
       "glossary_link": ["basho", "ma", "mono no aware"]
     },
     {
