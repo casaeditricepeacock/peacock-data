@@ -17,7 +17,7 @@
     "kokyu": "temporal_activation_rhythm",
     "yūgen": "perceptual_incompleteness_degree"
   },
-  "editorial_principle": "Carto Storie di Natale non racconta una storia. Costruisce uno spazio in cui le storie possono emergere. Le carte non sono pagine ma operatori narrativi. Ogni composizione attiva una diversa configurazione percettiva del Natale.",
+  "editorial_principle": "Carto Storie di Natale non racconta una storia. Costruisce uno spazio in cui le storie possono emergere. Le carte non sono pagine ma operatori narrativi. Ogni composizione attiva una diversa configurazione percettiva del Natale. Il libro contiene tre gruppi di quattro carte; ogni gruppo racconta una storia a sé e le carte di gruppi diversi non si combinano.",
   "fields": [
     {
       "id": "field-01",
@@ -27,19 +27,19 @@
       "kokyu": "ogni spostamento modifica il ritmo della storia e genera nuove relazioni causali",
       "yūgen_level": 1.0,
       "activation_condition": "ogni volta che il lettore cambia l'ordine delle carte",
-      "persistence_rule": "il campo resta aperto finché esistono combinazioni non esplorate",
+      "persistence_rule": "il campo resta aperto finché esistono combinazioni non esplorate dentro ciascun gruppo di quattro carte",
       "dissolution_rule": "non dissolvibile",
       "field_logic": "story_as_permutation",
       "affects": {
         "field-03": "la permutazione trasforma il lettore in autore"
       },
-      "textual_anchor_it": "A seconda di come le disponi, la storia cambia."
+      "textual_anchor_it": "A seconda della posizione della carta (prima, seconda, terza o quarta) si legge la frase corrispondente."
     },
     {
       "id": "field-02",
       "label": "campo_natale_invisibile",
       "type": "atmospheric_field",
-      "basho": "neve, stelle, luci, alberi e doni costruiscono un paesaggio natalizio senza bisogno di dichiararlo",
+      "basho": "neve, stelle, luci, alberi, doni e giocattoli appesi ai rami costruiscono un paesaggio natalizio senza bisogno di dichiararlo",
       "kokyu": "ogni carta aggiunge un frammento dell'atmosfera ma nessuna la completa",
       "yūgen_level": 0.99,
       "activation_condition": "ogni osservazione delle illustrazioni",
@@ -65,7 +65,7 @@
       "affects": {
         "field-01": "ogni scelta modifica il campo delle possibilità"
       },
-      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre."
+      "textual_anchor_it": "Si apre, si compone, si inventa."
     },
     {
       "id": "field-04",
@@ -81,7 +81,7 @@
       "affects": {
         "field-02": "le immagini generano l'atmosfera natalizia"
       },
-      "textual_anchor_it": "L'illustrazione precede e supera il testo."
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte."
     }
   ],
   "system_note": {
@@ -94,6 +94,7 @@
       "author_as_only_storyteller",
       "linear_reading"
     ],
-    "system_behavior": "Il sistema non racconta una storia ma genera un insieme di storie possibili. I quattro campi operano simultaneamente e rendono il lettore parte integrante della narrazione."
+    "system_behavior": "Il sistema non racconta una storia ma genera un insieme di storie possibili. I quattro campi operano simultaneamente e rendono il lettore parte integrante della narrazione. Ogni gruppo di quattro carte genera le proprie storie.",
+    "story_groups": 3
   }
 }
