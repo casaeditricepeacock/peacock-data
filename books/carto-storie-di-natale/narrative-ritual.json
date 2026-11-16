@@ -17,9 +17,10 @@
     "christmas_preparation": "rituale della preparazione natalizia come campo condiviso tra animali e lettore",
     "light_activation": "rituale dell'accensione — le luci che aspettano di brillare",
     "collective_decoration": "rituale della decorazione collettiva — ogni gesto è un contributo alla festa",
-    "story_invention": "rituale dell'invenzione narrativa — il lettore che decide l'ordine decide la storia"
+    "story_invention": "rituale dell'invenzione narrativa — il lettore che decide l'ordine decide la storia",
+    "toy_awakening": "rituale del risveglio — i giocattoli sull'albero attendono un segnale e un lampo li fa danzare"
   },
-  "editorial_principle": "I rituali di Carto Storie di Natale sono tutti rituali di composizione. Il Natale non viene raccontato — viene preparato, carta per carta, gesto per gesto. Il rituale più importante è quello della disposizione: le mani del lettore che scelgono l'ordine compiono lo stesso gesto degli scoiattoli che decorano l'albero.",
+  "editorial_principle": "I rituali di Carto Storie di Natale sono tutti rituali di composizione. Il Natale non viene raccontato — viene preparato, carta per carta, gesto per gesto. Il rituale più importante è quello della disposizione: le mani del lettore che scelgono l'ordine compiono lo stesso gesto degli scoiattoli che decorano l'albero. Ogni gruppo di quattro carte ha il proprio rituale: le carte di gruppi diversi non si combinano.",
   "rituals": [
     {
       "id": "ritual-01",
@@ -38,12 +39,8 @@
       "affects": {
         "ritual-05": "la disposizione delle carte è già un atto di invenzione narrativa"
       },
-      "textual_anchor_it": "A seconda di come le disponi, la storia cambia. Mescolando e ricomponendo le carte, la storia cambia sempre.",
-      "glossary_link": [
-        "basho",
-        "kokyu",
-        "ma"
-      ]
+      "textual_anchor_it": "A seconda della posizione della carta (prima, seconda, terza o quarta) si legge la frase corrispondente. / Mescolando e ricomponendo le carte, la storia cambia sempre.",
+      "glossary_link": ["basho", "kokyu", "ma"]
     },
     {
       "id": "ritual-02",
@@ -52,18 +49,14 @@
       "type": "christmas_preparation",
       "intensity": 0.96,
       "perceptual_weight": 0.94,
-      "basho": "il bosco innevato, l'albero, le calze, le luci come spazio del rituale natalizio — gli animali che preparano la festa come atti rituali ripetibili ogni anno",
+      "basho": "l'albero, le calze, le stelle e i doni sotto la neve leggera come spazio del rituale natalizio — gli scoiattoli che preparano la festa come atti rituali ripetibili ogni anno",
       "kokyu": "il ritmo dei preparativi è quello dell'accumulo progressivo: ogni gesto aggiunge un elemento alla festa senza mai completarla fino all'ultima carta",
       "yūgen": "i preparativi natalizi non descrivono il Natale — lo convocano; ogni carta è un gesto che avvicina la festa senza raggiungerla",
       "affects": {
-        "ritual-03": "i preparativi rendono necessaria l'accensione delle luci come momento culminante"
+        "ritual-04": "i preparativi rendono possibile la decorazione collettiva"
       },
       "textual_anchor_it": "I preparativi erano cominciati. Tutto profumava già di festa.",
-      "glossary_link": [
-        "basho",
-        "mono no aware",
-        "ma"
-      ]
+      "glossary_link": ["basho", "mono no aware", "ma"]
     },
     {
       "id": "ritual-03",
@@ -75,15 +68,8 @@
       "basho": "il filo di luci a terra come campo dell'attesa — le luci che aspettano di essere accese come potenziale non ancora attivato",
       "kokyu": "il ritmo dell'attesa delle luci è quello della tensione prima del gesto: giacevano a terra, si mossero piano piano, si accesero",
       "yūgen": "le luci non erano solo un gioco — il pettirosso comprende questo solo nell'ultima posizione; ma se la carta è in prima posizione, la comprensione arriva prima della scoperta",
-      "affects": {
-        "ritual-04": "l'accensione delle luci è il momento che trasforma la preparazione in festa"
-      },
       "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare. Ed ecco che, finalmente, si accesero.",
-      "glossary_link": [
-        "ma",
-        "yūgen",
-        "kokyu"
-      ]
+      "glossary_link": ["ma", "yūgen", "kokyu"]
     },
     {
       "id": "ritual-04",
@@ -96,11 +82,7 @@
       "kokyu": "il ritmo della decorazione collettiva è quello della cooperazione: ciascuno aveva un compito, nessuno restava fermo — la gioia cresceva ramo dopo ramo",
       "yūgen": "ogni gesto di decorazione è un regalo — non il dono che si riceve ma il gesto che si compie per gli altri",
       "textual_anchor_it": "Ciascuno aveva un compito, nessuno restava fermo. Tutti insieme facevano squadra. Ogni gesto era un regalo.",
-      "glossary_link": [
-        "basho",
-        "mono no aware",
-        "ma"
-      ]
+      "glossary_link": ["basho", "mono no aware", "ma"]
     },
     {
       "id": "ritual-05",
@@ -116,21 +98,30 @@
         "status": true,
         "description": "le infinite storie possibili non composte rimangono come campo di possibilità — ogni lettura lascia storie non vissute"
       },
-      "textual_anchor_it": "Un silent book interattivo, che diventa ogni volta un racconto nuovo di Natale.",
-      "glossary_link": [
-        "ma",
-        "yūgen",
-        "mono no aware"
-      ]
+      "textual_anchor_it": "Ogni ordine diventa una nuova storia di Natale.",
+      "glossary_link": ["ma", "yūgen", "mono no aware"]
+    },
+    {
+      "id": "ritual-06",
+      "label": "risveglio_dei_giocattoli",
+      "label_en": "toys_awakening",
+      "type": "toy_awakening",
+      "intensity": 0.97,
+      "perceptual_weight": 0.95,
+      "basho": "l'albero come palcoscenico: i giocattoli appesi ai rami attendono il segnale o il proprio turno, un lampo li risveglia e i rami diventano palco e scena",
+      "kokyu": "il ritmo è quello dell'attesa seguita dal movimento: il segnale, il lampo, la danza, la corsa oltre il ramo più alto",
+      "yūgen": "il segnale atteso dalla ballerina e il lampo che risveglia i giocattoli restano senza origine nel testo",
+      "textual_anchor_it": "La ballerina attendeva il segnale per danzare. / Bastava un lampo per risvegliarli.",
+      "glossary_link": ["ma", "kokyu", "basho"]
     }
   ],
   "system_note": {
-    "ritual_count": 5,
+    "ritual_count": 6,
     "dominant_field": "ritual-01",
     "secondary_field": "ritual-05",
     "system_role": "generative_christmas_ritual_field",
-    "narrative_model": "cinque rituali costruiscono il sistema generativo: la disposizione crea la storia, i preparativi convocano il Natale, l'accensione è il momento culminante, la decorazione è gesto collettivo, l'invenzione è il rituale più importante",
-    "reader_effect": "il lettore compie lo stesso rituale degli animali nelle illustrazioni — preparare, decorare, illuminare",
+    "narrative_model": "sei rituali costruiscono il sistema generativo: la disposizione crea la storia, i preparativi convocano il Natale, l'accensione è il momento culminante del primo gruppo, la decorazione è gesto collettivo del secondo, il risveglio dei giocattoli appartiene al terzo, l'invenzione è il rituale più importante",
+    "reader_effect": "il lettore compie gli stessi rituali degli animali e dei giocattoli nelle illustrazioni — preparare, decorare, illuminare, risvegliare",
     "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSystemGraph v4.1"
   },
   "global_non_integrable_residue": {
