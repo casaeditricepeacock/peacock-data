@@ -1,0 +1,283 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "graph_path": "books/carto-storie-di-natale/",
+    "text_basis": "testo stampato sulle quattro carte con cornice arancione (pettirosso e luci)"
+  },
+  "card_set": "set_pettirosso_luci",
+  "sensory_theme": "luci_che_si_accendono_e_pettirosso_goffo",
+  "experience_type": "accensione_e_gioco",
+  "dominant_sense": "vista",
+  "secondary_senses": [
+    "movimento",
+    "calore"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "filo_di_luci_a_terra",
+      "luci_che_si_accendono",
+      "pettirosso_con_le_luci",
+      "pettirosso_aggrovigliato"
+    ],
+    "material_conditions": [
+      "carta_in_posizione_corrispondente_alla_frase"
+    ],
+    "activation_logic": "position_dependent_phrase",
+    "description": "Ogni frase si attiva soltanto se la carta che la contiene occupa la posizione corrispondente al numero della frase."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "luci_a_terra_in_attesa",
+      "basho": {
+        "description": "Il filo di luci a terra, prima di essere appeso o indossato."
+      },
+      "kokyu": {
+        "description": "Attesa che si rompe con un movimento lento: le luci si muovono piano piano, come se chiamassero."
+      },
+      "yūgen": {
+        "description": "Il testo non dice chi sia il qualcuno che le luci sembrano chiamare."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 1,
+          "quote": "Un filo di luci giaceva a terra, in attesa di brillare.",
+          "supports": [
+            "stillness",
+            "waiting"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "A",
+          "position": 2,
+          "quote": "Si mossero piano piano, come se chiamassero qualcuno.",
+          "supports": [
+            "slow_movement",
+            "simile",
+            "address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-02",
+      "label": "accensione_e_calore_della_notte",
+      "basho": {
+        "description": "La notte intorno al grande albero."
+      },
+      "kokyu": {
+        "description": "Il passaggio dall'attesa all'accensione è detto in due frasi di due carte diverse, con soggetti distinti."
+      },
+      "yūgen": {
+        "description": "Il testo dice che la notte si illuminò di calore. Non dice da che cosa venga il calore."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 4,
+          "quote": "Ed ecco che, finalmente, si accesero.",
+          "supports": [
+            "light_onset",
+            "relief"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 1,
+          "quote": "Un grande albero si innalzava silenzioso nella notte.",
+          "supports": [
+            "vertical_space",
+            "silence"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 2,
+          "quote": "Sembrava aspettare solo un segno di festa.",
+          "supports": [
+            "waiting",
+            "signal"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 4,
+          "quote": "Quando si accese, la notte si illuminò di calore.",
+          "supports": [
+            "light",
+            "warmth",
+            "cross_modal"
+          ]
+        }
+      ],
+      "non_equivalence": {
+        "status": true,
+        "description": "A.4 dice che si accesero (plurale). B.4 dice che si accese (singolare). Il testo non dichiara che le luci del filo siano quelle che accendono l'albero.",
+        "resolution_policy": "preserve_distinction"
+      }
+    },
+    {
+      "id": "sensation-03",
+      "label": "il_pettirosso_porta_le_luci_in_giro",
+      "basho": {
+        "description": "Lo spazio in cui il pettirosso si muove con le luci addosso."
+      },
+      "kokyu": {
+        "description": "Un gioco in movimento che cambia significato: da divertimento a comprensione."
+      },
+      "yūgen": {
+        "description": "Il testo dice che il pettirosso non capiva il segreto delle luci. Non dice quale sia."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "C",
+          "position": 1,
+          "quote": "Un pettirosso curioso decise di provarle.",
+          "supports": [
+            "agency",
+            "curiosity"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 2,
+          "quote": "Si divertì a portarle in giro come una collana.",
+          "supports": [
+            "play",
+            "simile",
+            "movement"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 3,
+          "quote": "Ma non capiva ancora il loro segreto.",
+          "supports": [
+            "not_knowing"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 4,
+          "quote": "Infine comprese: le luci non erano solo un gioco.",
+          "supports": [
+            "understanding",
+            "reversal"
+          ]
+        }
+      ],
+      "order_note": "Le quattro frasi sono quattro posizioni possibili della stessa carta: una carta occupa una sola posizione per volta."
+    },
+    {
+      "id": "sensation-04",
+      "label": "groviglio_e_piccola_lanterna",
+      "basho": {
+        "description": "Il pettirosso avvolto nelle luci."
+      },
+      "kokyu": {
+        "description": "Dal salto al groviglio, dal groviglio all'immagine di una lanterna, dalla lanterna alla festa."
+      },
+      "yūgen": {
+        "description": "Il testo non dice che cosa sia la parte di magia che il pettirosso custodisce."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "D",
+          "position": 1,
+          "quote": "Tra un salto e l'altro finì tutto aggrovigliato.",
+          "supports": [
+            "movement",
+            "entanglement"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 2,
+          "quote": "Sembrava una piccola lanterna vivente.",
+          "supports": [
+            "simile",
+            "light_body"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 3,
+          "quote": "Eppure, anche così, custodiva una parte di magia.",
+          "supports": [
+            "concession",
+            "magic"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 4,
+          "quote": "Perché la sua goffaggine era l'inizio della festa.",
+          "supports": [
+            "clumsiness",
+            "beginning_of_feast"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "goffaggine_del_pettirosso",
+          "predicate": "is_beginning_of",
+          "object": "festa",
+          "evidence_type": "explicit_text"
+        }
+      ]
+    }
+  ],
+  "reader_effect": {
+    "description": "Il lettore dispone le carte e sceglie se far restare le luci in attesa, farle indossare al pettirosso o accenderle sull'albero.",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "Nel gruppo del pettirosso la luce passa per tre stati: a terra in attesa, addosso a qualcuno, accesa sull'albero. Il testo non dice mai che il pettirosso accenda l'albero.",
+    "japanese_resonance": [],
+    "connected_glossary": [
+      "spirito-del-natale",
+      "ma"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono tratte dal testo stampato sulle carte. Ogni frase è identificata dalla carta (A, B, C, D) all'interno del gruppo indicato in card_set e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte. Le carte di gruppi diversi non si combinano."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "visual_to_verbal",
+    "description": "Il calore della notte e la lanterna vivente sono resi in frasi brevi. La luce dell'illustrazione stampata non è contenuta nel testo.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Hai mai trasformato un errore in qualcosa che somigliava a una festa?"
+  }
+}
