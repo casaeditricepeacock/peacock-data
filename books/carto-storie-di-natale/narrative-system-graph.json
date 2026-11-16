@@ -21,81 +21,55 @@
       "id": "reader",
       "type": "active_operator",
       "label": "Lettore Co-Autore",
-      "connects_to": [
-        "robin_set",
-        "squirrel_set",
-        "christmas_field",
-        "story_permutations"
-      ]
+      "connects_to": ["robin_set", "squirrel_set", "toys_set", "christmas_field", "story_permutations"]
     },
     {
       "id": "robin_set",
       "type": "generative_card_set",
       "label": "Pettirosso e Luci",
-      "connects_to": [
-        "story_permutations",
-        "christmas_field",
-        "visual_language"
-      ]
+      "connects_to": ["story_permutations", "christmas_field", "visual_language"]
     },
     {
       "id": "squirrel_set",
       "type": "generative_card_set",
       "label": "Scoiattoli di Natale",
-      "connects_to": [
-        "story_permutations",
-        "christmas_field",
-        "visual_language"
-      ]
+      "connects_to": ["story_permutations", "christmas_field", "visual_language"]
+    },
+    {
+      "id": "toys_set",
+      "type": "generative_card_set",
+      "label": "Ballerina e Giocattoli",
+      "connects_to": ["story_permutations", "christmas_field", "visual_language"]
     },
     {
       "id": "story_permutations",
       "type": "generative_field",
       "label": "Campo delle Storie Possibili",
-      "connects_to": [
-        "reader",
-        "robin_set",
-        "squirrel_set",
-        "unread_stories"
-      ]
+      "connects_to": ["reader", "robin_set", "squirrel_set", "toys_set", "unread_stories"]
     },
     {
       "id": "christmas_field",
       "type": "atmospheric_node",
       "label": "Atmosfera Natalizia",
-      "connects_to": [
-        "robin_set",
-        "squirrel_set",
-        "visual_language"
-      ]
+      "connects_to": ["robin_set", "squirrel_set", "toys_set", "visual_language"]
     },
     {
       "id": "visual_language",
       "type": "visual_operator",
       "label": "Illustrazioni di Gaia D'Alconzo",
-      "connects_to": [
-        "christmas_field",
-        "reader",
-        "silent_dimension"
-      ]
+      "connects_to": ["christmas_field", "reader", "silent_dimension"]
     },
     {
       "id": "silent_dimension",
       "type": "perceptual_node",
       "label": "Silent Visual Field",
-      "connects_to": [
-        "visual_language",
-        "unread_stories"
-      ]
+      "connects_to": ["visual_language", "unread_stories"]
     },
     {
       "id": "unread_stories",
       "type": "residual_node",
       "label": "Storie Non Generate",
-      "connects_to": [
-        "story_permutations",
-        "silent_dimension"
-      ]
+      "connects_to": ["story_permutations", "silent_dimension"]
     }
   ],
   "cross_layer_effects": [
@@ -115,6 +89,12 @@
       "from": "squirrel_set",
       "to": "christmas_field",
       "propagation_mode": "attivazione collaborativa e comunitaria",
+      "stability_impact": "medio"
+    },
+    {
+      "from": "toys_set",
+      "to": "christmas_field",
+      "propagation_mode": "attivazione teatrale e luminosa",
       "stability_impact": "medio"
     },
     {
@@ -159,6 +139,11 @@
   },
   "system_note": {
     "activation_condition": "Il file si attiva quando il lettore interroga la struttura generativa, il ruolo del lettore o il funzionamento combinatorio delle carte.",
-    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1"
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1",
+    "story_groups": 3
+  },
+  "group_independence": {
+    "status": true,
+    "description": "i tre set di quattro carte sono nodi separati: ciascuno racconta una storia a sé e non esistono connessioni dirette tra carte di set diversi"
   }
 }
