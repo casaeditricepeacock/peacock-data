@@ -1,0 +1,189 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "graph_path": "books/carto-storie-di-natale/",
+    "text_basis": "testo delle quattro carte A, B, C, D fornito dall'editore, 16 novembre 2026"
+  },
+  "sensory_theme": "musica_e_danza_sull_albero",
+  "experience_type": "musica_che_nasce_dagli_oggetti",
+  "dominant_sense": "udito",
+  "secondary_senses": [
+    "movimento",
+    "vista"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "danza_della_ballerina_e_del_soldatino",
+      "corsa_dell_orsetto_sul_cavallo",
+      "musica_dagli_addobbi"
+    ],
+    "material_conditions": [
+      "carta_in_posizione_corrispondente_alla_frase"
+    ],
+    "activation_logic": "position_dependent_phrase",
+    "description": "Le frasi sulla musica e sul movimento si attivano con la posizione della carta."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "musica_che_nasce_dagli_addobbi",
+      "basho": {
+        "description": "Gli addobbi dell'albero come sorgente del suono."
+      },
+      "kokyu": {
+        "description": "La musica non arriva dall'esterno: sembra nascere dagli addobbi, mentre i personaggi danzano."
+      },
+      "yūgen": {
+        "description": "Il testo dice che la musica sembra nascere dagli addobbi. Non dice quale strumento o quale melodia."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "C",
+          "position": 4,
+          "quote": "La musica sembrava nascere dagli addobbi.",
+          "supports": [
+            "auditory_source",
+            "music",
+            "perceived_origin"
+          ]
+        }
+      ],
+      "non_equivalence": {
+        "status": true,
+        "description": "Il tamburo dell'orsetto (carta A) e la musica degli addobbi (carta C) sono due elementi sonori distinti. Il testo non dichiara che si sommino.",
+        "resolution_policy": "preserve_distinction"
+      }
+    },
+    {
+      "id": "sensation-02",
+      "label": "rami_come_palco",
+      "basho": {
+        "description": "I rami diventano palcoscenico e scena."
+      },
+      "kokyu": {
+        "description": "Lo spazio si trasforma insieme all'azione: i rami diventano palco e scena."
+      },
+      "yūgen": {
+        "description": "Il testo non descrive le dimensioni né l'altezza dell'albero. Sono dichiarati soltanto il ramo più alto e la scena."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "C",
+          "position": 3,
+          "quote": "I rami diventavano palco e scena.",
+          "supports": [
+            "spatial_transformation",
+            "stage"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "C",
+          "position": 2,
+          "quote": "La ballerina e il soldatino danzavano insieme.",
+          "supports": [
+            "dance",
+            "pairing",
+            "movement"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "rami",
+          "predicate": "become",
+          "object": "palco",
+          "evidence_type": "explicit_text"
+        }
+      ]
+    },
+    {
+      "id": "sensation-03",
+      "label": "corsa_oltre_il_ramo_piu_alto",
+      "basho": {
+        "description": "L'albero in verticale, fino al ramo più alto."
+      },
+      "kokyu": {
+        "description": "Un movimento di libertà: l'orsetto salta, corre, supera il ramo più alto.",
+        "sequence": [
+          {
+            "event": "orsetto_salta_sul_cavallo",
+            "card": "D",
+            "position": 1
+          },
+          {
+            "event": "corsa_oltre_il_ramo_piu_alto",
+            "card": "D",
+            "position": 2
+          }
+        ]
+      },
+      "yūgen": {
+        "description": "Il testo non dice dove portino la corsa e il salto oltre il ramo più alto."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "D",
+          "position": 1,
+          "quote": "L'orsetto saltò sul cavallo, libero e felice.",
+          "supports": [
+            "kinesthetic_joy",
+            "freedom"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 2,
+          "quote": "Correvano oltre il ramo più alto dell'albero.",
+          "supports": [
+            "speed",
+            "vertical_space"
+          ]
+        }
+      ]
+    }
+  ],
+  "reader_effect": {
+    "description": "Il lettore può far danzare, far correre o far suonare, scegliendo le carte e la loro posizione.",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "Il suono e il movimento nascono dalla stessa scena: l'albero decorato diventa palco senza smettere di essere albero.",
+    "japanese_resonance": [],
+    "connected_glossary": [
+      "spirito-del-natale",
+      "kokyu"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono tratte dal testo delle carte fornito dall'editore. Ogni frase è identificata dalla carta (A, B, C, D) e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "cross_modal_non_equivalence",
+    "source_domain": "narrative_text",
+    "target_domain": "auditory_experience",
+    "description": "La musica è affermata dal testo con il verbo sembrare. Nessun suono è percepibile dal lettore dall'oggetto carta.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Che musica avrebbero gli addobbi del tuo albero?"
+  }
+}
