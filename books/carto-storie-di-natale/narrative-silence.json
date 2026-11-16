@@ -12,12 +12,13 @@
     "isbn": "979-12-81715-21-9",
     "year": 2025
   },
-  "editorial_principle": "Il silenzio non è assenza di narrazione ma il campo che rende possibile ogni narrazione. In Carto Storie di Natale il silenzio si manifesta come spazio visivo, possibilità non attivata, attesa e evocazione.",
+  "editorial_principle": "Il silenzio non è assenza di narrazione ma il campo che rende possibile ogni narrazione. In Carto Storie di Natale il silenzio si manifesta come spazio visivo, possibilità non attivata, attesa e evocazione. Ogni gruppo di quattro carte ha i propri silenzi: le carte di gruppi diversi non si combinano.",
   "silence_layers": {
     "visual": ["silence-01"],
     "potential": ["silence-02"],
     "temporal": ["silence-03"],
-    "symbolic": ["silence-04"]
+    "symbolic": ["silence-04"],
+    "unnamed": ["silence-05"]
   },
   "silences": [
     {
@@ -36,7 +37,7 @@
         "evocation": 0.95,
         "closure": 0.05
       },
-      "textual_anchor_it": "Il visivo precede il testo."
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte."
     },
     {
       "id": "silence-02",
@@ -58,7 +59,7 @@
         "status": true,
         "description": "Ogni lettura lascia intatto un numero indefinito di storie possibili."
       },
-      "textual_anchor_it": "La storia cambia ogni volta che le carte vengono ricomposte."
+      "textual_anchor_it": "Mescolando e ricomponendo le carte, la storia cambia sempre."
     },
     {
       "id": "silence-03",
@@ -71,9 +72,9 @@
       "yūgen": "ciò che non è ancora accaduto genera attesa",
       "absence_mode": "temporal",
       "silence_energy": {
-        "openness": 0.90,
+        "openness": 0.9,
         "evocation": 1.0,
-        "closure": 0.10
+        "closure": 0.1
       },
       "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare."
     },
@@ -83,9 +84,9 @@
       "type": "christmas_unsaid",
       "intensity": 0.95,
       "perceptual_weight": 0.93,
-      "basho": "il Natale evocato attraverso gli oggetti",
+      "basho": "il Natale evocato attraverso gli oggetti e nominato solo nelle frasi di chiusura",
       "kokyu": "accumulazione simbolica",
-      "yūgen": "il significato emerge senza essere nominato",
+      "yūgen": "il Natale è nominato direttamente in tre delle quarantotto frasi, tutte in posizione 4; altrove il significato emerge senza essere nominato",
       "absence_mode": "symbolic",
       "silence_energy": {
         "openness": 0.82,
@@ -93,6 +94,23 @@
         "closure": 0.35
       },
       "textual_anchor_it": "Il Natale poteva finalmente cominciare."
+    },
+    {
+      "id": "silence-05",
+      "name": "segnale_e_lampo_senza_origine",
+      "type": "unnamed_source",
+      "intensity": 0.94,
+      "perceptual_weight": 0.92,
+      "basho": "il segnale atteso dalla ballerina e il lampo che risveglia i giocattoli",
+      "kokyu": "attesa senza oggetto dichiarato",
+      "yūgen": "ciò che dà il segnale resta fuori dal testo",
+      "absence_mode": "source",
+      "silence_energy": {
+        "openness": 0.88,
+        "evocation": 0.95,
+        "closure": 0.2
+      },
+      "textual_anchor_it": "La ballerina attendeva il segnale per danzare. / Bastava un lampo per risvegliarli."
     }
   ],
   "silence_graph": [
@@ -107,9 +125,14 @@
       "relation": "contains"
     },
     {
-      "source": "silence-03",
+      "source": "silence-02",
       "target": "silence-04",
-      "relation": "anticipates"
+      "relation": "contains"
+    },
+    {
+      "source": "silence-02",
+      "target": "silence-05",
+      "relation": "contains"
     }
   ],
   "reader_effects": {
@@ -122,7 +145,7 @@
     "description": "La maggior parte della narrazione rimane non attualizzata. Il sistema rende visibile soltanto una minima parte delle possibilità che contiene."
   },
   "system_note": {
-    "silence_count": 4,
+    "silence_count": 5,
     "dominant_field": "silence-02",
     "secondary_field": "silence-01",
     "graph_structure": "open_absence_graph",
