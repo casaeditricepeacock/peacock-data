@@ -1,0 +1,212 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "graph_path": "books/carto-storie-di-natale/",
+    "text_basis": "testo delle quattro carte A, B, C, D fornito dall'editore, 16 novembre 2026"
+  },
+  "sensory_theme": "attesa_e_risveglio_dei_giocattoli",
+  "experience_type": "immobilita_carica",
+  "dominant_sense": "propriocezione",
+  "secondary_senses": [
+    "vista",
+    "tempo"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "ballerina_attende_il_segnale",
+      "cavallino_e_soldatino_aspettano_il_turno",
+      "lampo_che_risveglia"
+    ],
+    "material_conditions": [
+      "carta_in_posizione_corrispondente_alla_frase"
+    ],
+    "activation_logic": "position_dependent_phrase",
+    "description": "Le frasi di attesa si attivano con la posizione della carta. La stessa carta in un'altra posizione legge un'altra frase."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "corpo_fermo_pronto_a_muoversi",
+      "basho": {
+        "description": "L'albero con i giocattoli che attendono sui rami."
+      },
+      "kokyu": {
+        "description": "Respiro trattenuto: la ballerina attende il segnale, il cavallino e il soldatino il loro turno."
+      },
+      "yūgen": {
+        "description": "Il testo non dice chi dia il segnale né quando arrivi."
+      },
+      "japanese_echo": {
+        "concept": "ma",
+        "description": "L'immobilità carica di movimento può essere interpretata come intervallo narrativo prima dell'azione.",
+        "relation_type": "cultural_interpretation"
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 4,
+          "quote": "Tutto sembrava immobile, eppure pronto a muoversi.",
+          "supports": [
+            "held_breath",
+            "tension",
+            "stillness"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "A",
+          "position": 2,
+          "quote": "La ballerina attendeva il segnale per danzare.",
+          "supports": [
+            "waiting",
+            "signal"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 1,
+          "quote": "Un cavallino e un soldatino aspettavano il loro turno.",
+          "supports": [
+            "waiting",
+            "turn_taking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-02",
+      "label": "stretta_sul_tamburo",
+      "basho": {
+        "description": "Le mani dell'orsetto sul tamburo."
+      },
+      "kokyu": {
+        "description": "Un gesto di presa trattenuta che precede il suono."
+      },
+      "yūgen": {
+        "description": "Il tamburo non suona in questa frase. Il suono resta atteso."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 3,
+          "quote": "L'orsetto stringeva forte il suo tamburo.",
+          "supports": [
+            "tactile_grip",
+            "held_sound",
+            "anticipation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensation-03",
+      "label": "il_lampo_e_il_risveglio",
+      "basho": {
+        "description": "Il momento in cui l'attesa si rompe."
+      },
+      "kokyu": {
+        "description": "Un solo evento rapido basta: il lampo risveglia il cavallino e il soldatino.",
+        "sequence": [
+          {
+            "event": "attesa",
+            "card": "B",
+            "position": 1
+          },
+          {
+            "event": "lampo_che_risveglia",
+            "card": "B",
+            "position": 2
+          },
+          {
+            "event": "inizio_del_natale",
+            "card": "B",
+            "position": 4
+          }
+        ]
+      },
+      "yūgen": {
+        "description": "Il testo non dice se il lampo sia luce, suono o altro."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "B",
+          "position": 2,
+          "quote": "Bastava un lampo per risvegliarli.",
+          "supports": [
+            "sudden_event",
+            "awakening"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 4,
+          "quote": "Il Natale stava per cominciare.",
+          "supports": [
+            "threshold",
+            "christmas_beginning"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 3,
+          "quote": "Tutto prendeva vita, oltre ogni attesa.",
+          "supports": [
+            "liveliness",
+            "exceeded_expectation"
+          ]
+        }
+      ],
+      "order_note": "Le frasi della carta B sono quattro posizioni possibili della stessa carta. Non vengono lette di seguito, a meno che il lettore non componga una sequenza che le includa tutte."
+    }
+  ],
+  "reader_effect": {
+    "description": "Il lettore dispone le carte e sceglie se far restare i giocattoli in attesa o farli risvegliare.",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "L'attesa è una forma di movimento trattenuto. Il testo la descrive prima come immobilità e poi come lampo.",
+    "japanese_resonance": [
+      {
+        "concept": "ma",
+        "associated_event": "giocattoli_in_attesa",
+        "interpretation_status": "cultural_interpretation"
+      }
+    ],
+    "connected_glossary": [
+      "ma",
+      "kokyu",
+      "spirito-del-natale"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono tratte dal testo delle carte fornito dall'editore. Ogni frase è identificata dalla carta (A, B, C, D) e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "unresolved_signal",
+    "description": "Il segnale che i giocattoli attendono non è mai nominato nel testo delle quattro carte.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Che cosa aspettavi di vedere muoversi, da bambino, sotto l'albero?"
+  }
+}
