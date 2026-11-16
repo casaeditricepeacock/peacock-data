@@ -12,11 +12,11 @@
     "isbn": "979-12-81715-21-9",
     "year": 2025
   },
-  "editorial_principle": "Le transizioni non appartengono alle immagini ma alle relazioni che il lettore costruisce tra esse. La stessa carta genera significati diversi a seconda della posizione che occupa nella composizione narrativa.",
+  "editorial_principle": "Le transizioni non appartengono alle immagini ma alle relazioni che il lettore costruisce tra esse. La stessa carta genera significati diversi a seconda della posizione che occupa nella composizione narrativa. Ogni gruppo di quattro carte ha le proprie transizioni: le carte di gruppi diversi non si combinano.",
   "transition_layers": {
     "structural": ["transition-01"],
-    "narrative": ["transition-02"],
-    "transformative": ["transition-03", "transition-04"],
+    "narrative": ["transition-02", "transition-06"],
+    "transformative": ["transition-03", "transition-04", "transition-07"],
     "emotional": ["transition-05"]
   },
   "transitions": [
@@ -40,23 +40,23 @@
         "status": true,
         "description": "Le posizioni non scelte continuano a esistere come narrazioni potenziali."
       },
-      "textual_anchor_it": "A seconda della posizione della carta si legge una frase diversa."
+      "textual_anchor_it": "A seconda della posizione della carta (prima, seconda, terza o quarta) si legge la frase corrispondente."
     },
     {
       "id": "transition-02",
-      "name": "incrocio_dei_due_set",
-      "type": "set_crossing",
+      "name": "dall_attesa_al_risveglio",
+      "type": "waiting_to_awakening",
       "intensity": 0.97,
       "perceptual_weight": 0.95,
-      "basho": "il punto di incontro tra il mondo del pettirosso e quello degli scoiattoli",
-      "kokyu": "sorpresa e convergenza",
-      "yūgen": "due universi visivi distinti scoprono di appartenere alla stessa storia",
+      "basho": "i giocattoli appesi ai rami e il lampo che li risveglia",
+      "kokyu": "attesa del segnale o del turno, poi un lampo",
+      "yūgen": "il segnale atteso e il lampo restano senza origine nel testo",
       "transition_energy": {
-        "activation": 0.85,
-        "transformation": 0.92,
-        "closure": 0.35
+        "activation": 0.9,
+        "transformation": 0.95,
+        "closure": 0.3
       },
-      "textual_anchor_it": "Le carte provenienti dai due set possono condividere la stessa sequenza narrativa."
+      "textual_anchor_it": "La ballerina attendeva il segnale per danzare. / Bastava un lampo per risvegliarli."
     },
     {
       "id": "transition-03",
@@ -72,7 +72,7 @@
         "transformation": 0.98,
         "closure": 0.15
       },
-      "textual_anchor_it": "Le luci attendevano di brillare. Poi si accesero."
+      "textual_anchor_it": "Un filo di luci giaceva a terra, in attesa di brillare. / Ed ecco che, finalmente, si accesero."
     },
     {
       "id": "transition-04",
@@ -88,7 +88,7 @@
         "transformation": 1.0,
         "closure": 0.55
       },
-      "textual_anchor_it": "La confusione si rivela parte della festa."
+      "textual_anchor_it": "Perché la sua goffaggine era l'inizio della festa."
     },
     {
       "id": "transition-05",
@@ -100,11 +100,43 @@
       "kokyu": "rilascio della tensione",
       "yūgen": "la quiete che segue il lavoro condiviso",
       "transition_energy": {
-        "activation": 0.30,
+        "activation": 0.3,
         "transformation": 0.55,
         "closure": 1.0
       },
-      "textual_anchor_it": "Stanchi e felici, lasciarono che il Natale iniziasse."
+      "textual_anchor_it": "Alla fine si sdraiarono, stanchi e felici. / Il Natale poteva finalmente cominciare."
+    },
+    {
+      "id": "transition-06",
+      "name": "dal_risveglio_alla_danza",
+      "type": "awakening_to_dance",
+      "intensity": 0.96,
+      "perceptual_weight": 0.94,
+      "basho": "la ballerina e il soldatino che danzano sui rami diventati palco e scena",
+      "kokyu": "movimento e musica che sembra nascere dagli addobbi",
+      "yūgen": "la musica non ha uno strumento dichiarato",
+      "transition_energy": {
+        "activation": 0.85,
+        "transformation": 0.9,
+        "closure": 0.4
+      },
+      "textual_anchor_it": "La ballerina e il soldatino danzavano insieme."
+    },
+    {
+      "id": "transition-07",
+      "name": "dai_fili_alla_luce",
+      "type": "threads_to_light",
+      "intensity": 0.95,
+      "perceptual_weight": 0.93,
+      "basho": "i fili appesi ai rami che si sciolgono in scie e diventano luce",
+      "kokyu": "trasformazione improvvisa e compimento",
+      "yūgen": "il testo dice che i fili diventano luce, non che cosa resti di essi",
+      "transition_energy": {
+        "activation": 0.6,
+        "transformation": 1.0,
+        "closure": 0.8
+      },
+      "textual_anchor_it": "All'improvviso i fili si sciolsero in scie di luce. / Era la magia del Natale, quando i fili diventano luce."
     }
   ],
   "transition_graph": [
@@ -115,10 +147,16 @@
       "strength": 1.0
     },
     {
-      "source": "transition-02",
+      "source": "transition-01",
       "target": "transition-03",
-      "relation": "accelerates",
-      "strength": 0.92
+      "relation": "enables",
+      "strength": 1.0
+    },
+    {
+      "source": "transition-01",
+      "target": "transition-05",
+      "relation": "enables",
+      "strength": 1.0
     },
     {
       "source": "transition-03",
@@ -127,10 +165,16 @@
       "strength": 0.95
     },
     {
-      "source": "transition-04",
-      "target": "transition-05",
+      "source": "transition-02",
+      "target": "transition-06",
+      "relation": "accelerates",
+      "strength": 0.92
+    },
+    {
+      "source": "transition-06",
+      "target": "transition-07",
       "relation": "generates",
-      "strength": 0.90
+      "strength": 0.9
     }
   ],
   "reader_effects": {
@@ -144,12 +188,12 @@
     "description": "Nessuna composizione può esaurire tutte le transizioni disponibili. Ogni storia realizzata lascia dietro di sé percorsi alternativi che continuano a esistere come possibilità narrative."
   },
   "system_note": {
-    "transition_count": 5,
+    "transition_count": 7,
     "dominant_transition": "transition-01",
-    "graph_structure": "directed_generative_graph",
+    "graph_structure": "directed_generative_graph_three_independent_groups",
     "stability": "generative_metastable",
     "closure": "variable_by_composition",
-    "narrative_formula": "posizione → incontro → attivazione → trasformazione → festa",
+    "narrative_formula": "posizione → attesa → attivazione → trasformazione → festa, per ciascun gruppo di quattro carte",
     "compatibility": [
       "NarrativeObject v4.1",
       "NarrativeWeather v4.1",
