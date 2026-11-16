@@ -17,7 +17,7 @@
   "print_types": {
     "card_format": "la carta come unità narrativa autonoma e manipolabile",
     "dual_face": "fronte illustrato e retro narrativo come doppio livello di significazione",
-    "three_set_system": "tre famiglie cromatiche e narrative, ciascuna di quattro carte, che possono operare separatamente o in combinazione",
+    "three_set_system": "tre famiglie cromatiche e narrative, ciascuna di quattro carte, che raccontano storie indipendenti",
     "dalconzo_pastel_style": "linguaggio visivo fondato sul colore atmosferico, sul vuoto compositivo e sulla materia del segno",
     "position_based_storytelling": "il significato dipende dalla posizione occupata dalla carta all'interno della sequenza"
   },
@@ -37,7 +37,7 @@
         "status": true,
         "description": "l'esperienza tattile e spaziale della composizione non può essere completamente trasferita in ambiente digitale"
       },
-      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre.",
+      "textual_anchor_it": "Si apre, si compone, si inventa.",
       "glossary_link": ["basho", "kokyu", "ma"]
     },
     {
@@ -55,7 +55,7 @@
         "status": true,
         "description": "tre delle quattro narrazioni possibili di ogni carta restano sempre inesplorate durante una singola lettura"
       },
-      "textual_anchor_it": "Ogni carta è illustrata sul fronte. Sul retro trovi frasi numerate da 1 a 4.",
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte. / Sul retro trovi frasi numerate (1–4).",
       "glossary_link": ["ma", "yūgen", "kokyu"]
     },
     {
@@ -66,9 +66,8 @@
       "intensity": 0.96,
       "perceptual_weight": 0.94,
       "basho": "la cornice arancione identifica le carte con il pettirosso, la verde quelle con gli scoiattoli, la rossa quelle con la ballerina e i giocattoli sull'albero",
-      "kokyu": "i tre sistemi possono procedere autonomamente oppure intrecciarsi in configurazioni ibride",
+      "kokyu": "i tre sistemi procedono ciascuno per conto proprio: le carte di gruppi diversi non si combinano",
       "yūgen": "il colore della cornice diventa identità narrativa prima ancora della lettura",
-      "textual_anchor_it": "Mescolando e ricomponendo le carte, la storia cambia sempre.",
       "glossary_link": ["basho", "ma", "mono no aware"]
     },
     {
@@ -81,7 +80,7 @@
       "basho": "ampie superfici cromatiche, figure raccolte nella parte inferiore della scena e materia pittorica percepibile",
       "kokyu": "il ritmo visivo è lento e contemplativo; il vuoto non interrompe la composizione ma la sostiene",
       "yūgen": "il Ma visivo diventa elemento strutturale; ciò che non è occupato dall'immagine partecipa alla narrazione",
-      "textual_anchor_it": "Le immagini costruiscono l'atmosfera prima che intervenga il testo.",
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte.",
       "glossary_link": ["yūgen", "ma", "basho"]
     }
   ],
