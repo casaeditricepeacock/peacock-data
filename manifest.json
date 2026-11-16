@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-08",
+    "generated": "2026-11-16",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1049,6 +1049,7 @@
       "authors/AuthorProfile_elena-lombardi.json",
       "authors/AuthorProfile_francesca-baboni.json",
       "authors/AuthorProfile_francesco-verni.json",
+      "authors/AuthorProfile_gaia-dalconzo.json",
       "authors/AuthorProfile_giulia-lazzaron.json",
       "authors/AuthorProfile_giulia-maglionico.json",
       "authors/AuthorProfile_hara-rota.json",
@@ -1409,14 +1410,17 @@
     },
     "carto-storie-di-natale": {
       "title": "Carto Storie di Natale",
-      "description": "Carto Storie di Natale (2025).",
+      "description": "Carto Storie di Natale di Gaia D'Alconzo (2025).",
+      "author": "Gaia D'Alconzo",
       "illustrator": "Gaia D'Alconzo",
       "isbn": "979-12-81715-21-9",
       "year": 2025,
       "start_here": "books/carto-storie-di-natale/narrative-system-graph.json",
       "then": "books/carto-storie-di-natale/narrative-scene.json",
       "narrative_folder": "books/carto-storie-di-natale/",
-      "files": []
+      "files": [
+        "authors/AuthorProfile_gaia-dalconzo.json"
+      ]
     },
     "cento-volte": {
       "title": "Cento volte",
