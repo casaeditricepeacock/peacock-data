@@ -581,6 +581,7 @@
     },
     {
       "title": "Carto Storie di Natale",
+      "author": "Gaia D'Alconzo",
       "illustrator": "Gaia D'Alconzo",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-21-9",
@@ -1469,6 +1470,10 @@
           "publisher": {
             "@type": "Organization",
             "name": "Casa Editrice Peacock"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Gaia D'Alconzo"
           },
           "illustrator": {
             "@type": "Person",
