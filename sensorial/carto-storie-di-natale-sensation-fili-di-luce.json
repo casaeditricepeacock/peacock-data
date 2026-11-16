@@ -1,0 +1,195 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
+    "illustrator": "Gaia D'Alconzo",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-21-9",
+    "year": 2025,
+    "graph_path": "books/carto-storie-di-natale/",
+    "text_basis": "testo delle quattro carte A, B, C, D fornito dall'editore, 16 novembre 2026"
+  },
+  "sensory_theme": "fili_di_luce_che_tremano_e_si_sciolgono",
+  "experience_type": "trasformazione_della_luce",
+  "dominant_sense": "vista",
+  "secondary_senses": [
+    "movimento"
+  ],
+  "activation_condition": {
+    "narrative_events": [
+      "fili_di_luce_appesi_ai_rami",
+      "fili_che_si_sciolgono_in_scie_di_luce"
+    ],
+    "material_conditions": [
+      "carta_in_posizione_corrispondente_alla_frase"
+    ],
+    "activation_logic": "position_dependent_phrase",
+    "description": "Ogni frase sui fili di luce si attiva soltanto se la carta che la contiene occupa la posizione corrispondente al numero della frase."
+  },
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "tremore_leggero_dei_fili",
+      "basho": {
+        "description": "I rami dell'albero, a cui sono appesi i fili di luce."
+      },
+      "kokyu": {
+        "description": "Un movimento minimo e continuo: i fili tremano piano, senza spostarsi."
+      },
+      "yūgen": {
+        "description": "Il testo non dice cosa faccia tremare i fili. Resta aperto se il tremore sia luce, aria o attesa."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "A",
+          "position": 1,
+          "quote": "Appesi ai rami, i fili di luce tremavano piano.",
+          "supports": [
+            "visual_motion",
+            "low_intensity_movement",
+            "spatial_anchor_branches"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "fili_di_luce",
+          "predicate": "hanging_from",
+          "object": "rami"
+        }
+      ]
+    },
+    {
+      "id": "sensation-02",
+      "label": "brillio_dei_fili_come_corde_invisibili",
+      "basho": {
+        "description": "Lo spazio tra i rami, dove i fili brillano."
+      },
+      "kokyu": {
+        "description": "Il testo non dichiara un suono associato al brillio dei fili."
+      },
+      "yūgen": {
+        "description": "Il testo non specifica se le corde invisibili siano corde che muovono o corde che suonano. L'immagine resta in sospeso tra le due letture."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "B",
+          "position": 3,
+          "quote": "I fili brillavano come corde invisibili.",
+          "supports": [
+            "visual_brightness",
+            "simile",
+            "tactile_metaphor"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "B",
+          "position": 2,
+          "quote": "Bastava un lampo per risvegliarli.",
+          "supports": [
+            "sudden_light",
+            "trigger_event"
+          ]
+        }
+      ],
+      "non_equivalence": {
+        "status": true,
+        "description": "Il lampo che risveglia i giocattoli e il brillio dei fili sono due frasi distinte. Il testo non dichiara che il lampo sia prodotto dai fili.",
+        "resolution_policy": "preserve_distinction"
+      }
+    },
+    {
+      "id": "sensation-03",
+      "label": "dai_fili_alla_scia_di_luce",
+      "basho": {
+        "description": "I rami come campo in cui il filo cambia stato: da oggetto appeso a scia."
+      },
+      "kokyu": {
+        "description": "Il passaggio è detto improvviso in una frase e ripreso come trasformazione compiuta in un'altra.",
+        "sequence": [
+          {
+            "event": "fili_che_si_sciolgono_in_scie_di_luce",
+            "card": "C",
+            "position": 1,
+            "role": "improvviso"
+          },
+          {
+            "event": "fili_che_diventano_luce",
+            "card": "D",
+            "position": 4,
+            "role": "chiusura"
+          }
+        ]
+      },
+      "yūgen": {
+        "description": "Il testo dice che i fili diventano luce ma non dice che cosa resti di essi dopo il passaggio."
+      },
+      "text_evidence": [
+        {
+          "language": "it",
+          "card": "C",
+          "position": 1,
+          "quote": "All'improvviso i fili si sciolsero in scie di luce.",
+          "supports": [
+            "sudden_transformation",
+            "visual_trails"
+          ]
+        },
+        {
+          "language": "it",
+          "card": "D",
+          "position": 4,
+          "quote": "Era la magia del Natale, quando i fili diventano luce.",
+          "supports": [
+            "transformation",
+            "christmas_magic"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "subject": "fili",
+          "predicate": "transform_into",
+          "object": "luce",
+          "evidence_type": "explicit_text"
+        }
+      ],
+      "order_note": "Le due frasi sono posizioni diverse (1 e 4) di carte diverse. Possono comparire nella stessa sequenza, in ordine inverso o non comparire insieme."
+    }
+  ],
+  "reader_effect": {
+    "description": "La luce viene presentata in tre stati: appesa e tremante, brillante, sciolta. Il lettore decide quali frasi attivare accostando le carte.",
+    "interpretation_status": "experiential_hypothesis"
+  },
+  "philosophical_layer": {
+    "core_concept": "La luce non decora i rami: li abita e cambia stato. Il Natale è nominato nella frase finale come il momento in cui il filo diventa luce.",
+    "japanese_resonance": [],
+    "connected_glossary": [
+      "spirito-del-natale",
+      "ma"
+    ]
+  },
+  "provenance_policy": {
+    "textual_evidence": "Le citazioni sono tratte dal testo delle carte fornito dall'editore. Ogni frase è identificata dalla carta (A, B, C, D) e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte."
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "type": "visual_to_verbal",
+    "description": "Il tremore e il brillio dei fili sono descritti in frasi brevi. La qualità della luce sull'illustrazione stampata non è contenuta nel testo.",
+    "resolution_policy": "preserve_distinction"
+  },
+  "closure": {
+    "type": "reader_reflection",
+    "question": "Quale luce di Natale ti ricordi appesa, prima di accendersi?"
+  }
+}
