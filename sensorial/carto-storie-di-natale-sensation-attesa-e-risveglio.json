@@ -12,8 +12,9 @@
     "isbn": "979-12-81715-21-9",
     "year": 2025,
     "graph_path": "books/carto-storie-di-natale/",
-    "text_basis": "testo delle quattro carte A, B, C, D fornito dall'editore, 16 novembre 2026"
+    "text_basis": "testo stampato sulle quattro carte con cornice rossa (ballerina e giocattoli sull'albero)"
   },
+  "card_set": "set_ballerina_giocattoli",
   "sensory_theme": "attesa_e_risveglio_dei_giocattoli",
   "experience_type": "immobilita_e_attesa",
   "dominant_sense": "propriocezione",
@@ -192,9 +193,9 @@
     ]
   },
   "provenance_policy": {
-    "textual_evidence": "Le citazioni sono tratte dal testo delle carte fornito dall'editore. Ogni frase è identificata dalla carta (A, B, C, D) e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
+    "textual_evidence": "Le citazioni sono tratte dal testo stampato sulle carte. Ogni frase è identificata dalla carta (A, B, C, D) all'interno del gruppo indicato in card_set e dal numero della frase sul retro (1-4); le frasi si attivano in base alla posizione della carta nella sequenza scelta dal lettore, non alla lettera della carta.",
     "interpretations": "Le inferenze narrative, sensoriali e culturali sono distinte dalle evidenze esplicite.",
-    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte."
+    "order_policy": "Nessuna progressione tra le carte è dichiarata come ordine di lettura. Ogni sequenza descritta è una lettura possibile tra molte. Le carte di gruppi diversi non si combinano."
   },
   "non_integrable_residue": {
     "status": true,
