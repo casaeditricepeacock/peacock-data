@@ -15,7 +15,7 @@
     "text_basis": "testo delle quattro carte A, B, C, D fornito dall'editore, 16 novembre 2026"
   },
   "sensory_theme": "attesa_e_risveglio_dei_giocattoli",
-  "experience_type": "immobilita_carica",
+  "experience_type": "immobilita_e_attesa",
   "dominant_sense": "propriocezione",
   "secondary_senses": [
     "vista",
@@ -36,19 +36,19 @@
   "sensation_fields": [
     {
       "id": "sensation-01",
-      "label": "corpo_fermo_pronto_a_muoversi",
+      "label": "immobilita_e_attesa",
       "basho": {
         "description": "L'albero con i giocattoli che attendono sui rami."
       },
       "kokyu": {
-        "description": "Respiro trattenuto: la ballerina attende il segnale, il cavallino e il soldatino il loro turno."
+        "description": "Immobilità e attesa: la ballerina attende il segnale, il cavallino e il soldatino il loro turno."
       },
       "yūgen": {
         "description": "Il testo non dice chi dia il segnale né quando arrivi."
       },
       "japanese_echo": {
         "concept": "ma",
-        "description": "L'immobilità carica di movimento può essere interpretata come intervallo narrativo prima dell'azione.",
+        "description": "L'immobilità accompagnata dall'attesa può essere interpretata come intervallo narrativo prima dell'azione.",
         "relation_type": "cultural_interpretation"
       },
       "text_evidence": [
@@ -56,11 +56,10 @@
           "language": "it",
           "card": "A",
           "position": 4,
-          "quote": "Tutto sembrava immobile, eppure pronto a muoversi.",
+          "quote": "Tutto sembrava immobile.",
           "supports": [
-            "held_breath",
-            "tension",
-            "stillness"
+            "stillness",
+            "waiting_context"
           ]
         },
         {
@@ -92,7 +91,7 @@
         "description": "Le mani dell'orsetto sul tamburo."
       },
       "kokyu": {
-        "description": "Un gesto di presa trattenuta che precede il suono."
+        "description": "Un gesto di presa: il tamburo è stretto."
       },
       "yūgen": {
         "description": "Il tamburo non suona in questa frase. Il suono resta atteso."
@@ -104,9 +103,7 @@
           "position": 3,
           "quote": "L'orsetto stringeva forte il suo tamburo.",
           "supports": [
-            "tactile_grip",
-            "held_sound",
-            "anticipation"
+            "tactile_grip"
           ]
         }
       ]
@@ -172,7 +169,7 @@
           ]
         }
       ],
-      "order_note": "Le frasi della carta B sono quattro posizioni possibili della stessa carta. Non vengono lette di seguito, a meno che il lettore non componga una sequenza che le includa tutte."
+      "order_note": "Le frasi della carta B sono quattro posizioni possibili della stessa carta: una carta occupa una sola posizione per volta. Le frasi 1, 2 e 4 non si leggono insieme in una sequenza."
     }
   ],
   "reader_effect": {
@@ -180,7 +177,7 @@
     "interpretation_status": "experiential_hypothesis"
   },
   "philosophical_layer": {
-    "core_concept": "L'attesa è una forma di movimento trattenuto. Il testo la descrive prima come immobilità e poi come lampo.",
+    "core_concept": "Il testo mette in relazione l'attesa dei giocattoli con un lampo che li risveglia. Nessuna frase indica quale delle due venga prima.",
     "japanese_resonance": [
       {
         "concept": "ma",
