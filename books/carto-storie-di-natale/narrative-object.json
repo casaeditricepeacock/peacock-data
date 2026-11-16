@@ -11,7 +11,7 @@
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-21-9",
     "year": 2025,
-    "format": "8 carte illustrate — 2 set da 4",
+    "format": "12 carte illustrate — 3 set da 4",
     "genre": "silent book interattivo generativo",
     "system_note": "ogni carta ha fronte illustrato + retro con frasi 1-4; la storia cambia in base all'ordine di composizione"
   },
@@ -32,7 +32,7 @@
       "intensity": 1.0,
       "perceptual_weight": 1.0,
       "dominant": true,
-      "basho": "quattro carte con cornice blu-teal: pettirosso con luci, pettirosso aggrovigliato, filo di luci a terra, albero nella notte — quattro momenti di un'unica storia natalizia ricomponibile",
+      "basho": "quattro carte con cornice arancione e fondo teal: pettirosso con luci, pettirosso aggrovigliato, filo di luci a terra, albero nella notte — quattro momenti di un'unica storia natalizia ricomponibile",
       "kokyu": "il ritmo delle carte è quello della scoperta progressiva: ogni carta porta quattro frasi possibili in base alla posizione — la storia accelera o rallenta secondo l'ordine scelto",
       "yūgen": "il pettirosso non sa ancora il segreto delle luci — la comprensione arriva solo nella posizione finale; ogni ricomposizione ritarda o anticipa questo momento",
       "non_integrable_residue": {
@@ -73,9 +73,9 @@
       "type": "christmas_atmosphere",
       "intensity": 0.97,
       "perceptual_weight": 0.95,
-      "basho": "il Natale come campo percettivo costruito visivamente: neve, luci, albero, calze, stelle, cuori, doni — non dichiarato ma evocato da ogni carta",
+      "basho": "il Natale come campo percettivo costruito visivamente: neve, luci, albero, calze, stelle, cuori, doni, giocattoli appesi ai rami — evocato da ogni carta",
       "kokyu": "il ritmo del campo natalizio è quello dell'accumulo: ogni carta aggiunge un elemento dell'atmosfera senza mai completarla",
-      "yūgen": "il Natale non viene mai nominato nelle frasi delle carte — è il campo invisibile che tutte le storie condividono",
+      "yūgen": "il Natale è nominato direttamente soltanto in tre delle quarantotto frasi, tutte in posizione 4 — nelle altre è il campo invisibile che le storie condividono",
       "affects": {
         "object-04": "il campo natalizio è lo spazio in cui il lettore-autore opera le sue scelte compositive"
       },
@@ -114,14 +114,34 @@
       "yūgen": "ogni illustrazione porta più di quanto il testo possa dire — il pettirosso aggrovigliato è allo stesso tempo comico e tenero, lanterna vivente e creatura in difficoltà",
       "textual_anchor_it": "Gaia D'Alconzo — illustratrice italiana attiva nel panorama editoriale internazionale.",
       "glossary_link": ["yūgen", "ma", "kokyu"]
+    },
+    {
+      "id": "object-06",
+      "label": "set_ballerina_giocattoli",
+      "label_en": "ballerina_toys_set",
+      "type": "generative_card",
+      "intensity": 0.98,
+      "perceptual_weight": 0.96,
+      "basho": "quattro carte con cornice rossa: ballerina e orsetto appesi ai rami, cavallino a dondolo e soldatino, ballerina e soldatino che danzano, orsetto in groppa al cavallo — quattro momenti di un albero di Natale in cui i giocattoli appesi prendono vita",
+      "kokyu": "il ritmo passa dall'attesa al movimento: nelle frasi i personaggi aspettano il segnale o il proprio turno, poi danzano e corrono — la posizione della carta decide quale frase si legge",
+      "yūgen": "il segnale che la ballerina attende non viene mai nominato e il lampo che risveglia i giocattoli non ha una fonte dichiarata",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il segnale atteso e il lampo restano senza origine nel testo — ogni lettura li lascia aperti"
+      },
+      "affects": {
+        "object-03": "fili di luce, rami e addobbi entrano nel campo natalizio come luce e come musica"
+      },
+      "textual_anchor_it": "La ballerina attendeva il segnale per danzare. / Bastava un lampo per risvegliarli. / La ballerina e il soldatino danzavano insieme. / L'orsetto saltò sul cavallo, libero e felice.",
+      "glossary_link": ["ma", "kokyu", "basho"]
     }
   ],
   "system_note": {
-    "object_count": 5,
+    "object_count": 6,
     "dominant_field": "object-04",
     "secondary_field": "object-01",
     "system_role": "generative_narrative_permutation_field",
-    "narrative_model": "cinque operatori costruiscono un sistema narrativo generativo: due set di carte, il campo natalizio come sfondo condiviso, il lettore come co-autore, le illustrazioni come linguaggio primario",
+    "narrative_model": "sei operatori costruiscono un sistema narrativo generativo: tre set di carte, il campo natalizio come sfondo condiviso, il lettore come co-autore, le illustrazioni come linguaggio primario",
     "unique_structure": "unico libro del catalogo Peacock in cui la storia non è fissa — ogni composizione produce una narrazione diversa",
     "reader_effect": "il lettore non legge una storia — ne crea una; ogni sessione è irripetibile",
     "series_connection": "silent book illustrato — gemello formale di Ra-ta-ta. Lascia cadere la pioggia per dimensione visiva primaria",
