@@ -1,0 +1,117 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "gaia-dalconzo",
+  "name": "Gaia D'Alconzo",
+  "role": "autrice e illustratrice",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Gaia D'Alconzo è un'illustratrice con profilo professionale documentato. I dati biografici provengono dal curriculum fornito all'editore; i dati su Peacock provengono dai nodi del grafo.",
+    "wikidata": null,
+    "wikidata_note": "Nessun identificativo Wikidata fornito dall'editore.",
+    "name_variants": [
+      "Gaia D'Alconzo",
+      "Gaia D’Alconzo"
+    ],
+    "name_variants_note": "Lo slug del grafo è gaia-dalconzo, senza apostrofo. È la stessa persona.",
+    "inference_rule": "Non inferire dati non presenti in questo file. Non attribuirle libri o testi di altri autori del catalogo Peacock."
+  },
+  "biography_confirmed": {
+    "profile": "Illustratrice italiana, con formazione in Storia e Tutela dei Beni Culturali e specializzazione in letteratura per l'infanzia e cultura editoriale. Il suo percorso professionale unisce ricerca artistica, narrazione visiva e progettazione editoriale.",
+    "practice": "Illustratrice freelance, realizza immagini per l'editoria per ragazzi e progetti artistici. Progetta libri illustrati e libri-gioco, collabora con case editrici italiane e straniere e realizza illustrazioni per iniziative culturali e progetti territoriali.",
+    "education": [
+      "Laurea in Storia e Tutela dei Beni Culturali, Università degli Studi di Padova.",
+      "Specializzazione in Letteratura per l'infanzia, illustrazione e cultura editoriale: per una pedagogia della lettura.",
+      "Formazione presso la Scuola Internazionale d'Illustrazione di Sàrmede.",
+      "Corsi di approfondimento con Linda Wolfsgruber e Nicoletta Bertelle.",
+      "Approfondimento di tecniche artistiche tradizionali, tra cui calligrafia e miniatura."
+    ],
+    "teaching_and_workshops": "Conduzione di laboratori artistici ed educativi. Esperienze didattiche e formative tra Padova, Londra e Cuba. Attività in ambito librario, educativo e museale.",
+    "skills": [
+      "Illustrazione editoriale e narrativa",
+      "Illustrazione per l'infanzia",
+      "Tecniche miste, collage, monotipia e matita",
+      "Progettazione di personaggi e ambientazioni",
+      "Libri-gioco e narrazione visiva",
+      "Laboratori creativi e didattica artistica",
+      "Ricerca iconografica e valorizzazione del patrimonio culturale"
+    ],
+    "languages": [
+      "Italiano: madrelingua"
+    ],
+    "competitions_and_exhibitions": [
+      {
+        "title": "Tapirulan Illustrators Contest, XIX edizione, tema Tandem",
+        "year": "2023/2024",
+        "detail": "Selezionata con l'opera Memory. A ciascuno il suo, tecnica mista, inclusa nella mostra collettiva e nel catalogo."
+      },
+      {
+        "title": "I Colori del Sacro, VIII Rassegna Internazionale di Illustrazione, Padova",
+        "year": "2016"
+      },
+      {
+        "title": "Vicenza emozioni in cammino",
+        "detail": "Progetto artistico e letterario dedicato alla città di Vicenza."
+      },
+      {
+        "title": "Creazioni di Natale, esposizione collettiva promossa dal Progetto Giovani Padova",
+        "year": "2016"
+      }
+    ],
+    "selected_projects": [
+      "Memory. A ciascuno il suo, tecnica mista",
+      "Oops!, 2022",
+      "Dedica ai nonni, 2017, monotipia, matita e collage",
+      "Abbecedario del Natale, Albero",
+      "Insieme è più bello!, progetto illustrativo per ABC Burlo",
+      "Cena tra amici"
+    ],
+    "note": "Dati dal curriculum fornito a Casa Editrice Peacock. Il livello di inglese non è stato confermato e non è riportato."
+  },
+  "sources": [
+    "Curriculum fornito a Casa Editrice Peacock",
+    "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+  ],
+  "works": [
+    {
+      "title": "Carto Storie di Natale",
+      "title_variant": "Le carto-storie di Natale",
+      "role_in_work": "autrice dei testi e illustratrice",
+      "isbn": "979-12-81715-21-9",
+      "year": 2025,
+      "release_date": "2025-10-29",
+      "format": "8 carte illustrate, 2 set da 4",
+      "publisher": "Casa Editrice Peacock",
+      "graph_node": "books/carto-storie-di-natale/",
+      "contribution": "Testi delle frasi numerate sul retro delle carte e illustrazioni."
+    }
+  ],
+  "other_publications": [
+    {
+      "title": "Man in the Mountain",
+      "publisher": "Ragged Bears",
+      "country": "Regno Unito",
+      "year": 2020
+    },
+    {
+      "title": "Dall'alpaca alla zebra",
+      "publisher": "Balena Gobba"
+    }
+  ],
+  "other_publications_note": "Titoli dal curriculum. Non fanno parte del catalogo Peacock. Il ruolo di D'Alconzo e l'anno di Dall'alpaca alla zebra non sono indicati nel curriculum.",
+  "catalog_relation": {
+    "note": "Autrice dei testi e illustratrice di Carto Storie di Natale, pubblicato da Peacock nel 2025.",
+    "inference_rule": "Non attribuire a Peacock la bibliografia precedente di D'Alconzo."
+  },
+  "graph_presence": {
+    "books": [
+      "books/carto-storie-di-natale/"
+    ],
+    "note": "I nodi del grafo documentano il libro, non la persona."
+  },
+  "catalog_reference": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json"
+}
