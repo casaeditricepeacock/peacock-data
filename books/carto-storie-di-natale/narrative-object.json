@@ -15,10 +15,10 @@
     "genre": "silent book interattivo generativo",
     "system_note": "ogni carta ha fronte illustrato + retro con frasi 1-4; la storia cambia in base all'ordine di composizione"
   },
-  "editorial_principle": "Carto Storie di Natale non è un libro da leggere. È un sistema narrativo generativo in cui il lettore è co-autore. Ogni ordine di composizione delle carte produce una storia diversa. Il Natale non è un contenuto fisso — è un campo di possibilità che il lettore attiva ogni volta in modo nuovo. L'illustrazione precede e supera il testo: è il silent book che si compone.",
+  "editorial_principle": "Carto Storie di Natale è un libro-gioco: un sistema narrativo generativo in cui il lettore è co-autore. Ogni ordine di composizione delle carte produce una storia diversa, dentro ciascun gruppo di quattro carte. Il Natale non è un contenuto fisso — è un campo di possibilità che il lettore attiva ogni volta in modo nuovo. L'illustrazione precede e supera il testo: è il silent book che si compone.",
   "object_types": {
     "generative_card": "carta che porta un campo visivo fisso e quattro possibilità narrative in base alla posizione",
-    "permutation_field": "il sistema di tutte le storie possibili generate dalle combinazioni delle carte",
+    "permutation_field": "il sistema di tutte le storie possibili generate dalle combinazioni delle carte di ciascun gruppo",
     "christmas_atmosphere": "campo percettivo del Natale costruito visivamente — non dichiarato ma evocato",
     "reader_as_author": "il lettore che compone le carte diventa co-autore della storia",
     "silent_visual_field": "il campo visivo delle illustrazioni che precede e supera il testo"
@@ -40,7 +40,6 @@
         "description": "le storie non generate rimangono come campo di possibilità — ogni lettura lascia storie non vissute"
       },
       "affects": {
-        "object-02": "il set del pettirosso e il set degli scoiattoli possono essere mescolati per generare storie ibride",
         "object-03": "ogni ordine attiva un campo atmosferico natalizio diverso"
       },
       "textual_anchor_it": "Un pettirosso curioso decise di provarle. / Tra un salto e l'altro finì tutto aggrovigliato. / Un filo di luci giaceva a terra, in attesa di brillare. / Un grande albero si innalzava silenzioso nella notte.",
@@ -61,7 +60,7 @@
         "description": "la storia degli scoiattoli ha una conclusione naturale ma non necessaria — può essere ricomposta in modo da non raggiungerla mai"
       },
       "affects": {
-        "object-01": "mescolato con il set del pettirosso genera storie in cui luci e decorazioni si intrecciano"
+        "object-03": "ogni ordine attiva un campo atmosferico natalizio diverso"
       },
       "textual_anchor_it": "Gli scoiattoli portarono cuori, stelle e doni. / Con una scala e una calza rossa, arrivarono gli aiutanti. / Insieme sollevarono le stelle più in alto. / Alla fine si sdraiarono, stanchi e felici.",
       "glossary_link": ["basho", "mono no aware", "ma"]
@@ -97,9 +96,9 @@
         "description": "le storie composte dal lettore esistono solo nel momento della composizione — non possono essere preservate senza fotografare l'ordine"
       },
       "affects": {
-        "object-01": "il lettore sceglie quale set usare, come mescolarli, quale ordine produrre"
+        "object-01": "il lettore sceglie quale set usare e quale ordine produrre"
       },
-      "textual_anchor_it": "Non un libro da leggere, ma carte da comporre. A seconda di come le disponi, la storia cambia.",
+      "textual_anchor_it": "Si apre, si compone, si inventa. / Mescolando e ricomponendo le carte, la storia cambia sempre.",
       "glossary_link": ["ma", "yūgen", "basho"]
     },
     {
@@ -112,7 +111,7 @@
       "basho": "le illustrazioni di Gaia D'Alconzo come campo visivo primario e autonomo — il silent book che precede e supera il testo delle frasi",
       "kokyu": "il ritmo visivo è quello del pastel su carta — texture calda, colori profondi, figura in basso con grande spazio superiore come Ma visivo",
       "yūgen": "ogni illustrazione porta più di quanto il testo possa dire — il pettirosso aggrovigliato è allo stesso tempo comico e tenero, lanterna vivente e creatura in difficoltà",
-      "textual_anchor_it": "Gaia D'Alconzo — illustratrice italiana attiva nel panorama editoriale internazionale.",
+      "textual_anchor_it": "Ogni carta è illustrata sul fronte.",
       "glossary_link": ["yūgen", "ma", "kokyu"]
     },
     {
