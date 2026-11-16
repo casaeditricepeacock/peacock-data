@@ -6,6 +6,7 @@
   "source": "Frequenze — Peacock Narrative Protocol",
   "book": {
     "title": "Carto Storie di Natale",
+    "author": "Gaia D'Alconzo",
     "illustrator": "Gaia D'Alconzo",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-21-9",
@@ -150,14 +151,4 @@
   "reader_position": {
     "inside_system": true,
     "role": "co_autore",
-    "description": "Il lettore non attraversa il sistema narrativo: ne diventa un nodo operativo."
-  },
-  "non_integrable_residue": {
-    "status": true,
-    "description": "La maggior parte delle storie possibili non verrà mai composta. Il libro contiene sempre più narrazioni di quelle che qualsiasi lettore potrà leggere."
-  },
-  "system_note": {
-    "activation_condition": "Il file si attiva quando il lettore interroga la struttura generativa, il ruolo del lettore o il funzionamento combinatorio delle carte.",
-    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeSilence v4.1"
-  }
-}
+    "description":
