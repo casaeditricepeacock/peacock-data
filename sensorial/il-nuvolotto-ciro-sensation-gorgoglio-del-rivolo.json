@@ -1,0 +1,56 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
+  },
+  "sensory_theme": "canto_del_rivolo",
+  "experience_type": "suono_come_stato_d_animo",
+  "dominant_sense": "udito",
+  "activation_condition": "il momento in cui Ciro, diventato rivolo d'acqua, scorre verso il fiume e il mare e canta gorgogliando; ogni esperienza in cui il suono dell'acqua che scorre dice uno stato di sollievo",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "il_rivolo_che_scorre",
+      "basho": "Ciro non è più nuvola: è un piccolo rivolo d'acqua che corre verso il fiume e poi verso il mare; il corpo sulla terra scorre invece di sospendersi",
+      "kokyu": "il ritmo è quello dell'acqua che corre: 'scorre portato dal fiume verso il mare'; il movimento non è più deciso da Ciro ma lo porta, come il vento, ma senza paura",
+      "yūgen": "la stessa forza che prima portava Ciro nella paura ora lo porta nella gioia; il cambio di segno non viene spiegato, viene ascoltato",
+      "japanese_echo": "mono no aware — il passaggio di stato accolto come parte del ciclo",
+      "textual_anchor_it": "Ora il nuvolotto Ciro è finalmente sulla terra: si è trasformato in un piccolo rivolo d'acqua che corre verso il fiume.",
+      "poetic_anchor": "sulla terra, il nuvolotto ha trovato il suo modo di muoversi"
+    },
+    {
+      "id": "sensation-02",
+      "label": "il_bluuu",
+      "basho": "Ciro canta sommessamente gorgogliando: il canto è una sequenza di suoni senza parole, bluuu, bluuu, blu, che imita il rumore dell'acqua; il corpo è diventato strumento",
+      "kokyu": "il ritmo è quello del gorgoglio: 'bluuubluuubllluu...bluuuu...blu!' le vocali si allungano, le sillabe si accorciano fino al 'blu' finale; il suono si spegne come l'acqua che si perde",
+      "yūgen": "il suono non significa niente e dice tutto: la felicità di Ciro non ha una parola, ha un gorgoglio",
+      "japanese_echo": "giongo — il giapponese ha una grande ricchezza di parole che imitano i suoni; il bluuu è un'onomatopea italiana che abita lo stesso campo",
+      "textual_anchor_it": "anzi, felice, canta sommessamente gorgogliando bluuubluuubllluu...bluuuu...blu!",
+      "poetic_anchor": "la felicità di Ciro non ha parole, ha un gorgoglio"
+    }
+  ],
+  "reader_effect": "il lettore sente nel corpo la sonorità dell'acqua e il sollievo di un suono che non ha bisogno di significare; il libro produce la memoria fisica della felicità come rumore sommesso",
+  "philosophical_layer": {
+    "core_concept": "il suono come forma dello stato d'animo: la felicità di Ciro non viene descritta, viene resa come gorgoglio",
+    "japanese_resonance": "le onomatopee come categoria linguistica centrale nel giapponese: il suono dice una condizione, non solo un rumore",
+    "scientific_resonance": "il ciclo dell'acqua tra stato liquido e movimento: il rivolo, il fiume e il mare come fasi dello stesso scorrere"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il testo non dice che cosa Ciro senta mentre scorre: il bluuu resta l'unica testimonianza, e il suo significato resta nel suono"
+  },
+  "closure": "quale suono faresti se fossi felice e nessuna parola ti bastasse?"
+}
