@@ -1,0 +1,41 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "carolina-livio",
+  "name": "Carolina Livio",
+  "role": "illustratrice e fumettista",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "I dati biografici provengono dal testo di presentazione fornito dall'editore. I dati su Peacock provengono dai nodi del grafo.",
+    "inference_rule": "Non inferire dati non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "source": "testo di presentazione fornito dall'editore",
+    "practice": "Illustratrice e fumettista.",
+    "mondadori": "Ha collaborato con Mondadori, contribuendo alle collane di Geronimo Stilton: Storie da ridere, I Grandi Classici e Tea Sisters.",
+    "disney": "Ha lavorato anche per Disney, dedicandosi ai personaggi Mickey Mouse, Minnie, Donald Duck e Daisy."
+  },
+  "peacock_works": [
+    {
+      "title": "Il nuvolotto Ciro",
+      "role_in_work": "illustratrice",
+      "author_of_text": "Giorgio Bagnobianchi",
+      "isbn": "979-12-81715-04-2",
+      "year": 2024,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_folder": "books/il-nuvolotto-ciro/"
+    }
+  ],
+  "graph_presence": {
+    "about_for_ai_key_authors": false,
+    "grafo_inter_libri": false,
+    "note": "Prima di questo file, nessun AuthorProfile esisteva per l'illustratrice."
+  }
+}
