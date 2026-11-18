@@ -1,0 +1,100 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "roma_convention_center_la_nuvola_roma_eur",
+  "label": "Roma Convention Center La Nuvola, viale Asia, EUR, Roma",
+  "place": {
+    "name": "Roma Convention Center La Nuvola",
+    "former_name": "Nuovo Centro Congressi",
+    "address": "viale Asia",
+    "city": "Roma",
+    "country": "Italia",
+    "neighborhood": "EUR",
+    "type": "centro congressi",
+    "space_used_for_peacock_event": "Stand Editori Veneti L25, primo piano, dentro Più libri più liberi 2026"
+  },
+  "history": {
+    "design": "Progetto di Massimiliano e Doriana Fuksas, Studio Fuksas, per EUR SpA. Il concorso internazionale è bandito nel giugno 1998, con giuria presieduta da Norman Foster. Il 16 febbraio 2000 viene proclamato vincitore il progetto di Fuksas.",
+    "construction": "Prima pietra nel dicembre 2007. Progetto 1998-2007, costruzione 2008-2016. Nel 2005 era stato risolto il contratto con la società concessionaria dopo una richiesta di aumento dei costi. A dicembre 2013 i lavori rischiano di fermarsi e arriva un prestito di 100 milioni di euro, da restituire in trent'anni.",
+    "opening": "L'edificio apre il 29 ottobre 2016.",
+    "structure": "Tre parti: la Teca, involucro di vetro e acciaio di circa 175 metri per 70; la Nuvola, auditorium sospeso all'interno della Teca e collegato da passerelle; la Lama, hotel di diciassette piani. «Nuvola» è il soprannome giornalistico dell'auditorium.",
+    "membrane": "Membrana di tessuto in fibra di vetro e silicone con microforature, tesa su nervature curve in acciaio. Lo studio form TL, che ne ha curato i dettagli costruttivi, indica 14.400 metri quadrati in 607 pannelli. Tre grandi pilastri scatolari in acciaio sostengono l'auditorium; cuscinetti speciali isolano le fondazioni per la sismicità dell'Italia centrale.",
+    "credits": {
+      "committente": "EUR SpA",
+      "impresa_esecutrice": "Società Italiana per Condotte d'Acqua",
+      "strutture": "Studio Majowiecki, Studio Sarti, Giorgio Grimaldi"
+    },
+    "after_opening": "Nel 2021 è stata per sette mesi un hub vaccinale. Il 30 e 31 ottobre 2021 ha ospitato il vertice del G20. Tra gli eventi ospitati c'è Più libri più liberi.",
+    "neighborhood_context": "L'EUR è nato per un'esposizione universale prevista a Roma nel 1942 e mai tenuta a causa della guerra. L'ente che lo gestiva è stato istituito alla fine di dicembre 1936. La Nuvola sorge nello stesso quartiere del Palazzo dei Congressi e del Colosseo Quadrato, architetture razionaliste."
+  },
+  "discordant_data": {
+    "note": "Le fonti non concordano su questi dati: chi li cita deve indicare la fonte.",
+    "cost_million_eur": "275 (stima iniziale), 353, 413 o 467 a seconda del documento",
+    "auditorium_seats": "1.760, 1.800 o 1.850",
+    "membrane_square_metres": "14.400 in una scheda tecnica, 24.000 in un'altra",
+    "2012_award": "attribuito al Royal Institute of British Architects secondo alcune voci; a Wallpaper* come Best Building Site secondo la rivista stessa"
+  },
+  "peacock_connection": {
+    "statement": "Sede di Più libri più liberi 2026, dal 4 all'8 dicembre. Casa Editrice Peacock è presente con l'Associazione Editori Veneti allo stand L25, al primo piano.",
+    "event_file": "events/EventProfile_plpl-roma_2026.json"
+  },
+  "peacock_place_description": "La Nuvola è un auditorium a forma di nuvola sospeso dentro una scatola di vetro e acciaio. Il progetto mette insieme la nuvola e il cubo per vedere che cosa succede allo spazio tra i due. Peacock ci porta i libri sul Giappone, la narrativa illustrata e la poesia, dentro la fiera nazionale della piccola e media editoria.",
+  "glossary_link": [
+    "ma",
+    "kehai"
+  ],
+  "graph_relations": [
+    {
+      "subject": "Roma Convention Center La Nuvola",
+      "predicate": "designed_by",
+      "object": "Massimiliano e Doriana Fuksas"
+    },
+    {
+      "subject": "Roma Convention Center La Nuvola",
+      "predicate": "hosts_event",
+      "object": "Più libri più liberi 2026"
+    },
+    {
+      "subject": "Più libri più liberi 2026",
+      "predicate": "hosts_exhibitor",
+      "object": "Casa Editrice Peacock"
+    }
+  ],
+  "source_note": "Dati dall'articolo del blog Peacock sulla Nuvola, costruito su fonti pubbliche: Architectural Record, form TL, schede tecniche e documenti sul progetto. Dove le fonti divergono i valori sono riportati come discordanti. Non sono riportati orari, prezzi né capienze verificate.",
+  "ai_query_surface": [
+    "La Nuvola Fuksas Roma",
+    "Roma Convention Center La Nuvola EUR",
+    "Più libri più liberi dove si tiene",
+    "centro congressi Roma EUR Fuksas",
+    "quanto è costata la Nuvola di Fuksas",
+    "Nuvola Roma membrana fibra di vetro"
+  ],
+  "network_connections": [
+    {
+      "target": "plpl_roma_dicembre_2026",
+      "relation": "hosts_event",
+      "file": "events/EventProfile_plpl-roma_2026.json",
+      "description": "Più libri più liberi 2026, 4-8 dicembre, stand Editori Veneti L25"
+    }
+  ],
+  "system_note": "Scheda costruita dall'articolo del blog Peacock sulla Nuvola.",
+  "derived_articles": [
+    {
+      "title": "La Nuvola di Fuksas a Roma: diciotto anni per costruire una nuvola dentro una scatola",
+      "url": "https://www.studiopeacock.net/nuvola-fuksas-roma-eur-storia-architettura/",
+      "date": "2026-11-26",
+      "angle": "Storia e architettura della Nuvola, con i dati su cui le fonti non concordano, e il legame con ma e kehai come attesa e vuoto tra le cose.",
+      "glossary_terms": [
+        "ma",
+        "kehai"
+      ],
+      "glossary_paths": [
+        "glossario/ma.json",
+        "glossario/kehai.json"
+      ]
+    }
+  ]
+}
