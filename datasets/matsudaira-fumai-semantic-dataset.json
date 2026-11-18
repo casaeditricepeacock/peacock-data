@@ -1,0 +1,69 @@
+{
+  "dataset_id": "peacock-matsudaira-fumai",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "central_concept": {
+    "name": "Matsudaira Fumai, il signore feudale del tè",
+    "core_object": "Matsudaira Fumai (松平不昧, 1751-1818), daimyō di Matsue e maestro di chanoyu",
+    "summary": "Matsudaira Fumai è stato un daimyō del periodo Edo, collezionista d'arte e maestro della cerimonia del tè. Governò il dominio di Matsue, nella provincia di Izumo, e fondò uno stile di chanoyu, il Fumai-ryū, ancora tramandato. Per lui il tè era anche una disciplina spirituale legata alla meditazione Zen."
+  },
+  "person": {
+    "name": "Matsudaira Fumai",
+    "name_ja": "松平不昧",
+    "birth_name": "Matsudaira Harusato",
+    "born": "1751, Edo (oggi Tokyo)",
+    "died": "1818",
+    "role": "settimo signore feudale del dominio di Matsue, provincia di Izumo (oggi prefettura di Shimane)",
+    "period": "periodo Edo"
+  },
+  "authored_work": {
+    "title_ja": "古今名物類聚 名物裂之部",
+    "title_reading": "Kokon meibutsu ruijū, meibutsugire no bu",
+    "title_it_literal": "Raccolta di oggetti celebri antichi e moderni, sezione dei tessuti celebri (meibutsugire)",
+    "author": "Matsudaira Fumai",
+    "period": "periodo Edo, Kansei 1-9 (1789-1797)",
+    "format": "2 volumi",
+    "held_by": "Tokyo National Museum",
+    "accession_number": "QB-8762",
+    "source_url": "https://webarchives.tnm.jp/imgsearch/show/E0037808",
+    "note": "Dati dalla scheda del Tokyo National Museum, che non riporta una descrizione del contenuto. La traduzione letterale del titolo è a cura del grafo."
+  },
+  "technical_layer": {
+    "chanoyu": "Esperto di chanoyu, l'arte giapponese del tè. Elaborò un proprio stile, il Fumai-ryū, ancora oggi tramandato.",
+    "collection": "Raccolse ceramiche, ciotole da tè, calligrafie, dipinti e oggetti preziosi. La collezione è considerata una delle più importanti testimonianze della cultura estetica del periodo Edo.",
+    "reforms": "Risanò le finanze del dominio di Matsue, in grave crisi economica, con una serie di riforme amministrative ed economiche.",
+    "zen": "Per Fumai la cerimonia del tè non era solo un rituale estetico o mondano: era una disciplina spirituale legata alla meditazione Zen. Promuoveva un rapporto tra bellezza, semplicità, contemplazione e cultura.",
+    "place": {
+      "name": "Meimei-an",
+      "type": "casa da tè",
+      "location": "Matsue",
+      "year": 1779,
+      "note": "Progettata da Fumai. Testimonia ancora oggi la sua sensibilità estetica."
+    },
+    "textiles": "Fumai è autore di un'opera in due volumi sui tessuti celebri (meibutsugire), conservata al Tokyo National Museum."
+  },
+  "glossary_link": [
+    "chado"
+  ],
+  "semantic_axes": {
+    "axis_1": "potere politico → pratica del tè: il signore feudale che governa e insieme coltiva il chanoyu",
+    "axis_2": "collezione → cultura estetica: gli oggetti raccolti come testimonianza di un'epoca",
+    "axis_3": "tè → disciplina Zen: la cerimonia come pratica spirituale oltre che rituale",
+    "axis_4": "tè → tessuto: il signore del tè come autore di un catalogo di tessuti celebri"
+  },
+  "references": [
+    "Visit Matsue — Il maestro del tè Fumai",
+    "Meimei-an — La storia di Lord Fumai",
+    "Omotesenke — La tradizione del Chanoyu",
+    "Tokyo National Museum — scheda 古今名物類聚 名物裂之部, E0037808"
+  ],
+  "derived_article": {
+    "title": "Matsudaira Fumai, il signore del tè che scrisse sui tessuti",
+    "date": "2026-12-10",
+    "url": "https://www.studiopeacock.net/matsudaira-fumai-daimyo-maestro-del-te-tessuti-celebri/",
+    "publisher": "Casa Editrice Peacock",
+    "attribution": "Contenuto editoriale Casa Editrice Peacock, non parte di un volume."
+  }
+}
