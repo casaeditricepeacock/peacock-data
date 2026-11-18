@@ -9,7 +9,12 @@
     "author": "Giorgio Bagnobianchi",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-04-2",
-    "year": 2024
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
   },
   "silence_types": {
     "origin_void": "il silenzio dell'origine della paura: perché Ciro nasca con la vertigine non viene spiegato",
@@ -37,8 +42,11 @@
       "affects": {
         "silence-03": "il silenzio sull'origine della vertigine risuona con il silenzio sulla memoria del ciclo: entrambi sono vuoti strutturali che il sistema non colma"
       },
-      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
-      "glossary_link": ["ma", "yūgen"]
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e ... ha avuto paura.",
+      "glossary_link": [
+        "ma",
+        "yūgen"
+      ]
     },
     {
       "id": "silence-02",
@@ -57,8 +65,11 @@
       "affects": {
         "silence-01": "il non detto di Cumulina replica il silenzio sull'origine: entrambi i vuoti producono campo senza spiegazione"
       },
-      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura... non ti dico altro: prova ad avere più paura, prova con le vertigini!",
-      "glossary_link": ["yūgen", "ma"]
+      "textual_anchor_it": "\"Caro Ciro, non hai abbastanza paura\" risponde la nuvola Cumulina \"... perché il nuvolotto che ha veramente paura ... non ti dico altro: prova ad avere più paura, prova con le vertigini!\"",
+      "glossary_link": [
+        "yūgen",
+        "ma"
+      ]
     },
     {
       "id": "silence-03",
@@ -78,7 +89,11 @@
         "silence-04": "la memoria incerta del ciclo risuona con il silenzio del sole: entrambi operano come campi la cui storia non viene raccontata"
       },
       "textual_anchor_it": "Come ti chiami? — Sono Cumulina, caro Ciro... tu forse non ti ricordi di me...",
-      "glossary_link": ["mono no aware", "yūgen", "ma"]
+      "glossary_link": [
+        "mono no aware",
+        "yūgen",
+        "ma"
+      ]
     },
     {
       "id": "silence-04",
@@ -98,7 +113,10 @@
         "silence-05": "il silenzio del sole prepara il silenzio della soglia di dissoluzione: entrambi operano come campi che producono effetti senza essere nominati"
       },
       "textual_anchor_it": "Il calore del sole scalda l'acqua con i suoi raggi infuocati e il vapore fugge verso l'alto.",
-      "glossary_link": ["basho", "ma"]
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
     },
     {
       "id": "silence-05",
@@ -118,7 +136,11 @@
         "silence-03": "la soglia della dissoluzione risuona con il silenzio della memoria: entrambi sono momenti in cui il sistema non può registrare ciò che avviene"
       },
       "textual_anchor_it": "Ora il nuvolotto Ciro è finalmente sulla terra: si è trasformato in un piccolo rivolo d'acqua.",
-      "glossary_link": ["mono no aware", "ma", "yūgen"]
+      "glossary_link": [
+        "mono no aware",
+        "ma",
+        "yūgen"
+      ]
     }
   ],
   "system_note": {
