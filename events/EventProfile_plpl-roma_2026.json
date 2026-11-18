@@ -26,7 +26,8 @@
     "venue": "Roma Convention Center La Nuvola",
     "city": "Roma",
     "type": "fiera nazionale della piccola e media editoria",
-    "significance": "La principale fiera italiana dedicata all'editoria indipendente, ogni anno a Roma a dicembre."
+    "significance": "La principale fiera italiana dedicata all'editoria indipendente, ogni anno a Roma a dicembre.",
+    "place_file": "places/PlaceProfile_la-nuvola-roma-eur.json"
   },
   "peacock_role_note": "Casa Editrice Peacock partecipa a Più Libri Più Liberi 2026 nello Stand Editori Veneti (L25), al primo piano della Nuvola, insieme agli editori associati ad AEV. Peacock è presente a PLPL dal 2024 e nel 2025 ha presentato Tante storie per pensare.",
   "peacock_place_description": {
@@ -135,6 +136,12 @@
       "target": "plpl_scheda_espositore",
       "relation": "official_listing",
       "description": "Scheda espositore sul sito ufficiale di Più libri più liberi: https://plpl.it/news/espositore/casa-editrice-peacock/"
+    },
+    {
+      "target": "roma_convention_center_la_nuvola_roma_eur",
+      "relation": "held_at",
+      "file": "places/PlaceProfile_la-nuvola-roma-eur.json",
+      "description": "Roma Convention Center La Nuvola, EUR: sede della fiera, progetto di Massimiliano e Doriana Fuksas"
     }
   ],
   "exhibitor_listing": {
