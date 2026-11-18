@@ -9,7 +9,12 @@
     "author": "Giorgio Bagnobianchi",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-04-2",
-    "year": 2024
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
   },
   "protocol_axes": {
     "basho": "spatial_configuration",
@@ -38,7 +43,7 @@
         "field-02": "il paradosso strutturale è la condizione che rende necessario il ciclo: senza vertigine non c'è dissoluzione",
         "field-03": "il paradosso alimenta il ciclo dell'acqua come campo dominante"
       },
-      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra e... ha avuto paura."
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e ... ha avuto paura."
     },
     {
       "id": "field-02",
@@ -58,7 +63,7 @@
       "affects": {
         "field-04": "la soluzione paradossale attiva il campo della memoria del ciclo: Cumulina conosce il meccanismo perché ha già visto il ciclo compiersi"
       },
-      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!"
+      "textual_anchor_it": "\"Caro Ciro, non hai abbastanza paura\" risponde la nuvola Cumulina \"... perché il nuvolotto che ha veramente paura ... non ti dico altro: prova ad avere più paura, prova con le vertigini!\""
     },
     {
       "id": "field-03",
@@ -105,8 +110,13 @@
   ],
   "field_hierarchy": {
     "dominant": "field-03",
-    "secondary": ["field-02", "field-04"],
-    "support": ["field-01"]
+    "secondary": [
+      "field-02",
+      "field-04"
+    ],
+    "support": [
+      "field-01"
+    ]
   },
   "system_note": {
     "field_count": 4,
