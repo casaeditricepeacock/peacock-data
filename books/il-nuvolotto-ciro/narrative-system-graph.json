@@ -9,7 +9,12 @@
     "author": "Giorgio Bagnobianchi",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-04-2",
-    "year": 2024
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
   },
   "system_principle": "The system operates as a fear dissolution natural cycle field. The water cycle is not a metaphor: it is the ontological structure of the system. Ciro does not overcome his fear: he completes his natural cycle. Nothing is lost. Every dissolution is a passage. The sun generates, the wind transports, the paradox activates, the tears dissolve, the cycle renews. The memory of the previous cycle remains open as the system's permanent residue.",
   "node_classes": {
@@ -22,12 +27,56 @@
     "meta_state": "system_wide_cycle_accumulator"
   },
   "layers": {
-    "scenes": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05", "scene-06"],
-    "objects": ["object-01", "object-02", "object-03", "object-04", "object-05", "object-06"],
-    "silences": ["silence-01", "silence-02", "silence-03", "silence-04", "silence-05"],
-    "transitions": ["transition-01", "transition-02", "transition-03", "transition-04", "transition-05", "transition-06", "transition-07"],
-    "rituals": ["ritual-01", "ritual-02", "ritual-03", "ritual-04", "ritual-05", "ritual-06"],
-    "weather_fields": ["weather-01", "weather-02", "weather-03", "weather-04", "weather-05"]
+    "scenes": [
+      "scene-01",
+      "scene-02",
+      "scene-03",
+      "scene-04",
+      "scene-05",
+      "scene-06",
+      "scene-07"
+    ],
+    "objects": [
+      "object-01",
+      "object-02",
+      "object-03",
+      "object-04",
+      "object-05",
+      "object-06"
+    ],
+    "silences": [
+      "silence-01",
+      "silence-02",
+      "silence-03",
+      "silence-04",
+      "silence-05"
+    ],
+    "transitions": [
+      "transition-01",
+      "transition-02",
+      "transition-03",
+      "transition-04",
+      "transition-05",
+      "transition-06",
+      "transition-07",
+      "transition-08"
+    ],
+    "rituals": [
+      "ritual-01",
+      "ritual-02",
+      "ritual-03",
+      "ritual-04",
+      "ritual-05",
+      "ritual-06",
+      "ritual-07"
+    ],
+    "weather_fields": [
+      "weather-01",
+      "weather-02",
+      "weather-03",
+      "weather-04",
+      "weather-05"
+    ]
   },
   "topology": {
     "core_field": "object-03",
@@ -53,7 +102,12 @@
       {
         "id": "loop-02",
         "label": "paura_paradosso_dissoluzione",
-        "nodes": ["object-01", "object-04", "object-02", "silence-02"],
+        "nodes": [
+          "object-01",
+          "object-04",
+          "object-02",
+          "silence-02"
+        ],
         "type": "fear_paradox_dissolution_loop",
         "stability": "terminal_within_cycle",
         "propagation_logic": "The vertigo activates the search for a solution. Cumulina introduces the paradox without completing it. Ciro executes what he does not understand. The tears dissolve him. The silence of the incomplete sentence remains open.",
@@ -62,7 +116,13 @@
       {
         "id": "loop-03",
         "label": "rinascita_memoria",
-        "nodes": ["object-05", "object-04", "silence-03", "field-04"],
+        "nodes": [
+          "object-05",
+          "object-04",
+          "silence-03",
+          "field-04",
+          "scene-07"
+        ],
         "type": "rebirth_memory_loop",
         "stability": "permanent_open",
         "propagation_logic": "Ciro is reborn. Cumulina recognises him. Ciro perhaps does not remember. The memory of the previous cycle remains as an open residue. The loop does not close: the system leaves the question of memory permanently open.",
@@ -71,7 +131,12 @@
       {
         "id": "loop-04",
         "label": "sole_generatore_invisibile",
-        "nodes": ["object-06", "weather-01", "silence-04", "object-03"],
+        "nodes": [
+          "object-06",
+          "weather-01",
+          "silence-04",
+          "object-03"
+        ],
         "type": "hidden_generator_loop",
         "stability": "permanent_structural",
         "propagation_logic": "The sun generates the entire cycle without appearing as protagonist. Its silence in the narrative is proportional to its structural necessity. Without the sun there is no evaporation, no cloud, no Ciro.",
@@ -80,7 +145,12 @@
       {
         "id": "loop-05",
         "label": "vento_trasportatore",
-        "nodes": ["transition-02", "transition-04", "transition-05", "object-04"],
+        "nodes": [
+          "transition-02",
+          "transition-04",
+          "transition-05",
+          "object-04"
+        ],
         "type": "wind_transport_loop",
         "stability": "iterative_within_cycle",
         "propagation_logic": "The wind carries Ciro without his choosing direction. Every change of wind direction is a new encounter. The wind brings Ciro to the storm, then to Cumulina. The cycle uses the wind as its transport operator.",
@@ -144,6 +214,14 @@
       "propagation_mode": "structural",
       "intensity": 0.96,
       "stability_impact": "the same words at opening and closing make the cycle physically present in the object"
+    },
+    {
+      "from": "scene-07",
+      "to": "object-05",
+      "effect": "embrace_completes_recognition",
+      "propagation_mode": "relational",
+      "intensity": 0.85,
+      "stability_impact": "the contact with Cumulina after rebirth confirms the transformed field without closing the memory question"
     }
   ],
   "field_dynamics": {
