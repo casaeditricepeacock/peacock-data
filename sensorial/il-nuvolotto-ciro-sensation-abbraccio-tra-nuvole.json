@@ -1,0 +1,56 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
+  },
+  "sensory_theme": "contatto_tra_due_nuvole",
+  "experience_type": "incontro_che_dura_un_attimo",
+  "dominant_sense": "tatto",
+  "activation_condition": "il momento in cui il vento spinge Cumulina tra le onde di Ciro e le due nuvole rimangono abbracciate; ogni esperienza in cui un contatto morbido e breve tra due presenze dice un riconoscimento",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "la_spinta_del_vento",
+      "basho": "una folata di vento spinge Cumulina dentro Ciro: il contatto non è scelto, avviene; i corpi soffici si sovrappongono senza resistenza",
+      "kokyu": "il ritmo è quello di una spinta e di una sosta: il vento spinge, le nuvole rimangono, il vento le allontana; il contatto sta dentro due azioni del vento",
+      "yūgen": "nessuna delle due nuvole decide l'abbraccio: è il vento a farlo accadere, e il lettore percepisce il contatto come cosa del cielo",
+      "japanese_echo": "mono no aware — l'incontro che dura un attimo e per questo viene sentito",
+      "textual_anchor_it": "Una folata di vento spinge Cumulina tra le soffici ovattate onde di Ciro.",
+      "poetic_anchor": "il contatto tra due nuvole è una sovrapposizione senza confini"
+    },
+    {
+      "id": "sensation-02",
+      "label": "il_tenero_bacio",
+      "basho": "le due nuvole rimangono per un attimo abbracciate, come in un tenero bacio; il testo avvicina il gesto a quello umano con un 'come' e lo lascia in un attimo",
+      "kokyu": "il ritmo è quello della sosta breve: 'per un attimo'; poi il vento allontana le due nuvole e le divide in tanti nuvolotti",
+      "yūgen": "il 'come' tiene il bacio a distanza: il contatto resta fenomeno del cielo, e il lettore lo sente più dolce proprio perché non viene spiegato",
+      "japanese_echo": "ichi-go ichi-e — l'incontro che accade una volta sola; il testo non lo dice, il campo lo avvicina",
+      "textual_anchor_it": "Le due nuvole rimangono per un attimo abbracciate, come in un tenero bacio.",
+      "poetic_anchor": "un attimo di contatto basta a dire un riconoscimento"
+    }
+  ],
+  "reader_effect": "il lettore sente nel corpo la morbidezza di un contatto senza attrito e la dolcezza di un attimo che passa; il libro produce la memoria fisica dell'abbraccio come cosa breve e intera",
+  "philosophical_layer": {
+    "core_concept": "il contatto che non trattiene: l'abbraccio dura un attimo e il vento separa le due nuvole senza che questo lo renda meno reale",
+    "japanese_resonance": "l'attimo come unità di esperienza: ciò che passa viene percepito con più intensità perché non resta",
+    "scientific_resonance": "due masse di vapore che si sovrappongono: nel cielo il contatto tra nuvole è un miscelarsi senza confini netti"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il testo non dice se Ciro riconosca Cumulina: alla frase 'tu forse non ti ricordi di me' risponde 'Sei una nuvola attraente', e l'abbraccio non scioglie il dubbio"
+  },
+  "closure": "quando un contatto dura un attimo, è meno vero di uno che dura una vita?"
+}
