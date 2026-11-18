@@ -1,0 +1,56 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
+  },
+  "sensory_theme": "vertigine_dell_altezza",
+  "experience_type": "perdita_di_appoggio",
+  "dominant_sense": "equilibrio",
+  "activation_condition": "il momento in cui Ciro apre gli occhi, guarda a terra e si rende conto dell'altezza; ogni esperienza in cui lo sguardo verso il basso rivela la distanza dal suolo e il corpo perde la sicurezza dell'appoggio",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "lo_sguardo_verso_terra",
+      "basho": "Ciro appena nato guarda giù e vede la distanza tra sé e la terra; il corpo di una nuvola non ha appoggio, è sospeso nell'aria, e la sospensione diventa improvvisamente percepibile",
+      "kokyu": "il ritmo è quello dell'istante che si ferma: apre gli occhi, guarda, si rende conto, e la frase si interrompe sui puntini prima di dire la paura",
+      "yūgen": "la vertigine non è una paura dell'altezza ma la scoperta che il proprio corpo non poggia su niente; per una nuvola questo è il suo modo normale di stare al mondo",
+      "japanese_echo": "ma — l'intervallo, il vuoto tra Ciro e la terra come spazio che si può sentire",
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e ... ha avuto paura.",
+      "poetic_anchor": "la vertigine di una nuvola è il corpo che scopre di essere sospeso"
+    },
+    {
+      "id": "sensation-02",
+      "label": "gli_occhi_chiusi_e_il_tremore",
+      "basho": "Ciro passa sopra campi e prati senza vederli: ha gli occhi chiusi e trema; la paura chiude lo sguardo e restringe il mondo al proprio corpo",
+      "kokyu": "il ritmo è quello del tremito: le frasi sono brevi e il vento porta Ciro 'a spasso per il cielo' mentre lui non guarda; sfiora una montagna, poi un'altra, e il corpo non sa dove si trova",
+      "yūgen": "il paesaggio attraversato e mai visto: il libro mostra ciò che Ciro non vede, e il lettore sente la distanza tra il mondo e lo sguardo",
+      "japanese_echo": "mono no aware — la bellezza del mondo che passa e non viene guardata",
+      "textual_anchor_it": "Passa sopra campi e prati, ma non li vede, ha gli occhi chiusi e trema spaventato.",
+      "poetic_anchor": "chi ha paura attraversa il mondo senza vederlo"
+    }
+  ],
+  "reader_effect": "il lettore riconosce nel corpo la sensazione dello stomaco che si svuota guardando giù; il libro produce la memoria fisica della vertigine come condizione del proprio modo di stare nel mondo, non come difetto",
+  "philosophical_layer": {
+    "core_concept": "la vertigine come percezione della propria sospensione: il corpo scopre di non avere appoggio e questa scoperta è la condizione da cui parte il ciclo",
+    "japanese_resonance": "ma come intervallo percepito: lo spazio vuoto tra le cose non è assenza ma presenza che si sente nel corpo",
+    "scientific_resonance": "il senso dell'equilibrio come campo percettivo: il corpo misura la posizione rispetto al suolo, e per una nuvola il suolo è sempre lontano"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il testo non dice mai perché una nuvola soffra di vertigini: 'è un guaio grandissimo per una nuvola' resta una condizione data, senza origine"
+  },
+  "closure": "se il tuo corpo scoprisse di non poggiare su niente, chiuderesti gli occhi o li apriresti?"
+}
