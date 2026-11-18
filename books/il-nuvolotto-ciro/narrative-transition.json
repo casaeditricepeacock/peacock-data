@@ -9,7 +9,12 @@
     "author": "Giorgio Bagnobianchi",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-04-2",
-    "year": 2024
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
   },
   "transition_types": {
     "wind_crossing": "il vento come operatore di transizione: Ciro non decide dove andare, viene portato",
@@ -18,7 +23,8 @@
     "storm_to_calm": "il passaggio dal temporale alla brezza: la paura massima produce il movimento verso la soluzione",
     "paradox_to_dissolution": "il passaggio dalla ricezione del paradosso al pianto trasformativo",
     "dissolution_to_river": "il passaggio dalla nuvola al rivolo d'acqua: la transizione di stato senza soglia dichiarata",
-    "river_to_rebirth": "il passaggio dal fiume al mare al vapore alla nuvola: il ciclo che si richiude"
+    "river_to_rebirth": "il passaggio dal fiume al mare al vapore alla nuvola: il ciclo che si richiude",
+    "wind_separation": "il vento che separa le due nuvole dopo l'abbraccio e le moltiplica in tanti nuvolotti"
   },
   "editorial_principle": "Le transizioni del nuvolotto Ciro non sono scelte di Ciro: sono movimenti del ciclo. Il vento trasporta, il fulmine attraversa, il pianto dissolve, il sole evaporizza. Ciro subisce le transizioni del ciclo e le abita. L'unica transizione deliberata è quella del pianto: Ciro decide di avere più paura. Tutto il resto lo compie il campo.",
   "transitions": [
@@ -35,8 +41,11 @@
       "affects": {
         "transition-02": "la paura immediata attiva il tentativo di fuga che il vento impedisce"
       },
-      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
-      "glossary_link": ["basho", "kokyu"]
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e ... ha avuto paura.",
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
     },
     {
       "id": "transition-02",
@@ -52,7 +61,10 @@
         "transition-03": "il trasporto passivo porta Ciro all'aereo: il vento genera gli incontri"
       },
       "textual_anchor_it": "Tenta subito di scendere giù, si lascia scivolare verso il mare. Una folata di vento lo riporta in quota.",
-      "glossary_link": ["ma", "basho"]
+      "glossary_link": [
+        "ma",
+        "basho"
+      ]
     },
     {
       "id": "transition-03",
@@ -67,8 +79,11 @@
       "affects": {
         "transition-04": "la dimenticanza temporanea della paura rende visibile che il campo può essere interrotto; prepara la comprensione del paradosso di Cumulina"
       },
-      "textual_anchor_it": "L'aereo si infila nel nuvolotto. Ah ah ah... mi fai il solletico! E la paura? Per un attimo l'ha dimenticata!",
-      "glossary_link": ["kokyu", "ma"]
+      "textual_anchor_it": "L'aereo si infila nel nuvolotto. \"Ah ah ah ... mi fai il solletico\" grida Ciro. / E la paura? Per un attimo l'ha dimenticata! L'aereo si allontana fino a divenire un puntino.",
+      "glossary_link": [
+        "kokyu",
+        "ma"
+      ]
     },
     {
       "id": "transition-04",
@@ -83,8 +98,11 @@
       "affects": {
         "transition-05": "il temporale produce il movimento verso Cumulina: la paura massima è la condizione che porta alla soluzione"
       },
-      "textual_anchor_it": "Il vento si fa più forte e inquieto: il povero nuvolotto finisce nel bel mezzo di un temporale. SKRAK!",
-      "glossary_link": ["kokyu", "basho"]
+      "textual_anchor_it": "Intanto il vento ha cambiato direzione, spinge Ciro verso l'alto mare. Il vento si fa più forte e inquieto: il povero nuvolotto finisce nel bel mezzo di un temporale. SKRAK!",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
     },
     {
       "id": "transition-05",
@@ -100,7 +118,11 @@
         "transition-06": "l'incontro con Cumulina attiva la transizione verso il pianto trasformativo"
       },
       "textual_anchor_it": "Quando finalmente sente il soffio delicato di una brezza si ritrova sopra altri campi, sopra nuove città.",
-      "glossary_link": ["ma", "basho", "kokyu"]
+      "glossary_link": [
+        "ma",
+        "basho",
+        "kokyu"
+      ]
     },
     {
       "id": "transition-06",
@@ -121,7 +143,11 @@
         "transition-07": "la dissoluzione produce il rivolo d'acqua che scorre verso il fiume e il mare"
       },
       "textual_anchor_it": "Con grande impegno, spalanca gli occhi, guarda giù e pensa: ho paura, ho tanta paura, ho le vertigini...",
-      "glossary_link": ["mono no aware", "kokyu", "ma"]
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "ma"
+      ]
     },
     {
       "id": "transition-07",
@@ -137,14 +163,37 @@
         "transition-01": "la rinascita retroagisce sulla prima transizione: lo stesso ciclo, il campo trasformato; nascita e paura si ripetono ma con segno diverso"
       },
       "textual_anchor_it": "Ciro non ha più le vertigini mentre scorre portato dal fiume verso il mare: anzi, felice, canta sommessamente gorgogliando bluuubluu.",
-      "glossary_link": ["mono no aware", "basho", "kokyu"]
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "transition-08",
+      "label": "separazione_nel_vento",
+      "label_en": "separation_in_wind",
+      "type": "wind_separation",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "dal contatto alla dispersione: il vento che aveva spinto Cumulina dentro Ciro ora le allontana e forma tanti nuvolotti che corrono verso la pianura",
+      "kokyu": "il ritmo è quello del distacco dolce: dopo l'attimo dell'abbraccio il vento riprende il movimento, le nuvole diventano molte",
+      "yūgen": "la separazione non è addio: le due nuvole non scompaiono, si moltiplicano; il vento che trasportava Ciro nella paura ora lo porta via con Cumulina nel ciclo",
+      "affects": {
+        "transition-01": "come all'inizio è il vento a portare Ciro, ma il campo è trasformato: la stessa forza non produce più paura"
+      },
+      "textual_anchor_it": "Il vento ora le allontana e forma tanti nuvolotti che corrono via verso la pianura.",
+      "glossary_link": [
+        "kokyu",
+        "basho"
+      ]
     }
   ],
   "system_note": {
-    "transition_count": 7,
+    "transition_count": 8,
     "dominant_field": "transition-06",
     "secondary_field": "transition-07",
-    "narrative_model": "sette transizioni che replicano il ciclo: nascita-paura, fuga-trasporto, paura-riso, riso-temporale, temporale-Cumulina, paradosso-dissoluzione, dissoluzione-rinascita; solo transition-06 è deliberata — tutte le altre sono movimenti del ciclo",
+    "narrative_model": "otto transizioni che replicano il ciclo: nascita-paura, fuga-trasporto, paura-riso, riso-temporale, temporale-Cumulina, paradosso-dissoluzione, dissoluzione-rinascita, contatto-separazione; solo transition-06 è deliberata — tutte le altre sono movimenti del ciclo",
     "agency_note": "transition-06 è l'unica transizione in cui Ciro agisce deliberatamente: tutto il resto è compiuto dal campo",
     "stability": "cyclical_metastable",
     "closure": "open_cycle",
