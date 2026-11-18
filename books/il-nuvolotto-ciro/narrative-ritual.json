@@ -9,7 +9,12 @@
     "author": "Giorgio Bagnobianchi",
     "publisher": "Casa Editrice Peacock",
     "isbn": "979-12-81715-04-2",
-    "year": 2024
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
   },
   "ritual_types": {
     "birth_ritual": "il rituale della nascita dalla condensazione: il vapore sale, si raffredda, la nuvola appare",
@@ -17,7 +22,8 @@
     "wind_transport": "il rituale del trasporto del vento: Ciro non sceglie dove andare, viene portato",
     "paradox_reception": "il rituale della ricezione della soluzione paradossale: ascoltare Cumulina, non capire, fidarsi",
     "dissolution_cry": "il rituale del pianto trasformativo: concentrarsi sulla paura fino a sciogliersi",
-    "rebirth_recognition": "il rituale della rinascita: gli stessi occhi che si aprono, lo stesso cielo, un campo diverso"
+    "rebirth_recognition": "il rituale della rinascita: gli stessi occhi che si aprono, lo stesso cielo, un campo diverso",
+    "contact_ritual": "il rituale del contatto tra nuvole: il vento spinge una nuvola dentro l'altra, la sosta di un attimo, poi la separazione"
   },
   "editorial_principle": "I rituali del nuvolotto Ciro sono tutti rituali del ciclo: nascere, temere, essere trasportati, ricevere, dissolversi, rinascere. Nessun rituale è compiuto per scelta autonoma di Ciro — il ciclo lo compie attraverso di lui. La sua unica azione deliberata è quella di avere ancora più paura su suggerimento di Cumulina.",
   "rituals": [
@@ -35,7 +41,10 @@
         "ritual-02": "la nascita genera immediatamente l'incontro con la paura: aprire gli occhi è il primo atto e la prima soglia"
       },
       "textual_anchor_it": "Oggi, tra le altre, è nato il nuvolotto Ciro.",
-      "glossary_link": ["basho", "kokyu"]
+      "glossary_link": [
+        "basho",
+        "kokyu"
+      ]
     },
     {
       "id": "ritual-02",
@@ -55,8 +64,12 @@
       "affects": {
         "ritual-05": "l'incontro con la paura prepara il rituale del pianto: solo chi ha incontrato abbastanza paura può piangere abbastanza da dissolversi"
       },
-      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e... ha avuto paura.",
-      "glossary_link": ["basho", "ma", "kokyu"]
+      "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, si è reso conto dell'altezza e ... ha avuto paura.",
+      "glossary_link": [
+        "basho",
+        "ma",
+        "kokyu"
+      ]
     },
     {
       "id": "ritual-03",
@@ -72,7 +85,10 @@
         "ritual-04": "il vento porta Ciro da Cumulina: l'incontro con la guida è prodotto dal ciclo, non cercato"
       },
       "textual_anchor_it": "Una folata di vento lo riporta in quota e lo spinge sulla città.",
-      "glossary_link": ["basho", "ma"]
+      "glossary_link": [
+        "basho",
+        "ma"
+      ]
     },
     {
       "id": "ritual-04",
@@ -91,8 +107,11 @@
       "affects": {
         "ritual-05": "la ricezione paradossale attiva il rituale del pianto: Ciro sa cosa fare anche se non sa perché"
       },
-      "textual_anchor_it": "Caro Ciro, non hai abbastanza paura. Prova ad avere più paura, prova con le vertigini!",
-      "glossary_link": ["yūgen", "kokyu"]
+      "textual_anchor_it": "\"Caro Ciro, non hai abbastanza paura\" risponde la nuvola Cumulina \"... perché il nuvolotto che ha veramente paura ... non ti dico altro: prova ad avere più paura, prova con le vertigini!\"",
+      "glossary_link": [
+        "yūgen",
+        "kokyu"
+      ]
     },
     {
       "id": "ritual-05",
@@ -112,7 +131,11 @@
         "ritual-06": "il pianto trasformativo produce il campo della rinascita: la dissoluzione è la condizione necessaria del rituale successivo"
       },
       "textual_anchor_it": "Il nuvolotto Ciro piange, piange e così cade giù in grossi goccioloni di pioggia.",
-      "glossary_link": ["mono no aware", "kokyu", "ma"]
+      "glossary_link": [
+        "mono no aware",
+        "kokyu",
+        "ma"
+      ]
     },
     {
       "id": "ritual-06",
@@ -132,15 +155,43 @@
         "ritual-01": "la rinascita retroagisce sulla prima nascita: il ciclo si chiude e si riapre; la struttura è la stessa, il campo è diverso"
       },
       "textual_anchor_it": "Appena aperti gli occhi, ha guardato a terra, ha visto tutto il mondo colorato di pallidi verdi e azzurri soffusi ed... ha sorriso, felice!",
-      "glossary_link": ["mono no aware", "basho", "kokyu"]
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
+    },
+    {
+      "id": "ritual-07",
+      "label": "abbraccio_nel_vento",
+      "label_en": "embrace_in_wind",
+      "type": "contact_ritual",
+      "intensity": 0.9,
+      "perceptual_weight": 0.88,
+      "basho": "il rituale del contatto al secondo incipit: il vento spinge Cumulina tra le onde di Ciro e le due nuvole si fermano abbracciate; il campo non è più quello della guida e dell'allievo ma quello di due nuvole alla pari",
+      "kokyu": "il ritmo del contatto è quello di un attimo: la spinta del vento, le nuvole che si toccano, la sosta breve, poi il vento che le separa",
+      "yūgen": "il testo dice 'come in un tenero bacio': l'abbraccio è avvicinato a un gesto umano senza trasformare le nuvole in persone; il contatto resta un fenomeno del cielo",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "alla frase di Cumulina 'tu forse non ti ricordi di me' Ciro risponde con un complimento, non con una risposta: l'abbraccio non scioglie il dubbio sulla memoria del ciclo"
+      },
+      "affects": {
+        "ritual-06": "l'abbraccio compie il riconoscimento aperto dalla rinascita: Cumulina e Ciro si ritrovano nel campo trasformato"
+      },
+      "textual_anchor_it": "Una folata di vento spinge Cumulina tra le soffici ovattate onde di Ciro. Le due nuvole rimangono per un attimo abbracciate, come in un tenero bacio.",
+      "glossary_link": [
+        "mono no aware",
+        "basho",
+        "kokyu"
+      ]
     }
   ],
   "system_note": {
-    "ritual_count": 6,
+    "ritual_count": 7,
     "dominant_field": "ritual-02",
     "secondary_field": "ritual-05",
     "system_role": "cycle_as_ritual_structure",
-    "narrative_model": "sei rituali che replicano il ciclo dell'acqua: nascita — paura — trasporto — ricezione — dissoluzione — rinascita; il ciclo è il rituale, non il contenuto",
+    "narrative_model": "sette rituali che replicano il ciclo dell'acqua: nascita — paura — trasporto — ricezione — dissoluzione — rinascita — contatto; il ciclo è il rituale, non il contenuto",
     "reader_effect": "il lettore percepisce che il ciclo non è metafora ma struttura: ogni elemento del sistema narrativo corrisponde a una fase del ciclo dell'acqua",
     "compatibility": "NarrativeObject v4.1 / NarrativeSilence v4.1 / NarrativeSystemGraph v4.1"
   }
