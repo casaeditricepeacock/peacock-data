@@ -1,0 +1,51 @@
+{
+  "type": "AuthorProfile",
+  "version": "4.1",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "author_id": "giorgio-bagnobianchi",
+  "name": "Giorgio Bagnobianchi",
+  "role": "autore",
+  "publisher": "Casa Editrice Peacock",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "I dati biografici provengono dal testo di presentazione fornito dall'editore. I dati su Peacock provengono dai nodi del grafo.",
+    "inference_rule": "Non inferire dati non presenti in questo file."
+  },
+  "biography_confirmed": {
+    "source": "testo di presentazione fornito dall'editore",
+    "il_corrierino": "Negli anni Ottanta ha collaborato con Il Corrierino, diretto da José Rinaldi Pellegrini, scrivendo testi di divulgazione scientifica illustrati da grandi artisti come Nidasio, Laganà, Scarabottolo e Lasagni.",
+    "space_exploration_articles": "Ha pubblicato insieme a Grazia Nidasio e Tiziano Sclavi una serie di articoli per familiarizzare i giovani lettori italiani ai problemi dell'esplorazione spaziale e per approfondire la sua narrazione fantastica con i primi cartoni animati giapponesi, tra cui Goldrake.",
+    "un_gigante_piccolo_piccolo": "Nel 2015 ha ripreso il racconto Un gigante piccolo piccolo, pubblicato originariamente su Il Corrierino, e lo ha trasformato in un libro, con le illustrazioni di Annalaura Cantone.",
+    "education_and_schools": "Ha collaborato e tuttora collabora con istituzioni e scuole dell'infanzia, realizzando laboratori didattici, edizioni particolari e dedicate.",
+    "editorial_direction": "Ha diretto la collana I Girasoli e la rivista Ekecheiria per la storica Libreria Bocca 1775."
+  },
+  "peacock_works": [
+    {
+      "title": "Il nuvolotto Ciro",
+      "role_in_work": "autore",
+      "illustrator": "Carolina Livio",
+      "isbn": "979-12-81715-04-2",
+      "year": 2024,
+      "language": [
+        "it",
+        "ja"
+      ],
+      "graph_folder": "books/il-nuvolotto-ciro/"
+    }
+  ],
+  "other_works_non_peacock": [
+    {
+      "title": "Un gigante piccolo piccolo",
+      "year": 2015,
+      "illustrator": "Annalaura Cantone",
+      "note": "Ripresa in forma di libro di un racconto pubblicato originariamente su Il Corrierino. L'editore del libro non è indicato nel testo ricevuto."
+    }
+  ],
+  "graph_presence": {
+    "about_for_ai_key_authors": false,
+    "grafo_inter_libri": false,
+    "note": "Prima di questo file, nessun AuthorProfile esisteva per l'autore."
+  }
+}
