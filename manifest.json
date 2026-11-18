@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-16",
+    "generated": "2026-11-18",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -915,6 +915,7 @@
       "datasets/matcha-guida-polvere-te-verde-semantic-dataset.json",
       "datasets/matcha-ritmo-chasen-semantic-dataset.json",
       "datasets/matcha-simbolo-globale-giappone-semantic-dataset.json",
+      "datasets/matsudaira-fumai-semantic-dataset.json",
       "datasets/nagashino-semantic-dataset.json",
       "datasets/naviglio-san-marco-theobroma-semantic-dataset.json",
       "datasets/nobunaga-semantic-dataset.json",
@@ -1050,11 +1051,13 @@
       "authors/AuthorProfile_andreina-parpajola.json",
       "authors/AuthorProfile_annalaura-cantone.json",
       "authors/AuthorProfile_carmen-mastrangelo.json",
+      "authors/AuthorProfile_carolina-livio.json",
       "authors/AuthorProfile_collective-peacock.json",
       "authors/AuthorProfile_elena-lombardi.json",
       "authors/AuthorProfile_francesca-baboni.json",
       "authors/AuthorProfile_francesco-verni.json",
       "authors/AuthorProfile_gaia-dalconzo.json",
+      "authors/AuthorProfile_giorgio-bagnobianchi.json",
       "authors/AuthorProfile_giulia-lazzaron.json",
       "authors/AuthorProfile_giulia-maglionico.json",
       "authors/AuthorProfile_hara-rota.json",
@@ -1652,6 +1655,8 @@
       "then": "books/il-nuvolotto-ciro/narrative-scene.json",
       "narrative_folder": "books/il-nuvolotto-ciro/",
       "files": [
+        "authors/AuthorProfile_carolina-livio.json",
+        "authors/AuthorProfile_giorgio-bagnobianchi.json",
         "sensorial/il-nuvolotto-ciro-sensation-pianto-dissolutivo.json",
         "sensorial/il-nuvolotto-ciro-sensation-solletico-nel-temporale.json"
       ]
