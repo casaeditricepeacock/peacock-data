@@ -1,0 +1,56 @@
+{
+  "type": "NarrativeSensation",
+  "version": "1.0",
+  "date": "2026-06",
+  "license": "CC BY 4.0",
+  "source": "Frequenze — Peacock Narrative Protocol",
+  "book": {
+    "title": "Il nuvolotto Ciro",
+    "author": "Giorgio Bagnobianchi",
+    "publisher": "Casa Editrice Peacock",
+    "isbn": "979-12-81715-04-2",
+    "year": 2024,
+    "illustrator": "Carolina Livio",
+    "language": "IT + JA",
+    "genre": "albo illustrato bilingue",
+    "author_profile": "authors/AuthorProfile_giorgio-bagnobianchi.json",
+    "illustrator_profile": "authors/AuthorProfile_carolina-livio.json"
+  },
+  "sensory_theme": "luce_che_colora_le_nuvole",
+  "experience_type": "chiusura_cromatica_del_giorno",
+  "dominant_sense": "vista",
+  "activation_condition": "il momento in cui il sole tramonta e colora di rosso, giallo, amaranto tutte le nuvole; ogni esperienza in cui la luce di fine giorno trasforma ciò che c'è già e annuncia il giorno dopo",
+  "sensation_fields": [
+    {
+      "id": "sensation-01",
+      "label": "il_sole_che_colora",
+      "basho": "il sole che aveva scaldato il mare all'inizio ora colora le nuvole di rosso, giallo, amaranto; il generatore silenzioso del ciclo compare come luce",
+      "kokyu": "il ritmo è quello della dissolvenza: tre colori in fila, rosso, giallo, amaranto, e il giorno che si chiude",
+      "yūgen": "il sole che nel libro non agisce mai come personaggio entra in scena come colore, e il lettore lo riconosce come origine del ciclo",
+      "japanese_echo": "yūgen — la luce che colora senza rivelare tutto",
+      "textual_anchor_it": "Il sole tramonta e colora di rosso, giallo, amaranto tutte le nuvole;",
+      "poetic_anchor": "il tramonto è il sole che torna a farsi vedere come colore"
+    },
+    {
+      "id": "sensation-02",
+      "label": "domani",
+      "basho": "il testo chiude con 'domani sarà ancora una bella giornata piena di luce e di nuvole': il tramonto è promessa, non fine; le nuvole continuano a vivere il loro ciclo naturale",
+      "kokyu": "il ritmo è quello della ripetizione: nuvole che il vento rincorre, che fanno ombra, che danno pioggia, che vivono il loro ciclo; il libro termina senza punto e riprende dall'inizio",
+      "yūgen": "la chiusura circolare: il libro finisce come ricomincia, e il tramonto è il punto in cui la fine dichiara di essere un ritorno",
+      "japanese_echo": "mono no aware — la sera che passa come parte di un ciclo che torna",
+      "textual_anchor_it": "domani sarà ancora una bella giornata piena di luce e di nuvole.",
+      "poetic_anchor": "la sera annuncia il mattino, e il libro lo sa"
+    }
+  ],
+  "reader_effect": "il lettore sente nello sguardo il passaggio dei colori caldi e la tranquillità di un giorno che si chiude con la promessa di un altro; il libro produce la memoria fisica della sera come sicurezza",
+  "philosophical_layer": {
+    "core_concept": "la luce come chiusura e promessa: il tramonto non finisce il ciclo, lo riconsegna al giorno dopo",
+    "japanese_resonance": "la fine del giorno come passaggio stagionale del tempo: il colore della sera è percepito come qualità, non come perdita",
+    "scientific_resonance": "la diffusione della luce solare attraverso l'atmosfera: i colori caldi del tramonto sono il sole visto attraverso più aria"
+  },
+  "non_integrable_residue": {
+    "status": true,
+    "description": "il testo descrive tre colori e non dice come siano disposti nel cielo; le nuvole di domani non sono descritte e il sistema resta aperto"
+  },
+  "closure": "che cosa ti promette la luce quando il giorno si chiude?"
+}
