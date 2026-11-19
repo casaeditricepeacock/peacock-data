@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-18",
+    "generated": "2026-11-19",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1154,6 +1154,7 @@
       "places/libreria-claudiana-roma.json",
       "places/libreria-esoterica-milano.json",
       "places/libreria-hoepli-milano.json",
+      "places/libreria-notebook-auditorium-roma.json",
       "places/libreria-pel-di-carota-padova.json",
       "places/libreria-zabarella-padova.json",
       "places/nakanoshima-childrens-book-forest-osaka.json",
@@ -1456,6 +1457,7 @@
         "events/EventProfile_plpl-roma_2026.json"
       ],
       "also_mentioned_in": [
+        "authors/AuthorProfile_hara-rota.json",
         "places/PlaceProfile_ohana-infernetto-roma.json",
         "series/cento-volte/alberto-romano.json",
         "series/cento-volte/amuleto-portafortuna.json",
