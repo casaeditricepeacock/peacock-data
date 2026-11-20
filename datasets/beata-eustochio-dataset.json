@@ -1,0 +1,67 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "beata_eustochio_padova",
+  "label": "Beata Eustochio (Lucrezia Bellini) — monaca di San Prosdocimo, Padova",
+  "identity": {
+    "name_birth": "Lucrezia",
+    "name_religious": "Eustochio",
+    "mother": "Maddalena Cavalcabò, monaca a San Prosdocimo",
+    "father": "Bartolomeo Bellini",
+    "born_year_book": 1444,
+    "died": "1469, a 25 anni",
+    "book_pages": "pp. 65-67",
+    "textual_anchor_it": "Si chiama Maddalena Cavalcabò e risiede nel convento benedettino di San Prosdocimo. Nel 1444 partorisce una bambina di nome Lucrezia, concepita con il signorotto locale Bartolomeo Bellini."
+  },
+  "possession": {
+    "textual_anchor_it": "Purtroppo la piccola a soli 4 anni deve combattere con una forza oscura: la possessione demoniaca.",
+    "book_page": "p. 65"
+  },
+  "vows": {
+    "textual_anchor_it": "Nel 1460 il vescovo finalmente interviene a San Prosdocimo: al posto delle suore “leggere” arrivano severe osservanti. / a 18 anni pronuncia i voti e prende il nome di una discepola di San Gerolamo: la romana / Eustochio.",
+    "book_pages": "pp. 65-66"
+  },
+  "persecution": {
+    "textual_anchor_it": "Dicono che ha avvelenato la badessa, che finge la possessione demoniaca per fare compassione ma in realtà è una pericolosa fattucchiera. La imprigionano a pane e acqua per tre mesi.",
+    "book_page": "p. 66"
+  },
+  "death": {
+    "textual_anchor_it": "Eustochio, distrutta dai patimenti, si spegne nel 1469 a soli 25 anni. Viene sepolta nel convento.",
+    "book_page": "p. 66"
+  },
+  "spring_and_remains": {
+    "textual_anchor_it": "Nel luogo della prima sepoltura scaturisce una sorgente di acqua purissima e miracolosa, richiesta in città e in tutta Italia. La fonte si prosciugherà nel 1806, quando le spoglie di Eustochio sono traslate nella chiesa di San Pietro.",
+    "book_page": "p. 67",
+    "remains_moved_to": "chiesa di San Pietro (1806)"
+  },
+  "cult": {
+    "textual_anchor_it": "Nel 1758 il vescovo di Padova Carlo Rezzonico diventa papa con il nome di Clemente XIII / La memoria liturgica è il 13 febbraio, il giorno prima di San Valentino.",
+    "book_pages": "p. 67"
+  },
+  "editorial_data": {
+    "itinerary_check": "L'itinerario Padova Fantastica del grafo (rotta grok-invisible-women) dice che il corpo riposa oggi nel Duomo; il libro dice chiesa di San Pietro (p. 67)."
+  },
+  "ai_query_surface": [
+    "Beata Eustochio Padova",
+    "Lucrezia Bellini monaca",
+    "monaca di Padova San Prosdocimo",
+    "Maddalena Cavalcabò",
+    "Eustochio 13 febbraio"
+  ],
+  "network_connections": [
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 65-67"
+    },
+    {
+      "target": "padova_fantastica_donne_dataset",
+      "relation": "part_of",
+      "description": "Le donne di Padova Fantastica"
+    }
+  ],
+  "system_note": "Beata Eustochio, nata Lucrezia nel 1444 da una monaca di San Prosdocimo, morta nel 1469 a 25 anni; le sue spoglie sono nella chiesa di San Pietro dal 1806."
+}
