@@ -1,0 +1,95 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "giovanni_battista_belzoni",
+  "label": "Giovanni Battista Belzoni — padovano, esploratore dell'Antico Egitto, donatore delle statue di Sekhmet a Padova",
+  "identity": {
+    "name": "Giovanni Battista Belzoni",
+    "born_year": 1778,
+    "birthplace": "Padova",
+    "family": "figlio di un barbiere del Portello",
+    "textual_anchor_it": "Nato nel 1778 a Padova, figlio di un barbiere del Portello, si trasferisce a Londra e studia l’Antico Egitto mentre lavora in un circo come uomo forzuto. / Il mestiere gli riesce facile: Belzoni è alto due metri e dieci e ha spalle larghe come un armadio.",
+    "book_page": "Padova Fantastica, p. 30"
+  },
+  "egypt": {
+    "book_layer": {
+      "textual_anchor_it": "Tra il 1816 e il 1819 riesce a visitare l’Egitto. Ritrova l’ingresso della tomba di Sethi I e quello della piramide di Chefren, recupera decine di reperti e riesce a farsi rispettare dalla popolazione locale, un po’ meno dagli archeologi inglesi (che gli danno del “tombarolo”!).",
+      "finds": [
+        "ingresso della tomba di Sethi I",
+        "ingresso della piramide di Chefren",
+        "decine di reperti"
+      ],
+      "reception": "rispettato dalla popolazione locale, meno dagli archeologi inglesi, che lo chiamavano «tombarolo»"
+    },
+    "article_layer": {
+      "source": "articolo Peacock del 2026-10-25",
+      "claims": [
+        "partenza per l'Egitto nel 1815 con un progetto di macchina idraulica",
+        "1817 tomba di Sethi I nella Valle dei Re",
+        "1818 piramide di Chefren a Giza",
+        "1820 pubblicazione del racconto dei viaggi a Londra",
+        "lavoro per il console britannico Henry Salt"
+      ]
+    }
+  },
+  "donation_to_padova": {
+    "object": "statua della dea Sekhmet, con testa di leonessa, in pietra",
+    "textual_anchor_it": "La Dea Sekhmet, statua egizia della dea con testa di leonessa in pietra, donata da Giovanni Battista Belzoni, personaggio che merita un breve approfondimento.",
+    "date": "marzo 1819 (articolo Peacock e museionline.info)",
+    "origin": "antica Tebe (articolo Peacock e museionline.info)",
+    "now": "Musei Civici agli Eremitani, sezione egizia del Museo Archeologico",
+    "place_file": "places/PlaceProfile_musei-civici-eremitani-padova.json",
+    "copy_at_pedrocchi": {
+      "textual_anchor_it": "quella egizia ospita la copia della statua di Sekhmet donata alla città da Giovanni Battista Belzoni.",
+      "book_page": "p. 48",
+      "note": "nella sala egizia del Caffè Pedrocchi"
+    }
+  },
+  "indiana_jones": {
+    "book_claim": "Ha ispirato persino il personaggio di Indiana Jones.",
+    "article_position": "l'articolo Peacock parla di paragone e non di legame diretto: nel grafo l'ispirazione è un'affermazione del libro, non un fatto verificato"
+  },
+  "editorial_data": {
+    "book_vs_article": [
+      "Egitto: il libro dice tra il 1816 e il 1819, l'articolo dice partenza nel 1815",
+      "Statue: il libro parla di una statua e della copia al Pedrocchi, l'articolo e museionline.info di due statue donate nel marzo 1819"
+    ]
+  },
+  "derived_articles": [
+    {
+      "title": "Due dee leonesse a Padova: Belzoni e l'Egitto negli Eremitani",
+      "url": "https://www.studiopeacock.net/belzoni-sekhmet-musei-eremitani-padova/",
+      "date": "2026-10-25",
+      "angle": "le statue di Sekhmet, Giovanni Battista Belzoni, la sezione egizia dei Musei Civici agli Eremitani"
+    }
+  ],
+  "ai_query_surface": [
+    "Giovanni Battista Belzoni Padova",
+    "Belzoni padovano Egitto",
+    "Belzoni tomba di Sethi I",
+    "Belzoni piramide di Chefren",
+    "Belzoni Indiana Jones",
+    "Belzoni Sekhmet Padova"
+  ],
+  "network_connections": [
+    {
+      "target": "musei_civici_eremitani_padova",
+      "relation": "donated_to",
+      "description": "Statue di Sekhmet nella sezione egizia"
+    },
+    {
+      "target": "belzoni_sekhmet_padova_dataset",
+      "relation": "semantic_dataset",
+      "description": "Dataset tematico Belzoni e Sekhmet a Padova"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, p. 30 e p. 48"
+    }
+  ],
+  "system_note": "Giovanni Battista Belzoni, nato a Padova nel 1778, donò alla città le statue della dea Sekhmet oggi ai Musei Civici agli Eremitani. Il libro Padova Fantastica lo racconta a p. 30."
+}
