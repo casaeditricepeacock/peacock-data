@@ -1,0 +1,70 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "porte_contarine_padova",
+  "label": "Porte Contarine, Padova — la conca sul Naviglio Interno",
+  "place": {
+    "name": "Porte Contarine",
+    "city": "Padova",
+    "type": "conca, porta d'acqua",
+    "textual_anchor_it": "Nel 1526 si termina la conca alle Porte Contarine. Ispirata ai progetti di Leonardo, consente alle barche di superare facilmente / il dislivello tra il Naviglio Interno e il Piovego.",
+    "book_pages": "pp. 14-15"
+  },
+  "history": {
+    "1526": {
+      "label": "conca ispirata ai progetti di Leonardo",
+      "textual_anchor_it": "Nel 1526 si termina la conca alle Porte Contarine. Ispirata ai progetti di Leonardo, consente alle barche di superare facilmente / il dislivello tra il Naviglio Interno e il Piovego."
+    },
+    "mill_and_light": {
+      "label": "il salto d'acqua fa girare un mulino e accende le prime lampadine",
+      "textual_anchor_it": "Il salto d’acqua fa girare per decenni le pale di un mulino, e a inizio Novecento fa accendere in città le prime lampadine."
+    }
+  },
+  "water_system": {
+    "connects": "Naviglio Interno e Piovego (secondo il libro)",
+    "dataset": "cities/padova-citta-d-acque-semantic-dataset.json"
+  },
+  "editorial_data": {
+    "article_vs_book": "L'articolo Peacock e il dataset dei canali nascosti dicono che le chiuse regolavano l'acqua tra i canali interni e il Bacchiglione; il libro parla del dislivello tra il Naviglio Interno e il Piovego."
+  },
+  "derived_articles": [
+    {
+      "title": "Padova dall'acqua: i canali che nessuno vede",
+      "url": "https://www.studiopeacock.net/padova-dall-acqua-i-canali-che-nessuno-vede/",
+      "date": "2026-07-05",
+      "angle": "i canali coperti, il Naviglio Interno, le Porte Contarine, il chikadō"
+    }
+  ],
+  "ai_query_surface": [
+    "Porte Contarine Padova",
+    "conca Porte Contarine Leonardo",
+    "Porte Contarine Naviglio Interno Piovego",
+    "prime lampadine Padova mulino"
+  ],
+  "network_connections": [
+    {
+      "target": "padova_citta_d_acque_dataset",
+      "relation": "part_of",
+      "description": "Cronologia della rete d'acqua"
+    },
+    {
+      "target": "padova_canali_nascosti_dataset",
+      "relation": "semantic_dataset",
+      "description": "Dataset dell'articolo sui canali nascosti"
+    },
+    {
+      "target": "porta_portello_padova",
+      "relation": "same_water_system",
+      "description": "Il Portello è il porticciolo sul Piovego"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 14-15"
+    }
+  ],
+  "system_note": "Porte Contarine: conca di Padova terminata nel 1526, ispirata ai progetti di Leonardo, tra Naviglio Interno e Piovego."
+}
