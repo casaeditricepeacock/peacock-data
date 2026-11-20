@@ -35,14 +35,16 @@
           "latitude": 45.4118177,
           "longitude": 11.8795357,
           "place_id": "ChIJW73scVvafkcRZSwm3eDmeEs",
-          "note": "Giotto's ultramarine sky and its golden stars: the book's cosmic threshold."
+          "note": "Giotto's ultramarine sky and its golden stars: the book's cosmic threshold.",
+          "linked_place_node": "places/cappella-scrovegni-padova.json"
         },
         {
           "name": "Chiesa degli Eremitani",
           "latitude": 45.4106424,
           "longitude": 11.8793126,
           "place_id": "ChIJwVajQ-7afkcRTjqLHSeu-OA",
-          "note": "The scars of the 1944 bombing and Mantegna's fragments: memory that survives as trace."
+          "note": "The scars of the 1944 bombing and Mantegna's fragments: memory that survives as trace.",
+          "linked_place_node": "places/PlaceProfile_musei-civici-eremitani-padova.json"
         },
         {
           "name": "Palazzo del Bo",
@@ -64,7 +66,8 @@
           "longitude": 11.876217,
           "place_id": "ChIJ3eausqzbfkcR56hgp9FOdWs",
           "note": "Isola Memmia and the elliptical canal: a water mirror where stone dissolves into myth.",
-          "linked_graph_node": "cities/prato-della-valle-semantic-dataset.json"
+          "linked_graph_node": "cities/prato-della-valle-semantic-dataset.json",
+          "linked_place_node": "places/PlaceProfile_prato-della-valle-padova.json"
         }
       ]
     },
@@ -117,7 +120,11 @@
     "conceptual/fantastic-padova-en.json",
     "conceptual/padova-fantastica-it.json",
     "cities/padova-canali-semantic-dataset.json",
-    "cities/prato-della-valle-semantic-dataset.json"
+    "cities/prato-della-valle-semantic-dataset.json",
+    "places/PlaceProfile_prato-della-valle-padova.json",
+    "places/PlaceProfile_musei-civici-eremitani-padova.json",
+    "places/PlaceProfile_caffe-pedrocchi-padova.json",
+    "cities/belzoni-sekhmet-padova-semantic-dataset.json"
   ],
   "glossary_terms": [
     "chikado",
