@@ -1,0 +1,62 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "elena_lucrezia_corner_piscopia",
+  "label": "Elena Lucrezia Corner Piscopia — prima donna laureata a Padova",
+  "identity": {
+    "name": "Elena Lucrezia Corner Piscopia",
+    "born": "1646",
+    "born_in": "Venezia",
+    "laurea": "25 giugno 1678, magistra e doctrix philosophiae",
+    "book_pages": "pp. 72, 74-75",
+    "textual_anchor_it": "Qui ha discusso la sua tesi Elena Lucrezia Corner Piscopia, la prima donna laureata a Padova."
+  },
+  "birth_and_education": {
+    "textual_anchor_it": "Elena nasce a Venezia nel 1646 dalla criticatissima relazione del padre con una popolana di rango inferiore. / Fin da piccola Elena riceve dal padre un’istruzione di primo livello: impara latino, ebraico e spagnolo, studia geometria filosofia e soprattutto teologia. Elena infatti è devotissima e nel 1665 si fa oblata benedettina (cioè segue le regole benedettine senza vivere in convento).",
+    "book_page": "p. 74"
+  },
+  "theology_refused": {
+    "textual_anchor_it": "Alla proposta si oppone il vescovo, l’ex studente patavino Gregorio Barbarigo, con l’agghiacciante frase sarebbe un sproposito dotorare una donna.",
+    "book_page": "p. 74"
+  },
+  "degree": {
+    "textual_anchor_it": "Si decide allora per la filosofia. Il 25 giugno 1678 Elena, di fronte a migliaia di persone discute due tesi di Aristotele estratte a sorte e riceve la laurea come magistra e doctrix philosophiae.",
+    "book_page": "p. 74",
+    "ceremony_place": {
+      "textual_anchor_it": "La cerimonia richiama migliaia di persone, e per motivi di spazio non si tiene al Bo ma nella Cattedrale",
+      "place": "Cattedrale di Padova (Duomo)"
+    }
+  },
+  "death": {
+    "textual_anchor_it": "Dopo la laurea Elena si trasferisce a Padova per essere vicina / agli ambienti culturali e scientifici che la hanno accolta con favore. Purtroppo la sua salute peggiora velocemente e muore a soli 38 anni, rimpianta dalla famiglia e dal mondo intellettuale dell’epoca.",
+    "book_pages": "pp. 74-75"
+  },
+  "monument": {
+    "textual_anchor_it": "Nel Palazzo del Bo, ai piedi dello scalone di accesso al loggiato superiore, c’è un monumento in suo onore, opera di Bernardo Tabacco.",
+    "book_page": "p. 75",
+    "place": "Palazzo del Bo, ai piedi dello scalone"
+  },
+  "ai_query_surface": [
+    "Elena Cornaro Piscopia Padova",
+    "prima donna laureata Padova",
+    "Elena Corner laurea 1678",
+    "Gregorio Barbarigo dotorare una donna",
+    "monumento Elena Cornaro Palazzo del Bo"
+  ],
+  "network_connections": [
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 72, 74-75"
+    },
+    {
+      "target": "padova_fantastica_donne_dataset",
+      "relation": "part_of",
+      "description": "Le donne di Padova Fantastica"
+    }
+  ],
+  "system_note": "Elena Lucrezia Corner Piscopia, veneziana, prima donna laureata a Padova: laurea in filosofia il 25 giugno 1678, discussa nella Cattedrale."
+}
