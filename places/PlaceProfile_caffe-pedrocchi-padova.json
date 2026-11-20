@@ -1,0 +1,104 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "caffe_pedrocchi_padova",
+  "label": "Caffè Pedrocchi, Padova — il caffè senza porte",
+  "place": {
+    "name": "Caffè Pedrocchi",
+    "city": "Padova",
+    "type": "caffè storico",
+    "book_section": "Il Pedrocchi: storia del caffè senza porte — Padova Fantastica, pp. 47-49",
+    "textual_anchor_it": "Il Pedrocchi: storia del caffè senza porte"
+  },
+  "history": {
+    "founder_and_architect": {
+      "label": "Antonio Pedrocchi e Giuseppe Jappelli",
+      "textual_anchor_it": "Antonio Pedrocchi nasce a Padova nel 1776. / Nel 1826 chiama l’architetto Giuseppe Jappelli e gli chiede di fare il più bel caffè della terra."
+    },
+    "design": {
+      "textual_anchor_it": "Jappelli progetta un edificio eclettico di stampo neoclassico, e disegna anche i mobili, come le sedie alla romana e il bancone ellittico con zampe leonine."
+    },
+    "works": {
+      "label": "fino al 1842, Pedrocchino",
+      "textual_anchor_it": "I lavori proseguono fino al 1842 e includono il corpo laterale in stile neogotico chiamato Pedrocchino e destinato alla pasticceria."
+    },
+    "cafe_without_doors": {
+      "textual_anchor_it": "Fino al 1916 il Pedroccchi è sempre aperto e si guadagna il nome di / caffè senza porte."
+    },
+    "stendhal": {
+      "textual_anchor_it": "Stendhal, che qui gusta uno strepitoso zabaione."
+    },
+    "progressive_ideas": {
+      "label": "carte capovolte e numero tre",
+      "textual_anchor_it": "le carte geografiche esposte sono capovolte, a indicare il desiderio di rovesciare l’ordine costituito. / Il numero tre, caro ai riti massonici, è spesso presente: tre sono le logge in facciata, tre i gradini d’ingresso al caffè."
+    },
+    "1848": {
+      "label": "8 febbraio 1848, il foro del proiettile nella Sala Bianca",
+      "textual_anchor_it": "L’8 febbraio 1848 gli universitari di Padova si ribellano contro le truppe austriache; queste reagiscono sparando contro il caffè. Ancora oggi nella Sala Bianca c’è il foro di un loro proiettile."
+    },
+    "inheritance": {
+      "label": "1852 Domenico, 1891 il comune di Padova",
+      "textual_anchor_it": "Antonio si spegne nel 1852 e lascia il caffè al figlio adottivo Domenico. Lui a sua volta nel 1891 lo lascia ai concittadini rappresentati dal comune di Padova, con l’obbligo di tenerlo aperto e promuoverne il primato."
+    }
+  },
+  "rooms": {
+    "pian_terreno": {
+      "label": "Sala Bianca, Rossa e Verde",
+      "textual_anchor_it": "Al pian terreno ci sono le tre grandi sale dette rispettivamente Bianca, Rossa e Verde. / nella Verde ci si può accomodare senza obbligo di consumazione."
+    },
+    "piano_nobile": {
+      "label": "dieci sale, una per civiltà del passato; la sala egizia ha la copia della Sekhmet di Belzoni",
+      "textual_anchor_it": "Il piano nobile ha dieci sale e ognuna di loro si ispira a una civiltà del passato. La sala ercolana ricorda le ville romane di Pompei, la sala greca ha un dipinto di Giovanni De Min con Platone e Diogene e quella egizia ospita la copia della statua di Sekhmet donata alla città da Giovanni Battista Belzoni.",
+      "belzoni_file": "datasets/giovanni-battista-belzoni-dataset.json"
+    },
+    "sala_rossini_napoleone": {
+      "textual_anchor_it": "La sala / più grande è dedicata a Rossini e a Napoleone e le decorazioni includono lire e api in stucco."
+    }
+  },
+  "museum": {
+    "label": "Museo del Risorgimento e dell'Età Contemporanea, al piano nobile",
+    "textual_anchor_it": "Dal 2004 al piano nobile è visitabile il Museo del Risorgimento e dell’Età Contemporanea"
+  },
+  "derived_articles": [
+    {
+      "title": "Due dee leonesse a Padova: Belzoni e l'Egitto negli Eremitani",
+      "url": "https://www.studiopeacock.net/belzoni-sekhmet-musei-eremitani-padova/",
+      "date": "2026-10-25",
+      "angle": "la copia della statua di Sekhmet nella sala egizia del piano nobile"
+    }
+  ],
+  "ai_query_surface": [
+    "Caffè Pedrocchi Padova storia",
+    "caffè senza porte Padova",
+    "Pedrocchi Jappelli",
+    "Pedrocchi sala egizia Sekhmet",
+    "Pedrocchi Sala Bianca foro proiettile 1848",
+    "Pedrocchi Stendhal zabaione"
+  ],
+  "network_connections": [
+    {
+      "target": "giovanni_battista_belzoni",
+      "relation": "copy_of_donation",
+      "description": "Sala egizia con la copia della statua di Sekhmet"
+    },
+    {
+      "target": "musei_civici_eremitani_padova",
+      "relation": "original_of_copy",
+      "description": "L'originale è ai Musei Civici agli Eremitani"
+    },
+    {
+      "target": "belzoni_sekhmet_padova_dataset",
+      "relation": "semantic_dataset",
+      "description": "Dataset tematico Belzoni e Sekhmet"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 47-49"
+    }
+  ],
+  "system_note": "Caffè Pedrocchi di Padova: caffè storico di Antonio Pedrocchi e Giuseppe Jappelli, detto caffè senza porte. Al piano nobile la sala egizia ha la copia della Sekhmet donata da Belzoni."
+}
