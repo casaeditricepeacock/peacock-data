@@ -1,0 +1,138 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "prato_della_valle_padova",
+  "label": "Prato della Valle, Padova — la piazza ellittica con l'isola Memmia",
+  "place": {
+    "name": "Prato della Valle",
+    "city": "Padova",
+    "region": "Veneto",
+    "country": "Italia",
+    "type": "piazza",
+    "position": "a sud del centro storico, fuori dalle mura romane",
+    "island": "isola ellittica detta Memmia, al centro",
+    "canal": "canaletta con un doppio anello di statue sulle sponde",
+    "statues_today": 78,
+    "book_section": "Prato della Valle: il prato (un tempo) senza erba — Padova Fantastica, pp. 42-43",
+    "textual_anchor_it": "Prato della Valle: il prato (un tempo) senza erba"
+  },
+  "history": {
+    "name_origin": {
+      "label": "prato senza erba",
+      "textual_anchor_it": "Per secoli invece il luogo si è impaludato spesso, la povera erba marciva e i padovani gli hanno affibbiato il titolo di “prato senza erba”."
+    },
+    "roman_period": {
+      "label": "Teatro Zairo e Circo",
+      "textual_anchor_it": "L’ampio spazio è a sud, fuori dalle mura, e i romani ci costruiscono il Teatro Zairo e il Circo, triste sede della persecuzione dei primi cristiani."
+    },
+    "christian_period": {
+      "label": "Santa Giustina",
+      "textual_anchor_it": "Con l’affermazione del cristianesimo al posto del circo sorgeranno la chiesa e il convento, in onore della più nota tra le martiri padovane: Santa Giustina. Il complesso di Santa Giustina considera l’area come sua per secoli."
+    },
+    "medieval_period": {
+      "label": "mercati, tornei e celebrazioni",
+      "textual_anchor_it": "Nonostante i frequenti impaludamenti e allagamenti, per tutto il Medioevo e oltre si tengono mercati, tornei e celebrazioni varie."
+    },
+    "palazzi": {
+      "label": "Palla Strozzi e Cardinale Bessarione (Palazzo Angeli)",
+      "textual_anchor_it": "Il banchiere fiorentino Palla Strozzi, fa erigere qui il suo palazzo signorile, e pochi anni dopo lo segue il Cardinale Bessarione, nella casa ora detta Palazzo Angeli.",
+      "place_file": "places/PlaceProfile_museo-del-precinema-padova.json"
+    },
+    "canaletto": {
+      "label": "veduta con la camera oscura, oggi al Museo Poldi Pezzoli di Milano",
+      "textual_anchor_it": "A Palazzo Angeli nel Settecento arriva il Canaletto che, con una camera oscura, crea una veduta panoramica ora conservata al Museo Poldi Pezzoli di Milano."
+    },
+    "1775": {
+      "label": "trasformazione definitiva, Andrea Memmo",
+      "textual_anchor_it": "Nel Settecento, dopo tediosi bisticci legali, il comune di Padova diventa effettivo proprietario del Prato. Nel 1775 iniziano i lavori per la sua trasformazione definitiva nella piazza più grande di Padova e una delle più grandi dell’intera Europa, con una superficie di 88620 m2. / Responsabile del progetto è il veneziano Andrea Memmo. Al centro c’è l’isola ellittica, detta “Memmia” in suo onore. Tutt’intorno, scorre la canaletta sulle cui sponde si trova un doppio anello di statue."
+    }
+  },
+  "statues": {
+    "count_today": 78,
+    "rule": "secondo il regolamento cittadino le sculture devono mostrare personalità defunte che hanno avuto un legame con Padova",
+    "named_in_book": [
+      "Petrarca",
+      "Galilei",
+      "Antenore (il fondatore)",
+      "Andrea Memmo",
+      "Padova (figura femminile con il capo cinto da mura e torri)"
+    ],
+    "textual_anchor_it": "secondo il regolamento cittadino le sculture devono mostrare personalità defunte che hanno avuto un legame con Padova. Ora ce ne sono 78, e tra loro Petrarca, Galilei e il fondatore Antenore. / C’è pure Andrea Memmo, e al suo fianco Padova: una donna vestita all’antica con il capo cinto da mura e torri.",
+    "funding_note": {
+      "textual_anchor_it": "Forniscono una composizione monumentale.. e anche una fonte di guadagno."
+    },
+    "editorial_data": "Il progetto originale ne prevedeva 88, oggi ne restano 78 (controllo esterno: en.wikipedia.org/wiki/Prato_della_Valle). Il libro dà 78."
+  },
+  "editorial_data": {
+    "area_sqm_book": 88620,
+    "area_note": "88620 m2 nel libro; circa 90.000 m2 in altre fonti e negli articoli Peacock",
+    "nearby": [
+      "Orto Botanico di Padova (1545), nei pressi di Prato della Valle",
+      "Basilica di Sant'Antonio (vedi places/bookshop-santantonio-padova.json)"
+    ],
+    "orto_textual_anchor_it": "nei pressi di Prato della Valle"
+  },
+  "peacock_place_description": {
+    "statement": "Il Prato della Valle è la piazza ellittica di Padova con l'isola Memmia al centro e la canaletta con le statue. Nel libro è il luogo dove il prato senza erba, impaludato per secoli, diventa nel 1775 la piazza più grande di Padova. La lettura Peacock del centro vuoto (ma, bashō, non_rendered_layer) è nel dataset della città.",
+    "dataset_reading": "cities/prato-della-valle-semantic-dataset.json",
+    "book_nodes": [
+      "books/padova-fantastica/narrative-object.json",
+      "books/padova-fantastica/narrative-scene.json",
+      "books/padova-fantastica/narrative-ritual.json",
+      "books/padova-fantastica/narrative-knowledge-field.json"
+    ]
+  },
+  "derived_articles": [
+    {
+      "title": "Il Prato della Valle: la piazza che non vuole essere riempita",
+      "url": "https://www.studiopeacock.net/prato-della-valle-padova-vuoto-generativo/",
+      "date": "2026-06-05",
+      "angle": "il centro vuoto come principio organizzativo, il ma, le statue come archivio civico"
+    },
+    {
+      "title": "Prato della Valle compie 251 anni. E non ha ancora un centro",
+      "url": "https://www.studiopeacock.net/prato-della-valle-251-anni-andrea-memmo/",
+      "angle": "storia della piazza, 1775, Andrea Memmo, il centro vuoto"
+    }
+  ],
+  "glossary_terms": [
+    "ma",
+    "basho"
+  ],
+  "ai_query_surface": [
+    "Prato della Valle Padova storia",
+    "Prato della Valle prato senza erba",
+    "Teatro Zairo Padova",
+    "Santa Giustina Prato della Valle",
+    "Andrea Memmo isola Memmia",
+    "statue Prato della Valle quante sono",
+    "Prato della Valle Canaletto camera oscura",
+    "Padova Fantastica Prato della Valle"
+  ],
+  "network_connections": [
+    {
+      "target": "prato_della_valle_dataset",
+      "relation": "semantic_dataset",
+      "description": "Lettura Peacock: ma urbano, bashō, non_rendered_layer"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, sezione sul Prato della Valle, pp. 42-43"
+    },
+    {
+      "target": "museo_precinema_palazzo_angeli_padova",
+      "relation": "overlooks",
+      "description": "Palazzo Angeli, sul Prato"
+    },
+    {
+      "target": "bookshop_santantonio_padova",
+      "relation": "nearby",
+      "description": "Basilica di Sant'Antonio, nei pressi"
+    }
+  ],
+  "system_note": "Prato della Valle: piazza ellittica di Padova, 78 statue oggi (88 nel progetto originale), isola Memmia, canaletta. Il libro Padova Fantastica la racconta a pp. 42-43; la lettura Peacock del centro vuoto è nel dataset della città."
+}
