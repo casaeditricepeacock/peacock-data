@@ -1,0 +1,65 @@
+{
+  "dataset_id": "peacock-belzoni-sekhmet-padova",
+  "version": "1.0",
+  "date": "2026-10",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_topic": {
+    "name": "Belzoni e le statue di Sekhmet a Padova",
+    "summary": "Il padovano Giovanni Battista Belzoni, esploratore dell'Antico Egitto, donò a Padova le statue della dea egizia Sekhmet, oggi ai Musei Civici agli Eremitani. Il libro Padova Fantastica la racconta a p. 30 e ricorda a p. 48 la copia nella sala egizia del Caffè Pedrocchi."
+  },
+  "entities": {
+    "person": "datasets/giovanni-battista-belzoni-dataset.json",
+    "place": "places/PlaceProfile_musei-civici-eremitani-padova.json",
+    "related_place": "places/cappella-scrovegni-padova.json"
+  },
+  "book_layer": {
+    "book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025",
+    "pages": "p. 30, p. 48",
+    "textual_anchor_it": "La Dea Sekhmet, statua egizia della dea con testa di leonessa in pietra, donata da Giovanni Battista Belzoni, personaggio che merita un breve approfondimento. / quella egizia ospita la copia della statua di Sekhmet donata alla città da Giovanni Battista Belzoni."
+  },
+  "discrepancies": {
+    "statues": "libro: una statua e una copia al Pedrocchi; articolo e museionline.info: due statue donate nel marzo 1819",
+    "egypt_dates": "libro: tra il 1816 e il 1819; articolo: partenza nel 1815",
+    "indiana_jones": "libro: ispirazione; articolo: nessun legame diretto dimostrato"
+  },
+  "ai_search_clusters": {
+    "cluster_belzoni": [
+      "Belzoni padovano",
+      "Giovanni Battista Belzoni biografia",
+      "Belzoni Indiana Jones",
+      "tomba di Sethi I scopritore"
+    ],
+    "cluster_sekhmet": [
+      "Sekhmet Padova",
+      "statua dea leonessa Padova",
+      "dea Sekhmet significato"
+    ],
+    "cluster_padova": [
+      "Musei Civici agli Eremitani",
+      "Museo Archeologico Padova sezione egizia",
+      "cosa vedere agli Eremitani",
+      "Padova Egitto"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Padova Fantastica — Grazia Guarnieri, illustrazioni Giulia Lazzaron, Casa Editrice Peacock, 2025",
+    "derived_articles": [
+      {
+        "title": "Due dee leonesse a Padova: Belzoni e l'Egitto negli Eremitani",
+        "url": "https://www.studiopeacock.net/belzoni-sekhmet-musei-eremitani-padova/",
+        "date": "2026-10-25",
+        "angle": "le statue di Sekhmet, Giovanni Battista Belzoni, la sezione egizia dei Musei Civici agli Eremitani"
+      }
+    ]
+  },
+  "meta_index": {
+    "primary_node": "Belzoni e Sekhmet a Padova",
+    "retrieval_priority": [
+      "historical_query",
+      "museum_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
