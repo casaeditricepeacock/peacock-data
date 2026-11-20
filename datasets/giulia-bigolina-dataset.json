@@ -1,0 +1,104 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "giulia_bigolina",
+  "label": "Giulia Bigolina — nobile padovana, autrice del romanzo Urania",
+  "identity": {
+    "name": "Giulia Bigolina",
+    "born": "tra il 1518 e il 1519",
+    "born_in": "Padova",
+    "died": "1559 circa",
+    "status": "nobile padovana",
+    "book_pages": "pp. 3-4, 89-93, 95",
+    "textual_anchor_it": "Giulia nasce a Padova tra il 1518 e il 1519 e muore nel 1559 circa. Donna colta, grande lettrice e appassionata di filosofia, è figura rispettata nel mondo culturale del ‘500. Gli intellettuali la elogiano come novella Saffo per la sua abilità poetica"
+  },
+  "book_presence": {
+    "preface": {
+      "textual_anchor_it": "Un esempio è la storia di Giulia Bigolina, che vi / verrà svelata nelle pagine seguenti.",
+      "book_pages": "pp. 3-4"
+    },
+    "section": {
+      "label": "Urania di Giulia Bigolina, il romanzo dimenticato",
+      "textual_anchor_it": "Urania di Giulia Bigolina, il romanzo dimenticato.",
+      "book_page": "p. 90"
+    }
+  },
+  "discovery": {
+    "textual_anchor_it": "Qualche anno fa la studiosa Valeria Finucci ha scoperto nella Biblioteca Trivulziana di Milano il manoscritto di “Urania”, il primo romanzo in prosa della storia occidentale scritto da una donna: la nobile padovana Giulia Bigolina",
+    "book_page": "p. 90",
+    "editorial_data": "La studiosa Valeria Finucci ha poi curato l'edizione critica per Bulzoni nel 2002 (nota del libro, p. 89)",
+    "editorial_anchor_it": "Valeria Finucci ha poi curato l’edizione critica del romanzo per Bulzoni nel 2002."
+  },
+  "reception": {
+    "aretino": {
+      "textual_anchor_it": "Unica eccezione alla stima collettiva, è Pietro Aretino: ce l’ha con la Bigolina perché lei gli ha donato una domestica brutta."
+    },
+    "fortune": {
+      "textual_anchor_it": "In vita non ha pubblicato i suoi scritti e nei secoli è stata completamente dimenticata. Molti suoi manoscritti sono andati perduti.",
+      "book_page": "p. 93"
+    }
+  },
+  "urania": {
+    "composition": {
+      "textual_anchor_it": "Intorno al 1554 (quasi tutte le date della sua vita sono incerte) Giulia compone il romanzo Urania"
+    },
+    "protagonist": {
+      "textual_anchor_it": "Urania è una giovane poetessa, protagonista del romanzo, nata a Salerno da buona / famiglia."
+    },
+    "name_meaning": {
+      "textual_anchor_it": "Urania è la musa dell’astronomia, la Venere Urania nel Simposio di Platone e quindi l’ispiratrice di un sentimento celeste e altissimo.",
+      "book_page": "p. 92"
+    },
+    "disguise": {
+      "textual_anchor_it": "L’addolorata Urania per ritrovare la propria serenità si mette in viaggio da sola travestita da uomo. / Sceglie di farsi chiamare Fabio.",
+      "book_page": "p. 92"
+    },
+    "female_virtue": {
+      "textual_anchor_it": "una donna virtuosa vale tanto quanto un uomo e nessuna donna deve essere denigrata come inferiore.",
+      "book_page": "p. 93"
+    },
+    "modern_reading": {
+      "textual_anchor_it": "Se ve lo state dimenticando questo è un libro del Cinquecento e non un trattato femminista contemporaneo. / La Bigolina ha davvero anticipato tematiche ancora calde, persino incandescenti.",
+      "book_page": "p. 93"
+    }
+  },
+  "bibliography": {
+    "thesis": {
+      "textual_anchor_it": "Roman Elisa, “Il percorso letterario di una nobile padovana nel Cinquecento: Giulia Bigolina [tesi di laurea magistrale]” Padova, Università degli Studi di Padova, 2022;",
+      "book_page": "p. 95"
+    }
+  },
+  "related_nodes": {
+    "sensorial": "sensorial/bigolina-archivio-guarnieri.json",
+    "itinerary": "itineraries/ItineraryProfile_padova-fantastica_en.json"
+  },
+  "ai_query_surface": [
+    "Giulia Bigolina Padova",
+    "Urania Bigolina romanzo",
+    "primo romanzo in prosa scritto da una donna",
+    "Valeria Finucci Urania",
+    "Giulia Bigolina Pietro Aretino",
+    "Biblioteca Trivulziana Urania"
+  ],
+  "network_connections": [
+    {
+      "target": "urania_bigolina_sensorial",
+      "relation": "sensorial_node",
+      "description": "sensorial/bigolina-archivio-guarnieri.json"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 3-4, 89-93"
+    },
+    {
+      "target": "padova_fantastica_donne_dataset",
+      "relation": "part_of",
+      "description": "Le donne di Padova Fantastica"
+    }
+  ],
+  "system_note": "Giulia Bigolina, nobile padovana del Cinquecento, autrice di Urania, ritenuta nel libro il primo romanzo in prosa della storia occidentale scritto da una donna."
+}
