@@ -1,0 +1,67 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "porta_portello_padova",
+  "label": "Porta del Portello (Porta Omnium Sanctorum), Padova — il porticciolo sul Piovego",
+  "place": {
+    "name": "Porta Omnium Sanctorum o del Portello",
+    "city": "Padova",
+    "type": "porta e porticciolo sul canale Piovego",
+    "textual_anchor_it": "Il 12 giugno 1519 con una sfarzosa cerimonia viene inaugurata la Porta Omnium Sanctorum o del Portello. Ha il compito di proteggere il Portello, il porticciolo sul Piovego.",
+    "book_page": "p. 14"
+  },
+  "architecture": {
+    "textual_anchor_it": "Il lato rivolto verso Venezia presenta un monumentale arco trionfale in candida pietra d’Istria, con quattro coppie di colonne sormontate da un architrave, decorato con quattro palle di cannone in grigia trachite. Sulla sommità si aggiunge nel 1535 una torretta con orologio, sormontata da un padiglione ottagonale in pietra di Nanto.",
+    "symbolism": {
+      "textual_anchor_it": "La costruzione è solennemente sborona, progettata come simbolo della potenza politica e delle abilità ingegneristiche veneziane. Canaletto l’ha immortalata in una sua veduta, ora al Museo madrileno Thyssen - Bornemisza."
+    }
+  },
+  "water_life": {
+    "landing": {
+      "textual_anchor_it": "I burchielli attraccano alla scalinata accanto al Portello, di fianco all’Edicola di Santa Maria dei Barcaioli dove si assiste alla messa."
+    },
+    "boats": {
+      "textual_anchor_it": "La crescita della navigazione è tale da sviluppare una vera cultura dell’acqua, con le sue tradizioni e le sue parole. Il burcio e la peata sono le imbarcazioni grosse per le merci. Il burchiello è la raffinata imbarcazione per passeggeri usata per le gite lungo il Brenta."
+    },
+    "rowing": {
+      "textual_anchor_it": "Le barche non hanno timone e il barcaiolo le conduce in piedi con il remo vicino alla prua: è la voga alla veneta."
+    }
+  },
+  "editorial_data": {
+    "belzoni": "Nel libro Giovanni Battista Belzoni è figlio di un barbiere del Portello (p. 30)",
+    "belzoni_file": "datasets/giovanni-battista-belzoni-dataset.json"
+  },
+  "ai_query_surface": [
+    "Porta Portello Padova",
+    "Porta Omnium Sanctorum",
+    "Portello Padova Piovego",
+    "Edicola Santa Maria dei Barcaioli",
+    "Canaletto Portello Padova"
+  ],
+  "network_connections": [
+    {
+      "target": "porte_contarine_padova",
+      "relation": "same_water_system",
+      "description": "Porte Contarine sul Naviglio Interno"
+    },
+    {
+      "target": "giovanni_battista_belzoni",
+      "relation": "birthplace_district",
+      "description": "Belzoni è figlio di un barbiere del Portello"
+    },
+    {
+      "target": "padova_citta_d_acque_dataset",
+      "relation": "part_of",
+      "description": "Cronologia della rete d'acqua"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, p. 14"
+    }
+  ],
+  "system_note": "Porta del Portello di Padova, inaugurata il 12 giugno 1519, protegge il porticciolo sul Piovego."
+}
