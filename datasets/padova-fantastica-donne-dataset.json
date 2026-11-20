@@ -1,0 +1,121 @@
+{
+  "dataset_id": "peacock-padova-fantastica-donne",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_topic": {
+    "name": "Le donne di Padova Fantastica",
+    "summary": "Le donne citate nel libro: l'autrice di Urania, la prima laureata, la beata, la signora che commissiona il Battistero e le committenti delle cappelle degli Eremitani.",
+    "book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025"
+  },
+  "main_figures": [
+    {
+      "name": "Giulia Bigolina",
+      "file": "datasets/giulia-bigolina-dataset.json",
+      "book_pages": "pp. 3-4, 89-93",
+      "textual_anchor_it": "Qualche anno fa la studiosa Valeria Finucci ha scoperto nella Biblioteca Trivulziana di Milano il manoscritto di “Urania”, il primo romanzo in prosa della storia occidentale scritto da una donna: la nobile padovana Giulia Bigolina"
+    },
+    {
+      "name": "Elena Lucrezia Corner Piscopia",
+      "file": "datasets/elena-lucrezia-corner-piscopia-dataset.json",
+      "book_pages": "pp. 72, 74-75",
+      "textual_anchor_it": "Qui ha discusso la sua tesi Elena Lucrezia Corner Piscopia, la prima donna laureata a Padova."
+    },
+    {
+      "name": "Beata Eustochio",
+      "file": "datasets/beata-eustochio-dataset.json",
+      "book_pages": "pp. 65-67",
+      "textual_anchor_it": "Eustochio, distrutta dai patimenti, si spegne nel 1469 a soli 25 anni. Viene sepolta nel convento."
+    },
+    {
+      "name": "Fina Buzzacarrini",
+      "file": "datasets/fina-buzzacarrini-dataset.json",
+      "book_page": "p. 69",
+      "textual_anchor_it": "Fina vuole accrescere il prestigio della sua famiglia con una creazione artistica memorabile. Vuole trasformare l’umile Battistero del Duomo in una sontuosa cappella gentilizia."
+    }
+  ],
+  "eremitani_patrons": [
+    {
+      "name": "Traversina Cortellieri",
+      "role": "committente della Cappella Cortellieri, affrescata da Giusto de' Menabuoi dopo il 1370",
+      "book_pages": "pp. 28-29",
+      "textual_anchor_it": "Agli Eremitani ha anche decorato, dopo il 1370, la Cappella Cortellieri, di cui rimangono pochi resti. Degno di nota è il fatto che l’artista riceva l’incarico per la / Cappella Cortellieri da una donna, Traversina Cortellieri."
+    },
+    {
+      "name": "imperatrice Ovetari",
+      "role": "vedova del notaio Antonio, committente della Cappella Ovetari",
+      "book_page": "p. 29",
+      "textual_anchor_it": "La committenza femminile ritorna agli Eremitani solamente ottanta anni dopo. L’imperatrice Ovetari, vedova del ricco notaio Antonio, fa realizzare la cappella di famiglia a destra dell’altare. / Nasce così la Cappella Ovetari, l’opera chiave del Rinascimento patavino.",
+      "dispute": {
+        "textual_anchor_it": "l’imperatrice querela Andrea per la mancanza di ben quattro apostoli su dodici."
+      }
+    }
+  ],
+  "other_women_in_the_book": [
+    {
+      "name": "Santa Giustina",
+      "note": "martire padovana, il suo complesso considerava l'area del Prato come sua per secoli",
+      "book_page": "p. 42",
+      "textual_anchor_it": "Con l’affermazione del cristianesimo al posto del circo sorgeranno la chiesa e il convento, in onore della più nota tra le martiri padovane: Santa Giustina."
+    },
+    {
+      "name": "Purricina",
+      "note": "schiava, dedica alla stele del marito gladiatore Iuvenis",
+      "book_page": "p. 30",
+      "textual_anchor_it": "la stele è una commossa dedica della schiava Purricina al marito gladiatore Iuvenis morto al quinto combattimento.",
+      "place_file": "places/PlaceProfile_musei-civici-eremitani-padova.json"
+    },
+    {
+      "name": "Charlotte von Stein",
+      "note": "nominata a proposito di Goethe all'Orto Botanico",
+      "book_page": "p. 39",
+      "textual_anchor_it": "Goethe nel 1786 ha da 12 anni una platonicissima relazione con Charlotte von Stein. Non può aspettarsi altro: lei è donna rispettabile, sposata con un barone e madre di 7 figli."
+    },
+    {
+      "name": "Selvaggia",
+      "note": "figlia naturale di Federico II, promessa sposa a Ezzelino da Romano",
+      "section": "La Torlonga, ora Specola",
+      "textual_anchor_it": "Federico II gli promette in sposa la figlia naturale Selvaggia."
+    },
+    {
+      "name": "Padova (figura allegorica)",
+      "note": "statua accanto a Andrea Memmo al Prato della Valle",
+      "book_page": "p. 43",
+      "textual_anchor_it": "C’è pure Andrea Memmo, e al suo fianco Padova: una donna vestita all’antica con il capo cinto da mura e torri.",
+      "place_file": "places/PlaceProfile_prato-della-valle-padova.json"
+    }
+  ],
+  "editorial_data": {
+    "itinerary_checks": [
+      "Itinerario grok-invisible-women: la tappa Santa Maria dei Servi e la contrada dei Colombini per Giulia Bigolina non sono nel libro.",
+      "Itinerario grok-invisible-women: la Beata Eustochio nel Duomo non è nel libro (San Pietro, p. 67).",
+      "Itinerario grok-invisible-women: «prima donna al mondo a laurearsi» è più forte del libro, che dice «la prima donna laureata a Padova» (p. 72)."
+    ]
+  },
+  "ai_search_clusters": {
+    "cluster_women": [
+      "donne famose Padova",
+      "donne di Padova storia",
+      "prima laureata Padova",
+      "prima romanzo scritto da una donna",
+      "Padova Fantastica donne"
+    ],
+    "cluster_book": [
+      "Padova Fantastica Grazia Guarnieri donne",
+      "Guide Fantastiche Padova"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025"
+  },
+  "meta_index": {
+    "primary_node": "Le donne di Padova Fantastica",
+    "retrieval_priority": [
+      "historical_query",
+      "person_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
