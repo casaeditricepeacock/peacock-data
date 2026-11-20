@@ -70,7 +70,7 @@
     "area_sqm_book": 88620,
     "area_note": "88620 m2 nel libro; circa 90.000 m2 in altre fonti e negli articoli Peacock",
     "nearby": [
-      "Orto Botanico di Padova (1545), nei pressi di Prato della Valle",
+      "Orto Botanico di Padova (1545), nei pressi di Prato della Valle (vedi places/PlaceProfile_orto-botanico-padova.json)",
       "Basilica di Sant'Antonio (vedi places/bookshop-santantonio-padova.json)"
     ],
     "orto_textual_anchor_it": "nei pressi di Prato della Valle"
@@ -127,6 +127,11 @@
       "target": "museo_precinema_palazzo_angeli_padova",
       "relation": "overlooks",
       "description": "Palazzo Angeli, sul Prato"
+    },
+    {
+      "target": "orto_botanico_padova",
+      "relation": "nearby",
+      "description": "Orto Botanico, nei pressi"
     },
     {
       "target": "bookshop_santantonio_padova",
