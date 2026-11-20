@@ -79,6 +79,11 @@
       "target": "prato-della-valle",
       "relation": "same_city_padova",
       "description": "Altro luogo-soggetto padovano nel grafo Peacock"
+    },
+    {
+      "target": "musei_civici_eremitani_padova",
+      "relation": "same_site",
+      "description": "Stessa piazza Eremitani: la Croce di Giotto dei Musei Civici fu dipinta per la Cappella"
     }
   ],
   "system_note": "La Cappella degli Scrovegni è un place-monumento (non un punto vendita): è il luogo-soggetto del libro Blu Oltremare. Il nodo registra il legame tra il monumento, il libro e gli articoli derivati, senza attribuire a Peacock una presenza commerciale nel sito. Prima registrazione di un luogo-monumento padovano in places/, complementare ai places/ finora presenti per Padova (solo librerie)."
