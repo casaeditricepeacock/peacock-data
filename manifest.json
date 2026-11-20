@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-19",
+    "generated": "2026-11-20",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -1125,8 +1125,10 @@
       "places/PlaceProfile_kodai-ji-kyoto-mindar.json",
       "places/PlaceProfile_la-nuvola-roma-eur.json",
       "places/PlaceProfile_mudec-milano.json",
+      "places/PlaceProfile_museo-del-precinema-padova.json",
       "places/PlaceProfile_ohana-infernetto-roma.json",
       "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
+      "places/PlaceProfile_prato-della-valle-padova.json",
       "places/biblioteca-ambrosiana-milano.json",
       "places/biblioteca-deamicis-genova.json",
       "places/biblioteca-lagorio-imperia.json",
@@ -1925,7 +1927,9 @@
         "conceptual/padova-fantastica-it.json",
         "events/EventProfile_feltrinelli-padova_2025.json",
         "events/EventProfile_passeggiata-padova-fantastica_2025.json",
-        "itineraries/ItineraryProfile_padova-fantastica_en.json"
+        "itineraries/ItineraryProfile_padova-fantastica_en.json",
+        "places/PlaceProfile_museo-del-precinema-padova.json",
+        "places/PlaceProfile_prato-della-valle-padova.json"
       ],
       "also_mentioned_in": [
         "conceptual/milano-fantastica-it.json",
