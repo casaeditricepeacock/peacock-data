@@ -918,6 +918,7 @@
       "datasets/giulia-bigolina-dataset.json",
       "datasets/honnoji-semantic-dataset.json",
       "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
+      "datasets/johann-wolfgang-von-goethe-dataset.json",
       "datasets/kasane-no-irome-semantic-dataset.json",
       "datasets/la-medusa-e-la-scimmia-testo-bilingue-semantic-dataset.json",
       "datasets/luisfrois-semantic-dataset.json",
@@ -955,6 +956,7 @@
       "cities/milano-cortili-semantic-dataset.json",
       "cities/museo-egizio-torino-semantic-dataset.json",
       "cities/museo-maradona-collezione-vignati-napoli-semantic-dataset.json",
+      "cities/orto-botanico-padova-semantic-dataset.json",
       "cities/padova-canali-semantic-dataset.json",
       "cities/padova-citta-d-acque-semantic-dataset.json",
       "cities/pietro-micca-torino-semantic-dataset.json",
@@ -1137,6 +1139,7 @@
       "places/PlaceProfile_musei-civici-eremitani-padova.json",
       "places/PlaceProfile_museo-del-precinema-padova.json",
       "places/PlaceProfile_ohana-infernetto-roma.json",
+      "places/PlaceProfile_orto-botanico-padova.json",
       "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
       "places/PlaceProfile_porta-portello-padova.json",
       "places/PlaceProfile_porte-contarine-padova.json",
@@ -1933,6 +1936,7 @@
       "files": [
         "authors/AuthorProfile_giulia-lazzaron.json",
         "cities/belzoni-sekhmet-padova-semantic-dataset.json",
+        "cities/orto-botanico-padova-semantic-dataset.json",
         "cities/padova-canali-semantic-dataset.json",
         "cities/padova-citta-d-acque-semantic-dataset.json",
         "cities/prato-della-valle-semantic-dataset.json",
@@ -1944,6 +1948,7 @@
         "events/EventProfile_passeggiata-padova-fantastica_2025.json",
         "itineraries/ItineraryProfile_padova-fantastica_en.json",
         "places/PlaceProfile_museo-del-precinema-padova.json",
+        "places/PlaceProfile_orto-botanico-padova.json",
         "places/PlaceProfile_prato-della-valle-padova.json"
       ],
       "also_mentioned_in": [
