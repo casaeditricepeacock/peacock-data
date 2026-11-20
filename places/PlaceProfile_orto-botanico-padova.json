@@ -1,0 +1,137 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "orto_botanico_padova",
+  "label": "Orto Botanico di Padova — il giardino scientifico del 1545",
+  "place": {
+    "name": "Orto Botanico di Padova",
+    "city": "Padova",
+    "type": "giardino scientifico universitario, nei pressi di Prato della Valle",
+    "textual_anchor_it": "Nel 1545 l’Università risolve i problemi con l’apertura dell’Orto Botanico, il più antico giardino scientifico del mondo ad aver mantenuto sempre la stessa sede, nei pressi di Prato della Valle.",
+    "book_pages": "pp. 38-40"
+  },
+  "origin": {
+    "chair": {
+      "textual_anchor_it": "Nel 1533 l’Università di Padova assegna al Chiarissimo Professore Francesco Bonafede / la cattedra di una nuova disciplina specialistica: la Lectura Simplicium, ovvero lo studio delle erbe medicinali.",
+      "book_page": "p. 38"
+    },
+    "problem": {
+      "textual_anchor_it": "Gli studenti passano ore tra mercati e spezierie, per cercare e acquistare le erbe giuste. Oppure, devono perlustrare i campi e rischiare bastonate di contadini furibondi.",
+      "book_page": "p. 38"
+    },
+    "opening": {
+      "textual_anchor_it": "Nel 1545 l’Università risolve i problemi con l’apertura dell’Orto Botanico, il più antico giardino scientifico del mondo ad aver mantenuto sempre la stessa sede, nei pressi di Prato della Valle.",
+      "book_page": "p. 38"
+    }
+  },
+  "structure": {
+    "symbolic_plan": {
+      "textual_anchor_it": "La struttura dell’Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio. É un luogo di equilibrio, bellezza e armonia tra l’uomo e l’universo.",
+      "book_page": "p. 38"
+    },
+    "wall": {
+      "textual_anchor_it": "L’armonia, ahimè, viene spesso violata dai ladri a caccia delle preziose piante, quindi nel 1552 si costruisce un alto muro di cinta.",
+      "book_page": "p. 38",
+      "later_balustrade": {
+        "textual_anchor_it": "Nel Settecento la muraglia è ingentilita da una balaustra con colonne sormontate da vasi",
+        "book_page": "pp. 38-39"
+      }
+    },
+    "nineteenth_century": {
+      "textual_anchor_it": "Nell’Ottocento arrivano le serre e il Teatro Botanico, aula delle lezioni di botanica.",
+      "book_page": "p. 39"
+    }
+  },
+  "recognition_and_collection": {
+    "unesco": {
+      "textual_anchor_it": "Nel 1997 l’Unesco riconosce l’Orto come patrimonio dell’umanità.",
+      "book_page": "p. 39"
+    },
+    "species": {
+      "textual_anchor_it": "Col tempo il giardino ha accolto più di 3500 specie vegetali.",
+      "book_page": "p. 39"
+    },
+    "biodiversity_garden": {
+      "textual_anchor_it": "Nel 2014 la struttura si amplia con il Giardino della Biodiversità: una galleria di acciaio e vetro con cinque serre che riproducono altrettante condizioni climatiche.",
+      "book_page": "p. 39"
+    }
+  },
+  "museum_and_theatre": {
+    "botanical_museum": {
+      "textual_anchor_it": "Nel 2023 infine, nell’ex casa del prefetto dell’Orto, ha aperto il Museo Botanico. La collezione racconta la storia del luogo, include un’ampia collezione di erbari, e presenta la ricostruzione di una spezieria del Settecento.",
+      "book_page": "p. 39"
+    },
+    "film": {
+      "textual_anchor_it": "Nel Teatro Botanico restaurato si assiste alla proiezione del film La vita delle foglie con protagonista il visitatore più illustre dell’Orto: Johann Wolfgang von Goethe.",
+      "book_page": "p. 39"
+    }
+  },
+  "goethe_palm": {
+    "visit": {
+      "textual_anchor_it": "Il 27 settembre 1786 Goethe visita con entusiasmo l’Orto / Botanico, lo trova grazioso e di aspetto ameno.",
+      "book_pages": "pp. 39-40"
+    },
+    "palm": {
+      "textual_anchor_it": "Il suo occhio di artista e scienziato si posa in particolare su una maestosa palma di San Pietro, messa a dimora già nel 1585.",
+      "book_page": "p. 40"
+    },
+    "quote": {
+      "textual_anchor_it": "Scrive Goethe: “Le foglie che sorgevano dal suolo erano semplici e fatte a lancia; poi andavano dividendosi sempre più, finché apparivano spartite come le dita di una mano spiegata”.",
+      "book_page": "p. 40"
+    },
+    "metamorphosis": {
+      "textual_anchor_it": "L’osservazione della pianta è alla base dei suoi studi di fisiologia vegetale, raccolti nel testo del 1790 “La metamorfosi delle piante”.",
+      "book_page": "p. 40"
+    },
+    "today": {
+      "textual_anchor_it": "Ancora oggi l’albero è chiamato “la palma di Goethe”. Ha raggiunto l’altezza di 12 metri dentro la sua serra ottagonale. E meno male che la chiamano anche palma nana.",
+      "book_page": "p. 40"
+    },
+    "person_file": "datasets/johann-wolfgang-von-goethe-dataset.json"
+  },
+  "editorial_data": {
+    "footnote_bonafede": "Francesco Bonafede (1474-1558), dopo aver studiato medicina a Padova è stato medico e professore (nota 13 del libro, p. 38)",
+    "geometry_reading": "cities/orto-botanico-padova-semantic-dataset.json",
+    "narrative_nodes": [
+      "books/padova-fantastica/narrative-object.json",
+      "books/padova-fantastica/narrative-scene.json",
+      "books/padova-fantastica/narrative-knowledge-field.json",
+      "books/padova-fantastica/narrative-silence.json"
+    ]
+  },
+  "ai_query_surface": [
+    "Orto Botanico Padova",
+    "orto botanico più antico del mondo",
+    "palma di Goethe Padova",
+    "Orto Botanico Padova Unesco",
+    "Lectura Simplicium Padova",
+    "Museo Botanico Padova",
+    "Giardino della Biodiversità Padova"
+  ],
+  "network_connections": [
+    {
+      "target": "prato_della_valle_padova",
+      "relation": "nearby",
+      "description": "L'Orto è nei pressi di Prato della Valle"
+    },
+    {
+      "target": "johann_wolfgang_von_goethe",
+      "relation": "famous_visitor",
+      "description": "Visita del 27 settembre 1786 e palma di Goethe"
+    },
+    {
+      "target": "orto_botanico_padova_dataset",
+      "relation": "semantic_reading",
+      "description": "Lettura Peacock della geometria"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 38-40"
+    }
+  ],
+  "system_note": "Orto Botanico di Padova: aperto nel 1545 per la Lectura Simplicium, nel libro il più antico giardino scientifico del mondo ad aver sempre mantenuto la stessa sede; Unesco dal 1997; qui Goethe nel 1786 osserva la palma di San Pietro del 1585, detta oggi palma di Goethe."
+}
