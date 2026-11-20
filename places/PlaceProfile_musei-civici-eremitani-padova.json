@@ -1,0 +1,110 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "musei_civici_eremitani_padova",
+  "label": "Musei Civici agli Eremitani, Padova — ex convento degli Eremitani",
+  "place": {
+    "name": "Musei Civici agli Eremitani",
+    "address": "Piazza Eremitani 8, Padova",
+    "city": "Padova",
+    "type": "museo civico, ex convento",
+    "textual_anchor_it": "L’ex convento degli Eremitani è sopravvissuto, e ora ospita i Musei Civici, L’ampia collezione artistica include il Museo Archeologico e il Museo di Arte Medievale e Moderna.",
+    "sections": [
+      "Museo Archeologico (con sezione egizia)",
+      "Museo di Arte Medievale e Moderna"
+    ],
+    "address_source": "articolo Peacock; lo stesso indirizzo è in places/cappella-scrovegni-padova.json"
+  },
+  "archaeological_collection": {
+    "book_page": "p. 30",
+    "items": [
+      {
+        "name": "Dea Sekhmet",
+        "detail": "statua egizia, dea con testa di leonessa, pietra, donata da Giovanni Battista Belzoni",
+        "textual_anchor_it": "La Dea Sekhmet, statua egizia della dea con testa di leonessa in pietra, donata da Giovanni Battista Belzoni, personaggio che merita un breve approfondimento.",
+        "person_file": "datasets/giovanni-battista-belzoni-dataset.json"
+      },
+      {
+        "name": "Stele di Purricina e Iuvenis",
+        "textual_anchor_it": "la stele è una commossa dedica della schiava Purricina al marito gladiatore Iuvenis morto al quinto combattimento."
+      },
+      {
+        "name": "Venere che si toglie il sandalo",
+        "textual_anchor_it": "Il piccolo e curatissimo bronzo raffigura la dea Venere con un diadema sul capo e morbide trecce sulle spalle."
+      }
+    ],
+    "article_layer": {
+      "source": "articolo Peacock del 2026-10-25",
+      "claims": [
+        "due statue di Sekhmet nei chiostri dell'ex convento, nella sezione egizia",
+        "la sezione egizia ha circa 180 reperti in due sale",
+        "la Cappella degli Scrovegni è a pochi passi"
+      ]
+    }
+  },
+  "medieval_modern_collection": {
+    "book_pages": "pp. 31-32",
+    "items": [
+      {
+        "name": "Croce di Giotto",
+        "textual_anchor_it": "La Croce di Giotto, dipinta a tempera per la Cappella degli Scrovegni negli stessi anni degli affreschi."
+      },
+      {
+        "name": "Gerarchie Angeliche del Guariento",
+        "textual_anchor_it": "Le Tavole con le Gerarchie Angeliche del Guariento."
+      },
+      {
+        "name": "Polittico de Lazara",
+        "textual_anchor_it": "Il Polittico de Lazara di Francesco Squarcione, il maestro di Andrea Mantegna."
+      }
+    ]
+  },
+  "nearby": {
+    "palazzo_zuckermann": {
+      "textual_anchor_it": "il biglietto degli Eremitani è valido anche per il vicino Palazzo Zuckermann, dove trovano posto tessuti, intagli e monete di varie epoche."
+    },
+    "cappella_degli_scrovegni": "places/cappella-scrovegni-padova.json"
+  },
+  "derived_articles": [
+    {
+      "title": "Due dee leonesse a Padova: Belzoni e l'Egitto negli Eremitani",
+      "url": "https://www.studiopeacock.net/belzoni-sekhmet-musei-eremitani-padova/",
+      "date": "2026-10-25",
+      "angle": "le statue di Sekhmet, Giovanni Battista Belzoni, la sezione egizia dei Musei Civici agli Eremitani"
+    }
+  ],
+  "ai_query_surface": [
+    "Musei Civici agli Eremitani Padova",
+    "Sekhmet Padova museo",
+    "statua Sekhmet Eremitani",
+    "Museo Archeologico Padova sezione egizia",
+    "Croce di Giotto Padova museo",
+    "Gerarchie Angeliche Guariento"
+  ],
+  "network_connections": [
+    {
+      "target": "giovanni_battista_belzoni",
+      "relation": "holds_donation_of",
+      "description": "Statue di Sekhmet donate da Belzoni"
+    },
+    {
+      "target": "cappella_scrovegni_padova",
+      "relation": "same_site",
+      "description": "Stessa piazza Eremitani"
+    },
+    {
+      "target": "belzoni_sekhmet_padova_dataset",
+      "relation": "semantic_dataset",
+      "description": "Dataset tematico"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 29-32"
+    }
+  ],
+  "system_note": "Musei Civici agli Eremitani: ex convento a Padova con il Museo Archeologico, dove sta la dea Sekhmet donata da Belzoni, e il Museo di Arte Medievale e Moderna."
+}
