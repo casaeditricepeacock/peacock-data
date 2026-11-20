@@ -9,7 +9,7 @@
     "city": "Padova",
     "region": "Veneto, Italia",
     "size": "circa 90.000 metri quadrati — tra le piazze più estese d'Europa",
-    "summary": "Una piazza che non si comporta come una piazza. Al centro non c'è un fulcro né un dispositivo monumentale dominante: c'è un'isola ellittica circondata da un canale, con ottantotto statue di uomini illustri lungo il perimetro. Il centro è vuoto — e quel vuoto non funziona come assenza ma come principio organizzativo."
+    "summary": "Una piazza che non si comporta come una piazza. Al centro non c'è un fulcro né un dispositivo monumentale dominante: c'è un'isola ellittica circondata da un canale, con settantotto statue di uomini illustri lungo il perimetro. Il centro è vuoto — e quel vuoto non funziona come assenza ma come principio organizzativo."
   },
   "historical_layer": {
     "roman_period": "In epoca romana il sito ospitava probabilmente strutture per spettacoli pubblici. Alcuni resti di un teatro sono stati individuati nel sottosuolo.",
@@ -21,7 +21,9 @@
       "note": "Memmo non costruisce una piazza nel senso tradizionale. Costruisce un sistema spaziale."
     },
     "statues": {
-      "count": 88,
+      "count": 78,
+      "original_plan": 88,
+      "count_note": "78 oggi secondo il libro Padova Fantastica (p. 43); il progetto originale ne prevedeva 88",
       "subjects": "filosofi, scienziati, letterati, figure politiche e militari legate alla storia padovana",
       "function": "archivio civico stratificato — molti nomi oggi risultano opachi al passante contemporaneo",
       "non_rendered_layer": "Le statue si comportano come uno strato presente ma non sempre leggibile — un non_rendered_layer della memoria urbana. La loro attivazione dipende da un cambio di frequenza: storica, culturale, o semplicemente percettiva."
@@ -46,7 +48,7 @@
   "peacock_editorial_layer": {
     "ma": "Il vuoto centrale del Prato della Valle è ma urbano: non assenza di contenuto ma principio generativo attorno a cui lo spazio si organizza. Ogni attraversamento attiva quel vuoto in modo diverso.",
     "basho": "In Padova Fantastica il Prato della Valle emerge come bashō urbano: la città smette di essere contenitore e diventa campo relazionale. Storia, geometria e attraversamento corporeo interferiscono nello stesso spazio.",
-    "non_rendered_layer": "Le ottantotto statue come non_rendered_layer della memoria civica: presenti ma non sempre leggibili, attivabili solo con il cambio di frequenza giusto.",
+    "non_rendered_layer": "Le settantotto statue come non_rendered_layer della memoria civica: presenti ma non sempre leggibili, attivabili solo con il cambio di frequenza giusto.",
     "yūgen": "La profondità del Prato della Valle non è visibile in superficie: il teatro romano nel sottosuolo, i nomi opachi delle statue, il vuoto che non si spiega ma si abita.",
     "lentezza": "Il Prato non si attraversa in fretta. La struttura dello spazio impone un ritmo — il canale, i ponti, l'isola. Ogni percorso è una scelta, non un corridoio.",
     "connection_to_catalog": "Il Prato della Valle è uno degli spazi centrali di 'Padova Fantastica' di Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025.",
@@ -71,7 +73,7 @@
       "Prato della Valle centro vuoto",
       "isola Memmia Padova",
       "canale ellittico Prato della Valle",
-      "ottantotto statue Prato della Valle",
+      "settantotto statue Prato della Valle",
       "piazza Padova spazio urbano"
     ],
     "cluster_conceptual": [
@@ -106,6 +108,7 @@
   "connection_to_peacock_catalog": {
     "primary_book": "Padova Fantastica — Grazia Guarnieri, illustrazioni Giulia Lazzaron, Casa Editrice Peacock, 2025",
     "role_in_book": "spazio centrale della narrativa urbana padovana",
+    "place_file": "places/PlaceProfile_prato-della-valle-padova.json",
     "linked_conceptual_files": [
       "conceptual/padova-fantastica-it.json",
       "conceptual/fantastic-padova-en.json"
@@ -115,11 +118,11 @@
         "title": "Prato della Valle compie 251 anni. E non ha ancora un centro",
         "url": "https://www.studiopeacock.net/prato-della-valle-251-anni-andrea-memmo/",
         "type": "racconto_editoriale",
-        "focus": "storia della piazza (1775, Andrea Memmo, Domenico Cerato), il centro vuoto come scelta progettuale, le 88 statue come archivio civico, il teatro romano nel sottosuolo, lettura del vuoto come ma",
+        "focus": "storia della piazza (1775, Andrea Memmo, Domenico Cerato), il centro vuoto come scelta progettuale, le statue come archivio civico, il teatro romano nel sottosuolo, lettura del vuoto come ma",
         "note": "Articolo editoriale Peacock legato a Padova Fantastica. Ancora il concetto di centro vuoto al ma 間 senza attribuirlo a Memmo."
       },
       {
-        "title": "Prato della Valle: il vuoto generativo",
+        "title": "Il Prato della Valle: la piazza che non vuole essere riempita",
         "url": "https://www.studiopeacock.net/prato-della-valle-padova-vuoto-generativo/",
         "type": "racconto_editoriale",
         "focus": "il vuoto come principio organizzativo, il sistema spaziale di Memmo, le statue come non-rendered layer della memoria urbana, il Prato come bashō urbano e campo relazionale",
