@@ -1,0 +1,150 @@
+{
+  "dataset_id": "peacock-padova-citta-d-acque-libro",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_place": {
+    "name": "Padova, città d'acque",
+    "city": "Padova",
+    "region": "Veneto, Italia",
+    "book_section": "Padova, città d'acque — Padova Fantastica, pp. 12-16",
+    "textual_anchor_it": "Padova, città d’acque",
+    "summary": "La rete di canali di Padova come la racconta il libro: dal Naviglio Interno dell'XI secolo al Canale di Battaglia, al Piovego, al Brentella, fino alla cultura dell'acqua, all'interramento degli anni '50 e alla ripresa della navigazione."
+  },
+  "origin": {
+    "name": "Patavium",
+    "book_page": "p. 6",
+    "textual_anchor_it": "Patavium significa fiume, corso d’acqua: i Romani hanno notato l’abbondanza di acque nel territorio, sinonimo di fertilità delle terre e possibilità di navigazione fluviale."
+  },
+  "rivers": {
+    "textual_anchor_it": "Bacchiglione a Nord, Brenta a Sud: i due fiumi fanno da confine a Padova, che nei secoli ha plasmato le sue acque creando una complessa rete di canali.",
+    "book_page": "p. 12"
+  },
+  "chronology": [
+    {
+      "when": "XI secolo",
+      "what": "Naviglio Interno",
+      "textual_anchor_it": "già nell’XI secolo è attivo il Naviglio Interno, che percorre il centro cittadino.",
+      "book_page": "p. 12"
+    },
+    {
+      "when": "fino al 1147",
+      "what": "guerra con Vicenza e Canale Bisatto",
+      "textual_anchor_it": "scoppia la guerra con Vicenza e i vicentini scavano per dispetto il Canale Bisatto dove fanno confluire il Bacchiglione. / un brutto giorno e trovare i corsi d’acqua in secca / La pace si conclude solo nel 1147.",
+      "book_pages": "pp. 12-13"
+    },
+    {
+      "when": "1189-1210",
+      "what": "Canale di Battaglia",
+      "textual_anchor_it": "Tra il 1189 e il 1210 viene costruito il Canale di Battaglia. Collega Padova all’avamposto militare di Monselice e alle cave dei materiali da costruzione provenienti dai Colli Euganei: la trachite e la scaglia",
+      "book_page": "p. 13"
+    },
+    {
+      "when": "1209",
+      "what": "Canale Piovego",
+      "textual_anchor_it": "Nel 1209 arriva il canale Piovego, collegamento tra il Naviglio Interno e la laguna veneta. Il nome deriva dal latino publicum, e sottolinea la proprietà pubblica del canale.",
+      "book_page": "p. 13"
+    },
+    {
+      "when": "1314",
+      "what": "Brentella",
+      "textual_anchor_it": "Nel 1314 è scavato il Brentella, che unisce Bacchiglione e Brenta. Nato per regolare il flusso delle acque, è stato poi usato anche per il trasporto di legna, sabbia e ghiaia.",
+      "book_page": "p. 13"
+    },
+    {
+      "when": "dopo i canali lunghi",
+      "what": "fossi, mulini, concerie, fonderie",
+      "textual_anchor_it": "A partire da questi canali più lunghi poi si scavano fossi e altri corsi d’acqua, pronti a movimentare mulini, a mettere in moto concerie e fonderie. Quando Venezia conquista Padova, ne ammoderna le vie d’acqua.",
+      "book_page": "p. 13"
+    },
+    {
+      "when": "1519",
+      "what": "Porta del Portello",
+      "textual_anchor_it": "Il 12 giugno 1519 con una sfarzosa cerimonia viene inaugurata la Porta Omnium Sanctorum o del Portello. Ha il compito di proteggere il Portello, il porticciolo sul Piovego.",
+      "book_page": "p. 14",
+      "place_file": "places/PlaceProfile_porta-portello-padova.json"
+    },
+    {
+      "when": "1526",
+      "what": "conca alle Porte Contarine",
+      "textual_anchor_it": "Nel 1526 si termina la conca alle Porte Contarine. Ispirata ai progetti di Leonardo, consente alle barche di superare facilmente / il dislivello tra il Naviglio Interno e il Piovego.",
+      "book_pages": "pp. 14-15",
+      "place_file": "places/PlaceProfile_porte-contarine-padova.json"
+    },
+    {
+      "when": "anni '50 del Novecento",
+      "what": "interramento di parte dei canali",
+      "textual_anchor_it": "Con il declino del trasporto fluviale però Padova negli anni ‘50 interra parte dei suoi canali. Quelli ancora a cielo aperto finiscono inquinati e trascurati. / Come ha scritto Aldo Comello / Padova ha voluto diventare la Milano del Veneto e, come Milano, ha interrato i suoi corsi d’acqua in una bara di cemento.",
+      "book_page": "p. 15"
+    },
+    {
+      "when": "oggi",
+      "what": "ripresa della navigazione",
+      "textual_anchor_it": "La navigazione fluviale è in piena ripresa, si restaurano le vecchie barche e si organizzano corsi di voga alla veneta.",
+      "book_page": "p. 16"
+    }
+  ],
+  "water_culture": {
+    "book_page": "p. 14",
+    "textual_anchor_it": "La crescita della navigazione è tale da sviluppare una vera cultura dell’acqua, con le sue tradizioni e le sue parole. Il burcio e la peata sono le imbarcazioni grosse per le merci. Il burchiello è la raffinata imbarcazione per passeggeri usata per le gite lungo il Brenta. / Le barche non hanno timone e il barcaiolo le conduce in piedi con il remo vicino alla prua: è la voga alla veneta.",
+    "boats": [
+      "burcio",
+      "peata",
+      "burchiello"
+    ],
+    "rowing": "voga alla veneta",
+    "landing": {
+      "textual_anchor_it": "I burchielli attraccano alla scalinata accanto al Portello, di fianco all’Edicola di Santa Maria dei Barcaioli dove si assiste alla messa."
+    }
+  },
+  "editorial_data": {
+    "aldo_comello_book": "Naviglio interrato, la città cambiò volto (citato nella nota del libro)",
+    "stones": "trachite e scaglia, pietre molto usate nell'edilizia e nell'arredo urbano di Padova (nota del libro)"
+  },
+  "related_nodes": {
+    "article_dataset": "cities/padova-canali-semantic-dataset.json",
+    "sensorial": "sensorial/canale-notte-guarnieri.json"
+  },
+  "ai_search_clusters": {
+    "cluster_historical": [
+      "Naviglio Interno Padova XI secolo",
+      "Canale di Battaglia Padova",
+      "Canale Piovego storia",
+      "Canale Bisatto Vicenza Padova",
+      "Brentella canale Padova",
+      "interramento canali Padova anni cinquanta"
+    ],
+    "cluster_water_culture": [
+      "burchiello Padova",
+      "voga alla veneta Padova",
+      "burcio peata",
+      "navigazione fluviale Padova"
+    ],
+    "cluster_editorial_peacock": [
+      "Padova Fantastica canali",
+      "Padova città d'acque",
+      "Guide Fantastiche Padova"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025",
+    "derived_articles": [
+      {
+        "title": "Padova dall'acqua: i canali che nessuno vede",
+        "url": "https://www.studiopeacock.net/padova-dall-acqua-i-canali-che-nessuno-vede/",
+        "date": "2026-07-05",
+        "angle": "i canali coperti, il Naviglio Interno, le Porte Contarine, il chikadō"
+      }
+    ]
+  },
+  "meta_index": {
+    "primary_node": "Padova città d'acque",
+    "retrieval_priority": [
+      "historical_query",
+      "water_culture_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
