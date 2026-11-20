@@ -12,7 +12,8 @@
   "entities": {
     "person": "datasets/giovanni-battista-belzoni-dataset.json",
     "place": "places/PlaceProfile_musei-civici-eremitani-padova.json",
-    "related_place": "places/cappella-scrovegni-padova.json"
+    "related_place": "places/cappella-scrovegni-padova.json",
+    "copy_place": "places/PlaceProfile_caffe-pedrocchi-padova.json"
   },
   "book_layer": {
     "book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025",
