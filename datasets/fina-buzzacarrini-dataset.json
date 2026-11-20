@@ -1,0 +1,46 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "fina_buzzacarrini",
+  "label": "Fina Buzzacarrini — moglie di Francesco il Vecchio da Carrara, committente del Battistero",
+  "identity": {
+    "name": "Fina Buzzacarrini",
+    "born": "1328",
+    "born_in": "Padova",
+    "married": "1345, a Francesco il Vecchio",
+    "book_page": "p. 69",
+    "textual_anchor_it": "Fina Buzzacarrini nasce a Padova nel 1328, figlia del nobile Pataro, collaboratore dei Da Carrara. Nel 1345 la collaborazione diventa parentela: Fina viene data in sposa a Francesco il Vecchio. Dall’unione nascono quattro figli fra cui Francesco Novello, l’erede della signoria."
+  },
+  "baptistery": {
+    "textual_anchor_it": "Fina vuole accrescere il prestigio della sua famiglia con una creazione artistica memorabile. Vuole trasformare l’umile Battistero del Duomo in una sontuosa cappella gentilizia.",
+    "book_page": "p. 69"
+  },
+  "canon_law": {
+    "textual_anchor_it": "Secondo il diritto canonico non potrebbe, ma in Duomo molti chierici sono suoi parenti.. e approvano l’eccezione."
+  },
+  "frescoes": {
+    "textual_anchor_it": "Il tema pittorico degli affreschi di Giusto de’ Menabuoi realizzati tra il 1375 e il 1378 circa è la Storia della Salvezza"
+  },
+  "ai_query_surface": [
+    "Fina Buzzacarrini Padova",
+    "Battistero del Duomo di Padova Fina",
+    "Giusto de' Menabuoi Battistero",
+    "Francesco il Vecchio da Carrara moglie"
+  ],
+  "network_connections": [
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, p. 69"
+    },
+    {
+      "target": "padova_fantastica_donne_dataset",
+      "relation": "part_of",
+      "description": "Le donne di Padova Fantastica"
+    }
+  ],
+  "system_note": "Fina Buzzacarrini, nata a Padova nel 1328, sposa di Francesco il Vecchio da Carrara, trasforma il Battistero del Duomo in cappella gentilizia con gli affreschi di Giusto de' Menabuoi."
+}
