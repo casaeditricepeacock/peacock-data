@@ -1,0 +1,116 @@
+{
+  "dataset_id": "peacock-orto-botanico-padova-libro",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_place": {
+    "name": "Orto Botanico di Padova",
+    "file": "places/PlaceProfile_orto-botanico-padova.json",
+    "summary": "Dalla cattedra di Lectura Simplicium del 1533 al giardino del 1545, al museo del 2023: il libro lo racconta a pp. 38-40.",
+    "book": "Padova Fantastica — Grazia Guarnieri, illustrazioni di Giulia Lazzaron, Casa Editrice Peacock, 2025"
+  },
+  "chronology": [
+    {
+      "year": 1533,
+      "event": "cattedra di Lectura Simplicium a Francesco Bonafede",
+      "textual_anchor_it": "Nel 1533 l’Università di Padova assegna al Chiarissimo Professore Francesco Bonafede / la cattedra di una nuova disciplina specialistica: la Lectura Simplicium, ovvero lo studio delle erbe medicinali.",
+      "book_page": "p. 38"
+    },
+    {
+      "year": 1545,
+      "event": "apertura dell'Orto Botanico",
+      "textual_anchor_it": "Nel 1545 l’Università risolve i problemi con l’apertura dell’Orto Botanico, il più antico giardino scientifico del mondo ad aver mantenuto sempre la stessa sede, nei pressi di Prato della Valle.",
+      "book_page": "p. 38"
+    },
+    {
+      "year": 1552,
+      "event": "muro di cinta",
+      "textual_anchor_it": "L’armonia, ahimè, viene spesso violata dai ladri a caccia delle preziose piante, quindi nel 1552 si costruisce un alto muro di cinta.",
+      "book_page": "p. 38"
+    },
+    {
+      "year": 1585,
+      "event": "la palma di San Pietro viene messa a dimora",
+      "textual_anchor_it": "Il suo occhio di artista e scienziato si posa in particolare su una maestosa palma di San Pietro, messa a dimora già nel 1585.",
+      "book_page": "p. 40"
+    },
+    {
+      "year": 1786,
+      "event": "visita di Goethe, 27 settembre",
+      "textual_anchor_it": "Il 27 settembre 1786 Goethe visita con entusiasmo l’Orto / Botanico, lo trova grazioso e di aspetto ameno.",
+      "book_pages": "pp. 39-40"
+    },
+    {
+      "year": 1790,
+      "event": "La metamorfosi delle piante",
+      "textual_anchor_it": "L’osservazione della pianta è alla base dei suoi studi di fisiologia vegetale, raccolti nel testo del 1790 “La metamorfosi delle piante”.",
+      "book_page": "p. 40"
+    },
+    {
+      "year": 1997,
+      "event": "riconoscimento Unesco",
+      "textual_anchor_it": "Nel 1997 l’Unesco riconosce l’Orto come patrimonio dell’umanità.",
+      "book_page": "p. 39"
+    },
+    {
+      "year": 2014,
+      "event": "Giardino della Biodiversità",
+      "textual_anchor_it": "Nel 2014 la struttura si amplia con il Giardino della Biodiversità: una galleria di acciaio e vetro con cinque serre che riproducono altrettante condizioni climatiche.",
+      "book_page": "p. 39"
+    },
+    {
+      "year": 2023,
+      "event": "apertura del Museo Botanico",
+      "textual_anchor_it": "Nel 2023 infine, nell’ex casa del prefetto dell’Orto, ha aperto il Museo Botanico. La collezione racconta la storia del luogo, include un’ampia collezione di erbari, e presenta la ricostruzione di una spezieria del Settecento.",
+      "book_page": "p. 39"
+    }
+  ],
+  "geometry_reading": {
+    "summary": "Lettura Peacock già presente nei nodi narrativi: l'Orto come mandala percettivo, lo stesso cerchio del Prato applicato alla materia vivente; il muro che protegge e insieme esclude.",
+    "textual_anchor_it": "La struttura dell’Orto è fortemente simbolica: un quadrato suddiviso in quattro quadranti da due assi perpendicolari e inscritto in un cerchio. É un luogo di equilibrio, bellezza e armonia tra l’uomo e l’universo.",
+    "book_page": "p. 38",
+    "nodes": [
+      "books/padova-fantastica/narrative-object.json",
+      "books/padova-fantastica/narrative-scene.json",
+      "books/padova-fantastica/narrative-knowledge-field.json",
+      "books/padova-fantastica/narrative-silence.json"
+    ]
+  },
+  "related_nodes": {
+    "place": "places/PlaceProfile_orto-botanico-padova.json",
+    "person": "datasets/johann-wolfgang-von-goethe-dataset.json",
+    "prato": "places/PlaceProfile_prato-della-valle-padova.json",
+    "women": "datasets/padova-fantastica-donne-dataset.json"
+  },
+  "ai_search_clusters": {
+    "cluster_orto": [
+      "orto botanico di Padova",
+      "orto botanico più antico del mondo",
+      "Orto Botanico Padova Unesco",
+      "Lectura Simplicium",
+      "Museo Botanico Padova"
+    ],
+    "cluster_goethe": [
+      "palma di Goethe",
+      "Goethe a Padova 1786",
+      "Metamorfosi delle piante Padova"
+    ],
+    "cluster_book": [
+      "Padova Fantastica Orto Botanico",
+      "Guide Fantastiche Padova"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Padova Fantastica — Grazia Guarnieri, Giulia Lazzaron, Casa Editrice Peacock, 2025"
+  },
+  "meta_index": {
+    "primary_node": "Orto Botanico di Padova",
+    "retrieval_priority": [
+      "place_query",
+      "historical_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
