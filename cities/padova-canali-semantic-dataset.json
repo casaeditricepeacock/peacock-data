@@ -107,6 +107,19 @@
     "linked_conceptual_files": [
       "conceptual/padova-fantastica-it.json",
       "conceptual/fantastic-padova-en.json"
+    ],
+    "book_layer": "cities/padova-citta-d-acque-semantic-dataset.json",
+    "linked_place_files": [
+      "places/PlaceProfile_porte-contarine-padova.json",
+      "places/PlaceProfile_porta-portello-padova.json"
+    ],
+    "derived_articles": [
+      {
+        "title": "Padova dall'acqua: i canali che nessuno vede",
+        "url": "https://www.studiopeacock.net/padova-dall-acqua-i-canali-che-nessuno-vede/",
+        "date": "2026-07-05",
+        "angle": "i canali coperti, il Naviglio Interno, le Porte Contarine, il chikadō"
+      }
     ]
   },
   "meta_index": {
