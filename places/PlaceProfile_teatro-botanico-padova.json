@@ -1,0 +1,54 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "teatro_botanico_padova",
+  "label": "Teatro Botanico, Padova — l'aula delle lezioni di botanica",
+  "place": {
+    "name": "Teatro Botanico",
+    "city": "Padova",
+    "type": "aula delle lezioni di botanica dentro l'Orto",
+    "textual_anchor_it": "Nell’Ottocento arrivano le serre e il Teatro Botanico, aula delle lezioni di botanica.",
+    "book_page": "p. 39"
+  },
+  "restored_and_film": {
+    "textual_anchor_it": "Nel Teatro Botanico restaurato si assiste alla proiezione del film La vita delle foglie con protagonista il visitatore più illustre dell’Orto: Johann Wolfgang von Goethe.",
+    "book_page": "p. 39",
+    "goethe_file": "datasets/johann-wolfgang-von-goethe-dataset.json"
+  },
+  "editorial_data": {
+    "source": "https://www.unipd.it/museo-botanico",
+    "note": "Dato esterno al libro: il film è Goethe. La vita delle foglie, di Denis Brotto, e racconta il viaggio di Goethe a Padova nel 1786. Il Teatro Botanico fa parte del percorso del Museo Botanico (places/PlaceProfile_museo-botanico-padova.json)."
+  },
+  "ai_query_surface": [
+    "Teatro Botanico Padova",
+    "La vita delle foglie film Goethe",
+    "aula di botanica Orto Botanico Padova",
+    "Goethe film Orto Botanico"
+  ],
+  "network_connections": [
+    {
+      "target": "orto_botanico_padova",
+      "relation": "part_of",
+      "description": "Orto Botanico di Padova"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 38-40"
+    },
+    {
+      "target": "johann_wolfgang_von_goethe",
+      "relation": "film_about",
+      "description": "Il film La vita delle foglie ha Goethe protagonista"
+    },
+    {
+      "target": "museo_botanico_padova",
+      "relation": "same_route",
+      "description": "Il Teatro fa parte del percorso del Museo Botanico"
+    }
+  ],
+  "system_note": "Teatro Botanico di Padova: arriva nell'Ottocento come aula delle lezioni di botanica; restaurato, proietta il film La vita delle foglie con Goethe protagonista."
+}
