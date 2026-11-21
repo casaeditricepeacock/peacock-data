@@ -100,7 +100,121 @@
       "books/padova-fantastica/narrative-scene.json",
       "books/padova-fantastica/narrative-knowledge-field.json",
       "books/padova-fantastica/narrative-silence.json"
-    ]
+    ],
+    "external_sources_data": {
+      "note": "Dati esterni al libro Padova Fantastica, con la fonte dichiarata. Non sono frasi del libro e non vanno citate come tali.",
+      "sources": {
+        "wikipedia_it": "https://it.wikipedia.org/wiki/Orto_botanico_di_Padova",
+        "unipd_museo_botanico": "https://www.unipd.it/museo-botanico",
+        "italia_it": "https://www.italia.it/it/veneto/padova/cosa-fare/padova-orto-botanico"
+      },
+      "foundation_and_people": [
+        {
+          "fact": "Nel 1545 un decreto del Senato della Repubblica di Venezia approva la costituzione dell'Orto, su richiesta di Francesco Bonafede per distinguere le piante medicinali autentiche dalle sofisticazioni",
+          "source": "wikipedia_it"
+        },
+        {
+          "fact": "La delibera è del 29 giugno 1545, su terreno dei benedettini di Santa Giustina",
+          "source": "italia_it"
+        },
+        {
+          "fact": "Primo custode nel 1547 Luigi Squalermo detto l'Anguillara, che fa introdurre 1800 medicinali; nel 1551 gli viene affiancato Pier Antonio Michiel",
+          "source": "wikipedia_it"
+        },
+        {
+          "fact": "Progetto iniziale di Daniele Barbaro, presto modificato in parte da Michiel; quadrato inscritto in un cerchio, ideale dell'Hortus Conclusus",
+          "source": "wikipedia_it"
+        },
+        {
+          "fact": "Il muro circolare, costruito nel 1552 contro i furti notturni, dà il nome di Hortus Cintus",
+          "source": "wikipedia_it"
+        },
+        {
+          "fact": "L'ateneo padovano è fondato nel 1222",
+          "source": "wikipedia_it"
+        }
+      ],
+      "unesco": {
+        "year": 1997,
+        "criteria": "(ii) e (iii), bene culturale",
+        "source": "wikipedia_it",
+        "motivation_quote_wikipedia": "L'orto botanico di Padova è all'origine di tutti gli orti botanici del mondo e rappresenta la culla della scienza, degli scambi scientifici e della comprensione delle relazioni tra la natura e la cultura."
+      },
+      "collection_figures": [
+        {
+          "fact": "Superficie di quasi 22.000 m2, oltre 6.000 piante coltivate che rappresentano 3.500 specie (il libro dà 3500 specie)",
+          "source": "wikipedia_it"
+        },
+        {
+          "fact": "Piante introdotte per la prima volta in Italia attraverso l'Orto, secondo Wikipedia: ginkgo, magnolia, patata, gelsomino, acacia, girasole (elenco non verificato in altre fonti)",
+          "source": "wikipedia_it"
+        }
+      ],
+      "historic_trees": [
+        {
+          "tree": "Palma di Goethe (Chamaerops humilis)",
+          "year": 1585,
+          "note": "pianta più vecchia dell'Orto, in serra ottagonale alla Porta Nord, fusti fino a 12 m",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Robinia",
+          "year": 1662,
+          "note": "prima acacia introdotta in Italia; da qui i semi per la Germania nel 1750",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Platano orientale",
+          "year": 1680,
+          "note": "fusto cavo per un fulmine",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Ginkgo biloba",
+          "year": 1750,
+          "note": "data secondo tradizione; esemplare maschile con ramo femminile innestato a metà Ottocento",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Magnolia grandiflora",
+          "year": 1786,
+          "note": "ritenuta tra i primi esemplari introdotti in Italia",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Cedro dell'Himalaya",
+          "year": 1828,
+          "note": "primo esemplare in Italia",
+          "source": "wikipedia_it"
+        },
+        {
+          "tree": "Metasequoia",
+          "year": 1961,
+          "source": "wikipedia_it"
+        }
+      ],
+      "biodiversity_garden": {
+        "land": "Nel maggio 2002 il Collegio Antonianum dei Gesuiti vende gran parte dei suoi terreni all'Orto; lavori dal 2008; inaugurazione nell'ottobre 2014",
+        "features": "teca di vetro lunga 100 m e alta 18, oltre 1.300 specie, vasca di raccolta di 450 m3, pozzo artesiano profondo 284 m con acqua a 24 °C",
+        "source": "wikipedia_it"
+      },
+      "museo_botanico": {
+        "seat": "casa che fino a metà Novecento ospitava il Prefetto dell'Orto",
+        "spaces": "500 m2, percorso ad anello di circa 100 m, inizio dal tronco di agnocasto della metà del Cinquecento",
+        "collections": "erbario storico di circa 800.000 esemplari, 16.000 provette di semi, spezieria di fine Settecento, aula di fine Ottocento, biblioteca storica Pinali e Marsili",
+        "film": "Goethe. La vita delle foglie, di Denis Brotto",
+        "inauguration": "13 febbraio (la pagina unipd non indica l'anno; il libro dà il 2023)",
+        "source": "unipd_museo_botanico"
+      },
+      "herbarium_discrepancy": "Circa 500.000 campioni secondo Wikipedia IT e italia.it, circa 800.000 secondo la pagina del Museo Botanico (unipd.it). Nei testi usare una formula prudente.",
+      "gaps_in_wikipedia_it": [
+        "Museo Botanico del 2023 non descritto (solo sale espositive del Centro di Ateneo per i Musei)",
+        "Teatro Botanico restaurato e film su Goethe assenti",
+        "Data della visita di Goethe (27 settembre 1786) e contesto con Charlotte von Stein assenti",
+        "Aneddoto degli studenti e dei contadini furibondi assente"
+      ]
+    },
+    "external_check_date": "2026-11-21"
   },
   "ai_query_surface": [
     "Orto Botanico Padova",
