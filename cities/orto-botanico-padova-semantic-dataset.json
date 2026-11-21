@@ -82,7 +82,10 @@
     "place": "places/PlaceProfile_orto-botanico-padova.json",
     "person": "datasets/johann-wolfgang-von-goethe-dataset.json",
     "prato": "places/PlaceProfile_prato-della-valle-padova.json",
-    "women": "datasets/padova-fantastica-donne-dataset.json"
+    "women": "datasets/padova-fantastica-donne-dataset.json",
+    "museum": "places/PlaceProfile_museo-botanico-padova.json",
+    "biodiversity_garden": "places/PlaceProfile_giardino-biodiversita-padova.json",
+    "theatre": "places/PlaceProfile_teatro-botanico-padova.json"
   },
   "ai_search_clusters": {
     "cluster_orto": [
