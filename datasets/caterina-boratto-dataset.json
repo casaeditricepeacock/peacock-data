@@ -1,0 +1,68 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "caterina_boratto",
+  "label": "Caterina Boratto — la torinese che doveva andare a Hollywood",
+  "identity": {
+    "name": "Caterina Boratto",
+    "born": "1915",
+    "born_in": "Torino",
+    "died": "2010",
+    "book_pages": "pp. 56-58",
+    "textual_anchor_it": "Caterina nacque nel 1915 a Torino. Perse presto il padre. La madre gestiva una pellicceria,"
+  },
+  "hollywood": {
+    "textual_anchor_it": "“Caterina Boratto va a Hollywood!” si raccontavano tra di loro i torinesi, appena trapelò la notizia che la MGM la voleva a Los Angeles.",
+    "book_page": "p. 56"
+  },
+  "start": {
+    "textual_anchor_it": "Caterina nacque nel 1915 a Torino. Perse presto il padre. La madre gestiva una pellicceria, / na Paoli. Fu lei a intuire che sua figlia avrebbe potuto trovare il suo posto tra luci e telecamere.",
+    "book_pages": "pp. 56-57"
+  },
+  "vivere": {
+    "textual_anchor_it": "Grazie all’interessamento di Evelina, Caterina ottenne la parte della co-protagonista nel film “Vivere!” accanto al famoso tenore Tito Schipa. Tito provò a corteggiarla fuori dal set, ma si trovò col cuore infranto. La pellicola ebbe un successo clamoroso in tutto il mondo.",
+    "book_page": "p. 57"
+  },
+  "mgm_contract": {
+    "textual_anchor_it": "MGM la distribuì negli Stati Uniti e offrì un contratto di sette anni a Caterina. Lei partì. Tutti a Torino aspettavano di vedere la sua prima interpretazione hollywoodiana. Non arrivò mai. Nel 1942 infatti, l’Italia dichiarò guerra agli U.S.A.. Attrici e maestranze italiane furono rispedite nella madrepatria e i loro contratti finirono alle ortiche.",
+    "book_page": "p. 57"
+  },
+  "fellini": {
+    "textual_anchor_it": "Tornò a recitare in Italia in piena guerra e incontrò un giovane sceneggiatore di nome Federico Fellini. Non diede, all’inizio, molta importanza a lui.",
+    "book_page": "p. 57"
+  },
+  "resistance": {
+    "textual_anchor_it": "Si sposò invece con Armando Ceratto, il proprietario della Clinica Sanatrix e insieme nascosero diversi partigiani durante la Resistenza.",
+    "book_page": "p. 57"
+  },
+  "otto_e_mezzo": {
+    "textual_anchor_it": "A Roma rivide Fellini, ormai diventato regista celebre. In “Otto / e Mezzo”22 fu la signora misteriosa che dice a Guido - Mastroianni “Sono felice di essere qui, non chiedermi niente”.",
+    "book_pages": "pp. 57-58"
+  },
+  "rol_and_torino_magic": {
+    "textual_anchor_it": "Anche Fellini ebbe un legame speciale con Torino, la patria del suo amico Gustavo Rol, discusso sensitivo cattolico. Rol fu l’insegnante di Giuditta Dembach, autrice del famoso libro “Torino città magica”23, dove raccontò le storie sulla magia bianca e nera in città.",
+    "book_page": "p. 58"
+  },
+  "legacy": {
+    "textual_anchor_it": "Scomparve nel 2010. La figlia Marina le dedicò la biografia “Caterina Boratto. La donna che visse tre volte”24. Nel 2023 Torino le ha intitolato una parte dei giardini di Piazza Statuto. Un modo per ridare visibilità alle donne torinesi che hanno fatto la storia.",
+    "book_page": "p. 58"
+  },
+  "ai_query_surface": [
+    "Caterina Boratto Torino",
+    "Caterina Boratto Otto e mezzo",
+    "Caterina Boratto Hollywood MGM",
+    "giardini Piazza Statuto Caterina Boratto",
+    "Gustavo Rol Fellini Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 56-58"
+    }
+  ],
+  "system_note": "Caterina Boratto (Torino 1915 - 2010): attrice torinese, co-protagonista di «Vivere!» con Tito Schipa, contratto MGM annullato dalla guerra, la signora misteriosa di «Otto e mezzo»; dal 2023 una parte dei giardini di Piazza Statuto porta il suo nome."
+}
