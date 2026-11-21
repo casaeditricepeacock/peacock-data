@@ -1,0 +1,79 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "case_fiori_draghi_corso_francia_torino",
+  "label": "Corso Francia, Torino — la casa dei fiori e la casa dei draghi",
+  "place": {
+    "name": "Casa Fenoglio-Lafleur e Casa dei Draghi (Palazzo della Vittoria)",
+    "city": "Torino",
+    "type": "due edifici liberty di Corso Francia",
+    "textual_anchor_it": "In Corso Francia a pochi metri di lontananza si trovano due delle case più belle di tutta Torino. Una all’esterno ha delicate decorazioni floreali, l’altra invece tenebrosi draghi.",
+    "book_pages": "pp. 28-30"
+  },
+  "flower_house": {
+    "textual_anchor_it": "La prima a nascere nel 1902 fu quella floreale, all’angolo con Via Principi d’Acaja. Fu opera di Pietro Fenoglio, archistar liberty torinese, con l’intenzione iniziale di farne la sua casa-studio, sbalorditivo manifesto della sua creatività.",
+    "book_page": "p. 28",
+    "architecture": {
+      "textual_anchor_it": "La costruzione presenta due ali che convergono nella torretta angolare, con un grande bow-window centrale, vetri colorati, sinuosi decori in ferro battuto, balconcini, tettoria curvilinea.",
+      "book_page": "p. 28"
+    },
+    "decoration": {
+      "textual_anchor_it": "Il disegno floreale fa da cornice alle finestre dell’ultimo piano, collega i balconcini e prosegue nelle due ali laterali. Le stesse forme ricurve sono presenti anche negli interni.",
+      "book_page": "p. 28"
+    },
+    "owners": {
+      "textual_anchor_it": "Fenoglio vendette presto il suo capolavoro alla famiglia francese Lafleur. Perfino il cognome seguiva lo stile floreale! / I Lafleur poi la cedettero alla Benefica, associazione laica per / l’accoglienza dei bisognosi. Trasferite le attività della Benefica, la casa ritornò in mani private. Accurati restauri l’hanno riportata all’antico splendore, fuori e dentro. Attualmente non è visitabile, si guarda da fuori e fa dire “wow”- spesso ad alta voce - a chi spunta fuori dalla fermata della metro Principi d’Acaja.",
+      "book_pages": "pp. 28-29"
+    }
+  },
+  "dragons_house": {
+    "textual_anchor_it": "I draghi sono un po’ più in là. Furono un’idea di Giovan Battista Carrera.",
+    "book_page": "p. 29",
+    "builder": {
+      "textual_anchor_it": "Lui conosceva bene Corso Francia: la sua impresa edile mise mano alla maggior parte dei cantieri in loco. Era imprenditore celebre, Cavaliere del Lavoro e molto patriottico.",
+      "book_page": "p. 29"
+    },
+    "victory_palace": {
+      "textual_anchor_it": "Quando l’Italia vinse con gran fatica la Prima Guerra Mondiale, lui volle celebrarla costruendo il maestoso Palazzo della Vittoria, spettacolare sintesi tra liberty e neogotico.",
+      "book_page": "p. 29"
+    },
+    "nickname": {
+      "textual_anchor_it": "Nessuno conosce l’edificio con il suo nome vero. Tutti lo chiamano “Casa dei Draghi” per i grossi draghi che ne ornano l’ampio ingresso, immagine della forza dell’esercito italiano.",
+      "book_page": "p. 29"
+    },
+    "details": {
+      "textual_anchor_it": "Tutto il palazzo è carico di decorazioni e dettagli zoomorfi e simbolici, come le lucertole sulle maniglie d’ingresso e gli stemmi del Carrera.",
+      "book_page": "p. 29"
+    },
+    "legend": {
+      "textual_anchor_it": "Una leggenda sinistra narra che si sarebbe suicidato pochi mesi dopo il completamento della casa. Secondo un documento d’archivio invece, sarebbe morto nel 1939. In ogni caso, un’aria mi / nacciosa aleggia sui draghi e li ha resi set ideale per il film horror “La maschera etrusca” e per gli inquietanti retroscena politici de “Il divo”",
+      "book_pages": "pp. 29-30"
+    }
+  },
+  "editorial_data": {
+    "book_footnote": "Il testo ricorda i film «La maschera etrusca» e «Il divo» (p. 30)."
+  },
+  "ai_query_surface": [
+    "Casa dei Draghi Torino",
+    "Casa Fenoglio Lafleur Torino",
+    "Palazzo della Vittoria Torino Carrera",
+    "Corso Francia liberty Torino",
+    "Pietro Fenoglio liberty"
+  ],
+  "network_connections": [
+    {
+      "target": "torino_fantastica",
+      "relation": "narrative_node",
+      "description": "Draghi e fiori, pp. 28-30"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 28-30"
+    }
+  ],
+  "system_note": "Corso Francia: Casa Fenoglio-Lafleur (1902, liberty floreale) e il Palazzo della Vittoria di Giovan Battista Carrera, detto Casa dei Draghi; la leggenda sinistra sul suo costruttore."
+}
