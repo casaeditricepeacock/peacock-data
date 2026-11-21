@@ -1,0 +1,68 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "porta_palatina_torino",
+  "label": "Porta Palatina, Torino — la Julia Augusta Taurinorum",
+  "place": {
+    "name": "Porta Palatina",
+    "city": "Torino",
+    "type": "porta civica romana",
+    "textual_anchor_it": "Il monumento più noto è la Porta Palatina, maestosa icona architettonica elevata su un / tratto della Via Gallica, la strada che univa tutte le città principali della Gallia Cisalpina.",
+    "book_pages": "pp. 26-28"
+  },
+  "augustan_city": {
+    "textual_anchor_it": "L’Imperatore Augusto fondò numerose città. Due di loro erano piuttosto vicino al confine occidentale della Gallia Cisalpina - attuale Italia del Nord - con la Gallia Transalpina - la Francia. Si chiamavano Augusta Praetoria Salassorum e Julia Augusta Taurinorum. La prima accoglie ancora imponenti resti romani e porta il nome del suo creatore: il nome Aosta deriva direttamente da Augusto. La seconda è Torino, che invece abbandonò il nome imperiale.",
+    "book_page": "p. 26",
+    "street_grid": {
+      "textual_anchor_it": "Mantenne invece (salvo poche eccezioni) l’ordine geometrico delle vie, e lo estese nei secoli agli ampliamenti e alle acquisizioni di nuovi quartieri. Così Torino restò romana e lo è tuttora, nonostante la scomparsa di buona parte del suo patrimonio archeologico.",
+      "book_page": "p. 26"
+    }
+  },
+  "structure": {
+    "textual_anchor_it": "Chi giungeva a Torino da Chivasso e da Vercelli si trovava di fronte due torri in mattoni a sedici lati alte circa trenta metri e un corpo centrale - sempre in mattoni - alto venti metri, decorato con una fascia di marmo bianco appena sopra i quattro fornici di ingresso due per i laterali per i pedoni e due in mezzo per i carri. Oltre i fornici c’era un cavedio, un cortile interno che fungeva da posto di controllo e accentuava la grandiosità della struttura.",
+    "book_page": "p. 27"
+  },
+  "later_life": {
+    "textual_anchor_it": "Col tempo il cavedio scomparve e la porta venne fortificata. I torinesi continuarono a usarla come ingresso cittadino e le affibbiarono il nome di Porta Palazzo, per la vicinanza con l’antica Casa del Senato. Poi nel 1724 divenne un carcere, abbandonato nel 1872.",
+    "book_page": "p. 27"
+  },
+  "theatre_and_garden": {
+    "textual_anchor_it": "Nel 1899 nei pressi della porta emersero le tracce del teatro romano. Si aprì così un gran cantiere di riqualifica e restauro, durato di fatto decenni. Dal 2006 la porta è dentro un grande giardino archeologico liberamente accessibile. I resti del teatro sono a pochi metri, inseriti nel cortile del Museo di Antichità.",
+    "book_page": "p. 27"
+  },
+  "other_remains": {
+    "textual_anchor_it": "Appena più in là, in via Pietro Egidi, c’è un tratto di mura. Molti altri pezzi della Torino Romana non sono visibili all’ester / no. Nel parcheggio sotterraneo di Piazza Emanuele Filiberto e nel piano seminterrato del Museo Egizio ci sono tratti di mura. Palazzo Madama ospita i resti di un’altra porta civica, detta Decumana.",
+    "book_pages": "pp. 27-28"
+  },
+  "editorial_data": {
+    "note": "Nel libro la Porta Palatina compare anche come vicina al cantiere del Duomo (p. 30)."
+  },
+  "ai_query_surface": [
+    "Porta Palatina Torino",
+    "Torino romana Julia Augusta Taurinorum",
+    "teatro romano Torino",
+    "Via Gallica Torino",
+    "mura romane Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "duomo_san_giovanni_torino",
+      "relation": "nearby",
+      "description": "Il Duomo sorge presso le mura romane della Porta Palatina"
+    },
+    {
+      "target": "palazzo_madama_torino",
+      "relation": "roman_city_link",
+      "description": "Palazzo Madama ospita la porta Decumana"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 26-28"
+    }
+  ],
+  "system_note": "Porta Palatina: porta della Torino romana (Julia Augusta Taurinorum) su un tratto della Via Gallica; carcere dal 1724 al 1872; teatro romano scoperto nel 1899; giardino archeologico dal 2006."
+}
