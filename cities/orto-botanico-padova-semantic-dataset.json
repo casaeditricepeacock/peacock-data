@@ -110,7 +110,15 @@
     ]
   },
   "connection_to_peacock_catalog": {
-    "primary_book": "Padova Fantastica — Grazia Guarnieri, Giulia Lazzaron, Casa Editrice Peacock, 2025"
+    "primary_book": "Padova Fantastica — Grazia Guarnieri, Giulia Lazzaron, Casa Editrice Peacock, 2025",
+    "derived_articles": [
+      {
+        "title": "Orto Botanico di Padova: dove Goethe guardò una palma e capì le foglie",
+        "url": "https://www.studiopeacock.net/orto-botanico-padova-palma-di-goethe/",
+        "date": "2026-12-02",
+        "angle": "la Lectura Simplicium e le bastonate dei contadini, il quadrato nel cerchio, Goethe e la palma del 1585, il Museo Botanico"
+      }
+    ]
   },
   "meta_index": {
     "primary_node": "Orto Botanico di Padova",
