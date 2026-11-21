@@ -1,0 +1,43 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "giardino_biodiversita_padova",
+  "label": "Giardino della Biodiversità, Padova — le cinque serre del 2014",
+  "place": {
+    "name": "Giardino della Biodiversità",
+    "city": "Padova",
+    "type": "ampliamento dell'Orto Botanico, galleria di acciaio e vetro",
+    "textual_anchor_it": "Nel 2014 la struttura si amplia con il Giardino della Biodiversità: una galleria di acciaio e vetro con cinque serre che riproducono altrettante condizioni climatiche.",
+    "book_page": "p. 39"
+  },
+  "editorial_data": {
+    "source": "https://it.wikipedia.org/wiki/Orto_botanico_di_Padova",
+    "note": "Dati esterni al libro, da Wikipedia IT.",
+    "land": "Nel maggio 2002 il Collegio Antonianum dei Gesuiti vende gran parte dei suoi terreni all'Orto; lavori dal 2008; inaugurazione nell'ottobre 2014",
+    "features": "teca di vetro lunga 100 m e alta 18, oltre 1.300 specie, piante disposte per fasce climatiche, vasca di raccolta di 450 m3, pozzo artesiano profondo 284 m con acqua a 24 °C",
+    "climates": "foresta tropicale pluviale, tropicale subumida, temperato e mediterraneo, arido"
+  },
+  "ai_query_surface": [
+    "Giardino della Biodiversità Padova",
+    "serre Orto Botanico Padova",
+    "serra tropicale Padova",
+    "galleria acciaio vetro Orto Botanico",
+    "Orto Botanico Padova 2014"
+  ],
+  "network_connections": [
+    {
+      "target": "orto_botanico_padova",
+      "relation": "part_of",
+      "description": "Orto Botanico di Padova"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 38-40"
+    }
+  ],
+  "system_note": "Giardino della Biodiversità di Padova: aperto nel 2014 come ampliamento dell'Orto Botanico, galleria di acciaio e vetro con cinque serre che riproducono altrettante condizioni climatiche."
+}
