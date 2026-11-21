@@ -1,0 +1,88 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "villa_della_regina_torino",
+  "label": "Villa della Regina, Torino — la vigna del Cardinale e le donne di Casa Savoia",
+  "place": {
+    "name": "Villa della Regina",
+    "city": "Torino",
+    "type": "residenza sabauda collinare a Borgo Po",
+    "textual_anchor_it": "Il Cardinale Maurizio di Savoia fece costruire nel 1615 una vigna, cioè una residenza collinare, sull’altura di Borgo Po. Negli anni successivi cospirò contro Cristina di Borbone-Francia, reggente in nome del piccolo Carlo Emanuele, rinunciò alla porpora e sposò a 49 anni la tredicenne nipote Ludovica Cristina.",
+    "book_pages": "pp. 41-43"
+  },
+  "origin": {
+    "textual_anchor_it": "Il Cardinale Maurizio di Savoia fece costruire nel 1615 una vigna, cioè una residenza collinare, sull’altura di Borgo Po. Negli anni successivi cospirò contro Cristina di Borbone-Francia, reggente in nome del piccolo Carlo Emanuele, rinunciò alla porpora e sposò a 49 anni la tredicenne nipote Ludovica Cristina.",
+    "book_page": "p. 41"
+  },
+  "queens_residence": {
+    "textual_anchor_it": "Cento anni dopo questo Game of Thrones in salsa torinese, la casa divenne residenza prediletta delle donne di Casa Savoia, e tale rimase fino a metà Ottocento, assumendo il nome di Villa - o vigna - della Regina.",
+    "book_page": "p. 41"
+  },
+  "juvarra_backdrop": {
+    "textual_anchor_it": "Divenne un eccezionale fondale scenografico rivolto verso il centro città, curato dall’archistar del Settecento Filippo Juvarra e dai suoi allievi.",
+    "book_page": "p. 41"
+  },
+  "rooms": {
+    "textual_anchor_it": "Gli ambienti furono modificati nei decenni secondo i gusti delle regnanti.",
+    "book_page": "p. 41"
+  },
+  "camera_del_trucco": {
+    "textual_anchor_it": "Per esempio la Camera del Trucco / è frutto di due interventi. Al primo, promosso negli anni 1710- 1720 da Anna Maria d’Orlèans, sposa di Vittorio Amedeo II, risale l’ovale nel soffitto con il Trionfo di Davide con la testa di Golia, del pittore Claudio Francesco Beaumont.",
+    "book_pages": "pp. 41, 43",
+    "second_intervention": {
+      "textual_anchor_it": "Il secondo risale agli anni 1730-1740 e include le scene tratte dalla Metamorfosi di Ovidio dipinte dal veneto Giovanni Battista Crosato.",
+      "book_page": "p. 43"
+    },
+    "the_joke": {
+      "textual_anchor_it": "Il trucco non era il make up, ma un gioco affine al biliardo. Siete rimasti delusi, eh?",
+      "book_page": "p. 43"
+    }
+  },
+  "grand_salon": {
+    "textual_anchor_it": "Essenza dello stile architettonico di Juvarra è il salone del primo piano, progettato per essere il cuore dei complessi cerimoniali di corte. L’ampio locale si sviluppa su due piani con sinuosa balconata, dorature, finte architetture dipinte, grandi finestre e grandi tele a tema mitologico.",
+    "book_page": "p. 43"
+  },
+  "chinese_cabinet": {
+    "textual_anchor_it": "Delle varie sale molto piacevole è il Gabinetto di Mezzogiorno della Regina, testimonianza della passione dei Savoia per l’arte cinese, ornato con statue di Guanyin, scene di caccia e di danza con il drago.",
+    "book_page": "p. 43"
+  },
+  "pietro_massa": {
+    "textual_anchor_it": "A coordinare i lavori fu Pietro Massa, allievo dello Juvarra, specializzato nel fake e nell’imitazione di stili altrui.",
+    "book_page": "p. 43"
+  },
+  "italian_garden": {
+    "textual_anchor_it": "Splendido il giardino all’italiana dai complessi giochi prospettici e decorato con grotte, fontane, obelischi e gruppi scultorei di divinità fluviali e grossi pesci. Non manca la sirena a doppia coda, intenta a sputare uno zampillo.",
+    "book_page": "p. 43"
+  },
+  "editorial_data": {
+    "note": "Il libro dà per la costruzione della vigna l'anno 1615 e per il Cardinale Maurizio di Savoia il matrimonio a 49 anni con la nipote Ludovica Cristina (p. 41)."
+  },
+  "ai_query_surface": [
+    "Villa della Regina Torino",
+    "Camera del Trucco Villa della Regina",
+    "Cardinale Maurizio di Savoia vigna",
+    "Gabinetto di Mezzogiorno Guanyin",
+    "giardino all'italiana Villa della Regina Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "piazza_castello_palazzo_reale_torino",
+      "relation": "savoy_residences",
+      "description": "Residenze sabaude di Torino"
+    },
+    {
+      "target": "mole_antonelliana_torino",
+      "relation": "nearby_hill_axis",
+      "description": "La Gran Madre, ai piedi di Borgo Po, è nel racconto dell'asse con la Mole"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 41-43"
+    }
+  ],
+  "system_note": "Villa della Regina: vigna fatta costruire nel 1615 dal Cardinale Maurizio di Savoia a Borgo Po, poi residenza prediletta delle donne di Casa Savoia, con interventi di Juvarra e dei suoi allievi."
+}
