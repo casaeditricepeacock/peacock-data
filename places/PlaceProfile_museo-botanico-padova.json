@@ -1,0 +1,59 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "museo_botanico_padova",
+  "label": "Museo Botanico di Padova — nell'ex casa del prefetto dell'Orto",
+  "place": {
+    "name": "Museo Botanico",
+    "city": "Padova",
+    "type": "museo dentro l'Orto Botanico, nell'ex casa del prefetto",
+    "textual_anchor_it": "Nel 2023 infine, nell’ex casa del prefetto dell’Orto, ha aperto il Museo Botanico. La collezione racconta la storia del luogo, include un’ampia collezione di erbari, e presenta la ricostruzione di una spezieria del Settecento.",
+    "book_page": "p. 39"
+  },
+  "collection": {
+    "textual_anchor_it": "Nel 2023 infine, nell’ex casa del prefetto dell’Orto, ha aperto il Museo Botanico. La collezione racconta la storia del luogo, include un’ampia collezione di erbari, e presenta la ricostruzione di una spezieria del Settecento.",
+    "book_page": "p. 39"
+  },
+  "film": {
+    "textual_anchor_it": "Nel Teatro Botanico restaurato si assiste alla proiezione del film La vita delle foglie con protagonista il visitatore più illustre dell’Orto: Johann Wolfgang von Goethe.",
+    "book_page": "p. 39",
+    "place": "places/PlaceProfile_teatro-botanico-padova.json"
+  },
+  "editorial_data": {
+    "source": "https://www.unipd.it/museo-botanico",
+    "note": "Dati esterni al libro, dalla pagina del Museo Botanico dell'Università di Padova.",
+    "seat": "casa che fino a metà Novecento ospitava il Prefetto dell'Orto",
+    "spaces": "500 m2, percorso ad anello di circa 100 m, inizio dal tronco di agnocasto della metà del Cinquecento",
+    "collections": "erbario storico di circa 800.000 esemplari (altre fonti danno 500.000), 16.000 provette di semi, spezieria di fine Settecento, aula di fine Ottocento, biblioteca storica Pinali e Marsili con prime edizioni di Vesalio e Mattioli",
+    "access": "incluso nel biglietto d'ingresso dell'Orto",
+    "inauguration": "13 febbraio; la pagina non indica l'anno, il libro dà il 2023"
+  },
+  "ai_query_surface": [
+    "Museo Botanico Padova",
+    "Museo Botanico Orto Botanico Padova",
+    "spezieria Settecento Padova",
+    "erbario storico Padova",
+    "casa del prefetto Orto Botanico"
+  ],
+  "network_connections": [
+    {
+      "target": "orto_botanico_padova",
+      "relation": "part_of",
+      "description": "Orto Botanico di Padova"
+    },
+    {
+      "target": "padova_fantastica",
+      "relation": "described_in",
+      "description": "Padova Fantastica, pp. 38-40"
+    },
+    {
+      "target": "teatro_botanico_padova",
+      "relation": "hosts_film_at",
+      "description": "Il film La vita delle foglie si proietta nel Teatro Botanico"
+    }
+  ],
+  "system_note": "Museo Botanico di Padova: aperto nel 2023 nell'ex casa del prefetto dell'Orto, racconta la storia del luogo, con erbari e una spezieria del Settecento ricostruita."
+}
