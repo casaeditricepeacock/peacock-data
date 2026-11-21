@@ -1,0 +1,137 @@
+{
+  "dataset_id": "peacock-nostradamus-cioccolato-torino-libro",
+  "version": "1.0",
+  "date": "2026-11",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_topic": {
+    "name": "Nostradamus a Torino e la nascita del cioccolato torinese",
+    "summary": "Un matrimonio triste, un duca che vuole un erede, un unguento e una tazza di cioccolata: il libro mette insieme Emanuele Filiberto, Margherita, Nostradamus e il cioccolato.",
+    "book": "Torino Fantastica — Grazia Guarnieri, disegni di Giulia Lazzaron, Casa Editrice Peacock, 2025 (ISBN 9791281715363)",
+    "book_pages": "pp. 33-37"
+  },
+  "story": [
+    {
+      "step": "wedding",
+      "textual_anchor_it": "Poche nozze furono più tristi di quelle celebrate tra Margherita, sorella del re di Francia Enrico II, e il duca Emanuele Filiberto di Savoia. Enrico II stava morendo, ferito gravemente durante un torneo, e gli sposi si scambiarono i voti in tutta fretta, di notte, senza banchetti, squilli di tromba e acclamazioni pubbliche.",
+      "book_page": "p. 33"
+    },
+    {
+      "step": "no_heir",
+      "textual_anchor_it": "Margherita aveva ormai 36 anni, le sue probabilità di restare incinta erano bassissime. Senza eredi maschi il ducato dei Savoia sarebbe finito in mano ai Nemours.",
+      "book_page": "p. 33"
+    },
+    {
+      "step": "magicians",
+      "textual_anchor_it": "Si circondò di maghi e di preti, recitò invocazioni e suppliche a entità arcane, studiò a fondo i processi alchemici. Ospitò addirittura in gran segreto il famoso Nostradamus.",
+      "book_page": "p. 33"
+    },
+    {
+      "step": "ointment",
+      "textual_anchor_it": "presentò con uno speciale unguento, che la Duchessa adoperò.",
+      "book_page": "p. 35"
+    },
+    {
+      "step": "pregnancy",
+      "textual_anchor_it": "Qualche settimana dopo la sosta di Nostradamus, a Margherita si interruppero le mestruazioni. Non era la menopausa sperata dai Nemours: la Duchessa era incinta.",
+      "book_page": "p. 35"
+    },
+    {
+      "step": "birth",
+      "textual_anchor_it": "Il 12 gennaio 1562 partorì un figlio maschio, di nome Carlo Emanuele.",
+      "book_page": "p. 35"
+    },
+    {
+      "step": "exhibition",
+      "textual_anchor_it": "Il 7 febbraio 1563 il padre esibì il piccolo in stile Simba di fronte agli abitanti di Torino. Poi si fece preparare una tazza di cioccolata, forse la prima della storia.",
+      "book_page": "p. 35"
+    },
+    {
+      "step": "chocolate",
+      "textual_anchor_it": "I torinesi si innamorarono subito di quel profumo, caldo e intenso. L’abile Nostradamus in un sol colpo fece nascere il sospirato erede e i mastri cioccolatieri.",
+      "book_page": "p. 35"
+    }
+  ],
+  "doubts": {
+    "plaque": {
+      "textual_anchor_it": "Ma andò davvero così? Vicino al Parco della Pellerina, in Via Lessona 70, nel 1967 si demolì l’antica e malridotta Cascina Morozza. Secondo una targa un tempo presente in cascina, Nostradamus dormì lì.",
+      "book_page": "p. 35"
+    },
+    "plaque_date": {
+      "textual_anchor_it": "Quella lapide era datata 1556, ben tre anni prima del matrimonio ducale. Al tempo Emanuele Filiberto era un allegro scapolo già padre di figli illegittimi. La data è sbagliata? Oppure Nostradamus venne nel 1556 e quindi la sua presenza non c’entrava nulla con la pre-menopausa di Margherita?",
+      "book_page": "p. 35"
+    },
+    "plaque_kept": {
+      "textual_anchor_it": "Studiosi di Nostradamus salvarono la targa dalle ruspe e la custodiscono tuttora. Purtroppo non è visibile, né consultabile. / non esistono altre testimonianze della sosta di Nostradamus a Torino.",
+      "book_pages": "pp. 35-36"
+    },
+    "fake": {
+      "textual_anchor_it": "Forse questo soggiorno è da annoverare tra le numerose storielle fake sul celebre astrologo.",
+      "book_page": "p. 36"
+    }
+  },
+  "prophecy": {
+    "textual_anchor_it": "Eppure lui avrebbe perfino predetto il futuro a Carlo Emanuele, annunciandogli che sarebbe morto “sulla strada di Gerusalemme quando un nove si troverà davanti ad un sette”. Nell’interpretazione dell’ottimista Carlo Emanuele, la profezia indicava che sarebbe campato 97 anni. Invece, morì a 68 anni compiuti, mentre andava per i 69, prima di compierne 70.",
+    "book_page": "p. 36",
+    "address": {
+      "textual_anchor_it": "Il duca spirò nel Palazzo Muratori Cravetta a Savignano, nella Contrada Jerusalem, la strada di Gerusalemme. Nostradamus - o chi per lui - fallì con le date, ma l’indirizzo lo azzeccò.",
+      "book_page": "p. 36"
+    }
+  },
+  "chocolate_after": {
+    "bicerin": {
+      "textual_anchor_it": "Poco più di duecento anni dopo la tazzina di Emanuele Filiberto I, nacque nell’omonimo locale in Piazza della Consolata il bicerin, la bevanda a base di crema di latte, cioccolato e caffè.",
+      "book_page": "p. 36"
+    },
+    "gianduiotto": {
+      "textual_anchor_it": "Nel carnevale del 1865, persone con la maschera torinese di Gianduja distribuirono al popolo la nuova invenzione del signor Caffarel: il gianduiotto, goloso cioccolatino con cacao, zucchero e nocciole.",
+      "book_page": "p. 36"
+    },
+    "caffe_fiorio": {
+      "textual_anchor_it": "Al Caffè Fiorio, nato nel 1780, si sperimentarono i primi gelati al cioccolato, serviti dagli anni ‘30 sui coni da passeggio.",
+      "book_page": "p. 37"
+    },
+    "symbol": {
+      "textual_anchor_it": "Anche il cioccolato è un famoso simbolo di Torino: forse sulla moneta da due centesimi doveva starci un gianduiotto al posto della Mole!",
+      "book_page": "p. 37"
+    }
+  },
+  "related_nodes": {
+    "narrative": [
+      "books/torino-fantastica/narrative-ritual.json",
+      "books/torino-fantastica/narrative-object.json",
+      "books/torino-fantastica/narrative-silence.json"
+    ],
+    "piazza_castello": "places/PlaceProfile_piazza-castello-palazzo-reale-torino.json"
+  },
+  "ai_search_clusters": {
+    "cluster_nostradamus": [
+      "Nostradamus a Torino",
+      "Nostradamus Emanuele Filiberto Margherita",
+      "targa Nostradamus Cascina Morozza",
+      "profezia Carlo Emanuele strada di Gerusalemme"
+    ],
+    "cluster_chocolate": [
+      "storia del cioccolato a Torino",
+      "prima tazza di cioccolata Torino",
+      "bicerin storia",
+      "gianduiotto Caffarel 1865",
+      "Caffè Fiorio gelato al cioccolato"
+    ],
+    "cluster_book": [
+      "Torino Fantastica Nostradamus",
+      "Guide Fantastiche Torino"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Torino Fantastica — Grazia Guarnieri, disegni di Giulia Lazzaron, Casa Editrice Peacock, 2025 (ISBN 9791281715363)"
+  },
+  "meta_index": {
+    "primary_node": "Nostradamus e il cioccolato a Torino",
+    "retrieval_priority": [
+      "historical_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
