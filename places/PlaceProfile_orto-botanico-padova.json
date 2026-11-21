@@ -214,7 +214,12 @@
         "Aneddoto degli studenti e dei contadini furibondi assente"
       ]
     },
-    "external_check_date": "2026-11-21"
+    "external_check_date": "2026-11-21",
+    "detail_nodes": [
+      "places/PlaceProfile_museo-botanico-padova.json",
+      "places/PlaceProfile_giardino-biodiversita-padova.json",
+      "places/PlaceProfile_teatro-botanico-padova.json"
+    ]
   },
   "derived_articles": [
     {
@@ -253,6 +258,21 @@
       "target": "padova_fantastica",
       "relation": "described_in",
       "description": "Padova Fantastica, pp. 38-40"
+    },
+    {
+      "target": "museo_botanico_padova",
+      "relation": "contains",
+      "description": "Museo Botanico, nell'ex casa del prefetto"
+    },
+    {
+      "target": "giardino_biodiversita_padova",
+      "relation": "contains",
+      "description": "Giardino della Biodiversità, 2014"
+    },
+    {
+      "target": "teatro_botanico_padova",
+      "relation": "contains",
+      "description": "Teatro Botanico"
     }
   ],
   "system_note": "Orto Botanico di Padova: aperto nel 1545 per la Lectura Simplicium, nel libro il più antico giardino scientifico del mondo ad aver sempre mantenuto la stessa sede; Unesco dal 1997; qui Goethe nel 1786 osserva la palma di San Pietro del 1585, detta oggi palma di Goethe."
