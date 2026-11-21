@@ -1,0 +1,85 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "guardare_il_diavolo_torino",
+  "label": "Guardare il diavolo negli occhi, Torino — Palazzo Trucchi, Via Lascaris e il Frejus",
+  "place": {
+    "name": "Il diavolo di Torino: Palazzo Trucchi di Levaldigi, Via Lascaris 1, Monumento al Frejus",
+    "city": "Torino",
+    "type": "tre luoghi del diavolo nel centro di Torino",
+    "textual_anchor_it": "Puoi farlo a Palazzo Trucchi di Levaldigi in Via XX Settembre: il volto diabolico si trova sul batacchio del portone d’ingresso.",
+    "book_pages": "pp. 21-26"
+  },
+  "palazzo_trucchi": {
+    "textual_anchor_it": "Puoi farlo a Palazzo Trucchi di Levaldigi in Via XX Settembre: il volto diabolico si trova sul batacchio del portone d’ingresso.",
+    "book_page": "p. 22",
+    "legend": {
+      "textual_anchor_it": "Secondo un’antica leggenda, il portone comparve all’improvviso in una notte, quando un apprendista stregone invocò il demonio proprio in quel punto. Il diavolo, adirato per il brusco risveglio, punì lo stagista di magia nera imprigionandolo per sempre dietro al portone.",
+      "book_page": "p. 22"
+    },
+    "other_stories": {
+      "textual_anchor_it": "Ci sono anche altre storie sul palazzo. Si dice che lì una ballerina morì accoltellata durante una festa. Non si trovò mai il colpevole, e nemmeno il suo coltello insanguinato. Nelle notti successive al delitto, un fantasma danzava nelle stanze della dimora. Invece un certo Maggiore Melchiorre du Perril, entrato nell’edificio per consumare un pasto veloce, fece la fine dell’apprendista stregone: non uscì mai più.",
+      "book_page": "p. 22"
+    },
+    "tarocchi": {
+      "textual_anchor_it": "Si racconta ancora che quando la casa ospitava la Real Fabbrica dei Tarocchi avesse come numero civico il 15. Guarda caso 15 è proprio il numero della carta del diavolo nei tarocchi. Il demonio è nei dettagli, oppure negli indirizzi.",
+      "book_page": "p. 22"
+    }
+  },
+  "via_lascaris": {
+    "textual_anchor_it": "A qualche minuto di cammino da Palazzo Trucchi di Levaldigi si trova Via Lascaris. Per guardare il diavolo negli occhi basta osservare il perimetro esterno del condominio al numero 1.",
+    "book_page": "p. 22",
+    "eyes": {
+      "textual_anchor_it": "sono delle fessure dalla forma a mandorla e, nella fantasia popolare, sono gli occhi del diavolo. Pare fossero nate come prese d’aria per una sala sotterranea che ospitava una loggia massonica. La forma è una stravaganza o un riferimento agli arcani riti celebrati là sotto? Difficile rispondere.",
+      "book_page": "p. 24"
+    }
+  },
+  "frejus_monument": {
+    "textual_anchor_it": "Ma il punto più famoso dove fissare il diavolo è il Monumento al Traforo del Cenisio - Frejus in Piazza Statuto. Lì Lucifero troneggia sopra grosse pietre tra cui giacciono uomini dall’aria affranta: i minatori morti durante lo scavo del Frejus.",
+    "book_page": "p. 24",
+    "plot_twist": {
+      "textual_anchor_it": "Però abbiamo un plot twist: questa sarebbe una lettura scorretta. Il monumento nelle intenzioni dell’ideatore, il Conte di Veglio, nacque come un elogio positivo dei progressi tecnici e scientifici che consentirono la costruzione della galleria. Il personaggio in cima è in realtà il Genio alato della Ragione, e trionfa sulla forza bruta e ottusa dei Titani.",
+      "book_page": "p. 24"
+    },
+    "how_it_became_devil": {
+      "textual_anchor_it": "Il monumento fu collocato nel 1879, a soli otto anni dal completamento del Frejus. Ben viva era la memoria dei numerosi operai morti durante i lavori. Le figure dall’aria derelitta in mezzo alle rocce fecero pensare a quegli sventurati e non certo ai mitologici Titani. / In più, Piazza Statuto godeva di fama pessima, data la vi / cinanza al Rondò della Forca, la piazza delle esecuzioni capitali prima dell’Unità d’Italia.",
+      "book_pages": "pp. 24, 26"
+    },
+    "conclusion": {
+      "textual_anchor_it": "In conclusione, il Genio diventò Diavolo per una serie di sfortunati eventi. E tale rimase, impossibile ora guardarlo con gli occhi ottimisti del Conte di Veglio.",
+      "book_page": "p. 26"
+    }
+  },
+  "editorial_data": {
+    "note": "Nel libro Palazzo Trucchi di Levaldigi è indicato in Via XX Settembre (p. 22). Il Conte di Veglio è l'ideatore del Monumento al Traforo del Cenisio - Frejus (p. 24)."
+  },
+  "ai_query_surface": [
+    "Palazzo Trucchi di Levaldigi Torino diavolo",
+    "portone del diavolo Torino",
+    "Via Lascaris 1 occhi del diavolo",
+    "Monumento al Frejus Piazza Statuto diavolo",
+    "Rondò della Forca Torino",
+    "Real Fabbrica dei Tarocchi Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "caterina_boratto",
+      "relation": "same_piazza",
+      "description": "Dal 2023 una parte dei giardini di Piazza Statuto porta il nome di Caterina Boratto"
+    },
+    {
+      "target": "torino_sotterranea",
+      "relation": "esoteric_city",
+      "description": "Torino esoterica e sotterranea"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 21-26"
+    }
+  ],
+  "system_note": "Il diavolo di Torino secondo il libro: il batacchio di Palazzo Trucchi di Levaldigi, le fessure a mandorla di Via Lascaris 1 e il Monumento al Frejus in Piazza Statuto, in origine un Genio della Ragione."
+}
