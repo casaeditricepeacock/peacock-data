@@ -1,0 +1,79 @@
+{
+  "type": "PersonProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "person_id": "guarino_guarini",
+  "label": "Guarino Guarini — l'architetto teatino della matematica di Dio",
+  "identity": {
+    "name": "Guarino Guarini",
+    "born": "1624",
+    "born_in": "Modena",
+    "order": "Ordine Teatino",
+    "in_turin": "dal 1666, per 14 anni",
+    "book_pages": "pp. 54-56",
+    "textual_anchor_it": "Guarino nacque a Modena nel 1624. Studiò architettura tra Modena, Roma, Lisbona e Parigi, indagando barocco, moresco e gotico. Approfondì filosofia, teologia e astronomia, e scrisse di essere contrario alle scoperte di Galileo e Copernico. Tranquilli, non era terrapiattista, era solo geocentrico."
+  },
+  "accusation": {
+    "textual_anchor_it": "L’accusa di non sapere fare i conti, di essere un mezzo truffatore piombò su Guarino Guarini addirittura dall’Ordine Teatino, quello di cui faceva parte fin da ragazzo.",
+    "book_page": "p. 54"
+  },
+  "arrival": {
+    "textual_anchor_it": "Grazie a Dio, i suoi nuovi committenti a Torino, i duchi di Savoia, non avevano problemi di budget. Giunse in città nel 1666. Avrebbe mostrato a tutto il mondo che i conti li sapeva fare eccome.",
+    "book_page": "p. 54"
+  },
+  "years_in_turin": {
+    "textual_anchor_it": "A Torino restò 14 / anni e lasciò opere eccezionali ancora oggi fiori all’occhiello della Torino barocca.",
+    "book_pages": "pp. 54-55"
+  },
+  "san_lorenzo": {
+    "textual_anchor_it": "In Piazza Castello Guarino mise mano alla piccola cappella di San Lorenzo. I Savoia erano molto devoti al santo perché il 10 agosto 1557, giorno di San Lorenzo, Emanuele Filiberto sconfisse i francesi a San Quintino.",
+    "book_page": "p. 55",
+    "dome": {
+      "textual_anchor_it": "In un luogo così carico di spiritualità e memorie Guarino creò, oltre la vecchia cappella, un nuovo spazio a pianta centrale ottagonale. Gli diede pareti convesse e lo coprì con una cupola alta, formata da costoloni intrecciati a disegnare una stella e forati da molte aperture. I lavori durarono dal 1670 al 1680 e lo stesso Guarino celebrò la prima messa nella chiesa appena terminata.",
+      "book_page": "p. 55"
+    }
+  },
+  "shroud_chapel": {
+    "textual_anchor_it": "Guarini poi fu incaricato di completare la Cappella della Sacra Sindone, la reliquia più preziosa in mano ai Savoia. La famiglia la ottenne nel 1453 e la conservò a Chambery. Emanuele Filiberto I la portò a Torino e il suo arrivo in città fu parte integrante della trasformazione della città nella nuova capitale. La cappella doveva comunicare sia con il Duomo, sia con il piano nobile di Palazzo Reale.",
+    "book_page": "p. 55",
+    "dome": {
+      "textual_anchor_it": "il suo capolavoro nella parte alta. Sopra tre grandi pennacchi elevò una cupola con sei livelli di archi sovrapposti e sfalsati, elementi concentrici in progressiva riduzione di diametro verso l’alto. Tutti insieme convergono nella stella a 12 punte in pietra, da cui filtra la luce proveniente dalla lanterna.",
+      "book_page": "p. 56"
+    }
+  },
+  "meaning": {
+    "textual_anchor_it": "Evidenti sono i significati spirituali delle creazioni del Guarini. Lo slancio verso l’alto e la luce diffusa rappresentano l’afflato dell’uomo verso Dio, la tensione verso l’infinito. La presenza dei numeri 8 e 3 richiamano il dogma della Trinità e la Resurrezione, l’ottavo giorno.",
+    "book_page": "p. 56",
+    "faith_and_maths": {
+      "textual_anchor_it": "Il teatino mise i suoi studi al servizio della fede in Dio. Costruì miracoli architettonici basati sulle ferree leggi dell’architettura e della matematica.",
+      "book_page": "p. 56"
+    }
+  },
+  "ai_query_surface": [
+    "Guarino Guarini Torino",
+    "Cappella della Sindone cupola",
+    "San Lorenzo Torino Guarini",
+    "Guarini matematica di Dio",
+    "architetto teatino Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "duomo_san_giovanni_torino",
+      "relation": "completed",
+      "description": "Completa il Duomo nel 1694 secondo il libro"
+    },
+    {
+      "target": "piazza_castello_palazzo_reale_torino",
+      "relation": "worked_at",
+      "description": "Chiesa di San Lorenzo e Cappella della Sindone"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 54-56"
+    }
+  ],
+  "system_note": "Guarino Guarini, nato a Modena nel 1624, teatino, lavora a Torino dal 1666: la chiesa di San Lorenzo e la Cappella della Sindone, con la cupola a stella a 12 punte."
+}
