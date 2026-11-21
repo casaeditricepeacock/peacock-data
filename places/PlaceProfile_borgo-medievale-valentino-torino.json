@@ -1,0 +1,75 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "borgo_medievale_valentino_torino",
+  "label": "Borgo Medievale e Parco del Valentino, Torino — un Medioevo ricostruito nel 1884",
+  "place": {
+    "name": "Borgo Medievale e Parco del Valentino",
+    "city": "Torino",
+    "type": "borgo ricostruito e parco fluviale",
+    "textual_anchor_it": "La famiglia Andrade sognava un futuro da imprenditore per il proprio rampollo Alfredo. Dal natio Portogallo lo mandarono a studiare economia a Genova. Alfredo però passò più tempo nei musei che sui libri contabili. Studiò pittura, architettura e arti decorative. Lo affascinò soprattutto il Medioevo piemontese.",
+    "book_pages": "pp. 44-48"
+  },
+  "alfredo_andrade": {
+    "textual_anchor_it": "La famiglia Andrade sognava un futuro da imprenditore per il proprio rampollo Alfredo. Dal natio Portogallo lo mandarono a studiare economia a Genova. Alfredo però passò più tempo nei musei che sui libri contabili. Studiò pittura, architettura e arti decorative. Lo affascinò soprattutto il Medioevo piemontese.",
+    "book_page": "p. 44"
+  },
+  "expo_1884": {
+    "textual_anchor_it": "Nel 1882 lo chiamarono a Torino. Stavano preparando l’Esposizione Universale del 1884, da tenersi al Parco del Valentino. Era necessario immaginare qualcosa di grandioso per il padiglione d’arte e architettura.",
+    "book_page": "p. 44"
+  },
+  "idea": {
+    "textual_anchor_it": "Andrade ebbe l’idea di ricreare un borgo che raccogliesse in sé le caratteristiche dei più importanti complessi medievali presenti in Piemonte e Val d’Aosta. / Oltre 40 edifici fecero da modello per le ricostruzioni del borgo. Ci fu un lavoro di ricerca minuziosissimo con migliaia di disegni, rilievi e fotografie.",
+    "book_page": "p. 44"
+  },
+  "visit": {
+    "textual_anchor_it": "Entrarono al borgo tramite / un ponte levatoio, ammirarono case, fontane e stemmi, passeggiarono vicino alle mura. Lungo i quattro piani della rocca incontrarono camere riccamente arredate, saloni e persino anguste prigioni nel seminterrato.",
+    "book_pages": "pp. 44-45"
+  },
+  "survival": {
+    "textual_anchor_it": "Il Borgo piacque così tanto che finita l’esposizione nessuno ebbe il fegato di demolirlo. Questo Medioevo visto con gli occhi di un portoghese a fine Ottocento è tuttora uno dei luoghi più amati di Torino, insieme naturalmente a tutto il Parco del Valentino.",
+    "book_page": "p. 45"
+  },
+  "valentino_name": {
+    "textual_anchor_it": "L’origine del Valentino non è così romantica. La parola deriverebbe dal tardo latino vallantinum con il significato di “valle solcata da una bealera”.",
+    "book_page": "p. 45"
+  },
+  "castle": {
+    "textual_anchor_it": "Il castello fu ampliato e abbellito soprattutto per volere di Cristina di Borbone, moglie di Vittorio Amedeo I e poi vedova reggente dal 1637. Ne uscì un edificio maestoso, parallelo al Po, carico di affreschi, ori e stucchi che celebravano le virtù civili e / militari dei Savoia. Dal 1906 è la sede del Politecnico di Torino.",
+    "book_pages": "pp. 45, 48"
+  },
+  "park": {
+    "textual_anchor_it": "L’idea di creare un parco pubblico intorno al castello arrivò nel corso dell’Ottocento. L’inaugurazione fu nel 1858. Subito il Valentino divenne il luogo prediletto dai torinesi per trascorrere il tempo libero passeggiando, visitando il Borgo o andando in canoa lungo il Po: la Società Canottieri Cerea, tuttora attiva, aprì nel 1863.",
+    "book_page": "p. 48"
+  },
+  "relics": {
+    "textual_anchor_it": "Bisogna però aggiungere che secondo la tradizione, da queste parti c’era una cappella con le reliquie di San Valentino. Andò a quanto pare perduta. Le reliquie ora sono nella Chiesa di San Vito, Modesto e Crescenza, sulla collina oltre il Po. Tutto sommato si sono allontanate di poco.",
+    "book_page": "p. 48"
+  },
+  "editorial_data": {
+    "note": "Nel libro la panchina degli innamorati è di Rodolfo Marasciolo (p. 45)."
+  },
+  "ai_query_surface": [
+    "Borgo Medievale Torino",
+    "Alfredo d'Andrade Borgo Medievale",
+    "Parco del Valentino storia",
+    "Castello del Valentino Politecnico",
+    "Esposizione Universale 1884 Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "mole_antonelliana_torino",
+      "relation": "same_book_chapter_sequence",
+      "description": "Capitolo successivo del libro: La Mole e la Madre"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 44-48"
+    }
+  ],
+  "system_note": "Borgo Medievale: ricostruzione ideata da Alfredo d'Andrade per l'Esposizione Universale del 1884 al Parco del Valentino, su modelli di oltre 40 edifici di Piemonte e Valle d'Aosta."
+}
