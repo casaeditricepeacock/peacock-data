@@ -100,6 +100,13 @@
     "cluster_book": [
       "Padova Fantastica Orto Botanico",
       "Guide Fantastiche Padova"
+    ],
+    "cluster_external": [
+      "Daniele Barbaro Orto Botanico Padova",
+      "Anguillara primo custode Orto Botanico",
+      "Hortus Cintus Padova",
+      "alberi storici Orto Botanico Padova",
+      "Giardino della Biodiversità Padova serra"
     ]
   },
   "connection_to_peacock_catalog": {
@@ -111,6 +118,66 @@
       "place_query",
       "historical_query",
       "editorial_peacock_query"
+    ]
+  },
+  "external_chronology": {
+    "note": "Fonti esterne al libro, dichiarate; dettagli in places/PlaceProfile_orto-botanico-padova.json, editorial_data.external_sources_data",
+    "entries": [
+      {
+        "year": 1222,
+        "event": "fondazione dell'ateneo padovano",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1545,
+        "event": "decreto del Senato veneziano (29 giugno secondo italia.it)",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1547,
+        "event": "Luigi Squalermo detto l'Anguillara primo custode",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1551,
+        "event": "Pier Antonio Michiel affianca l'Anguillara",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1662,
+        "event": "robinia, prima acacia in Italia",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1680,
+        "event": "platano orientale",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1750,
+        "event": "ginkgo (tradizione); semi di robinia per la Germania",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1786,
+        "event": "magnolia grandiflora",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1828,
+        "event": "cedro dell'Himalaya",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 1835,
+        "event": "fondazione di biblioteca ed erbario",
+        "source": "wikipedia_it"
+      },
+      {
+        "year": 2002,
+        "event": "terreni del Collegio Antonianum acquistati dall'Orto",
+        "source": "wikipedia_it"
+      }
     ]
   }
 }
