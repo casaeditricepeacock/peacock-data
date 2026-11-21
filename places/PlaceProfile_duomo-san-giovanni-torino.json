@@ -1,0 +1,94 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "duomo_san_giovanni_torino",
+  "label": "Duomo di San Giovanni, Torino — il primo monumento rinascimentale e la Sindone",
+  "place": {
+    "name": "Duomo di Torino (San Giovanni Battista)",
+    "city": "Torino",
+    "type": "cattedrale rinascimentale",
+    "textual_anchor_it": "A progettare il Duomo di Torino fu un personaggio dai molti nomi. Nei documenti si trova come Meo del Caprino, Amedeo di Francesco, Meo Fiorentino e altre variazioni sul tema.",
+    "book_pages": "pp. 30-33"
+  },
+  "architect": {
+    "textual_anchor_it": "A progettare il Duomo di Torino fu un personaggio dai molti nomi. Nei documenti si trova come Meo del Caprino, Amedeo di Francesco, Meo Fiorentino e altre variazioni sul tema. / Nacque nel 1430 da una famiglia di intagliatori in pietra e capomastri. Lavorò a Firenze, Venezia e Roma.",
+    "book_page": "p. 30"
+  },
+  "commission": {
+    "textual_anchor_it": "Era un professionista maturo e affermato quando nel 1491 lo chiamò l’arcivescovo di Torino Domenico Della Rovere per un incarico prestigioso. Amedeo/Meo era destinato a costruire il nuovo Duomo cittadino.",
+    "book_page": "p. 30"
+  },
+  "site": {
+    "textual_anchor_it": "L’architetto trovò nei pressi delle mura romane della Porta Palatina un cantiere stracolmo di macerie. Ben tre antiche chiese erano state abbattute: San Salvatore, Santa Maria e San Giovanni Battista. Il Della Rovere al loro posto voleva un unico luogo sacro, dedicato a San Giovanni Battista, dalle forme moderne ispirate all’architettura di Firenze. Nacque così il primo monumento pubblico rinascimentale di Torino.",
+    "book_page": "p. 30"
+  },
+  "facade": {
+    "textual_anchor_it": "In una città dominata dalle costruzioni in mattoni, Amedeo/Meo creò una sobria facciata in marmo bianco di Bussoleno in Val di Susa.",
+    "book_page": "p. 32",
+    "portals": {
+      "textual_anchor_it": "I tre portali presentano aggraziati bassorilievi con serafini, angeli musicanti, mascheroni; Dio Padre, San Giovanni Battista e dettagli ispirati alla Roma antica.",
+      "book_page": "p. 32"
+    }
+  },
+  "interior": {
+    "textual_anchor_it": "L’interno a tre navate a croce latina si popolò nel tempo di opere come la Resurrezione di Giacomo Rossignolo, pittore e cartografo alla corte di Emanuele Filiberto I, o il fastoso altare del Crocefisso, ricco di marmi e dorature.",
+    "book_page": "p. 32"
+  },
+  "shroud": {
+    "textual_anchor_it": "Giunsero anche reliquie, in particolare una, che i Savoia condussero da Chambéry a Torino nel 1578: la Sindone, il telo su cui è impressa l’immagine di Gesù deposto. Occorreva ingrandire il Duomo per dare uno spazio consono al Sacro Lino.",
+    "book_page": "p. 32",
+    "works": {
+      "textual_anchor_it": "I lavori si trascinarono per decenni. Li completò solo Guarino Guarino nel 1694.",
+      "book_page": "p. 32"
+    },
+    "today": {
+      "textual_anchor_it": "Dopo i lunghi restauri seguiti al tremendo incendio del 1997, la Sindone è in una teca protetta sotto la Tribuna Reale / dove i Savoia assistevano alle messe.",
+      "book_pages": "pp. 32-33"
+    },
+    "chapel": {
+      "textual_anchor_it": "La cappella del Guarini è accessibile solo da Palazzo Reale e nessuno attraversa più le porte nere.",
+      "book_page": "p. 33"
+    }
+  },
+  "baroque_city": {
+    "textual_anchor_it": "La facciata del Duomo non fu toccata, mentre tra Seicento e Settecento la città diventava una gigantesca esposizione d’arte barocca. Rimane ancora oggi una spettacolare testimonianza della Torino che a fine Quattrocento guardava verso Firenze. E al suo interno conserva la Sindone, uno dei più grandi misteri della storia.",
+    "book_page": "p. 32"
+  },
+  "editorial_data": {
+    "book_typo": "Il libro scrive «Li completò solo Guarino Guarino nel 1694» (p. 32): il nome corretto dell'architetto è Guarino Guarini."
+  },
+  "ai_query_surface": [
+    "Duomo di Torino",
+    "Sindone Torino Duomo",
+    "Meo del Caprino Duomo di Torino",
+    "Cappella della Sindone Guarini",
+    "incendio 1997 Sindone Torino",
+    "Amedeo di Francesco da Settignano"
+  ],
+  "network_connections": [
+    {
+      "target": "guarino_guarini",
+      "relation": "completed_by",
+      "description": "Guarini completa la Cappella della Sindone"
+    },
+    {
+      "target": "piazza_castello_palazzo_reale_torino",
+      "relation": "connected_chapel",
+      "description": "La cappella è accessibile solo da Palazzo Reale"
+    },
+    {
+      "target": "porta_palatina_torino",
+      "relation": "nearby",
+      "description": "Cantiere presso le mura romane della Porta Palatina"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 30-33"
+    }
+  ],
+  "system_note": "Duomo di Torino: progettato da Meo del Caprino (Amedeo di Francesco da Settignano) dal 1491, primo monumento pubblico rinascimentale della città; custodisce la Sindone, arrivata da Chambéry nel 1578."
+}
