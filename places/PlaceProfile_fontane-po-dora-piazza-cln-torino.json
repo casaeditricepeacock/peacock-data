@@ -1,0 +1,76 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "fontane_po_dora_piazza_cln_torino",
+  "label": "Fontane del Po e della Dora, Piazza CLN, Torino — i due fiumi di Baglioni",
+  "place": {
+    "name": "Fontane del Po e della Dora (Piazza CLN)",
+    "city": "Torino",
+    "type": "fontane gemelle razionaliste",
+    "textual_anchor_it": "Il Ventennio volle portare un cambiamento radicale nel cuore di Torino. Dietro le chiese gemelle e barocche di Piazza San Carlo, Marcello Piacentini nel 1935 ideò una piazzetta con severi edifici in stile razionalista. L’austero isolato avrebbe accolto due statue di Mussolini e Vittorio Emanuele III e ricordato la storia antica di Torino, il suo nascere alla confluenza del Po e della Dora. Il Po fu soprattutto la via d’acqua per il trasporto delle merci mentre la Dora fu la madre delle bealere, i piccoli canali che portavano acqua ai campi, ai fabbri e ai mulini. Si indisse il concorso per la fabbricazione di due fontane gemelle da decorare con due sculture allegoriche rappresentanti i fiumi.",
+    "book_pages": "pp. 15-20"
+  },
+  "piacentini_project": {
+    "textual_anchor_it": "Il Ventennio volle portare un cambiamento radicale nel cuore di Torino. Dietro le chiese gemelle e barocche di Piazza San Carlo, Marcello Piacentini nel 1935 ideò una piazzetta con severi edifici in stile razionalista. L’austero isolato avrebbe accolto due statue di Mussolini e Vittorio Emanuele III e ricordato la storia antica di Torino, il suo nascere alla confluenza del Po e della Dora. Il Po fu soprattutto la via d’acqua per il trasporto delle merci mentre la Dora fu la madre delle bealere, i piccoli canali che portavano acqua ai campi, ai fabbri e ai mulini. Si indisse il concorso per la fabbricazione di due fontane gemelle da decorare con due sculture allegoriche rappresentanti i fiumi.",
+    "book_page": "p. 15"
+  },
+  "rivers": {
+    "textual_anchor_it": "Il Po fu soprattutto la via d’acqua per il trasporto delle merci mentre la Dora fu la madre delle bealere, i piccoli canali che portavano acqua ai campi, ai fabbri e ai mulini.",
+    "book_page": "p. 15"
+  },
+  "baglioni": {
+    "textual_anchor_it": "Le realizzò l’artista Umberto Baglioni, nato in Calabria nel 1893 / e giunto ventiquattrenne a Torino.",
+    "book_pages": "pp. 15, 20"
+  },
+  "figures": {
+    "textual_anchor_it": "Nella sua visione Po e Dora hanno sembianze umane. Il Po è un omone barbuto che tiene in mano spighe di grano e sta alle spalle della chiesa di San Carlo; La Dora, dietro Santa Cristina, è una donna dall’aspetto fiero con capelli lunghi e un frutto in mano.",
+    "book_page": "p. 20"
+  },
+  "inauguration": {
+    "textual_anchor_it": "I lavori proseguirono con grande celerità e le fontane furono inaugurate con i due fiumi già nel 1939. / Lo scoppio della guerra cancellò la produzione degli altri due ritratti.",
+    "book_page": "p. 20"
+  },
+  "piazza_cln_name": {
+    "textual_anchor_it": "Finita la guerra, la piazzetta prese il nome di Piazza C.L.N. in ricordo del Comitato di Liberazione Nazionale costituitosi nel 1943 contro l’occupazione fascista.",
+    "book_page": "p. 20"
+  },
+  "waterproofing": {
+    "textual_anchor_it": "Pochi anni dopo purtroppo i torinesi scoprirono che le fontane non erano state impermeabilizzate nel modo corretto. Ecco come mai erano riuscite a terminarle in così poco tempo! La necessità di continui interventi e ristrutturazioni costrinsero a spegnere le fontane, lasciando Po e Dora più volte in secca.",
+    "book_page": "p. 20"
+  },
+  "profondo_rosso": {
+    "textual_anchor_it": "La piazza più che per le sue vicissitudini acquatiche è nota perché Dario Argento la scelse come set per alcune scene di Profondo Rosso. Il Blu Bar visibile nelle riprese fu allestito apposta per il film e in realtà non è mai esistito.",
+    "book_page": "p. 20"
+  },
+  "editorial_data": {
+    "link_to_existing_node": "places/PlaceProfile_piazza-cln-blue-bar-torino.json"
+  },
+  "ai_query_surface": [
+    "fontane Po e Dora Piazza CLN",
+    "Umberto Baglioni fontane Torino",
+    "Piazza CLN Torino Profondo Rosso",
+    "Blu Bar Profondo Rosso Torino",
+    "Piacentini razionalismo Torino 1935"
+  ],
+  "network_connections": [
+    {
+      "target": "ChIJmVLJi25tiEcRuoYzBwv898k",
+      "relation": "same_square",
+      "description": "Piazza CLN e Blu Bar (Profondo Rosso)"
+    },
+    {
+      "target": "chiese_gemelle_san_carlo_santa_cristina_torino",
+      "relation": "behind_the_churches",
+      "description": "Le fontane stanno alle spalle delle chiese gemelle"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 15-20"
+    }
+  ],
+  "system_note": "Piazza CLN: progetto razionalista di Marcello Piacentini (1935) con le fontane gemelle del Po e della Dora di Umberto Baglioni, inaugurate nel 1939; set di Profondo Rosso."
+}
