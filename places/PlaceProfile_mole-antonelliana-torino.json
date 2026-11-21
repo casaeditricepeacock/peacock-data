@@ -1,0 +1,76 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "mole_antonelliana_torino",
+  "label": "Mole Antonelliana, Torino — la sinagoga che divenne il simbolo della città",
+  "place": {
+    "name": "Mole Antonelliana",
+    "city": "Torino",
+    "type": "monumento simbolo di Torino, sede del Museo del Cinema",
+    "textual_anchor_it": "Nel 1848 gli ebrei piemontesi ottennero per la prima volta i diritti civili e politici. Poterono finalmente costruire una pubblica sinagoga nel quartiere Vanchiglia. L’architetto Alessandro Antonelli ideò un edificio di grande originalità. Purtroppo i costi elevati e le difficoltà costruttive logorarono i rapporti fra la comunità ebraica e l’Antonelli. Andò a finire che si costruì un’altra sinagoga - stavolta in San Salvario - e il comune di Torino acqui / sì la Mole incompiuta, volendola trasformare in un monumento al re Vittorio Emanuele II.",
+    "book_pages": "pp. 48-51"
+  },
+  "origin": {
+    "textual_anchor_it": "Nel 1848 gli ebrei piemontesi ottennero per la prima volta i diritti civili e politici. Poterono finalmente costruire una pubblica sinagoga nel quartiere Vanchiglia. L’architetto Alessandro Antonelli ideò un edificio di grande originalità. Purtroppo i costi elevati e le difficoltà costruttive logorarono i rapporti fra la comunità ebraica e l’Antonelli. Andò a finire che si costruì un’altra sinagoga - stavolta in San Salvario - e il comune di Torino acqui / sì la Mole incompiuta, volendola trasformare in un monumento al re Vittorio Emanuele II.",
+    "book_pages": "pp. 48-49"
+  },
+  "construction": {
+    "textual_anchor_it": "Il cantiere si trascinò per anni. Durante l’Esposizione del 1884 si proposero ai turisti viaggi in mongolfiera per guardare la mole che cresceva sempre di più. / Tutti in Vanchiglia conoscevano l’ormai anziano Antonelli e lo osservavano con il fiato sospeso quando ogni giorno lo portavano su a braccia per controllare i lavori.",
+    "book_page": "p. 49"
+  },
+  "completion": {
+    "textual_anchor_it": "Antonelli morì novantenne nel 1888 e a completare la mole furono l’anno dopo il figlio Costanzo e Crescentino Caselli.",
+    "book_page": "p. 49"
+  },
+  "form": {
+    "textual_anchor_it": "La forma è assolutamente unica, uno spettacolare incontro tra il neoclassicismo della base e l’ardito neogotico della cupola con la lunga guglia cuspidata.",
+    "book_page": "p. 49"
+  },
+  "symbol": {
+    "textual_anchor_it": "Divenne immediatamente un simbolo di Torino, amato anche dai visitatori stranieri come Nietzsche che la definì “forse l’opera architettonica più geniale che sia mai stata realizzata”.",
+    "book_page": "p. 49"
+  },
+  "fragility": {
+    "textual_anchor_it": "Fu rafforzata più volte con cemento armato per garantirne la stabilità. Il nubifragio del 1953 si portò via un bel pezzo della guglia, costringendo a una lunga ricostruzione. Il restauro per trasformarla nella sede del Museo del Cinema durò altri quattro anni, dal 1996 al 2000. / Necessita tuttora di manutenzione costante, di fatto è un’opera mai davvero finita.",
+    "book_page": "p. 49"
+  },
+  "gran_madre_axis": {
+    "textual_anchor_it": "Perché l’Antonelli si scelse un compito così difficile? Alcuni appassionati di esoterismo sostengono che c’entra un’altra costruzione imponente: la Gran Madre. / Situata in Borgo Po, è una chiesa neoclassica terminata nel 1831 e ispirata alle forme del Pantheon. / Alla base della scalinata che conduce alla chiesa, sulla sinistra, una statua del carrarese Carlo Chelli rappresenta una donna con un calice in mano e lo sguardo verso Vanchiglia, cioè verso la Mole. La Mole sarebbe stata messa in asse con la scultura, entrambe sarebbero punti di energia positiva e il calice indicherebbe che il Sacro Graal si trova nascosto a Torino.",
+    "book_page": "p. 51"
+  },
+  "casa_scaccabarozzi": {
+    "textual_anchor_it": "Per esempio fu opera sua la Casa Scaccabarozzi, una delle case più assurde di Torino, a pochi passi dalla Mole. Antonelli nel 1840 era in trattativa per comprare due lotti adiacenti di terreno. Ahimè, uno dei proprietari ci ripensò e lo costrinse a costruire un’abitazione dentro un angusto spazio triangolare. Ci riuscì sfruttando tutta l’altezza disponibile e dando tagli originali alle finestre e alle stanze. Data la scarsa larghezza e la tinta gialla, i torinesi chiamano la casa fetta di polenta.",
+    "book_page": "p. 51"
+  },
+  "editorial_data": {
+    "note": "Il testo stampato riporta l'altezza come «167, metri» (p. 49): refuso di composizione nel libro."
+  },
+  "ai_query_surface": [
+    "Mole Antonelliana storia",
+    "Antonelli sinagoga Torino",
+    "Casa Scaccabarozzi fetta di polenta",
+    "Gran Madre Torino Sacro Graal",
+    "Nietzsche Mole Antonelliana"
+  ],
+  "network_connections": [
+    {
+      "target": "villa_della_regina_torino",
+      "relation": "borgo_po_axis",
+      "description": "Gran Madre e Borgo Po"
+    },
+    {
+      "target": "borgo_medievale_valentino_torino",
+      "relation": "previous_chapter",
+      "description": "Capitolo precedente del libro"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 48-51"
+    }
+  ],
+  "system_note": "Mole Antonelliana: nata come sinagoga di Alessandro Antonelli, acquistata dal Comune, completata nel 1889; Nietzsche la definì «forse l'opera architettonica più geniale che sia mai stata realizzata»; sede del Museo del Cinema."
+}
