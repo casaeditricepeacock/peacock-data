@@ -1,0 +1,68 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "palazzo_madama_torino",
+  "label": "Palazzo Madama, Torino — la maschera barocca su una Casaforte",
+  "place": {
+    "name": "Palazzo Madama",
+    "city": "Torino",
+    "type": "palazzo storico su Piazza Castello",
+    "textual_anchor_it": "preferirono risiedere nel vicino Palazzo Madama, un luogo sicuro in cui ripararsi dagli intrighi di corte.",
+    "book_pages": "pp. 28, 39-40"
+  },
+  "madame_reali": {
+    "textual_anchor_it": "Nella storia dei Savoia ci furono due Madame Reali, vedove reggenti per conto degli eredi bambini. La prima fu Maria Cristina di Borbone-Francia, reggente dal 1637. La seconda Maria Giovanna Battista di Savoia-Nemours, reggente dal 1675. / preferirono risiedere nel vicino Palazzo Madama, un luogo sicuro in cui ripararsi dagli intrighi di corte.",
+    "book_pages": "pp. 39-40"
+  },
+  "facade": {
+    "textual_anchor_it": "Palazzo Madama ha un ingresso magnifico su Piazza Castello con alte colonne, finestroni e statue di coronamento. Si tratta di fatto però di una maschera barocca applicata a una struttura antica, stratificata nei secoli.",
+    "book_page": "p. 40"
+  },
+  "gates_and_fortress": {
+    "textual_anchor_it": "Qui sorsero due porte civiche, una in epoca romana, detta Decumana, e una in periodo medievale chiamata Fibellona (nome curioso, dall’etimologia oscura). Entrambe furono poi incluse nella Casaforte, la fortificazione eretta dagli Acaja, ramo collaterale dei Savoia estinto nel XV secolo.",
+    "book_page": "p. 40"
+  },
+  "madame_works": {
+    "textual_anchor_it": "Le Madame poi la ampliarono e la ingentilirono nelle forme esterne, esibendo la loro idea di opulenza e regalità.",
+    "book_page": "p. 40"
+  },
+  "visit": {
+    "textual_anchor_it": "La visita a Palazzo Madama è un viaggio nel tempo che include resti romani e medievali, opere d’arte del Seicento e del Settecento, e una straordinaria collezione di mobili, decorazioni e statue.",
+    "book_page": "p. 40"
+  },
+  "roman_gate": {
+    "textual_anchor_it": "Palazzo Madama ospita i resti di un’altra porta civica, detta Decumana.",
+    "book_page": "p. 28"
+  },
+  "editorial_data": {
+    "link_to_roman_turin": "places/PlaceProfile_porta-palatina-torino.json"
+  },
+  "ai_query_surface": [
+    "Palazzo Madama Torino",
+    "porta Decumana Torino",
+    "Casaforte degli Acaja",
+    "Madame Reali Cristina di Borbone",
+    "Fibellona Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "piazza_castello_palazzo_reale_torino",
+      "relation": "on_same_square",
+      "description": "Piazza Castello"
+    },
+    {
+      "target": "porta_palatina_torino",
+      "relation": "roman_city_link",
+      "description": "Altra porta civica della Torino romana"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 28, 39-40"
+    }
+  ],
+  "system_note": "Palazzo Madama: facciata barocca su una struttura stratificata, con le porte civiche Decumana (romana) e Fibellona (medievale) incluse nella Casaforte degli Acaja; residenza delle due Madame Reali."
+}
