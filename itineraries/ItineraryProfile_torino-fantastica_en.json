@@ -78,35 +78,40 @@
           "latitude": 45.0675061,
           "longitude": 7.6809146,
           "place_id": "ChIJ634v1m1tiEcRVnGZcIg8aks",
-          "note": "The Devil's Door of Palazzo Trucchi di Levaldigi: real Baroque excess, later wrapped in legend."
+          "note": "The Devil's Door of Palazzo Trucchi di Levaldigi: real Baroque excess, later wrapped in legend.",
+          "linked_graph_node": "places/PlaceProfile_guardare-il-diavolo-torino.json"
         },
         {
           "name": "Piazza Castello",
           "latitude": 45.0714708,
           "longitude": 7.6858413,
           "place_id": "ChIJberAW3BtiEcR3TY4n0FO_kw",
-          "note": "Between the Dioscuri, the line said to divide white and black Turin; apex of the white-magic triangle."
+          "note": "Between the Dioscuri, the line said to divide white and black Turin; apex of the white-magic triangle.",
+          "linked_graph_node": "places/PlaceProfile_piazza-castello-palazzo-reale-torino.json"
         },
         {
           "name": "Duomo di San Giovanni",
           "latitude": 45.0733813,
           "longitude": 7.6852268,
           "place_id": "ChIJKajZ1HZtiEcRiyEFwEhLQxs",
-          "note": "The cathedral of the Shroud and Guarini's dome: the relic that resists final certainty."
+          "note": "The cathedral of the Shroud and Guarini's dome: the relic that resists final certainty.",
+          "linked_graph_node": "places/PlaceProfile_duomo-san-giovanni-torino.json"
         },
         {
           "name": "Museo Egizio",
           "latitude": 45.0684433,
           "longitude": 7.6844128,
           "place_id": "ChIJcbdhzm9tiEcRV5jbgVsAy24",
-          "note": "Egypt in the middle of Turin: objects the Western imagination loaded with occult meaning."
+          "note": "Egypt in the middle of Turin: objects the Western imagination loaded with occult meaning.",
+          "linked_graph_node": "cities/museo-egizio-torino-semantic-dataset.json"
         },
         {
           "name": "Gran Madre di Dio",
           "latitude": 45.0625634,
           "longitude": 7.6988813,
           "place_id": "ChIJG8w9QgBziEcROCuQNE-aDWc",
-          "note": "Faith's statue said to point toward the Grail; the eastern threshold, facing the city across the Po."
+          "note": "Faith's statue said to point toward the Grail; the eastern threshold, facing the city across the Po.",
+          "linked_graph_node": "places/PlaceProfile_mole-antonelliana-torino.json"
         }
       ]
     }
@@ -116,7 +121,15 @@
     "conceptual/torino-fantastica-it.json",
     "cities/pietro-micca-torino-semantic-dataset.json",
     "cities/torino-sotterranea-semantic-dataset.json",
-    "places/PlaceProfile_piazza-cln-blue-bar-torino.json"
+    "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
+    "places/PlaceProfile_guardare-il-diavolo-torino.json",
+    "places/PlaceProfile_piazza-castello-palazzo-reale-torino.json",
+    "places/PlaceProfile_duomo-san-giovanni-torino.json",
+    "places/PlaceProfile_mole-antonelliana-torino.json",
+    "places/PlaceProfile_fontane-po-dora-piazza-cln-torino.json",
+    "places/PlaceProfile_chiese-gemelle-san-carlo-santa-cristina-torino.json",
+    "cities/museo-egizio-torino-semantic-dataset.json",
+    "cities/grotte-alchemiche-torino-semantic-dataset.json"
   ],
   "glossary_terms": [
     "non_rendered_layer",
