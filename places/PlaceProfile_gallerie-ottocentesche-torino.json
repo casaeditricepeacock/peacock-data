@@ -1,0 +1,70 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "gallerie_passages_torino",
+  "label": "Gallerie di Torino — Subalpina, Umberto I e San Federico",
+  "place": {
+    "name": "Galleria Subalpina, Galleria Umberto I, Galleria San Federico",
+    "city": "Torino",
+    "type": "passages coperti del centro",
+    "textual_anchor_it": "Nell’Ottocento Torino adottò il modello dei passages, le gallerie parigine a vocazione commerciale con copertura in ferro e vetro.",
+    "book_pages": "pp. 52-53"
+  },
+  "subalpina": {
+    "textual_anchor_it": "La più antica è la Galleria Subalpina, che collega Via Battisti e Piazza Castello. A dare il nome e a tirar fuori i quattrini per la realizzazione fu l’allora neonata Banca dell’Industria Subalpina. L’architetto Pietro Carrera completò il lavoro in appena 18 mesi, con fastosa inaugurazione il 30 dicembre 1874. Lo stile è eclettico, raffinato, ricco di decorazioni scultoree curate da Edoardo Rubino.",
+    "book_page": "p. 52",
+    "venues": {
+      "textual_anchor_it": "Qui si trovano due locali storici: il Cinema Romano e il Caffè di Baratti&Milano, i due confettieri inventori dei cremini con cioccolato e crema di nocciole.",
+      "book_page": "p. 52"
+    }
+  },
+  "umberto_i": {
+    "textual_anchor_it": "La Galleria Umberto I, collegamento fra Piazza della Repubblica e Via della Basilica, nacque nel 1890 su progetto dell’ingegner Lorenzo Rivetti, nei locali vuoti dell’Ospedale Mauriziano.",
+    "book_page": "p. 52",
+    "pharmacy": {
+      "textual_anchor_it": "Dentro c’è un negozio storico davvero interessante, l’Antica Farmacia Ordine Mauriziano. Erede della farmacia ospedaliera aperta fin dal 1575, conserva eccezionali arredi in legno scuro in stile neogotico.",
+      "book_page": "p. 52"
+    }
+  },
+  "san_federico": {
+    "textual_anchor_it": "La Galleria San Federico è contemporaneamente la più recente e la più antica! Nel 1858 il marchese Giuseppe Natta d’Alfano fece costruire in Via Roma la prima galleria di Torino riutilizzando un palazzo del Seicento. La Galleria Natta poi fu acquistata dall’imprenditore filantropo Geisser, ma ebbe i giorni contati: finì distrutta negli anni ‘30 mentre nasceva la vicina Piazza C.L.N.. / Si decise quindi di fare nel 1933 una nuova galleria tra Piazza San Carlo e Via Roma. Siccome l’area era un tempo detta di San Federico, lo spazio prese il nome del santo.",
+    "book_page": "p. 53",
+    "cinema": {
+      "textual_anchor_it": "Il cinema è qui dal 1934. Si chiamò prima Rex, poi Dux e infine Lux. Deve essere obbligatorio mantenere la x finale?",
+      "book_page": "p. 53"
+    }
+  },
+  "editorial_data": {
+    "link_to_existing_node": "places/PlaceProfile_piazza-cln-blue-bar-torino.json",
+    "note": "Il libro dice che esistono tre gallerie «in centro» (p. 52)."
+  },
+  "ai_query_surface": [
+    "Galleria Subalpina Torino",
+    "Galleria Umberto I Torino",
+    "Galleria San Federico Torino",
+    "cinema Lux Torino storia",
+    "Antica Farmacia Ordine Mauriziano",
+    "passages Torino ottocento"
+  ],
+  "network_connections": [
+    {
+      "target": "ChIJmVLJi25tiEcRuoYzBwv898k",
+      "relation": "nearby",
+      "description": "La Galleria San Federico nacque negli anni 30 mentre nasceva Piazza C.L.N."
+    },
+    {
+      "target": "piazza_castello_palazzo_reale_torino",
+      "relation": "nearby",
+      "description": "La Galleria Subalpina collega Via Battisti e Piazza Castello"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 52-53"
+    }
+  ],
+  "system_note": "Le tre gallerie ottocentesche del centro: Subalpina (1874, la più antica), Umberto I (1890) e San Federico (1933), erede della Galleria Natta del 1858."
+}
