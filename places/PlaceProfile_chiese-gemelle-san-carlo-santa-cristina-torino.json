@@ -1,0 +1,65 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "chiese_gemelle_san_carlo_santa_cristina_torino",
+  "label": "Chiese gemelle di Piazza San Carlo, Torino — San Carlo e Santa Cristina",
+  "place": {
+    "name": "Chiese di San Carlo e Santa Cristina",
+    "city": "Torino",
+    "type": "chiese barocche gemelle",
+    "textual_anchor_it": "Si spunta proprio in Piazza San Carlo con le sue chiese dalle facciate gemelle. Nacque per prima la chiesa di destra. Carlo Emanuele I la dedicò a San Carlo Borromeo nel 1619.",
+    "book_pages": "pp. 21"
+  },
+  "san_carlo": {
+    "textual_anchor_it": "Nacque per prima la chiesa di destra. Carlo Emanuele I la dedicò a San Carlo Borromeo nel 1619. / Il Savoia volle ricordare il pellegrinaggio a piedi del vescovo da Milano a Torino per pregare di fronte alla Sacra Sindone.",
+    "book_page": "p. 21"
+  },
+  "santa_cristina": {
+    "textual_anchor_it": "A partire dal 1639 la reggente Cristina di Borbone costruì la chiesa accanto, intitolata Santa Cristina.",
+    "book_page": "p. 21"
+  },
+  "baroque": {
+    "textual_anchor_it": "Tra Seicento e Settecento entrambe le chiese divennero un incredibile e prezioso manifesto della religiosità barocca, con stucchi dorati, marmi colorati e grandi quadri.",
+    "book_page": "p. 21"
+  },
+  "not_yet_twins": {
+    "textual_anchor_it": "Non erano ancora gemelle. Mentre nel 1718 Santa Cristina ricevette l’originale facciata di Filippo Juvarra con parte centrale curvilinea, finestra ovale e statue di santi, l’esterno di San Carlo restò per secoli in umili mattoni.",
+    "book_page": "p. 21"
+  },
+  "caronesi": {
+    "textual_anchor_it": "Solo nel 1834 Ferdinando Caronesi terminò la facciata in San Carlo e copiò senza ritegno il modello juvarriano. Non possiamo fargliene una colpa: si desiderava un’unità visiva e prospettica e lui la trovò. Non dovette cercarla a lungo, gli bastò guardare di fianco.",
+    "book_page": "p. 21"
+  },
+  "editorial_data": {
+    "link_to_existing_node": "cities/toro-piazza-san-carlo-torino-semantic-dataset.json",
+    "note": "Nel libro l'espressione «chiese gemelle» compare anche a p. 15."
+  },
+  "ai_query_surface": [
+    "chiese gemelle Piazza San Carlo",
+    "Santa Cristina facciata Juvarra",
+    "San Carlo Borromeo Torino chiesa",
+    "Ferdinando Caronesi San Carlo",
+    "Cristina di Borbone Santa Cristina"
+  ],
+  "network_connections": [
+    {
+      "target": "fontane_po_dora_piazza_cln_torino",
+      "relation": "behind_the_churches",
+      "description": "Piazza CLN alle spalle delle chiese"
+    },
+    {
+      "target": "duomo_san_giovanni_torino",
+      "relation": "sindone_link",
+      "description": "Il pellegrinaggio di San Carlo Borromeo verso la Sindone"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 21"
+    }
+  ],
+  "system_note": "Chiese gemelle di Piazza San Carlo: San Carlo (1619) e Santa Cristina (dal 1639); la facciata di Juvarra su Santa Cristina (1718) fu copiata da Ferdinando Caronesi per San Carlo nel 1834."
+}
