@@ -1,0 +1,104 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "palazzo_trucchi_levaldigi_torino",
+  "label": "Palazzo Trucchi di Levaldigi, Torino — il portone del diavolo",
+  "place": {
+    "name": "Palazzo Trucchi di Levaldigi (Portone del Diavolo)",
+    "city": "Torino",
+    "type": "palazzo barocco con portone e batacchio detti del diavolo",
+    "textual_anchor_it": "Puoi farlo a Palazzo Trucchi di Levaldigi in Via XX Settembre: il volto diabolico si trova sul batacchio del portone d’ingresso.",
+    "book_pages": "p. 22"
+  },
+  "knocker": {
+    "textual_anchor_it": "Puoi farlo a Palazzo Trucchi di Levaldigi in Via XX Settembre: il volto diabolico si trova sul batacchio del portone d’ingresso.",
+    "book_page": "p. 22"
+  },
+  "apprentice_legend": {
+    "textual_anchor_it": "Secondo un’antica leggenda, il portone comparve all’improvviso in una notte, quando un apprendista stregone invocò il demonio proprio in quel punto. Il diavolo, adirato per il brusco risveglio, punì lo stagista di magia nera imprigionandolo per sempre dietro al portone.",
+    "book_page": "p. 22"
+  },
+  "other_stories": {
+    "textual_anchor_it": "Ci sono anche altre storie sul palazzo. Si dice che lì una ballerina morì accoltellata durante una festa. Non si trovò mai il colpevole, e nemmeno il suo coltello insanguinato. Nelle notti successive al delitto, un fantasma danzava nelle stanze della dimora. Invece un certo Maggiore Melchiorre du Perril, entrato nell’edificio per consumare un pasto veloce, fece la fine dell’apprendista stregone: non uscì mai più.",
+    "book_page": "p. 22"
+  },
+  "tarocchi_15": {
+    "textual_anchor_it": "Si racconta ancora che quando la casa ospitava la Real Fabbrica dei Tarocchi avesse come numero civico il 15. Guarda caso 15 è proprio il numero della carta del diavolo nei tarocchi. Il demonio è nei dettagli, oppure negli indirizzi.",
+    "book_page": "p. 22"
+  },
+  "editorial_data": {
+    "external_sources_data": {
+      "note": "Dati esterni al libro Torino Fantastica, con la fonte dichiarata. Non sono frasi del libro e non vanno citate come tali.",
+      "sources": {
+        "piemonteitalia_portone": "https://piemonteitalia.eu/en/node/48248",
+        "wikipedia_it_portone": "https://it.wikipedia.org/wiki/Portone_del_diavolo"
+      },
+      "facts": [
+        {
+          "fact": "Indirizzo: Via XX Settembre 40, Torino; costruito intorno al 1677 da Amedeo di Castellamonte",
+          "source": "piemonteitalia_portone"
+        },
+        {
+          "fact": "Battente in bronzo con il Diavolo, con corna e bocca spalancata; portone sorretto da quattro colonne e decorato con fiori, frutti, animali e amorini",
+          "source": "piemonteitalia_portone"
+        },
+        {
+          "fact": "Costruzione tra il 1673 e il 1677 all'angolo tra Via Alfieri e Via XX Settembre, su progetto di Amedeo di Castellamonte",
+          "source": "wikipedia_it_portone"
+        },
+        {
+          "fact": "Committente: Giovanni Battista Trucchi di Levaldigi, conte e generale delle finanze di Carlo Emanuele II",
+          "source": "wikipedia_it_portone"
+        },
+        {
+          "fact": "Portone commissionato a Parigi nel 1673 e realizzato da Pietro Danesi nel 1675; il batacchio raffigura la testa del demonio con due serpenti intrecciati",
+          "source": "wikipedia_it_portone"
+        },
+        {
+          "fact": "Secondo la tradizione il batacchio è una beffa verso le malelingue che accusavano il ministro di avere fatto un patto con il diavolo",
+          "source": "wikipedia_it_portone"
+        },
+        {
+          "fact": "Real Fabbrica dei Tarocchi al numero civico 15, associato al Diavolo (carta 15): presentata come teoria",
+          "source": "piemonteitalia_portone"
+        },
+        {
+          "fact": "Maggiore Melchiorre Du Perril (inizio Ottocento) e ballerina pugnalata (1790, palazzo di Marianna Carolina di Savoia): presentati come leggende; per Du Perril la voce non cita fonti",
+          "source": "wikipedia_it_portone"
+        }
+      ]
+    },
+    "parent_node": "places/PlaceProfile_guardare-il-diavolo-torino.json"
+  },
+  "ai_query_surface": [
+    "Palazzo Trucchi di Levaldigi",
+    "portone del diavolo Torino",
+    "batacchio diavolo Via XX Settembre Torino",
+    "Amedeo di Castellamonte Torino palazzo",
+    "Pietro Danesi portone Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "guardare_il_diavolo_torino",
+      "relation": "part_of_route",
+      "description": "Prima tappa della caccia al tesoro dei diavoli"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, p. 22"
+    }
+  ],
+  "system_note": "Palazzo Trucchi di Levaldigi: palazzo di Castellamonte (1673-1677) in Via XX Settembre 40, con il portone del diavolo e la leggenda dell'apprendista stregone.",
+  "derived_articles": [
+    {
+      "title": "Tre diavoli a Torino: una caccia al tesoro tra portone, fessure e monumento",
+      "url": "https://www.studiopeacock.net/tre-diavoli-torino-caccia-al-tesoro/",
+      "date": "2026-12-09",
+      "angle": "tre tappe per guardare il diavolo negli occhi: il batacchio di Palazzo Trucchi di Levaldigi, le fessure di Via Lascaris 1, il Genio del monumento al Frejus"
+    }
+  ]
+}
