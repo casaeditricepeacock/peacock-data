@@ -79,7 +79,7 @@
           "longitude": 7.6809146,
           "place_id": "ChIJ634v1m1tiEcRVnGZcIg8aks",
           "note": "The Devil's Door of Palazzo Trucchi di Levaldigi: real Baroque excess, later wrapped in legend.",
-          "linked_graph_node": "places/PlaceProfile_guardare-il-diavolo-torino.json"
+          "linked_graph_node": "places/PlaceProfile_palazzo-trucchi-di-levaldigi-torino.json"
         },
         {
           "name": "Piazza Castello",
@@ -129,7 +129,10 @@
     "places/PlaceProfile_fontane-po-dora-piazza-cln-torino.json",
     "places/PlaceProfile_chiese-gemelle-san-carlo-santa-cristina-torino.json",
     "cities/museo-egizio-torino-semantic-dataset.json",
-    "cities/grotte-alchemiche-torino-semantic-dataset.json"
+    "cities/grotte-alchemiche-torino-semantic-dataset.json",
+    "places/PlaceProfile_palazzo-trucchi-di-levaldigi-torino.json",
+    "places/PlaceProfile_monumento-frejus-piazza-statuto-torino.json",
+    "cities/luoghi-del-diavolo-torino-semantic-dataset.json"
   ],
   "glossary_terms": [
     "non_rendered_layer",
