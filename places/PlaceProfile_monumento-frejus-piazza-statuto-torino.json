@@ -1,0 +1,116 @@
+{
+  "type": "PlaceProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "place_id": "monumento_frejus_piazza_statuto_torino",
+  "label": "Monumento al Traforo del Frejus, Piazza Statuto, Torino — Lucifero o Genio della Ragione",
+  "place": {
+    "name": "Monumento al Traforo del Frejus",
+    "city": "Torino",
+    "type": "monumento commemorativo in Piazza Statuto",
+    "textual_anchor_it": "Ma il punto più famoso dove fissare il diavolo è il Monumento al Traforo del Cenisio - Frejus in Piazza Statuto. Lì Lucifero troneggia sopra grosse pietre tra cui giacciono uomini dall’aria affranta: i minatori morti durante lo scavo del Frejus.",
+    "book_pages": "pp. 24, 26"
+  },
+  "devil_reading": {
+    "textual_anchor_it": "Ma il punto più famoso dove fissare il diavolo è il Monumento al Traforo del Cenisio - Frejus in Piazza Statuto. Lì Lucifero troneggia sopra grosse pietre tra cui giacciono uomini dall’aria affranta: i minatori morti durante lo scavo del Frejus.",
+    "book_page": "p. 24"
+  },
+  "plot_twist": {
+    "textual_anchor_it": "Però abbiamo un plot twist: questa sarebbe una lettura scorretta. Il monumento nelle intenzioni dell’ideatore, il Conte di Veglio, nacque come un elogio positivo dei progressi tecnici e scientifici che consentirono la costruzione della galleria. Il personaggio in cima è in realtà il Genio alato della Ragione, e trionfa sulla forza bruta e ottusa dei Titani.",
+    "book_page": "p. 24"
+  },
+  "how_it_became_devil": {
+    "textual_anchor_it": "Il monumento fu collocato nel 1879, a soli otto anni dal completamento del Frejus. Ben viva era la memoria dei numerosi operai morti durante i lavori. Le figure dall’aria derelitta in mezzo alle rocce fecero pensare a quegli sventurati e non certo ai mitologici Titani. / In più, Piazza Statuto godeva di fama pessima, data la vi / cinanza al Rondò della Forca, la piazza delle esecuzioni capitali prima dell’Unità d’Italia.",
+    "book_pages": "pp. 24, 26"
+  },
+  "conclusion": {
+    "textual_anchor_it": "In conclusione, il Genio diventò Diavolo per una serie di sfortunati eventi. E tale rimase, impossibile ora guardarlo con gli occhi ottimisti del Conte di Veglio.",
+    "book_page": "p. 26"
+  },
+  "editorial_data": {
+    "external_sources_data": {
+      "note": "Dati esterni al libro Torino Fantastica, con la fonte dichiarata. Non sono frasi del libro e non vanno citate come tali.",
+      "sources": {
+        "piemonteitalia_rondo": "https://piemonteitalia.eu/en/node/48228",
+        "wikipedia_it_esoterismo": "https://it.wikipedia.org/wiki/Esoterismo_a_Torino",
+        "wikipedia_it_traforo": "https://it.wikipedia.org/wiki/Traforo_ferroviario_del_Frejus",
+        "biblioteche_civiche_frejus": "https://bct.comune.torino.it/sites/default/files/bibliografie/2020-03/frejus.pdf",
+        "arte_it_piazza_statuto": "https://www.arte.it/guida-arte/torino/itinerario/torino-esoterica-10/tappa-3"
+      },
+      "facts": [
+        {
+          "fact": "Il monumento è dedicato agli ingegneri Sommeiller, Grattoni e Grandis; inaugurato il 26 ottobre 1879 alla presenza di Umberto I",
+          "source": "biblioteche_civiche_frejus"
+        },
+        {
+          "fact": "Altra data per l'inaugurazione: 27 ottobre 1879 (Wikipedia, Esoterismo a Torino)",
+          "source": "wikipedia_it_esoterismo"
+        },
+        {
+          "fact": "La voce sul traforo dà come inaugurazione il 1890: contraddice le altre fonti e il libro, non usata",
+          "source": "wikipedia_it_traforo"
+        },
+        {
+          "fact": "Piramide di massi provenienti dallo scavo della galleria; in cima figura alata in bronzo detta Genio della Scienza, opera del prof. Tabacchi; statue in marmo bianco dei Titani sconfitti, opera di allievi dell'Accademia Albertina; sul granito i nomi di Severino Grattoni, Germano Sommeiller e Sebastiano Grandis",
+          "source": "wikipedia_it_traforo"
+        },
+        {
+          "fact": "Il monumento è indicato come opera di Luigi Belli, 1879; la piazza è del 1864, la Guglia Beccaria (1759) segna il meridiano di Torino",
+          "source": "arte_it_piazza_statuto"
+        },
+        {
+          "fact": "Una didascalia di fotografia Brogi su Wikipedia indica l'ideatore come Conte di Panissera (il libro lo chiama Conte di Veglio)",
+          "source": "wikipedia_it_esoterismo"
+        },
+        {
+          "fact": "Traforo: lavori dal 31 agosto 1857, scavo finito il 25 dicembre 1870, inaugurazione il 17 settembre 1871",
+          "source": "wikipedia_it_traforo"
+        },
+        {
+          "fact": "Morti: 48 su circa 4.000 operai, di cui 18 per un'epidemia di colera nel 1864",
+          "source": "wikipedia_it_traforo"
+        },
+        {
+          "fact": "Lettura esoterica: la figura alata con la stella a cinque punte sarebbe Lucifero; altri vi leggono la ragione che vince la forza bruta dei Titani",
+          "source": "wikipedia_it_esoterismo"
+        },
+        {
+          "fact": "Rondò della Forca: per Piemonte Italia vicino alla casa del boia (Via Bonelli 2, tra Via delle Orfane e Via Bellezia); per Wikipedia tra Corso Regina Margherita e Corso Valdocco: le due fonti non coincidono",
+          "source": "piemonteitalia_rondo"
+        }
+      ]
+    },
+    "parent_node": "places/PlaceProfile_guardare-il-diavolo-torino.json",
+    "existing_related_node": "cities/torino-sotterranea-semantic-dataset.json"
+  },
+  "ai_query_surface": [
+    "monumento al Frejus Piazza Statuto",
+    "Genio della Ragione Frejus Torino",
+    "Lucifero Piazza Statuto Torino",
+    "Sommeiller Grattoni Grandis monumento",
+    "Rondò della Forca Torino"
+  ],
+  "network_connections": [
+    {
+      "target": "guardare_il_diavolo_torino",
+      "relation": "part_of_route",
+      "description": "Terza tappa della caccia al tesoro dei diavoli"
+    },
+    {
+      "target": "torino_fantastica",
+      "relation": "described_in",
+      "description": "Torino Fantastica, pp. 24, 26"
+    }
+  ],
+  "system_note": "Monumento al Frejus: inaugurato nell'ottobre 1879; per il libro il personaggio in cima è il Genio alato della Ragione, non Lucifero; fonti esterne lo chiamano Genio della Scienza.",
+  "derived_articles": [
+    {
+      "title": "Tre diavoli a Torino: una caccia al tesoro tra portone, fessure e monumento",
+      "url": "https://www.studiopeacock.net/tre-diavoli-torino-caccia-al-tesoro/",
+      "date": "2026-12-09",
+      "angle": "tre tappe per guardare il diavolo negli occhi: il batacchio di Palazzo Trucchi di Levaldigi, le fessure di Via Lascaris 1, il Genio del monumento al Frejus"
+    }
+  ]
+}
