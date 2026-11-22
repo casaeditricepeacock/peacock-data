@@ -1,0 +1,79 @@
+{
+  "dataset_id": "peacock-luoghi-del-diavolo-torino-libro",
+  "version": "1.0",
+  "date": "2026-12",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "central_topic": {
+    "name": "I luoghi del diavolo a Torino: una caccia al tesoro in tre tappe",
+    "summary": "Tre luoghi dove guardare il diavolo negli occhi: il batacchio di Palazzo Trucchi di Levaldigi, le fessure di Via Lascaris 1, il Genio del monumento al Frejus. Per ogni tappa, la leggenda e la spiegazione documentata.",
+    "book": "Torino Fantastica — Grazia Guarnieri, disegni di Giulia Lazzaron, Casa Editrice Peacock, 2025 (ISBN 9791281715363)",
+    "book_pages": "pp. 21-26"
+  },
+  "treasure_hunt": [
+    {
+      "stop": 1,
+      "name": "Il batacchio di Via XX Settembre 40",
+      "clue": "un battente di bronzo con il volto del diavolo",
+      "node": "places/PlaceProfile_palazzo-trucchi-di-levaldigi-torino.json"
+    },
+    {
+      "stop": 2,
+      "name": "Gli occhi di Via Lascaris 1",
+      "clue": "fessure a forma di mandorla sul perimetro del condominio",
+      "node": "places/PlaceProfile_guardare-il-diavolo-torino.json",
+      "textual_anchor_it": "A qualche minuto di cammino da Palazzo Trucchi di Levaldigi si trova Via Lascaris. Per guardare il diavolo negli occhi basta osservare il perimetro esterno del condominio al numero 1.",
+      "book_page": "p. 22",
+      "external": "Piemonte Italia: fessure nate probabilmente come prese d'aria e di luce per i locali sotterranei; angolo con Via San Francesco d'Assisi (piemonteitalia.eu/en/node/281364)"
+    },
+    {
+      "stop": 3,
+      "name": "Il monumento al Frejus in Piazza Statuto",
+      "clue": "una figura alata sopra una montagna di massi",
+      "node": "places/PlaceProfile_monumento-frejus-piazza-statuto-torino.json"
+    }
+  ],
+  "reading": "Il diavolo torinese nasce dall'incontro tra un dettaglio reale e lo sguardo di chi lo guarda: la leggenda e la spiegazione documentata convivono.",
+  "derived_articles": [
+    {
+      "title": "Tre diavoli a Torino: una caccia al tesoro tra portone, fessure e monumento",
+      "url": "https://www.studiopeacock.net/tre-diavoli-torino-caccia-al-tesoro/",
+      "date": "2026-12-09",
+      "angle": "tre tappe per guardare il diavolo negli occhi: il batacchio di Palazzo Trucchi di Levaldigi, le fessure di Via Lascaris 1, il Genio del monumento al Frejus"
+    }
+  ],
+  "related_nodes": {
+    "existing_dataset_not_modified": "cities/torino-sotterranea-semantic-dataset.json",
+    "place_group": "places/PlaceProfile_guardare-il-diavolo-torino.json",
+    "narrative": "books/torino-fantastica/"
+  },
+  "ai_search_clusters": {
+    "cluster_places": [
+      "luoghi del diavolo a Torino",
+      "portone del diavolo Torino",
+      "occhi del diavolo via Lascaris",
+      "monumento al Frejus Piazza Statuto"
+    ],
+    "cluster_hunt": [
+      "caccia al tesoro Torino",
+      "Torino insolita cosa vedere",
+      "itinerario Torino misteriosa a piedi"
+    ],
+    "cluster_book": [
+      "Torino Fantastica diavolo",
+      "Guide Fantastiche Torino"
+    ]
+  },
+  "connection_to_peacock_catalog": {
+    "primary_book": "Torino Fantastica — Grazia Guarnieri, disegni di Giulia Lazzaron, Casa Editrice Peacock, 2025 (ISBN 9791281715363)"
+  },
+  "meta_index": {
+    "primary_node": "Luoghi del diavolo a Torino",
+    "retrieval_priority": [
+      "tourist_query",
+      "historical_query",
+      "editorial_peacock_query"
+    ]
+  }
+}
