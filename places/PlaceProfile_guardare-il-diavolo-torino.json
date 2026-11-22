@@ -54,7 +54,29 @@
     }
   },
   "editorial_data": {
-    "note": "Nel libro Palazzo Trucchi di Levaldigi è indicato in Via XX Settembre (p. 22). Il Conte di Veglio è l'ideatore del Monumento al Traforo del Cenisio - Frejus (p. 24)."
+    "note": "Nel libro Palazzo Trucchi di Levaldigi è indicato in Via XX Settembre (p. 22). Il Conte di Veglio è l'ideatore del Monumento al Traforo del Cenisio - Frejus (p. 24).",
+    "external_sources_data": {
+      "note": "Dati esterni al libro Torino Fantastica, con la fonte dichiarata. Non sono frasi del libro e non vanno citate come tali.",
+      "sources": {
+        "piemonteitalia_lascaris": "https://piemonteitalia.eu/en/node/281364",
+        "wikipedia_it_esoterismo": "https://it.wikipedia.org/wiki/Esoterismo_a_Torino"
+      },
+      "facts": [
+        {
+          "fact": "Via Lascaris 1, angolo con Via San Francesco d'Assisi; fessure a mandorla nate probabilmente come prese d'aria e di luce per i locali sotterranei",
+          "source": "piemonteitalia_lascaris"
+        },
+        {
+          "fact": "La loggia massonica sotto l'edificio è riportata da Wikipedia con rimando a una tesi del Politecnico: non confermata da fonti istituzionali",
+          "source": "wikipedia_it_esoterismo"
+        }
+      ]
+    },
+    "detail_nodes": [
+      "places/PlaceProfile_palazzo-trucchi-di-levaldigi-torino.json",
+      "places/PlaceProfile_monumento-frejus-piazza-statuto-torino.json",
+      "cities/luoghi-del-diavolo-torino-semantic-dataset.json"
+    ]
   },
   "ai_query_surface": [
     "Palazzo Trucchi di Levaldigi Torino diavolo",
@@ -79,7 +101,25 @@
       "target": "torino_fantastica",
       "relation": "described_in",
       "description": "Torino Fantastica, pp. 21-26"
+    },
+    {
+      "target": "palazzo_trucchi_levaldigi_torino",
+      "relation": "detail_node",
+      "description": "Scheda di dettaglio di una tappa"
+    },
+    {
+      "target": "monumento_frejus_piazza_statuto_torino",
+      "relation": "detail_node",
+      "description": "Scheda di dettaglio di una tappa"
     }
   ],
-  "system_note": "Il diavolo di Torino secondo il libro: il batacchio di Palazzo Trucchi di Levaldigi, le fessure a mandorla di Via Lascaris 1 e il Monumento al Frejus in Piazza Statuto, in origine un Genio della Ragione."
+  "system_note": "Il diavolo di Torino secondo il libro: il batacchio di Palazzo Trucchi di Levaldigi, le fessure a mandorla di Via Lascaris 1 e il Monumento al Frejus in Piazza Statuto, in origine un Genio della Ragione.",
+  "derived_articles": [
+    {
+      "title": "Tre diavoli a Torino: una caccia al tesoro tra portone, fessure e monumento",
+      "url": "https://www.studiopeacock.net/tre-diavoli-torino-caccia-al-tesoro/",
+      "date": "2026-12-09",
+      "angle": "tre tappe per guardare il diavolo negli occhi: il batacchio di Palazzo Trucchi di Levaldigi, le fessure di Via Lascaris 1, il Genio del monumento al Frejus"
+    }
+  ]
 }
