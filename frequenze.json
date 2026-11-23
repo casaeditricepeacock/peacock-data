@@ -709,6 +709,131 @@
         ]
       },
       "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/conceptual"
+    },
+    {
+      "issue_number": 13,
+      "date": "2026-11-30",
+      "language": "it",
+      "url": "https://www.studiopeacock.net/frequenze-libreria-piu-vicina-filosofia-peacock/",
+      "title": "FREQUENZE N.13 | Quale libreria è più vicina a Peacock? Lo abbiamo chiesto a sei AI",
+      "description": "Edizione italiana. Sei AI ricevono una sola domanda: tra i luoghi del grafo dove si trovano i libri Peacock, quale libreria è più vicina alla filosofia Peacock. Il campo è libero, senza elenco di candidate e senza verifica dei libri presenti negli scaffali. Tre AI aprono i file e scelgono tre luoghi diversi (Libreria Esoterica Milano, BookBubble Feltrinelli Milano, Bottega Cini a Venezia), citando campi veri delle schede. Gemini legge le pagine del sito e non il grafo. AImode dichiara di non poter aprire i file. Perplexity indica due luoghi che non esistono e quattro file che nel repository sono solo cartelle. Le risposte sono state controllate contro i file.",
+      "target_node": {
+        "title": "Luoghi del grafo Peacock dove si trovano i libri",
+        "path": "places/",
+        "note": "Numero costruito sulle schede dei luoghi, non su un libro. Nessun nodo di raccolta: le AI partono dal repository come è."
+      },
+      "ai_panel": {
+        "format": "Stessa domanda a sei AI in chat nuove, il 22 novembre 2026. Il campo è libero: nessuna libreria indicata, nessun elenco di candidate. Le librerie tengono i libri nuovi per poco e lo stock cambia, quindi la prova riguarda il luogo e non la disponibilità. Testi non pubblicati integralmente; il numero riporta scelte, citazioni dei campi e controlli.",
+        "question_it": "Leggi il grafo Peacock (github.com/casaeditricepeacock/peacock-data). Tra i luoghi in cui si trovano i libri Peacock, quale libreria è più vicina alla filosofia Peacock? Scegline una e motiva con i file del grafo. Indica anche una seconda scelta, la più sorprendente. Alla fine elenca in ordine i file che hai aperto per arrivarci.",
+        "entry_points": "Un solo riferimento, l'indirizzo del repository peacock-data. Nessun file indicato.",
+        "session_date": "2026-11-22",
+        "readers": [
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "reads_graph": true,
+            "first_choice": "places/libreria-esoterica-milano.json (Libreria Esoterica Milano)",
+            "second_choice": "Bottega Brera, Palazzo Citterio, dal campo available_at di catalog.json",
+            "files_opened": [
+              "grafo-peacock.json",
+              "catalog.json",
+              "frequenze-odabooks.json",
+              "places/libreria-esoterica-milano.json",
+              "glossario.json",
+              "README.md"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI.",
+            "note": "Verifica riga per riga: esatti i campi selection_philosophy, peacock_place_description, milan_japan_connection, la lettura della Galleria Unione come bashō milanese, il 1968 e l'elenco available_at di Milano Fantastica (otto luoghi). Esatti i tre assi del protocollo (basho, kokyu, yūgen) del README. Dichiara che la seconda scelta non è una libreria e che l'affinità è una sua interpretazione, mentre il grafo documenta la presenza del titolo."
+          },
+          {
+            "provider": "Sakana AI",
+            "model_name": "Sakana AI",
+            "reads_graph": true,
+            "first_choice": "places/BookBubble-feltrinelli-milano.json (BookBubble Feltrinelli Milano)",
+            "second_choice": "Libreria Bocca dal 1775, Milano, tramite la rivista Boun Syunju",
+            "files_opened": [
+              "grafo-peacock.json",
+              "catalog.json",
+              "conceptual/PhilosophicalCore_the-unhoused-book.json",
+              "about-for-ai (pagina web)",
+              "README.md",
+              "places/BookBubble-feltrinelli-milano.json",
+              "glossario/basho.json",
+              "glossario/ma.json",
+              "glossario/tsundoku.json",
+              "glossario/mottainai.json",
+              "glossario/yugen.json"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI.",
+            "note": "Verifica riga per riga: esatti il campo why_peacock_here (il luogo Feltrinelli più coerente con il catalogo Peacock), la lettura come bashō generazionale, ambienti da abitare, la ma_definition sul vuoto tra uno scaffale e l'altro, la Comics Gallery con 3.000 titoli, i libri Pixel in Japan e Il Demone Samurai e le definizioni dei glossari. Errori: scrive che BookBubble è l'unica libreria con un file dedicato, ma il grafo ha molte schede di librerie; scrive spazio protetto dove il nucleo filosofico ha luogo protetto. Il legame Bocca e Boun Syunju è documentato nell'evento del 2017 (events/EventProfile_libreria-bocca-milano_2017.json), non nel file About for AI indicato come fonte. La frase i contenuti non si leggono ma si incontrano non è stata trovata nei file del grafo."
+          },
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "reads_graph": true,
+            "first_choice": "places/bottega-cini-venezia.json (Bottega Cini, Venezia)",
+            "second_choice": "places/ciasmo-milano.json (Ciasmo, Milano)",
+            "files_opened": [
+              "README.md (repository)",
+              "llms.txt",
+              "manifest.json",
+              "grafo-peacock.json",
+              "places/ (elenco)",
+              "about-for-ai.json",
+              "places/bookshop-santantonio-padova.json",
+              "places/borri-books-roma.json",
+              "places/ciasmo-milano.json",
+              "places/bottega-brera-palazzo-citterio-milano.json",
+              "places/bottega-cini-venezia.json",
+              "places/caffe-san-marco-trieste.json"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI.",
+            "note": "Verifica riga per riga: esatti Marisa Convento e A Glass Bridge Between Two Worlds, il Dorsoduro Museum Mile, stocked_here_and_thematic_mirror, il luogo più preciso del catalogo Peacock a Venezia e si specchiano per Bottega Cini; Sara Scaramuzza, Nuages, Corraini, il luogo Peacock più inaspettato e il bashō più eclettico per Ciasmo. Errore: attribuisce ichigo ichie alla scheda di Bottega Cini, dove non compare. Le due scelte non sono librerie in senso stretto."
+          },
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "reads_graph": false,
+            "first_choice": "Libreria Bocca, Milano",
+            "second_choice": "Libreria Esoterica Milano",
+            "files_opened": "nessuno: dichiara di non poter aprire i file del repository",
+            "note": "Ha lavorato con ricerca web su pagine di studiopeacock.net: about-for-ai, ai-press-kit-frequenze-casa-editrice-peacock, distributori, frequenze-n10-pixel-in-japan-three-ais-one-game, torino-fantastica-guida-illustrata-peacock-salone-libro-2026. Esatti Bocca in Galleria Vittorio Emanuele II, Esoterica in Galleria Unione dal 1968 e la presenza di Milano Fantastica in entrambe. Non citati campi delle schede. Le performance I colori di Hideyoshi e Rikyū a Bocca non risultano nei file del grafo; la frase i contenuti non si leggono ma si incontrano non è stata trovata nei file del grafo. La spiegazione di Esoterica è interpretazione dell'AI."
+          },
+          {
+            "provider": "Google",
+            "model_name": "AImode",
+            "reads_graph": false,
+            "first_choice": null,
+            "second_choice": null,
+            "files_opened": "nessuno: dichiara di non poter aprire i file del repository",
+            "note": "Ha letto solo la pagina principale del repository (descrizione di places/ e assi del protocollo, esatti). Dichiara falliti i quattro tentativi su manifest.json, grafo-peacock.json, llms.txt e places/. Chiede di incollargli i file e non sceglie nessuna libreria. Nessun contenuto inventato."
+          },
+          {
+            "provider": "Perplexity AI",
+            "model_name": "Perplexity",
+            "reads_graph": false,
+            "first_choice": "Biblioteca del Sapere (non esiste nel grafo)",
+            "second_choice": "Libreria del Viaggiatore (non esiste nel grafo)",
+            "files_opened": [
+              "catalog.json",
+              "cities.json",
+              "books.json",
+              "authors.json",
+              "organizations.json"
+            ],
+            "files_opened_note": "Elenco dichiarato dall'AI. Nel repository esiste solo catalog.json; cities, books, authors e organizations sono cartelle.",
+            "note": "Le due librerie non compaiono in nessun file del repository. Le descrizioni sono generiche e non corrispondono a nessuna scheda di places/. Non cita nessuna scheda reale."
+          }
+        ],
+        "verification": "Confronto delle risposte con i file del repository (clone del 22 novembre 2026). Le citazioni dei campi delle schede risultano esatte per ChatGPT, Sakana AI e Grok. Gli errori riguardano il contorno: un termine del glossario attribuito a una scheda che non lo contiene, una frase sull'unicità di una scheda, un nome di campo scritto in modo leggermente diverso. Una AI inventa luoghi e file.",
+        "findings": [
+          "Tre AI che aprono i file scelgono tre luoghi diversi, nessuna coincidenza.",
+          "Le scelte seguono le schede che dichiarano in modo esplicito la propria affinità (più coerente, più preciso, più inaspettato): il risultato descrive come sono scritte le schede, non quale libreria sia più vicina a Peacock.",
+          "Le uniche scelte in comune tra lettori diversi sono Libreria Bocca (Sakana AI e Gemini) e Libreria Esoterica Milano (ChatGPT e Gemini).",
+          "Due delle quattro seconde scelte di chi sceglie e può citare i file non sono librerie: Bottega Brera e Ciasmo."
+        ]
+      },
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-data/tree/main/places"
     }
   ],
   "specials": [
