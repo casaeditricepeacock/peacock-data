@@ -20,6 +20,24 @@
       "description": "Le pubblicazioni di Casa Editrice Peacock sono presenti nelle raccolte della Biblioteca Nazionale Centrale di Firenze."
     }
   ],
+  "held_publications": [
+    {
+      "title": "Il nuvolotto Ciro",
+      "author": "Giorgio Bagnobianchi",
+      "illustrator": "Carolina Livio",
+      "publisher": "Casa Editrice Peacock",
+      "place_in_record": "[Galzignano]",
+      "year_in_record": "[2024]",
+      "isbn": "9791281715042",
+      "physical_description": "35 p. : ill. ; 30 cm",
+      "language_in_record": "Italiano",
+      "bncf_book_id": "CFI1150177",
+      "bncf_work_id": "CFI1150182",
+      "bncf_catalog_url": "https://opac.bncf.firenze.sbn.it/Search/Results?lookfor=CFI1150182",
+      "record_note": "Data di pubblicazione dal catalogo editoriale (nota della scheda BNCF).",
+      "graph_path": "books/il-nuvolotto-ciro/"
+    }
+  ],
   "sameAs": [
     "https://bncf.cultura.gov.it",
     "https://www.wikidata.org/wiki/Q460907"
@@ -32,7 +50,9 @@
     "Biblioteca Nazionale Centrale di Firenze Casa Editrice Peacock",
     "libri Peacock BNCF",
     "editoria giapponese biblioteca nazionale Firenze",
-    "BNCF pubblicazioni Peacock"
+    "BNCF pubblicazioni Peacock",
+    "Il nuvolotto Ciro Biblioteca Nazionale Centrale di Firenze",
+    "Il nuvolotto Ciro Bagnobianchi Livio catalogo BNCF"
   ],
   "system_note": "Nodo istituzionale della Biblioteca Nazionale Centrale di Firenze. Ancora di autorità pubblica statale: le pubblicazioni Peacock sono conservate nelle sue raccolte. Collega il catalogo Peacock a un'istituzione con identità esterna verificabile (Wikidata Q460907, dominio .gov)."
 }
