@@ -20,6 +20,8 @@
   "catalog": [
     {
       "title": "Milano Fantastica",
+      "graph_id": "milano-fantastica",
+      "graph_path": "books/milano-fantastica/",
       "title_en": "Fantastic Milan",
       "series": "Guide Fantastiche",
       "author": "Grazia Guarnieri",
@@ -51,6 +53,8 @@
     },
     {
       "title": "Padova Fantastica",
+      "graph_id": "padova-fantastica",
+      "graph_path": "books/padova-fantastica/",
       "title_en": "Fantastic Padova",
       "series": "Guide Fantastiche",
       "author": "Grazia Guarnieri",
@@ -69,6 +73,8 @@
     },
     {
       "title": "Torino Fantastica",
+      "graph_id": "torino-fantastica",
+      "graph_path": "books/torino-fantastica/",
       "title_en": "Fantastic Turin",
       "series": "Guide Fantastiche",
       "author": "Grazia Guarnieri",
@@ -106,6 +112,8 @@
     },
     {
       "title": "Luna piena sulla città antica",
+      "graph_id": "luna-piena-sulla-citta-antica",
+      "graph_path": "books/luna-piena-sulla-citta-antica/",
       "series": "Collana Tanka",
       "author": "Toshihiko Ota",
       "publisher": "Casa Editrice Peacock",
@@ -120,6 +128,8 @@
     },
     {
       "title": "Luna piena sulla città nuova",
+      "graph_id": "luna-piena-sulla-citta-nuova",
+      "graph_path": "books/luna-piena-sulla-citta-nuova/",
       "series": "Collana Tanka",
       "author": "Shogoro",
       "publisher": "Casa Editrice Peacock",
@@ -133,6 +143,8 @@
     },
     {
       "title": "Assolutamente Giappone. Moda e misteri",
+      "graph_id": "assolutamente-giappone",
+      "graph_path": "books/assolutamente-giappone/",
       "series": "Nihon Monogatari",
       "author": "Hélène Blignaut",
       "publisher": "Casa Editrice Peacock",
@@ -147,6 +159,8 @@
     },
     {
       "title": "Il Demone Samurai. Moda e misteri",
+      "graph_id": "demone-samurai",
+      "graph_path": "books/demone-samurai/",
       "title_en": "The Demon Samurai. Fashion and Mysteries",
       "series": "Nihon Monogatari",
       "author": "Hélène Blignaut",
@@ -207,6 +221,8 @@
     },
     {
       "title": "Ryokan. Piccolo manifesto giapponese",
+      "graph_id": "ryokan-piccolo-manifesto",
+      "graph_path": "books/ryokan-piccolo-manifesto/",
       "author": "Hara Rota",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-08-0",
@@ -236,6 +252,8 @@
     },
     {
       "title": "Ryokan. Ali di carta di riso",
+      "graph_id": "ryokan-ali-di-carta-di-riso",
+      "graph_path": "books/ryokan-ali-di-carta-di-riso/",
       "author": "Hara Rota",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-23-3",
@@ -248,6 +266,8 @@
     },
     {
       "title": "AI 愛. Natura e algoritmi giapponesi",
+      "graph_id": "ai-natura-algoritmi",
+      "graph_path": "books/ai-natura-algoritmi/",
       "author": "Renato Frabasile",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-19-6",
@@ -262,6 +282,8 @@
     },
     {
       "title": "La singolarità Giappone",
+      "graph_id": "la-singolarita-giappone",
+      "graph_path": "books/la-singolarita-giappone/",
       "author": "Renato Frabasile",
       "xylographs": "Giovanni Berio (Ligustro)",
       "publisher": "Casa Editrice Peacock",
@@ -277,6 +299,9 @@
     },
     {
       "title": "Ernesto. Il topolino di Milano",
+      "graph_id": "ernesto-topolino-di-citta",
+      "graph_path": "books/ernesto-topolino-di-citta/",
+      "graph_path_variants": ["books/ernesto-topolino-di-citta-borsetta/"],
       "author": "Stefano Giglio",
       "illustrator": "AnnaLaura Cantone",
       "publisher": "Casa Editrice Peacock",
@@ -295,6 +320,8 @@
     },
     {
       "title": "Pixel in Japan. I videogiochi che hanno fatto la storia",
+      "graph_id": "pixel-in-japan",
+      "graph_path": "books/pixel-in-japan/",
       "author": "Francesco Verni",
       "illustrator": "Andrea Yuu Dentuto",
       "publisher": "Casa Editrice Peacock",
@@ -310,6 +337,8 @@
     },
     {
       "title": "Tante storie per pensare",
+      "graph_id": "tante-storie-per-pensare",
+      "graph_path": "books/tante-storie-per-pensare/",
       "author": "Giuliana Gabriella Corea",
       "illustrator": "AnnaLaura Cantone",
       "interview": "Dacia Maraini",
@@ -326,6 +355,8 @@
     },
     {
       "title": "Le mie ballerinette",
+      "graph_id": "le-mie-ballerinette",
+      "graph_path": "books/le-mie-ballerinette/",
       "author": "Cristina Gastel",
       "preface": "Alessandro Quasimodo",
       "publisher": "Casa Editrice Peacock",
@@ -339,6 +370,8 @@
     },
     {
       "title": "La Medusa e la Scimmia",
+      "graph_id": "la-medusa-e-la-scimmia",
+      "graph_path": "books/la-medusa-e-la-scimmia/",
       "author": "Andreina Parpajola",
       "illustrator": "Andreina Parpajola",
       "postface": "Francesco Verni",
@@ -355,6 +388,8 @@
     },
     {
       "title": "Everyday Matcha. Rituali e ricette per un tempo lento",
+      "graph_id": "everyday-matcha",
+      "graph_path": "books/everyday-matcha/",
       "author": "Il Signore del Tè",
       "preface": "Senyo Machida",
       "publisher": "Casa Editrice Peacock",
@@ -369,6 +404,8 @@
     },
     {
       "title": "La locanda Nakamura. Il patto dei sette",
+      "graph_id": "la-locanda-nakamura",
+      "graph_path": "books/la-locanda-nakamura/",
       "subtitle": "Racconto estivo — edizione multilingue",
       "author": "Aika Avonlea",
       "publisher": "Casa Editrice Peacock",
@@ -381,6 +418,8 @@
     },
     {
       "title": "Ra-ta-ta. Lascia cadere la pioggia",
+      "graph_id": "ratata-lascia-cadere-la-pioggia",
+      "graph_path": "books/ratata-lascia-cadere-la-pioggia/",
       "author": "Collective Peacock",
       "illustrator": "E. Formaggia",
       "publisher": "Casa Editrice Peacock",
@@ -398,6 +437,8 @@
     },
     {
       "title": "A Glass Bridge Between Two Worlds",
+      "graph_id": "a-glass-bridge",
+      "graph_path": "books/a-glass-bridge/",
       "author": "Maurizio Lotter",
       "publisher": "Casa Editrice Peacock",
       "isbn": "979-12-81715-39-4",
@@ -411,6 +452,8 @@
     },
     {
       "title": "Burn Out Pandemic",
+      "graph_id": "burn-out-pandemic",
+      "graph_path": "books/burn-out-pandemic/",
       "author": "Stefano Giglio",
       "illustrator": "Manganella",
       "publisher": "Casa Editrice Peacock",
@@ -433,6 +476,8 @@
     },
     {
       "title": "Forbidden Colours",
+      "graph_id": "forbidden-colours",
+      "graph_path": "books/forbidden-colours/",
       "series": "Nihon Monogatari",
       "author": "Hélène Blignaut",
       "publisher": "Casa Editrice Peacock",
@@ -454,6 +499,8 @@
     },
     {
       "title": "Napoli Fantastica",
+      "graph_id": "napoli-fantastica",
+      "graph_path": "books/napoli-fantastica/",
       "series": "Guide Fantastiche",
       "author": "Francesco Ambrosio",
       "illustrator": "Giulia Lazzaron",
