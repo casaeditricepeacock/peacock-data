@@ -38,7 +38,8 @@
       "affects": {
         "scene-02": "la lentezza iniziale rende possibile l'escalation: il campo non può che accelerare"
       },
-      "textual_anchor_it": "Giappone, Shibukawa. Quanto sei lento — 30 km/h.",
+      "textual_anchor_it": "Giappone, Shibukawa Quanto sei lento 30 km/h",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "ma"]
     },
     {
@@ -56,7 +57,8 @@
       "affects": {
         "scene-03": "la tensione della velocità rende necessaria la sosta: il corpo cerca il contrario del campo appena attraversato"
       },
-      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo! Sono un pilota di Formula 1!",
+      "textual_anchor_it": "Premi l'acceleratore! […] Ai tuoi ordini! […] 120 km/h […] Qui ci ammazziamo! […] Sono un pilota di Formula 1!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["kokyu", "basho", "ma"]
     },
     {
@@ -74,7 +76,8 @@
         "scene-04": "la sospensione dell'onsen apre il campo al cibo: il corpo scaldato è pronto a ricevere il kaiseki",
         "scene-05": "la sospensione permette la proposta della yonige: solo in questo campo la fuga diventa pensabile"
       },
-      "textual_anchor_it": "Onsen Kanouya. Ci incontriamo in ofuro tra 30 minuti, ok? Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "textual_anchor_it": "Onsen Kanouya […] Ci incontriamo in ofuro tra 30 minuti, ok? […] Che paradiso! Ci voleva proprio. […] Peccato che durerà poco.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
     },
     {
@@ -87,7 +90,8 @@
       "affects": {
         "scene-03": "il kaiseki prolunga la sospensione dell'onsen: il campo del riposo si estende attraverso il pasto"
       },
-      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "textual_anchor_it": "Quanto cibo Che meraviglia! […] C'è pure il ramen?! Questo me lo pappo subito!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["omotenashi", "basho", "yūgen"]
     },
     {
@@ -100,7 +104,8 @@
       "affects": {
         "scene-06": "la yonige non attuata prepara la partenza in tandem: se non si fugge, si parte verso qualcosa di condiviso"
       },
-      "textual_anchor_it": "Allora chiamerò una yonige. È una società di traslochi notturni, tu li chiami e ti fanno sparire. Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "textual_anchor_it": "Allora chiamerò una \"Yonige-ya\" È una società di traslochi notturni, tu li chiami e ti fanno sparire. […] Evaporizzi nel nulla. […] Scappare non serve a nulla.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
     },
     {
@@ -113,7 +118,8 @@
       "affects": {
         "scene-02": "il tandem chiude il campo aperto dalla velocità: il viaggio trova il suo ritmo naturale nella cooperazione"
       },
-      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. […] Abano, stiamo arrivando!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
     },
     {
@@ -130,7 +136,8 @@
       "affects": {
         "scene-01": "i testimoni retroagiscono su tutte le scene: la loro presenza trasforma ogni campo relazionale in un campo osservabile come dato"
       },
-      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "textual_anchor_it": "AI ロボット no comment ... Esch3r",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     }
   ],
