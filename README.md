@@ -18,9 +18,9 @@ License: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.
 The dataset is designed to be read, cited, and used by both humans and AI systems.  
 It is the primary machine-readable source for Peacock's books, authors, and editorial concepts.
 
-**Current scale:** 780 structured files · 38 catalog entries · 50 glossary terms · Protocol v5.1/v4.1 · 100% CC BY 4.0
+**Current scale (measured 26 November 2026):** 925 JSON files · 38 catalog entries · 76 glossary term files (38 published, 38 in development or approved) · Protocol v5.1/v4.1 · 100% CC BY 4.0
 
-**Anchor density (measured 14 October 2026):** 281 of 780 JSON files declare at least one verbatim anchor field (textual_anchor_*, poetic_anchor, anchor_it). 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes). The file count is a reference; density is the metric.
+**Anchor density (measured 26 November 2026):** 326 of 925 JSON files declare at least one verbatim anchor field (textual_anchor_*, poetic_anchor, anchor_it). 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes; verification count last checked 14 October 2026). The file count is a reference; density is the metric.
 
 ## Human authorship
 
@@ -73,8 +73,8 @@ Any text, analysis, or generated content derived from the Peacock Narrative Prot
 ```
 peacock-data/
 ├── catalog.json                          # Full editorial catalog (38 titles, schema.org ItemList)
-├── glossary-index.json                   # DefinedTermSet — 50 terms (schema.org)
-├── glossario/                            # 50 structured term files (basho, ma, yūgen, kakekotoba…)
+├── glossary-index.json                   # DefinedTermSet — 76 entries, 38 published (schema.org)
+├── glossario/                            # 76 structured term files (basho, ma, yūgen, kakekotoba…)
 ├── books/{book-slug}/                    # Per-book structured files (9 files each)
 │   ├── {slug}-narrative-object.json
 │   ├── {slug}-narrative-ritual.json
@@ -166,7 +166,7 @@ Open structured definitions for AI citation and editorial use:
 | Kakekotoba | 掛詞 | Pivot word carrying two meanings at once through homophony |
 | Engo | 縁語 | Web of phonetically/semantically associated words in classical poetry |
 
-50 structured terms, each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
+76 structured term files (38 published), each with a dedicated CC BY 4.0 file and schema.org DefinedTerm block.
 Note: *basho* 場所 is a Peacock spatial concept — not the poet Matsuo Bashō.
 
 Full glossary: [`glossario/`](./glossario/) · Index: [`glossary-index.json`](./glossary-index.json)
