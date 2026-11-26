@@ -39,7 +39,8 @@
       "affects": {
         "weather-02": "il clima di tensione stradale rende necessario il clima di sospensione dell'onsen: il corpo cerca il contrario"
       },
-      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — 120 km/h. Qui ci ammazziamo!",
+      "textual_anchor_it": "Quanto sei lento 30 km/h […] Premi l'acceleratore! […] 120 km/h […] Qui ci ammazziamo!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["kokyu", "basho", "ma"]
     },
     {
@@ -59,7 +60,8 @@
       "affects": {
         "weather-03": "il calore dell'onsen prepara il clima del kaiseki: il corpo scaldato è pronto a ricevere il campo estetico del cibo"
       },
-      "textual_anchor_it": "Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "textual_anchor_it": "Che paradiso! Ci voleva proprio. […] Peccato che durerà poco.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
     },
     {
@@ -75,7 +77,8 @@
       "affects": {
         "weather-04": "il clima del kaiseki prolunga la sospensione fino al campo della yonige: la leggerezza del cibo rende pensabile la leggerezza della fuga"
       },
-      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "textual_anchor_it": "Quanto cibo Che meraviglia! […] C'è pure il ramen?! Questo me lo pappo subito!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["omotenashi", "basho", "yūgen"]
     },
     {
@@ -91,7 +94,8 @@
       "affects": {
         "weather-05": "il grigio della yonige non attivata prepara il clima luminoso di Abano: il campo scuro della fuga si trasforma nel campo aperto del sogno"
       },
-      "textual_anchor_it": "Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "textual_anchor_it": "Evaporizzi nel nulla. […] Scappare non serve a nulla.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
     },
     {
@@ -107,7 +111,8 @@
       "affects": {
         "weather-01": "il clima di Abano chiude il campo aperto dalla tensione stradale: il viaggio trova la sua temperatura naturale nella luce delle colline"
       },
-      "textual_anchor_it": "Italia, colline di Abano. Abano, stiamo arrivando!",
+      "textual_anchor_it": "Italia, colline di Abano. […] Abano, stiamo arrivando!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["mono no aware", "basho", "ichigo ichie"]
     },
     {
@@ -127,7 +132,8 @@
       "affects": {
         "weather-01": "il campo neutro dei testimoni retroagisce sul clima stradale: la neutralità di ABOP rende visibile per contrasto la tensione del campo umano"
       },
-      "textual_anchor_it": "No comment.",
+      "textual_anchor_it": "no comment ...",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     }
   ],
