@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-11-22",
+    "generated": "2026-11-26",
     "generator": "build_manifest.py",
     "note": "Mappa dei percorsi reali del grafo. Fonte unica per il routing. Titoli e ISBN in catalog.json.",
     "topics_howto": "Ogni libro ha una voce in topics (chiave = slug della cartella in books/). Comincia da start_here, poi then; i 9 file narrativi sono in narrative_folder (elenco in books), gli altri file collegati (schede sensoriali, eventi, autori, luoghi, media, saggi) sono in files; also_mentioned_in elenca file che citano il titolo senza essere collegati."
@@ -917,6 +917,7 @@
       "datasets/foreign-rights.json",
       "datasets/giovanni-battista-belzoni-dataset.json",
       "datasets/giulia-bigolina-dataset.json",
+      "datasets/grande-onda-ukiyo-e-emoji-semantic-dataset.json",
       "datasets/guarino-guarini-dataset.json",
       "datasets/honnoji-semantic-dataset.json",
       "datasets/il-libro-piccolo-manifesto-semantic-dataset.json",
@@ -1260,6 +1261,8 @@
     "about-for-ai.json",
     "ai-visibility-log.json",
     "catalog.json",
+    "changelog.json",
+    "counts.json",
     "frequenze-odabooks.json",
     "frequenze.json",
     "glossario.json",
@@ -1376,6 +1379,7 @@
       "files": [
         "authors/AuthorProfile_helene-blignaut.json",
         "datasets/colori-proibiti-giappone-semantic-dataset.json",
+        "datasets/grande-onda-ukiyo-e-emoji-semantic-dataset.json",
         "datasets/kasane-no-irome-semantic-dataset.json",
         "datasets/tecniche-tessili-giapponesi-semantic-dataset.json"
       ],
@@ -1703,6 +1707,7 @@
       "files": [
         "authors/AuthorProfile_carolina-livio.json",
         "authors/AuthorProfile_giorgio-bagnobianchi.json",
+        "organizations/OrganizationProfile_bncf.json",
         "sensorial/il-nuvolotto-ciro-sensation-abbraccio-tra-nuvole.json",
         "sensorial/il-nuvolotto-ciro-sensation-gorgoglio-del-rivolo.json",
         "sensorial/il-nuvolotto-ciro-sensation-pianto-dissolutivo.json",
