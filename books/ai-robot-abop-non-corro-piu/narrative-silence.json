@@ -38,7 +38,8 @@
       "affects": {
         "silence-02": "il silenzio sulla motivazione si estende al silenzio nell'onsen: il campo relazionale tra Darma e Kate opera sempre sotto la soglia del linguaggio"
       },
-      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini!",
+      "textual_anchor_it": "Premi l'acceleratore! […] Ai tuoi ordini!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "kokyu", "yūgen"]
     },
     {
@@ -59,6 +60,7 @@
         "silence-04": "il silenzio nell'onsen prepara il campo della yonige: la proposta di fuga emerge come effetto della conversazione invisibile"
       },
       "textual_anchor_it": "Peccato che durerà poco.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "mono no aware", "basho"]
     },
     {
@@ -78,7 +80,8 @@
       "affects": {
         "silence-01": "il silenzio dei testimoni amplifica il silenzio sulla motivazione: ABOP osserva esattamente il campo che non viene spiegato"
       },
-      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "textual_anchor_it": "AI ロボット no comment ... Esch3r",
+      "anchor_type": "direct_quote",
       "glossary_link": ["yūgen", "ma", "mono no aware"]
     },
     {
@@ -98,7 +101,8 @@
       "affects": {
         "silence-05": "la yonige non attivata prepara il silenzio di Abano: se non ci si fugge, si sogna di arrivare"
       },
-      "textual_anchor_it": "Uhm...",
+      "textual_anchor_it": "Uhm ...",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
     },
     {
@@ -119,6 +123,7 @@
         "silence-03": "il silenzio di Abano si connette al silenzio dei testimoni: ABOP e Esch3r non commentano nemmeno l'arrivo che non viene mostrato"
       },
       "textual_anchor_it": "Abano, stiamo arrivando!",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "basho", "yūgen"]
     },
     {
@@ -138,7 +143,6 @@
       "affects": {
         "silence-01": "il campo tra le vignette è dove la motivazione dell'obbedienza dovrebbe esistere: il silenzio visivo replica il silenzio narrativo sulla relazione"
       },
-      "textual_anchor_it": "24 tavole — spazio tra le vignette come campo narrativo.",
       "glossary_link": ["ma", "yūgen", "basho"]
     }
   ],
