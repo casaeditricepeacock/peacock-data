@@ -46,6 +46,7 @@
 "object-03": "trasforma la cura in reclusione"
 },
 "textual_anchor_it": "I medici non volevano quasi credere che quei due meravigliosi occhi tristi appartenessero a un individuo così spietato.",
+"anchor_type": "direct_quote",
 "glossary_link": ["mono no aware","yūgen","ma"]
 },
 {
@@ -65,7 +66,6 @@
 "affects": {
 "object-04": "la confessione finale ridefinisce completamente il suo ruolo"
 },
-"textual_anchor_it": "Quei meravigliosi occhi tristi sembravano incompatibili con la crudeltà attribuita alla donna.",
 "glossary_link": ["mono no aware","yūgen"]
 },
 {
@@ -85,7 +85,8 @@
 "affects": {
 "object-05": "la fuga finale completa la sua trasformazione"
 },
-"textual_anchor_it": "Ho superato ogni limite per amore e lo rifarei ancora.",
+"textual_anchor_it": "Che ho superato ogni limite per amore e che lo rifarei ancora.",
+"anchor_type": "direct_quote",
 "glossary_link": ["yūgen","mono no aware"]
 },
 {
@@ -101,7 +102,8 @@
 "affects": {
 "object-01": "produce Francesca come diagnosi prima che come persona"
 },
-"textual_anchor_it": "La pazzia sconvolge perché rivela una natura che le convenzioni non riescono a contenere.",
+"textual_anchor_it": "La pazzia sconvolge tutti perché mostra il nostro ego più profondo: una natura che sovrasta le convenzioni, lasciando nell'incertezza coloro che non la conoscono.",
+"anchor_type": "direct_quote",
 "glossary_link": ["basho","ma","mono no aware"]
 },
 {
@@ -121,7 +123,8 @@
 "affects": {
 "object-05": "rende possibile la liberazione finale"
 },
-"textual_anchor_it": "Non potevi essere mia. Non eri nella mia storia.",
+"textual_anchor_it": "Non potevi essere mia. Non eri nella mia storia, eri in quella di mia madre.”",
+"anchor_type": "direct_quote",
 "glossary_link": ["ma","yūgen","mono no aware"]
 },
 {
@@ -137,7 +140,8 @@
 "affects": {
 "object-02": "trasforma la bestia in sopravvissuta"
 },
-"textual_anchor_it": "La moto sfrecciava verso l'orizzonte infinito sparendo nel nulla.",
+"textual_anchor_it": "Mi uscì un grido liberatorio, mentre la moto sfrecciava lontano verso l'orizzonte infinito, sparendo nel nulla.",
+"anchor_type": "direct_quote",
 "glossary_link": ["mono no aware","yūgen"]
 },
 {
@@ -153,7 +157,8 @@
 "affects": {
 "object-06": "fornisce il terreno culturale che alimenta il pregiudizio"
 },
-"textual_anchor_it": "Milano 1960: boom economico, conformismo e desiderio di emancipazione convivono nello stesso spazio.",
+"textual_anchor_it": "L'esagerazione del conformismo, tuttavia, aveva creato molte insoddisfazioni nelle classi emergenti.",
+"anchor_type": "direct_quote",
 "glossary_link": ["basho","mono no aware"]
 }
 ],
