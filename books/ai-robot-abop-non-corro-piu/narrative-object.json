@@ -45,7 +45,8 @@
         "object-02": "la tensione prodotta dalla velocità conduce alla necessità della sosta termale",
         "object-03": "la velocità esiste perché il microcosmo mobile la contiene"
       },
-      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo!",
+      "textual_anchor_it": "Quanto sei lento 30 km/h […] Premi l'acceleratore! […] Ai tuoi ordini! […] 120 km/h […] Qui ci ammazziamo!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["kokyu", "basho", "ma"]
     },
     {
@@ -66,7 +67,8 @@
         "object-04": "la sospensione permette l'emersione della possibilità della yonige",
         "object-01": "l'onsen interrompe temporaneamente il dominio della velocità"
       },
-      "textual_anchor_it": "Onsen Kanouya. Che paradiso! — Ci voleva proprio. Peccato che durerà poco.",
+      "textual_anchor_it": "Onsen Kanouya […] Che paradiso! Ci voleva proprio. […] Peccato che durerà poco.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "wabi-sabi", "basho", "mono no aware"]
     },
     {
@@ -83,7 +85,6 @@
         "object-05": "i testimoni silenziosi esistono nel campo grazie al microcosmo che li trasporta",
         "object-01": "la velocità assume forma concreta all'interno del veicolo"
       },
-      "textual_anchor_it": "targa ABOP — Giappone, Shibukawa — Abano, stiamo arrivando!",
       "glossary_link": ["basho", "ma", "yūgen"]
     },
     {
@@ -99,7 +100,8 @@
       "affects": {
         "object-02": "la sospensione dell'onsen rende possibile la comparsa dell'idea di sparire"
       },
-      "textual_anchor_it": "Allora chiamerò una yonige — è una società di traslochi notturni, tu li chiami e ti fanno sparire.",
+      "textual_anchor_it": "Allora chiamerò una \"Yonige-ya\" È una società di traslochi notturni, tu li chiami e ti fanno sparire.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
     },
     {
@@ -116,7 +118,8 @@
         "status": true,
         "description": "ciò che registrano interiormente non viene mai rivelato"
       },
-      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment.",
+      "textual_anchor_it": "AI ロボット no comment ... Esch3r",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     },
     {
@@ -134,6 +137,7 @@
         "object-02": "prolunga interiormente la sospensione sperimentata all'onsen"
       },
       "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "basho", "ichigo ichie"]
     }
   ],
