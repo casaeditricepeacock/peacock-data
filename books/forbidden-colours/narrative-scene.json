@@ -41,7 +41,8 @@
         "scene-02": "la stasi di Place Vendôme si rompe con la decisione di scendere; il diaframma produce finalmente movimento"
       },
       "ritual_connection": "ritual-02",
-      "textual_anchor_it": "Da giorni si domandava il perché di quel vuoto. Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte.",
+      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte […] da giorni si domandava il perché di quel vuoto",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "yūgen", "basho"]
     },
     {
@@ -59,7 +60,8 @@
         "scene-03": "la rivelazione della xilografia attiva il campo del riconoscimento reciproco: Philip è pronto a riconoscere Aiko perché il Giappone è già pienamente attivo in lui"
       },
       "ritual_connection": "ritual-03",
-      "textual_anchor_it": "Philip si avvicinò, lo fissò a lungo e poi portò le mani alla bocca, scuotendo la testa. Gridò: Oh, mio Dio!",
+      "textual_anchor_it": "Philip si avvicinò, lo fissò a lungo e poi portò le mani alla bocca, scuotendo la testa. Gridò: \"Oh, mio Dio!",
+      "anchor_type": "direct_quote",
       "glossary_link": ["yūgen", "basho", "kokyu"]
     },
     {
@@ -77,7 +79,8 @@
         "scene-04": "il riconoscimento reciproco rende possibile la proposta di Philip; chi si è già riconosciuto non ha bisogno di costruire una relazione — può solo custodirla"
       },
       "ritual_connection": "ritual-01",
-      "textual_anchor_it": "Quello che mi dà da pensare è che tutti noi conosciamo uno sconosciuto. E inizia la sua avventura di scoperta.",
+      "textual_anchor_it": "Quello che mi dà da pensare è che tutti noi conosciamo uno sconosciuto. […] E inizia la sua avventura di scoperta",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     },
     {
@@ -96,6 +99,7 @@
       },
       "ritual_connection": "ritual-04",
       "textual_anchor_it": "Io dico sì e sì per sempre. Ma ora facciamo l'amore.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "ma", "yūgen"]
     },
     {
@@ -113,7 +117,8 @@
         "scene-01": "il Fujiyama visto dall'oblò retroagisce sulla finestra di Place Vendôme: Philip ha sempre guardato attraverso un vetro; ora piange invece di osservare"
       },
       "ritual_connection": "ritual-05",
-      "textual_anchor_it": "La fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "textual_anchor_it": "Philip, la fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "yūgen", "basho"]
     }
   ],
