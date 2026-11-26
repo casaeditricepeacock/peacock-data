@@ -33,7 +33,8 @@
       "affects": {
         "field-05": "il diaframma è la forma spaziale del riconoscimento: si riconosce attraverso una superficie, non nel contatto diretto"
       },
-      "textual_anchor_it": "Restava fermo, un po' nascosto dalla tenda pesante per non essere visto. La fronte incollata al vetro dell'oblò."
+      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte, in Place Vendôme, un po 'nascosto dalla tenda pesante per non essere visto. […] Philip, la fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "anchor_type": "elided_quote"
     },
     {
       "id": "field-02",
@@ -49,7 +50,8 @@
       "affects": {
         "field-05": "trasforma il doppio fantasmatico da proiezione a riconoscimento: Murasaki orienta il campo verso Aiko"
       },
-      "textual_anchor_it": "Aveva sovrapposto l'icona di Murasaki Shikibu."
+      "textual_anchor_it": "aveva sovrapposto l'icona di Murasaki Shikibu",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-03",
@@ -69,7 +71,8 @@
       "affects": {
         "field-04": "il compimento impossibile produce la bellezza non condivisibile: ciò che Philip ha vissuto non può essere raccontato"
       },
-      "textual_anchor_it": "Oggi sarà tutti i nostri oggi."
+      "textual_anchor_it": "Oggi sarà tutti i nostri oggi.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-04",
@@ -89,7 +92,8 @@
       "affects": {
         "field-01": "la bellezza non condivisibile retroagisce sul diaframma: il vetro non è ostacolo ma condizione della bellezza"
       },
-      "textual_anchor_it": "C'è una bellezza che non si può condividere."
+      "textual_anchor_it": "Eppure, c'è una bellezza che non si può condividere",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-05",
@@ -114,7 +118,8 @@
         "field-02": "trasforma il doppio fantasmatico da proiezione a riconoscimento",
         "field-03": "rende possibile il compimento immediato: chi si è già riconosciuto non ha bisogno di costruire una relazione"
       },
-      "textual_anchor_it": "Ti vidi là e ti riconobbi. Ti avevo sempre vista."
+      "textual_anchor_it": "Ti vidi là e ti riconobbi.",
+      "anchor_type": "direct_quote"
     }
   ],
   "field_hierarchy": {
