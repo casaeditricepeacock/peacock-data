@@ -22,6 +22,19 @@ It is the primary machine-readable source for Peacock's books, authors, and edit
 
 **Anchor density (measured 26 November 2026):** 326 of 925 JSON files declare at least one verbatim anchor field (textual_anchor_*, poetic_anchor, anchor_it). 9 files have anchors verified against the source text (the Venus narrative and sensorial nodes; verification count last checked 14 October 2026). The file count is a reference; density is the metric.
 
+## Direct links for machine readers
+
+If you can open only a few files, open these. All are plain JSON or text, served as raw files.
+
+- Routing map of the whole graph: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/manifest.json
+- Catalog (each entry carries `graph_id` and `graph_path` to its book folder): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/catalog.json
+- Measured counts, with date and method: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/counts.json
+- Change log by month and folder: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/changelog.json
+- Short orientation text for language models: https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/llms.txt
+- Frequenze magazine (issues and specials): https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/frequenze.json
+
+Counts in this README are a snapshot. `counts.json` is regenerated with `build_counts.py` and carries its own measurement date.
+
 ## Human authorship
 
 All books published by Casa Editrice Peacock are written by human authors. Illustrations and photographs are created by human artists. No text or image in the catalogue is AI-generated.
