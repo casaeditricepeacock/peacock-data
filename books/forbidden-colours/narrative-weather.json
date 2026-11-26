@@ -1,5 +1,5 @@
 {
-  "type": "PerceptualField",
+  "type": "NarrativeWeather",
   "version": "4.1",
   "date": "2026-06",
   "license": "CC BY 4.0",
@@ -11,151 +11,117 @@
     "isbn": "979-12-81715-10-3",
     "year": 2025
   },
-  "protocol_axes": {
-    "basho": "spatial_configuration",
-    "kokyu": "temporal_activation_rhythm",
-    "yūgen": "perceptual_incompleteness_degree"
+  "weather_types": {
+    "parisian_grey": "il clima grigio-dorato di Parigi come campo di superfici riflettenti e distanze mantenute",
+    "ukiyo_e_field": "il campo visivo dell'Ukiyo-e come clima interiore di Philip",
+    "warm_intimate_light": "la luce filtrata dalle persiane di Rue Royal come clima del compimento",
+    "ethical_atmosphere": "l'atmosfera della responsabilità amorosa: il clima invisibile che nasce quando il desiderio incontra il rispetto",
+    "sacred_mountain_sky": "il cielo terso intorno al Fujiyama come manifestazione finale del campo"
   },
-  "editorial_principle": "Forbidden Colours non racconta un amore proibito. Produce un campo in cui il riconoscimento precede l'amore e l'impossibilità ne garantisce la permanenza. Philip non rinuncia ad Aiko perché non può averla: rinuncia perché averla dissolverebbe il campo. Il diaframma non è l'ostacolo: è la struttura.",
-  "dominant_field": "field-05",
-  "fields": [
+  "weather_fields": [
     {
-      "id": "field-01",
-      "label": "campo_diaframma_strutturale",
-      "type": "spatial_field",
-      "basho": "la tenda di Place Vendôme, il vetro dell'oblò, la distanza da Aiko dopo Rue Royal",
-      "kokyu": "fissità mobile: Philip si muove nel mondo ma la distanza strutturale resta costante",
-      "yūgen_level": 1.0,
-      "activation_condition": "ogni volta che Philip guarda attraverso una superficie; massima attivazione nell'oblò davanti al Fujiyama",
-      "persistence_rule": "strutturale e permanente: il diaframma non si dissolve in nessun punto del romanzo",
-      "dissolution_rule": "non dissolvibile: il diaframma è la condizione ontologica del campo; rimuoverlo dissolverebbe il sistema",
-      "field_logic": "diaphragm_as_love_condition_not_obstacle",
+      "id": "weather-01",
+      "label": "grigio_dorato_parigino",
+      "label_en": "parisian_grey_gold",
+      "type": "parisian_grey",
+      "intensity": 0.94,
+      "perceptual_weight": 0.93,
+      "basho": "Place Vendôme: le superfici riflettenti della piazza, il palazzo di fronte, la tenda pesante; Parigi come campo di eleganza e distanza simultanee",
+      "kokyu": "il ritmo parigino è quello dell'efficienza elegante: Philip ha orari fissi, lavora, viaggia; la superficie è impeccabile mentre il campo interiore fermenta",
+      "yūgen": "sotto la superficie parigina il campo interno di Philip è in movimento: la città non sa nulla di ciò che accade dietro la tenda",
       "affects": {
-        "field-05": "il diaframma è la forma spaziale del riconoscimento: si riconosce attraverso una superficie, non nel contatto diretto"
+        "weather-02": "il grigio parigino prepara per contrasto il campo visivo dell'Ukiyo-e: le due atmosfere coesistono in Philip senza sintesi"
       },
-      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte, in Place Vendôme, un po 'nascosto dalla tenda pesante per non essere visto. […] Philip, la fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
-      "anchor_type": "elided_quote"
+      "textual_anchor_it": "Philip de Villiers, designer di moda di fama mondiale, a cinquant'anni aveva avuto dalla vita tutto quello che le aveva chiesto.",
+      "anchor_type": "direct_quote",
+      "glossary_link": ["basho", "ma"]
     },
     {
-      "id": "field-02",
-      "label": "campo_doppio_fantasmatico",
-      "type": "cognitive_field",
-      "basho": "Murasaki Shikibu sovrapposta a Mercedes e poi ad Aiko",
-      "kokyu": "sovrapposizione istantanea seguita da lenta conferma",
-      "yūgen_level": 0.98,
-      "activation_condition": "ogni apparizione di Mercedes o Aiko; massima attivazione nella sovrapposizione con Murasaki Shikibu",
-      "persistence_rule": "retroattivo e cumulativo: ogni sovrapposizione consolida il campo",
-      "dissolution_rule": "non dissolvibile: il doppio fantasmatico è la forma che il desiderio di Philip prende strutturalmente",
-      "field_logic": "phantom_double_as_recognition_field",
-      "affects": {
-        "field-05": "trasforma il doppio fantasmatico da proiezione a riconoscimento: Murasaki orienta il campo verso Aiko"
-      },
-      "textual_anchor_it": "aveva sovrapposto l'icona di Murasaki Shikibu",
-      "anchor_type": "direct_quote"
-    },
-    {
-      "id": "field-03",
-      "label": "campo_compimento_impossibile",
-      "type": "relational_field",
-      "basho": "Rue Royal come luogo del compimento-separazione",
-      "kokyu": "lentezza massima: il tempo si dilata per contenere tutto ciò che non potrà essere ripetuto",
-      "yūgen_level": 1.0,
-      "activation_condition": "la proposta di Philip; massima attivazione nella formula oggi per sempre e nella risposta di Aiko",
-      "persistence_rule": "permanente come memoria: il pomeriggio di Rue Royal continua nell'anima separata di Philip e Aiko",
-      "dissolution_rule": "non dissolvibile: il compimento impossibile è il nucleo del sistema",
-      "field_logic": "love_fulfilled_through_renunciation",
-      "non_integrable_residue": {
-        "status": true,
-        "description": "ciò che avviene tra Philip e Aiko nel letto non viene descritto: il campo si chiude sulla soglia del corpo e si apre sull'anima"
-      },
-      "affects": {
-        "field-04": "il compimento impossibile produce la bellezza non condivisibile: ciò che Philip ha vissuto non può essere raccontato"
-      },
-      "textual_anchor_it": "Oggi sarà tutti i nostri oggi.",
-      "anchor_type": "direct_quote"
-    },
-    {
-      "id": "field-04",
-      "label": "campo_bellezza_non_condivisibile",
-      "type": "residual_field",
-      "basho": "il Fujiyama dall'oblò; la bellezza di Aiko; i viaggi in Giappone con Armand",
-      "kokyu": "intermittenza: a volte, quando ci si lascia andare; poi infrequentabile perché la ferita duole al solo sfiorarla",
-      "yūgen_level": 0.99,
-      "activation_condition": "ogni momento di bellezza vissuta in solitudine o in separazione; massima attivazione davanti al Fujiyama",
-      "persistence_rule": "permanente come ferita: la bellezza non condivisibile resta come campo attivo nell'intimo di Philip",
-      "dissolution_rule": "non dissolvibile: il campo della bellezza non condivisibile è la forma finale del diaframma",
-      "field_logic": "beauty_as_irresolvable_wound",
-      "non_integrable_residue": {
-        "status": true,
-        "description": "la ferita di luce non può essere trasferita: resta come residuo massimo del sistema oltre la chiusura del romanzo"
-      },
-      "affects": {
-        "field-01": "la bellezza non condivisibile retroagisce sul diaframma: il vetro non è ostacolo ma condizione della bellezza"
-      },
-      "textual_anchor_it": "Eppure, c'è una bellezza che non si può condividere",
-      "anchor_type": "direct_quote"
-    },
-    {
-      "id": "field-05",
-      "label": "campo_riconoscimento",
-      "label_en": "recognition_field",
-      "type": "ontological_field",
+      "id": "weather-02",
+      "label": "campo_ukiyo_e",
+      "label_en": "ukiyo_e_field",
+      "type": "ukiyo_e_field",
       "intensity": 0.99,
       "perceptual_weight": 0.99,
-      "basho": "lo spazio invisibile tra Philip e Aiko nel momento in cui si riconoscono",
-      "kokyu": "istantaneo nel momento del riconoscimento, infinito nella durata",
-      "yūgen_level": 1.0,
-      "activation_condition": "ogni volta che Philip incontra qualcuno che sembra provenire da un tempo precedente alla conoscenza reale",
-      "persistence_rule": "retroattivo e permanente: il riconoscimento non decade",
-      "dissolution_rule": "non dissolvibile: il campo del riconoscimento è la condizione ontologica del sistema",
-      "field_logic": "recognition_precedes_love",
+      "dominant": true,
+      "basho": "l'Ukiyo-e come clima percettivo permanente che permette a Philip di riconoscere il mondo come fragile e transitorio",
+      "kokyu": "il ritmo del mondo fluttuante è quello della trasformazione continua",
+      "yūgen": "Philip riconosce nell'Ukiyo-e una forma della propria anima prima ancora di comprenderla",
+      "affects": {
+        "weather-03": "il campo Ukiyo-e rende l'appartamento di Rue Royal il luogo naturale del compimento: il mondo fluttuante trova la propria stanza"
+      },
+      "textual_anchor_it": "Se ne innamorò perdutamente con tutte le fatiche che comporta la passione.",
+      "anchor_type": "direct_quote",
+      "glossary_link": ["yūgen", "basho", "mono no aware"]
+    },
+    {
+      "id": "weather-03",
+      "label": "luce_filtrata_rue_royal",
+      "label_en": "filtered_light_rue_royal",
+      "type": "warm_intimate_light",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "l'appartamento di Rue Royal come stanza fuori dal tempo",
+      "kokyu": "il ritmo della sospensione",
+      "yūgen": "la luce filtrata non illumina soltanto lo spazio ma la possibilità di un'eternità racchiusa in poche ore",
+      "affects": {
+        "weather-04": "la sospensione intima prepara il campo della responsabilità: nel calore di Rue Royal Philip comprende cosa non può fare"
+      },
+      "textual_anchor_it": "La luce di una bella giornata di giugno filtrava dalle persiane di legno chiuse.",
+      "anchor_type": "direct_quote",
+      "glossary_link": ["basho", "kokyu", "ma"]
+    },
+    {
+      "id": "weather-04",
+      "label": "atmosfera_della_responsabilita",
+      "label_en": "ethical_atmosphere",
+      "type": "ethical_atmosphere",
+      "intensity": 1.0,
+      "perceptual_weight": 1.0,
+      "secondary": true,
+      "basho": "lo spazio invisibile tra Philip, Aiko e Fujita",
+      "kokyu": "il ritmo della consapevolezza: il desiderio rallenta e diventa scelta",
+      "yūgen": "l'amore non diminuisce quando rinuncia al possesso; cambia stato",
       "non_integrable_residue": {
         "status": true,
-        "description": "il romanzo non spiega mai perché Philip riconosca Aiko: il riconoscimento è un evento misterioso strutturalmente necessario"
+        "description": "questa atmosfera non appartiene a nessun luogo fisico del romanzo ma attraversa ogni scena finale"
       },
       "affects": {
-        "field-01": "giustifica la permanenza del diaframma: chi riconosce non ha bisogno di possedere",
-        "field-02": "trasforma il doppio fantasmatico da proiezione a riconoscimento",
-        "field-03": "rende possibile il compimento immediato: chi si è già riconosciuto non ha bisogno di costruire una relazione"
+        "weather-05": "l'atmosfera etica prepara la resa davanti al Fujiyama: solo chi ha già scelto può piangere senza disperazione"
       },
-      "textual_anchor_it": "Ti vidi là e ti riconobbi.",
-      "anchor_type": "direct_quote"
+      "textual_anchor_it": "Non possiamo tradire.",
+      "anchor_type": "direct_quote",
+      "glossary_link": ["ma", "mono no aware", "yūgen"]
+    },
+    {
+      "id": "weather-05",
+      "label": "cielo_terso_fujiyama",
+      "label_en": "clear_sky_fujiyama",
+      "type": "sacred_mountain_sky",
+      "intensity": 0.98,
+      "perceptual_weight": 0.97,
+      "basho": "il Fujiyama visto dall'oblò",
+      "kokyu": "il ritmo della resa",
+      "yūgen": "la montagna non conclude il romanzo ma rende visibile ciò che è già stato deciso",
+      "non_integrable_residue": {
+        "status": true,
+        "description": "il Fujiyama non genera il campo; lo manifesta"
+      },
+      "affects": {
+        "weather-01": "il cielo terso del Fujiyama retroagisce sul grigio parigino: Philip ha attraversato tutto questo campo per arrivare a piangere davanti a una montagna"
+      },
+      "textual_anchor_it": "Philip, la fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "anchor_type": "direct_quote",
+      "glossary_link": ["mono no aware", "yūgen", "basho"]
     }
   ],
-  "field_hierarchy": {
-    "dominant": "field-05",
-    "secondary": ["field-01", "field-03"],
-    "support": ["field-02", "field-04"]
-  },
   "system_note": {
-    "field_count": 5,
-    "ontology": "strict_perceptual_4_1",
-    "invalidated_elements": [
-      "diaphragm_as_obstacle_to_overcome",
-      "impossible_love_as_tragedy",
-      "renunciation_as_defeat",
-      "phantom_double_as_psychological_pathology",
-      "beauty_as_shared_universal_language",
-      "love_as_progressive_construction",
-      "knowledge_precedes_recognition"
-    ],
-    "system_behavior": "il sistema produce un campo in cui il riconoscimento precede l'amore e l'impossibilità ne garantisce la permanenza; il diaframma fonda la distanza, il doppio fantasmatico orienta il desiderio, il compimento impossibile lo realizza nella separazione, la bellezza non condivisibile lo prolunga oltre il romanzo",
-    "field_sequence": [
-      "field-05 riconoscimento",
-      "field-01 diaframma",
-      "field-02 doppio fantasmatico",
-      "field-03 compimento impossibile",
-      "field-04 bellezza non condivisibile"
-    ],
-    "closure_type": "recognition_as_permanent_distance",
-    "compatibility": [
-      "NarrativeObject v4.1",
-      "NarrativeScene v4.1",
-      "NarrativeSilence v4.1",
-      "NarrativeTransition v4.1",
-      "NarrativeWeather v4.1",
-      "NarrativePrintLayer v4.1",
-      "NarrativeSystemGraph v4.1"
-    ]
+    "weather_count": 5,
+    "dominant_field": "weather-02",
+    "secondary_field": "weather-04",
+    "narrative_model": "cinque climi: superficie parigina, mondo fluttuante, sospensione intima, responsabilità amorosa, manifestazione finale nel Fujiyama",
+    "global_effect": "il romanzo non termina nel paesaggio ma nell'atmosfera etica che il paesaggio rende visibile",
+    "stability": "high_metastable",
+    "compatibility": "NarrativeObject v4.1 / NarrativeScene v4.1 / NarrativeTransition v4.1 / NarrativeSystemGraph v4.1"
   }
 }
