@@ -40,7 +40,8 @@
       "affects": {
         "transition-02": "la velocità prodotta dalla transizione rende necessaria la sosta: il campo non può restare a 120 km/h"
       },
-      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h.",
+      "textual_anchor_it": "Quanto sei lento 30 km/h […] Premi l'acceleratore! […] Ai tuoi ordini! […] 120 km/h",
+      "anchor_type": "elided_quote",
       "glossary_link": ["kokyu", "basho", "ma"]
     },
     {
@@ -56,7 +57,8 @@
       "affects": {
         "transition-03": "la sospensione dell'onsen prepara il campo del cibo: il corpo scaldato è pronto a ricevere il kaiseki"
       },
-      "textual_anchor_it": "Arrivati! Ho perso 10 anni di vita! Onsen Kanouya. Ci incontriamo in ofuro tra 30 minuti.",
+      "textual_anchor_it": "Arrivati! Ho perso 10 anni di vita! […] Onsen Kanouya […] Ci incontriamo in ofuro tra 30 minuti, ok?",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "basho", "mono no aware"]
     },
     {
@@ -72,7 +74,8 @@
       "affects": {
         "transition-04": "il kaiseki prolunga la sospensione fino alla conversazione sulla yonige: il campo del riposo genera il campo della fuga potenziale"
       },
-      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?!",
+      "textual_anchor_it": "Quanto cibo Che meraviglia! […] C'è pure il ramen?!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["omotenashi", "basho", "yūgen"]
     },
     {
@@ -88,7 +91,8 @@
       "affects": {
         "transition-05": "la yonige non attivata produce la transizione verso il sogno: se non si fugge, si sogna"
       },
-      "textual_anchor_it": "Peccato che durerà poco. Allora chiamerò una yonige.",
+      "textual_anchor_it": "Peccato che durerà poco. […] Allora chiamerò una \"Yonige-ya\"",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "mono no aware", "ichigo ichie"]
     },
     {
@@ -104,7 +108,8 @@
       "affects": {
         "transition-01": "la transizione finale chiude il campo aperto dalla velocità: il viaggio trova il suo ritmo naturale nel tandem condiviso"
       },
-      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. […] Abano, stiamo arrivando!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
     },
     {
@@ -124,7 +129,6 @@
       "affects": {
         "transition-07": "ogni salto tra vignette produce l'apparizione di ABOP e Esch3r come campo di osservazione"
       },
-      "textual_anchor_it": "24 tavole — transizione visiva come campo narrativo.",
       "glossary_link": ["ma", "basho", "yūgen"]
     },
     {
@@ -140,7 +144,8 @@
       "affects": {
         "transition-01": "la presenza dei testimoni retroagisce su tutte le transizioni: ogni movimento del campo relazionale viene osservato come dato"
       },
-      "textual_anchor_it": "No comment.",
+      "textual_anchor_it": "no comment ...",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     }
   ],
