@@ -34,7 +34,8 @@
       "affects": {
         "transition-02": "l'ossessione rende possibile la costruzione dell'inganno percettivo"
       },
-      "textual_anchor_it": "Cercavo quasi con morbosità delle informazioni su di lei. Mi ossessionava.",
+      "textual_anchor_it": "Cercavo quasi con morbosità delle informazioni su di lei. Mi ossessionava:",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "kokyu", "ma"]
     },
     {
@@ -54,7 +55,6 @@
       "affects": {
         "transition-03": "l'accumulo rende inevitabile il crollo"
       },
-      "textual_anchor_it": "Ogni elemento sembrava riportare a Francesca.",
       "glossary_link": ["ma", "yūgen"]
     },
     {
@@ -74,7 +74,6 @@
       "affects": {
         "transition-04": "il crollo permette di vedere il centro reale della storia"
       },
-      "textual_anchor_it": "Come avevo fatto a non capire niente?",
       "glossary_link": ["yūgen", "mono no aware", "ma"]
     },
     {
@@ -90,7 +89,8 @@
       "affects": {
         "transition-05": "la comprensione rende possibile la partenza"
       },
-      "textual_anchor_it": "Sappi che quella mia e di mia madre è stata una grande storia di amore.",
+      "textual_anchor_it": "“Sappi che quella mia e di mia madre è stata una grande storia di amore.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "yūgen", "basho"]
     },
     {
@@ -107,7 +107,8 @@
         "status": true,
         "description": "la vita di Giulia dopo la fuga resta fuori dal campo narrativo"
       },
-      "textual_anchor_it": "Salì sulla sua moto e si allontanò senza voltarsi.",
+      "textual_anchor_it": "Si allontanò con passo deciso e senza voltarsi indietro. Salì sulla sua moto.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "mono no aware", "yūgen"]
     }
   ],
