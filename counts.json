@@ -1,0 +1,39 @@
+{
+  "measured_on": "2026-11-26",
+  "generator": "build_counts.py",
+  "method": "Conteggio dei file presenti nel repository al momento della misura. Ogni cifra e ricalcolabile con lo script.",
+  "files_total": 935,
+  "json_files": 925,
+  "json_files_by_folder": {
+    "books": 355,
+    "sensorial": 108,
+    "glossario": 76,
+    "places": 69,
+    "series": 62,
+    "datasets": 48,
+    "conceptual": 43,
+    "events": 42,
+    "authors": 27,
+    "saggistica": 21,
+    "cities": 20,
+    "(root)": 12,
+    "organizations": 12,
+    "collaborations": 8,
+    "media": 7,
+    "maps": 6,
+    "itineraries": 3,
+    "objects": 3,
+    "rituals": 2,
+    "tests": 1
+  },
+  "catalog_entries": 37,
+  "book_folders": 39,
+  "glossary_files": 76,
+  "glossary_published": 38,
+  "json_files_declaring_anchor": 326,
+  "verified_anchor_files": {
+    "count": 9,
+    "last_checked": "2026-10-14",
+    "note": "Controllo manuale contro il testo del libro; non calcolato dallo script."
+  }
+}
