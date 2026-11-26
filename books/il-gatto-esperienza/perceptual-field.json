@@ -34,7 +34,8 @@
         "field-02": "la percezione selettiva genera il campo della formula: solo chi vede il gatto ha accesso al libro segreto e alla formula",
         "field-03": "la percezione selettiva fonda il segreto: ciò che solo Zana percepisce è automaticamente esclusivo"
       },
-      "textual_anchor_it": "Il Gatto Esperienza non si mostrava a nessuno. Agli occhi di tutti era invisibile."
+      "textual_anchor_it": "Il Gatto Esperienza vive nel bosco frondoso, non si fa mai vedere da nessuno. È un gatto invisibile.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-02",
@@ -54,7 +55,8 @@
       "affects": {
         "field-04": "l'operatività senza comprensione prepara la dissoluzione: se la formula non ha significato recuperabile, dimenticarla non è perdita"
       },
-      "textual_anchor_it": "Peccato non sapere cosa significasse. Era una formula potentissima."
+      "textual_anchor_it": "una formula potentissima. Ma ahimè! non so a cosa serve.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-03",
@@ -67,7 +69,8 @@
       "persistence_rule": "strutturale: il segreto non viene mai rivelato nel corso del libro; resta campo esclusivo fino all'ultima pagina",
       "dissolution_rule": "non dissolvibile: il segreto è la forma relazionale della percezione selettiva",
       "field_logic": "secret_as_natural_perceptual_exclusivity",
-      "textual_anchor_it": "Le sue amiche non sapevano del Gatto Esperienza. Era il segreto solo di Zana e del gatto."
+      "textual_anchor_it": "I miei amici non sanno che esiste, è un segreto tra me e il mio gattino.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-04",
@@ -88,7 +91,8 @@
         "field-01": "il campo dell'esperienza totale retroagisce sulla percezione selettiva: vedere il gatto era il primo grado di un accesso che si compie qui",
         "field-02": "il dimenticare la formula retroagisce sull'operatività senza comprensione: il dispositivo ha compiuto la propria funzione e si dissolve"
       },
-      "textual_anchor_it": "Nuotò, nuotò, nuotò tra mille colori. Dimenticò la formula."
+      "textual_anchor_it": "Nuoto, nuoto e ancora nuoto, immersa tra mille colori, dimenticando la formula magica.",
+      "anchor_type": "direct_quote"
     }
   ],
   "field_hierarchy": {
