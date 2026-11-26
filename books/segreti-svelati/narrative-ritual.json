@@ -40,6 +40,7 @@
         "ritual-03": "il giudizio produce il sacrificio materno come risposta estrema"
       },
       "textual_anchor_it": "I medici non volevano quasi credere che quei due meravigliosi occhi tristi appartenessero a un individuo così spietato.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "ma", "mono no aware"]
     },
     {
@@ -56,6 +57,7 @@
         "ritual-04": "solo l'osservazione costante rende possibile la confessione finale"
       },
       "textual_anchor_it": "La mia attenta osservazione divenne una vera e propria ossessione.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen"]
     },
     {
@@ -75,7 +77,8 @@
       "affects": {
         "ritual-04": "la confessione nasce dal bisogno di onorare il sacrificio"
       },
-      "textual_anchor_it": "Mia madre si è sacrificata pensando che fosse l'unico modo per rendere libere tutte due.",
+      "textual_anchor_it": "“Mia madre si è sacrificata, pensando che fosse l'unico modo per rendere libere tutte due.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "yūgen"]
     },
     {
@@ -96,6 +99,7 @@
         "ritual-05": "il trasferimento del segreto permette la partenza definitiva"
       },
       "textual_anchor_it": "Grazie per averci voluto bene.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     },
     {
@@ -109,6 +113,7 @@
       "kokyu": "il ritmo è quello dell'accelerazione irreversibile",
       "yūgen": "la libertà non consiste nell'essere assolti ma nel sottrarsi definitivamente al sistema che giudica",
       "textual_anchor_it": "Salì sulla sua moto.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "yūgen", "basho"]
     }
   ],
