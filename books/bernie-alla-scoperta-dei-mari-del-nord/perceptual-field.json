@@ -30,7 +30,8 @@
       "persistence_rule": "cumulativo: ogni tappa si aggiunge alle precedenti come strato di distanza percepita; il campo geografico totale è la somma di tutte le tappe attraversate",
       "dissolution_rule": "si dissolve nel ritorno: quando la slitta atterra a Gallipoli il campo geografico progressivo si chiude e lascia posto al campo domestico",
       "field_logic": "geographic_expansion_as_knowledge_accumulation",
-      "textual_anchor_it": "Finalmente sono arrivato in uno stato chiamato Norvegia, dopo alcuni giorni di volo."
+      "textual_anchor_it": "Finalmente sono arrivato in uno stato chiamato Norvegia, dopo alcuni giorni di volo.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-02",
@@ -46,7 +47,8 @@
       "affects": {
         "field-03": "la sequenza degli incontri animali prepara la ricezione dello spirito del Natale: chi ha già ricevuto conoscenza da cinque specie diverse è pronto a ricevere una definizione valoriale"
       },
-      "textual_anchor_it": "La signora foca mi racconta che c’è il Polo Nord all’estremo nord e all'estremo sud il Polo Sud."
+      "textual_anchor_it": "La signora foca mi racconta che c’è il Polo Nord all’estremo nord e all'estremo sud il Polo Sud.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-03",
@@ -66,7 +68,8 @@
       "affects": {
         "field-04": "la ricezione dello spirito del Natale rende il ritorno un atto di trasmissione: Bernie torna per raccontare ciò che ha ricevuto"
       },
-      "textual_anchor_it": "Dobbiamo abbracciare e baciare le persone che amiamo. Tutto questo però non dovrebbe succedere solo a Natale, ma in tutti i periodi dell’anno."
+      "textual_anchor_it": "Dobbiamo abbracciare e baciare le persone che amiamo. Tutto questo però non dovrebbe succedere solo a Natale, ma in tutti i periodi dell'anno.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-04",
@@ -86,7 +89,8 @@
       "affects": {
         "field-01": "il campo del racconto trasmesso retroagisce sul campo geografico: ogni tappa era raccolta di materiale narrativo; il viaggio era sempre orientato verso questo campo"
       },
-      "textual_anchor_it": "Ho tante cose da raccontarvi"
+      "textual_anchor_it": "Ho tante cose da raccontarvi",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-05",
@@ -102,7 +106,8 @@
       "affects": {
         "field-06": "il calore del villaggio prepara il calore della casa"
       },
-      "textual_anchor_it": "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate."
+      "textual_anchor_it": "Ovunque ci sono luci colorate, si sente un invitante profumo di biscotti e tante allegre risate.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-06",
@@ -118,7 +123,8 @@
       "affects": {
         "field-04": "l'abbraccio apre il racconto che il libro non contiene"
       },
-      "textual_anchor_it": "Corro immediatamente verso di loro e li abbraccio con affetto."
+      "textual_anchor_it": "Corro immediatamente verso di loro e li abbraccio con affetto.",
+      "anchor_type": "direct_quote"
     },
     {
       "id": "field-07",
@@ -131,7 +137,8 @@
       "persistence_rule": "il limite di mezzanotte resta attivo fino all'arrivo a casa",
       "dissolution_rule": "si dissolve con l'ingresso in casa",
       "field_logic": "deadline_as_homeward_pull",
-      "textual_anchor_it": "Il tempo è passato in un lampo e siamo già alla Vigilia di Natale."
+      "textual_anchor_it": "Il tempo è passato in un lampo e siamo già alla Vigilia di Natale.",
+      "anchor_type": "direct_quote"
     }
   ],
   "field_hierarchy": {
