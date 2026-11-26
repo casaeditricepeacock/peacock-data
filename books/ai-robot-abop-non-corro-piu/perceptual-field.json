@@ -38,7 +38,8 @@
         "field-02": "la velocità produce la necessità della sosta: il campo della tensione genera il campo della sospensione",
         "field-04": "la velocità è osservata da ABOP e Esch3r come campo relazionale: i testimoni registrano il campo senza commentarlo"
       },
-      "textual_anchor_it": "Quanto sei lento — 30 km/h. Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h."
+      "textual_anchor_it": "Quanto sei lento 30 km/h […] Premi l'acceleratore! […] Ai tuoi ordini! […] 120 km/h",
+      "anchor_type": "elided_quote"
     },
     {
       "id": "field-02",
@@ -59,7 +60,8 @@
         "field-03": "la sospensione dell'onsen prepara il campo del sogno: solo dopo la sosta Abano diventa pensabile come destinazione",
         "field-01": "l'onsen interrompe temporaneamente il campo della velocità: la sospensione è la risposta necessaria alla tensione"
       },
-      "textual_anchor_it": "Onsen Kanouya. Che paradiso! — Ci voleva proprio. Peccato che durerà poco."
+      "textual_anchor_it": "Onsen Kanouya […] Che paradiso! Ci voleva proprio. […] Peccato che durerà poco.",
+      "anchor_type": "elided_quote"
     },
     {
       "id": "field-03",
@@ -79,7 +81,8 @@
       "affects": {
         "field-01": "Abano trasforma il campo della velocità in campo del sogno condiviso: il viaggio non è più negoziazione ma movimento verso qualcosa di desiderato insieme"
       },
-      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Abano, stiamo arrivando!"
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. […] Abano, stiamo arrivando!",
+      "anchor_type": "elided_quote"
     },
     {
       "id": "field-04",
@@ -100,7 +103,8 @@
         "field-01": "i testimoni osservano il campo della velocità: ABOP registra la negoziazione relazionale come dato senza commentarlo",
         "field-02": "i testimoni entrano nell'onsen: ABOP nell'acqua calda — wow — come unica dichiarazione di campo"
       },
-      "textual_anchor_it": "AI ロボット — no comment. Esch3r — no comment."
+      "textual_anchor_it": "AI ロボット no comment ... Esch3r",
+      "anchor_type": "direct_quote"
     }
   ],
   "field_hierarchy": {
