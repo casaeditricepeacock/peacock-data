@@ -39,6 +39,7 @@
 "scene-03": "l'attenzione concentrata su Francesca rende invisibili le presenze periferiche"
 },
 "textual_anchor_it": "Sembrava una creatura bisognosa di protezione più che una carnefice.",
+"anchor_type": "direct_quote",
 "glossary_link": ["basho", "ma", "yūgen"]
 },
 {
@@ -52,7 +53,8 @@
 "affects": {
 "scene-04": "il conformismo sociale produce il bisogno del sacrificio"
 },
-"textual_anchor_it": "La donna, nel bene o nel male, verrà sempre criticata.",
+"textual_anchor_it": "la donna, nel bene o nel male, verrà sempre criticata",
+"anchor_type": "direct_quote",
 "glossary_link": ["basho", "mono no aware"]
 },
 {
@@ -70,7 +72,6 @@
 "affects": {
 "scene-04": "la ripetizione delle visite prepara retroattivamente la rivelazione del sacrificio"
 },
-"textual_anchor_it": "Giulia era sempre presente, eppure nessuno sembrava guardarla davvero.",
 "glossary_link": ["ma", "yūgen", "mono no aware"]
 },
 {
@@ -88,7 +89,8 @@
 "affects": {
 "scene-05": "il sacrificio impone la confessione e rende possibile la partenza"
 },
-"textual_anchor_it": "Francesca non avrebbe mai rivelato che la bestia fosse Giulia.",
+"textual_anchor_it": "Francesca non avrebbe mai rivelato che la bestia fosse Giulia",
+"anchor_type": "direct_quote",
 "glossary_link": ["mono no aware", "yūgen"]
 },
 {
@@ -102,7 +104,8 @@
 "affects": {
 "scene-01": "retroagisce sull'intero campo di osservazione iniziale"
 },
-"textual_anchor_it": "La moto sfrecciava lontano verso l'orizzonte infinito.",
+"textual_anchor_it": "la moto sfrecciava lontano verso l'orizzonte infinito, sparendo nel nulla.",
+"anchor_type": "direct_quote",
 "glossary_link": ["mono no aware", "yūgen", "basho"]
 }
 ],
