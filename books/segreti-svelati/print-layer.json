@@ -35,7 +35,6 @@
         "status": true,
         "description": "la traccia della mano che ha applicato la fotografia non può essere completamente registrata dal sistema editoriale"
       },
-      "textual_anchor_it": "Fotografia applicata a mano in copertina.",
       "glossary_link": ["basho", "kokyu", "ma"]
     },
     {
@@ -48,7 +47,6 @@
       "basho": "il formato compatto favorisce una lettura ravvicinata e continua",
       "kokyu": "il libro tende a essere letto in poche sessioni lunghe piuttosto che in consultazioni frammentate",
       "yūgen": "la facilità materiale della lettura contrasta con la crescente complessità morale della storia",
-      "textual_anchor_it": "Romanzo pop — formato agile di lettura.",
       "glossary_link": ["kokyu", "ma"]
     },
     {
@@ -61,7 +59,8 @@
       "basho": "la collana Romanzo pop costituisce un territorio editoriale riconoscibile",
       "kokyu": "la continuità grafica permette al lettore di riconoscere immediatamente l'appartenenza al sistema Peacock",
       "yūgen": "libri differenti condividono una stessa soglia materiale pur generando campi narrativi molto diversi",
-      "textual_anchor_it": "Collana Romanzo pop — amore, libertà e diversità.",
+      "textual_anchor_it": "collana: “romanzo pop” amore, libertà e diversità",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "mono no aware"]
     },
     {
@@ -78,7 +77,8 @@
         "status": true,
         "description": "una parte del mondo narrativo resta fuori dal volume e continua a esistere oltre il suo perimetro"
       },
-      "textual_anchor_it": "Edizione speciale tratta dal romanzo Vite nel buio.",
+      "textual_anchor_it": "edizione speciale tratto dal romanzo: “VITE NEL BUIO”",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen"]
     }
   ],
