@@ -1,0 +1,115 @@
+{
+  "generated_on": "2026-11-26",
+  "generator": "build_counts.py",
+  "note": "La storia git parte dal 26 maggio 2026, data della riorganizzazione del repository. I file aggiunti sono contati alla prima comparsa; le modifiche successive non sono elencate.",
+  "months": {
+    "2026-05": {
+      "commits": 73,
+      "json_files_added_by_folder": {
+        "books": 96,
+        "(root)": 28
+      }
+    },
+    "2026-06": {
+      "commits": 466,
+      "json_files_added_by_folder": {
+        "books": 223,
+        "sensorial": 46,
+        "places": 35,
+        "series": 34,
+        "conceptual": 23,
+        "events": 17,
+        "datasets": 13,
+        "maps": 6,
+        "cities": 6,
+        "media": 2,
+        "rituals": 1,
+        "(root)": 1
+      }
+    },
+    "2026-07": {
+      "commits": 102,
+      "json_files_added_by_folder": {
+        "glossario": 38,
+        "books": 18,
+        "sensorial": 6,
+        "conceptual": 2,
+        "cities": 2,
+        "collaborations": 1,
+        "series": 1,
+        "authors": 1,
+        "tests": 1
+      }
+    },
+    "2026-08": {
+      "commits": 127,
+      "json_files_added_by_folder": {
+        "saggistica": 21,
+        "books": 19,
+        "sensorial": 11,
+        "conceptual": 7,
+        "glossario": 7,
+        "authors": 4,
+        "collaborations": 3,
+        "itineraries": 3,
+        "events": 2,
+        "places": 1,
+        "datasets": 1,
+        "cities": 1
+      }
+    },
+    "2026-09": {
+      "commits": 179,
+      "json_files_added_by_folder": {
+        "books": 36,
+        "series": 15,
+        "sensorial": 9,
+        "events": 7,
+        "organizations": 6,
+        "datasets": 4,
+        "authors": 3,
+        "collaborations": 3,
+        "objects": 3,
+        "conceptual": 2,
+        "glossario": 2,
+        "cities": 2,
+        "(root)": 1,
+        "places": 1,
+        "rituals": 1
+      }
+    },
+    "2026-10": {
+      "commits": 414,
+      "json_files_added_by_folder": {
+        "sensorial": 21,
+        "glossario": 20,
+        "datasets": 16,
+        "authors": 16,
+        "events": 13,
+        "series": 12,
+        "books": 10,
+        "(root)": 10,
+        "media": 5,
+        "places": 4,
+        "organizations": 4,
+        "conceptual": 3,
+        "cities": 3,
+        "collaborations": 1
+      }
+    },
+    "2026-11": {
+      "commits": 272,
+      "json_files_added_by_folder": {
+        "places": 28,
+        "datasets": 15,
+        "sensorial": 12,
+        "glossario": 11,
+        "cities": 6,
+        "conceptual": 6,
+        "authors": 3,
+        "events": 3,
+        "organizations": 2
+      }
+    }
+  }
+}
