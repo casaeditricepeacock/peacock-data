@@ -955,6 +955,116 @@
       ],
       "source_graph": "https://github.com/casaeditricepeacock/peacock-mostre/tree/main/utsuwa/altino-venezia",
       "itinerary_graph_file": "https://github.com/casaeditricepeacock/peacock-mostre/blob/main/utsuwa/altino-venezia/via-annia-itinerary.json"
+    },
+    {
+      "special_id": "six-months-after-plpl",
+      "date": "2026-12-04",
+      "language": "en",
+      "url": "https://www.studiopeacock.net/frequenze-special-six-months-after/",
+      "title": "Frequenze Special Edition | Six months after: seven AIs read the Peacock graph",
+      "edition": "Special Edition",
+      "description": "Special edition published on the opening day of Più libri più liberi 2026 (Rome, La Nuvola, 4-8 December), six months after the presentation of the Peacock graph at the Salone Internazionale del Libro in Turin (14 May 2026). The edition reports measured growth of the repository between 31 May and 24 November 2026 and the result of one identical prompt given to seven AI systems. Two opened files, two worked from the repository root and the README, three stopped declaring they could not open the files. Every system that read the README reported the figures of 26 October (780 files, 38 titles, 50 glossary terms); none counted the repository.",
+      "target_node": {
+        "title": "The peacock-data repository as a whole",
+        "path": "README.md",
+        "note": "Special built on the graph itself, not on a single book."
+      },
+      "occasion": {
+        "event": "Più libri più liberi 2026, Roma, La Nuvola, 4-8 December 2026",
+        "note": "Peacock at stand L25 with the Associazione Editori Veneti."
+      },
+      "measured_growth": {
+        "baseline_date": "2026-05-31",
+        "baseline_note": "Repository history before 26 May 2026 was lost in a reorganisation; the baseline is 31 May 2026.",
+        "measurement_date": "2026-11-24",
+        "files_total": {
+          "baseline": 144,
+          "measured": 934
+        },
+        "books_folder_files": {
+          "baseline": 109,
+          "measured": 355
+        },
+        "sensorial_files": {
+          "baseline": 0,
+          "measured": 108
+        },
+        "glossary_files_measured": 76,
+        "places_measured": 69,
+        "series_files_measured": 62,
+        "datasets_measured": 47,
+        "events_measured": 42,
+        "authors_measured": 27,
+        "commits_since_2026_05_26": 1629,
+        "commits_by_month": {
+          "2026-05": 73,
+          "2026-06": 466,
+          "2026-07": 102,
+          "2026-08": 127,
+          "2026-09": 179,
+          "2026-10": 414,
+          "2026-11": 268
+        },
+        "json_files_2026_11_26": 925,
+        "json_files_declaring_anchor_2026_11_26": 326,
+        "files_with_verified_anchors": 9
+      },
+      "ai_panel": {
+        "format": "Same prompt to seven AI systems in new incognito chats on 26 November 2026. Rules: read the graph, work only from files actually opened, mark each statement READ or INFERRED, stop and say so if files cannot be opened, no invention, maximum 700 words. Five parts: what you found, what changed, the most important gap, one book and one path, what a publisher should do next.",
+        "session_date": "2026-11-26",
+        "readers": [
+          {
+            "provider": "xAI",
+            "model_name": "Grok",
+            "access": "files opened",
+            "note": "Full report with activity up to November 2026. Counts taken from the README (780 files, 38 titles, 50 glossary terms), dated 26 October. Chose Kyoto. Lo Sguardo del Drago. Named the gap: 9 files with verified anchors out of 780."
+          },
+          {
+            "provider": "Sakana AI",
+            "model_name": "Sakana AI",
+            "access": "files opened, listings truncated by the API",
+            "note": "Full report. Counted 23 of 38 catalog entries because the response was truncated, and confirmed 12 book folders. Described activity up to July 2026 only. Read only the start of frequenze.json (reported issues 0-4). Chose Kyoto. Lo Sguardo del Drago. Named the gap: verified anchors."
+          },
+          {
+            "provider": "DeepSeek",
+            "model_name": "DeepSeek",
+            "access": "repository root page only",
+            "note": "Report declared unverified. Used the README and the commit list on the root page. Described activity up to November 2026 from commit messages. Chose Kyoto. Lo Sguardo del Drago. Named the gap: the graph cannot be read from the root address."
+          },
+          {
+            "provider": "Perplexity",
+            "model_name": "Perplexity",
+            "access": "repository root and README",
+            "note": "Full report with the same README figures. Labelled READ several files it stated it could not open. Reported ten issues of Frequenze (n.0-n.9) from the README table. Chose Kyoto. Lo Sguardo del Drago. Named the gap: verified anchors."
+          },
+          {
+            "provider": "OpenAI",
+            "model_name": "ChatGPT",
+            "access": "repository root and README; manifest.json returned 503",
+            "note": "Stopped, no report. Declared the README figures as documented claims, not verified counts."
+          },
+          {
+            "provider": "Google",
+            "model_name": "Google AI Mode",
+            "access": "repository root and README; files reported as not indexed",
+            "note": "Stopped, no report. Asked for file contents to be pasted in the chat."
+          },
+          {
+            "provider": "Google",
+            "model_name": "Gemini",
+            "access": "none",
+            "note": "Stopped, no report. Declared the repository could not be opened."
+          }
+        ],
+        "converging_findings": [
+          "All four reports chose Kyoto. Lo Sguardo del Drago (Hélène Blignaut), first volume of I Gialli di Kyoto.",
+          "Three reports named verified textual anchors as the main gap.",
+          "All four reports used the README figures of 26 October: 780 files, 38 titles, 50 glossary terms.",
+          "Three systems stopped without inventing data."
+        ],
+        "verification": "Figures in the AI reports checked against the repository on 26 November 2026: 925 JSON files (934 files in total), 76 glossary files (38 published), 326 JSON files declaring an anchor. The README was updated after the panel closed."
+      },
+      "source_graph": "https://github.com/casaeditricepeacock/peacock-data"
     }
   ]
 }
