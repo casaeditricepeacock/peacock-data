@@ -38,7 +38,6 @@
       "affects": {
         "print-05": "il titolo anticipa il sistema speculare tra desiderio e rinuncia che la struttura del romanzo porta a compimento"
       },
-      "textual_anchor_it": "Forbidden Colours — Hélène Blignaut.",
       "glossary_link": ["yūgen", "ma"]
     },
     {
@@ -51,7 +50,8 @@
       "basho": "i numeri romani come campo visivo della progressione: I, II... XXX; la struttura classica come contenitore della modernità del campo interiore",
       "kokyu": "il ritmo dei numeri romani è quello della gravità: ogni capitolo ha il peso di una pietra; la numerazione non accelera né rallenta",
       "yūgen": "trenta capitoli come trenta configurazioni del diaframma: il numero non viene annunciato ma percepito come struttura portante",
-      "textual_anchor_it": "I — Parigi. XXX.",
+      "textual_anchor_it": "I Parigi",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "kokyu"]
     },
     {
@@ -68,6 +68,7 @@
         "print-05": "la prosa densa nasconde la struttura speculare invece di esibirla; la simmetria opera sotto la superficie"
       },
       "textual_anchor_it": "A volte, avvertiva una insolubile infelicità ed anche questo termine non era esatto.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["kokyu", "basho"]
     },
     {
@@ -80,7 +81,6 @@
       "basho": "il formato A5 come campo fisico del privato: abbastanza piccolo da tenere in una mano, abbastanza grande da contenere trenta capitoli densi",
       "kokyu": "il ritmo del formato A5 è quello della lettura personale: non si legge in pubblico come un libro da tavolo, si legge tenendolo in mano",
       "yūgen": "il formato A5 non viene dichiarato nel testo: agisce come campo fisico che il lettore percepisce nel momento in cui prende il libro in mano",
-      "textual_anchor_it": "Formato A5 — Casa Editrice Peacock, 2025.",
       "glossary_link": ["basho", "kokyu"]
     },
     {
@@ -102,7 +102,8 @@
         "print-01": "il titolo Forbidden Colours anticipa il sistema speculare tra desiderio e rinuncia",
         "print-03": "la prosa densa nasconde la geometria del romanzo invece di esibirla"
       },
-      "textual_anchor_it": "Restava fermo dietro una tenda. / La fronte incollata al vetro dell'oblò.",
+      "textual_anchor_it": "Restava fermo, gli occhi fissi ad una finestra del palazzo di fronte […] Philip, la fronte incollata al vetro dell'oblò, lo vide e finalmente pianse.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "yūgen", "kokyu"]
     }
   ],
