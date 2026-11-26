@@ -34,7 +34,8 @@
       "affects": {
         "transition-02": "l'azione produce immediatamente la scoperta: scendere porta alla xilografia"
       },
-      "textual_anchor_it": "Si decise: Se stupido devo essere, lo sarò fino in fondo.",
+      "textual_anchor_it": "Se stupido devo essere, lo sarò fino in fondo",
+      "anchor_type": "direct_quote",
       "glossary_link": ["kokyu", "basho"]
     },
     {
@@ -50,7 +51,8 @@
       "affects": {
         "transition-03": "il campo giapponese attivato dalla xilografia rende possibile il riconoscimento di Aiko"
       },
-      "textual_anchor_it": "Oh, mio Dio! Hiroshige. Ukiyo-e.",
+      "textual_anchor_it": "Oh, mio Dio! […] Hiroshige. Ukiyo-e",
+      "anchor_type": "elided_quote",
       "glossary_link": ["yūgen", "kokyu", "basho"]
     },
     {
@@ -67,7 +69,8 @@
       "affects": {
         "transition-04": "l'intimità rende possibile la comprensione delle conseguenze etiche dell'amore"
       },
-      "textual_anchor_it": "Ti fidi di me? — Totalmente.",
+      "textual_anchor_it": "Ti fidi di me?\" \"Totalmente\"",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "kokyu"]
     },
     {
@@ -88,6 +91,7 @@
         "transition-05": "trasforma la rinuncia da perdita a scelta etica"
       },
       "textual_anchor_it": "Non possiamo tradire.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "ma", "yūgen"]
     },
     {
@@ -108,6 +112,7 @@
         "transition-06": "la rinuncia deliberata rende possibile il pianto davanti al Fujiyama"
       },
       "textual_anchor_it": "Oggi sarà tutti i nostri oggi.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "yūgen", "ma"]
     },
     {
@@ -123,7 +128,8 @@
       "affects": {
         "transition-01": "la ripresa dopo il pianto retroagisce sulla discesa iniziale da Place Vendôme: tutta la vita di Philip è una successione di rese e riprese"
       },
-      "textual_anchor_it": "Si asciugò gli occhi in fretta, consegnò quell'immagine al suo domani e chinò la testa sugli appunti.",
+      "textual_anchor_it": "Così, si asciugò gli occhi in fretta, consegnò quell'immagine al suo domani e chinò la testa sugli appunti per creare nuove mode.",
+      "anchor_type": "direct_quote",
       "glossary_link": ["mono no aware", "kokyu", "ma"]
     }
   ],
