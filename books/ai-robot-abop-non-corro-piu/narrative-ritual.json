@@ -38,7 +38,8 @@
       "affects": {
         "ritual-02": "il rito dell'attivazione rende necessario il rito della sosta: il corpo ha bisogno di recuperare dopo la tensione"
       },
-      "textual_anchor_it": "Premi l'acceleratore! — Ai tuoi ordini! — 120 km/h. Qui ci ammazziamo!",
+      "textual_anchor_it": "Premi l'acceleratore! […] Ai tuoi ordini! […] 120 km/h […] Qui ci ammazziamo!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["kokyu", "basho", "ma"]
     },
     {
@@ -60,7 +61,8 @@
         "ritual-04": "il rito dell'onsen crea il campo in cui la yonige può essere proposta",
         "ritual-03": "l'ingresso nell'onsen prepara il campo per il rito del pasto kaiseki"
       },
-      "textual_anchor_it": "Ci incontriamo in ofuro tra 30 minuti, ok? — Va bene. Che paradiso! — Ci voleva proprio.",
+      "textual_anchor_it": "Ci incontriamo in ofuro tra 30 minuti, ok? Va bene. […] Che paradiso! […] Ci voleva proprio.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "wabi-sabi", "basho", "omotenashi"]
     },
     {
@@ -76,7 +78,8 @@
       "affects": {
         "ritual-02": "il rito del pasto segue il rito dell'onsen: il corpo che si è scaldato nell'acqua ora si nutre"
       },
-      "textual_anchor_it": "Quanto cibo — che meraviglia! C'è pure il ramen?! Questo me lo pappo subito!",
+      "textual_anchor_it": "Quanto cibo Che meraviglia! […] C'è pure il ramen?! Questo me lo pappo subito!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["omotenashi", "basho", "mono no aware"]
     },
     {
@@ -93,7 +96,8 @@
       "affects": {
         "ritual-05": "il rito della yonige non attuata prepara il rito della partenza: se non si fugge, si parte verso qualcosa"
       },
-      "textual_anchor_it": "Allora chiamerò una yonige — è una società di traslochi notturni, tu li chiami e ti fanno sparire. Evaporizzi nel nulla. Scapare non serve a nulla.",
+      "textual_anchor_it": "Allora chiamerò una \"Yonige-ya\" È una società di traslochi notturni, tu li chiami e ti fanno sparire. […] Evaporizzi nel nulla. […] Scappare non serve a nulla.",
+      "anchor_type": "elided_quote",
       "glossary_link": ["ma", "ichigo ichie", "mono no aware"]
     },
     {
@@ -109,7 +113,8 @@
       "affects": {
         "ritual-01": "il rito della partenza in tandem chiude il campo aperto dal rito dell'attivazione: il viaggio trova il suo ritmo naturale quando la cooperazione sostituisce il comando"
       },
-      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. Abano, stiamo arrivando!",
+      "textual_anchor_it": "Sogno assieme a te di andare ad Abano Terme. Grazie a te, Darma. […] Abano, stiamo arrivando!",
+      "anchor_type": "elided_quote",
       "glossary_link": ["mono no aware", "basho", "ichigo ichie", "kokyu"]
     },
     {
@@ -122,7 +127,8 @@
       "basho": "ABOP ed Esch3r osservano il campo senza intervenire: nella Fiat 500, nell'onsen, durante il viaggio e nel finale",
       "kokyu": "presenza continua senza partecipazione; il rito consiste nel restare nel campo senza modificarlo",
       "yūgen": "capire senza spiegare; vedere senza giudicare; il silenzio come forma di comprensione",
-      "textual_anchor_it": "No comment.",
+      "textual_anchor_it": "no comment ...",
+      "anchor_type": "direct_quote",
       "glossary_link": ["ma", "yūgen", "mono no aware"]
     }
   ],
