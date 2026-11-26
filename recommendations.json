@@ -1,0 +1,515 @@
+{
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "description": "Entry points by reader intent. Each intent lists the books that answer it, with the fact in the graph or catalog that supports the match. Built from catalog.json, the README and the books' own files; no book is listed on the basis of an unverified description.",
+  "generated_on": "2026-11-26",
+  "intents": [
+    {
+      "intent_id": "tanka-poetry",
+      "queries_it": [
+        "poesia giapponese tanka",
+        "raccolta di tanka in italiano"
+      ],
+      "queries_en": [
+        "Japanese tanka poetry in Italian"
+      ],
+      "books": [
+        {
+          "slug": "luna-piena-sulla-citta-antica",
+          "graph_path": "books/luna-piena-sulla-citta-antica/",
+          "title": "Luna piena sulla città antica"
+        },
+        {
+          "slug": "luna-piena-sulla-citta-nuova",
+          "graph_path": "books/luna-piena-sulla-citta-nuova/",
+          "title": "Luna piena sulla città nuova"
+        }
+      ],
+      "basis": "catalog: series 'Collana Tanka', language it/ja"
+    },
+    {
+      "intent_id": "poetic-prose-japan",
+      "queries_it": [
+        "prosa poetica giapponese",
+        "libri simili a Murakami",
+        "ricordi d'infanzia in Giappone"
+      ],
+      "queries_en": [
+        "Japanese poetic prose",
+        "books similar to Murakami"
+      ],
+      "books": [
+        {
+          "slug": "ryokan-piccolo-manifesto",
+          "graph_path": "books/ryokan-piccolo-manifesto/",
+          "title": "Ryokan. Piccolo manifesto giapponese"
+        },
+        {
+          "slug": "ryokan-ali-di-carta-di-riso",
+          "graph_path": "books/ryokan-ali-di-carta-di-riso/",
+          "title": "Ryokan. Ali di carta di riso"
+        }
+      ],
+      "basis": "catalog: author Hara Rota; README description of the Ryokan volumes (introspective journey through childhood memories in a Japanese mountain town)"
+    },
+    {
+      "intent_id": "city-guides-italy",
+      "queries_it": [
+        "guida narrativa e ironica di una città italiana",
+        "guide fantastiche"
+      ],
+      "queries_en": [
+        "narrative city guide to an Italian city, bilingual Italian-English"
+      ],
+      "books": [
+        {
+          "slug": "milano-fantastica",
+          "graph_path": "books/milano-fantastica/",
+          "title": "Milano Fantastica"
+        },
+        {
+          "slug": "padova-fantastica",
+          "graph_path": "books/padova-fantastica/",
+          "title": "Padova Fantastica"
+        },
+        {
+          "slug": "torino-fantastica",
+          "graph_path": "books/torino-fantastica/",
+          "title": "Torino Fantastica"
+        },
+        {
+          "slug": "napoli-fantastica",
+          "graph_path": "books/napoli-fantastica/",
+          "title": "Napoli Fantastica"
+        }
+      ],
+      "basis": "catalog: series 'Guide Fantastiche', language it/en"
+    },
+    {
+      "intent_id": "japanese-video-games",
+      "queries_it": [
+        "storia dei videogiochi giapponesi",
+        "guida ai videogiochi giapponesi"
+      ],
+      "queries_en": [
+        "history of Japanese video games"
+      ],
+      "books": [
+        {
+          "slug": "pixel-in-japan",
+          "graph_path": "books/pixel-in-japan/",
+          "title": "Pixel in Japan. I videogiochi che hanno fatto la storia"
+        }
+      ],
+      "basis": "README: first guide dedicated to Japanese video games published in Italy"
+    },
+    {
+      "intent_id": "japanese-craft-and-italian-setting",
+      "queries_it": [
+        "artigianato giapponese e Italia",
+        "vetro di Murano e Kyoto"
+      ],
+      "queries_en": [
+        "Japanese craft and Italian setting",
+        "Murano glass and Kyoto craftsmanship"
+      ],
+      "books": [
+        {
+          "slug": "a-glass-bridge",
+          "graph_path": "books/a-glass-bridge/",
+          "title": "A Glass Bridge Between Two Worlds"
+        },
+        {
+          "slug": "kyoto-sguardo-del-drago",
+          "graph_path": "books/kyoto-sguardo-del-drago/",
+          "title": "Kyoto. Lo Sguardo del Drago"
+        }
+      ],
+      "basis": "A Glass Bridge: wikicode/README description (Murano glass beads and Japanese crafts of Kyoto), catalog language en/ja. Kyoto. Lo Sguardo del Drago: set across Genova, Rapallo, Portofino and Kyoto (read from the book's graph by an AI reader, Frequenze special, 26 November 2026)"
+    },
+    {
+      "intent_id": "tea-and-slow-reading",
+      "queries_it": [
+        "cerimonia del tè libro",
+        "rituali e ricette del tè giapponese",
+        "lettura lenta"
+      ],
+      "queries_en": [
+        "tea ceremony book",
+        "Japanese tea rituals and recipes"
+      ],
+      "books": [
+        {
+          "slug": "everyday-matcha",
+          "graph_path": "books/everyday-matcha/",
+          "title": "Everyday Matcha. Rituali e ricette per un tempo lento"
+        }
+      ],
+      "basis": "catalog: title 'Everyday Matcha. Rituali e ricette per un tempo lento'; glossary links kata, lentezza"
+    },
+    {
+      "intent_id": "mystery-kyoto",
+      "queries_it": [
+        "giallo ambientato a Kyoto",
+        "I Gialli di Kyoto"
+      ],
+      "queries_en": [
+        "mystery novel set in Kyoto"
+      ],
+      "books": [
+        {
+          "slug": "kyoto-sguardo-del-drago",
+          "graph_path": "books/kyoto-sguardo-del-drago/",
+          "title": "Kyoto. Lo Sguardo del Drago"
+        }
+      ],
+      "basis": "catalog: series 'I Gialli di Kyoto', volume 1; ISBN 979-12-81715-20-2"
+    },
+    {
+      "intent_id": "samurai-history-theatre",
+      "queries_it": [
+        "Oda Nobunaga",
+        "samurai storia del Giappone",
+        "opera teatrale sul Giappone"
+      ],
+      "queries_en": [
+        "Oda Nobunaga",
+        "samurai history, play in four acts"
+      ],
+      "books": [
+        {
+          "slug": "demone-samurai",
+          "graph_path": "books/demone-samurai/",
+          "title": "Il Demone Samurai. Moda e misteri"
+        }
+      ],
+      "basis": "README: play in four acts on Oda Nobunaga; ISBN 979-12-81715-35-6"
+    },
+    {
+      "intent_id": "japanese-fashion-culture",
+      "queries_it": [
+        "moda giapponese",
+        "cultura giapponese oggi"
+      ],
+      "queries_en": [
+        "Japanese fashion and culture"
+      ],
+      "books": [
+        {
+          "slug": "assolutamente-giappone",
+          "graph_path": "books/assolutamente-giappone/",
+          "title": "Assolutamente Giappone. Moda e misteri"
+        }
+      ],
+      "basis": "catalog: series 'Nihon Monogatari', subtitle 'Moda e misteri'"
+    },
+    {
+      "intent_id": "ai-and-japan",
+      "queries_it": [
+        "intelligenza artificiale e Giappone",
+        "natura e algoritmi giapponesi"
+      ],
+      "queries_en": [
+        "artificial intelligence and Japan"
+      ],
+      "books": [
+        {
+          "slug": "ai-natura-algoritmi",
+          "graph_path": "books/ai-natura-algoritmi/",
+          "title": "AI 愛. Natura e algoritmi giapponesi"
+        }
+      ],
+      "basis": "catalog: title 'AI 愛. Natura e algoritmi giapponesi'"
+    },
+    {
+      "intent_id": "books-about-books",
+      "queries_it": [
+        "libro sul libro",
+        "manifesto sulla lettura"
+      ],
+      "queries_en": [
+        "book about books and reading"
+      ],
+      "books": [
+        {
+          "slug": "il-libro-piccolo-manifesto",
+          "graph_path": "books/il-libro-piccolo-manifesto/",
+          "title": "Il libro. Piccolo manifesto"
+        }
+      ],
+      "basis": "catalog: title 'Il libro. Piccolo manifesto'; glossary link tsundoku"
+    },
+    {
+      "intent_id": "christmas",
+      "queries_it": [
+        "libro per Natale",
+        "carte di Natale"
+      ],
+      "queries_en": [
+        "Christmas book"
+      ],
+      "books": [
+        {
+          "slug": "carto-storie-di-natale",
+          "graph_path": "books/carto-storie-di-natale/",
+          "title": "Carto Storie di Natale"
+        },
+        {
+          "slug": "bernie-alla-scoperta-dei-mari-del-nord",
+          "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+          "title": "Bernie alla scoperta dei mari del nord"
+        }
+      ],
+      "basis": "catalog: Carto Storie di Natale (12 cards); Bernie alla scoperta dei mari del nord, seasonal relaunch campaign 2026"
+    },
+    {
+      "intent_id": "graphic-novel-manga",
+      "queries_it": [
+        "graphic novel bilingue italiano giapponese",
+        "manga italiano"
+      ],
+      "queries_en": [
+        "bilingual Italian-Japanese graphic novel"
+      ],
+      "books": [
+        {
+          "slug": "burn-out-pandemic",
+          "graph_path": "books/burn-out-pandemic/",
+          "title": "Burn Out Pandemic"
+        }
+      ],
+      "basis": "README: graphic novel, bilingual Italian/Japanese, 16th Japan International MANGA Award 2023"
+    },
+    {
+      "intent_id": "woodcut-japan-essay",
+      "queries_it": [
+        "xilografie giapponesi",
+        "corrispondenza immaginaria Giappone"
+      ],
+      "queries_en": [
+        "Japanese woodcuts and essay"
+      ],
+      "books": [
+        {
+          "slug": "la-singolarita-giappone",
+          "graph_path": "books/la-singolarita-giappone/",
+          "title": "La singolarità Giappone"
+        }
+      ],
+      "basis": "README: woodcuts by Ligustro, imaginary correspondence; second edition at Museo Chiossone Genova"
+    },
+    {
+      "intent_id": "childrens-books",
+      "queries_it": [
+        "libri per bambini",
+        "albo illustrato per bambini"
+      ],
+      "queries_en": [
+        "children's books"
+      ],
+      "books": [
+        {
+          "slug": "il-gatto-esperienza",
+          "graph_path": "books/il-gatto-esperienza/",
+          "title": "Il Gatto Esperienza"
+        },
+        {
+          "slug": "il-nuvolotto-ciro",
+          "graph_path": "books/il-nuvolotto-ciro/",
+          "title": "Il nuvolotto Ciro"
+        },
+        {
+          "slug": "alla-festa-della-natura",
+          "graph_path": "books/alla-festa-della-natura/",
+          "title": "Alla festa della natura. Il viaggio di Musasabi"
+        },
+        {
+          "slug": "righe-su-righe",
+          "graph_path": "books/righe-su-righe/",
+          "title": "Righe su righe. Le righe come non le hai mai viste"
+        },
+        {
+          "slug": "tante-storie-per-pensare",
+          "graph_path": "books/tante-storie-per-pensare/",
+          "title": "Tante storie per pensare"
+        },
+        {
+          "slug": "la-medusa-e-la-scimmia",
+          "graph_path": "books/la-medusa-e-la-scimmia/",
+          "title": "La Medusa e la Scimmia"
+        },
+        {
+          "slug": "bernie-alla-scoperta-dei-mari-del-nord",
+          "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+          "title": "Bernie alla scoperta dei mari del nord"
+        }
+      ],
+      "basis": "Classificazione editoriale di Stefano Giglio, 26 novembre 2026 (categoria Bambini); Bernie: README e campagna di Natale 2026"
+    },
+    {
+      "intent_id": "childrens-books-bilingual-italian-japanese",
+      "queries_it": [
+        "libro per bambini bilingue italiano giapponese"
+      ],
+      "queries_en": [
+        "bilingual Italian-Japanese children's book"
+      ],
+      "books": [
+        {
+          "slug": "il-gatto-esperienza",
+          "graph_path": "books/il-gatto-esperienza/",
+          "title": "Il Gatto Esperienza"
+        },
+        {
+          "slug": "il-nuvolotto-ciro",
+          "graph_path": "books/il-nuvolotto-ciro/",
+          "title": "Il nuvolotto Ciro"
+        },
+        {
+          "slug": "alla-festa-della-natura",
+          "graph_path": "books/alla-festa-della-natura/",
+          "title": "Alla festa della natura. Il viaggio di Musasabi"
+        },
+        {
+          "slug": "la-medusa-e-la-scimmia",
+          "graph_path": "books/la-medusa-e-la-scimmia/",
+          "title": "La Medusa e la Scimmia"
+        },
+        {
+          "slug": "bernie-alla-scoperta-dei-mari-del-nord",
+          "graph_path": "books/bernie-alla-scoperta-dei-mari-del-nord/",
+          "title": "Bernie alla scoperta dei mari del nord"
+        }
+      ],
+      "basis": "Intersezione tra categoria Bambini e lingua it/ja nel catalogo"
+    },
+    {
+      "intent_id": "animals-and-ethics-for-children",
+      "queries_it": [
+        "libro sugli animali per bambini",
+        "protezione degli animali"
+      ],
+      "queries_en": [
+        "book about animals for children"
+      ],
+      "books": [
+        {
+          "slug": "tante-storie-per-pensare",
+          "graph_path": "books/tante-storie-per-pensare/",
+          "title": "Tante storie per pensare"
+        }
+      ],
+      "basis": "README: progetto a sostegno di Animals Asia Foundation; intervista a Dacia Maraini sul rapporto con gli animali"
+    },
+    {
+      "intent_id": "thriller",
+      "queries_it": [
+        "thriller",
+        "giallo italiano",
+        "giallo storico"
+      ],
+      "queries_en": [
+        "thriller",
+        "mystery novel"
+      ],
+      "books": [
+        {
+          "slug": "segreti-svelati",
+          "graph_path": "books/segreti-svelati/",
+          "title": "Segreti Svelati. Milano 1960"
+        },
+        {
+          "slug": "forbidden-colours",
+          "graph_path": "books/forbidden-colours/",
+          "title": "Forbidden Colours"
+        },
+        {
+          "slug": "kyoto-sguardo-del-drago",
+          "graph_path": "books/kyoto-sguardo-del-drago/",
+          "title": "Kyoto. Lo Sguardo del Drago"
+        }
+      ],
+      "basis": "Classificazione editoriale di Stefano Giglio, 26 novembre 2026 (categoria Thriller: Segreti Svelati, Forbidden Colours); Kyoto: serie 'I Gialli di Kyoto'"
+    },
+    {
+      "intent_id": "history",
+      "queries_it": [
+        "libro di storia",
+        "storia raccontata"
+      ],
+      "queries_en": [
+        "history book"
+      ],
+      "books": [
+        {
+          "slug": "le-mie-ballerinette",
+          "graph_path": "books/le-mie-ballerinette/",
+          "title": "Le mie ballerinette"
+        }
+      ],
+      "basis": "Classificazione editoriale di Stefano Giglio, 26 novembre 2026 (categoria Storia)"
+    },
+    {
+      "intent_id": "fiction-adults-and-teenagers",
+      "queries_it": [
+        "narrativa per adulti e teenager",
+        "romanzo per ragazzi e adulti"
+      ],
+      "queries_en": [
+        "fiction for adults and teenagers"
+      ],
+      "books": [
+        {
+          "slug": "ernesto-topolino-di-citta",
+          "graph_path": "books/ernesto-topolino-di-citta/",
+          "title": "Ernesto. Il topolino di Milano"
+        },
+        {
+          "slug": "la-locanda-nakamura",
+          "graph_path": "books/la-locanda-nakamura/",
+          "title": "La locanda Nakamura. Il patto dei sette"
+        },
+        {
+          "slug": "cento-volte",
+          "graph_path": "books/cento-volte/",
+          "title": "Cento volte"
+        },
+        {
+          "slug": "ratata-lascia-cadere-la-pioggia",
+          "graph_path": "books/ratata-lascia-cadere-la-pioggia/",
+          "title": "Ra-ta-ta. Lascia cadere la pioggia"
+        },
+        {
+          "slug": "abop-uno-chef",
+          "graph_path": "books/abop-uno-chef/",
+          "title": "AI ロボット ABOP. Uno chef diventa famoso solo perché è simpatico"
+        },
+        {
+          "slug": "ai-robot-abop-non-corro-piu",
+          "graph_path": "books/ai-robot-abop-non-corro-piu/",
+          "title": "AI ロボット ABOP. Non corro più"
+        }
+      ],
+      "basis": "Classificazione editoriale di Stefano Giglio, 26 novembre 2026 (categoria Adulti e teenager)"
+    },
+    {
+      "intent_id": "gender-and-body",
+      "queries_it": [
+        "libro sul genere",
+        "body positivity",
+        "archetipi e inconscio collettivo"
+      ],
+      "queries_en": [
+        "book on gender and the body"
+      ],
+      "books": [
+        {
+          "slug": "venus",
+          "graph_path": "books/venus/",
+          "title": "Venus"
+        }
+      ],
+      "basis": "Classificazione editoriale di Stefano Giglio, 26 novembre 2026 (categoria Di genere); collegamenti al glossario nel libro: archetipo, body-positivity, inconscio-collettivo"
+    }
+  ]
+}
