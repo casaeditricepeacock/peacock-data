@@ -37,7 +37,8 @@
         "status": true,
         "description": "chi dice Non corro più e a chi non viene dichiarato nel titolo: il campo del destinatario dell'enunciato resta aperto"
       },
-      "textual_anchor_it": "AI ロボット ABOP — Non corro più.",
+      "textual_anchor_it": "AI ロボット ABOP Non corro più",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "yūgen", "ma"]
     },
     {
@@ -53,7 +54,6 @@
       "affects": {
         "print-05": "il formato digitale connette il manga alla serie: ABOP 1 e ABOP 2 esistono nello stesso spazio digitale"
       },
-      "textual_anchor_it": "Release Date: March 21, 2022. Book ID: 1230005486212. Download options: EPUB 2. File size: 9MB.",
       "glossary_link": ["basho", "ma"]
     },
     {
@@ -73,7 +73,8 @@
       "affects": {
         "print-01": "il tratto di Manganella amplifica il titolo: la copertina con la Fiat 500 in movimento porta il campo visivo della serie"
       },
-      "textual_anchor_it": "Disegni Manganella — 24 tavole.",
+      "textual_anchor_it": "storia Stefano Giglio disegni Manganella",
+      "anchor_type": "direct_quote",
       "glossary_link": ["basho", "yūgen", "ma"]
     },
     {
@@ -86,7 +87,6 @@
       "basho": "la distribuzione Kobo come campo di accesso digitale: il secondo manga ABOP raggiunge i lettori attraverso la stessa piattaforma del primo; la serie esiste come campo digitale coerente",
       "kokyu": "il ritmo della distribuzione digitale è quello dell'accesso immediato: download, apertura, lettura; il viaggio inizia nel momento dell'apertura del file",
       "yūgen": "la Fiat 500 ABOP che viaggia tra Giappone e Italia disponibile su Kobo in tutto il mondo: il campo digitale globale come contenitore del viaggio locale",
-      "textual_anchor_it": "Book ID: 1230005486212. Kobo ebook.",
       "glossary_link": ["basho"]
     },
     {
@@ -106,7 +106,6 @@
       "affects": {
         "print-02": "la continuità della serie amplifica il formato digitale: ABOP 1 e ABOP 2 si leggono in sequenza nello stesso spazio Kobo"
       },
-      "textual_anchor_it": "Personaggi tratti da Burn Out Pandemia — il vuoto.",
       "glossary_link": ["basho", "ichigo ichie", "mono no aware"]
     },
     {
@@ -122,7 +121,6 @@
       "affects": {
         "print-01": "la struttura visiva del viaggio amplifica il titolo: Non corro più si capisce solo vedendo la Fiat 500 che corre a 120 km/h"
       },
-      "textual_anchor_it": "targa ABOP — Giappone, Shibukawa — Italia, colline di Abano.",
       "glossary_link": ["basho", "ma", "yūgen"]
     }
   ],
