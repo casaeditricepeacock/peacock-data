@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-11-26",
+  "generated_on": "2026-11-27",
   "generator": "build_counts.py",
   "note": "La storia git parte dal 26 maggio 2026, data della riorganizzazione del repository. I file aggiunti sono contati alla prima comparsa; le modifiche successive non sono elencate.",
   "months": {
@@ -98,7 +98,7 @@
       }
     },
     "2026-11": {
-      "commits": 275,
+      "commits": 324,
       "json_files_added_by_folder": {
         "places": 28,
         "datasets": 15,
@@ -106,9 +106,9 @@
         "glossario": 11,
         "cities": 6,
         "conceptual": 6,
+        "(root)": 3,
         "authors": 3,
         "events": 3,
-        "(root)": 2,
         "organizations": 2
       }
     }
