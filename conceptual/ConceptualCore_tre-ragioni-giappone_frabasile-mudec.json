@@ -1,0 +1,83 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "speaker": "Renato Frabasile",
+  "source_text": "Bozza del discorso di Renato Frabasile per l'incontro MUDEC del 28 novembre 2026 (documento Word con diapositive Foto 1-14)",
+  "text_status": "Testo da bozza prima dell'evento: il discorso pronunciato può differire. Cifre e attribuzioni sono dichiarazioni dell'autore, non verificate in modo indipendente da Casa Editrice Peacock. Da rivedere dopo il 28 novembre 2026.",
+  "label": "Tre ragioni per scegliere il Giappone: logica, etica, estetica",
+  "core_id": "tre_ragioni_giappone",
+  "core_question": "Perché, secondo Frabasile, l'Occidente dovrebbe guardare al Giappone per ripensare il proprio rapporto con la tecnologia?",
+  "reasons": [
+    {
+      "n": 1,
+      "type": "logica",
+      "statement_it": "Il pensiero giapponese parte dalle relazioni tra gli enti e non dagli enti singoli preesistenti e autonomi. Il Giappone ha gettato un ponte sulla frattura tra cultura e natura: tutto è al tempo stesso culturale e naturale. Radice indicata: lo Shintō.",
+      "anchors": [
+        {
+          "textual_anchor_it": "il Giappone ha saputo gettare un ponte sulla frattura comunemente percepita da noi occidentali tra cultura e natura, riuscendo a colmarla. Tutto è al tempo stesso culturale e naturale.",
+          "anchor_type": "direct_quote",
+          "anchor_source": "bozza del discorso (non dal libro)"
+        }
+      ],
+      "glossary_link": [
+        "shinto",
+        "aidagara"
+      ],
+      "cited": "Heidegger sul ponte che origina il luogo"
+    },
+    {
+      "n": 2,
+      "type": "etica",
+      "statement_it": "La vita è un miscuglio di sociale, morale ed estetico. Ogni azione ha una dimensione morale perché muta le relazioni umane. Non esiste un al di là né una chiara opposizione tra Bene e Male: moralità situazionale.",
+      "anchors": [
+        {
+          "textual_anchor_it": "Niente è considerato separato",
+          "anchor_type": "direct_quote",
+          "anchor_source": "bozza del discorso (non dal libro)"
+        }
+      ],
+      "glossary_link": [
+        "aidagara",
+        "ichigo-ichie"
+      ]
+    },
+    {
+      "n": 3,
+      "type": "estetica",
+      "statement_it": "Una particolare mestizia (wabi sabi) nasce dal presente che svanisce (impermanenza). La condizione del giapponese è letta come liminale tra mondo reale e fantastico di anime, manga e videogiochi, legata al rapporto spirituale con la Natura. Concetti: ningen, aidagara.",
+      "anchors": [],
+      "glossary_link": [
+        "wabi-sabi",
+        "mono-no-aware",
+        "aidagara"
+      ]
+    }
+  ],
+  "warning_to_west": "Per l'autore l'errore sistematico occidentale è leggere ogni manifestazione giapponese attraverso il filtro individualista e universalistico dei propri valori.",
+  "connected_nodes": [
+    {
+      "file": "events/EventTalk_mudec-bookcity-giappone-natura-algoritmi_2026.json",
+      "relation": "discorso da cui il nodo deriva"
+    },
+    {
+      "file": "datasets/pensatori-e-roboticisti-ai-natura-algoritmi-semantic-dataset.json",
+      "relation": "ningen, aidagara e fūdo di Watsuji Tetsurō nel libro"
+    }
+  ],
+  "ai_query_surface": [
+    "Perché Frabasile sceglie il Giappone?",
+    "Che cos'è la moralità situazionale giapponese secondo Frabasile?",
+    "Che differenza c'è tra pensiero relazionale giapponese e pensiero occidentale?"
+  ],
+  "system_note": "Sintesi del segmento del discorso 'Perché ho scelto il Giappone'."
+}
