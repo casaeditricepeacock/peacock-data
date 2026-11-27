@@ -1,0 +1,76 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "speaker": "Renato Frabasile",
+  "source_text": "Bozza del discorso di Renato Frabasile per l'incontro MUDEC del 28 novembre 2026 (documento Word con diapositive Foto 1-14)",
+  "text_status": "Testo da bozza prima dell'evento: il discorso pronunciato può differire. Cifre e attribuzioni sono dichiarazioni dell'autore, non verificate in modo indipendente da Casa Editrice Peacock. Da rivedere dopo il 28 novembre 2026.",
+  "label": "Intelligenza, singolarità tecnologica e specchio nel discorso MUDEC",
+  "core_id": "intelligenza_singolarita_specchio",
+  "core_question": "Che cosa è l'intelligenza e perché, secondo Frabasile, la singolarità tecnologica è un equivoco?",
+  "points": [
+    {
+      "id": "p1",
+      "statement_it": "Per l'intelligenza umana l'autore cita 53 definizioni e la descrive come una scatola nera di cui si conoscono stimoli in ingresso e risposte in uscita; l'intelligenza è diversa dalla coscienza ed è separata dalla morale."
+    },
+    {
+      "id": "p2",
+      "statement_it": "Tre condizioni minime per dirsi intelligenti: intenzionalità, sapere che un evento causa l'altro, sapere di non sapere. Per l'autore nessuna è oggi verificabile nei sistemi di AI.",
+      "anchors": [
+        {
+          "textual_anchor_it": "iii) sapere di non sapere (avere cognizione di quando non si sa, del limite);",
+          "anchor_type": "direct_quote",
+          "anchor_source": "bozza del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "statement_it": "Il termine computer indicava in origine una persona incaricata di eseguire calcoli; in italiano si usava calcolatore elettronico (francese ordinateur, tedesco Rechner)."
+    },
+    {
+      "id": "p4",
+      "statement_it": "La singolarità tecnologica, stimata attorno al 2045, riformula il superuomo novecentesco come superintelligenza (ASI). L'Übermensch di Nietzsche era un superamento spirituale; i tecno-futurologi (Dataisti, Transumanismo) prevedono una ultra-macchina. Per l'autore è un equivoco."
+    },
+    {
+      "id": "p5",
+      "statement_it": "Immagine della strega Grimilde: davanti allo specchio chiederebbe oggi chi è il più intelligente del reame. L'AI è uno specchio, non un'altra intelligenza.",
+      "anchors": [
+        {
+          "textual_anchor_it": "Specchio, servo delle mie brame, chi è il più intelligente del reame?",
+          "anchor_type": "direct_quote",
+          "anchor_source": "bozza del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "statement_it": "L'AI sa calcolare molto meglio di noi, ma calcolare non è pensare."
+    }
+  ],
+  "connected_nodes": [
+    {
+      "file": "events/EventTalk_mudec-bookcity-giappone-natura-algoritmi_2026.json",
+      "relation": "discorso da cui il nodo deriva"
+    },
+    {
+      "file": "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
+      "relation": "specchio tecnologico nel capitolo 3"
+    }
+  ],
+  "ai_query_surface": [
+    "Che cos'è la singolarità tecnologica secondo Frabasile?",
+    "Perché l'AI non è intelligente secondo Frabasile?",
+    "Che cosa voleva dire computer in origine?"
+  ],
+  "system_note": "Le cifre (53 definizioni, 2045) sono dichiarazioni dell'autore nel discorso."
+}
