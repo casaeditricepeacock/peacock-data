@@ -1,9 +1,9 @@
 {
-  "measured_on": "2026-11-26",
+  "measured_on": "2026-11-27",
   "generator": "build_counts.py",
   "method": "Conteggio dei file presenti nel repository al momento della misura. Ogni cifra e ricalcolabile con lo script.",
-  "files_total": 938,
-  "json_files": 928,
+  "files_total": 942,
+  "json_files": 932,
   "json_files_by_folder": {
     "books": 355,
     "sensorial": 108,
@@ -11,8 +11,8 @@
     "places": 69,
     "series": 62,
     "datasets": 48,
-    "conceptual": 43,
-    "events": 42,
+    "conceptual": 46,
+    "events": 43,
     "authors": 27,
     "saggistica": 21,
     "cities": 20,
@@ -30,7 +30,7 @@
   "book_folders": 39,
   "glossary_files": 76,
   "glossary_published": 38,
-  "json_files_declaring_anchor": 326,
+  "json_files_declaring_anchor": 330,
   "verified_anchor_files": {
     "count": 9,
     "last_checked": "2026-10-14",
