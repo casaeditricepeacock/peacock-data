@@ -1,0 +1,67 @@
+{
+  "type": "ConceptualCore",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "speaker": "Renato Frabasile",
+  "source_text": "Bozza del discorso di Renato Frabasile per l'incontro MUDEC del 28 novembre 2026 (documento Word con diapositive Foto 1-14)",
+  "text_status": "Testo da bozza prima dell'evento: il discorso pronunciato può differire. Cifre e attribuzioni sono dichiarazioni dell'autore, non verificate in modo indipendente da Casa Editrice Peacock. Da rivedere dopo il 28 novembre 2026.",
+  "label": "Algoritmi giapponesi: un'AI come estensione di una sensibilità",
+  "core_id": "algoritmi_giapponesi",
+  "core_question": "Che cosa intende Frabasile con algoritmi giapponesi?",
+  "definition": {
+    "statement_it": "Sequenze finite e ordinate di istruzioni che configurano un'AI non come protesi funzionale ma come estensione di una sensibilità integrata alla nostra coscienza, capace di vedere il mondo come rete di relazioni, con logiche quantistiche applicate a un mondo relazionale e olistico dove coesistono antico e contemporaneo, tecnologia avanzata e ritualità arcaica.",
+    "anchors": [
+      {
+        "textual_anchor_it": "Con “algoritmi giapponesi” si intendono qui",
+        "anchor_type": "direct_quote",
+        "anchor_source": "bozza del discorso (non dal libro)"
+      },
+      {
+        "textual_anchor_it": "sequenze finite e ordinate di istruzioni",
+        "anchor_type": "direct_quote",
+        "anchor_source": "bozza del discorso (non dal libro)"
+      }
+    ]
+  },
+  "quantum_premise": "Il calcolo quantistico usa qubit, sovrapposizione ed entanglement ed esplora molte soluzioni in parallelo. L'autore riporta la previsione di supremazia quantistica attribuita a IBM nel prossimo decennio. Il passaggio è dichiarato teorico-speculativo, non utilitaristico.",
+  "lexical_links": {
+    "ai_amore": "l'acronimo AI diventa la parola giapponese per amore nella traslitterazione latina",
+    "kokoro": "in giapponese kokoro significa insieme mente e cuore (spirito)"
+  },
+  "goal": "Un'AI ri-generativa, in grado di ri-connettere la razionalità con il sentimento. I futuri prompt, dice l'autore, non dovrebbero essere formulati da una tecno-crazia potenziata ma ispirati da un'estensione della sensibilità.",
+  "glossary_link": [
+    "ma",
+    "basho",
+    "wa-kei-sei-jaku"
+  ],
+  "connected_nodes": [
+    {
+      "file": "events/EventTalk_mudec-bookcity-giappone-natura-algoritmi_2026.json",
+      "relation": "discorso da cui il nodo deriva"
+    },
+    {
+      "file": "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "relation": "AI come amore"
+    },
+    {
+      "file": "saggistica/ConceptualThesis_ai-natura-algoritmi.json",
+      "relation": "tesi concettuali del libro"
+    }
+  ],
+  "ai_query_surface": [
+    "Che cosa sono gli algoritmi giapponesi di Frabasile?",
+    "Che cosa significa kokoro in AI 愛?",
+    "Perché AI significa amore in giapponese?",
+    "Che cos'è un'AI ri-generativa?"
+  ],
+  "system_note": "Nodo sull'ultimo segmento del discorso. La parte sul calcolo quantistico riferisce affermazioni dell'autore, non una trattazione tecnica."
+}
