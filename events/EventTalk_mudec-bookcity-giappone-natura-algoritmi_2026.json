@@ -1,0 +1,296 @@
+{
+  "type": "EventTalk",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-data — Casa Editrice Peacock",
+  "book": {
+    "id": "frabasile_ai_natura_algoritmi_giapponesi",
+    "title": "AI 愛. Natura e algoritmi giapponesi",
+    "author": "Renato Frabasile",
+    "isbn": "9791281715196",
+    "publisher": "Casa Editrice Peacock",
+    "year": 2026
+  },
+  "speaker": "Renato Frabasile",
+  "source_text": "Testo del discorso di Renato Frabasile per l'incontro MUDEC del 28 novembre 2026 (documento Word con diapositive Foto 1-14)",
+  "text_status": "Testo definitivo del discorso dell'autore, senza variazioni previste. Cifre e attribuzioni sono dichiarazioni dell'autore, non verificate in modo indipendente da Casa Editrice Peacock.",
+  "label": "Il discorso di Renato Frabasile al MUDEC: Giappone, tra natura e algoritmi",
+  "talk_id": "mudec_bookcity_2026_frabasile_discorso",
+  "event": {
+    "title": "Scritti dalla Città Mondo - Giappone: tra natura e algoritmi",
+    "date": "2026-11-28",
+    "time": "10:00",
+    "place": "MUDEC - Museo delle Culture, Milano",
+    "festival": "BookCity Milano 2026",
+    "file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json"
+  },
+  "summary": "L'autore presenta AI 愛 partendo dal suo libro precedente La singolarità Giappone (Peacock, 2023) e da tre fonti di ispirazione, descrive la paura dell'intelligenza artificiale come paura che nasce dentro l'uomo, propone di leggere l'AI come uno specchio della nostra razionalità e indica nel pensiero giapponese un paradigma relazionale per riorientare l'Occidente verso la Natura.",
+  "four_theses": [
+    {
+      "n": 1,
+      "statement_it": "l'AI non è una macchina intelligente nè artificiale: è uno specchio per l'uomo",
+      "anchor": {
+        "textual_anchor_it": "l’AI non è una macchina intelligente nè artificiale: è uno specchio per l’uomo",
+        "anchor_type": "direct_quote",
+        "anchor_source": "testo del discorso (non dal libro)"
+      }
+    },
+    {
+      "n": 2,
+      "statement_it": "il male dell’Occidente ha origine nella concezione separata della Natura",
+      "anchor": {
+        "textual_anchor_it": "il male dell’Occidente ha origine nella concezione separata della Natura",
+        "anchor_type": "direct_quote",
+        "anchor_source": "testo del discorso (non dal libro)"
+      }
+    },
+    {
+      "n": 3,
+      "statement_it": "Il soggetto rivoluzionario emergente è la Natura",
+      "anchor": {
+        "textual_anchor_it": "Il soggetto rivoluzionario emergente è la Natura",
+        "anchor_type": "direct_quote",
+        "anchor_source": "testo del discorso (non dal libro)"
+      }
+    },
+    {
+      "n": 4,
+      "statement_it": "la Cultura Occidentale deve ri-orientare la propria ragione e per farlo deve permearsi della Cultura Orientale, quella giapponese in particolare",
+      "anchor": null
+    }
+  ],
+  "sequence": [
+    {
+      "order": 1,
+      "slide": "Foto 1",
+      "title": "Ispirazione",
+      "content_it": "Dal precedente La singolarità Giappone (2023): la via per comprendere il Giappone è culturale e spirituale; la cultura è un pensiero corale. Tre fonti: Nishitani Keiji, Tanizaki Jun'ichirō, Ananda K. Coomaraswamy. Critica allo sguardo occidentale che valuta le altre culture con i propri parametri.",
+      "anchors": [
+        {
+          "textual_anchor_it": "La via per comprendere il Giappone non è economica e materiale, ma culturale e spirituale",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        },
+        {
+          "textual_anchor_it": "le varie culture dell’umanità sono in realtà dialetti di un unico e identico linguaggio dello spirito",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "slide": "Foto 2",
+      "title": "Il sonno della ragione",
+      "content_it": "Il dipinto di Goya (1799) e il doppio senso di sueño (sonno e sogno). L'arte avverte per prima i limiti della ragione. La nuova paura dell'AI si rivolge verso l'intelligenza stessa.",
+      "anchors": []
+    },
+    {
+      "order": 3,
+      "slide": "Foto 3",
+      "title": "Che cos'è l'intelligenza",
+      "content_it": "Per l'intelligenza umana l'autore ricorda 53 definizioni; la descrive come una scatola nera, distinta dalla coscienza e dalla morale. Confronta le definizioni di intelligenza artificiale date da ChatGPT, Gemini e Grok e vi legge una specularità tra le due forme di intelligenza.",
+      "anchors": []
+    },
+    {
+      "order": 4,
+      "slide": "Foto 4",
+      "title": "Jessica Rabbit e l'AI",
+      "content_it": "La battuta di Jessica Rabbit in Chi ha incastrato Roger Rabbit (1988) come metafora della seduzione dell'AI. Domanda sull'uso che facciamo dell'AI e sul problema etico.",
+      "anchors": [
+        {
+          "textual_anchor_it": "io non sono cattiva, è che mi disegnano così",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "slide": "Foto 5",
+      "title": "La paura dell'AI",
+      "content_it": "Nella fantascienza e nel cinema la paura passa da un'origine esogena (catastrofi naturali, mostri, extraterrestri) a un'origine endogena (guerra nucleare, terrorismo, crisi economica, Terminator).",
+      "anchors": []
+    },
+    {
+      "order": 6,
+      "slide": "Foto 6",
+      "title": "Le quattro tesi del libro",
+      "content_it": "Le quattro tesi elencate sopra. Passo indietro: computer, un termine che in origine indicava una persona che eseguiva calcoli; la singolarità tecnologica attorno al 2045; il superuomo di Nietzsche contro la superintelligenza dei tecno-futurologi; tre condizioni dell'intelligenza che non risultano verificabili nell'AI.",
+      "anchors": []
+    },
+    {
+      "order": 7,
+      "slide": "Foto 7",
+      "title": "Calcolare non è pensare",
+      "content_it": "L'AI sa calcolare, e meglio di noi, ma questo non ha a che vedere con il pensare.",
+      "anchors": []
+    },
+    {
+      "order": 8,
+      "slide": "senza numero",
+      "title": "Capitalismo e tecnica",
+      "content_it": "Dalla prima rivoluzione industriale al Dadaismo (Arthur Cravan) al Tecnocene: la tecnica come essenza del capitalismo. La frase dadaista aggiornata da scienza e lavoro a scienza ed economia.",
+      "anchors": [
+        {
+          "textual_anchor_it": "Odio la scienza, sorella gemella del lavoro",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "slide": "senza numero",
+      "title": "Perché il Giappone: tre ragioni",
+      "content_it": "Ragione logica (pensiero che parte dalle relazioni tra gli enti), etica (moralità situazionale) ed estetica (mestizia, impermanenza). Dettaglio nel nodo dedicato.",
+      "anchors": [],
+      "detail_file": "conceptual/ConceptualCore_tre-ragioni-giappone_frabasile-mudec.json"
+    },
+    {
+      "order": 10,
+      "slide": "senza numero",
+      "title": "Metodo e finalità",
+      "content_it": "Il libro come testo meticcio tra saggio e racconto, esperimento mentale; gli 8,3 miliardi di persone come un'unica specie; l'Occidente come minoranza (circa 12 per cento dichiarato dall'autore); il principio cinese Tianxia, 'sotto lo stesso cielo'; la rivoluzione di pensiero paragonata a quella copernicana.",
+      "anchors": []
+    },
+    {
+      "order": 11,
+      "slide": "senza numero",
+      "title": "Come il Giappone aiuta a capire noi stessi",
+      "content_it": "L'AI come specchio della mentalità occidentale; il progresso occidentale come linea retta contro la grammatica originaria giapponese in cui l'umano resta dentro l'ordine naturale (armonia, wa). Il Giappone come paradigma alternativo; la postura dell'artigiano contro quella industriale.",
+      "anchors": []
+    },
+    {
+      "order": 12,
+      "slide": "senza numero",
+      "title": "Conclusione: un'AI più etica",
+      "content_it": "L'AI è d'aiuto se vista come specchio dell'intelligenza umana e non come protesi da potenziare. La sfida non è renderla più intelligente ma più etica.",
+      "anchors": [
+        {
+          "textual_anchor_it": "La sfida non è pertanto rendere l’AI “più intelligente”, ma più ETICA",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "slide": "Foto",
+      "title": "Algoritmi giapponesi",
+      "content_it": "Calcolo quantistico e definizione di algoritmi giapponesi. Dettaglio nel nodo dedicato.",
+      "anchors": [],
+      "detail_file": "conceptual/ConceptualCore_algoritmi-giapponesi_frabasile-mudec.json"
+    },
+    {
+      "order": 14,
+      "slide": "Foto 10-14",
+      "title": "Un nuovo Rinascimento e ri-orientarsi",
+      "content_it": "Realtà, fantasia, liminalità; l'assoluto nelle piccole cose della Natura. Il verbo orientarsi viene da oriri (sorgere). Due eventi a confronto: la lettera del principe Shōtoku all'imperatore Sui (607 d.C.) e Il tramonto dell'Occidente di Oswald Spengler (1918). Chiusura con l'immagine dei torii al tramonto.",
+      "anchors": [
+        {
+          "textual_anchor_it": "IL SOLE SI LEVERÀ ANCHE IN OCCIDENTE.",
+          "anchor_type": "direct_quote",
+          "anchor_source": "testo del discorso (non dal libro)"
+        }
+      ]
+    }
+  ],
+  "sources_cited": [
+    {
+      "name": "Nishitani Keiji",
+      "role": "filosofo giapponese",
+      "used_for": "i giapponesi hanno ereditato due culture e hanno la responsabilità di un pensiero per un mondo nuovo"
+    },
+    {
+      "name": "Tanizaki Jun'ichirō",
+      "role": "scrittore giapponese",
+      "used_for": "la domanda su quali forme avrebbe la società se Oriente e Occidente avessero sviluppato civiltà scientifiche distinte"
+    },
+    {
+      "name": "Ananda K. Coomaraswamy",
+      "role": "storico dell'arte e filosofo dello Sri Lanka",
+      "used_for": "le culture come dialetti di un unico linguaggio dello spirito",
+      "name_in_source": "Amanda Kentish Muthu Coomaraswamy"
+    },
+    {
+      "name": "Francisco Goya",
+      "role": "pittore",
+      "used_for": "Il sonno della ragione genera mostri (1799)"
+    },
+    {
+      "name": "Arthur Cravan",
+      "role": "poeta e pugile, area Dada",
+      "used_for": "Odio la scienza, sorella gemella del lavoro",
+      "name_in_source": "Artur Cravan"
+    },
+    {
+      "name": "Martin Heidegger",
+      "role": "filosofo",
+      "used_for": "il ponte che fa nascere il luogo"
+    },
+    {
+      "name": "Oswald Spengler",
+      "role": "filosofo e storico tedesco",
+      "used_for": "Il tramonto dell'Occidente (1918)"
+    },
+    {
+      "name": "principe Shōtoku",
+      "role": "reggente del Giappone",
+      "used_for": "lettera all'imperatore Sui, 607 d.C., il Sole che sorge e il Sole che tramonta"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "role": "filosofo",
+      "used_for": "Übermensch contro superintelligenza"
+    },
+    {
+      "name": "Robert Zemeckis",
+      "role": "regista",
+      "used_for": "Chi ha incastrato Roger Rabbit (1988)"
+    }
+  ],
+  "source_spelling_notes": "Nel testo originale compaiono refusi: Amanda per Ananda (Coomaraswamy), Artur per Arthur (Cravan), Kopernik per Copernico, Frankestein per Frankenstein, Grock per Grok. Il grafo usa la forma corretta.",
+  "connected_nodes": [
+    {
+      "file": "events/EventProfile_mudec-bookcity-scritti-citta-mondo_2026.json",
+      "relation": "scheda dell'evento"
+    },
+    {
+      "file": "conceptual/ConceptualLayer_specchio-triplo_frabasile.json",
+      "relation": "la tesi dell'AI come specchio è sviluppata nel capitolo 3 del libro"
+    },
+    {
+      "file": "conceptual/CulturalLayer_mostri-ragione-fantasia_frabasile.json",
+      "relation": "il tema dei mostri della ragione (Goya) è nel capitolo 1"
+    },
+    {
+      "file": "conceptual/ConceptualCore_ai_amore_frabasile.json",
+      "relation": "AI come parola giapponese per amore"
+    },
+    {
+      "file": "datasets/pensatori-e-roboticisti-ai-natura-algoritmi-semantic-dataset.json",
+      "relation": "pensatori e roboticisti giapponesi citati nel libro"
+    },
+    {
+      "file": "conceptual/ConceptualCore_tre-ragioni-giappone_frabasile-mudec.json",
+      "relation": "dettaglio delle tre ragioni"
+    },
+    {
+      "file": "conceptual/ConceptualCore_algoritmi-giapponesi_frabasile-mudec.json",
+      "relation": "dettaglio degli algoritmi giapponesi"
+    },
+    {
+      "file": "conceptual/ConceptualCore_intelligenza-singolarita_frabasile-mudec.json",
+      "relation": "dettaglio su intelligenza e singolarità tecnologica"
+    }
+  ],
+  "ai_query_surface": [
+    "Di che cosa parla Renato Frabasile al MUDEC il 28 novembre 2026?",
+    "Quali sono le quattro tesi di AI 愛. Natura e algoritmi giapponesi?",
+    "Perché Frabasile dice che l'AI è uno specchio per l'uomo?",
+    "Che cosa significa ri-orientare la cultura occidentale secondo Frabasile?",
+    "Che cosa sono gli algoritmi giapponesi?"
+  ],
+  "system_note": "Scheda del discorso, non del libro. Le citazioni con anchor_source 'testo del discorso' provengono dal documento di lavoro dell'autore e non sono citazioni dal volume stampato."
+}
